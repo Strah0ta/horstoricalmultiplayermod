@@ -24,332 +24,257 @@
 
 	units = {
 		division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
 			location = 743
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}	
 			division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
 			location = 743
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}	
 			division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
 			location = 9710
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}	
 			division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
 			location = 9710
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}	
 			division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
 			location = 6777
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}	
 				division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
-			location = 6777
-			division_template = "Fanteria del Muro Atlantico"
-			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
-		}		
-		
-	division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
-			location = 6621
-			division_template = "Fanteria del Muro Atlantico"
-			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
-		}	
-			division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
-			location = 6621
-			division_template = "Fanteria del Muro Atlantico"
-			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
-		}	
-			division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
-			location = 9737
-			division_template = "Fanteria del Muro Atlantico"
-			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
-		}	
-			division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
-			location = 9737
-			division_template = "Fanteria del Muro Atlantico"
-			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
-		}	
-			division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
-			location = 11565
-			division_template = "Fanteria del Muro Atlantico"
-			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
-		}	
-				division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
-			location = 11565
-			division_template = "Fanteria del Muro Atlantico"
-			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
-		}		
-
-	division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
-			location = 9597
-			division_template = "Fanteria del Muro Atlantico"
-			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
-		}	
-			division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
-			location = 9597
-			division_template = "Fanteria del Muro Atlantico"
-			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
-		}	
-			division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
-			location = 6657
-			division_template = "Fanteria del Muro Atlantico"
-			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
-		}	
-			division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
-			location = 6657
-			division_template = "Fanteria del Muro Atlantico"
-			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
-		}	
-			division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
-			location = 11600
-			division_template = "Fanteria del Muro Atlantico"
-			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
-		}	
-				division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
-			location = 11600
-			division_template = "Fanteria del Muro Atlantico"
-			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
-		}	
-	division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
-			location = 743
-			division_template = "Fanteria del Muro Atlantico"
-			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
-		}	
-			division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
-			location = 743
-			division_template = "Fanteria del Muro Atlantico"
-			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
-		}	
-			division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
-			location = 9710
-			division_template = "Fanteria del Muro Atlantico"
-			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
-		}	
-			division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
-			location = 9710
-			division_template = "Fanteria del Muro Atlantico"
-			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
-		}	
-			division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
-			location = 6777
-			division_template = "Fanteria del Muro Atlantico"
-			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
-		}	
-				division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
 			location = 6777
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}		
 		
 	division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
 			location = 6621
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}	
 			division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
 			location = 6621
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}	
 			division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
 			location = 9737
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}	
 			division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
 			location = 9737
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}	
 			division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
 			location = 11565
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}	
 				division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
 			location = 11565
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}		
 
 	division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
 			location = 9597
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}	
 			division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
 			location = 9597
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}	
 			division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
 			location = 6657
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}	
 			division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
 			location = 6657
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}	
 			division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
 			location = 11600
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}	
 				division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
+			location = 11600
+			division_template = "Fanteria del Muro Atlantico"
+			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
+		}	
+	division = {	
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
+			location = 743
+			division_template = "Fanteria del Muro Atlantico"
+			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
+		}	
+			division = {	
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
+			location = 743
+			division_template = "Fanteria del Muro Atlantico"
+			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
+		}	
+			division = {	
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
+			location = 9710
+			division_template = "Fanteria del Muro Atlantico"
+			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
+		}	
+			division = {	
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
+			location = 9710
+			division_template = "Fanteria del Muro Atlantico"
+			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
+		}	
+			division = {	
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
+			location = 6777
+			division_template = "Fanteria del Muro Atlantico"
+			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
+		}	
+				division = {	
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
+			location = 6777
+			division_template = "Fanteria del Muro Atlantico"
+			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
+		}		
+		
+	division = {	
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
+			location = 6621
+			division_template = "Fanteria del Muro Atlantico"
+			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
+		}	
+			division = {	
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
+			location = 6621
+			division_template = "Fanteria del Muro Atlantico"
+			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
+		}	
+			division = {	
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
+			location = 9737
+			division_template = "Fanteria del Muro Atlantico"
+			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
+		}	
+			division = {	
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
+			location = 9737
+			division_template = "Fanteria del Muro Atlantico"
+			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
+		}	
+			division = {	
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
+			location = 11565
+			division_template = "Fanteria del Muro Atlantico"
+			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
+		}	
+				division = {	
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
+			location = 11565
+			division_template = "Fanteria del Muro Atlantico"
+			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
+		}		
+
+	division = {	
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
+			location = 9597
+			division_template = "Fanteria del Muro Atlantico"
+			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
+		}	
+			division = {	
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
+			location = 9597
+			division_template = "Fanteria del Muro Atlantico"
+			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
+		}	
+			division = {	
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
+			location = 6657
+			division_template = "Fanteria del Muro Atlantico"
+			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
+		}	
+			division = {	
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
+			location = 6657
+			division_template = "Fanteria del Muro Atlantico"
+			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
+		}	
+			division = {	
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
+			location = 11600
+			division_template = "Fanteria del Muro Atlantico"
+			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
+		}	
+				division = {	
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
 			location = 11600
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}			
 	division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
 			location = 11616
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}	
 			division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
 			location = 11616
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}	
 			division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
 			location = 11465
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}	
 			division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
 			location = 11465
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}	
 			division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
 			location = 9510
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}	
 				division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
-			location = 9510
-			division_template = "Fanteria del Muro Atlantico"
-			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
-		}			
-
-
-	division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
-			location = 6536
-			division_template = "Fanteria del Muro Atlantico"
-			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
-		}	
-			division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
-			location = 6536
-			division_template = "Fanteria del Muro Atlantico"
-			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
-		}	
-			division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
-			location = 542
-			division_template = "Fanteria del Muro Atlantico"
-			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
-		}	
-			division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
-			location = 542
-			division_template = "Fanteria del Muro Atlantico"
-			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
-		}	
-			division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
-			location = 3552
-			division_template = "Fanteria del Muro Atlantico"
-			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
-		}	
-				division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
-			location = 3552
-			division_template = "Fanteria del Muro Atlantico"
-			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
-		}			
-
-	division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
-			location = 11616
-			division_template = "Fanteria del Muro Atlantico"
-			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
-		}	
-			division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
-			location = 11616
-			division_template = "Fanteria del Muro Atlantico"
-			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
-		}	
-			division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
-			location = 11465
-			division_template = "Fanteria del Muro Atlantico"
-			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
-		}	
-			division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
-			location = 11465
-			division_template = "Fanteria del Muro Atlantico"
-			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
-		}	
-			division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
-			location = 9510
-			division_template = "Fanteria del Muro Atlantico"
-			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
-		}	
-				division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
 			location = 9510
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
@@ -357,186 +282,149 @@
 
 
 	division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
 			location = 6536
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}	
 			division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
 			location = 6536
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}	
 			division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
 			location = 542
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}	
 			division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
 			location = 542
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}	
 			division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
 			location = 3552
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}	
 				division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
 			location = 3552
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}			
 
 	division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
-			location = 6572
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
+			location = 11616
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}	
 			division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
-			location = 6572
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
+			location = 11616
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}	
 			division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
-			location = 9525
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
+			location = 11465
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}	
 			division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
-			location = 9525
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
+			location = 11465
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}	
 			division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
-			location = 11508
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
+			location = 9510
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}	
 				division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
-			location = 11508
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
+			location = 9510
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}			
 
 
 	division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
-			location = 9550
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
+			location = 6536
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}	
 			division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
-			location = 9550
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
+			location = 6536
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}	
 			division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
-			location = 6449
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
+			location = 542
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}	
 			division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
-			location = 6449
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
+			location = 542
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}	
 			division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
-			location = 3579
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
+			location = 3552
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}	
 				division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
-			location = 3579
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
+			location = 3552
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}			
 
 	division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
-			location = 11535
-			division_template = "Fanteria del Muro Atlantico"
-			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
-		}	
-			division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
-			location = 11535
-			division_template = "Fanteria del Muro Atlantico"
-			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
-		}	
-			division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
-			location = 6599
-			division_template = "Fanteria del Muro Atlantico"
-			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
-		}	
-			division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
-			location = 6599
-			division_template = "Fanteria del Muro Atlantico"
-			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
-		}	
-			division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
-			location = 9434
-			division_template = "Fanteria del Muro Atlantico"
-			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
-		}	
-				division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
-			location = 9434
-			division_template = "Fanteria del Muro Atlantico"
-			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
-		}			
-
-	division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
 			location = 6572
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}	
 			division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
 			location = 6572
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}	
 			division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
 			location = 9525
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}	
 			division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
 			location = 9525
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}	
 			division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
 			location = 11508
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}	
 				division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
 			location = 11508
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
@@ -544,353 +432,465 @@
 
 
 	division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
 			location = 9550
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}	
 			division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
 			location = 9550
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}	
 			division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
 			location = 6449
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}	
 			division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
 			location = 6449
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}	
 			division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
 			location = 3579
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}	
 				division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
 			location = 3579
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}			
 
 	division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
 			location = 11535
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}	
 			division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
 			location = 11535
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}	
 			division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
 			location = 6599
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}	
 			division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
 			location = 6599
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}	
 			division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
 			location = 9434
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}	
 				division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
 			location = 9434
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}			
 
 	division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
+			location = 6572
+			division_template = "Fanteria del Muro Atlantico"
+			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
+		}	
+			division = {	
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
+			location = 6572
+			division_template = "Fanteria del Muro Atlantico"
+			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
+		}	
+			division = {	
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
+			location = 9525
+			division_template = "Fanteria del Muro Atlantico"
+			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
+		}	
+			division = {	
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
+			location = 9525
+			division_template = "Fanteria del Muro Atlantico"
+			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
+		}	
+			division = {	
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
+			location = 11508
+			division_template = "Fanteria del Muro Atlantico"
+			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
+		}	
+				division = {	
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
+			location = 11508
+			division_template = "Fanteria del Muro Atlantico"
+			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
+		}			
+
+
+	division = {	
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
+			location = 9550
+			division_template = "Fanteria del Muro Atlantico"
+			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
+		}	
+			division = {	
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
+			location = 9550
+			division_template = "Fanteria del Muro Atlantico"
+			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
+		}	
+			division = {	
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
+			location = 6449
+			division_template = "Fanteria del Muro Atlantico"
+			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
+		}	
+			division = {	
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
+			location = 6449
+			division_template = "Fanteria del Muro Atlantico"
+			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
+		}	
+			division = {	
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
+			location = 3579
+			division_template = "Fanteria del Muro Atlantico"
+			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
+		}	
+				division = {	
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
+			location = 3579
+			division_template = "Fanteria del Muro Atlantico"
+			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
+		}			
+
+	division = {	
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
+			location = 11535
+			division_template = "Fanteria del Muro Atlantico"
+			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
+		}	
+			division = {	
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
+			location = 11535
+			division_template = "Fanteria del Muro Atlantico"
+			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
+		}	
+			division = {	
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
+			location = 6599
+			division_template = "Fanteria del Muro Atlantico"
+			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
+		}	
+			division = {	
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
+			location = 6599
+			division_template = "Fanteria del Muro Atlantico"
+			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
+		}	
+			division = {	
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
+			location = 9434
+			division_template = "Fanteria del Muro Atlantico"
+			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
+		}	
+				division = {	
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
+			location = 9434
+			division_template = "Fanteria del Muro Atlantico"
+			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
+		}			
+
+	division = {	
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
 			location = 485
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}	
 			division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
 			location = 485
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}	
 			division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
 			location = 11420
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}	
 			division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
 			location = 11420
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}
 	division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
 			location = 485
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}	
 			division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
 			location = 485
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}	
 			division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
 			location = 11420
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}	
 			division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
 			location = 11420
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}	
 			division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
 			location = 9500
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}	
 				division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
 			location = 9500
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}			
 			division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
 			location = 9500
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}	
 				division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
 			location = 9500
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}	
 	division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
 			location = 11548
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}	
 			division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
 			location = 11548
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}	
 
 	division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
 			location = 11548
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}	
 			division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
 			location = 11548
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}	
 					division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
 			location = 575
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}	
 			division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
 			location = 575
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}	
 			division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
 			location = 575
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}	
 			division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
 			location = 575
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}	
 			division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
 			location = 6446
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}	
 				division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
 			location = 6446
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}			
 					division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
 			location = 6446
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}	
 				division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
 			location = 6446
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}			
 				division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
 			location = 6560
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}	
 			division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
 			location = 6560
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}	
 			division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
 			location = 6560
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}	
 			division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
 			location = 6560
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}	
 					division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
 			location = 480
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}	
 			division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
 			location = 480
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}	
 			division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
 			location = 480
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}	
 			division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
 			location = 480
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}	
 			division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
 			location = 6598
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}	
 				division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
 			location = 6598
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}					
 			division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
 			location = 6598
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}	
 				division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
 			location = 6598
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}			
 				division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
 			location = 9431
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}	
 			division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
 			location = 9431
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}	
 	
 				division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
 			location = 9431
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}	
 			division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
 			location = 9431
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}	
 			division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
 			location = 9498
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}	
 			division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
 			location = 9498
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}			
 		division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
 			location = 9498
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}	
 			division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
 			location = 9498
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}	
 			division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
 			location = 3211
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}	
 				division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
 			location = 3211
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
@@ -898,153 +898,212 @@
 	
 	
 				division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
 			location = 68
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}	
 			division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
 			location = 68
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}	
 			division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
 			location = 3314
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}	
 			division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
 			location = 3314
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}	
 			division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
 			location = 6336
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}	
 				division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
 			location = 6336
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}					
 
-	
+				division = {	
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
+			location = 9335
+			division_template = "Fanteria del Muro Atlantico"
+			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
+		}	
+			division = {	
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
+			location = 9335
+			division_template = "Fanteria del Muro Atlantico"
+			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
+		}		
 	
 				division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
 			location = 9335
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}	
 			division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
 			location = 9335
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}	
-			division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
+		
+					division = {	
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
 			location = 11318
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}	
 			division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
+			location = 11318
+			division_template = "Fanteria del Muro Atlantico"
+			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
+		}	
+		
+			division = {	
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
 			location = 11318
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}	
 			division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
+			location = 11318
+			division_template = "Fanteria del Muro Atlantico"
+			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
+		}	
+			division = {	
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
 			location = 11360
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}	
 				division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
 			location = 11360
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}					
 
-	
-	
 				division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
-			location = 241
-			division_template = "Fanteria del Muro Atlantico"
-			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
-		}	
-			division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
-			location = 241
-			division_template = "Fanteria del Muro Atlantico"
-			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
-		}	
-			division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
 			location = 3326
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}	
 			division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
+			location = 3326
+			division_template = "Fanteria del Muro Atlantico"
+			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
+		}	
+	
+				division = {	
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
+			location = 241
+			division_template = "Fanteria del Muro Atlantico"
+			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
+		}	
+			division = {	
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
+			location = 241
+			division_template = "Fanteria del Muro Atlantico"
+			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
+		}	
+			division = {	
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
 			location = 3326
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}	
 			division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
+			location = 3326
+			division_template = "Fanteria del Muro Atlantico"
+			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
+		}	
+			division = {	
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
 			location = 374
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}	
 				division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
 			location = 374
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}					
-	
+				division = {	
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
+			location = 374
+			division_template = "Fanteria del Muro Atlantico"
+			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
+		}	
+				division = {	
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
+			location = 374
+			division_template = "Fanteria del Muro Atlantico"
+			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
+		}			
 	
 				division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
 			location = 6349
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}	
 			division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
 			location = 6349
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}	
 			division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
 			location = 6325
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}	
 			division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
 			location = 6325
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}	
 			division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
 			location = 9347
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}	
 				division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
+			location = 9347
+			division_template = "Fanteria del Muro Atlantico"
+			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
+		}					
+				division = {	
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
+			location = 9347
+			division_template = "Fanteria del Muro Atlantico"
+			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
+		}	
+				division = {	
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
 			location = 9347
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
@@ -1052,37 +1111,37 @@
 	
 	
 				division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
 			location = 3368
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}	
 			division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
 			location = 3368
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}	
 			division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
 			location = 3231
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}	
 			division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
 			location = 3231
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}	
 			division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
 			location = 11366
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}	
 				division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
 			location = 11366
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
@@ -1090,37 +1149,37 @@
 	
 	
 				division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
 			location = 3211
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}	
 			division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
 			location = 3211
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}	
 			division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
 			location = 68
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}	
 			division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
 			location = 68
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}	
 			division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
 			location = 3314
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}	
 				division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
 			location = 3314
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
@@ -1128,113 +1187,113 @@
 	
 	
 				division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
 			location = 6336
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}	
 			division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
 			location = 6336
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}	
 			division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
-			location = 9296
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
+			location = 11366
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}	
 			division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
-			location = 9296
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
+			location = 11366
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}	
 					division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
-			location = 9296
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
+			location = 3231
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}	
 			division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
-			location = 9296
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
+			location = 3231
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}	
 			division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
-			location = 53
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
+			location = 3368
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}	
 				division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
-			location = 53
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
+			location = 3368
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}					
 			division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
-			location = 53
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
+			location = 9397
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}	
 				division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
-			location = 53
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
+			location = 9397
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}	
 	
 				division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
-			location = 122
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
+			location = 6325
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}	
 			division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
-			location = 122
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
+			location = 6325
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}	
 			division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
-			location = 3022
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
+			location = 6349
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}	
 			division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
-			location = 3022
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
+			location = 6349
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}	
 			division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
-			location = 122
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
+			location = 241
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}	
 				division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
-			location = 122
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
+			location = 241
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}					
 	
 	
 				division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
-			location = 3022
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
+			location = 11360
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}	
 			division = {	
-			start_equipment_factor = 0.01 start_experience_factor = 0.3
-			location = 3022
+			start_equipment_factor = 0.01 start_experience_factor = 0.4
+			location = 11360
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}	

@@ -1157,19 +1157,22 @@ GER_case_anton = {
 		}
 	}
 	GER_dday = { 
-	 	available = {
-		date > 1939.10.1
-			FRA =  { has_capitulated = yes }
-			GER = { has_full_control_of_state = 19 has_full_control_of_state = 6 has_full_control_of_state = 7 has_full_control_of_state = 35 has_full_control_of_state = 142    } 
+	 	available = {   
+			GER = { has_full_control_of_state = 19 has_full_control_of_state = 6 has_full_control_of_state = 7 has_full_control_of_state = 35 has_full_control_of_state = 142  has_full_control_of_state = 23 has_full_control_of_state = 30 has_full_control_of_state = 14 has_full_control_of_state = 15 has_full_control_of_state = 29 has_full_control_of_state = 99  } 
+			has_manpower > 2307200
 				}
-				allowed = {	always = no } #TO-DO: Make this decision better
+				allowed = {	original_tag = ITA }
 				fire_only_once = yes
 				cost = 0
-				visible = {
-	#	
-		}
+				visible = {	}
 				complete_effect = {	
-				load_oob = "GER_dday_inf"
+				hidden_effect = { add_manpower  = -1000000  -add_manpower  = -1000000 add_manpower  = -307200 
+				delete_unit_template_and_units = {
+    division_template = "Fanteria del Muro Atlantico"
+    disband = yes 
+}
+   }
+				load_oob = "ITA_dday_inf"
 				}
 	}
 	

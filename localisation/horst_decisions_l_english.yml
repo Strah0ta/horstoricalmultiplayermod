@@ -83,7 +83,7 @@
  GER_barbarossa_inf:0 "Prepare for Operation Barbarossa"
  GER_barbarossa_inf_desc:0 "We will deploy §W150 infantry divisions§!, requiring §Y1.5 million men§! and §Y150k Infantry Equipment§!."
  GER_dday:0 "Man the Atlantik Wall"
- GER_dday_desc:0 "We will deploy §W122 infantry divisions§!, requiring §Y1.3 million men§!, §Y123k Infantry Equipment§! and §Y2.4k Anti-Air§!."
+ GER_dday_desc:0 "We will deploy §W206 infantry divisions§! on the Atlantik Wall, requiring §Y2.3 million men§!."
  war_building_slot2:0 "Local Industrial Integration"
  ENG_annex_saf:0 "Form the Franco-British Union"
  ITA_fix_tungsten:0 "Transfer Spanish Tungsten to Italy"

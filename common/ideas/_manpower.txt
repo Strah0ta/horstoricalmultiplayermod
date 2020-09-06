@@ -27,7 +27,6 @@ ideas = {
 			level = 6
 			
 			available = {
-				#has_manpower_for_recruit_change_to =  { value = 0.015 group = mobilization_laws }
 				if = {
 					limit = {
 						original_tag = HUN
@@ -98,8 +97,6 @@ ideas = {
 		extensive_conscription = {
 			
 			available = {
-				has_war_support > 0.2
-				#Special rules AST in TFV
 				if = {
 					limit = {
 						original_tag = AST
@@ -167,10 +164,6 @@ ideas = {
 					has_government = communism
 					has_war = yes
 					}
-				OR = {
-					has_war_support > 0.6
-					surrender_progress > 0
-				}
 				if = {
 					limit = {
 						original_tag = AST
@@ -261,11 +254,6 @@ ideas = {
 					
 			available = {
 				has_war = yes
-				OR = {
-					has_war_support > 0.7
-					surrender_progress > 0
-				}
-
 				if = {
 					limit = {
 						original_tag = AST
@@ -317,11 +305,6 @@ ideas = {
 			
 			available = {
 				has_war = yes
-				OR = {
-					has_war_support > 0.85
-					surrender_progress > 0.25
-				}
-
 				if = {
 					limit = {
 						original_tag = AST
