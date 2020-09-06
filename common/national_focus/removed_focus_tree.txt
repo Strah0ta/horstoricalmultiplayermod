@@ -1,0 +1,10 @@
+focus_tree = {
+	id = turkey_focus
+	
+	country = {
+		factor = 1
+	}
+	
+	default = yes
+	reset_on_civilwar = no
+}

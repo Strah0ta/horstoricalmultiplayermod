@@ -1,0 +1,20 @@
+state={
+	id=752
+	name="Isle of Man"
+	provinces={ 3311	}
+	history = { 
+		owner = ENG
+		add_core_of = ENG
+		add_core_of = NOR 
+			buildings = {
+			infrastructure = 6
+			air_base = 8
+			3311 = {
+				naval_base = 1
+			}
+		}
+		}
+	manpower=30000
+	buildings_max_level_factor=1.000
+	state_category = tiny_island
+}

@@ -1,0 +1,78 @@
+﻿capital = 111
+oob = "FIN_1936"
+add_to_tech_sharing_group = axis_research
+set_research_slots = 3
+set_rule = { can_be_spymaster = no }
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	gw_artillery = 1			
+	interwar_antiair = 1
+	tech_support = 1	
+	early_fighter = 1
+	tech_recon = 1
+	tech_engineers = 1
+	superior_firepower = 1
+	early_ship_hull_light = 1
+	early_ship_hull_submarine = 1
+	early_ship_hull_cruiser = 1
+	basic_battery = 1
+	basic_secondary_battery = 1
+	coastal_defense_ships = 1
+	}
+
+set_variable = { FIN_weekly_manpower_factor = 500 }
+set_variable = { FIN_consumer_goods_factor = -0.02 }
+add_ideas = armyandnavy_idea
+set_convoys = 50
+add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 60000 }
+add_ideas = { extensive_conscription }
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1933.7.1"
+	election_frequency = 36
+	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 10
+	fascism = 10
+	communism = 1
+	neutrality = 79
+}
+
+create_country_leader = {
+	name = "Kyösti Kallio"
+	desc = "POLITICS_KYÖSTI_KALLIO_DESC"
+	picture = "gfx/leaders/FIN/Portrait_Finland_Kyosti_Kallio.dds"
+	expire = "1965.1.1"
+	ideology = centrism
+	traits = {
+		stout_defender
+	}
+}
+
+create_field_marshal = {
+	name = "Carl Gustaf Emil Mannerheim"
+	picture = "portrait_fin_carl_mannerheim.dds"
+	traits = { organizer logistics_wizard inflexible_strategist trait_cautious unyielding_defender inspirational_leader expert_improviser defensive_doctrine trickster  }
+	skill = 7
+	id = 58
+	attack_skill = 4
+	defense_skill = 7
+	planning_skill = 3
+	logistics_skill = 8
+}
+
+create_corps_commander = {
+	name = "Erik Heinrichs"
+	portrait_path = "gfx/leaders/FIN/Erik_Heinrichs.tga"
+	traits = {  ranger trickster commando infantry_leader ambusher scavenger guerilla_fighter skilled_staffer }
+	skill = 6
+    attack_skill = 3
+    defense_skill = 5
+    planning_skill = 2
+    logistics_skill = 9
+}
+
+
+

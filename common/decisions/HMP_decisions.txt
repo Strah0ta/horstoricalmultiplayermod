@@ -1,0 +1,3640 @@
+USA_aid_britain = {
+	USA_plane_eng = {
+		allowed = {	original_tag = USA } 
+		icon = generic_naval
+		fire_only_once = yes
+		complete_effect = { activate_mission = USA_plane_LL1	}		
+	}
+	USA_plane_LL1 = {
+		allowed = {	original_tag = USA }	
+		icon = generic_naval
+		available = { tag = Gay	}
+		days_mission_timeout = 10
+		fire_only_once = no
+		is_good = yes
+		activation = { always = no	}
+		timeout_effect = {
+		USA_all_plane_LL = yes	
+		activate_mission = USA_plane_LL2		
+		}
+		complete_effect = {	
+		}
+	}
+	USA_plane_LL2 = {
+		allowed = {	original_tag = USA }	
+		icon = generic_naval
+		available = { tag = Gay	}
+		days_mission_timeout = 10
+		fire_only_once = no
+		is_good = yes
+		activation = { always = no	}
+		timeout_effect = {
+		USA_all_plane_LL = yes	
+		activate_mission = USA_plane_LL1		
+		}
+		complete_effect = {	
+		}
+	}
+}
+
+GER_plane_auto_LL = {
+GER_plane_hun = {
+	allowed = {	 original_tag = ITA	} 
+		icon = generic_naval
+		fire_only_once = yes
+		available = {    }
+		complete_effect = {	activate_mission = GER_plane_LL1 }		
+}
+
+
+		GER_plane_LL1 = {
+		allowed = { original_tag = ITA	}  
+		icon = generic_naval
+		available = { tag = Gay	}
+
+		days_mission_timeout = 10
+
+		fire_only_once = no
+		is_good = yes
+		activation = { always = no	}
+		
+		timeout_effect = {
+		GER_all_plane_LL = yes	
+		activate_mission = GER_plane_LL2		
+		}
+		complete_effect = {	
+		}
+	}
+		GER_plane_LL2 = {
+		allowed = { original_tag = ITA	}  
+		icon = generic_naval
+		available = { tag = Gay	}
+
+		days_mission_timeout = 10
+
+		fire_only_once = no
+		is_good = yes
+		activation = { always = no	}
+		
+		timeout_effect = {
+		GER_all_plane_LL = yes	
+		activate_mission = GER_plane_LL1		
+		}
+		complete_effect = {	
+		}
+	}
+}
+
+HMP_ll_soviets_send = {
+HMP_ll_hide = {
+		allowed = {  tag = ENG } 
+		visible = { NOT = { has_global_flag = hide_sov_ll }}
+		icon = generic_form_nation
+		cost = 0
+		fire_only_once = no
+		complete_effect  = { set_global_flag = hide_sov_ll } 
+}
+HMP_ll_show = {
+		allowed = {  tag = ENG } 
+		visible = { has_global_flag = hide_sov_ll }
+		icon = generic_form_nation
+		cost = 0
+		fire_only_once = no
+		complete_effect  = { clr_global_flag = hide_sov_ll } 
+}
+
+HMP_ll_soviets_guns = { #worth 1x 
+		allowed = {  normally_played_allies = yes } 
+		available = { has_equipment = {  infantry_equipment > 5000 }SOV = { has_war_with = GER }}
+		icon = generic_form_nation
+		cost = 0
+		fire_only_once = no
+		complete_effect  = {
+									custom_effect_tooltip = HMP_ll_remove_guns
+				custom_effect_tooltip =  soviets_1_shipments_tt
+			hidden_effect = { send_equipment = { equipment = infantry_equipment amount = 5000 target = SWE } }
+			SOV = { add_to_variable = {  var = SOV_barb_ll_token   value = 1 } }						
+		}
+	}
+	HMP_ll_soviets_guns_large = { #worth 20x 
+		allowed = {  normally_played_allies = yes } 
+		available = { has_equipment = {  infantry_equipment > 100000 }SOV = { has_war_with = GER }}
+		icon = generic_form_nation
+		cost = 0
+		fire_only_once = no
+		complete_effect  = {
+									custom_effect_tooltip = HMP_ll_remove_more_guns
+				custom_effect_tooltip =  soviets_20_shipments_tt
+			hidden_effect = { send_equipment = { equipment = infantry_equipment amount = 100000 target = SWE } }
+			SOV = { add_to_variable = {  var = SOV_barb_ll_token   value = 20 } }						
+		}
+	}
+HMP_ll_soviets_aa = { #worth 1x 
+		allowed = {  normally_played_allies = yes } 
+		available = { has_equipment = {  anti_air_equipment > 600 }SOV = { has_war_with = GER }}
+		icon = generic_form_nation
+		cost = 0
+		fire_only_once = no
+		complete_effect  = {
+								custom_effect_tooltip = HMP_ll_remove_aa		
+				custom_effect_tooltip =  soviets_1_shipments_tt
+				hidden_effect = {send_equipment = { equipment = anti_air_equipment amount = 600 target = SWE }}
+			SOV = { add_to_variable = {  var = SOV_barb_ll_token   value = 1 } }					
+		}
+	}
+HMP_ll_soviets_support = { #worth 1x 
+		allowed = {  normally_played_allies = yes } 
+		available = { has_equipment = {  support_equipment > 1000 } SOV = { has_war_with = GER }}
+		icon = generic_form_nation
+		cost = 0
+		fire_only_once = no
+		complete_effect  = {
+								custom_effect_tooltip = HMP_ll_remove_support	
+				custom_effect_tooltip =  soviets_1_shipments_tt
+				hidden_effect = {send_equipment = { equipment = support_equipment amount = 1000 target = SWE }}
+			SOV = { add_to_variable = {  var = SOV_barb_ll_token   value = 1 } }						
+		}
+	}
+HMP_ll_soviets_motorized = { #worth 1x 
+		allowed = {  normally_played_allies = yes } 
+		available = { has_equipment = {  motorized_equipment > 1000 }SOV = { has_war_with = GER }}
+		icon = generic_form_nation
+		cost = 0
+		fire_only_once = no
+		complete_effect  = {
+								custom_effect_tooltip = HMP_ll_remove_mot		
+				custom_effect_tooltip =  soviets_1_shipments_tt
+				hidden_effect = {send_equipment = { equipment = motorized_equipment amount = 1000 target = SWE } }
+			SOV = { add_to_variable = {  var = SOV_barb_ll_token   value = 1 } }					
+		}
+	}
+HMP_ll_soviets_at = { #worth 1x 
+		allowed = {  normally_played_allies = yes } 
+		available = { has_equipment = {  anti_tank_equipment > 500 }SOV = { has_war_with = GER }}
+		icon = generic_form_nation
+		cost = 0
+		fire_only_once = no
+		complete_effect  = {
+								custom_effect_tooltip = HMP_ll_remove_at	
+				custom_effect_tooltip =  soviets_1_shipments_tt
+				hidden_effect = {send_equipment = { equipment = anti_tank_equipment amount = 500 target = SWE }}
+			SOV = { add_to_variable = {  var = SOV_barb_ll_token   value = 1 } }					
+		}
+	}
+HMP_ll_soviets_arty = { #worth 1x 
+		allowed = {  normally_played_allies = yes } 
+		available = { has_equipment = {  artillery_equipment > 550 }SOV = { has_war_with = GER }}
+		icon = generic_form_nation
+		cost = 0
+		fire_only_once = no
+		complete_effect  = {
+									custom_effect_tooltip = HMP_ll_remove_arty	
+						custom_effect_tooltip =  soviets_1_shipments_tt
+				hidden_effect = {send_equipment = { equipment = artillery_equipment amount = 550 target = SWE }}
+			SOV = { add_to_variable = {  var = SOV_barb_ll_token   value = 1 } }					
+		}
+	}	
+HMP_ll_soviets_rarty = { #worth 1x 
+		allowed = {  normally_played_allies = yes } 
+		available = { has_equipment = {  rocket_artillery_equipment > 600 }SOV = { has_war_with = GER }}
+		icon = generic_form_nation
+		cost = 0
+		fire_only_once = no
+		complete_effect  = {
+								custom_effect_tooltip = HMP_ll_remove_rarty		
+						custom_effect_tooltip =  soviets_1_shipments_tt
+				hidden_effect = {send_equipment = { equipment = rocket_artillery_equipment amount = 600 target = SWE }}
+			SOV = { add_to_variable = {  var = SOV_barb_ll_token   value = 1 } }					
+		}
+	}	
+
+	HMP_ll_soviets_mech = { #worth 1x 
+		allowed = {  normally_played_allies = yes } 
+		available = { has_equipment = {  mechanized_equipment > 310 }SOV = { has_war_with = GER }}
+		icon = generic_form_nation
+		cost = 0
+		fire_only_once = no
+		complete_effect  = {
+								custom_effect_tooltip = HMP_ll_remove_mech	
+				custom_effect_tooltip =  soviets_1_shipments_tt
+			hidden_effect = {	send_equipment = { equipment = mechanized_equipment amount = 310 target = SWE }}
+			SOV = { add_to_variable = {  var = SOV_barb_ll_token   value = 1 } }			
+		}
+	}
+HMP_ll_soviets_fighter = { #worth 20x 
+		allowed = {  normally_played_allies = yes } 
+		available = { has_equipment = {  fighter_equipment > 1000 }SOV = { has_war_with = GER }}
+		icon = generic_form_nation
+		cost = 0
+		fire_only_once = no
+		complete_effect  = {
+								custom_effect_tooltip = HMP_ll_remove_fighter		
+				custom_effect_tooltip = soviets_20_shipments_tt
+				hidden_effect = {send_equipment = { equipment = fighter_equipment amount = 900 target = SWE }}
+			SOV = { add_to_variable = {  var = SOV_barb_ll_token   value = 20 } }
+		}
+	}
+HMP_ll_soviets_ht = { #worth 10x 
+		allowed = {  normally_played_allies = yes } 
+		available = { has_equipment = {  heavy_tank_equipment > 1000 }SOV = { has_war_with = GER }}
+		icon = generic_form_nation
+		cost = 0
+		fire_only_once = no
+		complete_effect  = {
+								custom_effect_tooltip = HMP_ll_remove_ht		
+		custom_effect_tooltip = soviets_10_shipments_tt
+				hidden_effect = {send_equipment = { equipment = heavy_Tank_equipment amount = 1000 target = SWE }}
+			SOV = { add_to_variable = {  var = SOV_barb_ll_token   value = 10 } }						
+		}
+	}
+HMP_ll_soviets_mt = { #worth 10x 
+		allowed = {  normally_played_allies = yes } 
+		available = { has_equipment = {  medium_tank_equipment > 2000 }SOV = { has_war_with = GER }}
+		icon = generic_form_nation
+		cost = 0
+		fire_only_once = no
+		complete_effect  = {
+								custom_effect_tooltip = HMP_ll_remove_mt
+				custom_effect_tooltip = soviets_10_shipments_tt
+				hidden_effect = {send_equipment = { equipment = medium_tank_equipment amount = 2000 target = SWE }}
+			SOV = { add_to_variable = {  var = SOV_barb_ll_token   value = 10 } }						
+		}
+	}
+HMP_ll_soviets_amtrac = { #worth 1x 
+		allowed = {  normally_played_allies = yes } 
+		available = { has_equipment = {  amphibious_mechanized_equipment_1 > 250 }SOV = { has_war_with = GER }}
+		icon = generic_form_nation
+		cost = 0
+		fire_only_once = no
+		complete_effect  = {
+						custom_effect_tooltip = HMP_ll_remove_amtrac
+				custom_effect_tooltip = soviets_1_shipments_tt
+				hidden_effect = {send_equipment = { equipment = amphibious_mechanized_equipment_1 amount = 250 target = SWE }}
+			SOV = { add_to_variable = {  var = SOV_barb_ll_token   value = 1 } }						
+		}
+	}
+}
+HMP_ll_soviets_receive = {
+HMP_ll_soviets_receive_guns = {
+allowed = {  original_tag = SOV } 
+
+available = {  check_variable = { var = SOV_barb_ll_token  value = 5  compare = greater_than_or_equals} date > 1942.1.22 			custom_trigger_tooltip = {	tooltip = SOV_secure_tt	suppy_route_secure = yes}  }      
+		icon = generic_form_nation
+		cost = 0
+		fire_only_once = no
+		complete_effect  = {
+		add_equipment_to_stockpile = {  type = infantry_equipment_1 amount = 25000 producer = USA }			
+		SOV = { add_to_variable = {  var = SOV_barb_ll_token   value = -5 } }						
+		}
+}
+HMP_ll_soviets_receive_more_guns = {
+allowed = {  original_tag = SOV } 
+available = {  check_variable = { var = SOV_barb_ll_token  value = 20  compare = greater_than_or_equals} date > 1942.1.22 			custom_trigger_tooltip = {	tooltip = SOV_secure_tt	suppy_route_secure = yes}  }      
+		icon = generic_form_nation
+		cost = 0
+		fire_only_once = no
+		complete_effect  = {
+		add_equipment_to_stockpile = {  type = infantry_equipment_1 amount = 100000 producer = USA }			
+		SOV = { add_to_variable = {  var = SOV_barb_ll_token   value = -20 } }						
+		}
+}
+HMP_ll_soviets_receive_more_guns2 = {
+allowed = {  original_tag = SOV } 
+available = {  check_variable = { var = SOV_barb_ll_token  value = 50  compare = greater_than_or_equals} date > 1942.1.22 			custom_trigger_tooltip = {	tooltip = SOV_secure_tt	suppy_route_secure = yes}  }      
+		icon = generic_form_nation
+		cost = 0
+		fire_only_once = no
+		complete_effect  = {
+		add_equipment_to_stockpile = {  type = infantry_equipment_1 amount = 250000 producer = USA }			
+		SOV = { add_to_variable = {  var = SOV_barb_ll_token   value = -50 } }						
+		}
+}
+
+
+HMP_ll_soviets_receive_support = {
+allowed = {  original_tag = SOV } 
+
+available = {  check_variable = { var = SOV_barb_ll_token  value = 5  compare = greater_than_or_equals} date > 1942.1.22 			custom_trigger_tooltip = {	tooltip = SOV_secure_tt	suppy_route_secure = yes}  }      
+		icon = generic_form_nation
+		cost = 0
+		fire_only_once = no
+		complete_effect  = {
+		add_equipment_to_stockpile = {  type = support_equipment_1 amount = 3125 producer = USA }			
+		SOV = { add_to_variable = {  var = SOV_barb_ll_token   value = -5 } }						
+		}
+}
+HMP_ll_soviets_receive_support2 = {
+allowed = {  original_tag = SOV } 
+
+available = {  check_variable = { var = SOV_barb_ll_token  value = 20  compare = greater_than_or_equals} date > 1942.1.22 			custom_trigger_tooltip = {	tooltip = SOV_secure_tt	suppy_route_secure = yes}  }      
+		icon = generic_form_nation
+		cost = 0
+		fire_only_once = no
+		complete_effect  = {
+		add_equipment_to_stockpile = {  type = support_equipment_1 amount = 12500 producer = USA }			
+		SOV = { add_to_variable = {  var = SOV_barb_ll_token   value = -20 } }						
+		}
+}
+HMP_ll_soviets_receive_aa = {
+allowed = {  original_tag = SOV } 
+available = {  check_variable = { var = SOV_barb_ll_token  value = 5  compare = greater_than_or_equals} date > 1942.1.22 			custom_trigger_tooltip = {	tooltip = SOV_secure_tt	suppy_route_secure = yes}  }      
+		icon = generic_form_nation
+		cost = 0
+		fire_only_once = no
+		complete_effect  = {
+		if = { limit = { USA = { has_tech = antiair2 }}   add_equipment_to_stockpile = {  type = anti_air_equipment_2 amount = 2500 producer = USA }    }
+		else_if = { limit = { ENG = { has_tech = antiair2 }}   add_equipment_to_stockpile = {  type = anti_air_equipment_2 amount = 2500 producer = ENG }    }
+		else_if = { limit = { CAN = { has_tech = antiair2 }}   add_equipment_to_stockpile = {  type = anti_air_equipment_2 amount = 2500 producer = CAN }    }
+		else_if = { limit = { AST = { has_tech = antiair2 }}   add_equipment_to_stockpile = {  type = anti_air_equipment_2 amount = 2500 producer = AST }    }
+		else_if = { limit = { RAJ = { has_tech = antiair2 }}   add_equipment_to_stockpile = {  type = anti_air_equipment_2 amount = 2500 producer = RAJ }    }
+		else_if = { limit = { SAF = { has_tech = antiair2 }}   add_equipment_to_stockpile = {  type = anti_air_equipment_2 amount = 2500 producer = SAF }    }
+		else_if = { limit = { NZL = { has_tech = antiair2 }}   add_equipment_to_stockpile = {  type = anti_air_equipment_2 amount = 2500 producer = NZL }    }
+		else = { add_equipment_to_stockpile = {  type = anti_air_equipment_2 amount = 2500 producer = SWE }    }	
+		SOV = { add_to_variable = {  var = SOV_barb_ll_token   value = -5 } }						
+		}
+}
+HMP_ll_soviets_receive_aa2 = {
+allowed = {  original_tag = SOV } 
+available = {  check_variable = { var = SOV_barb_ll_token  value = 20  compare = greater_than_or_equals} date > 1942.1.22 			custom_trigger_tooltip = {	tooltip = SOV_secure_tt	suppy_route_secure = yes}  }      
+		icon = generic_form_nation
+		cost = 0
+		fire_only_once = no
+		complete_effect  = {
+		if = { limit = { USA = { has_tech = antiair2 }}   add_equipment_to_stockpile = {  type = anti_air_equipment_2 amount = 10000 producer = USA }    }
+		else_if = { limit = { ENG = { has_tech = antiair2 }}   add_equipment_to_stockpile = {  type = anti_air_equipment_2 amount = 10000 producer = ENG }    }
+		else_if = { limit = { CAN = { has_tech = antiair2 }}   add_equipment_to_stockpile = {  type = anti_air_equipment_2 amount = 10000 producer = CAN }    }
+		else_if = { limit = { AST = { has_tech = antiair2 }}   add_equipment_to_stockpile = {  type = anti_air_equipment_2 amount = 10000 producer = AST }    }
+		else_if = { limit = { RAJ = { has_tech = antiair2 }}   add_equipment_to_stockpile = {  type = anti_air_equipment_2 amount = 10000 producer = RAJ }    }
+		else_if = { limit = { SAF = { has_tech = antiair2 }}   add_equipment_to_stockpile = {  type = anti_air_equipment_2 amount = 10000 producer = SAF }    }
+		else_if = { limit = { NZL = { has_tech = antiair2 }}   add_equipment_to_stockpile = {  type = anti_air_equipment_2 amount = 10000 producer = NZL }    }
+		else = { add_equipment_to_stockpile = {  type = anti_air_equipment_2 amount = 10000 producer = SWE }    }
+		SOV = { add_to_variable = {  var = SOV_barb_ll_token   value = -20 } }						
+		}
+}
+HMP_ll_soviets_receive_armorcar = {
+allowed = {  original_tag = SOV } 
+available = {  check_variable = { var = SOV_barb_ll_token  value = 5  compare = greater_than_or_equals} date > 1942.1.22 			custom_trigger_tooltip = {	tooltip = SOV_secure_tt	suppy_route_secure = yes}  }      
+		icon = generic_form_nation
+		cost = 0
+		fire_only_once = no
+		complete_effect  = {
+		if = { limit = { USA = { has_tech = armored_car2 }}   add_equipment_to_stockpile = {  type = armored_car_equipment_1 amount = 3125 producer = USA }    }
+		else_if = { limit = { ENG = { has_tech = armored_car2 }}   add_equipment_to_stockpile = {  type = armored_car_equipment_1 amount = 3125 producer = ENG }    }
+		else_if = { limit = { CAN = { has_tech = armored_car2 }}   add_equipment_to_stockpile = {  type = armored_car_equipment_1 amount = 3125 producer = CAN }    }
+		else_if = { limit = { AST = { has_tech = armored_car2 }}   add_equipment_to_stockpile = {  type = armored_car_equipment_1 amount = 3125 producer = AST }    }
+		else_if = { limit = { RAJ = { has_tech = armored_car2 }}   add_equipment_to_stockpile = {  type = armored_car_equipment_1 amount = 3125 producer = RAJ }    }
+		else_if = { limit = { SAF = { has_tech = armored_car2 }}   add_equipment_to_stockpile = {  type = armored_car_equipment_1 amount = 3125 producer = SAF }    }
+		else_if = { limit = { NZL = { has_tech = armored_car2 }}   add_equipment_to_stockpile = {  type = armored_car_equipment_1 amount = 3125 producer = NZL }    }
+		else = { add_equipment_to_stockpile = {  type = armored_car_equipment_1 amount = 3125 producer = SWE }    }
+		SOV = { add_to_variable = {  var = SOV_barb_ll_token   value = -5 } }						
+		}
+}
+HMP_ll_soviets_receive_mrarty = {
+allowed = {  original_tag = SOV } 
+available = {  check_variable = { var = SOV_barb_ll_token  value = 5  compare = greater_than_or_equals} date > 1942.1.22 			custom_trigger_tooltip = {	tooltip = SOV_secure_tt	suppy_route_secure = yes}  }      
+		icon = generic_form_nation
+		cost = 0
+		fire_only_once = no
+		complete_effect  = {
+		if = { limit = { USA = { has_tech = motorized_rocket_unit }}   add_equipment_to_stockpile = {  type = motorized_rocket_equipment_1 amount = 1040 producer = USA }    }
+		else_if = { limit = { ENG = { has_tech = motorized_rocket_unit }}   add_equipment_to_stockpile = {  type = motorized_rocket_equipment_1 amount = 1040 producer = ENG }    }
+		else_if = { limit = { CAN = { has_tech = motorized_rocket_unit }}   add_equipment_to_stockpile = {  type = motorized_rocket_equipment_1 amount = 1040 producer = CAN }    }
+		else_if = { limit = { AST = { has_tech = motorized_rocket_unit }}   add_equipment_to_stockpile = {  type = motorized_rocket_equipment_1 amount = 1040 producer = AST }    }
+		else_if = { limit = { RAJ = { has_tech = motorized_rocket_unit }}   add_equipment_to_stockpile = {  type = motorized_rocket_equipment_1 amount = 1040 producer = RAJ }    }
+		else_if = { limit = { SAF = { has_tech = motorized_rocket_unit }}   add_equipment_to_stockpile = {  type = motorized_rocket_equipment_1 amount = 1040 producer = SAF }    }
+		else_if = { limit = { NZL = { has_tech = motorized_rocket_unit }}   add_equipment_to_stockpile = {  type = motorized_rocket_equipment_1 amount = 1040 producer = NZL }    }
+		else = { add_equipment_to_stockpile = {  type = motorized_rocket_equipment_1 amount = 1040 producer = SWE }    }
+		SOV = { add_to_variable = {  var = SOV_barb_ll_token   value = -5 } }						
+		}
+}
+HMP_ll_soviets_receive_mrarty2 = {
+allowed = {  original_tag = SOV } 
+available = {  check_variable = { var = SOV_barb_ll_token  value = 20  compare = greater_than_or_equals} date > 1942.1.22 			custom_trigger_tooltip = {	tooltip = SOV_secure_tt	suppy_route_secure = yes}  }      
+		icon = generic_form_nation
+		cost = 0
+		fire_only_once = no
+		complete_effect  = {
+		if = { limit = { USA = { has_tech = motorized_rocket_unit }}   add_equipment_to_stockpile = {  type = motorized_rocket_equipment_1 amount = 4165 producer = USA }    }
+		else_if = { limit = { ENG = { has_tech = motorized_rocket_unit }}   add_equipment_to_stockpile = {  type = motorized_rocket_equipment_1 amount = 4165 producer = ENG }    }
+		else_if = { limit = { CAN = { has_tech = motorized_rocket_unit }}   add_equipment_to_stockpile = {  type = motorized_rocket_equipment_1 amount = 4165 producer = CAN }    }
+		else_if = { limit = { AST = { has_tech = motorized_rocket_unit }}   add_equipment_to_stockpile = {  type = motorized_rocket_equipment_1 amount = 4165 producer = AST }    }
+		else_if = { limit = { RAJ = { has_tech = motorized_rocket_unit }}   add_equipment_to_stockpile = {  type = motorized_rocket_equipment_1 amount = 4165 producer = RAJ }    }
+		else_if = { limit = { SAF = { has_tech = motorized_rocket_unit }}   add_equipment_to_stockpile = {  type = motorized_rocket_equipment_1 amount = 4165 producer = SAF }    }
+		else_if = { limit = { NZL = { has_tech = motorized_rocket_unit }}   add_equipment_to_stockpile = {  type = motorized_rocket_equipment_1 amount = 4165 producer = NZL }    }
+		else = { add_equipment_to_stockpile = {  type = motorized_rocket_equipment_1 amount = 4165 producer = SWE }    }
+		SOV = { add_to_variable = {  var = SOV_barb_ll_token   value = -20 } }						
+		}
+}           
+HMP_ll_soviets_receive_at = {
+allowed = {  original_tag = SOV } 
+available = {  check_variable = { var = SOV_barb_ll_token  value = 5  compare = greater_than_or_equals} date > 1942.1.22 			custom_trigger_tooltip = {	tooltip = SOV_secure_tt	suppy_route_secure = yes}  }      
+		icon = generic_form_nation
+		cost = 0
+		fire_only_once = no
+		complete_effect  = {
+				if = { limit = { USA = { has_tech = antitank2 }}   add_equipment_to_stockpile = {  type = anti_tank_equipment_2 amount = 2500 producer = USA }    }
+		else_if = { limit = { ENG = { has_tech = antitank2 }}   add_equipment_to_stockpile = {  type = anti_tank_equipment_2 amount = 2500 producer = ENG }    }
+		else_if = { limit = { CAN = { has_tech = antitank2 }}   add_equipment_to_stockpile = {  type = anti_tank_equipment_2 amount = 2500 producer = CAN }    }
+		else_if = { limit = { AST = { has_tech = antitank2 }}   add_equipment_to_stockpile = {  type = anti_tank_equipment_2 amount = 2500 producer = AST }    }
+		else_if = { limit = { RAJ = { has_tech = antitank2 }}   add_equipment_to_stockpile = {  type = anti_tank_equipment_2 amount = 2500 producer = RAJ }    }
+		else_if = { limit = { SAF = { has_tech = antitank2 }}   add_equipment_to_stockpile = {  type = anti_tank_equipment_2 amount = 2500 producer = SAF }    }
+		else_if = { limit = { NZL = { has_tech = antitank2 }}   add_equipment_to_stockpile = {  type = anti_tank_equipment_2 amount = 2500 producer = NZL }    }
+		else = { add_equipment_to_stockpile = {  type = anti_tank_equipment_2 amount = 2500 producer = SWE }    }
+		SOV = { add_to_variable = {  var = SOV_barb_ll_token   value = -5 } }						
+		}
+	}
+	HMP_ll_soviets_receive_at2 = {
+allowed = {  original_tag = SOV } 
+available = {  check_variable = { var = SOV_barb_ll_token  value = 20  compare = greater_than_or_equals} date > 1942.1.22 			custom_trigger_tooltip = {	tooltip = SOV_secure_tt	suppy_route_secure = yes}  }      
+		icon = generic_form_nation
+		cost = 0
+		fire_only_once = no
+		complete_effect  = {
+						if = { limit = { USA = { has_tech = antitank2 }}   add_equipment_to_stockpile = {  type = anti_tank_equipment_2 amount = 10000 producer = USA }    }
+		else_if = { limit = { ENG = { has_tech = antitank2 }}   add_equipment_to_stockpile = {  type = anti_tank_equipment_2 amount = 10000 producer = ENG }    }
+		else_if = { limit = { CAN = { has_tech = antitank2 }}   add_equipment_to_stockpile = {  type = anti_tank_equipment_2 amount = 10000 producer = CAN }    }
+		else_if = { limit = { AST = { has_tech = antitank2 }}   add_equipment_to_stockpile = {  type = anti_tank_equipment_2 amount = 10000 producer = AST }    }
+		else_if = { limit = { RAJ = { has_tech = antitank2 }}   add_equipment_to_stockpile = {  type = anti_tank_equipment_2 amount = 10000 producer = RAJ }    }
+		else_if = { limit = { SAF = { has_tech = antitank2 }}   add_equipment_to_stockpile = {  type = anti_tank_equipment_2 amount = 10000 producer = SAF }    }
+		else_if = { limit = { NZL = { has_tech = antitank2 }}   add_equipment_to_stockpile = {  type = anti_tank_equipment_2 amount = 10000 producer = NZL }    }
+		else = { add_equipment_to_stockpile = {  type = anti_tank_equipment_2 amount = 10000 producer = SWE }    }
+		SOV = { add_to_variable = {  var = SOV_barb_ll_token   value = -20 } }						
+		}
+	}
+HMP_ll_soviets_receive_arty = {
+allowed = {  original_tag = SOV } 
+available = {  check_variable = { var = SOV_barb_ll_token  value = 5  compare = greater_than_or_equals} date > 1942.1.22 			custom_trigger_tooltip = {	tooltip = SOV_secure_tt	suppy_route_secure = yes}  }      
+		icon = generic_form_nation
+		cost = 0
+		fire_only_once = no
+		complete_effect  = {
+								if = { limit = { USA = { has_tech = artillery1 }}   add_equipment_to_stockpile = {  type = artillery_equipment_2 amount = 3125 producer = USA }    }
+		else_if = { limit = { ENG = { has_tech = artillery1 }}   add_equipment_to_stockpile = {  type = artillery_equipment_2 amount = 3125 producer = ENG }    }
+		else_if = { limit = { CAN = { has_tech = artillery1 }}   add_equipment_to_stockpile = {  type = artillery_equipment_2 amount = 3125 producer = CAN }    }
+		else_if = { limit = { AST = { has_tech = artillery1 }}   add_equipment_to_stockpile = {  type = artillery_equipment_2 amount = 3125 producer = AST }    }
+		else_if = { limit = { RAJ = { has_tech = artillery1 }}   add_equipment_to_stockpile = {  type = artillery_equipment_2 amount = 3125 producer = RAJ }    }
+		else_if = { limit = { SAF = { has_tech = artillery1 }}   add_equipment_to_stockpile = {  type = artillery_equipment_2 amount = 3125 producer = SAF }    }
+		else_if = { limit = { NZL = { has_tech = artillery1 }}   add_equipment_to_stockpile = {  type = artillery_equipment_2 amount = 3125 producer = NZL }    }
+		else = { add_equipment_to_stockpile = {  type = artillery_equipment_2 amount = 3125 producer = SWE }    }
+		SOV = { add_to_variable = {  var = SOV_barb_ll_token   value = -5 } }						
+		}
+	}	
+	HMP_ll_soviets_receive_arty2 = {
+allowed = {  original_tag = SOV } 
+available = {  check_variable = { var = SOV_barb_ll_token  value = 20  compare = greater_than_or_equals} date > 1942.1.22 			custom_trigger_tooltip = {	tooltip = SOV_secure_tt	suppy_route_secure = yes}  }      
+		icon = generic_form_nation
+		cost = 0
+		fire_only_once = no
+		complete_effect  = {
+								if = { limit = { USA = { has_tech = artillery1 }}   add_equipment_to_stockpile = {  type = artillery_equipment_2 amount = 12500 producer = USA }    }
+		else_if = { limit = { ENG = { has_tech = artillery1 }}   add_equipment_to_stockpile = {  type = artillery_equipment_2 amount = 12500 producer = ENG }    }
+		else_if = { limit = { CAN = { has_tech = artillery1 }}   add_equipment_to_stockpile = {  type = artillery_equipment_2 amount = 12500 producer = CAN }    }
+		else_if = { limit = { AST = { has_tech = artillery1 }}   add_equipment_to_stockpile = {  type = artillery_equipment_2 amount = 12500 producer = AST }    }
+		else_if = { limit = { RAJ = { has_tech = artillery1 }}   add_equipment_to_stockpile = {  type = artillery_equipment_2 amount = 12500 producer = RAJ }    }
+		else_if = { limit = { SAF = { has_tech = artillery1 }}   add_equipment_to_stockpile = {  type = artillery_equipment_2 amount = 12500 producer = SAF }    }
+		else_if = { limit = { NZL = { has_tech = artillery1 }}   add_equipment_to_stockpile = {  type = artillery_equipment_2 amount = 12500 producer = NZL }    }
+		else = { add_equipment_to_stockpile = {  type = artillery_equipment_2 amount = 12500 producer = SWE }    }
+		SOV = { add_to_variable = {  var = SOV_barb_ll_token   value = -20 } }						
+		}
+	}	
+	HMP_ll_soviets_receive_rarty = {
+allowed = {  original_tag = SOV } 
+available = {  check_variable = { var = SOV_barb_ll_token  value = 5  compare = greater_than_or_equals} date > 1942.1.22 			custom_trigger_tooltip = {	tooltip = SOV_secure_tt	suppy_route_secure = yes}  }      
+		icon = generic_form_nation
+		cost = 0
+		fire_only_once = no
+		complete_effect  = {
+										if = { limit = { USA = { has_tech = rocket_artillery }}   add_equipment_to_stockpile = {  type = rocket_artillery_equipment_1 amount = 3125 producer = USA }    }
+		else_if = { limit = { ENG = { has_tech = rocket_artillery }}   add_equipment_to_stockpile = {  type = rocket_artillery_equipment_1 amount = 3125 producer = ENG }    }
+		else_if = { limit = { CAN = { has_tech = rocket_artillery }}   add_equipment_to_stockpile = {  type = rocket_artillery_equipment_1 amount = 3125 producer = CAN }    }
+		else_if = { limit = { AST = { has_tech = rocket_artillery }}   add_equipment_to_stockpile = {  type = rocket_artillery_equipment_1 amount = 3125 producer = AST }    }
+		else_if = { limit = { RAJ = { has_tech = rocket_artillery }}   add_equipment_to_stockpile = {  type = rocket_artillery_equipment_1 amount = 3125 producer = RAJ }    }
+		else_if = { limit = { SAF = { has_tech = rocket_artillery }}   add_equipment_to_stockpile = {  type = rocket_artillery_equipment_1 amount = 3125 producer = SAF }    }
+		else_if = { limit = { NZL = { has_tech = rocket_artillery }}   add_equipment_to_stockpile = {  type = rocket_artillery_equipment_1 amount = 3125 producer = NZL }    }
+		else = { add_equipment_to_stockpile = {  type = rocket_artillery_equipment_1 amount = 3125 producer = SWE }    }
+		SOV = { add_to_variable = {  var = SOV_barb_ll_token   value = -5 } }						
+		}
+	}	
+		HMP_ll_soviets_receive_rarty2 = {
+allowed = {  original_tag = SOV } 
+available = {  check_variable = { var = SOV_barb_ll_token  value = 20  compare = greater_than_or_equals} date > 1942.1.22 			custom_trigger_tooltip = {	tooltip = SOV_secure_tt	suppy_route_secure = yes}  }      
+		icon = generic_form_nation
+		cost = 0
+		fire_only_once = no
+		complete_effect  = {
+										if = { limit = { USA = { has_tech = rocket_artillery }}   add_equipment_to_stockpile = {  type = rocket_artillery_equipment_1 amount = 12500 producer = USA }    }
+		else_if = { limit = { ENG = { has_tech = rocket_artillery }}   add_equipment_to_stockpile = {  type = rocket_artillery_equipment_1 amount = 12500 producer = ENG }    }
+		else_if = { limit = { CAN = { has_tech = rocket_artillery }}   add_equipment_to_stockpile = {  type = rocket_artillery_equipment_1 amount = 12500 producer = CAN }    }
+		else_if = { limit = { AST = { has_tech = rocket_artillery }}   add_equipment_to_stockpile = {  type = rocket_artillery_equipment_1 amount = 12500 producer = AST }    }
+		else_if = { limit = { RAJ = { has_tech = rocket_artillery }}   add_equipment_to_stockpile = {  type = rocket_artillery_equipment_1 amount = 12500 producer = RAJ }    }
+		else_if = { limit = { SAF = { has_tech = rocket_artillery }}   add_equipment_to_stockpile = {  type = rocket_artillery_equipment_1 amount = 12500 producer = SAF }    }
+		else_if = { limit = { NZL = { has_tech = rocket_artillery }}   add_equipment_to_stockpile = {  type = rocket_artillery_equipment_1 amount = 12500 producer = NZL }    }
+		else = { add_equipment_to_stockpile = {  type = rocket_artillery_equipment_1 amount = 12500 producer = SWE }    }
+		SOV = { add_to_variable = {  var = SOV_barb_ll_token   value = -20 } }						
+		}
+	}	
+	HMP_ll_soviets_receive_mot = {
+allowed = {  original_tag = SOV } 
+available = {  check_variable = { var = SOV_barb_ll_token  value = 5  compare = greater_than_or_equals} date > 1942.1.22 			custom_trigger_tooltip = {	tooltip = SOV_secure_tt	suppy_route_secure = yes}  }      
+		icon = generic_form_nation
+		cost = 0
+		fire_only_once = no
+		complete_effect  = {
+		add_equipment_to_stockpile = {  type = motorized_equipment_1 amount = 5000 producer = USA }			
+		SOV = { add_to_variable = {  var = SOV_barb_ll_token   value = -5 } }						
+		}
+	}
+	HMP_ll_soviets_receive_mot2 = {
+allowed = {  original_tag = SOV } 
+available = {  check_variable = { var = SOV_barb_ll_token  value = 20  compare = greater_than_or_equals} date > 1942.1.22 			custom_trigger_tooltip = {	tooltip = SOV_secure_tt	suppy_route_secure = yes}  }      
+		icon = generic_form_nation
+		cost = 0
+		fire_only_once = no
+		complete_effect  = {
+		add_equipment_to_stockpile = {  type = motorized_equipment_1 amount = 20000 producer = USA }			
+		SOV = { add_to_variable = {  var = SOV_barb_ll_token   value = -20 } }						
+		}
+	}	
+		HMP_ll_soviets_receive_mech = {
+allowed = {  original_tag = SOV } 
+available = {  check_variable = { var = SOV_barb_ll_token  value = 5  compare = greater_than_or_equals} date > 1942.1.22 			custom_trigger_tooltip = {	tooltip = SOV_secure_tt	suppy_route_secure = yes}  }      
+		icon = generic_form_nation
+		cost = 0
+		fire_only_once = no
+		complete_effect  = {
+			if = { limit = { USA = { has_tech = mechanised_infantry }}   add_equipment_to_stockpile = {  type = mechanized_equipment_1 amount = 1550 producer = USA }    }
+		else_if = { limit = { ENG = { has_tech = mechanised_infantry }}   add_equipment_to_stockpile = {  type = mechanized_equipment_1 amount = 1550 producer = ENG }    }
+		else_if = { limit = { CAN = { has_tech = mechanised_infantry }}   add_equipment_to_stockpile = {  type = mechanized_equipment_1 amount = 1550 producer = CAN }    }
+		else_if = { limit = { AST = { has_tech = mechanised_infantry }}   add_equipment_to_stockpile = {  type = mechanized_equipment_1 amount = 1550 producer = AST }    }
+		else_if = { limit = { RAJ = { has_tech = mechanised_infantry }}   add_equipment_to_stockpile = {  type = mechanized_equipment_1 amount = 1550 producer = RAJ }    }
+		else_if = { limit = { SAF = { has_tech = mechanised_infantry }}   add_equipment_to_stockpile = {  type = mechanized_equipment_1 amount = 1550 producer = SAF }    }
+		else_if = { limit = { NZL = { has_tech = mechanised_infantry }}   add_equipment_to_stockpile = {  type = mechanized_equipment_1 amount = 1550 producer = NZL }    }
+		else = { add_equipment_to_stockpile = {  type = mechanized_equipment_1 amount = 1550 producer = SWE }    }
+		SOV = { add_to_variable = {  var = SOV_barb_ll_token   value = -5 } }						
+		}
+	}
+			HMP_ll_soviets_receive_mech2 = {
+allowed = {  original_tag = SOV } 
+available = {  check_variable = { var = SOV_barb_ll_token  value = 20  compare = greater_than_or_equals} date > 1942.1.22 			custom_trigger_tooltip = {	tooltip = SOV_secure_tt	suppy_route_secure = yes}  }      
+		icon = generic_form_nation
+		cost = 0
+		fire_only_once = no
+		complete_effect  = {
+			if = { limit = { USA = { has_tech = mechanised_infantry }}   add_equipment_to_stockpile = {  type = mechanized_equipment_1 amount = 6200 producer = USA }    }
+		else_if = { limit = { ENG = { has_tech = mechanised_infantry }}   add_equipment_to_stockpile = {  type = mechanized_equipment_1 amount = 6200 producer = ENG }    }
+		else_if = { limit = { CAN = { has_tech = mechanised_infantry }}   add_equipment_to_stockpile = {  type = mechanized_equipment_1 amount = 6200 producer = CAN }    }
+		else_if = { limit = { AST = { has_tech = mechanised_infantry }}   add_equipment_to_stockpile = {  type = mechanized_equipment_1 amount = 6200 producer = AST }    }
+		else_if = { limit = { RAJ = { has_tech = mechanised_infantry }}   add_equipment_to_stockpile = {  type = mechanized_equipment_1 amount = 6200 producer = RAJ }    }
+		else_if = { limit = { SAF = { has_tech = mechanised_infantry }}   add_equipment_to_stockpile = {  type = mechanized_equipment_1 amount = 6200 producer = SAF }    }
+		else_if = { limit = { NZL = { has_tech = mechanised_infantry }}   add_equipment_to_stockpile = {  type = mechanized_equipment_1 amount = 6200 producer = NZL }    }
+		else = { add_equipment_to_stockpile = {  type = mechanized_equipment_1 amount = 6200 producer = SWE }    }
+		SOV = { add_to_variable = {  var = SOV_barb_ll_token   value = -20 } }						
+		}
+	}
+		HMP_ll_soviets_receive_amtrac = {
+allowed = {  original_tag = SOV } 
+available = {  check_variable = { var = SOV_barb_ll_token  value = 5  compare = greater_than_or_equals} date > 1942.1.22 			custom_trigger_tooltip = {	tooltip = SOV_secure_tt	suppy_route_secure = yes}  }      
+		icon = generic_form_nation
+		cost = 0
+		fire_only_once = no
+		complete_effect  = {
+					if = { limit = { USA = { has_tech = amphibious_mechanized_infantry }}   add_equipment_to_stockpile = {  type = amphibious_mechanized_equipment_1 amount = 1250 producer = USA }    }
+		else_if = { limit = { ENG = { has_tech = amphibious_mechanized_infantry }}   add_equipment_to_stockpile = {  type = amphibious_mechanized_equipment_1 amount = 1250 producer = ENG }    }
+		else_if = { limit = { CAN = { has_tech = amphibious_mechanized_infantry }}   add_equipment_to_stockpile = {  type = amphibious_mechanized_equipment_1 amount = 1250 producer = CAN }    }
+		else_if = { limit = { AST = { has_tech = amphibious_mechanized_infantry }}   add_equipment_to_stockpile = {  type = amphibious_mechanized_equipment_1 amount = 1250 producer = AST }    }
+		else_if = { limit = { RAJ = { has_tech = amphibious_mechanized_infantry }}   add_equipment_to_stockpile = {  type = amphibious_mechanized_equipment_1 amount = 1250 producer = RAJ }    }
+		else_if = { limit = { SAF = { has_tech = amphibious_mechanized_infantry }}   add_equipment_to_stockpile = {  type = amphibious_mechanized_equipment_1 amount = 1250 producer = SAF }    }
+		else_if = { limit = { NZL = { has_tech = amphibious_mechanized_infantry }}   add_equipment_to_stockpile = {  type = amphibious_mechanized_equipment_1 amount = 1250 producer = NZL }    }
+		else = { add_equipment_to_stockpile = {  type = amphibious_mechanized_equipment_1 amount = 1250 producer = SWE }    }
+		SOV = { add_to_variable = {  var = SOV_barb_ll_token   value = -5 } }						
+		}
+	}	
+			HMP_ll_soviets_receive_amtrac2 = {
+allowed = {  original_tag = SOV } 
+available = {  check_variable = { var = SOV_barb_ll_token  value = 20  compare = greater_than_or_equals} date > 1942.1.22 			custom_trigger_tooltip = {	tooltip = SOV_secure_tt	suppy_route_secure = yes}  }      
+		icon = generic_form_nation
+		cost = 0
+		fire_only_once = no
+		complete_effect  = {
+					if = { limit = { USA = { has_tech = amphibious_mechanized_infantry }}   add_equipment_to_stockpile = {  type = amphibious_mechanized_equipment_1 amount = 5000 producer = USA }    }
+		else_if = { limit = { ENG = { has_tech = amphibious_mechanized_infantry }}   add_equipment_to_stockpile = {  type = amphibious_mechanized_equipment_1 amount = 5000 producer = ENG }    }
+		else_if = { limit = { CAN = { has_tech = amphibious_mechanized_infantry }}   add_equipment_to_stockpile = {  type = amphibious_mechanized_equipment_1 amount = 5000 producer = CAN }    }
+		else_if = { limit = { AST = { has_tech = amphibious_mechanized_infantry }}   add_equipment_to_stockpile = {  type = amphibious_mechanized_equipment_1 amount = 5000 producer = AST }    }
+		else_if = { limit = { RAJ = { has_tech = amphibious_mechanized_infantry }}   add_equipment_to_stockpile = {  type = amphibious_mechanized_equipment_1 amount = 5000 producer = RAJ }    }
+		else_if = { limit = { SAF = { has_tech = amphibious_mechanized_infantry }}   add_equipment_to_stockpile = {  type = amphibious_mechanized_equipment_1 amount = 5000 producer = SAF }    }
+		else_if = { limit = { NZL = { has_tech = amphibious_mechanized_infantry }}   add_equipment_to_stockpile = {  type = amphibious_mechanized_equipment_1 amount = 5000 producer = NZL }    }
+		else = { add_equipment_to_stockpile = {  type = amphibious_mechanized_equipment_1 amount = 5000 producer = SWE }    }
+		SOV = { add_to_variable = {  var = SOV_barb_ll_token   value = -20 } }						
+		}
+	}	
+}
+
+spy_agency = {
+	dont_show_agency_warning = {
+		allowed = {	normally_played_country = yes 	}
+		visible = {	NOT = { has_country_flag = no_agency_warning }	}
+		fire_only_once = no
+		complete_effect = { hidden_effect = {	set_country_flag = no_agency_warning	}	}
+	}
+	show_agency_warning = {
+		allowed = {	normally_played_country = yes 	}
+		visible = {	has_country_flag = no_agency_warning	}
+		fire_only_once = no
+		complete_effect = {	hidden_effect = {	clr_country_flag = no_agency_warning	}	}
+	}
+	spy_agency_upgrade = {
+		icon = generic_industry
+		allowed = {	always = no	}
+		available = {
+			hidden_trigger = {
+				OR = {
+					ROOT = {check_variable = {modifier@ai_license_acceptance < -500}}
+					has_country_flag = no_agency_warning
+				}
+			}
+		}
+		activation = {	}
+		fire_only_once = no
+		days_mission_timeout = 14
+		timeout_effect = {	activate_mission = spy_agency_upgrade2	}
+	}
+	spy_agency_upgrade2 = {
+		icon = generic_industry	
+		allowed = {	always = no	}
+		available = {
+			hidden_trigger = {
+				OR = {
+					ROOT = {check_variable = {modifier@ai_license_acceptance < -500}}
+					has_country_flag = no_agency_warning
+				}
+			}
+		}
+		activation = {	}
+		fire_only_once = no
+		days_mission_timeout = 14
+		timeout_effect = {	activate_mission = spy_agency_upgrade	}
+	}
+}
+
+
+propaganda_effortsx = {
+	USA_execute_war_plan_silver = {
+		icon = generic_operation
+		allowed = { OR = { tag = USA tag = ENG } }
+		visible = { NOT = { has_global_flag = USA_war_plan_silver_done }   		OR = { USA = { has_completed_focus = USA_war_plan_silver }	has_completed_focus = ENG_overlord_states }   }
+		fire_only_once = yes
+		complete_effect = { 
+		set_global_flag = war_plan_silver_done
+		add_timed_idea = { idea = war_plan_silver days = 182 }  	
+every_country = {
+ if = {  limit = { is_in_faction_with = ENG  }
+  add_timed_idea = { idea = war_plan_silver days = 182 }  } }
+}
+}
+		USA_execute_war_plan_black = {
+		icon = generic_operation
+		allowed = { OR = { tag = USA tag = ENG } }
+		visible = { NOT = { has_global_flag = USA_war_plan_black_done }   		OR = { USA = { has_completed_focus = USA_war_plan_black }	has_completed_focus = ENG_overlord_states }   }
+		fire_only_once = yes
+		complete_effect = { 
+		set_global_flag = war_plan_black_done
+		add_timed_idea = { idea = war_plan_black days = 182 }  	
+every_country = {
+ if = {  limit = { is_in_faction_with = ENG  }
+  add_timed_idea = { idea = war_plan_black days = 182 }  } }
+}
+}
+	USA_execute_war_plan_orange = {
+		icon = generic_operation
+		allowed = { tag = USA }
+		available = {	has_completed_focus = USA_war_plan_orange	}
+		fire_only_once = yes
+		
+		complete_effect = { 
+		add_timed_idea = { idea = war_plan_yellowx days = 182 }  	
+every_country = {
+ if = {  limit = { is_in_faction_with = ENG  }
+  add_timed_idea = { idea = war_plan_yellowx days = 182 }  } }
+}
+} 
+USA_puppet_mexico = {
+	allowed = {	original_tag = USA	}
+	available = {	MEX = { has_war_with = GER	is_ai = yes 	}	date > 1941.1.1 	}
+	fire_only_once = yes
+	cost = 0
+	complete_effect = {	USA = { 	set_autonomy = {	target = MEX	autonomy_state = autonomy_colony	}	}		}
+		}
+	
+	public_support_for_fra = {
+		icon = eng_install_government
+		allowed = {	OR = { original_tag = ENG original_tag = USA } 	}
+		available = {	OR = {	political_power_daily > 0.4	has_political_power > 50	}	}
+		visible = {	FRA = { has_capitulated = yes }  FRA = { has_legitimacy < 100   }	}
+		modifier = {	political_power_cost = 0.4	}
+		targeted_modifier = {
+			tag = FRA
+			targeted_legitimacy_daily = 0.1
+		}
+		days_remove = 120
+	}
+		joint_training_exercise = {
+		icon = eng_blackshirt_march
+		cost = 0
+		days_re_enable = 270
+		allowed = {	original_tag = ENG 	}
+		custom_cost_trigger = {	command_power > 25 }
+		custom_cost_text = custom_cost_joint_training_exercise
+		available = {  FROM = {	has_legitimacy > 35	any_war_score > 9    }}
+		visible = {	FROM = { 	is_exiled_in = ROOT	has_legitimacy > 25   }	}
+		target_array = exiles
+		target_trigger = { FROM = { is_exiled_in = ENG } }
+		complete_effect = {
+			army_experience = 25
+			FROM = {	army_experience = 25	}
+			hidden_effect = {	add_command_power = -25 }
+		}
+		}
+	}
+
+	operations = {
+	GER_fall_weiss = { 
+		icon = ger_reichskommissariats
+		fire_only_once = yes		
+		allowed = { tag = GER }	
+		available = { has_country_flag = danzing	}		
+		cost = 0
+		complete_effect = {		
+		hidden_effect = { 		ENG = { add_to_faction = POL }  }
+                    declare_war_on = {
+                        target = POL
+                        type = annex_everything
+                    }
+				hidden_effect = { 
+				declare_war_on_all_allies = yes
+				country_event = { id = germany.110 days = 3 }   
+				 }
+
+		}
+	}
+			GER_fall_rot = {
+		icon = ger_reichskommissariats
+		fire_only_once = yes		
+		allowed = {  tag = GER }	
+		available = {  has_war_with = ENG }		
+		visible = { NOT = { has_war_with = FRA }}
+		cost = 0
+		complete_effect = {		
+                    declare_war_on = {
+                        target = FRA
+                        type = annex_everything
+                    }	
+		hidden_effect = { 		
+		FRA = { add_to_war = { targeted_alliance = ENG enemy = SPR } }
+			FRA = { add_to_war = { targeted_alliance = ENG enemy = ROM } }
+			FRA = { add_to_war = { targeted_alliance = ENG enemy = HUN } }	
+			}
+					
+		
+				}
+			}		
+	GER_fall_gelb = {
+		icon = ger_reichskommissariats
+		fire_only_once = yes	
+		allowed = { 	tag = GER 	}
+		available = { has_war_with = ENG	}
+		cost = 0
+		complete_effect = {
+				hidden_effect = {  ENG = { add_to_faction = HOL }  }
+			declare_war_on = {
+				target = HOL
+				type = annex_everything
+			}
+							hidden_effect = { 
+			HOL = { add_to_war = { targeted_alliance = ENG enemy = SPR } }
+			HOL = { add_to_war = { targeted_alliance = ENG enemy = ROM } }
+			HOL = { add_to_war = { targeted_alliance = ENG enemy = HUN } }	
+							}
+
+		
+		}		
+	}
+	GER_fall_gelb2 = {
+		icon = ger_reichskommissariats
+		fire_only_once = yes	
+		allowed = { 	tag = GER 	}
+		available = {  has_war_with = ENG	}
+		cost = 0
+		complete_effect = {
+				hidden_effect = {   ENG = { add_to_faction = BEL } }
+			declare_war_on = {
+				target = BEL
+				type = annex_everything
+			}	
+					hidden_effect = {  		
+					BEL = { add_to_war = { targeted_alliance = ENG enemy = SPR } }
+			BEL = { add_to_war = { targeted_alliance = ENG enemy = ROM } }
+			BEL = { add_to_war = { targeted_alliance = ENG enemy = HUN } } 
+			}
+
+			
+		} 
+	}
+	GER_fall_blau_op= { 
+		icon = ger_reichskommissariats
+		fire_only_once = yes	
+		allowed = { 	tag = GER 	}
+		available = { 	date > 1942.6.20 has_war_with = SOV }	
+		cost = 0		
+		complete_effect = {
+				add_ideas = GER_blau 	
+			hidden_effect={  
+				ROM = {add_ideas = GER_blau }
+				HUN = {	add_ideas = GER_blau }
+				ITA = {	add_ideas = GER_blau }
+				SPR = {	add_ideas = GER_blau }
+					}
+			custom_effect_tooltip = GER_barbarossa_others_text
+			custom_effect_tooltip =	GER_blau_text
+		}	
+	}
+	GER_weserbung_operation = { 
+		icon = ger_reichskommissariats
+		fire_only_once = yes	
+		allowed = { 	tag = GER 	}
+		available = { 	has_war_with = ENG	}	
+		cost = 0		
+		complete_effect = {				
+			add_tech_bonus = {
+				name = tp_bonus
+				bonus = 1.0
+				ahead_reduction = 2
+				uses = 1
+				category = tp_tech
+			}
+					hidden_effect = {  	ENG = { add_to_faction = DEN }  }
+			declare_war_on = {
+				target = DEN
+				type = annex_everything
+			}	
+					hidden_effect = { 
+				DEN = { add_to_war = { targeted_alliance = ENG enemy = SPR } }
+			DEN = { add_to_war = { targeted_alliance = ENG enemy = ROM } }
+			DEN = { add_to_war = { targeted_alliance = ENG enemy = HUN } }  
+			}
+
+								
+		}	
+	}
+	
+	GER_weserbung_operation2 = { 
+		icon = ger_reichskommissariats
+		fire_only_once = yes	
+		allowed = { 	tag = GER 	}
+		available = {  NOT = { DEN = { controls_state = 99 }}	}	
+		visible = { NOT = { has_war_with = NOR }}
+		cost = 0		
+		complete_effect = {
+	hidden_effect = { 
+			if = { limit = { NOR = { is_ai = no }}  NOR = { transfer_state = 752 }  }
+			SWE = { country_event = { id = poland.100 days = 13 }}
+			NOR = { add_timed_idea = { idea = NOR_no_surrender  days = 16 } }
+			}
+			declare_war_on = {
+				target = NOR
+				type = annex_everything
+			}	
+					hidden_effect = {  
+					ROM = { add_to_war = { targeted_alliance = GER enemy = NOR } }
+			SPR = { add_to_war = { targeted_alliance = GER  enemy = NOR } }
+			HUN = { add_to_war = { targeted_alliance = GER enemy = NOR } }
+			}
+
+			
+		}	
+	}
+	
+	
+		GER_unt_barb = { 
+		icon = ger_reichskommissariats
+		fire_only_once = yes	
+		allowed = { 	tag = GER 	}
+		available = { 	date > 1941.6.21	}	
+		cost = 0		
+		complete_effect = {
+			FIN = { country_event = { id = italy.604 days = 1 }}
+
+			add_ideas = GER_barbarossa 	
+			hidden_effect={  
+				ROM = {add_ideas = GER_barbarossa }
+				HUN = {	add_ideas = GER_barbarossa }
+				ITA = {	add_ideas = GER_barbarossa }
+				SPR = {	add_ideas = GER_barbarossa }
+					}
+			custom_effect_tooltip = GER_barbarossa_others_text
+			custom_effect_tooltip = GER_barb_buff_tt
+			
+			hidden_effect = { 
+			country_event = { id = news.153 days = 1 }
+			ENG = { diplomatic_relation = { country = SOV  relation = docking_rights   active = yes } }	
+			SOV = { country_event = { id = soviet.501 days = 630 } } 
+			SOV = { add_ideas = tot_economic_mobilisation activate_decision = women_in_the_workforce add_political_power = -250  }
+			SOV = { activate_mission = SOV_relocation  } 
+			}		
+			if = { limit = { has_idea = extensive_conscription } 		add_ideas = service_by_requirement  }
+			
+				country_event = { id = fincon.2 days = 7 }
+			declare_war_on = {
+				target = SOV 
+				type = annex_everything
+			}
+					hidden_effect = {  
+					ITA = { add_to_war = { targeted_alliance = GER enemy = SOV } }
+		HUN = { add_to_war = { targeted_alliance = GER enemy = SOV } }
+		ROM = { add_to_war = { targeted_alliance = GER enemy = SOV } }			
+		SPR = { add_to_war = { targeted_alliance = GER enemy = SOV } } 
+		}
+
+				
+					
+		}	
+	}
+	
+	
+			GER_zit = { 
+		icon = ger_reichskommissariats
+		fire_only_once = yes	
+		allowed = { 	tag = GER 	}
+		available = { 	date > 1943.6.21   has_war_with = SOV	}	
+		cost = 0		
+		complete_effect = {
+			add_ideas = GER_barbarossa_zit 	
+			hidden_effect={  
+				ROM = {add_ideas = GER_barbarossa_zit }
+				HUN = {	add_ideas = GER_barbarossa_zit }
+				ITA = {	add_ideas = GER_barbarossa_zit }
+				SPR = {	add_ideas = GER_barbarossa_zit }
+					}
+			custom_effect_tooltip = GER_barbarossa_others_text
+			custom_effect_tooltip = GER_barb_buff3_tt			
+					
+		}	
+	}
+	
+	
+	
+GER_desert_flower_dec = {
+	icon = generic_operation
+	allowed = { tag = GER }
+	available = {			OR = {
+					controls_state = 676 
+					any_other_country = {
+						is_in_faction_with = GER
+						controls_state = 676
+					}
+				} }
+	modifier = {civilian_factory_use = 10	}
+	fire_only_once = yes
+	days_remove = 150
+	complete_effect = {
+		676 = { set_building_level = {
+					type = infrastructure
+					level = 10
+					instant_build = yes
+				}		} 
+				}
+			}
+			
+	GER_do_anschluss = { 
+	icon = generic_operation
+	allowed = { tag = GER }
+	available = {	has_completed_focus = GER_rhineland date > 1938.1.1 }
+	cost = 0		
+	fire_only_once = yes
+	complete_effect = {
+		army_experience = 10
+		add_political_power = 75
+		add_war_support = 0.1
+		add_stability = 0.05
+		add_named_threat = { threat = 10 name = germany.4.t }
+		4 = { add_core_of = GER }
+		152 = {	add_core_of = GER }
+		153 = {	add_core_of = GER }
+		transfer_state = 4 transfer_state = 152 SWE = { transfer_state = 153 } transfer_state = 153		
+		hidden_effect = {
+		news_event = { hours = 6 id = news.36 }
+		AUS = { remove_state_core = 152 remove_state_core = 153	remove_state_core = 4	}
+				}
+			}
+		}
+				
+GER_case_anton = {
+	icon = generic_prepare_civil_war		
+	allowed = { OR = { tag = EFR tag = GER }}				
+	visible = {	date > 1948.1.1	}		
+		available =  {
+		OR = { 
+		NOT = { EFR = { controls_state = 460 } }   
+		NOT = { EFR = { controls_state = 22 } } 
+		NOT = { EFR = { controls_state = 31 } }
+		NOT = { EFR = { controls_state = 21 } }
+			}
+		}	
+		activation = { AND = { EFR = { has_war_with = ENG } NOT = { EFR = { has_completed_focus = VIC_join_axis }} NOT = { OR = { is_puppet_of = GER is_in_faction_with = GER     }}        }     }
+		days_mission_timeout = 90	
+		timeout_effect = {  	GER = { add_to_faction = EFR } EFR = { add_to_variable={vichy_legitimacy_mechanic_stability_factor=0.2} }	}
+		complete_effect = {	GER = { puppet = EFR }	
+		if = { limit = { EFR = { is_ai = no }}  EFR = { add_ideas = CHI_illegal_regime } 	}
+		}
+	}
+	    GER_annex_vichy = {
+		icon = generic_operation
+		allowed = {	original_tag = GER	}
+		available = {
+		EFR = { is_ai = yes }
+		OR = { 
+			EFR = { is_puppet_of = GER	}
+			AND = { EFR = { is_puppet = no 	 is_in_faction_with = GER  } }
+			}
+		}		
+		cost = 0				
+		fire_only_once = yes
+		complete_effect = {
+							if = { limit = { EFR = { has_country_flag = host } } GER = { set_country_flag = host }  EFR = { clr_country_flag = host }  }
+
+		annex_country = { target = EFR		}
+						every_state = { limit = { is_core_of = EFR }  set_compliance = 100 } 
+			}
+		}
+	
+    GER_annex_hungary = {
+		icon = generic_operation
+		allowed = {	original_tag = GER	}
+		available = { HUN = {  is_ai = yes  } date > 1941.5.1	NOT = {  has_start_date > 1936.01.02    }}		
+		cost = 0		
+		fire_only_once = yes
+		complete_effect = {
+				annex_country = {
+					target = HUN
+					transfer_troops = yes 
+				}
+				every_state = { limit = { is_core_of = HUN }  set_compliance = 100 } 
+		}
+	}
+	GER_barbarossa_mission = {
+
+		icon = generic_operation
+
+		allowed = {
+			always = no
+			original_tag = GER
+		}
+
+		available = {
+				OR = { any_allied_country = { 	has_full_control_of_state = 219 }
+			GER  = { 	has_full_control_of_state = 219 }
+			}
+	OR = { any_allied_country = { 	has_full_control_of_state = 195 }
+			GER  = { 	has_full_control_of_state = 195 }
+			}			
+	OR = { any_allied_country = { 	has_full_control_of_state = 202 }
+			GER  = { 	has_full_control_of_state = 202 }
+			}			
+				OR = { any_allied_country = { 	has_full_control_of_state = 217 }
+			GER  = { 	has_full_control_of_state = 217 }
+			}
+		}
+
+		days_mission_timeout = 180
+		fire_only_once = yes
+
+		activation = {
+
+		}
+
+		is_good = no
+
+		complete_effect = {
+			add_war_support = 0.1
+			custom_effect_tooltip = barbarossa_mission_tt
+		}
+
+		timeout_effect = {
+			
+		}
+	}
+	    GER_annex_spr = {
+		icon = generic_operation
+		allowed = {	original_tag = GER	}
+		available = { SPR = {  is_ai = yes  } date > 1940.5.1	}		
+		cost = 0		
+		fire_only_once = yes
+		complete_effect = {
+
+			   hidden_effect {
+		  add_resource = { type = steel state = 41 amount = -100 }
+		  add_resource = { type = steel state = 64 amount = 100 }			 
+			  # SPR = { leave_faction = yes }
+			    SPR_relocate_civs_mils = yes
+			    SPR_relocate_civs_mils = yes
+				SPR_relocate_civs_mils = yes
+				SPR_relocate_civs_mils = yes
+				SPR_relocate_civs_mils = yes
+				SPR_relocate_civs_mils = yes
+				SPR_relocate_civs_mils = yes
+				SPR_relocate_civs_mils = yes
+				SPR_relocate_civs_mils = yes
+				SPR_relocate_civs_mils = yes
+				SPR_relocate_civs_mils = yes
+				SPR_relocate_civs_mils = yes
+				annex_country = {
+					target = SPR
+					transfer_troops = yes 
+				}
+				release = SPR 
+				SPR = { set_equipment_fraction = 0 }
+			}
+			custom_effect_tooltip = GER_annex_spain_tt
+		}
+	}
+	GER_dday = { 
+	 	available = {
+		date > 1939.10.1
+			FRA =  { has_capitulated = yes }
+			GER = { has_full_control_of_state = 19 has_full_control_of_state = 6 has_full_control_of_state = 7 has_full_control_of_state = 35 has_full_control_of_state = 142    } 
+				}
+				allowed = {	always = no } #TO-DO: Make this decision better
+				fire_only_once = yes
+				cost = 0
+				visible = {
+	#	
+		}
+				complete_effect = {	
+				load_oob = "GER_dday_inf"
+				}
+	}
+	
+	GER_barbarossa_inf = {
+		available = {
+		date > 1941.1.1
+		NOT = { has_completed_focus = GER_anti_comitern_pact }
+		has_manpower > 1545000 
+				}
+
+				allowed = {
+					tag = GER
+				}
+				
+				
+				fire_only_once = yes
+
+				cost = 0
+
+				visible = {
+		NOT = { has_completed_focus = GER_anti_comitern_pact }
+
+				}
+			
+				complete_effect = {	
+				load_oob = "GER_barbarossa_inf"
+				add_manpower = -1545000
+			}
+		}
+		GER_begin_heavy_water_production = {
+		allowed = {	original_tag = GER 	}
+		available = { has_completed_focus = GER_wunderwaffe	}
+		cost = 0
+
+		cancel_trigger = { NOT = { GER = { controls_state = 110 }}	} 
+		days_remove = 1000
+		complete_effect = { ENG = { country_event = { id = ger_heavy.1 }}}
+		remove_effect = {
+			add_tech_bonus = {
+				name = GER_heavy_water
+				technology = nukes
+				uses = 1
+				bonus = 3.5
+			}
+			set_technology = { nuclear_reactor = 1 }
+		}
+		complete_effect = { set_global_flag = GER_heavy_water_production_underway }
+		}
+ 
+
+	FRA_move_capital_gabon = {
+icon = generic_operation
+		allowed = { original_tag = FRA }
+		available = {	has_capitulated = yes 	}
+		visible = {FRA = { controls_state = 539 }	}	
+		cost = 0	
+		fire_only_once = no
+		complete_effect = {	FRA = { set_capital = 539 }	}
+}
+
+    FRA_annex_saf = {
+		icon = generic_operation
+		allowed = {	original_tag = CAN	}
+		available = {	SAF = { 	is_ai = yes 	}	date > 1941.5.1	NOT = {  has_start_date > 1936.01.02    }	}		
+		cost = 0					
+		fire_only_once = yes
+		complete_effect = {	
+		if = { limit = { NOT = { SAF = { has_completed_focus = SAF_secure_interests_in_africa }}}	
+					transfer_state = 542
+					transfer_state = 545
+					transfer_state = 771
+					transfer_state = 770
+					transfer_state = 546
+					transfer_state = 547
+					transfer_state = 548
+		}
+
+			if = {
+				limit = {
+					SAF = {	has_tech = excavation1	}
+					NOT = { CAN = { has_tech = excavation1 }}
+				}
+				set_technology = {	excavation1 = 1	}
+			}
+
+			if = {
+				limit = {
+					SAF = {	has_tech = excavation2	}
+					NOT = { CAN = { has_tech = excavation2 }}
+				}
+				set_technology = {	excavation2 = 1	}
+			}
+
+			if = {
+				limit = {
+					SAF = {	has_tech = excavation2	}
+					NOT = { CAN = { has_tech = excavation2 }}
+				}
+				set_technology = {	excavation3 = 1	}
+			}
+
+			if = {
+				limit = {
+					SAF = {	has_tech = excavation4	}
+					NOT = { CAN = { has_tech = excavation4 }}
+				} 	
+				set_technology = {	excavation4 = 1	}
+			}
+
+			if = {
+				limit = {
+					SAF = {	has_tech = excavation5	}
+					NOT = { CAN = { has_tech = excavation5 }}			
+					}
+				set_technology = { excavation5 = 1 }
+			}
+
+		    CAN = {
+			set_cosmetic_tag = CAN_ATLANTIC_DEMOCRATIC
+			every_state = { limit = { is_core_of = SAF } PREV = { add_core_of = CAN }}
+				annex_country = {
+					target = SAF
+					transfer_troops = yes 
+				}
+			}
+		}
+	}
+	}
+
+	political_actions = {
+	    mers_el_kebir = {
+		icon = generic_civil_support
+
+        allowed = {
+            original_tag = ENG
+        }
+
+        cost = 0
+		
+        fire_only_once = yes
+
+        available = {
+			date > 1940.10.3
+		}
+		
+		complete_effect = {
+		random_unit_leader = {
+                limit = { has_id = 983 }
+				add_unit_leader_trait = fleet_protector
+				add_unit_leader_trait = destroyer_leader
+				add_unit_leader_trait = green_water_expert
+            }
+
+		}
+	}
+	
+	operation_countenance = {
+	icon = generic_civil_support
+
+        allowed = {
+            original_tag = ENG
+        }
+
+        cost = 0
+		
+        fire_only_once = yes
+
+        available = {
+		controls_state = 446
+		date > 1940.4.1
+			}
+		
+		
+		complete_effect = {
+				SOV = { country_event = { id = iran.2 }}
+				 country_event = { id = iran.3 }
+				hidden_effect = { 412 = { add_building_construction = { type = infrastructure	level = 10	instant_build = yes}}}		
+				}
+	}
+	
+	
+	
+	operation_torch = {  
+
+	    icon = generic_civil_support 
+
+        allowed = {
+            original_tag = ENG
+        }
+
+        cost = 0
+		
+        fire_only_once = yes
+
+        available = {
+			OR = { 
+			NOT = { ITA = { controls_state = 448 controls_state = 450 controls_state = 451 }   }
+			date > 1942.3.1
+			
+			}
+		}
+		
+		visible = { NOT = { EFR = { is_in_faction_with = GER }}}
+		
+		complete_effect = {
+					GER =  { activate_mission = GER_case_anton }
+					USA = { country_event = { id = usa.996  days = 0 } }
+			every_country = { limit = { is_in_faction_with = ENG has_war = yes   }
+			EFR = { declare_war_on = { target = PREV type = annex_everything }	}
+				}
+			EFR = { set_technology = { mtg_transport = 1 } } 
+			}	
+		}
+		
+		
+		case_anton_player = {  
+			icon = generic_civil_support
+			allowed = {  original_tag = EFR  }
+			cost = 0
+			fire_only_once = yes
+			visible = { is_subject_of = GER }
+			complete_effect = {
+								if = { limit = { EFR = { has_country_flag = host } } GER = { set_country_flag = host }  EFR = { clr_country_flag = host }  }
+
+				GER = { change_tag_from = EFR } 				
+				GER = { annex_country = { target = EFR  transfer_troops = yes }  	}
+				}	
+		}
+
+	
+		ENG_annex_australia = {
+		icon = generic_operation
+
+		allowed = {
+			original_tag = ENG
+		}
+			
+		available = {
+			date > 1940.7.1
+			OR = {
+			AND = { 
+			country_exists = AST
+			NOT = { country_exists = NZL }
+			AST = { is_ai = yes }
+		}
+		AND = { 
+		country_exists = NZL
+		NOT = { country_exists = AST }
+		NZL = { is_ai = yes }
+		}
+		}
+		}
+	
+		fire_only_once = yes
+
+		cost = 0
+		complete_effect = {
+		if = { limit = { country_exists = AST  } 
+		AST = {
+			    every_unit_leader = {
+				    set_nationality = ENG
+			    }
+				transfer_navy = {
+					target = ENG
+				}
+		    }
+		ENG = { 
+				annex_country = {
+					target = AST
+					transfer_troops = yes 
+				}	
+			}  
+			}
+			if = { limit = { country_exists = NZL  } 
+			NZL = {
+			    every_unit_leader = {
+				    set_nationality = ENG
+			    }
+				transfer_navy = {
+					target = ENG
+				}
+		    }
+		ENG = { 
+				annex_country = {
+					target = NZL
+					transfer_troops = yes 
+				}	
+			}  
+		}
+	}
+	}
+	
+	
+		ENG_annex_saf = {
+		icon = generic_operation
+
+		allowed = {
+			original_tag = ENG
+		}
+			
+		available = {
+		FRA = { is_ai = yes }
+		FRA = { has_capitulated = yes }
+		}
+	
+		fire_only_once = yes
+
+		cost = 0
+			
+		visible = {
+
+		}
+		complete_effect = {
+					ENG = { set_cosmetic_tag = FRA_UK }
+		FRA = { 
+					    every_unit_leader = {
+				    set_nationality = ENG
+			    }
+				}
+				ENG = { 
+				annex_country = {
+					target = FRA
+					transfer_troops = yes 
+				}	
+			}
+				}
+			}
+
+	    ENG_annex_canada = {
+		icon = generic_operation
+		allowed = {	original_tag = ENG	}
+		available = {
+			CAN = { 
+				is_ai = yes 
+			}
+			date > 1940.7.1
+		}
+		cost = 0
+		fire_only_once = yes
+		complete_effect = {
+		CAN = {  every_unit_leader = { set_nationality = ENG  }	}	
+		    ENG = {
+				annex_country = {
+					target = CAN
+					transfer_troops = yes 
+				}
+			}
+		}
+	}
+	 ENG_annex_norway = {
+		icon = generic_operation
+		allowed = {	original_tag = ENG	}
+		available = {	NOR = { 	is_ai = yes 	has_capitulated = yes 	}	}
+		cost = 0
+		visible = {	country_exists = NOR	}
+		fire_only_once = yes
+		complete_effect = {
+		NOR = {  every_unit_leader = {  set_nationality = ENG  }}	
+		    ENG = {
+				annex_country = {
+					target = NOR
+					transfer_troops = yes 
+				}
+			}
+		}
+	}
+		hold_blood_toil_tears_sweat_speech = {
+
+		icon = generic_political_discourse
+
+		allowed = {
+			tag = ENG
+		}
+
+		available = {
+			has_country_leader = { ruling_only = yes name = "Winston Churchill" }
+		}
+
+		cost = 50
+
+		fire_only_once = yes
+
+		complete_effect = {
+			add_stability = 0.05
+			add_war_support = 0.05
+			if = {
+				limit = {
+					USA = {
+						exists = yes
+						has_war = no
+						has_government = ROOT
+					}
+				}
+				USA = { set_country_flag = blood_toil_tears_sweat_speech }
+			}
+			set_country_flag = blood_toil_tears_sweat_speech
+		}
+
+	}
+
+	hold_fight_on_the_beaches_speech = {
+
+		icon = generic_political_discourse
+
+		allowed = {
+			tag = ENG
+		}
+
+		available = {
+			has_country_leader = { ruling_only = yes name = "Winston Churchill" }
+			FRA = {
+				surrender_progress > 0.2
+			}
+		}
+
+		cost = 50
+
+		fire_only_once = yes
+
+		visible = {
+			has_country_flag = blood_toil_tears_sweat_speech
+		}
+
+		complete_effect = {
+			add_war_support = 0.05
+			if = {
+				limit = {
+					USA = {
+						exists = yes
+						has_war = no
+						has_government = ROOT
+					}
+				}
+				USA = { set_country_flag = fight_on_the_beaches_speech }
+			}
+			set_country_flag = fight_on_the_beaches_speech
+		}
+	}
+
+	hold_this_was_their_finest_hour_speech = {
+
+		icon = generic_political_discourse
+
+		allowed = {
+			tag = ENG
+		}
+
+		available = {
+			has_country_leader = { ruling_only = yes name = "Winston Churchill" }
+			FRA = { has_capitulated = yes }
+		}
+
+		cost = 50
+
+		fire_only_once = yes
+
+		visible = {
+			has_country_flag = fight_on_the_beaches_speech
+		}
+
+		complete_effect = {
+			add_war_support = 0.05
+			if = {
+				limit = {
+					USA = {
+						exists = yes
+						has_war = no
+						has_government = ROOT
+					}
+				}
+				USA = { set_country_flag = this_was_their_finest_hour_speech }
+			}
+			set_country_flag = this_was_their_finest_hour_speech
+		}
+	}
+	
+		give_refuge_ger = {
+		icon = generic_research
+        allowed = {  OR = {  original_tag = ENG     original_tag = USA  original_tag = FRA   original_tag = CAN  }   }
+        cost = 100
+        fire_only_once = yes     
+        days_remove = -1
+        modifier = {   research_speed_factor = 0.05   stability_factor = -0.05   }
+    }
+    give_refuge_ita = {
+    	icon = generic_research
+        allowed = {  OR = {  original_tag = ENG     original_tag = USA  original_tag = FRA   original_tag = CAN  }   }
+        cost = 100
+        fire_only_once = yes
+        days_remove = -1
+        modifier = {   research_speed_factor = 0.05    stability_factor = -0.05   }
+    }
+
+    anti_fascist_raids = {
+    	icon = generic_civil_support
+		allowed = { 
+		OR = { 
+		tag = SOV
+		tag = RAJ
+		tag = AST
+		tag = NZL
+		tag = SPR
+		tag = ENG
+		tag = SAF
+		tag = USA
+		tag = CAN
+		tag = FRA
+		tag = MEX
+		tag = NOR 
+		}
+		}
+		available = {   fascism > 0.05    }
+		modifier = {	fascism_drift = -0.05	stability_weekly = 0.007	}
+		days_remove = 120
+		cost = 50
+		complete_effect = {	add_stability = -0.1	}	
+		remove_effect = {	}
+    }
+
+    anti_democratic_raids = {
+    	icon = generic_civil_support
+    	visible = {	NOT = { has_government = democratic }	}
+			allowed = { 
+	OR = {	
+		tag = SOV
+		tag = JAP
+		tag = RAJ
+		tag = MAN
+		tag = ROM
+		tag = HUN
+		tag = SPR
+		tag = GER
+		tag = EFR
+		tag = ITA
+		tag = MEX
+		tag = NOR  }
+		}
+		available = {   democratic > 0.05     }
+		modifier = {	democratic_drift = -0.05	stability_weekly = 0.007	}
+		days_remove = 120
+		cost = 50
+		complete_effect = {	add_stability = -0.1	}	
+		remove_effect = {	}
+    }
+
+    anti_communist_raids = {
+    	icon = generic_civil_support
+    	visible = {	NOT = { has_government = communism }	}
+		allowed = { 
+		OR = {
+		tag = EFR
+		tag = JAP
+		tag = RAJ
+		tag = AST
+		tag = NZL
+		tag = MAN
+		tag = FRA
+		tag = ROM
+		tag = HUN
+		tag = SPR
+		tag = GER
+		tag = ITA
+		tag = ENG
+		tag = SAF
+		tag = FIN 
+		tag = USA
+		tag = CAN
+		tag = MEX
+		tag = NOR }
+		}	
+		available = {   communism > 0.05   }
+		modifier = { communism_drift = -0.05	stability_weekly = 0.007	}
+		days_remove = 120
+		cost = 50
+		complete_effect = {	add_stability = -0.1	}
+		remove_effect = {	}	
+    }
+	
+			ITA_puppeted_by_GER = {
+		icon = generic_prepare_civil_war
+		allowed = { original_tag  = ITA }
+		activation = { date > 1939.9.1	tag = ITA}
+		available = {	ITA = { has_war_with = ENG }	}		
+		fire_only_once = yes
+		days_mission_timeout = 2400
+		complete_effect = {
+		GER = { 
+		set_autonomy = {  target = ITA  autonomy_state = autonomy_satellite }
+		if = { limit = { ITA = { owns_state = 187 }}  transfer_state =  187 transfer_state = 182 }
+		}
+		set_autonomy = { target = ETH autonomy_state = autonomy_satellite }
+		add_relation_modifier = {
+			target = HUN
+			modifier = stahlpakt
+		} 
+		add_relation_modifier = {
+			target = ROM
+			modifier = stahlpakt
+		} 
+		add_relation_modifier = {
+			target = SPR
+			modifier = stahlpakt
+		} 
+				add_relation_modifier = {
+			target = EFR
+			modifier = stahlpakt
+		} 
+		EFR = { 	diplomatic_relation = {    country = ITA    relation = military_access   active = yes  } }
+		add_opinion_modifier = {
+			target = SOV
+			modifier = anti_cross_faction_trade
+		}	
+		}
+		timeout_effect = {
+		}
+	}
+	   ITA_annex_romania = {
+		icon = generic_operation
+		allowed = {	original_tag = ITA	}
+		available = {
+			ROM = {  is_ai = yes }
+			date > 1940.5.1
+		}		
+		cost = 0	
+		fire_only_once = yes
+		complete_effect = {
+			if = {
+				limit = {
+				NOT = { ITA = { has_tech = excavation5  }}
+				ROM = {	has_tech = excavation3	}
+				}
+				set_technology = { excavation3 = 1	}
+			}
+			if = {
+				limit = {
+				NOT = { ITA = { has_tech = excavation5  }}
+				ROM = {	has_tech = excavation4	}
+				}
+				set_technology = { excavation4 = 1	}
+			}
+			if = {
+				limit = {
+				NOT = { ITA = { has_tech = excavation5  }}
+				ROM = {	has_tech = excavation5	}
+				}
+				set_technology = { excavation5 = 1	}
+			}
+
+		    ITA = {
+				annex_country = {
+					target = ROM
+					transfer_troops = yes 
+				}
+			}
+			
+			if = { limit = { SOV = { NOT = { controls_state = 78}}}
+			ITA = { transfer_state = 78  transfer_state = 766 transfer_state = 80 }
+			}
+			every_state = { limit = { is_core_of = ROM } set_compliance = 100 } 
+		}
+	}
+	SAF_rhodesia = {
+allowed = {original_tag = SAF}
+	available = {
+		has_completed_focus = SAF_secure_interests_in_africa
+		545 = { is_fully_controlled_by = ENG }
+		542 = { is_fully_controlled_by = ENG }
+		}	
+		cost = 0
+		
+		complete_effect = {
+				transfer_state = 545 
+				transfer_state = 542 
+				545 = { add_extra_state_shared_building_slots = 2 }
+				542 = { add_extra_state_shared_building_slots = 2 }		
+		}
+
+}
+SAF_zambia = {
+allowed = {original_tag = SAF}
+	available = {
+		has_completed_focus = SAF_secure_interests_in_africa
+		770 = { is_fully_controlled_by = ENG }
+		771 = { is_fully_controlled_by = ENG }
+		545 = { is_fully_controlled_by = SAF }
+		542 = { is_fully_controlled_by = SAF }
+		}	
+		cost = 0		
+		complete_effect = {
+		transfer_state = 770 
+		transfer_state = 771 
+		770 = { add_extra_state_shared_building_slots = 2 }
+		771 = { add_extra_state_shared_building_slots = 2 }
+		}
+}
+
+SAF_east_africa = {
+allowed = { original_tag = SAF }
+	available = {
+		has_completed_focus = SAF_secure_interests_in_africa
+		546 = { is_fully_controlled_by = ENG }
+		547 = { is_fully_controlled_by = ENG }
+		548 = { is_fully_controlled_by = ENG }
+		770 = { is_fully_controlled_by = SAF }
+		771 = { is_fully_controlled_by = SAF }
+		}
+		cost = 0
+		complete_effect = {
+		transfer_state = 546 
+		transfer_state = 547
+		transfer_state = 548 
+		546 = { add_extra_state_shared_building_slots = 2 }
+		547 = { add_extra_state_shared_building_slots = 2 }
+		548 = { add_extra_state_shared_building_slots = 2 }
+		}
+
+}
+	
+	
+	AST_annex_nzl = {
+		icon = generic_operation
+			allowed = {	tag = AST	}
+			available = {	NZL = { is_ai = yes } date > 1939.9.1	}
+			fire_only_once = yes
+			cost = 0
+			visible = { country_exists = NZL }
+			complete_effect = {
+					
+			NZL = { 
+			   every_unit_leader = { set_nationality = AST    }
+				transfer_navy = {	target = AST	}
+				remove_state_core = 723   remove_state_core = 284
+			}
+			AST = { 	annex_country = { target = NZL	transfer_troops = yes 	}}
+		}
+}
+	    NZL_annex_australia = {
+		icon = generic_operation
+		allowed = {	original_tag = NZL	}
+		available = {
+			AST = { is_ai = yes }
+			date > 1940.7.1
+		}	
+		cost = 0
+			
+		fire_only_once = yes
+	
+		complete_effect = {
+				add_state_core = 674
+				add_state_core = 519
+				add_state_core = 522
+				add_state_core = 520
+				add_state_core = 521
+				add_state_core = 285
+				add_state_core = 517
+				add_state_core = 518
+				add_state_core = 523
+				add_state_core = 737
+                add_state_core = 634	
+AST = { 
+				 every_unit_leader = {   set_nationality = NZL  }
+				transfer_navy = {	target = NZL	}
+				}
+				annex_country = {
+					target = AST
+					transfer_troops = yes 
+				}	
+                set_cosmetic_tag = NZL_AUSTRALIA		
+			AST = {
+				remove_state_core = 674
+				remove_state_core = 519
+				remove_state_core = 522
+				remove_state_core = 520
+				remove_state_core = 521
+				remove_state_core = 285
+				remove_state_core = 517
+				remove_state_core = 518
+				remove_state_core = 523
+				remove_state_core = 737
+                remove_state_core = 634
+			}
+		}
+	}
+	
+			fp_attache = {
+				icon = generic_form_nation
+				cost = 100
+				allowed = {  OR = { tag = GER tag = ENG tag = FRA tag = USA tag = CAN tag = MEX tag = SAF tag = RAJ tag = NOR tag = MAN } }
+				available = { command_power > 49.99 date < 1939.9.1 }			
+				fire_only_once = yes	
+				complete_effect  = {	add_ideas = fp_attache_idea 	}
+		}	
+	}
+
+HMP_templates = {
+	HMP_templates_20w = {
+		allowed = {  normally_played_country = yes }
+		fire_only_once = no
+		complete_effect = {
+			division_template = {
+					name = "10/0/0 + ENG/AA/SART/SRART"
+					regiments = {
+						infantry = { x = 0 y = 0 } infantry = { x = 1 y = 0 } infantry = { x = 2 y = 0 }
+						infantry = { x = 0 y = 1 } infantry = { x = 1 y = 1 } infantry = { x = 2 y = 1 }
+						infantry = { x = 0 y = 2 } infantry = { x = 1 y = 2 } infantry = { x = 2 y = 2 }
+						infantry = { x = 0 y = 3 }
+					}
+					support = { engineer = { x = 0 y = 0 } anti_air = { x = 0 y = 1 } artillery = { x = 0 y = 2 }  rocket_artillery = { x = 0 y = 3 }  }
+				}
+			division_template = {
+				name = "10/0/0 + AA"
+					regiments = {
+						infantry = { x = 0 y = 0 } infantry = { x = 1 y = 0 } infantry = { x = 2 y = 0 }
+						infantry = { x = 0 y = 1 } infantry = { x = 1 y = 1 } infantry = { x = 2 y = 1 }
+						infantry = { x = 0 y = 2 } infantry = { x = 1 y = 2 } infantry = { x = 2 y = 2 }
+						infantry = { x = 0 y = 3 }
+					}
+					support = { anti_air = { x = 0 y = 0 }     }
+				}
+			division_template = {
+					name = "9/0/2 + ENG/AA/SART/SRART"
+					regiments = {
+						infantry = { x = 0 y = 0 } infantry = { x = 1 y = 0 } infantry = { x = 2 y = 0 } anti_tank_brigade = { x = 3 y = 0 }
+						infantry = { x = 0 y = 1 } infantry = { x = 1 y = 1 } infantry = { x = 2 y = 1 } anti_tank_brigade = { x = 3 y = 1 }
+						infantry = { x = 0 y = 2 } infantry = { x = 1 y = 2 } 								
+						infantry = { x = 0 y = 3 }							  								
+					}
+					support = { engineer = { x = 0 y = 0 } anti_air = { x = 0 y = 1 } artillery = { x = 0 y = 2 }  rocket_artillery = { x = 0 y = 3 }  }
+				}
+			division_template = {
+					name = "7/2/0 + ENG/AA/SART/SRART"
+					regiments = {
+						infantry = { x = 0 y = 0 } infantry = { x = 1 y = 0 } infantry = { x = 2 y = 0 } artillery_brigade = { x = 3 y = 0 }
+						infantry = { x = 0 y = 1 } infantry = { x = 1 y = 1 } infantry = { x = 2 y = 1 } artillery_brigade = { x = 3 y = 1 }
+						infantry = { x = 0 y = 2 }  								
+						
+					}
+					support = { engineer = { x = 0 y = 0 } anti_air = { x = 0 y = 1 } artillery = { x = 0 y = 2 }  rocket_artillery = { x = 0 y = 3 }  }
+				}				
+			}
+		}
+		HMP_templates_40w_inf = {
+		allowed = {  normally_played_country = yes }
+		fire_only_once = no
+				complete_effect = {
+					division_template = {
+					name = "20/0/0 + ENG/AA/SART/SRART"
+					regiments = {
+						infantry = { x = 0 y = 0 } infantry = { x = 1 y = 0 } infantry = { x = 2 y = 0 } infantry = { x = 3 y = 0 }
+						infantry = { x = 0 y = 1 } infantry = { x = 1 y = 1 } infantry = { x = 2 y = 1 } infantry = { x = 3 y = 1 }
+						infantry = { x = 0 y = 2 } infantry = { x = 1 y = 2 } infantry = { x = 2 y = 2 } infantry = { x = 3 y = 2 }
+						infantry = { x = 0 y = 3 } infantry = { x = 1 y = 3 } infantry = { x = 2 y = 3 } infantry = { x = 3 y = 3 }
+						infantry = { x = 0 y = 4 } infantry = { x = 1 y = 4 } infantry = { x = 2 y = 4 } infantry = { x = 3 y = 4 }						
+					}
+					support = { engineer = { x = 0 y = 0 } anti_air = { x = 0 y = 1 } artillery = { x = 0 y = 2 }  rocket_artillery = { x = 0 y = 3 }  }
+				}
+			division_template = {
+					name = "20/0/0 + AA"
+					regiments = {
+						infantry = { x = 0 y = 0 } infantry = { x = 1 y = 0 } infantry = { x = 2 y = 0 } infantry = { x = 3 y = 0 }
+						infantry = { x = 0 y = 1 } infantry = { x = 1 y = 1 } infantry = { x = 2 y = 1 } infantry = { x = 3 y = 1 }
+						infantry = { x = 0 y = 2 } infantry = { x = 1 y = 2 } infantry = { x = 2 y = 2 } infantry = { x = 3 y = 2 }
+						infantry = { x = 0 y = 3 } infantry = { x = 1 y = 3 } infantry = { x = 2 y = 3 } infantry = { x = 3 y = 3 }
+						infantry = { x = 0 y = 4 } infantry = { x = 1 y = 4 } infantry = { x = 2 y = 4 } infantry = { x = 3 y = 4 }		
+					}
+					support = { anti_air = { x = 0 y = 0 }     }
+				}
+			division_template = {
+					name = "18/0/4 + ENG/AA/SART/SRART"
+					regiments = {
+						infantry = { x = 0 y = 0 } infantry = { x = 1 y = 0 } infantry = { x = 2 y = 0 } infantry = { x = 3 y = 0 } anti_tank_brigade = { x = 4 y = 0 }
+						infantry = { x = 0 y = 1 } infantry = { x = 1 y = 1 } infantry = { x = 2 y = 1 } infantry = { x = 3 y = 1 } anti_tank_brigade = { x = 4 y = 1 }
+						infantry = { x = 0 y = 2 } infantry = { x = 1 y = 2 } infantry = { x = 2 y = 2 } infantry = { x = 3 y = 2 } anti_tank_brigade = { x = 4 y = 2 }								
+						infantry = { x = 0 y = 3 } infantry = { x = 1 y = 3 } infantry = { x = 2 y = 3 } infantry = { x = 3 y = 3 } anti_tank_brigade = { x = 4 y = 3 }
+						infantry = { x = 0 y = 4 } infantry = { x = 1 y = 4 } 
+					}
+					support = { engineer = { x = 0 y = 0 } anti_air = { x = 0 y = 1 } artillery = { x = 0 y = 2 }  rocket_artillery = { x = 0 y = 3 }  }
+				}
+			division_template = {
+					name = "16/2/2 + ENG/AA/SART/SRART"
+					regiments = {
+						infantry = { x = 0 y = 0 } infantry = { x = 1 y = 0 } infantry = { x = 2 y = 0 } infantry = { x = 3 y = 0 } anti_tank_brigade = { x = 4 y = 0 }
+						infantry = { x = 0 y = 1 } infantry = { x = 1 y = 1 } infantry = { x = 2 y = 1 } infantry = { x = 3 y = 1 } anti_tank_brigade = { x = 4 y = 1 }
+						infantry = { x = 0 y = 2 } infantry = { x = 1 y = 2 } infantry = { x = 2 y = 2 } infantry = { x = 3 y = 2 } artillery_brigade = { x = 4 y = 2 }								
+						infantry = { x = 0 y = 3 } infantry = { x = 1 y = 3 } infantry = { x = 2 y = 3 } infantry = { x = 3 y = 3 } artillery_brigade = { x = 4 y = 3 }
+					}
+					support = { engineer = { x = 0 y = 0 } anti_air = { x = 0 y = 1 } artillery = { x = 0 y = 2 }  rocket_artillery = { x = 0 y = 3 }  }
+				}				
+			division_template = {
+					name = "14/4/0 + ENG/AA/SART/SRART"
+					regiments = {
+						infantry = { x = 0 y = 0 } infantry = { x = 1 y = 0 } infantry = { x = 2 y = 0 } artillery_brigade = { x = 3 y = 0 }
+						infantry = { x = 0 y = 1 } infantry = { x = 1 y = 1 } infantry = { x = 2 y = 1 } artillery_brigade = { x = 3 y = 1 }
+						infantry = { x = 0 y = 2 } infantry = { x = 1 y = 2 } infantry = { x = 2 y = 2 } artillery_brigade = { x = 3 y = 2 }								
+						infantry = { x = 0 y = 3 } infantry = { x = 1 y = 3 } infantry = { x = 2 y = 3 } artillery_brigade = { x = 3 y = 3 }
+						infantry = { x = 0 y = 4 } infantry = { x = 1 y = 4 }
+					}
+					support = { engineer = { x = 0 y = 0 } anti_air = { x = 0 y = 1 } artillery = { x = 0 y = 2 }  rocket_artillery = { x = 0 y = 3 }  }
+				}	
+						division_template = {
+					name = "13/4/2 + ENG/AA/SART/SRART"
+					regiments = {
+						infantry = { x = 0 y = 0 } infantry = { x = 1 y = 0 } infantry = { x = 2 y = 0 } artillery_brigade = { x = 3 y = 0 }
+						infantry = { x = 0 y = 1 } infantry = { x = 1 y = 1 } infantry = { x = 2 y = 1 } artillery_brigade = { x = 3 y = 1 }
+						infantry = { x = 0 y = 2 } infantry = { x = 1 y = 2 } infantry = { x = 2 y = 2 } artillery_brigade = { x = 3 y = 2 }								
+						infantry = { x = 0 y = 3 } infantry = { x = 1 y = 3 } infantry = { x = 2 y = 3 } artillery_brigade = { x = 3 y = 3 }
+						infantry = { x = 0 y = 4 } anti_tank_brigade = { x = 1 y = 4 } anti_tank_brigade = { x = 2 y = 4 }
+					}
+					support = { engineer = { x = 0 y = 0 } anti_air = { x = 0 y = 1 } artillery = { x = 0 y = 2 }  rocket_artillery = { x = 0 y = 3 }  }
+				}
+			} 
+	
+		}
+		
+				HMP_templates_40w_tonk = {
+		allowed = {  normally_played_country = yes }
+		fire_only_once = no
+				complete_effect = {
+					division_template = {
+					name = "11/9 MOT MARM + ENG/MRC/LOGI"
+					regiments = {
+						medium_armor = { x = 0 y = 0 } medium_armor = { x = 1 y = 0 } medium_armor = { x = 2 y = 0 } motorized = { x = 3 y = 0 }	motorized = { x = 4 y = 0 }
+						medium_armor = { x = 0 y = 1 } medium_armor = { x = 1 y = 1 } medium_armor = { x = 2 y = 1 } motorized = { x = 3 y = 1 }	motorized = { x = 4 y = 1 }
+						medium_armor = { x = 0 y = 2 } medium_armor = { x = 1 y = 2 } medium_armor = { x = 2 y = 2 } motorized = { x = 3 y = 2 }	motorized = { x = 4 y = 2 }
+						medium_armor = { x = 0 y = 3 } medium_sp_anti_air_brigade = { x = 1 y = 3 } medium_sp_anti_air_brigade = { x = 2 y = 3 } motorized = { x = 3 y = 3 }	motorized = { x = 4 y = 3 }
+																																					motorized = { x = 4 y = 4 }
+						}											
+					support = { engineer = { x = 0 y = 0 } mot_recon = { x = 0 y = 1 } logistics_company = { x = 0 y = 2 }   }
+				}
+					division_template = {
+					name = "12/8 MEC MARM + ENG/MRC/LOGI"
+					regiments = {
+						medium_armor = { x = 0 y = 0 } medium_armor = { x = 1 y = 0 } medium_armor = { x = 2 y = 0 } mechanized = { x = 3 y = 0 }	mechanized = { x = 4 y = 0 }
+						medium_armor = { x = 0 y = 1 } medium_armor = { x = 1 y = 1 } medium_armor = { x = 2 y = 1 } mechanized = { x = 3 y = 1 }	mechanized = { x = 4 y = 1 }
+						medium_armor = { x = 0 y = 2 } medium_armor = { x = 1 y = 2 } medium_armor = { x = 2 y = 2 } mechanized = { x = 3 y = 2 }	mechanized = { x = 4 y = 2 }
+						medium_armor = { x = 0 y = 3 } medium_sp_anti_air_brigade = { x = 1 y = 3 } medium_sp_anti_air_brigade = { x = 2 y = 3 } mechanized = { x = 3 y = 3 }	mechanized = { x = 4 y = 3 }
+						medium_armor = { x = 0 y = 4 }
+						}											
+					support = { engineer = { x = 0 y = 0 } mot_recon = { x = 0 y = 1 } logistics_company = { x = 0 y = 2 }   }
+				}
+			} 
+	
+		}
+	HMP_finland_noob = {
+	allowed = { original_tag = FIN }
+	fire_only_once = no
+	complete_effect = {
+	country_event = countrystartup.4 
+				division_template = {
+					name = "Defensive Anti-Tank Infantry"
+					regiments = {
+						infantry = { x = 0 y = 0 } infantry = { x = 1 y = 0 } infantry = { x = 2 y = 0 } infantry = { x = 3 y = 0 } anti_tank_brigade = { x = 4 y = 0 }
+						infantry = { x = 0 y = 1 } infantry = { x = 1 y = 1 } infantry = { x = 2 y = 1 } infantry = { x = 3 y = 1 } artillery_brigade = { x = 4 y = 1 }								
+					}
+					support = { engineer = { x = 0 y = 0 } artillery = { x = 0 y = 1 }  anti_tank = { x = 0 y = 2 }  }
+				}
+							division_template = {
+					name = "Quality Infantry"
+					regiments = {
+						infantry = { x = 0 y = 0 } infantry = { x = 1 y = 0 } infantry = { x = 2 y = 0 } artillery_brigade = { x = 3 y = 0 }
+						infantry = { x = 0 y = 1 } infantry = { x = 1 y = 1 } infantry = { x = 2 y = 1 } artillery_brigade = { x = 3 y = 1 }
+						infantry = { x = 0 y = 2 } infantry = { x = 1 y = 2 } infantry = { x = 2 y = 2 } artillery_brigade = { x = 3 y = 2 }								
+						infantry = { x = 0 y = 3 } infantry = { x = 1 y = 3 } infantry = { x = 2 y = 3 } artillery_brigade = { x = 3 y = 3 }
+						infantry = { x = 0 y = 4 } anti_tank_brigade = { x = 1 y = 4 } anti_tank_brigade = { x = 2 y = 4 }
+					}
+					support = { engineer = { x = 0 y = 0 } artillery = { x = 0 y = 1 }  rocket_artillery = { x = 0 y = 2 }  }
+				}
+						division_template = {
+					name = "Port Guards"
+					regiments = {
+						infantry = { x = 0 y = 0 } infantry = { x = 1 y = 0 } infantry = { x = 2 y = 0 } infantry = { x = 3 y = 0 }
+						infantry = { x = 0 y = 1 } infantry = { x = 1 y = 1 } infantry = { x = 2 y = 1 } infantry = { x = 3 y = 1 }
+						infantry = { x = 0 y = 2 } infantry = { x = 1 y = 2 } 
+					}
+					support = { engineer = { x = 0 y = 0 } artillery = { x = 0 y = 1 }  rocket_artillery = { x = 0 y = 2 }  }
+				}
+			}
+			}
+			HMP_uk_noob = {
+	allowed = { original_tag = ENG }
+	fire_only_once = no
+	complete_effect = {
+	country_event = countrystartup.5
+				division_template = {
+					name = "Cheap Port Guards (Anti-Meme Invasion)"
+					regiments = {
+						infantry = { x = 0 y = 0 } infantry = { x = 1 y = 0 } infantry = { x = 2 y = 0 } infantry = { x = 3 y = 0 } infantry = { x = 4 y = 0 }
+						infantry = { x = 0 y = 1 } infantry = { x = 1 y = 1 } infantry = { x = 2 y = 1 } infantry = { x = 3 y = 1 } infantry = { x = 4 y = 1 }								
+					}
+				}
+					division_template = {
+					name = "Egypt/Cyprus Infantry (Quality)"
+					regiments = {
+						infantry = { x = 0 y = 0 } infantry = { x = 1 y = 0 } infantry = { x = 2 y = 0 } artillery_brigade = { x = 3 y = 0 }
+						infantry = { x = 0 y = 1 } infantry = { x = 1 y = 1 } infantry = { x = 2 y = 1 } artillery_brigade = { x = 3 y = 1 }
+						infantry = { x = 0 y = 2 } infantry = { x = 1 y = 2 } infantry = { x = 2 y = 2 } artillery_brigade = { x = 3 y = 2 }								
+						infantry = { x = 0 y = 3 } infantry = { x = 1 y = 3 } infantry = { x = 2 y = 3 } artillery_brigade = { x = 3 y = 3 }
+						infantry = { x = 0 y = 4 } infantry = { x = 1 y = 4 }
+					}
+					support = { engineer = { x = 0 y = 0 } artillery = { x = 0 y = 1 }  anti_air = { x = 0 y = 2 } recon = { x = 0 y = 3 }      }
+				}
+					division_template = {
+					name = "Egypt/Cyprus Infantry (Cheap)"
+					regiments = {
+						infantry = { x = 0 y = 0 } infantry = { x = 1 y = 0 } infantry = { x = 2 y = 0 } infantry = { x = 3 y = 0 }
+						infantry = { x = 0 y = 1 } infantry = { x = 1 y = 1 } infantry = { x = 2 y = 1 } infantry = { x = 3 y = 1 }
+						infantry = { x = 0 y = 2 } infantry = { x = 1 y = 2 } infantry = { x = 2 y = 2 } infantry = { x = 3 y = 2 }								
+						infantry = { x = 0 y = 3 } infantry = { x = 1 y = 3 } infantry = { x = 2 y = 3 } infantry = { x = 3 y = 3 }
+						infantry = { x = 0 y = 4 } infantry = { x = 1 y = 4 } infantry = { x = 2 y = 4 } infantry = { x = 3 y = 4 }
+					}
+					support = { engineer = { x = 0 y = 0 } artillery = { x = 0 y = 1 }  anti_air = { x = 0 y = 2 }  }
+				}				
+					division_template = {
+					name = "Gibraltar Port Guard (ONLY ONE)"
+					regiments = {
+						mountaineers = { x = 0 y = 0 } mountaineers = { x = 1 y = 0 } mountaineers = { x = 2 y = 0 } artillery_brigade = { x = 3 y = 0 }
+						mountaineers = { x = 0 y = 1 } mountaineers = { x = 1 y = 1 } mountaineers = { x = 2 y = 1 } artillery_brigade = { x = 3 y = 1 }
+						mountaineers = { x = 0 y = 2 } mountaineers = { x = 1 y = 2 } mountaineers = { x = 2 y = 2 } artillery_brigade = { x = 3 y = 2 }								
+						mountaineers = { x = 0 y = 3 } mountaineers = { x = 1 y = 3 } mountaineers = { x = 2 y = 3 } artillery_brigade = { x = 3 y = 3 }
+						mountaineers = { x = 0 y = 4 } mountaineers = { x = 1 y = 4 }
+					}
+					support = { engineer = { x = 0 y = 0 } artillery = { x = 0 y = 1 }  anti_air = { x = 0 y = 2 } recon = { x = 0 y = 3 }    }
+				}					
+
+			}
+	}	
+			HMP_vic_noob = {
+	allowed = { original_tag = EFR }
+	fire_only_once = no
+	complete_effect = {
+	country_event = countrystartup.1
+				division_template = {
+					name = "Mediterranean Wall Infantry (Quality)"
+					regiments = {
+						infantry = { x = 0 y = 0 } infantry = { x = 1 y = 0 } infantry = { x = 2 y = 0 } infantry = { x = 3 y = 0 } infantry = { x = 4 y = 0 }
+						infantry = { x = 0 y = 1 } infantry = { x = 1 y = 1 } infantry = { x = 2 y = 1 } infantry = { x = 3 y = 1 } infantry = { x = 4 y = 1 }								
+					}
+					support = { engineer = { x = 0 y = 0 } artillery = { x = 0 y = 1 } rocket_artillery = { x = 0 y = 2 } anti_air = { x = 0 y = 3 }    }
+				}
+				division_template = {
+					name = "Mediterranean Wall Infantry (Cheap)"
+					regiments = {
+						infantry = { x = 0 y = 0 } infantry = { x = 1 y = 0 } infantry = { x = 2 y = 0 } infantry = { x = 3 y = 0 } infantry = { x = 4 y = 0 }
+						infantry = { x = 0 y = 1 } infantry = { x = 1 y = 1 } infantry = { x = 2 y = 1 } infantry = { x = 3 y = 1 } infantry = { x = 4 y = 1 }								
+					}
+					support = { anti_air = { x = 0 y = 0 }  }
+				}				
+					division_template = {
+					name = "Quality Port Guards"
+					regiments = {
+						infantry = { x = 0 y = 0 } infantry = { x = 1 y = 0 } infantry = { x = 2 y = 0 } artillery_brigade = { x = 3 y = 0 }
+						infantry = { x = 0 y = 1 } infantry = { x = 1 y = 1 } infantry = { x = 2 y = 1 } artillery_brigade = { x = 3 y = 1 }
+						infantry = { x = 0 y = 2 } infantry = { x = 1 y = 2 } infantry = { x = 2 y = 2 } artillery_brigade = { x = 3 y = 2 }								
+						infantry = { x = 0 y = 3 } infantry = { x = 1 y = 3 } infantry = { x = 2 y = 3 } artillery_brigade = { x = 3 y = 3 }
+						infantry = { x = 0 y = 4 } infantry = { x = 1 y = 4 }
+					}
+					support = { engineer = { x = 0 y = 0 } artillery = { x = 0 y = 1 }  rocket_artillery = { x = 0 y = 2 }     anti_air = { x = 0 y = 3 } recon = { x = 0 y = 4 }      }
+				}
+									division_template = {
+					name = "20w AT Infantry"
+					regiments = {
+						infantry = { x = 0 y = 0 } infantry = { x = 1 y = 0 } infantry = { x = 2 y = 0 } infantry = { x = 3 y = 0 }
+						infantry = { x = 0 y = 1 } infantry = { x = 1 y = 1 } infantry = { x = 2 y = 1 } infantry = { x = 3 y = 1 }
+						infantry = { x = 0 y = 2 } anti_tank_brigade = { x = 1 y = 2 } anti_tank_brigade = { x = 2 y = 2 }
+					}
+					support = { engineer = { x = 0 y = 0 } artillery = { x = 0 y = 1 }  rocket_artillery = { x = 0 y = 2 }  anti_air = { x = 0 y = 3 }  }
+				}	 
+					division_template = {
+					name = "20w AT Mountaineers"
+					regiments = {
+						mountaineers = { x = 0 y = 0 } mountaineers = { x = 1 y = 0 } mountaineers = { x = 2 y = 0 } mountaineers = { x = 3 y = 0 }
+						mountaineers = { x = 0 y = 1 } mountaineers = { x = 1 y = 1 } mountaineers = { x = 2 y = 1 } mountaineers = { x = 3 y = 1 }
+						mountaineers = { x = 0 y = 2 } anti_tank_brigade = { x = 1 y = 2 } anti_tank_brigade = { x = 2 y = 2 }
+					}
+					support = { engineer = { x = 0 y = 0 } artillery = { x = 0 y = 1 }  rocket_artillery = { x = 0 y = 2 }  anti_air = { x = 0 y = 3 }  }
+				}				
+					division_template = { 
+					name = "40w AT Mountaineers"
+					regiments = {
+						mountaineers = { x = 0 y = 0 } mountaineers = { x = 1 y = 0 } mountaineers = { x = 2 y = 0 } artillery_brigade = { x = 3 y = 0 }
+						mountaineers = { x = 0 y = 1 } mountaineers = { x = 1 y = 1 } mountaineers = { x = 2 y = 1 } artillery_brigade = { x = 3 y = 1 }
+						mountaineers = { x = 0 y = 2 } mountaineers = { x = 1 y = 2 } mountaineers = { x = 2 y = 2 } artillery_brigade = { x = 3 y = 2 }								
+						mountaineers = { x = 0 y = 3 } mountaineers = { x = 1 y = 3 } mountaineers = { x = 2 y = 3 } artillery_brigade = { x = 3 y = 3 }
+						mountaineers = { x = 0 y = 4 } anti_tank_brigade = { x = 1 y = 4 } anti_tank_brigade = { x = 2 y = 4 }
+					}
+					support = { engineer = { x = 0 y = 0 } artillery = { x = 0 y = 1 }  rocket_artillery = { x = 0 y = 2 }   anti_air = { x = 0 y = 3 } recon = { x = 0 y = 4 }    }
+				}	
+					division_template = { 
+					name = "40w SPG (Defensive)"
+					regiments = {
+						medium_sp_artillery_brigade = { x = 0 y = 0 } medium_sp_artillery_brigade = { x = 1 y = 0 } motorized = { x = 2 y = 0 } motorized = { x = 3 y = 0 }
+						medium_sp_artillery_brigade = { x = 0 y = 1 } medium_sp_artillery_brigade = { x = 1 y = 1 } motorized = { x = 2 y = 1 } motorized = { x = 3 y = 1 }
+						medium_sp_artillery_brigade = { x = 0 y = 2 } medium_sp_artillery_brigade = { x = 1 y = 2 } motorized = { x = 2 y = 2 } motorized = { x = 3 y = 2 }								
+						medium_sp_anti_air_brigade = { x = 0 y = 3 } medium_sp_anti_air_brigade = { x = 1 y = 3 } 	motorized = { x = 2 y = 3 } motorized = { x = 3 y = 3 }
+						medium_tank_destroyer_brigade = { x = 0 y = 4 } 											motorized = { x = 2 y = 4 } motorized = { x = 3 y = 4 }
+					}
+					support = { engineer = { x = 0 y = 0 } artillery = { x = 0 y = 1 }  rocket_artillery = { x = 0 y = 2 }   anti_air = { x = 0 y = 3 } mot_recon = { x = 0 y = 4 }    }
+				}	
+					division_template = { 
+					name = "40w SPG (Offensive)"
+					regiments = {
+						medium_armor = { x = 0 y = 0 } medium_armor = { x = 1 y = 0 } motorized = { x = 2 y = 0 } motorized = { x = 3 y = 0 }
+						medium_armor = { x = 0 y = 1 } medium_armor = { x = 1 y = 1 } motorized = { x = 2 y = 1 } motorized = { x = 3 y = 1 }
+						medium_armor = { x = 0 y = 2 } medium_armor = { x = 1 y = 2 } motorized = { x = 2 y = 2 } motorized = { x = 3 y = 2 }								
+						medium_sp_artillery_brigade = { x = 0 y = 3 } medium_sp_artillery_brigade = { x = 1 y = 3 } motorized = { x = 2 y = 3 } motorized = { x = 3 y = 3 }
+						medium_tank_destroyer_brigade = { x = 0 y = 4 } medium_armor = { x = 1 y = 4 }			motorized = { x = 2 y = 4 }
+					}
+					support = { engineer = { x = 0 y = 0 } artillery = { x = 0 y = 1 }  rocket_artillery = { x = 0 y = 2 }   anti_air = { x = 0 y = 3 } mot_recon = { x = 0 y = 4 }    }
+				}
+			division_template = {
+					name = "Standard 40w Tank"
+					regiments = {
+						medium_armor = { x = 0 y = 0 } medium_armor = { x = 1 y = 0 } medium_armor = { x = 2 y = 0 } motorized = { x = 3 y = 0 }	motorized = { x = 4 y = 0 }
+						medium_armor = { x = 0 y = 1 } medium_armor = { x = 1 y = 1 } medium_armor = { x = 2 y = 1 } motorized = { x = 3 y = 1 }	motorized = { x = 4 y = 1 }
+						medium_armor = { x = 0 y = 2 } medium_armor = { x = 1 y = 2 } medium_armor = { x = 2 y = 2 } motorized = { x = 3 y = 2 }	motorized = { x = 4 y = 2 }
+						medium_armor = { x = 0 y = 3 } medium_sp_anti_air_brigade = { x = 1 y = 3 } medium_sp_anti_air_brigade = { x = 2 y = 3 } motorized = { x = 3 y = 3 }	motorized = { x = 4 y = 3 }
+																																					motorized = { x = 4 y = 4 }
+						}											
+					support = { engineer = { x = 0 y = 0 } mot_recon = { x = 0 y = 1 } logistics_company = { x = 0 y = 2 }   }
+				}	
+			}
+	}		
+				HMP_nor_noob = {
+	allowed = { original_tag = NOR } 
+	fire_only_once = no
+	complete_effect = {
+	country_event = countrystartup.6
+					division_template = { 
+					name = "40w AT Mountaineers"
+					regiments = {
+						mountaineers = { x = 0 y = 0 } mountaineers = { x = 1 y = 0 } mountaineers = { x = 2 y = 0 } artillery_brigade = { x = 3 y = 0 }
+						mountaineers = { x = 0 y = 1 } mountaineers = { x = 1 y = 1 } mountaineers = { x = 2 y = 1 } artillery_brigade = { x = 3 y = 1 }
+						mountaineers = { x = 0 y = 2 } mountaineers = { x = 1 y = 2 } mountaineers = { x = 2 y = 2 } artillery_brigade = { x = 3 y = 2 }								
+						mountaineers = { x = 0 y = 3 } mountaineers = { x = 1 y = 3 } mountaineers = { x = 2 y = 3 } artillery_brigade = { x = 3 y = 3 }
+						mountaineers = { x = 0 y = 4 } anti_tank_brigade = { x = 1 y = 4 } anti_tank_brigade = { x = 2 y = 4 }
+					}
+					support = { engineer = { x = 0 y = 0 } artillery = { x = 0 y = 1 }  rocket_artillery = { x = 0 y = 2 }   anti_air = { x = 0 y = 3 } recon = { x = 0 y = 4 }    }
+				}	
+					division_template = { 
+					name = "40w AT Marines"
+					regiments = {
+						marine = { x = 0 y = 0 } marine = { x = 1 y = 0 } marine = { x = 2 y = 0 } marine = { x = 3 y = 0 }
+						marine = { x = 0 y = 1 } marine = { x = 1 y = 1 } marine = { x = 2 y = 1 } marine = { x = 3 y = 1 }
+						marine = { x = 0 y = 2 } marine = { x = 1 y = 2 } marine = { x = 2 y = 2 } marine = { x = 3 y = 2 }								
+						marine = { x = 0 y = 3 } marine = { x = 1 y = 3 } marine = { x = 2 y = 3 } marine = { x = 3 y = 3 }
+						marine = { x = 0 y = 4 } anti_tank_brigade = { x = 1 y = 4 } anti_tank_brigade = { x = 2 y = 4 }
+					}
+					support = { engineer = { x = 0 y = 0 } artillery = { x = 0 y = 1 }  rocket_artillery = { x = 0 y = 2 }   anti_air = { x = 0 y = 3 } recon = { x = 0 y = 4 }    }
+				}	
+			}
+	}		
+					HMP_saf_noob = {
+	allowed = { original_tag = SAF } 
+	fire_only_once = no
+	complete_effect = {
+	country_event = countrystartup.8
+		
+					division_template = {
+					name = "11/9 MOT HARM + ENG/MRC/LOGI"
+					regiments = {
+						heavy_armor = { x = 0 y = 0 } heavy_armor = { x = 1 y = 0 } heavy_armor = { x = 2 y = 0 } motorized = { x = 3 y = 0 }	motorized = { x = 4 y = 0 }
+						heavy_armor = { x = 0 y = 1 } heavy_armor = { x = 1 y = 1 } heavy_armor = { x = 2 y = 1 } motorized = { x = 3 y = 1 }	motorized = { x = 4 y = 1 }
+						heavy_armor = { x = 0 y = 2 } heavy_armor = { x = 1 y = 2 } heavy_armor = { x = 2 y = 2 } motorized = { x = 3 y = 2 }	motorized = { x = 4 y = 2 }
+						heavy_armor = { x = 0 y = 3 } medium_sp_anti_air_brigade = { x = 1 y = 3 } heavy_sp_anti_air_brigade = { x = 2 y = 3 } motorized = { x = 3 y = 3 }	motorized = { x = 4 y = 3 }
+																																					motorized = { x = 4 y = 4 }
+						}											
+					support = { engineer = { x = 0 y = 0 } mot_recon = { x = 0 y = 1 } logistics_company = { x = 0 y = 2 }   }
+				}
+						division_template = {
+					name = "Port Guard (Cheap)"
+					regiments = {
+						infantry = { x = 0 y = 0 } infantry = { x = 1 y = 0 } infantry = { x = 2 y = 0 } infantry = { x = 3 y = 0 } infantry = { x = 4 y = 0 }
+						infantry = { x = 0 y = 1 } infantry = { x = 1 y = 1 } infantry = { x = 2 y = 1 } infantry = { x = 3 y = 1 } infantry = { x = 4 y = 1 }								
+					}
+					support = {     } 
+				}	
+			}
+	}
+
+
+	HMP_ger_noob = {
+		allowed = { original_tag = GER } 
+		fire_only_once = no
+		complete_effect = {
+			country_event = countrystartup.15
+		}
+	}
+
+	HMP_ita_noob = {
+		allowed = { original_tag = ITA } 
+		fire_only_once = no
+		complete_effect = {
+			country_event = countrystartup.16
+		}	
+	}
+	
+	HMP_fra_noob = {
+		allowed = { original_tag = FRA } 
+		fire_only_once = no
+		complete_effect = {
+			country_event = countrystartup.17
+			tp_divs_out_of_france = yes
+		}	
+	}
+
+	HMP_usa_noob = {
+		allowed = { original_tag = USA } 
+		fire_only_once = no
+		complete_effect = {
+			country_event = countrystartup.18
+		}	
+	}
+
+	hide_hmp_templates_dec = {
+		allowed = { normally_played_country = yes }
+		fire_only_once = yes
+		complete_effect = { set_country_flag = hide_hmp_templates }
+	}
+}
+
+MEX_category_military_issues = {
+
+	# Mission to deal with Cedillo before he rebels (historic date was January 1939)
+
+	MEX_mission_cedillos_rebellion = {
+
+		icon = generic_civil_support
+
+		visible = {
+			original_tag = MEX
+		}
+		
+		available = {
+			OR = {
+				has_completed_focus = MEX_focus_support_general_cedillo
+				has_completed_focus = MEX_focus_arrest_general_cedillo
+			}
+		}
+
+		days_mission_timeout = 150
+		#days_remove = 1
+
+		activation = {
+			OR = {
+				has_idea = MEX_cedillo_tension
+				has_idea = MEX_cedillo_tension_2
+				has_idea = MEX_cedillo_tension_3
+				has_idea = MEX_cedillo_tension_4
+				has_idea = MEX_cedillo_tension_5
+			}
+		}
+
+		fixed_random_seed = no
+
+		fire_only_once = no
+
+		is_good = no
+
+		timeout_effect = {
+		if = {
+				limit = {
+					has_idea = MEX_cedillo_tension_5
+				}
+
+	swap_ideas = {
+					remove_idea = MEX_cedillo_tension_5
+					add_idea = MEX_cedillo_tension_6
+				}
+				
+	
+			}
+		
+			else_if = {
+				limit = {
+					has_idea = MEX_cedillo_tension_4
+				}
+
+	swap_ideas = {
+					remove_idea = MEX_cedillo_tension_4
+					add_idea = MEX_cedillo_tension_5
+				}
+				
+	
+			}
+			else_if = {
+				limit = {
+					has_idea = MEX_cedillo_tension_3
+				}
+				swap_ideas = {
+					remove_idea = MEX_cedillo_tension_3
+					add_idea = MEX_cedillo_tension_4
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = MEX_cedillo_tension_2
+				}
+				swap_ideas = {
+					remove_idea = MEX_cedillo_tension_2
+					add_idea = MEX_cedillo_tension_3
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = MEX_cedillo_tension
+				}
+				swap_ideas = {
+					remove_idea = MEX_cedillo_tension
+					add_idea = MEX_cedillo_tension_2
+				}
+			}
+		}
+	}
+	
+}
+
+# Category related to the Catholic Church in Mexico
+
+MEX_category_church_power = {
+
+	MEX_decision_transfer_lands_to_church = {
+	
+		icon = generic_operation
+		
+		fire_only_once = no
+		
+		days_remove = 90
+		
+		allowed = {
+			original_tag = MEX
+		}
+		
+		available = {
+			has_completed_focus = MEX_focus_antidisestablishmentarianism
+			NOT = { has_idea = MEX_church_power_5 }
+
+		}
+
+		cost = 75
+		
+		complete_effect = {
+			MEX_increase_church_power = yes		
+		}
+	}
+	
+	MEX_decision_nationalize_church_lands = {
+	
+		icon = generic_scorched_earth
+		
+		fire_only_once = no
+		
+		days_remove = 90
+		
+		allowed = {
+			original_tag = MEX
+		}
+		
+		available = {
+			NOT = { has_idea = MEX_church_power_1 }
+		}
+
+		cost = 75
+		
+		complete_effect = {
+			MEX_decrease_church_power = yes
+		}
+	}
+	
+	MEX_decision_pardon_cristero_fighter = {
+	
+		icon = generic_army_support
+		
+		fire_only_once = no
+		
+		days_remove = 30
+		
+		allowed = {
+			original_tag = MEX
+		}
+		
+		available = {
+			has_war_support < 0.95
+			has_completed_focus = MEX_focus_rewrite_the_constitution
+			OR = {
+				has_idea = MEX_church_power_4
+				has_idea = MEX_church_power_5
+			}
+		}
+
+		cost = 75
+		
+		remove_effect = {
+			add_war_support = 0.02
+			army_experience = 10
+		}
+	}
+	
+	MEX_decision_assassinate_cristero_traitor = {
+	
+		icon = generic_prepare_civil_war
+		
+		fire_only_once = no
+		
+		days_remove = 30
+		
+		allowed = {
+			original_tag = MEX
+		}
+		
+		available = {
+			has_war_support < 0.95
+			OR = {
+				has_idea = MEX_church_power_1
+				has_idea = MEX_church_power_2
+			}
+		}
+
+		cost = 75
+		
+		remove_effect = {
+			add_war_support = 0.02
+			army_experience = 10
+		}
+	}
+	
+	MEX_decision_attend_public_mass = {
+	
+		icon = generic_nationalism
+		
+		fire_only_once = no
+		
+		days_remove = 30
+		
+		allowed = {
+			original_tag = MEX
+		}
+		
+		available = {
+			has_stability < 0.95
+			has_completed_focus = MEX_focus_rewrite_the_constitution
+			OR = {
+				has_idea = MEX_church_power_4
+				has_idea = MEX_church_power_5
+			}
+		}
+
+		cost = 75
+		
+		remove_effect = {
+			add_stability = 0.03
+		}
+	}
+
+	MEX_decision_prosecute_clergyman = {
+	
+		icon = oppression
+		
+		fire_only_once = no
+		
+		days_remove = 30
+		
+		allowed = {
+			original_tag = MEX
+		}
+		
+		available = {
+			has_stability < 0.95
+			OR = {
+				has_idea = MEX_church_power_1
+				has_idea = MEX_church_power_2
+			}
+		}
+
+		cost = 75
+		
+		remove_effect = {
+			add_stability = 0.03
+		}
+	}
+	
+	MEX_decision_reconciliation_committee = {
+	
+		icon = generic_political_discourse
+		
+		fire_only_once = no
+		
+		days_remove = 90
+		
+		allowed = {
+			original_tag = MEX
+		}
+		
+		available = {
+			has_war_support > 0.1
+			has_stability < 0.95
+			NOT = {
+				OR = {
+					has_idea = MEX_church_power_5
+					has_idea = MEX_church_power_1 
+				} 
+			}
+		}
+
+		cost = 25
+		
+		remove_effect = {
+			add_stability = 0.05
+			add_war_support = -0.05
+		}
+	}
+
+	MEX_decision_incite_tensions = {
+	
+		icon = generic_break_treaty
+		
+		fire_only_once = no
+		
+		days_remove = 90
+		
+		allowed = {
+			original_tag = MEX
+		}
+		
+		available = {
+			has_stability > 0.1
+			has_war_support < 0.95
+			NOT = {
+				OR = {
+					has_idea = MEX_church_power_5
+					has_idea = MEX_church_power_1 
+				} 
+			}
+		}
+
+		cost = 25
+		remove_effect = {
+			add_stability = -0.05
+			add_war_support = 0.05
+		}
+	}
+}
+
+USA_aid_britain = {
+	USA_establish_personal_communication_with_former_naval_person = {
+		icon = generic_political_discourse
+		allowed = {	original_tag = USA	}
+		available = {	has_country_flag = blood_toil_tears_sweat_speech	}
+		cost = 50
+		fire_only_once = yes
+		complete_effect = {	add_war_support = 0.05 }
+	}
+
+	USA_battle_domestic_isolationism = {
+		icon = generic_civil_support
+		allowed = {		original_tag = USA	}
+		available = {	has_country_flag = fight_on_the_beaches_speech	}
+		cost = 50
+		fire_only_once = yes
+		complete_effect = {	add_war_support = 0.1	}
+	}
+
+	USA_emergency_arms_deliveries = {
+		icon = generic_prepare_civil_war
+		allowed = {	original_tag = USA	}
+		available = {	has_country_flag = this_was_their_finest_hour_speech	}
+		cost = 50
+		fire_only_once = yes
+		complete_effect = {
+		add_war_support = 0.025
+			ENG = {
+				add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 20000 producer = USA }
+				add_equipment_to_stockpile = { type = artillery_equipment_1 amount = 300 producer = USA }
+				add_equipment_to_stockpile = { type = support_equipment_1 amount = 300 producer = USA }
+				country_event = { id = wtt_britain.30 }
+			}
+		}
+	}
+
+}
+
+USA_congress = {
+USA_depresi_mission = {
+		icon = generic_political_discourse
+		allowed = { original_tag = USA }	
+		visible = {	has_active_mission = USA_depresi_mission	}	
+		available = {	NOT = { country_exists = USA }	}
+		days_mission_timeout = 210
+		activation = {
+		USA = { 		has_completed_focus = USA_fair_labour_standards_act	} 	}
+		fire_only_once = yes
+		is_good = yes
+		timeout_effect = {USA = { country_event = { id = usa.995  }	}		}		
+			}
+			
+			USA_depresi_mission2 = {
+		icon = generic_political_discourse
+		allowed = { original_tag = USA }	
+		visible = {	has_active_mission = USA_depresi_mission	}	
+		available = {	NOT = { country_exists = USA }	}
+		days_mission_timeout = 210
+		activation = {	USA = { 	has_completed_focus = USA_agricultural_adjustment_act	 } 	}
+		fire_only_once = yes
+		is_good = yes
+		timeout_effect = {
+		USA = { country_event = { id = usa.995  }	}		}		
+			}
+			
+
+	USA_small_lobby_effort = {
+		icon = generic_political_discourse
+		available = {
+			OR = {
+				check_variable = { senators_support < senators_total }
+				check_variable = { representatives_support < representatives_total }
+			}
+			not = {
+				has_decision = USA_medium_lobby_effort
+			}
+			OR = {
+				political_power_daily > 0.3
+				has_political_power > 10
+			}
+		}
+		cost = 0
+		modifier = {
+			political_power_gain = -0.3
+		}
+		days_remove = 30
+		remove_effect = {
+USA_congress_small_supporta = yes
+		}
+	}
+	USA_medium_lobby_effort = {
+		icon = generic_political_discourse
+		available = {
+			OR = {
+				check_variable = { senators_support < senators_total }
+				check_variable = { representatives_support < representatives_total }
+			}
+			not = {
+				has_decision = USA_small_lobby_effort
+			}
+			OR = {
+				political_power_daily > 0.75
+				has_political_power > 35
+			}
+		}
+		cost = 0
+		days_remove = 45
+		modifier = {
+			political_power_gain = -0.75
+		}
+		remove_effect = {
+			USA_congress_medium_supporta = yes
+		}
+	}
+	USA_special_measures = {
+		icon = ger_mefo_bills
+		available = {
+			OR = {
+				check_variable = { senators_support < senators_total }
+				check_variable = { representatives_support < representatives_total }
+			}
+		}
+		cost = 50
+		days_re_enable = 90
+		complete_effect = {
+			USA_congress_small_supporta = yes
+		}
+	}
+
+	USA_pay_farm_subsidies = {
+		icon = ger_mefo_bills
+		available = {
+			has_government = democratic
+			OR = {
+				check_variable = { senators_support < senators_total }
+				check_variable = { representatives_support < representatives_total }
+			}
+		}
+		visible = { has_completed_focus = USA_agricultural_adjustment_act }
+		cost = 0
+		days_remove = 90
+		modifier = { consumer_goods_factor = 0.03 }
+		remove_effect = {
+			USA_congress_small_supporta = yes
+		}
+	}
+
+	USA_amend_the_budget = {
+		icon = ger_mefo_bills
+		available = {	congress_medium_support_trigger = yes	}
+		visible = {has_government = democratic }
+		cost = 25
+		days_remove = 90
+		days_re_enable = 275
+		modifier = { consumer_goods_factor = -0.05 }
+		remove_effect = {
+			USA_congress_medium_oppositiona = yes
+		}
+	}
+	USA_research_grants = {
+		icon = ger_mefo_bills
+		available = {
+			congress_medium_support_trigger = yes
+		}
+		visible = {has_government = democratic }
+		cost = 25
+		days_remove = 90
+		days_re_enable = 275
+		modifier = { research_speed_factor = 0.08 }
+		remove_effect = {
+			USA_congress_medium_oppositiona = yes
+		}
+	}
+	USA_invest_in_state_arms_factory = {
+		icon = generic_construction
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = USA_congress_invest_in_state_arms_factory_tt
+				any_owned_state = {
+					has_state_flag = USA_congress_build_arms_factory
+					check_variable = { arms_factory_goal = arms_factory_level }
+				}
+			}
+		}
+		highlight_states = {
+			has_state_flag = USA_congress_build_arms_factory
+		}
+		days_mission_timeout = 360
+		is_good = no
+		activation = {
+			any_owned_state = {
+				has_state_flag = USA_congress_build_arms_factory
+			}
+		}
+		timeout_effect = {
+			random_owned_state = {
+				limit = {
+					has_state_flag = USA_congress_build_arms_factory
+				}
+				clr_state_flag = USA_congress_build_arms_factory
+				clear_variable = arms_factory_goal
+			}
+			hidden_effect = { country_event = { id = usa.60 days = 90   } } 			
+			USA_congress_small_oppositiona = yes 
+			clr_country_flag = USA_congress_investment
+		}
+		complete_effect = {
+			random_owned_state = {
+				limit = {
+					has_state_flag = USA_congress_build_arms_factory
+				}
+				clr_state_flag = USA_congress_build_arms_factory
+				clear_variable = arms_factory_goal
+			}
+			ROOT = {
+				USA_congress_medium_supporta = yes 
+				clr_country_flag = USA_congress_investment		
+				hidden_effect = { country_event = { id = usa.60 days = 90   } } 
+			}
+			
+		}
+	}
+	USA_invest_in_state_infrastructure = {
+		icon = generic_construction
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = USA_congress_invest_in_state_infrastructure_tt
+				any_owned_state = {
+					has_state_flag = USA_congress_build_infrastructure
+					check_variable = { infrastructure_goal = infrastructure_level }
+				}
+			}
+		}
+		highlight_states = {
+			has_state_flag = USA_congress_build_infrastructure
+		}
+		days_mission_timeout = 360
+		is_good = no
+		activation = {
+			any_owned_state = {
+				has_state_flag = USA_congress_build_infrastructure
+			}
+		}
+		timeout_effect = {
+			random_owned_state = {
+				limit = {
+					has_state_flag = USA_congress_build_infrastructure
+				}
+				clr_state_flag = USA_congress_build_infrastructure
+				clear_variable = infrastructure_goal
+			}
+				hidden_effect = { country_event = { id = usa.60 days = 90   } } 
+		
+			USA_congress_small_oppositiona = yes 
+			clr_country_flag = USA_congress_investment
+		}
+		complete_effect = {
+			random_owned_state = {
+				limit = {
+					has_state_flag = USA_congress_build_infrastructure
+				}
+				clr_state_flag = USA_congress_build_infrastructure
+				clear_variable = infrastructure_goal
+			}
+			ROOT = {
+			hidden_effect = { country_event = { id = usa.60 days = 90   } } 
+			
+				USA_congress_medium_supporta = yes 
+				clr_country_flag = USA_congress_investment
+			}
+			
+		}
+	}
+	USA_statehood_for_alaska = {
+		icon = infiltrate_state
+		fire_only_once = yes
+		days_remove = 240
+		cost = 50
+		remove_effect = {
+			USA_congress_add_state = yes
+			add_state_core = 463
+			add_state_core = 650
+			USA_calc_stars = yes
+		}
+	}
+	USA_statehood_for_hawaii = {
+		icon = infiltrate_state
+		fire_only_once = yes
+		days_remove = 240
+		cost = 50
+		remove_effect = {
+			USA_congress_add_state = yes
+			add_state_core = 629
+			USA_calc_stars = yes
+		}
+	}
+	USA_statehood_for_puerto_rico = {
+		icon = infiltrate_state
+		fire_only_once = yes
+		days_remove = 240
+		cost = 50
+		remove_effect = {
+			USA_congress_add_state = yes
+			add_state_core = 686
+			USA_calc_stars = yes
+		}
+	}
+}
+
+
+
+political_actions = { 
+    JAP_annex_manchukuo = {
+		icon = generic_operation
+		allowed = { tag = JAP}
+		available = {
+			MAN = { is_ai = yes }
+			#date > 1939.9.1 
+		}
+		fire_only_once = yes
+		cost = 0
+		visible = {    country_exists = MAN	}
+		complete_effect = {	
+			if = { 
+			limit = { MAN = { has_completed_focus = MAN_pacify_the_countrysidex } }
+			if = { 
+			limit = { NOT = { MAN = { has_completed_focus = MAN_showa_steel } } }
+			716 = {
+			add_resource = {  type = steel amount = 12}
+			}
+			
+			}
+			if = { limit = { NOT = { MAN = { has_completed_focus = MAN_anshan_steelworks } } }
+			716 = {
+			add_resource = {  type = steel amount = 16}
+			}
+			
+			}
+			if = { limit = { NOT = {MAN = { has_completed_focus = MAN_aluminum3 } } }
+			328 = {
+			add_resource = {  type = aluminium amount = 16}
+			}
+			
+			}
+
+			}
+
+			if = { 
+			limit = { MAN = { has_completed_focus = MAN_pacify_the_countryside } }
+			
+			
+			
+			
+				
+			if = { limit = { NOT = { MAN = { has_completed_focus = MAN_invite_japanese_investors } } }
+			716 = {
+			add_resource = {  type = steel amount = 12}
+			}
+			
+			}
+			if = { limit = { NOT = { MAN = { has_completed_focus = MAN_expand_showa_steel_works } } }
+			716 = {
+			add_resource = {  type = steel amount = 16}
+			}
+			
+			}
+			if = { limit = { NOT = {MAN = { has_completed_focus = MAN_develop_aluminum_sources } } }
+			328 = {
+			add_resource = {  type = aluminium amount = 16}
+			}
+			
+			}
+		
+			}
+			
+			annex_country = { target = MAN transfer_troops = yes }
+					716 = { set_compliance = 100 } 	328 = { set_compliance = 100 }	717 = { set_compliance = 100 } 714 = { set_compliance = 100 }
+					761 = { set_compliance = 100 } 	715 = { set_compliance = 100 }	612 = { set_compliance = 100 } 610 = { set_compliance = 100 }
+					611 = { set_compliance = 100 } 	608 = { set_compliance = 100 }
+		}
+	}
+}
+
+
+JAP_interservice_rivalry = {
+	JAP_steel_for_guns = {
+
+		icon = generic_tank
+
+		available = {
+			NOT = {	has_country_flag = JAP_war_conferences_cd	}
+			NOT = {	has_country_flag = JAP_steel_for_ships	}
+		}
+		visible = {	NOT = {	has_country_flag = JAP_steel_for_ships	}	}
+		cost = 50
+		fire_only_once = yes
+		days_remove = -1
+		complete_effect = {
+			536 = {
+				add_extra_state_shared_building_slots = 4
+				add_building_construction = {
+					type = arms_factory
+					level = 4
+					instant_build = yes
+				}
+			}
+			set_country_flag = { flag = JAP_war_conferences_cd value = 1 days = 90 }
+			JAP_interservice_rivalry_towards_army = yes
+			set_country_flag = JAP_steel_for_guns
+		}
+	}
+	JAP_steel_for_ships = {
+
+		icon = generic_naval
+
+		available = {
+			NOT = {	has_country_flag = JAP_war_conferences_cd	}
+			NOT = {	has_country_flag = JAP_steel_for_guns	}
+		}
+		visible = {	NOT = {	has_country_flag = JAP_steel_for_guns	}	}
+		cost = 50
+		fire_only_once = yes
+		days_remove = -1
+		complete_effect = {
+			536 = {
+				add_extra_state_shared_building_slots = 4
+				add_building_construction = {
+					type = dockyard
+					level = 4
+					instant_build = yes
+				}
+			}
+			set_country_flag = { flag = JAP_war_conferences_cd value = 1 days = 90 }
+			JAP_interservice_rivalry_towards_navy = yes
+			set_country_flag = JAP_steel_for_ships
+		}
+	}
+	JAP_prioritize_army_aircraft_construction = {
+		icon = generic_tank
+		available = {
+			NOT = {	has_country_flag = JAP_war_conferences_cd	}
+			NOT = {	has_country_flag = JAP_prioritize_naval_aircraft_construction }
+		}
+		visible = {	NOT = {	has_country_flag = JAP_prioritize_naval_aircraft_construction	} }
+		cost = 50
+		fire_only_once = yes
+		days_remove = -1
+		complete_effect = {
+			set_country_flag = { flag = JAP_war_conferences_cd value = 1 days = 90 }
+			add_ideas = JAP_prioritize_army_aircraft_construction
+			JAP_interservice_rivalry_towards_army = yes
+			set_country_flag = JAP_prioritize_army_aircraft_construction
+		}
+	}
+	JAP_prioritize_naval_aircraft_construction = {
+		icon = generic_naval
+		available = {
+			NOT = {	has_country_flag = JAP_war_conferences_cd	}
+			NOT = {	has_country_flag = JAP_prioritize_army_aircraft_construction	}
+		}
+		visible = {	NOT = {	has_country_flag = JAP_prioritize_army_aircraft_construction	}	}
+		cost = 50
+		fire_only_once = yes
+		days_remove = -1
+		complete_effect = {
+			set_country_flag = { flag = JAP_war_conferences_cd value = 1 days = 90 }
+			add_ideas = JAP_prioritize_naval_aircraft_construction
+			JAP_interservice_rivalry_towards_navy = yes
+			set_country_flag = JAP_prioritize_naval_aircraft_construction
+		}
+	}
+	JAP_everybody_serves = {
+
+		icon = generic_tank
+
+		available = {
+			NOT = {
+				has_country_flag = JAP_war_conferences_cd
+			}
+			NOT = {
+				has_country_flag = JAP_draft_exemptions
+			}
+		}
+		visible = {
+			NOT = {
+				has_country_flag = JAP_draft_exemptions
+			}
+		}
+		cost = 50
+		fire_only_once = yes
+		days_remove = -1
+		modifier = {
+			conscription = 0.02
+		}
+		complete_effect = {
+			set_country_flag = { flag = JAP_war_conferences_cd value = 1 days = 90 }
+			JAP_interservice_rivalry_towards_army = yes
+			set_country_flag = JAP_everybody_serves
+		}
+	}
+	JAP_draft_exemptions = {
+
+		icon = generic_naval
+
+		available = {
+			NOT = {
+				has_country_flag = JAP_war_conferences_cd
+			}
+			NOT = {
+				has_country_flag = JAP_everybody_serves
+			}
+		}
+		visible = {
+			NOT = {
+				has_country_flag = JAP_everybody_serves
+			}
+		}
+		cost = 50
+		days_remove = -1
+		fire_only_once = yes
+		modifier = {
+			industrial_capacity_factory = 0.05
+			industrial_capacity_dockyard = 0.05
+		}
+		complete_effect = {
+			set_country_flag = { flag = JAP_war_conferences_cd value = 1 days = 90 }
+			JAP_interservice_rivalry_towards_navy = yes
+			set_country_flag = JAP_draft_exemptions
+		}
+	}
+	JAP_raiding_regiments = {
+
+		icon = generic_tank
+
+		available = {
+			NOT = {
+				has_country_flag = JAP_war_conferences_cd
+			}
+			NOT = {
+				has_country_flag = JAP_special_air_landing_force
+			}
+		}
+		visible = {
+			NOT = {
+				has_country_flag = JAP_special_air_landing_force
+			}
+		}
+		cost = 50
+		fire_only_once = yes
+		days_remove = -1
+		modifier = {
+			special_forces_attack_factor = 0.05 
+			special_forces_defence_factor = 0.05
+		}
+		complete_effect = {
+			set_country_flag = { flag = JAP_war_conferences_cd value = 1 days = 90 }
+			set_country_flag = JAP_raiding_regiments
+			JAP_interservice_rivalry_towards_army = yes
+		}
+	}
+	JAP_special_air_landing_force = {
+
+		icon = generic_naval
+
+		available = {
+			NOT = {
+				has_country_flag = JAP_war_conferences_cd
+			}
+			NOT = {
+				has_country_flag = JAP_raiding_regiments
+			}
+		}
+		visible = {
+			NOT = {
+				has_country_flag = JAP_raiding_regiments
+			}
+		}
+		cost = 50
+		fire_only_once = yes
+		days_remove = -1
+		modifier = {
+			special_forces_attack_factor = 0.05 
+			special_forces_defence_factor = 0.05
+		}
+		complete_effect = {
+			set_country_flag = { flag = JAP_war_conferences_cd value = 1 days = 90 }
+			set_country_flag = JAP_special_air_landing_force
+			JAP_interservice_rivalry_towards_navy = yes
+		}
+	}
+	JAP_favor_army = {
+
+		icon = generic_tank
+
+		available = {
+			NOT = {
+				has_country_flag = JAP_war_conferences_cd
+			}
+			AND = {
+				OR = { 
+					has_country_flag = JAP_raiding_regiments 
+					has_country_flag = JAP_special_air_landing_force
+				}
+				OR = { 
+					has_country_flag = JAP_everybody_serves
+					has_country_flag = JAP_draft_exemptions
+				}
+				OR = { 
+					has_country_flag = JAP_prioritize_naval_aircraft_construction
+					has_country_flag = JAP_prioritize_army_aircraft_construction
+				}
+				OR = { 
+					has_country_flag = JAP_steel_for_guns
+					has_country_flag = JAP_steel_for_ships
+				}
+			}
+			
+		}
+		visible = {
+			AND = {
+				OR = { 
+					has_country_flag = JAP_raiding_regiments 
+					has_country_flag = JAP_special_air_landing_force
+				}
+				OR = { 
+					has_country_flag = JAP_everybody_serves
+					has_country_flag = JAP_draft_exemptions
+				}
+				OR = { 
+					has_country_flag = JAP_prioritize_naval_aircraft_construction
+					has_country_flag = JAP_prioritize_army_aircraft_construction
+				}
+				OR = { 
+					has_country_flag = JAP_steel_for_guns
+					has_country_flag = JAP_steel_for_ships
+				}
+			}
+		}
+		cost = 50
+		fire_only_once = yes
+		complete_effect = {
+			set_country_flag = { flag = JAP_war_conferences_cd value = 1 days = 90 }
+			JAP_interservice_rivalry_towards_army = yes
+		}
+	}
+	JAP_favor_navy = {
+		icon = generic_naval
+		available = { 
+			NOT = {
+				has_country_flag = JAP_war_conferences_cd
+			}
+			AND = {
+				OR = { 
+					has_country_flag = JAP_raiding_regiments 
+					has_country_flag = JAP_special_air_landing_force
+				}
+				OR = { 
+					has_country_flag = JAP_everybody_serves
+					has_country_flag = JAP_draft_exemptions
+				}
+				OR = { 
+					has_country_flag = JAP_prioritize_naval_aircraft_construction
+					has_country_flag = JAP_prioritize_army_aircraft_construction
+				}
+				OR = { 
+					has_country_flag = JAP_steel_for_guns
+					has_country_flag = JAP_steel_for_ships
+				}
+			}
+			
+		}
+		visible = {
+			AND = {
+				OR = { 
+					has_country_flag = JAP_raiding_regiments 
+					has_country_flag = JAP_special_air_landing_force
+				}
+				OR = { 
+					has_country_flag = JAP_everybody_serves
+					has_country_flag = JAP_draft_exemptions
+				}
+				OR = { 
+					has_country_flag = JAP_prioritize_naval_aircraft_construction
+					has_country_flag = JAP_prioritize_army_aircraft_construction
+				}
+				OR = { 
+					has_country_flag = JAP_steel_for_guns
+					has_country_flag = JAP_steel_for_ships
+				}
+			}
+		}
+		cost = 50
+		fire_only_once = yes
+		complete_effect = {
+			set_country_flag = { flag = JAP_war_conferences_cd value = 1 days = 90 }
+			JAP_interservice_rivalry_towards_navy = yes
+		}
+	}
+}
+
+operations = {
+	khalkin_gol = {
+		icon = border_war
+		allowed = {	original_tag = JAP	}
+		available = {	date > 1939.5.11		}
+		fire_only_once = yes
+		cost = 50
+		complete_effect = {
+					add_tech_bonus = {
+				name = "Lessons from Khalkin Gol"
+				bonus = 3.0
+				uses = 3
+				category = cat_anti_tank
+			}
+			country_event = { id = japan_border_conflict.3 days = 0 }
+			SOV = { country_event = { id = japan_border_conflict.3 days = 0 } }
+		}
+	}
+}
+
+SOV_great_patriotic_war = {
+	SOV_move_capital_kazan={
+	icon = generic_civil_support
+	allowed = {	original_tag = SOV	}
+	visible={ has_war_with=GER controls_state = 249     }
+	available={
+	249={is_capital=no}}
+	complete_effect={ set_capital=249 }
+	}
+	SOV_move_capital_stalingrad={
+	icon = generic_civil_support
+	allowed = {	original_tag = SOV				}
+	visible={has_war_with=GER controls_state = 217     }
+	available={	217={is_capital=no}}
+	complete_effect={ set_capital = 217 }
+	} 
+	SOV_move_capital_leningrad={
+	icon = generic_civil_support
+	allowed = {	original_tag = SOV	}
+	visible={has_war_with=GER controls_state = 195}
+	available={195={is_capital=no}}
+	complete_effect={	set_capital = 195 }
+	}
+	SOV_move_capital_moscow={
+	icon = generic_civil_support
+	allowed = {	original_tag = SOV		}
+	visible={has_war_with=GER controls_state = 219}
+	available={219={is_capital=no}}
+	complete_effect={set_capital=219}
+	}
+	SOV_relocation= {
+		allowed = {	original_tag = SOV }
+		icon = generic_naval
+		available = { date > 1950.1.1 }
+		days_mission_timeout = 5
+		fire_only_once = no
+		is_good = yes
+		activation = { always = no }
+		timeout_effect = {
+		SOV_relocate_mil=yes		
+		SOV_relocate_mil=yes
+		SOV_relocate_mil=yes		
+		SOV_relocate_mil=yes	
+		SOV_relocate_civ=yes
+		SOV_relocate_civ=yes
+		SOV_relocate_civ=yes		
+		SOV_relocate_civ=yes
+		SOV_relocate_civ_moscow=yes
+		SOV_relocate_mil_moscow=yes
+		if={limit={check_variable={relocatedciv=0}}
+			else_if={limit={check_variable={relocatedciv=1}}
+				SOV_relocate_mil=yes
+			}
+		}	
+		if={limit={check_variable={relocatedmil=0}}
+		SOV_relocate_civ=yes		
+		SOV_relocate_civ=yes
+			else_if={limit={check_variable={relocatedmil=1}}
+				SOV_relocate_civ=yes
+			}
+		}
+		set_variable={reloceatedmil=0}
+		set_variable={reloceatedciv=0}
+		activate_mission=SOV_relocation2
+		}
+		complete_effect = {
+		
+		}
+	}
+	SOV_relocation2= {
+		allowed = {original_tag=SOV	}
+		icon = generic_naval
+		available = { date > 1950.1.1 }
+		days_mission_timeout = 5
+		fire_only_once = no
+		is_good = yes
+		activation = {	always=no}
+		
+		timeout_effect = {
+		SOV_relocate_mil=yes		
+		SOV_relocate_mil=yes
+		SOV_relocate_mil=yes		
+		SOV_relocate_mil=yes	
+		SOV_relocate_civ=yes
+		SOV_relocate_civ=yes
+		SOV_relocate_civ=yes		
+		SOV_relocate_civ=yes
+		SOV_relocate_civ_moscow=yes
+		SOV_relocate_mil_moscow=yes		
+		activate_mission=SOV_relocation
+			}
+		
+		complete_effect = {
+		
+		}
+	}
+}
+
+prospect_for_resources = {
+	develop_minnesota_steel_deposits = { #391
+		icon = steel
+		allowed = {original_tag = USA	}
+		available = { num_of_civilian_factories_available_for_projects > 23 }
+		ai_will_do = { factor = 1000 }		
+		highlight_states = {	state = 391	}
+		cost = 0
+		days_remove = USA_minnesota_steel_duration
+		modifier = {	civilian_factory_use = 24	}
+		remove_effect = {
+			add_to_variable = { var = USA_minnesota_steel_duration value = 12 }
+			391 = {
+				add_resource = {
+					type = steel
+					amount = 12
+				}
+			}
+		}
+		complete_effect = {
+			if = {
+				limit = {	check_variable = { var = USA_minnesota_steel_duration value = 12 compare = less_than }	}
+				set_variable = { var = USA_minnesota_steel_duration value = 12 }
+			}
+		}
+	}
+	develop_pennsylvania_steel_deposits = { #360
+		icon = steel
+		allowed = { original_tag = USA	}
+		highlight_states = { state = 360 }
+		available = {	num_of_civilian_factories_available_for_projects > 23	}
+		ai_will_do = { factor = 1000 }
+		cost = 0
+		days_remove = USA_pennsylvania_steel_duration
+		modifier = {	civilian_factory_use = 24	}
+		remove_effect = {
+			add_to_variable = { var = USA_pennsylvania_steel_duration value = 12 }
+			360 = {
+				add_resource = {
+					type = steel
+					amount = 12
+				}
+			}
+		}
+		complete_effect = {
+			if = {
+				limit = {
+					check_variable = { var = USA_pennsylvania_steel_duration value = 12 compare = less_than }
+				}
+				set_variable = { var = USA_pennsylvania_steel_duration value = 12 }
+			}
+		}
+	}
+
+	develop_ohio_steel_deposits = { #261
+		icon = steel
+		allowed = {	original_tag = USA		}
+		available = {		num_of_civilian_factories_available_for_projects > 23	}
+		highlight_states = {	state = 261}
+		ai_will_do = { factor = 1000 }
+		cost = 0
+		days_remove = USA_ohio_steel_duration
+		modifier = {	civilian_factory_use = 24 }
+		remove_effect = {
+			add_to_variable = { var = USA_ohio_steel_duration value = 12 }
+			261 = {
+				add_resource = {
+					type = steel
+					amount = 12
+				}
+			}
+		}
+		complete_effect = {
+			if = {
+				limit = {
+					check_variable = { var = USA_ohio_steel_duration value = 12 compare = less_than }
+				}
+				set_variable = { var = USA_ohio_steel_duration value = 12 }
+			}
+		}
+	}
+	develop_indiana_steel_deposits = { #396
+		icon = steel
+		allowed = {	original_tag = USA	}
+		highlight_states = {	state = 396	}
+		available = {		num_of_civilian_factories_available_for_projects > 23	}
+		cost = 0
+		days_remove = USA_indiana_steel_duration
+		modifier = {	civilian_factory_use = 24	}
+		remove_effect = {
+			add_to_variable = { var = USA_indiana_steel_duration value = 12 }
+			396 = {
+				add_resource = {
+					type = steel
+					amount = 12
+				}
+			}
+		}
+		complete_effect = {
+			if = {
+				limit = {
+					check_variable = { var = USA_indiana_steel_duration value = 12 compare = less_than }
+				}
+				set_variable = { var = USA_indiana_steel_duration value = 12 }
+			}
+		}
+	}
+}

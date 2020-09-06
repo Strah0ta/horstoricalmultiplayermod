@@ -1,0 +1,22 @@
+state={
+id=713
+name="STATE_713"
+manpower=96
+state_category = pastoral
+history={
+owner = EFR
+add_core_of=SWE
+add_core_of=EFR
+
+buildings = {
+arms_factory = 1
+infrastructure = 1
+2165 = {
+naval_base = 1
+}
+}
+}
+provinces={
+2165
+}
+}

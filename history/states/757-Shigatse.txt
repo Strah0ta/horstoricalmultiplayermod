@@ -1,0 +1,10 @@
+state={
+id=757
+name="STATE_757"
+provinces={
+1991 2014 2098 4900 5033 8121 12807 1961 5094 8029 10802 12784 12801 2010 2093 4994 5011 7926 8068 10755 10918
+}
+manpower=1
+buildings_max_level_factor=1.000
+state_category = wasteland
+}

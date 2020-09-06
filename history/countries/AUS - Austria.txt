@@ -1,0 +1,36 @@
+﻿capital = 4
+set_research_slots = 0
+
+set_convoys = 5
+add_ideas = ai_imiter
+set_technology = {
+concentrated_industry = 1
+concentrated_industry2 = 1 
+concentrated_industry3 = 1 
+}
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1930.11.9"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	neutrality = 48
+	fascism = 50
+	democratic = 1
+	communism = 1
+}
+
+set_stability = 0.50
+
+create_country_leader = {
+	name = "Kurt Schuschnigg"
+	desc = "POLITICS_KURT_SCHUSCHNIGG_DESC"
+	picture = "Portrait_Austria_Kurt_Schuschnigg.dds"
+	expire = "1965.1.1"
+	ideology = centrism
+	traits = {
+		#
+	}
+}

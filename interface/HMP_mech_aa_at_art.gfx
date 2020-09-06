@@ -1,0 +1,43 @@
+spriteTypes = {	
+   spriteType = { 
+     name = "GFX_unit_mech_anti_air_icon_medium"				
+     textureFile = "gfx/interface/counters/divisions_large/mech_anti_air_icon.dds" 
+	# legacy_lazy_load = no
+     noOfFrames = 2
+   }
+   spriteType = { 
+     name = "GFX_unit_mech_anti_air_icon_medium_white"						
+     textureFile = "gfx/interface/counters/divisions_small/onmap_unit_mech_anti_air_icon.dds" 
+	 #legacy_lazy_load = no
+     noOfFrames = 2
+   }
+   spriteType = { 
+     name = "GFX_unit_mech_anti_air_icon_small"						
+		texturefile = "gfx/texticons/unit_mech_anti_air_icon_small.tga"
+	 legacy_lazy_load = no
+     noOfFrames = 2
+   }
+   
+   ###AT ARMORED CAR#####   -Should only refer to the Paradox's DLC path, avoiding any issues
+   
+      spriteType = { 
+     name = "GFX_unit_at_armored_car_icon_medium"				
+     textureFile = "gfx/interface/counters/divisions_large/unit_armored_car_icon.dds" 
+	# legacy_lazy_load = no
+     noOfFrames = 2
+   }
+   spriteType = { 
+     name = "GFX_unit_at_armored_car_icon_medium_white"						
+     textureFile = "gfx/interface/counters/divisions_small/onmap_unit_armored_car_icon.dds" 
+	 #legacy_lazy_load = no
+     noOfFrames = 2
+   }
+
+         spriteType = { 
+     name = "GFX_unit_armored_car_at_recon_icon_medium"				
+     textureFile = "gfx/interface/counters/divisions_large/support_unit_armored_car_recon_icon.dds" 
+	# legacy_lazy_load = no
+     noOfFrames = 2
+   }
+
+}		

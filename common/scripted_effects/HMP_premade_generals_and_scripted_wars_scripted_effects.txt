@@ -1,0 +1,1354 @@
+	HMP_script_balkans = {
+			GER = { 
+			transfer_state = 775 transfer_state = 764 transfer_state = 109 transfer_state = 104 transfer_state = 107 transfer_state = 108 transfer_state = 106 transfer_state = 731 transfer_state = 292 
+			775 = { set_compliance = 60 } 106 = { set_compliance = 40 } 109 = { set_compliance = 80 } 104 = { set_compliance = 80 } 764 = { set_compliance = 60 }
+			transfer_state = 293 transfer_state = 184
+			transfer_state = 211 transfer_state = 212 SWE = { transfer_state  = 48 } transfer_state = 48
+			every_state = { limit = {  is_core_of = BUL }  set_compliance = 100 } 
+			}
+			HUN = { transfer_state = 514 transfer_state = 45   }
+			transfer_state = 102 transfer_state = 103 SWE = { transfer_state = 105 } transfer_state = 105 
+			transfer_state = 185 transfer_state = 47 transfer_state = 187 transfer_state = 182 SWE = { transfer_state = 186 } transfer_state = 186
+			103 = { set_compliance = 100 }  			102 = { set_compliance = 100 }  			105 = { set_compliance = 40 }  
+			add_timed_idea = { idea = warbonds_a days = 180 }
+			add_threat = 20
+		}
+
+	HMP_script_china = {
+			stupid_china_gun_fix = yes 
+			every_state = { limit = { is_core_of = CHI }  set_compliance = 100 }  
+			524 = { set_compliance = 100 }
+			USA = { add_war_support = 0.15 }
+			add_threat = 30
+			}
+			
+			HMP_script_china_no_asia = {
+			USA = { add_war_support = 0.15 }
+			SWE = { add_threat = 30 }
+			ENG = { swap_ideas = { remove_idea = ENG_no_asia_idea  add_idea = ENG_no_asia_idea2}}
+			}
+HMP_script_china_no_asia2 = {
+			ENG = { swap_ideas = { remove_idea = ENG_no_asia_idea2  add_idea = ENG_no_asia_idea3} }
+			}
+HMP_script_finland = {
+FIN = { add_ideas = war_economy }
+SOV = { 
+			 		transfer_state = 147
+					add_state_core = 147
+					transfer_state = 146
+					add_state_core = 146
+					add_timed_idea = { idea = warbonds_a days = 360 }
+					add_timed_idea = { idea = warbonds_b days = 210 }
+					}
+}
+HMP_script_spain = {
+every_country = { 
+army_experience = 150
+}
+GER = { 
+army_experience = 1000
+ }
+JAP = { 
+army_experience = 1050
+}
+MAN = {
+army_experience = 500
+}
+ITA = {
+army_experience = 750
+ }
+SOV = { 
+army_experience = 1000
+}
+SPR = { 
+army_experience = 750
+}
+ROM = {
+army_experience = 500
+ }
+HUN = { 
+army_experience = 500
+}
+SPR = {add_ideas = SPR_cg_debuff add_threat = 3 }
+}
+
+HMP_script_generals = {
+HMP_GER_generals = yes
+HMP_ITA_generals = yes
+HMP_JAP_generals = yes
+HMP_MAN_generals = yes
+HMP_ROM_generals = yes
+HMP_SPRHUN_generals = yes
+HMP_SOV_generals = yes
+HMP_FRA_generals = yes
+HMP_ENG_generals = yes
+HMP_USA_generals = yes
+HMP_RAJ_generals = yes
+HMP_ASTNZL_generals = yes
+HMP_BRAMEX_generals = yes
+HMP_SAFCAN_generals = yes
+HMP_EFR_generals = yes
+}
+
+HMP_GER_generals = {
+GER = { every_army_leader = { retire = yes }}
+GER = { 
+create_corps_commander = { #for Africa
+	name = "Erwin Rommel"
+	picture = "Portrait_Germany_Erwin_Rommel.dds"
+	traits = { organizer trickster expert_improviser offensive_doctrine  panzer_leader panzer_expert desert_fox hill_fighter urban_assault_specialist  }
+	skill = 8
+	id = 9994
+    attack_skill = 8
+    defense_skill = 4
+    planning_skill = 7
+    logistics_skill = 6
+}
+create_corps_commander = {  #for fighting in Italy
+    name = "Hasso von Manteuffel"
+        picture = "Portrait_Germany_Hasso_von_Manteuffel.dds"
+    traits = { organizer trickster expert_improviser offensive_doctrine brilliant_strategist panzer_leader panzer_expert trait_mountaineer }
+    skill = 7
+    id = 99925
+   attack_skill = 7
+    defense_skill = 4
+    planning_skill = 4
+    logistics_skill = 6
+}
+create_corps_commander = { #for France/Forts
+	name = "Erich von Manstein"
+	picture = "Portrait_Germany_Erich_von_Manstein.dds"
+	traits = { organizer trickster offensive_doctrine expert_improviser panzer_leader panzer_expert brilliant_strategist trait_engineer fortress_buster }
+	skill = 8
+	id = 9995
+    attack_skill = 8
+    defense_skill = 4
+    planning_skill = 6
+    logistics_skill = 5
+}
+create_corps_commander = { #for Barbarossa
+	name = "Heinz Guderian"
+	picture = "Portrait_Germany_Heinz_Guderian.dds"
+	traits = { organizer trickster offensive_doctrine expert_improviser brilliant_strategist panzer_leader panzer_expert ranger  }
+	skill = 8
+	id = 9996
+    attack_skill = 8
+    defense_skill = 5
+    planning_skill = 6
+    logistics_skill = 5
+}
+create_field_marshal = {
+	name = "Friedrich Paulus"
+	picture = "Portrait_Germany_Friedrich_Paulus.dds"
+	traits = { commando  infantry_leader ambusher infantry_expert urban_assault_specialist organizer logistics_wizard trait_cautious panzer_expert  }
+	skill = 8
+	id = 9993
+	attack_skill = 4
+	defense_skill = 5
+	planning_skill = 4
+	logistics_skill = 10
+}
+create_corps_commander = { #for quality inf
+	name = "Kurt Student" 
+	picture = "Portrait_Germany_Kurt_Student.dds"
+	traits = { trait_reckless trait_mountaineer hill_fighter commando camouflage_expert trickster expert_improviser infantry_leader  infantry_expert }
+	skill = 7
+	id = 99916
+    attack_skill = 6
+    defense_skill = 5
+    planning_skill = 4
+    logistics_skill = 6
+}
+	create_field_marshal = {
+    name = "Wilhelm Keitel"
+        picture = "Portrait_Germany_Wilhelm_Keitel.dds"
+    traits = {  organizer fast_planner harsh_leader defensive_doctrine offensive_doctrine inspirational_leader organisational_leader infantry_leader ambusher skilled_staffer expert_delegator }
+    skill = 6
+    id = 9993010
+    attack_skill = 4
+    defense_skill = 5
+    planning_skill = 4
+    logistics_skill = 6
+		}	
+		create_corps_commander = {
+	name = "Fedor von Bock"
+	picture = "Portrait_Germany_Fedor_von_Bock.dds"
+	traits = { harsh_leader infantry_leader ambusher fake_skilled_staffer trickster expert_improviser }
+	skill = 5
+	id = 9999
+    attack_skill = 4
+    defense_skill = 5
+    planning_skill = 2
+    logistics_skill = 5
+}
+create_field_marshal = {          #tank FM
+    name = "Günther von Kluge"
+    picture = "Portrait_Germany_Gunther_von_Kluge.dds"
+    traits = { organizer offensive_doctrine logistics_wizard inspirational_leader trickster expert_improviser panzer_leader panzer_expert fast_planner thorough_planner urban_assault_specialist  }
+    skill = 9
+    id = 9992
+    attack_skill = 9
+    defense_skill = 3
+    planning_skill = 6
+    logistics_skill = 6
+		}
+		
+		
+	}
+	}
+
+HMP_ITA_generals = {
+ITA = { every_army_leader = { retire = yes }}
+ITA = {
+create_field_marshal = { #general FM 
+    name = "Pietro Badoglio"
+    picture = "Portrait_Italy_Pietro_Badoglio.dds"
+    traits = { defensive_doctrine old_guard inflexible_strategist organizer infantry_leader ambusher unyielding_defender logistics_wizard  }
+    skill = 6
+    id = 9995046
+
+    attack_skill = 4
+    defense_skill = 8
+    planning_skill = 3
+    logistics_skill = 3
+}
+create_corps_commander = {
+    name = "Sebastiano Visconti Prasca"
+    picture = "Portrait_Italy_Sebastiano_Visconti_Prasca.dds"
+    traits = {  old_guard fake_skilled_staffer inflexible_strategist infantry_leader ambusher scavenger guerilla_fighter combined_arms_expert trait_engineer }
+    skill = 6
+    id = 9995042
+	
+    attack_skill = 4
+    defense_skill = 8
+    planning_skill = 3
+    logistics_skill = 3
+}
+create_corps_commander = { #Infantry general Africa
+    name = "Italo Balbo"
+    picture = "portrait_italy_italo_balbo.dds"
+    traits = { infantry_leader infantry_expert scavenger offensive_doctrine naval_liason trait_mountaineer trait_engineer hill_fighter }
+    skill = 6
+    id = 9995044
+
+    attack_skill = 8
+    defense_skill = 3
+    planning_skill = 4
+    logistics_skill = 3
+}
+create_field_marshal = {
+	name = "Emilio De Bono"
+	picture = "portrait_italy_emilio_de_bono.dds"
+	traits = { defensive_doctrine organizer logistics_wizard old_guard infantry_leader ambusher inspirational_leader organisational_leader guerilla_fighter trait_cautious }
+	skill = 7
+	id = 9995047
+	attack_skill = 4
+	defense_skill = 7
+	planning_skill = 2
+	logistics_skill = 8
+}
+
+create_field_marshal = {
+    name = "Rodolfo Graziani"
+    picture = "portrait_italy_radolfo_graziani.dds"
+    traits = { organizer panzer_leader panzer_expert thorough_planner logistics_wizard trait_engineer desert_fox trait_mountaineer hill_fighter offensive_doctrine trait_cautious }
+    skill = 7
+    id = 9995045
+
+    attack_skill = 5
+    defense_skill = 4
+    planning_skill = 7
+    logistics_skill = 5
+}
+create_corps_commander = { #AFRIKACORPS GENERAL
+    name = "Giovanni Messe"
+    picture = "Portrait_Italy_Giovanni_Messe.dds"
+	traits = { trickster panzer_leader panzer_expert fortress_buster expert_improviser offensive_doctrine camouflage_expert desert_fox trait_mountaineer hill_fighter trait_engineer }
+    skill = 8
+    id = 9995040
+    attack_skill = 7
+    defense_skill = 5
+    planning_skill = 6
+    logistics_skill = 6
+}
+create_corps_commander = {
+	name = "Ugo Cavallero"
+	picture = "Portrait_Italy_Ugo_Cavallero.dds"
+	traits = {  old_guard trait_cautious fake_skilled_staffer infantry_leader commando camouflage_expert ambusher skirmisher  }
+
+	skill = 6
+    attack_skill = 4
+    defense_skill = 3
+    planning_skill = 4
+    logistics_skill = 8
+}
+
+create_corps_commander = {
+	name = "Gualano"
+	picture = "Portrait_ITA_Gualano.tga"
+	traits = {harsh_leader infantry_officer skilled_staffer war_hero }
+	skill = 4
+	attack_skill = 5
+	defense_skill = 5
+	planning_skill = 5
+	logistics_skill = 2
+}
+}
+}
+HMP_JAP_generals = {
+JAP = { every_army_leader = { retire = yes }}
+JAP = { 
+create_corps_commander = {
+	name = "Tomoyuki Yamashita"
+		picture = "Portrait_Japan_Tomoyuki_Yamashita.dds"
+	traits = {	aggressive_assaulter trickster infantry_expert fortress_buster invader_ii  expert_improviser trait_engineer brilliant_strategist ranger commando naval_invader }
+	skill = 9
+	attack_skill = 9
+	defense_skill = 4
+	planning_skill = 6
+	logistics_skill = 8
+}
+
+create_field_marshal = {
+	name = "Hisaichi Terauchi"
+	picture = "Portrait_Japan_Hisaichi_Terauchi.dds"
+	traits = {  organizer thorough_planner logistics_wizard infantry_leader infantry_expert scavenger  expert_improviser organisational_leader inspirational_leader  JAP_samurai_lineage trait_engineer commando hill_fighter jungle_rat urban_assault_specialist trait_mountaineer trickster naval_invader  }
+	skill = 9
+	attack_skill = 10
+	defense_skill = 4
+	planning_skill = 5
+	logistics_skill = 8
+}
+
+create_corps_commander = {
+	name = "Shunroku Hata"
+		picture = "Portrait_Japan_Shunroku_Hata.dds"
+	traits = { trickster expert_improviser JAP_samurai_lineage trait_engineer fortress_buster panzer_leader panzer_expert }
+	skill = 7
+	attack_skill = 7
+	defense_skill = 3
+	planning_skill = 5
+	logistics_skill = 6
+}
+
+create_corps_commander = {
+	name = "Shizuichi Tanaka"
+		picture = "Portrait_Japan_Shizuichi_Tanaka.dds"
+	traits = { trickster expert_improviser infantry_leader infantry_expert trait_engineer scavenger hill_fighter commando  naval_invader invader_ii urban_assault_specialist }
+	skill = 8
+	attack_skill = 9
+	defense_skill = 4
+	planning_skill = 5
+	logistics_skill = 6
+}
+
+
+create_corps_commander = {
+	name = "Toshizo Nishio" #Toshizo
+		picture = "Portrait_Japan_Toshizo_Nishio.dds"
+	traits = { brilliant_strategist aggressive_assaulter trait_engineer infantry_leader commando infantry_expert scavenger  trait_mountaineer trickster naval_invader invader_ii naval_liason }
+	skill = 8
+	attack_skill = 9
+	defense_skill = 4
+	planning_skill = 5
+	logistics_skill = 6
+}
+
+
+create_corps_commander = {
+	name = "Seishiro Itagaki"
+		picture = "Portrait_Japan_Seishiro_Itagaki.dds"
+	traits = { JAP_samurai_lineage inflexible_strategist infantry_leader ambusher unyielding_defender  fake_skilled_staffer  }
+	skill = 7
+	attack_skill = 6
+	defense_skill = 5
+	planning_skill = 4
+	logistics_skill = 7
+}
+create_corps_commander = {
+	name = "Keisuke Fujie"
+		picture = "Portrait_Japan_Keisuke_Fujie.dds"
+	traits = { trait_engineer fortress_buster  infantry_leader trickster ambusher  fake_skilled_staffer  } 
+	skill = 7
+	attack_skill = 7
+	defense_skill = 3
+	planning_skill = 5
+	logistics_skill = 5
+}
+}
+}
+HMP_MAN_generals = {
+MAN = { every_army_leader = { retire = yes }}
+MAN = { 
+create_field_marshal = {
+	name = "Zhang Haipeng"
+	GFX = "GFX_portrait_man_zhang_haipeng"
+	traits = { organizer thorough_planner logistics_wizard trait_engineer scavenger infantry_leader infantry_expert panzer_leader panzer_expert trait_mountaineer hill_fighter trickster expert_improviser }
+	skill = 8
+	attack_skill = 9
+	defense_skill = 4
+	planning_skill = 4
+	logistics_skill = 7
+}
+
+create_corps_commander = {
+	name = "Zhang Jinghui"
+	GFX = "GFX_portrait_man_zhang_jinghui"
+	traits = { infantry_leader infantry_expert ranger trickster expert_improviser trait_engineer  scavenger }
+	skill = 8
+	attack_skill = 9
+	defense_skill = 4
+	planning_skill = 4
+	logistics_skill = 7
+}
+
+create_corps_commander = {
+	name = "Aisin Gioro Xiqia"
+	GFX = "GFX_portrait_man_aisin_gioro_xiqia"
+	traits = { panzer_leader panzer_expert trickster expert_improviser  trait_engineer trait_mountaineer fortress_buster }
+	skill = 8
+	attack_skill = 9
+	defense_skill = 4
+	planning_skill = 4
+	logistics_skill = 7
+}
+
+create_corps_commander = {
+	name = "Yoshiko Kawashima"
+	gfx = "GFX_portrait_man_yoshiko_kawashima_army"
+	traits = { infantry_leader infantry_expert naval_invader trickster expert_improviser invader_ii naval_liason trait_engineer  trait_mountaineer fortress_buster }
+	skill = 8
+	attack_skill = 9
+	defense_skill = 4
+	planning_skill = 4
+	logistics_skill = 7
+	female = yes
+}
+
+}
+}
+HMP_ROM_generals = {
+ROM = { every_army_leader = { retire = yes }}
+ROM = {
+create_field_marshal = {
+	name = "Petre Dumitrescu"
+	gfx = GFX_Portrait_romania_petre_dumitrescu
+	traits = { organizer defensive_doctrine infantry_leader trait_engineer trait_mountaineer urban_assault_specialist hill_fighter trickster ambusher guerilla_fighter logistics_wizard scavenger }
+	skill = 7
+	attack_skill = 5
+	defense_skill = 10
+	planning_skill = 3
+	logistics_skill = 4
+}
+
+create_field_marshal = {
+	name = "Ion Antonescu"
+	picture = "Portrait_Romania_Ion_Antonescu.dds"
+	traits = { offensive_doctrine organizer panzer_leader hill_fighter trait_engineer trait_mountaineer urban_assault_specialist infantry_leader infantry_expert panzer_expert expert_improviser logistics_wizard  trickster fast_planner }
+	
+	skill = 7
+	attack_skill = 8
+	defense_skill = 5
+	planning_skill = 4
+	logistics_skill = 5
+}
+
+create_corps_commander = {
+	name = "Ioan Mihail Racovita"
+	gfx = GFX_Portrait_romania_ioan_mihail_racovita
+	traits = { hill_fighter trait_mountaineer infantry_leader trait_engineer urban_assault_specialist trickster expert_improviser infantry_expert fortress_buster naval_invader invader_ii }
+	skill = 7
+	attack_skill = 7
+	defense_skill = 5
+	planning_skill = 4
+	logistics_skill = 6
+}
+
+create_corps_commander = {
+	name = "Gheorghe Avramescu"
+	gfx = GFX_Portrait_romania_gheorghe_avramescu
+	traits = { panzer_leader trickster trait_engineer expert_improviser hill_fighter panzer_expert fortress_buster camouflage_expert }
+	skill = 6
+	attack_skill = 6
+	defense_skill = 4
+	planning_skill = 4
+	logistics_skill = 5
+}
+}
+}
+HMP_SPRHUN_generals = {
+SPR = { every_army_leader = { retire = yes }}
+HUN = { every_army_leader = { retire = yes }}
+HUN = { 
+create_corps_commander = {
+	name = "Géza Lakatos"
+	gfx = GFX_Portrait_hungary_geza_lakatos
+	traits = {  infantry_leader trickster commando camouflage_expert expert_improviser guerilla_fighter camouflage_expert ambusher ranger }
+	skill = 7
+	attack_skill = 8
+	defense_skill = 4
+	planning_skill = 5
+	logistics_skill = 5
+}
+
+create_field_marshal = {
+	name = "Iván Hindy"
+	gfx = GFX_Portrait_hungary_ivan_hindy
+	traits = { organizer  urban_assault_specialist panzer_leader panzer_expert trickster expert_improviser ambusher scavenger trait_engineer swamp_fox }
+	skill = 7
+	attack_skill = 7
+	defense_skill = 5
+	planning_skill = 5
+	logistics_skill = 5
+}
+
+create_field_marshal = {
+	name = "Károly Beregfy"
+	gfx = GFX_Portrait_hungary_karoly_beregfy
+	traits = { infantry_leader urban_assault_specialist ranger infantry_expert scavenger logistics_wizard thorough_planner trickster organizer  trait_engineer }
+	skill = 7
+	attack_skill = 7
+	defense_skill = 5
+	planning_skill = 5
+	logistics_skill = 5
+}
+
+create_field_marshal = {
+	name = "Lajos Veress"
+	gfx = GFX_Portrait_hungary_lajos_veress
+	traits = { organizer urban_assault_specialist panzer_leader expert_improviser inspirational_leader thorough_planner logistics_wizard organisational_leader	trickster trait_engineer }
+	skill = 7
+	attack_skill = 8
+	defense_skill = 4
+	planning_skill = 4
+	logistics_skill = 6
+}
+
+create_field_marshal = {
+	name = "Ferenc Feketehalmy-Czeydner"
+	gfx = GFX_Portrait_hungary_ferenc_feketehalmy_czeydner
+	traits = { infantry_leader urban_assault_specialist trait_mountaineer swamp_fox infantry_expert fortress_buster trickster expert_improviser invader_ii trait_engineer }
+	skill = 7
+	attack_skill = 7
+	defense_skill = 6
+	planning_skill = 3
+	logistics_skill = 6
+}
+}
+SPR = {
+	create_field_marshal = {
+		name = "Francisco Franco"
+		id = 9991108
+		gfx = "GFX_portrait_spain_francisco_franco"
+		traits = { organisational_leader logistics_wizard brilliant_strategist trait_engineer organizer panzer_leader fast_planner expert_improviser desert_fox ranger trickster aggressive_assaulter   }
+		skill = 8
+	    attack_skill = 8
+	    defense_skill = 5
+	    planning_skill = 7
+	    logistics_skill = 5
+	}
+		create_corps_commander = {
+		name = "Juan Yagüe"
+		id = 9991112
+		gfx = "GFX_portrait_SPA_juan_yague"
+	traits = { brilliant_strategist trait_reckless trickster panzer_leader desert_fox trait_engineer panzer_expert expert_improviser fortress_buster  naval_liason  }
+		
+		skill = 7
+    attack_skill = 5
+    defense_skill = 5
+    planning_skill = 6
+    logistics_skill = 6
+	}
+	create_corps_commander = {
+		name = "Mohamed Meziane"
+		id = 9991109
+		gfx = "GFX_portrait_SPA_mohamed_meziane"
+		traits = { harsh_leader panzer_leader trickster infantry_leader urban_assault_specialist expert_improviser panzer_expert  ambusher guerilla_fighter skirmisher   }
+		skill = 8
+    attack_skill = 8
+    defense_skill = 5
+    planning_skill = 6
+    logistics_skill = 6
+	}
+}
+
+
+}
+HMP_SOV_generals = {
+SOV = { every_army_leader = { retire = yes }}
+
+SOV = {   
+	   create_field_marshal = {
+		name = "Boris Shaposhnikov"
+        picture = "Portrait_Soviet_Boris_Shaposhnikov.dds"
+		traits = {  infantry_leader skilled_staffer organizer logistics_wizard  }
+		skill = 5
+		id = 9994010 
+    attack_skill = 1
+    defense_skill = 4
+    planning_skill = 1
+    logistics_skill = 10
+			}		
+			
+	create_corps_commander = {
+	name = "Nikolai Vatutin"
+		picture = "Portrait_Soviet_Nikolai_Fyodorovich_Vatutin.dds"
+	traits = { infantry_leader fake_skilled_staffer organizer trait_reckless }
+	skill = 5
+	id = 9994011
+    attack_skill = 1
+    defense_skill = 4
+    planning_skill = 1
+    logistics_skill = 10
+}		
+
+create_corps_commander = {
+	name = "Kirill Meretskov"
+		picture = "Portrait_Soviet_Kirill_Meretskov.dds"
+	traits = { infantry_leader fake_skilled_staffer organizer trait_reckless }
+	skill = 5
+	id = 9999912
+    attack_skill = 1
+    defense_skill = 4
+    planning_skill = 1
+    logistics_skill = 10
+}
+
+create_corps_commander = {
+	name = "Ivan Fedyuninsky"
+		picture = "Portrait_Soviet_Ivan_Fedyuninsky.dds"
+	traits = { infantry_leader fake_skilled_staffer   }
+	skill = 5
+	id = 9994027
+    attack_skill = 1
+    defense_skill = 4
+    planning_skill = 1
+    logistics_skill = 10
+}
+
+create_corps_commander = {
+	name = "Markian Popov"
+		picture = "Portrait_Soviet_Matkian_Popov.dds"
+	traits = { infantry_leader infantry_expert trait_engineer fortress_buster trickster expert_improviser ranger  brilliant_strategist aggressive_assaulter }
+	skill = 5
+
+	attack_skill = 4
+	defense_skill = 4
+	planning_skill = 3
+	logistics_skill = 5
+}
+	
+		create_field_marshal = {
+	name = "Kliment Voroshilov"
+	id = 999405
+		picture = "Portrait_Soviet_Kliment_Voroshilov.dds"
+	traits = { old_guard inflexible_strategist organizer infantry_leader defensive_doctrine ambusher inspirational_leader unyielding_defender  }
+	skill = 6
+
+	
+	attack_skill = 4
+	defense_skill = 6
+	planning_skill = 4
+	logistics_skill = 5
+}
+	
+			
+create_field_marshal = {
+	name = "Georgy Zhukov"
+	id = 999410
+		picture = "Portrait_Soviet_Gregory_Zhukov.dds"
+	traits = { organizer logistics_wizard panzer_leader panzer_expert expert_improviser ranger trickster  }
+	skill = 8
+
+	
+	attack_skill = 7
+	defense_skill = 6
+	planning_skill = 4
+	logistics_skill = 8
+}
+
+create_corps_commander = {
+	name = "Konstantin Rokossovsky"
+	id = 999402
+		picture = "Portrait_Soviet_Konstantin_Rokossovsky.dds"
+	traits = {  panzer_leader panzer_expert expert_improviser ranger trait_cautious brilliant_strategist trickster  urban_assault_specialist }
+	skill = 8
+	
+	attack_skill = 7
+	defense_skill = 6
+	planning_skill = 2
+	logistics_skill = 8
+}		
+create_corps_commander = {
+	name = "Ivan Konev"
+	id = 999408
+		picture = "Portrait_Soviet_Ivan_Konev.dds"
+	traits = { panzer_leader harsh_leader ranger trait_engineer panzer_expert expert_improviser trickster }
+	skill = 8
+
+	attack_skill = 7
+	defense_skill = 5
+	planning_skill = 4
+	logistics_skill = 7
+}
+create_corps_commander = {
+	name = "Semyon Timoshenko"
+	id = 999404
+		picture = "Portrait_Soviet_Semyon_Timoshenko.dds"
+	traits = { panzer_leader hill_fighter trait_mountaineer panzer_expert expert_improviser trickster guerilla_fighter }
+	skill = 8
+
+	attack_skill = 7
+	defense_skill = 6
+	planning_skill = 7
+	logistics_skill = 5
+}
+create_corps_commander = {
+	name = "Vasily Kuznetsov"
+		picture = "Portrait_Soviet_Vasily_Kuznetsov.dds"
+	traits = { commando camouflage_expert skirmisher panzer_leader panzer_expert ambusher swamp_fox  offensive_doctrine }
+	skill = 8
+	id = 9994015
+	attack_skill = 7
+	defense_skill = 7
+	planning_skill = 3
+	logistics_skill = 8
+}
+
+
+			}
+		
+}
+HMP_BRAMEX_generals = {
+MEX = { every_army_leader = { retire = yes }}
+MEX = {	 
+create_field_marshal = {
+	name = "Heliodoro Charis"
+	id = 999700
+	gfx = "GFX_portrait_mex_heliodoro_charis"
+	traits = { logistics_wizard infantry_leader infantry_expert ambusher commando skirmisher paratrooper trait_engineer trait_mountaineer  } # Veteran of many assaults
+	skill = 6
+    attack_skill = 5
+    defense_skill = 6
+    planning_skill = 4
+    logistics_skill = 4
+}
+	create_field_marshal = {
+		name = "José Gonzalo Escobar"
+		id = 999709
+		gfx = "GFX_portrait_mex_jose_gonzalo_escobar"
+		traits = { organizer organisational_leader logistics_wizard panzer_leader panzer_expert trait_engineer scavenger } # Cavalry commander
+		skill = 6
+		attack_skill = 4
+		defense_skill = 5
+		planning_skill = 4
+		logistics_skill = 6
+	}
+
+create_corps_commander = {
+	name = "Luis Farell"
+	id = 999701
+	gfx = "GFX_portrait_mex_luis_farell"
+	traits = { infantry_leader infantry_expert trickster expert_improviser guerilla_fighter ranger } # Personally piloted missions against rebels etc
+	skill = 6
+    attack_skill = 6
+    defense_skill = 4
+    planning_skill = 4
+    logistics_skill = 5
+}
+
+create_corps_commander = {
+	name = "Gildardo Magaña"
+	id = 999702
+	gfx = "GFX_portrait_mex_gildardo_magana"
+	traits = { panzer_leader panzer_expert trickster expert_improviser  naval_invader skirmisher  } # Headed some political organisations like trade unions
+	skill = 6
+    attack_skill = 	6
+    defense_skill = 4
+    planning_skill = 5
+    logistics_skill = 4
+}
+create_corps_commander = {
+	name = "Eurico Gaspar Dutra"
+	portrait_path = "gfx/leaders/BRA/Eurico_Gaspar_Dutra.tga"
+	traits = { ranger infantry_leader ambusher trickster guerilla_fighter skilled_staffer }
+	skill = 6
+	attack_skill = 4
+	defense_skill = 5
+	planning_skill = 5
+	logistics_skill = 5
+}
+
+create_corps_commander = {
+	name = "Mascarenhas de Morais"
+	portrait_path = "gfx/leaders/BRA/Mascarenhas_de_Morais.tga"
+	traits = {  jungle_rat infantry_leader ambusher trickster trait_engineer scavenger }
+	skill = 6
+	attack_skill = 5
+	defense_skill = 5
+	planning_skill = 3
+	logistics_skill = 6
+}
+}
+}
+HMP_FRA_generals = {
+FRA = { every_army_leader = { retire = yes }}
+FRA = { 
+create_corps_commander = {
+	name = "Jean de Lattre de Tassigny"
+	picture = "Portrait_France_Jean_de_Lattre_de_Tassigny.dds"
+	traits = {  trickster expert_improviser guerilla_fighter brilliant_strategist desert_fox aggressive_assaulter panzer_leader panzer_expert }
+	skill = 6
+	attack_skill = 6
+	defense_skill = 6
+	planning_skill = 2
+	logistics_skill = 5
+}
+
+create_field_marshal = {
+	name = "Alphonse Juin"
+	picture = "Portrait_France_Alphonse_Juin.dds"
+	traits = { trait_cautious organizer logistics_wizard infantry_leader infantry_expert commando thorough_planner paratrooper skirmisher }
+	skill = 6
+	attack_skill = 7
+	defense_skill = 4
+	planning_skill = 4
+	logistics_skill = 4
+}
+
+
+create_field_marshal = {
+	name = "Charles De Gaulle"
+	picture = "Portrait_France_Charles_De_Gaulle.dds"
+	traits = {  harsh_leader trickster panzer_leader desert_fox organizer logistics_wizard  panzer_expert expert_improviser  }
+	id = 999101
+	skill = 6
+	attack_skill = 4
+	defense_skill = 4
+	planning_skill = 6
+	logistics_skill = 5
+}
+
+create_corps_commander = {
+	name = "Philippe Leclerc"
+	picture = "portrait_france_philippe_leclerc.dds"
+	traits = {  trait_reckless infantry_leader ambusher trickster expert_improviser desert_fox commando camouflage_expert }
+	skill = 6
+	attack_skill = 6
+	defense_skill = 4
+	planning_skill = 3
+	logistics_skill = 6
+}	
+
+create_corps_commander = {
+	name = "Henri Giraud"
+	picture = "portrait_france_henri_giraud.dds"
+	traits = {  trickster trait_cautious infantry_leader infantry_expert ambusher trait_engineer scavenger trait_mountaineer }
+	skill = 6
+	attack_skill = 6
+	defense_skill = 4
+	planning_skill = 3
+	logistics_skill = 6
+}
+}
+}
+HMP_ENG_generals = {
+ENG = { every_army_leader = { retire = yes }}
+ENG = {
+create_field_marshal = {
+	name = "Alan Brooke" # Aristocrat
+	id = 999997
+	picture = "Portrait_Britain_Alan_Brooke.dds"
+	traits = { organizer thorough_planner defensive_doctrine infantry_leader infantry_expert trait_cautious adaptable }
+	skill = 6
+	attack_skill = 3
+	defense_skill = 6
+	planning_skill = 4
+	logistics_skill = 6
+}
+
+create_corps_commander = {
+	name = "Claude Auchinleck"
+	picture = "Portrait_Britain_Claude_Auchinleck.dds"
+	traits = { inflexible_strategist unyielding_defender infantry_leader infantry_expert trait_engineer scavenger commando camouflage_expert paratrooper }
+	skill = 6
+	attack_skill = 4
+	defense_skill = 6
+	planning_skill = 5
+	logistics_skill = 4
+}
+
+create_corps_commander = {
+	name = "Neil Ritchie"
+	picture = "Portrait_Britain_Neil_Ritchie.dds"
+	traits = { inflexible_strategist unyielding_defender infantry_leader ambusher fake_skilled_staffer   }
+	skill = 6
+	attack_skill = 4
+	defense_skill = 5
+	planning_skill = 3
+	logistics_skill = 6
+}
+
+create_corps_commander = {
+	name = "William Gott"
+		picture = "Portrait_Britain_William_Gott.dds"
+	traits = { panzer_leader panzer_expert desert_fox inflexible_strategist unyielding_defender }
+	skill = 6
+	attack_skill = 7
+	defense_skill = 3
+	planning_skill = 4
+	logistics_skill = 4
+}
+
+create_field_marshal = {
+	name = "Alan Cunningham"
+	picture = "Portrait_Britain_Alan_Cunningham.dds"
+	traits = { organizer fast_planner organisational_leader offensive_doctrine infantry_leader trickster hill_fighter trait_mountaineer infantry_expert expert_improviser }
+	skill = 6
+	attack_skill = 4
+	defense_skill = 4
+	planning_skill = 5
+	logistics_skill = 6
+}
+
+create_corps_commander = {
+	name = "William Slim"
+	picture = "Portrait_Britain_William_Slim.dds"
+	traits = { jungle_rat trickster infantry_expert expert_improviser infantry_leader }
+	skill = 6
+	attack_skill = 5
+	defense_skill = 3
+	planning_skill = 4
+	logistics_skill = 7
+}
+create_corps_commander = {
+	name = "Richard O'Connor"
+	id = 999999
+	picture = "Portrait_Britain_Richard_OConnor.dds"
+	traits = { desert_fox infantry_leader ambusher }
+	skill = 6
+	attack_skill = 3
+	defense_skill = 4
+	planning_skill = 5
+	logistics_skill = 7
+}
+
+create_corps_commander = {
+	name = "Miles Dempsey"
+	picture = "Portrait_Britain_Miles_Dempsey.dds"
+	traits = { brilliant_strategist infantry_leader aggressive_assaulter infantry_expert trait_mountaineer hill_fighter }
+	skill = 6
+	attack_skill = 5
+	defense_skill = 3
+	planning_skill = 5
+	logistics_skill = 6
+}
+
+
+create_corps_commander = {
+	name = "Archibald Wavell" # Aristocrat
+	id = 999998
+	picture = "Portrait_Britain_Archibald_Wavell.dds"
+	traits = { infantry_leader panzer_leader panzer_expert infantry_expert fortress_buster	desert_fox commando trait_engineer }
+	skill = 6
+	attack_skill = 4
+	defense_skill = 6
+	planning_skill = 3
+	logistics_skill = 6
+}
+
+}
+}
+HMP_USA_generals = {
+USA = { every_army_leader = { retire = yes }}
+USA = {
+
+create_corps_commander = {
+	name = "Maurice Rose"
+	picture = "Portrait_USA_Maurice_Rose.dds"
+	traits = { panzer_leader panzer_expert trait_reckless brilliant_strategist aggressive_assaulter urban_assault_specialist }
+	skill = 6
+	attack_skill = 6
+	defense_skill = 4
+	planning_skill = 4
+	logistics_skill = 5
+}
+
+
+create_field_marshal = {
+	name = "Courtney Hodges"
+	picture = "Portrait_USA_Cortney_Hodges.dds"
+	traits = {  panzer_leader panzer_expert trickster expert_improviser	guerilla_fighter urban_assault_specialist }
+	skill = 6
+	attack_skill = 7
+	defense_skill = 3
+	planning_skill = 4
+	logistics_skill = 5
+}
+
+create_corps_commander = {
+	name = "Lucian Truscott"
+	picture = "Portrait_USA_Lucian_Truscott.dds"
+	traits = { skilled_staffer trait_engineer expert_improviser infantry_leader  }
+	skill = 6
+
+	attack_skill = 6
+	defense_skill = 5
+	planning_skill = 4
+	logistics_skill = 4
+}
+
+create_field_marshal = {
+	name = "Mark Clark"
+	picture = "Portrait_USA_Mark_W_Clark.dds"
+	traits = { skilled_staffer defensive_doctrine infantry_leader infantry_expert jungle_rat trait_reckless organizer organisational_leader inspirational_leader logistics_wizard }
+	skill = 6
+
+	attack_skill = 5
+	defense_skill = 5
+	planning_skill = 4
+	logistics_skill = 5
+}
+
+create_corps_commander = {
+	name = "Alexander Patch"
+	picture = "Portrait_USA_Alexander_Patch.dds"
+	traits = {  infantry_leader infantry_expert fake_skilled_staffer }
+	skill = 6
+	attack_skill = 5
+	defense_skill = 5
+	planning_skill = 4
+	logistics_skill = 5
+}
+}
+}
+HMP_RAJ_generals = {
+RAJ = { every_army_leader = { retire = yes }}
+RAJ = {
+				create_corps_commander = {
+					name = "Kodandera Madappa Cariappa"
+					gfx = "GFX_RAJ_kodandera_madappa_cariappa"
+					traits = { infantry_leader infantry_expert adaptable hill_fighter skilled_staffer }
+					skill = 6
+					attack_skill = 5
+					defense_skill = 4
+					planning_skill = 5
+					logistics_skill = 5
+				}
+				create_corps_commander = {
+					name = "Kodandera Subayya Thimayya"
+					gfx = "GFX_RAJ_kodendera_subayya_thimayya"
+					traits = { panzer_leader panzer_expert trait_engineer scavenger fortress_buster }
+					skill = 6
+					attack_skill = 6
+					defense_skill = 3
+					planning_skill = 5
+					logistics_skill = 5
+				}
+				create_field_marshal = {
+					name = "Jayanto Nath Chaudhuri"
+					gfx = "GFX_RAJ_jayanto_nath_chaudhuri"
+					traits = { panzer_leader panzer_expert ambusher logistics_wizard organizer defensive_doctrine }
+					skill = 6
+					attack_skill = 5
+					defense_skill = 5
+					planning_skill = 4
+					logistics_skill = 5
+				}
+				create_corps_commander = {
+				name = "Orde Wingate"
+				gfx = "GFX_RAJ_orde_wingate"
+				traits = { skilled_staffer jungle_rat trait_mountaineer infantry_leader ambusher commando camouflage_expert }
+				skill = 6
+				attack_skill = 5
+				defense_skill = 3
+				planning_skill = 5
+				logistics_skill = 6
+				}
+		
+create_corps_commander = {
+	name = "Noel Beresford-Peirse"
+	gfx = "GFX_RAJ_noel_beresford_peirse"
+	traits = { trickster expert_improviser panzer_leader panzer_expert desert_fox }
+	skill = 6
+	attack_skill = 5
+	defense_skill = 4
+	planning_skill = 5
+	logistics_skill = 5
+}
+
+create_field_marshal = {
+	name = "Frank Messervy"
+	gfx = "GFX_RAJ_frank_messervy"
+	traits = { logistics_wizard skilled_staffer organizer organisational_leader inspirational_leader defensive_doctrine infantry_leader  commando camouflage_expert }
+	skill = 6
+	attack_skill = 5
+	defense_skill = 5
+	planning_skill = 3
+	logistics_skill = 6
+}
+
+create_corps_commander = {
+	name = "Douglas Gracey"
+	gfx = "GFX_RAJ_douglas_gracey"
+	traits = { desert_fox infantry_leader ambusher  trickster guerilla_fighter }
+	skill = 7
+	attack_skill = 5
+	defense_skill = 8
+	planning_skill = 4
+	logistics_skill = 5
+}
+}
+}
+HMP_ASTNZL_generals = {
+AST = { every_army_leader = { retire = yes }}
+NZL = { every_army_leader = { retire = yes }}
+AST = { 
+create_field_marshal = {
+	name = "Leslie Morshead"
+	gfx = "GFX_AST_leslie_morshead"
+	traits = { organizer infantry_leader infantry_expert ambusher trait_mountaineer trickster expert_improviser thorough_planner }
+	skill = 7
+	attack_skill = 4
+	defense_skill = 4
+	planning_skill = 8
+	logistics_skill = 6
+}
+create_corps_commander = {
+	name = "John Northcott"
+	gfx = "GFX_AST_john_northcott"
+	traits = { infantry_leader infantry_expert trait_mountaineer commando paratrooper skirmisher trait_engineer  scavenger }
+	skill = 7
+	attack_skill = 5
+	defense_skill = 4
+	planning_skill = 8
+	logistics_skill = 5
+}
+create_field_marshal = {
+	name = "Thomas Blamey"
+	gfx = "GFX_AST_thomas_blamey"
+	traits = { organizer organisational_leader offensive_doctrine fast_planner commando panzer_leader panzer_expert camouflage_expert  }
+	skill = 5
+	attack_skill = 5
+	defense_skill = 4
+	planning_skill = 3
+	logistics_skill = 4
+}
+create_corps_commander = {
+	name = "Henry Wynter"
+	gfx = "GFX_AST_henry_wynter"
+	traits = { panzer_leader panzer_expert trait_engineer fortress_buster scavenger }
+	skill = 5
+	attack_skill = 5
+	defense_skill = 4
+	planning_skill = 3
+	logistics_skill = 4
+}
+create_corps_commander = {
+	name = "Alan Vasey"
+	gfx = "GFX_AST_alan_vasey"
+	traits = { hill_fighter desert_fox infantry_leader ambusher naval_invader }
+	skill = 7
+	attack_skill = 4
+	defense_skill = 5
+	planning_skill = 8
+	logistics_skill = 5
+}
+create_field_marshal = {
+	name = "Horace Robertson"
+	gfx = "GFX_AST_horace_robertson"
+	traits = { organizer logistics_wizard defensive_doctrine hill_fighter desert_fox infantry_leader ambusher }
+	skill = 7
+	attack_skill = 4
+	defense_skill = 6
+	planning_skill = 6
+	logistics_skill = 6
+}
+}
+NZL = {
+create_corps_commander = {
+	name = "Bernard Freyberg"
+	gfx = "GFX_NZL_bernard_freyberg"
+	traits = { infantry_leader infantry_expert desert_fox  naval_invader invader_ii trickster guerilla_fighter }
+	skill = 6
+	attack_skill = 5
+	defense_skill = 4
+	planning_skill = 5
+	logistics_skill = 5
+}
+
+create_field_marshal = {
+	name = "Robert Row"
+	gfx = "GFX_NZL_robert_row"
+	traits = {  hill_fighter panzer_leader  panzer_expert infantry_leader infantry_expert organizer logistics_wizard inspirational_leader organisational_leader offensive_doctrine fast_planner  }
+	skill = 6
+	attack_skill = 5
+	defense_skill = 6
+	planning_skill = 3
+	logistics_skill = 5
+}
+
+create_corps_commander = {
+	name = "William Stevens"
+	gfx = "GFX_NZL_william_stevens"
+	traits = { panzer_leader panzer_expert trait_engineer scavenger trickster expert_improviser }
+	skill = 6
+	attack_skill = 5
+	defense_skill = 4
+	planning_skill = 6
+	logistics_skill = 4
+}
+}
+}
+HMP_SAFCAN_generals = {
+SAF = { every_army_leader = { retire = yes }}
+CAN = { every_army_leader = { retire = yes }}
+CAN = { 
+create_field_marshal = {
+	name = "Charles Foulkes"
+	gfx = "GFX_CAN_charles_foulkes"
+	traits = { panzer_leader panzer_expert organizer logistics_wizard commando skirmisher }
+	skill = 6
+	attack_skill = 5
+	defense_skill = 4
+	planning_skill = 3
+	logistics_skill = 7
+}
+
+create_corps_commander = {
+	name = "Bert Hoffmeister"
+	gfx = "GFX_CAN_bert_hoffmeister"
+	traits = { panzer_leader panzer_expert hill_fighter trait_engineer fortress_buster trickster expert_improviser  }
+	skill = 6
+	attack_skill = 6
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 7
+}
+create_field_marshal = {
+	name = "Percival John Montague"
+	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
+	traits = { defensive_doctrine organisational_leader organizer thorough_planner infantry_leader ambusher naval_invader naval_liason }
+	skill = 6
+    attack_skill = 3
+    defense_skill = 7
+    planning_skill = 3
+    logistics_skill = 6
+}
+
+
+create_corps_commander = {
+	name = "Thomas Victor Anderson"
+	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
+	traits = { infantry_leader infantry_expert ambusher naval_invader naval_liason invader_ii offensive_doctrine }
+	skill = 6
+    attack_skill = 4
+    defense_skill = 6
+    planning_skill = 4
+    logistics_skill = 5
+}
+
+}
+SAF = {
+create_field_marshal = {
+	name = "Jan Smuts"
+	gfx = "GFX_SAF_Jan_Smuts"
+	traits = { panzer_leader panzer_expert infantry_leader infantry_expert trickster organizer logistics_wizard fast_planner defensive_doctrine offensive_doctrine }
+	skill = 6
+	attack_skill = 6
+	defense_skill = 4
+	planning_skill = 4
+	logistics_skill = 5
+}
+create_corps_commander = {
+	name = "George Edwin Brink"
+	gfx = "GFX_SAF_george_edwin_brink"
+	traits = { panzer_leader panzer_expert trait_engineer scavenger desert_fox}
+	skill = 6
+	attack_skill = 6
+	defense_skill = 4
+	planning_skill = 4
+	logistics_skill = 5
+}
+create_corps_commander = {
+	name = "Pierre van Ryneveld"
+	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
+	traits = { infantry_leader infantry_expert desert_fox  naval_invader invader_ii trickster guerilla_fighter }
+	skill = 6
+	attack_skill = 5
+	defense_skill = 4
+	planning_skill = 5
+	logistics_skill = 5
+}
+}
+}
+HMP_EFR_generals = {
+EFR = { every_army_leader = { retire = yes }}
+EFR = { 
+create_field_marshal = {
+	name = "Charles Huntziger"
+	picture = "portrait_france_charles_huntziger.dds"
+	traits = { old_guard organizer thorough_planner infantry_leader infantry_expert panzer_leader panzer_expert }
+	skill = 6
+	attack_skill = 7
+	defense_skill = 3
+	planning_skill = 4
+	logistics_skill = 5
+}
+
+create_corps_commander = {
+	name = "Gaston-Henri Billotte"
+	picture = "Portrait_France_Generic_land_1.dds"
+	traits = { old_guard trait_cautious infantry_leader ambusher hill_fighter }
+	skill = 5
+	attack_skill = 4
+	defense_skill = 4
+	planning_skill = 4
+	logistics_skill = 4
+}
+
+create_corps_commander = {
+	name = "Henry Freydenberg"
+	picture = "Portrait_France_Generic_land_3.dds"
+	traits = { old_guard infantry_leader infantry_expert jungle_rat trickster expert_improviser guerilla_fighter }
+	skill = 5
+	attack_skill = 5
+	defense_skill = 4
+	planning_skill = 4
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "René Olry"
+	picture = "Portrait_France_Generic_land_5.dds"
+	traits = { old_guard infantry_leader trait_mountaineer }
+	skill = 5
+	attack_skill = 3
+	defense_skill = 5
+	planning_skill = 4
+	logistics_skill = 4
+}
+
+create_field_marshal = {
+	name = "Maurice Gamelin"
+	picture = "Portrait_France_Maurice_Gamelin.dds"
+	traits = { defensive_doctrine organizer old_guard inflexible_strategist trait_engineer infantry_leader  }
+	skill = 5
+	attack_skill = 3
+	defense_skill = 6
+	planning_skill = 4
+	logistics_skill = 3
+}
+
+create_field_marshal = {
+	name = "Maxime Weygand"
+	picture = "Portrait_France_Maxime_Weygand.dds"
+	traits = { defensive_doctrine organizer old_guard inflexible_strategist panzer_leader }
+	skill = 5
+	attack_skill = 7
+	defense_skill = 2
+	planning_skill = 4
+	logistics_skill = 3
+}
+}
+}

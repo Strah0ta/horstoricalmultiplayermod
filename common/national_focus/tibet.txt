@@ -1,0 +1,319 @@
+focus_tree = {
+	id = tibet_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = SWE
+			has_dlc = "Man the Guns"
+		}
+	}
+	
+	
+		focus = {
+			id = TIB_anti_meme1
+			icon = GFX_goal_generic_consumer_goods
+			x = 10
+			y = 0
+			cost = 3 #21 days
+			available_if_capitulated = yes
+			completion_reward = {
+					
+			}
+		}
+		
+		focus = {
+		id = TIB_anti_meme2
+		icon = GFX_goal_generic_consumer_goods
+	
+		
+		x = 0
+		y = 1
+		cost = 14 #17 - 119 days
+
+						prerequisite = { focus = TIB_anti_meme1 }
+		relative_position_id = TIB_anti_meme1
+
+		available_if_capitulated = yes
+	
+		completion_reward = {
+		}
+		}
+	
+	
+		focus = {
+		id = TIB_anti_meme33
+		icon = GFX_goal_generic_consumer_goods
+	
+		x = 0
+		y = 1
+		cost = 5.5 #22.5 - 157 days
+		
+				prerequisite = { focus = TIB_anti_meme2 }
+		relative_position_id = TIB_anti_meme2
+
+		available_if_capitulated = yes
+	
+		completion_reward = {
+
+		}
+		}
+		
+	
+		focus = {
+		id = TIB_anti_meme
+		icon = GFX_goal_generic_consumer_goods
+		x = 0
+		y = 1
+		cost = 6 #28.5 - 199 days
+		prerequisite = { focus = TIB_anti_meme33 }
+		relative_position_id = TIB_anti_meme33
+		available_if_capitulated = yes
+		completion_reward = {
+		}
+		}
+		
+		
+		
+			focus = {
+		id = TIB_resource4
+		icon = GFX_goal_generic_consumer_goods
+	
+		x = 0
+		y = 1
+		cost = 20 #48.5 - 339 days
+		prerequisite = { focus = TIB_anti_meme }
+		relative_position_id = TIB_anti_meme
+		available_if_capitulated = yes
+	
+		completion_reward = {
+		}
+		}
+		
+		focus = {
+		id = TIB_resource11
+		icon = GFX_goal_generic_consumer_goods
+	
+		x = 0
+		y = 1
+		cost = 1 #49.5 - 346 days
+		prerequisite = { focus = TIB_resource4 }
+		relative_position_id = TIB_resource4
+		available_if_capitulated = yes
+	
+		completion_reward = {
+			 
+		}
+		}
+		
+		focus = {
+		id = TIB_resource5
+		icon = GFX_goal_generic_consumer_goods
+	
+		x = 0
+		y = 1
+		cost = 14 #63.5 - 444 days
+		prerequisite = { focus = TIB_resource11 }
+		relative_position_id = TIB_resource11
+		available_if_capitulated = yes
+	
+		completion_reward = {
+		
+		}
+		}
+		
+				focus = {
+		id = TIB_resource312
+		icon = GFX_goal_generic_consumer_goods
+	
+		x = 0
+		y = 1
+		cost = 10 #73.5 - 514 days
+		prerequisite = { focus = TIB_resource5 }
+		relative_position_id = TIB_resource5
+		available_if_capitulated = yes
+	
+		completion_reward = {		
+					
+				}
+				}
+			
+		
+		
+		
+		
+		
+		focus = {
+		id = TIB_resource3
+		icon = GFX_goal_generic_consumer_goods
+	
+		x = 0
+		y = 1
+		cost = 30  #103.5 - 724 days
+		prerequisite = { focus = TIB_resource312 }
+		relative_position_id = TIB_resource312
+		available_if_capitulated = yes
+	
+		completion_reward = {
+
+		}
+		}
+		
+			focus = {
+		id = TIB_resource3332
+		icon = GFX_goal_generic_consumer_goods
+	
+		x = 0
+		y = 1
+		
+		prerequisite = { focus = TIB_resource3 }
+		relative_position_id = TIB_resource3
+		available_if_capitulated = yes
+	
+		cost = 5 #108.5 - 759 days
+		completion_reward = {
+
+		}
+		}
+
+		
+			focus = {
+		id = TIB_resource1337
+		icon = GFX_goal_generic_consumer_goods
+	
+		x = 0
+		y = 1
+		cost = 32 #140.5 - 983 days
+		prerequisite = { focus = TIB_resource3332 }
+		relative_position_id = TIB_resource3332
+		available_if_capitulated = yes
+	
+		completion_reward = {
+
+		}
+		}
+		
+	focus = {
+		id = TIB_resource1338
+		icon = GFX_goal_generic_consumer_goods
+	
+		x = 0
+		y = 1
+		cost = 2 #142.5 - 997 days
+		prerequisite = { focus = TIB_resource1337 }
+		relative_position_id = TIB_resource1337
+		available_if_capitulated = yes
+	
+		completion_reward = {
+
+		}
+		}
+		
+		
+		
+		focus = {
+		id = TIB_resource2
+		icon = GFX_goal_generic_consumer_goods
+	
+		x = 0
+		y = 1
+		cost = 40 #182.5 - 1277 days
+		prerequisite = { focus = TIB_resource1338 }
+		relative_position_id = TIB_resource1338
+		available_if_capitulated = yes
+	
+		completion_reward = {
+
+		}
+		}
+		
+					focus = {
+		id = TIB_resource20
+		icon = GFX_goal_generic_consumer_goods
+	
+		x = 0
+		y = 1
+		cost = 9 #191.5 - 1340 days
+		prerequisite = { focus = TIB_resource2 }
+		relative_position_id = TIB_resource2
+		available_if_capitulated = yes
+	
+		completion_reward = {	
+		}
+		}
+		
+			focus = {
+		id = TIB_resource
+		icon = GFX_goal_generic_consumer_goods
+	
+		x = 0
+		y = 1
+		cost = 25.4 #217  - 1518 days 
+		prerequisite = { focus = TIB_resource20 }
+		relative_position_id = TIB_resource20
+		available_if_capitulated = yes
+	
+		completion_reward = {
+		
+		}
+		}
+		
+			focus = {
+		id = TIB_iraq
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = { focus = TIB_resource }
+		x = 0
+		y = 1
+		cost = 20 #237 - 1658 days
+		relative_position_id = TIB_resource
+		available_if_capitulated = yes
+	
+		completion_reward = {
+
+				}
+			}
+					focus = {  #start of 41
+		id = TIB_nothing45
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = { focus = TIB_iraq }
+		x = 0
+		y = 1
+		cost = 24 #261 - 1825 days
+		relative_position_id = TIB_iraq
+		available_if_capitulated = yes
+	
+		completion_reward = {
+
+		}
+		}
+			focus = { #start of 42
+		id = TIB_nothing2
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = { focus = TIB_nothing45 }
+		x = 0
+		y = 1
+		cost = 52 #313 - 2191 days
+		relative_position_id = TIB_nothing45
+		available_if_capitulated = yes
+	
+		completion_reward = {
+
+		}
+		}
+		focus = {
+		id = TIB_nothing
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = { focus = TIB_nothing2 }
+		x = 0
+		y = 1
+		cost = 50
+		relative_position_id = TIB_nothing2
+		available_if_capitulated = yes
+	
+		completion_reward = {
+
+		}
+		}
+}

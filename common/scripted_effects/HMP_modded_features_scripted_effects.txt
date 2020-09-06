@@ -1,0 +1,1700 @@
+GER_all_plane_LL = {
+	send_equipment = { equipment = fighter_equipment amount = 10000 target = GER }
+	send_equipment = { equipment = CAS_equipment amount = 10000 target = GER }
+	send_equipment = { equipment = nav_bomber_equipment amount = 10000 target = GER }
+	send_equipment = { equipment = tac_bomber_equipment amount = 10000 target = GER }
+	send_equipment = { equipment = heavy_fighter_equipment amount = 10000 target = GER }
+}
+
+HMP_ger_total_mob = { #converts 80 civs to 80 mills instantly for Germany as part of the Totaler Krieg focus
+HMP_ger_total_mob_1 = yes  
+HMP_ger_total_mob_1 = yes 
+HMP_ger_total_mob_1 = yes 
+HMP_ger_total_mob_1 = yes 
+HMP_ger_total_mob_1 = yes 
+HMP_ger_total_mob_1 = yes 
+HMP_ger_total_mob_1 = yes 
+HMP_ger_total_mob_1 = yes 
+}
+FRA_fix_africa = {
+if = { limit = { GER = { controls_state = 553  } } FRA = { set_state_controller = 553  } }
+if = { limit = { GER = { controls_state = 677  } } FRA = { set_state_controller = 677  } }
+if = { limit = { GER = { controls_state = 554  } } FRA = { set_state_controller = 554  } }
+if = { limit = { GER = { controls_state = 680  } } FRA = { set_state_controller = 680  } }
+if = { limit = { GER = { controls_state = 741  } } FRA = { set_state_controller = 741  } }
+if = { limit = { GER = { controls_state = 670  } } FRA = { set_state_controller = 670  } }
+if = { limit = { GER = { controls_state = 671  } } FRA = { set_state_controller = 671  } }
+if = { limit = { GER = { controls_state = 310  } } FRA = { set_state_controller = 310  } }
+if = { limit = { GER = { controls_state = 694  } } FRA = { set_state_controller = 694  } }
+if = { limit = { GER = { controls_state = 458  } } FRA = { set_state_controller = 458  } }
+if = { limit = { GER = { controls_state = 665  } } FRA = { set_state_controller = 665  } }
+if = { limit = { GER = { controls_state = 460  } } FRA = { set_state_controller = 460  } }
+if = { limit = { GER = { controls_state = 513  } } FRA = { set_state_controller = 513  } }
+if = { limit = { GER = { controls_state = 459  } } FRA = { set_state_controller = 459  } }
+if = { limit = { GER = { controls_state = 461  } } FRA = { set_state_controller = 462  } }
+if = { limit = { GER = { controls_state = 462  } } FRA = { set_state_controller = 462  } }
+if = { limit = { GER = { controls_state = 272  } } FRA = { set_state_controller = 272  } }
+if = { limit = { GER = { controls_state = 780  } } FRA = { set_state_controller = 780  } }
+if = { limit = { GER = { controls_state = 298  } } FRA = { set_state_controller = 298  } }
+if = { limit = { GER = { controls_state = 779  } } FRA = { set_state_controller = 779  } }
+if = { limit = { GER = { controls_state = 556  } } FRA = { set_state_controller = 556  } }
+if = { limit = { GER = { controls_state = 786  } } FRA = { set_state_controller = 786  } }
+if = { limit = { GER = { controls_state = 782  } } FRA = { set_state_controller = 782  } }
+if = { limit = { GER = { controls_state = 778  } } FRA = { set_state_controller = 778  } }
+if = { limit = { GER = { controls_state = 781  } } FRA = { set_state_controller = 781  } }
+if = { limit = { GER = { controls_state = 776  } } FRA = { set_state_controller = 776  } }
+if = { limit = { GER = { controls_state = 777  } } FRA = { set_state_controller = 777  } }
+if = { limit = { GER = { controls_state = 515  } } FRA = { set_state_controller = 515  } }
+}
+
+stupid_china_gun_fix = {
+ transfer_state = 594 transfer_state = 599 transfer_state = 592 transfer_state = 591 transfer_state = 593 transfer_state = 602 transfer_state = 595 transfer_state = 600 transfer_state = 620 transfer_state = 596 transfer_state = 613 transfer_state = 749 transfer_state = 606 transfer_state = 607 transfer_state = 598 transfer_state = 597 transfer_state = 743 transfer_state = 614
+SWE = { transfer_state = 608 }
+if = { limit = { country_exists = MAN } MAN = { transfer_state = 608 }  }
+else = { transfer_state = 608 }
+}
+
+tp_divs_out_of_france = {
+every_state = {
+limit = { is_core_of = FRA }
+teleport_armies = { to_state = 5139 }
+}
+}
+
+
+ENG_fortify_the_empire_level_up = {
+	if = {
+		limit = {
+			has_idea = ENG_fortify_the_empire_4
+		}
+		swap_ideas = {
+			remove_idea = ENG_fortify_the_empire_4
+			add_idea = ENG_fortify_the_empire_5
+		}
+	}
+	else_if = {
+		limit = {
+			has_idea = ENG_fortify_the_empire_3
+		}
+		swap_ideas = {
+			remove_idea = ENG_fortify_the_empire_3
+			add_idea = ENG_fortify_the_empire_4
+		}
+	}
+	else_if = {
+		limit = {
+			has_idea = ENG_fortify_the_empire_2
+		}
+		swap_ideas = {
+			remove_idea = ENG_fortify_the_empire_2
+			add_idea = ENG_fortify_the_empire_3
+		}
+	}
+		else_if = {
+		limit = {
+			has_idea = ENG_fortify_the_empire_1
+		}
+		swap_ideas = {
+			remove_idea = ENG_fortify_the_empire_1
+			add_idea = ENG_fortify_the_empire_2
+		}
+	}
+}
+baltic_cores = {
+add_equipment_to_stockpile = { type = infantry_equipment_1 amount = 40000 producer = SWE }
+add_equipment_to_stockpile = { type = artillery_equipment_2 amount = 3000 producer = SWE }
+add_equipment_to_stockpile = { type = support_equipment_1 amount = 3000 producer = SWE }
+add_equipment_to_stockpile = { type = anti_tank_equipment_2 amount = 6000 producer = SWE }
+load_oob = "FIN_spawn"
+}
+share_intel_with_allies={
+		add_intel = {
+                        target = PREV
+                        civilian_intel = 200
+                        army_intel = 200
+                        navy_intel = 200
+                        airforce_intel = 200
+                    }
+		PREV = {
+                    add_intel = {
+                        target = PREV
+                        civilian_intel = 200
+                        army_intel = 200
+                        navy_intel = 200
+                        airforce_intel = 200
+                    }
+                }
+}
+HMP_ger_total_mob_1 = { 
+HMP_ger_total_mob_2 = yes
+HMP_ger_total_mob_2 = yes
+HMP_ger_total_mob_2 = yes
+HMP_ger_total_mob_2 = yes
+HMP_ger_total_mob_2 = yes
+HMP_ger_total_mob_2 = yes
+HMP_ger_total_mob_2 = yes
+HMP_ger_total_mob_2 = yes
+HMP_ger_total_mob_2 = yes
+HMP_ger_total_mob_2 = yes
+}
+
+HMP_ger_total_mob_2 = { 
+random_owned_controlled_state = { 	limit = {  is_core_of = GER industrial_complex > 0 } 
+	remove_building = {type = industrial_complex level = 1 }	add_building_construction = { type = arms_factory level = 1 instant_build = yes }
+	}
+}
+
+HMP_plows_to_swords = { #converts 50 civs to 100 mills instantly for the Soviet Union as part of the Plowshares into Swords focus
+HMP_sov_civ_to_mill1 = yes  
+HMP_sov_civ_to_mill1 = yes 
+HMP_sov_civ_to_mill1 = yes 
+HMP_sov_civ_to_mill1 = yes 
+HMP_sov_civ_to_mill1 = yes 
+}
+
+HMP_sov_civ_to_mill1 = { 
+HMP_sov_civ_to_mill2 = yes
+HMP_sov_civ_to_mill2 = yes
+HMP_sov_civ_to_mill2 = yes
+HMP_sov_civ_to_mill2 = yes
+HMP_sov_civ_to_mill2 = yes
+HMP_sov_civ_to_mill2 = yes
+HMP_sov_civ_to_mill2 = yes
+HMP_sov_civ_to_mill2 = yes
+HMP_sov_civ_to_mill2 = yes
+HMP_sov_civ_to_mill2 = yes
+}
+
+
+HMP_socialist_mills_spam = {
+HMP_socialist_mills = yes 
+HMP_socialist_mills = yes 
+HMP_socialist_mills = yes 
+HMP_socialist_mills = yes 
+HMP_socialist_mills = yes 
+HMP_socialist_mills = yes 
+HMP_socialist_mills = yes 
+HMP_socialist_mills = yes 
+HMP_socialist_mills = yes 
+HMP_socialist_mills = yes 
+}
+
+HMP_sov_civ_to_mill2 = { 
+random_owned_controlled_state = { 	limit = {  is_core_of = SOV industrial_complex > 0 } 
+	remove_building = {type = industrial_complex level = 1 }
+	}
+random_owned_controlled_state = { limit = { OR = { state = 572 state = 403 state = 653 state = 571 state = 590 state = 582 }}      	
+	add_extra_state_shared_building_slots = 2 add_building_construction = { type = arms_factory level = 2 instant_build = yes }}
+}
+
+HMP_socialist_mills = {    
+random_owned_controlled_state = { limit = { OR = { state = 572 state = 403 state = 653 state = 571 state = 590 state = 582 }}      	
+	add_extra_state_shared_building_slots = 5 add_building_construction = { type = arms_factory level = 5 instant_build = yes }}
+	}
+
+HMP_barb_output_calc = {
+				GER = {clear_variable=barb_factory_output
+					if={limit={NOT={SOV={controls_state = 202}}} add_to_variable={barb_factory_output=0.025} }
+					if={limit={NOT={SOV={controls_state = 206}}} add_to_variable={barb_factory_output=0.025} }
+					if={limit={NOT={SOV={controls_state = 195}}} add_to_variable={barb_factory_output=0.05} }
+					if={limit={NOT={SOV={controls_state = 217}}} add_to_variable={barb_factory_output=0.05} }
+					if={limit={NOT={SOV={controls_state = 219}}} add_to_variable={barb_factory_output=0.05} }
+					if={limit={NOT={SOV={controls_state = 137}}} add_to_variable={barb_factory_output=0.025} }
+					if={limit={NOT={SOV={controls_state = 220}}} add_to_variable={barb_factory_output=0.025} }
+					if={limit={NOT={SOV={controls_state = 226}}} add_to_variable={barb_factory_output=0.01} }
+					if={limit={NOT={SOV={controls_state = 241}}} add_to_variable={barb_factory_output=0.01} }
+					if={limit={NOT={SOV={controls_state = 221}}} add_to_variable={barb_factory_output=0.01} }
+					if={limit={NOT={SOV={controls_state = 242}}} add_to_variable={barb_factory_output=0.01} }
+					if={limit={NOT={SOV={controls_state = 274}}} add_to_variable={barb_factory_output=0.01} }
+					if={limit={NOT={SOV={controls_state = 260}}} add_to_variable={barb_factory_output=0.01} }
+					if={limit={NOT={SOV={controls_state = 223}}} add_to_variable={barb_factory_output=0.01} }
+					if={limit={NOT={SOV={controls_state = 209}}} add_to_variable={barb_factory_output=0.01} }
+					if={limit={NOT={SOV={controls_state = 263}}} add_to_variable={barb_factory_output=0.01} }
+					if={limit={NOT={SOV={controls_state = 234}}} add_to_variable={barb_factory_output=0.01} }
+					if={limit={NOT={SOV={controls_state = 224}}} add_to_variable={barb_factory_output=0.01} }
+					if={limit={NOT={SOV={controls_state = 200}}} add_to_variable={barb_factory_output=0.01} }
+					}
+}
+
+HMP_no_asia = {
+HMP_no_asia_resources = yes
+HMP_no_asia_navy_balance = yes
+HMP_no_asia_country_changes = yes
+}
+
+HMP_no_asia_resources = {
+SWE = {	give_resource_rights = { receiver = ENG state = 423 } }
+SWE = {	give_resource_rights = { receiver = ENG state = 431 } }
+SWE = {	give_resource_rights = { receiver = ENG state = 426 } }
+SWE = {	give_resource_rights = { receiver = ENG state = 434 } }
+SWE = {	give_resource_rights = { receiver = ENG state = 432 } }
+SWE = {	give_resource_rights = { receiver = ENG state = 428 } }
+USA = {	give_resource_rights = { receiver = CAN state = 368 } }
+USA = {	give_resource_rights = { receiver = AST state = 623 } }
+USA = {	give_resource_rights = { receiver = AST state = 625 } }
+USA = {	give_resource_rights = { receiver = AST state = 627 } }
+USA = {	give_resource_rights = { receiver = ENG state = 327 } }
+USA = {	give_resource_rights = { receiver = AST state = 372 } }
+USA = {	give_resource_rights = { receiver = ENG state = 371 } }
+USA = {	give_resource_rights = { receiver = CAN state = 374 } }
+USA = {	give_resource_rights = { receiver = CAN state = 375 } }
+USA = {	give_resource_rights = { receiver = ENG state = 376 } }
+USA = {	give_resource_rights = { receiver = ENG state = 377 } }
+USA = {	give_resource_rights = { receiver = CAN state = 379 } }
+USA = {	give_resource_rights = { receiver = CAN state = 380 } }
+USA = {	give_resource_rights = { receiver = ENG state = 378 } }
+USA = {	give_resource_rights = { receiver = CAN state = 386 } }
+USA = {	give_resource_rights = { receiver = ENG state = 387 } }
+USA = {	give_resource_rights = { receiver = ENG state = 388 } }
+USA = {	give_resource_rights = { receiver = ENG state = 382 } }
+USA = {	give_resource_rights = { receiver = ENG state = 389 } }
+USA = {	give_resource_rights = { receiver = FRA state = 391 } }
+USA = {	give_resource_rights = { receiver = ENG state = 394 } }
+USA = {	give_resource_rights = { receiver = ENG state = 396 } }
+USA = {	give_resource_rights = { receiver = ENG state = 393 } }
+USA = {	give_resource_rights = { receiver = CAN state = 261 } }
+USA = {	give_resource_rights = { receiver = ENG state = 357 } }
+USA = {	give_resource_rights = { receiver = FRA state = 358 } }
+USA = {	give_resource_rights = { receiver = ENG state = 360 } }
+SWE = {	give_resource_rights = { receiver = ENG state = 480 } }
+USA = {	give_resource_rights = { receiver = ENG state = 373 } }
+USA = {	give_resource_rights = { receiver = ENG state = 383 } }
+ENG = {	give_resource_rights = { receiver = FRA state = 687 } }
+}
+
+HMP_no_asia_navy_balance = {
+USA = { 
+destroy_ships = {
+    type = destroyer
+    count = all
+}
+destroy_ships = {
+    type = light_cruiser
+    count = all
+}
+destroy_ships = {
+    type = carrier
+    count = all
+}
+destroy_ships = {
+    type = battleship
+    count = all
+}
+destroy_ships = {
+    type = submarine
+    count = all
+}
+}
+}
+
+
+SPR_relocate_civ = {
+    SPR = {
+	     random_owned_controlled_state={
+				limit={
+					is_core_of=SPR
+					industrial_complex>0
+				} 
+				remove_building = {type = industrial_complex level = 1}
+				GER ={
+				 random_owned_controlled_state={
+					limit={OR={state=60 state=65 state=64 state=61 state=62 state=63 state=68}}
+					add_extra_state_shared_building_slots=1
+					add_building_construction = {
+   				 		type = industrial_complex
+   				 		level = 1
+  				 		instant_build = yes
+				 		}
+			     }				
+			    }
+				
+			}
+		}
+}
+SPR_relocate_mil = {
+	SPR = {
+	     random_owned_controlled_state={
+				limit={
+					is_core_of=SPR
+					arms_factory>0
+				} 
+				remove_building = {type = arms_factory level = 1}
+				GER ={
+				 random_owned_controlled_state={
+					limit={OR={state=60 state=65 state=64 state=61 state=62 state=63 state=68}}
+					add_extra_state_shared_building_slots=1
+					add_building_construction = {
+   				 		type = arms_factory
+   				 		level = 1
+  				 		instant_build = yes
+				 		}
+			     }				
+			    }
+				
+			}
+		}
+}
+
+SPR_relocate_civs_mils = {
+SPR_relocate_civ = yes
+SPR_relocate_civ = yes
+SPR_relocate_civ = yes
+SPR_relocate_civ = yes
+SPR_relocate_civ = yes
+SPR_relocate_civ = yes
+SPR_relocate_civ = yes
+SPR_relocate_civ = yes
+SPR_relocate_civ = yes
+SPR_relocate_civ = yes
+SPR_relocate_civ = yes
+SPR_relocate_civ = yes
+SPR_relocate_civ = yes
+SPR_relocate_civ = yes
+SPR_relocate_mil = yes
+SPR_relocate_mil = yes
+SPR_relocate_mil = yes
+SPR_relocate_mil = yes
+SPR_relocate_mil = yes
+SPR_relocate_mil = yes
+SPR_relocate_mil = yes
+SPR_relocate_mil = yes
+SPR_relocate_mil = yes
+SPR_relocate_mil = yes
+SPR_relocate_mil = yes
+SPR_relocate_mil = yes
+}
+
+HMP_no_asia_country_changes = {
+SWE  = { give_resource_rights = { receiver = GER state = 724 }	}
+SWE = { country_event = { id = wtt_japan.109  days = 730  }  country_event = { id = wtt_japan.119  days = 1350  }    }
+AST = { 
+			284 = {
+				add_resource = {	type = steel	amount = 20	}
+				add_resource = {	type = oil	amount = 5	}
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+					}
+			723 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+					}							
+ }
+ CAN = { 
+		682 = {
+			add_resource = {	type = steel	amount = 22	}
+			add_resource = {	type = tungsten	amount = 50	}				
+				}
+
+ } 
+}
+	
+HMP_anti_resource_exploit_effect = { 
+if = { limit = {  has_built = { type = infrastructure  value > 9 } } set_building_level = {  type = infrastructure  level = 6 instant_build = yes }  }  
+}
+
+
+
+
+#This should only be used for AXIS vs ALLIES, or JAPAN vs ALLIES
+declare_war_on_all_allies = {
+	if = { #Make sure we dont declare war on UK a second time
+		limit = { NOT = { has_war_with = ENG } }
+		declare_war_on = { target = ENG type = annex_everything }
+		ROOT_call_allies_both_sides = yes
+	}
+}
+
+ROOT_call_allies_both_sides = {
+	ROOT_call_all_allies_against_ENG = yes
+	ENG_call_all_allies_against_ROOT = yes
+}
+
+ROOT_call_all_allies_against_ENG = {
+	for_each_scope_loop = {
+		array = ROOT.allies
+		if = {
+			limit = { NOT = { OR = { original_tag = ITA original_tag = ETH } } } 
+			add_to_war = {
+				targeted_alliance = ROOT
+				enemy = ENG
+			}
+		}
+
+	}
+}
+
+ENG_call_all_allies_against_ROOT = {
+	for_each_scope_loop = {
+	    array = ENG.allies
+
+
+		if = {
+			limit = { NOT = { OR = { original_tag = USA AND = { original_tag = FRA date < 1940.12.1 } } } }
+			add_to_war = {
+				targeted_alliance = ENG
+				enemy = ROOT
+			}
+		}
+	}
+}
+
+make_asia_go_faster = {
+	every_state = {
+		limit = { is_on_continent = asia }
+		add_state_modifier = { modifier = { army_speed_factor = 0.5 }}
+	}	
+}
+
+MAN_low_legitimacy_clear_all = {
+	if = {
+		limit = { has_idea = MAN_low_legitimacy_0 }
+		remove_ideas = MAN_low_legitimacy_0
+	}
+	else_if = {
+		limit = { has_idea = MAN_low_legitimacy_1 }
+		remove_ideas = MAN_low_legitimacy_1
+	}
+	else_if = {
+		limit = { has_idea = MAN_low_legitimacy_2 }
+		remove_ideas = MAN_low_legitimacy_2
+	}
+	else_if = {
+		limit = { has_idea = MAN_low_legitimacy_3 }
+		remove_ideas = MAN_low_legitimacy_3
+	}
+	else_if = {
+		limit = { has_idea = MAN_low_legitimacy_4 }
+		remove_ideas = MAN_low_legitimacy_4
+	}
+	else_if = {
+		limit = { has_idea = MAN_low_legitimacy_5 }
+		remove_ideas = MAN_low_legitimacy_5
+	}
+}
+
+#Important to put LOWEST first
+MAN_low_legitimacy_level_down = {
+	if = {
+		limit = { has_idea = MAN_low_legitimacy_0 }
+		#Makes the tooltip clearer if player looks at the effect early in the game
+		effect_tooltip = {
+			swap_ideas = {
+				remove_idea = MAN_low_legitimacy_1
+				add_idea = MAN_low_legitimacy_0
+			}
+		}
+		hidden_effect = { remove_ideas = MAN_low_legitimacy_0 }
+	}
+	if = {
+		limit = { has_idea = MAN_low_legitimacy_1 }
+		#Makes the tooltip clearer if player looks at the effect early in the game
+		effect_tooltip = {
+			swap_ideas = {
+				remove_idea = MAN_low_legitimacy_2
+				add_idea = MAN_low_legitimacy_1
+			}
+		}
+	}
+	if = {
+		limit = { has_idea = MAN_low_legitimacy_2 }
+		swap_ideas = {
+			remove_idea = MAN_low_legitimacy_2
+			add_idea = MAN_low_legitimacy_1
+		}
+	}
+	if = {
+		limit = { has_idea = MAN_low_legitimacy_3 }
+		swap_ideas = {
+			remove_idea = MAN_low_legitimacy_3
+			add_idea = MAN_low_legitimacy_2
+		}
+	}
+	if = {
+		limit = { has_idea = MAN_low_legitimacy_4 }
+		swap_ideas = {
+			remove_idea = MAN_low_legitimacy_4
+			add_idea = MAN_low_legitimacy_3
+		}
+	}
+	if = {
+		limit = { has_idea = MAN_low_legitimacy_5 }
+		swap_ideas = {
+			remove_idea = MAN_low_legitimacy_5
+			add_idea = MAN_low_legitimacy_4
+		}
+	}
+}
+
+
+
+JAP_interservice_rivalry_towards_army = {
+	
+	if = {
+		limit = {  has_idea = JAP_interservice_rivalry_army_strengthened }
+		swap_ideas = {
+			remove_idea = JAP_interservice_rivalry_army_strengthened
+			add_idea = JAP_interservice_rivalry_army_dominant
+		}
+	}
+
+	if = {
+		limit = { has_idea = JAP_interservice_rivalry_balanced }
+		swap_ideas = {
+			remove_idea = JAP_interservice_rivalry_balanced
+			add_idea = JAP_interservice_rivalry_army_strengthened
+		}
+	}
+
+	if = {
+		limit = { has_idea = JAP_interservice_rivalry_navy_strengthened }
+		swap_ideas = {
+			remove_idea = JAP_interservice_rivalry_navy_strengthened
+			add_idea = JAP_interservice_rivalry_balanced
+		}
+	}
+
+	if = {
+		limit = { has_idea = JAP_interservice_rivalry_navy_dominant }
+		swap_ideas = {
+			remove_idea = JAP_interservice_rivalry_navy_dominant
+			add_idea = JAP_interservice_rivalry_navy_strengthened
+		}
+	}
+
+}
+
+JAP_interservice_rivalry_towards_navy = {
+
+	if = {
+		limit = { has_idea = JAP_interservice_rivalry_navy_strengthened }
+		swap_ideas = {
+			remove_idea = JAP_interservice_rivalry_navy_strengthened
+			add_idea = JAP_interservice_rivalry_navy_dominant
+		}
+	}	
+	if = {
+		limit = { has_idea = JAP_interservice_rivalry_balanced }
+		swap_ideas = {
+			remove_idea = JAP_interservice_rivalry_balanced
+			add_idea = JAP_interservice_rivalry_navy_strengthened
+		}
+	}
+	if = {
+		limit = { has_idea = JAP_interservice_rivalry_army_strengthened }
+		swap_ideas = {
+			remove_idea = JAP_interservice_rivalry_army_strengthened
+			add_idea = JAP_interservice_rivalry_balanced
+		}
+	}
+	if = {
+		limit = { has_idea = JAP_interservice_rivalry_army_dominant }
+		swap_ideas = {
+			remove_idea = JAP_interservice_rivalry_army_dominant
+			add_idea = JAP_interservice_rivalry_army_strengthened
+		}
+	}
+	
+	
+	
+}
+
+replace_civ_with_arms_factories = {	
+	random_owned_controlled_state = {
+		limit = {
+			is_fully_controlled_by = ROOT
+			industrial_complex > 0
+		}
+		remove_building = {
+			type = industrial_complex
+			level = 1
+		}
+		add_building_construction = {
+			type = arms_factory
+			level = 1
+			instant_build = yes
+		}
+	}
+	random_owned_controlled_state = {
+		limit = {
+			is_fully_controlled_by = ROOT
+			industrial_complex > 0
+		}
+		remove_building = {
+			type = industrial_complex
+			level = 1
+		}
+		add_building_construction = {
+			type = arms_factory
+			level = 1
+			instant_build = yes
+		}
+	}
+	random_owned_controlled_state = {
+		limit = {
+			is_fully_controlled_by = ROOT
+			industrial_complex > 0
+		}
+		remove_building = {
+			type = industrial_complex
+			level = 1
+		}
+		add_building_construction = {
+			type = arms_factory
+			level = 1
+			instant_build = yes
+		}
+	}
+	random_owned_controlled_state = {
+		limit = {
+			is_fully_controlled_by = ROOT
+			industrial_complex > 0
+		}
+		remove_building = {
+			type = industrial_complex
+			level = 1
+		}
+		add_building_construction = {
+			type = arms_factory
+			level = 1
+			instant_build = yes
+		}
+	}
+
+	random_owned_controlled_state = {
+		limit = {
+			is_fully_controlled_by = ROOT
+			industrial_complex > 0
+		}
+		remove_building = {
+			type = industrial_complex
+			level = 1
+		}
+		add_building_construction = {
+			type = arms_factory
+			level = 1
+			instant_build = yes
+		}
+	}
+}
+
+clear_sabotaged_resources_if_necesary = {
+	if = {
+		limit = {
+			not = {
+				has_dynamic_modifier = {
+					modifier = sabotaged_resources
+				}
+			}
+		}
+		
+		clear_variable = sabotaged_oil
+		clear_variable = sabotaged_aluminium
+		clear_variable = sabotaged_rubber
+		clear_variable = sabotaged_tungsten
+		clear_variable = sabotaged_steel
+		clear_variable = sabotaged_chromium
+	}
+}
+
+#Add to scripted triggers if more levels of hyper inflation is added
+SOV_relocate_civ = {
+	random_owned_controlled_state={
+				limit={
+				any_neighbor_state={ 
+					is_core_of=SOV
+					NOT={is_controlled_by=SOV}
+					NOT = { state = 146}
+					} 
+				industrial_complex>0}
+				remove_building = {type = industrial_complex level = 1}
+			OWNER={
+				random_owned_controlled_state={
+					limit={OR={state=582 state=572 state=583 state=590 state=403 state=573 state=653}}
+					add_extra_state_shared_building_slots=1
+					add_building_construction = {
+   				 		type = industrial_complex
+   				 		level = 1
+  				 		instant_build = yes
+				 		}
+			}				
+			}
+}
+}
+SOV_relocate_mil = {
+	random_owned_controlled_state={
+				limit={any_neighbor_state={is_core_of=SOV
+					NOT={is_controlled_by=SOV}} arms_factory>0}
+				remove_building = {type = arms_factory level = 1}
+			OWNER={
+				random_owned_controlled_state={
+					limit={OR={state=582 state=572 state=590 state=573 state=403 state=583 state=653}}
+					add_extra_state_shared_building_slots=1
+					add_building_construction = {
+   				 		type = arms_factory
+   				 		level = 1
+  				 		instant_build = yes
+				 		}
+			}				
+			}
+}
+}
+SOV_relocate_civ_moscow = {
+	random_owned_controlled_state={
+				limit={OR ={ 	state = 219 state = 195 state = 217 } industrial_complex>0}
+				remove_building = {type = industrial_complex level = 1}
+			OWNER={
+				random_owned_controlled_state={
+					limit={OR={state=582 state=572 state=583 state=590 state=403 state=573 state=653}}
+					add_extra_state_shared_building_slots=1
+					add_building_construction = {
+   				 		type = industrial_complex
+   				 		level = 1
+  				 		instant_build = yes
+				 		}
+			}				
+			}
+}
+}
+SOV_relocate_mil_moscow = {
+	random_owned_controlled_state={
+				limit={OR ={ 	state = 219 state = 195 state = 217 } arms_factory>0}
+				remove_building = {type = arms_factory level = 1}
+				OWNER={add_to_variable={relocatedmil = 1}}
+			OWNER={
+				random_owned_controlled_state={
+					limit={OR={state=582 state=572 state=590 state=573 state=403 state=583 state=653}}
+					add_extra_state_shared_building_slots=1
+					add_building_construction = {
+   				 		type = arms_factory
+   				 		level = 1
+  				 		instant_build = yes
+				 		}
+			}				
+			}
+}
+}
+
+USA_depression_clear_all = {
+	remove_ideas = {
+		great_depression
+		great_depression_2
+		great_depression_3
+	}
+}
+
+#Important to put HIGHEST first
+USA_great_depression_level_up = {
+	# level 5 not relevant. Cannot go above.
+	custom_effect_tooltip = USA_great_depression_up_tt
+	if = {
+		limit = { has_idea = great_depression_2 }
+		swap_ideas = {
+			remove_idea = great_depression_2
+			add_idea = great_depression
+		}
+	}
+	else_if = {
+		limit = { has_idea = great_depression_3 }
+		swap_ideas = {
+			remove_idea = great_depression_3
+			add_idea = great_depression_2
+		}
+	}
+	
+}
+
+#Important to put LOWEST first
+USA_great_depression_level_down = {
+	if = {
+		limit = { has_idea = great_depression_3 }
+		custom_effect_tooltip = USA_great_depression_down_tt
+		remove_ideas = great_depression_3
+	}
+	if = {
+		limit = { has_idea = great_depression_2 }
+		custom_effect_tooltip = USA_great_depression_down_tt
+		swap_ideas = {
+			remove_idea = great_depression_2
+			add_idea = great_depression_3
+		}
+	}
+	if = {
+		limit = { has_idea = great_depression }
+		custom_effect_tooltip = USA_great_depression_down_tt
+		swap_ideas = {
+			remove_idea = great_depression
+			add_idea = great_depression_2
+		}
+	}
+}
+
+USA_congress_get_quorum = {
+	set_variable = { var = quorum_low value = senators_total }
+	multiply_variable = { var = quorum_low value = 0.4 }
+	set_variable = { var = quorum_medium value = senators_total }
+	multiply_variable = { var = quorum_medium value = 0.5 }
+	set_variable = { var = quorum_high value = senators_total }
+	multiply_variable = { var = quorum_high value = 0.6 }
+	round_variable = quorum_low 
+	round_variable = quorum_medium 
+	round_variable = quorum_high
+	USA_recalc_congress_icon_frames = yes
+}
+USA_congress_remove_state = {
+	custom_effect_tooltip = mtg_usa_congress_remove_state_tt
+	subtract_from_variable = { senators_total = 2 }
+	clamp_variable = { var = senators_support max = senators_total min = 0 }
+	USA_congress_get_quorum = yes
+	USA_recalc_congress_icon_frames = yes
+}
+USA_congress_add_state = {
+	custom_effect_tooltip = mtg_usa_congress_add_state_tt
+	add_to_variable = { senators_total = 2 }
+	add_to_variable = { senators_support = 2 }
+	USA_congress_get_quorum = yes
+	USA_recalc_congress_icon_frames = yes
+}
+USA_congress_small_opposition = {
+	custom_effect_tooltip = mtg_usa_congress_small_opposition_tt
+	hidden_effect = {
+		USA_senate_small_opposition = yes
+		USA_house_small_opposition = yes
+		
+	}
+}
+
+USA_senate_small_opposition = {
+	custom_effect_tooltip = mtg_usa_senate_small_opposition_tt
+	set_temp_variable = { temp_factor = random }
+	multiply_temp_variable = { temp_factor = -4 }
+	add_to_variable = { senators_support = temp_factor }
+	round_variable = senators_support
+	clamp_variable = { var = senators_support max = senators_total min = 0 }
+	USA_recalc_congress_icon_frames = yes
+}
+
+USA_house_small_opposition = {
+	custom_effect_tooltip = mtg_usa_house_small_opposition_tt
+	set_temp_variable = { temp_factor = random }
+	multiply_temp_variable = { temp_factor = -20 }
+	add_to_variable = { representatives_support = temp_factor }
+	round_variable = representatives_support
+	clamp_variable = { var = representatives_support max = representatives_total min = 0 }
+	USA_recalc_congress_icon_frames = yes
+}
+USA_senate_small_support = {
+	custom_effect_tooltip = mtg_usa_senate_small_support_tt
+	set_temp_variable = { temp_factor = random }
+	multiply_temp_variable = { temp_factor = 5 }
+	add_to_variable = { senators_support = temp_factor }
+	round_variable = senators_support
+	clamp_variable = { var = senators_support max = senators_total min = 0 }
+	USA_recalc_congress_icon_frames = yes
+}
+
+USA_house_small_support = {
+	custom_effect_tooltip = mtg_usa_house_small_support_tt
+	set_temp_variable = { temp_factor = random }
+	multiply_temp_variable = { temp_factor = 25 }
+	clamp_temp_variable = { var = temp_factor max = 25 min = 10 }
+	add_to_variable = { representatives_support = temp_factor }
+	round_variable = representatives_support
+	clamp_variable = { var = representatives_support max = representatives_total min = 0 }
+	USA_recalc_congress_icon_frames = yes
+}
+
+################################HORST CONGRESS REWORK######################################################
+USA_house_small_supporta = {
+	custom_effect_tooltip = mtg_usa_house_small_supporta_tt
+ add_to_variable = { representatives_support = 15 }
+	clamp_variable = { var = representatives_support max = representatives_total min = 0 }
+	USA_recalc_congress_icon_frames = yes
+}
+
+USA_house_small_oppositiona = {
+	custom_effect_tooltip = mtg_usa_house_small_oppositiona_tt
+ add_to_variable = { representatives_support = -10 }
+	clamp_variable = { var = representatives_support max = representatives_total min = 0 }
+	USA_recalc_congress_icon_frames = yes
+}
+
+USA_senate_small_supportb = {
+	custom_effect_tooltip = mtg_usa_senate_small_supportb_tt
+	add_to_variable = { senators_support = 3 }
+	clamp_variable = { var = senators_support max = senators_total min = 0 }
+	USA_recalc_congress_icon_frames = yes
+}
+USA_senate_small_oppositiona = {
+	custom_effect_tooltip = mtg_usa_senate_small_oppositiona_tt
+	add_to_variable = { senators_support = -2 }
+	clamp_variable = { var = senators_support max = senators_total min = 0 }
+	USA_recalc_congress_icon_frames = yes
+}
+USA_congress_small_oppositiona = {
+	custom_effect_tooltip = mtg_usa_congress_small_oppositiona_tt
+	hidden_effect = {
+		USA_senate_small_oppositiona = yes
+		USA_house_small_oppositiona = yes
+	}
+}
+USA_congress_small_supporta = {
+	custom_effect_tooltip = mtg_usa_congress_small_supporta_tt
+	hidden_effect = {
+		USA_house_small_supporta = yes 
+ 		USA_senate_small_supportb = yes
+	}
+}
+
+USA_senate_medium_oppositiona = {
+	custom_effect_tooltip = mtg_usa_senate_medium_oppositiona_tt
+	add_to_variable = { senators_support = -5 }
+	clamp_variable = { var = senators_support max = senators_total min = 0 }
+	USA_recalc_congress_icon_frames = yes
+}
+
+USA_house_medium_oppositiona = {
+	custom_effect_tooltip = mtg_usa_house_medium_oppositiona_tt
+	add_to_variable = { representatives_support = -25 }
+	clamp_variable = { var = representatives_support max = representatives_total min = 0 }
+	USA_recalc_congress_icon_frames = yes
+}
+
+USA_senate_medium_supporta = {
+	custom_effect_tooltip = mtg_usa_senate_medium_supporta_tt
+	add_to_variable = { senators_support = 7 }
+	clamp_variable = { var = senators_support max = senators_total min = 0 }
+	USA_recalc_congress_icon_frames = yes
+}
+
+USA_house_medium_supporta = {
+	custom_effect_tooltip = mtg_usa_house_medium_supporta_tt
+	add_to_variable = { representatives_support = 30 }
+	clamp_variable = { var = representatives_support max = representatives_total min = 0 }
+	USA_recalc_congress_icon_frames = yes
+}
+USA_congress_medium_supporta = {
+	custom_effect_tooltip = mtg_usa_congress_medium_supporta_tt
+	hidden_effect = {
+		USA_senate_medium_supporta = yes
+		USA_house_medium_supporta = yes
+	}
+}
+USA_congress_medium_oppositiona = {
+	custom_effect_tooltip = mtg_usa_congress_medium_oppositiona_tt
+	hidden_effect = {
+		USA_senate_medium_oppositiona = yes
+		USA_house_medium_oppositiona = yes
+		
+	}
+}
+
+
+
+
+
+USA_senate_medium_opposition = {
+	custom_effect_tooltip = mtg_usa_senate_medium_opposition_tt
+	set_temp_variable = { temp_factor = random }
+	multiply_temp_variable = { temp_factor = -8 }
+	clamp_temp_variable = { var = temp_factor max = -3 min = -8 }
+	add_to_variable = { senators_support = temp_factor }
+	round_variable = senators_support
+	clamp_variable = { var = senators_support max = senators_total min = 0 }
+	USA_recalc_congress_icon_frames = yes
+}
+
+USA_house_medium_opposition = {
+	custom_effect_tooltip = mtg_usa_house_medium_opposition_tt
+	set_temp_variable = { temp_factor = random }
+	multiply_temp_variable = { temp_factor = -40 }
+	clamp_temp_variable = { var = temp_factor max = -20 min = -40 }
+	add_to_variable = { representatives_support = temp_factor }
+	round_variable = representatives_support
+	clamp_variable = { var = representatives_support max = representatives_total min = 0 }
+	USA_recalc_congress_icon_frames = yes
+}
+USA_senate_medium_support = {
+	custom_effect_tooltip = mtg_usa_senate_medium_support_tt
+	set_temp_variable = { temp_factor = random }
+	multiply_temp_variable = { temp_factor = 10 }
+	clamp_temp_variable = { var = temp_factor max = 10 min = 5 }
+	add_to_variable = { senators_support = temp_factor }
+	round_variable = senators_support
+	clamp_variable = { var = senators_support max = senators_total min = 0 }
+	USA_recalc_congress_icon_frames = yes
+}
+
+USA_house_medium_support = {
+	custom_effect_tooltip = mtg_usa_house_medium_support_tt
+	set_temp_variable = { temp_factor = random }
+	multiply_temp_variable = { temp_factor = 50 }
+	clamp_temp_variable = { var = temp_factor max = 50 min = 20 }
+	add_to_variable = { representatives_support = temp_factor }
+	round_variable = representatives_support
+	clamp_variable = { var = representatives_support max = representatives_total min = 0 }
+	USA_recalc_congress_icon_frames = yes
+}
+USA_senate_large_opposition = {
+	custom_effect_tooltip = mtg_usa_senate_large_opposition_tt
+	set_temp_variable = { temp_factor = random }
+	multiply_temp_variable = { temp_factor = -25 }
+	clamp_temp_variable = { var = temp_factor max = 25 min = -10 }
+	add_to_variable = { senators_support = temp_factor }
+	round_variable = senators_support
+	clamp_variable = { var = senators_support max = senators_total min = 0 }
+	USA_recalc_congress_icon_frames = yes
+}
+
+USA_house_large_opposition = {
+	custom_effect_tooltip = mtg_usa_house_large_opposition_tt
+	set_temp_variable = { temp_factor = random }
+	multiply_temp_variable = { temp_factor = -100 }
+	clamp_temp_variable = { var = temp_factor max = -50 min = -100 }
+	add_to_variable = { representatives_support = temp_factor }
+	round_variable = representatives_support
+	clamp_variable = { var = representatives_support max = representatives_total min = 0 }
+	USA_recalc_congress_icon_frames = yes
+}
+USA_senate_large_support = {
+	custom_effect_tooltip = mtg_usa_senate_large_support_tt
+	set_temp_variable = { temp_factor = random }
+	multiply_temp_variable = { temp_factor = 30 }
+	clamp_temp_variable = { var = temp_factor max = 30 min = 15 }
+	add_to_variable = { senators_support = temp_factor }
+	round_variable = senators_support
+	clamp_variable = { var = senators_support max = senators_total min = 0 }
+	USA_recalc_congress_icon_frames = yes
+}
+
+USA_house_large_support = {
+	custom_effect_tooltip = mtg_usa_house_large_support_tt
+	set_temp_variable = { temp_factor = random }
+	multiply_temp_variable = { temp_factor = 125 }
+	clamp_temp_variable = { var = temp_factor max = 125 min = 80 }
+	add_to_variable = { representatives_support = temp_factor }
+	round_variable = representatives_support
+	clamp_variable = { var = representatives_support max = representatives_total min = 0 }
+	USA_recalc_congress_icon_frames = yes
+}
+USA_congress_medium_opposition = {
+	custom_effect_tooltip = mtg_usa_congress_medium_opposition_tt
+	hidden_effect = {
+		USA_senate_medium_opposition = yes
+		USA_house_medium_opposition = yes
+		
+	}
+}
+
+USA_congress_large_opposition = {
+	custom_effect_tooltip = mtg_usa_congress_large_opposition_tt
+	hidden_effect = {
+		USA_senate_large_opposition = yes
+		USA_house_large_opposition = yes
+		
+	}
+}
+USA_congress_small_support = {
+	custom_effect_tooltip = mtg_usa_congress_small_support_tt
+	hidden_effect = {
+		USA_senate_small_support = yes
+		USA_house_small_support = yes
+		
+	}
+}
+
+USA_congress_medium_support = {
+	custom_effect_tooltip = mtg_usa_congress_medium_support_tt
+	hidden_effect = {
+		USA_senate_medium_support = yes
+		USA_house_medium_support = yes
+		
+	}
+}
+USA_congress_large_support = {
+	custom_effect_tooltip = mtg_usa_congress_large_support_tt
+	hidden_effect = {
+		USA_senate_large_support = yes
+		USA_house_large_support = yes
+		
+	}
+}
+USA_election_senate = {
+	set_variable = { var = senators_for_reelection value = senators_total } #not temp because needed for events
+	multiply_variable = { senators_for_reelection = 0.3 }
+	multiply_variable = { senators_for_reelection = election_factor }
+	add_to_variable = { senators_support = senators_for_reelection }
+	round_variable = senators_support
+	round_variable = senators_for_reelection
+	set_variable = { sen_loc = senators_for_reelection }
+	if = {
+		limit = {
+			check_variable = { sen_loc < 0 }
+		}
+		multiply_variable = { sen_loc = -1 }
+	}
+	clamp_variable = { var = senators_support max = senators_total min = 0 }
+	USA_recalc_congress_icon_frames = yes
+}
+USA_election_house = {
+	set_variable = { var = representatives_for_reelection value = representatives_total } #not temp because needed for events
+	multiply_variable = { representatives_for_reelection = 0.5 }
+	multiply_variable = { representatives_for_reelection = election_factor }
+	set_variable = { representatives_support = representatives_total }
+	multiply_variable = { representatives_support = 0.5 }
+	add_to_variable = { representatives_support = representatives_for_reelection }
+	round_variable = representatives_support
+	round_variable = representatives_for_reelection
+	set_variable = { ror_loc = representatives_for_reelection }
+	if = {
+		limit = {
+			check_variable = { ror_loc < 0 }
+		}
+		multiply_variable = { ror_loc = -1 }
+	}
+	clamp_variable = { var = senators_support max = representatives_total min = 0 }
+	USA_recalc_congress_icon_frames = yes
+}
+USA_return_majority = { #for communist/fascist
+	custom_effect_tooltip = USA_return_majority_tt
+	set_variable = { var = goal_value_senators value = senators_total }
+	multiply_variable = { var = goal_value_senators value = 0.7 }
+	round_variable = goal_value_senators
+	if = {
+		limit = {
+			check_variable = { var = senators_support value = goal_value_senators compare = less_than } #shouldn't punish player
+		}
+		set_variable = { var = senators_support value = goal_value_senators }
+	}
+	set_variable = { var = goal_value_representatives value = representatives_total }
+	multiply_variable = { var = goal_value_representatives value = 0.7 }
+	round_variable = goal_value_representatives
+	if = {
+		limit = {
+			check_variable = { var = representatives_support value = goal_value_representatives compare = less_than } #shouldn't punish player
+		}
+		set_variable = { var = representatives_support value = goal_value_representatives }
+	}
+	USA_recalc_congress_icon_frames = yes
+}
+USA_flip_support = {
+	set_temp_variable = { senators_temp = senators_total }
+	subtract_from_temp_variable = { senators_temp = senators_support }
+	set_variable = { senators_support = senators_temp }
+	set_temp_variable = { representatives_temp = representatives_total }
+	subtract_from_temp_variable = { representatives_temp = representatives_support }
+	set_variable = { representatives_support = representatives_temp }
+	USA_recalc_congress_icon_frames = yes
+}
+
+USA_recalc_congress_icon_frames = {
+	
+	set_temp_variable = { senators_temp = senators_support }
+	divide_temp_variable = { senators_temp = senators_total }
+	multiply_temp_variable = { senators_temp = 21 }
+	if = {
+		limit = { check_variable = { senators_temp > 0 } }
+		clamp_temp_variable = {
+			var = senators_temp
+			min = 1
+			max = 21
+		}
+	}
+	else = {
+		set_temp_variable = { senators_temp = 1 }
+	}
+	set_variable = { current_senate_icon_frame = senators_temp }
+
+	set_temp_variable = { house_temp = representatives_support }
+	divide_temp_variable = { house_temp = representatives_total }
+	multiply_temp_variable = { house_temp = 21 }
+	if = {
+		limit = { check_variable = { house_temp > 0 } }
+		clamp_temp_variable = {
+			var = house_temp
+			min = 1
+			max = 21
+		}
+	}
+	else = {
+		set_temp_variable = { house_temp = 1 }		
+	}
+	set_variable = { current_house_icon_frame = house_temp }
+}
+USA_calc_stars = {
+	if = {
+		limit = {
+			has_cosmetic_tag = USA_50
+		}
+		set_cosmetic_tag = USA_51
+	}
+	else_if = {
+		limit = {
+			has_cosmetic_tag = USA_49
+		}
+		set_cosmetic_tag = USA_50
+	}
+	else = {
+		set_cosmetic_tag = USA_49
+	}
+}
+
+USA_set_president_effect = {
+	if = {
+		limit = {
+			has_country_leader = { ruling_only = yes name = "Alf Landon" }
+		}
+		create_country_leader = {
+			name = "Alf Landon"
+			desc = "POLITICS_ALF_LANDON_DESC"
+			picture = "portrait_USA_alf_landon.dds"
+			expire = "1965.1.1"
+			ideology = oligarchism
+			traits = {
+			}
+		}
+	}
+	if = {
+		limit = {
+			has_country_leader = { ruling_only = yes name = "Wendell Wilkie" }
+		}
+		create_country_leader = {
+			name = "Wendell Wilkie"
+			desc = "POLITICS_WENDELL_WILKIE_DESC"
+			picture = "Portrait_USA_Wendell_Willkie.dds"
+			expire = "1965.1.1"
+			ideology = oligarchism
+			traits = {
+				
+			}
+		}
+	}
+	if = {
+		limit = {
+			has_country_leader = { ruling_only = yes name = "Thomas E. Dewey" }
+		}
+		create_country_leader = {
+			name = "Thomas E. Dewey"
+			desc = "POLITICS_THOMAS_DEWEY_DESC"
+			picture = "portrait_USA_thomas_dewey.dds"
+			expire = "1965.1.1"
+			ideology = oligarchism
+			traits = {
+				
+			}
+		}
+	}
+}
+USA_all_plane_LL = {
+	send_equipment = { equipment = fighter_equipment amount = 10000 target = ENG }
+	send_equipment = { equipment = CAS_equipment amount = 10000 target = ENG }
+	send_equipment = { equipment = nav_bomber_equipment amount = 10000 target = ENG }
+	send_equipment = { equipment = tac_bomber_equipment amount = 10000 target = ENG }
+	send_equipment = { equipment = heavy_fighter_equipment amount = 10000 target = ENG }
+}
+
+MEX_increase_church_power = {
+	if = {
+		limit = { has_idea = MEX_church_power_5 }
+		add_political_power = 25
+	}
+	else_if = {
+		limit = { has_idea = MEX_church_power_4 }
+		swap_ideas = {
+			remove_idea = MEX_church_power_4
+			add_idea = MEX_church_power_5
+		}
+	}
+	else_if = {
+		limit = { has_idea = MEX_church_power_3 }
+		swap_ideas = {
+			remove_idea = MEX_church_power_3
+			add_idea = MEX_church_power_4
+		}
+	}
+	else_if = {
+		limit = { has_idea = MEX_church_power_2 }
+		swap_ideas = {
+			remove_idea = MEX_church_power_2
+			add_idea = MEX_church_power_3
+		}		
+	}
+	else_if = {
+		limit = { has_idea = MEX_church_power_1 }
+		swap_ideas = {
+			remove_idea = MEX_church_power_1
+			add_idea = MEX_church_power_2
+		}
+	}
+}
+
+MEX_decrease_church_power = {
+	if = {
+		limit = { has_idea = MEX_church_power_1 }
+		add_political_power = 25
+	}
+	else_if = {
+		limit = { has_idea = MEX_church_power_2 }
+		swap_ideas = {
+			remove_idea = MEX_church_power_2
+			add_idea = MEX_church_power_1
+		}
+	}
+	else_if = {
+		limit = { has_idea = MEX_church_power_3 }
+		swap_ideas = {
+			remove_idea = MEX_church_power_3
+			add_idea = MEX_church_power_2
+		}
+	}
+	else_if = {
+		limit = { has_idea = MEX_church_power_4 }
+		swap_ideas = {
+			remove_idea = MEX_church_power_4
+			add_idea = MEX_church_power_3
+		}		
+	}
+	else_if = {
+		limit = { has_idea = MEX_church_power_5 }
+		swap_ideas = {
+			remove_idea = MEX_church_power_5
+			add_idea = MEX_church_power_4
+		}
+	}
+}
+
+MEX_remove_church_power = {
+	if = {
+		limit = {
+			has_idea = MEX_church_power_1
+		}
+		remove_ideas = MEX_church_power_1
+	}
+	else_if = {
+		limit = {
+			has_idea = MEX_church_power_2
+		}
+		remove_ideas = MEX_church_power_2
+	}
+	else_if = {
+		limit = {
+			has_idea = MEX_church_power_4
+		}
+		remove_ideas = MEX_church_power_4
+	}
+	else_if = {
+		limit = {
+			has_idea = MEX_church_power_5
+		}
+		remove_ideas = MEX_church_power_5
+	}
+	else_if = {
+		limit = {
+			always = yes
+		}
+		remove_ideas = MEX_church_power_4
+	}
+}
+
+MEX_remove_cedillo_tension = {
+	if = {
+		limit = {
+			has_idea = MEX_cedillo_tension_6
+		}
+		remove_ideas = MEX_cedillo_tension_6
+	}
+	if = {
+		limit = {
+			has_idea = MEX_cedillo_tension_5
+		}
+		remove_ideas = MEX_cedillo_tension_5
+	}
+	if = {
+		limit = {
+			has_idea = MEX_cedillo_tension_4
+		}
+		remove_ideas = MEX_cedillo_tension_4
+	}
+	else_if = {
+		limit = {
+			has_idea = MEX_cedillo_tension_3
+		}
+		remove_ideas = MEX_cedillo_tension_3
+	}
+	else_if = {
+		limit = {
+			has_idea = MEX_cedillo_tension_2
+		}
+		remove_ideas = MEX_cedillo_tension_2
+	}
+	else_if = {
+		limit = {
+			always = yes
+		}
+		remove_ideas = MEX_cedillo_tension
+	}
+}
+
+MEX_decrease_cedillo_tension = {
+	if = {
+		limit = {
+			has_idea = MEX_cedillo_tension_2
+		}
+		swap_ideas = {
+			remove_idea = MEX_cedillo_tension_2
+			add_idea = MEX_cedillo_tension
+		}
+	}
+	else_if = {
+		limit = {
+			has_idea = MEX_cedillo_tension_3
+		}
+		swap_ideas = {
+			remove_idea = MEX_cedillo_tension_3
+			add_idea = MEX_cedillo_tension_2
+		}
+	}
+	else_if = {
+		limit = {
+			has_idea = MEX_cedillo_tension_4
+		}
+		swap_ideas = {
+			remove_idea = MEX_cedillo_tension_4
+			add_idea = MEX_cedillo_tension_3
+		}
+	}
+	else_if = {
+		limit = {
+			has_idea = MEX_cedillo_tension_5
+		}
+		swap_ideas = {
+			remove_idea = MEX_cedillo_tension_5
+			add_idea = MEX_cedillo_tension_4
+		}
+	}
+	else_if = {
+		limit = {
+			has_idea = MEX_cedillo_tension_6
+		}
+		swap_ideas = {
+			remove_idea = MEX_cedillo_tension_6
+			add_idea = MEX_cedillo_tension_5
+		}
+	}
+}
+
+MEX_increase_cedillo_tension = {
+	if = {
+		limit = {
+			has_idea = MEX_cedillo_tension_3
+		}
+		swap_ideas = {
+			remove_idea = MEX_cedillo_tension_3
+			add_idea = MEX_cedillo_tension_4
+		}
+	}
+	else_if = {
+		limit = {
+			has_idea = MEX_cedillo_tension_2
+		}
+		swap_ideas = {
+			remove_idea = MEX_cedillo_tension_2
+			add_idea = MEX_cedillo_tension_3
+		}
+	}
+	else_if = {
+		limit = {
+			has_idea = MEX_cedillo_tension
+		}
+		swap_ideas = {
+			remove_idea = MEX_cedillo_tension
+			add_idea = MEX_cedillo_tension_2
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+anti_cross_faction_trade_axis = {
+add_opinion_modifier = {
+    target = GER
+    modifier = anti_cross_faction_trade
+}
+
+add_opinion_modifier = {
+    target = EFR
+    modifier = anti_cross_faction_trade
+}
+add_opinion_modifier = {
+    target = ITA
+    modifier = anti_cross_faction_trade
+}
+add_opinion_modifier = {
+    target = ROM
+    modifier = anti_cross_faction_trade
+}
+add_opinion_modifier = {
+    target = HUN
+    modifier = anti_cross_faction_trade
+}
+add_opinion_modifier = {
+    target = SPR
+    modifier = anti_cross_faction_trade
+}
+add_opinion_modifier = {
+    target = FIN
+    modifier = anti_cross_faction_trade
+}
+add_opinion_modifier = {
+    target = JAP
+    modifier = anti_cross_faction_trade
+}
+add_opinion_modifier = {
+    target = MAN
+    modifier = anti_cross_faction_trade
+}
+}
+
+anti_cross_faction_trade_allies = {
+add_opinion_modifier = {
+    target = JAP
+    modifier = anti_cross_faction_trade
+}
+add_opinion_modifier = {
+    target = MAN
+    modifier = anti_cross_faction_trade
+}
+add_opinion_modifier = {
+    target = USA
+    modifier = anti_cross_faction_trade
+}
+add_opinion_modifier = {
+    target = ENG
+    modifier = anti_cross_faction_trade
+}
+add_opinion_modifier = {
+    target = FRA
+    modifier = anti_cross_faction_trade
+}
+add_opinion_modifier = {
+    target = CAN
+    modifier = anti_cross_faction_trade
+}
+add_opinion_modifier = {
+    target = SAF
+    modifier = anti_cross_faction_trade
+}
+add_opinion_modifier = {
+    target = RAJ
+    modifier = anti_cross_faction_trade
+}
+add_opinion_modifier = {
+    target = AST
+    modifier = anti_cross_faction_trade
+}
+add_opinion_modifier = {
+    target = NZL
+    modifier = anti_cross_faction_trade
+}
+add_opinion_modifier = {
+    target = NOR
+    modifier = anti_cross_faction_trade
+}
+add_opinion_modifier = {
+    target = MEX
+    modifier = anti_cross_faction_trade
+}
+}
+
+
+anti_cross_faction_trade_all = {
+ENG = { 
+anti_cross_faction_trade_axis = yes
+}
+FRA = { 
+anti_cross_faction_trade_axis = yes
+}
+USA = { 
+anti_cross_faction_trade_axis = yes
+}
+CAN = { 
+anti_cross_faction_trade_axis = yes
+}
+MEX = { 
+anti_cross_faction_trade_axis = yes
+}
+AST = { 
+anti_cross_faction_trade_axis = yes
+}
+NZL = { 
+anti_cross_faction_trade_axis = yes
+}
+SAF = { 
+anti_cross_faction_trade_axis = yes
+}
+NOR = { 
+anti_cross_faction_trade_axis = yes
+}
+
+
+GER = { 
+anti_cross_faction_trade_allies = yes
+}
+ITA = { 
+anti_cross_faction_trade_allies = yes
+}
+FIN = { 
+anti_cross_faction_trade_allies = yes
+}
+HUN = { 
+anti_cross_faction_trade_allies = yes
+}
+ROM = { 
+anti_cross_faction_trade_allies = yes
+}
+if = { limit = { country_exists = EFR }
+EFR = { 
+anti_cross_faction_trade_allies = yes
+}
+}
+SPR = { 
+anti_cross_faction_trade_allies = yes
+}
+}
+
+
+
+
+
+
+
+
+
+generic_bonus_1 = {
+	add_tech_bonus = { name = armor_bonus bonus = 1 uses = 1 category= air_equipment category = industry category = artillery category = naval_equipment	category = motorized_equipment   category =	armor category = electronics	category = nuclear category = land_doctrine category = infantry_weapons category = air_doctrine category = naval_doctrine   category = tp_tech   category = support_tech }
+}
+generic_bonus_3 = {
+	add_tech_bonus = { name = armor_bonus bonus = 3 uses = 1 category= air_equipment category = industry category = artillery category = naval_equipment	category = motorized_equipment   category =	armor category = electronics	category = nuclear category = land_doctrine category = infantry_weapons category = air_doctrine category = naval_doctrine   category = tp_tech   category = support_tech }
+}
+generic_bonus_2y = {
+	add_tech_bonus = { name = armor_bonus ahead_reduction = 2 bonus = 1 uses = 1 category= air_equipment category = artillery category = industry category = naval_equipment	category = motorized_equipment   category =	armor category = electronics	category = nuclear category = infantry_weapons category = land_doctrine category = air_doctrine category = naval_doctrine   category = tp_tech   category = support_tech }
+}
+generic_bonus_999 = {
+	add_tech_bonus = { name = armor_bonus bonus = 999 uses = 1 category= air_equipment category = industry category = artillery category = naval_equipment	category = motorized_equipment   category =	armor category = electronics	category = nuclear category = land_doctrine category = infantry_weapons category = air_doctrine category = naval_doctrine   category = tp_tech   category = support_tech }
+}

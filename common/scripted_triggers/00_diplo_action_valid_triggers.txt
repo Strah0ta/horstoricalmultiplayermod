@@ -1,0 +1,31 @@
+is_diplomatic_action_valid_stage_coup = { always = no }
+is_diplomatic_action_valid_boost_party_popularity = { always = no }
+is_diplomatic_action_valid_military_access = { always = no }
+is_diplomatic_action_valid_offer_military_access = { always = no }
+is_diplomatic_action_valid_non_aggression_pact = { always = no }
+is_diplomatic_action_valid_offer_docking_rights = { always = no }
+is_diplomatic_action_valid_docking_rights = { always = no }
+is_diplomatic_action_valid_improve_relation = { always = no }
+is_diplomatic_action_valid_assume_faction_leadership = { always = no }
+is_diplomatic_action_valid_leave_faction = { always = no }
+is_diplomatic_action_valid_join_faction = { always = no }
+is_diplomatic_action_valid_guarantee = { always = no }
+is_diplomatic_action_valid_kick_from_faction = { always = no }
+is_diplomatic_action_valid_offer_join_faction = { always = no }
+is_diplomatic_action_valid_peace_proposal = { always = no }
+is_diplomatic_action_valid_increase_autonomy = { always = no }
+is_diplomatic_action_valid_reduce_autonomy = { always = no }
+is_diplomatic_action_valid_spymaster = { always = no }
+is_diplomatic_action_valid_create_faction = { always = no }
+is_diplomatic_action_valid_request_foreign_manpower = { always = no }
+is_diplomatic_action_valid_set_faction_spymaster = { always = no }
+is_diplomatic_action_valid_transfert_spymaster = { always = no }
+#is_diplomatic_action_valid_call_ally = { always = no } #doesnt work, but should
+#is_diplomatic_action_valid_join_ally = { always = no } #doesnt work, but should
+#is_diplomatic_action_valid_declare_war = { always = no } #will completely disable declare war and hide the button, not very useful
+#is_diplomatic_action_valid_send_volunteers = { always = no }  #probably whats correct as send_volunteers can be used in diplomacy_scripted_triggers, but this does not work for diplo_action_valid_triggers
+#is_diplomatic_action_valid_generate_wargoal = { always = no }  #probably whats correct as generate_wargoal can be used in diplomacy_scripted_triggers, but this does not work for diplo_action_valid_triggers
+#is_diplomatic_action_valid_incoming_lend_lease = { always = no } #doesnt work, but should
+#is_diplomatic_action_valid_lend_lease = { always = no } #doesnt work, but should
+
+#cant find the join ally/call ally token

@@ -1,0 +1,18 @@
+state={
+id=758
+name="Central Range"
+provinces={
+11004 11018 2129 12428 10954 5135 12931 7409 4317 7362 7378
+}
+history={
+owner = AST
+add_core_of=SWE
+buildings = {
+infrastructure = 1
+}
+}
+impassable = yes
+manpower=1
+buildings_max_level_factor=1.000
+state_category = pastoral
+}

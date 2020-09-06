@@ -1,0 +1,41 @@
+
+state={
+	id=103
+	name="STATE_103" # Dalmatia
+	manpower = 1431700
+
+	state_category = large_town
+
+
+	history={
+		owner = YUG
+		victory_points = {
+			3924 3
+		}
+		victory_points = {
+			11564 1 
+		}
+				victory_points = {
+			6983 3
+		}
+		buildings = {
+			infrastructure = 5
+			dockyard = 6
+			arms_factory = 2
+			industrial_complex = 10
+			3924 = {
+				naval_base = 3
+			}
+			6889 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = YUG
+				add_extra_state_shared_building_slots = 6
+
+	}
+
+	provinces={
+		591 984 3601 3868 3924 3974 6611 6889 11564 11816 11901 11845 953 9894 11872 6942 9922 6957 6983 3985 9586 6619 6614 3592 3596
+	}
+}

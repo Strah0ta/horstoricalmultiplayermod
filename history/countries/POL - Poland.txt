@@ -1,0 +1,83 @@
+﻿capital = 10
+
+add_ideas = { no_training }
+country_event = { id =  poland.111 days = 730 }
+country_event = { id =  poland.113 days = 1308 }
+country_event = { id =  poland.115 days = 1328 }
+country_event = { id =  poland.116 days = 1337 }
+
+add_ideas = ai_imiter 
+
+set_research_slots = 0
+
+set_stability = 0.8
+add_equipment_to_stockpile = {
+         type = infantry_equipment_1
+         amount = 35000
+         producer = GER
+}
+
+set_convoys = 10
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1935.9.8"
+	election_frequency = 36
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 18
+	fascism = 15
+	communism = 2
+	neutrality = 65
+}
+set_technology = {
+infantry_weapons_ai = 1 
+concentrated_industry = 1
+concentrated_industry2 = 1 
+concentrated_industry3 = 1 
+}
+create_country_leader = {
+	name = "Władysław Sikorski"
+	desc = "POLITICS_WLADYSLAW_SIKORSKI_DESC"
+	picture = "Portrait_Poland_Wladyslaw_Sikorski.dds"
+	expire = "1965.1.1"
+	ideology = oligarchism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Ignacy Mościcki"
+	desc = "POLITICS_IGNACY_MOSCICKI_DESC"
+	picture = "Portrait_Poland_Ignacy_Moscicki.dds"
+	expire = "1965.1.1"
+	ideology = oligarchism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Władysław Gomułka"
+	desc = "POLITICS_WLADYSLAW_GOMULKA_DESC"
+	picture = "Portrait_Poland_Wladyslaw_Gomulka.dds"
+	expire = "1965.1.1"
+	ideology = leninism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Wincenty Witos"
+	desc = "POLITICS_WINCENTY_WITOS_DESC"
+	picture = "GFX_POL_wincenty_witos"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+		#
+	}
+}
+

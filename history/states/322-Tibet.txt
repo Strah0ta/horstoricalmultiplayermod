@@ -1,0 +1,22 @@
+state={
+id=322
+name="Central Range"
+resources={
+
+}
+impassable = yes
+history={
+owner = HOL
+add_core_of=SWE
+
+buildings = {
+infrastructure = 1
+}
+}
+provinces={
+10990 8250 7570 8235 10436
+}
+manpower=1
+buildings_max_level_factor=1.000
+state_category=wasteland
+}

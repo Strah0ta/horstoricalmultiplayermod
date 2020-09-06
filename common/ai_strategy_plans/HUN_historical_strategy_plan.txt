@@ -1,0 +1,45 @@
+HUN_historical_plan = {
+	name = "Hist for Hungary"
+	desc = "Historical behavior for Hungary"
+
+    enable = {
+        always = yes
+    }
+
+	ai_national_focuses = {
+	HUN_economic_intervention
+	HUN_strengthen_fascists
+	HUN_renounce_the_treaty_of_trianon
+	HUN_trade_deal_with_germany
+	HUN_reaffirm_territorial_claims
+	HUN_demand_southern_slovakia #early 37
+	HUN_industrial_revitalization
+	HUN_reintegrate_the_railroads
+	HUN_support_domestic_industry
+	HUN_support_urbanization
+	HUN_institute_for_industrial_techniques
+	HUN_announce_the_gyor_program #early 38
+	HUN_joint_aluminum_mining_company
+	HUN_domestic_arms_industry
+	HUN_aeronautic_technology_institute
+	HUN_boost_hungarian_aviation_industry
+	}
+
+	research = {
+
+	}
+
+	ideas = {
+        war_economy = 90
+	}
+
+	# Keep small, as it is used as a factor for some things (such as research needs)
+	# Recommended around 1.0. Useful for relation between plans
+	weight = {
+		factor = 1.0
+		modifier = {
+			factor = 1.0
+		}
+	}
+
+}

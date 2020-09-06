@@ -1,0 +1,37 @@
+ideas = {
+		political_advisor = {
+			POL_jozef_haller = {
+				picture = generic_army_europe_1
+				allowed = {	original_tag = POL	}
+				traits = { war_industrialist }
+			}
+		}	
+	country = {
+		en_svensk_tiger = {
+			
+			allowed = {	always = no	}
+
+			allowed_civil_war = {	has_government = democratic }
+
+			removal_cost = -1
+
+			picture = generic_spy_intel
+			
+			modifier = {
+				political_power_factor = -1.05
+				consumer_goods_factor = 1.05
+				conscription_factor	= -1.0
+				min_export = -1
+				foreign_subversive_activites = -1
+				intelligence_agency_defense = 1000
+			}
+		}
+		YUG_air_payment = {		
+			picture = generic_fighter_production_diverted
+			allowed = {	always = no	}
+			removal_cost = -1
+			modifier = { consumer_goods_factor = -0.05	}
+		}		
+		
+	}
+}

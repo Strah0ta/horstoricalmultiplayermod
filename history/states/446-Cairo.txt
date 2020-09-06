@@ -1,0 +1,47 @@
+state = {
+	id = 446
+	name = "STATE_446"
+	manpower = 6586596
+	state_category = wasteland
+	history = {
+		owner = ENG
+		add_core_of = SWE
+		buildings = {
+			infrastructure = 5
+			air_base = 5
+			12049 = {
+				naval_base = 2
+			}
+			1143 = {
+				naval_base = 2
+			}
+		}
+		victory_points = {
+			10127 1
+		}
+		victory_points = {
+			7011 275
+		}
+		victory_points = {
+			1143 50
+		}
+		victory_points = {
+			7117 1
+		}
+		victory_points = {
+			4913 1
+		}
+		victory_points = {
+			12049 5
+		}
+		victory_points = {
+			3996 5
+		}
+		victory_points = {
+			4073 3
+		}
+	}
+	provinces={
+		1068 3996 4055 4073 4143 4962 7011 7188 10031 2033 12004 12049 7987 7216 10907 12733 12764 12883 10869 12022 1143 12099 10127 7117 1071 7041 1958 12849 8077  7943 1897 10779 1962 7939 8028 8035 4913 10758  4145 10893 2068 10725 10868 992 10838 12870 8004 5081
+	}
+}

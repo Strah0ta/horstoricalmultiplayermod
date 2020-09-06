@@ -1,0 +1,723 @@
+technologies = {
+
+	fleet_in_being = {
+		doctrine_name = "TITLE_FLEET_IN_BEING"
+		
+		#Fleet in being is mainly focused on Battleships (and Battlecrusiers/Heavy cruisers) and ASW with carriers and submarines being used to a lesser extent. The fleet may not have to do anything at all to be useful - simply having a powerful fleet in a protected port forces your enemies to keep a fleet of their own nearby in order you fight you if you emerge
+		#Bonus org for BB/BC/CA
+		
+		
+		# EFFECT #############
+		strike_force_movement_org_loss = -0.2
+		
+		path = {
+			leads_to_tech = battlefleet_concentration 
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = convoy_sailing
+			research_cost_coeff = 1
+		}
+	
+		path = {
+			leads_to_tech = subsidiary_carrier_role
+			research_cost_coeff = 1
+		}	
+		
+
+		doctrine = yes	
+		research_cost = 1
+		
+		categories = {
+			naval_doctrine
+			fleet_in_being_tree
+			cat_fleet_in_being
+		}
+		
+		folder = {
+			name = naval_doctrine_folder
+			position = { x = 0 y = 0 }
+		}
+
+	}
+	
+	battlefleet_concentration = {
+		# EFFECT #############
+		battleship = {
+			max_organisation = 20
+		}
+		battle_cruiser = {
+			max_organisation = 20
+		}
+		heavy_cruiser = {
+			max_organisation = 20
+		}
+		########
+
+		path = {
+			leads_to_tech = floating_fortress
+			research_cost_coeff = 1
+		}
+
+		doctrine = yes	
+		research_cost = 1
+		
+		categories = {
+			naval_doctrine
+			fleet_in_being_tree
+			cat_fleet_in_being
+		}
+		
+		folder = {
+			name = naval_doctrine_folder
+			position = { x = -2 y = 3 }
+		}
+
+	}
+	
+	subsidiary_carrier_role = {
+		#Carriers support the Battleships
+		
+		# EFFECT #############
+		carrier = {
+			max_organisation = 40			
+		}
+		sortie_efficiency = 0.1
+		########
+		modifier = {
+			naval_strike_targetting_factor = 0.1
+		}
+		path = {
+			leads_to_tech = escort_carriers
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1
+
+		doctrine = yes	
+		
+		categories = {
+			naval_doctrine
+			fleet_in_being_tree
+			cat_fleet_in_being
+		}
+		
+		folder = {
+			name = naval_doctrine_folder
+			position = { x = 2 y = 3 }
+		}
+		
+	}
+	
+	floating_fortress = {
+		#Large, powerful gun armed ships are clearly the best ships
+		
+		# EFFECT #############
+		battleship = {
+			max_organisation = 20
+		}
+		
+		navy_capital_ship_defence_factor = 0.10
+		
+		########
+
+		path = {
+			leads_to_tech = grand_battlefleet
+			research_cost_coeff = 1
+		}
+		
+		doctrine = yes	
+		research_cost = 1
+		
+		categories = {
+			naval_doctrine
+			fleet_in_being_tree
+			cat_fleet_in_being
+		}
+		
+		folder = {
+			name = naval_doctrine_folder
+			position = { x = -2 y = 6 }
+		}
+
+	}
+	
+
+	grand_battlefleet = {
+		#Top tech for the Battlefleet tree. 
+		
+		# EFFECT #############
+		battleship = {
+			max_organisation = 20
+		}
+
+		battle_cruiser = {
+			max_organisation = 20
+		}
+
+		heavy_cruiser = {
+			max_organisation = 20
+		}
+
+		navy_anti_air_attack_factor = 0.10
+		navy_capital_ship_attack_factor = 0.1
+
+		doctrine = yes	
+		research_cost = 1
+		
+		categories = {
+			naval_doctrine
+			fleet_in_being_tree
+			cat_fleet_in_being
+		}
+		
+		folder = {
+			name = naval_doctrine_folder
+			position = { x = 0 y = 9 }
+		}
+		
+	}
+	
+	convoy_sailing = {
+		#Convoy escort/ ASW branch
+		
+		# EFFECT #############
+		destroyer = {
+			max_organisation = 30
+			sub_detection = 0.15
+		}
+		
+				light_cruiser = {
+			max_organisation = 15
+			sub_detection = 0.15
+		}
+		
+		convoy_escort_efficiency = 0.2
+		#####
+		
+		path = {
+			leads_to_tech = convoy_escorts
+			research_cost_coeff = 1
+		}
+		
+		doctrine = yes	
+		research_cost = 1
+		
+		categories = {
+			naval_doctrine
+			fleet_in_being_tree
+			convoy_defense_tree
+			cat_fleet_in_being
+		}
+		
+		folder = {
+			name = naval_doctrine_folder
+			position = { x = 0 y = 3 }
+		}
+		
+	}
+	
+	convoy_escorts = {
+		#Assigning dedicated convoy escorts to keep them safe
+		
+		# EFFECT #############
+		destroyer = {
+			max_organisation = 30
+			sub_detection = 0.15
+		}
+		convoy_escort_efficiency = 0.25
+		#####
+		
+		light_cruiser = {
+			max_organisation = 15
+			sub_detection = 0.2
+		}
+		
+		path = {
+			leads_to_tech = grand_battlefleet
+			research_cost_coeff = 1
+		}
+		
+		doctrine = yes	
+		research_cost = 1
+		
+		categories = {
+			naval_doctrine
+			fleet_in_being_tree
+			convoy_defense_tree
+			cat_fleet_in_being
+		}
+		
+		folder = {
+			name = naval_doctrine_folder
+			position = { x = 0 y = 6 }
+		}
+
+	}
+	
+	escort_carriers = {
+		#Small carriers/converted merchant ships sail with convoys for increased defense against subs and raiders
+
+		# EFFECT #############
+		carrier = {
+			sub_detection = 0.5
+		}
+		####
+		
+		path = {
+			leads_to_tech = grand_battlefleet
+			research_cost_coeff = 1
+		}
+		
+		doctrine = yes	
+		research_cost = 1
+		
+		categories = {
+			naval_doctrine
+			fleet_in_being_tree
+			convoy_defense_tree
+			cat_fleet_in_being
+		}
+		
+		folder = {
+			name = naval_doctrine_folder
+			position = { x = 2 y = 6 }
+		}
+	}
+	
+	trade_interdiction = {
+		doctrine_name = "TITLE_TRADE_INTERDICTION"
+		
+		# This tree is focused on sinking convoys, and boosting Subs and all types of Cruiser. It has some boosts for CVs and Battleships, but the CVs should be a bit worse and the BBs a lot worse than Fleet in being's.
+		
+		naval_enemy_fleet_size_ratio_penalty_factor = 0.1
+		
+		#######
+				
+		path = {
+			leads_to_tech = convoy_interdiction_ti 
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = raider_patrols
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = capital_ship_raiders
+			research_cost_coeff = 1
+		}
+			doctrine = yes	
+		research_cost = 1
+		
+		categories = {
+			naval_doctrine
+			trade_interdiction_tree
+			submarine_doctrine
+			cat_trade_interdiction
+		}
+		
+		folder = {
+			name = naval_doctrine_folder
+			position = { x = 0 y = 0 }
+		}
+	}
+	
+	convoy_interdiction_ti = {
+
+		# same as convoy interdiction
+		# EFFECT ##############
+		submarine = {
+			max_organisation = 15
+			convoy_raiding_coordination = 0.15
+		}
+		naval_torpedo_reveal_chance_factor = -0.20
+		#######
+		
+		path = {
+			leads_to_tech = unrestricted_submarine_warfare
+			research_cost_coeff = 1
+		}
+
+		doctrine = yes	
+		research_cost = 1
+		
+		categories = {
+			naval_doctrine
+			trade_interdiction_tree
+			submarine_doctrine
+			cat_trade_interdiction
+		}
+		
+		folder = {
+			name = naval_doctrine_folder
+			position = { x = 2 y = 3 }
+		}
+		}
+	
+	unrestricted_submarine_warfare = {
+		#Nice bonus for subs vs convoys
+		
+		# EFFECT ##############
+		submarine = {
+			max_organisation = 15
+			convoy_raiding_coordination = 0.15
+		}
+		navy_submarine_attack_factor = 0.1
+		#######
+		
+		path = {
+			leads_to_tech = wolfpacks
+			research_cost_coeff = 1
+		}
+		doctrine = yes	
+		research_cost = 1
+		
+		categories = {
+			naval_doctrine
+			trade_interdiction_tree
+			submarine_doctrine
+			cat_trade_interdiction
+		}
+		
+		folder = {
+			name = naval_doctrine_folder
+			position = { x = 2 y = 6 }
+		}
+	}
+	
+	wolfpacks = {
+		# More sub bonuses - subs operate in groups to sink convoys
+		
+		# EFFECT ##############
+		submarine = {
+			max_organisation = 20
+			convoy_raiding_coordination = 0.2
+			surface_detection = 0.05
+			max_strength = 0.2			
+		}
+
+		#######
+		doctrine = yes	
+		research_cost = 1
+		
+		categories = {
+			naval_doctrine
+			trade_interdiction_tree
+			submarine_doctrine
+			cat_trade_interdiction
+		}
+		
+		folder = {
+			name = naval_doctrine_folder
+			position = { x = 2 y = 9 }
+		}
+
+	}
+	
+	combined_operations_raiding = {
+		# EFFECT ##############
+
+
+		submarine = {
+			surface_detection = 0.5	
+		}
+
+		light_cruiser = {
+			surface_detection = 0.4		
+		}
+
+		heavy_cruiser = {
+			surface_detection = 0.3
+		}	
+
+		battle_cruiser = {
+			surface_detection = 0.3
+		}
+		
+		battleship = {
+			surface_detection = 0.25
+		}
+			
+		destroyer = {
+			surface_detection = 0.25
+		}	
+		
+		doctrine = yes	
+		research_cost = 1
+		
+		categories = {
+			naval_doctrine
+			trade_interdiction_tree
+			submarine_doctrine
+			cat_trade_interdiction
+		}
+
+		folder = {
+			name = naval_doctrine_folder
+			position = { x = -1 y = 6 }
+		}
+	}
+	
+	raider_patrols = {
+		#Surface raiding Branch + some boosts for Battleships
+		
+		# EFFECT ##############		
+		light_cruiser = {
+			surface_visibility = -0.10
+			convoy_raiding_coordination = 0.5
+		}
+
+		heavy_cruiser = {
+			surface_visibility = -0.10
+			convoy_raiding_coordination = 0.5
+		}
+		#######
+
+		
+		path = {
+			leads_to_tech = combined_operations_raiding
+			research_cost_coeff = 1
+		}
+		doctrine = yes	
+		research_cost = 1
+		
+		categories = {
+			naval_doctrine
+			trade_interdiction_tree
+			cat_trade_interdiction
+		}
+		
+		folder = {
+			name = naval_doctrine_folder
+			position = { x = 0 y = 3 }
+		}
+		
+	}
+	
+	capital_ship_raiders = {
+		#Battleships/Battlecrusiers are used as raiders rather than in the line of battle in a fleet
+
+		# EFFECT ##############		
+		battle_cruiser = {
+			surface_visibility = -0.20
+			convoy_raiding_coordination = 0.5
+		}
+
+		battleship = {
+			surface_visibility = -0.25
+			convoy_raiding_coordination = 0.5
+		}
+
+		#######
+		
+		path = {
+			leads_to_tech = combined_operations_raiding
+			research_cost_coeff = 1
+		}
+
+		doctrine = yes	
+		research_cost = 1
+		
+		categories = {
+			naval_doctrine
+			trade_interdiction_tree
+			cat_trade_interdiction
+		}
+		
+		folder = {
+			name = naval_doctrine_folder
+			position = { x = -2 y = 3 }
+		}
+	}
+	
+	base_strike = {
+		doctrine_name = "TITLE_BASE_STRIKE"
+		#This tree is primarily focused on Carriers. It should have the best Carriers, Battleships that are better than Trade interdiction but worse than Fleet in being, and has the same Sub tree as FiB. Convoy defense is better than TI but worse than FiB
+				
+		# EFFECT ##############
+
+		port_strike = 0.5
+		#####
+				
+		path = {
+			leads_to_tech = carrier_primacy 
+			research_cost_coeff = 1
+		}
+			path = {
+			leads_to_tech = carrier_battlegroups 
+			research_cost_coeff = 1
+		}	
+			path = {
+			leads_to_tech = carrier_task_forces 
+			research_cost_coeff = 1
+		}	
+				
+
+		doctrine = yes	
+		research_cost = 1
+		
+		categories = {
+			naval_doctrine
+			cat_base_strike
+		}
+		
+		folder = {
+			name = naval_doctrine_folder
+			position = { x = 0 y = 0 }
+		}
+	}
+	
+		carrier_battlegroups = {
+				sortie_efficiency = 0.1
+
+		carrier = {
+			max_organisation = 40
+		}
+				modifier = {
+			naval_strike_targetting_factor = 0.1
+		}
+		doctrine = yes	
+		research_cost = 1
+		
+		path = {
+			leads_to_tech = floating_airfield_bs
+			research_cost_coeff = 1
+		}
+		categories = {
+			naval_doctrine
+			base_strike_main
+			cat_base_strike
+		}
+
+		folder = {
+			name = naval_doctrine_folder
+			position = { x = -2 y = 3 }
+		}
+	}
+	
+	
+	carrier_primacy = {
+		#The idea that the carrier is the primary naval weapon and that other ships, even the BB, exist to support them
+		# EFFECT ##############
+		carrier = {
+			max_organisation = 40
+		}
+				sortie_efficiency = 0.1
+		modifier = {
+			naval_strike_targetting_factor = 0.1
+		}
+		#############
+
+		
+		path = {
+			leads_to_tech = floating_airfield_bs
+			research_cost_coeff = 1
+		}
+		doctrine = yes	
+		research_cost = 1
+		
+		categories = {
+			naval_doctrine
+			base_strike_main
+			cat_base_strike
+		}
+		
+		folder = {
+			name = naval_doctrine_folder
+			position = { x = 2 y = 3 }
+		}
+		
+	}
+	
+	carrier_task_forces = {
+		#Task forces are based around carrier flagship 
+		# EFFECT ##############
+		carrier = {
+			max_organisation = 40
+		}
+		modifier = {
+			naval_strike_targetting_factor = 0.1
+		}
+				sortie_efficiency = 0.1
+
+		##########
+
+		path = {
+			leads_to_tech = floating_airfield_bs
+			research_cost_coeff = 1
+		}
+		
+		doctrine = yes	
+		research_cost = 1
+		
+		categories = {
+			naval_doctrine
+			base_strike_main
+			cat_base_strike
+		}
+		
+		folder = {
+			name = naval_doctrine_folder
+			position = { x = 0 y = 3 }
+		}
+	}
+	
+	floating_airfield_bs = {
+
+		#same as floating_airfield
+		# EFFECT #############
+
+		########
+		navy_carrier_air_agility_factor = 0.10
+		sortie_efficiency = 0.2
+
+		path = {
+			leads_to_tech = massed_strikes
+			research_cost_coeff = 1
+		}
+		
+		doctrine = yes	
+		research_cost = 1
+		
+		categories = {
+			naval_doctrine
+			base_strike_main
+			cat_base_strike
+		}
+		
+		folder = {
+			name = naval_doctrine_folder
+			position = { x = 0 y = 6 }
+		}
+	}
+	
+	massed_strikes = {
+		#CAGs are larger and more effort is made to have all planes arrive at the target at the same time, even when launched from multiple CVs
+		# EFFECT #############
+
+			carrier = {
+				carrier_size = 0.2 
+			}
+			
+
+		########
+		
+		doctrine = yes	
+		research_cost = 1
+		
+		categories = {
+			naval_doctrine
+			base_strike_main
+			cat_base_strike
+		}
+
+		
+		folder = {
+			name = naval_doctrine_folder
+			position = { x = 0 y = 9 }
+		}
+	}
+}

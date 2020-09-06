@@ -1,0 +1,27 @@
+
+state={
+	id=500
+	name="Rio Naval Base"
+	manpower = 6665500
+	
+	state_category = wasteland
+	
+	history={
+		owner = USA
+		add_core_of = SWE
+		buildings = {
+			infrastructure = 6
+			air_base = 8
+			10980 = {
+				naval_base = 10
+			}
+		}
+		victory_points = {
+			10980 10
+		}
+	}
+
+	provinces={
+		5172 10980 
+	}
+}

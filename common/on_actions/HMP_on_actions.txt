@@ -1,0 +1,597 @@
+on_actions = {
+	on_new_term_election = {
+		random_events = {
+			100 = usa.7
+			100 = usa.9
+			100 = usa.10
+		}
+		random_events = { 100 = mexico.18 }
+		random_events = {
+		100 = election.14
+		100 = election.15
+		}
+	}
+	on_startup = {
+		effect = {
+	if = {
+		limit = {has_game_rule = {rule = horst_host_country option = DIS}}
+		set_variable={host = DIS.id}
+	}
+else_if = {
+		limit = {has_game_rule = {rule = horst_host_country option = GER}}
+		set_variable={host = GER.id}
+	}
+else_if = {
+		limit = {has_game_rule = {rule = horst_host_country option = ITA}}
+		set_variable={host = ITA.id}
+	}
+else_if = {
+		limit = {has_game_rule = {rule = horst_host_country option = ROM}}
+		set_variable={host = ROM.id}
+	}
+
+else_if = {
+		limit = {has_game_rule = {rule = horst_host_country option = HUN}}
+		set_variable={host = HUN.id}
+	}
+else_if = {
+		limit = {has_game_rule = {rule = horst_host_country option = FIN}}
+		set_variable={host = FIN.id}
+	}
+else_if = {
+		limit = {has_game_rule = {rule = horst_host_country option = USA}}
+		set_variable={host = USA.id}
+	}
+else_if = {
+		limit = {has_game_rule = {rule = horst_host_country option = CAN}}
+		set_variable={host = CAN.id}
+	}
+else_if = {
+		limit = {has_game_rule = {rule = horst_host_country option = SAF}}
+		set_variable={host = SAF.id}
+	}
+
+else_if = {
+		limit = {has_game_rule = {rule = horst_host_country option = RAJ}}
+		set_variable={host = RAJ.id}
+	}
+else_if = {
+		limit = {has_game_rule = {rule = horst_host_country option = AST}}
+		set_variable={host = AST.id}
+	}
+else_if = {
+		limit = {has_game_rule = {rule = horst_host_country option = NZL}}
+		set_variable={host = NZL.id}
+	}
+else_if = {
+		limit = {has_game_rule = {rule = horst_host_country option = JAP}}
+		set_variable={host = JAP.id}
+	}
+else_if = {
+		limit = {has_game_rule = {rule = horst_host_country option = MAN}}
+		set_variable={host = MAN.id}
+	}
+else_if = {
+		limit = {has_game_rule = {rule = horst_host_country option = SOV}}
+		set_variable={host = SOV.id}
+	}
+else_if = {
+		limit = {has_game_rule = {rule = horst_host_country option = FRA}}
+		set_variable={host = FRA.id}
+	}
+else_if = {
+		limit = {has_game_rule = {rule = horst_host_country option = MEX}}
+		set_variable={host = MEX.id}
+	}
+else_if = {
+		limit = {has_game_rule = {rule = horst_host_country option = SPR}}
+		set_variable={host = SPR.id}
+	}
+	else_if = {
+		limit = {has_game_rule = {rule = horst_host_country option = NOR}}
+		set_variable={host = NOR.id}
+	}
+	else_if = {
+		limit = {has_game_rule = {rule = horst_host_country option = ETH}}
+		set_variable={host = ETH.id}
+	}
+	else_if = {
+		limit = {has_game_rule = {rule = horst_host_country option = EFR}}
+		set_variable={host = EFR.id}
+	}	
+var:host = {
+			set_variable = { marked_states = 0 }
+			set_country_flag = host
+			}
+			SWE = { HMP_startup_on_actions = yes }
+		}
+	}
+
+	on_capitulation = {
+		effect = { 
+		HMP_capitulations_on_actions = yes	
+		}
+	}
+
+	on_uncapitulation = {
+		effect = {
+			if = {	limit = {	original_tag = FRA	}	drop_cosmetic_tag = yes	}
+		}
+	}
+	
+on_subject_autonomy_level_change = {
+		effect = {
+			if = {
+				limit = {	tag = RAJ	has_autonomy_state = autonomy_dominion	}
+				create_country_leader = {
+					name = "Archibald Wavell"
+					picture = "Portrait_Raj_Archibald_Wavell.dds"
+					expire = "1965.1.1"
+					ideology = centrism
+					traits = {	staunch_monarchist }
+				}
+			}
+		}
+	}	
+
+on_daily = {
+		effect = {
+			HFU_fuel_on_daily_scripted_effect = yes
+		}
+	}
+	
+on_state_control_changed = {
+		effect = {
+					if = {
+				limit = {
+					tag = FRA
+					has_completed_focus = FRA_national_uprising
+					FROM.FROM = {
+						is_core_of = ROOT
+						not = { has_state_flag = FRA_core_state_liberated }
+					}
+				}
+				FROM.FROM = {
+					set_state_flag = FRA_core_state_liberated
+					create_unit = {
+						division = "name = \"1re Demi-Brigade de Chasseurs\" division_template = \"FFI Demi-Brigade\" start_experience_factor = 0"  
+						owner = ROOT
+					}
+					create_unit = {
+						division = "name = \"2me Demi-Brigade de Chasseurs\" division_template = \"FFI Demi-Brigade\" start_experience_factor = 0"  
+						owner = ROOT
+					}
+					create_unit = {
+						division = "name = \"3me Demi-Brigade de Chasseurs\" division_template = \"FFI Demi-Brigade\" start_experience_factor = 0"  
+						owner = ROOT
+					}
+				}
+			}
+				if = {
+					limit = {
+						FROM = { tag = SOV }
+						FROM.FROM = { is_core_of = SOV }
+						SOV = { surrender_progress	> 0.35 }					
+						NOT = { SOV = { has_country_flag = order270_set }}
+					}
+					SOV = { set_country_flag = order270_set add_ideas = SOV_270 }
+				}
+				if = {
+					limit = {
+						FROM = { tag = FRA }
+						FROM.FROM = { is_core_of = FRA }
+						FRA = { surrender_progress	> 0.6 }					
+						NOT = { FRA = { has_country_flag = france_is_kill }}
+					}
+					FRA = { set_country_flag = france_is_kill  }
+					FRA = { add_state_core = 539 set_capital = 539 }
+					tp_divs_out_of_france = yes 
+					FRA = { country_event = { id = france.10 }}
+					GER = {  country_event = { id = france.14 }}
+					FRA = { news_event = { id = news.34 days = 0 } }
+					if = { limit = { country_exists = JAP } JAP = { transfer_state = 671 transfer_state = 670 transfer_state = 286 transfer_state = 728 transfer_state = 741 } }
+
+					}				
+				if = {
+					limit = {
+						FROM = { tag = SOV }
+						FROM.FROM = { is_core_of = SOV }
+						SOV = { surrender_progress	> 0.45 }
+						NOT = { SOV = { has_country_flag = order227_set }}
+					}
+					SOV = { set_country_flag = order227_set add_ideas = SOV_227 }
+				}				
+			if = {
+				limit = { 
+				ENG = { NOT = { has_country_flag = ENG_swe_resources }}
+				OR = { 	normally_played_allies = yes tag = SOV }
+				FROM.FROM = { state = 110 } 
+				}
+               GER = { remove_resource_rights = 666 }	
+			   ENG = { set_country_flag = ENG_swe_resources }
+			   SWE = { give_resource_rights = { receiver = ENG state = 666 } }  
+				}						
+					if = {
+				limit = {   HMP_italy_dying = yes}
+				GER = { country_event = { id = italy.600 } }
+				if = { limit = { country_exists = ETH }  GER = { annex_country = { target = ETH transfer_troops = yes } } 
+				if = { limit = { ETH = { has_country_flag = host } } GER = { set_country_flag = host }  ETH = { clr_country_flag = host }  }
+				}
+				ITA = { every_unit_leader = { set_nationality = GER }  }
+				GER = { change_tag_from = ITA } 
+				GER = { annex_country = { target = ITA transfer_troops = yes } }
+			}
+			if = {
+				limit = {  HMP_italy_sort_of_dying = yes	}
+				ITA = { set_cosmetic_tag = RSI add_country_leader_trait = lombardy remove_ideas = victor_emmanuel add_popularity = {   ideology = fascism popularity = 1} }
+			}
+			if = {
+				limit = {
+					OR = {
+						TAG = ENG
+						TAG = USA
+						TAG = AST
+						TAG = FRA
+						TAG = CAN
+						TAG = NZL
+						TAG = SAF
+					}
+					FROM = { original_tag = GER }
+					FROM.FROM = { state = 16 }
+				}
+				news_event = news.134
+			}
+			if = {
+				limit = {
+					OR = {
+						TAG = ENG
+						TAG = USA
+						TAG = AST
+						TAG = FRA
+						TAG = CAN
+						TAG = NZL
+						TAG = SAF
+					}
+					FROM = { original_tag = ITA }
+					OR = { 
+					FROM.FROM = { state = 661 }
+					FROM.FROM = { state = 448 }
+					FROM.FROM = { state = 665 }
+					FROM.FROM = { state = 458 }
+					}
+					513 = { is_demilitarized_zone = yes }
+				}
+				EFR = { country_event = { id = vichy.1 }}
+			}
+				if = {
+				limit = {
+					ROOT = {
+					OR = { 
+							tag = FRA
+							tag = ENG
+							tag = USA
+							tag = AST
+							tag = MEX
+							tag = CAN
+							tag = NZL
+							tag = NOR
+							}
+							}
+					FROM.FROM = {
+					OR = {
+						state = 539
+						state = 773
+						state = 272
+						state = 543
+						state = 554
+						state = 460
+						}
+					}
+				}	
+			EFR = { add_to_variable={vichy_legitimacy_mechanic_stability_factor=-0.15} }
+			}
+				if = {
+				limit = {
+					ROOT = { tag = EFR }
+					FROM.FROM = {
+						OR = {
+						state = 539
+						state = 773
+						state = 272
+						state = 543
+						state = 554
+						state = 460
+						}
+					}
+				}	
+			EFR = { add_to_variable={vichy_legitimacy_mechanic_stability_factor = 0.15} }
+			}
+
+				if = {
+				limit = {	
+				ROOT = { tag = SOV	}	
+					FROM.FROM = {
+						OR = {
+						state = 148
+						state = 213
+						state = 215
+						state = 216
+						state = 146
+						state = 195
+						}
+					}
+				}					
+			FIN = { 	
+				add_to_variable = { FIN_weekly_manpower_factor = -250 }
+				add_to_variable = { FIN_consumer_goods_factor = 0.01 }
+				}		
+				}
+				if = {
+				limit = {
+					ROOT = { tag = FIN }	
+					FROM.FROM = {
+						OR = {
+						state = 148
+						state = 213
+						state = 215
+						state = 216
+						state = 146
+						state = 147
+						state = 195
+						}
+					}
+				}	
+			FIN = { 	
+				add_to_variable = { FIN_weekly_manpower_factor = 250 }
+				add_to_variable = { FIN_consumer_goods_factor = -0.02 }
+				}
+				}
+		}
+	}
+
+		on_operative_on_mission_spotted = {
+		effect = {
+            set_temp_variable = {
+                var = capture_chance
+                value = 90
+            }
+            set_temp_variable = {
+                var = kill_chance
+                value = 10
+            }			
+            random_list = {
+				temp_var:capture_chance = {
+					random_list = {
+						90 = { #regular
+							force_operative_leader_into_hiding = 120
+							operative_leader_event = {
+								id = lar_operative_event.1
+								set_from_from = ROOT
+							}
+							operative_leader_event = {
+								id = lar_operative_event.6
+								originator = FROM
+								recipient = ROOT
+								set_from = FROM
+							}
+
+							if = {
+								limit = { ROOT = { has_done_agency_upgrade = upgrade_interrogation_techniques }}
+								ROOT = {
+									add_intel = {
+										target = PREV.FROM
+										army_intel = 25
+										civilian_intel = 25
+										navy_intel = 25
+										airforce_intel = 25
+									}
+								}
+								} else = {
+								ROOT = {
+									add_intel = {
+										target = PREV.FROM
+										army_intel = 20
+										civilian_intel = 20
+										navy_intel = 20
+										airforce_intel = 20
+									}
+								}
+							}
+						}
+						10 = { #operative turned
+							modifier = {
+								has_trait = operative_tough
+								factor = 0 #tough operatives never get turned
+							}
+							modifier = {
+								has_trait = operative_double_agent
+								factor = 0 #no tripple agents please
+							}
+							turn_operative = { turned_by = ROOT }
+							# ensure the operative has the nationality of the country he is coming from
+							add_nationality = FROM
+							operative_leader_event = {
+								id = lar_operative_event.5
+								set_from_from = FROM #tells the event which nationality to add
+							}
+						}
+					}
+				}
+                temp_var:kill_chance = {
+                    kill_operative = {
+                        killed_by = ROOT
+                    }
+                }
+
+            }
+
+        }
+        
+    }
+
+	on_operative_captured = {
+		effect = {
+			# SCOPE  the operative
+			# ROOT   the country the operative was performing its mission in
+			# FROM   the country the operative is operating for
+			if = {
+				limit = {
+					NOT = { has_unit_leader_flag = le_clerc1 }
+				}
+				set_unit_leader_flag = le_clerc1
+			}
+			else_if = {
+				limit = {
+					has_unit_leader_flag = le_clerc1
+				}
+				set_unit_leader_flag = le_clerc2
+			}
+			random_list = {
+				90 = { #regular
+					operative_leader_event = {
+						id = lar_operative_event.1
+						set_from_from = ROOT
+					}			
+					operative_leader_event = {
+						id = lar_operative_event.6
+						originator = FROM
+						recipient = ROOT
+						set_from = FROM
+					}
+				}
+				10 = { #operative turned
+					modifier = {
+						has_trait = operative_tough
+						factor = 0 #tough operatives never get turned
+					}
+					modifier = {
+						has_trait = operative_double_agent
+						factor = 0 #no tripple agents please
+					}
+					turn_operative = { turned_by = ROOT }
+					# ensure the operative has the nationality of the country he is coming from
+					add_nationality = FROM
+					operative_leader_event = {
+            	    	id = lar_operative_event.5
+						set_from_from = FROM #tells the event which nationality to add
+            		}
+            	}
+           }
+		}
+	}
+
+	on_operative_death = {
+		effect = {
+			# SCOPE  the operative
+			# ROOT   the killer country (optional)
+			# FROM   the country the operative is operating for
+			if = {
+				limit = {	country_exists = ROOT	}
+				operative_leader_event = {
+					id = lar_operative_event.3
+					set_from_from = ROOT
+				}
+				operative_leader_event = {
+					id = lar_operative_event.7
+					originator = FROM
+					recipient = ROOT
+					set_from = FROM
+				}
+			}
+			else = {	}	
+			if = {
+				limit = {
+					FROM = {
+						NOT = { is_ai = yes }
+						has_done_agency_upgrade = upgrade_suicide_pills
+					}
+				}
+				set_global_flag = kill_me_alive_flag
+			}
+		}
+	}
+	
+	on_operative_detected_during_operation = {
+		effect = {
+			random_list = {
+				40 = {
+					force_operative_leader_into_hiding = 45
+					operative_leader_event = {
+						id = lar_operative_event.2
+						set_from_from = FROM
+					}
+				}
+				35 = {
+					capture_operative = {
+						captured_by = FROM
+					}
+				}
+				25 = {
+					harm_operative_leader = 90
+					operative_leader_event = {
+						id = lar_operative_event.4
+						set_from_from = FROM
+					}
+				}
+			}
+		}
+	}
+
+	on_operation_completed = {
+		effect = {			
+			if = {
+				limit = {
+					ROOT = { has_country_flag = just_freed_operative_flag }
+				}
+				every_operative = {
+					if = {
+						limit = {
+							NOT = { has_trait = operative_escape_artist }
+						}
+						random_list = {
+							15 = { add_unit_leader_trait = operative_escape_artist }
+							85 = {}
+						}
+					}
+				}
+				ROOT = { clr_country_flag = just_freed_operative_flag }
+			}
+			every_operative = { #add target nationality if linguist
+				if = {
+					limit = {
+						has_trait = operative_linguist
+						NOT = { operative_leader_mission = no_mission }
+						NOT = { has_nationality = FROM }
+					}
+					random_list = {
+						20 = { add_nationality = FROM }
+						80 = {}
+					}
+				}
+			}
+		}
+	}
+
+	on_paradrop = {
+	    effect = {
+			if = { 
+			limit = { OR = { is_owned_by = SPR state = 118 } }
+			ROOT = { PREV = {  teleport_armies = { to_state = FROM } } } 
+			}
+		}
+	}	
+	
+	on_monthly_GER = {
+		effect = { 
+		if = { limit = {  GER = { has_completed_focus = GER_jag }  }
+			GER = { add_to_variable = { germany_war_exhaustion_war_support_factor = -0.017  } add_to_variable = { germany_war_exhaustion_stability_factor = -0.008	} }
+			}
+				if = { limit = {  GER = { has_completed_focus = GER_the_great_turn }  }
+			GER = { add_to_variable = { germany_war_exhaustion_war_support_factor = -0.08  } add_to_variable = { germany_war_exhaustion_stability_factor = -0.004	} }
+
+				}				
+		 country_event = { id = horsthelp.66 days = 0 }
+		}
+	}
+
+	}

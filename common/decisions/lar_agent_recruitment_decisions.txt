@@ -1,0 +1,214 @@
+lar_local_recruitment = {
+	#unlocks decisions to recruit in Europe
+	recruit_in_europe = {
+		#icon = generic_research
+		allowed = { normally_played_country = yes } 
+		visible = {
+			capital_scope = { NOT = { is_on_continent = europe } }
+			capital_scope = { NOT = { is_on_continent = africa } }
+			NOT = { has_country_flag = europe_recruitment_unlocked }
+		}
+		fire_only_once = yes
+		cost = 50
+		days_remove = 90
+		remove_effect = { set_country_flag = europe_recruitment_unlocked }
+	}
+
+	recruit_in_europe_state = {
+		icon = onmap_recruit_operative
+		allowed = { normally_played_country = yes } 
+		state_target = yes
+		target_trigger = {
+			FROM = {
+				OR = { 
+				is_on_continent = europe
+				is_on_continent = africa
+					}
+				OR = {
+					AND = {
+						has_variable = historical_capital_for_country
+						var:historical_capital_for_country = {
+							exists = yes
+							has_capitulated = yes
+							NOT = { tag = ROOT }
+						}
+					}
+					AND = {
+						is_capital = yes
+						CONTROLLER = {
+							NOT = {
+								tag = ROOT
+							}
+						}
+					}
+				}
+			}
+		}
+		visible = {
+		OR = { 
+			has_country_flag = europe_recruitment_unlocked 
+					capital_scope = {	is_on_continent = europe }
+				capital_scope = {	is_on_continent = africa		}	
+			}
+		NOT = { has_country_flag = europe_recruitment_in_process }
+		}
+
+		fire_only_once = no
+		cost = 0
+
+		days_re_enable = 180
+		on_map_mode = map_and_decisions_view 
+		complete_effect = {
+			set_country_flag = { flag = europe_recruitment_in_process days = 180 value = 1 }
+			if = {
+				limit = {
+					num_of_operatives < num_operative_slots
+				}
+				custom_effect_tooltip = recruit_in_state_tt
+			}
+			else = {
+				custom_effect_tooltip = recruit_in_state_to_pool_tt
+			}
+			hidden_effect = {
+				create_operative_leader = {
+					bypass_recruitment = yes
+					nationalities = { FROM.OWNER }
+					portrait_tag_override = FROM.OWNER
+				}
+			}
+		}
+	}
+#unlocks decisions to recruit in Europe
+	recruit_in_north_america = {
+		allowed = { normally_played_country = yes } 
+		visible = {
+			NOT = { tag = USA }
+			NOT = { tag = CAN }
+			NOT = { tag = MEX }
+			NOT = { has_country_flag = north_america_recruitment_unlocked }
+		}
+		fire_only_once = yes
+		cost = 50
+		days_remove = 90
+		remove_effect = { 	set_country_flag = north_america_recruitment_unlocked	}
+	}
+
+	recruit_in_north_america_state = {
+		icon = onmap_recruit_operative
+		name = recruit_in_europe_state
+		allowed = { normally_played_country = yes } 
+
+		state_target = yes
+		target_trigger = {
+		FROM = { 
+			is_on_continent = north_america
+		is_capital = yes
+		}
+		}
+		visible = {	
+		has_country_flag = north_america_recruitment_unlocked	
+		NOT = { has_country_flag = north_america_recruitment_in_process }
+		}
+
+		fire_only_once = no
+		cost = 0
+
+		days_re_enable = 180
+		on_map_mode = map_only
+		complete_effect = {
+			set_country_flag = { flag = north_america_recruitment_in_process days = 180 value = 1 }
+			if = {
+				limit = {	num_of_operatives < num_operative_slots }
+				custom_effect_tooltip = recruit_in_state_tt
+			}
+			else = {	custom_effect_tooltip = recruit_in_state_to_pool_tt	}
+			hidden_effect = {
+				create_operative_leader = {
+					bypass_recruitment = yes
+					nationalities = { FROM.OWNER }
+					portrait_tag_override = FROM.OWNER
+				}
+			}
+		}
+	}
+
+
+	#unlocks decisions to recruit in asia
+	recruit_in_asia = {
+		#icon = generic_research
+		allowed = { normally_played_country = yes } 
+		visible = {
+			capital_scope = { NOT = { is_on_continent = asia } }
+			capital_scope = { NOT = { is_on_continent = australia } }
+			NOT = { has_country_flag = asia_recruitment_unlocked }
+		}
+		fire_only_once = yes
+		cost = 50
+		days_remove = 90
+		remove_effect = {	set_country_flag = asia_recruitment_unlocked	}
+	}
+
+	recruit_in_asia_state = {
+		icon = onmap_recruit_operative
+		name = recruit_in_europe_state
+		allowed = { normally_played_country = yes } 
+		state_target = yes
+		target_trigger = {
+			FROM = {
+				OR = { 
+				is_on_continent = australia 
+				is_on_continent = asia
+					}
+				OR = {
+					AND = {
+						has_variable = historical_capital_for_country
+						var:historical_capital_for_country = {
+							exists = yes
+							has_capitulated = yes
+							NOT = { tag = ROOT }
+						}
+					}
+					AND = {
+						is_capital = yes
+						CONTROLLER = {
+							NOT = {
+								tag = ROOT
+							}
+						}
+					}
+				}
+			}
+		}
+
+		visible = {
+			OR = {
+				has_country_flag = asia_recruitment_unlocked
+				capital_scope = { is_on_continent = asia }
+				capital_scope = { is_on_continent = australia }
+				}
+			NOT = { has_country_flag = asia_recruitment_in_process }
+		}
+
+		fire_only_once = no
+		cost = 0
+
+		days_re_enable = 180
+		on_map_mode = map_only
+		complete_effect = {
+			set_country_flag = { flag = asia_recruitment_in_process days = 180 value = 1 }
+			if = {
+				limit = {	num_of_operatives < num_operative_slots	}
+				custom_effect_tooltip = recruit_in_state_tt
+			}
+			else = {	custom_effect_tooltip = recruit_in_state_to_pool_tt	}
+			hidden_effect = {
+				create_operative_leader = {
+					bypass_recruitment = yes
+					nationalities = { FROM.OWNER }
+					portrait_tag_override = FROM.OWNER
+				}
+			}
+		}
+	}
+
+}

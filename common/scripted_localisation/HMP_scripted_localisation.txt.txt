@@ -1,0 +1,304 @@
+defined_text = { # Country
+	name = GetSovSupplyRoute
+	text = {
+		trigger = {
+		suppy_route_secure = yes 
+		}
+		localization_key = GetSovSupplyRouteSecure
+	}
+	text = {
+		trigger = {	
+		 NOT = { suppy_route_secure = yes }
+		}
+		localization_key = GetSovSupplyRouteInsecure
+	}
+}
+
+defined_text = { # Country
+	name = GetResearchYear
+	text = {
+		trigger = {
+		suppy_route_secure = yes 
+		}
+		localization_key = GetSovSupplyRouteSecure
+	}
+	text = {
+		trigger = {	
+		 NOT = { suppy_route_secure = yes }
+		}
+		localization_key = GetSovSupplyRouteInsecure
+	}
+}
+
+
+###TOP BAR RESOURCES###
+
+defined_text = { # global
+	name = steel_text
+	text = {
+		trigger = {
+		check_variable = {resource_imported@steel>0}
+		check_variable = {resource@steel>resource_imported@steel}
+		}
+		localization_key = "[?resource@steel|0Y]"
+	}
+	text = {
+		trigger = {
+			always=yes
+		}
+		localization_key = "[?resource@steel|0+]"
+	}
+	
+	
+}
+defined_text = { # global
+	name = rubber_text
+	text = {
+		trigger = {
+		check_variable = {resource_imported@rubber>0}
+		check_variable = {resource@rubber>resource_imported@rubber}
+		}
+		localization_key = "[?resource@rubber|0Y]"
+	}
+	text = {
+		trigger = {
+			always=yes
+		}
+		localization_key = "[?resource@rubber|0+]"
+	}
+	
+	
+}
+defined_text = { # global
+	name = aluminium_text
+	text = {
+		trigger = {
+		check_variable = {resource_imported@aluminium>0}
+		check_variable = {resource@aluminium>resource_imported@aluminium}
+		}
+		localization_key = "[?resource@aluminium|0Y]"
+	}
+	text = {
+		trigger = {
+			always=yes
+		}
+		localization_key = "[?resource@aluminium|0+]"
+	}
+	
+	
+}
+defined_text = { # global
+	name = tungsten_text
+	text = {
+		trigger = {
+		check_variable = {resource_imported@tungsten>0}
+		check_variable = {resource@tungsten>resource_imported@tungsten}
+		}
+		localization_key = "[?resource@tungsten|0Y]"
+	}
+	text = {
+		trigger = {
+			always=yes
+		}
+		localization_key = "[?resource@tungsten|0+]"
+	}
+	
+	
+}
+defined_text = { # global
+	name = chromium_text
+	text = {
+		trigger = {
+		check_variable = {resource_imported@chromium>0}
+		check_variable = {resource@chromium>resource_imported@chromium}
+		}
+		localization_key = "[?resource@chromium|0Y]"
+	}
+	text = {
+		trigger = {
+			always=yes
+		}
+		localization_key = "[?resource@chromium|0+]"
+	}
+}
+
+#####VANILLA STUFF####
+
+defined_text = { # Country
+	name = GetKdfWagenName
+	text = {
+		localization_key = GER_KDF_WAGEN_NAME
+	}
+}
+
+defined_text = { # Country
+	name = GetHermannGoringWerkeName
+	text = {
+		trigger = {
+			original_tag = GER
+			has_government = fascism
+		}
+		localization_key = GER_HERMANN_GORING_WERKE_NAME_FASCIST
+	}
+	text = {
+		localization_key = GER_HERMANN_GORING_WERKE_NAME
+	}
+}
+
+defined_text = { # for shared tree
+	name = GetVietnamOwner
+	text = {
+		trigger = {
+			671 = {
+				is_controlled_by = JAP
+			}
+		}
+		localization_key = CHI_vietnam_JAP
+	}
+	text = {
+		localization_key = CHI_vietnam_FRA
+	}
+}
+
+defined_text = {
+	name = GetSenateElectionOutcome
+	text = {
+		trigger = {
+			check_variable = { senators_for_reelection < 0 }
+		}
+		localization_key = SenateElectionLost
+	}
+	text = {
+		trigger = {
+			check_variable = { var = senators_for_reelection value = 0 compare = greater_than_or_equals }
+		}
+		localization_key = SenateElectionGained
+	}
+}
+defined_text = {
+	name = GetHouseElectionOutcome
+	text = {
+		trigger = {
+			check_variable = { representatives_for_reelection < 0 }
+		}
+		localization_key = HouseElectionLost
+	}
+	text = {
+		trigger = {
+			check_variable = { var = representatives_for_reelection value = 0 compare = greater_than_or_equals }
+		}
+		localization_key = HouseElectionGained
+	}
+}
+
+defined_text = {
+	name = GETUSASTATE
+	text = {
+		random_list = {
+			10 = { localization_key = STATE_382 }
+			10 = { localization_key = STATE_383 }
+			10 = { localization_key = STATE_384 }
+			10 = { localization_key = STATE_389 }
+			10 = { localization_key = STATE_390 }
+			10 = { localization_key = STATE_391 }
+			10 = { localization_key = STATE_386 }
+		}
+	}
+}
+
+
+
+
+
+####HORST TOOL####
+
+defined_text = { # state
+	name = mark_state_tooltip
+
+	text = {
+		trigger = {
+			has_state_flag = marked_for_transfer
+		}
+		localization_key = mark_state_no
+	}
+	text = {
+		localization_key = mark_state_yes
+	}
+}
+
+defined_text = { # global
+	name = transfer_states_tooltip
+
+	text = {
+		trigger = {
+			has_country_flag = transfer_enabled
+		}
+		localization_key = transfer_states_off
+	}
+	text = {
+		localization_key = transfer_states_on
+	}
+}
+
+defined_text = { # global
+	name = ST_TOOLTIP
+
+	text = {
+		trigger = {
+			has_country_flag = transfer_enabled
+		}
+		localization_key = ST_TOOLTIP_off
+	}
+	text = {
+		localization_key = ST_TOOLTIP_on
+	}
+}
+
+defined_text = { # global
+	name = mark_status
+
+	text = {
+		trigger = {
+			has_state_flag = marked_for_transfer
+		}
+		localization_key = mark_status_marked
+	}
+	text = {
+		localization_key = mark_status_unmarked
+	}
+}
+defined_text = { # global
+	name = cheat_selected
+	text = {
+		trigger = {
+			check_variable = {Root.selected_cheat=0}
+			NOT={Root={has_country_flag=cheating}}
+		}
+		localization_key = CHEAT_SELECT
+	}
+	text = {
+		trigger = {
+			OR={check_variable = {Root.selected_cheat=1}
+			Root={has_country_flag=cheating}}
+		}
+		localization_key = CHEAT1
+	}
+	text = {
+		trigger = {
+			check_variable = {Root.selected_cheat=2}
+		}
+		localization_key = CHEAT2
+	}
+	text = {
+		trigger = {
+			check_variable = {Root.selected_cheat=3}
+		}
+		localization_key = CHEAT3
+	}
+		text = {
+		trigger = {
+			check_variable = {Root.selected_cheat=4}
+		}
+		localization_key = CHEAT4
+	}
+}

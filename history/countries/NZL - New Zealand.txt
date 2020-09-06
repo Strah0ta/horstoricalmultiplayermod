@@ -1,0 +1,131 @@
+﻿capital = 284
+
+oob = "NZL_1936"
+
+# Starting tech
+set_stability = 0.8
+set_war_support = 0.3
+
+set_research_slots = 3
+set_rule = { can_be_spymaster = no }
+
+country_event = { id = tfv_new_zealand.7 days = 1518 }
+
+anti_cross_faction_trade_axis = yes
+set_variable = {
+    var = min_fuel
+    value = 0.800
+}
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	gwtank = 1
+	gw_artillery = 1
+	tech_support = 1		
+	tech_engineers = 1
+	tech_recon = 1
+	early_fighter = 1
+	naval_bomber1 = 1
+	trench_warfare = 1
+	fleet_in_being = 1
+		early_ship_hull_light = 1
+		early_ship_hull_cruiser = 1
+		basic_battery = 1
+		basic_torpedo = 1
+		basic_depth_charges = 1
+		mtg_transport = 1	
+}
+
+add_equipment_to_stockpile = { type = infantry_equipment_1 amount = 500 }
+
+create_intelligence_agency = yes
+
+
+if = {
+	limit = { has_dlc = "Together for Victory" }
+	add_ideas = SAF_the_commonwealth
+	add_to_tech_sharing_group = commonwealth_research
+}
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1935.11.27"
+	election_frequency = 36
+	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 100
+}
+create_country_leader = {
+	name = "Michael Joseph Savage"
+	desc = "POLITICS_MICHAEL_JOSEPH_SAVAGE_DESC"
+	picture = "GFX_NZL_michael_joseph_savage"
+	expire = "1965.1.1"
+	ideology = socialism
+	traits = {
+		#
+	}
+}
+
+set_convoys = 70
+
+create_corps_commander = {
+	name = "Bernard Freyberg"
+	gfx = "GFX_NZL_bernard_freyberg"
+	traits = {  }
+	skill = 4
+	attack_skill = 2
+	defense_skill = 4
+	planning_skill = 4
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Robert Row"
+	gfx = "GFX_NZL_robert_row"
+	traits = { naval_invader }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "William Stevens"
+	gfx = "GFX_NZL_william_stevens"
+	traits = {  }
+	skill = 4
+	attack_skill = 2
+	defense_skill = 4
+	planning_skill = 3
+	logistics_skill = 4
+}
+
+create_navy_leader = {
+	name = "Edmund Rupert Drummond"
+	gfx = "GFX_NZL_edmund_drummond"
+	traits = { spotter fleet_protector fly_swatter destroyer_leader cruiser_captain search_pattern_expert hunter_killer air_controller flight_deck_manager }
+	skill = 4
+	attack_skill = 3
+	defense_skill = 2
+	maneuvering_skill = 3
+	coordination_skill = 5
+}
+
+	create_equipment_variant = {
+		name = "Danae Class"
+		type = ship_hull_cruiser_1
+		name_group = NZL_CL_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_light_medium_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			mid_1_custom_slot = ship_torpedo_1
+			mid_2_custom_slot = ship_torpedo_1
+			rear_1_custom_slot = empty
+		}
+	}

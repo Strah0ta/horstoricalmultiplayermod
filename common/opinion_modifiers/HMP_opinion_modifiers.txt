@@ -1,0 +1,3 @@
+opinion_modifiers = {
+	anti_cross_faction_trade = { trade = yes value = -500 }
+	}

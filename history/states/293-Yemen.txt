@@ -1,0 +1,19 @@
+state={
+id=293
+name="Southern Dobrudja"
+manpower = 30000
+	history={
+		victory_points = {	11597 1	}
+		owner = ROM
+		buildings = {
+			infrastructure = 5
+		}
+		add_core_of = ROM
+		add_core_of = BUL
+	}
+	
+state_category = pastoral
+provinces={
+11597 9614
+}
+}

@@ -1,0 +1,117 @@
+USA_aid_britain = {
+	allowed = {	original_tag = USA	}
+	visible = {	date > 1939.6.1 }
+}
+
+USA_congress = {
+	icon = usa_congress
+	allowed = {	original_tag = USA	}
+	scripted_gui = usa_congress_decision_ui	
+	priority = 85
+}
+SOV_great_patriotic_war = {
+	icon = patriotic
+	allowed = {	original_tag = SOV	}
+	visible = {	has_war = yes	}
+}
+spy_agency = {
+	icon = generic_propaganda
+	visible = {	always = no }
+}
+HMP_templates = {
+icon = GFX_decision_category_military_operation
+visible = { NOT = { has_country_flag = hide_hmp_templates  }  }
+}
+HMP_ll_soviets_send = {
+	allowed = {	normally_played_allies = yes }
+	visible = { OR  = { original_tag = ENG NOT = { has_global_flag = hide_sov_ll }   }}
+}
+HMP_ll_soviets_receive = {
+	  allowed = {	original_tag = SOV	 }
+}
+
+MEX_category_military_issues = {
+	icon = border_conflicts
+	priority = 95
+	allowed = {	has_dlc = "Man the Guns"	}
+}
+
+MEX_category_church_power = {
+	icon = power_struggle
+	priority = 80
+	allowed = {	has_dlc = "Man the Guns"}
+}
+
+JAP_interservice_rivalry = {
+	allowed = {
+		original_tag = JAP
+		has_dlc = "Waking the Tiger"
+	}
+}
+
+GER_plane_auto_LL = { 
+	allowed = {	 original_tag = ITA  } 
+}
+propaganda_effortsx = {
+	icon = generic_propaganda
+}
+operations = {
+	icon = GFX_decision_category_military_operation
+}
+political_actions = {
+	icon = generic_political_actions
+	allowed = {	always = yes}
+}
+crisis = {
+	icon = generic_crisis
+	priority = 100
+	visible = {
+		OR = {
+			has_country_flag = crisis_in_progress
+			has_civil_war = yes
+		}
+	}
+}
+demobilization = {
+	icon = generic_crisis
+	priority = 100
+	visible = {	has_war = no	}
+}
+prospect_for_resources = {
+	icon = generic_prospect_for_resources
+	allowed = {	has_dlc = "Waking the Tiger"	}
+}
+lar_local_recruitment = {
+	allowed = { normally_played_country = yes  } 
+	visible = { has_done_agency_upgrade = upgrade_training_centers }
+	visibility_type = map_and_decisions_view
+	on_map_area = {
+		state = 8
+		name = LAR_recruitment_europe
+		zoom = 650	
+		target_root_trigger = {
+			OR = {
+				has_country_flag = europe_recruitment_unlocked
+				capital_scope = { OR = {  is_on_continent = europe  is_on_continent = africa } }
+			}
+		}
+	}
+	on_map_area = {
+		state = 373
+		name = LAR_recruitment_north_america
+		zoom = 850
+		target_root_trigger = {	has_country_flag = north_america_recruitment_unlocked }
+	}
+
+	on_map_area = {
+		state = 597
+		name = LAR_recruitment_asia
+		zoom = 850
+		target_root_trigger = {
+			OR = {
+				has_country_flag = asia_recruitment_unlocked
+				capital_scope = { OR = { is_on_continent = asia is_on_continent = australia  } }
+			}
+		}
+	}
+}

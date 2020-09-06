@@ -1,0 +1,36 @@
+﻿units = {
+
+	##### Naval OOB #####
+	fleet = {
+		name = "Royal Australian Navy"			
+		naval_base = 12406 # Sydney
+		task_force = {
+			name = "Australian Squadron"
+			location = 12406 # Sydney
+			ship = { name = "HMAS Canberra" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AST version_name = "Canberra Class" } }	}
+			ship = { name = "HMAS Australia" pride_of_the_fleet = yes definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AST version_name = "Canberra Class" } } }
+			ship = { name = "HMAS Sydney" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = AST version_name = "Sydney Class" } } }
+			ship = { name = "HMAS Adelaide" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AST version_name = "Town Class" } } }
+			ship = { name = "HMAS Vampire" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "V/W Class" } } }
+			ship = { name = "HMAS Vendetta" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "V/W Class" } } }
+			ship = { name = "HMAS Voyager" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "V/W Class" } } }
+			ship = { name = "HMAS Waterhen" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "V/W Class" } } }
+			ship = { name = "HMAS Stuart" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "V/W Class" } } }
+			ship = { name = "HMAS Oppai" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = AST version_name = "Emu Class"} } }
+			ship = { name = "HMAS São Paulo" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = AST version_name = "Emu Class"} } }
+			ship = { name = "HMAS Bahia" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AST version_name = "Town Class" } } }
+			ship = { name = "HMAS Rio Grande do Sul" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AST version_name ="Town Class" } } }
+			ship = { name = "HMAS Piaui" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "V/W Class"} } }
+			ship = { name = "HMAS Rio Grande do Norte" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "V/W Class"} } }
+			ship = { name = "HMAS Paraíba" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "V/W Class"} } }
+			ship = { name = "HMAS Alagoas" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "V/W Class"} } }
+			ship = { name = "HMAS Marnhão" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "V/W Class"} } }	
+			ship = { name = "HMAS Sergipe" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "V/W Class"} } }
+			ship = { name = "HMAS Santa Catharina" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "V/W Class"} } }
+			ship = { name = "HMAS Mato Grosso" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "V/W Class"} } }
+			ship = { name = "HMAS Humaytá" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "V/W Class"} } }			
+		}								
+	}
+}
+
+

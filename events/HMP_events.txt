@@ -1,0 +1,6513 @@
+﻿add_namespace = generic
+# Enemy attempting to destroy Suez
+country_event = {
+	id = generic.12
+	title = generic.12.t
+	desc = generic.12.d
+	
+	picture = GFX_report_event_merchant_ship_01
+
+	is_triggered_only = yes
+	
+	option = {
+		name = generic.12.a
+		custom_effect_tooltip = canals_tt
+	}	
+}
+
+add_namespace = vichy
+country_event = {
+	id = vichy.1
+	title = "The [ENG.GetFactionName] Storm Libya"
+	desc = vichy.1.desc
+	picture = GFX_saf_desert_tanks
+	is_triggered_only = yes
+
+	option = {
+		name = "We must deploy the army to Africa to defend against the Anglo menace!"
+			459 = { set_demilitarized_zone = no }
+			460 = { set_demilitarized_zone = no }
+			513 = { set_demilitarized_zone = no }
+	}
+}
+
+add_namespace = mtg_netherlands
+country_event = {
+	id = mtg_netherlands.331
+	title = mtg_netherlands.331.t
+	desc = mtg_netherlands.331.d
+	picture = GFX_report_event_hol_cabinet_de_geer
+
+	is_triggered_only = yes
+	
+	# Ok
+	option = {
+		if = {  limit = { original_tag = BEL }
+			set_state_controller = 538
+			set_state_controller = 295
+			set_state_controller = 718
+			set_state_controller = 769
+			set_state_controller = 768
+			}	
+		}
+	}
+	
+add_namespace = tfv_new_zealand
+country_event = {
+	id = tfv_new_zealand.7
+	title = tfv_new_zealand.7.t
+	desc = tfv_new_zealand.7.desc
+	picture = GFX_report_event_generic_funeral
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes 
+	
+	option = {
+			name = tfv_new_zealand.7.a
+			create_country_leader = {
+			name = "Peter Fraser"
+			desc = "POLITICS_PETER_FRASER_DESC"
+			picture = "Portrait_NewZealand_Peter_Fraser.dds"
+			expire = "1965.1.1"
+			ideology = socialism
+			traits = {
+				#
+			}
+		}
+	}
+}
+
+add_namespace = horsthelp
+country_event = {   
+	id = horsthelp.1
+	title = horsthelp.1.t
+	desc = horsthelp.1.d
+
+	picture = GFX_report_event_physics_lab_01 
+
+	is_triggered_only = yes
+    fire_only_once = no
+
+    option = {
+		name =  horsthelp.1.a	
+	}
+}
+country_event = {   
+	id = horsthelp.2
+	title = horsthelp.2.t
+	desc = horsthelp.2.d
+
+	picture = GFX_report_event_physics_lab_01 
+
+	is_triggered_only = yes
+    fire_only_once = no
+
+    option = {
+		name =  horsthelp.2.a	
+	}
+}
+country_event = {   
+	id = horsthelp.66
+	title = horsthelp.66.t
+	desc = horsthelp.66.d
+
+	picture = GFX_report_event_physics_lab_01 
+
+	is_triggered_only = yes
+hidden = yes
+    option = {
+		name =  horsthelp.2.a	
+		every_country = {
+			limit = {is_in_faction_with = GER}
+				if = { limit = { country_exists = JAP } JAP = { share_intel_with_allies=yes } }
+				if = { limit = { country_exists = MAN } MAN = { share_intel_with_allies=yes } }
+				if = { limit = { country_exists = EFR } EFR = { share_intel_with_allies=yes } }
+				 FIN = { share_intel_with_allies=yes } 
+				
+			}
+		every_country = {
+			limit = {is_in_faction_with = ENG}
+				SOV={	 share_intel_with_allies=yes	}
+		}
+	}
+}
+
+add_namespace = DOD_yugoslavia
+#Yugoslavia wants to buy planes - event for GER,FRA,ENG,ITA
+country_event = {
+	id = DOD_yugoslavia.20
+	title = DOD_yugoslavia.20.t
+	desc = DOD_yugoslavia.20.desc
+	picture = GFX_report_event_fighters
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	add_timed_idea = { idea = YUG_air_payment days = 182 } 
+	}
+	
+	option = { # send some fighters
+		name = DOD_yugoslavia.20.a
+		ai_chance = {
+			factor = 70
+		}	
+		trigger = { OR = { tag = GER tag = ENG tag = FRA tag = ITA}	}
+		
+	}		
+}
+
+add_namespace = mtg_exile_government
+# Government in Exile requests permission from host to return home via decision
+country_event = {
+	id = mtg_exile_government.2
+	title = mtg_exile_government.2.title
+	desc = mtg_exile_government.2.desc
+	
+	picture = GFX_report_event_canadian_soldiers
+	
+	is_triggered_only = yes
+
+	option = {
+		name = mtg_exile_government.2.a
+
+		end_exile = FROM
+	}
+
+	option = {
+		name = mtg_exile_government.2.b
+	}
+}
+
+add_namespace = tfv_south_africa
+country_event = {
+	id = tfv_south_africa.133
+	title = tfv_south_africa.133.t
+	desc = tfv_south_africa.133.d		#
+	picture = GFX_report_event_saf_soldiers					#
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = tfv_south_africa.133.a	
+	
+	retire_country_leader = yes
+		create_country_leader = {
+		name = "Jan Smuts"
+		desc = "POLITICS_JAN_SMUTS_DESC"
+		picture = "Portrait_SouthAfrica_Jan_Smuts.dds"
+		expire = "1965.1.1"
+		ideology = conservatism
+		traits = {
+		}
+	}
+
+	}
+}
+
+add_namespace = poland
+
+country_event = {
+	id = poland.100
+	title = poland.10.t
+	desc = poland.10.d
+	picture = GFX_report_event_polish_tanks_01
+	
+	is_triggered_only = yes
+
+	option = {
+		name = poland.100.a
+		ENG = { add_to_faction = NOR }
+	}
+}
+
+country_event = {
+	id = poland.111
+	title = poland.10.t
+	desc = poland.10.d
+	picture = GFX_report_event_polish_tanks_01
+	
+	is_triggered_only = yes
+
+	option = {
+		name = poland.100.a
+		GER = { add_ideas = GER_mefo_bills_2 }
+	}
+}
+
+country_event = {
+	id = poland.113
+	title = poland.10.t
+	desc = poland.10.d
+	picture = GFX_report_event_polish_tanks_01
+	
+	is_triggered_only = yes
+
+	immediate = {
+	
+
+	}
+	
+	option = {
+		name = poland.100.a
+		ai_chance = {
+			base = 10
+		}
+		POL = { load_oob  = "POL_spawn" }
+		DEN = { load_oob  = "DEN_spawn"  }
+		BEL = { load_oob  = "BEL_spawn" }
+		HOL = { load_oob  = "HOL_spawn"  }	
+	}
+}
+country_event = {
+	id = poland.115
+	title = poland.10.t
+	desc = poland.10.d
+	picture = GFX_report_event_polish_tanks_01
+	
+	is_triggered_only = yes
+
+	option = {
+		name = poland.100.a
+				ENG = {
+	transfer_state = 669
+	transfer_state = 668
+	transfer_state = 738
+	transfer_state = 667
+	transfer_state = 673
+	transfer_state = 334
+	transfer_state = 672
+	transfer_state = 335
+	transfer_state = 322
+	}
+			ENG = {	set_autonomy = {  target = FRA autonomy_state = autonomy_dominion }	}
+			FRA = { anti_cross_faction_trade_axis = yes }
+			SOV = {
+			country_event = { id = germany.11 days = 1 }
+			custom_effect_tooltip = GER_mol_rib_pact_tt
+			transfer_state = 78 transfer_state = 80 transfer_state = 766 
+			 transfer_state = 189 transfer_state = 11 transfer_state = 13 transfer_state = 191 transfer_state = 190 transfer_state = 12 transfer_state = 78 transfer_state = 766
+			LAT = { remove_state_core = 188 remove_state_core = 189 remove_state_core = 11 remove_state_core = 13 remove_state_core = 191  remove_state_core = 12 remove_state_core = 190      }
+			189 = { add_core_of = SOV }
+			11 = { add_core_of = SOV }
+			13 = { add_core_of = SOV }
+			191 = { add_core_of = SOV }
+			190 = { add_core_of = SOV }
+			12 = { add_core_of = SOV }
+			78 = { add_core_of = SOV }
+			766 = { add_core_of = SOV }
+			80 = { add_core_of = SOV }
+			country_event = finland.20
+			}
+			SWE = { transfer_state = 80 }
+			SOV = {  transfer_state = 80 }
+		
+		
+	}
+}
+
+country_event = {
+	id = poland.116
+	title = poland.10.t
+	desc = poland.10.d
+	picture = GFX_report_event_polish_tanks_01
+	
+	is_triggered_only = yes
+
+	immediate = {
+			GER = { 
+					add_named_threat = { threat = 5 name = GER_danzig_or_war }
+			set_country_flag = danzing
+		 add_timed_idea = { idea = VIC_aircraft_parts days = 500 } 
+			add_state_core = 85
+			add_state_claim = 762
+			add_state_claim = 86	
+			}			
+			POL = {	country_event = { id = germany.86 }	}
+			hidden_effect = {
+			GER = { remove_resource_rights = 724 }
+			ENG = {	add_war_support = 0.1 	country_event = britain.24 }	FRA = {add_war_support = 0.1 }
+			SAF = {	country_event = tfv_south_africa.133 }
+		    125 = {
+			add_extra_state_shared_building_slots = 4
+			add_building_construction = {
+				type = arms_factory
+				level = 4
+				instant_build = yes
+			}
+		}
+		}
+	
+	}
+	
+	option = {
+		name = poland.100.a
+
+		
+	}
+}
+
+country_event = {
+	id = poland.117
+	title = poland.10.t
+	desc = poland.10.d
+	picture = GFX_report_event_polish_tanks_01
+	
+	is_triggered_only = yes
+
+	immediate = {
+
+	
+				add_opinion_modifier = {
+    target = GER
+    modifier = anti_cross_faction_trade
+}
+	}
+	
+	option = {
+		name = poland.100.a
+
+		
+	}
+}
+
+country_event = {
+	id = poland.118
+	title = poland.10.t
+	desc = poland.10.d
+	picture = GFX_report_event_polish_tanks_01
+	
+	is_triggered_only = yes
+
+	immediate = {
+
+			if = { limit = { POL = { owns_state = 96}  }
+		SOV = { transfer_state = 784  
+		transfer_state = 97
+		transfer_state = 96
+		transfer_state = 95
+		transfer_state = 94
+		transfer_state = 93
+		transfer_state = 91
+		transfer_state = 89
+		}
+		
+		}
+		
+		SOV = { country_event = news.37 }
+
+	
+	}
+	
+	option = {
+		name = poland.100.a
+
+		
+	}
+}
+
+
+
+
+country_event = {
+	id = poland.119
+	title = poland.10.t
+	desc = poland.10.d
+	picture = GFX_report_event_polish_tanks_01
+	
+	is_triggered_only = yes
+
+	immediate = {
+
+ if = { limit = { FIN = { is_ai = yes }} FIN = {  baltic_cores = yes } } 
+
+	}
+	
+	option = {
+		name = poland.100.a
+
+		
+	}
+}
+
+
+country_event = {
+	id = poland.120
+	title = poland.10.t
+	desc = poland.10.d
+	picture = GFX_report_event_polish_tanks_01
+	
+	is_triggered_only = yes
+
+	immediate = {
+		ENG = { set_faction_name = "United Nations" }
+		news_event = { id = unitednations.0 } 
+	}
+	
+	option = {
+		name = poland.100.a
+
+		
+	}
+}
+
+country_event = {
+	id = poland.121
+	title = poland.10.t
+	desc = poland.10.d
+	picture = GFX_report_event_polish_tanks_01
+	
+	is_triggered_only = yes
+
+	immediate = {
+		
+	}
+	
+	option = {
+		name = poland.100.a
+
+		if = { limit = { GER = { has_war_with = SOV }}   news_event = { id = news.9990 days = 0 }  GER = { activate_decision =  GER_fall_blau_op       }      }
+	}
+}
+
+country_event = {
+	id = poland.122
+	title = poland.10.t
+	desc = poland.10.d
+	picture = GFX_report_event_polish_tanks_01
+	
+	is_triggered_only = yes
+
+	immediate = {
+
+	}
+	
+	option = {
+		name = poland.100.a
+		if = { limit = { GER = { has_war_with = SOV }}   news_event = { id = news.9991 days = 0 } GER = {  activate_decision = GER_zit    }               }
+
+		
+	}
+}
+
+
+
+
+add_namespace = wtt_britain 
+
+# Emergency Arms Deliveries
+country_event = {
+	id = wtt_britain.30
+	title = wtt_britain.30.t
+	desc = wtt_britain.30.d
+	picture = GFX_report_event_generic_factory
+
+	is_triggered_only = yes
+	
+	#Praise the Americans!
+	option = {
+		name = wtt_britain.30.a
+		if = {
+		limit = { original_tag = ENG }
+		effect_tooltip = {
+			add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 20000 producer = USA }
+			add_equipment_to_stockpile = { type = artillery_equipment_1 amount = 250 producer = USA }
+			add_equipment_to_stockpile = { type = support_equipment_1 amount = 250 producer = USA }
+		}
+	}
+	}
+	
+}
+
+add_namespace = finland
+
+country_event = {
+	id = finland.20
+	title = finland.20.t
+	desc = finland.20.d
+	picture = GFX_report_event_finnish_soldiers_snow
+	
+	is_triggered_only = yes
+
+
+	option = {
+				name = finland.20.a
+	add_named_threat = { threat = 7.5 name = Winter_War_Threat }
+	HMP_script_finland = yes
+	FIN = { country_event = { id = finland.21 } }
+	}
+}
+
+country_event = {
+	id = finland.21
+	title = finland.21.t
+	desc = finland.21.d
+	picture = GFX_report_event_finnish_soldiers_snow
+	
+	is_triggered_only = yes
+
+
+	option = {
+			name = finland.21.a	
+	}
+
+}
+
+add_namespace = france
+
+country_event = {
+	id = france.10
+	title = france.10.t
+	desc = france.10.d
+	picture = GFX_report_event_german_parade_paris
+	fire_only_once = yes	
+	is_triggered_only = yes 
+	option = { # Become Free French
+		name = france.10.b
+		
+		trigger = { FRA = { has_capitulated = yes }}
+		FRA_fix_africa = yes
+		set_global_flag = fall_of_france
+		set_cosmetic_tag = FRA_FREE
+		custom_effect_tooltip = france.10.b_tt
+	}
+}
+
+# France wants Armistice (Germany)
+country_event = {
+	id = france.14
+	title = france.14.t
+	desc = france.14.d
+	picture = GFX_report_event_german_parade_paris
+	
+	is_triggered_only = yes
+
+		option = { # Armistice!
+		name = france.14.a
+				
+		horstorical_multiplayer_vichy_france = yes 
+		
+	}
+}
+
+add_namespace = lar_spain 
+
+# Election of 1936 - La Resistance Edition
+country_event = {
+	id = lar_spain.1
+	title = spain.9.t
+	desc = lar_spain.1.desc
+	picture = GFX_report_event_election_vote
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = lar_spain.1.b
+	}
+}
+
+# Spanish Civil War - La Resistance Edition
+country_event = {
+	id = lar_spain.2
+	title = lar_spain.2.t
+	desc = lar_spain.2.desc
+	picture = GFX_report_event_spain_civil_war_soldiers
+	
+	is_triggered_only = yes
+	
+	immediate = { HMP_script_spain = yes 	}
+	
+	option = { # Option for Nationalists - Franco
+		name = lar_spain.2.a
+		custom_effect_tooltip = nationalists_chosen	
+}
+}
+
+add_namespace = lar_fake_intel_units
+
+# delete old intel units created by script
+country_event = {
+	id = lar_fake_intel_units.1
+	title = lar_fake_intel_units.1.t
+	desc = lar_fake_intel_units.1.d
+	
+	picture = GFX_report_event_generic_factory
+
+	is_triggered_only = yes
+
+	hidden = yes
+
+	immediate = {
+		
+		# delete old intel units
+		# fake_intel_ids_to_delete contains the id of each unit
+		# num_days_for_fake_intel_id@id contains the num hours that it is created
+		
+		clear_temp_array = ids_to_remove
+		
+		for_each_loop = {
+			array = fake_intel_ids_to_delete
+			
+			set_temp_variable = { passed_days = global.num_days }
+			subtract_from_temp_variable = { passed_days = num_days_for_fake_intel_id@var:v }
+			
+			if = {
+				limit = { check_variable = { passed_days > 85 } }
+				add_to_temp_array = { ids_to_remove = v }
+				delete_unit = {
+					id = v
+				}
+			}
+		}
+		
+		for_each_loop = {
+			array = ids_to_remove
+			
+			remove_from_array = { fake_intel_ids_to_delete = v }
+			clear_variable = num_days_for_fake_intel_id@var:v
+		}
+	}
+	
+	option = {
+		name = excellent
+	}
+}
+
+add_namespace = iran
+
+country_event = {
+	id = iran.2
+	title = iran.2.t
+	desc = iran.2.d
+	picture = GFX_report_event_soviet_tanks_snow
+	
+	is_triggered_only = yes
+	
+option = {
+name = iran.2.a  
+
+SOV = {
+transfer_state = 266 transfer_state = 416 416 = { add_core_of = SOV } transfer_state = 419 419 = { add_core_of = SOV } transfer_state = 420
+420 = {	add_extra_state_shared_building_slots = 1 add_state_modifier = {	modifier = {	local_non_core_manpower = 0.5	}	}	}
+}
+}
+	}
+
+country_event = {
+	id = iran.3
+	title = iran.3.t
+	desc = iran.3.d
+	picture = GFX_report_event_soviet_tanks_snow
+	
+	is_triggered_only = yes
+	
+option = {
+name = iran.3.a  
+
+	PER = { retire_country_leader = yes	create_country_leader = { name = "Mohammad Reza Shah Pahlavi"  desc = "POLITICS_REZA_DESC" picture = "Mohammad_Reza_Pahlavi.tga" expire = "1965.1.1" ideology = despotism traits = { } } }
+	every_country = { if={limit = {is_in_faction_with = ENG}  diplomatic_relation = {country = PER	relation = military_access	active = yes }} }
+	ENG = { transfer_state = 412 transfer_state = 413 transfer_state = 421 }
+}
+	}
+	
+add_namespace = wtt_japan
+
+country_event = {
+	id = wtt_japan.109
+	title = wtt_japan.109.t
+	desc = wtt_japan.109.desc
+	picture = GFX_report_event_japan_europe_pact
+
+	is_triggered_only = yes
+
+	option = {
+		name = wtt_japan.109.a #accept
+		HMP_script_china_no_asia = yes
+	}
+}
+country_event = {
+	id = wtt_japan.119
+	title = wtt_japan.119.t
+	desc = wtt_japan.119.desc
+	picture = GFX_report_event_japan_europe_pact
+
+	is_triggered_only = yes
+
+	option = {
+		name = wtt_japan.109.a #accept
+		HMP_script_china_no_asia2 = yes
+	}
+}
+
+add_namespace = japan_border_conflict
+#Japan loses
+country_event = {
+	id = japan_border_conflict.3
+	title = japan_border_conflict.3.t
+	desc = japan_border_conflict.3.desc
+	picture = GFX_report_event_japanese_soldiers_03
+
+	is_triggered_only = yes
+
+	option = {
+		name = japan_border_conflict.3.a
+		trigger = {
+			original_tag = JAP
+		}
+			if = { 
+		limit = { original_tag = JAP}
+				army_experience = 25
+
+		}
+	}
+	option = {
+		name = japan_border_conflict.3.b
+		trigger = {
+			original_tag = SOV
+		}
+			if = { 
+		limit = { original_tag = SOV}
+		add_tech_bonus = {
+			name = sov_jap_border_conflict_won
+			category = land_doctrine
+			bonus = 1.0
+		}
+		}
+	}
+}
+
+add_namespace = mtg_britain 
+
+# Abdication Crisis Edward VIII
+country_event = {
+	id = mtg_britain.1
+	title = mtg_britain.1.t
+	desc = mtg_britain.1.d
+	picture = GFX_report_event_eng_edward_and_wallis
+
+	is_triggered_only = yes 
+	
+	fire_only_once = yes
+
+	option = {
+		name = mtg_britain.1.c
+		add_stability = 0.05
+		country_event = { id = mtg_britain.14 days = 5 random = 5 }
+	}
+}
+
+country_event = {
+	id = mtg_britain.14
+	title = britain.17.t
+	desc = britain.17.d
+	picture = GFX_report_event_generic_sign_treaty2
+
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			remove_ideas = ENG_king_edward
+			add_ideas = ENG_george_vi		
+		}
+	}
+
+	option = {
+		name = britain.17.a
+		effect_tooltip = {
+			remove_ideas = ENG_king_edward
+			add_ideas = ENG_george_vi		
+		}
+	}
+}
+
+# Motion of No Confidence event
+country_event = {
+	id = mtg_britain.22
+	title = mtg_britain.22.t
+	desc = mtg_britain.22.d
+	picture = GFX_report_event_generic_parliament
+
+	is_triggered_only = yes
+	
+	# Ok
+	option = {
+		name = mtg_britain.22.a
+		retire_country_leader = yes
+		create_country_leader = {
+			name = "Winston Churchill"
+			desc = "POLITICS_WINSTON_CHURCHILL_DESC"
+			picture = "Portrait_Britain_Winston_Churchill.dds"
+			expire = "1965.1.1"
+			ideology = conservatism
+			traits = {
+				british_bulldog
+			}
+		}
+	}
+}
+
+add_namespace = lar_operative_event
+
+#operative event - operative captured
+operative_leader_event = {
+	id = lar_operative_event.1
+	title = lar_operative_event.1.t
+	desc = lar_operative_event.1.desc
+
+	is_triggered_only = yes
+
+	major = no
+
+	option = {
+		name = lar_operative_event.1.a
+		
+	}
+}
+
+#operative event - operative forced into hiding
+operative_leader_event = {
+	id = lar_operative_event.2
+	title = lar_operative_event.2.t
+	desc = lar_operative_event.2.desc
+
+	is_triggered_only = yes
+
+	major = no
+
+	option = {
+		name = lar_operative_event.2.a
+		
+	}
+}
+
+#operative event - operative killed
+operative_leader_event = {
+	id = lar_operative_event.3
+	title = lar_operative_event.3.t
+	desc = lar_operative_event.3.desc
+
+	is_triggered_only = yes
+
+	major = no
+
+	option = {
+		name = lar_operative_event.3.a
+		
+	}
+}
+
+#operative event - operative harmed
+operative_leader_event = {
+	id = lar_operative_event.4
+	title = lar_operative_event.4.t
+	desc = lar_operative_event.4.desc
+
+	is_triggered_only = yes
+
+	major = no
+
+	option = {
+		name = lar_operative_event.4.a
+		
+	}
+}
+
+#operative event - operative turned
+operative_leader_event = {
+	id = lar_operative_event.5
+	title = lar_operative_event.5.t
+	desc = lar_operative_event.5.desc
+
+	is_triggered_only = yes
+
+	major = no
+
+	option = {
+		name = lar_operative_event.5.a
+		add_unit_leader_trait = operative_double_agent
+	}
+}
+operative_leader_event = {
+	id = lar_operative_event.6
+	title = lar_operative_event.6.t
+	desc = lar_operative_event.6.desc
+
+	is_triggered_only = yes
+
+	major = no
+
+	option = {
+		name = lar_operative_event.6.a
+	}
+}
+operative_leader_event = {
+	id = lar_operative_event.7
+	title = lar_operative_event.7.t
+	desc = lar_operative_event.7.desc
+
+	is_triggered_only = yes
+
+	major = no
+
+	option = {
+		name = lar_operative_event.7.a
+	}
+}
+
+add_namespace = italy
+
+# Albania Yields
+country_event = {
+	id = italy.1
+	title = italy.1.t
+	desc = italy.1.d
+	picture = GFX_report_event_royal_parade
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = italy.1.a
+		hidden_effect = {
+			country_event = { days = 1 id = news.22 }
+		}
+		}
+}
+
+    country_event = {
+   id = italy.600
+   title = italy.600.t
+   desc = italy.600.d
+   picture = GFX_report_event_german_italian_pact
+
+   fire_only_once = yes
+ is_triggered_only = yes
+   
+   
+      option = {
+   name = italy.600.a
+
+   }
+   }
+ 
+      country_event = {
+   id = italy.602
+   title = italy.602.t
+   desc = italy.602.d
+   picture = GFX_report_event_german_italian_pact
+
+   fire_only_once = yes
+ is_triggered_only = yes
+   
+   
+      option = {
+   name = italy.602.a
+		HMP_script_generals = yes
+   }
+   } 
+   
+  
+      country_event = {
+   id = italy.603
+   title = "Warning: Finland will join Operation Barbarossa!"
+   desc = "Be sure to garrison the Finnish border with 14/4s and 20w divisions or you will be battleplanned by the AI/pushed by a player! Finland will be called in by event within 2 weeks of the start of Operation Barbarossa."
+   picture = GFX_report_event_german_italian_pact
+
+   fire_only_once = yes
+ is_triggered_only = yes
+   
+   
+      option = {
+   name = "Wait, what?"
+		
+   }
+   }   
+       country_event = {
+   id = italy.604
+   title = "The Continuation War"
+   desc = "With the German invasion of the Soviet Union, our time has come to strike the Soviets and reclaim our lost territories!"
+   picture = GFX_report_event_german_italian_pact
+
+   fire_only_once = yes
+ is_triggered_only = yes
+   
+   
+      option = {
+   name = "Wait, what?"
+			complete_national_focus = fin_continuation
+   }
+   }     
+
+add_namespace = mtg_news
+
+# US Pursues Neutrality
+news_event = {
+	id = mtg_news.3
+	title = mtg_news.3.t
+	desc = mtg_news.3.desc
+	picture = GFX_news_event_generic_usa_treaty
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = mtg_news.3.a
+		trigger = {
+			original_tag = USA
+		}
+	}
+	option = {
+		name = mtg_news.3.b
+		trigger = { 
+			NOT = { original_tag = USA }
+			has_government = fascism
+		}
+	}
+	option = {
+		name = mtg_news.3.c
+		trigger = { 
+			NOT = { original_tag = USA }
+			has_government = communism
+		}
+	}
+	option = {
+		name = mtg_news.3.d
+		trigger = { 
+			NOT = { original_tag = USA }
+			OR = {
+				has_government = democratic
+				has_government = neutrality
+			}
+		}
+	}
+}
+# UK Imperial Conference
+news_event = {
+	id = mtg_news.13
+	title = mtg_britain.82.t
+	desc = mtg_news.13.desc
+	picture = GFX_news_event_imperial_conference
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = mtg_news.13.a
+		trigger = {
+			original_tag = ENG
+		}
+	}
+	option = {
+		name = mtg_news.13.b
+		trigger = { 
+			is_subject_of = ENG
+			OR = {
+				original_tag = CAN
+				original_tag = SAF
+				original_tag = RAJ
+				original_tag = AST
+				original_tag = NZL
+			}
+		}
+	}
+	option = {
+		name = mtg_news.13.c
+		trigger = { 
+			NOT = { original_tag = ENG }
+			NOT = {
+				AND = {
+					is_subject_of = ENG
+					OR = {
+						original_tag = CAN
+						original_tag = SAF
+						original_tag = RAJ
+						original_tag = AST
+						original_tag = NZL
+					}
+				}
+			}
+		}
+	}
+}
+
+news_event = {
+	id = mtg_news.59
+	title = mtg_news.59.t
+	desc = mtg_news.59.desc
+	picture = GFX_news_event_generic_funeral
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = mtg_news.59.a
+		trigger = {
+			original_tag = ENG
+		}
+	}
+
+	option = {
+		name = mtg_news.55.b
+		trigger = {
+			NOT = { original_tag = ENG }
+		}
+	}
+}
+
+add_namespace = panay_incident
+
+#Panay Incident - USA notification
+country_event = {
+	id = panay_incident.2
+	title = panay_incident.2.t
+	desc = { #Low war support text
+		text = panay_incident.2.d
+		trigger = {
+			USA = { has_war_support < 0.5 }
+		}
+	}
+
+	desc = { #High war support text
+		text = panay_incident.2.e
+		trigger = {
+			USA = { has_war_support > 0.49 }
+		}
+	}
+
+	picture = GFX_report_event_panay_incident
+
+	is_triggered_only = yes
+
+	option = { #Demand compensation
+		name = panay_incident.2.b
+		custom_effect_tooltip = panay_incident.2.b.tt
+		add_war_support = 0.05
+		hidden_effect = { 
+		JAP = { country_event = { id = panay_incident.3 days = 2 } } } #Delay added so events are spaced out - historically it took months to get JAP to agree to compensation, but that'd be a bit hard to follow in-game, so timelines compressed.
+	}
+}
+
+#Panay Incident - JAP gets demand for compensation
+country_event = {
+	id = panay_incident.3
+	title = panay_incident.3.t
+	desc = panay_incident.3.d
+	picture = GFX_report_event_us_panay_demands
+
+	is_triggered_only = yes
+
+	option = { #We shall never bow down to the western Imperialists!
+		name = panay_incident.3.b
+		custom_effect_tooltip = panay_incident.3.b.tt
+
+		add_political_power = 100
+		hidden_effect = { USA = { country_event = { id = panay_incident.5 days = 2 } } } #Delay added here and in earlier event so rest of the world doesn't get Panay Incident one day and War the next, unless US is particularly gung-ho in response to initial event.
+	}
+}
+
+#Panay Incident - USA receives JAP refusal
+country_event = {
+	id = panay_incident.5
+	title = panay_incident.5.t
+	desc = panay_incident.5.d
+	picture = GFX_report_event_japanese_reply
+
+	is_triggered_only = yes
+	
+	option = {
+		name = panay_incident.5.a
+		
+		trigger = { tag = USA }
+		
+		add_political_power = -10
+		add_war_support = -0.02
+		add_stability = 0.05
+	}
+}
+
+add_namespace = japan
+# USA condemns our war 
+country_event = {
+	id = japan.10
+	title = japan.10.t
+	desc = japan.10.d
+	picture = GFX_report_event_FDR_speech
+	is_triggered_only = yes
+	option = {
+		name = japan.10.a
+	}
+}
+
+country_event = {
+	id = japan.144
+	title = japan.144.t
+	desc = japan.144.d
+	picture = GFX_tora
+
+	is_triggered_only = yes
+	
+	option = {
+		name = japan.144.a
+		declare_war_on_all_allies = yes 	
+		USA = { 
+			add_to_war = {
+				targeted_alliance = ENG
+				enemy = JAP
+			}
+				}
+		if = { limit = { country_exists = MAN } MAN = { declare_war_on_all_allies = yes } 
+		USA = { 
+			add_to_war = {
+				targeted_alliance = ENG
+				enemy = MAN
+			}
+				} 
+				}
+	
+		add_timed_idea = { idea = JAP_tora_tora_tora_idea days = 180 }		
+	}
+}
+country_event = {
+   id = japan.148
+   title = "Manchukuo is AI controlled"
+   desc = "Do you wish to annex Manchukuo? Full compliance will be given, including all starting factories. In addition to this you will be given (10) 100% research bonuses for air doctrine, excavation technology, and Medium 1 tanks."
+   picture = GFX_report_event_japan_startup
+   fire_only_once = yes
+is_triggered_only = yes
+     option = {
+   name = "Integrate Manchukuo"
+   country_event = { id = japan.149 }
+   }
+    option = {
+   name = "Don't Integrate Manchukuo"
+   }  
+}
+
+country_event = {
+   id = japan.149
+   title = "The Annexation of Manchukuo"
+   desc = "The annexation of Manchukuo is imminent."
+   picture = GFX_report_event_japan_startup
+   fire_only_once = yes
+is_triggered_only = yes
+   option = {
+   name = "Confirm Integration"
+
+			716 = {	add_resource = {  type = steel amount = 12}	} 
+			716 = {	add_resource = {  type = steel amount = 16} }
+			328 = {	add_resource = {  type = aluminium amount = 16}	}
+			
+			annex_country = { target = MAN transfer_troops = yes }
+			716 = { set_compliance = 100 } 	328 = { set_compliance = 100 }	717 = { set_compliance = 100 } 714 = { set_compliance = 100 }	761 = { set_compliance = 100 } 	715 = { set_compliance = 100 }	612 = { set_compliance = 100 } 
+			610 = { set_compliance = 100 }	611 = { set_compliance = 100 }  
+   		add_tech_bonus = {
+			name = "Integrate Manchukuo"
+			bonus = 1.0
+			uses = 10
+			category = land_doctrine
+			category = excavation_tech
+		}
+			add_tech_bonus = {
+			name = "Integrate Manchukuo"
+			bonus = 3.0
+			uses = 1
+			technology = basic_medium_tank
+		}
+   }
+      option = {
+   name = "Reconsider..."
+    country_event = { id = japan.148 }
+   }
+}
+
+
+add_namespace = election
+
+# Test Election Event
+country_event = {
+	id = election.1
+	title = election.1.t
+	desc = election.1.d
+	picture = GFX_report_event_election_vote
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = election.1.a
+	}
+}
+
+# Wartime Exception
+country_event = {
+	id = election.14
+	title = election.14.t
+	desc = election.14.d
+	picture = GFX_report_event_tank_factory
+	
+	is_triggered_only = yes
+
+	trigger = {
+		NOT = { 
+			AND = { 
+				tag = USA 
+				date < 1949.1.1
+			} 
+		}
+		OR = { NOT = { tag = SPR } NOT = { date < 1937.1.1 } }
+		has_government = democratic
+		has_war = yes
+	}
+	
+	option = {
+		name = election.14.a
+		
+			trigger = {
+		NOT = { 
+			AND = { 
+				tag = USA 
+				date < 1949.1.1
+			} 
+		}
+		OR = { NOT = { tag = SPR } NOT = { date < 1937.1.1 } }
+		has_government = democratic
+		has_war = yes
+		NOT = { has_country_flag = no_more_we }
+	}
+			set_country_flag = 	no_more_we
+		add_stability = -0.05
+	}
+
+	option = {
+		name = election.14.b
+		
+			trigger = {
+		NOT = { 
+			AND = { 
+				tag = USA 
+				date < 1949.1.1
+			} 
+		}
+		OR = { NOT = { tag = SPR } NOT = { date < 1937.1.1 } }
+		has_government = democratic
+		has_war = yes
+		NOT = { has_country_flag = no_more_we }
+	}
+	set_country_flag = 	no_more_we
+		add_political_power = 20
+		add_stability = 0.05
+		add_popularity = {
+			ideology = communism
+			popularity = 0.05
+		}
+		add_popularity = {
+			ideology = fascism
+			popularity = 0.05
+		}
+	}
+}
+
+# Government Contested
+country_event = {
+	id = election.15
+	title = election.15.t
+	desc = election.15.d
+	picture = GFX_report_event_gathering_protest
+	
+	is_triggered_only = yes
+
+	trigger = {
+		NOT = { 
+			AND = { 
+				tag = USA 
+				date < 1949.1.1
+			} 
+		}
+		OR = { NOT = { tag = SPR } NOT = { date < 1937.1.1 } }
+		has_government = democratic
+		has_war = yes
+		any_war_score < 20
+	}
+	
+	option = {
+		name = election.15.a
+		
+		trigger = {
+		NOT = { 
+			AND = { 
+				tag = USA 
+				date < 1949.1.1
+			} 
+		}
+		OR = { NOT = { tag = SPR } NOT = { date < 1937.1.1 } }
+		has_government = democratic
+		has_war = yes
+		any_war_score < 20
+		NOT = { has_country_flag = no_more_gc }
+	}
+			set_country_flag = no_more_gc
+
+		add_political_power = -50
+		add_stability = -0.05
+	}
+
+	option = {
+		name = election.15.b
+	trigger = {
+		NOT = { 
+			AND = { 
+				tag = USA 
+				date < 1949.1.1
+			} 
+		}
+		OR = { NOT = { tag = SPR } NOT = { date < 1937.1.1 } }
+		has_government = democratic
+		has_war = yes
+		any_war_score < 20
+		NOT = { has_country_flag = no_more_gc }
+	}
+	set_country_flag = no_more_gc
+		add_political_power = 25
+		add_stability = 0.05
+		add_popularity = {
+			ideology = communism
+			popularity = 0.07
+		}
+		add_popularity = {
+			ideology = fascism
+			popularity = 0.07
+		}
+	}
+}
+
+
+add_namespace = countrystartup
+
+country_event = {
+	id = countrystartup.1
+	title = "Vichy France in Horstorical"
+	desc = countrystartup.1.desc
+ 
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "The Old Marshal protects"	
+	}
+}
+
+country_event = {
+	id = countrystartup.2
+	title = "Nationalist Spain in Horstorical"
+	desc = countrystartup.2.desc
+ 
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Let's Make Spain Great Again"	
+	}
+}
+country_event = {
+	id = countrystartup.3
+	title = ""
+	desc = ""
+ 
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Good to know"	
+	}
+}
+country_event = {
+	id = countrystartup.4
+	title = countrystartup.4.t
+	desc = countrystartup.4.desc
+ 
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Good to know"	
+	}
+}
+country_event = {
+	id = countrystartup.5
+	title = "The United Kingdom in Horstorical"
+	desc = countrystartup.5.desc
+ 
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Rule, Britannia! Britannia, rule the waves!"	
+	}
+}
+country_event = {
+	id = countrystartup.6
+	title = "Norway in Horstorical"
+	desc = countrystartup.6.desc
+ 
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Alt for Norge!"	
+	}
+}
+country_event = {
+	id = countrystartup.7
+	title = ""
+	desc = ""
+ 
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Good to know"	
+	}
+}
+country_event = {
+	id = countrystartup.8
+	title = "South Africa in Horstorical"
+	desc = countrystartup.8.desc
+ 
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Good to know"	
+	}
+}
+country_event = {
+	id = countrystartup.9
+	title = ""
+	desc = ""
+ 
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Good to know"	
+	}
+}
+country_event = {
+	id = countrystartup.10
+	title = ""
+	desc = ""
+ 
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Good to know"	
+	}
+}
+country_event = {
+	id = countrystartup.11
+	title = ""
+	desc = ""
+ 
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Good to know"	
+	}
+}
+country_event = {
+	id = countrystartup.12
+	title = ""
+	desc = ""
+ 
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Good to know"	
+	}
+}
+country_event = {
+	id = countrystartup.13
+	title = ""
+	desc = ""
+ 
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Good to know"	
+	}
+}
+country_event = {
+	id = countrystartup.14
+	title = ""
+	desc = ""
+ 
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Good to know"	
+	}
+}
+
+country_event = {
+	id = countrystartup.15
+	title = "Germany in Horstorical"
+	desc = countrystartup.15.desc
+ 
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Good to know"	
+	}
+}
+
+country_event = {
+	id = countrystartup.16
+	title = "Italy in Horstorical"
+	desc = countrystartup.16.desc
+ 
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Good to know"	
+	}
+}
+
+country_event = {
+	id = countrystartup.17
+	title = "France in Horstorical"
+	desc = countrystartup.17.desc
+ 
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Good to know"	
+	}
+}
+
+country_event = {
+	id = countrystartup.18
+	title = "USA in Horstorical"
+	desc = countrystartup.18.desc
+ 
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Good to know"	
+	}
+}
+
+add_namespace = country_capitulated
+
+# 	# FROM is winner
+news_event = {
+	id = country_capitulated.0
+	title = country_capitulated.0.t
+	#Good news
+	desc = {
+		text = country_capitulated.0.d_positive_both_no_faction
+		trigger = {
+			OR = {
+				has_war_with = ROOT
+				any_allied_country = { has_war_with = ROOT }
+			}
+			ROOT = { is_in_faction = no }			
+			FROM = { FROM = { NOT = { any_allied_country = { has_war_with = ROOT } } } }
+		}
+	}
+	desc = {
+		text = country_capitulated.0.d_positive_prev_no_faction
+		trigger = {
+			OR = {
+				has_war_with = ROOT
+				any_allied_country = { has_war_with = ROOT }
+			}
+			ROOT = { is_in_faction = yes }
+			FROM = { FROM = { NOT = { any_allied_country = { has_war_with = ROOT } } } }
+		}
+	}
+	desc = {
+		text = country_capitulated.0.d_positive_prev_faction
+		trigger = {
+			OR = {
+				has_war_with = ROOT
+				any_allied_country = { has_war_with = ROOT }
+			}
+			ROOT = { is_in_faction = yes }
+			FROM = { FROM = { any_allied_country = { has_war_with = ROOT } } }
+		}
+	}
+	#Bad news
+	desc = {
+		text = country_capitulated.0.d_negative_both_no_faction
+		trigger = {
+			OR = {
+				has_war_together_with = ROOT
+				is_in_faction_with = ROOT
+				tag = ROOT
+			}
+			ROOT = { is_in_faction = no }
+			FROM = { FROM = { NOT = { any_allied_country = { has_war_with = ROOT } } } }
+		}
+	}
+	desc = {
+		text = country_capitulated.0.d_negative_prev_no_faction
+		trigger = {
+			OR = {
+				is_in_faction_with = ROOT
+				tag = ROOT
+			}
+			ROOT = { is_in_faction = yes }
+			FROM = { FROM = { NOT = { any_allied_country = { has_war_with = ROOT } } } }
+		}
+	}
+	desc = {
+		text = country_capitulated.0.d_negative_prev_faction
+		trigger = {
+			OR = {
+				is_in_faction_with = ROOT
+				tag = ROOT
+			}
+			ROOT = { is_in_faction = yes }
+			FROM = { FROM = { any_allied_country = { has_war_with = ROOT } } }
+		}
+	}
+	#Neutral news
+	desc = {
+		text = country_capitulated.0.d_neutral_both_no_faction
+		trigger = {
+			NOT = { has_war_together_with = ROOT }
+			NOT = { is_in_faction_with = ROOT }
+			NOT = { has_war_with = ROOT }
+			NOT = { any_allied_country = { has_war_with = ROOT } }
+			ROOT = { is_in_faction = no }
+			FROM = { FROM = { NOT = { any_allied_country = { has_war_with = ROOT } } } }
+		}
+	}
+	desc = {
+		text = country_capitulated.0.d_neutral_prev_no_faction
+		trigger = {
+			NOT = { is_in_faction_with = ROOT }
+			NOT = { has_war_with = ROOT }
+			NOT = { any_allied_country = { has_war_with = ROOT } }
+			ROOT = { is_in_faction = yes }
+			FROM = { FROM = { NOT = { any_allied_country = { has_war_with = ROOT } } } }
+		}
+	}
+	desc = {
+		text = country_capitulated.0.d_neutral_prev_faction
+		trigger = {
+			NOT = { is_in_faction_with = ROOT }
+			NOT = { has_war_with = ROOT }	
+			NOT = { any_allied_country = { has_war_with = ROOT } }
+			ROOT = { is_in_faction = yes }
+			FROM = { FROM = { any_allied_country = { has_war_with = ROOT } } }
+		}
+	}
+
+	picture = GFX_news_event_generic_sign_treaty2
+
+	major = yes
+
+	is_triggered_only = yes
+
+	hidden = no
+
+	fire_only_once = no
+
+	option = {
+		name = country_capitulated.0.a
+		trigger = {
+			OR = {
+				any_allied_country = {
+					has_war_with = ROOT
+				}				
+				has_war_with = ROOT
+			}
+		}
+	}
+	option = {
+		name = country_capitulated.0.b
+		trigger = {
+			OR = {
+				has_war_together_with = ROOT
+				is_in_faction_with = ROOT
+				tag = ROOT
+			}
+		}
+	}
+	option = {
+		name = country_capitulated.0.c
+		trigger = {
+			NOT = { has_war_together_with = ROOT }
+			NOT = { is_in_faction_with = ROOT }
+			NOT = { any_allied_country = { has_war_with = ROOT } }
+			NOT = { has_war_with = ROOT }
+			NOT = { tag = ROOT }
+		}
+	}
+}
+
+
+add_namespace = horsttool
+
+# Horst used a cheat
+news_event = {
+	id = horsttool.1
+	title = "Horsttool"
+	
+	desc = " [From.Getname] gave [Root.cheat_selected] to [From.From.Owner.Getname]"
+	picture = GFX_news_event_001
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Okay..."
+		clear_variable=this.selected_cheat 
+		clear_variable=this.target_country
+		 }
+		
+	}
+
+		news_event = {
+	id = horsttool.10
+	title = "Horsttool"
+	
+	desc = " [From.Getname] removed a civilian factory from [From.From.Owner.Getname]"
+	picture = GFX_news_event_001
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Okay..."
+		 }
+		
+	}
+	
+	news_event = {
+	id = horsttool.11
+	title = "Horsttool"
+	
+	desc = " [From.Getname] gave a civilian factory to [From.From.Owner.Getname]"
+	picture = GFX_news_event_001
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Okay..."
+		 }
+		
+	}
+	
+		news_event = {
+	id = horsttool.30
+	title = "How to use Horsttool"
+	
+	desc = "Click MARK STATE to mark all the states you which to be targeted by a certain effect and then click on the effect you wish to apply. The effect will then apply to the markeeted states and remove all previously marked states."
+	picture = GFX_news_event_001
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Okay..."
+		 }
+		
+	}
+
+
+add_namespace = wtt_news
+
+# Canals - Suez Canal Blown
+news_event = {
+	id = wtt_news.40
+	title = wtt_news.40.t
+	desc = {
+		text = wtt_news.40.desc_eng
+		trigger = {
+			FROM = {
+				has_country_flag = blew_up_suez
+				owns_state = 446
+				owns_state = 453
+			}
+		}
+	}
+	desc = {
+		text = wtt_news.40.desc_not_eng
+		trigger = {
+			FROM = {
+				OR = {
+					NOT = {	has_country_flag = blew_up_suez }
+					NOT = {
+						owns_state = 446
+						owns_state = 453
+					}
+				}
+			}
+		}
+	}
+	picture = GFX_news_event_020
+
+	is_triggered_only = yes
+	
+	option = {
+		name = wtt_news.40.a
+		trigger = {
+			NOT = { has_country_flag = blew_up_suez }
+			owns_state = 446
+			owns_state = 453
+		}
+		if = {
+			limit = {
+				original_tag = ENG
+			}
+			add_war_support = -0.05
+			add_stability = -0.05
+		}
+	}
+	option = {
+		name = wtt_news.40.b
+		trigger = {
+			has_country_flag = blew_up_suez
+			owns_state = 446
+			owns_state = 453
+		}
+		if = {
+			limit = {
+				original_tag = ENG
+			}
+			add_war_support = -0.05
+			add_stability = -0.05
+		}
+		clr_country_flag = blew_up_suez
+	}
+	option = {
+		name = wtt_news.40.c
+		trigger = {
+			any_country = {
+				has_war_with = ROOT
+				owns_state = 446
+				owns_state = 453
+				has_country_flag = blew_up_suez
+			}
+		}
+	}
+	option = {
+		name = wtt_news.40.d
+		trigger = {
+			any_country = {
+				has_war_with = ROOT
+				owns_state = 446
+				owns_state = 453
+			}
+			has_country_flag = blew_up_suez
+		}
+		clr_country_flag = blew_up_suez
+	}
+	option = {
+		name = wtt_news.40.e
+		trigger = {
+			any_country = {
+				has_war_with = ROOT
+				owns_state = 446
+				owns_state = 453
+				NOT = { has_country_flag = blew_up_suez }
+			}
+			any_other_country = {
+				has_war_together_with = ROOT
+				has_country_flag = blew_up_suez
+			}
+			NOT = { has_country_flag = blew_up_suez }
+		}
+	}
+	option = {
+		name = wtt_news.40.f
+		trigger = {
+			any_other_country = {
+				has_war_together_with = ROOT
+				owns_state = 446
+				owns_state = 453
+				has_country_flag = blew_up_suez
+			}
+			NOT = { has_country_flag = blew_up_suez }
+		}
+	}
+	option = {
+		name = wtt_news.40.g
+		trigger = {
+			any_country = {
+				has_war_with = ROOT
+				has_country_flag = blew_up_suez
+			}
+			any_other_country = {
+				has_war_together_with = ROOT
+				owns_state = 446
+				owns_state = 453
+				NOT = { has_country_flag = blew_up_suez }
+			}
+			NOT = { has_country_flag = blew_up_suez }
+		}
+	}
+	option = {
+		name = wtt_news.40.h
+		trigger = {
+			NOT = {
+				any_country = {
+					has_war_with = ROOT
+					has_country_flag = blew_up_suez
+				}
+			}
+			NOT = {
+				any_other_country = {
+					has_war_together_with = ROOT
+					owns_state = 446
+					owns_state = 453
+					has_country_flag = blew_up_suez
+				}
+			}
+			NOT = { has_country_flag = blew_up_suez }
+		}
+	}
+}
+
+# Canals - Suez Canal Rebuilt
+news_event = {
+	id = wtt_news.42
+	title = wtt_news.42.t
+	desc = wtt_news.42.desc
+	picture = GFX_news_event_020
+
+	is_triggered_only = yes
+	
+	option = {
+		name = wtt_news.42.a
+		trigger = {
+			original_tag = ENG
+			has_country_flag = rebuilt_suez
+		}
+		clr_country_flag = rebuilt_suez
+	}
+	option = {
+		name = wtt_news.42.b
+		trigger = {
+			NOT = { original_tag = ENG }
+			has_country_flag = rebuilt_suez
+		}
+		clr_country_flag = rebuilt_suez
+	}
+	option = {
+		name = wtt_news.42.c
+		trigger = {
+			any_other_country = {
+				has_war_together_with = ROOT
+				has_country_flag = rebuilt_suez
+			}
+			NOT = { has_country_flag = rebuilt_suez }
+		}
+	}
+	option = {
+		name = wtt_news.42.d
+		trigger = {
+			any_other_country = {
+				has_war_with = ROOT
+				has_country_flag = rebuilt_suez
+			}
+			NOT = { has_country_flag = rebuilt_suez }
+		}
+	}
+	option = {
+		name = wtt_news.42.e
+		trigger = {
+			NOT = { has_country_flag = rebuilt_suez }
+			NOT = {
+				any_other_country = {
+					has_war_together_with = ROOT
+					has_country_flag = rebuilt_suez
+				}
+			}
+			NOT = {
+				any_other_country = {
+					has_war_with = ROOT
+					has_country_flag = rebuilt_suez
+				}
+			}
+		}
+	}
+}
+
+
+add_namespace = britain 
+
+# Chamberlain Resigns
+country_event = {
+	id = britain.9
+	title = britain.9.t
+	desc = britain.9.d
+	picture = GFX_report_event_chamberlain
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = ENG
+		POL = { has_capitulated = yes }
+		OR = {
+			has_global_flag = fall_of_france
+			FRA = { surrender_progress > 0.1 }
+			HOL = { surrender_progress > 0.1 }
+			BEL = { surrender_progress > 0.1 }
+			DEN = { surrender_progress > 0.1 }
+			NOR = { surrender_progress > 0.1 }
+			AND = {
+				110 = { is_controlled_by = GER }
+				NOT = { is_in_faction_with = GER }
+			}
+		}
+		has_country_leader = {
+			name = "Neville Chamberlain"
+			ruling_only = yes
+		}
+	}
+
+	mean_time_to_happen = { days = 1 }
+	
+	option = {
+		name = britain.9.a
+
+		create_country_leader = {
+			name = "Winston Churchill"
+			desc = "POLITICS_WINSTON_CHURCHILL_DESC"
+			picture = "Portrait_Britain_Winston_Churchill.dds"
+			expire = "1965.1.1"
+			ideology = conservatism
+			traits = {	british_bulldog	}
+		}
+		add_stability = 0.1
+		add_war_support = 0.1
+	}
+}
+
+# King dies
+country_event = {
+	id = britain.16
+	title = britain.16.t
+	desc = britain.16.d
+	picture = GFX_report_event_europe_funeral
+	
+	fire_only_once = yes
+
+	is_triggered_only = yes 
+
+	immediate = {
+		hidden_effect = {
+			remove_ideas = george_v
+			add_ideas = ENG_king_edward
+		}		
+	}
+	
+	option = {
+		name = britain.16.a
+		effect_tooltip = {
+			remove_ideas = george_v		
+			add_ideas = ENG_king_edward
+		}
+	}
+}
+
+# King abdicates
+country_event = {
+	id = britain.17
+	title = britain.17.t
+	desc = britain.17.d
+	picture = GFX_report_event_generic_sign_treaty2
+
+	
+	fire_only_once = yes
+
+	is_triggered_only = yes 
+	
+	immediate = {
+		hidden_effect = {
+			remove_ideas = ENG_king_edward
+			add_ideas = ENG_george_vi		
+		}
+	}
+
+	option = {
+		name = britain.17.a
+		effect_tooltip = {
+			remove_ideas = ENG_king_edward
+			add_ideas = ENG_george_vi		
+		}
+	}
+}
+
+
+# Stanley Baldwin Resigns
+country_event = {
+    id = britain.22
+    title = britain.22.t
+    desc = britain.22.d
+    picture = GFX_report_event_royal_parade
+ 
+    fire_only_once = yes
+ 
+   is_triggered_only = yes
+
+    option = {
+        name = britain.22.a
+        retire_country_leader = yes
+        create_country_leader = {
+        	name = "Neville Chamberlain"
+        	desc = "POLITICS_NEVILLE_CHAMBERLAIN_DESC"
+        	picture = "Portrait_Britain_Neville_Chamberlain.dds"
+        	expire = "1965.1.1"
+        	ideology = conservatism
+        	traits = {
+        		chamberlain_appeaser rearmer
+        	}
+        }
+      }
+}
+
+# Shadow Scheme Factories
+country_event = {
+    id = britain.24
+    title = britain.24.t
+    desc = britain.24.d
+    picture = GFX_report_event_generic_factory
+ 
+    fire_only_once = yes
+ 
+  is_triggered_only = yes 
+
+    option = {
+        name = britain.24.a
+    }
+}
+
+country_event = {
+	id = britain.1115
+	title = "The Unthinkable"
+	desc = britain.1115.d
+	picture = GFX_report_event_generic_sign_treaty2
+
+	is_triggered_only = yes
+
+	option = {
+		name = "For a Free Europe!"
+		add_stability = -0.5
+				declare_war_on = {
+				target = SOV
+				type = annex_everything
+			}
+			every_country = {
+				limit = { is_in_faction_with = SOV } 
+				ENG = { declare_war_on = { target = PREV type = annex_everything } }
+				every_country = { limit = { is_in_faction_with = ENG }  
+			    declare_war_on = { 
+				 target = PREV
+				 type = annex_everything
+				}
+			 }
+			}			
+	}
+		option = {
+		name = "This is insane!"
+		transfer_state = 51 #Rhineland ###GERMANY###
+		transfer_state = 57 #Westfalen
+		transfer_state = 56 #Weser-Ems
+		transfer_state = 59 #Hannover
+		transfer_state = 58 #Schleswig-Holstein 
+		USA = {
+		transfer_state = 52 #Oberbayern ###GERMANY###
+		transfer_state = 53 #Niederbayern
+		transfer_state = 54 #Franken
+		transfer_state = 55 #Hessen
+		transfer_state = 50 #Wurttemberg 
+		}
+		FRA = {
+		transfer_state = 42 #Moselland ###GERMANY###
+		}
+			
+	}
+	
+}
+   country_event = {
+	id = britain.1113
+	title = britain.1113.t
+	desc = britain.1113.d
+	picture = GFX_report_event_degaulle_churchill
+
+	is_triggered_only = yes
+	
+	option = {
+		name = britain.1113.a
+		NOR = { set_rule = { can_join_factions = yes }}
+		add_to_faction = NOR
+		NOR = { country_event = { id = britain.1114} }
+	}
+}
+
+country_event = {
+	id = britain.1114
+	title = britain.1114.t
+	desc = britain.1114.d
+	picture = GFX_report_event_generic_sign_treaty2
+
+	is_triggered_only = yes
+
+	option = {
+		name = britain.1114.a
+	}
+}
+
+country_event = {
+	id = britain.1116
+	title = "The German Question"
+	desc = britain.1116.d
+	picture = GFX_report_event_generic_sign_treaty2
+
+	is_triggered_only = yes
+
+	option = {
+		name = "We will partition Germany instead"
+		transfer_state = 51 #Rhineland ###GERMANY###
+		transfer_state = 57 #Westfalen
+		transfer_state = 56 #Weser-Ems
+		transfer_state = 59 #Hannover
+		transfer_state = 58 #Schleswig-Holstein 
+		USA = {
+		transfer_state = 52 #Oberbayern ###GERMANY###
+		transfer_state = 53 #Niederbayern
+		transfer_state = 54 #Franken
+		transfer_state = 55 #Hessen
+		transfer_state = 50 #Wurttemberg 
+		}
+		FRA = {
+		transfer_state = 42 #Moselland ###GERMANY###
+		}
+			
+					
+	}
+		option = {
+		name = "On second hand, perhaps an armed German state would be useful..."
+	country_event = { id = britain.1115 }				
+	}
+	
+}
+
+
+add_namespace = germany
+add_namespace = ger_heavy
+
+
+country_event = {
+	id = ger_heavy.1
+	title = ger_heavy.1.t
+	desc = ger_heavy.1.d
+	picture = GFX_report_event_german_troops
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = ger_heavy.1.a
+	}
+}
+
+
+# Austrian Anschluss Completed
+country_event = {
+	id = germany.4
+	title = germany.4.t
+	desc = germany.4.d
+	picture = GFX_report_event_german_speech
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = germany.4.a
+	}
+}
+
+country_event = {
+	id = germany.5
+	title = germany.5.t
+	desc = germany.5.d
+	picture = GFX_report_event_japan_europe_pact
+
+	is_triggered_only = yes
+	
+	option = {
+		name = germany.5.a		#join
+	}
+}
+
+#molotov_ribbentrop_pact
+
+# Molotov-Ribbentrop Pact (Soviets)
+country_event = {
+	id = germany.11
+	title = germany.11.t
+	desc = germany.11.d
+	picture = GFX_report_event_molotov_ribentrop_handshake
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = germany.11.a	#sounds good
+
+		GER = {
+			country_event = { days = 1 id = germany.12 }
+		}
+	}	
+}
+
+# Memel - Lithuania Folds
+country_event = {
+	id = germany.22
+	title = germany.22.t
+	desc = germany.22.d
+	picture = GFX_report_event_vienna_award_hungary
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = germany.22.a
+		hidden_effect = {
+			country_event = { days = 1 id = news.19 }
+		}
+	}
+}
+
+
+# Britain
+country_event = {
+	id = germany.40
+	title = germany.40.t
+	desc = {
+		text = germany.40.d
+		trigger = { NOT = { has_war_with = GER } }
+	}
+	desc = {
+		text = germany.40.d_2
+		trigger = { has_war_with = GER }
+	}
+	desc = {
+		text = germany.40.d_3
+		trigger = {
+			NOT = { has_war_with = GER }
+			tag = HOL
+		}
+	}
+	picture = GFX_report_event_german_politician_speech
+	
+	is_triggered_only = yes
+	
+	option = { # Abandon the Czechs
+		name = germany.40.a
+
+		trigger = {
+			NOT = { has_war_with = GER } 
+			is_puppet = no # can't do anything if puppet
+		}
+	}
+	
+}
+
+# German-Soviet Treaty (Soviets)
+country_event = {
+	id = germany.75
+	title = germany.75.t
+	desc = germany.75.d
+	picture = GFX_report_event_physics_lab_01
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = germany.75.a	#sounds good
+		
+		add_tech_bonus = {
+			name = med_armor_bonus
+			ahead_reduction = 2
+			technology = basic_medium_tank
+			technology = improved_medium_tank			
+			}
+		add_tech_bonus = {
+			name = armor_bonus
+			bonus = 1.0
+			uses = 2
+			technology = advanced_light_tank
+			technology = basic_medium_tank
+			technology = improved_medium_tank
+		}
+				add_tech_bonus = {
+			name = armor_bonus
+			bonus = 1.0
+			uses = 1
+			technology = improved_heavy_tank
+			technology = advanced_heavy_tank
+		}
+	}
+	
+}
+
+
+
+# German Joint Air Research
+country_event = {
+	id = germany.78
+	title = germany.78.t
+	desc = germany.78.d
+	picture = GFX_report_event_radar_01
+
+	is_triggered_only = yes
+	
+	option = {
+		name = germany.78.a
+	}
+}
+
+# Danzig or War (Poland)
+country_event = {
+	id = germany.86
+	title = germany.86.t
+	desc = germany.86.d
+	picture = GFX_report_event_german_troops
+
+	is_triggered_only = yes
+
+	trigger = {
+		NOT = { has_war_with = GER }
+	}
+	
+	option = {
+		name = germany.86.b
+
+		GER = { country_event = { id = germany.88 days = 1 } 
+			
+		}		
+		hidden_effect = {
+			news_event = { hours = 1 id = news.204 }
+		}
+
+	}
+}
+
+# Poland Refuses to Cede Danzig (Danzig or War)
+country_event = {
+	id = germany.88
+	title = germany.88.t
+	desc = germany.88.d
+	picture = GFX_report_event_polish_tanks_02
+
+	is_triggered_only = yes
+	
+	option = {
+		name = germany.88.a
+	}
+}
+
+# Flight of Rudolf No Hindenburg 
+country_event = {
+	id = germany.107
+	title = germany.107.t
+	desc = germany.107.d
+	picture = GFX_report_event_airplane_crash
+	
+	is_triggered_only = yes
+	
+	immediate = { 
+		set_country_flag = flight_of_hess 
+		if = {
+			limit = {
+				has_idea = rudolf_hess
+			}
+			remove_ideas = rudolf_hess
+		}
+	}
+
+	option = {
+		name = germany.107.a
+	}
+}
+
+# Rudolf Hess killed No Hindenburg
+country_event = {
+	id = germany.108
+	title = germany.108.t
+	desc = germany.108.d
+	picture = GFX_report_event_airplane_crash
+	
+	is_triggered_only = yes
+	
+	immediate = { 
+		set_country_flag = flight_of_hess 
+		if = {
+			limit = {
+				has_idea = rudolf_hess
+			}
+			remove_ideas = rudolf_hess
+		}
+	}
+
+	option = {
+		name = germany.108.a
+	}
+}
+
+# Flight of Rudolf Hess (Hindenburg)
+country_event = {
+	id = germany.109
+	title = germany.107.t
+	desc = germany.109.d
+	picture = GFX_report_event_hindenburg_flames
+	
+	is_triggered_only = yes
+	
+	immediate = { 
+		set_country_flag = flight_of_hess 
+		if = {
+			limit = {
+				has_idea = rudolf_hess
+			}
+			remove_ideas = rudolf_hess
+		}
+	}
+
+	option = {
+		name = germany.108.a
+	}
+}
+
+# Rudolf Hess Killed (Hindenburg)
+country_event = {
+	id = germany.110
+	title = germany.108.t
+	desc = germany.110.d
+	picture = GFX_report_event_hindenburg_flames
+	
+	is_triggered_only = yes
+	
+	immediate = { 
+		set_country_flag = flight_of_hess 
+		if = {
+			limit = {
+				has_idea = rudolf_hess
+			}
+			remove_ideas = rudolf_hess
+		}
+	}
+
+	option = {
+		name = germany.110.a
+	}
+}
+
+add_namespace = soviet 
+# Great Purge - Begins
+country_event = {
+	id = soviet.24
+	title = soviet.24.t
+	desc = soviet.24.d
+	picture = GFX_report_event_soviet_purge_speech
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = soviet.24.a
+		
+	}
+}
+
+# Purge - New officers less dumb. Regaining org
+country_event = {
+	id = soviet.37
+	title = soviet.37.t
+	desc = soviet.37.d
+	picture = GFX_report_event_soldiers_marching
+
+	is_triggered_only = yes
+
+	trigger = {	has_idea = officers_purged }
+
+	immediate = {
+		hidden_effect = {
+			remove_ideas = officers_purged
+			add_timed_idea = {
+				idea = officers_purged_2
+				days = 1314
+			}
+			country_event = { id = soviet.38 days = 146 }
+		}
+	}
+	option = {
+		name = soviet.37.a
+		custom_effect_tooltip = soviet.37.a_tt
+	}
+}
+# Purge - New officers less dumb. Regaining org
+country_event = {
+	id = soviet.38
+	title = soviet.37.t
+	desc = soviet.37.d
+	picture = GFX_report_event_soldiers_marching
+
+	is_triggered_only = yes
+
+	trigger = {	has_idea = officers_purged_2 }
+
+	immediate = {
+		hidden_effect = {
+			remove_ideas = officers_purged_2
+			add_timed_idea = {
+				idea = officers_purged_3
+				days = 1168
+			}
+			country_event = { id = soviet.39 days = 146 }
+		}
+	}
+	option = {
+		name = soviet.37.a
+		custom_effect_tooltip = soviet.37.a_tt
+	}
+}
+# Purge - New officers less dumb. Regaining org
+country_event = {
+	id = soviet.39
+	title = soviet.37.t
+	desc = soviet.37.d
+	picture = GFX_report_event_soldiers_marching
+
+	is_triggered_only = yes
+
+	trigger = {	has_idea = officers_purged_3 }
+
+	immediate = {
+		hidden_effect = {
+			remove_ideas = officers_purged_3
+			add_timed_idea = {
+				idea = officers_purged_4
+				days = 1022
+			}
+			country_event = { id = soviet.40 days = 146 }
+		}
+	}
+	option = {
+		name = soviet.37.a
+		custom_effect_tooltip = soviet.37.a_tt
+	}
+}
+# Purge - New officers less dumb. Regaining org
+country_event = {
+	id = soviet.40
+	title = soviet.37.t
+	desc = soviet.37.d
+	picture = GFX_report_event_soldiers_marching
+
+	is_triggered_only = yes
+
+	trigger = {	has_idea = officers_purged_4 }
+
+	immediate = {
+		hidden_effect = {
+			remove_ideas = officers_purged_4
+			add_timed_idea = {
+				idea = officers_purged_5
+				days = 876
+			}	
+			country_event = { id = soviet.41 days = 146 }
+		}
+	}
+	option = {
+		name = soviet.37.a
+		custom_effect_tooltip = soviet.37.a_tt
+	}
+}
+# Purge - New officers less dumb. Regaining org
+country_event = {
+	id = soviet.41
+	title = soviet.37.t
+	desc = soviet.37.d
+	picture = GFX_report_event_soldiers_marching
+
+	is_triggered_only = yes
+
+	trigger = {	has_idea = officers_purged_5 }
+
+	immediate = {
+	hidden_effect = {
+			remove_ideas = officers_purged_5
+			add_timed_idea = {
+				idea = officers_purged_6
+				days = 730
+			}		
+			country_event = { id = soviet.42 days = 146 }
+		}
+	}
+	option = {
+		name = soviet.37.a
+		custom_effect_tooltip = soviet.37.a_tt
+	}
+}
+# Purge - New officers less dumb. Regaining org
+country_event = {
+	id = soviet.42
+	title = soviet.37.t
+	desc = soviet.37.d
+	picture = GFX_report_event_soldiers_marching
+
+	is_triggered_only = yes
+
+	trigger = {	has_idea = officers_purged_6 }
+
+	immediate = {
+		hidden_effect = {
+			remove_ideas = officers_purged_6
+			add_timed_idea = {
+				idea = officers_purged_7
+				days = 584
+			}
+			country_event = { id = soviet.43 days = 146 }
+		}
+	}
+	option = {
+		name = soviet.37.a
+		custom_effect_tooltip = soviet.37.a_tt
+	}
+}
+# Purge - New officers less dumb. Regaining org
+country_event = {
+	id = soviet.43
+	title = soviet.37.t
+	desc = soviet.37.d
+	picture = GFX_report_event_soldiers_marching
+
+	is_triggered_only = yes
+
+	trigger = {	has_idea = officers_purged_7 }
+
+	immediate = {
+		hidden_effect = {
+			remove_ideas = officers_purged_7
+			add_timed_idea = {
+				idea = officers_purged_8
+				days = 438
+			}
+			country_event = { id = soviet.44 days = 146 }
+		}
+	}
+	option = {
+		name = soviet.37.a
+		custom_effect_tooltip = soviet.37.a_tt
+	}
+}
+# Purge - New officers less dumb. Regaining org
+country_event = {
+	id = soviet.44
+	title = soviet.37.t
+	desc = soviet.37.d
+	picture = GFX_report_event_soldiers_marching
+
+	is_triggered_only = yes
+
+	trigger = {	has_idea = officers_purged_8 }
+
+	immediate = {
+		hidden_effect = {
+			remove_ideas = officers_purged_8
+			add_timed_idea = {
+				idea = officers_purged_9
+				days = 292
+			}				
+			country_event = { id = soviet.45 days = 146 }
+		}
+	}
+	option = {
+		name = soviet.37.a
+		custom_effect_tooltip = soviet.37.a_tt
+	}
+}
+# Purge - New officers less dumb. Regaining org
+country_event = {
+	id = soviet.45
+	title = soviet.37.t
+	desc = soviet.37.d
+	picture = GFX_report_event_soldiers_marching
+
+	is_triggered_only = yes
+
+	trigger = {	has_idea = officers_purged_9 }
+
+	immediate = {
+		hidden_effect = {
+			remove_ideas = officers_purged_9
+			add_timed_idea = {
+				idea = officers_purged_10
+				days = 146
+			}
+		}
+		country_event = { id = soviet.47 days = 146 }
+	}
+	option = {
+		name = soviet.37.a
+		custom_effect_tooltip = soviet.37.a_tt
+	}
+}
+
+
+
+country_event = {
+	id = soviet.53
+	title = soviet.53.t
+	desc = soviet.53.d
+	picture = GFX_report_event_stalin_01
+
+	fire_only_once = yes
+
+is_triggered_only = yes 
+
+	option = {
+		name = soviet.53.a
+		remove_ideas = trotskyite_plot_purged
+	}
+
+}
+
+    country_event = {	
+        id = soviet.501
+        title = "Siberian Reinforcements"
+        desc = "With the recent signing of the non-aggression pact with Japan, we were able to move our Siberian divisions to the western front. They will surely stop the Germans!"
+        picture = GFX_report_event_ussr_startup
+        fire_only_once = yes
+	    is_triggered_only = yes
+        option = {
+            name = "Za Stalina!"
+			add_ideas = SOV_barbarossa  
+   249 = {
+   	set_building_level = {
+					type = infrastructure
+					level = 10
+					instant_build = yes
+				}
+   }
+    217 = {
+   	set_building_level = {
+					type = infrastructure
+					level = 10
+					instant_build = yes
+				}
+   }
+   195 = {
+   	set_building_level = {
+					type = infrastructure
+					level = 10
+					instant_build = yes
+				}
+   } 
+
+			}
+			
+    }
+
+country_event = {
+	id = soviet.509
+	title = soviet.509.t
+	desc = soviet.509.d
+	picture = GFX_report_soviets_invade_manchuria
+	is_triggered_only =  yes
+	option = {
+		name = soviet.509.a
+		CHI = { transfer_state = 761 } 
+		SOV = { puppet = CHI}  
+					hidden_effect = { CHI = { set_cosmetic_tag = PRC_HORST}}
+		every_state = { limit = { is_core_of = MAN } CHI = { add_state_core = PREV } }
+	}
+}
+
+	
+add_namespace = mexico
+country_event = {
+	id = mexico.15
+	title = mexico.15.title
+	desc = mexico.15.desc
+	
+	picture = GFX_report_event_europe_funeral
+	
+	fire_only_once = yes
+	
+is_triggered_only = yes
+	
+	option = {
+		name = mexico.15.a # Rest in peace
+		
+		MEX_increase_church_power = yes
+
+	}
+	option = {
+		name = mexico.15.b # Burn in hell
+		
+		MEX_decrease_church_power = yes
+
+	}
+}
+
+
+country_event = {
+	id = mexico.17
+	title = mexico.17.title
+	desc = mexico.17.desc
+	
+	picture = GFX_report_event_communists_cheer
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = mexico.17.a
+	}
+}
+
+country_event = {
+	id = mexico.18
+	title = mexico.18.title
+	desc = mexico.18.desc
+	
+	picture = GFX_report_event_election_vote
+	
+	is_triggered_only = yes
+
+	trigger = {
+		original_tag = MEX
+		date < 1942.1.1
+		has_dlc = "Man the Guns"
+	}
+	
+	option = {
+		name = mexico.18.a
+		
+		country_event = {
+			id = mexico.19
+			days = 1
+		}
+		
+		ai_chance = {
+			factor = 75
+		}
+	}
+	
+	option = {
+		name = mexico.18.b
+		
+		trigger = {
+			NOT = {
+				has_government = democratic
+			}
+		}
+		
+		add_stability = -0.03
+		
+		if = {
+			limit = {
+				has_government = neutrality
+			}
+			set_politics = {
+				ruling_party = neutrality
+				elections_allowed = no
+			}
+		}
+
+		ai_chance = {
+			factor = 25
+			
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}
+
+
+country_event = {
+	id = mexico.19
+	title = mexico.19.title
+	desc = mexico.19.desc
+	
+	picture = GFX_report_event_election_vote
+	
+	is_triggered_only = yes
+	
+	# Neutrality
+	
+	option = { # Left-wing successor: Francisco Múgica
+		name = mexico.19.a
+		
+		trigger = {
+			NOT = {
+				has_country_leader = {
+					name = "Francisco Múgica"
+				}
+			}
+			has_government = neutrality
+		}
+
+		create_country_leader = {
+			name = "Francisco Múgica"
+			desc = "POLITICS_FRANCISCO_MUGICA_DESC"
+			picture = "GFX_portrait_mex_francisco_mugica"
+			expire = "1965.1.1"
+			ideology = moderatism
+			traits = {
+				revolutionary_general
+			}
+		}
+		
+		hidden_effect = { # Juan Andreu complains he was not selected
+				country_event = {
+					id = mexico.20
+					days = 1
+				}
+		}
+	}
+	
+	option = { # Compromise successor: Manuel Ávila
+		name = mexico.19.b
+		
+		trigger = {
+			NOT = {
+				has_country_leader = {
+					name = "Manuel Ávila Camacho"
+				}
+			}
+			has_government = neutrality
+		}
+
+		create_country_leader = {
+			name = "Manuel Ávila Camacho"
+			desc = "POLITICS_MANUEL_AVILA_DESC"
+			picture = "GFX_portrait_mex_avila_civil"
+			expire = "1965.1.1"
+			ideology = oligarchism
+			traits = {
+				the_gentleman_president
+			}
+		}
+		
+		hidden_effect = { # Juan Andreu complains he was not selected
+			if = {
+				limit = {
+					USA = {
+						is_subject = no
+						exists = yes
+						NOT = {
+							has_war_with = ROOT
+						}
+					}
+				}
+				country_event = {
+					id = mexico.20
+					days = 1
+				}
+			}
+		}
+	}
+	
+	option = { # Right-wing successor: Saturnino Cedillo
+		name = mexico.19.c
+		
+		trigger = {
+			NOT = {	has_global_flag = flag_mexico_cedillo_has_revolted	}
+			has_completed_focus = MEX_focus_support_general_cedillo
+			NOT = {
+				has_country_leader = {
+					name = "Saturnino Cedillo"
+				}
+			}
+			has_government = neutrality
+		}
+
+		create_country_leader = {
+			name = "Saturnino Cedillo"
+			desc = "POLITICS_SATURNINO_CEDILLO_DESC"
+			picture = "GFX_portrait_mex_saturnino_cedillo"
+			expire = "1965.1.1"
+			ideology = despotism
+			traits = {
+				strongman_of_san_luis_potosi
+			}
+		}
+	}
+	
+	option = { # Right-wing successor: Manuel Ávila
+		name = mexico.19.g
+		
+		trigger = {
+			NOT = {
+				has_country_leader = {
+					name = "Manuel Ávila Camacho"
+				}
+			}
+			has_government = democratic
+		}
+
+		create_country_leader = {
+			name = "Manuel Ávila Camacho"
+			desc = "POLITICS_MANUEL_AVILA_DESC"
+			picture = "GFX_portrait_mex_avila_civil"
+			expire = "1965.1.1"
+			ideology = conservatism
+			traits = {
+				the_gentleman_president
+			}
+		}
+		
+		hidden_effect = { # Juan Andreu complains he was not selected
+				country_event = {
+					id = mexico.20
+					days = 1
+				}
+		}
+	}
+
+
+
+
+}
+
+
+add_namespace = fincon
+
+#Continuation War chain (if Finland was attacked by Soviets during Winter War and lost)
+country_event = {
+	id = fincon.1
+	title = fincon.1.t
+	desc = fincon.1.d
+
+	picture = GFX_report_finland_continuation_war
+
+	fire_only_once = yes
+
+	is_triggered_only = yes 
+	
+	option = {
+		name = fincon.1.a
+		news_event = { id = fincon.2 }
+	}
+}
+
+news_event = {
+	id = fincon.2
+	title = fincon.2.t
+	desc = fincon.2.d
+	picture = GFX_news_event_finland_continuation_war
+	major = yes
+	is_triggered_only = yes
+	option = {
+		name = fincon.2.a
+		trigger = {
+			OR = {
+				has_government = fascism
+				has_war_with = SOV
+			}
+		}
+	}
+
+	option = {
+		name = fincon.2.b
+		trigger = {
+			AND = {
+				NOT = { has_government = fascism }
+				NOT = { has_war_with = SOV }
+			}
+		}
+	}	
+}
+
+news_event = {
+	id = fincon.6
+	title = fincon.6.t
+	desc = fincon.6.d
+	picture = GFX_news_event_end_of_continuation_war
+
+	major = yes
+
+	#fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = fincon.6.a
+		trigger = {
+			OR = {
+				has_government = fascism
+				has_war_with = SOV
+			}
+		}
+	}
+
+	option = {
+		name = fincon.6.b
+		trigger = {
+			AND = {
+				NOT = { has_government = fascism }
+				NOT = { has_war_with = SOV }
+			}
+		}
+	}	
+}
+
+country_event = {
+	id = mexico.20
+	title = mexico.20.title
+	desc = mexico.20.desc
+	
+	picture = GFX_report_event_election_vote
+	
+	is_triggered_only = yes
+
+	option = {
+		name = mexico.20.a
+	}
+}
+
+# Papal encyclical on Mexico issued by Pope Pius XI
+
+country_event = {
+	id = mexico.27
+	title = mexico.27.title
+	desc = mexico.27.desc
+	
+	picture = GFX_report_event_europe_funeral
+	
+	fire_only_once = yes
+	
+is_triggered_only = yes
+	
+	option = {
+		name = mexico.27.a # It is good that the anti-Church violence has ended.
+		
+		MEX_increase_church_power = yes
+	}
+	option = {
+		name = mexico.27.b # Superstitious propaganda, prevent publication of this treason!
+		
+		MEX_decrease_church_power = yes
+	}
+}
+
+add_namespace = wtt_manchukou
+
+#First five year plan
+country_event = {
+	id = wtt_manchukou.11
+	title = wtt_manchukou.11.t
+	desc = wtt_manchukou.11.desc
+	picture = GFX_report_event_generic_factory
+
+	is_triggered_only = yes
+	
+	#Air
+	option = {
+		name = wtt_manchukou.11.a
+		if = { 
+		limit = { original_tag = MAN }
+		add_timed_idea = { days = 1825 idea = MAN_five_year_plan_air }
+		}
+	}	
+	#Tank
+	option = {
+		name = wtt_manchukou.11.b
+				if = { 
+		limit = { original_tag = MAN }
+		add_timed_idea = { days = 1825 idea = MAN_five_year_plan_tank }
+		}
+	}	
+	#Industry
+	option = {
+		name = wtt_manchukou.11.c
+				if = { 
+		limit = { original_tag = MAN }
+		add_timed_idea = { days = 1825 idea = MAN_five_year_plan_industry }
+		}
+	}
+}
+
+
+country_event = {
+	id = wtt_manchukou.100
+	title = wtt_manchukou.100.t
+	desc = wtt_manchukou.100.desc
+	picture = GFX_report_event_generic_train
+
+	is_triggered_only = yes
+	
+	option = {
+		name = wtt_manchukou.100.a #okay
+		
+		trigger = { has_completed_focus = MAN_pacify_the_countrysidex }
+		
+				name = wtt_manchukou.129.a #okay
+				715 = {
+		add_extra_state_shared_building_slots = 3
+		add_building_construction = {
+		type = infrastructure 
+		level = 2
+		}
+			add_building_construction = {
+		type = industrial_complex 
+		level = 1
+		}
+		}
+		
+		hidden_effect  {
+		country_event = { id = wtt_manchukou.120 days = 70 }
+		}
+	}
+}
+
+
+country_event = {
+	id = wtt_manchukou.120
+	title = wtt_manchukou.120.t
+	desc = wtt_manchukou.120.desc
+	picture = GFX_report_event_generic_train
+
+	is_triggered_only = yes
+	
+	option = {
+		name = wtt_manchukou.100.a #okay
+		
+				trigger = { has_completed_focus = MAN_pacify_the_countrysidex }
+
+				country_event = { id = wtt_manchukou.101  }
+
+		
+		hidden_effect = {
+		set_country_flag = MAN_liaotung 		complete_national_focus = MAN_railways_liaotung
+
+		}
+		
+		716 = {
+		add_extra_state_shared_building_slots = 3
+		add_building_construction = {
+		type = infrastructure 
+		level = 2
+		}
+			add_building_construction = {
+		type = industrial_complex 
+		level = 1
+		}
+		}
+		
+		}
+		}
+
+
+country_event = {
+	id = wtt_manchukou.101
+	title = wtt_manchukou.101.t
+	desc = wtt_manchukou.101.desc
+	picture = GFX_report_event_generic_train
+
+	is_triggered_only = yes
+
+	option = {
+	name = wtt_manchukou.101.a #Jehol
+	
+	trigger = { NOT = {  has_country_flag = MAN_jehol }   }  
+	
+	hidden_effect = {
+					country_event = { id = wtt_manchukou.121 days = 70 }
+		}
+	
+	}
+	
+		
+		
+	option = {
+	name = wtt_manchukou.101.b #Kirin
+	
+	trigger = { NOT = { has_country_flag = MAN_kirin }   }
+	
+		ai_chance = {
+			factor = 5000
+			}
+	
+	hidden_effect = {
+					country_event = { id = wtt_manchukou.122 days = 70 }
+		}
+		
+		
+	}
+	
+	
+
+	option = {
+		name = wtt_manchukou.101.c #Heilungkiang
+			trigger = { NOT = { has_country_flag = MAN_heilungkiang }   }
+
+		ai_chance = {
+			factor = 1
+			}
+			
+			hidden_effect = {
+		country_event = { id = wtt_manchukou.128 days = 70 }
+		}
+	
+	}
+		
+
+	option = {
+		name = wtt_manchukou.101.z #Chahar
+		
+		trigger = { NOT = { has_country_flag = MAN_chahar }   }
+		
+	hidden_effect = {
+		country_event = { id = wtt_manchukou.123 days = 70 }
+		}	
+	
+	}
+	
+	
+	
+	option = {
+		name = wtt_manchukou.101.e #South Chahar
+		
+	trigger = { AND = { NOT = { has_country_flag = MAN_schahar}  }   
+	has_country_flag =  MAN_chahar 
+	has_country_flag =  MAN_jehol 
+	
+	}
+	
+	hidden_effect = {
+		country_event = { id = wtt_manchukou.124 days = 70 }
+		}	
+	
+	}
+	
+	option = {
+		name = wtt_manchukou.101.f #Sungkiang
+		trigger = { AND = { NOT = { has_country_flag = MAN_sungkiang}  }   
+	has_country_flag = MAN_heilungkiang 
+	has_country_flag =  MAN_kirin 
+	
+	}
+			hidden_effect = {
+		country_event = { id =  wtt_manchukou.125 days = 70 } 
+		}
+	}
+	
+	
+
+	option = {
+		name = wtt_manchukou.101.g #Hulunbuir
+		
+	trigger = { AND = { NOT = { has_country_flag = MAN_hulunbuir}  }   
+	has_country_flag =  MAN_heilungkiang 
+	has_country_flag = MAN_chahar 
+	
+	}
+		
+			hidden_effect = {
+		country_event = { id = wtt_manchukou.126 days = 70 }
+		}
+	}
+	
+	
+
+		option = {
+		name = wtt_manchukou.101.h #option leads to an event announcing the completion of the railroad network
+
+		trigger = {  AND = { 
+		has_country_flag = MAN_hulunbuir
+		has_country_flag = MAN_schahar
+		has_country_flag = MAN_sungkiang
+		} }
+		country_event = { id = wtt_manchukou.127 days = 70 }
+	}
+	
+	
+	
+}
+
+country_event = {
+	id = wtt_manchukou.121
+	title = wtt_manchukou.121.t
+	desc = wtt_manchukou.121.desc
+	picture = GFX_report_event_generic_train
+
+	is_triggered_only = yes
+	
+	option = {
+		name = wtt_manchukou.121.a #okay
+		
+				trigger = { AND = { has_completed_focus = MAN_pacify_the_countrysidex  } NOT = { has_country_flag = MAN_jehol }            }
+
+		
+			610	= {
+		add_extra_state_shared_building_slots = 3
+		add_building_construction = {
+		type = infrastructure 
+		level = 2
+		}
+			add_building_construction = {
+		type = industrial_complex 
+		level = 1
+		}
+		}
+		
+		hidden_effect = { set_country_flag = MAN_jehol 
+		complete_national_focus = MAN_railways_jehol
+		}
+		
+				country_event = { id = wtt_manchukou.101  }
+				
+				
+				}
+				
+				}
+				
+				country_event = {
+	id = wtt_manchukou.122
+	title = wtt_manchukou.122.t
+	desc = wtt_manchukou.122.desc
+	picture = GFX_report_event_generic_train
+
+	is_triggered_only = yes
+	
+	option = {
+		name = wtt_manchukou.122.a #okay
+		
+				trigger = { AND = { has_completed_focus = MAN_pacify_the_countrysidex  } NOT = { has_country_flag = MAN_kirin }            }
+
+				328 = {
+		add_extra_state_shared_building_slots = 3
+		add_building_construction = {
+		type = infrastructure 
+		level = 2
+		}
+			add_building_construction = {
+		type = industrial_complex 
+		level = 1
+		}
+		}
+		
+		hidden_effect = { set_country_flag = MAN_kirin 		complete_national_focus = MAN_railways_kirin
+}
+		
+				country_event = { id = wtt_manchukou.101  }
+				
+				
+				}
+				
+				}
+				
+				country_event = {
+	id = wtt_manchukou.123
+	title = wtt_manchukou.123.t
+	desc = wtt_manchukou.123.desc
+	picture = GFX_report_event_generic_train
+
+	is_triggered_only = yes
+	
+	option = {
+		name = wtt_manchukou.123.a #okay
+		
+				trigger = { AND = { has_completed_focus = MAN_pacify_the_countrysidex  } NOT = { has_country_flag = MAN_chahar }            }
+
+			612	= {
+		add_extra_state_shared_building_slots = 3
+		add_building_construction = {
+		type = infrastructure 
+		level = 2
+		}
+			add_building_construction = {
+		type = industrial_complex 
+		level = 1
+		}
+		}
+		
+		hidden_effect = { set_country_flag = MAN_chahar    		complete_national_focus = MAN_railways_chahar
+}
+		
+				country_event = { id = wtt_manchukou.101  }
+				
+				
+				}
+				
+				}
+				
+				country_event = {
+	id = wtt_manchukou.124
+	title = wtt_manchukou.124.t
+	desc = wtt_manchukou.124.desc
+	picture = GFX_report_event_generic_train
+
+	is_triggered_only = yes
+	
+	option = {
+		name = wtt_manchukou.124.a #okay
+		
+				trigger = { AND = { has_completed_focus = MAN_pacify_the_countrysidex  } NOT = { has_country_flag = MAN_schahar }            }
+
+		
+		611		= {
+		add_extra_state_shared_building_slots = 3
+		add_building_construction = {
+		type = infrastructure 
+		level = 2
+		}
+			add_building_construction = {
+		type = industrial_complex 
+		level = 1
+		}
+		}
+		
+		hidden_effect = { set_country_flag = MAN_schahar   		complete_national_focus = MAN_railways_schahar
+ }
+		
+				country_event = { id = wtt_manchukou.101  }
+				
+				
+				}
+				
+				}
+				
+				country_event = {
+	id = wtt_manchukou.125
+	title = wtt_manchukou.125.t
+	desc = wtt_manchukou.125.desc
+	picture = GFX_report_event_generic_train
+	
+	
+
+	is_triggered_only = yes
+	
+	option = {
+		name = wtt_manchukou.125.a #okay
+		
+				trigger = { AND = { has_completed_focus = MAN_pacify_the_countrysidex  } NOT = { has_country_flag = MAN_sungkiang }            }
+
+		
+	717	= {
+		add_extra_state_shared_building_slots = 3
+		add_building_construction = {
+		type = infrastructure 
+		level = 2
+		}
+			add_building_construction = {
+		type = industrial_complex 
+		level = 1
+		}
+		}
+		
+		
+		
+		
+		
+		hidden_effect = { set_country_flag = MAN_sungkiang   		complete_national_focus = MAN_railways_sungkiang
+ }
+		
+				country_event = { id = wtt_manchukou.101  }
+				
+				
+				}
+				}
+				
+
+
+	country_event = {
+	id = wtt_manchukou.126
+	title = wtt_manchukou.126.t
+	desc = wtt_manchukou.126.desc
+	picture = GFX_report_event_generic_train
+
+	is_triggered_only = yes
+	
+	option = {
+		name = wtt_manchukou.126.a #okay
+		
+				trigger = { AND = { has_completed_focus = MAN_pacify_the_countrysidex  } NOT = { has_country_flag = MAN_hulunbuir }            }
+
+			761	= {
+		add_extra_state_shared_building_slots = 3
+		add_building_construction = {
+		type = infrastructure 
+		level = 2
+		}
+			add_building_construction = {
+		type = industrial_complex 
+		level = 1
+		}
+		}
+		
+		hidden_effect = { set_country_flag = MAN_hulunbuir  		complete_national_focus = MAN_railways_hulunbuir
+} 
+		
+				country_event = { id = wtt_manchukou.101  }
+				
+				
+				}
+				
+				}
+
+
+
+	country_event = {
+	id = wtt_manchukou.128
+	title = wtt_manchukou.128.t
+	desc = wtt_manchukou.128.desc
+	picture = GFX_report_event_generic_train
+
+	is_triggered_only = yes
+	
+	option = {
+		name = wtt_manchukou.128.a #okay
+		
+				trigger = { AND = { has_completed_focus = MAN_pacify_the_countrysidex  } NOT = { has_country_flag = MAN_heilungkiang }            }
+
+		
+			714	= {
+		add_extra_state_shared_building_slots = 3
+		add_building_construction = {
+		type = infrastructure 
+		level = 2
+		}
+			add_building_construction = {
+		type = industrial_complex 
+		level = 1
+		}
+		}
+		
+		hidden_effect = { set_country_flag = MAN_heilungkiang 		complete_national_focus = MAN_railways_heilungkiang
+} 
+		
+				country_event = { id = wtt_manchukou.101  }
+				
+				}
+				}
+				
+				country_event = {
+	id = wtt_manchukou.127
+	title = wtt_manchukou.127.t
+	desc = wtt_manchukou.127.desc
+	picture = GFX_report_event_generic_train
+
+	is_triggered_only = yes
+	
+	option = {
+		name = wtt_manchukou.127.a #okay
+			
+				
+				}
+				
+				}
+				
+				
+				add_namespace = news
+
+# Marco Polo Bridge I
+news_event = {
+	id = news.1
+	title = news.1.t
+	desc = news.1.d
+	picture = GFX_news_event_001
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news.1.a
+		trigger = {
+			NOT = {
+				TAG = JAP
+				TAG = CHI
+			}
+		}
+	}
+	option = {
+		name = news.1.b
+		trigger = { TAG = JAP }
+	}
+	option = {
+		name = news.1.c
+		trigger = { TAG = CHI }
+	}
+}
+
+# Marco Polo Bridge II
+news_event = {
+	id = news.2
+	title = news.1.t
+	desc = news.2.d
+	picture = GFX_news_event_018
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news.2.a
+		trigger = {
+			NOT = {
+				TAG = JAP
+				TAG = CHI
+			}
+		}
+	}
+	option = {
+		name = news.2.b
+		trigger = { TAG = JAP }
+	}
+	option = {
+		name = news.2.c
+		trigger = { TAG = CHI }
+	}
+}
+
+# German Claims Memel - Lithania Folds
+news_event = {
+	id = news.19
+	title = news.19.t
+	desc = news.19.d
+	picture = GFX_news_event_romanian_soldiers
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news.19.a
+		trigger = {
+			NOT = {
+				TAG = GER
+				is_in_faction_with = GER
+			}
+		}
+	}
+	option = {
+		name = news.19.b
+		trigger = { TAG = GER }
+	}
+	option = {
+		name = news.19.e
+		trigger = {
+			NOT = {
+				TAG = GER
+			}
+			is_in_faction_with = GER
+		}
+	}
+}
+
+# Italian Ultimatum - Zog Yields
+news_event = {
+	id = news.22
+	title = news.22.t
+	desc = news.22.d
+	picture = GFX_news_event_008
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news.22.a
+		trigger = {
+			NOT = {
+				TAG = ITA
+				TAG = ALB
+				is_in_faction_with = ITA
+			}
+		}
+	}
+	option = {
+		name = news.22.b
+		trigger = { TAG = ITA }
+	}
+	option = {
+		name = news.22.c
+		trigger = {
+			NOT = {
+				TAG = ITA
+				TAG = ALB
+			}
+			is_in_faction_with = ITA
+		}
+	}
+}
+
+# Remilitarization of the Rhineland (Peaceful)
+news_event = {
+	id = news.25
+	title = news.25.t
+	desc = news.25.d
+	picture = GFX_news_event_hitler_speech
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news.25.a
+		trigger = {
+			NOT = {
+				TAG = GER
+				TAG = FRA
+				TAG = ENG
+				is_in_faction_with = GER
+			}
+		}
+	}
+	option = {
+		name = news.25.b
+		trigger = { TAG = GER }
+	}
+	option = {
+		name = news.25.c
+		trigger = { TAG = FRA }
+	}
+	option = {
+		name = news.25.e
+		trigger = { TAG = ENG }
+	}
+	option = {
+		name = news.25.b
+		trigger = {
+			NOT = {
+				TAG = GER
+				TAG = FRA
+				TAG = ENG
+			}
+			is_in_faction_with = GER
+		}
+	}
+}
+
+# The Molotov-Ribbentrop Pact
+news_event = {
+	id = news.32
+	title = news.32.t
+	desc = news.32.d
+	picture = GFX_news_event_017
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news.32.a
+		trigger = {
+			NOT = {
+				TAG = GER
+				TAG = SOV
+				is_in_faction_with = GER
+				is_in_faction_with = SOV
+			}
+		}
+		if = {
+			limit = {
+				original_tag = ENG
+				has_government = communism
+			}
+			create_country_leader = {
+				name = "Rajani Palme Dutt"
+				desc = "POLITICS_PALME_DUTT_DESC"
+				picture = "Portrait_Britain_Palme_Dutt.dds"
+				expire = "1965.1.1"
+				ideology = leninism
+				traits = {
+					comintern_workhorse
+				}
+			}
+		}
+	}
+	option = {
+		name = news.32.b
+		trigger = { 
+			OR = {
+				TAG = GER
+				is_in_faction_with = GER
+			}
+			NOT = {
+				tag = SOV
+			}
+			NOT = {
+				is_in_faction_with = SOV
+			}
+		}
+	}
+	option = {
+		name = news.32.c
+		trigger = { 
+			OR = {
+				TAG = SOV
+				is_in_faction_with = SOV
+			}
+			NOT = {
+				tag = GER
+				is_in_faction_with = GER
+			}
+		}
+	}
+	option = {
+		name = news.32.e
+		trigger = {
+			OR = {
+				AND = {
+					tag = GER
+					is_in_faction_with = SOV
+				}
+				AND = {
+					tag = SOV
+					is_in_faction_with = GER
+				}
+				AND = {
+					is_in_faction_with = SOV
+					is_in_faction_with = GER
+				}
+			}
+		}
+	}
+}
+
+# Second Compiegne Armistice
+news_event = {
+	id = news.34
+	title = news.34.t
+	desc = news.34.d
+	picture = GFX_news_event_hitler_handshake
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news.34.a
+		trigger = {
+			OR = {
+				NOT = { original_tag = FRA }
+				AND = {
+					original_tag = FRA
+					NOT = { has_government = democratic }
+				}
+			}
+			NOT = { TAG = GER	}
+			NOT = { is_in_faction_with = GER }
+		}
+	}
+	option = {
+		name = news.34.b
+		trigger = {
+			OR = {
+				is_in_faction_with = GER
+				TAG = GER 
+			}
+		}
+	}
+	option = {
+		name = news.34.c
+		trigger = {
+			original_tag = FRA 
+			has_government = democratic
+		}
+	}
+}
+
+# Anschluss of Austria
+news_event = {
+	id = news.36
+	title = news.36.t
+	desc = news.36.d
+	picture = GFX_news_event_german_speech
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news.36.a
+		trigger = {
+			NOT = {
+				TAG = GER
+				TAG = ITA
+				TAG = FRA
+				TAG = ENG
+			}
+		}
+	}
+	option = {
+		name = news.36.b
+		trigger = { TAG = GER }
+	}
+	option = {
+		name = news.36.c
+		trigger = { TAG = ITA }
+	}
+	option = {
+		name = news.36.e
+		trigger = {
+			OR = {
+				TAG = FRA
+				TAG = ENG
+			}
+		}
+	}
+}
+
+# Trotsky Assassination
+news_event = {
+	id = news.37
+	title = news.37.t
+	desc = news.37.d
+	picture = GFX_news_event_024
+	
+	major = yes
+	
+	is_triggered_only = yes
+
+	option = {
+		name = news.37.a
+		trigger = { 
+			NOT = { 
+				TAG = SOV 
+				is_in_faction_with = SOV
+			} 
+		}
+	}
+	option = {
+		name = news.37.b
+		trigger = { TAG = SOV }
+	}
+
+	option = {
+		name = news.37.c
+		trigger = { 
+			is_in_faction_with = SOV
+			NOT = {
+				tag = SOV
+			} 
+		}
+	}
+}
+
+# Flight of Rudolf Hess
+news_event = {
+	id = news.44
+	title = news.44.t
+	desc = news.44.d
+	picture = GFX_news_event_029
+	
+	major = yes
+	
+	is_triggered_only = yes
+
+	show_major = {
+		NOT = { tag = GER }
+	}
+	
+	option = {
+		name = news.44.a
+		trigger = {
+			NOT = {
+				TAG = GER
+				TAG = ENG
+			}
+		}
+	}
+	option = {
+		name = news.44.b
+		trigger = { TAG = GER }
+	}
+	option = {
+		name = news.44.c
+		trigger = { TAG = ENG }
+	}
+}
+
+# Rudolf Hess Killed
+news_event = {
+	id = news.45
+	title = news.45.t
+	desc = news.45.d
+	picture = GFX_news_event_029
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	show_major = {
+		NOT = { tag = GER }
+	}	
+	
+	option = {
+		name = news.45.a
+		trigger = {
+			NOT = {
+				TAG = GER
+				TAG = ENG
+			}
+		}
+	}
+	option = {
+		name = news.45.b
+		trigger = { TAG = GER }
+	}
+	option = {
+		name = news.45.c
+		trigger = { TAG = ENG }
+	}
+}
+
+# Rudolf Hess Trigger (HIDDEN)
+news_event = {
+	id = news.52
+	hidden = yes
+	
+	fire_only_once = yes
+	
+is_triggered_only = yes 
+	
+	immediate = {
+				ENG = { news_event = { id = news.44 } }
+				GER = { country_event = { id = germany.107 } }
+	}
+	
+	option = {
+		name = news.52.a
+	}
+}
+
+# Anglo-Polish Alliance
+news_event = {
+	id = news.55
+	title = news.55.t
+	desc = news.55.d
+	picture = GFX_news_event_021
+
+	major = yes
+	fire_only_once = yes
+	
+	trigger = {
+		POL = {
+			is_in_faction_with = ENG
+			is_in_faction_with = FRA 
+			NOT = { is_in_faction_with = GER }
+		}
+		GER = {
+			has_completed_focus = GER_demand_memel
+		}
+	}
+	
+	option = {
+		name = news.55.a
+		trigger = {
+			NOT = {
+				TAG = GER
+				TAG = ENG
+				TAG = POL
+				TAG = FRA
+			}
+		}
+	}
+	option = {
+		name = news.55.b
+		trigger = { TAG = GER }
+	}
+	option = {
+		name = news.55.c
+		trigger = { TAG = ENG }
+	}
+	option = {
+		name = news.55.e
+		trigger = { TAG = POL }
+	}
+	option = {
+		name = news.55.f
+		trigger = { TAG = FRA }
+	}
+}
+
+# The Fall of London (Germany)
+news_event = {
+	id = news.102
+	title = news.102.t
+	desc = news.102.d
+	picture = GFX_news_event_soldiers_marching
+	
+	major = yes
+	
+	trigger = {
+		126 = { is_controlled_by = GER }
+		126 = { is_owned_by = ENG }
+		GER = { has_war_with = ENG }
+		NOT = { has_global_flag = fall_of_london_ger }
+	}
+	
+	immediate = {
+		set_global_flag = fall_of_london_ger
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	option = {
+		name = news.145.a
+		trigger = {
+			NOT = {
+				TAG = GER
+				TAG = ENG
+			}
+		}
+	}
+	option = {
+		name = news.100.b
+		trigger = { TAG = GER }
+	}
+	option = {
+		name = news.100.c
+		trigger = { TAG = ENG }
+	}
+}
+
+# The Fall of Leningrad
+news_event = {
+	id = news.103
+	title = news.103.t
+	desc = news.103.d
+	picture = GFX_news_event_soldiers_marching
+	
+	major = yes
+	
+	trigger = {
+		195 = { is_controlled_by = GER }
+		195 = { is_owned_by = SOV }
+		GER = { has_war_with = SOV }
+		NOT = { has_global_flag = fall_of_leningrad }
+	}
+	
+	immediate = {
+		set_global_flag = fall_of_leningrad
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	option = {
+		name = news.145.a
+		trigger = {
+			NOT = {
+				TAG = GER
+				TAG = SOV
+			}
+		}
+	}
+	option = {
+		name = news.100.b
+		trigger = { TAG = GER }
+	}
+	option = {
+		name = news.103.c
+		trigger = { TAG = SOV }
+	}
+}
+
+# The Fall of Stalingrad
+news_event = {
+	id = news.105
+	title = news.105.t
+	desc = news.105.d
+	picture = GFX_news_event_soviet_soldiers_ruins
+	
+	major = yes
+	
+	trigger = {
+		217 = { is_controlled_by = GER }
+		217 = { is_owned_by = SOV }
+		GER = { has_war_with = SOV }
+		NOT = { has_global_flag = fall_of_stalingrad }
+	}
+	
+	immediate = {
+		set_global_flag = fall_of_stalingrad
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	option = {
+		name = news.145.a
+		trigger = {
+			NOT = {
+				TAG = GER
+				TAG = SOV
+			}
+		}
+	}
+	option = {
+		name = news.100.b
+		trigger = { TAG = GER }
+	}
+	option = {
+		name = news.103.c
+		trigger = { TAG = SOV }
+	}
+}
+
+# The Fall of Moscow
+news_event = {
+	id = news.106
+	title = news.106.t
+	desc = news.106.d
+	picture = GFX_news_event_soldiers_marching
+	
+	major = yes
+	
+	trigger = {
+		219 = { is_controlled_by = GER }
+		219 = { is_owned_by = SOV }
+		SOV = { has_war_with = GER }
+		NOT = { has_global_flag = fall_of_moscow }
+	}
+	
+	immediate = {
+		set_global_flag = fall_of_moscow
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	option = {
+		name = news.106.a
+		trigger = {
+			NOT = {
+				TAG = GER
+				TAG = SOV
+			}
+		}
+	}
+	option = {
+		name = news.106.b
+		trigger = { TAG = GER }
+	}
+	option = {
+		name = news.106.c
+		trigger = { TAG = SOV }
+	}
+}
+
+# The Fall of Sevastopol
+news_event = {
+	id = news.107
+	title = news.107.t
+	desc = news.107.d
+	picture = GFX_news_event_kiev_ruins
+	
+	major = yes
+	
+	trigger = {
+		137 = { is_controlled_by = GER }
+		137 = { is_owned_by = SOV }
+		GER = { has_war_with = SOV }
+		NOT = { has_global_flag = fall_of_sevastopol }
+	}
+	
+	immediate = {
+		set_global_flag = fall_of_sevastopol
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	option = {
+		name = news.145.a
+		trigger = {
+			NOT = {
+				TAG = GER
+				TAG = SOV
+			}
+		}
+	}
+	option = {
+		name = news.100.b
+		trigger = { TAG = GER }
+	}
+	option = {
+		name = news.103.c
+		trigger = { TAG = SOV }
+	}
+}
+
+# The Fall of Baku
+news_event = {
+	id = news.108
+	title = news.108.t
+	desc = news.108.d
+	picture = GFX_news_event_kiev_ruins
+	
+	major = yes
+	
+	trigger = {
+		229 = { is_controlled_by = GER }
+		229 = { is_owned_by = SOV }
+		GER = { has_war_with = SOV }
+		NOT = { has_global_flag = fall_of_baku }
+	}
+	
+	immediate = {
+		set_global_flag = fall_of_baku
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	option = {
+		name = news.145.a
+		trigger = {
+			NOT = {
+				TAG = GER
+				TAG = SOV
+			}
+		}
+	}
+	option = {
+		name = news.100.b
+		trigger = { TAG = GER }
+	}
+	option = {
+		name = news.103.c
+		trigger = { TAG = SOV }
+	}
+}
+
+# The Fall of Washington
+news_event = {
+	id = news.110
+	title = news.110.t
+	desc = news.110.d
+	picture = GFX_news_event_soldiers_marching
+	
+	major = yes
+	
+	trigger = {
+		361 = { is_controlled_by = GER }
+		361 = { is_owned_by = USA }
+		GER = { has_war_with = USA }
+		NOT = { has_global_flag = fall_of_washington }
+	}
+	
+	immediate = {
+		set_global_flag = fall_of_washington
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	option = {
+		name = news.145.a
+		trigger = {
+			NOT = {
+				TAG = GER
+				TAG = USA
+			}
+		}
+	}
+	option = {
+		name = news.100.b
+		trigger = { TAG = GER }
+	}
+	option = {
+		name = news.100.c
+		trigger = { TAG = USA }
+	}
+}
+
+# The Fall of New York
+news_event = {
+	id = news.111
+	title = news.111.t
+	desc = news.111.d
+	picture = GFX_news_event_soldiers_marching
+	
+	major = yes
+	
+	trigger = {
+		358 = { is_controlled_by = GER }
+		358 = { is_owned_by = USA }
+		GER = { has_war_with = USA }
+		NOT = { has_global_flag = fall_of_new_york }
+	}
+	
+	immediate = {
+		set_global_flag = fall_of_new_york
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	option = {
+		name = news.145.a
+		trigger = {
+			NOT = {
+				TAG = GER
+				TAG = USA
+			}
+		}
+	}
+	option = {
+		name = news.100.b
+		trigger = { TAG = GER }
+	}
+	option = {
+		name = news.100.c
+		trigger = { TAG = USA }
+	}
+}
+
+# The Fall of Pearl Harbor
+news_event = {
+	id = news.118
+	title = news.118.t
+	desc = news.118.d
+	picture = GFX_news_event_soldiers_marching
+	
+	major = yes
+	
+	trigger = {
+		629 = { is_controlled_by = JAP }
+		629 = { is_owned_by = USA }
+		JAP = { has_war_with = USA }
+		NOT = { has_global_flag = fall_of_pearl_harbor }
+	}
+	
+	immediate = {
+		set_global_flag = fall_of_pearl_harbor
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	option = {
+		name = news.145.a
+		trigger = {
+			NOT = {
+				TAG = JAP
+				TAG = USA
+			}
+		}
+	}
+	option = {
+		name = news.117.b
+		trigger = { TAG = JAP }
+	}
+	option = {
+		name = news.100.c
+		trigger = { TAG = USA }
+	}
+}
+
+# The Fall of Sydney
+news_event = {
+	id = news.119
+	title = news.119.t
+	desc = news.119.d
+	picture = GFX_news_event_047
+	
+	major = yes
+	
+	trigger = {
+		285 = { is_controlled_by = JAP }
+		285 = { is_owned_by = AST }
+		JAP = { has_war_with = AST }
+		NOT = { has_global_flag = fall_of_sydney }
+	}
+	
+	immediate = {
+		set_global_flag = fall_of_sydney
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	option = {
+		name = news.145.a
+		trigger = {
+			NOT = {
+				TAG = JAP
+				TAG = AST
+			}
+		}
+	}
+	option = {
+		name = news.117.b
+		trigger = { TAG = JAP }
+	}
+	option = {
+		name = news.100.c
+		trigger = { TAG = AST }
+	}
+}
+
+# The Fall of Los Angeles
+news_event = {
+	id = news.120
+	title = news.120.t
+	desc = news.120.d
+	picture = GFX_news_event_soldiers_marching
+	
+	major = yes
+	
+	trigger = {
+		378 = { is_controlled_by = JAP }
+		378 = { is_owned_by = USA }
+		JAP = { has_war_with = USA }
+		NOT = { has_global_flag = fall_of_los_angeles }
+	}
+	
+	immediate = {
+		set_global_flag = fall_of_los_angeles
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	option = {
+		name = news.145.a
+		trigger = {
+			NOT = {
+				TAG = JAP
+				TAG = USA
+			}
+		}
+	}
+	option = {
+		name = news.117.b
+		trigger = { TAG = JAP }
+	}
+	option = {
+		name = news.100.c
+		trigger = { TAG = USA }
+	}
+}
+
+# The Fall of Manila
+news_event = {
+	id = news.124
+	title = news.124.t
+	desc = news.124.d
+	picture = GFX_news_event_039
+	
+	major = yes
+	
+	trigger = {
+		327 = { is_controlled_by = JAP }
+		NOT = { has_global_flag = fall_of_manila }
+	}
+	
+	immediate = {
+		set_global_flag = fall_of_manila
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	option = {
+		name = news.145.a
+		trigger = {
+			NOT = {
+				TAG = JAP
+				TAG = USA
+			}
+		}
+	}
+	option = {
+		name = news.117.b
+		trigger = { TAG = JAP }
+	}
+	option = {
+		name = news.100.c
+		trigger = { 
+				TAG = USA
+		}
+	}
+}
+
+# The Fall of Calcutta
+news_event = {
+	id = news.125
+	title = news.125.t
+	desc = news.125.d
+	picture = GFX_news_event_046
+	
+	major = yes
+	
+	trigger = {
+		431 = { is_controlled_by = JAP }
+		431 = { is_owned_by = ENG }
+		JAP = { has_war_with = ENG }
+		NOT = { has_global_flag = fall_of_calcutta }
+	}
+	
+	immediate = {
+		set_global_flag = fall_of_calcutta
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	option = {
+		name = news.145.a
+		trigger = {
+			NOT = {
+				TAG = JAP
+				TAG = ENG
+			}
+		}
+	}
+	option = {
+		name = news.117.b
+		trigger = { TAG = JAP }
+	}
+	option = {
+		name = news.100.c
+		trigger = { TAG = ENG }
+	}
+}
+
+# The Fall of New Delhi
+news_event = {
+	id = news.126
+	title = news.126.t
+	desc = news.126.d
+	picture = GFX_news_event_041
+	
+	major = yes
+	
+	trigger = {
+		439 = { is_controlled_by = JAP }
+		439 = { is_owned_by = ENG }
+		JAP = { has_war_with = ENG }
+		NOT = { has_global_flag = fall_of_new_delhi }
+	}
+	
+	immediate = {
+		set_global_flag = fall_of_new_delhi
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	option = {
+		name = news.145.a
+		trigger = {
+			NOT = {
+				TAG = JAP
+				TAG = ENG
+			}
+		}
+	}
+	option = {
+		name = news.117.b
+		trigger = { TAG = JAP }
+	}
+	option = {
+		name = news.100.c
+		trigger = { TAG = ENG }
+	}
+}
+
+# The Fall of the Panama Canal
+news_event = {
+	id = news.127
+	title = news.127.t
+	desc = news.127.d
+	picture = GFX_news_event_soldiers_marching
+	
+	major = yes
+	
+	trigger = {
+		685 = { is_controlled_by = JAP }
+		685 = { is_owned_by = USA }
+		JAP = { has_war_with = USA }
+		NOT = { has_global_flag = fall_of_panama }
+	}
+	
+	immediate = {
+		set_global_flag = fall_of_panama
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	option = {
+		name = news.145.a
+		trigger = {
+			NOT = {
+				TAG = JAP
+				TAG = USA
+			}
+		}
+	}
+	option = {
+		name = news.117.b
+		trigger = { TAG = JAP }
+	}
+	option = {
+		name = news.100.c
+		trigger = { TAG = USA }
+	}
+}
+
+# The Fall of Rome (Allies)
+news_event = {
+	id = news.132
+	title = news.132.t
+	desc = news.132.d
+	picture = GFX_news_event_057
+	
+	major = yes
+	
+	trigger = {
+		OR = {
+			2 = { is_controlled_by = ENG }
+			2 = { is_controlled_by = USA }
+			2 = { is_controlled_by = AST }
+				2 = { is_controlled_by = FRA }
+			2 = { is_controlled_by = CAN }
+			2 = { is_controlled_by = NZL }
+			2 = { is_controlled_by = SAF }
+		}
+		OR = {
+			2 = { is_owned_by = ITA }
+			2 = { is_owned_by = GER }
+		}
+		NOT = { has_global_flag = fall_of_rome_allies }
+	}
+	
+	immediate = {
+		set_global_flag = fall_of_rome_allies
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	option = {
+		name = news.145.a
+		trigger = {
+			NOT = {
+				TAG = ENG
+				TAG = USA
+				TAG = AST
+				TAG = CAN
+				TAG = NZL
+				TAG = SAF
+				TAG = FRA
+				TAG = ITA
+				TAG = GER
+			}
+		}
+	}
+	option = {
+		name = news.132.b
+		trigger = {
+			OR = {
+				TAG = ENG
+				TAG = USA
+				TAG = AST
+				TAG = FRA
+				TAG = CAN
+				TAG = NZL
+				TAG = SAF
+			}
+		}
+	}
+	option = {
+		name = news.100.c
+		trigger = {
+			OR = {
+				TAG = GER 
+				TAG = ITA
+			}
+		}
+	}
+}
+
+# The Liberation of Paris (Allies)
+news_event = {
+	id = news.134
+	title = news.134.t
+	desc = news.134.d
+	picture = GFX_news_event_051
+	
+	major = yes
+	
+	is_triggered_only = yes
+
+	trigger = {
+		NOT = { has_global_flag = liberation_of_paris }
+		has_global_flag = fall_of_france
+	}
+	
+	immediate = {
+		set_global_flag = liberation_of_paris
+	}
+	
+	option = {
+		name = news.145.a
+		trigger = {
+			NOT = {
+				TAG = ENG
+				TAG = USA
+				TAG = AST
+				TAG = FRA
+				TAG = CAN
+				TAG = NZL
+				TAG = SAF
+				TAG = GER
+			}
+		}
+	}
+	option = {
+		name = news.134.b
+		trigger = { 
+			OR = {
+				TAG = ENG
+				TAG = USA
+				TAG = AST
+				TAG = FRA
+				TAG = CAN
+				TAG = NZL
+				TAG = SAF
+			}
+		}
+	}
+	option = {
+		name = news.100.c
+		trigger = { TAG = GER }
+	}
+}
+
+# The Fall of Tokyo (USA)
+news_event = {
+	id = news.135
+	title = news.135.t
+	desc = news.135.d
+	picture = GFX_news_event_053
+	
+	major = yes
+	
+	trigger = {
+		282 = { is_controlled_by = USA }
+		282 = { is_owned_by = JAP }
+		USA = { has_war_with = JAP }
+		NOT = { has_global_flag = fall_of_tokyo_usa }
+	}
+	
+	immediate = {
+		set_global_flag = fall_of_tokyo_usa
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	option = {
+		name = news.145.a
+		trigger = {
+			NOT = {
+				TAG = USA
+				TAG = JAP
+			}
+		}
+	}
+	option = {
+		name = news.128.b
+		trigger = { TAG = USA }
+	}
+	option = {
+		name = news.100.c
+		trigger = { TAG = JAP }
+	}
+}
+
+# The Fall of Berlin (USSR)
+news_event = {
+	id = news.140
+	title = news.128.t
+	desc = news.140.d
+	picture = GFX_news_event_german_reichstag_graffiti_ruins
+	
+	major = yes
+	
+	trigger = {
+		64 = { is_controlled_by = SOV }
+		64 = { is_owned_by = GER }
+		GER = { has_war_with = SOV }
+		NOT = { has_global_flag = fall_of_berlin_sov }
+	}
+	
+	immediate = {
+		set_global_flag = fall_of_berlin_sov
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	option = {
+		name = news.140.a
+		trigger = {
+			NOT = {
+				TAG = SOV
+				TAG = GER
+			}
+		}
+	}
+	option = {
+		name = news.140.b
+		trigger = { TAG = SOV }
+	}
+	option = {
+		name = news.100.c
+		trigger = { TAG = GER }
+	}
+}
+
+
+# The Fall of Leningrad (Finland)
+news_event = {
+	id = news.147
+	title = news.103.t
+	desc = news.147.d
+	picture = GFX_news_event_056
+	
+	major = yes
+	
+	trigger = {
+		195 = { is_controlled_by = FIN }
+		195 = { is_owned_by = SOV }
+		SOV = { has_war_with = FIN }
+		NOT = { has_global_flag = fall_of_leningrad_fin }
+	}
+	
+	immediate = {
+		set_global_flag = fall_of_leningrad_fin
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	option = {
+		name = news.145.a
+		trigger = {
+			NOT = {
+				TAG = FIN
+				TAG = SOV
+			}
+		}
+	}
+	option = {
+		name = news.132.b
+		trigger = { TAG = FIN }
+	}
+	option = {
+		name = news.100.c
+		trigger = { TAG = SOV }
+	}
+}
+
+# Germany Breaks Molotov-Ribbentrop Pact
+news_event = {
+	id = news.153
+	title = news.153.t
+	desc = news.153.d
+	picture = GFX_news_event_german_inspect_troops
+	
+	major = yes
+
+	is_triggered_only = yes
+
+	immediate = {
+		hidden_effect = {
+			SOV = { 
+				remove_ideas = SOV_molotov_ribbentrop_pact
+			}
+		}
+	}
+	
+	option = {
+		name = news.153.a
+		trigger = {
+			NOT = {
+				TAG = GER
+				TAG = SOV
+				is_in_faction_with = SOV
+			}
+		}
+		if = {
+			limit = {
+				original_tag = ENG
+				has_government = communism
+				has_country_leader = {
+					name = "Rajani Palme Dutt"
+					ruling_only = yes
+				}
+			}
+			create_country_leader = {
+				name = "Harry Pollitt"
+				desc = "POLITICS_HARRY_POLLITT_DESC"
+				picture = "portrait_eng_harry_pollitt.dds"
+				expire = "1965.1.1"
+				ideology = leninism
+				traits = {
+					staunch_stalinist
+				}
+			}
+		}
+	}
+	option = {
+		name = news.153.b
+		trigger = { TAG = GER }
+	}
+	option = {
+		name = news.153.c
+		trigger = { 
+			OR = {
+				TAG = SOV
+				is_in_faction_with = SOV
+			}
+		}
+	}
+}
+
+
+#Poland Refuses to Cede Danzig
+news_event = {
+	id = news.204
+	title = news.204.t
+	desc = news.204.d
+	picture = GFX_news_event_polish_tanks
+
+	major = yes
+
+	is_triggered_only = yes
+
+	fire_for_sender = no
+
+	#They have ignored every warning!
+	option = {
+		name = news.204.a
+		trigger = {
+			is_in_faction = yes
+			NOT = {
+				is_in_faction_with = GER
+			}
+			NOT = {
+				is_in_faction_with = POL
+			}
+		}
+	}
+
+	#
+	option = {
+		name = news.204.b
+		trigger = {
+			is_in_faction_with = GER
+		}
+	}
+
+	#Together we must stop this aggressor!
+	option = {
+		name = news.204.c
+		trigger = {
+			is_in_faction_with = POL
+		}
+	}
+
+	#This is a grave situation.
+	option = {
+		name = news.204.e
+		trigger = {
+			is_in_faction = no
+		}
+	}
+}
+
+#Soviet Union's Great Purge
+news_event = {
+	id = news.219
+	title = news.219.t
+	desc = news.219.d
+	picture = GFX_news_event_journalists_speech
+
+	major = yes
+
+	is_triggered_only = yes
+
+	fire_for_sender = no
+
+	option = {
+		name = news.219.a
+		trigger = {
+			has_government = communism
+		}
+	}
+
+	option = {
+		name = news.219.b
+		trigger = {
+			has_government = fascism
+		}
+	}
+
+	option ={
+		name = news.219.c
+		trigger = {
+			NOT = {
+				OR = {
+					has_government = fascism
+					has_government = communism
+				}
+			}
+		}
+	}
+}
+
+
+#SAF takes over British Colonies
+news_event = {
+	id = news.260
+	title = news.260.t
+	desc = news.260.desc
+	picture = GFX_news_event_south_africa_patrol
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news.260.a
+		trigger = {
+			NOT = {
+				tag = SAF
+			}
+			NOT = {
+				tag = ENG
+			}
+			NOT = {
+				is_in_faction_with = ENG
+			}
+		}
+	}
+	option = {
+		name = news.260.b
+		trigger = { TAG = SAF }
+	}
+	option = {
+		name = news.260.c
+		trigger = { 
+			OR = {
+				tag = ENG
+				is_in_faction_with = ENG
+			}
+			NOT = { TAG = SAF }
+		}
+	}
+}
+
+news_event = { #Panay Incident - initial incident
+	id = news.334
+	title = news.334.t
+	desc = news.334.d
+	picture = GFX_news_event_panay_incident
+
+	trigger = {
+		NOT = { tag = USA }
+	}
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news.334.a
+		trigger = {
+			NOT = {
+				OR = {
+					TAG = JAP
+					TAG = ENG
+				}
+			}
+		}
+	}
+	option = {
+		name = news.334.b
+		trigger = { TAG = JAP }
+	}
+	option = {
+		name = news.334.c
+		trigger = { TAG = ENG }
+
+	}
+}
+
+news_event = { #Case Blue
+	id = news.9990
+	title = news.9990.t
+	desc = news.9990.d
+	picture = GFX_news_event_panay_incident
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news.9990.a
+		trigger = {
+		OR = { 
+			is_in_faction_with = ENG 
+			is_in_faction_with = SOV 
+			}
+		
+		}
+	}
+	option = {
+		name = news.9990.b
+		trigger = {
+		OR = { 
+			is_in_faction_with = GER 
+			is_in_faction_with = JAP 
+			}
+		}
+	}
+}
+
+news_event = { #Operation Citadel
+	id = news.9991
+	title = news.9991.t
+	desc = news.9991.d
+	picture = GFX_news_event_panay_incident
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news.9991.a
+		trigger = {
+		OR = { 
+			is_in_faction_with = ENG 
+			is_in_faction_with = SOV 
+			}
+		
+		}
+	}
+	option = {
+		name = news.9991.b
+		trigger = {
+		OR = { 
+			is_in_faction_with = GER 
+			is_in_faction_with = JAP 
+			}
+		}
+	}
+}
+
+
+add_namespace = usa
+
+# Election of 1936: Roosevelt vs Alf Landon
+country_event = {
+	id = usa.6
+	title = usa.6.t
+	desc = usa.6.d
+	picture = GFX_report_event_usa_election_generic
+
+	is_triggered_only = yes
+
+	immediate = {
+		hidden_effect = {
+				country_event = { id = usa.35 days = 730 } # midterms
+		}
+	}
+
+	option = { 	
+		name = usa.6.a	
+		custom_effect_tooltip = usa_congress_elections_tt_roosevelt
+		add_ideas = new_deal
+		country_event = usa.30
+	}
+
+}
+
+# Election of 1940: Roosevelt vs Wendell Wilkie
+country_event = {
+	id = usa.7
+	title = usa.7.t
+	desc = usa.7.d
+	picture = GFX_report_event_usa_election_roosevelt_wilkie
+
+	is_triggered_only = yes
+
+	trigger = {
+		tag = USA
+		date > 1940.1.1
+		date < 1941.1.1
+	}
+
+	immediate = {
+		hidden_effect = {
+				country_event = { id = usa.35 days = 730 } # midterm
+		}
+	}
+	
+	option = {
+		name = usa.7.a
+			custom_effect_tooltip = usa_congress_elections_tt_roosevelt
+			country_event = usa.30
+	}
+}
+
+
+# Election of 1944: Roosevelt vs Thomas E. Dewey
+country_event = {
+	id = usa.9
+	title = usa.9.t
+	desc = usa.9.d
+	picture = GFX_report_event_usa_election_roosevelt_dewey
+
+	is_triggered_only = yes
+	immediate = {
+		hidden_effect = {
+				country_event = { id = usa.35 days = 730 } # midterms
+		}
+	}
+	trigger = {
+		tag = USA
+		democratic > 0.5
+		date > 1944.1.1
+		date < 1945.1.1
+		has_idea = new_deal
+		has_war = no
+	}
+	
+	option = {
+		name = usa.9.a
+		add_political_power = 10
+			set_variable = { election_factor = random }
+			add_to_variable = { election_factor = -0.5 }
+			USA_election_senate = yes
+			USA_election_house = yes
+			custom_effect_tooltip = usa_congress_elections_tt_bad
+			country_event = usa.30
+	}
+
+	option = { 
+		name = usa.9.b
+		ai_chance = {
+			factor = 25
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}		
+		remove_ideas = new_deal
+		set_party_name = { ideology = democratic long_name = USA_republican_party name = USA_republican_party }
+		set_variable = { election_factor = random }
+		add_to_variable = { election_factor = -0.6 }
+		USA_election_senate = yes
+		USA_election_house = yes
+		USA_flip_support = yes
+		add_political_power = 120
+		custom_effect_tooltip = usa_congress_elections_tt_good
+		create_country_leader = {
+			name = "Thomas E. Dewey"
+			desc = "POLITICS_THOMAS_DEWEY_DESC"
+			picture = "portrait_USA_thomas_dewey.dds"
+			expire = "1965.1.1"
+			ideology = conservatism
+			traits = {
+				
+			}
+		}
+		country_event = usa.31
+	}
+}
+
+# Election of 1944: Roosevelt vs Incumbent
+country_event = {
+	id = usa.10
+	title = usa.10.t
+	desc = usa.10.d
+	picture = GFX_report_event_usa_election_generic
+
+	is_triggered_only = yes
+	immediate = {
+		hidden_effect = {
+				country_event = { id = usa.35 days = 730 } # midterms
+		}
+	}
+	trigger = {
+		tag = USA
+		democratic > 0.5
+		date > 1944.1.1
+		date < 1945.1.1
+		NOT = { has_idea = new_deal }
+	}
+	
+	option = { 
+		name = usa.10.a
+		add_political_power = 10
+			set_variable = { election_factor = random }
+			add_to_variable = { election_factor = -0.5 }
+			USA_election_senate = yes
+			USA_election_house = yes
+			custom_effect_tooltip = usa_congress_elections_tt_bad
+			country_event = usa.30
+	}
+
+	option = { 
+		name = usa.10.b
+		add_ideas = new_deal
+		set_party_name = { ideology = democratic long_name = USA_democratic_party name = USA_democratic_party }
+		set_variable = { election_factor = random }
+		add_to_variable = { election_factor = -0.6 }
+		USA_election_senate = yes
+		USA_election_house = yes
+		USA_flip_support = yes
+		add_political_power = 120
+		custom_effect_tooltip = usa_congress_elections_tt_good
+		if = {
+			limit = { has_idea = wilkies_new_deal }
+			remove_ideas = wilkies_new_deal
+		}
+		retire_country_leader = yes
+		country_event = usa.31
+	}
+}
+
+# Election of 1944: Roosevelt vs MacArthur
+country_event = {
+	id = usa.11
+	title = usa.11.t
+	desc = usa.11.d
+	picture = GFX_report_event_usa_election_roosevelt_macarthur
+
+	is_triggered_only = yes
+	immediate = {
+		hidden_effect = {
+				country_event = { id = usa.35 days = 730 } # midterms
+		}
+	}
+	trigger = {
+		tag = USA
+		date > 1944.1.1
+		date < 1945.1.1
+		has_idea = new_deal
+		has_country_flag = macarthur_candidate
+	}
+	
+	option = {
+		name = usa.11.a
+		ai_chance = {
+			factor = 25
+		}	
+		add_political_power = 10
+			set_variable = { election_factor = random }
+			add_to_variable = { election_factor = -0.5 }
+			USA_election_senate = yes
+			USA_election_house = yes
+			custom_effect_tooltip = usa_congress_elections_tt_bad
+			country_event = usa.30
+	}
+
+	option = { 
+		name = usa.11.b
+
+		remove_ideas = new_deal
+		set_party_name = { ideology = democratic long_name = USA_republican_party name = USA_republican_party }
+		set_variable = { election_factor = random }
+		add_to_variable = { election_factor = -0.6 }
+		USA_election_senate = yes
+		USA_election_house = yes
+		USA_flip_support = yes
+		add_political_power = 120
+		custom_effect_tooltip = usa_congress_elections_tt_good
+		create_country_leader = {
+			name = "Douglas MacArthur"
+			desc = "POLITICS_DOUGLAS_MACARTHUR_DESC"
+			picture = "Portrait_USA_Douglas_MacArthur.dds"
+			expire = "1965.1.1"
+			ideology = conservatism
+			traits = {
+				
+			}
+		}
+		country_event = usa.31
+		remove_unit_leader = 57
+	}
+}
+
+# Election of 1944: MacArthur Candidate?
+country_event = {
+	id = usa.12
+	title = usa.12.t
+	desc = usa.12.d
+	picture = GFX_report_event_usa_macarthur_speech
+
+	is_triggered_only = yes
+
+	trigger = {
+		tag = USA
+		democratic > 0.5
+		date > 1944.1.1
+		date < 1945.1.1
+		has_idea = new_deal
+		has_war = yes
+	}
+	
+	option = { 
+		name = usa.12.a
+		country_event = { id = usa.9 }
+	}
+
+	option = { 
+		name = usa.12.b
+		country_event = { id = usa.11 }
+	}
+}
+
+
+# US congress elections - outcome
+country_event = {
+	id = usa.30
+	title = usa.30.t
+	desc = usa.30.desc
+	picture = GFX_report_event_election_vote
+
+	is_triggered_only = yes
+
+	option = {
+		name = usa.30.a
+		clear_variable = sen_loc
+		clear_variable = ror_loc
+		clear_variable = senators_for_reelection
+		clear_variable = representatives_for_reelection
+	}
+
+}
+# elections - new president, opposition/support switch roles
+country_event = {
+	id = usa.31
+	title = usa.31.t
+	desc = usa.31.desc
+	picture = GFX_report_event_usa_election_generic
+
+	is_triggered_only = yes
+
+	option = {
+		name = usa.31.a
+		clear_variable = sen_loc
+		clear_variable = ror_loc
+		clear_variable = senators_for_reelection
+		clear_variable = representatives_for_reelection
+	}
+
+}
+
+#midterm elections
+country_event = {
+	id = usa.35
+	title = usa.35.t
+	desc = usa.35.desc
+	picture = GFX_report_event_election_vote
+	hidden = yes
+	is_triggered_only = yes
+
+	immediate = {
+					set_variable = { election_factor = random }
+					add_to_variable = { election_factor = -0.45 }
+					USA_election_senate = yes
+					USA_election_house = yes
+					country_event = usa.30
+	}
+
+	option = {
+		name = usa.35.a
+	}
+
+}
+#small support event - senate
+country_event = {
+	id = usa.40
+	title = usa.40.t
+	desc = usa.40.desc
+	picture = GFX_report_event_FDR_speech
+
+	is_triggered_only = yes
+	trigger = {
+		tag = USA
+	}
+
+	option = {
+		name = usa.40.a
+
+USA_senate_small_supportb = yes 
+
+	hidden_effect = {
+			country_event = { id = usa.50 days = 70 random = 10 }
+		}
+	}
+
+}
+# small support event - house
+country_event = {
+	id = usa.41
+	title = usa.41.t
+	desc = usa.41.desc
+	picture = GFX_report_event_FDR_speech
+
+	is_triggered_only = yes
+	trigger = {
+		tag = USA
+	}
+
+	option = {
+		name = usa.41.a
+
+	USA_house_small_supporta = yes 
+
+		hidden_effect = {
+			country_event = { id = usa.51 days = 70 random = 10 }
+		}
+	}
+
+}
+
+#small opposition event - senate
+country_event = {
+	id = usa.42
+	title = usa.42.t
+	desc = usa.42.desc
+	picture = GFX_report_event_journalists_speech
+
+	is_triggered_only = yes
+	
+	trigger = {
+		tag = USA
+	}
+
+	option = {
+		name = usa.42.a
+		USA_senate_small_oppositiona = yes
+		hidden_effect = {
+			country_event = { id = usa.50 days = 70 random = 10 }
+		}
+	}
+
+}
+# small opposition event - house
+country_event = {
+	id = usa.43
+	title = usa.43.t
+	desc = usa.43.desc
+	picture = GFX_report_event_journalists_speech
+
+	is_triggered_only = yes
+	trigger = {
+		tag = USA
+	}
+
+	option = {
+		name = usa.43.a
+		
+		USA_house_small_oppositiona = yes
+		
+		hidden_effect = {
+			country_event = { id = usa.51 days = 70 random = 10 }
+		}
+	}
+
+}
+
+#medium support event - senate
+country_event = {
+	id = usa.44
+	title = usa.44.t
+	desc = usa.44.desc
+	picture = GFX_report_event_FDR_speech
+
+	is_triggered_only = yes
+	trigger = {
+		tag = USA
+	}
+
+	option = {
+		name = usa.44.a
+		USA_senate_medium_supporta = yes
+		hidden_effect = {
+			country_event = { id = usa.50 days = 70 random = 20 }
+		}
+	}
+
+}
+# medium support event - house
+country_event = {
+	id = usa.45
+	title = usa.45.t
+	desc = usa.45.desc
+	picture = GFX_report_event_FDR_speech
+
+	is_triggered_only = yes
+	trigger = {
+		tag = USA
+		
+	}
+
+	option = {
+		name = usa.45.a
+		USA_house_medium_supporta = yes
+		hidden_effect = {
+			country_event = { id = usa.51 days = 70 random = 10 }
+		}
+	}
+
+}
+
+#medium opposition event - senate
+country_event = {
+	id = usa.46
+	title = usa.46.t
+	desc = usa.46.desc
+	picture = GFX_report_event_journalists_speech
+
+	is_triggered_only = yes
+	trigger = {
+		tag = USA
+		
+	}
+
+	option = {
+		name = usa.46.a
+		USA_senate_medium_oppositiona = yes
+		hidden_effect = {
+			country_event = { id = usa.50 days = 70 random = 20 }
+		}
+	}
+
+}
+# medium opposition event - house
+country_event = {
+	id = usa.47
+	title = usa.47.t
+	desc = usa.47.desc
+	picture = GFX_report_event_journalists_speech
+
+	is_triggered_only = yes
+	trigger = {
+		tag = USA
+		
+	}
+
+	option = {
+		name = usa.47.a
+		USA_house_medium_oppositiona = yes
+		hidden_effect = {
+			country_event = { id = usa.51 days = 70 random = 10 }
+		}
+	}
+
+}
+
+# dispatcher event - senate
+country_event = {
+	id = usa.50
+	Hidden = yes
+	is_triggered_only = yes
+	trigger = {
+		tag = USA
+		
+		
+	}
+
+	immediate = {
+		random_list = {
+			20 = { 
+				modifier = {
+					not = { congress_medium_support_trigger = yes }
+					factor = 1.25
+				}
+				modifier = {
+					not = { congress_low_support_trigger = yes }
+					factor = 2
+				}
+				country_event = { id = usa.40 days = 15 random = 6 } #small support
+			} 
+			20 = { 
+				modifier = {
+					check_variable = { var = senators_support value = quorum_high compare = greater_than_or_equals }
+					factor = 3
+				}
+				country_event = { id = usa.42 days = 20 random = 6 } #small opposition 
+			} 
+			15 = { 
+				modifier = {
+					not = { congress_medium_support_trigger = yes }
+					factor = 1.25
+				}
+				modifier = {
+					not = { congress_low_support_trigger = yes }
+					factor = 2
+				}
+				country_event = { id = usa.44 days = 20 random = 10 } #medium support
+			} 
+			15 = { 
+				modifier = {
+					check_variable = { var = senators_support value = quorum_high compare = greater_than_or_equals }
+					factor = 3
+				}
+				country_event = { id = usa.46 days = 20 random = 10 }  #medium opposition
+			}
+			30 = {
+			
+			
+			}
+			
+		}
+			
+	}
+}
+
+# dispatcher event - house
+country_event = {
+	id = usa.51
+	Hidden = yes
+	is_triggered_only = yes
+	trigger = {
+		tag = USA
+		
+	}
+
+	immediate = {
+		random_list = {
+			35 = { 
+				modifier = {
+					check_variable = { representatives_support < 218 }
+					factor = 1.5
+				}
+				modifier = {
+					check_variable = { representatives_support < 180 }
+					factor = 3
+				}
+				country_event = { id = usa.41 days = 15 random = 6 } #small support
+			} 
+			25 = {
+				modifier = {
+					check_variable = { representatives_support > 260 }
+					factor = 2
+				}
+				modifier = {
+					check_variable = { representatives_support < 180 }
+					factor = 0.5
+				}
+				country_event = { id = usa.43 days = 20 random = 6 } #small opposition
+			} 
+			25 = { 
+				modifier = {
+					check_variable = { representatives_support < 180 }
+					factor = 1.5
+				}
+				modifier = {
+					check_variable = { representatives_support < 100 }
+					factor = 10
+				}
+				country_event = { id = usa.45 days = 25 random = 10 } #medium support
+			} 
+			15 = { 
+				modifier = {
+					check_variable = { representatives_support > 260 }
+					factor = 2
+				}
+				modifier = {
+					check_variable = { representatives_support > 400 }
+					factor = 10
+				}
+				modifier = {
+					check_variable = { representatives_support < 180 }
+					factor = 0.5
+				}
+				modifier = {
+					check_variable = { representatives_support < 100 }
+					factor = 0
+				}
+				country_event = { id = usa.47 days = 30 random = 15 } #medium opposition
+			} 
+		}
+	}
+}
+# senator wants investment in their state - hidden dispatch event
+country_event = {
+	id = usa.60
+	hidden = yes
+	is_triggered_only = yes
+
+	immediate = {
+		set_country_flag = USA_congress_investment
+		if = {
+			limit = { has_event_target = USA_congress_investment_state }
+			clear_global_event_target = USA_congress_investment_state
+		}
+		random_list = {
+			66 = {
+				modifier = {
+					date < 1938.2.1 
+					factor = 0
+				}
+				random_owned_state = {
+						prioritize = { 393 394 391 361 360 359 358 386 368 372 261 396  }
+						limit = {
+						is_core_of = ROOT
+						is_controlled_by = ROOT
+						free_building_slots = {
+							building = arms_factory
+							size > 0
+							include_locked = no
+						}
+					}
+					save_global_event_target_as = USA_congress_investment_state
+					state_event = { id = usa.62 trigger_for = controller }
+				}
+			}
+			33 = {
+				modifier = {
+					date > 1938.2.1 
+					factor = 0
+				}
+				random_owned_state = {
+						prioritize = { 393 394 391 361 360 359 358 386 368 372 261 396  }
+						limit = {
+						is_core_of = ROOT
+						is_controlled_by = ROOT
+						free_building_slots = {
+							building = infrastructure
+							size > 0
+							include_locked = no
+						}
+					}
+					save_global_event_target_as = USA_congress_investment_state
+					state_event = { id = usa.63 trigger_for = controller }
+				}
+			}
+		}
+		hidden_effect = {	country_event = { id = usa.50 days = 70 random = 10 }	}
+	}
+}
+
+# senator wants investment in military factory
+country_event = {
+	id = usa.62
+	title = usa.61.t
+	desc = usa.62.desc
+	picture = GFX_report_event_tank_factory
+	
+	is_triggered_only = yes
+	
+
+	option = {
+		name = usa.62.a #accept
+		unlock_decision_tooltip = { decision = USA_invest_in_state_arms_factory show_effect_tooltip = yes }
+		event_target:USA_congress_investment_state = {
+			set_state_flag = USA_congress_build_arms_factory 
+			set_variable = { arms_factory_goal = arms_factory_level }
+			add_to_variable = { arms_factory_goal = 1 }
+		}
+	}
+	option = {
+		name = usa.62.b #refuse
+		ai_chance = {
+			factor = 100
+		}
+		ROOT = { clr_country_flag = USA_congress_investment }
+		clear_global_event_target = USA_congress_investment_state
+		hidden_effect = { country_event = { id = usa.60 days = 10 random = 15 } }
+	}
+}
+# senator wants investment in infrastructure
+country_event = {
+	id = usa.63
+	title = usa.63.t
+	desc = usa.63.desc
+	picture = GFX_report_event_generic_train
+	
+	is_triggered_only = yes
+	
+
+	option = {
+		name = usa.63.a #accept
+		ai_chance = {
+			factor = 0
+		}
+		unlock_decision_tooltip = { decision = USA_invest_in_state_infrastructure show_effect_tooltip = yes }
+		event_target:USA_congress_investment_state = {
+			set_state_flag = USA_congress_build_infrastructure
+			set_variable = { infrastructure_goal = infrastructure_level }
+			add_to_variable = { infrastructure_goal = 1 }
+		}
+	}
+	option = {
+		name = usa.63.b #refuse
+		ai_chance = {
+			factor = 100
+		}
+		ROOT = { clr_country_flag = USA_congress_investment }
+		clear_global_event_target = USA_congress_investment_state
+				hidden_effect = { country_event = { id = usa.60 days = 10 random = 15 } }
+	}
+}
+
+	country_event = {
+	id = usa.995
+	title = "New Deal Legislation On The Table"
+	desc = "Despite initial pushback from Representatives and Senators we have successfully reduced the effects of the Great Depression on our great nation. Congress is now ripe for a new round of legislation targeting this economic disaster."
+	picture = GFX_report_event_generic_parliament
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "Excellent!"
+		
+	}
+}
+
+	country_event = {
+	id = usa.999
+	title = "FIX AFRICA"
+	desc = "Despite initial pushback from Representatives and Senators we have successfully reduced the effects of the Great Depression on our great nation. Congress is now ripe for a new round of legislation targeting this economic disaster."
+	picture = GFX_report_event_generic_parliament
+
+	is_triggered_only = yes
+	hidden = yes 
+	option = {
+		name = "Excellent!"
+		every_state = { limit = { AND = {  is_owned_by = FRA is_controlled_by = GER } } FRA = { set_state_controller = PREV }  }
+	}
+}
+
+	country_event = {
+	id = usa.996
+	title = "Operation Torch"
+	desc = "The time has come to recapture North AFrica. Two of our generals, Geoffrey Keyes and Lloyd Fredendall, have been tasked with this operation."
+	picture = GFX_report_event_generic_parliament
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "Excellent!"
+create_field_marshal = {
+	name = "Geoffrey Keyes"
+	picture = "Portrait_USA_Geoffrey_Keyes.dds"
+	traits = { organizer logistics_wizard fast_planner trait_engineer infantry_leader infantry_expert trait_mountaineer hill_fighter trickster expert_improviser }
+	skill = 7
+
+	attack_skill = 6
+	defense_skill = 5
+	planning_skill = 5
+	logistics_skill = 6
+}
+create_corps_commander = {
+	name = "Lloyd Fredendall"
+	picture = "Portrait_USA_Lloyd_Fredendall.dds"
+	traits = { old_guard inflexible_strategist unyielding_defender trait_engineer scavenger infantry_leader infantry_expert trait_mountaineer expert_improviser hill_fighter trickster fake_skilled_staffer  }
+	skill = 7
+
+	attack_skill = 7
+	defense_skill = 5
+	planning_skill = 3
+	logistics_skill = 7
+}
+
+	}
+}
+
+
+add_namespace = unitednations
+
+#United Nations declaration
+news_event = {
+	id = unitednations.0
+	title = unitednations.0.t
+	desc = unitednations.0.d
+	picture = GFX_news_event_united_nations
+	
+	major = yes
+	
+	#fire_only_once = yes
+
+	is_triggered_only =  yes 
+
+	option = {
+		name = unitednations.0.a
+		trigger = {
+			OR = {
+				has_government = fascism
+			}
+		}
+	}
+
+	option = {
+		name = unitednations.0.b
+		trigger = {
+			NOT = {
+				has_government = fascism
+			}
+		}
+	}	
+}

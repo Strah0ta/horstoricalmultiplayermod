@@ -1,0 +1,381 @@
+ideas = {
+	country = {
+	SPR_cg_debuff = {
+		allowed = { always = yes }
+		allowed_civil_war = {	always = yes	}
+		available = { date < 1939.1.1 }
+		removal_cost = -1
+		picture = generic_goods_red_bonus
+	    modifier = { consumer_goods_factor = 0.3 weekly_manpower = -4000 stability_factor = -0.3} 
+	}	
+
+	SPR_no_navy = {
+			allowed = {always = yes	}
+			allowed_civil_war = {	always = yes	}
+			removal_cost = -1
+			picture = generic_navy_bonus
+			modifier = { industrial_capacity_dockyard = -2 }
+		}
+		SPR_no_navy2 = {
+			allowed = {	always = yes	}
+			allowed_civil_war = { always = yes	}
+			available = { has_war = no }
+			removal_cost = -1
+			picture = generic_navy_bonus
+			modifier = {
+			industrial_capacity_dockyard = -2
+			air_range_factor = -1
+			}
+		}
+		SPA_foreign_training_staff = {
+			picture = german_advisors
+			allowed = {	original_tag = SPR	}
+			allowed_civil_war = {	always = yes	}
+			modifier = { training_time_factor = -0.15 }
+		}
+		SPA_expand_conscription = {
+
+			picture = generic_manpower_bonus
+
+			allowed = {
+				original_tag = SPR
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				conscription = 0.02
+			}
+		}
+
+		SPA_fascist_economic_aid = {
+
+			picture = generic_production_bonus
+
+			allowed = {
+				original_tag = SPR
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				production_speed_arms_factory_factor = 0.25
+			}
+		}
+
+
+		SPA_the_duty_to_work = {
+			picture = SPA_duty_to_work
+			allowed = {	original_tag = SPR	}
+			allowed_civil_war = {	always = yes }
+			modifier = { industrial_capacity_factory = 0.1 }
+		}
+		
+
+
+		SPA_national_recovery_1 = {
+
+			name = SPA_national_recovery
+
+			picture = SPA_national_recovery
+
+			allowed = {
+				original_tag = SPR
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				stability_weekly = 0.002
+				consumer_goods_factor = -0.1
+				min_export = -1		
+industrial_capacity_dockyard = -2			
+			}
+		}
+
+		SPA_national_recovery_2 = {
+			name = SPA_national_recovery
+			picture = SPA_national_recovery
+			allowed = {	original_tag = SPR	}
+			allowed_civil_war = {	always = yes	}
+			modifier = {
+				stability_weekly = 0.002
+				consumer_goods_factor = -0.1
+				production_speed_infrastructure_factor = 0.1
+				min_export = -1
+				industrial_capacity_dockyard = -2			
+			}
+		}
+
+		
+
+		SPA_expand_the_axis_gold_trade = {
+
+			picture = SPR_seize_the_gold_reserves
+
+			allowed = {
+				original_tag = SPR
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				production_speed_buildings_factor = 0.15
+			}
+		}
+
+		SPA_a_methodical_approach = {
+
+			picture = CZE_planning_bonus
+
+			allowed = {
+				original_tag = SPR
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				planning_speed = 0.25
+			}
+		}
+
+		}
+	
+
+	political_advisor = {
+		SPA_tomas_dominguez_arevalo = {
+			picture = SPA_tomas_dominguez_arevalo
+			allowed = {
+				has_dlc = "La Resistance"
+				original_tag = SPR
+			}
+			available = {	date > 1936.7.18	}
+			traits = { lifelong_carlist }
+		}
+
+		SPA_diego_hidalgo_y_duran = {
+
+			picture = SPA_diego_hidalgo_y_duran
+
+			allowed = {
+				has_dlc = "La Resistance"
+				original_tag = SPR
+			}
+			available = { date > 1936.7.18 }
+			traits = { war_industrialist }
+		}
+
+
+		SPA_luis_hernando_de_larramendi = {
+			picture = SPA_luis_hernando_de_larramendi
+			allowed = {
+				has_dlc = "La Resistance"
+				original_tag = SPR
+			}
+			available = {	date > 1936.7.18	}	
+			traits = { traditionalist_theorist }
+		}
+	}
+
+	theorist = {
+		SPA_jose_enrique_varela = { # Carlist
+			ledger = army
+				
+			allowed = {
+				has_dlc = "La Resistance"
+				original_tag = SPR
+			}
+
+			
+			picture = SPA_jose_enrique_varela
+			
+			research_bonus = {
+				land_doctrine = 0.1
+			}
+			
+			traits = { military_theorist }
+		}
+	}
+
+	# MILITARY
+	army_chief = {
+		SPA_juan_yague = { # Falangist
+			picture = SPA_juan_yague
+			allowed = {
+				has_dlc = "La Resistance"
+				original_tag = SPR
+			}
+			traits = { army_chief_offensive_3 }
+		}
+
+		SPA_rafael_garcia_valino = { # Francoist/Carlist
+			picture = SPA_rafael_garcia_valino
+			allowed = {
+				has_dlc = "La Resistance"
+				original_tag = SPR
+			}
+
+			traits = { army_chief_organizational_2 }
+		}
+
+		SPA_heli_rolando_de_tella = { # Francoist/Carlist
+			picture = SPA_heli_rolando_de_tella
+			allowed = {
+				has_dlc = "La Resistance"
+				original_tag = SPR
+			}
+			traits = { army_chief_defensive_2 }
+		}
+	}
+	air_chief = {
+		SPA_joaquin_garcia_morato = { 
+			picture = SPA_joaquin_garcia_morato
+			allowed = { original_tag = SPR	}
+			traits = { air_chief_ground_support_2 }
+		}
+	}
+
+	materiel_manufacturer = {
+		designer = yes
+		SPR_star_bonifacio_echeverria = {
+			picture = SPR_star_bonifacio_echeverria
+			allowed = {
+				has_dlc = "La Resistance"
+				original_tag = SPR
+			}
+			research_bonus = {
+				infantry_weapons = 0.15
+			}
+			traits = { infantry_equipment_manufacturer }
+		}
+
+		SPR_esperanza_y_cia = {
+			picture = SPR_esperanza_y_cia
+			allowed = {
+				has_dlc = "La Resistance"
+				original_tag = SPR
+			}	
+			research_bonus = {	artillery = 0.15	}	
+			traits = { artillery_manufacturer }
+		}
+
+		SPR_llama_gabilondo_y_cia = {
+			picture = SPR_llama_gabilondo_y_cia_sa
+			allowed = {
+				has_dlc = "La Resistance"
+				original_tag = SPR
+			}
+			research_bonus = {
+				support_tech = 0.15
+			}
+			traits = { support_equipment_manufacturer }
+		}
+		SPR_hispano_suiza = {
+			picture = SPR_hispano_suiza
+			allowed = {
+				has_dlc = "La Resistance"
+				original_tag = SPR
+			}
+			research_bonus = {	motorized_equipment = 0.15	}
+			traits = { motorized_equipment_manufacturer }
+		}
+
+	}
+
+
+	industrial_concern = {
+		SPR_compania_telefonica_nacional = {
+			picture = SPR_compania_telefonica_nacional
+			allowed = {
+				has_dlc = "La Resistance"
+				original_tag = SPR
+			}		
+			research_bonus = {	electronics = 0.15	}	
+			traits = { electronics_concern }
+		}
+
+		SPR_industria_de_guerra_de_cataluna = {
+			picture = SPR_industrias_de_guerra_de_cataluna
+			allowed = {
+				has_dlc = "La Resistance"
+				original_tag = SPR
+			}
+			traits = { construction_company }
+		}
+
+		SPR_altos_hornos_de_vizcaya = {
+			picture = SPR_altos_hornos_de_vizcaya
+			allowed = {
+				has_dlc = "La Resistance"
+				original_tag = SPR
+			}
+			research_bonus = {	industry = 0.15	}
+			traits = { industrial_concern }
+		}
+
+		SPR_campsa = {
+			picture = SPR_campsa
+			allowed = {
+				has_dlc = "La Resistance"
+				original_tag = SPR
+			}		
+			research_bonus = {
+				synth_resources = 0.15
+				industry = 0.1
+			}
+			traits = { refinery_concern }
+		}
+	}
+		
+		
+	high_command = {
+		SPA_emilio_mola = { # Falangist/Francoist
+			ledger = army
+			picture = SPA_emilio_mola
+			allowed = {
+				has_dlc = "La Resistance"
+				original_tag = SPR
+			}
+			traits = { army_infantry_2 }
+		}
+
+		SPA_wilhelm_ritter_von_thoma = { # Falangist/Francoist
+			ledger = army
+			picture = SPA_wilhelm_ritter_von_thoma
+			allowed = {
+				has_dlc = "La Resistance"
+				original_tag = SPR
+			}
+			available = {	has_completed_focus = SPA_the_condor_legion	}
+			traits = { army_armored_2 }
+		}
+		SPA_enrique_canovas_lacruz = { # Francoist
+			ledger = army
+			picture = SPA_enrique_canovas_lacruz
+			allowed = {
+				has_dlc = "La Resistance"
+				original_tag = SPR
+			}
+			traits = { army_logistics_2 }
+		}
+		SPA_miguel_cabanellas = { # Carlist
+			ledger = army
+			picture = SPA_miguel_cabanellas
+			allowed = {
+				has_dlc = "La Resistance"
+				original_tag = SPR
+			}
+			traits = { army_regrouping_2 }
+		}
+	}
+}

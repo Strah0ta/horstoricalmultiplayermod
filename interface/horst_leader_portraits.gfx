@@ -1,0 +1,83 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_Portrait_Germany_Franz_von_Papen"
+		texturefile = "gfx/leaders/GER/Portrait_Germany_Franz_von_Papen.dds"		
+	}	
+	spriteType = {
+		name = "GFX_Portrait_Raj_Archibald_Wavell"
+		texturefile = "gfx/leaders/RAJ/Portrait_Raj_Archibald_Wavell.dds"		
+	}
+		spriteType = {
+		name = "GFX_portrait_fra_pierre_laval"
+		texturefile = "gfx/leaders/RAJ/portrait_fra_pierre_laval.dds"		
+	}
+	spriteType = {
+		name = "GFX_Portrait_Germany_Wilhelm_Keitel"
+		texturefile = "gfx/leaders/GER/Portrait_Germany_Wilhelm_Keitel.dds"		
+	}
+	spriteType = {
+		name = "GFX_SAF_Jan_Smuts"
+		texturefile = "gfx/leaders/SAF/Portrait_SouthAfrica_Jan_Smuts.dds"		
+	}
+	spriteType = {
+		name = "GFX_Portrait_USA_George_S_Patton"
+		texturefile = "gfx/leaders/ENG/Portrait_USA_George_S_Patton.dds"		
+	}
+	spriteType = {
+		name = "GFX_Portrait_USA_Dwight_D_Eisenhower"
+		texturefile = "gfx/leaders/ENG/Portrait_USA_Dwight_D_Eisenhower.dds"		
+	}
+	spriteType = {
+		name = "GFX_Portrait_USA_Douglas_MacArthur"
+		texturefile = "gfx/leaders/ENG/Portrait_USA_Douglas_MacArthur.dds"		
+	}
+	spriteType = {
+		name = "GFX_Portrait_USA_Omar_Bradley"
+		texturefile = "gfx/leaders/ENG/Portrait_USA_Omar_Bradley.dds"		
+	}
+	spriteType = {
+		name = "GFX_portrait_man_yoshiko_kawashima_army"
+		texturefile = "gfx/leaders/MAN/Portrait_man_yoshiko_kawashima_army.dds"
+	}
+		spriteType = {
+		name = "GFX_portrait_norway_haakon_vii"
+		texturefile = "gfx/leaders/NOR/portrait_norway_haakon_vii.tga"
+	}
+		spriteType = {
+		name = "GFX_Erik_Heinrichs"
+		texturefile = "gfx/leaders/FIN/Erik_Heinrichs.tga"
+	}
+		spriteType = {
+		name = "GFX_Harry_Alfthan"
+		texturefile = "gfx/leaders/FIN/Harry_Alfthan.tga"
+	}
+				spriteType = {
+		name = "GFX_Mohammad_Reza_Pahlavi"
+		texturefile = "gfx/leaders/PER/Mohammad_Reza_Pahlavi.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_Amedeo_Savoia"
+		texturefile = "gfx/leaders/ETH/Portrait_Italy_Amedeo_Savoia_Aosta.dds"
+	}
+	
+		spriteType = {
+		name = "GFX_Portrait_Italy_Benito_Mussolini2"
+		texturefile = "gfx/leaders/ITA/Portrait_Italy_Benito_Mussolini2.dds"
+	}	
+	
+		spriteType = {
+		name = "GFX_portrait_fra_maurice_thorez"
+		texturefile = "gfx/leaders/FRA/portrait_fra_maurice_thorez.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_portrait_fra_leon_blum"
+		texturefile = "gfx/leaders/FRA/portrait_fra_leon_blum.dds"
+	}
+	
+	
+	
+	
+	
+	}

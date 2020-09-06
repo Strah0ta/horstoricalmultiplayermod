@@ -1,0 +1,21 @@
+state={
+id=775
+name="Maribor"
+state_category = town
+	history =
+	{
+		owner = YUG
+		buildings = {
+			infrastructure = 6
+		}
+				victory_points = {
+			596 1 
+		}
+		add_core_of = YUG
+	}
+provinces={
+ 596 665 9596 3654 
+}
+manpower=342300
+buildings_max_level_factor=1.000
+}

@@ -1,0 +1,521 @@
+fascism_has_been_defeated = {
+every_country = { if={limit = {is_in_faction_with = ENG} 
+white_peace = SPR  white_peace = GER
+if = { limit = { country_exists = ROM } white_peace = ROM }
+if = { limit = { country_exists = HUN } white_peace = HUN }
+if = { limit = { country_exists = ITA } white_peace = ITA }
+ } }
+SOV = { 
+white_peace = SPR white_peace = GER 
+if = { limit = { country_exists = ROM } white_peace = ROM }
+if = { limit = { country_exists = HUN } white_peace = HUN }
+if = { limit = { country_exists = ITA } white_peace = ITA }
+}
+if =  { limit = { country_exists = ITA } ITA = { release = YUG release = ROM release = GRE release = BUL release = ALB  }  }
+if =  { limit = { country_exists = BUL } BUL = { release = GRE }  }
+if =  { limit = { country_exists = ROM } ROM = { release = GRE }  }
+GER = { 
+release = CZE 
+release = POL 
+release = NOR
+release = YUG
+release = ROM 
+release = GRE 
+release = BUL 
+release = ALB 
+release = HUN 
+release = FRA 
+release = HOL 
+release = DEN 
+release = BEL 
+release = BUL
+}
+NOR = { release = ENG }
+POL = { 
+transfer_state = 5 #Ermland-Masuren
+transfer_state = 63 #Hinterpommern
+transfer_state = 68 #Ostmark
+transfer_state = 66 #Niederschlesien
+transfer_state = 67 #Oberschlesien
+transfer_state = 97
+}
+5 = { add_core_of = POL }
+63 = { add_core_of = POL }
+68 = { add_core_of = POL }
+66 = { add_core_of = POL }
+67 = { add_core_of = POL }
+YUG = {
+transfer_state = 163 #Zara 
+transfer_state = 763 #Istria
+}
+HUN = { release = YUG release = CZE release = ROM }
+SOV = {    
+transfer_state = 188 #Memel          ###GERMANY###
+transfer_state = 763 #Konigsberg
+transfer_state = 62 #Vorpommern
+transfer_state = 61 #Mecklenberg
+transfer_state = 64 #Brandenburg
+transfer_state = 65 #Sachsen
+transfer_state = 60 #Thuringen
+transfer_state = 4 #Lower Austria ###AUSTRIA### 
+transfer_state = 73 #Carpathian Ruthenia ###CZECHIA###
+#set_autonomy = {  target = GER  autonomy_state = autonomy_puppet }
+set_autonomy = {  target = POL  autonomy_state = autonomy_puppet }
+set_autonomy = {  target = YUG  autonomy_state = autonomy_puppet }
+set_autonomy = {  target = ROM  autonomy_state = autonomy_puppet }
+set_autonomy = {  target = HUN  autonomy_state = autonomy_puppet }
+#set_autonomy = {  target = CZE  autonomy_state = autonomy_puppet }
+set_autonomy = {  target = ALB  autonomy_state = autonomy_puppet }
+set_autonomy = {  target = BUL  autonomy_state = autonomy_puppet }
+  }
+  
+BUL = { transfer_state = 293 }  
+
+ENG = { 
+add_to_faction = CZE
+add_to_faction = HOL
+transfer_state = 271 
+transfer_state = 550
+transfer_state = 559
+release = NOR
+release = DEN
+set_autonomy = {  target = ETH  autonomy_state = autonomy_supervised_state }
+		transfer_state = 152 #Upper Austria ###AUSTRIA###
+transfer_state = 448 #Tripoli ###ITALY###
+transfer_state = 661 #Tripolitania
+transfer_state = 449 #El Agheila
+transfer_state = 662 #Sirte
+transfer_state = 663 #Cyrenaica
+transfer_state = 450 #Benghasi
+transfer_state = 451 #Derna
+transfer_state = 273 #Libyan Desert
+}
+if =  { limit = { country_exists = EFR } FRA = { annex_country = { target = EFR  transfer_troops = yes }  transfer_state = 458 transfer_state = 665 } }
+if =  { limit = { country_exists = ITA } ITA = { release = FRA release = GRE release = BUL } ENG = { set_autonomy = {  target = ITA  autonomy_state = autonomy_supervised_state } } }
+FRA = {
+transfer_state = 153 #Tyrol ###AUSTRIA###
+transfer_state = 515 transfer_state = 461 transfer_state = 462 transfer_state = 459 transfer_state = 513 transfer_state = 460
+}
+USA = {
+release = DEN
+}
+ENG = { add_to_faction = BEL add_to_faction = DEN add_to_faction = GRE }
+GER = {
+	 create_country_leader = {
+	 name = "Franz von Papen"
+	 #desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC"
+	 picture = "Portrait_Germany_Franz_von_Papen.tga"
+	 expire = "1965.1.1"
+	 ideology = despotism
+	 traits = {
+	 }
+	}
+	set_politics = {
+	 ruling_party = neutrality
+	 elections_allowed = no
+	}
+	add_popularity = {
+		ideology = neutrality
+		popularity = 0.70
+	}
+}
+ENG = { add_to_faction = GER } 
+HOL = { transfer_state = 309 transfer_state = 695 transfer_state = 322 transfer_state = 669 transfer_state = 668 transfer_state = 673 transfer_state = 667 transfer_state = 334  transfer_state = 335 transfer_state = 671 transfer_state = 738 }
+BEL = { transfer_state = 295 transfer_state = 768 transfer_state = 769 transfer_state = 718 transfer_state = 538 }
+ENG = {	country_event = { id = britain.1116 days = 1 }	}
+#ENG = {	country_event = { id = britain.1115 days = 4 }	}
+}
+
+democratic_russia = {
+		SOV = { 
+			release = LAT release = FIN release = POL release = ROM 
+			set_politics = { ruling_party = democratic }
+		}
+	}
+
+man_in_the_high_castle = {
+SPR = { 
+transfer_state = 461 #Casa Blanca
+transfer_state = 462 #Marakech
+transfer_state = 513 #Tlemcen
+transfer_state = 459 #Algiers
+transfer_state = 118 #Gibraltar
+transfer_state = 515 #Southern Sahara
+}
+
+ETH = {
+transfer_state = 268 #French Somaliland
+transfer_state = 269 #British Somaliland
+transfer_state = 547 #Kenya
+transfer_state = 548 #Uganda
+transfer_state = 551 #Khartoum
+transfer_state = 767 #Darfur
+transfer_state = 549 #Sudan 
+transfer_state = 678 #Port Sudan
+transfer_state = 550 #Eritrea
+transfer_state = 271 #Ethiopia
+transfer_state = 559 #Somaliland
+
+
+}
+
+every_state = {
+    limit = {
+        OR = {
+            is_core_of = AST
+            is_core_of = NZL
+            is_core_of = RAJ
+        }
+    }
+    JAP = { transfer_state = PREV }
+}
+
+JAP = {
+transfer_state = 669 #West Papua
+transfer_state = 668 #The Moluccas
+transfer_state = 739 #Aru Islands
+transfer_state = 667 #Lesser Sunda Islands
+transfer_state = 673 #Sulawesi
+transfer_state = 334 #Kalimantan
+transfer_state = 335 #Java 
+transfer_state = 322 #West Central Papua
+transfer_state = 672 #Sumatra 
+transfer_state = 336 #Singapore
+transfer_state = 333 #North Borneo
+transfer_state = 627 #Mindanao 
+transfer_state = 625 #Samar
+transfer_state = 628 #Cebu 
+transfer_state = 626 #Palawan
+transfer_state = 624 #Central Islands 
+transfer_state = 327 #Manila
+transfer_state = 623 #Luzon 
+transfer_state = 711 #Christmas Island 
+transfer_state = 326 #Hong Kong 
+transfer_state = 733 #Andaman 
+transfer_state = 422 #Ceylon  
+transfer_state = 281 #Maldives
+transfer_state = 710 #Diego Garcia 
+transfer_state = 713 #Kergulen 
+transfer_state = 712 #Cocos Islands
+transfer_state = 320 #French India  
+transfer_state = 709 #Seychelles 
+transfer_state = 636 #Fiji 
+transfer_state = 726 #Samoa
+transfer_state = 635 #New Caledonia 
+transfer_state = 725 #Nauru 
+transfer_state = 639 #Gilbert Islands 
+transfer_state = 642 #Phoenix Island 
+transfer_state = 734 #Nendo 
+transfer_state = 643 #Ellice Islands 
+transfer_state = 638 #Guam 
+transfer_state = 634 #Solomon Islands 
+transfer_state = 641 #Tahiti 
+transfer_state = 270 #Pitcairn Island 
+transfer_state = 727 #Line Islands 
+transfer_state = 630 #Johnston Atoll 
+transfer_state = 632 #Wake Island
+transfer_state = 631 #Midwawy Island 
+transfer_state = 629 #Hawaii 
+transfer_state = 650 #Attu Island 
+transfer_state = 463 #Alaska 
+transfer_state = 471 #Northwestern Canada 
+transfer_state = 473 #British Columbia 
+transfer_state = 739 #Haida Gwaii 
+transfer_state = 740 #Vancouver Island
+transfer_state = 387 #Idaho 
+transfer_state = 386 #Washington 
+transfer_state = 385 #Oregon 
+transfer_state = 378 #California 
+transfer_state = 379 #Nevada
+transfer_state = 380 #Utah 
+transfer_state = 377 #Arizona 
+transfer_state = 484 #Baja California 
+transfer_state = 483 #Sonora 
+transfer_state = 685 #Panama Canal 
+transfer_state = 299 #Falkland Islands 
+transfer_state = 720 #South Georgia 
+transfer_state = 523 #Papua
+transfer_state = 737 #Bismarck
+transfer_state = 758 #Australian Central Cordillera
+transfer_state = 331 #Dutch Central Cordillera
+
+}
+
+ITA = {
+transfer_state = 460 #Constantine
+transfer_state = 458 #Tunisia
+transfer_state = 665 #Gabes
+transfer_state = 1 #Corsica
+transfer_state = 735 #Savoy
+transfer_state = 32 #Alpes 
+transfer_state = 21 #Provence 
+transfer_state = 452 #Marsa Matruh  
+transfer_state = 447 #Alexandria 
+transfer_state = 446 #Cairo
+transfer_state = 552 #Western Desert 
+#transfer_state = 514 #Algerian Desert #NOW BARANJA 
+transfer_state = 680 #Deir-az-Zur
+transfer_state = 457 #Eastern Desert 
+transfer_state = 456 #Aswan 
+transfer_state = 453 #Sinai
+transfer_state = 454 #Palestine 
+transfer_state = 553 #Lebanon 
+transfer_state = 455 #Jordan
+transfer_state = 554 #Damascus 
+transfer_state = 677 #Aleppo 
+transfer_state = 183 #Cyprus 
+transfer_state = 116 #Malta 
+transfer_state = 765 #Qatar
+transfer_state = 658 #Abu Dhabi
+transfer_state = 294 #Oman
+transfer_state = 659 #Aden
+
+}
+
+every_state	= { limit = { is_core_of = BEL }
+	GER = {transfer_state =  PREV }
+}
+
+every_state	= { limit = { OR = { is_owned_by = ENG is_owned_by = CAN is_owned_by = USA  is_owned_by = HOL is_owned_by = NOR is_owned_by = DEN is_owned_by = MEX is_owned_by = FRA  is_owned_by = SAF }  } 
+	GER = {transfer_state =  PREV }
+}
+
+}
+
+
+
+
+
+
+horstorical_multiplayer_vichy_france = {
+FRA = { country_event = { id = usa.999 days = 1 }}
+ITA = { transfer_state = 735 
+735 = { set_compliance = 60 }
+transfer_state = 665
+665 = { set_compliance = 20 }
+transfer_state = 458
+458 = { set_compliance = 20 }
+transfer_state = 1 
+1 = { set_compliance = 40 }
+} #Italian claims, includes territory from Tunisia+Corsica+South Eastern France that was occupied in 1942
+EFR = { 
+add_ideas = SPR_no_navy2
+add_research_slot = 1
+add_equipment_to_stockpile = {
+    type = convoy_1
+    amount = 500
+    producer = EFR
+}
+add_dynamic_modifier = {
+    modifier = vichy_legitimacy
+}
+
+	diplomatic_relation = {   country = GER    relation = military_access    active = yes  }
+if = { limit = { NOT = { has_tech = improved_medium_tank }} set_technology = { improved_medium_tank = 1 } set_technology = { improved_medium_spaa = 1 } }
+if = { limit = { NOT = { has_tech = basic_medium_tank }} set_technology = { basic_medium_tank = 1 } set_technology = { basic_medium_spaa = 1  }	}
+if = { limit = { NOT = { has_tech = basic_heavy_tank }} set_technology = { basic_heavy_tank = 1 } set_technology = { basic_heavy_spaa = 1 } }
+set_technology = { improved_light_spaa = 1 }
+
+create_equipment_variant = { 
+    name = "Renault AMC 35" 
+    type = medium_tank_equipment_1 
+    upgrades = { 
+          tank_gun_upgrade = 5
+	  tank_armor_upgrade = 5
+	  tank_engine_upgrade = 3
+	  tank_reliability_upgrade = 6
+    }
+}
+create_equipment_variant = { 
+    name = "Somua S35" 
+    type = medium_tank_equipment_2
+    upgrades = { 
+        tank_gun_upgrade = 1
+	  tank_armor_upgrade = 4
+	  tank_engine_upgrade = 4
+	  tank_reliability_upgrade = 5
+    }
+}
+create_equipment_variant = { 
+    name = "Char B1 ter" 
+    type = heavy_tank_equipment_1 
+    upgrades = { 
+      tank_gun_upgrade = 8
+	  tank_armor_upgrade = 12
+	  tank_engine_upgrade = 5
+	  tank_reliability_upgrade = 15
+    }
+}
+create_equipment_variant = { 
+    name = "1936 FCM" 
+    type = light_tank_equipment_2 
+    upgrades = { 
+      tank_gun_upgrade = 2
+	  tank_armor_upgrade = 3
+	  tank_engine_upgrade = 5
+	  tank_reliability_upgrade = 5
+    }
+}
+add_equipment_to_stockpile = {
+    type = medium_tank_equipment_1
+    amount = 1300
+    producer = EFR
+}
+add_equipment_to_stockpile = {
+    type = medium_tank_equipment_2
+    amount = 300
+    producer = EFR
+}
+add_equipment_to_stockpile = {
+    type = heavy_tank_equipment_1
+    amount = 900
+    producer = EFR
+}
+add_equipment_to_stockpile = {
+    type = light_tank_equipment_2
+    amount = 600
+    producer = EFR
+}
+add_equipment_to_stockpile = {
+    type = infantry_equipment_0
+    amount = 60000
+    producer = EFR
+}
+
+add_equipment_to_stockpile = {
+    type = motorized_equipment_1
+    amount = 5000
+    producer = EFR
+}
+add_equipment_to_stockpile = {
+    type = anti_air_equipment_1
+    amount = 1500
+    producer = EFR
+}
+
+###SOUTHERN FRANCE###
+transfer_state = 26
+add_state_core = 26
+set_capital = 26 
+transfer_state = 33 
+add_state_core = 33 
+transfer_state = 783
+add_state_core = 783  
+transfer_state = 20
+add_state_core = 20 
+transfer_state = 25
+add_state_core = 25 
+transfer_state = 31 
+add_state_core = 31 
+transfer_state = 22 
+add_state_core = 22 
+transfer_state = 32 
+add_state_core = 32 
+transfer_state = 21
+add_state_core = 21 
+###NORTH AFRICA### #demilitarized so Vichy players aren't utter cancer
+transfer_state = 460
+460 = { set_demilitarized_zone = yes }
+transfer_state = 513
+513 = { set_demilitarized_zone = yes }
+transfer_state = 459
+459 = { set_demilitarized_zone = yes }
+transfer_state = 462
+462 = { set_demilitarized_zone = yes }
+transfer_state = 461
+461 = { set_demilitarized_zone = yes }
+transfer_state = 515	
+###SYRIA+LEBANON###
+if = { limit = { FRA = { has_legitimacy	< 100 } } 
+transfer_state = 680
+transfer_state = 554
+transfer_state = 553 
+transfer_state = 677
+}
+###WEST AFRICA###
+if = { limit = { FRA = { has_legitimacy	< 80 } } 
+transfer_state = 786
+transfer_state = 557
+transfer_state = 556
+transfer_state = 272
+transfer_state = 780
+transfer_state = 298
+transfer_state = 779
+transfer_state = 781
+transfer_state = 776
+transfer_state = 777
+transfer_state = 778
+}
+###MADAGASCAR###
+if = { limit = { FRA = { has_legitimacy	< 60 } } 
+transfer_state = 543
+543 = { set_demilitarized_zone = yes }
+}
+###CENTRAL AFRICA - BET###
+if = { limit = { FRA = { has_legitimacy	< 40 } } 
+transfer_state = 782
+transfer_state = 774
+transfer_state = 773
+transfer_state = 660
+}
+###CENTRAL AFRICA - GABON###
+if = { limit = { FRA = { has_legitimacy	< 20 } } 
+#transfer_state = 539 #Gabon, commented out so its not as harsh for France players
+transfer_state = 772
+}
+###CENTRAL AFRICA - BELGIAN CONGO###
+if = { limit = { FRA = { has_legitimacy	> 59 } } 
+FRA = { 
+			transfer_state = 295 
+			transfer_state = 718 
+			transfer_state = 538 
+			transfer_state = 768 
+			transfer_state = 769 
+			}
+}
+
+delete_unit_template_and_units = { division_template = "Division Légère de Cavalerie" }
+delete_unit_template_and_units = { division_template = "Divisions Légères Mécaniques" }
+delete_unit_template_and_units = { division_template = "Divisions Cuirassées de Reserve" }
+load_oob = "EFR_spawn"
+}
+
+GER = { 
+set_cosmetic_tag = GER_greater_german_reich
+diplomatic_relation = {   country = EFR    relation = non_aggression_pact   active = yes } 
+transfer_state = 28
+transfer_state = 17
+transfer_state = 27
+transfer_state = 18
+transfer_state = 24
+transfer_state = 16
+transfer_state = 785
+transfer_state = 15
+transfer_state = 30
+transfer_state = 23
+transfer_state = 14
+transfer_state = 19
+transfer_state = 29
+}
+GER = { add_ideas = VIC_guest_workers }
+FRA = { transfer_state = 713 
+remove_ideas = FRA_protected_by_the_maginot_line
+remove_ideas = FRA_victors_of_wwi2
+add_ideas = FRA_defeatism
+remove_ideas = FRA_full_employment
+			create_country_leader = {
+				name = "Charles de Gaulle"
+				desc = "POLITICS_CHARLES_DE_GAULLE_DESC"
+				picture = "Portrait_France_Charles_De_Gaulle.dds"
+				expire = "1965.1.1"
+				ideology = conservatism
+				traits = {
+					
+				}
+			}
+}
+		ENG = { 
+			transfer_state = 698 
+			 transfer_state = 702  
+			}
+}

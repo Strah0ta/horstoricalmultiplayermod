@@ -1,0 +1,46 @@
+﻿capital = 7
+set_research_slots = 0
+set_stability = 0.75
+set_war_support = 0
+add_ideas = ai_imiter 
+
+add_equipment_to_stockpile = {
+         type = infantry_equipment_1
+         amount = 20000
+         producer = GER
+}
+add_ideas = {
+ no_training 
+}
+country_event = { id = poland.117 days = 1277 }
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1933.4.26"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 93
+	fascism = 4
+	communism = 3
+}
+set_technology = {
+infantry_weapons_ai = 1 
+concentrated_industry = 1
+concentrated_industry2 = 1 
+concentrated_industry3 = 1 
+}
+set_convoys = 150
+set_stability = 0.75				
+
+create_country_leader = {
+	name = "Hendrikus Colijn"
+	desc = "POLITICS_HENDRIKUS_COLJIN_DESC"
+	picture = "GFX_portrait_holland_hendrikus_colijn"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+
+	}
+}

@@ -1,0 +1,148 @@
+allow_paratroopers = {
+	name = "RULE_ALLOW_PARATROOPERS"
+	group = "HORST_GROUPKEY"					
+	icon = "GFX_paradrops"
+	default = {
+		name = yes
+		text = "RULE_OPTION_ALLOWED"
+		desc = "RULE_ALLOW_PARATROOPERS_ALLOWED_DESC"
+	}
+	option = {
+		name = no
+		text = "RULE_OPTION_BLOCKED"
+		desc = "RULE_ALLOW_PARATROOPERS_BLOCKED_DESC"
+	}
+}
+	
+horst_manchukuo = {
+	name = "Manchukuo Focus Tree"
+	group = "HORST_GROUPKEY"					
+	icon = "GFX_decision_hol_draw_up_staff_plans"			
+	default = {	
+		name = "HORST_ENABLE_VANILLA_MANCHUKUO"
+		text = "Vanilla Manchukuo Focus Tree"
+		desc = "Clicking this option will keep the vanilla Manchukuo focus tree that is used in Horst"	
+	}
+	option = {	
+		name = "HORST_ENABLE_MOD_MANCHUKUO"
+		text = "Modded Manchukuo Focus Tree"
+		desc = "Clicking this option will give Manchukuo a powerful new focus tree that was created by Thrasymachus"	
+	}
+}
+
+horst_host_country = {
+	name = "Select Host (TEST IN SP FIRST!!!)"
+	group = "HORST_GROUPKEY"
+	icon = "GFX_volunteers"
+	default = { 
+	name = DIS
+	text = "Tool Disabled"
+	desc = ""
+	}
+	option = {
+		name = GER
+		text = "Germany"
+		desc = "Clicking this option will give Germany access to the Horst Tools (please test this in SP before enabling in MP)"
+	}
+	option = {
+		name = ITA
+		text = "Italy"
+		desc = "Clicking this option will give Italy access to the Horst Tools (please test this in SP before enabling in MP)"
+	}
+	option = {
+		name = ROM
+		text = "Romania"
+		desc = "Clicking this option will give Romania access to the Horst Tools (please test this in SP before enabling in MP)"
+	}
+	option = {
+		name = HUN
+		text = "Hungary"
+		desc = "Clicking this option will give Hungary access to the Horst Tools (please test this in SP before enabling in MP)"
+	}
+	option = {
+		name = ENG
+		text = "United Kingdom"
+		desc = "Clicking this option will give the United Kingdom access to the Horst Tools (please test this in SP before enabling in MP)"
+	}
+	option = {
+		name = USA
+		text = "USA"
+		desc = "Clicking this option will give America access to the Horst Tools (please test this in SP before enabling in MP)"
+	}
+	option = {
+		name = CAN
+		text = "Canada"
+		desc = "Clicking this option will give Canada access to the Horst Tools (please test this in SP before enabling in MP)"
+	}
+	option = {
+		name = SAF
+		text = "South Africa"
+		desc = "Clicking this option will give South Africa access to the Horst Tools (please test this in SP before enabling in MP)"
+	}
+	option = {
+		name = RAJ
+		text = "British Raj"
+		desc = "Clicking this option will give British Raj access to the Horst Tools (please test this in SP before enabling in MP)"
+	}
+	option = {
+		name = AST
+		text = "Australia"
+		desc = "Clicking this option will give Australia access to the Horst Tools (please test this in SP before enabling in MP)"
+	}
+	option = {
+		name = NZL
+		text = "New Zealand"
+		desc = "Clicking this option will give New Zealand access to the Horst Tools (please test this in SP before enabling in MP)"
+	}
+	option = {
+		name = JAP
+		text = "Japan"
+		desc = "Clicking this option will give Japan access to the Horst Tools (please test this in SP before enabling in MP)"
+	}
+	option = {
+		name = MAN
+		text = "Manchukuo"
+		desc = "Clicking this option will give Manchukuo access to the Horst Tools (please test this in SP before enabling in MP)"
+	}
+	option = {
+		name = SOV
+		text = "Soviet Union"
+		desc = "Clicking this option will give the Soviet Union access to the Horst Tools (please test this in SP before enabling in MP)"
+	}
+	option = {
+		name = FRA
+		text = "France"
+		desc = "Clicking this option will give France access to the Horst Tools (please test this in SP before enabling in MP)"
+	}
+		option = {
+		name = MEX
+		text = "Mexico"
+		desc = "Clicking this option will give Mexico access to the Horst Tools (please test this in SP before enabling in MP)"
+	}
+	option = {
+		name = SPR
+		text = "Spain"
+		desc = "Clicking this option will give Spain access to the Horst Tools (please test this in SP before enabling in MP)"
+	}
+		option = {
+		name = NOR
+		text = "Norway"
+		desc = "Clicking this option will give Norway access to the Horst Tools (please test this in SP before enabling in MP)"
+	}
+		option = {
+		name = FIN
+		text = "Finland"
+		desc = "Clicking this option will give Finland access to the Horst Tools (please test this in SP before enabling in MP)"
+	}	
+		option = {
+		name = ETH
+		text = "Italian East Africa"
+		desc = "Clicking this option will give Italian East Africa access to the Horst Tools (please test this in SP before enabling in MP) - Horst tool is transferred to Italy upon capitulation"
+	}		
+		option = {
+		name = EFR
+		text = "Vichy France"
+		desc = "Clicking this option will give Finland access to the Horst Tools (please test this in SP before enabling in MP) - Horst tool is transferred to Germany upon capitulation"
+	}		
+	
+}

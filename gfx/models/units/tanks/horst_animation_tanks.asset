@@ -1,0 +1,46 @@
+
+animation = {
+	name = "EFR_tank_light_attack_animation"
+	file = "EFR_tank_light_attack.anim"
+}
+
+animation = {
+	name = "EFR_tank_light_idle_animation"
+	file = "EFR_tank_light_idle.anim"
+}
+
+animation = {
+	name = "EFR_tank_light_moving_animation"
+	file = "EFR_tank_light_moving.anim"
+}
+
+animation = {
+	name = "EFR_tank_medium_attack_animation"
+	file = "EFR_tank_medium_attack.anim"
+}
+
+animation = {
+	name = "EFR_tank_medium_idle_animation"
+	file = "EFR_tank_medium_idle.anim"
+}
+
+animation = {
+	name = "EFR_tank_medium_moving_animation"
+	file = "EFR_tank_medium_moving.anim"
+}
+
+animation = {
+	name = "EFR_tank_heavy_attack_animation"
+	file = "EFR_tank_heavy_attack.anim"
+}
+
+animation = {
+	name = "EFR_tank_heavy_idle_animation"
+	file = "EFR_tank_heavy_idle.anim"
+}
+
+animation = {
+	name = "EFR_tank_heavy_moving_animation"
+	file = "EFR_tank_heavy_moving.anim"
+}
+

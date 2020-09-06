@@ -1,0 +1,20 @@
+state={
+id=551
+name="STATE_551"
+manpower = 1563507
+state_category = wasteland
+history = {
+owner = ENG
+add_core_of=SWE
+buildings = {
+infrastructure = 2
+air_base = 2
+}
+victory_points = {
+10748 25
+}
+}
+provinces={
+1977 2046 2088 4963 7925 7989 8105 10743 10745 10784 10902 12796 12806 12826 12862 12881 4138 12836 4961 12101 5027 4968  5099 5058 7970 2057 7934 12758 10835 10892 12749 12727 12813 10850 10923 7995 2027 5024 10748 
+}
+}

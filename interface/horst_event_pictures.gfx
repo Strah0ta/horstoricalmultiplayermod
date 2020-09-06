@@ -1,0 +1,223 @@
+spriteTypes = {	
+
+
+
+		spriteType = {
+		name = "GFX_saf_desert_tanks"
+		texturefile = "gfx/event_pictures/saf_desert_tanks.dds"
+	}
+	
+	
+		spriteType = {
+		name = "GFX_iceland"
+		texturefile = "gfx/event_pictures/iceland.dds"
+	}
+	
+		spriteType = {
+		name = "GFX_manrail1"
+		texturefile = "gfx/event_pictures/manrail1.dds"
+	}
+	
+		spriteType = {
+		name = "GFX_manrail2"
+		texturefile = "gfx/event_pictures/manrail2.dds"
+	}
+	
+		spriteType = {
+		name = "GFX_manrail3"
+		texturefile = "gfx/event_pictures/manrail3.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_sovbarb"
+		texturefile = "gfx/event_pictures/sovbarb.dds"
+	}
+	
+		spriteType = {
+	
+	name = "GFX_report_event_startup_picture"
+	texturefile = "gfx/event_pictures/report_event_startup_picture.dds"
+	}
+			spriteType = {
+	    name = "GFX_report_event_germany_startup"
+    texturefile = "gfx/event_pictures/report_event_germany_startup.dds"
+    }
+	
+				spriteType = {
+
+	    name = "GFX_report_event_italy_startup"
+    texturefile = "gfx/event_pictures/report_event_italy_startup.dds"
+    }
+	
+	
+				spriteType = {
+    name = "GFX_report_event_ussr_startup"
+    texturefile = "gfx/event_pictures/report_event_ussr_startup.dds"
+    }
+				spriteType = {
+   name = "GFX_report_event_uk_startup"
+    texturefile = "gfx/event_pictures/report_event_uk_startup.dds"
+    }
+	
+	
+				spriteType = {
+    name = "GFX_report_event_japan_startup"
+    texturefile = "gfx/event_pictures/report_event_japan_startup.dds"
+    }
+	
+					spriteType = {
+
+	    name = "GFX_report_event_france_startup"
+    texturefile = "gfx/event_pictures/report_event_france_startup.dds"
+    }
+						spriteType = {
+
+	    name = "GFX_report_event_usa_startup"
+    texturefile = "gfx/event_pictures/report_event_usa_startup.dds"
+    }
+	
+	
+		spriteType = {
+
+    name = "GFX_report_event_china_startup"
+    texturefile = "gfx/event_pictures/report_event_china_startup.dds"
+    }
+	
+		spriteType = {
+
+    name = "GFX_report_event_alliedminor_startup"
+    texturefile = "gfx/event_pictures/report_event_alliedminor_startup.dds"
+    }
+	
+		spriteType = {
+
+    name = "GFX_report_event_axisminor_startup"
+    texturefile = "gfx/event_pictures/report_event_axisminor_startup.dds"
+    }
+	
+			spriteType = {
+
+    name = "GFX_france1"
+    texturefile = "gfx/event_pictures/france1.dds"
+    }
+	
+			spriteType = {
+
+    name = "GFX_france2"
+    texturefile = "gfx/event_pictures/france2.dds"
+    }
+	
+			spriteType = {
+
+    name = "GFX_france3"
+    texturefile = "gfx/event_pictures/france3.dds"
+    }
+	
+			spriteType = {
+
+    name = "GFX_france4"
+    texturefile = "gfx/event_pictures/france4.dds"
+    }
+	
+		spriteType = {
+
+    name = "GFX_report_event_fra_por_colony"
+    texturefile = "gfx/event_pictures/report_event_fra_por_colony.dds"
+    }
+	
+spriteType = {
+
+    name = "GFX_franco"
+    texturefile = "gfx/event_pictures/franco.dds"
+    }
+	
+	
+		spriteType = {
+
+    name = "GFX_fate_eth"
+    texturefile = "gfx/event_pictures/fate_eth.dds"
+    }
+	
+	
+		spriteType = {
+
+    name = "GFX_raf"
+    texturefile = "gfx/event_pictures/raf.dds"
+    }
+	
+	
+		spriteType = {
+
+    name = "GFX_arabian_rev"
+    texturefile = "gfx/event_pictures/arabian_rev.dds"
+    }
+	
+	
+		spriteType = {
+
+    name = "GFX_counter_attack_iraq"
+    texturefile = "gfx/event_pictures/counter_attack_iraq.dds"
+    }
+	
+	spriteType = {
+
+    name = "GFX_churchill_smuts"
+    texturefile = "gfx/event_pictures/churchill_smuts.dds"
+    }
+	
+	spriteType = {
+
+    name = "GFX_fall_casablanca"
+    texturefile = "gfx/event_pictures/fall_casablanca.dds"
+    }
+	
+	spriteType = {
+
+    name = "GFX_gran_sasso"
+    texturefile = "gfx/event_pictures/gran_sasso.dds"
+    }
+	
+	spriteType = {
+
+    name = "GFX_mussolini_arrest"
+    texturefile = "gfx/event_pictures/mussolini_arrest.dds"
+    }
+	
+	spriteType = {
+
+    name = "GFX_student"
+    texturefile = "gfx/event_pictures/student.dds"
+    }
+	
+	spriteType = {
+
+    name = "GFX_mussolini_executed"
+    texturefile = "gfx/event_pictures/mussolini_executed.dds"
+    }
+	
+	spriteType = {
+
+    name = "GFX_VolchovPock"
+    texturefile = "gfx/event_pictures/VolchovPock.dds"
+    }
+	
+	spriteType = {
+
+    name = "GFX_BandaKoch"
+    texturefile = "gfx/event_pictures/BandaKoch.dds"
+    }
+	
+		spriteType = {
+
+    name = "GFX_tora"
+    texturefile = "gfx/event_pictures/tora.dds"
+    }	
+	
+	
+	
+	
+	
+	
+	
+	
+	}

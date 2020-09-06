@@ -1,0 +1,30 @@
+state={
+id=452
+name="STATE_452"
+manpower = 52556
+state_category = wasteland
+history={
+owner = ENG
+add_core_of=SWE
+buildings = {
+infrastructure = 3
+12082 = {
+naval_base = 1
+}
+}
+victory_points = {
+10900 1
+}
+victory_points = {
+9989 1
+}
+victory_points = {
+12082 1
+}
+}
+
+
+provinces={
+7079 9989 10061 11910 11967 5078 12033 12091 7148 12816 10104 10754 7985 1140 11951 10785 4191 12082  10884 10900 1095 8088 1043 12711 1901 10731 4903 10749  5095 4902 1956 5136  10840 10752 8073 
+}
+}
