@@ -54,21 +54,19 @@ ideas = {
 			}
 	}
 		SOV_227 = { 
-				allowed = {
-				always = no # Added via focus
-			}
-						picture = generic_manpower_bonus
-
+			allowed = {	always = no 	}
+			picture = generic_manpower_bonus
 			available = { }
-
-			allowed_civil_war = {
-			has_government = communism
-			}	
+			allowed_civil_war = {	has_government = communism	}	
 			modifier = {
-				army_core_defence_factor = 0.2
-				breakthrough_factor = -0.11
+				army_core_defence_factor = 0.35
+				breakthrough_factor = -0.22
 				army_armor_attack_factor = 0.1
+				army_core_attack_factor = 0.05				
 				dig_in_speed_factor = 1
+				supply_consumption_factor = -0.1
+				mobilization_speed = 1
+				out_of_supply_factor = -0.35	
 			}
 	}	
 
