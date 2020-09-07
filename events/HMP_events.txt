@@ -5607,7 +5607,7 @@ news_event = { #Case Blue
 	id = news.9990
 	title = news.9990.t
 	desc = news.9990.d
-	picture = GFX_news_event_panay_incident
+	picture = GFX_news_event_german_soldiers
 	
 	is_triggered_only = yes
 	
@@ -5636,7 +5636,7 @@ news_event = { #Operation Citadel
 	id = news.9991
 	title = news.9991.t
 	desc = news.9991.d
-	picture = GFX_news_event_panay_incident
+	picture = GFX_news_event_german_soldiers
 	
 	is_triggered_only = yes
 	

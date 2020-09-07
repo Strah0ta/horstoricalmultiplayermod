@@ -127,22 +127,6 @@ ideas = {
 				NOT = { has_idea = scraping_the_barrel    }
 			}
 
-			ai_will_do = {
-   				factor = 1
-				modifier = {
-					#Prio if low on manpower
-					factor = 20
-					manpower_per_military_factory <  800
-				}
-
-				modifier = { # china relies a lot on throwing bodies at the enemy
-					factor = 3
-
-					tag = CHI
-					has_manpower < 200000
-				}
-				
-			}
 			
 			cost = 150
 			removal_cost = -1
@@ -159,11 +143,7 @@ ideas = {
 		service_by_requirement = {
 
 			available = {
-				OR = {
-					has_government = fascism
-					has_government = communism
 					has_war = yes
-					}
 				if = {
 					limit = {
 						original_tag = AST
@@ -194,47 +174,6 @@ ideas = {
 				NOT = { has_idea = scraping_the_barrel    }
 			}
 
-			ai_will_do = {
-   				factor = 1
-				modifier = {
-					#Prio if low on manpower
-					factor = 20
-					manpower_per_military_factory <  700
-				}
-				modifier = {
-					#Lower chance if has decent amount
-					factor = 0.5
-					manpower_per_military_factory >  1000
-				}
-				modifier = {
-					#Block has plenty manpower
-					factor = 0
-					NOT = { tag = CHI }
-					NOT = { tag = SOV }
-					manpower_per_military_factory >  3000
-				}
-
-				modifier = { # china relies a lot on throwing bodies at the enemy
-					factor = 3
-
-					tag = CHI
-					has_manpower < 200000
-				}
-
-				modifier = { # germany needs this before russia, badly
-					factor = 10
-
-					original_tag = GER
-					has_manpower < 2000000
-				}
-				modifier = {
-					factor = 1000
-					original_tag = SOV
-					check_variable = { manpower_k < 3000 }
-				}
-
-			}
-			
 			cost = 150
 			removal_cost = -1
 			level = 3
@@ -333,26 +272,6 @@ ideas = {
 					NOT = { has_idea = HUN_treaty_of_triannon }
 				}
 			}
-
-			ai_will_do = {
-   				factor = 1
-				modifier = {
-					#Prio if low on manpower
-					factor = 20
-					manpower_per_military_factory <  500
-				}				
-				modifier = {
-					#Lower chance if has decent amount
-					factor = 0.5
-					manpower_per_military_factory >  1000
-				}
-				modifier = {
-					#Block has plenty manpower
-					factor = 0
-					manpower_per_military_factory >  5000
-				}
-			}
-
 			cost = 150
 			removal_cost = -1
 			level = 1
