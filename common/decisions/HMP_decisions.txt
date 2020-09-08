@@ -1763,6 +1763,7 @@ icon = generic_operation
 		set_autonomy = {  target = ITA  autonomy_state = autonomy_satellite }
 		if = { limit = { ITA = { owns_state = 187 }}  transfer_state =  187 transfer_state = 182 }
 		}
+		hidden_effect = { 
 		set_autonomy = { target = ETH autonomy_state = autonomy_satellite }
 		add_relation_modifier = {
 			target = HUN
@@ -1776,15 +1777,23 @@ icon = generic_operation
 			target = SPR
 			modifier = stahlpakt
 		} 
-				add_relation_modifier = {
+				add_opinion_modifier = {
 			target = EFR
-			modifier = stahlpakt
+			modifier = anti_cross_faction_trade
 		} 
+		EFR = { 
+	add_opinion_modifier = {
+			target = ITA
+			modifier = anti_cross_faction_trade
+		} 
+		}
+
 		EFR = { 	diplomatic_relation = {    country = ITA    relation = military_access   active = yes  } }
 		add_opinion_modifier = {
 			target = SOV
 			modifier = anti_cross_faction_trade
 		}	
+		}
 		}
 		timeout_effect = {
 		}
