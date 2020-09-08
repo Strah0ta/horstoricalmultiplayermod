@@ -143,7 +143,7 @@ buildings = {
 		fuel_silo = yes
 		
 		show_modifier = yes
-		max_fuel_building = 2 #k
+		max_fuel_building = 20 #k
 	}
 
 	radar_station = {
