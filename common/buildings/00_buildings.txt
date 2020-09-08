@@ -134,7 +134,7 @@ buildings = {
 
 	fuel_silo = {
 		show_on_map = 1
-		base_cost = 500
+		base_cost = 400
 		icon_frame = 14
 		shares_slots = yes
 		max_level = 99
@@ -143,7 +143,7 @@ buildings = {
 		fuel_silo = yes
 		
 		show_modifier = yes
-		max_fuel_building = 25 #k
+		max_fuel_building = 2 #k
 	}
 
 	radar_station = {

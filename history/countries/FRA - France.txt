@@ -1,17 +1,8 @@
 ﻿capital = 16
-
 oob = "FRA_1936"
-if = {
-	limit = { has_dlc = "Man the Guns" }
-		set_naval_oob = "FRA_1936_naval_mtg"
-	else = {
-		set_naval_oob = "FRA_1936_naval_legacy"
-	}
-}
-
+set_naval_oob = "FRA_1936_naval_mtg"
 set_rule = { can_be_spymaster = no }
 add_ideas = armyandnavy_idea
-
 set_research_slots = 3
 set_stability = 0.5
 set_war_support = 0.1
@@ -20,11 +11,8 @@ add_research_slot = 1
 }
 add_to_tech_sharing_group = commonwealth_research
 country_event = { id = DOD_yugoslavia.20 days = 759 }
-
 anti_cross_faction_trade_axis = yes
-
 create_intelligence_agency = yes
-
 set_variable = {
     var = min_fuel
     value = 0.800
@@ -55,36 +43,6 @@ set_technology = {
 	fleet_in_being = 1
 	fuel_silos = 1
 	synth_oil_experiments = 1
-}
-add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 4200 }
-add_equipment_to_stockpile = { type = infantry_equipment_1 amount = 29500 }
-add_equipment_to_stockpile = { type = light_tank_equipment_1 amount = 1200 }
-add_equipment_to_stockpile = { type = support_equipment_1 amount = 105 }
-add_equipment_to_stockpile = { type = motorized_equipment_1 amount = 3300 }
-add_equipment_to_stockpile = { type = artillery_equipment_1 amount = 300 }
-
-
-if = {
-	limit = { not = { has_dlc = "Man the Guns" } }
-		set_technology = {
-		early_submarine = 1
-		basic_submarine = 1
-		early_destroyer = 1
-		basic_destroyer = 1
-		early_light_cruiser = 1
-		basic_light_cruiser = 1
-		early_heavy_cruiser = 1
-		basic_heavy_cruiser = 1
-		early_battleship = 1
-		early_battlecruiser = 1
-		basic_battlecruiser = 1
-		early_carrier = 1
-		transport = 1
-	}
-}
-if = {
-	limit = { has_dlc = "Man the Guns" }
-	set_technology = {
 		early_ship_hull_light = 1
 		basic_ship_hull_light = 1
 		early_ship_hull_submarine = 1
@@ -101,14 +59,23 @@ if = {
 		basic_secondary_battery = 1
 		basic_heavy_armor_scheme = 1
 		mtg_transport = 1
-	}
+armored_car1 = 1		
 }
-if = {
-	limit = {
-		has_dlc = "La Resistance"
-	}
-	set_technology = { armored_car1 = 1	}
-}
+add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 4200 }
+add_equipment_to_stockpile = { type = infantry_equipment_1 amount = 29500 }
+add_equipment_to_stockpile = { type = light_tank_equipment_1 amount = 1200 }
+add_equipment_to_stockpile = { type = support_equipment_1 amount = 105 }
+add_equipment_to_stockpile = { type = motorized_equipment_1 amount = 3300 }
+add_equipment_to_stockpile = { type = artillery_equipment_1 amount = 300 }
+
+#############EQUIPMENT ADDED TO ENCOURAGE A BATTLE OF FRANCE###############
+add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 100000 }
+add_equipment_to_stockpile = { type = artillery_equipment_1 amount = 3000 }
+add_equipment_to_stockpile = { type = anti_air_equipment_1 amount = 2000 }
+
+
+
+
 
 set_convoys = 300
 
@@ -144,28 +111,6 @@ create_country_leader = {
 	ideology = socialism
 	traits = {
 		stout_defender
-	}
-}
-
-create_country_leader = {
-	name = "Maurice Thorez"
-	desc = "POLITICS_MAURICE_THOREZ_DESC"
-	picture = "GFX_portrait_fra_maurice_thorez"
-	expire = "1965.1.1"
-	ideology = 	stalinism
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Philippe Pétain"
-	desc = "POLITICS_PHILIPPE_PÉTAIN_DESC"
-	picture = "Portrait_France_Philippe_Petain.dds"
-	expire = "1965.1.1"
-	ideology = fascism_ideology
-	traits = {
-		
 	}
 }
 
@@ -366,72 +311,6 @@ if = {
 	}
 }
 
-### VARIANTS ###
-# 1936 Start #
-if = {
-	limit = { not = { has_dlc = "Man the Guns" } }
-	### Ship Variants ###
-	create_equipment_variant = {
-		name = "630 Series"
-		type = submarine_1
-		upgrades = {
-			ship_reliability_upgrade = 1
-			sub_engine_upgrade = 1
-			sub_stealth_upgrade = 1
-			sub_torpedo_upgrade = 1
-		}
-		obsolete = yes
-	}
-
-	create_equipment_variant = {
-		name = "Redoutable Class"
-		type = submarine_1
-		upgrades = {
-			ship_reliability_upgrade = 2
-			sub_engine_upgrade = 2
-			sub_stealth_upgrade = 2
-			sub_torpedo_upgrade = 2
-		}
-		obsolete = yes
-	}
-
-	create_equipment_variant = {
-		name = "Chacal Class"
-		type = destroyer_1
-		upgrades = {
-			ship_torpedo_upgrade = 1
-			destroyer_engine_upgrade = 1
-			ship_ASW_upgrade = 1
-			ship_anti_air_upgrade = 1
-		}
-		obsolete = yes
-	}
-
-	create_equipment_variant = {
-		name = "Aigle & Vauquelin Class"
-		type = destroyer_1
-		upgrades = {
-			ship_torpedo_upgrade = 2
-			destroyer_engine_upgrade = 2
-			ship_ASW_upgrade = 2
-			ship_anti_air_upgrade = 2
-		}
-	}
-
-	create_equipment_variant = {
-		name = "Bretagne Class"
-		type = battleship_1
-		upgrades = {
-			ship_reliability_upgrade = 1
-			ship_armor_upgrade = 1
-			ship_gun_upgrade = 1
-		}
-	}
-}
-if = {
-	limit = { has_dlc = "Man the Guns" }
-	# Submarines #
-
 	create_equipment_variant = {
 		name = "Saphir Class"				
 		type = ship_hull_submarine_1
@@ -601,4 +480,3 @@ if = {
 			mid_1_custom_slot = empty
 		}
 	}
-}

@@ -180,7 +180,7 @@ on_state_control_changed = {
 					limit = {
 						FROM = { tag = FRA }
 						FROM.FROM = { is_core_of = FRA }
-						FRA = { surrender_progress	> 0.6 }					
+						FRA = { surrender_progress	> 0.45 }					
 						NOT = { FRA = { has_country_flag = france_is_kill }}
 					}
 					FRA = { set_country_flag = france_is_kill  }

@@ -428,23 +428,38 @@ transfer_state = 515
 ###SYRIA+LEBANON###
 if = { limit = { FRA = { has_legitimacy	< 100 } } 
 transfer_state = 680
+680 = { set_demilitarized_zone = yes }
 transfer_state = 554
+554 = { set_demilitarized_zone = yes }
 transfer_state = 553 
+553 = { set_demilitarized_zone = yes }
 transfer_state = 677
+677 = { set_demilitarized_zone = yes }
 }
 ###WEST AFRICA###
 if = { limit = { FRA = { has_legitimacy	< 80 } } 
 transfer_state = 786
+786 = { set_demilitarized_zone = yes }
 transfer_state = 557
+557 = { set_demilitarized_zone = yes }
 transfer_state = 556
+556 = { set_demilitarized_zone = yes }
 transfer_state = 272
+272 = { set_demilitarized_zone = yes }
 transfer_state = 780
+780 = { set_demilitarized_zone = yes }
 transfer_state = 298
+298 = { set_demilitarized_zone = yes }
 transfer_state = 779
+779 = { set_demilitarized_zone = yes }
 transfer_state = 781
+781 = { set_demilitarized_zone = yes }
 transfer_state = 776
+776 = { set_demilitarized_zone = yes }
 transfer_state = 777
+777 = { set_demilitarized_zone = yes }
 transfer_state = 778
+778 = { set_demilitarized_zone = yes }
 }
 ###MADAGASCAR###
 if = { limit = { FRA = { has_legitimacy	< 60 } } 
@@ -454,14 +469,19 @@ transfer_state = 543
 ###CENTRAL AFRICA - BET###
 if = { limit = { FRA = { has_legitimacy	< 40 } } 
 transfer_state = 782
+782 = { set_demilitarized_zone = yes }
 transfer_state = 774
+774 = { set_demilitarized_zone = yes }
 transfer_state = 773
+773 = { set_demilitarized_zone = yes }
 transfer_state = 660
+660	 = { set_demilitarized_zone = yes }
 }
 ###CENTRAL AFRICA - GABON###
 if = { limit = { FRA = { has_legitimacy	< 20 } } 
 #transfer_state = 539 #Gabon, commented out so its not as harsh for France players
 transfer_state = 772
+772	 = { set_demilitarized_zone = yes }
 }
 ###CENTRAL AFRICA - BELGIAN CONGO###
 if = { limit = { FRA = { has_legitimacy	> 59 } } 
