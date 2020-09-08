@@ -1269,7 +1269,7 @@ if = {
 		cost = 5
 
 		available = {
-			has_capitulated = yes
+			NOT = { owns_state = 16 }
 		}
 		
 		available_if_capitulated = yes
@@ -1582,7 +1582,7 @@ transfer_state = 772
 		}
 		relative_position_id = FRA_army_reform
 		
-		available = { has_capitulated = yes }
+		available = { 			NOT = { owns_state = 16 } }
 
 
 		available_if_capitulated = yes
@@ -1671,7 +1671,7 @@ transfer_state = 772
 
 		cost = 5
 
-		available = { has_legitimacy > 40 has_capitulated = yes }
+		available = { has_legitimacy > 40 			NOT = { owns_state = 16 } }
 
 
 		available_if_capitulated = yes

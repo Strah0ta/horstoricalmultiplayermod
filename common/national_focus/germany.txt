@@ -1828,7 +1828,7 @@ focus = {
 		id = GER_reintegrate_luxemburg_and_alsace_lorraine
 		icon = GFX_goal_generic_position_armies
 		prerequisite = { focus = GER_demand_memel }
-		available = {	FRA = { has_capitulated = yes }	}
+		available = {				NOT = { FRA = { owns_state = 16 }	} }
 		x = 0
 		y = 1
 		relative_position_id = GER_demand_memel
