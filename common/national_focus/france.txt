@@ -1465,13 +1465,12 @@ transfer_state = 778
 		}
 		
 		bypass = {
-		OR = { controls_state = 539
+		OR = { controls_state = 772
 		has_war_with = EFR }
 		}
 		available_if_capitulated = yes
 		search_filters = { FOCUS_FILTER_ANNEXATION }
 		completion_reward = {
-	transfer_state = 539
 transfer_state = 772
 		}
 	}
