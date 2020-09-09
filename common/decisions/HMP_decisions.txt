@@ -941,7 +941,8 @@ USA_puppet_mexico = {
 			SOV = { activate_mission = SOV_relocation  } 
 			}		
 			if = { limit = { has_idea = extensive_conscription } 		add_ideas = service_by_requirement  }
-			
+				SOV = { if = { limit = { has_idea = extensive_conscription } 		add_ideas = service_by_requirement  } }
+		
 				country_event = { id = fincon.2 days = 7 }
 			declare_war_on = {
 				target = SOV 
