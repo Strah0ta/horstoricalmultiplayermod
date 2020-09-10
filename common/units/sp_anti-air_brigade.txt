@@ -3,7 +3,7 @@ sub_units = {
 	light_sp_anti_air_brigade = {
 		sprite = light_armor
 		map_icon_category = armored
-		priority = 301
+		priority = 201
 		ai_priority = 100
 		active = yes
 		

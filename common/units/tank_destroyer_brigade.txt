@@ -3,7 +3,7 @@ sub_units = {
 	light_tank_destroyer_brigade = {
 		sprite = "light_armor"
 		map_icon_category = armored
-		priority = 401
+		priority = 301
 		ai_priority = 100
 		active = yes
 		
@@ -66,7 +66,7 @@ sub_units = {
 	medium_tank_destroyer_brigade = {
 		sprite = "medium_armor"
 		map_icon_category = armored
-		priority = 402
+		priority = 302
 		ai_priority = 100
 		active = yes
 		
@@ -133,7 +133,7 @@ sub_units = {
 	heavy_tank_destroyer_brigade = {
 		sprite = "heavy_armor"
 		map_icon_category = armored
-		priority = 403
+		priority = 303
 		ai_priority = 100
 		active = yes
 		training_time = 90
@@ -203,7 +203,7 @@ sub_units = {
 	super_heavy_tank_destroyer_brigade = {
 		sprite = "heavy_armor"
 		map_icon_category = armored
-		priority = 404
+		priority = 304
 		ai_priority = 100
 		active = yes
 		
@@ -270,7 +270,7 @@ sub_units = {
 	modern_tank_destroyer_brigade = {
 		sprite = "medium_armor"
 		map_icon_category = armored
-		priority = 406
+		priority = 306
 		ai_priority = 100
 		active = yes
 		

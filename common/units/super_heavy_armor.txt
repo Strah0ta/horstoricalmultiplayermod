@@ -3,7 +3,7 @@ sub_units = {
 	super_heavy_armor = {
 		sprite = heavy_armor
 		map_icon_category = armored
-		priority = 2520
+		priority = 670
 		ai_priority = 2520
 		active = yes
 

@@ -728,30 +728,24 @@ USA_puppet_mexico = {
 	public_support_for_fra = {
 		icon = eng_install_government
 		allowed = {	OR = { original_tag = ENG original_tag = USA } 	}
-		available = {	OR = {	political_power_daily > 0.4	has_political_power > 50	}	}
-		visible = {	FRA = { has_capitulated = yes }  FRA = { has_legitimacy < 100   }	}
-		modifier = {	political_power_cost = 0.4	}
-		targeted_modifier = {
-			tag = FRA
-			targeted_legitimacy_daily = 0.1
+				days_re_enable = 120
+
+		visible = {	NOT = { FRA = { owns_state = 16 }}  check_variable = { FRA.FRA_legitimacy < 100 }	}
+		cost = 50
+		complete_effect = {
+			add_to_variable =  { var = FRA.FRA_legitimacy value = 10 }
 		}
-		days_remove = 120
 	}
 		joint_training_exercise = {
 		icon = eng_blackshirt_march
-		cost = 0
-		days_re_enable = 270
+		cost = 100
 		allowed = {	original_tag = ENG 	}
-		custom_cost_trigger = {	command_power > 25 }
 		custom_cost_text = custom_cost_joint_training_exercise
-		available = {  FROM = {	has_legitimacy > 35	any_war_score > 9    }}
-		visible = {	FROM = { 	is_exiled_in = ROOT	has_legitimacy > 25   }	}
-		target_array = exiles
-		target_trigger = { FROM = { is_exiled_in = ENG } }
+		visible = {	NOT = { FRA = { owns_state = 16 }}	}
 		complete_effect = {
-			army_experience = 25
-			FROM = {	army_experience = 25	}
-			hidden_effect = {	add_command_power = -25 }
+			army_experience = 100
+			FRA = {	army_experience = 100	}
+			NOR  = { army_experience = 100 }
 		}
 		}
 	}
@@ -1372,7 +1366,7 @@ icon = generic_operation
 			OR = { 
 			NOT = { ITA = { controls_state = 448 controls_state = 450 controls_state = 451 }   }
 			date > 1942.3.1
-			
+			AND = { controls_state = 446 date > 1941.6.1 }
 			}
 		}
 		
