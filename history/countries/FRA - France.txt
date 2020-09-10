@@ -17,6 +17,7 @@ set_variable = {
     var = min_fuel
     value = 0.800
 }
+set_variable = { var = FRA_legitimacy value = 0 }			
 
 # Starting tech
 set_technology = {

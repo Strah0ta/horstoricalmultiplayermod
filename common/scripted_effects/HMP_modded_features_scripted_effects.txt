@@ -6,6 +6,42 @@ GER_all_plane_LL = {
 	send_equipment = { equipment = heavy_fighter_equipment amount = 10000 target = GER }
 }
 
+
+FRA_legitimacy_week_counter = {
+if = { limit = { date > 1939.9.10 } add_to_variable = { var = FRA_legitimacy value = 5 } }
+if = { limit = { date > 1939.9.20 } add_to_variable = { var = FRA_legitimacy value = 5 } }
+if = { limit = { date > 1939.9.30 } add_to_variable = { var = FRA_legitimacy value = 5 } }
+if = { limit = { date > 1939.10.10 } add_to_variable = { var = FRA_legitimacy value = 5 } }
+if = { limit = { date > 1939.10.20 } add_to_variable = { var = FRA_legitimacy value = 5 } }
+if = { limit = { date > 1939.10.30 } add_to_variable = { var = FRA_legitimacy value = 5 } }
+if = { limit = { date > 1939.11.10 } add_to_variable = { var = FRA_legitimacy value = 5 } }
+if = { limit = { date > 1939.11.20 } add_to_variable = { var = FRA_legitimacy value = 5 } }
+if = { limit = { date > 1939.11.30 } add_to_variable = { var = FRA_legitimacy value = 5 } }
+if = { limit = { date > 1939.12.10 } add_to_variable = { var = FRA_legitimacy value = 5 } }
+if = { limit = { date > 1939.12.20 } add_to_variable = { var = FRA_legitimacy value = 5 } }
+if = { limit = { date > 1939.12.30 } add_to_variable = { var = FRA_legitimacy value = 5 } }
+}
+
+FRA_legitimacy_casualties_counter = {
+	set_temp_variable = { ROMcasualtiesk = ROM.casualties_k }
+	divide_temp_variable  = { ROMcasualtiesk  = 5  }
+	add_to_variable = { var = FRA_legitimacy value = ROMcasualtiesk }
+	set_temp_variable = { GERcasualtiesk = GER.casualties_k }
+	divide_temp_variable  = { GERcasualtiesk  = 5  }
+	add_to_variable = { var = FRA_legitimacy value = GERcasualtiesk }
+	set_temp_variable = {HUNcasualtiesk = HUN.casualties_k }
+	divide_temp_variable  = { HUNcasualtiesk  = 5  }
+	add_to_variable = { var = FRA_legitimacy value = HUNcasualtiesk }
+	set_temp_variable = { SPRcasualtiesk = SPR.casualties_k }
+	divide_temp_variable  = { SPRcasualtiesk  = 5 }
+	add_to_variable = { var = FRA_legitimacy value = SPRcasualtiesk }
+}
+
+
+
+
+
+
 HMP_ger_total_mob = { #converts 80 civs to 80 mills instantly for Germany as part of the Totaler Krieg focus
 HMP_ger_total_mob_1 = yes  
 HMP_ger_total_mob_1 = yes 

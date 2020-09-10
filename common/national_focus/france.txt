@@ -1275,9 +1275,9 @@ if = {
 		available_if_capitulated = yes
 		completion_reward = {
 				add_manpower = 100000
-				if = { limit  = { has_legitimacy < 20  }  add_legitimacy = 15  }
-				if = { limit  = {  has_legitimacy < 40 has_legitimacy > 20  } add_legitimacy = 10  }
-				if = { limit  = { has_legitimacy < 60 has_legitimacy > 40 }   add_legitimacy = 5  }	
+				if = { limit  = { check_variable = {  FRA_legitimacy < 20  }    }  add_to_variable = { var = FRA_legitimacy value = 5  }   }
+				if = { limit  = { check_variable = {  FRA_legitimacy < 40  }    }  add_to_variable = { var = FRA_legitimacy value = 5  }   }
+				if = { limit  = { check_variable = {  FRA_legitimacy < 60  }    }  add_to_variable = { var = FRA_legitimacy value = 5  }   }
 			add_equipment_to_stockpile = {
 				type = infantry_equipment_1
 				amount = 5000
@@ -1337,9 +1337,12 @@ if = {
 
 		available = {
 	OR = {
-		has_legitimacy > 40
-		date > 1940.8.5
+check_variable = {  FRA_legitimacy > 40  }    		date > 1940.8.5
 		}			
+				custom_trigger_tooltip = {
+					tooltip = "Has at least 40 legitimacy"
+					check_variable = { FRA_legitimacy > 40 }
+				}
 		}
 		
 		bypass = {
@@ -1376,9 +1379,13 @@ transfer_state = 660
 		}
 		available = {
 		OR = {
-		has_legitimacy > 80
+check_variable = {  FRA_legitimacy > 80  }
 		date > 1941.8.5
 		}
+						custom_trigger_tooltip = {
+					tooltip = "Has at least 80 legitimacy"
+					check_variable = { FRA_legitimacy > 80 }
+				}
 }		
 		
 		bypass = {
@@ -1420,8 +1427,12 @@ transfer_state = 778
 		available = {
 				ENG = { controls_state = 455 }
 				OR = { date > 1941.1.1 
-						has_legitimacy > 99	
+						check_variable = {  FRA_legitimacy > 99  }
 					}
+									custom_trigger_tooltip = {
+					tooltip = "Has 100 legitimacy"
+					check_variable = { FRA_legitimacy > 99 }
+				}
 				}
 		
 		bypass = {
@@ -1454,14 +1465,16 @@ transfer_state = 778
 		relative_position_id = FRA_appeal_to_overseas_territories
 		
 		cost = 5
-		ai_will_do = {
-			factor = 1
-		}
+
 		available = {
 		OR = {
-		has_legitimacy > 20
+		check_variable = {  FRA_legitimacy > 20  }
 		date > 1940.3.5
 		}		
+						custom_trigger_tooltip = {
+					tooltip = "Has at least 20 legitimacy"
+					check_variable = { FRA_legitimacy > 20 }
+				}
 		}
 		
 		bypass = {
@@ -1489,15 +1502,17 @@ transfer_state = 772
 		relative_position_id = FRA_appeal_to_overseas_territories
 		
 		cost = 5
-		ai_will_do = {
-			factor = 1
-		}
+
 		available = {
 		ENG = { controls_state = 549}
 		OR = {
-		has_legitimacy > 60 
+		check_variable = {  FRA_legitimacy > 60  } 
 		date > 1941.5.5
 		}
+						custom_trigger_tooltip = {
+					tooltip = "Has at least 60 legitimacy"
+					check_variable = { FRA_legitimacy > 60 }
+				}
 		}
 		
 		bypass = {
@@ -1532,7 +1547,12 @@ transfer_state = 772
 		
 		cost = 10
 
-		available = { has_legitimacy > 90 }
+		available = { check_variable = {  FRA_legitimacy > 90  } 
+						custom_trigger_tooltip = {
+					tooltip = "Has at least 90 legitimacy"
+					check_variable = { FRA_legitimacy > 90 }
+				}
+		}
 		
 		available_if_capitulated = yes
 
@@ -1560,7 +1580,11 @@ transfer_state = 772
 		cost = 10
 
 		available = {
-				has_legitimacy > 99	
+				check_variable = {  FRA_legitimacy > 99  }
+								custom_trigger_tooltip = {
+					tooltip = "Has 100 legitimacy"
+					check_variable = { FRA_legitimacy > 99 }
+				}
 		}
 		
 
@@ -1670,12 +1694,17 @@ transfer_state = 772
 
 		cost = 5
 
-		available = { has_legitimacy > 40 			NOT = { owns_state = 16 } }
+		available = { check_variable = {  FRA_legitimacy > 40  }  
+					custom_trigger_tooltip = {
+					tooltip = "Has at least 40 legitimacy"
+					check_variable = { FRA_legitimacy > 40 }
+				}
+		}
 
 
 		available_if_capitulated = yes
 		completion_reward = {
-			remove_ideas = { FRA_defeatism }
+			remove_ideas = FRA_defeatism 
 		}
 	}
 	

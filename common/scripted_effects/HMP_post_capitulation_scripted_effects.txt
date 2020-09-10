@@ -288,6 +288,7 @@ every_state	= { limit = { OR = { is_owned_by = ENG is_owned_by = CAN is_owned_by
 
 
 horstorical_multiplayer_vichy_france = {
+FRA = {  FRA_legitimacy_week_counter = yes  FRA_legitimacy_casualties_counter = yes }
 FRA = { country_event = { id = usa.999 days = 1 }}
 ITA = { transfer_state = 735 
 735 = { set_compliance = 60 }
@@ -426,7 +427,7 @@ transfer_state = 461
 461 = { set_demilitarized_zone = yes }
 transfer_state = 515	
 ###SYRIA+LEBANON###
-if = { limit = { FRA = { has_legitimacy	< 100 } } 
+if = { limit = { FRA = { check_variable = { FRA_legitimacy 	< 100 } }  }
 transfer_state = 680
 680 = { set_demilitarized_zone = yes }
 transfer_state = 554
@@ -437,7 +438,7 @@ transfer_state = 677
 677 = { set_demilitarized_zone = yes }
 }
 ###WEST AFRICA###
-if = { limit = { FRA = { has_legitimacy	< 80 } } 
+if = { limit = { FRA = { check_variable = { FRA_legitimacy 	< 80 } } }
 transfer_state = 786
 786 = { set_demilitarized_zone = yes }
 transfer_state = 557
@@ -462,12 +463,12 @@ transfer_state = 778
 778 = { set_demilitarized_zone = yes }
 }
 ###MADAGASCAR###
-if = { limit = { FRA = { has_legitimacy	< 60 } } 
+if = { limit = { FRA = { check_variable = { FRA_legitimacy 	< 60 } } }
 transfer_state = 543
 543 = { set_demilitarized_zone = yes }
 }
 ###CENTRAL AFRICA - BET###
-if = { limit = { FRA = { has_legitimacy	< 40 } } 
+if = { limit = { FRA = { check_variable = { FRA_legitimacy 	< 40 } } }
 transfer_state = 782
 782 = { set_demilitarized_zone = yes }
 transfer_state = 774
@@ -478,13 +479,13 @@ transfer_state = 660
 660	 = { set_demilitarized_zone = yes }
 }
 ###CENTRAL AFRICA - GABON###
-if = { limit = { FRA = { has_legitimacy	< 20 } } 
+if = { limit = { FRA = { check_variable = { FRA_legitimacy 	< 20 } } }
 #transfer_state = 539 #Gabon, commented out so its not as harsh for France players
 transfer_state = 772
 772	 = { set_demilitarized_zone = yes }
 }
 ###CENTRAL AFRICA - BELGIAN CONGO###
-if = { limit = { FRA = { has_legitimacy	> 59 } } 
+if = { limit = { FRA = { check_variable = { FRA_legitimacy 	> 59 } } }
 FRA = { 
 			transfer_state = 295 
 			transfer_state = 718 
