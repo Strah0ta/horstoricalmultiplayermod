@@ -30,8 +30,8 @@
  JAP_armored_car_at_equipment_1_short:0 "Type 4 Armored Car"
  FRA_armored_car_at_equipment_1:0 "Voiture spéciale 207"
  FRA_armored_car_at_equipment_1_short:0 "V.S. 207" 
-  DELETE_DOCK:0 "Remove a Dockyard"
-
+ DELETE_DOCK:0 "Remove a Dockyard"
+ naval_bomber3:0 "1944 Naval Bombers"
  air_offensex_desc:0 "With a focus on bombing during the day we need to keep our bombers safe from intercepting fighters. Training our fighter pilots to work closely with the bombers will improve their fighting abilities when protecting the bombers in enemy airspace."
  fighter_baitingx:0 "Fighter Baiting"
  fighter_baitingx_desc:0 "By appearing vulnerable, our fighters can lure hostile aircraft into ambushes."

@@ -1317,7 +1317,7 @@ add_equipment_production = {
 		
 			focus = {
 		id = GER_stuka_foc
-		icon = GFX_goal_generic_army_tanks
+		icon = GFX_goal_generic_build_airforce
 		prerequisite = { focus = GER_wunderwaffe }
 		
 		x = -3
@@ -1334,7 +1334,7 @@ add_equipment_production = {
 	
 				focus = {
 		id = GER_choco_foc
-		icon = GFX_goal_generic_army_tanks
+		icon = GFX_goal_generic_build_tank
 		prerequisite = { focus = GER_wunderwaffe } 
 		
 		x = 6
@@ -1352,7 +1352,7 @@ add_equipment_production = {
 	
 				focus = {
 		id = GER_pillen_foc
-		icon = GFX_goal_generic_army_tanks
+		icon = GFX_goal_generic_axis_build_infantry
 		prerequisite = { focus = GER_wunderwaffe }
 		
 		x = 3
