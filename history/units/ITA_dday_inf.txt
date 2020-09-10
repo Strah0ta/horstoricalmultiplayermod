@@ -1236,13 +1236,13 @@
 		}					
 			division = {	
 			start_equipment_factor = 0.01 start_experience_factor = 0.4
-			location = 9397
+			location = 391
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}	
 				division = {	
 			start_equipment_factor = 0.01 start_experience_factor = 0.4
-			location = 9397
+			location = 391
 			division_template = "Fanteria del Muro Atlantico"
 			force_equipment_variants = { infantry_equipment_1 = { owner = "ITA" } }
 		}	
