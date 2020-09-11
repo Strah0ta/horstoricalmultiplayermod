@@ -1310,9 +1310,6 @@ focus_tree = {
 			is_ai = no
 		}
 		completion_reward = {
-			ENG = {
-				add_to_faction = MEX
-			}
 			add_tech_bonus = {
 				name = armor
 				bonus = 1
@@ -1323,7 +1320,8 @@ focus_tree = {
 				name = armor
 				bonus = 1
 				uses = 1
-				category = armor
+				technology = improved_medium_tank
+				technology = improved_heavy_tank
 			}
 			add_tech_bonus = {
 				name = tooltip_military_budget_review
@@ -1595,7 +1593,9 @@ focus_tree = {
 				name = armor
 				bonus = 1
 				uses = 1
-				category = armor
+				technology = advanced_heavy_tank
+				technology = advanced_medium_tank
+				technology = super_heavy_tank
 			}
 			custom_effect_tooltip = available_designer
 			show_ideas_tooltip = american_mexican_tanks

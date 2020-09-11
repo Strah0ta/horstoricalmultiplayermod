@@ -1027,7 +1027,11 @@ focus_tree = {
 				name = CAN_the_valentine_tank
 				bonus = 1.0
 				uses = 2
-				category = armor
+				technology = improved_medium_tank
+				technology = improved_heavy_tank
+				technology = advanced_heavy_tank
+				technology = advanced_medium_tank
+				technology = super_heavy_tank
 			}
 			
 		}

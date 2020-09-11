@@ -652,7 +652,7 @@ focus_tree = {
 			add_tech_bonus = {
 				name = SAF_mechanization_effort
 				bonus = 1.0
-				uses = 1
+				uses = 2
 				category = cat_mechanized_equipment
 			}
 		}
@@ -701,7 +701,11 @@ focus_tree = {
 				name = SAF_armor_effort
 				bonus = 1.0
 				uses = 2
-				category = armor
+				technology = improved_medium_tank
+				technology = improved_heavy_tank
+				technology = advanced_medium_tank
+				technology = advanced_heavy_tank
+				technology = super_heavy_tank				
 			}
 		}
 	}

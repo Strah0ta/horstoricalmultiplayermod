@@ -38,6 +38,11 @@ NDefines.NMilitary.FIELD_MARSHAL_XP_RATIO = 0
 NDefines.NMilitary.LEADER_EXPERIENCE_SCALE = 0.0
 NDefines.NMilitary.XP_GAIN_PER_OVERRUN_UNIT = 0
 NDefines.NMilitary.XP_GAIN_FOR_SHATTERING = 0
+NDefines.NMilitary.WAR_SCORE_LOSSES_RATIO = 0				-- Scale how much losses will affect warscore ( per 1000 losses ).
+NDefines.NMilitary.WAR_SCORE_LOSSES_MULT_IF_CAPITULATED = 0 -- How much your losses count towards warscore if you have capitulated.
+NDefines.NMilitary.WAR_SCORE_AIR_WORTH = 0            	-- how much strategic bombing will affect warscore
+NDefines.NMilitary.WAR_SCORE_AIR_WORTH_CAP = 0				-- the warscore limit we get from strategic bombing
+NDefines.NMilitary.WAR_SCORE_AIR_MONTHLY_FALLOFF = 0			-- how much the warscore we got from the strategic bombing falls off every month.
 ----------------------HFU BATTLEPLAN REWORK----------------------
 NDefines.NMilitary.PLAN_NEIGHBORING_ENEMY_PROVINCE_FACTOR = 0.7	-- When calculating the importance of provinces, it takes number of enemy provinces into account, factored by this
 NDefines.NMilitary.PLAN_PROVINCE_LOW_VP_IMPORTANCE_AREA = 1     -- Used when calculating the value of defense area in the battle plan system
@@ -75,7 +80,6 @@ NDefines.NMilitary.PLAN_SPREAD_ATTACK_WEIGHT = 1	--13			-- The higher the value,
 NDefines.NAI.PLAN_ATTACK_MIN_ORG_FACTOR_LOW = 0.95	-- Minimum org % for a unit to actively attack an enemy unit when executing a plan
 NDefines.NAI.PLAN_ATTACK_MIN_STRENGTH_FACTOR_LOW = 0.9	-- Minimum strength for a unit to actively attack an enemy unit when executing a plan
 --NDefines.NAI.PLAN_ATTACK_DEPTH_FACTOR = 0.5,				-- Factor applied to size or enemy being attacked.
-
 --NDefines.NAI.PLAN_ATTACK_MIN_ORG_FACTOR_MED = 0.75		-- (LOW,MED,HIGH) corresponds to the plan execution agressiveness level.
 --NDefines.NAI.PLAN_ATTACK_MIN_STRENGTH_FACTOR_MED = 0.3	
 --NDefines.NAI.PLAN_ATTACK_MIN_ORG_FACTOR_HIGH = 0.2	
@@ -161,7 +165,11 @@ NDefines.NDiplomacy.ATTACHE_TO_SUBJECT_EFFECT = 0				-- If overlord sent attache
 NDefines.NDiplomacy.ATTACHE_TO_OVERLORD_EFFECT = 0				-- If subject sent attaches to the overlord it gains autonomy
 NDefines.NDiplomacy.MASTER_BUILD_AUTONOMY_FACTOR = 0          -- scales autonomy gain from construction by this
 NDefines.NDiplomacy.CAPITAL_CAPITULATE_BONUS_SCORE = 10000			-- vanilla 150, changed in attempt to make capitulations look more reasonable. extra bonus when deciding who to capitulate to (applied to capital holder)
-
+NDefines.NDiplomacy.WAR_SCORE_AUTONOMY_BASE = 0					-- Value added if any war score is contributed by puppet
+NDefines.NDiplomacy.WAR_SCORE_AUTONOMY_FACTOR = 0			-- If puppet generates war score it get a boost to independence 
+NDefines.NDiplomacy.VICTORY_POINT_WORTH_FACTOR_WARSCORE = 0	-- multiplier when calcualting province worth with autonomy/warscore
+NDefines.NDiplomacy.GIE_CAPITULATION_WARSCORE_LEGITIMACY_FACTOR = 0 	--Multiplies accumulated warscore with this factor for part of starting legitimacy.
+NDefines.NDiplomacy.GIE_WARSCORE_GAIN_LEGITIMACY_FACTOR = 0		 		--Factor on how much legitimacy is gained from warscore earned by GiE units.
 ---------------------------------------------------------------
 NDefines.NPolitics.ARMY_LEADER_COST = 1					-- VANILLA 5 | cost for recruiting new leaders, 'this value' * number_of_existing_leaders_of_type
 ---------------------------------------------------------------
@@ -238,7 +246,9 @@ NDefines.NNavy.MISSION_SPREADS = {  -- mission spreads in the case a ship join c
 	}
 NDefines.NNavy.INITIAL_ALLOWED_DOCKYARD_RATIO_FOR_REPAIRS = 1.0				-- initially countries will allocate this ratio of dockyards for repairs
 NDefines.NNavy.SUPPLY_NEED_FACTOR = 0										-- Changed from vanilla becausee of a weird bug where using too much supply while docked leads to the fleet having no range or fuel
-NDefines.NNavy.PRIDE_OF_THE_FLEET_UNASSIGN_COST = 0							-- cost to unassign/replace pride of the fleet    
+NDefines.NNavy.PRIDE_OF_THE_FLEET_UNASSIGN_COST = 0							-- cost to unassign/replace pride of the fleet   
+NDefines.NNavy.WARSCORE_GAIN_FOR_SUNK_SHIP_MANPOWER_FACTOR = 0						-- sunk ships will give enemy war score relative to max manpower of a ship that has been sunk
+NDefines.NNavy.WARSCORE_GAIN_FOR_SUNK_SHIP_PRODUCTION_COST_FACTOR = 0			-- sunk ships will give enemy war score relative to cost of a ship that has been sunk
 ---------------------------------------------------------------
 NDefines.NAI.MAX_REQUEST_EXPEDITIONARIES_ARMY_RATIO = 1				-- AI will not accept expeditionary requests if its expeditions are above this ratio
 NDefines.NAI.CASUALTY_RATIO_TO_PULL_EXPEDITIONARIES_BACK = 1			-- AI will pull expeditioniries back if its casualties is aboce this ratio compared to their total deployed manpower

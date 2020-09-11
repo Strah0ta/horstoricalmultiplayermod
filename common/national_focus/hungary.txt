@@ -721,7 +721,7 @@ focus_tree = {
 			add_tech_bonus = {
 				name = HUN_the_botond
 				bonus = 1.0
-				uses = 1
+				uses = 2
 				category = motorized_equipment
 			}
 		}
@@ -771,7 +771,9 @@ focus_tree = {
 				name = HUN_develop_tanks
 				ahead_reduction = 2
 				uses = 1
-				category = armor
+				technology = advanced_heavy_tank
+				technology = advanced_medium_tank
+				technology = super_heavy_tank
 			}
 		}
 	}
@@ -814,7 +816,9 @@ focus_tree = {
 				name = HUN_armored_warfare
 				bonus = 1.0
 				uses = 1
-				category = armor
+				technology = improved_medium_tank
+				technology = improved_heavy_tank
+				technology = advanced_light_tank
 			}
 		}
 	}

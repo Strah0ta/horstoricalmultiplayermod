@@ -574,8 +574,9 @@ focus_tree = {
 			add_tech_bonus = {
 				name = RAJ_indian_armor
 				bonus = 1.0
-				uses = 1
-				category = armor
+				uses = 2
+				technology = improved_medium_tank
+				technology = advanced_medium_tank
 			}
 		}
 	}
