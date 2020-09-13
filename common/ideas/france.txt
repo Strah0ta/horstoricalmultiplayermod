@@ -17,6 +17,8 @@ ideas = {
 				surrender_limit = -0.60
 			}
         }
+		
+		
 	
 		EFR_work_service = {
 			picture = generic_production_bonus
@@ -294,6 +296,15 @@ ideas = {
 				conscription = 0.1
 			}
 		}
+		
+		
+		fra_legit_idea = {
+					picture = generic_disjointed_gov
+			allowed = {	original_tag = FRA	}
+			allowed_civil_war = {	original_tag = FRA	}
+			removal_cost = -1
+		}
+		
 		FRA_firepower = {
 			picture = generic_artillery_regiments
 			allowed = {

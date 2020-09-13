@@ -10,6 +10,10 @@ leader_traits = {
 		}
 	}
 	
+	fra_legit_trait = {
+		random = no
+	}
+	
 	lion_of_verdun = {
 	random = no
 		experience_gain_army = 0.05

@@ -3,6 +3,7 @@ oob = "FRA_1936"
 set_naval_oob = "FRA_1936_naval_mtg"
 set_rule = { can_be_spymaster = no }
 add_ideas = armyandnavy_idea
+add_ideas = fra_legit_idea
 set_research_slots = 3
 set_stability = 0.5
 set_war_support = 0.1
@@ -110,7 +111,7 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = socialism
 	traits = {
-		stout_defender
+		#fra_legit_trait
 	}
 }
 
