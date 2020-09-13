@@ -571,9 +571,9 @@ create_navy_leader = {
 	name = "Filipp Oktyabrskiy"
 		picture = "Portrait_Soviet_Filipp_Oktyabrsky.dds"
 	traits = { ironside green_water_expert arctic_water_expert spotter concealment_expert big_guns_expert}
-	skill = 4
-	attack_skill = 5
-	defense_skill = 6
+	skill = 3
+	attack_skill = 4
+	defense_skill = 4
 	maneuvering_skill = 1
 	coordination_skill = 1
 }
@@ -583,11 +583,11 @@ create_navy_leader = {
 	id = 409
 		picture = "Portrait_Soviet_Arseniy_Golovko.dds"
 	traits = { arctic_water_expert spotter concealment_expert seawolf fleet_protector }
-	skill = 4
+	skill = 3
 	attack_skill = 4
 	defense_skill = 3
-	maneuvering_skill = 3
-	coordination_skill = 3
+	maneuvering_skill = 1
+	coordination_skill = 2
 	}
 	
 	

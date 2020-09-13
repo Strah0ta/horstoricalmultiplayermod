@@ -476,11 +476,11 @@ create_navy_leader = {
 	id = 983
 	picture = "Portrait_Britain_James_Fownes_Somerville.dds"
 	traits = {  concealment_expert air_controller flight_deck_manager torpedo_bomber dive_bomber ground_pounder fly_swatter  blue_water_expert spotter ironside big_guns_expert }
-	skill = 6
-	attack_skill = 3
+	skill = 5
+	attack_skill = 2
 	defense_skill = 8
-	maneuvering_skill = 3
-	coordination_skill = 5
+	maneuvering_skill = 2
+	coordination_skill = 4
 }
 
 create_navy_leader = {
@@ -488,10 +488,10 @@ create_navy_leader = {
 	id = 990
 		picture = "Portrait_Britain_Charles_Forbes.dds"
 	traits = { fly_swatter cruiser_captain fleet_protector destroyer_leader hunter_killer search_pattern_expert  arctic_water_expert    }
-	skill = 5
-	attack_skill = 4
+	skill = 4
+	attack_skill = 2
 	defense_skill = 2
-	maneuvering_skill = 3
+	maneuvering_skill = 2
 	coordination_skill = 9
 }
 

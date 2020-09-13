@@ -379,10 +379,10 @@ create_navy_leader = {
 	name = "Chester W. Nimitz"
 		picture = "Portrait_USA_Chester_W_Nimitz.dds"
 	traits = { bold spotter air_controller  blue_water_expert concealment_expert flight_deck_manager  torpedo_bomber ironside ground_pounder smoke_screen_expert }
-	skill = 7
-	attack_skill = 5
+	skill = 6
+	attack_skill = 3
 	defense_skill = 6
-	maneuvering_skill = 4
+	maneuvering_skill = 3
 	coordination_skill = 7
 }
 
@@ -401,10 +401,10 @@ create_navy_leader = {
 	name = "Arleigh Burke"
 		picture = "Portrait_USA_Arleigh_Burke.dds"
 	traits = { bold concealment_expert lone_wolf fleet_protector destroyer_leader inshore_fighter fly_swatter cruiser_captain }
-	skill = 5
-	attack_skill = 6
+	skill = 4
+	attack_skill = 4
 	defense_skill = 2
-	maneuvering_skill = 6
+	maneuvering_skill = 5
 	coordination_skill = 2
 }
 

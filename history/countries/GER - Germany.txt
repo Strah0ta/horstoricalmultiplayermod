@@ -550,23 +550,23 @@ create_navy_leader = {
 	name = "Karl Dönitz"
 	picture = "Portrait_Germany_Karl_Donitz.dds"
 	traits = { seawolf spotter concealment_expert lancer loading_drill_master torpedo_expert }
-	skill = 6
+	skill = 5
 	id = 26
-	attack_skill = 7
+	attack_skill = 5
 	defense_skill = 2
 	maneuvering_skill = 3
-	coordination_skill = 7
+	coordination_skill = 6
 }
 
 create_navy_leader = {
 	name = "Erich Raeder"
 		picture = "Portrait_Germany_Erich_Raeder.dds"
 	traits = { naval_lineage battleship_adherent blockade_runner ironside big_guns_expert air_controller torpedo_bomber flight_deck_manager cruiser_captain destroyer_leader lone_wolf fly_swatter fleet_protector }
-	skill = 6
+	skill = 5
 	id = 27
-	attack_skill = 4
+	attack_skill = 2
 	defense_skill = 6
-	maneuvering_skill = 5
+	maneuvering_skill = 4
 	coordination_skill = 4
 }
 

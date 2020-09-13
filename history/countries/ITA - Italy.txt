@@ -290,10 +290,10 @@ create_navy_leader = {
 	name = "Alberto Da Zara"
 		picture = "Portrait_Italy_Alberto_Da_Zara.dds"
 	traits={ battleship_adherent gentlemanly fleet_protector flight_deck_manager loading_drill_master ground_pounder superior_tactician ironside air_controller big_guns_expert green_water_expert destroyer_leader concealment_expert }
-	skill = 5
-	attack_skill = 3
-	defense_skill = 6
-	maneuvering_skill = 3
+	skill = 4
+	attack_skill = 2
+	defense_skill = 5
+	maneuvering_skill = 2
 	coordination_skill = 4
 }
 
@@ -301,11 +301,11 @@ create_navy_leader = {
 	name = "Angelo Iachino"
 		picture = "Portrait_Italy_Angelo_Iachino.dds"
 	traits = { seawolf blockade_runner spotter green_water_expert concealment_expert   }
-	skill = 5
-	attack_skill = 5
-	defense_skill = 2
+	skill = 4
+	attack_skill = 4
+	defense_skill = 1
 	maneuvering_skill = 4
-	coordination_skill = 5
+	coordination_skill = 4
 }
 	### Battleship Variants	
 	create_equipment_variant = {			# original configuration of class pre-refit (refit in 1937-40)
