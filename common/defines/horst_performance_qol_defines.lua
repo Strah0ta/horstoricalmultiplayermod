@@ -74,6 +74,8 @@ NDefines.NMilitary.PLAN_AREA_DEFENSE_ENEMY_UNIT_FACTOR = 0		-- Factor applied to
 NDefines.NMilitary.PLAN_MAX_PROGRESS_TO_JOIN = 0.2				-- If Lower progress than this, probably needs support	
 NDefines.NMilitary.PLAN_BLITZ_OPTIMISM = -50						-- Additional combat balance value in favor of blitzing side when considering targets (not a combat bonus, just offsets planning)
 NDefines.NMilitary.PLAN_EXECUTE_CAREFUL_LIMIT = 100				-- Vanilla 25 -- When looking for an attach target, this score limit is required in the battle plan to consider province for attack
+NDefines.NMilitary.AIR_EQUIPMENT_BASE_COST = 0                  -- CHANGED AS EVERYTHING IS PRE-UPGPRADED
+NDefines.NMilitary.AIR_EQUIPMENT_RAMP_COST = 0					-- CHANGED AS EVERYTHING IS PRE-UPGPRADED
 --NDefines.NMilitary.COMBAT_VALUE_ORG_IMPORTANCE = 1		-- Vanilla 1 -- Multiplier on TotalOrganisation when determining the combat value of a division
 --NDefines.NMilitary.COMBAT_VALUE_STR_IMPORTANCE = 1		-- Vanilla 1 -- Multiplier on TotalStrength when determining the combat value of a division
 NDefines.NMilitary.PLAN_SPREAD_ATTACK_WEIGHT = 1	--13			-- The higher the value, the less it should crowd provinces with multiple attacks.
@@ -100,10 +102,12 @@ NDefines.NBuildings.OWNER_CHANGE_EXTRA_SHARED_SLOTS_FACTOR = 1.0 -- You get all 
 ---------------------------------------------------------------
 NDefines.NAir.AIR_WING_MAX_SIZE = 800                               -- this can be halved 3 times into 100 stacks (very convenient)
 NDefines.NAir.DETECT_CHANCE_FROM_AIRCRAFTS_EFFECTIVE_COUNT = 1500  -- WAS 3000, halved because plane counts halved | Max amount of aircrafts in region to give full detection bonus.
-NDefines.NAir.CLOSE_AIR_SUPPORT_EXPERIENCE_SCALE = 0.001			-- WAS 0.0005 | How much the experinence gained by CAS is scaled
-NDefines.NAir.PARADROP_EXPERIENCE_SCALE = 0.06						-- WAS 0.03 | How much the experinence gained by paradropping is scaled
-NDefines.NAir.BOMBING_DAMAGE_EXPERIENCE_SCALE = 0.0004        	   -- WAS 0.0002 | How much the experinence gained by bombing is scaled
-NDefines.NAir.FIELD_EXPERIENCE_SCALE = 0.002						-- WAS 0.001 | This affects how much XP you get from various missions (AFAIK this will affect XP gained from bombing and CAS missions as well)
+NDefines.NAir.CLOSE_AIR_SUPPORT_EXPERIENCE_SCALE = 0		-- WAS 0.0005 | How much the experinence gained by CAS is scaled
+NDefines.NAir.PARADROP_EXPERIENCE_SCALE = 0					-- WAS 0.03 | How much the experinence gained by paradropping is scaled
+NDefines.NAir.BOMBING_DAMAGE_EXPERIENCE_SCALE = 0       	   -- WAS 0.0002 | How much the experinence gained by bombing is scaled
+NDefines.NAir.FIELD_EXPERIENCE_SCALE = 0						-- WAS 0.001 | This affects how much XP you get from various missions (AFAIK this will affect XP gained from bombing and CAS missions as well)
+NDefines.NAir.FIELD_EXPERIENCE_MAX_PER_DAY = 0					-- Most xp you can gain per day
+
 NDefines.NAir.COMBAT_MAX_WINGS_AT_ONCE = 5000                         -- WAS 10000 | Max amount of air wings in one combat simulation. The higher value, the quicker countries may loose their wings. It's a gameplay balance value.
 NDefines.NAir.COMBAT_MAX_WINGS_AT_GROUND_ATTACK = 5000                -- WAS 10000 | we can really pounce a land strike and escalate
 NDefines.NAir.COMBAT_MAX_WINGS_AT_ONCE_PORT_STRIKE = 5000       	 -- WAS 10000 | we can really pounce a naval strike and escalate

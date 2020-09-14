@@ -27,6 +27,7 @@ NDefines.NAir.AIR_WING_XP_LOSS_WHEN_KILLED = 0									--if a plane dies, the ga
 NDefines.NAir.AIR_WING_XP_TRAINING_MAX = 0							--Max average XP achieved with training.
 NDefines.NAir.AIR_WING_XP_MAX = 0 											--Per plane XP.
 NDefines.NAir.AIR_WING_XP_LEVELS = { 0 } 						--Experience needed to progress to the next level
+NDefines.NAir.AIR_WING_XP_TRAINING_MISSION_ACCIDENT_FACTOR = 0				--Training exercises cause more accidents
 NDefines.NAir.FIELD_EXPERIENCE_SCALE = 0
 NDefines.NAir.FIELD_EXPERIENCE_MAX_PER_DAY = 0				-- Most xp you can gain per day
 NDefines.NAir.CLOSE_AIR_SUPPORT_EXPERIENCE_SCALE = 0		-- How much the experinence gained by CAS is scaled
