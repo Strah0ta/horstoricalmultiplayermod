@@ -71,15 +71,21 @@ weather_very_cold = { # on Province
 	army_attack_factor = -0.1
 	dig_in_speed_factor = 0.25
 }
-weather_ground_snow_medium = { # on Province
-}
-weather_ground_snow_high = { # on Province
-}
+weather_ground_snow_medium = { }
+weather_ground_snow_high = { }
 
 gibraltar_modifier = {
 	pocket_penalty = -1
 	max_dig_in = 14
 }
+
+rasputitsa = { 
+	army_speed_factor = -0.3
+	army_armor_speed_factor = -0.2	
+	army_attack_factor = -0.3
+	attrition = 0.2		
+}
+
 
 flooded = { # on Province
 	army_speed_factor = -0.5
@@ -99,14 +105,10 @@ local_factories = -1
 local_manpower = -1
 }
 
-resistance_effect = {
-
-}
+resistance_effect = { }
 
 # For compliance base + effect * compliance_level will be applied as a modifier.
-compliance_effect_base = {
-
-}
+compliance_effect_base = { }
 
 compliance_effect = {
 	local_factories = 0.8
@@ -119,8 +121,7 @@ non_core_controller = {	 }
 
 
 
-lacking_consumer_goods = {
-}
+lacking_consumer_goods = { }
 
 gain_focus = {
 	political_power_cost = 1

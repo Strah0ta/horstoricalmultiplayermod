@@ -2839,6 +2839,7 @@ leader_traits = {
 	winter_fox = {
 	sprite = 5
 	acclimatization_cold_climate_gain_factor = 1000
+	winter_attrition = -1 
 	}
 	
 	army_infantry_3 = { # +12 infantry efficiency

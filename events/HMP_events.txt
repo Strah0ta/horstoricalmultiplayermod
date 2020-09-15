@@ -1035,9 +1035,83 @@ country_event = {
 			complete_national_focus = fin_continuation
    }
    }     
+          country_event = {
+   id = italy.800
+   title = "The Continuation War"
+   desc = "With the German invasion of the Soviet Union, our time has come to strike the Soviets and reclaim our lost territories!"
+   picture = GFX_report_event_german_italian_pact
+
+   fire_only_once = yes
+ is_triggered_only = yes
+   
+   
+      option = {
+	every_state = { limit = { is_core_of = SOV } add_province_modifier = { static_modifiers = { rasputitsa } province = all } }
+	  }
+   }     
+           country_event = {
+   id = italy.801
+   title = "The Continuation War"
+   desc = "With the German invasion of the Soviet Union, our time has come to strike the Soviets and reclaim our lost territories!"
+   picture = GFX_report_event_german_italian_pact
+
+   fire_only_once = yes
+ is_triggered_only = yes
+   
+   
+      option = {
+	every_state = { limit = { is_core_of = SOV } remove_province_modifier = { static_modifiers = { rasputitsa } province = all } }
+	  }
+   }       
+   
 
 add_namespace = mtg_news
+news_event = {
+	id = mtg_news.776
+	title = "Start of the Spring Mud Season"
+	desc = mtg_news.778.desc
+	picture = GFX_news_event_generic_usa_treaty
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "General Mud returns to the battlefield."
+		
+	}
+}
 
+news_event = {
+	id = mtg_news.777
+	title = "Start of the Fall Mud Season"
+	desc = mtg_news.778.desc
+	picture = GFX_news_event_generic_usa_treaty
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Winter is coming."
+		
+	}
+}
+news_event = {
+	id = mtg_news.778
+	title = "Start of Winter"
+	desc = mtg_news.778.desc
+	picture = GFX_news_event_generic_usa_treaty
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Okay."
+		
+	}
+}
 # US Pursues Neutrality
 news_event = {
 	id = mtg_news.3
