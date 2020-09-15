@@ -192,7 +192,17 @@ create_field_marshal = {          #tank FM
     planning_skill = 6
     logistics_skill = 6
 		}
-		
+create_corps_commander = {
+	name = "Ernst-Eberhard Hell"
+	picture = "Portrait_Germany_Ernst-Eberhard_Hell.dds"
+	traits = { winter_specialist trait_engineer scavenger panzer_leader panzer_expert ambusher }
+	skill = 6
+	id = 99934
+    attack_skill = 4
+    defense_skill = 5
+    planning_skill = 4
+    logistics_skill = 6
+}
 		
 	}
 	}

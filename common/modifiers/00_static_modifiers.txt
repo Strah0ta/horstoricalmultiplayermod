@@ -29,30 +29,10 @@ weather_rain_heavy = { # on Region
 	positioning = -0.1
 }
 weather_snow = { # on Region 
-	air_detection = -0.15
-	naval_detection = -0.15
-	naval_hit_chance = -0.05
-	naval_speed_factor = -0.05
-	naval_strike = -0.3
-	air_accidents = 0.1
-	local_org_regain = -0.05
-	air_mission_efficiency = -0.1
-	naval_retreat_speed = 0.05
-	positioning = -0.1
+
 }
 weather_blizzard = { # on Region 
-	air_detection = -0.3
-	naval_detection = -0.3
-	naval_hit_chance = -0.1
-	naval_speed_factor = -0.1
-	carrier_traffic = -1.0
-	naval_strike = -0.4
-	air_accidents = 0.3
-	air_bombing_targetting = -0.7
-	local_org_regain = -0.3
-	air_mission_efficiency = -0.3
-	naval_retreat_speed = 0.15
-	positioning = -0.2
+
 }
 weather_sandstorm = { # on Region 
 	air_detection = -0.9
@@ -87,22 +67,40 @@ weather_extreme_hot = { # on Province
 	army_attack_factor = -0.1
 }
 weather_extreme_cold = { # on Province
-	winter_attrition = 0.15
-	army_attack_factor = -0.15
+	winter_attrition = 0.40
+	army_attack_factor = -0.25
+		air_detection = -0.3
+	naval_detection = -0.3
+	naval_hit_chance = -0.1
+	naval_speed_factor = -0.1
+	carrier_traffic = -1.0
+	naval_strike = -0.4
+	air_accidents = 0.3
+	air_bombing_targetting = -0.7
+	local_org_regain = -0.3
+	air_mission_efficiency = -0.3
+	naval_retreat_speed = 0.15
+	positioning = -0.2
+	dig_in_speed_factor = 0.5	
 }
 weather_very_cold = { # on Province
-	winter_attrition = 0.1
-	army_attack_factor = -0.1
+	winter_attrition = 0.25
+	army_attack_factor = -0.15
+		air_detection = -0.15
+	naval_detection = -0.15
+	naval_hit_chance = -0.05
+	naval_speed_factor = -0.05
+	naval_strike = -0.3
+	air_accidents = 0.1
+	local_org_regain = -0.05
+	air_mission_efficiency = -0.1
+	naval_retreat_speed = 0.05
+	positioning = -0.1
+		dig_in_speed_factor = 0.25
 }
 weather_ground_snow_medium = { # on Province
-	winter_attrition = 0.125
-	dig_in_speed_factor = 0.25	
-	army_attack_factor = -0.05
 }
 weather_ground_snow_high = { # on Province
-	winter_attrition = 0.25
-	dig_in_speed_factor = 0.5
-	army_attack_factor = -0.1
 }
 
 gibraltar_modifier = {
