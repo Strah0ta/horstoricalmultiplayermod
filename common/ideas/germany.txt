@@ -617,20 +617,23 @@ ideas = {
 
 			picture = generic_acquire_tanks
 
-			modifier = { planning_speed = 0.25 }
+			modifier = { 
+				planning_speed = 0.25
+				army_defence_factor = -0.1
+			}
 			
 			equipment_bonus = {
 				armor = {
-					maximum_speed = 0.1 reliability = -0.15 instant = yes
+					maximum_speed = 0.1 instant = yes
 				}
 				motorized_equipment = { 
-					maximum_speed = 0.1 reliability = -0.15	 	 instant = yes		
+					maximum_speed = 0.1 instant = yes		
 				}
 				mechanized_equipment = { 
-					maximum_speed = 0.1 reliability = -0.15	 	 instant = yes		
+					maximum_speed = 0.1 instant = yes		
 				}
 				amphibious_mechanized_equipment = { 
-					maximum_speed = 0.1 reliability = -0.15	  instant = yes				
+					maximum_speed = 0.1 instant = yes				
 				}				
 			}
 		}			
