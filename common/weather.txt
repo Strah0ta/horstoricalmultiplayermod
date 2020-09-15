@@ -5,10 +5,13 @@ terrain_modifiers = {
   no_phenomenon = {
   }
   mud = {
-    terrain = { type = "mountain" value = -0.1 }
-    terrain = { type = "plains" value = 0.5 }
-    terrain = { type = "marsh" value = 0.8 }
-    terrain = { type = "desert" value = 0.5 }
+  	terrain = { type = "mountain" value = -1.0 }
+	terrain = { type = "forest" value = -1.0 }
+   	terrain = { type = "plains" value = -1.0 }
+  	terrain = { type = "desert" value = -1.0 }
+    terrain = { type = "urban" value = -1.0 }
+    terrain = { type = "hills" value = -1.0 }
+    terrain = { type = "jungle" value = -1.0 }
   }
   rain_light = {
   }
@@ -32,10 +35,6 @@ terrain_modifiers = {
   	terrain = { type = "desert" value = 0.8 }
   	terrain = { type = "mountain" value = -1.0 }
   }
-
-  #temperature = {
-  	#terrain = { type = "desert" value = 10.0 } ##Not unless we make separate day/night temp bonus
-  #}
 }
 
 settings = {
@@ -50,20 +49,20 @@ settings = {
   }
   mud = {
     # Amount of water collected by rain increases probability of mud
-    water_gain_on_rain_light = 1.0
-    water_gain_on_rain_heavy = 1.5
-    water_gain_max = 300.0
-    water_gain_min = 5.0 # cutoff
+    water_gain_on_rain_light = 0
+    water_gain_on_rain_heavy = 0
+    water_gain_max = 0
+    water_gain_min = 0 # cutoff
 
     # (for text descriptions) - When rain gain reach max level, it'll be X cm of water. (fe. max 60.0*0.2 = 12cm of rainfall)
-    water_gain_to_cm = 0.2
+    water_gain_to_cm = 0
 
     # When not raining, high temperature increases water drying speed. Starts low because the soil should natuarally drain some water even in northern climates.
-    water_dryout_temperature = { 0.0 38.0 }
-    water_dryout_multiplier = { 0.0005 0.3 }
+    water_dryout_temperature = { 100 100 }
+    water_dryout_multiplier = { 0 0 }
 
     # When temperature goes below, the mud disappears (it gets frozen).
-    min_temperature = -1.0
+    min_temperature = 80.0
   }
 
   #Provinces with a static modifiers with this ID gets the mud effect applied on the map
@@ -73,15 +72,15 @@ settings = {
 
   snowing = {
     # Amount of snow collected affects the visual snow on the map
-    snow_gain_on_snowing = 6.0
-    snow_gain_on_blizzard = 8.0
-    snow_gain_max = 80.0
+    snow_gain_on_snowing = 0
+    snow_gain_on_blizzard = 0
+    snow_gain_max = 0
 
     # Visual fix, so even tiny amount of snow can be visible. (0-255)
     snow_visual_min = 128
 
     # (for text descriptions) - When snow gain reach max level, it'll be X cm of snow. (fe. max 80.0*2.1 = 168cm of snow)
-    snow_gain_to_cm = 2.1
+    snow_gain_to_cm = 0
 
     # When not snowing, high temperature increases snow melting speed.
     snow_melt_temperature = { 0.0 12.0 }
@@ -101,7 +100,7 @@ settings = {
   
   # Increase chance of X if was already X before. Decrease otherwise.
   chance_increase = {
-    mud = { 20.0 0.10 }
+    mud = { 0.0 0.0 }
     rain = { 1.75 0.25 }
     snow = { 2.00 0.25 }
     sandstorm = { 1.75 0.25 }
