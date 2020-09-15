@@ -1036,7 +1036,7 @@ country_event = {
    }
    }     
           country_event = {
-   id = italy.800
+   id = italy.800 #spring mud
    title = "The Continuation War"
    desc = "With the German invasion of the Soviet Union, our time has come to strike the Soviets and reclaim our lost territories!"
    picture = GFX_report_event_german_italian_pact
@@ -1047,10 +1047,27 @@ country_event = {
    
       option = {
 	every_state = { limit = { is_core_of = SOV } add_province_modifier = { static_modifiers = { rasputitsa } province = all } }
+	news_event = { id = mtg_news.776  days = 0 }
+	  }
+   }     
+             country_event = {
+   id = italy.802 #fall mud
+   title = "The Continuation War"
+   desc = "With the German invasion of the Soviet Union, our time has come to strike the Soviets and reclaim our lost territories!"
+   picture = GFX_report_event_german_italian_pact
+
+   fire_only_once = yes
+ is_triggered_only = yes
+   
+   
+      option = {
+	every_state = { limit = { is_core_of = SOV } add_province_modifier = { static_modifiers = { rasputitsa } province = all } }
+	news_event = { id = mtg_news.777  days = 0 }
+	country_event = { id = italy.801 days = 60 }
 	  }
    }     
            country_event = {
-   id = italy.801
+   id = italy.801 #mud removal event
    title = "The Continuation War"
    desc = "With the German invasion of the Soviet Union, our time has come to strike the Soviets and reclaim our lost territories!"
    picture = GFX_report_event_german_italian_pact
@@ -1061,6 +1078,7 @@ country_event = {
    
       option = {
 	every_state = { limit = { is_core_of = SOV } remove_province_modifier = { static_modifiers = { rasputitsa } province = all } }
+	
 	  }
    }       
    
@@ -1069,7 +1087,7 @@ add_namespace = mtg_news
 news_event = {
 	id = mtg_news.776
 	title = "Start of the Spring Mud Season"
-	desc = mtg_news.778.desc
+	desc = mtg_news.777.desc
 	picture = GFX_news_event_generic_usa_treaty
 	
 	major = yes
@@ -1085,7 +1103,7 @@ news_event = {
 news_event = {
 	id = mtg_news.777
 	title = "Start of the Fall Mud Season"
-	desc = mtg_news.778.desc
+	desc = mtg_news.777.desc
 	picture = GFX_news_event_generic_usa_treaty
 	
 	major = yes

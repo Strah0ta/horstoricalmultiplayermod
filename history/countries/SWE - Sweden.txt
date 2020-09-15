@@ -8,6 +8,25 @@ country_event = { id =  poland.120 days = 2191 }
 country_event = { id =  poland.121 days = 2364 }
 country_event = { id =  poland.122 days = 2729 }
 
+####RUSSIA SEASON EVENTS####
+#FALL MUD SEASON
+country_event = { id =  italy.802 days = 2271 }
+country_event = { id =  italy.802 days = 2636 }
+country_event = { id =  italy.802 days = 3002 }
+country_event = { id =  italy.802 days = 3367 }
+
+#SPRING MUD SEASON
+country_event = { id =  italy.800 days = 2090 }
+country_event = { id =  italy.800 days = 2455 }
+country_event = { id =  italy.800 days = 2820 }
+country_event = { id =  italy.800 days = 3186 }
+
+#WINTER
+news_event = { id = mtg_news.778 days = 2151 }
+news_event = { id = mtg_news.778 days = 2516 }
+news_event = { id = mtg_news.778 days = 2881 }
+news_event = { id = mtg_news.778 days = 3247 }
+############################
 
 news_event = { id = news.9990 days = 2364 }
 news_event = { id = news.9991 days = 2729  }

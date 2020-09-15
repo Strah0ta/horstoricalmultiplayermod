@@ -80,9 +80,9 @@ gibraltar_modifier = {
 }
 
 rasputitsa = { 
-	army_speed_factor = -0.3
-	army_armor_speed_factor = -0.2	
-	army_attack_factor = -0.3
+	army_speed_factor = -0.2
+	army_armor_speed_factor = -0.3	
+	army_attack_factor = -0.2
 	attrition = 0.2		
 }
 
