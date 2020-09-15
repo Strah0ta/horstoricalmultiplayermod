@@ -206,13 +206,6 @@ ideas = {
 			}
 
 			removal_cost = -1
-			
-			modifier = {
-				drift_defence_factor = 0.5
-			}
-			rule = {
-				can_create_factions = yes
-			}
 		}
 		
 		general_staff = {

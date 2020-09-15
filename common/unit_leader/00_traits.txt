@@ -347,8 +347,8 @@ leader_traits = {
 	}
 	
 	winter_specialist = { 
-		type = personality_trait
-		new_commander_weight = 0
+		type = corps_commander
+		trait_type = personality_trait
 		cost = 500
 		modifier = {	winter_attrition_factor = -0.5	}
 		trait_type = basic_terrain_trait
