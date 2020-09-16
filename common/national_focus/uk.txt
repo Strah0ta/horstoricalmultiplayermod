@@ -472,10 +472,7 @@ create_equipment_variant = {
 	name = "Supermarine Spitfire Mk III"
 	type = fighter_equipment_2
 	upgrades = {
-		plane_gun_upgrade = 2 
-		plane_range_upgrade = 5
-		plane_engine_upgrade = 3
-		plane_reliability_upgrade = 5
+
 	}
 }		
 add_equipment_production = {

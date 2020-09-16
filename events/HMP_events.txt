@@ -1040,13 +1040,13 @@ country_event = {
    title = "The Continuation War"
    desc = "With the German invasion of the Soviet Union, our time has come to strike the Soviets and reclaim our lost territories!"
    picture = GFX_report_event_german_italian_pact
-
+	hidden = yes 
    fire_only_once = yes
  is_triggered_only = yes
    
    
       option = {
-	every_state = { limit = { is_core_of = SOV } add_province_modifier = { static_modifiers = { rasputitsa } province = all } }
+	every_state = { limit = { is_core_of = SOV } add_province_modifier = { static_modifiers = { rasputitsa } province = { all_provinces = yes }  } }
 	news_event = { id = mtg_news.776  days = 0 }
 	  }
    }     
@@ -1058,10 +1058,11 @@ country_event = {
 
    fire_only_once = yes
  is_triggered_only = yes
-   
+   	hidden = yes
+
    
       option = {
-	every_state = { limit = { is_core_of = SOV } add_province_modifier = { static_modifiers = { rasputitsa } province = all } }
+	every_state = { limit = { is_core_of = SOV } add_province_modifier = { static_modifiers = { rasputitsa } province = { all_provinces = yes }  } }
 	news_event = { id = mtg_news.777  days = 0 }
 	country_event = { id = italy.801 days = 60 }
 	  }
@@ -1074,10 +1075,10 @@ country_event = {
 
    fire_only_once = yes
  is_triggered_only = yes
-   
+	hidden = yes
    
       option = {
-	every_state = { limit = { is_core_of = SOV } remove_province_modifier = { static_modifiers = { rasputitsa } province = all } }
+	every_state = { limit = { is_core_of = SOV } remove_province_modifier = { static_modifiers = { rasputitsa } province = { all_provinces = yes }  } }
 	
 	  }
    }       
@@ -1087,7 +1088,7 @@ add_namespace = mtg_news
 news_event = {
 	id = mtg_news.776
 	title = "Start of the Spring Mud Season"
-	desc = mtg_news.777.desc
+	desc = mtg_news.777.d
 	picture = GFX_news_event_generic_usa_treaty
 	
 	major = yes
@@ -2580,10 +2581,6 @@ country_event = {
 	
 	option = {
 		name = germany.11.a	#sounds good
-
-		GER = {
-			country_event = { days = 1 id = germany.12 }
-		}
 	}	
 }
 

@@ -60,8 +60,26 @@ set_technology = {
 				category = land_doctrine
 			}
 
-	country_event = { id = germany.75 days = 210 }	
+	country_event = { id = germany.75 days = 210 }	#tank treaty event
+####RUSSIA SEASON EVENTS####
+#FALL MUD SEASON
+country_event = { id =  italy.802 days = 2271 }
+country_event = { id =  italy.802 days = 2636 }
+country_event = { id =  italy.802 days = 3002 }
+country_event = { id =  italy.802 days = 3367 }
 
+#SPRING MUD SEASON
+country_event = { id =  italy.800 days = 2090 }
+country_event = { id =  italy.800 days = 2455 }
+country_event = { id =  italy.800 days = 2820 }
+country_event = { id =  italy.800 days = 3186 }
+
+#WINTER
+news_event = { id = mtg_news.778 days = 2151 }
+news_event = { id = mtg_news.778 days = 2516 }
+news_event = { id = mtg_news.778 days = 2881 }
+news_event = { id = mtg_news.778 days = 3247 }
+############################
 anti_cross_faction_trade_axis = yes
 
 add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 16000 }
@@ -621,48 +639,6 @@ if = {
 		nationalities = { SOV GER }
 	}
 }
-
-### VARIANTS ###
-# 1936 Start #
-if = {
-	limit = { not = { has_dlc = "Man the Guns" } }
-	### Ship Variants ###
-	create_equipment_variant = {
-		name = "Series I Debakrist"
-		type = submarine_1
-		upgrades = {
-			ship_reliability_upgrade = 1
-			sub_engine_upgrade = 1
-			sub_stealth_upgrade = 1
-			sub_torpedo_upgrade = 1
-		}
-		obsolete = yes
-	}
-	create_equipment_variant = {
-		name = "Series IX Srednyaya"
-		type = submarine_2
-		upgrades = {
-			ship_reliability_upgrade = 1
-			sub_engine_upgrade = 1
-			sub_stealth_upgrade = 1
-			sub_torpedo_upgrade = 1
-		}
-	}
-	create_equipment_variant = {
-		name = "Leningrad & Minsk Class"
-		type = destroyer_1
-		upgrades = {
-			ship_torpedo_upgrade = 3
-			destroyer_engine_upgrade = 3
-			ship_ASW_upgrade = 3
-			ship_anti_air_upgrade = 3
-		}
-	}
-}
-if = {
-	limit = { has_dlc = "Man the Guns" }
-	# Submarines #
-
 	create_equipment_variant = {
 		name = "Series I Debakrist"			# represents Debakrist, B class, L-55 sub
 		type = ship_hull_submarine_1
@@ -778,4 +754,3 @@ if = {
 			rear_1_custom_slot = empty
 		}
 	}
-}
