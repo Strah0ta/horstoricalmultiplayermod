@@ -1064,7 +1064,6 @@ country_event = {
       option = {
 	every_state = { limit = { is_core_of = SOV } add_province_modifier = { static_modifiers = { rasputitsa } province = { all_provinces = yes }  } }
 	news_event = { id = mtg_news.777  days = 0 }
-	country_event = { id = italy.801 days = 60 }
 	  }
    }     
            country_event = {
@@ -1104,7 +1103,7 @@ news_event = {
 news_event = {
 	id = mtg_news.777
 	title = "Start of the Fall Mud Season"
-	desc = mtg_news.777.desc
+	desc = mtg_news.777.d
 	picture = GFX_news_event_generic_usa_treaty
 	
 	major = yes

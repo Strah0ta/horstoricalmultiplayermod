@@ -32,25 +32,25 @@ set_technology = {
 	basic_light_tank = 1  
 	fighter1 = 1
 	early_bomber = 1
-		early_fighter = 1
+	early_fighter = 1
 	naval_bomber1 = 1
 	mass_assault = 1
 	fleet_in_being = 1
 	fuel_silos = 1
 	synth_oil_experiments = 1
-		interwar_antitank = 1
-		early_ship_hull_light = 1
-		basic_ship_hull_light = 1
-		early_ship_hull_submarine = 1
-		basic_ship_hull_submarine = 1
-		early_ship_hull_cruiser = 1
-		early_ship_hull_heavy = 1
-		basic_battery = 1
-		basic_light_battery = 1
-		basic_torpedo = 1
-		basic_depth_charges = 1
-		basic_secondary_battery = 1
-		mtg_transport = 1
+	interwar_antitank = 1
+	early_ship_hull_light = 1
+	basic_ship_hull_light = 1
+	early_ship_hull_submarine = 1
+	basic_ship_hull_submarine = 1
+	early_ship_hull_cruiser = 1
+	early_ship_hull_heavy = 1
+	basic_battery = 1
+	basic_light_battery = 1
+	basic_torpedo = 1
+	basic_depth_charges = 1
+	basic_secondary_battery = 1
+	mtg_transport = 1
 	armored_car1 = 1		
 }
 	add_tech_bonus = {
@@ -60,26 +60,35 @@ set_technology = {
 				category = land_doctrine
 			}
 
-	country_event = { id = germany.75 days = 210 }	#tank treaty event
-####RUSSIA SEASON EVENTS####
-#FALL MUD SEASON
-country_event = { id =  italy.802 days = 2271 }
-country_event = { id =  italy.802 days = 2636 }
-country_event = { id =  italy.802 days = 3002 }
-country_event = { id =  italy.802 days = 3367 }
+country_event = { id = germany.75 days = 210 }	#tank treaty event
 
+#################RUSSIA SEASON EVENTS####################
 #SPRING MUD SEASON
-country_event = { id =  italy.800 days = 2090 }
-country_event = { id =  italy.800 days = 2455 }
-country_event = { id =  italy.800 days = 2820 }
-country_event = { id =  italy.800 days = 3186 }
-
+country_event = { id =  italy.800 days = 2271 } #march 42
+country_event = { id =  italy.800 days = 2636 } #march 43
+country_event = { id =  italy.800 days = 3002 } #march 44
+country_event = { id =  italy.800 days = 3367 } #march 45
+#SRPING MUD SEASON MUD REMOVAL
+country_event = { id =  italy.801 days = 2331 } #may 42
+country_event = { id =  italy.801 days = 2696 } #may 43
+country_event = { id =  italy.801 days = 3062 } #may 44
+country_event = { id =  italy.801 days = 3427 } #may 45
+#FALL MUD SEASON
+country_event = { id =  italy.802 days = 2090 } #sept 41
+country_event = { id =  italy.802 days = 2455 } #sept 42
+country_event = { id =  italy.802 days = 2820 } #sept 43
+country_event = { id =  italy.802 days = 3186 } #sept 44
+#FALL MUD SEASON MUD REMOVAL
+country_event = { id =  italy.801 days = 2150 } #nov 42
+country_event = { id =  italy.801 days = 2515 } #nov 43
+country_event = { id =  italy.801 days = 2880 } #nov 44
+country_event = { id =  italy.801 days = 3246 } #nov 45
 #WINTER
-news_event = { id = mtg_news.778 days = 2151 }
-news_event = { id = mtg_news.778 days = 2516 }
-news_event = { id = mtg_news.778 days = 2881 }
-news_event = { id = mtg_news.778 days = 3247 }
-############################
+news_event = { id = mtg_news.778 days = 2151 } #nov 41
+news_event = { id = mtg_news.778 days = 2516 } #nov 42
+news_event = { id = mtg_news.778 days = 2881 } #nov 43
+news_event = { id = mtg_news.778 days = 3247 } #nov 44
+########################################################
 anti_cross_faction_trade_axis = yes
 
 add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 16000 }
