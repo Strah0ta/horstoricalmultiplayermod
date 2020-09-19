@@ -64,30 +64,30 @@ country_event = { id = germany.75 days = 210 }	#tank treaty event
 
 #################RUSSIA SEASON EVENTS####################
 #SPRING MUD SEASON
-country_event = { id =  italy.800 days = 2271 } #march 42
-country_event = { id =  italy.800 days = 2636 } #march 43
-country_event = { id =  italy.800 days = 3002 } #march 44
-country_event = { id =  italy.800 days = 3367 } #march 45
+country_event = { id =  italy.800 days = 2269 } #march 42
+country_event = { id =  italy.800 days = 2634 } #march 43
+country_event = { id =  italy.800 days = 3000 } #march 44
+country_event = { id =  italy.800 days = 3365 } #march 45
 #SRPING MUD SEASON MUD REMOVAL
-country_event = { id =  italy.801 days = 2331 } #may 42
-country_event = { id =  italy.801 days = 2696 } #may 43
-country_event = { id =  italy.801 days = 3062 } #may 44
-country_event = { id =  italy.801 days = 3427 } #may 45
+country_event = { id =  italy.801 days = 2329 } #may 42
+country_event = { id =  italy.801 days = 2694 } #may 43
+country_event = { id =  italy.801 days = 3060 } #may 44
+country_event = { id =  italy.801 days = 3425 } #may 45
 #FALL MUD SEASON
-country_event = { id =  italy.802 days = 2090 } #sept 41
-country_event = { id =  italy.802 days = 2455 } #sept 42
-country_event = { id =  italy.802 days = 2820 } #sept 43
-country_event = { id =  italy.802 days = 3186 } #sept 44
+country_event = { id =  italy.802 days = 2088 } #sept 41
+country_event = { id =  italy.802 days = 2453 } #sept 42
+country_event = { id =  italy.802 days = 2818 } #sept 43
+country_event = { id =  italy.802 days = 3184 } #sept 44
 #FALL MUD SEASON MUD REMOVAL
-country_event = { id =  italy.801 days = 2150 } #nov 42
-country_event = { id =  italy.801 days = 2515 } #nov 43
-country_event = { id =  italy.801 days = 2880 } #nov 44
-country_event = { id =  italy.801 days = 3246 } #nov 45
+country_event = { id =  italy.801 days = 2148 } #nov 42
+country_event = { id =  italy.801 days = 2513 } #nov 43
+country_event = { id =  italy.801 days = 2817 } #nov 44
+country_event = { id =  italy.801 days = 3244 } #nov 45
 #WINTER
-news_event = { id = mtg_news.778 days = 2151 } #nov 41
-news_event = { id = mtg_news.778 days = 2516 } #nov 42
-news_event = { id = mtg_news.778 days = 2881 } #nov 43
-news_event = { id = mtg_news.778 days = 3247 } #nov 44
+news_event = { id = mtg_news.778 days = 2149 } #nov 41
+news_event = { id = mtg_news.778 days = 2514 } #nov 42
+news_event = { id = mtg_news.778 days = 2879 } #nov 43
+news_event = { id = mtg_news.778 days = 3245 } #nov 44
 ########################################################
 anti_cross_faction_trade_axis = yes
 

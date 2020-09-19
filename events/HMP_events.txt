@@ -1048,6 +1048,11 @@ country_event = {
       option = {
 	every_state = { limit = { is_core_of = SOV } add_province_modifier = { static_modifiers = { rasputitsa } province = { all_provinces = yes }  } }
 	news_event = { id = mtg_news.776  days = 0 }
+		hidden_effect = {
+	SOV = { add_timed_idea = { idea = mud_sucks_ru days = 60 }}
+			FIN = { add_timed_idea = { idea = mud_sucks_eu days = 60 }}
+
+}
 	  }
    }     
              country_event = {
@@ -1064,6 +1069,16 @@ country_event = {
       option = {
 	every_state = { limit = { is_core_of = SOV } add_province_modifier = { static_modifiers = { rasputitsa } province = { all_provinces = yes }  } }
 	news_event = { id = mtg_news.777  days = 0 }
+	hidden_effect = {
+	SOV = { add_timed_idea = { idea = mud_sucks_ru days = 60 }}
+		GER = { add_timed_idea = { idea = mud_sucks_eu days = 242 }}
+		ITA = { add_timed_idea = { idea = mud_sucks_eu days = 242 }}
+		ROM = { add_timed_idea = { idea = mud_sucks_eu days = 242 }}
+		HUN = { add_timed_idea = { idea = mud_sucks_eu days = 242 }}
+		BUL = { add_timed_idea = { idea = mud_sucks_eu days = 242 }}
+		FIN = { add_timed_idea = { idea = mud_sucks_eu days = 60 }}
+
+}
 	  }
    }     
            country_event = {
@@ -1096,7 +1111,7 @@ news_event = {
 	
 	option = {
 		name = "General Mud returns to the battlefield."
-		
+					
 	}
 }
 
@@ -1112,7 +1127,7 @@ news_event = {
 	
 	option = {
 		name = "Winter is coming."
-		
+
 	}
 }
 news_event = {

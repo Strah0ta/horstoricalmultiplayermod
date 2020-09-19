@@ -65,7 +65,7 @@ NDefines.NAI.FOCUS_TREE_CONTINUE_FACTOR = 0
 NDefines.NAI.DECLARE_WAR_NOT_NEIGHBOR_FACTOR = 0
 NDefines.NAI.JOIN_FACTION_BOTH_LOSING = 0
 NDefines.NAI.LENDLEASE_FRACTION_OF_PRODUCTION = 0
-NDefines.NAI.LENDLEASE_FRACTION_OF_STOCKPILE = 0
+NDefines.NAI.LENDLEASE_FRACTION_OF_STOCKPILE = 0 
 NDefines.NAI.MINIMUM_CONVOY_TO_ASK_LEND_LEASE = 0
 NDefines.NAI.MINIMUM_FUEL_DAYS_TO_ASK_LEND_LEASE = 0
 NDefines.NAI.MINIMUM_FUEL_DAYS_TO_ACCEPT_LEND_LEASE = 0
@@ -140,7 +140,18 @@ NDefines.NAI.DEMOCRACIES_BEFRIEND_DEMOCRACIES = 0
 NDefines.NAI.DEMOCRACIES_BEFRIEND_COMMUNISTS = 0
 NDefines.NAI.DEMOCRACIES_ALLY_FASCISTS = 0
 NDefines.NAI.DEMOCRACIES_ALLY_DEMOCRACIES = 0
-NDefines.NAI.DEMOCRACIES_ALLY_COMMUNISTS = 0
+NDefines.NAI.DEMOCRACIES_ALLY_COMMUNISTS = 0  
+NDefines.NAI.ACCESS_SCORE_FOR_DEMOCRATIC_COUNTRIES = 0				
+NDefines.NAI.ACCESS_SCORE_PENALTY_PER_EXISTING_ACCESS_AT_WAR = 0		
+NDefines.NAI.ACCESS_SCORE_PENALTY_PER_EXISTING_ACCESS = 0				
+NDefines.NAI.NAVAL_ACCESS_SCORE_PENALTY_PER_EXISTING_ACCESS_AT_WAR = 0
+NDefines.NAI.NAVAL_ACCESS_SCORE_PENALTY_PER_EXISTING_ACCESS = 0
+NDefines.NAI.TOO_INSIGNIFICANT_ARMY_RATIO_BEGIN = 0					-- if army ratio is of a country is larger than this threshold, it will be less reluctant to accept certain diplo actions
+NDefines.NAI.TOO_INSIGNIFICANT_MAX_PENALTY = 0						-- max penalty that will be applied for thinking a country is too insignificant
+--NDefines.NAI.MANPOWER_FREE_USAGE_THRESHOLD = 2000000			-- If AI has this much manpower he doesn't care about the percentage
+NDefines.NAI.START_TRAINING_EQUIPMENT_LEVEL = 0               -- ai will not start to train if equipment drops below this level
+NDefines.NAI.STOP_TRAINING_EQUIPMENT_LEVEL = 0                -- ai will not train if equipment drops below this level
+NDefines.NAI.BUILD_REFINERY_LACK_OF_RESOURCE_MODIFIER = 0	-- How much lack of resources are worth when evaluating what to build.
 NDefines.NAI.DEMOCRACIES_ANTAGONIZE_FASCISTS = 0
 NDefines.NAI.DEMOCRACIES_ANTAGONIZE_DEMOCRACIES = 0
 NDefines.NAI.DEMOCRACIES_ANTAGONIZE_COMMUNISTS = 0
@@ -161,3 +172,330 @@ NDefines.NAI.NUM_SILOS_PER_MILITARY_FACTORIES = 0					-- ai will try to build a 
 NDefines.NAI.NUM_SILOS_PER_DOCKYARDS = 0							-- ai will try to build a silo per this ratio of dockyards
 NDefines.NAI.DIPLO_PREFER_OTHER_FACTION = 0
 NDefines.NAI.DIPLOMACY_FACTION_SURRENDER_LEVEL = 0
+NDefines.NAI.DIVISION_DESIGN_MANPOWER_WEIGHT = 0
+NDefines.NAI.DIVISION_DESIGN_STOCKPILE_WEIGHT = 0
+NDefines.NAI.DIVISION_DESIGN_COMBAT_WIDTH_WEIGHT = 0			-- This score is reduced the higher width is when comparing pure changes with no target
+NDefines.NAI.DIVISION_DESIGN_COMBAT_WIDTH_TARGET_WEIGHT = 0	-- This score is reduced the farther the width is from the target width (if set)
+NDefines.NAI.DIVISION_DESIGN_MAX_FAILED_DAYS = 10000					-- max days we keep track of since failure of a template design update
+NDefines.NAI.EQUIPMENT_DESIGN_MAX_FAILED_DAYS = 10000				-- max days we keep track of since failure of an equipment design update
+NDefines.NAI.UPGRADE_DIVISION_RELUCTANCE = 10000					-- How often to consider upgrading to new templates for units in the field
+NDefines.NAI.UPGRADE_PERCENTAGE_OF_FORCES = 0				-- How big part of the army that should be considered for upgrading
+NDefines.NAI.REFIT_SHIP_RELUCTANCE = 10000						-- How often to consider refitting to new equipment variants for ships in the field
+--NDefines.NAI.REFIT_SHIP_PERCENTAGE_OF_FORCES = 0				-- How big part of the navy that should be considered for refitting
+--NDefines.NAI.NAVY_PREFERED_MAX_SIZE = 0					-- AI will generally attempt to merge fleets into this size, but as a soft limit.
+--NDefines.NAI.INVASION_COASTAL_PROVS_PER_ORDER = 0			-- AI will consider one extra invasion per number of provinces stated here (num orders = total coast / this)
+--NDefines.NAI.CONVOY_NEED_SAFETY_BUFFER = 0					-- AI will try and keep 15% more convoys than what it needs.
+--NDefines.NAI.REGION_THREAT_PER_SUNK_CONVOY = 0				-- Threat value per convoy sunk in a region. Decays over time.
+--NDefines.NAI.REGION_THREAT_LEVEL_TO_AVOID_REGION = 0 * 0		-- How much threat must be generated in region ( by REGION_THREAT_PER_SUNK_CONVOY ) so the AI will decide to mark the region as avoid
+--NDefines.NAI.REGION_THREAT_LEVEL_TO_BLOCK_REGION = 0 * 0	-- How much threat must be generated in region ( by REGION_THREAT_PER_SUNK_CONVOY ) so the AI will decide to mark the region as avoid
+NDefines.NAI.REGION_CONVOY_DANGER_DAILY_DECAY = 0				-- When convoys are sunk it generates threat in the region which the AI uses to prio nalval missions
+NDefines.NAI.PRODUCTION_LINE_SWITCH_SURPLUS_NEEDED_MODIFIER = 0	-- Is modified by efficency modifiers.
+NDefines.NAI.PLAN_ACTIVATION_MAJOR_WEIGHT_FACTOR = 0			-- AI countries will hold on activating plans if stronger countries have plans in the same location. Majors count extra (value of 1 will negate this)
+NDefines.NAI.PLAN_ACTIVATION_PLAYER_WEIGHT_FACTOR = 0		-- AI countries will hold on activating plans if player controlled countries have plans in the same location. Majors count extra (value of 1 will negate this)
+NDefines.NAI.AREA_DEFENSE_BASE_IMPORTANCE = 0					-- Area defense order base importance value (used for determining order of troop selections)
+NDefines.NAI.AREA_DEFENSE_CIVIL_WAR_IMPORTANCE = 0			-- Area defense order importance value when a country is in a civil war as target or revolter.
+NDefines.NAI.COMBINED_ARMS_LEVEL = 0					-- 0 = Never, 1 = Infantry/Artillery, 2 = Go wild
+NDefines.NAI.MAX_DISTANCE_NALAV_INVASION = 0				-- AI is extremely unwilling to plan naval invasions above this naval distance limit.
+NDefines.NAI.ENEMY_NAVY_STRENGTH_DONT_BOTHER = 0				-- If the enemy has a navy at least these many times stronger that the own, don't bother invading
+NDefines.NAI.MIN_SUPPLY_USE_SANITY_CAP = 0					-- Ignore supply cap if below this value when deciding on how many divisions to produce.
+NDefines.NAI.MAX_SUPPLY_DIVISOR = 0							-- To make sure the AI does not overdeploy divisions. Higher number means more supply per unit.
+NDefines.NAI.MISSING_CONVOYS_BOOST_FACTOR = 0					-- The more convoys a country is missing, the more resources it diverts to cover this.
+NDefines.NAI.TRANSPORTS_PER_PARATROOPER = 0					-- Air transports only duty is to drop paratroopers.
+NDefines.NAI.MAX_MICRO_ATTACKS_PER_ORDER = 0					-- AI goes through its orders and checks if there are situations to take advantage of
+NDefines.NAI.FALLBACK_LOSING_FACTOR = 0						-- The lower this number, the longer the AI will hold the line before sending them to the fallback line
+NDefines.NAI.PRODUCTION_MAX_PROGRESS_TO_SWITCH_NAVAL = 0		-- AI will not replace ships being built by newer types if progress is above this
+NDefines.NAI.STATE_CONTROL_FOR_AREA_DEFENSE = 0			-- To avoid AI sending area defense to area with very little foothold
+NDefines.NAI.FORCE_FACTOR_AGAINST_EXTRA_MINOR = 0			-- AI considers generating wargoals against minors below this % of force compared to themselves to get at a bigger enemy.
+NDefines.NAI.MAX_EXTRA_WARGOAL_GENERATION = 0					-- AI may want to generate wargoals against weak minors to get at larger enemy, but never more that this at any given time.
+--NDefines.NAI.NAVAL_MISSION_DISTANCE_BASE = 0				-- Base value when AI is evaluating distance score to places
+--NDefines.NAI.NAVAL_MISSION_INVASION_BASE = 0				-- Base score for region with naval invasion (modified dynamically by prioritizing orders)
+NDefines.NAI.NAVAL_MISSION_AGGRESSIVE_PATROL_DIVISOR = 0		-- Divides patrol score when not defending
+NDefines.NAI.NAVAL_MISSION_AGGRESSIVE_ESCORT_DIVISOR = 0		-- Divides escort score when not defending
+NDefines.NAI.NAVAL_MISSION_PATROL_NEAR_OWNED = 0			-- Extra patrol mission score near owned provinces
+NDefines.NAI.NAVAL_MISSION_ESCORT_NEAR_OWNED = 0			-- Extra escort mission score near owned provinces
+NDefines.NAI.NAVAL_MISSION_PATROL_NEAR_CONTROLLED = 0		-- Extra patrol mission score near controlled provinces
+NDefines.NAI.NAVAL_MISSION_ESCORT_NEAR_CONTROLLED = 0		-- Extra escort mission score near controlled provinces
+NDefines.NAI.NAVAL_MISSION_MINES_PLANTING_NEAR_OWNED = 0
+NDefines.NAI.NAVAL_MISSION_MINES_PLANTING_NEAR_CONTROLLED = 0
+NDefines.NAI.NAVAL_MISSION_MINES_SWEEPING_NEAR_OWNED = 0	 -- How likely the AI will do the sweeping missions. The value is scaled by the amount of mines to sweep.
+NDefines.NAI.NAVAL_MISSION_MINES_SWEEPING_NEAR_CONTROLLED = 0 -- Same as above, but nearby the controlled territory.
+NDefines.NAI.NEW_LEADER_EXTRA_PP_FACTOR = 1000				-- Country must have at least this many times extra PP to get new admirals or army leaders
+NDefines.NAI.SCARY_LEVEL_AVERAGE_DEFENSE = 0                 -- average front defense modifier to make it consider it as a PITA to go for
+NDefines.NAI.ATTACK_HEAVILY_DEFENDED_LIMIT = 0				-- AI will not launch attacks against heavily defended fronts unless they consider to have this level of advantage (1.0 = 100%)
+NDefines.NAI.HOUR_BAD_COMBAT_REEVALUATE = 1000                 -- if we are in combat for this amount and it goes shitty then try skipping it 
+NDefines.NAI.MIN_PLAN_VALUE_TO_MICRO_INACTIVE = 0				-- The AI will not consider members of groups which plan is not activated AND evaluates lower than this.
+NDefines.NAI.MAX_UNITS_FACTOR_AREA_ORDER = 0			-- Factor for max number of units to assign to area defense orders
+NDefines.NAI.DESIRED_UNITS_FACTOR_AREA_ORDER = 0			-- Factor for desired number of units to assign to area defense orders
+NDefines.NAI.MIN_UNITS_FACTOR_AREA_ORDER = 0					-- Factor for min number of units to assign to area defense orders
+NDefines.NAI.MAX_UNITS_FACTOR_FRONT_ORDER = 0					-- Factor for max number of units to assign to area front orders
+NDefines.NAI.DESIRED_UNITS_FACTOR_FRONT_ORDER = 0			-- Factor for desired number of units to assign to area front orders
+NDefines.NAI.MIN_UNITS_FACTOR_FRONT_ORDER = 0					-- Factor for min number of units to assign to area front orders
+NDefines.NAI.MAX_UNITS_FACTOR_INVASION_ORDER = 0			-- Factor for max number of units to assign to naval invasion orders
+NDefines.NAI.DESIRED_UNITS_FACTOR_INVASION_ORDER = 0		-- Factor for desired number of units to assign to naval invasion orders
+NDefines.NAI.MIN_UNITS_FACTOR_INVASION_ORDER = 0				-- Factor for min number of units to assign to naval invasion orders
+NDefines.NAI.FRONT_UNITS_CAP_FACTOR = 0				-- A factor applied to total front size and supply use. Primarily effects small fronts
+NDefines.NAI.MAX_DIST_PORT_RUSH = 0					-- If a unit is in enemy territory with no supply it will consider nearby ports within this distance.
+NDefines.NAI.MIN_FIELD_STRENGTH_TO_BUILD_UNITS = 0			-- Cancel unit production if below this to get resources out to units in the field
+NDefines.NAI.MIN_MANPOWER_TO_BUILD_UNITS = 0			-- Cancel unit production if below this to get resources out to units in the field
+NDefines.NAI.SUBJECT_SUPPLY_RATIO_FOR_UNIT_PRODUCTION = 0		-- supply ratio of subject supply chunks will be added to our own supply chunks (since we will fight around subjects as well) modified by produce_unit_for_subject_supply_chunks strat
+NDefines.NAI.ALLY_SUPPLY_RATIO_FOR_UNIT_PRODUCTION = 0	-- supply ratio of ally supply chunks will be added to our own supply chunks (since we will fight around allies as well) modified by produce_unit_for_ally_supply_chunks strat
+NDefines.NAI.AVERAGE_SUPPLY_USE_PESSIMISM = 0					-- Multiplier for when AI calculates average supply use of entire army.
+NDefines.NAI.REQUEST_LEND_LEASE_PROTECT_VALUE = 0				-- Limit for protect enemy desire for reducing lend lease desire
+NDefines.NAI.REQUEST_LEND_LEASE_CONTAINS_VALUE = 0		-- Limit of contain enemy desire for boosting friendly help
+NDefines.NAI.FRONT_BULGE_RATIO_UPPER_CUTOFF = 0			-- If total bulginess is lower than this, the front is ignored.
+NDefines.NAI.FRONT_BULGE_RATIO_LOWER_CUTOFF = 0			-- If local bulginess drops below this, a point of interest is found
+NDefines.NAI.FRONT_CUTOFF_MIN_EDGE_PROXIMITY = 0				-- Minimum number of provinces to the front edge to determine for cutoff oportunity.
+NDefines.NAI.INVASION_DISTANCE_RANDOMNESS = 0					-- This higher the value, the more unpredictable the invasions. Compares to actual map distance in pixels.
+NDefines.NAI.AIR_SCORE_DISTANCE_IMPACT = 0				-- Effect of distance applied to the score calculations
+NDefines.NAI.DAYS_BETWEEN_AIR_PRIORITIES_UPDATE = 10000				-- Amount of days between air ai updates priorities for air wings ( from 1 to N )
+NDefines.NAI.NAVAL_AIR_SUPERIORITY_IMPORTANCE = 0			-- Strategic importance of air superiority ( amount of enemy planes in area )
+NDefines.NAI.NAVAL_SHIP_AIR_IMPORTANCE = 0					-- Naval ship air importance
+NDefines.NAI.NAVAL_SHIP_IN_PORT_AIR_IMPORTANCE = 0			-- Naval ship in the port air importance
+NDefines.NAI.NAVAL_COMBAT_AIR_IMPORTANCE = 0				-- Naval combat air importance
+NDefines.NAI.NAVAL_TRANSFER_AIR_IMPORTANCE = 0			-- Naval transfer air importance
+NDefines.NAI.NAVAL_COMBAT_TRANSFER_AIR_IMPORTANCE = 0		-- Naval combat involving enemy land units
+NDefines.NAI.NAVAL_IMPORTANCE_SCALE = 0				-- Naval total importance scale (every naval score get's multiplied by it)
+NDefines.NAI.NAVAL_COMBAT_OUR_NAVY_MULT_ON_IMPORTANCE = 0	-- Naval region importance are scaled by our ships as well
+NDefines.NAI.NAVAL_COMBAT_ALLY_NAVY_MULT_ON_IMPORTANCE = 0	-- Naval region importance are scaled by our ships as well
+NDefines.NAI.NAVAL_COMBAT_MIN_OUR_NAVY_MULT_ON_IMPORTANCE = 0 -- Min scale factor for naval region importance from our ships
+NDefines.NAI.NAVAL_COMBAT_MAX_OUR_NAVY_MULT_ON_IMPORTANCE = 0 -- Max scale factor for naval region importance from our ships
+NDefines.NAI.NAVAL_RANGE_FOR_DOCKING_RIGHTS_CHECK = 0		-- Naval range used to check if docking rights would allow us to reach a specific province
+NDefines.NAI.NAVAL_FIGHTERS_PER_PLANE = 0					-- Amounts of air superiority planes requested per enemy plane
+NDefines.NAI.NAVAL_STRIKE_PLANES_PER_ARMY = 0					-- Amount of planes requested per enemy army
+NDefines.NAI.NAVAL_STRIKE_PLANES_PER_SHIP = 0					-- Amount of bombers requested per enemy ship
+NDefines.NAI.PORT_STRIKE_PLANES_PER_SHIP = 0				-- Amount of bombers request per enemy ship in the port
+NDefines.NAI.MINES_SWEEPING_PLANES_PER_MAX_MINES = 0 			-- Amount of air wings request for mines sweeping when there is max amount of mines planted by enemy in certain region
+NDefines.NAI.MINES_PLANTING_PLANES_PER_MAX_DESIRE = 0			-- Amount of air wings request for mines planting when there is max desire for it.
+NDefines.NAI.MINES_PLANTING_DESIRE_PER_HOME_STATE = 0		-- Scoring for how much do we want to plant naval mines with our air wings if the naval region is adjacent to a home state. Multiple adjacent states increases the score. Max sum of score is 1.0.
+NDefines.NAI.MINES_PLANTING_DESIRE_PER_ENEMY_STATE = 0		-- Scoring for how much do we want to plant naval mines with our air wings if the naval region is adjacent to the enemy state. Multiple adjacent states increases the score. Max sum of score is 1.0.
+NDefines.NAI.MINES_PLANTING_DESIRE_PER_NAVAL_THREAT = 0		-- How much threat must be generated in the naval region, in order to get the maximum desire to plant naval mines in there.
+NDefines.NAI.NAVAL_MIN_EXCORT_WINGS = 0						-- Min amount of airwings requested to excort operations
+NDefines.NAI.DEMOCRATIC_AI_FACTION_KICKING_PLAYER_THREAT_DIFFERENCE = 0 -- World threat generation difference needed to kick a player from a democratic faction
+NDefines.NAI.BEFRIEND_FACTOR_FOR_KICKING_COUNTRIES = 0		-- World threat difference addition per 100 befriend against a country, democratic leaders will forgive allies if they are befriending them
+NDefines.NAI.LAND_DEFENSE_AIR_SUPERIORITY_IMPORTANCE = 0		-- Strategic importance of air superiority ( amount of enemy planes in area )
+NDefines.NAI.LAND_DEFENSE_CIVIL_FACTORY_IMPORTANCE = 0		-- Strategic importance of civil factories
+NDefines.NAI.LAND_DEFENSE_MILITARY_FACTORY_IMPORTANCE = 0		-- Strategic importance of military factories
+NDefines.NAI.LAND_DEFENSE_NAVAL_FACTORY_IMPORTANCE = 0		-- Strategic importance of naval factories
+NDefines.NAI.LAND_DEFENSE_AA_IMPORTANCE_FACTOR = 0			-- Factor of AA influence on strategic importance ( 0.0 - 1.0 )
+NDefines.NAI.LAND_DEFENSE_INFRA_IMPORTANCE_FACTOR = 0			-- Factor of infrastructure influence on strategic importance ( 0.0 - 1.0 )
+NDefines.NAI.LAND_DEFENSE_IMPORTANCE_SCALE = 0				-- Lend defence total importance scale (every land defence score get's multiplied by it)
+NDefines.NAI.NUM_HOURS_SINCE_LAST_COMBAT_TO_SUPPORT_UNITS_VIA_AIR = 10000			-- units will be considered in combat if they are just out of their last combat for air supporting
+NDefines.NAI.LAND_DEFENSE_MIN_FACTORIES_FOR_AIR_IMPORTANCE = 0	-- If amount of factories is less importance of factories won't apply
+NDefines.NAI.LAND_DEFENSE_FIGHERS_PER_PLANE = 0			-- Amount of air superiority planes requested per enemy plane
+NDefines.NAI.LAND_DEFENSE_INTERSEPTORS_PER_BOMBERS = 0	-- Amount of air interceptor planes requested per enemy bomber
+NDefines.NAI.LAND_DEFENSE_INTERSEPTORS_PER_PLANE = 0			-- Amount of air interceptor planes requested per enemy plane (non bomber)
+NDefines.NAI.LAND_COMBAT_AIR_SUPERIORITY_IMPORTANCE = 0	-- Strategic importance of air superiority ( amount of enemy planes in area )
+NDefines.NAI.LAND_COMBAT_OUR_ARMIES_AIR_IMPORTANCE = 0		-- Strategic importance of our armies
+NDefines.NAI.LAND_COMBAT_OUR_COMBATS_AIR_IMPORTANCE = 0		-- Strategic importance of our armies in the combats
+NDefines.NAI.LAND_COMBAT_FRIEND_ARMIES_AIR_IMPORTANCE = 0		-- Strategic importance of friendly armies
+NDefines.NAI.LAND_COMBAT_FRIEND_COMBATS_AIR_IMPORTANCE = 0	-- Strategic importance of friendly armies in the combat
+NDefines.NAI.LAND_COMBAT_ENEMY_ARMIES_AIR_IMPORTANCE = 0		-- Strategic importance of our armies
+NDefines.NAI.LAND_COMBAT_ENEMY_LAND_FORTS_AIR_IMPORTANCE = 0	-- Strategic importance of enemy land forts in the region
+NDefines.NAI.LAND_COMBAT_ENEMY_COASTAL_FORTS_AIR_IMPORTANCE =0	-- Strategic importance of enemy coastal fronts in the region
+NDefines.NAI.LAND_COMBAT_IMPORTANCE_SCALE = 0				-- Lend combat total importance scale (every land combat score get's multiplied by it)
+NDefines.NAI.LAND_COMBAT_FIGHTERS_PER_PLANE = 0			-- Amount of air superiority planes requested per enemy plane
+NDefines.NAI.LAND_COMBAT_CAS_WINGS_PER_ENEMY_ARMY_LIMIT =0		-- Limit of CAS wings requested by enemy armies
+NDefines.NAI.LAND_COMBAT_CAS_PER_ENEMY_ARMY =0				-- Amount of CAS planes requested per enemy army
+NDefines.NAI.LAND_COMBAT_CAS_PER_COMBAT = 0				-- Amount of CAS requested per combat	
+NDefines.NAI.LAND_COMBAT_BOMBERS_PER_LAND_FORT_LEVEL = 0		-- Amount of bomber planes requested per enemy land fort level
+NDefines.NAI.LAND_COMBAT_BOMBERS_PER_COASTAL_FORT_LEVEL = 0	-- Amount of bomber planes requested per enemy coastal fort level
+NDefines.NAI.LAND_COMBAT_MIN_EXCORT_WINGS = 0				-- Min amount of airwings requested to excort operations
+NDefines.NAI.LAND_COMBAT_INTERCEPT_PER_PLANE = 0				-- Amount of interception planes requested per enemy plane
+NDefines.NAI.XP_RATIO_REQUIRED_TO_RESEARCH_WITH_XP = 1	-- AI will at least need this amount of xp compared to cost of a tech to reserch it with XP			
+NDefines.NAI.RESEARCH_WITH_XP_AI_WEIGHT_MULT = 0		-- AI will bump score of a research with this mult if it can use XP
+NDefines.NAI.STR_BOMB_AIR_SUPERIORITY_IMPORTANCE = 0		-- Strategic importance of air superiority ( amount of enemy planes in area )
+NDefines.NAI.STR_BOMB_CIVIL_FACTORY_IMPORTANCE = 0			-- Strategic importance of enemy civil factories
+NDefines.NAI.STR_BOMB_MILITARY_FACTORY_IMPORTANCE = 0			-- Strategic importance of enemy military factories
+NDefines.NAI.STR_BOMB_NAVAL_FACTORY_IMPORTANCE = 0			-- Strategic importance of enemy naval factories
+NDefines.NAI.STR_BOMB_AA_IMPORTANCE_FACTOR = 0			-- Factor of AA influence on strategic importance ( 0.0 - 1.0 )
+NDefines.NAI.STR_BOMB_INFRA_IMPORTANCE_FACTOR = 0			-- Factor of infrastructure influence on strategic importance ( 0.0 - 1.0 )
+NDefines.NAI.STR_BOMB_IMPORTANCE_SCALE = 0		-- str bombing total importance scale (every str bombing score get's multiplied by it)
+NDefines.NAI.STR_BOMB_MIN_ENEMY_FIGHTERS_IN_AREA = 0		-- If amount of enemy fighters is higher than this mission won't perform
+NDefines.NAI.STR_BOMB_FIGHTERS_PER_PLANE = 0				-- Amount of air superiority planes requested per enemy plane
+NDefines.NAI.STR_BOMB_PLANES_PER_CIV_FACTORY = 0				-- Amount of planes requested per enemy civ factory
+NDefines.NAI.STR_BOMB_PLANES_PER_MIL_FACTORY = 0				-- Amount of planes requested per enemy military factory
+NDefines.NAI.STR_BOMB_PLANES_PER_NAV_FACTORY = 0				-- Amount of planes requested per enemy naval factory
+NDefines.NAI.STR_BOMB_MIN_EXCORT_WINGS = 0						-- Min amount of airwings requested to excort operations
+NDefines.NAI.RECON_PLANES_NAVAL = 0                           -- scale on recon for naval areas 
+NDefines.NAI.RECON_PLANES_LAND_COMBAT = 0                    -- scale on recon for land combat areas 
+NDefines.NAI.RECON_PLANES_STRATEGIC = 0                 -- scale on recon for strategic areas 
+NDefines.NAI.ORDER_ASSIGNMENT_DISTANCE_FACTOR = 0		-- When the AI assigns units to orders, it attempts to calculate the distance.
+NDefines.NAI.RELUCTANCE_TO_CHANGE_FRONT_FACTOR = 0			-- Factor for how reluctant the AI is to change a units order group.
+NDefines.NAI.REVISITED_PROV_PENALTY_FACTOR = 0				-- When the AI picks units for a front, it tries to spread out a bit which units it grabs.
+NDefines.NAI.ENEMY_FORTIFICATION_FACTOR_FOR_FRONT_REQUESTS = 0		-- front unit request factor at max enemy fortification
+NDefines.NAI.ENEMY_FORTIFICATION_FACTOR_FOR_FRONT_REQUESTS_MAX = 0	-- max factor that can be added by enemy fortification
+NDefines.NAI.PLAN_ACTIVATION_SUPERIORITY_AGGRO = 0			-- How aggressive a country is in activating a plan based on how superiour their force is.
+NDefines.NAI.WAIT_YEARS_BEFORE_FREER_BUILDING = 0			-- The AI will skip considering certain buildings during the buildup phase, after htese many years it starts building them regardless of threat.
+NDefines.NAI.MAX_CARRIER_OVERFILL = 0						-- Carriers will be overfilled to this amount if there are doctrines to justify it
+NDefines.NAI.FIELDED_EQUIPMENT_BUFFER_RATIO_FOR_OCCUPATION_AI = 0 -- garrison ai will try to leave this ratio of buffers while assigning laws
+NDefines.NAI.FIELDED_MANPOWER_BUFFER_RATIO_FOR_OCCUPATION_AI = 0  -- garrison ai will try to leave this ratio of buffers while assigning laws
+NDefines.NAI.IMPORTANT_VICTORY_POINT = 0						-- during occupation ai will only care so much to ask for extra garrisons if VP amount is at least this 
+NDefines.NAI.DOCKYARDS_PER_NAVAL_DESIRE_EFFECT = 0			-- Effects how much AI wants to build dockyards based on how navally focused they are in general. Recommended range -100.0 to 100.0.
+--NDefines.NAI.DECISION_PRIORITY_RANDOMIZER = 0.1					-- random factor that is used while picking decisions. ai is able to pick a lower priority decision earler than a higher one if it is within this threshold
+NDefines.NAI.MIN_SCALED_IDEA_WEIGHT_TO_COMPARE_WITH_DECISIONS = 0    -- idea scores are scaled between these two values while comparing them to decisions
+NDefines.NAI.MAX_SCALED_IDEA_WEIGHT_TO_COMPARE_WITH_DECISIONS = 0      -- idea scores are scaled between these two values while comparing them to decisions
+NDefines.NAI.CRITICAL_DECISION_PRIORITY = 0					-- critical ai score for decisions, ai will be able to pick decisions if it has higher prio even if it is not time to pick them (0 to disable)
+NDefines.NAI.CRITICAL_IDEA_PRIORITY = 0							-- critical ai score for ideas, ai will be able to pick ideas if it has higher prio even if it is not time to pick them (0 to disable)
+NDefines.NAI.MAX_PP_TO_SPEND_ON_LOWER_PRIO_TASKS = 0			-- max pp cost for ai to allow spend pp on lower prio things while a higher prio things are available
+NDefines.NAI.MIN_SCORE_FOR_LOWER_PRIO_TASKS = 	0	-- this is a threshold for low prio tasks that will be considered critical
+NDefines.NAI.LOW_PRIO_TEMPLATE_BONUS_FOR_GARRISONS = 0	-- bonus to make ai more likely to assign low prio units to garrisons
+NDefines.NAI.LOW_PRIO_TEMPLATE_PENALTY_FOR_FRONTS = 0		-- penalty to make ai less likely to assign low prio units to fronts
+--NDefines.NAI.DEPLOYED_UNIT_MANPOWER_RATIO_TO_BUFFER_WARTIME = 0			-- deployment will try to buffer a ratio of deployed manpower (for reinforcements) during war time
+--NDefines.NAI.DEPLOYED_UNIT_MANPOWER_RATIO_TO_BUFFER_PEACETIME = 0    		-- deployment will try to buffer a ratio of deployed manpower (for reinforcements) during peace time
+--NDefines.NAI.MAX_AVAILABLE_MANPOWER_RATIO_TO_BUFFER_WARTIME = 0		-- deployment will try to buffer a ratio of manpower (for reinforcements) during war time
+--NDefines.NAI.MAX_AVAILABLE_MANPOWER_RATIO_TO_BUFFER_PEACETIME = 0	-- deployment will try to buffer a ratio of manpower (for reinforcements) during peace time
+--NDefines.NAI.MANPOWER_RATIO_REQUIRED_TO_PRIO_MOBILIZATION_LAW = 0		-- percentage of manpower in field is desired to be buffered for AI when it has upcoming wars or already at war. if it has less manpower, it will prio manpower laws
+--NDefines.NAI.UPGRADES_DEFICIT_LIMIT_DAYS = 10000                           -- Ai will avoid upgrading units in the field to new templates if it takes longer than this to fullfill their equipment need
+--NDefines.NAI.GIE_EXILE_AIR_MANPOWER_USAGE_RATIO = 0 -- AI will not deploy new exile wings when this percentage of available exile manpower is already used for wing recruitment.
+--NDefines.NAI.CARRIER_TASKFORCE_MAX_CARRIER_COUNT = 500		-- optimum carrier count for carrier taskforces
+--NDefines.NAI.CAPITAL_TASKFORCE_MAX_CAPITAL_COUNT = 500		-- optimum capital count for capital taskforces
+--NDefines.NAI.SCREEN_TASKFORCE_MAX_SHIP_COUNT = 500			-- optimum screen count for screen taskforces
+--NDefines.NAI.SUB_TASKFORCE_MAX_SHIP_COUNT = 500			-- optimum sub count for sub taskforces
+--NDefines.NAI.MIN_CAPITALS_FOR_CARRIER_TASKFORCE = 500			-- carrier fleets will at least have this amount of capitals
+--NDefines.NAI.CAPITALS_TO_CARRIER_RATIO = 1				-- capital to carrier count in carrier taskfoces
+--NDefines.NAI.SCREENS_TO_CAPITAL_RATIO = 1				-- screens to capital/carrier count in carrier & capital taskforces
+--NDefines.NAI.MIN_NAVAL_MISSION_PRIO_TO_ASSIGN = {  -- priorities for regions to get assigned to a mission
+		--1000, -- HOLD (consumes fuel HOLD_MISSION_MOVEMENT_COST fuel while moving)
+		--0, -- PATROL		
+		--0, -- STRIKE FORCE 
+		--0, -- CONVOY RAIDING
+		--0, -- CONVOY ESCORT
+		--0, -- MINES PLANTING	
+		--0, -- MINES SWEEPING	
+		--0, -- TRAIN
+		--0, -- RESERVE_FLEET
+		--0, -- NAVAL INVASION SUPPORT
+	--}	
+--NDefines.NAI.HIGH_PRIO_NAVAL_MISSION_SCORES = {  -- priorities for regions to get assigned to a mission
+	--	1000, -- HOLD (consumes fuel HOLD_MISSION_MOVEMENT_COST fuel while moving)
+	--	0, -- PATROL		
+	--	0, -- STRIKE FORCE 
+	--	0, -- CONVOY RAIDING
+	--	0, -- CONVOY ESCORT
+	--	0, -- MINES PLANTING	
+	--	0, -- MINES SWEEPING	
+	--	0, -- TRAIN
+	--	0, -- RESERVE_FLEET
+	--	0, -- NAVAL INVASION SUPPORT
+	--}	
+--NDefines.NAI.MAX_MISSION_PER_TASKFORCE = {  -- max mission region/taskforce ratio
+	--	1000, -- HOLD (consumes fuel HOLD_MISSION_MOVEMENT_COST fuel while moving)
+	--	0, -- PATROL		
+	--	0, -- STRIKE FORCE 
+	--	0, -- CONVOY RAIDING
+	--	0, -- CONVOY ESCORT
+	--	0, -- MINES PLANTING
+	--	0, -- MINES SWEEPING
+	--	0, -- TRAIN
+	--	0, -- RESERVE_FLEET
+	--	0, -- NAVAL INVASION SUPPORT
+	--}
+--NDefines.NAI.MAX_SCREEN_TASKFORCES_FOR_CONVOY_DEFENSE_MIN = 0 -- maximum ratio of all screen-ships forces to be used in convoy defense (increases up to max as AI loses convoys).
+--NDefines.NAI.MAX_SCREEN_TASKFORCES_FOR_CONVOY_DEFENSE_MAX = 0 -- maximum ratio of all screen-ships forces to be used in convoy defense (increases up to max as AI loses convoys).
+--NDefines.NAI.MAX_SCREEN_TASKFORCES_FOR_CONVOY_DEFENSE_MIN_CONVOY_THREAT = 0 -- AI will increase screen assignment for escort missions as threate increases
+--NDefines.NAI.MAX_SCREEN_TASKFORCES_FOR_CONVOY_DEFENSE_MAX_CONVOY_THREAT = 0-- AI will increase screen assignment for escort missions as threate increases
+--NDefines.NAI.MAX_SCREEN_TASKFORCES_FOR_MINE_SWEEPING = 0 -- maximum ratio of screens forces to be used in mine sweeping
+--NDefines.NAI.MAX_SCREEN_TASKFORCES_FOR_MINE_SWEEPING_PRIO = 0 -- if you have mines near your owned states, you will start priotize mine missions and will assign this ratio of screens
+--NDefines.NAI.MAX_SCREEN_TASKFORCES_FOR_MINE_SWEEPING_PRIO_MIN_MINES = 0 -- lowest mine for prioing mine missions
+--NDefines.NAI.MAX_SCREEN_TASKFORCES_FOR_MINE_SWEEPING_PRIO_MAX_MINES = 0 -- highest mines for highest prio for mine missions
+--NDefines.NAI.MAX_SCREEN_TASKFORCES_FOR_MINE_LAYING = 0 -- maximum ratio of screens forces to be used in mine laying
+--NDefines.NAI.MAX_SCREEN_FORCES_FOR_INVASION_SUPPORT = 0-- max ratio of screens forces to be used in naval invasion missions
+--NDefines.NAI.MAX_CAPITAL_FORCES_FOR_INVASION_SUPPORT = 0 -- max ratio of capital forces to be used in naval invasion missions
+--NDefines.NAI.MAX_PATROL_TO_STRIKE_FORCE_RATIO = 0	-- maximum patrol/strike force ratio
+--NDefines.NAI.MAX_FACTORY_TO_SPARE_FOR_MISSION_FUEL_TRADE = 0						-- amount of factories to spend on oil trade in case of fuel need for missions
+--NDefines.NAI.MAX_FACTORY_TO_SPARE_FOR_CRITICAL_MISSION_FUEL_TRADE = 0		-- amount of factories to spend on oil trade in case of fuel need for prio missions
+--NDefines.NAI.MAX_FACTORY_TO_TRADE_FOR_FUEL = 0
+--NDefines.NAI.FUEL_TRADE_PRIO_FOR_CONVOY_DEFENSE = 0								-- AI will be less reluctant to cancel convoy missions if it is trading for oil
+--NDefines.NAI.MAX_FACTORY_TO_SPARE_FOR_MISSION_FUEL_TRADE_IN_PEACE = 0.			-- amount of factories to spend on oil trade in case of fuel need for missions in peace time
+--NDefines.NAI.MAX_FACTORY_TO_SPARE_FOR_CRITICAL_MISSION_FUEL_TRADE_IN_PEACE = 0	-- amount of factories to spend on oil trade in case of fuel need for prio missions in peace time
+--NDefines.NAI.MAX_FACTORY_TO_TRADE_FOR_FUEL_IN_PEACE = 0
+--NDefines.NAI.FUEL_REQUEST_RATIO_FOR_COMBATS = 0									-- ratio of ship combat fuel cost that is to be considered in fuel usage and request system
+--NDefines.NAI.PRIO_FUEL_REQUEST_RATIO_FOR_COMBATS = 0							-- ratio of ship combat fuel cost that is to be considered in prio fuel usage and request system
+--NDefines.NAI.FUEL_REQUEST_RATIO_FOR_MOVEMENT = 0								-- ratio of ship movement fuel cost that is to be considered in fuel usage and request system
+--NDefines.NAI.PRIO_FUEL_REQUEST_RATIO_FOR_MOVEMENT = 0								-- ratio of ship movement fuel cost that is to be considered in prio fuel usage and request system
+--NDefines.NAI.NAVY_ACTUAL_FUEL_USAGE_WEIGHT_ON_OIL_REQUEST = 0 					-- weight of actual fuel usage of ships compared to what is being asked for missions while calculating oil needed for trade
+--NDefines.NAI.AIR_ACTUAL_FUEL_USAGE_WEIGHT_ON_OIL_REQUEST = 0 						-- weight of actual fuel usage of planes compared to what is being asked for missions while calculating oil needed for trade
+--NDefines.NAI.MONTHS_TO_FILL_FUEL_BUFFER_WITH_OIL_REQUESTS = 0 					-- in war time, coutries will try to fill their buffer in this duration and trade for oil if necesarry
+--NDefines.NAI.MONTHS_TO_FILL_FUEL_BUFFER_WITH_OIL_REQUESTS_IN_PEACE_TIME = 0      -- in peace time, coutries will try to fill their buffer in this duration and trade for oil if necesarry
+--NDefines.NAI.FUEL_CONSUMPTION_MULT_FOR_FUEL_SAVING_MODE = 0				-- fuel consumptions will be limited by this ratio in fuel saving mode
+--NDefines.NAI.FUEL_CONSUMPTION_MULT_REGULAR_FUEL_MODE = 0					-- fuel consumptions will be limited by this ratio in regular fuel mode
+--NDefines.NAI.FUEL_CONSUMPTION_MULT_AGRESSIVE_FUEL_MODE = 0			-- fuel consumptions will be limited by this ratio in aggressive fuel usage mode
+--NDefines.NAI.DAYS_FUEL_REMAINING_TO_ENTER_FUEL_SAVING_MODE = 0				-- countries will enter fuel saving mode if they will be out of fuel in this number of days and their fuel ratio is below next define
+--NDefines.NAI.DAYS_FUEL_REMAINING_TO_ENTER_FUEL_SAVING_MODE_FUEL_RATIO = 0
+--NDefines.NAI.FUEL_RATIO_TO_EXIST_FUEL_SAVING_MODE = 0					-- countries will exit fuel saving mode if they have more fuel ratio than this
+--NDefines.NAI.WANTED_MAX_FUEL_BUFFER_IN_DAYS_FOR_ARMY_MAX_CONSUMPTION = 0  -- AI will try to buffer at least this amount of days on max consumption, will trade if necesarry and will go into fuel saving mode/aggresive mode using this buffer 
+--NDefines.NAI.WANTED_MAX_FUEL_BUFFER_IN_DAYS_FOR_AIR_MAX_CONSUMPTION  = 0  -- AI will try to buffer at least this amount of days on max consumption, will trade if necesarry and will go into fuel saving mode/aggresive mode using this buffer
+--NDefines.NAI.WANTED_MAX_FUEL_BUFFER_IN_DAYS_FOR_NAVY_MAX_CONSUMPTION = 0 -- AI will try to buffer at least this amount of days on max consumption, will trade if necesarry and will go into fuel saving mode/aggresive mode using this buffer
+--NDefines.NAI.MIN_WANTED_MAX_FUEL = 0									   -- minimum value for wanted fuel buffers for AI (in thousands)
+--NDefines.NAI.GIE_LEND_LEASE_TO_PLAYER_EXILE_DESIRE_BONUS = 0 -- AI host is more likely to accept lend lease requests from a player.
+--NDefines.NAI.NAVAL_BASE_RATIO_ALLOCATED_FOR_REPAIRS = 0		-- ai will allocate at most this ratio of dockyards for repairs in peace time
+--NDefines.NAI.NAVAL_BASE_RATIO_ALLOCATED_FOR_REPAIRS_IN_WAR_TIME = 0 -- ai will allocate at most this ratio of dockyards for repairs in war time
+--NDefines.NAI.MAX_FUEL_CONSUMPTION_RATIO_FOR_AIR_TRAINING = 0			-- ai will use at most this ratio of affordable fuel for air training
+--NDefines.NAI.MAX_FUEL_CONSUMPTION_RATIO_FOR_NAVY_TRAINING = 0		-- ai will use at most this ratio of affordable fuel for naval training
+--NDefines.NAI.MAX_FULLY_TRAINED_SHIP_RATIO_FOR_TRAINING = 0			-- ai will not train a taskforce if fully trained ships are above this ratio
+NDefines.NAI.NUM_SILOS_PER_CIVILIAN_FACTORIES = 0				-- ai will try to build a silo per this ratio of civ factories
+NDefines.NAI.NUM_SILOS_PER_MILITARY_FACTORIES = 0					-- ai will try to build a silo per this ratio of mil factories
+NDefines.NAI.NUM_SILOS_PER_DOCKYARDS = 0							-- ai will try to build a silo per this ratio of dockyards
+--NDefines.NAI.SHIP_STR_RATIO_PUT_ON_REPAIRS = 0						-- if ships are damaged below this ratio, they are put for repairs
+--NDefines.NAI.SHIP_STR_RATIO_EXIT_REPAIRS = 0							-- the ships will leave repairs if they are >= this ratio of total str
+--NDefines.NAI.REPAIR_TASKFORCE_SIZE = 1									-- repair taskforce sizes are limited to this many ships
+--NDefines.NAI.PLAN_VALUE_BONUS_FOR_MOVING_UNITS = 0					-- AI plans gets a bonus when units are not moving and ready to fight
+--NDefines.NAI.AGGRESSIVENESS_BONUS_FOR_FRONTS_THAT_ARE_ON_HIGH_AGGRESSIVENESS	= 0	-- AI gets a bonus to aggresiveness if it is already executing an aggressive plan (lower is more aggressive)
+--NDefines.NAI.AGGRESSIVENESS_CHECK_BASE = 0					-- front comparison where ai will consider aggressive stance, unless it is already then the number above is used
+--NDefines.NAI.AGGRESSIVENESS_CHECK_EASY_TARGET = 0					-- if target nation is flagged as easy target we also adjust down the front comparison needed
+--NDefines.NAI.AGGRESSIVENESS_CHECK_CAREFUL = 0							-- at what front strength balance do we go careful
+--NDefines.NAI.AGGRESSIVENESS_CHECK_PARTLY_FORTIFIED = 0			-- if front strength balance is at or above this value versus a party fortified enemy, we do a balanced attack
+--NDefines.NAI.AGGRESSIVENESS_CHECK_PARTLY_FORTIFIED_WEAK_POINTS = 0	-- if front strength balance is at or above this value versus a party fortified enemy, we rush attack weak points; below this value, we are careful
+--NDefines.NAI.AGGRESSIVENESS_CHECK_FULLY_FORTIFIED = 0			-- if front strength balance is at or above this value versus a fully fortified enemy with no weak points, we do a balanced attack instead being careful
+--NDefines.NAI.AGGRESSIVENESS_CHECK_FULLY_FORTIFIED_POCKET = 0			-- if front strength balance is at or above this value versus a fully fortified enemy in a pocket, we do a balanced attack instead being careful
+--NDefines.NAI.FRONT_EVAL_UNIT_ACCURACY = 0							-- scale how stupid ai will act on fronts. 0 is potato
+--NDefines.NAI.FRONT_EVAL_UNIT_SUPPLY_AND_ORG_LACK_IMPACT = 0		-- scale how painful the AI thinks a combined lack of supply and organization is for units
+--NDefines.NAI.PRODUCTION_CARRIER_PLANE_BUFFER_RATIO = 0				-- in additiona to total deck size of carriers, we want at list this ratio to buffer it
+--NDefines.NAI.PRODUCTION_CARRIER_PLANE_PRODUCTION_BOOST_TO_BUFFER = 0  -- production of carrier planes will go up by this ratio if we lack buffers
+--NDefines.NAI.NAVAL_MAX_CONVOY_TO_INTEL_FOR_CONVOY_RAIDS = 0           -- number of convoys in region will be clamped to this max, anything more will be ignored while assigning raids
+--NDefines.NAI.EXTRA_NAVY_INTEL_FOR_CONVOY_RAIDING = 0                  -- this amount of intel is added to navy intel while ai is assigning convoy raiding mission 
+--NDefines.NAI.INTEL_NEEDED_TO_NEGATVE_CONVOY_COUNT_REDUCTION = 0       -- navy intel is divided by this ratio to negate NAVAL_CONVOY_COUNT_INTEL_DROPOFF_DUE_TO_LOW_DECYPTION
+--NDefines.NAI.NAVAL_CONVOY_COUNT_INTEL_DROPOFF_DUE_TO_LOW_DECYPTION = 0 -- on lowest navy intel, ai won't be able to see enemy convoys lower than this ratio
+--NDefines.NAI.CONVOY_RAID_SCORE_FROM_CONVOY_INTELLIGENCE = 0			 -- each convoy intelligenge will incease raid score by this
+--NDefines.NAI.AIR_AI_ENEMY_PROV_RATIO_FOR_COMBAT_REGION = 0			 -- if a region has more than this ratio of provinces controlled by enemy, AI will consider it as a combat zone while assigning planes
+--NDefines.NAI.RESEARCH_MULTI_DOCTRINE_SCORE = 0                        -- score penalty to researchign multiple doctrines at once for AI
+--NDefines.NAI.CONVOY_ESCORT_SCORE_FROM_CONVOYS = 0                      -- score for each convoy you have in area
+--NDefines.NAI.CONVOY_ESCORT_MUL_FROM_NO_CONVOYS = 0                  -- score multiplier when no convoys are around
+--NDefines.NAI.CONVOY_RAID_MIN_ENEMY_THREAT = 0  
+--NDefines.NAI.MAX_UNIT_RATIO_FOR_INVASIONS = 0						-- countries won't use armies more than this ratio of total units for invasions
+--NDefines.NAI.MAX_INVASION_FRONT_SCORE = 0					-- max score for naval invasion front scores
+--NDefines.NAI.MIN_FRONT_SCORE_FOR_AFTER_INVASION_AREAS = 0		-- min score for army fronts that are created on recently invaded regions
+--NDefines.NAI.MIN_CONVOY_EFFICIENCY_TO_CANCEL_TRADES = 0			-- min efficiency (due to convoy raid) to cancel trades
+--NDefines.NAI.MIN_CONVOY_EFFICIENCY_TO_START_TRADES = 0				-- min efficiency (due to convoy raid) to start be able to trades
+--NDefines.NAI.MIN_CONVOY_EFFICIENCY_PER_WAR_SUPPORT_HIT = 0			-- percentage of warsupport hit you get is multiplied by this value and added to min convoy efficiencies
+--NDefines.NAI.NAVAL_INVADED_AREA_PRIO_DURATION = 1						-- after successful invasion, AI will prio the enemy area for this number of days
+--NDefines.NAI.NAVAL_INVADED_AREA_PRIO_MULT = 0								-- fronts that belongs to recent invasions gets more prio
+--NDefines.NAI.MIN_NUM_CONQUERED_PROVINCES_TO_DEPRIO_NAVAL_INVADED_FRONTS = 0	-- if you conquer this amount of provinces after a naval invasion, it will lose its prio status and will act as a regular front
+--NDefines.NAI.BUILDING_TARGETS_BUILDING_PRIORITIES = {	'industrial_complex',}
+--NDefines.NAI.MIN_INVASION_PLAN_VALUE_TO_EXECUTE = 0			-- ai will only activate invasions if it is above this
+--NDefines.NAI.MAX_INVASION_SIZE = 1								-- max invasion group size
+--NDefines.NAI.MAX_PORT_STRIKE_HISTORY_TO_REMEMBER = 0				-- maximum port strike history to keep track (will be used to disable ports
+--NDefines.NAI.PORT_STRIKE_HISTORY_DECAY_MIN = 0						-- minimum decay for port strike history (<7 days since last port strike)
+--NDefines.NAI.PORT_STRIKE_HISTORY_DECAY_MAX = 0					-- maximum decay for port strike history (>=37 days since last port strike)
+--NDefines.NAI.MAX_PORT_RATIO_TO_DISABLE = 0					-- max ratio of ports to disable due to port strikes
+--NDefines.NAI.PORT_STRIKE_HISTORY_VALUE_TO_DISABLE_REPAIRS = 0		-- cut off for disabling ports above this threshold
+--NDefines.NAI.PORT_STRIKE_HISTORY_VALUE_TO_REENABLE_REPAIRS = 0   -- cut off for reenabling ports bloew this threshold
+--NDefines.NAI.CURRENT_LAW_SCORE_BONUS = 0					-- current score will get an additional bonus to its ai weight
+--NDefines.NAI.OIL_WANT_PER_POTENTIAL_LAND_CONSUMPTION_K = 0     	-- how much extra oil requested on top of balance for country's potential oil consumptions
+--NDefines.NAI.OIL_WANT_PER_POTENTIAL_NAVY_CONSUMPTION_K = 0      	
+--NDefines.NAI.OIL_WANT_PER_POTENTIAL_AIR_CONSUMPTION_K = 0      	
+--NDefines.NAI.OIL_WANT_PER_POTENTIAL_MISC_CONSUMPTION_K = 0  	
+--NDefines.NAI.OIL_WANT_AT_PEACE_PER_POTENTIAL_LAND_CONSUMPTION_K = 0  
+--NDefines.NAI.OIL_WANT_AT_PEACE_PER_POTENTIAL_NAVY_CONSUMPTION_K = 0  
+--NDefines.NAI.OIL_WANT_AT_PEACE_PER_POTENTIAL_AIR_CONSUMPTION_K = 0  
+--NDefines.NAI.OIL_WANT_AT_PEACE_PER_POTENTIAL_MISC_CONSUMPTION_K = 0   
+--NDefines.NAI.RESOURCE_WANT_PER_MISSING_BALANCE = 0					-- negative balance increases the desire on a resource
+--NDefines.NAI.RESOURCE_WANT_PER_CONSUMED = 0							-- if resource is being used in production, increase the desire
+--NDefines.NAI.CRYPTO_ACTIVATION_THRESHOLD = 0			-- will multiply crypto activation threshold. larger
+--NDefines.NAI.CRYPTO_ACTIVATE_NUM_DAYS_DROP_OFF = 0		-- longer decrypted crypto waits, lower threshold it will have. threshold will be multiplied by this value at most
+--NDefines.NAI.CRYPTO_ACTIVATE_NUM_DAYS_DECAY = 0			-- at this number of days, it will decay by %50 of prev define
+--NDefines.NAI.CRYPTO_ACTIVATE_NUM_ACTIVATED_DROP_OFF = 0			-- having an already activated cryptos will further multiply threshold, down to this value  
+--NDefines.NAI.CRYPTO_ACTIVATION_SCORE_ARMIES_IN_COMBAT_BONUS = 0		-- having units in combat will increase the score by this ratio
+--NDefines.NAI.CRYPTO_ACTIVATION_SCORE_OUR_CAPITAL_BONUS = 0			-- fronts of our capital get a bonus by this ratio
+--NDefines.NAI.CRYPTO_ACTIVATION_SCORE_ENEMY_CAPITAL_BONUS = 0			-- fronts of enemy capital get a bonus by this ratio
+--NDefines.NAI.CRYPTO_AFTER_SCORE_INVASION_FRONT_BONUS = 0 				-- a front that is naval invading will increase the score by this ratio

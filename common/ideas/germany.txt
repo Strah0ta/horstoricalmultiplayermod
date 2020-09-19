@@ -1,5 +1,61 @@
 ideas = {
+		hidden_ideas = { 
+		mud_sucks_eu = {
+					allowed = {
+				always = no
+			}
 
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+					targeted_modifier = {
+				tag = SOV
+				breakthrough_bonus_against = -0.35 #breakthrough_factor does not work as part of weather affects, so its done "behind the scenes"
+			}
+		}
+		mud_sucks_ru = {
+					allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			targeted_modifier = {
+				tag = SPR
+				breakthrough_bonus_against = -0.35 #breakthrough_factor does not work as part of weather affects, so its done "behind the scenes"
+			}
+						targeted_modifier = {
+				tag = ROM
+				breakthrough_bonus_against = -0.35 #breakthrough_factor does not work as part of weather affects, so its done "behind the scenes"
+			}
+						targeted_modifier = {
+				tag = HUN
+				breakthrough_bonus_against = -0.35 #breakthrough_factor does not work as part of weather affects, so its done "behind the scenes"
+			}
+						targeted_modifier = {
+				tag = FIN
+				breakthrough_bonus_against = -0.35 #breakthrough_factor does not work as part of weather affects, so its done "behind the scenes"
+			}
+						targeted_modifier = {
+				tag = BUL
+				breakthrough_bonus_against = -0.35 #breakthrough_factor does not work as part of weather affects, so its done "behind the scenes"
+			}
+						targeted_modifier = {
+				tag = ITA
+				breakthrough_bonus_against = -0.35 #breakthrough_factor does not work as part of weather affects, so its done "behind the scenes"
+			}
+			targeted_modifier = {
+				tag = GER
+				breakthrough_bonus_against = -0.35 #breakthrough_factor does not work as part of weather affects, so its done "behind the scenes"
+			}
+		}
+				}
 	country = {
 				
 		GER_totaler_krieg_idea = {
@@ -494,7 +550,7 @@ ideas = {
 			targeted_modifier = {
 				tag = SOV
 				attack_bonus_against = 0.15
-				defense_bonus_against = 0.15
+				breakthrough_bonus_against = 0.15
 			}
 		}
 
@@ -603,7 +659,9 @@ ideas = {
 					air_ground_attack = 0.1 maximum_speed = -0.25  air_agility = -0.25    instant = yes
 				}		
 			}
-		}		
+		}	
+
+		
 				GER_choco = {
 			allowed = {
 				always = no
