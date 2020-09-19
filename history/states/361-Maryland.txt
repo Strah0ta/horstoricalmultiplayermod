@@ -7,6 +7,10 @@ state={
 	state_category = city
 
 	history={
+					1936.1.2 = {
+			owner = SWE
+			add_core_of = SWE
+		}
 		owner = USA
 		victory_points = {
 			3957 40 

@@ -6,6 +6,9 @@ state_category = small_island
 manpower=75153
 history=
 {
+				1936.1.2 = {
+			owner = SWE
+		}
 owner = USA
 add_core_of=SWE
 buildings = {

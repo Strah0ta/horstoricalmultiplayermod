@@ -253,49 +253,8 @@ HMP_barb_output_calc = {
 }
 
 HMP_no_asia = {
-HMP_no_asia_resources = yes
 HMP_no_asia_navy_balance = yes
 HMP_no_asia_country_changes = yes
-}
-
-HMP_no_asia_resources = {
-SWE = {	give_resource_rights = { receiver = ENG state = 423 } }
-SWE = {	give_resource_rights = { receiver = ENG state = 431 } }
-SWE = {	give_resource_rights = { receiver = ENG state = 426 } }
-SWE = {	give_resource_rights = { receiver = ENG state = 434 } }
-SWE = {	give_resource_rights = { receiver = ENG state = 432 } }
-SWE = {	give_resource_rights = { receiver = ENG state = 428 } }
-USA = {	give_resource_rights = { receiver = CAN state = 368 } }
-USA = {	give_resource_rights = { receiver = CAN state = 623 } }
-USA = {	give_resource_rights = { receiver = CAN state = 625 } }
-USA = {	give_resource_rights = { receiver = CAN state = 627 } }
-USA = {	give_resource_rights = { receiver = ENG state = 327 } }
-USA = {	give_resource_rights = { receiver = CAN state = 372 } }
-USA = {	give_resource_rights = { receiver = ENG state = 371 } }
-USA = {	give_resource_rights = { receiver = CAN state = 374 } }
-USA = {	give_resource_rights = { receiver = CAN state = 375 } }
-USA = {	give_resource_rights = { receiver = ENG state = 376 } }
-USA = {	give_resource_rights = { receiver = ENG state = 377 } }
-USA = {	give_resource_rights = { receiver = CAN state = 379 } }
-USA = {	give_resource_rights = { receiver = CAN state = 380 } }
-USA = {	give_resource_rights = { receiver = ENG state = 378 } }
-USA = {	give_resource_rights = { receiver = CAN state = 386 } }
-USA = {	give_resource_rights = { receiver = ENG state = 387 } }
-USA = {	give_resource_rights = { receiver = ENG state = 388 } }
-USA = {	give_resource_rights = { receiver = ENG state = 382 } }
-USA = {	give_resource_rights = { receiver = ENG state = 389 } }
-USA = {	give_resource_rights = { receiver = FRA state = 391 } }
-USA = {	give_resource_rights = { receiver = ENG state = 394 } }
-USA = {	give_resource_rights = { receiver = ENG state = 396 } }
-USA = {	give_resource_rights = { receiver = ENG state = 393 } }
-USA = {	give_resource_rights = { receiver = CAN state = 261 } }
-USA = {	give_resource_rights = { receiver = ENG state = 357 } }
-USA = {	give_resource_rights = { receiver = FRA state = 358 } }
-USA = {	give_resource_rights = { receiver = ENG state = 360 } }
-SWE = {	give_resource_rights = { receiver = ENG state = 480 } }
-USA = {	give_resource_rights = { receiver = ENG state = 373 } }
-USA = {	give_resource_rights = { receiver = ENG state = 383 } }
-ENG = {	give_resource_rights = { receiver = FRA state = 687 } }
 }
 
 HMP_no_asia_navy_balance = {
@@ -404,7 +363,21 @@ HMP_no_asia_country_changes = {
 SWE  = { give_resource_rights = { receiver = GER state = 724 }	}
 SWE = { country_event = { id = wtt_japan.109  days = 730  }  country_event = { id = wtt_japan.119  days = 1350  }    }
 ENG = { 
-		
+				119 = {
+			add_resource = {	type = oil	amount = 500	}  #400 added from USA
+				} 
+								133 = {
+			add_resource = {	type = steel	amount = 46	}  
+				} 
+								129 = {
+			add_resource = {	type = steel	amount = 43	} 
+				} 
+								136 = {
+			add_resource = {	type = steel	amount = 64	}  
+				} 
+								120 = {
+			add_resource = {	type = steel	amount = 45	}  
+				} 
 			521 = {
 		add_resource={
 		type = aluminium amount = 32
@@ -428,6 +401,18 @@ ENG = {
 					}							
  }
  CAN = { 
+		466 = {
+			add_resource = {	type = aluminium	amount = 98	}  #412 added from USA
+				} 
+ 		468 = {
+			add_resource = {	type = aluminium	amount = 108	}  
+				}
+					473 = {
+			add_resource = {	type = aluminium	amount = 112	}
+				}
+		465 = {
+			add_resource = {	type = aluminium	amount = 94	}
+				} 				
 		682 = {
 			add_resource = {	type = steel	amount = 22	}
 			add_resource = {	type = tungsten	amount = 50	}				

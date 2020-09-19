@@ -15,9 +15,8 @@ state={
 				naval_base = 1
 			}
 		}
-						1936.1.2 = {
-			owner = SWE
-			add_core_of = SWE
+				1936.1.2 = {
+			owner = ENG
 		}
 	}
 

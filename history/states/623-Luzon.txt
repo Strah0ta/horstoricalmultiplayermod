@@ -8,6 +8,9 @@ rubber=1
 chromium = 8
 }
 history= {
+				1936.1.2 = {
+			owner = SWE
+		}
 owner = USA
 add_core_of=SWE
 buildings = {

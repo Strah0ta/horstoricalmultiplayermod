@@ -6,6 +6,9 @@ manpower = 3525715
 state_category = rural
 history=
 {
+				1936.1.2 = {
+			owner = SWE
+		}
 owner = USA
 add_core_of=SWE
 buildings = {

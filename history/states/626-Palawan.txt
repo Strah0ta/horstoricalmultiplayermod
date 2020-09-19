@@ -6,6 +6,9 @@ manpower = 83041
 state_category = rural
 history=
 {
+				1936.1.2 = {
+			owner = SWE
+		}
 victory_points = {
 4429 5
 }

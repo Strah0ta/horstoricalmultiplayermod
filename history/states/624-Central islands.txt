@@ -6,6 +6,9 @@ manpower = 1290672
 state_category = town
 history=
 {
+				1936.1.2 = {
+			owner = SWE
+		}
 owner = USA
 add_core_of=SWE
 buildings = {

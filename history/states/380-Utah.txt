@@ -10,6 +10,9 @@ state= {
 	}
 
 	history={
+					1936.1.2 = {
+			owner = SWE
+		}
 		owner = USA
 		buildings = {
 			infrastructure = 4

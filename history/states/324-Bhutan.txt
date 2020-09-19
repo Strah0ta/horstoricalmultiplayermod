@@ -16,8 +16,7 @@ victory_points = {
 8010 3
 }
 				1936.1.2 = {
-			owner = SWE
-			add_core_of = SWE
+			owner = ENG
 		}
 }
 provinces={

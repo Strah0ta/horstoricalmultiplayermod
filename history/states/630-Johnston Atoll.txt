@@ -5,6 +5,9 @@ name="STATE_630"
 manpower = 1
 state_category = tiny_island
 history={
+				1936.1.2 = {
+			owner = SWE
+		}
 owner = USA
 add_core_of=SWE
 buildings = {

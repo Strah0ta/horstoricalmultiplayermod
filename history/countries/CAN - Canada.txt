@@ -23,7 +23,6 @@ set_variable = {
 }
 
 1936.1.2 = {
- set_cosmetic_tag = CAN_ATLANTIC_DEMOCRATIC
  add_ideas = limited_conscription 
  add_research_slot = 1
 }

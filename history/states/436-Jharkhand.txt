@@ -11,8 +11,7 @@ buildings = {
 infrastructure = 4
 }
 				1936.1.2 = {
-			owner = SWE
-			add_core_of = SWE
+			owner = ENG
 		}
 }
 provinces={
