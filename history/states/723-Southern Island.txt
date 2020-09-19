@@ -28,7 +28,8 @@ state={
 		add_core_of = NZL
 		add_core_of = AST 
 		1936.1.2 = {
-			owner = AST
+			owner = ENG
+			add_core_of = ENG
 		}
 	}
 	provinces={

@@ -22,6 +22,7 @@ set_stability = 0.6
 set_war_support = 0.1
 
 1936.1.2 = {
+set_cosmetic_tag = ENG_EMPIRE
 remove_from_faction = USA 
 add_ideas = ENG_no_asia_idea 
 add_research_slot = 1  
@@ -30,6 +31,22 @@ remove_from_faction = SAF
 remove_from_faction = MEX
 remove_from_faction = NZL
 remove_from_faction = RAJ
+	set_autonomy = {
+		target = RAJ
+		autonomy_state = autonomy_free
+	}
+	set_autonomy = {
+		target = SAF
+		autonomy_state = autonomy_free
+	}
+	set_autonomy = {
+		target = AST
+		autonomy_state = autonomy_free
+	}
+	set_autonomy = {
+		target = NZL
+		autonomy_state = autonomy_free
+	}
 }
 
 # Starting tech

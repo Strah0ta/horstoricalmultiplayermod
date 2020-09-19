@@ -131,7 +131,6 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-				if = { limit = { has_idea = ENG_us_civs_2 } swap_ideas = { remove_idea = ENG_us_civs_2 add_idea = ENG_us_civs_3}   }
 			USA_great_depression_level_down = yes
 			set_country_flag = { flag = USA_great_depression_cooldown value = 1 days = 210 }
 			custom_effect_tooltip = USA_great_depression_cooldown_tt
@@ -229,8 +228,6 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-				if = { limit = { has_idea = ENG_us_civs_1 } swap_ideas = { remove_idea = ENG_us_civs_1 add_idea = ENG_us_civs_2}   }
-
 			add_political_power = 200
 			add_war_support = -0.05
 			if = {
@@ -396,7 +393,6 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-		if = { limit = { has_idea = ENG_us_civs_3 } swap_ideas = { remove_idea = ENG_us_civs_3 add_idea = ENG_us_civs_4}   }
 				add_ideas = partial_economic_mobilisation
 		}
 	}
@@ -412,7 +408,6 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-				if = { limit = { has_idea = ENG_us_civs_4 } swap_ideas = { remove_idea = ENG_us_civs_4 add_idea = ENG_us_civs_5}   }
 			add_ideas = USA_general_motors
 		}
 	}

@@ -266,11 +266,11 @@ SWE = {	give_resource_rights = { receiver = ENG state = 434 } }
 SWE = {	give_resource_rights = { receiver = ENG state = 432 } }
 SWE = {	give_resource_rights = { receiver = ENG state = 428 } }
 USA = {	give_resource_rights = { receiver = CAN state = 368 } }
-USA = {	give_resource_rights = { receiver = AST state = 623 } }
-USA = {	give_resource_rights = { receiver = AST state = 625 } }
-USA = {	give_resource_rights = { receiver = AST state = 627 } }
+USA = {	give_resource_rights = { receiver = CAN state = 623 } }
+USA = {	give_resource_rights = { receiver = CAN state = 625 } }
+USA = {	give_resource_rights = { receiver = CAN state = 627 } }
 USA = {	give_resource_rights = { receiver = ENG state = 327 } }
-USA = {	give_resource_rights = { receiver = AST state = 372 } }
+USA = {	give_resource_rights = { receiver = CAN state = 372 } }
 USA = {	give_resource_rights = { receiver = ENG state = 371 } }
 USA = {	give_resource_rights = { receiver = CAN state = 374 } }
 USA = {	give_resource_rights = { receiver = CAN state = 375 } }
@@ -403,7 +403,13 @@ SPR_relocate_mil = yes
 HMP_no_asia_country_changes = {
 SWE  = { give_resource_rights = { receiver = GER state = 724 }	}
 SWE = { country_event = { id = wtt_japan.109  days = 730  }  country_event = { id = wtt_japan.119  days = 1350  }    }
-AST = { 
+ENG = { 
+		
+			521 = {
+		add_resource={
+		type = aluminium amount = 32
+	}
+	}
 			284 = {
 				add_resource = {	type = steel	amount = 20	}
 				add_resource = {	type = oil	amount = 5	}

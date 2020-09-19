@@ -99,6 +99,17 @@ add_equipment_to_stockpile = { type = infantry_equipment_1 amount = 100000 }
 
 set_country_flag=fuel_system_enabled
 1936.1.2 = {
+remove_from_faction = SPR
+	set_autonomy = {
+		target = SPR
+		autonomy_state = autonomy_free
+	}
+remove_from_faction = HUN
+	set_autonomy = {
+		target = HUN
+		autonomy_state = autonomy_free
+	}
+
 add_research_slot = 1 
 }
 

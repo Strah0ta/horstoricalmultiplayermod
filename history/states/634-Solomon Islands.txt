@@ -2,6 +2,9 @@ state={
 id=634
 name="STATE_634"
 history={
+		1936.1.2 = {
+			owner = ENG
+			}		
 owner = AST
 add_core_of=SWE
 buildings = {

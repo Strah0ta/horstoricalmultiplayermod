@@ -100,15 +100,7 @@ bookmarks = {
 			}	
 		}
 
-		"---"={
-			history = "OTHER_GATHERING_STORM_DESC"
-		}
-
-
-		# minors from DLC ####
-
 		"CAN"={
-			minor = yes
 			history = "CAN_GATHERING_STORM_DESC"
 			ideology = democratic
 			ideas = {
@@ -121,20 +113,8 @@ bookmarks = {
 				CAN_canada_wheat_board
 			}
 		}
-		"AST"={
-			minor = yes
-			history = "AST_GATHERING_STORM_DESC"
-			ideology = democratic
-			ideas = {
-				AST_great_depression_1
-			}
-			focuses = {
-				AST_squash_the_squanderbugs
-				AST_rats_of_tobruk
-			}
-		}
+
 		"ROM"={
-			minor = yes
 			history = "ROM_GATHERING_STORM_DESC"
 			ideology = neutrality
 			ideas = {
@@ -145,10 +125,7 @@ bookmarks = {
 				ROM_institute_royal_dictatorship
 				ROM_preserve_greater_romania
 			}
-		}
-
-		"SPR"={			minor = yes			history = "SPAIN_GATHERING_STORM_DESC"			ideology = democratic			focuses = {				SPA_caudillo_of_spain				}		}
-		
+		}		
 		effect = {
 			randomize_weather = 22345 # <- Obligatory in every bookmark !
 			#123 = { rain_light = yes }

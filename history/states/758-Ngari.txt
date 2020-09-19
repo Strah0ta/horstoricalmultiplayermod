@@ -5,6 +5,9 @@ provinces={
  11018 2129 12428 10954 5135 12931 7409 4317 7362 7378
 }
 history={
+		1936.1.2 = {
+			owner = ENG
+		}		
 owner = AST
 add_core_of=SWE
 buildings = {

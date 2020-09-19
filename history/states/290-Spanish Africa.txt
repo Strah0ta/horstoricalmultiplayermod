@@ -8,6 +8,10 @@ state={
 	state_category = pastoral
 
 	history={
+				1936.1.2 = {
+			owner = SWE
+			add_core_of = SWE
+			}	
 		owner = SPR
 		add_core_of = SPR
 		victory_points = {

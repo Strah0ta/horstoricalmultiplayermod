@@ -9,7 +9,7 @@ add_ideas = armyandnavy_idea_usa
 add_ideas = USA_homeland_defense
  country_event = { id = panay_incident.2  days = 983 } 
 1936.1.2 = {
-add_ideas = no_army add_ideas =  ENG_us_civs_1
+add_ideas = no_army 
 }
 set_variable = {
     var = min_fuel

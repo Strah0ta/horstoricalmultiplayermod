@@ -7,6 +7,9 @@ rubber=20
 }
 
 history={
+		1936.1.2 = {
+			owner = ENG
+		}		
 owner = AST
 add_core_of=SWE
 buildings = {
