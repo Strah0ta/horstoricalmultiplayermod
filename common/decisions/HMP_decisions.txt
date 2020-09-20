@@ -1065,7 +1065,9 @@ GER_case_anton = {
     GER_annex_hungary = {
 		icon = generic_operation
 		allowed = {	original_tag = GER	}
-		available = { HUN = {  is_ai = yes  } date > 1941.5.1	NOT = {  has_start_date > 1936.01.02    }}		
+		available = { HUN = {  is_ai = yes  } date > 1941.5.1	}		
+				visible = { HUN = { country_exists = yes } }
+
 		cost = 0		
 		fire_only_once = yes
 		complete_effect = {
@@ -1121,7 +1123,8 @@ GER_case_anton = {
 	    GER_annex_spr = {
 		icon = generic_operation
 		allowed = {	original_tag = GER	}
-		available = { SPR = {  is_ai = yes  } date > 1940.5.1	}		
+		available = { SPR = {  is_ai = yes } date > 1940.5.1	}	
+		visible = { SPR = { country_exists = yes } }
 		cost = 0		
 		fire_only_once = yes
 		complete_effect = {
