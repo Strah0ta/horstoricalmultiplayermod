@@ -127,8 +127,8 @@ ideas = {
 			removal_cost = -1
 						
 			modifier = {
-				global_building_slots_factor = 1 
-				production_speed_industrial_complex_factor = 0.5
+				#global_building_slots_factor = 1 
+				#production_speed_industrial_complex_factor = 0.05
 			}
 		}	
 			ENG_no_asia_idea2 = {
@@ -148,8 +148,8 @@ ideas = {
 			removal_cost = -1
 						
 			modifier = {
-				global_building_slots_factor = 1 
-				production_speed_arms_factory_factor = 0.05
+				#global_building_slots_factor = 1 
+				#production_speed_arms_factory_factor = 0.05
 			}
 		}
 			ENG_no_asia_idea3 = {
@@ -169,7 +169,7 @@ ideas = {
 			removal_cost = -1
 						
 			modifier = {
-				global_building_slots_factor = 1 
+				#global_building_slots_factor = 1 
 				consumer_goods_factor = 0.16
 			}
 		}		

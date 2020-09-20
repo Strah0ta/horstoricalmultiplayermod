@@ -28,6 +28,9 @@ state={
 		add_core_of = NZL
 		add_core_of = AST 
 		1936.1.2 = {
+					buildings = {
+				industrial_complex = 4
+			}
 			owner = ENG
 			add_core_of = ENG
 		}

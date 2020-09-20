@@ -15,6 +15,9 @@ infrastructure = 4
 industrial_complex = 1
 }
 						1936.1.2 = {
+									buildings = {
+				industrial_complex = 3
+			}
 			owner = ENG
 		}
 }

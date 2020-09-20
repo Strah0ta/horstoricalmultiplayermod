@@ -259,6 +259,17 @@ focus_tree = {
 		completion_reward = {
 			custom_effect_tooltip = shadow_scheme_focus_tt
 			add_ideas = wartime_industry_focus	
+					if = { limit = { has_start_date > 1936.1.2 }
+			add_tech_bonus = {
+				name = AST_royal_australian_artillery
+				bonus = 1.0
+				uses = 4
+				technology = antitank2
+				technology = antitank3
+				technology = antitank4
+				technology = antitank5
+			}
+		}
 		}
 	}
 
@@ -362,17 +373,6 @@ focus_tree = {
 		continue_if_invalid = yes
 
 		completion_reward = {
-		if = { limit = { has_start_date > 1936.1.2 }
-			add_tech_bonus = {
-				name = AST_royal_australian_artillery
-				bonus = 1.0
-				uses = 4
-				technology = antitank2
-				technology = antitank3
-				technology = antitank4
-				technology = antitank5
-			}
-		}
 			127 = {
 				add_extra_state_shared_building_slots = 2
 				add_building_construction = {

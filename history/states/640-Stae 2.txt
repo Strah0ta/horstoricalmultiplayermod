@@ -17,6 +17,9 @@ victory_points = {
 4425 1
 }
 				1936.1.2 = {
+							buildings = {
+				industrial_complex = 1
+			}
 			owner = ENG
 		}
 }
