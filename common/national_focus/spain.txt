@@ -17,14 +17,6 @@ focus_tree = {
 	continuous_focus_position = { x = 50 y = 2500 } 
 
 
-#  #  ##  ### ###  ##  #  #  ##  #   ###  ## ###     ###  #  # ### #   ###     #  # ###  
-## # #  #  #   #  #  # ## # #  # #    #  #    #      #  # #  #  #  #   #  #    #  # #  # 
-# ## ####  #   #  #  # # ## #### #    #   #   #      ###  #  #  #  #   #  # ## #  # ###  
-#  # #  #  #   #  #  # #  # #  # #    #    #  #      #  # #  #  #  #   #  #    #  # #    
-#  # #  #  #  ###  ##  #  # #  # ### ### ##   #      ###   ##  ### ### ###      ##  #    
-
-
-
 		focus = {
 		id = SPA_unify_the_nationalist_front
 				
@@ -111,8 +103,6 @@ focus_tree = {
 		}
 	}
 
-	
-
 	focus = {
 		id = SPA_consolidate_the_north
 
@@ -187,11 +177,7 @@ focus_tree = {
 
 	focus = {
 		id = SPA_banish_the_party_leaders
-		available = {
-		}
-		bypass = {
-			has_global_flag = SPR_carlist_uprising_flag
-		}
+
 		prerequisite = { focus = SPA_martyrdom_for_primo_de_rivera }
 		prerequisite = { focus = SPA_consolidate_the_north }
 		
@@ -210,8 +196,6 @@ focus_tree = {
 
 	focus = {
 		id = SPA_fuse_the_parties
-		available = {
-		}
 
 		prerequisite = { focus = SPA_banish_the_party_leaders }
 		prerequisite = { focus = SPA_safeguard_the_freedom_of_worship }
@@ -232,10 +216,7 @@ focus_tree = {
 
 	focus = {
 		id = SPA_adopt_the_26_points
-		available = {
-		}
-		bypass = {
-		}
+
 		prerequisite = { focus = SPA_consolidate_the_north }
 		
 		icon = GFX_focus_generic_treaty
@@ -251,15 +232,7 @@ focus_tree = {
 			    ideology = fascism
 			    popularity = 0.1
 			}
-			if = {
-				limit = {
-					NOT = {
-						has_idea = war_economy
-						has_idea = tot_economic_mobilisation
-					}
-				}
-				add_ideas = war_economy
-			}
+			add_ideas = war_economy
 			if = {
 				limit = {
 					has_idea = limited_conscription
@@ -277,11 +250,7 @@ focus_tree = {
 
 	focus = {
 		id = SPA_direct_the_universities
-		available = {
 
-		}
-		bypass = {
-		}
 		prerequisite = { focus = SPA_adopt_the_26_points }
 		
 		icon = GFX_focus_research2
@@ -319,11 +288,7 @@ focus_tree = {
 	
 	focus = {
 		id = SPA_the_tangiers_enclave
-		available = {
-			has_full_control_of_state = 290
-		}
-		bypass = {
-		}
+
 		prerequisite = { focus = SPA_adopt_the_26_points }
 		
 		icon = GFX_goal_generic_position_armies
@@ -349,10 +314,7 @@ focus_tree = {
 
 	focus = {
 		id = SPA_safeguard_the_freedom_of_worship
-		available = {
-		}
-		bypass = {
-		}
+
 		prerequisite = { focus = SPA_martyrdom_for_primo_de_rivera }
 		
 		icon = GFX_focus_generic_strike_at_democracy1
@@ -398,8 +360,6 @@ focus_tree = {
 	
 		focus = {
 		id = SPA_a_methodical_approach
-		available = {
-		}
 
 		prerequisite = { focus = SPA_the_national_and_popular_army_of_spain }
 		
@@ -420,10 +380,7 @@ focus_tree = {
 
 	focus = {
 		id = SPA_the_army_of_africa_model
-		available = {
-		}
-		bypass = {
-		}
+
 		prerequisite = { focus = SPA_unify_the_nationalist_front }
 		
 		icon = GFX_goal_generic_army_artillery
@@ -453,10 +410,7 @@ focus_tree = {
 
 	focus = {
 		id = SPA_equipment_modernization
-		available = {
-		}
-		bypass = {
-		}
+
 		prerequisite = { focus = SPA_the_national_and_popular_army_of_spain }
 		
 		icon = GFX_goal_generic_small_arms
@@ -479,10 +433,7 @@ focus_tree = {
 
 	focus = {
 		id = SPA_artillery_modernization
-		available = {
-		}
-		bypass = {
-		}
+
 		prerequisite = { focus = SPA_equipment_modernization }
 		
 		icon = GFX_goal_generic_army_artillery2
@@ -585,17 +536,11 @@ focus_tree = {
 	
 	focus = {
 		id = SPA_national_recovery
-		available = {
-			date > 1938.5.1 
-		}
-		bypass = {
-		}
-		#prerequisite = {  focus = SPA_fuse_the_parties }
+		available = {	date > 1938.5.1 	}
 		
 		icon = GFX_goal_generic_consumer_goods
 		x = 18
 		y = 0
-		#relative_position_id = SPA_fuse_the_parties
 		cost = 5
 
 		available_if_capitulated = yes
@@ -605,7 +550,7 @@ focus_tree = {
 		
 	 hidden_effect = { every_owned_state = {   	add_building_construction = {
 							type = anti_air_building
-							level = 5
+							level = 6
 							instant_build = yes
 						} }	}
 						
@@ -653,11 +598,7 @@ focus_tree = {
 
 	focus = {
 		id = SPA_facilitate_pyrenees_freight_transports
-		available = {
-		
-		}
-		bypass = {
-		}
+
 		prerequisite = { focus = SPA_fascist_economic_aid }
 		
 		icon = GFX_goal_generic_construct_infrastructure
@@ -809,11 +750,7 @@ focus_tree = {
 
 	focus = {
 		id = SPA_the_duty_to_work
-		available = {
-		
-		}
-		bypass = {
-		}
+
 		prerequisite = { focus = SPA_national_recovery }
 		
 		icon = GFX_goal_generic_construct_military
@@ -937,11 +874,7 @@ focus_tree = {
 	
 		focus = {
 		id = SPA_the_corpo_truppe_volontarie
-		available = {
-			
-		}
-		bypass = {
-		}
+
 		prerequisite = { focus = SPA_unify_the_nationalist_front }
 		
 		icon = GFX_focus_befriend_italy
@@ -988,10 +921,7 @@ focus_tree = {
 
 	focus = {
 		id = SPA_obtain_training_staff
-		available = {
-		}
-		bypass = {
-		}
+
 		prerequisite = { focus = SPA_the_corpo_truppe_volontarie }
 		
 		icon = GFX_focus_generic_military_academy
@@ -1010,11 +940,7 @@ focus_tree = {
 
 	focus = {
 		id = SPA_doctrinal_advancements
-		available = {
-		
-		}
-		bypass = {
-		}
+	
 		prerequisite = { focus = SPA_the_condor_legion }
 		
 		icon = GFX_goal_generic_army_doctrines
