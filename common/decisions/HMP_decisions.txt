@@ -733,6 +733,7 @@ USA_puppet_mexico = {
 		visible = {	NOT = { FRA = { owns_state = 16 }}  check_variable = { FRA.FRA_legitimacy < 100 }	}
 		cost = 50
 		complete_effect = {
+		custom_effect_tooltip = "French Legitimacy will increase by 10"
 			add_to_variable =  { var = FRA.FRA_legitimacy value = 10 }
 		}
 	}
