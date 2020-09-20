@@ -137,6 +137,41 @@ create_corps_commander = { #for Barbarossa
     planning_skill = 6
     logistics_skill = 5
 }
+create_corps_commander = {
+	name = "Ewald von Kleist"
+	desc = ""
+	picture = "Portrait_Germany_Ewald_von_Kleist.dds"
+	traits = { organizer trickster offensive_doctrine expert_improviser brilliant_strategist panzer_leader panzer_expert ranger  }
+	skill = 8
+	id = 9998
+    attack_skill = 8
+    defense_skill = 5
+    planning_skill = 6
+    logistics_skill = 5
+}
+create_corps_commander = {
+	name = "Sepp Dietrich"
+	picture = "Portrait_Germany_Josef_Dietrich.dds"
+	traits = { organizer trickster offensive_doctrine expert_improviser brilliant_strategist panzer_leader panzer_expert ranger  }
+	skill = 8
+	id = 99924
+    attack_skill = 8
+    defense_skill = 5
+    planning_skill = 6
+    logistics_skill = 5
+}
+create_corps_commander = {
+	name = "Hermann Hoth"
+	picture = "Portrait_Germany_Herman_Hoth.dds"
+	traits = { organizer trickster offensive_doctrine expert_improviser brilliant_strategist panzer_leader panzer_expert ranger  }
+	skill = 8
+	id = 99918
+    attack_skill = 8
+    defense_skill = 5
+    planning_skill = 6
+    logistics_skill = 5
+}
+
 create_field_marshal = {
 	name = "Friedrich Paulus"
 	picture = "Portrait_Germany_Friedrich_Paulus.dds"
