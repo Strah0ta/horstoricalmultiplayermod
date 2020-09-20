@@ -12,7 +12,7 @@ manpower = 1212500
 		buildings = {
 			infrastructure = 8
 			arms_factory = 3
-			air_base = 8
+			air_base = 6
 			4109 = {
 				naval_base = 9
 			}

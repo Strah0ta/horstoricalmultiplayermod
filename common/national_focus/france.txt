@@ -102,7 +102,7 @@
                     }
 				set_building_level = {
 					type = air_base
-					level = 8
+					level = 6
 					instant_build = yes
 				}
         
@@ -414,7 +414,7 @@ if = {
                                 }
 				set_building_level = {
 					type = air_base
-					level = 8
+					level = 6
 					instant_build = yes
 				}
                 add_building_construction = {
@@ -447,7 +447,7 @@ if = {
 
 				set_building_level = {
 					type = air_base
-					level = 8
+					level = 6
 					instant_build = yes
 				}
                 }

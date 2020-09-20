@@ -37,14 +37,14 @@ focus_tree = {
 			hidden_effect = { 	534 = {
 				set_building_level = {
 					type = air_base
-					level = 20
+					level = 10
 					instant_build = yes
 				}
 			}
 282 = {
 				set_building_level = {
 					type = air_base
-					level = 20
+					level = 10
 					instant_build = yes
 				}	
 			}
@@ -293,7 +293,7 @@ focus_tree = {
 				}
 								set_building_level = {
 					type = air_base
-					level = 20
+					level = 10
 				}
 			}
 			333 = {

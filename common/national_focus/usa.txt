@@ -806,28 +806,28 @@ transfer_state = 38
 								626 = {
 				set_building_level = {
 						type = air_base
-						level = 8
+						level = 6
 						instant_build = yes
 					}
 			}	
 						623 = {
 				set_building_level = {
 						type = air_base
-						level = 8
+						level = 6
 						instant_build = yes
 					}
 			}
 					627 = {
 				set_building_level = {
 						type = air_base
-						level = 8
+						level = 6
 						instant_build = yes
 					}
 			}	
 						624 = {
 				set_building_level = {
 						type = air_base
-						level = 8
+						level = 6
 						instant_build = yes
 					}
 			}			

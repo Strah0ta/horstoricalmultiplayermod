@@ -1244,7 +1244,7 @@ focus_tree = {
 			473 = {
 				set_building_level = {
 					type = air_base
-					level = 8
+					level = 6
 					instant_build = yes
 				}
 			}
@@ -1310,7 +1310,7 @@ focus_tree = {
 			464 = {
 				set_building_level = {
 					type = air_base
-					level = 8
+					level = 6
 					instant_build = yes
 				}
 			}
@@ -1326,7 +1326,7 @@ focus_tree = {
 			464 = {
 				set_building_level = {
 					type = air_base
-					level = 8
+					level = 6
 					instant_build = yes
 				}
 			}

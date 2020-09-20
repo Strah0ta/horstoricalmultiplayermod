@@ -518,42 +518,42 @@ add_equipment_production = {
 			122 = {
 				set_building_level = {
 					type = air_base
-					level = 8
+					level = 6
 					instant_build = yes
 				}
 			}
 			338 = {
 				set_building_level = {
 					type = air_base
-					level = 8
+					level = 6
 					instant_build = yes
 				}
 			}
 			132 = {
 				set_building_level = {
 					type = air_base
-					level = 8
+					level = 6
 					instant_build = yes
 				}
 			}
 			129 = {
 				set_building_level = {
 					type = air_base
-					level = 8
+					level = 6
 					instant_build = yes
 				}
 			}
-			123	 = {
+			136	 = {
 				set_building_level = {
 					type = air_base
-					level = 8
+					level = 6
 					instant_build = yes
 				}
 			}
 						119	 = {
 				set_building_level = {
 					type = air_base
-					level = 40
+					level = 20
 					instant_build = yes
 				}
 			}
@@ -1073,7 +1073,7 @@ add_equipment_production = {
 				}
 				set_building_level = {
 					type = air_base
-					level = 8
+					level = 6
 					instant_build = yes
 				}
 								add_building_construction = {
@@ -1091,7 +1091,7 @@ add_equipment_production = {
 				}
 				set_building_level = {
 					type = air_base
-					level = 8
+					level = 6
 					instant_build = yes
 				}
 						add_building_construction = {
@@ -1118,7 +1118,7 @@ add_equipment_production = {
 				}
 				set_building_level = {
 					type = air_base
-					level = 40
+					level = 20
 					instant_build = yes
 				}
 				add_building_construction = {
@@ -1139,7 +1139,7 @@ add_equipment_production = {
 				}
 				set_building_level = {
 					type = air_base
-					level = 8
+					level = 6
 					instant_build = yes
 				}
 				add_building_construction = {
@@ -1192,7 +1192,7 @@ add_equipment_production = {
 					}
 				set_building_level = {
 					type = air_base
-					level = 8
+					level = 6
 					instant_build = yes
 				}
 						add_building_construction = {
@@ -1257,7 +1257,7 @@ add_equipment_production = {
 				}
 				set_building_level = {
 					type = air_base
-					level = 8
+					level = 6
 					instant_build = yes
 				}
 			}
@@ -1282,28 +1282,28 @@ add_equipment_production = {
 			
 				set_building_level = {
 					type = air_base
-					level = 8
+					level = 6
 					instant_build = yes
 				}
 			}	
 			733 = {
 				set_building_level = {
 					type = air_base
-					level = 8
+					level = 6
 					instant_build = yes
 				}
 			}
 						334 = {
 				set_building_level = {
 					type = air_base
-					level = 8
+					level = 6
 					instant_build = yes
 				}
 			}
 			672 = {
 				set_building_level = {
 					type = air_base
-					level = 8
+					level = 6
 					instant_build = yes
 				}
 				add_building_construction = {
@@ -1335,7 +1335,7 @@ add_equipment_production = {
 			551 = {
 				set_building_level = {
 					type = air_base
-					level = 8
+					level = 6
 					instant_build = yes
 				}
 				add_building_construction = {
@@ -1349,7 +1349,7 @@ add_equipment_production = {
 					678 = {
 								set_building_level = {
 					type = air_base
-					level = 8
+					level = 6
 					instant_build = yes
 				}
 				add_building_construction = {
@@ -1373,7 +1373,7 @@ add_equipment_production = {
 				}	
 				set_building_level = {
 					type = air_base
-					level = 8
+					level = 6
 					instant_build = yes
 				}		
 			}	
@@ -1397,7 +1397,7 @@ add_equipment_production = {
 				}
 				set_building_level = {
 					type = air_base
-					level = 8
+					level = 6
 					instant_build = yes
 				}
 			}			
@@ -1421,7 +1421,7 @@ add_equipment_production = {
 			454 = {
 				set_building_level = {
 					type = air_base
-					level = 8
+					level = 6
 					instant_build = yes
 				}
 				add_building_construction = {
@@ -1433,7 +1433,7 @@ add_equipment_production = {
 						183 = {
 				set_building_level = {
 					type = air_base
-					level = 8
+					level = 6
 					instant_build = yes
 				}
 				add_building_construction = {
@@ -1445,7 +1445,7 @@ add_equipment_production = {
 					453 = {
 								set_building_level = {
 					type = air_base
-					level = 8
+					level = 6
 					instant_build = yes
 				}
 				add_building_construction = {
@@ -1464,7 +1464,7 @@ add_equipment_production = {
 			455 = {
 				set_building_level = {
 					type = air_base
-					level = 8
+					level = 6
 					instant_build = yes
 				}
 				add_building_construction = {
@@ -1499,7 +1499,7 @@ add_equipment_production = {
 				291 = {
 				set_building_level = {
 					type = air_base
-					level = 8
+					level = 6
 					instant_build = yes
 				}
 				add_building_construction = {
@@ -1511,7 +1511,7 @@ add_equipment_production = {
 			675 = {
 				set_building_level = {
 					type = air_base
-					level = 8
+					level = 6
 					instant_build = yes
 				}
 				add_building_construction = {
@@ -1523,7 +1523,7 @@ add_equipment_production = {
 			676 = {
 				set_building_level = {
 					type = air_base
-					level = 8
+					level = 6
 					instant_build = yes
 				}
 				add_building_construction = {
@@ -1535,7 +1535,7 @@ add_equipment_production = {
 			656 = {
 				set_building_level = {
 					type = air_base
-					level = 8
+					level = 6
 					instant_build = yes
 				}
 				add_building_construction = {
