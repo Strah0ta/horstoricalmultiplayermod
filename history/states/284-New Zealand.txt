@@ -31,7 +31,7 @@ state={
 		add_core_of = AST
 				1936.1.2 = {
 							buildings = {
-				industrial_complex = 8
+				industrial_complex = 5
 			}
 			owner = ENG
 			add_core_of = ENG

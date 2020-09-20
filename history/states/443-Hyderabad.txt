@@ -18,7 +18,7 @@ naval_base = 4
 }
 				1936.1.2 = {
 							buildings = {
-				industrial_complex = 3
+				industrial_complex = 2
 			}
 			owner = ENG
 		}
