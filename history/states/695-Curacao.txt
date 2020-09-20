@@ -7,6 +7,9 @@ resources={
 oil=59
 }
 history={
+1936.1.2 = {
+owner = ENG
+}
 owner = HOL
 add_core_of=SWE
 victory_points = {

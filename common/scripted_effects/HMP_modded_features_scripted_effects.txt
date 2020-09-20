@@ -363,21 +363,30 @@ HMP_no_asia_country_changes = {
 SWE  = { give_resource_rights = { receiver = GER state = 724 }	}
 SWE = { country_event = { id = wtt_japan.109  days = 730  }  country_event = { id = wtt_japan.119  days = 1350  }    }
 ENG = { 
-				119 = {
+				695 = {
 			add_resource = {	type = oil	amount = 500	}  #400 added from USA
 				} 
 								133 = {
-			add_resource = {	type = steel	amount = 46	}  
+			add_resource = {	type = steel	amount = 86	}  
 				} 
 								129 = {
-			add_resource = {	type = steel	amount = 43	} 
+			add_resource = {	type = steel	amount = 73	} 
 				} 
+							132 = {
+				add_resource = {	type = steel	amount = 68	}  
+				}
 								136 = {
-			add_resource = {	type = steel	amount = 64	}  
+			add_resource = {	type = steel	amount = 94	}  
 				} 
 								120 = {
-			add_resource = {	type = steel	amount = 45	}  
+			add_resource = {	type = steel	amount = 95	}  
 				} 
+			122 = {
+				add_resource = {	type = steel	amount = 68	}  
+				}
+				338 = {
+				add_resource = {	type = steel	amount = 68	}  
+				}			
 			521 = {
 		add_resource={
 		type = aluminium amount = 32

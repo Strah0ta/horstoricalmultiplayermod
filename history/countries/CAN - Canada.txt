@@ -23,8 +23,10 @@ set_variable = {
 }
 
 1936.1.2 = {
- add_ideas = limited_conscription 
- add_research_slot = 1
+	complete_national_focus = CAN_wartime_prices_and_trade_board
+	complete_national_focus = CAN_canada_wheat_board
+	add_ideas = limited_conscription 
+	add_research_slot = 1
 }
 
 create_intelligence_agency = yes
