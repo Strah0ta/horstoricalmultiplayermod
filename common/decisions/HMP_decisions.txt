@@ -2382,7 +2382,6 @@ HMP_templates = {
 		fire_only_once = no
 		complete_effect = {
 			country_event = countrystartup.17
-			tp_divs_out_of_france = yes
 		}	
 	}
 
