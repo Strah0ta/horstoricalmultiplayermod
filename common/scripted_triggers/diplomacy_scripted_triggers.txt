@@ -53,6 +53,7 @@ if = { limit = {ROOT = { normally_played_allies = yes} } 		NOT = { FROM = { tag 
 
 }
 DIPLOMACY_SEND_EXP_FORCE_ENABLE_TRIGGER = {
+	NOT = { FROM = { has_tech = trench_warfare }}
     if = {    limit = {   ROOT = {  original_tag = EFR }   }   EFR = {  always = no }  }
     if = {    limit = {  ROOT = {  original_tag = ETH }   }   ETH = {  always = no } }	
 }
@@ -72,7 +73,7 @@ DIPLOMACY_RETURN_EXP_FORCE_ENABLE_TRIGGER = {
     if = {  limit = {   original_tag = ETH }   ETH = { always = no	}   }
 }
 DIPLOMACY_REQUEST_EXP_FORCE_ENABLE_TRIGGER = {
-    if = {  limit = {   OR = { original_tag = EFR  original_tag = ITA }  }  EFR = { always = no	} 		NOT = { FROM = { original_tag = ETH } }
-  }
-	
+NOT = { date < 1939.9.1 }
+    if = {  limit = {   OR = { original_tag = EFR  original_tag = ITA }  }  EFR = { always = no	} 		NOT = { FROM = { original_tag = ETH } } }
+	NOT = { ROOT = { has_tech = trench_warfare }}
 }
