@@ -613,6 +613,21 @@ country_event = {
 	picture = GFX_report_event_spain_civil_war_soldiers
 	
 	is_triggered_only = yes
+		
+	option = { # Option for Nationalists - Franco
+		name = lar_spain.2.a
+		custom_effect_tooltip = nationalists_chosen	
+}
+}
+
+# Spanish Civil War - La Resistance Edition
+country_event = {
+	id = lar_spain.3
+	title = lar_spain.3.t
+	desc = lar_spain.3.desc
+	picture = GFX_report_event_spain_civil_war_soldiers
+	
+	is_triggered_only = yes
 	
 	immediate = { HMP_script_spain = yes 	}
 	
@@ -621,6 +636,8 @@ country_event = {
 		custom_effect_tooltip = nationalists_chosen	
 }
 }
+
+
 
 add_namespace = lar_fake_intel_units
 

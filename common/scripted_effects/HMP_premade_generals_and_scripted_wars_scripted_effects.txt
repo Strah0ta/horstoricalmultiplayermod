@@ -66,10 +66,13 @@ army_experience = 750
 ROM = {
 army_experience = 500
  }
+ BUL = {
+army_experience = 500
+ }
 HUN = { 
 army_experience = 500
 }
-SPR = {add_ideas = SPR_cg_debuff add_threat = 3 }
+SPR = { add_ideas = SPR_cg_debuff add_threat = 3 }
 }
 
 HMP_script_generals = {
