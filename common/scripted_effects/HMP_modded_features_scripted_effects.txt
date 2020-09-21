@@ -366,18 +366,11 @@ ENG = {
 				695 = {
 			add_resource = {	type = oil	amount = 500	}  #400 added from USA
 				} 
-								133 = {
-			add_resource = {	type = steel	amount = 86	}  
-				} 
-								129 = {
-			add_resource = {	type = steel	amount = 73	} 
-				} 
+
 							132 = {
 				add_resource = {	type = steel	amount = 68	}  
 				}
-								136 = {
-			add_resource = {	type = steel	amount = 94	}  
-				} 
+	
 								120 = {
 			add_resource = {	type = steel	amount = 95	}  
 				} 
@@ -407,18 +400,30 @@ ENG = {
 					level = 2
 					instant_build = yes
 				}
-					}							
+					}	
+ 		122 = {
+			add_resource = {	type = aluminium	amount = 138	}  
+				}
+					119 = {
+			add_resource = {	type = aluminium	amount = 162	}
+				}					
+ }
+ FRA = {
+ 							730 = {
+			add_resource = {	type = steel	amount = 94	}  
+				} 
  }
  CAN = { 
+ 								276 = {
+			add_resource = {	type = steel	amount = 86	}  
+				} 
+								473 = {
+			add_resource = {	type = steel	amount = 73	} 
+				} 
 		466 = {
 			add_resource = {	type = aluminium	amount = 98	}  #412 added from USA
 				} 
- 		468 = {
-			add_resource = {	type = aluminium	amount = 108	}  
-				}
-					473 = {
-			add_resource = {	type = aluminium	amount = 112	}
-				}
+
 		465 = {
 			add_resource = {	type = aluminium	amount = 94	}
 				} 				

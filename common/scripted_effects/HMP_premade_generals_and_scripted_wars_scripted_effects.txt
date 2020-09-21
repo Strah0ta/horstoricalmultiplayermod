@@ -747,9 +747,10 @@ create_corps_commander = {
 	planning_skill = 2
 	logistics_skill = 8
 }
+
 create_corps_commander = {
-	name = "Vasily Chuikov"
-		picture = "Portrait_Soviet_Vasily_Chuikov.dds"
+	name = "Dmitry Lelyushenko"
+		picture = "Portrait_Soviet_Dmitri_Danilovich_Lelyushenko.dds"
 	traits = {  panzer_leader panzer_expert expert_improviser ranger trait_cautious brilliant_strategist trickster  urban_assault_specialist }
 	skill = 8
 	
@@ -758,7 +759,6 @@ create_corps_commander = {
 	planning_skill = 2
 	logistics_skill = 8
 }
-
 
 
 
@@ -775,8 +775,8 @@ create_corps_commander = {
 	logistics_skill = 7
 }
 create_corps_commander = {
-	name = "Dmitry Lelyushenko"
-		picture = "Portrait_Soviet_Dmitri_Danilovich_Lelyushenko.dds"
+	name = "Vasily Chuikov"
+		picture = "Portrait_Soviet_Vasily_Chuikov.dds"
 	traits = { panzer_leader harsh_leader ranger trait_engineer panzer_expert expert_improviser trickster }
 	skill = 8
 
