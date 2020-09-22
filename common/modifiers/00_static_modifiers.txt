@@ -194,8 +194,7 @@ war_support_good_modifier = {
 }
 
 war_support_bad_modifier = {
-	army_attack_factor = -0.5
-	army_defence_factor = -0.5
+	army_attack_factor = -0.75
 	army_org_factor = -0.5
 	army_morale_factor = -0.5
 }
