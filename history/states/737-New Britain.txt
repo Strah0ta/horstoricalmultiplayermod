@@ -1,6 +1,9 @@
 state={
 id=737
 name="STATE_737"
+resources={
+rubber=40
+}
 history={
 owner = AST
 add_core_of=SWE
