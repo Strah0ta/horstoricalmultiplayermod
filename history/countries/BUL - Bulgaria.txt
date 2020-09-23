@@ -1,15 +1,15 @@
 ﻿capital = 48
 
 add_ideas = {
-	limited_conscription
-	partial_economic_mobilisation
+	disarmed_nation
+	BUL_bulgarian_tsardom
+	BUL_imro
+	BUL_second_national_catastrophe
+	neutrality_idea
 }
-add_ideas = ai_imiter 
 
-set_research_slots = 0
-
+set_research_slots = 3
 set_convoys = 25
-
 set_politics = {
 	ruling_party = neutrality
 	last_election = "1931.6.21"
@@ -64,5 +64,87 @@ create_country_leader = {
 	ideology = fascism_ideology
 	traits = {
 		#
+	}
+}
+
+
+create_corps_Commander = {
+	name = "Konstantin Bekyarov"
+	picture = "Portrait_Bulgaria_Konstantin_Bekyarov.dds"
+	traits = {  }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
+}
+
+create_corps_Commander = {
+	name = "Nikola Nedeva"
+	picture = "Portrait_Bulgaria_Nikola_Dimitrov_Nedeva.dds"
+	traits = { old_guard bearer_of_artillery }
+	skill = 4
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 4
+}
+
+create_field_marshal = {
+	name = "Vladimir Stoychev"
+	picture = "Portrait_Bulgaria_Vladimir_Dimitrov_Stoychev.dds"
+	traits = { cavalry_officer }
+	skill = 3
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_field_marshal = {
+	name = "Dimitr Ayryanov"
+	picture = "Portrait_Bulgaria_Dimitr_Vasilev_Ayryanov.dds"
+	traits = { trait_engineer organizer }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 3
+}
+
+create_corps_Commander = {
+	name = "Nikola Markov"
+	picture = "Portrait_Bulgaria_Nikola_Markov.dds"
+	traits = {  }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_Commander = {
+	name = "Asen Nikolov"
+	picture = "Portrait_Bulgaria_Asen_Nikolov.dds"
+	traits = {  }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_equipment_variant = {
+	name = "Drazki Class"				
+	type = ship_hull_light_1
+	name_group = BUL_DD_HISTORICAL
+	parent_version = 0
+	modules = {
+		fixed_ship_battery_slot = ship_light_battery_1
+		fixed_ship_anti_air_slot = ship_anti_air_1
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+		fixed_ship_radar_slot = empty
+		fixed_ship_engine_slot = light_ship_engine_1
+		fixed_ship_torpedo_slot = ship_torpedo_1
 	}
 }
