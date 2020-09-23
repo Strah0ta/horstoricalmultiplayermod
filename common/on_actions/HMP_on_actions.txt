@@ -243,6 +243,59 @@ on_state_control_changed = {
 			}
 			if = {
 				limit = {
+					the_axis = yes 
+					FROM = { original_tag = SOV }
+					FROM.FROM = { state = 195 }
+					NOT = { has_global_flag = fall_of_leningrad }
+				}
+				news_event = news.103
+				set_global_flag = fall_of_leningrad
+			}			
+				if = {
+				limit = {
+					the_axis = yes 
+					FROM = { original_tag = SOV }
+					FROM.FROM = { state = 217 }
+					NOT = { has_global_flag = fall_of_stalingrad }
+				}
+				news_event = news.105
+				set_global_flag = fall_of_stalingrad
+			}			
+					if = {
+				limit = {
+					the_axis = yes 
+					FROM = { original_tag = SOV }
+					FROM.FROM = { state = 219 }
+					NOT = { has_global_flag = fall_of_moscow }
+				}
+				news_event = news.106
+				set_global_flag = fall_of_moscow
+			}			
+			
+								if = {
+				limit = {
+					OR = { original_tag = JAP original_tag = MAN }
+					FROM = { original_tag = USA }
+					FROM.FROM = { state = 629 }
+					NOT = { has_global_flag = fall_of_pearl_harbor }
+				}
+				news_event = news.118
+				set_global_flag = fall_of_pearl_harbor
+			}	
+									if = {
+				limit = {
+					 original_tag = SOV
+					FROM = { original_tag = GER }
+					FROM.FROM = { state = 64 }
+					NOT = { has_global_flag = fall_of_berlin_sov }
+				}
+				news_event = news.140
+				set_global_flag = fall_of_berlin_sov
+			}			
+
+
+			if = {
+				limit = {
 					OR = {
 						TAG = ENG
 						TAG = USA

@@ -230,7 +230,6 @@ original_tag = ROM
 original_tag = HUN
 original_tag = BUL
 original_tag = ETH
-original_tag = YUG
 }
 }
 

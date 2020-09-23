@@ -263,7 +263,7 @@ create_field_marshal = { #general FM
 create_corps_commander = {
     name = "Sebastiano Visconti Prasca"
     picture = "Portrait_Italy_Sebastiano_Visconti_Prasca.dds"
-    traits = {  old_guard fake_skilled_staffer inflexible_strategist infantry_leader ambusher scavenger guerilla_fighter combined_arms_expert trait_engineer }
+    traits = {  old_guard fake_skilled_staffer inflexible_strategist infantry_leader ambusher scavenger guerilla_fighter skirmisher combined_arms_expert trait_engineer }
     skill = 6
     id = 9995042
 	
@@ -322,7 +322,7 @@ create_corps_commander = { #AFRIKACORPS GENERAL
 create_corps_commander = {
 	name = "Ugo Cavallero"
 	picture = "Portrait_Italy_Ugo_Cavallero.dds"
-	traits = {  old_guard trait_cautious fake_skilled_staffer infantry_leader commando camouflage_expert ambusher skirmisher  }
+	traits = {  old_guard trait_cautious fake_skilled_staffer infantry_leader commando camouflage_expert ambusher  }
 
 	skill = 6
     attack_skill = 4

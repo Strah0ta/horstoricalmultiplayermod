@@ -96,15 +96,10 @@ ability = {
 		name = ABILITY_PROBING_ATTACK
 		desc = ABILITY_PROBING_ATTACK_DESC	
 		type = army_leader
-		allowed = {
-			has_ability = probing_attack
-		}
-		unit_modifiers = {
-			dont_lose_dig_in_on_attack = 1.0
-			offence = -0.2
-		}
+		allowed = {	has_ability = probing_attack }
+		unit_modifiers = {	dont_lose_dig_in_on_attack = 1.0	}
 		cancelable = yes
-		cost = 0.1
+		cost = 0
 		duration = -1
 	}
 	
