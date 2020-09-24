@@ -6,7 +6,6 @@ state={
 		owner = YUG
 		buildings = {
 			infrastructure = 6
-			arms_factory = 3
 			air_base = 5
 
 		}

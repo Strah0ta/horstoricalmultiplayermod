@@ -1,11 +1,10 @@
 	HMP_script_balkans = {
 			GER = { 
-			transfer_state = 775 transfer_state = 764 transfer_state = 109 transfer_state = 104 transfer_state = 107 transfer_state = 108 transfer_state = 106 transfer_state = 731 transfer_state = 292 
-			775 = { set_compliance = 100 } 106 = { set_compliance = 40 } 109 = { set_compliance = 80 } 104 = { set_compliance = 80 } 764 = { set_compliance = 60 }
-			transfer_state = 293 transfer_state = 184
-			transfer_state = 211 transfer_state = 212 SWE = { transfer_state  = 48 } transfer_state = 48
-			every_state = { limit = {  is_core_of = BUL }  set_compliance = 100 } 
+			transfer_state = 775 transfer_state = 764 transfer_state = 109 transfer_state = 104 transfer_state = 107 transfer_state = 108  transfer_state = 731 transfer_state = 292 
+			775 = { set_compliance = 100 }  109 = { set_compliance = 80 } 104 = { set_compliance = 80 } 764 = { set_compliance = 60 }
+			
 			}
+			BUL = {   transfer_state = 184  184 = { set_compliance = 60 }        transfer_state = 293  293 = { set_compliance = 60 }   transfer_state = 106    106 = { set_compliance = 60 }  }
 			HUN = { transfer_state = 514 transfer_state = 45   }
 			transfer_state = 102 transfer_state = 103 SWE = { transfer_state = 105 } transfer_state = 105 
 			transfer_state = 185 transfer_state = 47 transfer_state = 187 transfer_state = 182 SWE = { transfer_state = 186 } transfer_state = 186
