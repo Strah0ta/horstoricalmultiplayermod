@@ -1,12 +1,15 @@
 focus_tree = {
-	id = bulgarian_focus
+	id = bulgarian_no_dlc_focus #based off Mila Rodina Bulgaria by Caon, https://steamcommunity.com/sharedfiles/filedetails/?id=946730201 https://steamcommunity.com/profiles/76561198060660397 
 	
 	country = {
 		factor = 0
 		
 		modifier = {
 			add = 10
-			tag = BUL
+			tag = BUL 
+			#NOT = { has_dlc = "Battle for the Bosphorous" }
+			#has_dlc = "Death or Dishonor"
+			#has_dlc = "La Resistance"
 		}
 	}
 
@@ -16,23 +19,10 @@ focus_tree = {
 	focus = {
 		id = BUL_political_force
 		icon = GFX_goal_generic_demand_territory
-		mutually_exclusive = {
-			
-		}
+
 		x = 12
 		y = 0
 		cost = 5
-		ai_will_do = {
-			factor = 20
-		}
-
-		available_if_capitulated = yes
-
-		available = {
-		}
-		
-		bypass = {
-		}
 
 		completion_reward = {
 			add_political_power = 120
@@ -44,20 +34,9 @@ focus_tree = {
 		icon = GFX_goal_demand_sudetenland
 		prerequisite = { focus = BUL_political_force } 
 		relative_position_id = BUL_political_force
-		x = 0
+		x = -2
 		y = 1
 		cost = 5
-		ai_will_do = {
-			factor = 20
-		}
-
-		available_if_capitulated = yes
-
-		available = {
-		}
-		
-		bypass = {
-		}
 
 		completion_reward = {
 			add_ideas = BUL_revisionism
@@ -67,22 +46,11 @@ focus_tree = {
 	focus = {
 		id = BUL_ignore_treaty_neuilly_sur_seine
 		icon = GFX_focus_secret_rearmament
-		prerequisite = { focus = BUL_bulgarian_resentment }
+		prerequisite = { focus = BUL_political_force }
 		relative_position_id = BUL_political_force
 		x = 0
-		y = 2
+		y = 1
 		cost = 5
-		ai_will_do = {
-			factor = 18
-		}
-
-		available_if_capitulated = yes
-
-		available = {
-		}
-		
-		bypass = {
-		}
 
 		completion_reward = {
 			add_ideas = BUL_secret_rearmament
@@ -101,76 +69,52 @@ focus_tree = {
 		relative_position_id = BUL_ignore_treaty_neuilly_sur_seine
 		x = 0
 		y = 1
-		cost = 2
-		ai_will_do = {
-			factor = 30
-			
-			modifier = {
-				date > 1938.1.1
-				
-				factor = 100
+		cost = 5
+
+		available = { date > 1938.7.1 }
+
+		completion_reward = {
+			add_ideas = volunteer_only
+			add_research_slot = 1
+			set_country_flag = Salonika_signed
+			swap_ideas = {
+				add_idea = BUL_salonika_agreement_idea
+				remove_idea = BUL_second_national_catastrophe
 			}
-			modifier = {
-				date < 1938.1.1
-				
-				factor = 0
-			}
+			remove_ideas = BUL_secret_rearmament
 		}
+	}
+	
+		focus = {
+		id = BUL_turkish_straits
+		icon = GFX_focus_renounce_the_treaty_of_trianon
+		prerequisite = { focus = BUL_sign_salonika_agreement }
+		relative_position_id = BUL_sign_salonika_agreement
+		x = 0
+		y = 1
+		cost = 5
+
 
 		available_if_capitulated = no
 
-		available = {
-			country_exists = GRE
-			NOT = {
-				has_war_with = GRE
-			}
-		}
-		
-		bypass = {
-		}
-
 		completion_reward = {
-			GRE = {
-				country_event = { days = 1 id = bulgarians.25 }
-			}
-			custom_effect_tooltip = BUL_unlock_research_slot
+			custom_effect_tooltip = "We will have access to the Bosphorous Strait."
 		}
 	}
 	
 	focus = {
 		id = BUL_exercise_direct_power
 		icon = GFX_focus_generic_home_defense
-		prerequisite = { focus = BUL_sign_salonika_agreement }
-		mutually_exclusive = { focus = BUL_revise_our_regime }
-		relative_position_id = BUL_sign_salonika_agreement
-		x = 0
+		prerequisite = { focus = BUL_political_force }
+		relative_position_id = BUL_political_force
+		x = 3
 		y = 1
 		cost = 5
-		ai_will_do = {
-			factor = 70
-			modifier = {
-				factor = 100
-				is_historical_focus_on = yes
-			}
-		}
 
 		available_if_capitulated = yes
 
-		available = {
-			NOT = {
-				BUL = {
-					has_country_flag = bogdan_filov_leader
-				}
-			}
-		}
-		
-		bypass = {
-			has_country_flag = boris_iii_leader
-		}
-
 		completion_reward = {
 			add_political_power = 150
-			remove_ideas = neutrality_idea
 			remove_ideas = BUL_bulgarian_tsardom
 			create_country_leader = {
 				name = "Boris III"
@@ -178,9 +122,7 @@ focus_tree = {
 				picture = "Portrait_Bulgaria_Boris_III.dds"
 				expire = "1965.1.1"
 				ideology = despotism
-				traits = {
-					#
-				}
+				traits = {				}
 			}
 			set_country_flag = boris_iii_leader
 			set_party_name = { ideology = neutrality long_name = BUL_house_of_saxe_coburg name = BUL_house_of_saxe_coburg }
@@ -196,21 +138,6 @@ focus_tree = {
 		x = -1
 		y = 1
 		cost = 5
-		ai_will_do = {
-			factor = 70
-			modifier = {
-				factor = 100
-				is_historical_focus_on = yes
-			}
-		}
-
-		available_if_capitulated = yes
-
-		available = {
-		}
-		
-		bypass = {
-		}
 
 		completion_reward = {
 			add_political_power = 100
@@ -226,316 +153,34 @@ focus_tree = {
 		prerequisite = { focus = BUL_exercise_direct_power }
 		mutually_exclusive = { focus = BUL_dismantle_the_government }
 		relative_position_id = BUL_exercise_direct_power
-		x = 2
+		x = 1
 		y = 1
 		cost = 5
-		ai_will_do = {
-			factor = 30
-		}
+
 
 		available_if_capitulated = no
 
-		available = {
-			
-		}
-
-		bypass = {
-		}
 
 		completion_reward = {
 			add_ideas = BUL_bulgarian_revanchism_idea
 		}
 	}
 	
-	focus = {
-		id = BUL_demand_dobrudja
-		icon = GFX_focus_generic_concessions
-		relative_position_id = BUL_bulgarian_revanchism
-		prerequisite = { focus = BUL_bulgarian_revanchism }
-		x = 1
-		y = 1
-		cost = 5
-		ai_will_do = {
-			factor = 30
-		}
 
-		available_if_capitulated = no
 
-		available = {
-			country_exists = ROM
-			ROM = {
-				owns_state = 77
-			}
-		}
-
-		bypass = {
-		}
-
-		completion_reward = {
-			ROM = {
-				country_event = { days = 1 id = bulgarians.28 }
-			}
-		}
-	}
-	
-	focus = {
-		id = BUL_our_brothers_in_macedonia
-		icon = GFX_goal_generic_secret_weapon
-		prerequisite = { focus = BUL_demand_dobrudja }
-		relative_position_id = BUL_demand_dobrudja
-		x = 1
-		y = 1
-		cost = 5
-		ai_will_do = {
-			factor = 10
-			
-			modifier = {
-				BUL = {
-					has_war_with = YUG
-				}
-				factor = 100
-			}
-			modifier = {
-				OR = {
-					GER = {
-						has_war_with = YUG
-					}
-					ITA = {
-						has_war_with = YUG
-					}
-				}
-				factor = 70
-			}
-		}
-
-		available_if_capitulated = no
-
-		available = {
-			has_completed_focus = BUL_reassert_western_claims
-		}
-
-		bypass = {
-		}
-
-		completion_reward = {
-			unlock_decision_category_tooltip = BUL_brothers_in_macedonia
-		}
-	}
-	
-	focus = {
-		id = BUL_deal_with_germany
-		icon = GFX_goal_generic_alliance
-		prerequisite = { focus = BUL_our_brothers_in_macedonia }
-		mutually_exclusive = { focus = BUL_yugoslavia_for_ourselves }
-		relative_position_id = BUL_demand_dobrudja
-		x = 0
-		y = 2
-		cost = 5
-		ai_will_do = {
-			factor = 80
-		}
-
-		available_if_capitulated = no
-
-		available = {
-			country_exists = YUG
-			country_exists = GER
-			YUG = {
-				owns_state = 106
-			}
-			NOT = {
-				has_war_with = GER
-			}
-		}
-		
-		bypass = {
-			OR = {
-				NOT = {
-					country_exists = YUG
-				}
-				NOT = {
-					YUG = {
-						owns_state = 106
-					}
-				}
-			}
-		}
-
-		completion_reward = {
-			GER = {
-				country_event = { days = 1 id = bulgariansenhanced.26 }
-			}
-		}
-	}
-	
-	focus = {
-		id = BUL_yugoslavia_for_ourselves
-		icon = GFX_goal_anti_comintern_pact
-		prerequisite = { focus = BUL_our_brothers_in_macedonia }
-		mutually_exclusive = { focus = BUL_deal_with_germany }
-		relative_position_id = BUL_demand_dobrudja
-		x = 2
-		y = 2
-		cost = 5
-		ai_will_do = {
-			factor = 20
-		}
-
-		available_if_capitulated = no
-
-		bypass = {
-			OR = {
-				NOT = {
-					country_exists = YUG
-				}
-				NOT = {
-					YUG = {
-						owns_state = 106
-					}
-				}
-			}
-		}
-		
-		available = {
-			country_exists = YUG
-			YUG = {
-				owns_state = 106
-			}
-		}
-
-		completion_reward = {
-			create_wargoal = {
-				type = annex_everything
-				target = YUG
-			}
-		}
-	}
-	
-	focus = {
-		id = BUL_return_to_the_aegan
-		icon = GFX_goal_generic_demand_territory
-		prerequisite = { focus = BUL_deal_with_germany focus = BUL_yugoslavia_for_ourselves }
-		relative_position_id = BUL_deal_with_germany
-		x = 1
-		y = 1
-		cost = 5
-		ai_will_do = {
-			factor = 100
-		}
-
-		available_if_capitulated = no
-
-		available = {
-			country_exists = GRE
-			GRE = {
-				owns_state = 184
-			}
-		}
-
-		bypass = {
-		}
-
-		completion_reward = {
-			184 = {
-				add_claim_by = BUL
-			}
-			add_war_support = 0.05
-			add_ideas = BUL_bulgarian_thracian_volunteers
-		}
-	}
-	
-	focus = {
-		id = BUL_enemy_of_my_enemy
-		icon = GFX_focus_generic_military_mission
-		prerequisite = { focus = BUL_return_to_the_aegan }
-		mutually_exclusive = { focus = BUL_retake_thrace }
-		relative_position_id = BUL_return_to_the_aegan
-		x = 0
-		y = 1
-		cost = 5
-		ai_will_do = {
-			factor = 70
-		}
-
-		available_if_capitulated = no
-
-		available = {
-			country_exists = GRE
-			ITA = {
-				owns_state = 44
-			}
-		}
-
-		bypass = {
-		}
-
-		completion_reward = {
-			ITA = {
-				country_event = { days = 1 id = bulgariansenhanced.32 }
-			}
-		}
-	}
-	
-	focus = {
-		id = BUL_retake_thrace
-		icon = GFX_goal_generic_position_armies
-		prerequisite = { focus = BUL_return_to_the_aegan }
-		mutually_exclusive = { focus = BUL_enemy_of_my_enemy }
-		relative_position_id = BUL_return_to_the_aegan
-		x = 2
-		y = 1
-		cost = 5
-		ai_will_do = {
-			factor = 30
-		}
-
-		available_if_capitulated = no
-
-		available = {
-			country_exists = GRE
-			GRE = {
-				owns_state = 184
-			}
-		}
-
-		bypass = {
-		}
-
-		completion_reward = {
-			GRE = {
-				country_event = { days = 1 id = bulgarians.18 }
-			}
-		}
-	}
-	
 	focus = {
 		id = BUL_greater_bulgaria
 		icon = GFX_focus_greater_bulgaria
-		prerequisite = { focus = BUL_enemy_of_my_enemy focus = BUL_retake_thrace }
-		relative_position_id = BUL_enemy_of_my_enemy
-		x = 1
+		prerequisite = { focus = BUL_bulgarian_revanchism }
+		relative_position_id = BUL_bulgarian_revanchism
+		x = 0
 		y = 1
 		cost = 5
-		ai_will_do = {
-			factor = 100
-		}
 
 		available_if_capitulated = no
 
-		available = {
-			BUL = {
-				owns_state = 77
-				owns_state = 184
-				owns_state = 106
-			}
-		}
-		
-		bypass = {
-		}
-
 		completion_reward = {
 			remove_ideas = BUL_bulgarian_tsardom
-			set_rule = { can_create_factions = yes }
 			add_stability = 0.10
 			add_political_power = 100
 			add_war_support = 0.05
@@ -557,16 +202,17 @@ focus_tree = {
 		id = BUL_reassert_western_claims
 		icon = GFX_goal_generic_military_deal
 		prerequisite = { focus = BUL_bulgarian_resentment }
-		mutually_exclusive = {
-		}
-		x = 10
-		y = 2
+		relative_position_id = BUL_bulgarian_resentment
+		x = 0
+		y = 1
 		cost = 5
 
 		available_if_capitulated = no
 
 		completion_reward = {
+			add_state_claim = 184
 			add_state_claim = 106
+			add_state_claim = 293			
 		}
 	}
 	
@@ -578,15 +224,6 @@ focus_tree = {
 		y = 3
 		cost = 5
 
-		available = {
-			owns_state = 184
-			owns_state = 77
-			or = {
-				owns_state = 106
-				owns_state = 108
-			}
-		}
-
 		available_if_capitulated = yes
 
 		completion_reward = {
@@ -594,7 +231,6 @@ focus_tree = {
 				184 = {
 					set_state_name = Trakiya 
 				}
-				add_state_core = 106
 				106 = {
 					set_state_name = Makedoniya
 				}
@@ -602,8 +238,6 @@ focus_tree = {
 				293 = {
 					set_state_name = Dobrudzha
 				}
-
-
 			add_ideas = BUL_bulgarisation_idea 
 		}
 	}
@@ -612,53 +246,32 @@ focus_tree = {
 	focus = {
 		id = BUL_airfields_for_germany
 		icon = GFX_goal_generic_build_airforce
-		prerequisite = { focus = BUL_depose_the_king }
+		prerequisite = { focus = BUL_depose_the_king focus = BUL_greater_bulgaria }
 		relative_position_id = BUL_depose_the_king
-		x = 0
+		x = 1
 		y = 1
 		cost = 5
-		ai_will_do = {
-			factor = 10
-			modifier = {
-				factor = 100
-				is_historical_focus_on = yes
-			}
-		}
+
 
 		available_if_capitulated = no
 
 		completion_reward = {
-			air_experience = 25
-			745 = {
-				add_building_construction = {
+			184 = {
+				set_building_level = {
 					type = air_base
-					level = 2
-					instant_build = yes
+					level = 6
 				}
 			}
+			106 = {
+				set_building_level = {
+					type = air_base
+					level = 6
+				}
+			}			
 		}
 	}
 
-	focus = {
-		id = BUL_dedication_to_the_axis
-		icon = GFX_goal_generic_major_alliance
-		prerequisite = { focus = BUL_airfields_for_germany }
-		relative_position_id = BUL_airfields_for_germany
-		x = -1
-		y = 1
-		cost = 5
-		ai_will_do = {
-			factor = 20
-		}
 
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_ideas = nationalism
-		}
-	}
-
-	
 	focus = {
 		id = BUL_depose_the_king
 		icon = GFX_goal_tfv_sever_ties_with_uk
@@ -707,6 +320,12 @@ focus_tree = {
 				uses = 1
 				category = land_doctrine
 			}
+			add_tech_bonus = {
+				name = armor_bonus
+				bonus = 1
+				uses = 1
+				technology = basic_medium_tank
+			}
 		}
 	}
 
@@ -733,7 +352,7 @@ focus_tree = {
 			show_ideas_tooltip = vmz_sopot
 			add_tech_bonus = {
 				bonus = 1
-				uses = 1
+				uses = 3
 				category = artillery
 			}
 		}
@@ -762,7 +381,7 @@ focus_tree = {
 			add_tech_bonus = {
 				name = infantry_weapons_bonus
 				bonus = 1
-				uses = 1
+				uses = 2
 				category = infantry_weapons
 			}
 		}
@@ -771,8 +390,8 @@ focus_tree = {
 	focus = {
 		id = BUL_over_the_balkans
 		icon = GFX_goal_generic_special_forces
-		prerequisite = { focus = BUL_bulgarian_arms focus = BUL_vmz_sopot }
-		x = 23
+		prerequisite = { focus = BUL_bulgarian_arms }
+		x = 24
 		y = 2
 		cost = 5
 
@@ -791,7 +410,7 @@ focus_tree = {
 	focus = {
 		id = BUL_bulgarian_will
 		icon = GFX_goal_generic_army_doctrines
-		prerequisite = { focus = BUL_bulgarian_arms focus = BUL_vmz_sopot	}
+		prerequisite = { focus = BUL_bulgarian_arms	}
 		x = 26
 		y = 2
 		cost = 5
@@ -799,30 +418,19 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_tech_bonus = {
-				name = land_doc_bonus
-				bonus = 1
-				uses = 1
-				category = land_doctrine
-			}
+		add_ideas = BUL_nikola_zekhov
+		add_ideas = BUL_dimitar_stanchev		
 		}
 	}
 	
 	focus = {
 		id = BUL_local_antitank_innovation
 		icon = GFX_goal_generic_army_artillery2
-		prerequisite = { focus = BUL_bulgarian_will	}
-		relative_position_id = BUL_bulgarian_will
-		x = 0
+		prerequisite = { focus = BUL_vmz_sopot	}
+		relative_position_id = BUL_vmz_sopot
+		x = 1
 		y = 1
 		cost = 5
-
-		ai_will_do = {
-			factor = 10
-		}
-
-		available = {
-		}
 
 		available_if_capitulated = yes
 
@@ -830,7 +438,7 @@ focus_tree = {
 			add_tech_bonus = {
 				name = BUL_anti_tank_guns
 				bonus = 1
-				uses = 1
+				uses = 3
 				category = cat_anti_tank
 			}
 		}
@@ -866,9 +474,9 @@ focus_tree = {
 	focus = {
 		id = BUL_mechanised_effort
 		icon = GFX_goal_generic_army_motorized
-		prerequisite = { focus = BUL_local_armour_acquirements }
+		prerequisite = { focus = BUL_local_armour_acquirements focus = BUL_license_german_equipment }
 		relative_position_id = BUL_local_armour_acquirements
-		x = 1
+		x = -1
 		y = 1
 		cost = 5
 
@@ -934,7 +542,7 @@ focus_tree = {
 	focus = {
 		id = BUL_support_equipment
 		icon = GFX_goal_generic_build_tank
-		prerequisite = { focus = BUL_mechanised_effort focus = BUL_local_antitank_innovation }
+		prerequisite = { focus = BUL_mechanised_effort focus = BUL_local_antitank_innovation  focus = BUL_over_the_balkans focus = BUL_bulgarian_will  }
 		relative_position_id = BUL_local_armour_acquirements
 		x = 4
 		y = 2
@@ -956,10 +564,10 @@ focus_tree = {
 		id = BUL_license_german_equipment
 		icon = GFX_focus_generic_license_production
 		prerequisite = { focus = BUL_restore_the_bulgarian_army }
-		mutually_exclusive = { focus = BUL_license_soviet_equipment focus = BUL_local_armour_acquirements }
+		mutually_exclusive = { focus = BUL_local_armour_acquirements }
 		relative_position_id = BUL_restore_the_bulgarian_army	
 	
-			x = -3
+			x = -2
 		y = 1
 		cost = 5
 
@@ -981,7 +589,7 @@ focus_tree = {
 		icon = GFX_goal_generic_army_tanks
 		prerequisite = { focus = BUL_local_armour_acquirements  }
 		relative_position_id = BUL_local_armour_acquirements
-		x = -1
+		x = 1
 		y = 1
 		cost = 5
 		ai_will_do = {
@@ -1007,34 +615,9 @@ focus_tree = {
 		x = 7
 		y = 0
 		cost = 5
-		ai_will_do = {
-			factor = 10
-		}
-
-		available_if_capitulated = no
-
-		complete_tooltip = {
-			air_experience = 25
-			if = { limit = { has_country_flag = aviation_effort_AB }
-				add_building_construction = {
-					type = air_base
-					level = 2
-					instant_build = yes
-				}
-			}			
-			add_tech_bonus = {
-				name = air_doc_bonus
-				bonus = 1
-				uses = 1
-				category = air_doctrine
-			}			
-		}
 
 		available = {
 			has_completed_focus = BUL_sign_salonika_agreement
-		}
-		
-		bypass = {
 		}
 
 		completion_reward = {
@@ -1064,12 +647,23 @@ focus_tree = {
 		
 		completion_reward = {
 			48 = {
-				add_building_construction = {
+				set_building_level = {
 					type = air_base
-					level = 2
-					instant_build = yes
+					level = 6
 				}
 			}
+						212 = {
+				set_building_level = {
+					type = air_base
+					level = 6
+				}
+			}
+						211 = {
+				set_building_level = {
+					type = air_base
+					level = 6
+				}
+			}			
 		}
 	}
 
@@ -1078,28 +672,15 @@ focus_tree = {
 		icon = GFX_goal_generic_construction
 		prerequisite = { focus = BUL_vrazhdebna_airfield }
 		relative_position_id = BUL_vrazhdebna_airfield
-		x = -3
+		x = -2
 		y = 1
 		cost = 5
-		ai_will_do = {
-			factor = 10
-			modifier = {
-				factor = 100
-				is_historical_focus_on = yes
-			}
-		}
 
 		available_if_capitulated = no
 
-		available = {
-		}
-		
-		bypass = {
-		}
-
 		completion_reward = {
 			212 = {
-				add_building_construction = {
+				set_building_level = {
 					type = anti_air_building
 					level = 3
 					instant_build = yes
@@ -1109,148 +690,35 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = BUL_fighter_focus
-		icon = GFX_goal_generic_air_fighter
-	 	prerequisite = { focus = BUL_vrazhdebna_airfield }
-		x = -1
-		y = 1
-		relative_position_id = BUL_vrazhdebna_airfield
-		cost = 5
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_tech_bonus = {
-				name = fighter_focus
-				bonus = 1
-				uses = 1
-				technology = fighter2
-			}
-		}
-	}
-	
-	focus = {
-		id = BUL_air_support
-		icon = GFX_goal_generic_CAS
-	 	prerequisite = { focus = BUL_vrazhdebna_airfield }
-		x = 1
-		y = 1
-		relative_position_id = BUL_vrazhdebna_airfield
-		cost = 5
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_tech_bonus = {
-				bonus = 1
-				uses = 1
-				technology = cas3
-				ahead_reduction = 1
-			}
-		}
-	}
-	
-	focus = {
-		id = BUL_bulgarian_dars
-		icon = GFX_goal_generic_secret_weapon
-		prerequisite = { focus = BUL_vrazhdebna_airfield focus = BUL_derhavna_samoletna_fabrika focus = BUL_research_treaty_with_italy }
-		x = 0
-		y = 3
-		relative_position_id = BUL_vrazhdebna_airfield
-		cost = 5
-		ai_will_do = {
-			factor = 10
-		}
-
-		available_if_capitulated = no
-
-		available = {
-		}
-		
-		bypass = {
-		}
-
-		completion_reward = {
-			add_ideas = BUL_bulgarian_trainers
-		}
-	}
-	
-	focus = {
-		id = BUL_derhavna_samoletna_fabrika
-		icon = GFX_focus_generic_polish_deal
-	 	prerequisite = { focus = BUL_fighter_focus focus = BUL_air_support }
-		x = 2
-		y = 1
-		relative_position_id = BUL_fighter_focus
-		cost = 5
-
-		available_if_capitulated = yes
-		
-		available = {
-			country_exists = POL
-			NOT = {
-				has_war_with = POL
-			}
-		}
-		
-		bypass = {
-			has_war_with = POL
-			NOT = {
-				country_exists = POL
-			}
-		}
-
-		completion_reward = {
-			add_tech_bonus = {
-				name = fighter_focus
-				bonus = 1
-				uses = 1
-				technology = fighter1
-			}
-			POL = {
-				create_production_license = {
-					target = BUL
-					equipment = {
-						type = cas_equipment_1
-						}
-					cost_factor = 0
-				}
-			}	
-			custom_effect_tooltip = available_designer
-			show_ideas_tooltip = BUL_derhavna_samoletna_fabrika
-		}
-	}
-	
-	focus = {
 		id = BUL_research_treaty_with_italy
 		icon = GFX_goal_generic_scientific_exchange
-	 	prerequisite = { focus = BUL_fighter_focus focus = BUL_air_support }
-		x = -1
-		y = 2
+	 	prerequisite = { focus = BUL_vrazhdebna_airfield }
+		x = 0
+		y = 1
 		relative_position_id = BUL_vrazhdebna_airfield
 		cost = 5
 
 		available_if_capitulated = yes
 
 		completion_reward = {
-			ITA = {
-				country_event = { id = bulgarians.9 days = 1 }
-				custom_effect_tooltip = needs_approval
+			add_tech_bonus = {
+				name = "Research Treaty with Italy"
+				bonus = 1
+				uses = 1
+				category = air_doctrine
 			}
-			effect_tooltip = {
+						add_tech_bonus = {
+				name = "Research Treaty with Italy"
+				bonus = 1
+				uses = 1
+				category = naval_doctrine
+			}
 				add_tech_bonus = {
-					name = CAS_bonus
-					bonus = 1
-					uses = 1
-					category = cas_bomber
-				}
-				add_tech_bonus = {
-					name = nav_bomber_bonus
+				name = "Research Treaty with Italy"
 					bonus = 1
 					uses = 1
 					category = naval_bomber
 				}
-			}
 		}
 	}
 	
@@ -1270,56 +738,14 @@ focus_tree = {
 		}
 	}
 
-	focus = {
-		id = BUL_heavy_fighter_project
-		icon = GFX_goal_generic_air_fighter2
-		prerequisite = { focus = BUL_research_treaty_with_italy focus = BUL_bulgarian_dars }
-		x = -1
-		y = 1
-		relative_position_id = BUL_bulgarian_dars
-		cost = 5
 
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_tech_bonus = {
-				name = fighter_focus
-				bonus = 1
-				uses = 1
-				technology = heavy_fighter1
-				technology = heavy_fighter2
-			}
-		}
-	}
-	
-	focus = {
-		id = BUL_bomber_focus
-		icon = GFX_goal_generic_air_bomber
-		prerequisite = { focus = BUL_derhavna_samoletna_fabrika focus = BUL_bulgarian_dars }
-		x = 1
-		y = 1
-		relative_position_id = BUL_bulgarian_dars
-		cost = 5
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_tech_bonus = {
-				name = bomber_bonus
-				bonus = 1
-				uses = 1
-				technology = tactical_bomber2
-			}
-		}
-	}
-	
 	focus = {
 		id = BUL_air_innovations
 		icon = GFX_goal_generic_air_doctrine
-		prerequisite = { focus = BUL_bomber_focus focus = BUL_heavy_fighter_project }
+		prerequisite = { focus = BUL_research_treaty_with_italy }
 		x = 1
 		y = 1
-		relative_position_id = BUL_heavy_fighter_project
+		relative_position_id = BUL_research_treaty_with_italy
 		cost = 5
 
 		available_if_capitulated = yes
@@ -1335,11 +761,12 @@ focus_tree = {
 	}
 
 	focus = {
-		id = BUL_strategic_bomber_focus
-		icon = GFX_goal_generic_air_bomber
-		prerequisite = { focus = BUL_bomber_focus }
-		x = 2
-		y = 0
+		id = BUL_skywalkers
+		icon = GFX_focus_generic_paratrooper
+		
+		prerequisite = { focus = BUL_air_innovations  focus = BUL_bulgarian_research_committee		}
+		x = -1
+		y = 1
 		relative_position_id = BUL_air_innovations
 		cost = 5
 
@@ -1347,29 +774,8 @@ focus_tree = {
 
 		completion_reward = {
 			add_tech_bonus = {
-				name = bomber_bonus
-				bonus = 1
-				uses = 1
-				category = cat_strategic_bomber
-			}
-		}
-	}
-
-	focus = {
-		id = BUL_skywalkers
-		icon = GFX_focus_generic_paratrooper
-		prerequisite = { focus = BUL_strategic_bomber_focus }
-		x = -1
-		y = 1
-		relative_position_id = BUL_strategic_bomber_focus
-		cost = 5
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_tech_bonus = {
 				name = special_forces_bonus
-				bonus = 1
+				bonus = 3
 				uses = 1
 				category = para_tech
 			}
@@ -1636,7 +1042,9 @@ focus_tree = {
 		}	
 
 		completion_reward = {
+		add_ideas = ROM_coastal_defense_ships_2
 			211 = {
+			add_extra_state_shared_building_slots = 4			
 				add_building_construction = {
 					type = dockyard
 					level = 4
@@ -1656,27 +1064,13 @@ focus_tree = {
 		cost = 5
 
 		available_if_capitulated = yes
-
-
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0
-				all_owned_state = {
-					OR = {
-						is_coastal = no
-						dockyard < 1
-					}
-				}
-			}
-		}
-
+		
 		completion_reward = {
 			add_tech_bonus = {
 				name = fleet_in_being_bonus
 				bonus = 1
-				uses = 2
-				category = trade_interdiction_tree
+				uses = 1
+				category = naval_doctrine
 			}
 		}
 	}
@@ -1693,25 +1087,12 @@ focus_tree = {
 		available_if_capitulated = yes
 
 
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0
-				all_owned_state = {
-					OR = {
-						is_coastal = no
-						dockyard < 1
-					}
-				}
-			}
-		}
-
 		completion_reward = {
 			add_tech_bonus = {
 				name = HUN_restauration
-				bonus = 0.75
+				bonus = 1
 				uses = 1
-				category = cat_fleet_in_being
+				category = naval_doctrine
 			}
 		}
 	}
@@ -1725,20 +1106,6 @@ focus_tree = {
 		cost = 5
 
 		available_if_capitulated = yes
-
-
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0
-				all_owned_state = {
-					OR = {
-						is_coastal = no
-						dockyard < 1
-					}
-				}
-			}
-		}
 
 		completion_reward = {
 			add_tech_bonus = {
@@ -1759,20 +1126,6 @@ focus_tree = {
 		cost = 5
 
 		available_if_capitulated = yes
-
-
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0
-				all_owned_state = {
-					OR = {
-						is_coastal = no
-						dockyard < 1
-					}
-				}
-			}
-		}
 
 		completion_reward = {
 			add_tech_bonus = {
@@ -1795,14 +1148,9 @@ focus_tree = {
 		available_if_capitulated = yes
 
 
-		available = {
-			184 = {
-				is_controlled_by = ROOT
-			}
-		}
-		
 		completion_reward = {
 			184 = {
+			add_extra_state_shared_building_slots = 3
 				add_building_construction = {
 					type = dockyard
 					level = 3

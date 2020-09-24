@@ -419,13 +419,17 @@ adjacency_rule
 	neutral =
 	{
 		army = no
-		navy = no
+		navy = yes
 		submarine = no
 		trade = no
 	}
 	
 	required_provinces = { 9833 11829 }
-	
+		is_disabled = {
+		NOT = {
+			ROOT = { has_completed_focus = BUL_turkish_straits }
+		}	
+	}
 	icon = 9833
 	offset = { -2 0 -9 }
 }

@@ -15,6 +15,8 @@
   BUL_rearm_airforce:0 "Re-arm the Airforce"
   BUL_fighter_focus:0 "The Lyastovitsa"
   BUL_bomber_focus:0 "The Papagal"
+  BUL_turkish_straits:0 "The Bosphorous Question"
+  BUL_turkish_straits_desc:0 "We will make demands on Turkey to permit out ships through the Bosphorous Strait."
   BUL_air_innovations:0 "Air Innovations"
   BUL_research_treaty_with_italy:0 "Research Treaty with Italy"
   BUL_airfields_for_germany:0 "Airfields for Germany"

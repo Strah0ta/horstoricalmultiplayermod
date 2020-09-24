@@ -130,11 +130,17 @@ ideas = {
 
 			equipment_bonus = {
 				light_tank_equipment = {
-					build_cost_ic = -0.1 instant = yes
-			}
-				medium_tank_equipment = {
-					build_cost_ic = -0.1 instant = yes
+					build_cost_ic = -0.2 instant = yes
 				}
+				light_tank_artillery_equipment = {
+					build_cost_ic = -0.2 instant = yes
+				}				
+					light_tank_destroyer_equipment = {
+					build_cost_ic = -0.2 instant = yes
+				}			
+					light_tank_aa_equipment = {
+					build_cost_ic = -0.2 instant = yes
+				}			
 			}
 		}
 
@@ -203,25 +209,7 @@ ideas = {
 				industrial_capacity_factory = 0.10
 			}
 		}
-		nationalism = {
-			
-			allowed = {
-				always = no
-			}
 
-			allowed_civil_war = {
-				has_government = fascism
-			}
-
-			removal_cost = -1
-
-			picture = generic_infantry_bonus
-
-			
-			modifier = {
-				fascism_drift = 0.25
-			}
-		}
 		BUL_bulgarisation_idea = {
 
 			picture = generic_production_bonus
@@ -250,6 +238,36 @@ ideas = {
 			
 			modifier = {
 				democratic_drift = -0.05
+				fascism_drift = 0.25
+			}
+		}
+		
+				ROM_coastal_defense_ships_2 = {
+
+			picture = generic_coastal_defense_ships
+
+			removal_cost = -1
+			
+			allowed = {
+				original_tag = BUL
+			}
+
+			allowed_civil_war = {
+
+			}
+			
+			equipment_bonus = { #If you change this - Change the custom tooltip too: ROM_coastal_defense_ships_tech_tt
+				ship_hull_cruiser = {
+					armor_value = 0.2
+					hg_attack = 0.1
+					build_cost_ic = -0.1
+					instant = yes
+				}
+			
+				ship_hull_light = {
+					torpedo_attack = 0.2
+					instant = yes
+				}
 			}
 		}
 		
@@ -387,7 +405,8 @@ ideas = {
 
 	air_chief = {
 		BUL_vasil_boydev = {
-		
+					ledger = air 
+	
 			picture = vasil_boydev
 
 			allowed = {
@@ -405,6 +424,7 @@ ideas = {
 	navy_chief = {
 	
 		BUL_ivan_variklechkov = {
+				ledger = navy 
 		
 			picture = ivan_variklechkov
 
@@ -420,7 +440,8 @@ ideas = {
 		}
 		
 		BUL_sava_ivanov = {
-		
+				ledger = navy 
+	
 			picture = generic_navy_europe_1
 
 			allowed = {
@@ -436,16 +457,16 @@ ideas = {
 	}
 	
 	high_command = {
-
+			
 		BUL_konstantin_lukash = {
-		
+		ledger = army 
 			picture = konstantin_lukash
 
 			allowed = {
 				original_tag = BUL
 			}
 			
-			traits = { army_commando_3 }
+			traits = { army_commando_2 }
 			
 			ai_will_do = {
 				factor = 1
@@ -453,21 +474,21 @@ ideas = {
 		}
 		
 		BUL_nikola_mikhov = {
-		
+			ledger = army 
 			picture = nikola_mikhov
 
 			allowed = {
 				original_tag = BUL
 			}
 			
-			traits = { army_armored_3 }
+			traits = { army_armored_2 }
 			
 			ai_will_do = {
 				factor = 1
 			}
 		}
 		BUL_nikola_zekhov = {
-		
+				ledger = army 	
 			picture = nikola_zekhov
 
 			allowed = {
@@ -481,14 +502,14 @@ ideas = {
 			}
 		}
 	BUL_dimitar_stanchev = {  
-			
+				ledger = army 		
 			picture = generic_army_europe_1
 
 			allowed = {
 				original_tag = BUL
 			}
 			
-			traits = { army_chief_organizational_2 }
+			traits = { army_chief_organizational_3 }
 		}
 		
 	}
@@ -514,6 +535,42 @@ ideas = {
 			
 			modifier = {
 				# Weak defence vs air
+			}
+		}
+			ROM_coastal_defense_navy_designer = {
+			
+			picture = generic_coastal_navy
+
+			cost = 75
+
+			allowed = {
+				original_tag = BUL
+			}
+
+			available = {
+				owns_state = 293
+			}
+			
+			research_bonus = {
+				naval_equipment = 0.15
+			}
+			
+			equipment_bonus = {
+				ship_hull_light = {
+					lg_attack = 0.1
+					naval_range = -0.5
+					build_cost_ic = -0.20
+				}
+				ship_hull_cruiser = {
+					lg_attack = 0.1
+					naval_range = -0.5
+					build_cost_ic = -0.20
+				}
+			}
+			
+			traits = { naval_manufacturer }
+			
+			modifier = {
 			}
 		}
 
@@ -662,7 +719,7 @@ ideas = {
 	theorist = {
 
 		BUL_georgi_popov = {
-			
+			ledger = army
 			picture = georgi_popov
 
 			allowed = {
