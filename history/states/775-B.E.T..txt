@@ -8,7 +8,7 @@ state_category = town
 		buildings = {
 			infrastructure = 6
 			arms_factory = 5
-			industrial_complex = 3
+			industrial_complex = 4
 		}
 				victory_points = {
 			596 1 

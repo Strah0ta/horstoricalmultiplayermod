@@ -7,6 +7,7 @@ manpower = 30000
 		owner = ROM
 		buildings = {
 			infrastructure = 5
+						dockyard = 1
 		}
 		add_core_of = ROM
 	}
