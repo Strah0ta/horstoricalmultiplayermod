@@ -242,35 +242,7 @@ ideas = {
 				fascism_drift = 0.25
 			}
 		}
-		
-				ROM_coastal_defense_ships_2 = {
 
-			picture = generic_coastal_defense_ships
-
-			removal_cost = -1
-			
-			allowed = {
-				original_tag = BUL
-			}
-
-			allowed_civil_war = {
-
-			}
-			
-			equipment_bonus = { #If you change this - Change the custom tooltip too: ROM_coastal_defense_ships_tech_tt
-				ship_hull_cruiser = {
-					armor_value = 0.2
-					hg_attack = 0.1
-					build_cost_ic = -0.1
-					instant = yes
-				}
-			
-				ship_hull_light = {
-					torpedo_attack = 0.2
-					instant = yes
-				}
-			}
-		}
 		
 		BUL_bulgarian_revanchism_idea = {
 
@@ -529,49 +501,13 @@ ideas = {
 			}
 			
 			research_bonus = {
-				naval_equipment = 0.10
+				naval_equipment = 0.15
 			}
 			
 			traits = { convoy_escort_naval_manufacturer }
 			
 			modifier = {
 				# Weak defence vs air
-			}
-		}
-			ROM_coastal_defense_navy_designer = {
-			
-			picture = generic_coastal_navy
-
-			cost = 75
-
-			allowed = {
-				original_tag = BUL
-			}
-
-			available = {
-				owns_state = 293
-			}
-			
-			research_bonus = {
-				naval_equipment = 0.15
-			}
-			
-			equipment_bonus = {
-				ship_hull_light = {
-					lg_attack = 0.1
-					naval_range = -0.5
-					build_cost_ic = -0.20
-				}
-				ship_hull_cruiser = {
-					lg_attack = 0.1
-					naval_range = -0.5
-					build_cost_ic = -0.20
-				}
-			}
-			
-			traits = { naval_manufacturer }
-			
-			modifier = {
 			}
 		}
 
@@ -584,7 +520,7 @@ ideas = {
 			}
 			
 			research_bonus = {
-				naval_equipment = 0.10
+				naval_equipment = 0.15
 			}
 			
 			traits = { raiding_fleet_naval_manufacturer }

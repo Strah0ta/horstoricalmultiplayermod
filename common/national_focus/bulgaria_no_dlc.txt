@@ -242,7 +242,29 @@ focus_tree = {
 		}
 	}
 
-	
+	focus = {
+		id = BUL_depose_the_king
+		icon = GFX_goal_tfv_sever_ties_with_uk
+		prerequisite = { focus = BUL_dismantle_the_government }
+		relative_position_id = BUL_dismantle_the_government
+		x = 0
+		y = 1
+		cost = 5
+
+		available_if_capitulated = yes
+
+		available = {
+			fascism > 0.4
+		}
+
+		completion_reward = {
+			set_politics = {
+				ruling_party = fascism
+				elections_allowed = no
+			}
+		}
+	}
+		
 	focus = {
 		id = BUL_airfields_for_germany
 		icon = GFX_goal_generic_build_airforce
@@ -271,30 +293,6 @@ focus_tree = {
 		}
 	}
 
-
-	focus = {
-		id = BUL_depose_the_king
-		icon = GFX_goal_tfv_sever_ties_with_uk
-		prerequisite = { focus = BUL_dismantle_the_government }
-		relative_position_id = BUL_dismantle_the_government
-		x = 0
-		y = 1
-		cost = 5
-
-		available_if_capitulated = yes
-
-		available = {
-			fascism > 0.4
-		}
-
-		completion_reward = {
-			set_politics = {
-				ruling_party = fascism
-				elections_allowed = no
-			}
-		}
-	}
-	
 	focus = {
 		id = BUL_restore_the_bulgarian_army
 		icon = GFX_goal_generic_allies_build_infantry
@@ -919,32 +917,13 @@ focus_tree = {
 
 		cost = 5
 
-		ai_will_do = {
-			factor = 25
-		}
-
-		available = {
-
-		}
-		
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = yes
-
-		complete_tooltip = {
-
-		}
 
 		completion_reward = {
 			add_tech_bonus = {
 				name = CAN_destroyer_effort
 				bonus = 1
 				ahead_reduction = 1
-				uses = 1
+				uses = 2
 				category = dd_tech
 			}
 		}
@@ -959,31 +938,12 @@ focus_tree = {
 
 		cost = 5
 
-		ai_will_do = {
-			factor = 25
-		}
-
-		available = {
-
-		}
-		
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = yes
-
-		complete_tooltip = {
-
-		}
-
 		completion_reward = {
 			add_tech_bonus = {
 				name = YUG_replace_the_dalmacija
 				bonus = 1
-				uses = 1
+				ahead_reduction = 1
+				uses = 2
 				category = cl_tech
 			}
 		}
@@ -1018,7 +978,7 @@ focus_tree = {
 				name = ss_bonus
 				bonus = 1
 				ahead_reduction = 1
-				uses = 1
+				uses = 2
 				category = ss_tech
 			}
 		}
@@ -1042,7 +1002,6 @@ focus_tree = {
 		}	
 
 		completion_reward = {
-		add_ideas = ROM_coastal_defense_ships_2
 			211 = {
 			add_extra_state_shared_building_slots = 4			
 				add_building_construction = {
@@ -1069,7 +1028,7 @@ focus_tree = {
 			add_tech_bonus = {
 				name = fleet_in_being_bonus
 				bonus = 1
-				uses = 1
+				uses = 10
 				category = naval_doctrine
 			}
 		}
@@ -1088,12 +1047,14 @@ focus_tree = {
 
 
 		completion_reward = {
-			add_tech_bonus = {
-				name = HUN_restauration
+					add_tech_bonus = {
+				name = "Power Navy"
 				bonus = 1
-				uses = 1
-				category = naval_doctrine
+				ahead_reduction = 1
+				uses = 2
+				category = bb_tech
 			}
+				add_ideas = ROM_coastal_defense_ships_2
 		}
 	}
 
@@ -1112,7 +1073,7 @@ focus_tree = {
 				name = special_forces_bonus
 				bonus = 1
 				uses = 1
-				technology = marines
+				category = marine_tech
 			}
 		}
 	}
@@ -1438,7 +1399,7 @@ focus_tree = {
 			add_tech_bonus = {
 				name = AST_volunteer_air_observers_corps
 				bonus = 1
-				uses = 1
+				uses = 3
 				category = radar_tech
 			}
 			48 = {
@@ -1663,7 +1624,6 @@ focus_tree = {
 	focus = {
 		id = BUL_the_macedonian_question
 		icon = GFX_focus_generic_support_the_left_right
-		mutually_exclusive = { focus = BUL_satisfy_the_macedonians }
 		x = 33
 		y = 0
 		cost = 5
