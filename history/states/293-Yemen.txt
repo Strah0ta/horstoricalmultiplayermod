@@ -9,7 +9,6 @@ manpower = 30000
 			infrastructure = 5
 		}
 		add_core_of = ROM
-		add_core_of = BUL
 	}
 	
 state_category = pastoral

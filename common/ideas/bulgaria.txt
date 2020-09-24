@@ -44,8 +44,9 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				stability_factor = -0.10
-				conscription_factor = -0.10
+				stability_factor = -0.2
+				conscription_factor = -0.15
+				mobilization_laws_cost_factor = 0.25
 			}
 		}
 
@@ -60,6 +61,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
+				mobilization_laws_cost_factor = 0.25
 			}
 		}
 
@@ -113,7 +115,6 @@ ideas = {
 			
 			modifier = {
 				consumer_goods_factor = -0.05
-				trade_opinion_factor = 0.2
 				local_resources_factor = 0.10
 			}
 		}
@@ -697,7 +698,7 @@ ideas = {
 			traits = { industrial_concern }
 		}
 
-		BUL_girdap_idea = {
+		BUL_girdap_idea = { 
 			
 			picture = generic_industrial_concern_2
 
@@ -712,7 +713,7 @@ ideas = {
 			cost = 150
 			removal_cost = 10
 			
-			traits = { construction_company }
+			traits = { construction_company_2 }
 		}
 	}
 	
