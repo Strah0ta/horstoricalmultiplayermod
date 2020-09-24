@@ -1,0 +1,19 @@
+﻿units = {
+
+	##### Naval OOB #####
+	fleet = {
+		name = "Chernomorski flotiliya"
+		naval_base = 9783 
+		task_force = {				
+			name = "Chernomorski Flotiliya"			
+			location = 9783 
+			ship = { name = "BG Drazki" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BUL version_name = "Drazki Class" } } }
+			ship = { name = "BG Smeli" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BUL version_name = "Drazki Class" } } }
+			ship = { name = "BG Hrabi" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BUL version_name = "Drazki Class" } } }
+			ship = { name = "BG Letyashti" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BUL version_name = "Drazki Class" } } }
+			ship = { name = "BG Strogi" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = BUL version_name = "Drazki Class" } } }
+		}				
+	}
+}
+
+

@@ -242,6 +242,7 @@ original_tag = MAN
 
 normally_played_country = {
 OR = {
+original_tag = BUL 
 original_tag = NZL	
 original_tag = AST	
 original_tag = RAJ	

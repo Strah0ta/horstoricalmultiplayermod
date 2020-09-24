@@ -1,7 +1,7 @@
 ﻿capital = 48
-
+oob = "BUL_1936"
 add_ideas = {
-	disarmed_nation
+	limited_conscription
 	BUL_bulgarian_tsardom
 	BUL_imro
 	BUL_second_national_catastrophe
@@ -15,8 +15,12 @@ set_technology = {
 	tech_engineers = 1
 	motorised_infantry = 1
 	early_fighter = 1
+		interwar_antiair = 1
 	fuel_silos = 1
 }
+add_equipment_to_stockpile = { type = infantry_equipment_1 amount = 3000 }
+add_equipment_to_stockpile = { type = support_equipment_1 amount = 100 }
+add_equipment_to_stockpile = { type = motorized_equipment_1 amount = 100 }
 
 set_research_slots = 3
 set_convoys = 25
