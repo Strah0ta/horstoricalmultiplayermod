@@ -169,7 +169,7 @@ ideas = {
 
 			modifier = {
 				consumer_goods_factor = 0.20
-				industrial_capacity_factory = -0.30
+				industrial_capacity_factory = -0.5
 				stability_factor = -0.05
 				research_speed_factor = -0.1
 				political_power_cost = 0.25
@@ -203,7 +203,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				conscription_factor = 0.10		
+				conscription_factor = 0.15		
 			}
 		}
 
@@ -218,7 +218,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				industrial_capacity_factory = 0.3
+				industrial_capacity_factory = 0.5
 			}
 		}
 
@@ -265,7 +265,7 @@ ideas = {
 			
 			modifier = {
 				war_support_factor = 0.05
-				conscription = 0.05
+				conscription = 0.1
 			}
 
 			ai_will_do = {
