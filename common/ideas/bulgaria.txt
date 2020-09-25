@@ -118,7 +118,20 @@ ideas = {
 				min_export = -1 
 			}
 		}
-		
+				BUL_slavic_will = {
+			
+			picture = jap_supremacy_of_will
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				army_org_factor = 0.3 
+			}
+		}
 		BUL_krali_marko_line_idea = {
 
 			picture = FRA_fortification_focus
@@ -461,14 +474,14 @@ ideas = {
 			}
 		}
 		BUL_nikola_zekhov = {
-				ledger = army 	
+				ledger = navy 	
 			picture = nikola_zekhov
 
 			allowed = {
 				original_tag = BUL
 			}
 			
-			traits = { army_chief_organizational_3 }
+			traits = { navy_chief_maneuver_3 }
 			
 			ai_will_do = {
 				factor = 1
@@ -482,7 +495,7 @@ ideas = {
 				original_tag = BUL
 			}
 			
-			traits = { army_chief_organizational_3 }
+			traits = { army_chief_morale_3 }
 		}
 		
 	}

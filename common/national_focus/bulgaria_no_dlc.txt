@@ -85,29 +85,12 @@ focus_tree = {
 		}
 	}
 	
-		focus = {
-		id = BUL_turkish_straits
-		icon = GFX_focus_renounce_the_treaty_of_trianon
-		prerequisite = { focus = BUL_sign_salonika_agreement }
-		relative_position_id = BUL_sign_salonika_agreement
-		x = 0
-		y = 1
-		cost = 5
-
-
-		available_if_capitulated = no
-
-		completion_reward = {
-			custom_effect_tooltip = "We will have access to the Bosphorous Strait."
-		}
-	}
-	
 	focus = {
 		id = BUL_exercise_direct_power
 		icon = GFX_focus_generic_home_defense
 		prerequisite = { focus = BUL_political_force }
 		relative_position_id = BUL_political_force
-		x = 3
+		x = 2
 		y = 1
 		cost = 5
 
@@ -128,32 +111,13 @@ focus_tree = {
 			set_party_name = { ideology = neutrality long_name = BUL_house_of_saxe_coburg name = BUL_house_of_saxe_coburg }
 			}
 		}
-
-	focus = {
-		id = BUL_dismantle_the_government
-		icon = GFX_goal_tfv_saf_anti_colonialist_crusade
-		prerequisite = { focus = BUL_exercise_direct_power }
-		mutually_exclusive = { focus = BUL_bulgarian_revanchism }
-		relative_position_id = BUL_exercise_direct_power
-		x = -1
-		y = 1
-		cost = 5
-
-		completion_reward = {
-			add_political_power = 100
-			add_war_support = 0.1
-			add_ideas = BUL_eliminated_democratic_elements
-		}
-	}
-		
 	
 	focus = {
 		id = BUL_bulgarian_revanchism
 		icon = GFX_focus_generic_strike_at_democracy2
 		prerequisite = { focus = BUL_exercise_direct_power }
-		mutually_exclusive = { focus = BUL_dismantle_the_government }
 		relative_position_id = BUL_exercise_direct_power
-		x = 1
+		x = 0
 		y = 1
 		cost = 5
 
@@ -241,36 +205,13 @@ focus_tree = {
 			add_ideas = BUL_bulgarisation_idea 
 		}
 	}
-
-	focus = {
-		id = BUL_depose_the_king
-		icon = GFX_goal_tfv_sever_ties_with_uk
-		prerequisite = { focus = BUL_dismantle_the_government }
-		relative_position_id = BUL_dismantle_the_government
-		x = 0
-		y = 1
-		cost = 5
-
-		available_if_capitulated = yes
-
-		available = {
-			fascism > 0.4
-		}
-
-		completion_reward = {
-			set_politics = {
-				ruling_party = fascism
-				elections_allowed = no
-			}
-		}
-	}
 		
 	focus = {
 		id = BUL_airfields_for_germany
 		icon = GFX_goal_generic_build_airforce
-		prerequisite = { focus = BUL_depose_the_king focus = BUL_greater_bulgaria }
-		relative_position_id = BUL_depose_the_king
-		x = 1
+		prerequisite = { focus = BUL_greater_bulgaria }
+		relative_position_id = BUL_greater_bulgaria
+		x = 0
 		y = 1
 		cost = 5
 
@@ -323,6 +264,12 @@ focus_tree = {
 				bonus = 1
 				uses = 1
 				technology = basic_medium_tank
+			}
+						add_tech_bonus = {
+				name = armor_bonus
+				bonus = 1
+				uses = 1
+				technology = improved_light_tank
 			}
 		}
 	}
@@ -416,8 +363,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-		add_ideas = BUL_nikola_zekhov
-		add_ideas = BUL_dimitar_stanchev		
+		add_ideas = BUL_slavic_will
 		}
 	}
 	
@@ -460,6 +406,7 @@ focus_tree = {
 				name = armor_bonus
 				bonus = 1
 				uses = 2
+				technology = advanced_light_tank
 				technology = improved_medium_tank
 				technology = improved_heavy_tank
 				technology = advanced_heavy_tank
@@ -1120,6 +1067,23 @@ focus_tree = {
 			}		
 		}
 	}
+	
+			focus = {
+		id = BUL_turkish_straits
+		icon = GFX_focus_renounce_the_treaty_of_trianon
+		prerequisite = { focus = BUL_fleet_of_the_aegan }
+		relative_position_id = BUL_fleet_of_the_aegan
+		x = 0
+		y = 1
+		cost = 5
+
+
+		available_if_capitulated = no
+
+		completion_reward = {
+			custom_effect_tooltip = "We will have access to the Bosphorous Strait."
+		}
+	}
 
 	### INDUSTRY
 
@@ -1375,7 +1339,7 @@ focus_tree = {
 			add_tech_bonus = {
 				name = CAN_camp_x
 				bonus = 1
-				uses = 1
+				uses = 3
 				category = electronics
 			}
 		}
