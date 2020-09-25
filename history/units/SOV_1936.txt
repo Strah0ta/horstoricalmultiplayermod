@@ -326,7 +326,6 @@ instant_effect = {
 		equipment = {
 			type = light_tank_aa_equipment_2
 			creator = "SOV" 
-			version_name = "FlakPz Luchs Ausf L"
 		}
 		requested_factories = 0
 		progress = 0.4
