@@ -295,5 +295,53 @@ instant_effect = {
 		progress = 0.15
 		efficiency = 50
 	}
+		add_equipment_production = {
+		equipment = {
+			type = heavy_tank_equipment_1
+			creator = "SOV" 
+		}
+		requested_factories = 0
+		progress = 0.1
+		efficiency = 51
+	}	
+		add_equipment_production = {
+		equipment = {
+			type = light_tank_equipment_2
+			creator = "SOV" 
+		}
+		requested_factories = 0
+		progress = 0.4
+		efficiency = 50
+	}
+		add_equipment_production = {
+		equipment = {
+			type = light_tank_artillery_equipment_2
+			creator = "SOV" 
+		}
+		requested_factories = 1
+		progress = 0.4
+		efficiency = 50
+	}
+			add_equipment_production = {
+		equipment = {
+			type = light_tank_aa_equipment_2
+			creator = "SOV" 
+			version_name = "FlakPz Luchs Ausf L"
+		}
+		requested_factories = 0
+		progress = 0.4
+		efficiency = 50
+	}
+			add_equipment_production = {
+		equipment = {
+			type = light_tank_destroyer_equipment_2
+			creator = "SOV" 
+		}
+		requested_factories = 0
+		progress = 0.4
+		efficiency = 51
+	}
+	
+	
 }
 	#####################
