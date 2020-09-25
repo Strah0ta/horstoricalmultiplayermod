@@ -557,23 +557,6 @@ ideas = {
 			
 			traits = { military_theorist }
 		}
-
-		ROM_emanoil_ionescu = {
-			ledger = air
-					
-					
-			allowed = {
-				original_tag = ROM
-			}
-			
-			picture = generic_air_europe_1
-			
-			research_bonus = {
-				air_doctrine = 0.10
-			}
-			
-			traits = { air_warfare_theorist }
-		}
 	}
 	# MILITARY
 	army_chief = {
@@ -588,7 +571,7 @@ ideas = {
 			
 
 			
-			traits = { army_chief_defensive_1 }
+			traits = { army_chief_defensive_2 }
 			
 			ai_will_do = {
 				factor = 1

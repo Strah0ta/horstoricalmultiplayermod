@@ -310,22 +310,6 @@ ideas = {
 			
 			traits = { military_theorist }
 		}
-		
-		HUN_gyorgy_jendrassik = {
-			ledger = air
-
-			picture = generic_air_europe_2
-			
-			allowed = {
-				original_tag = HUN
-			}
-			
-			research_bonus = {
-				air_doctrine = 0.10
-			}
-			
-			traits = { air_warfare_theorist }
-		}
 
 	}	
 	

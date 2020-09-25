@@ -1550,23 +1550,7 @@ ideas = {
 			
 			traits = { military_theorist }
 		}
-
-		
-		hino_kumazo = {
-			ledger = air
-			ledger = navy
-			allowed = {
-				original_tag = JAP
-			}	
-			
-			research_bonus = {
-				air_doctrine = 0.10
-					naval_doctrine = 0.10
-			}
-			
-			traits = { air_warfare_theorist }
-		}
-		
+	
 		yoshio_nishina = {
 			ledger = army
 			
