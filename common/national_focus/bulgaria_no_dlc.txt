@@ -416,6 +416,7 @@ focus_tree = {
 				uses = 2
 				name = mech_army_bonus
 				category = cat_mechanized_equipment
+				technology = motorized_rocket_unit
 			}	
 		}
 	}

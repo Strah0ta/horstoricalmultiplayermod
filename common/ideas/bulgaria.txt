@@ -379,7 +379,7 @@ ideas = {
 				original_tag = BUL
 			}
 			
-			traits = { army_chief_offensive_3 }
+			traits = { army_chief_defensive_3 }
 			
 			ai_will_do = {
 				factor = 1
@@ -450,7 +450,7 @@ ideas = {
 				original_tag = BUL
 			}
 			
-			traits = { army_commando_2 }
+			traits = { army_commando_3 }
 			
 			ai_will_do = {
 				factor = 1
@@ -465,7 +465,7 @@ ideas = {
 				original_tag = BUL
 			}
 			
-			traits = { army_armored_2 }
+			traits = { army_armored_3 }
 			
 			ai_will_do = {
 				factor = 1
@@ -485,6 +485,22 @@ ideas = {
 				factor = 1
 			}
 		}
+				BUL_asen_krasnovski = {
+				ledger = navy 	
+			picture = generic_army_europe_4
+
+			allowed = {
+				original_tag = BUL
+			}
+			
+			traits = { army_cavalry_3 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+		
 	BUL_dimitar_stanchev = {  
 				ledger = army 		
 			picture = generic_army_europe_1
