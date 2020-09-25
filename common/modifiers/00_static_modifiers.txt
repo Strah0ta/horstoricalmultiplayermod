@@ -87,14 +87,10 @@ rasputitsa = {
 }
 weather_ground_snow_medium = { }
 weather_ground_snow_high = { }
-
 gibraltar_modifier = {
 	pocket_penalty = -1
 	max_dig_in = 14
 }
-
-
-
 
 flooded = { # on Province
 	army_speed_factor = -0.5
@@ -198,7 +194,6 @@ war_support_bad_modifier = {
 	army_org_factor = -0.5
 	army_morale_factor = -0.5
 }
-
 
 attache_sent = {
 	war_support_factor = 0.1

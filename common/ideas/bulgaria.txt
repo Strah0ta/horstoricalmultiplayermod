@@ -12,9 +12,8 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				consumer_goods_factor = -0.05
-				political_power_gain = 0.10
-				army_core_defence_factor = 0.1
+				army_core_defence_factor = 0.25
+				army_core_attack_factor = 0.25
 			}
 		}
 	
@@ -99,7 +98,7 @@ ideas = {
 			
 			modifier = {
 				stability_factor = 0.05
-				neutrality_drift = 0.02
+				neutrality_drift = 0.1
 			}
 		}
 
@@ -219,8 +218,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				conscription = 0.002
-				industrial_capacity_factory = 0.10
+				industrial_capacity_factory = 0.3
 			}
 		}
 
@@ -235,7 +233,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				conscription_factor = -0.2
+				conscription_factor = -0.25
 				resistance_target = -0.1
 			}
 		}
@@ -267,7 +265,7 @@ ideas = {
 			
 			modifier = {
 				war_support_factor = 0.05
-				conscription = 0.01
+				conscription = 0.05
 			}
 
 			ai_will_do = {
@@ -322,7 +320,7 @@ ideas = {
 				original_tag = BUL
 			}
 			
-			traits = { fascist_demagogue }
+			traits = { popular_figurehead }
 		}
 
 
@@ -346,7 +344,7 @@ ideas = {
 				original_tag = BUL
 			}
 			
-			traits = { quartermaster_general }
+			traits = { war_industrialist }
 		}
 		
 		BUL_asen_krasnovski = {
