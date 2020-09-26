@@ -171,7 +171,7 @@ on_state_control_changed = {
 					limit = {
 						FROM = { tag = SOV }
 						FROM.FROM = { is_core_of = SOV }
-						SOV = { surrender_progress	> 0.35 }					
+						SOV = { surrender_progress	> 0.33 }					
 						NOT = { SOV = { has_country_flag = order270_set }}
 					}
 					SOV = { set_country_flag = order270_set add_ideas = SOV_270 }
