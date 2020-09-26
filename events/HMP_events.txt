@@ -1159,6 +1159,22 @@ news_event = {
 		
 	}
 }
+news_event = {
+	id = mtg_news.788
+	title = "A Bitter Peace"
+	desc = mtg_news.778.desc
+	picture = GFX_news_event_generic_usa_treaty
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Okay."
+		
+	}
+}
+
 # US Pursues Neutrality
 news_event = {
 	id = mtg_news.3

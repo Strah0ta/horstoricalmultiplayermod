@@ -56,6 +56,7 @@ HMP_capitulations_on_actions = {
 
 			set_province_name = { id = 3529 name = "Hindenburg" }
 			set_province_name = { id = 3151 name = "Ludendorff" } 
+			news_event = { id = mtg_news.788 days = 1 } 
 			}
 			GER = { white_peace = SOV }
 			}
