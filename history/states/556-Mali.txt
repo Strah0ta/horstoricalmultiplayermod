@@ -1,7 +1,7 @@
 state={
 id=556
 name="STATE_556"
-manpower = 3324782
+manpower = 3448782
 state_category = rural
 history={
 owner = FRA

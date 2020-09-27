@@ -2,16 +2,8 @@ state=
 {
 id=767
 name="STATE_767"
-manpower = 8143
+manpower = 1
 state_category = wasteland
-impassable = yes
-history= {
-owner = ENG
-add_core_of=SWE
-buildings = {
-infrastructure = 0
-}
-}
 provinces={
   8103 
 }

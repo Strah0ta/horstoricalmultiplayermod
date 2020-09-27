@@ -88,13 +88,12 @@ transfer_state = 662 #Sirte
 transfer_state = 663 #Cyrenaica
 transfer_state = 450 #Benghasi
 transfer_state = 451 #Derna
-transfer_state = 273 #Libyan Desert
 }
 if =  { limit = { country_exists = EFR } FRA = { annex_country = { target = EFR  transfer_troops = yes }  transfer_state = 458 transfer_state = 665 } }
 if =  { limit = { country_exists = ITA } ITA = { release = FRA release = GRE release = BUL } ENG = { set_autonomy = {  target = ITA  autonomy_state = autonomy_supervised_state } } }
 FRA = {
 transfer_state = 153 #Tyrol ###AUSTRIA###
-transfer_state = 515 transfer_state = 461 transfer_state = 462 transfer_state = 459 transfer_state = 513 transfer_state = 460
+transfer_state = 461 transfer_state = 462 transfer_state = 459 transfer_state = 513 transfer_state = 460
 }
 USA = {
 release = DEN
@@ -140,7 +139,6 @@ transfer_state = 462 #Marakech
 transfer_state = 513 #Tlemcen
 transfer_state = 459 #Algiers
 transfer_state = 118 #Gibraltar
-transfer_state = 515 #Southern Sahara
 }
 
 ETH = {
@@ -149,14 +147,11 @@ transfer_state = 269 #British Somaliland
 transfer_state = 547 #Kenya
 transfer_state = 548 #Uganda
 transfer_state = 551 #Khartoum
-transfer_state = 767 #Darfur
 transfer_state = 549 #Sudan 
 transfer_state = 678 #Port Sudan
 transfer_state = 550 #Eritrea
 transfer_state = 271 #Ethiopia
 transfer_state = 559 #Somaliland
-
-
 }
 
 every_state = {
@@ -252,8 +247,6 @@ transfer_state = 21 #Provence
 transfer_state = 452 #Marsa Matruh  
 transfer_state = 447 #Alexandria 
 transfer_state = 446 #Cairo
-transfer_state = 552 #Western Desert 
-#transfer_state = 514 #Algerian Desert #NOW BARANJA 
 transfer_state = 680 #Deir-az-Zur
 transfer_state = 457 #Eastern Desert 
 transfer_state = 456 #Aswan 
@@ -425,7 +418,6 @@ transfer_state = 462
 462 = { set_demilitarized_zone = yes }
 transfer_state = 461
 461 = { set_demilitarized_zone = yes }
-transfer_state = 515	
 ###SYRIA+LEBANON###
 if = { limit = { FRA = { check_variable = { FRA_legitimacy 	< 100 } }  }
 transfer_state = 680
@@ -439,8 +431,6 @@ transfer_state = 677
 }
 ###WEST AFRICA###
 if = { limit = { FRA = { check_variable = { FRA_legitimacy 	< 80 } } }
-transfer_state = 786
-786 = { set_demilitarized_zone = yes }
 transfer_state = 557
 557 = { set_demilitarized_zone = yes }
 transfer_state = 556
@@ -469,8 +459,6 @@ transfer_state = 543
 }
 ###CENTRAL AFRICA - BET###
 if = { limit = { FRA = { check_variable = { FRA_legitimacy 	< 40 } } }
-transfer_state = 782
-782 = { set_demilitarized_zone = yes }
 transfer_state = 774
 774 = { set_demilitarized_zone = yes }
 transfer_state = 773

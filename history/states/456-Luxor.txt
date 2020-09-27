@@ -2,7 +2,7 @@ state=
 {
 id=456
 name="STATE_456"
-manpower = 4224516
+manpower = 4250816
 state_category = rural
 history = {
 victory_points = {
