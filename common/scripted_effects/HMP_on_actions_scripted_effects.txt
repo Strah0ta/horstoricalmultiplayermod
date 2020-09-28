@@ -14,6 +14,7 @@ HMP_startup_on_actions = {
 				}
 				JAP  = { give_resource_rights = { receiver = GER state = 724 }	}
 				if = { limit = { MAN = { is_ai = yes }} JAP = { country_event = { id = japan.148 days = 1  }}   }
+				if = { limit = { NZL = { is_ai = yes }} AST = { country_event = { id = japan.758 days = 1  }}   }				
 				if = { limit = { has_start_date > 1936.01.02 }  HMP_no_asia = yes      }
 				make_asia_go_faster = yes	
 				HFU_fuel_startup_effect = yes

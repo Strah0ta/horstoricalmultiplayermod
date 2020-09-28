@@ -73,21 +73,11 @@ country_event = { id =  italy.800 days = 2269 } #march 42
 country_event = { id =  italy.800 days = 2634 } #march 43
 country_event = { id =  italy.800 days = 3000 } #march 44
 country_event = { id =  italy.800 days = 3365 } #march 45
-#SRPING MUD SEASON MUD REMOVAL
-country_event = { id =  italy.801 days = 2329 } #may 42
-country_event = { id =  italy.801 days = 2694 } #may 43
-country_event = { id =  italy.801 days = 3060 } #may 44
-country_event = { id =  italy.801 days = 3425 } #may 45
 #FALL MUD SEASON
 country_event = { id =  italy.802 days = 2088 } #sept 41
 country_event = { id =  italy.802 days = 2453 } #sept 42
 country_event = { id =  italy.802 days = 2818 } #sept 43
 country_event = { id =  italy.802 days = 3184 } #sept 44
-#FALL MUD SEASON MUD REMOVAL
-country_event = { id =  italy.801 days = 2148 } #nov 42
-country_event = { id =  italy.801 days = 2513 } #nov 43
-country_event = { id =  italy.801 days = 2817 } #nov 44
-country_event = { id =  italy.801 days = 3244 } #nov 45
 #WINTER
 news_event = { id = mtg_news.778 days = 2149 } #nov 41
 news_event = { id = mtg_news.778 days = 2514 } #nov 42

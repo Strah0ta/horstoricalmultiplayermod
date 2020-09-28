@@ -1061,6 +1061,8 @@ country_event = {
    
       option = {
 	every_state = { limit = { is_core_of = SOV } add_province_modifier = { static_modifiers = { rasputitsa } province = { all_provinces = yes }  } }
+		SOV = { country_event = { id = italy.801 days = 60 }}
+
 	news_event = { id = mtg_news.776  days = 0 }
 		hidden_effect = {
 	SOV = { add_timed_idea = { idea = mud_sucks_ru days = 60 }}
@@ -1082,6 +1084,7 @@ country_event = {
    
       option = {
 	every_state = { limit = { is_core_of = SOV } add_province_modifier = { static_modifiers = { rasputitsa } province = { all_provinces = yes }  } }
+	SOV = { country_event = { id = italy.801 days = 60 }}
 	news_event = { id = mtg_news.777  days = 0 }
 	hidden_effect = {
 	SOV = { add_timed_idea = { idea = mud_sucks_ru days = 60 }}
@@ -1458,6 +1461,44 @@ is_triggered_only = yes
    }
 }
 
+country_event = {
+   id = japan.758
+   title = "New Zealand is AI controlled"
+   desc = "Do you wish to annex New Zealand?"
+   picture = GFX_report_event_election_vote
+   fire_only_once = yes
+is_triggered_only = yes
+     option = {
+   name = "Integrate New Zealand"
+   country_event = { id = japan.759 }
+   }
+    option = {
+   name = "Don't Integrate New Zealand"
+   }  
+}
+
+country_event = {
+   id = japan.759
+   title = "The Annexation of New Zealand"
+   desc = "The annexation of New Zealand is imminent."
+   picture = GFX_report_event_election_vote
+   fire_only_once = yes
+is_triggered_only = yes
+   option = {
+   name = "Confirm Integration"
+NZL = {
+ complete_national_focus = NZL_national_roads_board complete_national_focus = NZL_taranaki_oil complete_national_focus = NZL_new_zealand_steel 
+			   every_unit_leader = { set_nationality = AST    }
+				transfer_navy = {	target = AST	}
+				remove_state_core = 723   remove_state_core = 284
+}
+	AST = { 	annex_country = { target = NZL	transfer_troops = yes 	}}
+   }
+      option = {
+   name = "Reconsider..."
+    country_event = { id = japan.148 }
+   }
+}
 
 add_namespace = election
 

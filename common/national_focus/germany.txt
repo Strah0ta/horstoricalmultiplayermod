@@ -1107,6 +1107,7 @@ add_equipment_production = {
 
 		completion_reward = { 
 			add_ideas = GER_air_innovations_2_idea
+					if = { limit = { NOT = { has_idea = messerschmitt }} add_ideas = messerschmitt add_political_power = -50  }
 			set_technology = { fighter3 = 1 }
 			# Balance research bonus to next tech among radio, radio_detection, decimetric_radar, improved_decimetric_radar, centimetric_radar, improved_centimetric_radar, advanced_centimetric_radar
 			add_tech_bonus = {
