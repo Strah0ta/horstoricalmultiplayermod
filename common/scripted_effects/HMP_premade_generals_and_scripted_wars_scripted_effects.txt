@@ -233,11 +233,11 @@ create_corps_commander = {
 	name = "Ernst-Eberhard Hell"
 	picture = "Portrait_Germany_Ernst-Eberhard_Hell.dds"
 	traits = { winter_specialist trait_engineer scavenger panzer_leader panzer_expert ambusher }
-	skill = 6
+	skill = 8
 	id = 99934
-    attack_skill = 4
+    attack_skill = 8
     defense_skill = 5
-    planning_skill = 4
+    planning_skill = 6
     logistics_skill = 6
 }
 		

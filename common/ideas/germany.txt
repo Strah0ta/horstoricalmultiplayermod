@@ -507,7 +507,7 @@ ideas = {
 
 			picture = generic_acquire_tanks
 
-			modifier = { army_attack_factor = 0.05 air_cas_present_factor = 0.4 no_supply_grace =  48 }
+			modifier = { air_cas_present_factor = 0.4 no_supply_grace =  60 }
 		}
 				GER_blau = {
 			allowed = {
@@ -526,10 +526,10 @@ ideas = {
 			
 			targeted_modifier = {
 				tag = SOV
-				attack_bonus_against = 0.075
-				defense_bonus_against = 0.075
+				attack_bonus_against = 0.05
+				defense_bonus_against = 0.05
 			}
-			modifier = { army_attack_factor = 0.025 air_cas_present_factor = 0.2 }
+			modifier = { air_cas_present_factor = 0.2 }
 
 		}		
 		GER_barbarossa_zit = {
@@ -549,8 +549,8 @@ ideas = {
 
 			targeted_modifier = {
 				tag = SOV
-				attack_bonus_against = 0.15
-				breakthrough_bonus_against = 0.15
+				attack_bonus_against = 0.1
+				breakthrough_bonus_against = 0.1
 			}
 		}
 

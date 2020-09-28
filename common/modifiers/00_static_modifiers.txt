@@ -56,12 +56,12 @@ weather_extreme_hot = { # on Province
 }
 
 weather_snow = { # on Region 
-	winter_attrition = 0.1
+	winter_attrition = 0.0
 	breakthrough_factor = -0.3
 	army_attack_factor = -0.05	
 }
 weather_blizzard = { # on Region 
-	winter_attrition = 0.2
+	winter_attrition = 0.1
 	breakthrough_factor = -0.3
 	army_attack_factor = -0.1
 }
@@ -69,13 +69,11 @@ weather_blizzard = { # on Region
 weather_extreme_cold = { # on Province
 	winter_attrition = 0.2
 	army_attack_factor = -0.15
-	dig_in_speed_factor = 0.5	
 }
 
 weather_very_cold = { # on Province
 	winter_attrition = 0.1
 	army_attack_factor = -0.1
-	dig_in_speed_factor = 0.25
 }
 
 rasputitsa = { 
@@ -83,7 +81,7 @@ rasputitsa = {
 	army_armor_speed_factor = -0.3	
 	army_attack_factor = -0.2
 	breakthrough_factor = -0.3
-	attrition = 0.2		
+	attrition = 0.15	
 }
 weather_ground_snow_medium = { }
 weather_ground_snow_high = { }
@@ -91,6 +89,8 @@ gibraltar_modifier = {
 	pocket_penalty = -1
 	max_dig_in = 14
 }
+
+
 
 flooded = { # on Province
 	army_speed_factor = -0.5
