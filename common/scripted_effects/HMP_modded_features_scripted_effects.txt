@@ -23,18 +23,14 @@ if = { limit = { date > 1939.12.30 } add_to_variable = { var = FRA_legitimacy va
 }
 
 FRA_legitimacy_casualties_counter = {
-	set_temp_variable = { ROMcasualtiesk = ROM.casualties_k }
-	divide_temp_variable  = { ROMcasualtiesk  = 5  }
-	add_to_variable = { var = FRA_legitimacy value = ROMcasualtiesk }
-	set_temp_variable = { GERcasualtiesk = GER.casualties_k }
-	divide_temp_variable  = { GERcasualtiesk  = 5  }
-	add_to_variable = { var = FRA_legitimacy value = GERcasualtiesk }
-	set_temp_variable = {HUNcasualtiesk = HUN.casualties_k }
-	divide_temp_variable  = { HUNcasualtiesk  = 5  }
-	add_to_variable = { var = FRA_legitimacy value = HUNcasualtiesk }
-	set_temp_variable = { SPRcasualtiesk = SPR.casualties_k }
-	divide_temp_variable  = { SPRcasualtiesk  = 5 }
-	add_to_variable = { var = FRA_legitimacy value = SPRcasualtiesk }
+	set_temp_variable = { AXIScasualtiesk = 0 }
+	add_to_temp_variable = { AXIScasualtiesk = ROM.casualties_k }
+	add_to_temp_variable = { AXIScasualtiesk = BUL.casualties_k }
+	add_to_temp_variable = { AXIScasualtiesk = HUN.casualties_k }
+	add_to_temp_variable = { AXIScasualtiesk = SPR.casualties_k }
+	add_to_temp_variable = { AXIScasualtiesk = GER.casualties_k }	
+	divide_temp_variable  = { AXIScasualtiesk  = 5  }
+	add_to_variable = { var = FRA_legitimacy value = AXIScasualtiesk }
 }
 
 

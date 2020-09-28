@@ -105,8 +105,6 @@
  BUL_jet_fighter_equipment_2_short:0 "Laz-14"
  
  ###
- 
- 
  received_attache:0 "Received attaché"
  ENG_EMPIRE:0 "The British Empire"
  FIN_support_from_germany:0 "Support from Germany"
@@ -115,9 +113,7 @@
  rasputitsa:0 "Rasputitsa"
  construction_company_2:0 "Construction Company"
  MEX_cedillo_tension_6:0 "Caudillo Rebellion"
- GER_the_blitzkrieg:0 "The Blitzkieg"
- fra_legit_idea:0 "French Legitimacy is §G[?FRA.FRA_legitimacy|+0]§!"
- GER_the_blitzkrieg_desc:0 "This spirit is removed in 1941 or upon the capture of certain states in Egypt, whichever comes first."
+ fra_legit_idea:0 "French Legitimacy is §G[?FRA.FRA_legitimacy|+0]§!\n\nWe gain 1 legitimacy for every 5k Axis soldiers wounded/killed and another 5 legitimacy for every 10 days we hold mainland France, up to December 30th, 1939."
  neutrality_idea3:0 "Neutral Nation"
  thrasymachus:0 "Thrasymachus"
  FRA_legitimacy:0 "Legitimacy"
@@ -148,7 +144,6 @@
  war_plan_black:0 "War Plan Black"
  fin_sisu_desc:0 "Sisu is the uniquely Finnish expression for the resilience of the nation's people. Finland has faced harsh odds and will do so again."
  mech_anti_air:0 "Mechanized Anti-Air"
- ENG_early_game_weapons:0 "Re-Armament Programme"
  armyandnavy_idea:0 "Peacetime Training"
  #armyandnavy_idea_desc:0 "[?global.planeratio|G0]"
  ai_imiter:0 "AI Trade/Production Limiter"
