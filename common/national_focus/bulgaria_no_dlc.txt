@@ -7,9 +7,10 @@ focus_tree = {
 		modifier = {
 			add = 10
 			tag = BUL 
+			NOT = { SWE = { owns_state = 613} }
 			#NOT = { has_dlc = "Battle for the Bosphorous" }
-			#has_dlc = "Death or Dishonor"
-			#has_dlc = "La Resistance"
+			has_dlc = "Death or Dishonor"
+			has_dlc = "La Resistance"
 		}
 	}
 

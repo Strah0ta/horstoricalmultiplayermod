@@ -18,6 +18,14 @@ state={
 			arms_factory = 2
 			air_base = 6
 		}
+				1936.1.2 = { 
+				buildings = {
+			infrastructure = 6
+			arms_factory = 0
+			industrial_complex = 0
+			air_base = 10
+		}
+		}
 		add_core_of = BUL
 	}
 

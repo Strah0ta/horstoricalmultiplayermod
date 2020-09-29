@@ -211,11 +211,11 @@ create_corps_commander = { #for quality inf
 	name = "Fedor von Bock"
 	picture = "Portrait_Germany_Fedor_von_Bock.dds"
 	traits = { harsh_leader infantry_leader ambusher fake_skilled_staffer trickster expert_improviser }
-	skill = 5
+	skill = 6
 	id = 9999
-    attack_skill = 4
+    attack_skill = 5
     defense_skill = 5
-    planning_skill = 2
+    planning_skill = 4
     logistics_skill = 5
 }
 create_field_marshal = {          #tank FM
@@ -251,37 +251,37 @@ create_field_marshal = { #general FM
     name = "Pietro Badoglio"
     picture = "Portrait_Italy_Pietro_Badoglio.dds"
     traits = { defensive_doctrine old_guard inflexible_strategist organizer infantry_leader ambusher unyielding_defender logistics_wizard  }
-    skill = 6
+    skill = 7
     id = 9995046
 
     attack_skill = 4
     defense_skill = 8
-    planning_skill = 3
-    logistics_skill = 3
+    planning_skill = 4
+    logistics_skill = 5
 }
 create_corps_commander = {
     name = "Sebastiano Visconti Prasca"
     picture = "Portrait_Italy_Sebastiano_Visconti_Prasca.dds"
     traits = {  old_guard fake_skilled_staffer inflexible_strategist infantry_leader ambusher scavenger guerilla_fighter skirmisher combined_arms_expert trait_engineer }
-    skill = 6
+    skill = 7
     id = 9995042
 	
     attack_skill = 4
     defense_skill = 8
-    planning_skill = 3
-    logistics_skill = 3
+    planning_skill = 5
+    logistics_skill = 4
 }
 create_corps_commander = { #Infantry general Africa
     name = "Italo Balbo"
     picture = "portrait_italy_italo_balbo.dds"
     traits = { infantry_leader infantry_expert scavenger offensive_doctrine naval_liason trait_mountaineer trait_engineer hill_fighter }
-    skill = 6
+    skill = 7
     id = 9995044
 
     attack_skill = 8
     defense_skill = 3
     planning_skill = 4
-    logistics_skill = 3
+    logistics_skill = 6
 }
 create_field_marshal = {
 	name = "Emilio De Bono"
@@ -323,22 +323,11 @@ create_corps_commander = {
 	picture = "Portrait_Italy_Ugo_Cavallero.dds"
 	traits = {  old_guard trait_cautious fake_skilled_staffer infantry_leader commando camouflage_expert ambusher  }
 
-	skill = 6
+	skill = 7
     attack_skill = 4
     defense_skill = 3
-    planning_skill = 4
+    planning_skill = 7
     logistics_skill = 8
-}
-
-create_corps_commander = {
-	name = "Gualano"
-	picture = "Portrait_ITA_Gualano.tga"
-	traits = {harsh_leader infantry_officer skilled_staffer war_hero }
-	skill = 4
-	attack_skill = 5
-	defense_skill = 5
-	planning_skill = 5
-	logistics_skill = 2
 }
 }
 }
@@ -475,6 +464,80 @@ create_corps_commander = {
 }
 }
 HMP_ROM_generals = {
+BUL = {
+
+create_field_marshal = { #DONE
+	name = "Konstantin Bekyarov"
+	picture = "Portrait_Bulgaria_Konstantin_Bekyarov.dds"
+	traits = { infantry_leader adaptable ambusher defensive_doctrine adaptable inspirational_leader organisational_leader organizer logistics_wizard }
+	skill = 8
+	attack_skill = 7
+	defense_skill = 7
+	planning_skill = 3
+	logistics_skill = 8
+
+}
+
+create_corps_Commander = { #DONE
+	name = "Nikola Nedeva"
+	picture = "Portrait_Bulgaria_Nikola_Dimitrov_Nedeva.dds"
+	traits = { old_guard bearer_of_artillery infantry_leader urban_assault_specialist ranger infantry_expert fortress_buster trickster expert_improviser  trait_engineer }
+	skill = 8
+	attack_skill = 7
+	defense_skill = 8
+	planning_skill = 5
+	logistics_skill = 5
+
+}
+
+create_field_marshal = { #DONE
+	name = "Vladimir Stoychev"
+	picture = "Portrait_Bulgaria_Vladimir_Dimitrov_Stoychev.dds"
+	traits = { infantry_leader ranger infantry_expert defensive_doctrine trickster inspirational_leader commando camouflage_expert }
+	skill = 8
+	attack_skill = 7
+	defense_skill = 7
+	planning_skill = 3
+	logistics_skill = 8
+
+}
+
+create_field_marshal = { #DONE
+	name = "Dimitr Ayryanov"
+	picture = "Portrait_Bulgaria_Dimitr_Vasilev_Ayryanov.dds"
+	traits = { organizer offensive_doctrine trait_engineer scavenger panzer_leader panzer_expert urban_assault_specialist ranger  logistics_wizard fast_planner trickster  }
+	skill = 8
+	attack_skill = 7
+	defense_skill = 5
+	planning_skill = 8
+	logistics_skill = 5
+
+}
+
+create_corps_Commander = { #DONE
+	name = "Nikola Markov"
+	picture = "Portrait_Bulgaria_Nikola_Markov.dds"
+	traits = { infantry_leader trait_mountaineer desert_fox hill_fighter infantry_expert  trickster camouflage_expert }
+	skill = 8
+	attack_skill = 6
+	defense_skill = 5
+	planning_skill = 5
+	logistics_skill = 9
+
+}
+
+create_corps_Commander = { #DONE
+	name = "Asen Nikolov"
+	picture = "Portrait_Bulgaria_Asen_Nikolov.dds"
+	traits = { organizer panzer_leader panzer_expert urban_assault_specialist ranger naval_liason trickster expert_improviser }
+	skill = 8
+	attack_skill = 7
+	defense_skill = 5
+	planning_skill = 8
+	logistics_skill = 5
+
+}
+}
 ROM = { every_army_leader = { retire = yes }}
 ROM = {
 create_field_marshal = {
@@ -515,10 +578,10 @@ create_corps_commander = {
 	name = "Gheorghe Avramescu"
 	gfx = GFX_Portrait_romania_gheorghe_avramescu
 	traits = { panzer_leader trickster trait_engineer expert_improviser hill_fighter panzer_expert fortress_buster camouflage_expert }
-	skill = 6
-	attack_skill = 6
+	skill = 7
+	attack_skill = 7
 	defense_skill = 4
-	planning_skill = 4
+	planning_skill = 6
 	logistics_skill = 5
 }
 }
@@ -530,7 +593,7 @@ HUN = {
 create_corps_commander = {
 	name = "Géza Lakatos"
 	gfx = GFX_Portrait_hungary_geza_lakatos
-	traits = {  infantry_leader trickster commando camouflage_expert expert_improviser guerilla_fighter camouflage_expert ambusher ranger }
+	traits = {  infantry_leader trickster commando camouflage_expert expert_improviser guerilla_fighter ambusher ranger }
 	skill = 7
 	attack_skill = 8
 	defense_skill = 4
