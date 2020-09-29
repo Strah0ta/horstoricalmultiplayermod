@@ -471,6 +471,22 @@ ideas = {
 				factor = 1
 			}
 		}
+		
+				BUL_gancho_manchev = {
+			ledger = army
+			picture = generic_air_europe_2
+
+			allowed = {
+				original_tag = BUL
+			}
+			
+			traits = { army_infantry_1 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
 		BUL_nikola_zekhov = {
 				ledger = navy 	
 			picture = nikola_zekhov

@@ -1,7 +1,7 @@
 HMP_startup_on_actions = {
 		SWE = { country_event = { id = italy.602 }} 
 		SPR = { country_event = { id = countrystartup.2 days = 1  }  }		
-		118 = { add_province_modifier = { static_modifiers = { gibraltar_modifier } province = 4135 } }
+		118 = { add_state_modifier = { modifier = {    max_dig_in = 30 }}   }
 			if = {
 				limit = { has_game_rule = { rule = horst_manchukuo	option = HORST_ENABLE_MOD_MANCHUKUO	} }
 				MAN = { load_focus_tree = manchukuomod_focus } 
