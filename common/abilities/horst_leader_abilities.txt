@@ -6,7 +6,7 @@ ability = {
 		allowed = {
 			#check_variable = { num_armored < 1 }		
 			is_leading_army_group = no
-			OWNER = { NOT = { has_completed_focus = JAP_warrior_spirit OR = { tag = EFR tag = POL tag = BEL tag = HOL tag = DEN  }   } }
+			OWNER = { NOT = { has_completed_focus = JAP_warrior_spirit OR = { tag = POL tag = BEL tag = HOL tag = DEN  }   } }
 		}
 		
 		cost = 0.22
@@ -32,7 +32,7 @@ ability = {
 		type = army_leader
 		allowed = {
 			is_leading_army_group = no
-			OWNER = { NOT = { has_completed_focus = JAP_warrior_spirit OR = { tag = EFR tag = POL tag = BEL tag = HOL tag = DEN  }   } }
+			OWNER = { NOT = { has_completed_focus = JAP_warrior_spirit OR = { tag = POL tag = BEL tag = HOL tag = DEN  }   } }
 			#check_variable = { num_armored < 1 }					
 		}
 		cost = 0.22
