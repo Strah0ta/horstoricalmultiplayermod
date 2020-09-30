@@ -42,12 +42,14 @@ ideas = {
 			available = { }
 			allowed_civil_war = {	has_government = communism	}	
 			modifier = {
+				cas_damage_reduction = 0.1
 				out_of_supply_factor = -0.35
 				army_core_defence_factor = 0.15
 				army_core_attack_factor = 0.05
 				training_time_army_factor = -0.9
 				minimum_training_level = -0.3				
 				supply_consumption_factor = -0.1
+				production_speed_infrastructure_factor = 1
 				mobilization_speed = 1
 			}
 	}
@@ -55,15 +57,17 @@ ideas = {
 			allowed = {	always = no 	}
 			picture = generic_manpower_bonus
 			available = { }
-			allowed_civil_war = {	has_government = communism	}	
+			allowed_civil_war = { has_government = communism	}	
 			modifier = {
+				cas_damage_reduction = 0.25
 				army_core_defence_factor = 0.35
 				army_armor_attack_factor = 0.1
 				army_core_attack_factor = 0.05				
 				dig_in_speed_factor = 1
 				training_time_army_factor = -0.9
 				minimum_training_level = -0.3				
-				supply_consumption_factor = -0.1
+				supply_consumption_factor = -0.15
+				production_speed_infrastructure_factor = 2
 				mobilization_speed = 1
 				out_of_supply_factor = -0.35	
 			}

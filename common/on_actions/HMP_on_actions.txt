@@ -99,7 +99,7 @@ else_if = {
 		limit = {has_game_rule = {rule = horst_host_country option = EFR}}
 		set_variable={host = EFR.id}
 	}	
-var:host = {
+var:host = { 
 			set_variable = { marked_states = 0 }
 			set_country_flag = host
 			}
@@ -645,6 +645,12 @@ on_state_control_changed = {
 				}				
 		 country_event = { id = horsthelp.66 days = 0 }
 		}
+	}
+	on_monthly_SOV = {
+			effect = {
+			if = { limit = { date > 1942.9.30 } SOV = { add_to_variable = { SOV_red_air_force_resurgent_cas_damage_reduction = 0.02 }} }
+
+			}
 	}
 
 	}

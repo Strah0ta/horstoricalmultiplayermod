@@ -168,17 +168,11 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
+				106 = {	set_state_name = Makedoniya	}
 				add_state_core = 184
-				184 = {
-					set_state_name = Trakiya 
-				}
-				106 = {
-					set_state_name = Makedoniya
-				}
+				184 = {	set_state_name = Trakiya 	}
 				add_state_core = 293
-				293 = {
-					set_state_name = Dobrudzha
-				}
+				293 = { set_state_name = Dobrudzha	}
 			add_ideas = BUL_bulgarisation_idea 
 		}
 	}
@@ -1319,6 +1313,7 @@ focus_tree = {
 				bonus = 1
 				uses = 3
 				category = electronics
+				category = rocketry
 			}
 		}
 	}

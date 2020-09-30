@@ -19,6 +19,11 @@ GER_war_exhaustion = {
 				
 		}
 		
+SOV_red_air_force_resurgent = {
+	icon = "GFX_idea_generic_air_research"
+				cas_damage_reduction = SOV_red_air_force_resurgent_cas_damage_reduction				
+		}	
+		
 sabotaged_resources = {
 	remove_trigger = { 
 		has_resistance = no

@@ -471,7 +471,16 @@ create_corps_commander = {
 }
 HMP_ROM_generals = {
 BUL = {
-
+create_navy_leader = {
+	name = "Kyril Mikhailov"
+	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_navy_2.dds"
+	traits = {  concealment_expert superior_tactician fleet_protector air_controller ground_pounder fly_swatter  green_water_expert spotter ironside big_guns_expert }
+	skill = 5
+	attack_skill = 4
+	defense_skill = 6
+	maneuvering_skill = 2
+	coordination_skill = 4
+}
 create_field_marshal = { #DONE
 	name = "Konstantin Bekyarov"
 	picture = "Portrait_Bulgaria_Konstantin_Bekyarov.dds"
@@ -792,7 +801,7 @@ create_corps_commander = {
 	
 	attack_skill = 7
 	defense_skill = 6
-	planning_skill = 2
+	planning_skill = 4
 	logistics_skill = 8
 }		
 create_corps_commander = {
@@ -804,7 +813,7 @@ create_corps_commander = {
 	
 	attack_skill = 7
 	defense_skill = 6
-	planning_skill = 2
+	planning_skill = 4
 	logistics_skill = 8
 }
 create_corps_commander = {
@@ -815,7 +824,7 @@ create_corps_commander = {
 	
 	attack_skill = 7
 	defense_skill = 6
-	planning_skill = 2
+	planning_skill = 4
 	logistics_skill = 8
 }
 
@@ -827,7 +836,7 @@ create_corps_commander = {
 	
 	attack_skill = 7
 	defense_skill = 6
-	planning_skill = 2
+	planning_skill = 4
 	logistics_skill = 8
 }
 
@@ -896,14 +905,16 @@ create_corps_commander = {
 create_corps_commander = {
 	name = "Vasily Kuznetsov"
 		picture = "Portrait_Soviet_Vasily_Kuznetsov.dds"
-	traits = { commando camouflage_expert skirmisher panzer_leader panzer_expert ambusher swamp_fox  offensive_doctrine }
+	traits = { commando skirmisher ranger panzer_leader panzer_expert ambusher swamp_fox  }
 	skill = 8
 	id = 9994015
-	attack_skill = 7
-	defense_skill = 7
-	planning_skill = 3
-	logistics_skill = 8
+	attack_skill = 6
+	defense_skill = 5
+	planning_skill = 5
+	logistics_skill = 9
 }
+
+
 
 
 			}

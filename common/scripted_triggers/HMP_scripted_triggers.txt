@@ -1,6 +1,6 @@
 suppy_route_secure = {
 OR = { 
-AND = { USA = { controls_state = 463 } SOV = { controls_state = 408 } }
+OR = { AND = { USA = { controls_state = 463 } SOV = { controls_state = 408 } } has_start_date > 1936.1.2 }
 AND = { ENG = { controls_state = 291 } SOV = { controls_state = 229 } }
 SOV = { controls_state = 213 }
 AND = {  ENG = { controls_state = 118 } ENG = { controls_state = 116 } SOV = { controls_state = 137 } }

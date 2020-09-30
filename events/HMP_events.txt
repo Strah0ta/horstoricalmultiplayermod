@@ -1018,7 +1018,23 @@ country_event = {
    }
    } 
    
-  
+        country_event = {
+   id = italy.663
+   title = "Welcome to the Horst 'No DLC' Bulgaria National Focus Tree"
+   desc = "If you see this then your host does not have the new 'Battle for the Bosphorus' DLC by Paradox. Instead of that, Horst has heavily modified the 'Mila Rodino Bulgaria' focus tree by Caon for use in the Horstorical Multiplayer mod. Thank you Caon for the permission to use the mod's assets, including Bulgarian unit leaders, focus icons, and more."
+   picture = GFX_report_event_german_italian_pact
+
+   fire_only_once = yes
+ is_triggered_only = yes
+   
+   
+      option = {
+   name = "Okay."
+		
+   }
+   }   
+   
+   
       country_event = {
    id = italy.603
    title = "Warning: Finland will join Operation Barbarossa!"
@@ -1166,13 +1182,10 @@ news_event = {
 news_event = {
 	id = mtg_news.788
 	title = "A Bitter Peace"
-	desc = mtg_news.778.desc
+	desc = "Following the Fall of Kazan, Soviet leadership has relocated deep behind the Urals and accepted a German call for truce. The Armistice of Kazan has effectively ended war in the east."
 	picture = GFX_news_event_generic_usa_treaty
-	
 	major = yes
-	
 	is_triggered_only = yes
-	
 	option = {
 		name = "Okay."
 		
@@ -3163,7 +3176,7 @@ is_triggered_only = yes
     country_event = {	
         id = soviet.501
         title = "Siberian Reinforcements"
-        desc = "With the recent signing of the non-aggression pact with Japan, we were able to move our Siberian divisions to the western front. They will surely stop the Germans!"
+        desc = "With the recent signing of the non-aggression pact with Japan, we were able to move our Siberian divisions to the western front. They will surely stop the Germans!	"
         picture = GFX_report_event_ussr_startup
         fire_only_once = yes
 	    is_triggered_only = yes
@@ -3192,6 +3205,21 @@ is_triggered_only = yes
 				}
    } 
 
+			}
+			
+    }
+	    country_event = {	
+        id = soviet.502
+        title = "Resurgent Red Airforce"
+        desc = "As the war drags on our airforce increasingly intercepts German ground support aircraft, slowly turning the tide of the land war."
+        picture = GFX_report_event_ace_promoted
+        fire_only_once = yes
+	    is_triggered_only = yes
+        option = {
+            name = "We will shoot these fascist dogs out of the skies!"
+			add_dynamic_modifier = { modifier = SOV_red_air_force_resurgent }	
+			
+			
 			}
 			
     }

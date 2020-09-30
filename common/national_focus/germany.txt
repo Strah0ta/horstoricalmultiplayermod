@@ -1566,7 +1566,7 @@ add_tech_bonus = {
 			}
 				add_tech_bonus = {
 					name = "The Ho-299"
-					ahead_reduction = 5
+					ahead_reduction = 3
 					bonus = 1.0
 					uses = 1
 					category = jet_technology
@@ -1578,7 +1578,7 @@ add_tech_bonus = {
 				    }
 				add_tech_bonus = {
 					name = "The Ho-299"
-					ahead_reduction = 5
+					ahead_reduction = 3
 					bonus = 1.0
 					uses = 1
 					category = jet_technology

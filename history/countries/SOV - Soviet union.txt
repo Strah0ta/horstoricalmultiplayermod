@@ -12,6 +12,7 @@ set_variable = {
     var = SOV_barb_ll_token
     value = 0
 }
+set_variable = { SOV_red_air_force_resurgent_cas_damage_reduction = 0 }			
 set_research_slots = 3
 set_stability = 0.5
 set_war_support = 0.8
@@ -66,7 +67,7 @@ set_technology = {
 			}
 
 country_event = { id = germany.75 days = 210 }	#tank treaty event
-
+country_event = { id = soviet.502 days = 2465  }	#resurgent red air force event - adds a dynamic modifier that lowers CAS damage 
 #################RUSSIA SEASON EVENTS####################
 #SPRING MUD SEASON
 country_event = { id =  italy.800 days = 2269 } #march 42
