@@ -472,7 +472,7 @@ technologies = {
 	
 	dispersed_industry = {
 	
-		allow = { NOT = { OR = { tag = CHI tag = BUL tag = CZE tag = ALB tag = GRE tag = YUG tag = AUS }}}
+		allow = { NOT = { OR = { tag = CHI tag = CZE tag = ALB tag = GRE tag = YUG tag = AUS }}}
 
 		industrial_capacity_factory = 0.1
 		industrial_capacity_dockyard = 0.1

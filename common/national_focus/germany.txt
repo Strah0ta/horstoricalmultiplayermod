@@ -1100,10 +1100,10 @@ add_equipment_production = {
 		prerequisite = { focus = GER_strategic_air_effort focus = GER_tactical_air_effort focus = GER_soviet_treaty }
 		x = 0
 		y = 2
-		relative_position_id = GER_strategic_air_effort
+		relative_position_id = GER_strategic_air_effort 
 		cost = 5
 		available = { date > 1940.11.1 }
-		available_if_capitulated = yes
+		available_if_capitulated = yes 
 
 		completion_reward = { 
 			add_ideas = GER_air_innovations_2_idea
