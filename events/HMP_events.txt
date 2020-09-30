@@ -1092,6 +1092,7 @@ country_event = {
 		ITA = { add_timed_idea = { idea = mud_sucks_eu days = 242 }}
 		ROM = { add_timed_idea = { idea = mud_sucks_eu days = 242 }}
 		HUN = { add_timed_idea = { idea = mud_sucks_eu days = 242 }}
+		SPR = { add_timed_idea = { idea = mud_sucks_eu days = 242 }}		
 		BUL = { add_timed_idea = { idea = mud_sucks_eu days = 242 }}
 		FIN = { add_timed_idea = { idea = mud_sucks_eu days = 60 }}
 

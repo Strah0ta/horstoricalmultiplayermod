@@ -182,7 +182,165 @@ generic = {
 # Prefix is always appended at the begin of each generated name.
 # Unique - only one unit can carry it at a time.
 # Generic - are used when all unique are used. Those have numbers appended at the end.
+BUL = {
+	submarine = {
+		prefix = ""
+		generic = { "Podvodnitsa" }
+		unique = {
+			"Druzki" "Smeli" "Khrabri" "Strogi" "Letyashchi" "Shumni" 
+		}
+	}
+	destroyer = {
+		prefix = ""
+		generic = { 
+			"Razrushitel"
+		}
+		unique = {
+			"Druzki" "Smeli" "Khrabri" "Strogi" "Letyashchi" "Shumni" 
+		}
+	}
+	light_cruiser = {
+		prefix = ""
+		generic = { "Svetlina Kraitser" }
+		unique = {
+			"Sofija" "Pernik" "Svoge" "Slivnica" "Breznik" "Radomir" 
+		}
+	}
+	heavy_cruiser = {
+		prefix = ""
+		generic = { "Tezhuk Kraitser" }	
+		unique = {
+			"Sofija" "Pernik" "Svoge" "Slivnica" "Breznik" "Radomir" 
+		}
+	}
+	battle_cruiser = {
+		prefix = ""
+		generic = { "Boen Kraitser" }	
+		unique = {
+			"Drzki" "Zheleznjakov" 
+		}
+	}
+	battleship = {
+		prefix = ""
+		generic = { "Lineen Korab" }
+		unique = {
+			"Drzki" "Zheleznjakov" 
+		}
+	}
+	carrier = {
+		prefix = ""
+		generic = { "Samoletonosach" }
+		unique = {
+			"Nadezhda" "Struma" "Sofija" "Plovdiv" "Varna" "Burgas" "Ruse" "Stara Zagora" "Pleven" 
+		}
+	}
+	air_wing_names_template = AIR_WING_NAME_BUL_FALLBACK
 
+	#Air wings can only be named through archetype
+	fighter_equipment = {
+		prefix = ""
+		generic = { "Iztrebitelen polk" "Vyzdushen polk" }
+		generic_pattern = AIR_WING_NAME_BUL_GENERIC
+		unique = {
+		}	
+	}
+
+	jet_fighter_equipment = {
+		prefix = ""
+		generic = { "Iztrebitelen polk" "Vyzdushen polk" }
+		generic_pattern = AIR_WING_NAME_BUL_GENERIC
+		unique = {
+		}	
+	}
+
+	heavy_fighter_equipment = {
+		prefix = ""
+		generic = { "Iztrebitelen polk" "Vyzdushen polk" }
+		generic_pattern = AIR_WING_NAME_BUL_GENERIC
+		unique = {
+		}	
+	}
+
+	CAS_equipment = {
+		prefix = ""
+		generic = { "Shturmovi polk" }
+		generic_pattern = AIR_WING_NAME_BUL_GENERIC
+		unique = {
+		}	
+	}
+
+	cv_fighter_equipment = {
+		prefix = ""
+		generic = { "Iztrebitelen polk" "Vyzdushen polk" }
+		generic_pattern = AIR_WING_NAME_BUL_GENERIC
+		unique = {
+		}	
+	}
+
+	cv_CAS_equipment = {
+		prefix = ""
+		generic = { "Shturmovi polk" }
+		generic_pattern = AIR_WING_NAME_BUL_GENERIC
+		unique = {
+		}	
+	}
+	cv_nav_bomber_equipment = {
+		prefix = ""
+		generic = { "Vodosamoleten orljak" "Vodosamoleten polk" }
+		generic_pattern = AIR_WING_NAME_BUL_GENERIC
+		unique = {
+		}	
+	}
+
+	tac_bomber_equipment = {
+		prefix = ""
+		generic = { "Lineen polk" "Bombardirovatchen polk" }
+		generic_pattern = AIR_WING_NAME_BUL_GENERIC
+		unique = {
+		}	
+	}
+
+	jet_tac_bomber_equipment = {
+		prefix = ""
+		generic = { "Lineen polk" "Bombardirovatchen polk" }
+		generic_pattern = AIR_WING_NAME_BUL_GENERIC
+		unique = {
+		}	
+	}
+
+	nav_bomber_equipment = {
+		prefix = ""
+		generic = { "Vodosamoleten orljak" }
+		generic_pattern = AIR_WING_NAME_BUL_GENERIC
+		unique = {
+		}	
+	}
+
+	strat_bomber_equipment = {
+		prefix = ""
+		generic = { "Bombardirovatchen polk" }
+		generic_pattern = AIR_WING_NAME_BUL_GENERIC
+		unique = {
+		}	
+	}
+
+	jet_strat_bomber_equipment = {
+		prefix = ""
+		generic = { "Bombardirovatchen polk" }
+		generic_pattern = AIR_WING_NAME_BUL_GENERIC
+		unique = {
+		}	
+	}
+
+	transport_plane_equipment = {
+		prefix = ""
+		generic = { "Transportno jato" }
+		generic_pattern = AIR_WING_NAME_BUL_GENERIC
+		unique = {
+		}	
+	}
+	
+}
 AST = {
 	submarine = {
 		prefix = "HMAS"
