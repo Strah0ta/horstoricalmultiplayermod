@@ -27,6 +27,11 @@ scripted_gui = {
 			
 			
 			addpp_click = {
+					#		GER={		
+				#	set_variable={this.target_country=Root.target_country}
+					#set_variable={Root.selected_cheat=5  ROOT={clr_country_flag=cheating}} 
+					#news_event={id=horsttool.1}
+					##}
 				owner={
 					set_temp_variable = { ROOT.marks = this}
 					var:marks = {

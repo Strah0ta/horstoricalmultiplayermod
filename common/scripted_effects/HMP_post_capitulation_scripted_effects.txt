@@ -30,6 +30,7 @@ release = DEN
 release = BEL 
 release = BUL
 }
+BUL = { release = YUG }
 NOR = { release = ENG }
 POL = { 
 transfer_state = 5 #Ermland-Masuren
@@ -119,7 +120,7 @@ GER = {
 	}
 }
 ENG = { add_to_faction = GER } 
-HOL = { transfer_state = 309 transfer_state = 695 transfer_state = 322 transfer_state = 669 transfer_state = 668 transfer_state = 673 transfer_state = 667 transfer_state = 334  transfer_state = 335 transfer_state = 671 transfer_state = 738 }
+HOL = { transfer_state = 309 transfer_state = 695 transfer_state = 322 transfer_state = 669 transfer_state = 668 transfer_state = 673 transfer_state = 667 transfer_state = 334  transfer_state = 335 transfer_state = 738 }
 BEL = { transfer_state = 295 transfer_state = 768 transfer_state = 769 transfer_state = 718 transfer_state = 538 }
 ENG = {	country_event = { id = britain.1116 days = 1 }	}
 #ENG = {	country_event = { id = britain.1115 days = 4 }	}

@@ -565,6 +565,27 @@ leader_traits = {
 		gui_row = 12
 	}
 	
+		camouflage_expert_270 = { 
+		modifier = {
+			cas_damage_reduction = 0.2
+		}		
+		trait_type = personality_trait
+	}
+	
+		camouflage_expert_227 = { 
+		modifier = {
+			cas_damage_reduction = 0.35
+		}		
+		trait_type = personality_trait
+	}
+	
+			camouflage_expert_red = { 
+		modifier = {
+			cas_damage_reduction = 0.15
+		}		
+		trait_type = personality_trait
+	}
+	
 	expert_improviser = { 
 		type = corps_commander
 		modifier = {

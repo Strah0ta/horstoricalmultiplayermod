@@ -71,12 +71,11 @@ ideas = {
 			GER_totaler_krieg_idea2 = {
 			removal_cost = -1
 			allowed = {	always = no	}	
-			available = { NOT = { OR = { has_stability < 0.5 has_war_support < 0.5 has_completed_focus = GER_the_great_turn  }   } }
+			available = { NOT = { OR = { has_stability < 0.5 has_war_support < 0.5  }   } }
 			allowed_civil_war = {	always = yes	}
 			picture = generic_fascism_drift_2
 			modifier = {
-				land_reinforce_rate = 0.2
-				max_dig_in = 5
+				land_reinforce_rate = 0.25
 				army_morale_factor = 0.1
 			}
 		}		

@@ -2234,7 +2234,31 @@ add_to_variable = { germany_war_army_core_defence_factor = 0.3	}
 				planning_skill = 1
 				logistics_skill = 1
 			}
-	
+			
+	create_field_marshal = {
+	name = "Walther Wenck"
+	picture = "Portrait_Germany_Walter_Wenck_B.dds"
+	traits = { panzer_leader panzer_expert brilliant_strategist trickster urban_assault_specialist aggressive_assaulter defensive_doctrine organizer fast_planner commando camouflage_expert  }
+	skill = 8
+	id = 99471
+	attack_skill = 7
+	defense_skill = 6
+	planning_skill = 8
+	logistics_skill = 4
+}
+
+	create_corps_commander = {
+	name = "Felix Steiner"
+	gfx = "GFX_portrait_ger_felix_steiner"
+	traits = { panzer_leader panzer_expert  trickster ranger trait_reckless  urban_assault_specialist  commando skirmisher camouflage_expert  }
+	skill = 7
+	id = 99935
+	attack_skill = 7
+	defense_skill = 6
+	planning_skill = 6
+	logistics_skill = 3
+}
+
 		}	
 	}
 	

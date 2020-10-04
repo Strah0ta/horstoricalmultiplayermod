@@ -8,6 +8,7 @@ set_technology = {
 	gw_artillery = 1
 	tech_mountaineers = 1
 	early_fighter = 1	
+		motorised_infantry = 1
 }
 
 add_to_tech_sharing_group = japanese_research

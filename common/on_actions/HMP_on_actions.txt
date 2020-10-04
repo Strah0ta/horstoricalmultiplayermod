@@ -174,7 +174,10 @@ on_state_control_changed = {
 						SOV = { surrender_progress	> 0.3 }					
 						NOT = { SOV = { has_country_flag = order270_set }}
 					}
-					SOV = { set_country_flag = order270_set add_ideas = SOV_270 }
+					SOV = { 
+					set_country_flag = order270_set add_ideas = SOV_270 
+						every_unit_leader = { limit = { NOT = { is_field_marshal = yes } has_trait = panzer_leader     } add_unit_leader_trait = camouflage_expert_270 }				
+					}
 				}
 				if = {
 					limit = {
@@ -199,7 +202,10 @@ on_state_control_changed = {
 						SOV = { surrender_progress	> 0.4 }
 						NOT = { SOV = { has_country_flag = order227_set }}
 					}
-					SOV = { set_country_flag = order227_set swap_ideas = { remove_idea = SOV_270 add_idea = SOV_227 } }
+					SOV = { 
+					set_country_flag = order227_set swap_ideas = { remove_idea = SOV_270 add_idea = SOV_227 } 
+					every_unit_leader = { limit = { NOT = { is_field_marshal = yes } has_trait = panzer_leader     } add_unit_leader_trait = camouflage_expert_227 remove_unit_leader_trait =  camouflage_expert_270 }
+					}
 				}				
 			if = {
 				limit = { 

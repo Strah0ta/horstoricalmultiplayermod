@@ -932,6 +932,7 @@ USA_puppet_mexico = {
 			country_event = { id = news.153 days = 1 }
 			ENG = { diplomatic_relation = { country = SOV  relation = docking_rights   active = yes } }	
 			SOV = { country_event = { id = soviet.501 days = 630 } } 
+			SOV = { country_event = { id = soviet.503 days = 0  } }
 			SOV = { add_ideas = tot_economic_mobilisation activate_decision = women_in_the_workforce add_political_power = -250  }
 			SOV = { activate_mission = SOV_relocation  } 
 			}		
@@ -948,6 +949,17 @@ USA_puppet_mexico = {
 		HUN = { add_to_war = { targeted_alliance = GER enemy = SOV } }
 		ROM = { add_to_war = { targeted_alliance = GER enemy = SOV } }			
 		SPR = { add_to_war = { targeted_alliance = GER enemy = SOV } } 
+		SOV = { 		SOV_relocate_mil=yes		
+		SOV_relocate_mil=yes
+		SOV_relocate_mil=yes		
+		SOV_relocate_mil=yes
+		SOV_relocate_civ=yes		
+		SOV_relocate_civ=yes				
+		SOV_relocate_civ_into_two_mills=yes
+		SOV_relocate_civ_into_two_mills=yes
+		SOV_relocate_civ_moscow=yes
+		SOV_relocate_mil_moscow=yes
+     }
 		}
 
 				
@@ -3485,11 +3497,11 @@ SOV_great_patriotic_war = {
 		SOV_relocate_mil=yes		
 		SOV_relocate_mil=yes
 		SOV_relocate_mil=yes		
-		SOV_relocate_mil=yes	
-		SOV_relocate_civ_into_two_mills=yes
-		SOV_relocate_civ_into_two_mills=yes
+		SOV_relocate_mil=yes
 		SOV_relocate_civ=yes		
-		SOV_relocate_civ=yes
+		SOV_relocate_civ=yes				
+		SOV_relocate_civ_into_two_mills=yes
+		SOV_relocate_civ_into_two_mills=yes
 		SOV_relocate_civ_moscow=yes
 		SOV_relocate_mil_moscow=yes
 		if={limit={check_variable={relocatedciv=0}}

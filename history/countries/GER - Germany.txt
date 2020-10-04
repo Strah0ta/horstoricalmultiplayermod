@@ -177,6 +177,10 @@ add_relation_modifier = {
     modifier = stahlpakt
 }
 add_relation_modifier = {
+    target = BUL
+    modifier = stahlpakt
+}
+add_relation_modifier = {
     target = HUN
     modifier = stahlpakt
 }

@@ -35,9 +35,21 @@ spriteTypes = {
 	}
 	
 		spriteType = {  #UNIT LEADER TRAITS
-		name = "GFX_trait_fake_commando "
-		texturefile = "gfx/interface/traits/trait_fake_commando.dds"
+		name = "GFX_trait_camouflage_expert_270"
+		texturefile = "gfx/interface/traits/trait_camouflage_expert_270.dds"
+	}		
+		spriteType = {  #UNIT LEADER TRAITS
+		name = "GFX_trait_camouflage_expert_red"
+		texturefile = "gfx/interface/traits/trait_camouflage_expert_red.dds"
 	}			
+		spriteType = {  #UNIT LEADER TRAITS
+		name = "GFX_trait_camouflage_expert_227"
+		texturefile = "gfx/interface/traits/trait_camouflage_expert_227.dds"
+	}			
+			spriteType = {  #UNIT LEADER TRAITS
+		name = "GFX_trait_fake_commando"
+		texturefile = "gfx/interface/traits/trait_fake_commando.dds"
+	}		
 	spriteType = {
 		name = "GFX_trait_fake_infantry_leader"
 		texturefile = "gfx/interface/traits/trait_fake_infantry_leader.dds"

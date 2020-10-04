@@ -21,7 +21,18 @@ ideas = {
 				max_dig_in_factor = -0.5
 			}
 	}	
-	
+	great_patriotic_war_idea = {	
+	removal_cost = -1	
+			allowed = {	always = no	}
+			allowed_civil_war = {has_government = communism	}
+			picture = generic_production_bonus
+			
+			modifier = {
+			consumer_goods_factor = -0.05 
+			stability_factor = 0.10
+			war_support_factor = 0.10 
+			}
+		}
 	SOV_barbarossa = {	
 	removal_cost = -1	
 			allowed = {	always = no	}
@@ -29,12 +40,13 @@ ideas = {
 			picture = generic_manpower_bonus
 			
 			modifier = {
+						consumer_goods_factor = -0.05 
+			stability_factor = 0.10
+			war_support_factor = 0.10 
 				army_core_defence_factor = 0.15
 				army_armor_attack_factor = 0.05
 			}
 		}
-	
-
 
 		SOV_270 = { 
 			allowed = { always = no 	}
@@ -42,7 +54,7 @@ ideas = {
 			available = { }
 			allowed_civil_war = {	has_government = communism	}	
 			modifier = {
-				cas_damage_reduction = 0.1
+				#enemy_army_bonus_air_superiority_factor = -1
 				out_of_supply_factor = -0.35
 				army_core_defence_factor = 0.15
 				army_core_attack_factor = 0.05
@@ -59,7 +71,7 @@ ideas = {
 			available = { }
 			allowed_civil_war = { has_government = communism	}	
 			modifier = {
-				cas_damage_reduction = 0.25
+				#enemy_army_bonus_air_superiority_factor = -1
 				army_core_defence_factor = 0.35
 				army_armor_attack_factor = 0.1
 				army_core_attack_factor = 0.05				
@@ -127,7 +139,7 @@ ideas = {
 		intelligence_agency_defense = 0.5
 		subversive_activites_upkeep = -0.5
 				operative_slot = 2
-				land_reinforce_rate = 0.2
+				land_reinforce_rate = 0.25
 			}
 		}
 		

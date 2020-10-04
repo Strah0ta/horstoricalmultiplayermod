@@ -563,8 +563,8 @@ focus_tree = {
 		id = SOV_support_usa
 		icon = GFX_goal_generic_soviet_construction
 		prerequisite = { focus = SOV_tranformation_of_nature }
-		x = -1
-		y = 1
+		x = 0
+		y = 2
 		relative_position_id = SOV_tranformation_of_nature
 		
 		cost = 5
