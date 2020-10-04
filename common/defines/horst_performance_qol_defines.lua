@@ -16,6 +16,7 @@ NDefines.NTrade.RELATION_TRADE_FACTOR = 0				-- Trade factor is modified by Opin
 ---------------------------------------------------------------
 NDefines.NTechnology.MAX_SUBTECHS = 4                                 -- Added to stop weird things from happening with the amphibious tank variants 
 ---------------------------------------------------------------
+--NDefines.NMilitary.OVERSEAS_LOSE_EQUIPMENT_FACTOR = 1              --added this to test it, doesnt seem to do anything
 NDefines.NMilitary.ENCIRCLED_DISBAND_MANPOWER_FACTOR = 0            -- WAS 0.2 | Most rulesets ban deleting encircled troops, but at least this prevents some manpower from returning | Deleting encircled divisions is always banned anyways, so this reduces unfair play | percentage of manpower returned when an encircled unit is disbanded
 NDefines.NMilitary.UNIT_LEADER_MODIFIER_COOLDOWN_ON_GROUP_CHANGE = 0 -- WAS 15 | This prevents reassignment memes | This is the number of days it takes to REASSIGN a general. 
 NDefines.NMilitary.UNIT_LEADER_INITIAL_TRAIT_SLOT = { 0, 0, 1, 0 }
