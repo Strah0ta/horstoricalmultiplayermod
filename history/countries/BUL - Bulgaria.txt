@@ -12,6 +12,10 @@ add_ideas = {
 	BUL_second_national_catastrophe
 }
 
+add_relation_modifier = {
+    target = GER
+    modifier = stahlpakt3
+} 
 
 add_to_tech_sharing_group = axis_research 
 create_intelligence_agency = yes 

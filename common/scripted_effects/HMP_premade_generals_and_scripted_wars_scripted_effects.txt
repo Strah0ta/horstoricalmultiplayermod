@@ -4,7 +4,7 @@
 			775 = { set_compliance = 100 }  109 = { set_compliance = 80 } 104 = { set_compliance = 80 } 764 = { set_compliance = 60 }
 			
 			}
-			BUL = {   transfer_state = 184  184 = { set_compliance = 60 }        transfer_state = 293  293 = { set_compliance = 60 }   transfer_state = 106    106 = { set_compliance = 60 }  }
+			BUL = {   transfer_state = 184  184 = { set_compliance = 60 }    transfer_state = 731  731 = { set_compliance = 20 }            transfer_state = 293  293 = { set_compliance = 60 }   transfer_state = 106    106 = { set_compliance = 60 }  }
 			if = { limit = { has_start_date > 1936.1.2 } GER = {  
 			transfer_state = 293 transfer_state = 184 transfer_state = 106
 			transfer_state = 211 transfer_state = 212 SWE = { transfer_state  = 48 } transfer_state = 48

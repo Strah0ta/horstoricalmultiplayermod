@@ -79,10 +79,7 @@ if = {
 		picture = "Portrait_Hungary_Miklos_Horthy.dds"
 		expire = "1965.1.1"
 		ideology = oligarchism
-		traits = {
-			fascist_sympathies
-			anti_communist
-		}
+		traits = {	}
 		id = 500 #Horthy Neutral
 	}
 	
@@ -92,10 +89,7 @@ if = {
 		picture = "Portrait_Hungary_Miklos_Horthy.dds"
 		expire = "1965.1.1"
 		ideology = fascism_ideology
-		traits = {
-			fascist_sympathies
-			anti_communist
-		}
+		traits = {	}
 		id = 5000 #Horthy Neutral
 	}
 	
