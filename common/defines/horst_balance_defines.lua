@@ -39,12 +39,6 @@ NDefines.NAir.ACE_DEATH_BY_OTHER_ACE_CHANCE = 0				-- chance to an ace dying by 
 NDefines.NAir.ACE_DEATH_CHANCE_PLANES_MULT = 0		-- The more airplanes was lost in a single airplanes (more bloody it was) the higher chance of Ace to die.
 NDefines.NAir.ACE_EARN_CHANCE_BASE = 0				-- Base chance % for ace pilot to be created. Happens only when successfully kill airplane/ship or damage the buildings.
 NDefines.NAir.ACE_EARN_CHANCE_PLANES_MULT = 0				-- The more airplanes the wing shots the higher chance of earning Ace.
-NDefines.NAir.EFFICIENCY_REGION_CHANGE_DAILY_GAIN_DEFAULT = 100	-- Default how much efficiency to regain per day. Gain applied hourly.
-NDefines.NAir.EFFICIENCY_REGION_CHANGE_DAILY_GAIN_CAS = 0.222			-- How much efficiency to regain per day. Gain applied hourly.
-NDefines.NAir.EFFICIENCY_REGION_CHANGE_DAILY_GAIN_NAVAL_BOMBER = 0.048 -- How much efficiency to regain per day. Gain applied hourly.
-NDefines.NAir.EFFICIENCY_REGION_CHANGE_DAILY_GAIN_TACTICAL_BOMBER = 0.048	-- How much efficiency to regain per day. Gain applied hourly.
-NDefines.NAir.EFFICIENCY_REGION_CHANGE_DAILY_GAIN_FIGHTER = 0.222		-- How much efficiency to regain per day. Gain applied hourly.
-NDefines.NAir.EFFICIENCY_REGION_CHANGE_DAILY_GAIN_STRATEGIC_BOMBER = 0.025	-- How much efficiency to regain per day. Gain applied hourly.
 ------------------------------------------------------------------------------------------------
 NDefines.NAir.AA_INDUSTRY_AIR_DAMAGE_FACTOR = -0.18				-- vanilla 0.12 | changed because all three AA techs that boost state AA have had their damage reduction bonuses moved to the building
 NDefines.NAir.DISRUPTION_FACTOR_CARRIER = 1.0                                     -- 30 in vanilla, but  it used to be 1, reverting back to 1.8 so bad carriers are just bad insteadof useless

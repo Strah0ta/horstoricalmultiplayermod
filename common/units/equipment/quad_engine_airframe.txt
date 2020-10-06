@@ -34,7 +34,7 @@ equipments = {
 		#Space taken in convoy
 		lend_lease_cost = 24
 		
-		build_cost_ic = 148
+		build_cost_ic = 120
 		resources = {
 			#oil = 1
 			aluminium = 3
@@ -55,11 +55,13 @@ equipments = {
 		priority = 140
 		
 		air_range = 2500
-		maximum_speed = 40 #vanilla 400
-		air_agility = 5 #vanilla 5
-		air_attack = 50 #vanilla 50
-		air_defence = 0 #vanilla 25
-		air_bombing = 156	
+		maximum_speed = 400
+		air_agility = 5
+		air_attack = 50
+		air_defence = 25
+		air_bombing = 60
+		
+		# build_cost_ic = 36
 	}
 
 
