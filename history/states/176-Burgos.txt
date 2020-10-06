@@ -10,19 +10,22 @@ state={
 		owner = SPR
 		buildings = {
 			infrastructure = 6
-			industrial_complex = 1
+			industrial_complex = 2
 		}
 		victory_points = {
 			885 3 
+		}
+				victory_points = {
+			11825 3 
 		}
 		add_core_of = SPR
 
 	}
 
 	provinces={
-		857 884 885 3859 3887 3902 6903 9870 11766 11852 11854 13220 13226 
+		857 884 885 3859 3887 3902 6903 9870 11766 11852 11854 13220 13226 		903 3820 4024 6936 9700 9827 9846 9872 11684 11806 11809 11825 13227 
 	}
-	manpower=739760
+	manpower=1459760
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=town
 }
