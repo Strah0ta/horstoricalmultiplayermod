@@ -729,6 +729,9 @@ technologies = {
 		enable_equipments = {
 			tac_bomber_equipment_1
 		}
+		enable_equipments = {
+			strat_bomber_equipment_1
+		}
 	
 		path = {
 			leads_to_tech = tactical_bomber2
