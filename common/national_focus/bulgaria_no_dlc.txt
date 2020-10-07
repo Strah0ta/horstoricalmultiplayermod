@@ -208,7 +208,7 @@ focus_tree = {
 	focus = {
 		id = BUL_restore_the_bulgarian_army
 		icon = GFX_goal_generic_allies_build_infantry
-		x = 19
+		x = 21
 		y = 0
 		cost = 5
 
@@ -245,12 +245,41 @@ focus_tree = {
 		}
 	}
 
+	
+	
+	focus = {
+		id = BUL_war_games
+		icon = GFX_goal_poland_goal
+		
+		x = 4
+		y = 1
+
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		relative_position_id = BUL_restore_the_bulgarian_army
+		prerequisite = { focus = BUL_restore_the_bulgarian_army }
+	
+		completion_reward = {
+			add_tech_bonus = {
+				name = land_doc_bonus
+				bonus = 1
+				uses = 2
+				category = land_doctrine
+			}	
+		}
+	}
+
+	
 	focus = {
 		id = BUL_vmz_sopot
 		icon = GFX_goal_generic_army_artillery
 		prerequisite = { focus = BUL_restore_the_bulgarian_army	}
 		relative_position_id = BUL_restore_the_bulgarian_army	
-		x = 2
+		x = 0
 		y = 1
 		cost = 5
 
@@ -277,10 +306,10 @@ focus_tree = {
 	focus = {
 		id = BUL_bulgarian_arms
 		icon = GFX_goal_generic_small_arms
-		prerequisite = { focus = BUL_restore_the_bulgarian_army	}
+		prerequisite = { focus = BUL_restore_the_bulgarian_army 	}
 				relative_position_id = BUL_restore_the_bulgarian_army	
 
-		x = 4
+		x = 2
 		y = 1
 		cost = 5
 
@@ -306,7 +335,7 @@ focus_tree = {
 	focus = {
 		id = BUL_over_the_balkans
 		icon = GFX_goal_generic_special_forces
-		prerequisite = { focus = BUL_bulgarian_arms }
+		prerequisite = { focus = BUL_bulgarian_arms focus = BUL_war_games }
 		x = 24
 		y = 2
 		cost = 5
@@ -326,7 +355,7 @@ focus_tree = {
 	focus = {
 		id = BUL_bulgarian_will
 		icon = GFX_goal_generic_army_doctrines
-		prerequisite = { focus = BUL_bulgarian_arms	}
+		prerequisite = { focus = BUL_bulgarian_arms focus = BUL_war_games	}
 		x = 26
 		y = 2
 		cost = 5
@@ -366,7 +395,7 @@ focus_tree = {
 		mutually_exclusive = { focus = BUL_license_german_equipment }
 				relative_position_id = BUL_restore_the_bulgarian_army	
 
-		x = 0
+		x = -2
 		y = 1
 		cost = 5
 
@@ -484,7 +513,7 @@ focus_tree = {
 		mutually_exclusive = { focus = BUL_local_armour_acquirements }
 		relative_position_id = BUL_restore_the_bulgarian_army	
 	
-			x = -2
+			x = -4
 		y = 1
 		cost = 5
 

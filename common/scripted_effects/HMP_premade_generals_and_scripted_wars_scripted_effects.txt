@@ -715,7 +715,7 @@ SOV = {
 	   create_field_marshal = {
 		name = "Boris Shaposhnikov"
         picture = "Portrait_Soviet_Boris_Shaposhnikov.dds"
-		traits = {  infantry_leader skilled_staffer organizer logistics_wizard  }
+		traits = {  infantry_leader skilled_staffer expert_delegator organizer logistics_wizard  }
 		skill = 5
 		id = 9994010 
     attack_skill = 1
@@ -776,7 +776,7 @@ create_corps_commander = {
 	name = "Kliment Voroshilov"
 	id = 999405
 		picture = "Portrait_Soviet_Kliment_Voroshilov.dds"
-	traits = { old_guard inflexible_strategist organizer infantry_leader defensive_doctrine ambusher inspirational_leader unyielding_defender  }
+	traits = { old_guard skilled_staffer expert_delegator inflexible_strategist organizer infantry_leader defensive_doctrine ambusher inspirational_leader unyielding_defender  }
 	skill = 6
 
 	
@@ -791,7 +791,7 @@ create_field_marshal = {
 	name = "Georgy Zhukov"
 	id = 999410
 		picture = "Portrait_Soviet_Gregory_Zhukov.dds"
-	traits = { organizer logistics_wizard panzer_leader panzer_expert expert_improviser ranger trickster  }
+	traits = { organizer logistics_wizard panzer_leader panzer_expert expert_improviser ranger trickster  expert_delegator  }
 	skill = 8
 
 	

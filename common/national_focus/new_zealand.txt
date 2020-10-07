@@ -340,7 +340,7 @@ focus_tree = {
 		y = 2
 		relative_position_id = NZL_form_the_rnzaf
 
-		cost = 10
+		cost = 5
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -449,7 +449,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = NZL_national_roads_board
 
-		cost = 10
+		cost = 5
 
 
 		cancel_if_invalid = yes
@@ -577,7 +577,7 @@ focus_tree = {
 		id = NZL_project_seal
 		icon = GFX_focus_wonderweapons
 		prerequisite = { focus = NZL_department_of_scientific_and_industrial_research }
-		x = -2
+		x = -1
 		y = 4
 		relative_position_id = NZL_national_roads_board
 
@@ -650,7 +650,7 @@ focus_tree = {
 			add_tech_bonus = {
 				name = NZL_army_reforms
 				bonus = 1.0
-				uses = 1
+				uses = 3
 				category = land_doctrine
 			}
 		}
@@ -733,7 +733,7 @@ focus_tree = {
 		y = 2
 		relative_position_id = NZL_army_reforms
 
-		cost = 10
+		cost = 5
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -795,7 +795,7 @@ focus_tree = {
 		y = 3
 		relative_position_id = NZL_army_reforms
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 25
@@ -918,26 +918,11 @@ focus_tree = {
 		x = 3
 		y = 0
 
-		cost = 10
-
-		ai_will_do = {
-			factor = 2
-		}
-
-		available = { is_ai = no }
-
-
-		bypass = {
-
-		}
+		cost = 5
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-
-		complete_tooltip = {
-
-		}
 
 		completion_reward = {
 			add_ideas = NZL_first_labor_government
@@ -956,7 +941,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = NZL_the_first_labor_government
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 25

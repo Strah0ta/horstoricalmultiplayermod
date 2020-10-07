@@ -636,7 +636,7 @@ focus_tree = {
 			add_tech_bonus = {
 				name = HUN_army_maneuvers
 				bonus = 1.0
-				uses = 1
+				uses = 2
 				category = land_doctrine
 			}
 			add_tech_bonus = {

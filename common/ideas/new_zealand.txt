@@ -80,31 +80,6 @@ ideas = {
 
 		}
 
-		NZL_2nzef = {
-
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-
-			picture = generic_volunteer_expedition_bonus
-
-			rule = {
-				can_send_volunteers = yes
-			}
-			
-			modifier = {
-				send_volunteers_tension = -0.5
-				send_volunteer_size = 1
-			}
-
-		}
-
 		NZL_stomp_out_pacifism = {
 
 			allowed = {
@@ -228,69 +203,6 @@ ideas = {
 				conscription = 0.1
 			}
 		}
-
-		NZL_the_workers_party_1 = {
-
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				has_government = communism
-			}
-
-			removal_cost = -1
-
-			picture = generic_communism_drift_bonus
-			
-			modifier = {
-				autonomy_gain = 1
-				communism_drift = 0.02
-			}
-		}
-
-		NZL_the_workers_party_2 = {
-
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				has_government = communism
-			}
-
-			removal_cost = -1
-
-			picture = generic_communism_drift_bonus
-			
-			modifier = {
-				autonomy_gain = 1
-				communism_drift = 0.02
-				production_speed_buildings_factor = 0.1
-			}
-		}
-
-		NZL_in_the_darkness = {
-
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				has_government = fascism
-			}
-
-			removal_cost = -1
-
-			picture = generic_fascism_drift_bonus
-			
-			modifier = {
-				autonomy_gain = 1
-				fascism_drift = 0.01
-				production_speed_buildings_factor = 0.1
-			}
-		}
-
 	}
 
 	political_advisor = {
@@ -410,7 +322,23 @@ ideas = {
 				factor = 1
 			}
 		}
+		NZL_william_sinclair_burgess = {
+			ledger = army
+			picture = generic_army_europe_2
+			
+			allowed = {
+				original_tag = NZL
+			}
+			
 
+			
+			traits = { army_commando_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
 		NZL_trevor_handley = {
 			ledger = army
 
@@ -430,23 +358,6 @@ ideas = {
 	# MILITARY
 	army_chief = {
 
-		NZL_william_sinclair_burgess = {
-			
-			picture = generic_army_europe_2
-			
-			allowed = {
-				original_tag = NZL
-			}
-			
-
-			
-			traits = { army_chief_defensive_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
-		}
-		
 		NZL_edward_puttick = {
 			
 			picture = generic_army_europe_1

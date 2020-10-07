@@ -504,7 +504,7 @@ focus_tree = {
 			add_tech_bonus = {
 				name = SAF_special_service_battalion
 				bonus = 1.0
-				uses = 1
+				uses = 2
 				category = land_doctrine
 			}
 		}
@@ -570,7 +570,7 @@ focus_tree = {
 			add_tech_bonus = {
 				name = SAF__south_african_military_college
 				bonus = 1.0
-				uses = 1
+				uses = 2
 				category = land_doctrine
 			}
 		}
@@ -641,7 +641,7 @@ focus_tree = {
 	focus = {
 		id = SAF_mechanization_effort
 		icon = GFX_goal_generic_build_tank
-		prerequisite = { focus = SAF_equipment_effort }
+		prerequisite = { focus = SAF_equipment_effort focus = SAF_expand_the_south_african_artillery   }
 		x = -1
 		y = 5
 		relative_position_id = SAF_special_service_battalion
