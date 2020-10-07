@@ -24,7 +24,7 @@ equipments = {
 
 		}
 
-		air_superiority = 1
+		air_superiority = 2
 		reliability = 0.8
 
 		# Air vs Navy - high damage / low hit chance / hard to hurt
@@ -64,7 +64,7 @@ equipments = {
 
 		}
 
-		air_superiority = 1.25
+		air_superiority = 2.5
 		reliability = 0.8
 
 		# Air vs Navy - low damage / high hit chance / easy to hurt
