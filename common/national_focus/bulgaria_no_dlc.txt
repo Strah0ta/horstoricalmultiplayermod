@@ -1233,7 +1233,7 @@ focus_tree = {
 		icon = GFX_goal_generic_construct_infrastructure
 		prerequisite = { focus = BUL_prosveta_publishing_house focus = BUL_girdap }
 		relative_position_id = BUL_bulgarian_infrastructure
-		x = 1
+		x = -1
 		y = 2
 		cost = 5
 
@@ -1241,7 +1241,7 @@ focus_tree = {
 
 
 		completion_reward = {
-			every_state = {	limit = {is_core_of = BUL	}	}
+			every_state = {	limit = {is_core_of = BUL	}	
 				add_building_construction = {
 					type = infrastructure
 					level = 1
@@ -1249,14 +1249,30 @@ focus_tree = {
 				}
 			}
 		}
+		}
 
+		
 	focus = {
-		id = BUL_steel_exports2
-		icon = GFX_goal_generic_construct_infrastructure
+		id = BUL_steel_exports
+		icon = GFX_goal_generic_trade
 	 	prerequisite = { focus = BUL_across_the_land }
 		relative_position_id = BUL_bulgarian_infrastructure
 		x = -2
 		y = 3
+		available_if_capitulated = yes
+		completion_reward = {
+			add_ideas = BUL_steel_exports_idea
+
+		}
+	}
+		
+	focus = {
+		id = BUL_steel_exports2
+		icon = GFX_goal_generic_construct_infrastructure
+	 	prerequisite = { focus = BUL_steel_exports }
+		relative_position_id = BUL_steel_exports
+		x = 1
+		y = 2
 		cost = 5
 
 		available_if_capitulated = yes
@@ -1304,38 +1320,11 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			if = {
-				limit = {
-					48 = {
-						free_building_slots = {
-							building = industrial_complex
-							size > 1
-							include_locked = yes
-						}
-					}
-				}
-				48 = {
-					add_extra_state_shared_building_slots = 2
-				}
-			}
-
-			if = {
-				limit = {
-					212 = {
-						free_building_slots = {
-							building = industrial_complex
-							size > 1
-							include_locked = yes
-						}
-					}
-				}
-				212 = {
-					add_extra_state_shared_building_slots = 1
-				}
+				48 = {	add_extra_state_shared_building_slots = 2	}
+				212 = {	add_extra_state_shared_building_slots = 1	}
 			}
 		}
-	}
-
+		
 	focus = {
 		id = BUL_bulgarian_research_institutes
 		icon = GFX_focus_research
