@@ -14,12 +14,7 @@ air_base = 4
 victory_points = {
 2086 50
 }
-						1936.1.2 = {
-			owner = ENG
-						buildings = {
-				industrial_complex = 5
-			}
-		}
+						1936.1.2 = { owner = ENG		}
 }
 provinces={
 1129 1898 2002 2032 2076 2086 3989 5002 5157 7106 10021 10729 11955 12708 12868

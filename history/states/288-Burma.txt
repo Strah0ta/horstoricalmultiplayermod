@@ -18,9 +18,6 @@ naval_base = 4
 }
 }
 				1936.1.2 = {
-							buildings = {
-				industrial_complex = 1
-			}
 			owner = ENG
 		}
 }

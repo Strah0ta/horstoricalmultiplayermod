@@ -699,7 +699,7 @@ ideas = {
 			picture = ger_mefo_bills
 
 			modifier = {
-				consumer_goods_factor = -0.2
+				consumer_goods_factor = -0.1
 				political_power_cost = 0.3
 			}
 		}
@@ -721,7 +721,7 @@ ideas = {
 			picture = ger_mefo_bills
 
 			modifier = {
-				consumer_goods_factor = -0.2
+				consumer_goods_factor = -0.1
 				production_speed_buildings_factor = 0.2
 				political_power_cost = 0.3
 			}
@@ -744,7 +744,7 @@ ideas = {
 			picture = ger_mefo_bills_payment
 
 			modifier = {
-				consumer_goods_factor = 0.15
+				consumer_goods_factor = 0.05
 			}
 		}
 	}
