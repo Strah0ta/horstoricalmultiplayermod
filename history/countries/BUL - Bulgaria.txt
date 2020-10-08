@@ -9,12 +9,13 @@ add_ideas = {
 	limited_conscription
 	BUL_bulgarian_tsardom
 	BUL_imro
+	armyandnavy_idea
 	BUL_second_national_catastrophe
 }
 
 add_relation_modifier = {
     target = GER
-    modifier = stahlpakt3
+    modifier = stahlpakt
 } 
 
 add_to_tech_sharing_group = axis_research 

@@ -1106,83 +1106,26 @@ focus_tree = {
 
 		available_if_capitulated = yes
 
-		bypass = {
-			custom_trigger_tooltip = {
-				tooltip = infrastructure_effort_tt
-				all_owned_state = {			
-					free_building_slots = {
-						building = infrastructure
-						size < 1
-					}
-				}
-			}
-		}
-
-		complete_tooltip = {
-			add_building_construction = {
-				type = infrastructure
-				level = 1
-				instant_build = yes
-			}
-			add_building_construction = {
-				type = infrastructure
-				level = 1
-				instant_build = yes
-			}
-		}
-
 		completion_reward = {
-			random_owned_controlled_state = {
-				limit = {
-					free_building_slots = {
-						building = infrastructure
-						size > 0
-					}
-					OR = {
-						is_in_home_area = yes
-						NOT = {
-							owner = {
-								any_owned_state = {
-									free_building_slots = {
-										building = infrastructure
-										size > 0
-									}
-									is_in_home_area = yes
-								}
-							}
-						}
-					}
+
+			793 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
 				}
+			}
+				212 = {
 				add_building_construction = {
 					type = infrastructure
 					level = 1
 					instant_build = yes
 				}
-			}
-			random_owned_controlled_state = {
-				limit = {
-					free_building_slots = {
-						building = infrastructure
-						size > 1
-					}
-					OR = {
-						is_in_home_area = yes
-						NOT = {
-							owner = {
-								any_owned_state = {
-									free_building_slots = {
-										building = infrastructure
-										size > 1
-									}
-									is_in_home_area = yes
-								}
-							}
-						}
-					}
-				}
+			}	
+						211 = {
 				add_building_construction = {
 					type = infrastructure
-					level = 2
+					level = 1
 					instant_build = yes
 				}
 			}
@@ -1290,98 +1233,26 @@ focus_tree = {
 		icon = GFX_goal_generic_construct_infrastructure
 		prerequisite = { focus = BUL_prosveta_publishing_house focus = BUL_girdap }
 		relative_position_id = BUL_bulgarian_infrastructure
-		x = -1
+		x = 1
 		y = 2
 		cost = 5
 
 		available_if_capitulated = yes
 
-		bypass = {
-			custom_trigger_tooltip = {
-				tooltip = infrastructure_effort_tt
-				all_owned_state = {			
-					free_building_slots = {
-						building = infrastructure
-						size < 1
-					}
-				}
-			}
-		}
-
-		complete_tooltip = {
-			add_building_construction = {
-				type = infrastructure
-				level = 1
-				instant_build = yes
-			}
-			add_building_construction = {
-				type = infrastructure
-				level = 1
-				instant_build = yes
-			}
-		}
 
 		completion_reward = {
-			random_owned_controlled_state = {
-				limit = {
-					free_building_slots = {
-						building = infrastructure
-						size > 0
-					}
-					OR = {
-						is_in_home_area = yes
-						NOT = {
-							owner = {
-								any_owned_state = {
-									free_building_slots = {
-										building = infrastructure
-										size > 0
-									}
-									is_in_home_area = yes
-								}
-							}
-						}
-					}
-				}
+			every_state = {	limit = {is_core_of = BUL	}	}
 				add_building_construction = {
 					type = infrastructure
 					level = 1
 					instant_build = yes
 				}
 			}
-			random_owned_controlled_state = {
-				limit = {
-					free_building_slots = {
-						building = infrastructure
-						size > 1
-					}
-					OR = {
-						is_in_home_area = yes
-						NOT = {
-							owner = {
-								any_owned_state = {
-									free_building_slots = {
-										building = infrastructure
-										size > 1
-									}
-									is_in_home_area = yes
-								}
-							}
-						}
-					}
-				}
-				add_building_construction = {
-					type = infrastructure
-					level = 2
-					instant_build = yes
-				}
-			}
 		}
-	}
 
 	focus = {
-		id = BUL_steel_exports
-		icon = GFX_goal_generic_trade
+		id = BUL_steel_exports2
+		icon = GFX_goal_generic_construct_infrastructure
 	 	prerequisite = { focus = BUL_across_the_land }
 		relative_position_id = BUL_bulgarian_infrastructure
 		x = -2
@@ -1391,9 +1262,15 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_ideas = BUL_steel_exports_idea
+				106 = { 
+				add_building_construction = {
+					type = infrastructure
+					level = 4
+					instant_build = yes
+				}
+				}
 		}
-	}
+		}
 
 	focus = {
 		id = BUL_better_excavation_equipment
