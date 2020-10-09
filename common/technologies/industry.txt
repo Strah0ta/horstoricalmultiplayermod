@@ -36,7 +36,6 @@ technologies = {
 		}
 	}
 
-	#Machine tools branch	
 	improved_machine_tools = {
 	
 		production_factory_max_efficiency_factor = 0.1
@@ -90,14 +89,6 @@ technologies = {
 			position = { x = 0 y = 6 }
 		}
 		
-		ai_will_do = {
-			factor = 15
-						
-			modifier = {
-				factor = 10
-				date > "1939.1.1"
-			}
-		}
 		
 		categories = {
 			industry
@@ -107,11 +98,6 @@ technologies = {
 	assembly_line_production = {
 	
 		production_factory_max_efficiency_factor = 0.1
-		
-		#path = {
-		#	leads_to_tech = improved_machine_tools 
-		#	research_cost_coeff = 1
-		#}
 		
 		path = {
 			leads_to_tech = flexible_line
@@ -131,15 +117,7 @@ technologies = {
 			name = industry_folder
 			position = { x = 0 y = 8 }
 		}
-		
-		ai_will_do = {
-			factor = 15
-			
-			modifier = {
-				factor = 10
-				date > "1941.1.1"
-			}			
-		}
+
 		
 		categories = {
 			industry
@@ -223,7 +201,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 1
+		research_cost = 0.5
 		start_year = 1937
 		
 		folder = {
@@ -254,7 +232,7 @@ technologies = {
 		
 		equipment_conversion_speed = 0.40
 
-		research_cost = 1
+		research_cost = 0.5
 		start_year = 1939
 		
 		folder = {

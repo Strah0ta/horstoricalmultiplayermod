@@ -3232,6 +3232,16 @@ is_triggered_only = yes
         option = {
 				name = "For Socialism! For Stalin! Ura!"
 				add_ideas = great_patriotic_war_idea
+			add_tech_bonus = {
+				name = "Great Patriotic Industrial Research"
+				bonus = 1.0
+				ahead_reduction = 2
+				uses = 2
+				category = 	construction_tech
+				category =	excavation_tech
+
+			}
+			add_research_slot = 1
 				}
 			
     }

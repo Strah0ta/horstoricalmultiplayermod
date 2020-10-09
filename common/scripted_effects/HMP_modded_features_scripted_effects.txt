@@ -38,8 +38,9 @@ FRA_legitimacy_casualties_counter = {
 
 
 
-HMP_ger_total_mob = { #converts 100 civs to 100 mills instantly for Germany as part of the Totaler Krieg focus
+HMP_ger_total_mob = { #converts 110 civs to 110 mills instantly for Germany as part of the Totaler Krieg focus
 HMP_ger_total_mob_1 = yes  
+HMP_ger_total_mob_1 = yes 
 HMP_ger_total_mob_1 = yes 
 HMP_ger_total_mob_1 = yes 
 HMP_ger_total_mob_1 = yes 
