@@ -123,6 +123,91 @@ sub_units = {
 			attack = -0.4
 		}
 	}
+	
+		camelry_aa = {
+		sprite = cavalry
+		map_icon_category = other
+		priority = 301
+		ai_priority = 10
+		active = yes
+		
+		type = {
+			motorized
+			artillery
+		}
+
+		group = mobile
+		
+		
+		categories = {
+			category_army
+			category_line_artillery
+		}		
+		
+		combat_width = 1
+
+
+		combat_width = 3
+		
+		maximum_speed = 0.6
+
+		manpower = 500
+		need = {
+			anti_air_equipment = 30
+			infantry_equipment = 50
+		}
+		
+		max_strength = 0.6
+		max_organisation = 0
+		default_morale = 0.1
+		training_time = 60
+		weight = 0.5
+		supply_consumption = 0.15
+		
+		forest = {
+			attack = -0.3
+			movement = -0.5
+		}
+		
+		plains = {
+			attack = -0.2
+			movement = -0.2	
+		}
+
+		hills = {
+		attack = -0.2
+			movement = -0.05
+		}
+
+		mountain = {
+		attack = -0.2
+			movement = -0.2
+		}
+
+		jungle = {
+			attack = -0.4
+			movement = -0.5
+		}
+
+		marsh = {
+			attack = -0.4
+			movement = -0.3
+		}
+
+		fort = {
+			attack = 0.1
+		}
+
+		river = {
+			attack = -0.2
+			movement = -0.2
+		}
+
+		amphibious = {
+			attack = -0.6
+		}
+	}
+	
 	mech_anti_air = {
 		sprite = infantry
 		map_icon_category = infantry

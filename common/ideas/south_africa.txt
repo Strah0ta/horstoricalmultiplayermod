@@ -176,7 +176,7 @@ ideas = {
 			modifier = {
 				industrial_capacity_factory = 0.03
 				industrial_capacity_dockyard = 0.03
-				conscription_factor = -0.05
+				conscription_factor = 0.15
 			}
 
 		}
@@ -198,7 +198,7 @@ ideas = {
 				industrial_capacity_factory = 0.03
 				industrial_capacity_dockyard = 0.03
 				consumer_goods_factor = -0.03
-				conscription_factor = -0.05
+				conscription_factor = 0.3
 			}
 
 		}
@@ -220,7 +220,7 @@ ideas = {
 				industrial_capacity_factory = 0.06
 				industrial_capacity_dockyard = 0.06
 				consumer_goods_factor = -0.08
-				conscription_factor = -0.05
+				conscription_factor = 0.5
 			}
 
 		}
@@ -605,20 +605,6 @@ ideas = {
 
 	navy_chief = {
 
-		SAF_pierre_oliver_knoll = {
-			picture = generic_navy_europe_2
-			
-			allowed = {
-				original_tag = SAF
-			}
-			
-			traits = { navy_chief_maneuver_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
-		}
-
 		SAF_cornelis_van_zuigenbrogge = {
 			picture = generic_navy_europe_1
 			
@@ -661,7 +647,7 @@ ideas = {
 				original_tag = SAF
 			}
 			
-			traits = { army_armored_2 }
+			traits = { army_armored_3 }
 			
 			ai_will_do = {
 				factor = 1
@@ -677,15 +663,24 @@ ideas = {
 				original_tag = SAF
 			}
 			
-			traits = { army_infantry_3 }
+			traits = { army_commando_2 }
 			
 			ai_will_do = {
 				factor = 1
 			}
 		}
-
+		SAF_pierre_oliver_knoll = {
+			picture = generic_navy_europe_2
+			ledger = army
+			
+			allowed = {
+				original_tag = SAF
+			}
+			
+			traits = { army_infantry_2 }
+		}
 		SAF_jeannot_de_la_tourier = {
-			ledger = navy
+			ledger = army
 
 			picture = generic_navy_europe_2
 			
@@ -693,7 +688,7 @@ ideas = {
 				original_tag = SAF
 			}
 			
-			traits = { navy_screen_2 }
+			traits = { army_cavalry_2 }
 			
 			ai_will_do = {
 				factor = 1

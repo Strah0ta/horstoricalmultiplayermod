@@ -650,7 +650,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2
+		research_cost = 1.5
 		start_year = 1936
 		folder = {
 			name = infantry_folder
@@ -659,20 +659,6 @@ technologies = {
 		
 		categories = {
 			marine_tech
-		}
-		
-		ai_will_do = {
-			factor = 0.7
-			
-			modifier = {
-				factor = 3
-				tag = USA
-			}
-			
-			modifier = {
-				factor = 3
-				tag = JAP
-			}
 		}
 	}
 	
@@ -698,20 +684,6 @@ technologies = {
 		categories = {
 			marine_tech
 		}
-		
-		ai_will_do = {
-			factor = 0.7
-			
-			modifier = {
-				factor = 3
-				tag = USA
-			}
-			
-			modifier = {
-				factor = 3
-				tag = JAP
-			}
-		}
 	}
 	
 	marines3 = {
@@ -729,20 +701,6 @@ technologies = {
 		
 		categories = {
 			marine_tech
-		}
-		
-		ai_will_do = {
-			factor = 0.7
-			
-			modifier = {
-				factor = 3
-				tag = USA
-			}
-			
-			modifier = {
-				factor = 3
-				tag = JAP
-			}
 		}
 	}	
 	
@@ -769,7 +727,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2
+		research_cost = 1.5
 		start_year = 1936
 		folder = {
 			name = infantry_folder
@@ -836,6 +794,101 @@ technologies = {
 			factor = 0.7
 		}
 	}
+	
+	
+	camelry = {
+
+		enable_subunits = {
+			camelry_cav
+		}
+		
+		enable_subunits = {
+			camelry_aa
+		}
+		
+		enable_subunits = {
+			camelry_arty
+		}
+
+		enable_subunits = {
+			camelry_at
+		}		
+		
+		on_research_complete = {
+			limit = {
+				NOT = {
+					has_template_containing_unit = camelry_cav
+				}
+			}
+			hidden_effect = {
+				load_oob = "unlock_camelry"
+			}
+			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
+		}
+
+		path = {
+			leads_to_tech = camelry_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1936
+		folder = {
+			name = infantry_folder
+			position = { x = 5 y = @1936 }
+		}
+
+		categories = {
+			infantry_tech
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	camelry_2 = {
+
+		camelry_cav = {
+			max_organisation = 5
+			soft_attack = 0.05
+		}
+		
+		path = {
+			leads_to_tech = camelry_3
+			research_cost_coeff = 1
+		}
+
+
+		research_cost = 1.5
+		start_year = 1939
+		folder = {
+			name = infantry_folder
+			position = { x = 5 y = @1939 }
+		}
+
+		categories = {
+			infantry_tech
+		}
+	}
+
+	camelry_3 = {
+
+		camelry_cav = {
+			max_organisation = 5
+		}
+
+		research_cost = 1.5
+		start_year = 1943
+		folder = {
+			name = infantry_folder
+			position = { x = 5 y = @1943 }
+		}
+
+		categories = {
+			infantry_tech
+		}
+	}
 
 	tech_special_forces = {
 		category_special_forces = {
@@ -865,10 +918,6 @@ technologies = {
 			mountaineers_tech
 			marine_tech
 			para_tech
-		}
-		
-		ai_will_do = {
-			factor = 0.7
 		}
 	}
 

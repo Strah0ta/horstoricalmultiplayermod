@@ -97,8 +97,8 @@ NDefines.NResistance.MAXIMUM_GARRISON_HARDNESS_WHEN_ATTACKED = 0.99 -- VANILLA 0
 NDefines.NResistance.COMPLIANCE_FACTOR_ON_STATE_CONTROLLER_CHANGE = -1    -- VANILLA -0.5  compliance factor that applies when the state controller changes (in between allies, compliance is zeroed if it is taken by original country)
 ---------------------------------------------------------------
 NDefines.NNavy.SUPREMACY_PER_SHIP_BASE = 0                        -- WAS 100 | reduced to relatively nerf subs in terms of naval supremacy, as most of their supremacy comes from a base value of 100
-NDefines.NNavy.SUPREMACY_PER_SHIP_PER_MANPOWER = 0						-- supremacy of a ship is calculated using its IC, manpower and a base define
-NDefines.NNavy.SUPREMACY_PER_SHIP_PER_IC = 0.01
+NDefines.NNavy.SUPREMACY_PER_SHIP_PER_MANPOWER = 0						-- WAS 0.0005 supremacy of a ship is calculated using its IC, manpower and a base define
+NDefines.NNavy.SUPREMACY_PER_SHIP_PER_IC = 0.01							-- WAS 0.005
 NDefines.NNavy.LEADER_EXPERIENCE_SCALE = 0.0 								-- Horst has pre-made admirals because admiral grinding is pretty exploity, gamey, and not fun    
 NDefines.NNavy.FIELD_EXPERIENCE_SCALE = 0									-- NAVAL EXPERIENCE REMOVED AS THE FUEL SYSTEM MAKES FUEL AND THUS NAVAL EXPERIENCE INFINITELY AVAILABLE -Thrasymachus
 NDefines.NNavy.FIELD_EXPERIENCE_MAX_PER_DAY = 0								-- NAVAL EXPERIENCE REMOVED AS THE FUEL SYSTEM MAKES FUEL AND THUS NAVAL EXPERIENCE INFINITELY AVAILABLE -Thrasymachus
