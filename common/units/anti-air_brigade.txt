@@ -127,13 +127,13 @@ sub_units = {
 		camelry_aa = {
 		sprite = cavalry
 		map_icon_category = other
-		priority = 301
+		priority = 303
 		ai_priority = 10
 		active = yes
 		
 		type = {
 			motorized
-			artillery
+			anti_air
 		}
 
 		group = mobile
@@ -154,7 +154,6 @@ sub_units = {
 		manpower = 500
 		need = {
 			anti_air_equipment = 30
-			infantry_equipment = 50
 		}
 		
 		max_strength = 0.6
@@ -178,7 +177,11 @@ sub_units = {
 		attack = -0.2
 			movement = -0.05
 		}
-
+		desert = { 
+			attack = 0.2
+			defence = 0.2			
+			movement = 0.2
+		}
 		mountain = {
 		attack = -0.2
 			movement = -0.2
