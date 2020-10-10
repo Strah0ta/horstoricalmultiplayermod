@@ -797,7 +797,7 @@ technologies = {
 	
 	
 	camelry = {
-
+		allow = {  camelry_nations = yes }
 		enable_subunits = {
 			camelry_cav
 		}
@@ -809,7 +809,9 @@ technologies = {
 		enable_subunits = {
 			camelry_arty
 		}
-
+		enable_subunits = {
+			camelry_rarty
+		}
 		enable_subunits = {
 			camelry_at
 		}		

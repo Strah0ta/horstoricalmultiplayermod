@@ -112,7 +112,14 @@ ENG_has_fortify_the_empire = {
 	}
 }
 
-
+camelry_nations = {
+OR = {
+original_tag = AST
+original_tag = NZL
+original_tag = SAF
+original_tag = EFR
+}
+}
 
 congress_low_support_trigger = {
 	custom_trigger_tooltip = {

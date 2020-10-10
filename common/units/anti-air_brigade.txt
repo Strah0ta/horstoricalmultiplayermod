@@ -127,6 +127,7 @@ sub_units = {
 		camelry_aa = {
 		sprite = cavalry
 		map_icon_category = other
+		special_forces = yes
 		priority = 303
 		ai_priority = 10
 		active = yes
