@@ -46,8 +46,8 @@ country_event = {
 			set_state_controller = 538
 			set_state_controller = 295
 			set_state_controller = 718
-			set_state_controller = 769
-			set_state_controller = 768
+			set_state_controller = 616
+			set_state_controller = 618
 			}	
 		}
 	}
@@ -282,8 +282,8 @@ country_event = {
 			SOV = {
 			country_event = { id = germany.11 days = 1 }
 			custom_effect_tooltip = GER_mol_rib_pact_tt
-			transfer_state = 78 transfer_state = 80 transfer_state = 766 
-			 transfer_state = 189 transfer_state = 11 transfer_state = 13 transfer_state = 191 transfer_state = 190 transfer_state = 12 transfer_state = 78 transfer_state = 766
+			transfer_state = 78 transfer_state = 80 transfer_state = 287 
+			 transfer_state = 189 transfer_state = 11 transfer_state = 13 transfer_state = 191 transfer_state = 190 transfer_state = 12 transfer_state = 78 transfer_state = 287
 			LAT = { remove_state_core = 188 remove_state_core = 189 remove_state_core = 11 remove_state_core = 13 remove_state_core = 191  remove_state_core = 12 remove_state_core = 190      }
 			189 = { add_core_of = SOV }
 			11 = { add_core_of = SOV }
@@ -292,7 +292,7 @@ country_event = {
 			190 = { add_core_of = SOV }
 			12 = { add_core_of = SOV }
 			78 = { add_core_of = SOV }
-			766 = { add_core_of = SOV }
+			287 = { add_core_of = SOV }
 			80 = { add_core_of = SOV }
 			country_event = finland.20
 			}
@@ -317,7 +317,7 @@ country_event = {
 			set_country_flag = danzing
 		 add_timed_idea = { idea = VIC_aircraft_parts days = 500 } 
 			add_state_core = 85
-			add_state_claim = 762
+			add_state_claim = 621
 			add_state_claim = 86	
 			}			
 			POL = {	country_event = { id = germany.86 }	}
@@ -1453,7 +1453,7 @@ is_triggered_only = yes
 			328 = {	add_resource = {  type = aluminium amount = 16}	}
 			
 			annex_country = { target = MAN transfer_troops = yes }
-			716 = { set_compliance = 100 } 	328 = { set_compliance = 100 }	717 = { set_compliance = 100 } 714 = { set_compliance = 100 }	761 = { set_compliance = 100 } 	715 = { set_compliance = 100 }	612 = { set_compliance = 100 } 
+			716 = { set_compliance = 100 } 	328 = { set_compliance = 100 }	717 = { set_compliance = 100 } 714 = { set_compliance = 100 }	615 = { set_compliance = 100 } 	715 = { set_compliance = 100 }	612 = { set_compliance = 100 } 
 			610 = { set_compliance = 100 }	611 = { set_compliance = 100 }  
    		add_tech_bonus = {
 			name = "Integrate Manchukuo"
@@ -3255,7 +3255,7 @@ country_event = {
 	is_triggered_only =  yes
 	option = {
 		name = soviet.509.a
-		CHI = { transfer_state = 761 } 
+		CHI = { transfer_state = 615 } 
 		SOV = { puppet = CHI}  
 					hidden_effect = { CHI = { set_cosmetic_tag = PRC_HORST}}
 		every_state = { limit = { is_core_of = MAN } CHI = { add_state_core = PREV } }
@@ -4068,7 +4068,7 @@ country_event = {
 		
 				trigger = { AND = { has_completed_focus = MAN_pacify_the_countrysidex  } NOT = { has_country_flag = MAN_hulunbuir }            }
 
-			761	= {
+			615	= {
 		add_extra_state_shared_building_slots = 3
 		add_building_construction = {
 		type = infrastructure 

@@ -1259,8 +1259,8 @@ icon = generic_operation
 		if = { limit = { NOT = { SAF = { has_completed_focus = SAF_secure_interests_in_africa }}}	
 					transfer_state = 542
 					transfer_state = 545
-					transfer_state = 771
-					transfer_state = 770
+					transfer_state = 605
+					transfer_state = 283
 					transfer_state = 546
 					transfer_state = 547
 					transfer_state = 548
@@ -1861,7 +1861,7 @@ icon = generic_operation
 			}
 			
 			if = { limit = { SOV = { NOT = { controls_state = 78}}}
-			ITA = { transfer_state = 78  transfer_state = 766 transfer_state = 80 }
+			ITA = { transfer_state = 78  transfer_state = 287 transfer_state = 80 }
 			}
 			every_state = { limit = { is_core_of = ROM } set_compliance = 100 } 
 		}
@@ -1887,17 +1887,17 @@ SAF_zambia = {
 allowed = {original_tag = SAF}
 	available = {
 		has_completed_focus = SAF_secure_interests_in_africa
-		770 = { is_fully_controlled_by = ENG }
-		771 = { is_fully_controlled_by = ENG }
+		283 = { is_fully_controlled_by = ENG }
+		605 = { is_fully_controlled_by = ENG }
 		545 = { is_fully_controlled_by = SAF }
 		542 = { is_fully_controlled_by = SAF }
 		}	
 		cost = 0		
 		complete_effect = {
-		transfer_state = 770 
-		transfer_state = 771 
-		770 = { add_extra_state_shared_building_slots = 2 }
-		771 = { add_extra_state_shared_building_slots = 2 }
+		transfer_state = 283 
+		transfer_state = 605
+		283 = { add_extra_state_shared_building_slots = 2 }
+		605 = { add_extra_state_shared_building_slots = 2 }
 		}
 }
 
@@ -1908,8 +1908,8 @@ allowed = { original_tag = SAF }
 		546 = { is_fully_controlled_by = ENG }
 		547 = { is_fully_controlled_by = ENG }
 		548 = { is_fully_controlled_by = ENG }
-		770 = { is_fully_controlled_by = SAF }
-		771 = { is_fully_controlled_by = SAF }
+		283 = { is_fully_controlled_by = SAF }
+		605 = { is_fully_controlled_by = SAF }
 		}
 		cost = 0
 		complete_effect = {
@@ -3123,7 +3123,7 @@ political_actions = {
 			
 			annex_country = { target = MAN transfer_troops = yes }
 					716 = { set_compliance = 100 } 	328 = { set_compliance = 100 }	717 = { set_compliance = 100 } 714 = { set_compliance = 100 }
-					761 = { set_compliance = 100 } 	715 = { set_compliance = 100 }	612 = { set_compliance = 100 } 610 = { set_compliance = 100 }
+					615 = { set_compliance = 100 } 	715 = { set_compliance = 100 }	612 = { set_compliance = 100 } 610 = { set_compliance = 100 }
 					611 = { set_compliance = 100 } 	608 = { set_compliance = 100 }
 		}
 	}

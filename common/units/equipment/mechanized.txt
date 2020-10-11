@@ -6,6 +6,7 @@ equipments = {
 		is_archetype = yes
 		picture = archetype_motorized_equipment		
 		is_buildable = no
+		is_convertable = yes
 		type = {
 			#infantry #Removing inf type 
 			mechanized
@@ -60,6 +61,7 @@ equipments = {
 		visual_level = 1
 
 		maximum_speed = 10
+		can_convert_from = { mechanized_equipment_1 }
 
 		#Defensive Abilities
 		defense = 30
@@ -70,7 +72,7 @@ equipments = {
 		#Offensive Abilities
 		ap_attack = 16
 		
-		build_cost_ic = 10
+		build_cost_ic = 9
 		resources = {
 			steel = 3
 			rubber = 1
@@ -86,6 +88,7 @@ equipments = {
 		parent = mechanized_equipment_2
 		priority = 40
 		visual_level = 2
+		can_convert_from = { mechanized_equipment_2 }
 		
 		maximum_speed = 12
 
@@ -98,7 +101,7 @@ equipments = {
 		#Offensive Abilities
 		ap_attack = 21
 		
-		build_cost_ic = 12
+		build_cost_ic = 10
 		resources = {
 			steel = 4
 			rubber = 1

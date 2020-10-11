@@ -1,0 +1,21 @@
+state={
+	id=615
+	name="STATE_761"
+	provinces={
+	 10612 
+	}
+	manpower=2000000
+	buildings_max_level_factor=1.000
+	state_category = pastoral
+	history={
+		owner = MAN
+		add_core_of = MAN
+		buildings = {
+			infrastructure = 4
+		}
+				1936.1.2 = {
+			owner = SWE
+			add_core_of = SWE
+		}
+	}
+}

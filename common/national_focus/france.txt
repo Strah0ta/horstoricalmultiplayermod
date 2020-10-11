@@ -192,7 +192,7 @@
                     }
                 }
             }
-			772 = {
+			601 = {
                     add_building_construction = {
                         type = infrastructure
                         level = 3
@@ -206,7 +206,7 @@
                         instant_build = yes
                     }
                 }
-                774 = {
+                325 = {
                     add_building_construction = {
                         type = infrastructure
                         level = 1
@@ -458,7 +458,7 @@ if = {
 
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
-			772 = {	add_extra_state_shared_building_slots = 16	}
+			601 = {	add_extra_state_shared_building_slots = 16	}
 			539 = {	add_extra_state_shared_building_slots = 16	}
 		}
 	}
@@ -1042,7 +1042,7 @@ if = {
 		}
 
 		completion_reward = {
-			772 = {
+			601 = {
 				if = {
 					limit = { is_controlled_by = ROOT }
 					add_extra_state_shared_building_slots = 3
@@ -1120,7 +1120,7 @@ if = {
 		available_if_capitulated = yes
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
-			772 = {
+			601 = {
 				if = {
 					limit = { is_controlled_by = ROOT }
 					add_extra_state_shared_building_slots = 4
@@ -1148,7 +1148,7 @@ if = {
 		available_if_capitulated = yes
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
-		772 = {
+		601 = {
 					add_extra_state_shared_building_slots = 2
 					add_building_construction = {
 						type = dockyard
@@ -1341,7 +1341,7 @@ check_variable = {  FRA_legitimacy > 40  }    		date > 1940.8.5
 		available_if_capitulated = yes
 		search_filters = { FOCUS_FILTER_ANNEXATION }
 		completion_reward = {
-transfer_state = 774
+transfer_state = 325
 transfer_state = 773
 transfer_state = 660
 		}
@@ -1361,9 +1361,7 @@ transfer_state = 660
 		relative_position_id = FRA_appeal_to_overseas_territories
 		
 		cost = 5
-		ai_will_do = {
-			factor = 1
-		}
+
 		available = {
 		OR = {
 check_variable = {  FRA_legitimacy > 80  }
@@ -1383,15 +1381,15 @@ check_variable = {  FRA_legitimacy > 80  }
 		search_filters = { FOCUS_FILTER_ANNEXATION }
 		completion_reward = {
 transfer_state = 557
-transfer_state = 272
 transfer_state = 556
-transfer_state = 780
-transfer_state = 298
-transfer_state = 779
-transfer_state = 781
-transfer_state = 776
-transfer_state = 777
-transfer_state = 778
+transfer_state = 272
+transfer_state = 748
+transfer_state = 298 
+transfer_state = 753
+transfer_state = 751
+transfer_state = 746
+transfer_state = 747
+transfer_state = 750
 		}
 	}
 	focus = {
@@ -1464,13 +1462,13 @@ transfer_state = 778
 		}
 		
 		bypass = {
-		OR = { controls_state = 772
+		OR = { controls_state = 601
 		has_war_with = EFR }
 		}
 		available_if_capitulated = yes
 		search_filters = { FOCUS_FILTER_ANNEXATION }
 		completion_reward = {
-transfer_state = 772
+transfer_state = 601
 		}
 	}
 	focus = {
@@ -1512,8 +1510,8 @@ transfer_state = 772
 			transfer_state = 295 
 			transfer_state = 718 
 			transfer_state = 538 
-			transfer_state = 768 
-			transfer_state = 769 
+			transfer_state = 618 
+			transfer_state = 616 
 		}
 	}
 	focus = {

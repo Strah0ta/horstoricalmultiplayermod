@@ -47,12 +47,11 @@ transfer_state = 97
 67 = { add_core_of = POL }
 YUG = {
 transfer_state = 163 #Zara 
-transfer_state = 763 #Istria
 }
 HUN = { release = YUG release = CZE release = ROM }
 SOV = {    
 transfer_state = 188 #Memel          ###GERMANY###
-transfer_state = 763 #Konigsberg
+transfer_state = 330 #Konigsberg
 transfer_state = 62 #Vorpommern
 transfer_state = 61 #Mecklenberg
 transfer_state = 64 #Brandenburg
@@ -121,7 +120,7 @@ GER = {
 }
 ENG = { add_to_faction = GER } 
 HOL = { transfer_state = 309 transfer_state = 695 transfer_state = 322 transfer_state = 669 transfer_state = 668 transfer_state = 673 transfer_state = 667 transfer_state = 334  transfer_state = 335 transfer_state = 738 }
-BEL = { transfer_state = 295 transfer_state = 768 transfer_state = 769 transfer_state = 718 transfer_state = 538 }
+BEL = { transfer_state = 295 transfer_state = 618 transfer_state = 616 transfer_state = 718 transfer_state = 538 }
 ENG = {	country_event = { id = britain.1116 days = 1 }	}
 #ENG = {	country_event = { id = britain.1115 days = 4 }	}
 }
@@ -438,20 +437,20 @@ transfer_state = 556
 556 = { set_demilitarized_zone = yes }
 transfer_state = 272
 272 = { set_demilitarized_zone = yes }
-transfer_state = 780
-780 = { set_demilitarized_zone = yes }
-transfer_state = 298
+transfer_state = 748
+748 = { set_demilitarized_zone = yes }
+transfer_state = 298 
 298 = { set_demilitarized_zone = yes }
-transfer_state = 779
-779 = { set_demilitarized_zone = yes }
-transfer_state = 781
-781 = { set_demilitarized_zone = yes }
-transfer_state = 776
-776 = { set_demilitarized_zone = yes }
-transfer_state = 777
-777 = { set_demilitarized_zone = yes }
-transfer_state = 778
-778 = { set_demilitarized_zone = yes }
+transfer_state = 753
+753 = { set_demilitarized_zone = yes }
+transfer_state = 751
+751 = { set_demilitarized_zone = yes }
+transfer_state = 746
+746 = { set_demilitarized_zone = yes }
+transfer_state = 747
+747 = { set_demilitarized_zone = yes }
+transfer_state = 750
+750 = { set_demilitarized_zone = yes }
 }
 ###MADAGASCAR###
 if = { limit = { FRA = { check_variable = { FRA_legitimacy 	< 60 } } }
@@ -460,8 +459,8 @@ transfer_state = 543
 }
 ###CENTRAL AFRICA - BET###
 if = { limit = { FRA = { check_variable = { FRA_legitimacy 	< 40 } } }
-transfer_state = 774
-774 = { set_demilitarized_zone = yes }
+transfer_state = 325
+325 = { set_demilitarized_zone = yes }
 transfer_state = 773
 773 = { set_demilitarized_zone = yes }
 transfer_state = 660
@@ -470,8 +469,8 @@ transfer_state = 660
 ###CENTRAL AFRICA - GABON###
 if = { limit = { FRA = { check_variable = { FRA_legitimacy 	< 20 } } }
 #transfer_state = 539 #Gabon, commented out so its not as harsh for France players
-transfer_state = 772
-772	 = { set_demilitarized_zone = yes }
+transfer_state = 601
+601	 = { set_demilitarized_zone = yes }
 }
 ###CENTRAL AFRICA - BELGIAN CONGO###
 if = { limit = { FRA = { check_variable = { FRA_legitimacy 	> 59 } } }
@@ -479,8 +478,8 @@ FRA = {
 			transfer_state = 295 
 			transfer_state = 718 
 			transfer_state = 538 
-			transfer_state = 768 
-			transfer_state = 769 
+			transfer_state = 618 
+			transfer_state = 616 
 			}
 }
 

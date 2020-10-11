@@ -1,7 +1,7 @@
 	HMP_script_balkans = {
 			GER = { 
-			transfer_state = 775 transfer_state = 764 transfer_state = 109 transfer_state = 104 transfer_state = 107 transfer_state = 108  transfer_state = 292 
-			775 = { set_compliance = 100 }  109 = { set_compliance = 80 } 104 = { set_compliance = 80 } 764 = { set_compliance = 60 }
+			transfer_state = 744 transfer_state = 619 transfer_state = 109 transfer_state = 104 transfer_state = 107 transfer_state = 108  transfer_state = 292 
+			744 = { set_compliance = 100 }  109 = { set_compliance = 80 } 104 = { set_compliance = 80 } 619 = { set_compliance = 60 }
 			
 			}
 			BUL = {   transfer_state = 184  184 = { set_compliance = 60 }    transfer_state = 731  731 = { set_compliance = 60 }            transfer_state = 293  293 = { set_compliance = 60 }   transfer_state = 106    106 = { set_compliance = 60 }  }

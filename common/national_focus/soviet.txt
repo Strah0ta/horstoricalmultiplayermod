@@ -515,7 +515,7 @@ focus_tree = {
 		id = SOV_china_prc
 		icon = GFX_focus_prc_proclaim_the_peoples_republic
 		prerequisite = { focus = SOV_invade_Japan }
-		available = {	controls_state = 761		}
+		available = {	controls_state = 615		}
 		relative_position_id = SOV_invade_Japan
 		x = 0
 		y = 1
