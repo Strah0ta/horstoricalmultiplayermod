@@ -1,5 +1,5 @@
 supply_area={
-	id=195
+	id=116
 	name="SUPPLYAREA_195"
 	value=0
 	states={
