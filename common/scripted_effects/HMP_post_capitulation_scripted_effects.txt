@@ -231,7 +231,7 @@ transfer_state = 299 #Falkland Islands
 transfer_state = 720 #South Georgia 
 transfer_state = 523 #Papua
 transfer_state = 737 #Bismarck
-transfer_state = 758 #Australian Central Cordillera
+transfer_state = 415 #Australian Central Cordillera
 transfer_state = 331 #Dutch Central Cordillera
 
 }
@@ -441,8 +441,8 @@ transfer_state = 748
 748 = { set_demilitarized_zone = yes }
 transfer_state = 298 
 298 = { set_demilitarized_zone = yes }
-transfer_state = 753
-753 = { set_demilitarized_zone = yes }
+transfer_state = 511
+511 = { set_demilitarized_zone = yes }
 transfer_state = 751
 751 = { set_demilitarized_zone = yes }
 transfer_state = 746

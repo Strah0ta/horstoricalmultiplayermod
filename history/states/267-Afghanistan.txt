@@ -1,9 +1,0 @@
-state={
-id=267
-name="STATE_267"
-manpower = 1
-state_category = wasteland
-provinces={
- 7448 7519 7584 10781 10852 12248 12314 12653 12877
-}
-}
