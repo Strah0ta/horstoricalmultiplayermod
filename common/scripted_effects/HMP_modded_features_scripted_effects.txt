@@ -52,36 +52,8 @@ HMP_ger_total_mob_1 = yes
 HMP_ger_total_mob_1 = yes 
 }
 
-FRA_fix_africa = {
-if = { limit = { GER = { controls_state = 553  } } FRA = { set_state_controller = 553  } }
-if = { limit = { GER = { controls_state = 677  } } FRA = { set_state_controller = 677  } }
-if = { limit = { GER = { controls_state = 554  } } FRA = { set_state_controller = 554  } }
-if = { limit = { GER = { controls_state = 680  } } FRA = { set_state_controller = 680  } }
-if = { limit = { GER = { controls_state = 741  } } FRA = { set_state_controller = 741  } }
-if = { limit = { GER = { controls_state = 670  } } FRA = { set_state_controller = 670  } }
-if = { limit = { GER = { controls_state = 671  } } FRA = { set_state_controller = 671  } }
-if = { limit = { GER = { controls_state = 310  } } FRA = { set_state_controller = 310  } }
-if = { limit = { GER = { controls_state = 694  } } FRA = { set_state_controller = 694  } }
-if = { limit = { GER = { controls_state = 458  } } FRA = { set_state_controller = 458  } }
-if = { limit = { GER = { controls_state = 665  } } FRA = { set_state_controller = 665  } }
-if = { limit = { GER = { controls_state = 460  } } FRA = { set_state_controller = 460  } }
-if = { limit = { GER = { controls_state = 513  } } FRA = { set_state_controller = 513  } }
-if = { limit = { GER = { controls_state = 459  } } FRA = { set_state_controller = 459  } }
-if = { limit = { GER = { controls_state = 461  } } FRA = { set_state_controller = 462  } }
-if = { limit = { GER = { controls_state = 462  } } FRA = { set_state_controller = 462  } }
-if = { limit = { GER = { controls_state = 272  } } FRA = { set_state_controller = 272  } }
-if = { limit = { GER = { controls_state = 780  } } FRA = { set_state_controller = 780  } }
-if = { limit = { GER = { controls_state = 298  } } FRA = { set_state_controller = 298  } }
-if = { limit = { GER = { controls_state = 779  } } FRA = { set_state_controller = 779  } }
-if = { limit = { GER = { controls_state = 556  } } FRA = { set_state_controller = 556  } }
-if = { limit = { GER = { controls_state = 778  } } FRA = { set_state_controller = 778  } }
-if = { limit = { GER = { controls_state = 781  } } FRA = { set_state_controller = 781  } }
-if = { limit = { GER = { controls_state = 776  } } FRA = { set_state_controller = 776  } }
-if = { limit = { GER = { controls_state = 777  } } FRA = { set_state_controller = 777  } }
-}
-
 stupid_china_gun_fix = {
- transfer_state = 594 transfer_state = 599 transfer_state = 592 transfer_state = 591 transfer_state = 593 transfer_state = 602 transfer_state = 595 transfer_state = 600 transfer_state = 620 transfer_state = 596 transfer_state = 613 transfer_state = 506 transfer_state = 606 transfer_state = 607 transfer_state = 598 transfer_state = 597 transfer_state = 743 transfer_state = 614
+ transfer_state = 594 transfer_state = 599 transfer_state = 592 transfer_state = 591 transfer_state = 593 transfer_state = 602 transfer_state = 595 transfer_state = 600 transfer_state = 620 transfer_state = 596 transfer_state = 613 transfer_state = 506 transfer_state = 606 transfer_state = 607 transfer_state = 598 transfer_state = 597 transfer_state = 305 transfer_state = 614
 SWE = { transfer_state = 608 }
 if = { limit = { country_exists = MAN } MAN = { transfer_state = 608 }  }
 else = { transfer_state = 608 }
@@ -357,7 +329,7 @@ SPR_relocate_mil = yes
 }
 
 HMP_no_asia_country_changes = {
-SWE  = { give_resource_rights = { receiver = GER state = 724 }	}
+SWE  = { give_resource_rights = { receiver = GER state = 494 }	}
 SWE = { country_event = { id = wtt_japan.109  days = 730  }  country_event = { id = wtt_japan.119  days = 1350  }    }
 ENG = { 
 				695 = {
@@ -391,7 +363,7 @@ ENG = {
 					instant_build = yes
 				}
 					}
-			723 = {
+			300 = {
 				add_building_construction = {
 					type = infrastructure
 					level = 2
@@ -406,7 +378,7 @@ ENG = {
 				}					
  }
  FRA = {
- 							730 = {
+ 							495 = {
 			add_resource = {	type = steel	amount = 94	}  
 				} 
  }

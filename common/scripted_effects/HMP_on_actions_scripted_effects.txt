@@ -12,7 +12,7 @@ HMP_startup_on_actions = {
 				give_resource_rights = { receiver = USA state = 479 }
 				give_resource_rights = { receiver = USA state = 480 }	
 				}
-				JAP  = { give_resource_rights = { receiver = GER state = 724 }	}
+				JAP  = { give_resource_rights = { receiver = GER state = 494 }	}
 				if = { limit = { MAN = { is_ai = yes }} JAP = { country_event = { id = japan.148 days = 1  }}   }
 				if = { limit = { NZL = { is_ai = yes }} AST = { country_event = { id = japan.758 days = 1  }}   }				
 				if = { limit = { has_start_date > 1936.01.02 }  HMP_no_asia = yes      }
@@ -166,19 +166,19 @@ HMP_capitulations_on_actions = {
 			
 			if = {
 			limit = { AND = { FROM = { original_tag = JAP } ROOT = { original_tag = NZL } NOT = { country_exists = AST }} }
-			JAP = { transfer_state = 726 transfer_state = 634 transfer_state = 737 transfer_state = 523 transfer_state = 518 transfer_state = 415 }
+			JAP = { transfer_state = 490 transfer_state = 634 transfer_state = 312 transfer_state = 523 transfer_state = 518 transfer_state = 415 }
 			}
 			if = {
 			limit = { AND = { FROM = { original_tag = JAP } ROOT = { original_tag = AST } NOT = { country_exists = NZL }} }
-			JAP = { transfer_state  = 726 transfer_state  = 634 transfer_state  = 737 transfer_state  = 523 transfer_state = 518 transfer_state = 415   }
+			JAP = { transfer_state  = 490 transfer_state  = 634 transfer_state  = 312 transfer_state  = 523 transfer_state = 518 transfer_state = 415   }
 			}
 						if = {
 			limit = { AND = { FROM = { original_tag = JAP } ROOT = { original_tag = NZL } country_exists = AST } }
-			JAP = { transfer_state  = 726  }
+			JAP = { transfer_state  = 490  }
 			}
 						if = {
 			limit = { AND = { FROM = { original_tag = JAP } ROOT = { original_tag = AST }  country_exists = NZL } }
-			JAP = {  transfer_state  = 634 transfer_state  = 737 transfer_state  = 523 transfer_state = 415  transfer_state  = 518 }
+			JAP = {  transfer_state  = 634 transfer_state  = 312 transfer_state  = 523 transfer_state = 415  transfer_state  = 518 }
 			}
 			
 			if = {

@@ -357,18 +357,18 @@
                 670 = {
                     add_building_construction = {
                         type = infrastructure
-                        level = 1
+                        level = 2
                         instant_build = yes
                     }
                 }
             }
 
     if = {
-                limit = { 741 = { is_fully_controlled_by = ROOT } }
-                741 = {
+                limit = { 493 = { is_fully_controlled_by = ROOT } }
+                493 = {
                     add_building_construction = {
                         type = infrastructure
-                        level = 1
+                        level = 3
                         instant_build = yes
                     }
                 }
@@ -1383,12 +1383,12 @@ check_variable = {  FRA_legitimacy > 80  }
 transfer_state = 557
 transfer_state = 556
 transfer_state = 272
-transfer_state = 748
+transfer_state = 510
 transfer_state = 298 
 transfer_state = 511
 transfer_state = 751
-transfer_state = 746
-transfer_state = 747
+transfer_state = 509
+transfer_state = 508
 transfer_state = 445
 		}
 	}
@@ -1508,7 +1508,7 @@ transfer_state = 601
 		completion_reward = {
 		transfer_state = 543
 			transfer_state = 295 
-			transfer_state = 718 
+			transfer_state = 280 
 			transfer_state = 538 
 			transfer_state = 618 
 			transfer_state = 616 

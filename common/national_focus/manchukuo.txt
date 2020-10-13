@@ -357,8 +357,8 @@ focus_tree = {
 				} 
 			}
 			if = {
-				limit = { 714 = { is_fully_controlled_by = ROOT } }
-				714 = {
+				limit = { 688 = { is_fully_controlled_by = ROOT } }
+				688 = {
 					add_building_construction = {
 						type = infrastructure
 						level = 2
@@ -367,7 +367,7 @@ focus_tree = {
 				}
 			}
 				if = {
-				limit = { 714 = { is_fully_controlled_by = ROOT } }
+				limit = { 688 = { is_fully_controlled_by = ROOT } }
 				612 = {
 					add_building_construction = {
 						type = infrastructure
@@ -377,7 +377,7 @@ focus_tree = {
 				}
 			}
 				if = {
-				limit = { 714 = { is_fully_controlled_by = ROOT } }
+				limit = { 688 = { is_fully_controlled_by = ROOT } }
 				611 = {
 					add_building_construction = {
 						type = infrastructure

@@ -192,7 +192,7 @@ on_state_control_changed = {
 					FRA = { country_event = { id = france.10 }}
 					GER = {  country_event = { id = france.14 }}
 					FRA = { news_event = { id = news.34 days = 0 } }
-					if = { limit = { country_exists = JAP } JAP = { transfer_state = 671 transfer_state = 670 transfer_state = 286 transfer_state = 728 transfer_state = 741 } }
+					if = { limit = { country_exists = JAP } JAP = { transfer_state = 671 transfer_state = 670 transfer_state = 286 transfer_state = 498 transfer_state = 493 } }
 
 					}				
 				if = {

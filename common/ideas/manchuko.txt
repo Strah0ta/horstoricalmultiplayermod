@@ -715,10 +715,6 @@ MAN_mamc = {
 
 			picture = generic_air_manufacturer_1
 
-			available = {
-				controls_state = 714
-			}
-
 			allowed = {
 				original_tag = MAN
 				NOT = { has_dlc = "Waking the Tiger" }

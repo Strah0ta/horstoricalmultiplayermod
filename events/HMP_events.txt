@@ -45,7 +45,7 @@ country_event = {
 		if = {  limit = { original_tag = BEL }
 			set_state_controller = 538
 			set_state_controller = 295
-			set_state_controller = 718
+			set_state_controller = 280
 			set_state_controller = 616
 			set_state_controller = 618
 			}	
@@ -269,7 +269,7 @@ country_event = {
 				ENG = {
 	transfer_state = 669
 	transfer_state = 668
-	transfer_state = 738
+	transfer_state = 317
 	transfer_state = 667
 	transfer_state = 673
 	transfer_state = 334
@@ -322,7 +322,7 @@ country_event = {
 			}			
 			POL = {	country_event = { id = germany.86 }	}
 			hidden_effect = {
-			GER = { remove_resource_rights = 724 }
+			GER = { remove_resource_rights = 494 }
 			ENG = {	add_war_support = 0.1 	country_event = britain.24 }	FRA = {add_war_support = 0.1 }
 			SAF = {	country_event = tfv_south_africa.133 }
 		    125 = {
@@ -563,7 +563,6 @@ country_event = {
 		name = france.10.b
 		
 		trigger = { FRA = { has_capitulated = yes }}
-		FRA_fix_africa = yes
 		set_global_flag = fall_of_france
 		set_cosmetic_tag = FRA_FREE
 		custom_effect_tooltip = france.10.b_tt
@@ -1448,12 +1447,12 @@ is_triggered_only = yes
    option = {
    name = "Confirm Integration"
 
-			716 = {	add_resource = {  type = steel amount = 12}	} 
-			716 = {	add_resource = {  type = steel amount = 16} }
+			496 = {	add_resource = {  type = steel amount = 12}	} 
+			496 = {	add_resource = {  type = steel amount = 16} }
 			328 = {	add_resource = {  type = aluminium amount = 16}	}
 			
 			annex_country = { target = MAN transfer_troops = yes }
-			716 = { set_compliance = 100 } 	328 = { set_compliance = 100 }	717 = { set_compliance = 100 } 714 = { set_compliance = 100 }	615 = { set_compliance = 100 } 	715 = { set_compliance = 100 }	612 = { set_compliance = 100 } 
+			496 = { set_compliance = 100 } 	328 = { set_compliance = 100 }	505 = { set_compliance = 100 } 688 = { set_compliance = 100 }	615 = { set_compliance = 100 } 	504 = { set_compliance = 100 }	612 = { set_compliance = 100 } 
 			610 = { set_compliance = 100 }	611 = { set_compliance = 100 }  
    		add_tech_bonus = {
 			name = "Integrate Manchukuo"
@@ -1504,7 +1503,7 @@ NZL = {
  complete_national_focus = NZL_national_roads_board complete_national_focus = NZL_taranaki_oil complete_national_focus = NZL_new_zealand_steel 
 			   every_unit_leader = { set_nationality = AST    }
 				transfer_navy = {	target = AST	}
-				remove_state_core = 723   remove_state_core = 284
+				remove_state_core = 300   remove_state_core = 284
 }
 	AST = { 	annex_country = { target = NZL	transfer_troops = yes 	}}
    }
@@ -3686,7 +3685,7 @@ country_event = {
 		trigger = { has_completed_focus = MAN_pacify_the_countrysidex }
 		
 				name = wtt_manchukou.129.a #okay
-				715 = {
+				504 = {
 		add_extra_state_shared_building_slots = 3
 		add_building_construction = {
 		type = infrastructure 
@@ -3726,7 +3725,7 @@ country_event = {
 
 		}
 		
-		716 = {
+		496 = {
 		add_extra_state_shared_building_slots = 3
 		add_building_construction = {
 		type = infrastructure 
@@ -4028,7 +4027,7 @@ country_event = {
 				trigger = { AND = { has_completed_focus = MAN_pacify_the_countrysidex  } NOT = { has_country_flag = MAN_sungkiang }            }
 
 		
-	717	= {
+	505	= {
 		add_extra_state_shared_building_slots = 3
 		add_building_construction = {
 		type = infrastructure 
@@ -4106,7 +4105,7 @@ country_event = {
 				trigger = { AND = { has_completed_focus = MAN_pacify_the_countrysidex  } NOT = { has_country_flag = MAN_heilungkiang }            }
 
 		
-			714	= {
+			688	= {
 		add_extra_state_shared_building_slots = 3
 		add_building_construction = {
 		type = infrastructure 

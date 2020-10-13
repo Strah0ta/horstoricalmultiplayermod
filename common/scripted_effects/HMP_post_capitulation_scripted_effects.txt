@@ -119,8 +119,8 @@ GER = {
 	}
 }
 ENG = { add_to_faction = GER } 
-HOL = { transfer_state = 309 transfer_state = 695 transfer_state = 322 transfer_state = 669 transfer_state = 668 transfer_state = 673 transfer_state = 667 transfer_state = 334  transfer_state = 335 transfer_state = 738 }
-BEL = { transfer_state = 295 transfer_state = 618 transfer_state = 616 transfer_state = 718 transfer_state = 538 }
+HOL = { transfer_state = 309 transfer_state = 695 transfer_state = 322 transfer_state = 669 transfer_state = 668 transfer_state = 673 transfer_state = 667 transfer_state = 334  transfer_state = 335 transfer_state = 317 }
+BEL = { transfer_state = 295 transfer_state = 618 transfer_state = 616 transfer_state = 280 transfer_state = 538 }
 ENG = {	country_event = { id = britain.1116 days = 1 }	}
 #ENG = {	country_event = { id = britain.1115 days = 4 }	}
 }
@@ -168,7 +168,7 @@ every_state = {
 JAP = {
 transfer_state = 669 #West Papua
 transfer_state = 668 #The Moluccas
-transfer_state = 739 #Aru Islands
+transfer_state = 317 #Aru Islands
 transfer_state = 667 #Lesser Sunda Islands
 transfer_state = 673 #Sulawesi
 transfer_state = 334 #Kalimantan
@@ -184,29 +184,29 @@ transfer_state = 626 #Palawan
 transfer_state = 624 #Central Islands 
 transfer_state = 327 #Manila
 transfer_state = 623 #Luzon 
-transfer_state = 711 #Christmas Island 
+transfer_state = 501 #Christmas Island 
 transfer_state = 326 #Hong Kong 
-transfer_state = 733 #Andaman 
+transfer_state = 307 #Andaman 
 transfer_state = 422 #Ceylon  
 transfer_state = 281 #Maldives
-transfer_state = 710 #Diego Garcia 
-transfer_state = 713 #Kergulen 
-transfer_state = 712 #Cocos Islands
+transfer_state = 315 #Diego Garcia 
+transfer_state = 301 #Kergulen 
+transfer_state = 503 #Cocos Islands
 transfer_state = 320 #French India  
-transfer_state = 709 #Seychelles 
+transfer_state = 318 #Seychelles 
 transfer_state = 636 #Fiji 
-transfer_state = 726 #Samoa
+transfer_state = 490 #Samoa
 transfer_state = 635 #New Caledonia 
-transfer_state = 725 #Nauru 
+transfer_state = 491 #Nauru 
 transfer_state = 639 #Gilbert Islands 
 transfer_state = 642 #Phoenix Island 
-transfer_state = 734 #Nendo 
+transfer_state = 489 #Nendo 
 transfer_state = 643 #Ellice Islands 
 transfer_state = 638 #Guam 
 transfer_state = 634 #Solomon Islands 
 transfer_state = 641 #Tahiti 
 transfer_state = 270 #Pitcairn Island 
-transfer_state = 727 #Line Islands 
+transfer_state = 499 #Line Islands 
 transfer_state = 630 #Johnston Atoll 
 transfer_state = 632 #Wake Island
 transfer_state = 631 #Midwawy Island 
@@ -215,8 +215,8 @@ transfer_state = 650 #Attu Island
 transfer_state = 463 #Alaska 
 transfer_state = 471 #Northwestern Canada 
 transfer_state = 473 #British Columbia 
-transfer_state = 739 #Haida Gwaii 
-transfer_state = 740 #Vancouver Island
+transfer_state = 316 #Haida Gwaii 
+transfer_state = 304 #Vancouver Island
 transfer_state = 387 #Idaho 
 transfer_state = 386 #Washington 
 transfer_state = 385 #Oregon 
@@ -228,9 +228,9 @@ transfer_state = 484 #Baja California
 transfer_state = 483 #Sonora 
 transfer_state = 685 #Panama Canal 
 transfer_state = 299 #Falkland Islands 
-transfer_state = 720 #South Georgia 
+transfer_state = 302 #South Georgia 
 transfer_state = 523 #Papua
-transfer_state = 737 #Bismarck
+transfer_state = 312 #Bismarck
 transfer_state = 415 #Australian Central Cordillera
 transfer_state = 331 #Dutch Central Cordillera
 
@@ -241,7 +241,7 @@ transfer_state = 460 #Constantine
 transfer_state = 458 #Tunisia
 transfer_state = 665 #Gabes
 transfer_state = 1 #Corsica
-transfer_state = 735 #Savoy
+transfer_state = 313 #Savoy
 transfer_state = 32 #Alpes 
 transfer_state = 21 #Provence 
 transfer_state = 452 #Marsa Matruh  
@@ -283,8 +283,8 @@ every_state	= { limit = { OR = { is_owned_by = ENG is_owned_by = CAN is_owned_by
 horstorical_multiplayer_vichy_france = {
 FRA = {  FRA_legitimacy_week_counter = yes  FRA_legitimacy_casualties_counter = yes }
 FRA = { country_event = { id = usa.999 days = 1 }}
-ITA = { transfer_state = 735 
-735 = { set_compliance = 60 }
+ITA = { transfer_state = 313 
+313 = { set_compliance = 60 }
 transfer_state = 665
 665 = { set_compliance = 20 }
 transfer_state = 458
@@ -437,18 +437,18 @@ transfer_state = 556
 556 = { set_demilitarized_zone = yes }
 transfer_state = 272
 272 = { set_demilitarized_zone = yes }
-transfer_state = 748
-748 = { set_demilitarized_zone = yes }
+transfer_state = 510
+510 = { set_demilitarized_zone = yes }
 transfer_state = 298 
 298 = { set_demilitarized_zone = yes }
 transfer_state = 511
 511 = { set_demilitarized_zone = yes }
 transfer_state = 436
 436 = { set_demilitarized_zone = yes }
-transfer_state = 746
-746 = { set_demilitarized_zone = yes }
-transfer_state = 747
-747 = { set_demilitarized_zone = yes }
+transfer_state = 509
+509 = { set_demilitarized_zone = yes }
+transfer_state = 508
+508 = { set_demilitarized_zone = yes }
 transfer_state = 445
 445 = { set_demilitarized_zone = yes }
 }
@@ -476,7 +476,7 @@ transfer_state = 601
 if = { limit = { FRA = { check_variable = { FRA_legitimacy 	> 59 } } }
 FRA = { 
 			transfer_state = 295 
-			transfer_state = 718 
+			transfer_state = 280 
 			transfer_state = 538 
 			transfer_state = 618 
 			transfer_state = 616 
@@ -507,7 +507,7 @@ transfer_state = 19
 transfer_state = 29
 }
 GER = { add_ideas = VIC_guest_workers }
-FRA = { transfer_state = 713 
+FRA = { transfer_state = 301 
 remove_ideas = FRA_protected_by_the_maginot_line
 remove_ideas = FRA_victors_of_wwi2
 add_ideas = FRA_defeatism

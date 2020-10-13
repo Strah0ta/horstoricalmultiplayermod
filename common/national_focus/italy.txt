@@ -1416,7 +1416,7 @@ date > 1941.6.1
 			add_state_core = 163
 			add_state_core = 116
 			add_state_core = 1
-			add_state_core = 735
+			add_state_core = 313
 			}
 		}
 	

@@ -1936,7 +1936,7 @@ allowed = { original_tag = SAF }
 			NZL = { 
 			   every_unit_leader = { set_nationality = AST    }
 				transfer_navy = {	target = AST	}
-				remove_state_core = 723   remove_state_core = 284
+				remove_state_core = 300   remove_state_core = 284
 			}
 			AST = { 	annex_country = { target = NZL	transfer_troops = yes 	}}
 		}
@@ -1962,7 +1962,7 @@ allowed = { original_tag = SAF }
 				add_state_core = 517
 				add_state_core = 518
 				add_state_core = 523
-				add_state_core = 737
+				add_state_core = 312
                 add_state_core = 634	
 AST = { 
 				 every_unit_leader = {   set_nationality = NZL  }
@@ -1983,7 +1983,7 @@ AST = {
 				remove_state_core = 517
 				remove_state_core = 518
 				remove_state_core = 523
-				remove_state_core = 737
+				remove_state_core = 312
                 remove_state_core = 634
 			}
 		}
@@ -3073,13 +3073,13 @@ political_actions = {
 			limit = { MAN = { has_completed_focus = MAN_pacify_the_countrysidex } }
 			if = { 
 			limit = { NOT = { MAN = { has_completed_focus = MAN_showa_steel } } }
-			716 = {
+			496 = {
 			add_resource = {  type = steel amount = 12}
 			}
 			
 			}
 			if = { limit = { NOT = { MAN = { has_completed_focus = MAN_anshan_steelworks } } }
-			716 = {
+			496 = {
 			add_resource = {  type = steel amount = 16}
 			}
 			
@@ -3101,13 +3101,13 @@ political_actions = {
 			
 				
 			if = { limit = { NOT = { MAN = { has_completed_focus = MAN_invite_japanese_investors } } }
-			716 = {
+			496 = {
 			add_resource = {  type = steel amount = 12}
 			}
 			
 			}
 			if = { limit = { NOT = { MAN = { has_completed_focus = MAN_expand_showa_steel_works } } }
-			716 = {
+			496 = {
 			add_resource = {  type = steel amount = 16}
 			}
 			
@@ -3122,8 +3122,8 @@ political_actions = {
 			}
 			
 			annex_country = { target = MAN transfer_troops = yes }
-					716 = { set_compliance = 100 } 	328 = { set_compliance = 100 }	717 = { set_compliance = 100 } 714 = { set_compliance = 100 }
-					615 = { set_compliance = 100 } 	715 = { set_compliance = 100 }	612 = { set_compliance = 100 } 610 = { set_compliance = 100 }
+					496 = { set_compliance = 100 } 	328 = { set_compliance = 100 }	505 = { set_compliance = 100 } 688 = { set_compliance = 100 }
+					615 = { set_compliance = 100 } 	504 = { set_compliance = 100 }	612 = { set_compliance = 100 } 610 = { set_compliance = 100 }
 					611 = { set_compliance = 100 } 	608 = { set_compliance = 100 }
 		}
 	}
