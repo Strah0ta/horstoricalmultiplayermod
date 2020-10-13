@@ -108,24 +108,24 @@ units= {
 			name = "Chernomorskiy Podvodniy Flot"
 			location = 3686 # Sevastopopl
 			# 9iy Podvodniy Flot
-			ship = { name = "Shch-121" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Series IX Srednyaya" } } }			
-			ship = { name = "Shch-122" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Series IX Srednyaya" } } }			
-			ship = { name = "Shch-123" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Series IX Srednyaya" } } }			
-			ship = { name = "Shch-124" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Series IX Srednyaya" } } }
+			ship = { name = "Shch-121" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = SOV version_name = "Leningrad & Minsk Class" } } }			
+			ship = { name = "Shch-122" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = SOV version_name = "Leningrad & Minsk Class" } } }			
+			ship = { name = "Shch-123" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = SOV version_name = "Leningrad & Minsk Class" } } }			
+			ship = { name = "Shch-124" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = SOV version_name = "Leningrad & Minsk Class" } } }
 			
 			# 15iy Podvodniy Flot
-			ship = { name = "A-1" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = SOV version_name = "Series I Debakrist" } } }
-			ship = { name = "A-2" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = SOV version_name = "Series I Debakrist" } } }
-			ship = { name = "A-3" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = SOV version_name = "Series I Debakrist" } } }
-			ship = { name = "A-4" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = SOV version_name = "Series I Debakrist" } } }
-			ship = { name = "A-5" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = SOV version_name = "Series I Debakrist" } } }
-			ship = { name = "Shch-133" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Series IX Srednyaya" } } }			
-			ship = { name = "Shch-134" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Series IX Srednyaya" } } }	
-			ship = { name = "Shch-135" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Series IX Srednyaya" } } }	
+			ship = { name = "A-1" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "Fidonisi Class" } } }
+			ship = { name = "A-2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "Fidonisi Class" } } }
+			ship = { name = "A-3" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "Fidonisi Class" } } }
+			ship = { name = "A-4" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "Fidonisi Class" } } }
+			ship = { name = "A-5" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "Fidonisi Class" } } }
+			ship = { name = "Shch-133" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = SOV version_name = "Leningrad & Minsk Class" } } }			
+			ship = { name = "Shch-134" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = SOV version_name = "Leningrad & Minsk Class" } } }	
+			ship = { name = "Shch-135" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = SOV version_name = "Leningrad & Minsk Class" } } }	
 			# 17iy  Podvodniy Flot
-			ship = { name = "L-4" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Series IX Srednyaya" } } }			
-			ship = { name = "L-5" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Series IX Srednyaya" } } }			
-			ship = { name = "L-6" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = SOV version_name = "Series IX Srednyaya" } } }			
+			ship = { name = "L-4" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = SOV version_name = "Leningrad & Minsk Class" } } }			
+			ship = { name = "L-5" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = SOV version_name = "Leningrad & Minsk Class" } } }			
+			ship = { name = "L-6" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = SOV version_name = "Leningrad & Minsk Class" } } }			
 		}	
 	}
 

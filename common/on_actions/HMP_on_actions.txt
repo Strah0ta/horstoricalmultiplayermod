@@ -192,7 +192,7 @@ on_state_control_changed = {
 					FRA = { country_event = { id = france.10 }}
 					GER = {  country_event = { id = france.14 }}
 					FRA = { news_event = { id = news.34 days = 0 } }
-					if = { limit = { country_exists = JAP } JAP = { transfer_state = 497 transfer_state = 670 transfer_state = 286 transfer_state = 498 transfer_state = 493 } }
+					if = { limit = { country_exists = JAP } JAP = { transfer_state = 497 transfer_state = 397 transfer_state = 286 transfer_state = 498 transfer_state = 493 } }
 
 					}				
 				if = {
@@ -213,9 +213,9 @@ on_state_control_changed = {
 				OR = { 	normally_played_allies = yes tag = SOV }
 				FROM.FROM = { state = 110 } 
 				}
-               GER = { remove_resource_rights = 666 }	
+               GER = { remove_resource_rights = 576 }	
 			   ENG = { set_country_flag = ENG_swe_resources }
-			   SWE = { give_resource_rights = { receiver = ENG state = 666 } }  
+			   SWE = { give_resource_rights = { receiver = ENG state = 576 } }  
 				}						
 					if = {
 				limit = {   HMP_italy_dying = yes}
@@ -313,9 +313,9 @@ on_state_control_changed = {
 					}
 					FROM = { original_tag = ITA }
 					OR = { 
-					FROM.FROM = { state = 661 }
+					FROM.FROM = { state = 644 }
 					FROM.FROM = { state = 448 }
-					FROM.FROM = { state = 665 }
+					FROM.FROM = { state = 577 }
 					FROM.FROM = { state = 458 }
 					}
 					513 = { is_demilitarized_zone = yes }

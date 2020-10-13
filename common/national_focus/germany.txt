@@ -1822,7 +1822,7 @@ focus = {
 		completion_reward = {
 			add_political_power = -20
 			set_global_flag = end_of_czechoslovakia	
-			if = { limit = { NOT = { HUN = { controls_state = 664}}} HUN = { transfer_state = 664 }  } 
+			if = { limit = { NOT = { HUN = { controls_state = 578}}} HUN = { transfer_state = 578 }  } 
 			HUN = { transfer_state = 73 transfer_state = 76 }
 			transfer_state = 9  transfer_state = 75 transfer_state = 70 SWE = { transfer_state = 71}  transfer_state = 71
 			add_war_support = 0.1

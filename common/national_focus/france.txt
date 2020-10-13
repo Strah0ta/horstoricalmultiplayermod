@@ -199,7 +199,7 @@
                         instant_build = yes
                     }
                 }
-                773 = {
+                581 = {
                     add_building_construction = {
                         type = infrastructure
                         level = 1
@@ -240,8 +240,8 @@
 
 
             if = {
-                limit = { 660 = { is_fully_controlled_by = ROOT } }
-                660 = {
+                limit = { 581 = { is_fully_controlled_by = ROOT } }
+                581 = {
                     add_building_construction = {
                         type = infrastructure
                         level = 1
@@ -309,8 +309,8 @@
 
 
     if = {
-                limit = { 665 = { is_fully_controlled_by = ROOT } }
-                665 = {
+                limit = { 577 = { is_fully_controlled_by = ROOT } }
+                577 = {
                     add_building_construction = {
                         type = infrastructure
                         level = 1
@@ -353,8 +353,8 @@
             }
 
     if = {
-                limit = { 670 = { is_fully_controlled_by = ROOT } }
-                670 = {
+                limit = { 397 = { is_fully_controlled_by = ROOT } }
+                397 = {
                     add_building_construction = {
                         type = infrastructure
                         level = 2
@@ -1334,7 +1334,7 @@ check_variable = {  FRA_legitimacy > 40  }    		date > 1940.8.5
 		}
 		
 		bypass = {
-		OR = { controls_state = 773
+		OR = { controls_state = 581
 		has_war_with = EFR }
 		}
 
@@ -1342,8 +1342,8 @@ check_variable = {  FRA_legitimacy > 40  }    		date > 1940.8.5
 		search_filters = { FOCUS_FILTER_ANNEXATION }
 		completion_reward = {
 transfer_state = 325
-transfer_state = 773
-transfer_state = 660
+transfer_state = 603
+transfer_state = 581
 		}
 	}
 	focus = {

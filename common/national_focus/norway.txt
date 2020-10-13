@@ -922,7 +922,7 @@ limit = { NOT = { NOR = { is_in_faction	= yes }}}
 	planning_skill = 5
 	logistics_skill = 4
 }
-	if = { limit = { controls_state = 110 } ENG = { set_country_flag = ENG_swe_resources }   SWE = { give_resource_rights = { receiver = ENG state = 666 } }  }
+	if = { limit = { controls_state = 110 } ENG = { set_country_flag = ENG_swe_resources }   SWE = { give_resource_rights = { receiver = ENG state = 576 } }  }
 						
 		}
 		

@@ -100,6 +100,21 @@ guiTypes = {
 					format = left
 					Orientation = "UPPER_LEFT"
 				}
+				
+								instantTextBoxType = {
+					name = "infantry_subtitle_camelry"
+					position = { x = 40 y = 1350 }
+					textureFile = ""
+					font = "hoi_36header"
+					borderSize = { x = 0 y = 0}
+					text = "INFANTRY_TITLE_CAMELRY"
+					maxWidth = 600
+					maxHeight = 62
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+				
+				
 				instantTextBoxType = {
 					name = "infantry_subtitle_motorized"
 					position = { x = 30 y = 510 }
@@ -313,7 +328,12 @@ guiTypes = {
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}
-			
+				gridboxtype = {
+				name = "jaegers_tree"
+				position = { x = 140 y = 1000 }
+				slotsize = { width = 70 height = 70 }
+				format = "LEFT"
+			}		
 			gridboxtype = {
 				name = "tech_special_forces_tree"
 				position = { x = 140 y = 1290 }

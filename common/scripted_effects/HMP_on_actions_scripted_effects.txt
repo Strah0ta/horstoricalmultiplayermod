@@ -29,7 +29,7 @@ HMP_capitulations_on_actions = {
 			
 		if = {
 			limit = { original_tag = NOR  } 
-				SWE = { give_resource_rights = { receiver = GER state = 666 }	 }
+				SWE = { give_resource_rights = { receiver = GER state = 576 }	 }
 				GER = {  transfer_state = 110 transfer_state = 142 transfer_state = 143 transfer_state = 144   110 = { set_compliance = 40 } 142 = { set_compliance = 40 } 143 = { set_compliance = 40 }   144 = { set_compliance = 40 }  }
 			}	
 							if = {

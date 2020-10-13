@@ -457,7 +457,7 @@ date > 1941.6.1
 		prerequisite = { focus = ITA_italian_highways }
 		available = {
 			ITA = {
-				controls_state = 662
+				controls_state = 580
 			}
 		}
 		x = 0
@@ -513,7 +513,7 @@ date > 1941.6.1
 					}
 				}
 			}
-						663  = {
+						579  = {
 				if = {
 					limit = { is_controlled_by = ROOT }
 					add_building_construction = {
@@ -528,7 +528,7 @@ date > 1941.6.1
 					}
 				}
 			}
-			662 = {
+			580 = {
 				if = {
 					limit = { is_controlled_by = ROOT }
 					add_building_construction = {
@@ -538,7 +538,7 @@ date > 1941.6.1
 					}
 				}
 			}
-						661 = {
+						644 = {
 				if = {
 					limit = { is_controlled_by = ROOT }
 					add_building_construction = {

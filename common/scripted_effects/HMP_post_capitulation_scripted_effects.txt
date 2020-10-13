@@ -82,14 +82,14 @@ release = DEN
 set_autonomy = {  target = ETH  autonomy_state = autonomy_supervised_state }
 		transfer_state = 152 #Upper Austria ###AUSTRIA###
 transfer_state = 448 #Tripoli ###ITALY###
-transfer_state = 661 #Tripolitania
+transfer_state = 644 #Tripolitania
 transfer_state = 449 #El Agheila
-transfer_state = 662 #Sirte
-transfer_state = 663 #Cyrenaica
+transfer_state = 580 #Sirte
+transfer_state = 579 #Cyrenaica
 transfer_state = 450 #Benghasi
 transfer_state = 451 #Derna
 }
-if =  { limit = { country_exists = EFR } FRA = { annex_country = { target = EFR  transfer_troops = yes }  transfer_state = 458 transfer_state = 665 } }
+if =  { limit = { country_exists = EFR } FRA = { annex_country = { target = EFR  transfer_troops = yes }  transfer_state = 458 transfer_state = 577 } }
 if =  { limit = { country_exists = ITA } ITA = { release = FRA release = GRE release = BUL } ENG = { set_autonomy = {  target = ITA  autonomy_state = autonomy_supervised_state } } }
 FRA = {
 transfer_state = 153 #Tyrol ###AUSTRIA###
@@ -119,7 +119,7 @@ GER = {
 	}
 }
 ENG = { add_to_faction = GER } 
-HOL = { transfer_state = 309 transfer_state = 352 transfer_state = 322 transfer_state = 669 transfer_state = 668 transfer_state = 342 transfer_state = 667 transfer_state = 334  transfer_state = 335 transfer_state = 317 }
+HOL = { transfer_state = 309 transfer_state = 352 transfer_state = 322 transfer_state = 516 transfer_state = 562 transfer_state = 342 transfer_state = 575 transfer_state = 334  transfer_state = 335 transfer_state = 317 }
 BEL = { transfer_state = 295 transfer_state = 618 transfer_state = 616 transfer_state = 280 transfer_state = 538 }
 ENG = {	country_event = { id = britain.1116 days = 1 }	}
 #ENG = {	country_event = { id = britain.1115 days = 4 }	}
@@ -166,10 +166,10 @@ every_state = {
 }
 
 JAP = {
-transfer_state = 669 #West Papua
-transfer_state = 668 #The Moluccas
+transfer_state = 516 #West Papua
+transfer_state = 562 #The Moluccas
 transfer_state = 317 #Aru Islands
-transfer_state = 667 #Lesser Sunda Islands
+transfer_state = 575 #Lesser Sunda Islands
 transfer_state = 342 #Sulawesi
 transfer_state = 334 #Kalimantan
 transfer_state = 335 #Java 
@@ -239,7 +239,7 @@ transfer_state = 331 #Dutch Central Cordillera
 ITA = {
 transfer_state = 460 #Constantine
 transfer_state = 458 #Tunisia
-transfer_state = 665 #Gabes
+transfer_state = 577 #Gabes
 transfer_state = 1 #Corsica
 transfer_state = 313 #Savoy
 transfer_state = 32 #Alpes 
@@ -259,9 +259,9 @@ transfer_state = 180 #Aleppo
 transfer_state = 183 #Cyprus 
 transfer_state = 116 #Malta 
 transfer_state = 765 #Qatar
-transfer_state = 658 #Abu Dhabi
+transfer_state = 637 #Abu Dhabi
 transfer_state = 294 #Oman
-transfer_state = 659 #Aden
+transfer_state = 574 #Aden
 
 }
 
@@ -285,8 +285,8 @@ FRA = {  FRA_legitimacy_week_counter = yes  FRA_legitimacy_casualties_counter = 
 FRA = { country_event = { id = usa.999 days = 1 }}
 ITA = { transfer_state = 313 
 313 = { set_compliance = 60 }
-transfer_state = 665
-665 = { set_compliance = 20 }
+transfer_state = 577
+577 = { set_compliance = 20 }
 transfer_state = 458
 458 = { set_compliance = 20 }
 transfer_state = 1 
@@ -461,8 +461,8 @@ transfer_state = 543
 if = { limit = { FRA = { check_variable = { FRA_legitimacy 	< 40 } } }
 transfer_state = 325
 325 = { set_demilitarized_zone = yes }
-transfer_state = 773
-773 = { set_demilitarized_zone = yes }
+transfer_state = 581
+581 = { set_demilitarized_zone = yes }
 transfer_state = 660
 660	 = { set_demilitarized_zone = yes }
 }

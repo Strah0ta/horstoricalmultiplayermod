@@ -182,7 +182,7 @@ focus_tree = {
 			add_state_core = 76
 			add_state_core = 514
 			add_state_core = 84
-			add_state_core = 664
+			add_state_core = 578
 			add_state_core = 45
 		}
 	}
@@ -204,14 +204,14 @@ focus_tree = {
 			}
 		}
 
-		bypass = { owns_state = 664 }
+		bypass = { owns_state = 578 }
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
 
 		completion_reward = {
-			transfer_state = 664	
+			transfer_state = 578	
 		}
 	}
 
