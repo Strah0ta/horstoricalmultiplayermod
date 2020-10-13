@@ -170,14 +170,14 @@ state = 368 #Tennessee
 state = 360 #Pennsylvania
 state = 391 #Minnesota
 state = 386 #Washington
-state = 683 #NE Canada
+state = 544 #NE Canada
 state = 487 #Natal
 state = 275 #Transvaal
 state = 328 #Kirin
 state = 496 #Liaotung
 state = 115 #Sicily
 state = 158 #Piedmont
-state = 687 #B. Guyana
+state = 151 #B. Guyana
 }
 }
 HMP_italy_dying = {

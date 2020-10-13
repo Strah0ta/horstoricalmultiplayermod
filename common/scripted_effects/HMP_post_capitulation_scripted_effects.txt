@@ -119,7 +119,7 @@ GER = {
 	}
 }
 ENG = { add_to_faction = GER } 
-HOL = { transfer_state = 309 transfer_state = 695 transfer_state = 322 transfer_state = 669 transfer_state = 668 transfer_state = 673 transfer_state = 667 transfer_state = 334  transfer_state = 335 transfer_state = 317 }
+HOL = { transfer_state = 309 transfer_state = 352 transfer_state = 322 transfer_state = 669 transfer_state = 668 transfer_state = 342 transfer_state = 667 transfer_state = 334  transfer_state = 335 transfer_state = 317 }
 BEL = { transfer_state = 295 transfer_state = 618 transfer_state = 616 transfer_state = 280 transfer_state = 538 }
 ENG = {	country_event = { id = britain.1116 days = 1 }	}
 #ENG = {	country_event = { id = britain.1115 days = 4 }	}
@@ -148,7 +148,7 @@ transfer_state = 547 #Kenya
 transfer_state = 548 #Uganda
 transfer_state = 551 #Khartoum
 transfer_state = 549 #Sudan 
-transfer_state = 678 #Port Sudan
+transfer_state = 181 #Port Sudan
 transfer_state = 550 #Eritrea
 transfer_state = 271 #Ethiopia
 transfer_state = 559 #Somaliland
@@ -170,11 +170,11 @@ transfer_state = 669 #West Papua
 transfer_state = 668 #The Moluccas
 transfer_state = 317 #Aru Islands
 transfer_state = 667 #Lesser Sunda Islands
-transfer_state = 673 #Sulawesi
+transfer_state = 342 #Sulawesi
 transfer_state = 334 #Kalimantan
 transfer_state = 335 #Java 
 transfer_state = 322 #West Central Papua
-transfer_state = 672 #Sumatra 
+transfer_state = 321 #Sumatra 
 transfer_state = 336 #Singapore
 transfer_state = 333 #North Borneo
 transfer_state = 627 #Mindanao 
@@ -247,7 +247,7 @@ transfer_state = 21 #Provence
 transfer_state = 452 #Marsa Matruh  
 transfer_state = 447 #Alexandria 
 transfer_state = 446 #Cairo
-transfer_state = 680 #Deir-az-Zur
+transfer_state = 296 #Deir-az-Zur
 transfer_state = 457 #Eastern Desert 
 transfer_state = 456 #Aswan 
 transfer_state = 453 #Sinai
@@ -255,7 +255,7 @@ transfer_state = 454 #Palestine
 transfer_state = 553 #Lebanon 
 transfer_state = 455 #Jordan
 transfer_state = 554 #Damascus 
-transfer_state = 677 #Aleppo 
+transfer_state = 180 #Aleppo 
 transfer_state = 183 #Cyprus 
 transfer_state = 116 #Malta 
 transfer_state = 765 #Qatar
@@ -420,14 +420,14 @@ transfer_state = 461
 461 = { set_demilitarized_zone = yes }
 ###SYRIA+LEBANON###
 if = { limit = { FRA = { check_variable = { FRA_legitimacy 	< 100 } }  }
-transfer_state = 680
-680 = { set_demilitarized_zone = yes }
+transfer_state = 296
+296 = { set_demilitarized_zone = yes }
 transfer_state = 554
 554 = { set_demilitarized_zone = yes }
 transfer_state = 553 
 553 = { set_demilitarized_zone = yes }
-transfer_state = 677
-677 = { set_demilitarized_zone = yes }
+transfer_state = 180
+180 = { set_demilitarized_zone = yes }
 }
 ###WEST AFRICA###
 if = { limit = { FRA = { check_variable = { FRA_legitimacy 	< 80 } } }
@@ -524,7 +524,7 @@ remove_ideas = FRA_full_employment
 			}
 }
 		ENG = { 
-			transfer_state = 698 
-			 transfer_state = 702  
+			transfer_state = 343 
+			 transfer_state = 356  
 			}
 }

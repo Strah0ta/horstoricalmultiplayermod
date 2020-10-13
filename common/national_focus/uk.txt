@@ -1301,7 +1301,7 @@ add_equipment_production = {
 					instant_build = yes
 				}
 			}
-			672 = {
+			321 = {
 				set_building_level = {
 					type = air_base
 					level = 6
@@ -1347,7 +1347,7 @@ add_equipment_production = {
 			}	
 			
 			
-					678 = {
+					181 = {
 								set_building_level = {
 					type = air_base
 					level = 6
@@ -1521,7 +1521,7 @@ add_equipment_production = {
 					instant_build = yes
 				}		
 			}	
-			676 = {
+			179 = {
 				set_building_level = {
 					type = air_base
 					level = 6

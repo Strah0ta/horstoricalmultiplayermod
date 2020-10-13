@@ -998,17 +998,17 @@ GER_desert_flower_dec = {
 	icon = generic_operation
 	allowed = { tag = GER }
 	available = {			OR = {
-					controls_state = 676 
+					controls_state = 179 
 					any_other_country = {
 						is_in_faction_with = GER
-						controls_state = 676
+						controls_state = 179
 					}
 				} }
 	modifier = {civilian_factory_use = 10	}
 	fire_only_once = yes
 	days_remove = 150
 	complete_effect = {
-		676 = { set_building_level = {
+		179 = { set_building_level = {
 					type = infrastructure
 					level = 10
 					instant_build = yes
@@ -1953,7 +1953,7 @@ allowed = { original_tag = SAF }
 		fire_only_once = yes
 	
 		complete_effect = {
-				add_state_core = 674
+				add_state_core = 178
 				add_state_core = 519
 				add_state_core = 522
 				add_state_core = 520
@@ -1974,7 +1974,7 @@ AST = {
 				}	
                 set_cosmetic_tag = NZL_AUSTRALIA		
 			AST = {
-				remove_state_core = 674
+				remove_state_core = 178
 				remove_state_core = 519
 				remove_state_core = 522
 				remove_state_core = 520
@@ -3049,7 +3049,7 @@ USA_congress_small_supporta = yes
 		cost = 50
 		remove_effect = {
 			USA_congress_add_state = yes
-			add_state_core = 686
+			add_state_core = 134
 			USA_calc_stars = yes
 		}
 	}
@@ -3122,7 +3122,7 @@ political_actions = {
 			}
 			
 			annex_country = { target = MAN transfer_troops = yes }
-					496 = { set_compliance = 100 } 	328 = { set_compliance = 100 }	505 = { set_compliance = 100 } 688 = { set_compliance = 100 }
+					496 = { set_compliance = 100 } 	328 = { set_compliance = 100 }	505 = { set_compliance = 100 } 3 = { set_compliance = 100 }
 					615 = { set_compliance = 100 } 	504 = { set_compliance = 100 }	612 = { set_compliance = 100 } 610 = { set_compliance = 100 }
 					611 = { set_compliance = 100 } 	608 = { set_compliance = 100 }
 		}

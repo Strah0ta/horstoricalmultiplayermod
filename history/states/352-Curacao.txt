@@ -1,0 +1,31 @@
+state={
+id=352
+name="STATE_695"
+manpower = 76299
+state_category = rural
+resources={
+oil=59
+}
+history={
+1936.1.2 = {
+owner = ENG
+}
+owner = HOL
+add_core_of=SWE
+victory_points = {
+153 1
+}
+buildings = {
+fuel_silo = 1
+infrastructure = 6
+industrial_complex = 2
+153 = {
+naval_base = 1
+coastal_bunker = 2
+}
+}
+}
+provinces={
+153
+}
+}

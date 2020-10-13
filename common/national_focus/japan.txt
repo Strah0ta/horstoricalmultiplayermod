@@ -306,7 +306,7 @@ focus_tree = {
 					}
 				}
 			}
-			672 = {
+			321 = {
 				if = {
 					limit = { is_fully_controlled_by = ROOT }
 					add_building_construction = {
@@ -326,7 +326,7 @@ focus_tree = {
 					}
 				}
 			}
-			671 = {
+			497 = {
 				add_resource = {
 					type = aluminium
 					amount = 12

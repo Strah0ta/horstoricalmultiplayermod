@@ -87,7 +87,7 @@ HMP_capitulations_on_actions = {
 		if =  { 
 		limit = { original_tag = HOL }
 		GER = { transfer_state = 35 transfer_state = 7 transfer_state = 36 36 = { set_compliance = 40 } 7 = { set_compliance = 40 } 35 = { set_compliance = 40 } }
-		SWE = { transfer_state = 695 } ENG = { transfer_state = 695 }
+		SWE = { transfer_state = 352 } ENG = { transfer_state = 352 }
 		}
 		
 			if = {
