@@ -182,7 +182,7 @@ HMP_capitulations_on_actions = {
 			}
 			
 			if = {
-			limit = { original_tag = NOR } NOR = { transfer_state = 752 set_capital = 752 } 	ENG = { puppet = NOR }
+			limit = { original_tag = NOR } NOR = { transfer_state = 323 set_capital = 323 } 	ENG = { puppet = NOR }
 			}
 			if = {
 			limit = { original_tag = FIN } 

@@ -7,20 +7,25 @@ add_core_of=RAJ
 victory_points = {
 4516 1
 }
+		victory_points = {
+			4987 3 
+		}
+		
 buildings = {
+industrial_complex = 3
 infrastructure = 5
 }
 				1936.1.2 = {
 			owner = ENG
 						buildings = {
-				industrial_complex = 1
+				industrial_complex = 4
 			}
 		}
 }
 provinces={
-1444 1541 1569 1637 4459 4516 4544 4571 7334 10358 10361 10471 10751 10878 12035 12307 12452
+1444 1541 1569 1637 4459 4516 4544 4571 7334 10358 10361 10471 10751 10878 12035 12307 12452 4987 5310 12892 
 }
-manpower=36574500
+manpower=42074500 
 buildings_max_level_factor=1.000
-state_category=rural
+state_category=town
 }
