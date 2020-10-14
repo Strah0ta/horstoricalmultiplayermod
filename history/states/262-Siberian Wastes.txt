@@ -1,7 +1,7 @@
 
 state={
 	id=262
-	name="STATE_262" # Pechora
+	name="Siberian Wastes" # Pechora
 	manpower = 1961496
 	 
 	state_category = wasteland
