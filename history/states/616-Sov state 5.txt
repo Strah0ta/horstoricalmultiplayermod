@@ -1,6 +1,6 @@
 
 state={
-	id=651
+	id=616
 	name="STATE_651" # Ufa
 	manpower = 2552075
 

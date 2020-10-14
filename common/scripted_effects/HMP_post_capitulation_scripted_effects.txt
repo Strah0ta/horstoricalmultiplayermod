@@ -120,7 +120,7 @@ GER = {
 }
 ENG = { add_to_faction = GER } 
 HOL = { transfer_state = 309 transfer_state = 352 transfer_state = 322 transfer_state = 516 transfer_state = 562 transfer_state = 342 transfer_state = 575 transfer_state = 334  transfer_state = 335 transfer_state = 317 }
-BEL = { transfer_state = 295 transfer_state = 618 transfer_state = 616 transfer_state = 280 transfer_state = 538 }
+BEL = { transfer_state = 295 transfer_state = 280 transfer_state = 538 }
 ENG = {	country_event = { id = britain.1116 days = 1 }	}
 #ENG = {	country_event = { id = britain.1115 days = 4 }	}
 }
@@ -393,8 +393,8 @@ add_state_core = 26
 set_capital = 26 
 transfer_state = 33 
 add_state_core = 33 
-transfer_state = 783
-add_state_core = 783  
+transfer_state = 507
+add_state_core = 507  
 transfer_state = 20
 add_state_core = 20 
 transfer_state = 25
@@ -439,8 +439,6 @@ transfer_state = 272
 272 = { set_demilitarized_zone = yes }
 transfer_state = 510
 510 = { set_demilitarized_zone = yes }
-transfer_state = 298 
-298 = { set_demilitarized_zone = yes }
 transfer_state = 511
 511 = { set_demilitarized_zone = yes }
 transfer_state = 436
@@ -463,8 +461,8 @@ transfer_state = 325
 325 = { set_demilitarized_zone = yes }
 transfer_state = 581
 581 = { set_demilitarized_zone = yes }
-transfer_state = 660
-660	 = { set_demilitarized_zone = yes }
+transfer_state = 603
+603	 = { set_demilitarized_zone = yes }
 }
 ###CENTRAL AFRICA - GABON###
 if = { limit = { FRA = { check_variable = { FRA_legitimacy 	< 20 } } }
@@ -478,8 +476,6 @@ FRA = {
 			transfer_state = 295 
 			transfer_state = 280 
 			transfer_state = 538 
-			transfer_state = 618 
-			transfer_state = 616 
 			}
 }
 
@@ -498,7 +494,7 @@ transfer_state = 27
 transfer_state = 18
 transfer_state = 24
 transfer_state = 16
-transfer_state = 785
+transfer_state = 267
 transfer_state = 15
 transfer_state = 30
 transfer_state = 23

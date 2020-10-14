@@ -220,6 +220,10 @@ NDefines.NCountry.BUILDING_IMPORTANCE_FACTOR = 0               -- State building
 NDefines.NCountry.RESOURCE_IMPORTANCE_FACTOR = 0               -- State resource importance factor for AI and calculations
 NDefines.NCountry.FRONT_PROVINCE_SCORE = 0   					-- Max province score of a front. Used for the hostile troop alert
 ---------------------------------------------------------------
+NDefines.NNavy.RESOURCE_EXPORT_PRIORITY = 3 --swapped prio so imports go first
+NDefines.NNavy.RESOURCE_LENDLEASE_PRIORITY = 3
+NDefines.NNavy.RESOURCE_ORIGIN_PRIORITY = 3
+
 NDefines.NNavy.TRAINING_ACCIDENT_CHANCES = 0						-- down from 0.02 | Chances one ship get damage each hour while on training 		
 NDefines.NNavy.MISSION_SUPREMACY_RATIOS = { 						-- supremacy multipliers for different mission types   | Strikeforce/Naval Invasion Support now 0 supremacy to avoid free supremacy
 		0.0, -- HOLD

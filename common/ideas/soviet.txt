@@ -661,37 +661,20 @@ ideas = {
 		
 		konstantin_rokossovsky = {
 			ledger = army
-			#Also unit leader: 402
-			
-			allowed = {
-				original_tag = SOV # Unlocked via focus
-			}
-
+			allowed = {		original_tag = SOV }
 			traits = { army_armored_3 }
-
 		}		
 		
 		vladimir_kasatonov = {
 			ledger = navy
-			
-			allowed = {
-				original_tag = SOV
-			}
-				
+			allowed = {	original_tag = SOV	}		
 			traits = { navy_submarine_2 }
-			
 		}
 			
 		arseniy_golovko = {
-			ledger = army
-			#Also unit leader: 409
-			
-			allowed = {
-				original_tag = SOV
-			}
-
-			traits = { navy_amphibious_assault_2 }
-			
+			ledger = army			
+			allowed = { original_tag = SOV	}
+			traits = { army_commando_2 }
 		}	
 	}
 		

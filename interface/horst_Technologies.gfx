@@ -8,7 +8,21 @@ spriteTypes = {
 		name = "GFX_JAP_cv_fighter3_medium"
 		texturefile = "gfx/interface/technologies/JAP_fighter2_cv.dds"
 	}	
-	
+		SpriteType = {
+		name = "GFX_jaegartroops_medium"
+		texturefile = "gfx/interface/technologies/jaegartroops.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_jaegartroops2_medium"
+		texturefile = "gfx/interface/technologies/jaegartroops2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_jaegartroops3_medium"
+		texturefile = "gfx/interface/technologies/jaegartroops3.dds"
+	}
+
 	SpriteType = {
 		name = "GFX_BUL_CAS1_medium"
 		texturefile = "gfx/interface/technologies/BUL_CAS1.dds"

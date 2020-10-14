@@ -11,6 +11,7 @@ victory_points = {
 }
 buildings = {
 infrastructure = 1
+industrial_complex = 1
 }
 }
 provinces={

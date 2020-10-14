@@ -321,19 +321,19 @@ guiTypes = {
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}
-
+			gridboxtype = {
+				name = "jaegartroops_tree"
+				position = { x = 140 y = 1030 }
+				slotsize = { width = 70 height = 70 }
+				format = "LEFT"
+			}		
 			gridboxtype = {
 				name = "camelry_tree"
 				position = { x = 140 y = 900 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}
-				gridboxtype = {
-				name = "jaegertroop_tree"
-				position = { x = 140 y = 1280 }
-				slotsize = { width = 70 height = 70 }
-				format = "LEFT"
-			}		
+
 			gridboxtype = {
 				name = "tech_special_forces_tree"
 				position = { x = 140 y = 1490 }

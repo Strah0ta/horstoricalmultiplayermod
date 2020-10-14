@@ -1384,9 +1384,7 @@ transfer_state = 557
 transfer_state = 556
 transfer_state = 272
 transfer_state = 510
-transfer_state = 298 
 transfer_state = 511
-transfer_state = 751
 transfer_state = 509
 transfer_state = 508
 transfer_state = 445
@@ -1510,9 +1508,7 @@ transfer_state = 601
 			transfer_state = 295 
 			transfer_state = 280 
 			transfer_state = 538 
-			transfer_state = 618 
-			transfer_state = 616 
-		}
+			}
 	}
 	focus = {
 		id = FRA_form_the_national_committee

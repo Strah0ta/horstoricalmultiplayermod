@@ -122,34 +122,6 @@
 5407;2400;;-1;-1;-1;-1;-1;GIBRALTAR_STRAIT;Gibraltar South
 2455;2506;;-1;-1;-1;-1;-1;DANISH_BELTS_STRAIT;Øresund
 5412;7678;;-1;-1;-1;-1;-1;BOSPHORUS_STRAIT;Bosphorus
-12370;1766;impassable;-1;-1;-1;-1;-1;;pamir mountains
-12370;12119;impassable;-1;-1;-1;-1;-1;;pamir mountains
-5062;12119;impassable;-1;-1;-1;-1;-1;;pamir mountains
-5062;4828;impassable;-1;-1;-1;-1;-1;;pamir mountains
-4768;4828;impassable;-1;-1;-1;-1;-1;;pamir mountains
-4391;4828;impassable;-1;-1;-1;-1;-1;;pamir mountains
-4391;1703;impassable;-1;-1;-1;-1;-1;;pamir mountains
-4391;12526;impassable;-1;-1;-1;-1;-1;;pamir mountains
-1822;5014;impassable;-1;-1;-1;-1;-1;;pamir mountains
-1822;6826;impassable;-1;-1;-1;-1;-1;;pamir mountains
-4923;1766;impassable;-1;-1;-1;-1;-1;;pamir mountains
-1840;1703;impassable;-1;-1;-1;-1;-1;;newpamir
-1840;12526;impassable;-1;-1;-1;-1;-1;;newpamir
-4845;12601;impassable;-1;-1;-1;-1;-1;;newpamir
-4845;12526;impassable;-1;-1;-1;-1;-1;;newpamir
-10619;12601;impassable;-1;-1;-1;-1;-1;;newpamir
-12529;12601;impassable;-1;-1;-1;-1;-1;;newpamir
-12529;7866;impassable;-1;-1;-1;-1;-1;;newpamir
-13197;7866;impassable;-1;-1;-1;-1;-1;;newpamir
-13197;1708;impassable;-1;-1;-1;-1;-1;;newpamir
-12662;1708;impassable;-1;-1;-1;-1;-1;;newpamir
-10610;1708;impassable;-1;-1;-1;-1;-1;;newpamir
-10610;1844;impassable;-1;-1;-1;-1;-1;;newpamir
-10610;12590;impassable;-1;-1;-1;-1;-1;;newpamir
-1818;7693;impassable;-1;-1;-1;-1;-1;;newpamir
-1818;12590;impassable;-1;-1;-1;-1;-1;;newpamir
-1749;7693;impassable;-1;-1;-1;-1;-1;;newpamir
-10713;7693;impassable;-1;-1;-1;-1;-1;;newpamir
 3314;6336;sea;2752;2885;1578;2890;1581;;Afsluitdijk
 5505;9824;impassable;-1;-1;-1;-1;-1;; Spain
 5505;6927;impassable;-1;-1;-1;-1;-1;; Spain
@@ -207,20 +179,6 @@
 740;8592;impassable;-1;-1;-1;-1;-1;; Spain
 6756;8592;impassable;-1;-1;-1;-1;-1;; Spain
 3737;8592;impassable;-1;-1;-1;-1;-1;; Spain
-6880;5382;impassable;-1;-1;-1;-1;-1;; Spain
-3866;8772;impassable;-1;-1;-1;-1;-1;; Spain
-3866;5336;impassable;-1;-1;-1;-1;-1;; Spain
-980;5336;impassable;-1;-1;-1;-1;-1;; Spain
-970;5336;impassable;-1;-1;-1;-1;-1;; Spain
-11805;5336;impassable;-1;-1;-1;-1;-1;; Spain
-11805;5311;impassable;-1;-1;-1;-1;-1;; Spain
-3861;5311;impassable;-1;-1;-1;-1;-1;; Spain
-799;8749;impassable;-1;-1;-1;-1;-1;; Spain
-799;5311;impassable;-1;-1;-1;-1;-1;; Spain
-6924;8749;impassable;-1;-1;-1;-1;-1;; Spain
-9817;8749;impassable;-1;-1;-1;-1;-1;; Spain
-9817;5284;impassable;-1;-1;-1;-1;-1;; Spain
-11673;5284;impassable;-1;-1;-1;-1;-1;; Spain
 
 9824;9853;impassable;-1;-1;-1;-1;-1;; Spain
 11779;6915;impassable;-1;-1;-1;-1;-1;; Spain
@@ -248,6 +206,8 @@
 5050;2065;impassable;-1;-1;-1;-1;-1;; IRAN
 1922;2065;impassable;-1;-1;-1;-1;-1;; IRAN
 4943;5098;impassable;-1;-1;-1;-1;-1;; IRAN
+1822;5014;impassable;-1;-1;-1;-1;-1;; IRAN
+1822;6826;impassable;-1;-1;-1;-1;-1;; IRAN
 
 6187;5869;impassable;-1;-1;-1;-1;-1;; NARVIK
 3126;5869;impassable;-1;-1;-1;-1;-1;; NARVIK

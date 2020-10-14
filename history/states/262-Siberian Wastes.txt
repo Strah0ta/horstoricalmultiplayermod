@@ -1,4 +1,4 @@
-
+	
 state={
 	id=262
 	name="Siberian Wastes" # Pechora
@@ -13,7 +13,7 @@ state={
 		buildings = {
 			infrastructure = 2
 						12207 = {
-				naval_base = 1
+				naval_base = 1 
 			}
 		}
 		add_core_of = SOV

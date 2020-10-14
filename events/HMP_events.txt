@@ -46,9 +46,7 @@ country_event = {
 			set_state_controller = 538
 			set_state_controller = 295
 			set_state_controller = 280
-			set_state_controller = 616
-			set_state_controller = 618
-			}	
+				}	
 		}
 	}
 	
@@ -1452,7 +1450,7 @@ is_triggered_only = yes
 			328 = {	add_resource = {  type = aluminium amount = 16}	}
 			
 			annex_country = { target = MAN transfer_troops = yes }
-			496 = { set_compliance = 100 } 	328 = { set_compliance = 100 }	505 = { set_compliance = 100 } 3 = { set_compliance = 100 }	615 = { set_compliance = 100 } 	504 = { set_compliance = 100 }	612 = { set_compliance = 100 } 
+			496 = { set_compliance = 100 } 	328 = { set_compliance = 100 }	505 = { set_compliance = 100 } 3 = { set_compliance = 100 }	615 = { set_compliance = 100 } 	504 = { set_compliance = 100 }
 			610 = { set_compliance = 100 }	611 = { set_compliance = 100 }  
    		add_tech_bonus = {
 			name = "Integrate Manchukuo"

@@ -1082,7 +1082,7 @@ GER_case_anton = {
 		icon = generic_operation
 		allowed = {	original_tag = GER	}
 		available = { HUN = {  is_ai = yes  } date > 1941.5.1	}		
-				visible = { HUN = { country_exists = yes } }
+				visible = { country_exists = HUN  }
 
 		cost = 0		
 		fire_only_once = yes
@@ -1140,7 +1140,7 @@ GER_case_anton = {
 		icon = generic_operation
 		allowed = {	original_tag = GER	}
 		available = { SPR = {  is_ai = yes } date > 1940.5.1	}	
-		visible = { SPR = { country_exists = yes } }
+		visible =  { country_exists = SPR } 
 		cost = 0		
 		fire_only_once = yes
 		complete_effect = {
