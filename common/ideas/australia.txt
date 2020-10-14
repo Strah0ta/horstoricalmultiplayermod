@@ -364,9 +364,7 @@ ideas = {
 
 theorist = {
 	AST_james_fairbairn = {
-		ledger = air
 		ledger = army
-		ledger = navy 	
 		picture = generic_political_advisor_europe_2
 			
 		allowed = {
@@ -374,12 +372,10 @@ theorist = {
 		}
 		
 		research_bonus = {
-			air_doctrine = 0.10
 			land_doctrine = 0.10
-			naval_doctrine = 0.10 
 		}
 		
-		traits = { military_theorist air_warfare_theorist }
+		traits = { military_theorist }
 	}
 
 	

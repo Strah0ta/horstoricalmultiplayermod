@@ -1234,16 +1234,6 @@ ideas = {
 			research_bonus = {	cat_mobile_warfare = 0.15	}	
 			traits = { mobile_warfare_expert }
 		}
-		harold_mcclelland = {
-			ledger = air
-			ledger = navy
-			allowed = {	original_tag = USA	}	
-			research_bonus = {
-			air_doctrine = 0.10
-			naval_doctrine = 0.10 				
-			}		
-			traits = { air_warfare_theorist }
-		}
 		
 		robert_oppenheimer = {
 			ledger = army

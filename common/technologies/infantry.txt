@@ -572,7 +572,7 @@ technologies = {
 	}
 	
 		jaegartroops = {
-
+		allow = { ranger_nations = yes }
 		enable_subunits = {
 			jaeger
 		}

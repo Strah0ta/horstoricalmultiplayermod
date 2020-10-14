@@ -649,20 +649,6 @@ ideas = {
 			traits = { military_theorist }
 		}
 		
-		MAN_deng_linge = { 
-			ledger = air
-			picture = generic_air_asia_2
-			
-			allowed = {
-				original_tag = MAN
-			}
-			
-			research_bonus = {
-				air_doctrine = 0.10
-			}
-			
-			traits = { air_warfare_theorist }
-		}
 	}
 
 	aircraft_manufacturer = {

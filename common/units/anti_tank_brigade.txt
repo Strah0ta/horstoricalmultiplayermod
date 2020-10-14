@@ -94,11 +94,7 @@ sub_units = {
 			category_special_forces
 		}		
 		
-		combat_width = 1
-
-
-		combat_width = 3
-		
+		combat_width = 1		
 		maximum_speed = 0.6
 
 		manpower = 500
@@ -114,8 +110,8 @@ sub_units = {
 		supply_consumption = 0.1
 		
 		forest = {
-			attack = -0.4
-			defence = -0.2						
+			attack = -0.5
+			defence = -0.5						
 			movement = -0.5
 		}
 		
@@ -126,33 +122,33 @@ sub_units = {
 		}
 		
 		plains = {
-			attack = -0.2
-			defence = -0.2									
-			movement = -0.2	
+			attack = -0.3
+			defence = -0.3									
+			movement = -0.3	
 		}
 
 		hills = {
-		attack = -0.2
-		defence = -0.2									
-		movement = -0.05
+		attack = -0.3
+		defence = -0.3								
+		movement = -0.3
 		}
 
 		mountain = {
-			attack = -0.2
-			defence = -0.2									
-			movement = -0.2
+			attack = -0.3
+			defence = -0.3						
+			movement = -0.3
 		}
 
 		jungle = {
-			attack = -0.4
-			defence = -0.2									
+			attack = -0.5
+			defence = -0.5						
 			movement = -0.5
 		}
 
 		marsh = {
-			attack = -0.4
-			defence = -0.2									
-			movement = -0.3
+			attack = -0.5
+			defence = -0.5						
+			movement = -0.5
 		}
 
 		fort = {
@@ -165,7 +161,7 @@ sub_units = {
 		}
 
 		amphibious = {
-			attack = -0.6
+			attack = -0.4
 		}
 	}
 	

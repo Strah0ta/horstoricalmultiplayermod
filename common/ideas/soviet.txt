@@ -986,21 +986,5 @@ ideas = {
 			traits = { military_theorist }
 		}
 		
-		alexander_golovanov = {
-			ledger = air
-			
-			
-			allowed = {
-				original_tag = SOV
-			}
-			
-
-			
-			research_bonus = {
-				air_doctrine = 0.10
-			}
-			
-			traits = { air_warfare_theorist }
-		}
 	}
 }

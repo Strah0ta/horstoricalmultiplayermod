@@ -388,23 +388,6 @@ ideas = {
 			traits = { military_theorist }
 		}
 
-		RAJ_anyang_bhula = {
-			ledger = air
-					
-			picture = generic_air_arab_1
-				
-			allowed = {
-				original_tag = RAJ
-			}
-			
-			research_bonus = {
-				air_doctrine = 0.10
-				
-			}
-			
-			traits = { air_warfare_theorist }
-		}
-
 		RAJ_homi_j_bhabha = {
 			ledger = army
 					

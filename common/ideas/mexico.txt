@@ -944,21 +944,6 @@ ideas = {
 			traits = { military_theorist }
 		}
 
-		MEX_agustin_olachea = {
-			ledger = air
-		
-			picture = generic_air_europe_3
-
-			allowed = {
-				original_tag = MEX
-			}
-			
-			research_bonus = {
-				air_doctrine = 0.10
-			}
-			
-			traits = { air_warfare_theorist }
-		}
 	}
 	
 	army_chief = {

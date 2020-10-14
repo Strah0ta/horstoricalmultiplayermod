@@ -223,22 +223,6 @@ country = {
 			
 			traits = { military_theorist }
 		}
-		
-		NOR_tryggve_gran = {
-			ledger = air
-			
-			picture = generic_air_europe_1
-			
-			allowed = {
-				original_tag = NOR
-			}
-			
-			research_bonus = {
-				air_doctrine = 0.10
-			}
-			
-			traits = { air_warfare_theorist }
-		}
 	}
 
 

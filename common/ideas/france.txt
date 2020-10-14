@@ -1685,24 +1685,6 @@ ideas = {
 			traits = { military_theorist }
 		}
 		
-
-		
-		
-		jean_marie_bergeret = {
-			ledger = air
-			ledger = navy	
-			allowed = {
-				original_tag = FRA
-			}
-						
-			research_bonus = {
-				air_doctrine = 0.10
-				naval_doctrine = 0.10 
-			}
-			
-			traits = { air_warfare_theorist }
-		}
-		
 		frederic_irene_joliot_curie = {
 			ledger = army
 			

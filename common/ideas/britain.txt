@@ -1502,22 +1502,6 @@ ideas = {
 			traits = { military_theorist }
 		}
 		
-		hugh_dowding = {
-			ledger = air
-			ledger = navy 
-			allowed = {
-				original_tag = ENG
-			}
-			
-
-			
-			research_bonus = {
-				air_doctrine = 0.10
-							naval_doctrine = 0.10 
-			}
-			
-			traits = { air_warfare_theorist }
-		}
 			
 		james_chadwick = {
 			ledger = army

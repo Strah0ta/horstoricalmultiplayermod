@@ -113,43 +113,40 @@ sub_units = {
 		supply_consumption = 0.2
 		
 		forest = {
-			attack = -0.4
-			defence = -0.2												
+			attack = -0.5
+			defence = -0.5						
 			movement = -0.5
-		}
+			}
 		
 		plains = {
-			attack = -0.2
-			defence = -0.2												
-			movement = -0.2	
+			attack = -0.3
+			defence = -0.3												
 		}
 
 		hills = {
-			attack = -0.2
-			defence = -0.2											
-			movement = -0.05
+			attack = -0.3
+			defence = -0.3										
 		}
 
 		mountain = {
-			attack = -0.2
-			defence = -0.2											
-			movement = -0.2
+			attack = -0.3
+			defence = -0.3											
 		}
 		desert = { 
-			attack = 0.2
-			defence = 0.2			
-			movement = 0.2
+			attack = 0.3
+			defence = 0.3			
+			movement = 0.3
 		}
 		jungle = {
-			attack = -0.4
-			defence = -0.2												
+			attack = -0.5
+			defence = -0.5						
 			movement = -0.5
 		}
 
 		marsh = {
-			attack = -0.4
-			defence = -0.2											
-			movement = -0.3
+			attack = -0.5
+			defence = -0.5						
+			movement = -0.5
 		}
 
 		fort = {
@@ -162,7 +159,7 @@ sub_units = {
 		}
 
 		amphibious = {
-			attack = -0.6
+			attack = -0.4
 		}
 	}
 		camelry_rarty = {
@@ -203,27 +200,24 @@ sub_units = {
 		supply_consumption = 0.2
 		
 		forest = {
-			attack = -0.4
-			defence = -0.2												
+			attack = -0.5
+			defence = -0.5						
 			movement = -0.5
-		}
+			}
 		
 		plains = {
-			attack = -0.2
-			defence = -0.2												
-			movement = -0.2	
+			attack = -0.3
+			defence = -0.3												
 		}
 
 		hills = {
-			attack = -0.2
-			defence = -0.2											
-			movement = -0.05
+			attack = -0.3
+			defence = -0.3										
 		}
 
 		mountain = {
-			attack = -0.2
-			defence = -0.2											
-			movement = -0.2
+			attack = -0.3
+			defence = -0.3											
 		}
 		desert = { 
 			attack = 0.2
@@ -231,15 +225,15 @@ sub_units = {
 			movement = 0.2
 		}
 		jungle = {
-			attack = -0.4
-			defence = -0.2												
+			attack = -0.5
+			defence = -0.5						
 			movement = -0.5
 		}
 
 		marsh = {
-			attack = -0.4
-			defence = -0.2											
-			movement = -0.3
+			attack = -0.5
+			defence = -0.5						
+			movement = -0.5
 		}
 
 		fort = {
@@ -252,7 +246,7 @@ sub_units = {
 		}
 
 		amphibious = {
-			attack = -0.6
+			attack = -0.4
 		}
 	}
 	mot_artillery_brigade = {
