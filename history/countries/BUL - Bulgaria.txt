@@ -51,10 +51,11 @@ set_politics = {
 }
 
 set_popularities = {
-	democratic = 5
-	fascism = 35
-	neutrality = 60
-}
+	democratic = 10
+	fascism = 30
+	neutrality = 55
+	communism = 5
+}	
 
 create_country_leader = {
 	name = "Boris III"

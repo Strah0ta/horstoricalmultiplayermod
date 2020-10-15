@@ -14,7 +14,7 @@ focus_tree = {
 		factor = 0
 		
 		modifier = {
-			add = 11
+			add = 0
 			tag = BUL
 			#has_dlc = "Battle for the Bosporus"
 		}
@@ -945,23 +945,7 @@ focus_tree = {
 		
 		search_filters = {FOCUS_FILTER_MANPOWER FOCUS_FILTER_INDUSTRY}
 		completion_reward = {
-			if = {
-				limit = { has_idea = BUL_bulgarian_army_01 }
-				swap_ideas = {
-					remove_idea = BUL_bulgarian_army_01
-					add_idea = BUL_prussia_of_the_balkans_01
-				}
-			}
-			else_if = {
-				limit = { has_idea = BUL_bulgarian_army_03 }
-				swap_ideas = {
-					remove_idea = BUL_bulgarian_army_03
-					add_idea = BUL_prussia_of_the_balkans_01
-				}
-			}
-			else = {
-				add_ideas = BUL_prussia_of_the_balkans_01
-			}
+			add_ideas = BUL_prussia_of_the_balkans_04
 			BUL_replace_national_aircraft_designer = yes
 		}
 	}

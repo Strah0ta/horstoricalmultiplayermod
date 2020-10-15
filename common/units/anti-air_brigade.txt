@@ -133,11 +133,11 @@ sub_units = {
 		active = yes
 		
 		type = {
-			motorized
+			infantry
 			anti_air
 		}
 
-		group = mobile
+		group = infantry
 		
 		
 		categories = {
@@ -151,7 +151,7 @@ sub_units = {
 
 		combat_width = 3
 		
-		maximum_speed = 0.6
+		maximum_speed = 0.4
 
 		manpower = 500
 		need = {

@@ -9,6 +9,16 @@ spriteTypes = {
 	####not sure why this is needed
 	spriteType = { name = "GFX_unit_rocket_artillery_brigade_icon_medium_white"			textureFile = "gfx/interface/counters/divisions_small/onmap_unit_rocket_artillery_icon.dds" noOfFrames = 2}
 	spriteType = { name = "GFX_unit_rocket_artillery_icon_medium_white"					textureFile = "gfx/interface/counters/divisions_small/onmap_unit_rocket_artillery_icon.dds" noOfFrames = 2}
+	#######CAMELRY######
+	spriteType = { name = "GFX_unit_camelry_at_icon_medium_white"							textureFile = "gfx/interface/counters/divisions_small/onmap_unit_camelry_icon.dds" noOfFrames = 2}
+	spriteType = { name = "GFX_unit_camelry_at_icon_medium"									textureFile = "gfx/interface/counters/divisions_large/unit_camelry_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_camelry_aa_icon_medium_white"							textureFile = "gfx/interface/counters/divisions_small/onmap_unit_camelry_icon.dds" noOfFrames = 2}
+	spriteType = { name = "GFX_unit_camelry_aa_icon_medium"									textureFile = "gfx/interface/counters/divisions_large/unit_camelry_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_camelry_arty_icon_medium_white"							textureFile = "gfx/interface/counters/divisions_small/onmap_unit_camelry_icon.dds" noOfFrames = 2}
+	spriteType = { name = "GFX_unit_camelry_arty_icon_medium"									textureFile = "gfx/interface/counters/divisions_large/unit_camelry_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_camelry_rarty_icon_medium_white"							textureFile = "gfx/interface/counters/divisions_small/onmap_unit_camelry_icon.dds" noOfFrames = 2}
+	spriteType = { name = "GFX_unit_camelry_rarty_icon_medium"									textureFile = "gfx/interface/counters/divisions_large/unit_camelry_icon.dds" noOfFrames = 2 }
+
 	
 	###CUSTOM ICONS BELOW###
 	
@@ -20,6 +30,8 @@ spriteTypes = {
 	###########################################
 ### Small images for DIVISION TEMPLATES ###
     
+
+	
     spriteType = { name = "GFX_div_templ_65_small"										textureFile = "gfx/interface/counters/division_templates_small/custom_template_065.dds" }
 	spriteType = { name = "GFX_div_templ_66_small"										textureFile = "gfx/interface/counters/division_templates_small/custom_template_066.dds" }
 	spriteType = { name = "GFX_div_templ_67_small"										textureFile = "gfx/interface/counters/division_templates_small/custom_template_067.dds" }

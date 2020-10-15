@@ -70,7 +70,7 @@ sub_units = {
 		}
 	}
 	
-		camelry_cav = {
+		camelry = {
 		sprite = cavalry
 		map_icon_category = other
 		special_forces = yes
@@ -80,7 +80,7 @@ sub_units = {
 
 		type = { infantry }
 		
-		group = mobile
+		group = infantry
 		
 		categories = {
 			category_front_line
@@ -95,12 +95,12 @@ sub_units = {
 		
 		#Size Definitions
 		max_organisation = 70
-		max_strength = 25
+		max_strength = 30
 		default_morale = 0.3
 		manpower = 1000
 
 		#Misc Abilities
-		maximum_speed = 0.6
+		maximum_speed = 0.4
 		training_time = 120		
 		weight = 0.5
 		

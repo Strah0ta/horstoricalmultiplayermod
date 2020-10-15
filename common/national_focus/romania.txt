@@ -380,6 +380,14 @@ focus_tree = {
 				}
 				id = 550
 			}
+						set_politics = {
+				ruling_party = neutrality
+				elections_allowed = no
+			}
+			set_political_party = {
+				ideology = neutrality
+				popularity = 65
+			}
 		}
 	}
 	

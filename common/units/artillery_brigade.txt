@@ -83,11 +83,11 @@ sub_units = {
 		active = yes
 		
 		type = {
-			motorized
+			infantry
 			artillery
 		}
 
-		group = mobile
+		group = infantry
 		
 		categories = {
 			category_army
@@ -98,7 +98,7 @@ sub_units = {
 
 		combat_width = 3
 		
-		maximum_speed = 0.6
+		maximum_speed = 0.4
 
 		manpower = 500
 		need = {
@@ -171,11 +171,11 @@ sub_units = {
 		active = yes
 		
 		type = {
-			motorized
+			infantry
 			artillery
 		}
 
-		group = mobile
+		group = infantry
 		
 		categories = {
 			category_army
@@ -185,7 +185,7 @@ sub_units = {
 
 		combat_width = 3
 		
-		maximum_speed = 0.6
+		maximum_speed = 0.4
 
 		manpower = 500
 		need = {

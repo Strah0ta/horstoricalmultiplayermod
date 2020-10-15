@@ -653,7 +653,7 @@ technologies = {
 	camelry = {
 		allow = {  camelry_nations = yes }
 		enable_subunits = {
-			camelry_cav
+			camelry
 		}
 		
 		enable_subunits = {
@@ -673,7 +673,7 @@ technologies = {
 		on_research_complete = {
 			limit = {
 				NOT = {
-					has_template_containing_unit = camelry_cav
+					has_template_containing_unit = camelry
 				}
 			}
 			hidden_effect = {
@@ -705,7 +705,7 @@ technologies = {
 
 	camelry_2 = {
 
-		camelry_cav = {
+		camelry = {
 			max_organisation = 5
 			soft_attack = 0.05
 		}
@@ -730,7 +730,7 @@ technologies = {
 
 	camelry_3 = {
 
-		camelry_cav = {
+		camelry = {
 			max_organisation = 5
 		}
 
