@@ -72,7 +72,7 @@ equipments = {
 		#Offensive Abilities
 		ap_attack = 16
 		
-		build_cost_ic = 9
+		build_cost_ic = 10
 		resources = {
 			steel = 3
 			rubber = 1
@@ -101,7 +101,7 @@ equipments = {
 		#Offensive Abilities
 		ap_attack = 21
 		
-		build_cost_ic = 10
+		build_cost_ic = 12
 		resources = {
 			steel = 4
 			rubber = 1

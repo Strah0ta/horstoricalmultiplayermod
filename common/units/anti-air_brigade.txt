@@ -163,7 +163,7 @@ sub_units = {
 		default_morale = 0.1
 		training_time = 60
 		weight = 0.5
-		supply_consumption = 0.15
+		supply_consumption = 0.08
 		
 		forest = {
 			attack = -0.5

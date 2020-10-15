@@ -296,7 +296,7 @@ adjacency_rule
 		trade = no
 	}
 	required_provinces = { 9680 6741 }
-		icon = 8308
+		icon = 8282
 }
 
 #Gibraltar Strait
