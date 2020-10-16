@@ -33,9 +33,6 @@ sub_units = {
 		training_time = 60
 		weight = 0.5
 		supply_consumption = 0.1
-
-		#Line artillery bonuses
-		#soft_attack = 0.25
 		
 		forest = {
 			attack = -0.2
@@ -98,7 +95,7 @@ sub_units = {
 
 		combat_width = 3
 		
-		maximum_speed = 0.4
+		maximum_speed = 10.4
 
 		manpower = 500
 		need = {
@@ -115,7 +112,6 @@ sub_units = {
 		forest = {
 			attack = -0.5
 			defence = -0.5						
-			movement = -0.5
 			}
 		
 		plains = {
@@ -133,20 +129,21 @@ sub_units = {
 			defence = -0.3											
 		}
 		desert = { 
-			attack = 0.3
-			defence = 0.3			
-			movement = 0.3
+			attack = 0.2
+			defence = 0.2
+			movement = 0.2
 		}
 		jungle = {
 			attack = -0.5
 			defence = -0.5						
-			movement = -0.5
 		}
-
+	urban = {
+			attack = -0.3
+			defence = -0.3
+		}
 		marsh = {
 			attack = -0.5
 			defence = -0.5						
-			movement = -0.5
 		}
 
 		fort = {
@@ -202,7 +199,6 @@ sub_units = {
 		forest = {
 			attack = -0.5
 			defence = -0.5						
-			movement = -0.5
 			}
 		
 		plains = {
@@ -221,25 +217,26 @@ sub_units = {
 		}
 		desert = { 
 			attack = 0.2
-			defence = 0.2			
+			defence = 0.2
 			movement = 0.2
 		}
 		jungle = {
 			attack = -0.5
 			defence = -0.5						
-			movement = -0.5
 		}
 
 		marsh = {
 			attack = -0.5
 			defence = -0.5						
-			movement = -0.5
 		}
 
 		fort = {
 			attack = 0.1
 		}
-
+	urban = {
+			attack = -0.3
+			defence = -0.3
+		}
 		river = {
 			attack = -0.2
 			movement = -0.2

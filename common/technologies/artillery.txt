@@ -6,7 +6,9 @@ technologies = {
 		enable_equipments = {
 			artillery_equipment_1
 		}
-		
+				camelry_at = {
+			ap_attack = 0.4
+		}	
 			anti_tank = {
 			ap_attack = 0.4
 		}
@@ -69,6 +71,9 @@ technologies = {
 	interwar_artillery = {
 
 		artillery = {
+			soft_attack = 0.1
+		}
+		camelry_arty = {
 			soft_attack = 0.1
 		}
 		artillery_brigade = {
@@ -161,7 +166,9 @@ technologies = {
 	}
 	
 	artillery2 = {
-
+		camelry_arty = {
+			soft_attack = 0.1
+		}
 		artillery = {
 			soft_attack = 0.1
 		}
@@ -226,7 +233,9 @@ technologies = {
 		mot_artillery_brigade = {
 			soft_attack = 0.1
 		}
-		
+				camelry_arty = {
+			soft_attack = 0.1
+		}
 		path = {
 			leads_to_tech = artillery4
 			research_cost_coeff = 1
@@ -315,7 +324,9 @@ technologies = {
 		mot_artillery_brigade = {
 			soft_attack = 0.1
 		}
-		
+				camelry_arty = {
+			soft_attack = 0.1
+		}
 		research_cost = 1
 
 		start_year = 1943
@@ -431,7 +442,9 @@ technologies = {
 	}
 	
 	rocket_artillery2 = {
-
+		camelry_rarty = {
+			soft_attack = 0.15
+		}
 		rocket_artillery = {
 			soft_attack = 0.15
 		}
@@ -465,7 +478,9 @@ technologies = {
 	}
 	
 	rocket_artillery3 = {
-
+	camelry_rarty = {
+			soft_attack = 0.15
+		}
 		rocket_artillery = {
 			soft_attack = 0.15
 		}
@@ -560,7 +575,9 @@ technologies = {
 		start_year = 1939
 	}
 	antiair1 = {
-
+	camelry_aa = {
+			air_attack = 0.1
+		}
 		anti_air = {
 			air_attack = 0.1
 		}
@@ -626,7 +643,9 @@ technologies = {
 	}
 	
 	antiair3 = {
-
+	camelry_aa = {
+			air_attack = 0.1
+		}
 		anti_air = {
 			air_attack = 0.1
 		}
@@ -660,7 +679,9 @@ technologies = {
 	}
 	
 	antiair4 = {
-
+	camelry_aa = {
+			air_attack = 0.1
+		}
 		anti_air = {
 			air_attack = 0.1
 		}
@@ -746,7 +767,9 @@ technologies = {
 	}
 	
 	antitank1 = {
-
+	camelry_at = {
+			hard_attack = 0.1
+		}
 		anti_tank = {
 			hard_attack = 0.1
 		}
@@ -804,7 +827,9 @@ technologies = {
 	}
 	
 	antitank3 = {
-
+	camelry_at = {
+			hard_attack = 0.1
+		}
 		anti_tank = {
 			hard_attack = 0.1
 		}
@@ -836,7 +861,9 @@ technologies = {
 	}
 	
 	antitank4 = {
-
+	camelry_at = {
+			hard_attack = 0.1
+		}
 		anti_tank = {
 			hard_attack = 0.1
 		}

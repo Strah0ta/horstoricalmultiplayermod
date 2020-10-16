@@ -394,6 +394,9 @@ technologies = {
 			guided_missile_equipment_1
 		}
 		
+		camelry_rarty = {
+			soft_attack = 0.05
+		}		
 		rocket_artillery = {
 			soft_attack = 0.05
 		}
@@ -448,7 +451,9 @@ technologies = {
 			rocket_interceptor_equipment_2
 			guided_missile_equipment_2
 		}
-		
+				camelry_rarty = {
+			soft_attack = 0.05
+		}	
 		rocket_artillery = {
 			soft_attack = 0.05
 		}
@@ -494,7 +499,9 @@ technologies = {
 			rocket_interceptor_equipment_3
 			guided_missile_equipment_3
 		}
-		
+				camelry_rarty = {
+			soft_attack = 0.05
+		}	
 		rocket_artillery = {
 			soft_attack = 0.05
 		}

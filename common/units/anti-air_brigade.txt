@@ -168,7 +168,6 @@ sub_units = {
 		forest = {
 			attack = -0.5
 			defence = -0.5						
-			movement = -0.5
 		}
 		
 		plains = {
@@ -189,17 +188,18 @@ sub_units = {
 			attack = -0.3
 			defence = -0.3
 		}
-
+	urban = {
+			attack = -0.3
+			defence = -0.3
+		}
 		jungle = {
 			attack = -0.5
 			defence = -0.5						
-			movement = -0.5
 		}
 
 		marsh = {
 			attack = -0.5
 			defence = -0.5						
-			movement = -0.5
 		}
 
 		fort = {

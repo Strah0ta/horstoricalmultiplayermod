@@ -51,7 +51,7 @@ technologies = {
 	
 	infantry_weapons_ai = {
 	
-	
+	allow = { always = no }
 			enable_equipments = {
 			infantry_equipment_ai
 		}
@@ -130,10 +130,9 @@ technologies = {
 	
 	infantry_weapons2 = {
 
-		category_light_infantry = {
+		camelry = {
 			soft_attack = 0.05
-		}
-		
+		}		
 		cavalry = {
 			soft_attack = 0.05
 		}
@@ -195,11 +194,13 @@ technologies = {
 
 	}
 	improved_infantry_weapons_2 = {
-
+		camelry = {
+			soft_attack = 0.05
+		}	
 		category_light_infantry = {
 			soft_attack = 0.05
 		}
-		
+
 		cavalry = {
 			soft_attack = 0.05
 		}
@@ -309,7 +310,9 @@ technologies = {
 		cavalry = {
 			soft_attack = 0.1
 		}		
-
+		camelry = {
+			soft_attack = 0.1
+		}	
 
 		motorized = {
 			soft_attack = 0.1
@@ -1049,6 +1052,10 @@ technologies = {
 			defense = 0.03
 			breakthrough = 0.03
 		}
+				camelry = {
+			defense = 0.03
+			breakthrough = 0.03
+			}	
 		marine = {
 			defense = 0.03
 			breakthrough = 0.03
@@ -1117,6 +1124,10 @@ technologies = {
 			defense = 0.03
 			breakthrough = 0.03
 		}
+						camelry = {
+			defense = 0.03
+			breakthrough = 0.03
+			}
 				jaeger = {
 			defense = 0.03
 			breakthrough = 0.03
@@ -1173,6 +1184,10 @@ technologies = {
 			defense = 0.03
 			breakthrough = 0.03
 		}
+						camelry = {
+			defense = 0.03
+			breakthrough = 0.03
+			}
 		paratrooper = {
 			defense = 0.03
 			breakthrough = 0.03
@@ -1245,6 +1260,10 @@ technologies = {
 			defense = 0.03
 			breakthrough = 0.03
 		}
+						camelry = {
+			defense = 0.03
+			breakthrough = 0.03
+			}
 				jaeger = {
 			defense = 0.03
 			breakthrough = 0.03
