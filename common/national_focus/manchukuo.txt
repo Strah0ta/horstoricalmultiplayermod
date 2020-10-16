@@ -90,7 +90,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			716 = {
+			496 = {
 				add_manpower = 25417
 				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
@@ -99,7 +99,7 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
-			715 = {
+			504 = {
 				add_manpower = 33846
 				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
@@ -302,92 +302,18 @@ focus_tree = {
 
 		cost = 5
 
-		ai_will_do = {
-			factor = 4
-		}
-
-		available = {
-			OR = {
-				716 = {
-					is_fully_controlled_by = ROOT
-				}
-				328 = {
-					is_fully_controlled_by = ROOT
-				} 
-				610 = {
-					is_fully_controlled_by = ROOT
-				} 
-				717 = {
-					is_fully_controlled_by = ROOT
-				}
-			}
-		}
-
 
 		completion_reward = {
+					every_owned_state = { limit = { is_core_of = MAN }
+		add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
 
-			if = {
-				limit = { 716 = { is_fully_controlled_by = ROOT } }
-				716 = {
-					add_building_construction = {
-						type = infrastructure
-						level = 2
-						instant_build = yes
 					}
-				}
-			}
-			if = {
-				limit = { 328 = { is_fully_controlled_by = ROOT } }
-				328 = {
-					add_building_construction = {
-						type = infrastructure
-						level = 2
-						instant_build = yes
 					}
-				} 
-			}
-			if = {
-				limit = { 610 = { is_fully_controlled_by = ROOT } }
-				715 = {
-					add_building_construction = {
-						type = infrastructure
-						level = 2
-						instant_build = yes
-					}
-				} 
-			}
-			if = {
-				limit = { 688 = { is_fully_controlled_by = ROOT } }
-				688 = {
-					add_building_construction = {
-						type = infrastructure
-						level = 2
-						instant_build = yes
-					}
-				}
-			}
-				if = {
-				limit = { 688 = { is_fully_controlled_by = ROOT } }
-				612 = {
-					add_building_construction = {
-						type = infrastructure
-						level = 2
-						instant_build = yes
-					}
-				}
-			}
-				if = {
-				limit = { 688 = { is_fully_controlled_by = ROOT } }
-				611 = {
-					add_building_construction = {
-						type = infrastructure
-						level = 2
-						instant_build = yes
-					}
-				}
-			}
 		}
-	}
 
 	focus = {
 		id = MAN_develop_aluminum_sources
@@ -398,18 +324,6 @@ focus_tree = {
 		relative_position_id = MAN_invite_japanese_investors
 
 		cost = 10
-
-		ai_will_do = {
-			factor = 2
-		}
-
-		available = {
-
-		}
-
-		bypass = {
-
-		}
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -454,18 +368,6 @@ focus_tree = {
 
 		cost = 10
 
-		ai_will_do = {
-			factor = 4
-		}
-
-		available = {
-			716 = { is_fully_controlled_by = ROOT }
-		}
-
-		bypass = {
-
-		}
-
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
@@ -475,7 +377,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			716 = {
+			328 = {
 				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = industrial_complex
@@ -612,20 +514,6 @@ focus_tree = {
 
 		cost = 10
 
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-			716 = { is_fully_controlled_by = ROOT } 
-						is_ai = no
-
-		}
-
-		bypass = {
-
-		}
-
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
@@ -635,7 +523,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			716 = {
+			328 = {
 				add_extra_state_shared_building_slots = 3
 				add_building_construction = {
 					type = arms_factory
@@ -656,26 +544,9 @@ focus_tree = {
 
 		cost = 5
 
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-			is_ai = no
-
-		}
-
-		bypass = {
-
-		}
-
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = yes
-
-		complete_tooltip = {
-
-		}
 
 		completion_reward = {
 			custom_effect_tooltip = available_designer
@@ -703,25 +574,9 @@ focus_tree = {
 
 		cost = 10
 
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = yes
-
-		complete_tooltip = {
-
-		}
 
 		completion_reward = {
 			remove_ideas = MAN_kwantung_veto
@@ -833,7 +688,7 @@ focus =  {
 	available_if_capitulated = no
 
 	completion_reward = {
-	715 = {
+	328 = {
 			add_extra_state_shared_building_slots = 1
 			add_building_construction = {
 				type = industrial_complex
@@ -1000,7 +855,7 @@ focus =  {
 	available_if_capitulated = no
 
 	completion_reward = {
-716 = {
+328 = {
 			add_extra_state_shared_building_slots = 2
 			add_building_construction = {
 				type = arms_factory
@@ -1190,7 +1045,7 @@ focus =  {
 	available_if_capitulated = no
 
 	completion_reward = {
-	716 = {
+	496 = {
 			add_extra_state_shared_building_slots = 2
 			add_building_construction = {
 				type = dockyard

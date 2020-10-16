@@ -13,7 +13,12 @@ leader_traits = {
 	fra_legit_trait = {
 		random = no
 	}
-	
+		ambitious_negotiator_neutrality = {
+		random = no
+		sprite = 13
+		neutrality_drift = 0.05
+		political_power_factor = 0.1
+	}
 	lion_of_verdun = {
 	random = no
 		experience_gain_army = 0.05

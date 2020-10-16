@@ -23,11 +23,11 @@ horst_manchukuo = {
 		text = "Vanilla Manchukuo Focus Tree"
 		desc = "Clicking this option will keep the vanilla Manchukuo focus tree that is used in Horst"	
 	}
-	option = {	
-		name = "HORST_ENABLE_MOD_MANCHUKUO"
-		text = "Modded Manchukuo Focus Tree"
-		desc = "Clicking this option will give Manchukuo a powerful new focus tree that was created by Thrasymachus"	
-	}
+	#option = {	
+	#	name = "HORST_ENABLE_MOD_MANCHUKUO"
+	#	text = "Modded Manchukuo Focus Tree"
+	#	desc = "Clicking this option will give Manchukuo a powerful new focus tree that was created by Thrasymachus"	
+	#}
 }
 
 horst_host_country = {

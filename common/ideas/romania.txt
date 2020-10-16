@@ -819,7 +819,7 @@ ideas = {
 			allowed = {
 				OR = { original_tag = ROM original_tag = BUL }
 			}
-			available = { OR = { tag = ROM has_completed_focus = BUL_mobile_navy } }
+			available = { OR = { tag = ROM has_completed_focus = BUL_mobile_navy has_completed_focus = BUL_bulgarian_shipping_chamber } }
 
 			research_bonus = {
 				naval_equipment = 0.15
@@ -850,7 +850,7 @@ ideas = {
 			picture = generic_sea_focused_navy
 
 			
-			available = { OR = { tag = ROM has_completed_focus = BUL_blacktrap_power_navy} }
+			available = { OR = { tag = ROM has_completed_focus = BUL_blacktrap_power_navy  has_completed_focus = BUL_a_powerful_bulgarian_navy } }
 			
 			allowed = {		
 				OR = { original_tag = ROM original_tag = BUL }
