@@ -213,7 +213,6 @@ focus_tree = {
 		id = fin_ranger
 		icon = GFX_goal_generic_special_forces
 		prerequisite = { focus = fin_special_forces }
-				mutually_exclusive = { focus = fin_shocktroops }
 
 		x = 1
 		y = 1
@@ -223,7 +222,8 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			set_technology = { jaegartroops = 1	}
+			hidden_effect= { set_technology = { motti_warfare = 1	} }
+			custom_effect_tooltip = "We will develop our military doctrine with Motti Tactics, making it easier to defend forests."
 		}
 	}
 	
@@ -231,7 +231,6 @@ focus_tree = {
 		id = fin_shocktroops
 		icon = GFX_goal_generic_special_forces
 		prerequisite = { focus = fin_special_forces }
-		mutually_exclusive = { focus = fin_ranger }
 		x = -1
 		y = 1
 		relative_position_id = fin_special_forces

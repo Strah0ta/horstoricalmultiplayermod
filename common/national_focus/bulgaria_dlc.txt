@@ -447,8 +447,7 @@ focus_tree = {
 			add_tech_bonus = {
 				name = BUL_darzhavna_aeroplanna_rabotilnitsa
 			    bonus = 1.0
-			    uses = 2
-				category = cas_bomber
+			    uses = 1
 				category = naval_bomber
 			}
 		}
@@ -477,8 +476,7 @@ focus_tree = {
 			add_tech_bonus = {
 				name = BUL_darzhavna_samoletna_fabrika
 			    bonus = 1.0
-			    uses = 2
-				category = cas_bomber
+			    uses = 1
 				category = naval_bomber
 			}
 		}
@@ -816,6 +814,7 @@ focus_tree = {
 				limit = { has_dlc = "Man the Guns" }
 				set_technology = { coastal_defense_ships = 1 } 
 			}
+			custom_effect_tooltip = "We will have access to the Bosphorous Strait."
 		}
 	}
 
@@ -1184,14 +1183,8 @@ focus_tree = {
 			add_tech_bonus = {
 				name = BUL_modern_tactics
 			    bonus = 1.0
-			    uses = 2
+			    uses = 5
 			    category = naval_doctrine
-			}
-			add_tech_bonus = {
-				name = BUL_modern_tactics
-			    bonus = 1
-			    uses = 1
-			    category = naval_air
 			}
 		}
 	}

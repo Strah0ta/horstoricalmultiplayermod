@@ -1,37 +1,6 @@
 ideas = {
 	
 	country = {
-		BUL_national_regeneration = {
-
-			picture = generic_pp_unity_bonus
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-			
-			modifier = {
-				army_core_defence_factor = 0.25
-				army_core_attack_factor = 0.25
-			}
-		}
-	
-		BUL_bulgarian_thracian_volunteers = {
-
-			picture = generic_infantry_bonus
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-			
-			modifier = {
-				conscription = 0.02
-			}
-		}
-	
 		BUL_imro = {
 
 			picture = bul_imro
@@ -501,7 +470,7 @@ ideas = {
 			modifier = {
 				production_speed_buildings_factor = 0.05
 				production_factory_efficiency_gain_factor = 0.02
-				production_factory_max_efficiency_factor = 0.02
+				production_factory_start_efficiency_factor = 0.02 
 				consumer_goods_factor = 0.04
 			}
 		}
@@ -522,7 +491,7 @@ ideas = {
 			modifier = {
 				production_speed_buildings_factor = 0.1
 				production_factory_efficiency_gain_factor = 0.05
-				production_factory_max_efficiency_factor = 0.05
+				production_factory_start_efficiency_factor = 0.05
 				consumer_goods_factor = 0.08
 			}
 		}
@@ -543,7 +512,7 @@ ideas = {
 			modifier = {
 				production_speed_buildings_factor = 0.15
 				production_factory_efficiency_gain_factor = 0.1
-				production_factory_max_efficiency_factor = 0.1
+				production_factory_start_efficiency_factor = 0.1
 				global_building_slots_factor = 0.2
 				consumer_goods_factor = -0.02
 			}
@@ -1503,7 +1472,7 @@ ideas = {
 				production_speed_buildings_factor = 0.1
 								local_building_slots_factor = 0.05
 				local_resources_factor = 0.05
-
+				production_factory_start_efficiency_factor = 0.05
 			}
 		}		
 	}

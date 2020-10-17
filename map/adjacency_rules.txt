@@ -464,7 +464,7 @@ adjacency_rule
 	required_provinces = { 9833 11829 }
 		is_disabled = {
 		NOT = {
-			ROOT = { has_completed_focus = BUL_turkish_straits }
+			 ROOT = { OR = { has_completed_focus = BUL_turkish_straits has_completed_focus = BUL_a_black_sea_fleet  }  }
 		}	
 	}
 	icon = 9833
