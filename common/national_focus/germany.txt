@@ -884,7 +884,7 @@ add_equipment_production = {
 			add_tech_bonus = {
 				name = air_sup_bonus
 				bonus = 3.0
-				uses = 3
+				uses = 2
 				category = air_doctrine
 			}
 	42 = {

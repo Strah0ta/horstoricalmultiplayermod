@@ -22,13 +22,13 @@ guiTypes = {
 		iconType ={
 			name ="aluminium_value_bg"
 			spriteType = "GFX_generic_box_smallest"
-			position = { x=967 y=0 }#abstand jeweils 73
+			position = { x=823 y=0 }#abstand jeweils 73
 			Orientation = "UPPER_LEFT"
 		}
 		
 		iconType = {
 			name = "aluminium_icon"
-			position = { x=967 y=1 }
+			position = { x=823 y=1 }
 			spriteType = "GFX_resources_strip"
 			frame = 2
 			scale=0.9
@@ -37,7 +37,7 @@ guiTypes = {
 		
 		instantTextboxType = {
 			name = "aluminium_value"
-			position = { x = 980 y = 4 }#x = 995
+			position = { x = 836 y = 4 }#x = 995
 			textureFile = ""
 			font = "hoi_18mbs"
 			borderSize = {x = 0 y = 0}
@@ -53,13 +53,13 @@ guiTypes = {
 		iconType ={
 			name ="rubber_value_bg"
 			spriteType = "GFX_generic_box_smallest"
-			position = { x=1039 y=0 }#abstand jeweils 73
+			position = { x=895 y=0 }#abstand jeweils 73
 			Orientation = "UPPER_LEFT"
 		}
 		
 		iconType = {
 			name = "rubber_icon"
-			position = { x=1039 y=-1 }
+			position = { x=895 y=-1 }
 			spriteType = "GFX_resources_strip"
 			frame = 3
 			scale=1
@@ -67,7 +67,7 @@ guiTypes = {
 		}
 		instantTextboxType = {
 			name = "rubber_value"
-			position = { x = 1052 y = 4 }#x = 995
+			position = { x = 908 y = 4 }#x = 995
 			textureFile = ""
 			font = "hoi_18mbs"
 			borderSize = {x = 0 y = 0}
@@ -81,13 +81,13 @@ guiTypes = {
 		iconType ={
 			name ="tungsten_value_bg"
 			spriteType = "GFX_generic_box_smallest"
-			position = { x=1111 y=0 }#abstand jeweils 73
+			position = { x=967 y=0 }#abstand jeweils 73
 			Orientation = "UPPER_LEFT"
 		}
 		
 		iconType = {
 			name = "tungsten_icon"
-			position = { x=1111 y=1 }
+			position = { x=967 y=1 }
 			spriteType = "GFX_resources_strip"
 			frame = 4
 			scale=0.9
@@ -95,7 +95,7 @@ guiTypes = {
 		}
 		instantTextboxType = {
 			name = "tungsten_value"
-			position = { x = 1124 y = 4 }#x = 995
+			position = { x = 980 y = 4 }#x = 995
 			textureFile = ""
 			font = "hoi_18mbs"
 			borderSize = {x = 0 y = 0}
@@ -110,13 +110,13 @@ guiTypes = {
 		iconType ={
 			name ="steel_value_bg"
 			spriteType = "GFX_generic_box_smallest"
-			position = { x=1183 y=0 }#abstand jeweils 73
+			position = { x=1039 y=0 }#abstand jeweils 73
 			Orientation = "UPPER_LEFT"
 		}
 		
 		iconType = {
 			name = "steel_icon"
-			position = { x=1183 y=1 }
+			position = { x=1039 y=1 }
 			spriteType = "GFX_resources_strip"
 			frame = 5
 			scale=0.9
@@ -124,10 +124,10 @@ guiTypes = {
 		}
 		instantTextboxType = {
 			name = "steel_value"
-			position = { x = 1196 y = 4 }#x = 995
+			position = { x = 1052 y = 4 }#x = 995
 			textureFile = ""
 			font = "hoi_18mbs"
-			borderSize = {x = 0 y = 0}
+			borderSize = {x = 0 y = 0} 
 			text= [steel_text]
 			maxWidth = 57
 			maxHeight = 24
@@ -138,13 +138,13 @@ guiTypes = {
 		iconType ={
 			name ="chromium_value_bg"
 			spriteType = "GFX_generic_box_smallest"
-			position = { x=1255 y=0 }#abstand jeweils 73
+			position = { x=1111 y=0 }#abstand jeweils 73
 			Orientation = "UPPER_LEFT"
 		}
 		
 		iconType = {
 			name = "chromium_icon"
-			position = { x=1255 y=1 }
+			position = { x=1111 y=1 }
 			spriteType = "GFX_resources_strip"
 			frame = 6
 			scale=0.9
@@ -152,7 +152,7 @@ guiTypes = {
 		}
 		instantTextboxType = {
 			name = "chromium_value"
-			position = { x = 1268 y = 4 }#x = 995
+			position = { x = 1124 y = 4 }#x = 995
 			textureFile = ""
 			font = "hoi_18mbs"
 			borderSize = {x = 0 y = 0}

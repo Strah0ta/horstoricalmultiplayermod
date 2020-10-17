@@ -1569,7 +1569,7 @@ add_equipment_production = {
 			add_tech_bonus = {
 				name = FRA_air_ground_cooperation
 				category = air_doctrine
-				uses = 10
+				uses = 8
 				bonus = 3
 			}
 			add_ideas = ENG_british_commonwealth_air_training_plan
