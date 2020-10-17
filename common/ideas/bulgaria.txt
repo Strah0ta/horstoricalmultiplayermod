@@ -415,8 +415,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				trade_laws_cost_factor = -0.50
-				consumer_goods_factor = -0.05
+				min_export = -1
 			}
 		}
 

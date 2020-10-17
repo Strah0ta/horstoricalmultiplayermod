@@ -98,7 +98,20 @@ technologies = {
 			factor = 1
 		}
 	}
-	
+			motti_warfare = {
+		research_cost = 1
+
+		allow = {
+			always = no
+		}
+
+		infantry = {
+			forest = {
+				defence = 0.1
+				movement = 0.05
+			}
+		}
+	}
 	infantry_weapons1 = {
 
 		enable_equipments = {
