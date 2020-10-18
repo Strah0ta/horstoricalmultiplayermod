@@ -137,7 +137,7 @@ technologies = {
 	battlefield_support = {
 
 		# EFFECT ########
-		army_bonus_air_superiority_factor = 0.25
+		army_bonus_air_superiority_factor = 0.2
 		###########
 		
 		 
@@ -194,7 +194,7 @@ technologies = {
 	direct_ground_support = {
 
 		# EFFECT ########
-		air_cas_present_factor = 0.25
+		air_cas_present_factor = 0.2
 
 		 
 		 
@@ -212,34 +212,6 @@ technologies = {
 		}
 	}
 
-
-
-
-	dive_bombing = {
-
-		 
-
-		# EFFECT ########
-		army_bonus_air_superiority_factor = 0.15
-		air_cas_present_factor = 0.15
-		###########
-
-
-		 
-		 
-		 
-		doctrine = yes
-		research_cost = 2
-
-		categories = {
-			air_doctrine
-		}
-
-		folder = {
-			name = air_doctrine_folder
-			position = { x = 9 y = 8 }
-		}
-	}
 
 	dogfighting_experience = {
 
