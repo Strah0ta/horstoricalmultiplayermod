@@ -126,8 +126,8 @@ sub_units = {
 		}
 
 		hills = {
-		attack = -0.3
-		defence = -0.3								
+		attack = -0.1
+		defence = -0.1							
 		}
 
 		mountain = {

@@ -1,17 +1,50 @@
 technologies = {
 	air_superiority = {
-		# EFFECT ########
 		air_superiority_detect_factor = 0.1
-		###########
-		 
-		 
-		 
-
 		path = {
 			leads_to_tech = dispersed_fighting
 			research_cost_coeff = 1
 		}
+		doctrine = yes
+		research_cost = 2
+		categories = {
+			air_doctrine
+		}
+		folder = {
+			name = air_doctrine_folder
+			position = { x = 9 y = 0 }
+		}
+	}
+	dispersed_fighting = {
+		category_fighter = {
+			air_agility = 0.1
+		}
+		category_heavy_fighter = {
+			air_agility = 0.1
+		}
+		category_cas = {
+			air_agility = 0.25
+		}
+		air_strategic_bomber_defence_factor = 0.25
 
+		###########
+		path = {
+			leads_to_tech = strategic_destruction
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = combat_unit_destruction
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech =  fighter_sweeps
+			research_cost_coeff = 1
+		}
+
+		 
+		 
+		 
 		doctrine = yes
 		research_cost = 2
 
@@ -21,10 +54,9 @@ technologies = {
 
 		folder = {
 			name = air_doctrine_folder
-			position = { x = 9 y = 0 }
+			position = { x = 9 y = 2 }
 		}
 	}
-
 	day_bombing = {
 
 		# EFFECT ########
@@ -259,46 +291,5 @@ technologies = {
 		}
 	}
 
-	dispersed_fighting = {
 
-		# EFFECT ########
-		category_fighter = {
-			air_agility = 0.1
-		}
-		category_heavy_fighter = {
-			air_agility = 0.1
-		}
-				category_cas = {
-			air_agility = 0.25
-		}
-		###########
-		path = {
-			leads_to_tech = strategic_destruction
-			research_cost_coeff = 1
-		}
-
-		path = {
-			leads_to_tech = combat_unit_destruction
-			research_cost_coeff = 1
-		}
-		path = {
-			leads_to_tech =  fighter_sweeps
-			research_cost_coeff = 1
-		}
-
-		 
-		 
-		 
-		doctrine = yes
-		research_cost = 2
-
-		categories = {
-			air_doctrine
-		}
-
-		folder = {
-			name = air_doctrine_folder
-			position = { x = 9 y = 2 }
-		}
-	}
 }

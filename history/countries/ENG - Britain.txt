@@ -52,6 +52,7 @@ remove_from_faction = RAJ
 
 # Starting tech
 set_technology = {
+air_superiority = 1
 	scout_plane1 = 1
 	infantry_weapons = 1
 	infantry_weapons1 = 1

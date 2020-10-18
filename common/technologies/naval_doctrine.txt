@@ -31,8 +31,6 @@ technologies = {
 		
 		categories = {
 			naval_doctrine
-			fleet_in_being_tree
-			cat_fleet_in_being
 		}
 		
 		folder = {
@@ -65,8 +63,6 @@ technologies = {
 		
 		categories = {
 			naval_doctrine
-			fleet_in_being_tree
-			cat_fleet_in_being
 		}
 		
 		folder = {
@@ -99,8 +95,6 @@ technologies = {
 		
 		categories = {
 			naval_doctrine
-			fleet_in_being_tree
-			cat_fleet_in_being
 		}
 		
 		folder = {
@@ -132,8 +126,6 @@ technologies = {
 		
 		categories = {
 			naval_doctrine
-			fleet_in_being_tree
-			cat_fleet_in_being
 		}
 		
 		folder = {
@@ -168,8 +160,6 @@ technologies = {
 		
 		categories = {
 			naval_doctrine
-			fleet_in_being_tree
-			cat_fleet_in_being
 		}
 		
 		folder = {
@@ -206,9 +196,6 @@ technologies = {
 		
 		categories = {
 			naval_doctrine
-			fleet_in_being_tree
-			convoy_defense_tree
-			cat_fleet_in_being
 		}
 		
 		folder = {
@@ -244,9 +231,6 @@ technologies = {
 		
 		categories = {
 			naval_doctrine
-			fleet_in_being_tree
-			convoy_defense_tree
-			cat_fleet_in_being
 		}
 		
 		folder = {
@@ -275,9 +259,6 @@ technologies = {
 		
 		categories = {
 			naval_doctrine
-			fleet_in_being_tree
-			convoy_defense_tree
-			cat_fleet_in_being
 		}
 		
 		folder = {
@@ -314,9 +295,6 @@ technologies = {
 		
 		categories = {
 			naval_doctrine
-			trade_interdiction_tree
-			submarine_doctrine
-			cat_trade_interdiction
 		}
 		
 		folder = {
@@ -346,9 +324,6 @@ technologies = {
 		
 		categories = {
 			naval_doctrine
-			trade_interdiction_tree
-			submarine_doctrine
-			cat_trade_interdiction
 		}
 		
 		folder = {
@@ -377,9 +352,6 @@ technologies = {
 		
 		categories = {
 			naval_doctrine
-			trade_interdiction_tree
-			submarine_doctrine
-			cat_trade_interdiction
 		}
 		
 		folder = {
@@ -405,9 +377,6 @@ technologies = {
 		
 		categories = {
 			naval_doctrine
-			trade_interdiction_tree
-			submarine_doctrine
-			cat_trade_interdiction
 		}
 		
 		folder = {
@@ -450,9 +419,6 @@ technologies = {
 		
 		categories = {
 			naval_doctrine
-			trade_interdiction_tree
-			submarine_doctrine
-			cat_trade_interdiction
 		}
 
 		folder = {
@@ -486,8 +452,6 @@ technologies = {
 		
 		categories = {
 			naval_doctrine
-			trade_interdiction_tree
-			cat_trade_interdiction
 		}
 		
 		folder = {
@@ -523,8 +487,6 @@ technologies = {
 		
 		categories = {
 			naval_doctrine
-			trade_interdiction_tree
-			cat_trade_interdiction
 		}
 		
 		folder = {
@@ -561,7 +523,6 @@ technologies = {
 		
 		categories = {
 			naval_doctrine
-			cat_base_strike
 		}
 		
 		folder = {
@@ -588,8 +549,6 @@ technologies = {
 		}
 		categories = {
 			naval_doctrine
-			base_strike_main
-			cat_base_strike
 		}
 
 		folder = {
@@ -621,8 +580,6 @@ technologies = {
 		
 		categories = {
 			naval_doctrine
-			base_strike_main
-			cat_base_strike
 		}
 		
 		folder = {
@@ -655,8 +612,6 @@ technologies = {
 		
 		categories = {
 			naval_doctrine
-			base_strike_main
-			cat_base_strike
 		}
 		
 		folder = {
@@ -684,8 +639,6 @@ technologies = {
 		
 		categories = {
 			naval_doctrine
-			base_strike_main
-			cat_base_strike
 		}
 		
 		folder = {
@@ -710,8 +663,6 @@ technologies = {
 		
 		categories = {
 			naval_doctrine
-			base_strike_main
-			cat_base_strike
 		}
 
 		

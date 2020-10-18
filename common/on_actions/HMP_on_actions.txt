@@ -646,17 +646,12 @@ on_state_control_changed = {
 			GER = { add_to_variable = { germany_war_exhaustion_war_support_factor = -0.017  } add_to_variable = { germany_war_exhaustion_stability_factor = -0.008	} }
 			}
 				if = { limit = {  GER = { has_completed_focus = GER_the_great_turn }  }
-			GER = { add_to_variable = { germany_war_exhaustion_war_support_factor = -0.08  } add_to_variable = { germany_war_exhaustion_stability_factor = -0.004	} }
+			GER = { add_to_variable = { germany_war_exhaustion_war_support_factor = -0.004  } add_to_variable = { germany_war_exhaustion_stability_factor = -0.002	} }
 
 				}				
 		 country_event = { id = horsthelp.66 days = 0 }
 		}
 	}
-	on_monthly_SOV = {
-			effect = {
-			if = { limit = { date > 1942.9.30 } SOV = { add_to_variable = { SOV_red_air_force_resurgent_cas_damage_reduction = 0.02 }} }
 
-			}
-	}
 
 	}

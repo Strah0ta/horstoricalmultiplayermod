@@ -717,11 +717,11 @@ SOV = {
 		name = "Boris Shaposhnikov"
         picture = "Portrait_Soviet_Boris_Shaposhnikov.dds"
 		traits = {  infantry_leader skilled_staffer expert_delegator organizer logistics_wizard  }
-		skill = 5
+		skill = 6
 		id = 9994010 
-    attack_skill = 1
+    attack_skill = 3
     defense_skill = 4
-    planning_skill = 1
+    planning_skill = 2
     logistics_skill = 10
 			}		
 			
@@ -729,11 +729,11 @@ SOV = {
 	name = "Nikolai Vatutin"
 		picture = "Portrait_Soviet_Nikolai_Fyodorovich_Vatutin.dds"
 	traits = { infantry_leader fake_skilled_staffer organizer trait_reckless }
-	skill = 5
+	skill = 6
 	id = 9994011
-    attack_skill = 1
+    attack_skill = 3
     defense_skill = 4
-    planning_skill = 1
+    planning_skill = 2
     logistics_skill = 10
 }		
 
@@ -741,11 +741,11 @@ create_corps_commander = {
 	name = "Kirill Meretskov"
 		picture = "Portrait_Soviet_Kirill_Meretskov.dds"
 	traits = { infantry_leader fake_skilled_staffer organizer trait_reckless }
-	skill = 5
+	skill = 6
 	id = 9999912
-    attack_skill = 1
+    attack_skill = 3
     defense_skill = 4
-    planning_skill = 1
+    planning_skill = 2
     logistics_skill = 10
 }
 
@@ -753,11 +753,11 @@ create_corps_commander = {
 	name = "Ivan Fedyuninsky"
 		picture = "Portrait_Soviet_Ivan_Fedyuninsky.dds"
 	traits = { infantry_leader fake_skilled_staffer   }
-	skill = 5
+	skill = 6
 	id = 9994027
-    attack_skill = 1
+    attack_skill = 3
     defense_skill = 4
-    planning_skill = 1
+    planning_skill = 2
     logistics_skill = 10
 }
 
@@ -765,10 +765,10 @@ create_corps_commander = {
 	name = "Markian Popov"
 		picture = "Portrait_Soviet_Matkian_Popov.dds"
 	traits = { infantry_leader infantry_expert trait_engineer fortress_buster trickster expert_improviser ranger  brilliant_strategist aggressive_assaulter }
-	skill = 5
+	skill = 6
 
-	attack_skill = 4
-	defense_skill = 4
+	attack_skill = 6
+	defense_skill = 5
 	planning_skill = 3
 	logistics_skill = 5
 }
@@ -778,11 +778,11 @@ create_corps_commander = {
 	id = 999405
 		picture = "Portrait_Soviet_Kliment_Voroshilov.dds"
 	traits = { old_guard skilled_staffer expert_delegator inflexible_strategist organizer infantry_leader defensive_doctrine ambusher inspirational_leader unyielding_defender  }
-	skill = 6
+	skill = 7
 
 	
-	attack_skill = 4
-	defense_skill = 6
+	attack_skill = 6
+	defense_skill = 7
 	planning_skill = 4
 	logistics_skill = 5
 }

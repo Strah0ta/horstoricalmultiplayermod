@@ -44,6 +44,7 @@ add_to_faction = MAN
 set_faction_spymaster = yes	
 
 set_technology = {
+air_superiority = 1
 	scout_plane1 = 1
 	interwar_antiair = 1
 	infantry_weapons = 1

@@ -771,10 +771,10 @@ focus_tree = {
 			HUN = { 
 				set_cosmetic_tag = HUN_REICH
 155 = {
-							add_extra_state_shared_building_slots = 5
+							add_extra_state_shared_building_slots = 3
 							add_building_construction = {
 								type = arms_factory
-								level = 5
+								level = 2
 								instant_build = yes
 							}
 					
@@ -785,31 +785,34 @@ focus_tree = {
 		ROM = {
 		set_cosmetic_tag = ROM_REICH 
 				46 = {
-							add_extra_state_shared_building_slots = 5
+							add_extra_state_shared_building_slots = 3
 							add_building_construction = {
 								type = arms_factory
-								level = 5
+								level = 2
 								instant_build = yes
 							}
 						}					
 				} 
-												60 = {
-							add_extra_state_shared_building_slots = 8
+			SPR = { 
+				41 = {
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = arms_factory
+						level = 2
+						instant_build = yes
+					}
+			}
+			} 					
+			60 = {
+							add_extra_state_shared_building_slots = 14
 							add_building_construction = {
 								type = arms_factory
-								level = 8
+								level = 16
 								instant_build = yes
 							}
 					
 						}	
-				41 = {
-					add_extra_state_shared_building_slots = 4
-					add_building_construction = {
-						type = arms_factory
-						level = 4
-						instant_build = yes
-					}
-			}
+
 							}	
 		}
 
@@ -1755,12 +1758,38 @@ focus = {
 		completion_reward = {
 		custom_effect_tooltip = GER_jag_tt
 		add_ideas = GER_totaler_krieg_idea
+		ITA = { add_ideas = GER_totaler_krieg_idea  }
 		add_ideas = GER_totaler_krieg_idea2
 			add_dynamic_modifier  = { modifier =  GER_war_exhaustion }
 		hidden_effect = { HMP_ger_total_mob = yes }		
 		 }
 }
+focus = {
+		id = GER_ot
+		icon = GFX_GER_arbeitsinsatz
+		prerequisite = { focus = GER_jag	 }
+		
+		x = 0
+		y = 1
 
+		relative_position_id = GER_jag
+		cost = 1
+
+		completion_reward = {
+		every_country = { limit = { is_in_faction_with = GER }
+				add_tech_bonus = {
+				name = "Organisation Todt"
+				bonus = 3.0
+				ahead_reduction = 2
+				uses = 2
+				category = 	construction_tech
+				category =	excavation_tech
+
+			}
+			}
+
+		 }
+}
 	focus = {
 		id = GER_demand_memel
 		icon = GFX_goal_generic_forceful_treaty
@@ -2219,7 +2248,7 @@ focus = {
 		focus = { 
 		id = GER_the_great_turn
 		icon = GFX_focus_GER_endsieg
-		prerequisite = { focus = GER_jag }
+		prerequisite = { focus = GER_ot }
 		available = {
 			date > 1942.1.1		
 			has_idea = GER_totaler_krieg_idea
@@ -2227,7 +2256,7 @@ focus = {
 		 
 		x = 0
 		y = 1
-		relative_position_id = GER_jag
+		relative_position_id = GER_ot
 		cost = 0
 		
 	completion_reward = {

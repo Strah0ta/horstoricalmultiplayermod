@@ -717,7 +717,7 @@ tactic_guerrilla_tactics = { #People's army defender tactic. also for German vol
 	base =  { 
 	factor = 4
 		modifier = {
-			factor = 0
+			factor = 2
 			is_fighting_in_terrain = plains 
 		}
 	}

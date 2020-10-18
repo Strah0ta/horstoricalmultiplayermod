@@ -248,7 +248,7 @@ focus_tree = {
 
 
 		completion_reward = {
-			country_event = wtt_manchukou.11
+			add_ideas = MAN_five_year_plan_industry 
 		}
 	}
 
@@ -465,7 +465,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			country_event = wtt_manchukou.11
+			add_ideas = MAN_five_year_plan_tank  add_ideas = MAN_five_year_plan_air    
 		}
 	}
 

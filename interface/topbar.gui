@@ -235,8 +235,6 @@ guiTypes = {
 			name ="navy_experience_value_bg"
 			spriteType = "GFX_generic_box_smallest"
 			position = { x=-300 y=0 }
-			maxWidth = 0
-			maxHeight = 0 
 			Orientation = "UPPER_LEFT"
 		}
 		
@@ -244,8 +242,6 @@ guiTypes = {
 			name ="navy_experience_icon"
 			spriteType = "GFX_navy_experience"
 			position = { x=-300 y = 0 }
-			maxWidth = 0
-			maxHeight = 0 
 			Orientation = "UPPER_LEFT"
 		}		
 		
@@ -255,8 +251,6 @@ guiTypes = {
 			font = "hoi_18mbs"
 			text = "999"
 			format = center
-			maxWidth = 0
-			maxHeight = 0
 			fixedsize = yes
 		}		
 
@@ -264,8 +258,7 @@ guiTypes = {
 			name ="air_experience_value_bg"
 			spriteType = "GFX_generic_box_smallest"
 			position = { x=-300 y=0 }
-			maxWidth = 0
-			maxHeight = 0 
+
 			Orientation = "UPPER_LEFT"
 		}
 		
@@ -273,8 +266,6 @@ guiTypes = {
 			name ="air_experience_icon"
 			spriteType = "GFX_air_experience"
 			position = { x=-300 y = 0 }
-			maxWidth = 0
-			maxHeight = 0 
 			Orientation = "UPPER_LEFT"
 		}		
 		
@@ -284,8 +275,6 @@ guiTypes = {
 			font = "hoi_18mbs"
 			text = "999"
 			format = center
-			maxWidth = 0
-			maxHeight = 0
 			fixedsize = yes
 		}
 		
