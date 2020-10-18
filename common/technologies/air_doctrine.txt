@@ -192,12 +192,7 @@ technologies = {
 
 
 	direct_ground_support = {
-
-		# EFFECT ########
-		air_cas_present_factor = 0.2
-
-		 
-		 
+		army_bonus_air_superiority_factor = 0.2
 		 
 		doctrine = yes
 		research_cost = 2
@@ -214,14 +209,7 @@ technologies = {
 
 
 	dogfighting_experience = {
-
-		# EFFECT ########
-		air_superiority_efficiency = 0.2
-		###########
-
-		 
-		 
-		 
+		air_superiority_efficiency = 0.2		 
 		doctrine = yes
 		research_cost = 2
 
@@ -236,13 +224,9 @@ technologies = {
 	}
 
 	fighter_sweeps = {
-
-		# EFFECT ########
 		air_intercept_efficiency = 0.2
 		air_interception_detect_factor = 0.15
-		###########
-
-
+		
 		path = {
 			leads_to_tech = dogfighting_experience
 			research_cost_coeff = 1

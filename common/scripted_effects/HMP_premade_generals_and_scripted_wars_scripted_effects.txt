@@ -720,8 +720,8 @@ SOV = {
 		skill = 6
 		id = 9994010 
     attack_skill = 3
-    defense_skill = 4
-    planning_skill = 2
+    defense_skill = 5
+    planning_skill = 1
     logistics_skill = 10
 			}		
 			
@@ -732,8 +732,8 @@ SOV = {
 	skill = 6
 	id = 9994011
     attack_skill = 3
-    defense_skill = 4
-    planning_skill = 2
+    defense_skill = 5
+    planning_skill = 1
     logistics_skill = 10
 }		
 
@@ -744,8 +744,8 @@ create_corps_commander = {
 	skill = 6
 	id = 9999912
     attack_skill = 3
-    defense_skill = 4
-    planning_skill = 2
+    defense_skill = 5
+    planning_skill = 1
     logistics_skill = 10
 }
 
@@ -756,8 +756,8 @@ create_corps_commander = {
 	skill = 6
 	id = 9994027
     attack_skill = 3
-    defense_skill = 4
-    planning_skill = 2
+    defense_skill = 5
+    planning_skill = 1
     logistics_skill = 10
 }
 

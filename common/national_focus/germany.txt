@@ -934,7 +934,7 @@ add_equipment_production = {
 			add_tech_bonus = {
 				name = op_dest_bonus
 				bonus = 3.0
-				uses = 3
+				uses = 2
 				category = air_doctrine
 			}
 			add_tech_bonus = {
@@ -1015,7 +1015,7 @@ add_equipment_production = {
 			add_tech_bonus = {
 				name = strat_dest_bonus
 				bonus = 3.0
-				uses = 3
+				uses = 2
 				category = air_doctrine
 			}
 				add_tech_bonus = {

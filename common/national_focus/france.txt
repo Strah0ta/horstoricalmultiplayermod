@@ -1660,7 +1660,7 @@ transfer_state = 601
 			add_tech_bonus = {
 				name = FRA_air_ground_cooperation
 				category = air_doctrine
-				uses = 3
+				uses = 2
 				bonus = 1
 			}
 		}
