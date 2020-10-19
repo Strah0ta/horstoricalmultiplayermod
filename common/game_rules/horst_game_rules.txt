@@ -37,7 +37,7 @@ horst_host_country = {
 	default = { 
 	name = DIS
 	text = "Tool Disabled"
-	desc = ""
+	desc = "Horst Tool is disabled (It is recommended to enable it on a trusted players country for the purpose of fixing certain situations that might arise in MP)"
 	}
 	option = {
 		name = GER
@@ -142,7 +142,11 @@ horst_host_country = {
 		option = {
 		name = EFR
 		text = "Vichy France"
-		desc = "Clicking this option will give Finland access to the Horst Tools (please test this in SP before enabling in MP) - Horst tool is transferred to Germany upon capitulation"
+		desc = "Clicking this option will give Vichy France access to the Horst Tools (please test this in SP before enabling in MP) - Horst tool is transferred to Germany upon capitulation"
 	}		
-	
+			option = {
+		name = BUL
+		text = "Bulgaria"
+		desc = "Clicking this option will give Bulgaria access to the Horst Tools (please test this in SP before enabling in MP) - Horst tool is transferred to Germany upon capitulation"
+	}		
 }

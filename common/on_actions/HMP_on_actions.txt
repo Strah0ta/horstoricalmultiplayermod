@@ -99,6 +99,10 @@ else_if = {
 		limit = {has_game_rule = {rule = horst_host_country option = EFR}}
 		set_variable={host = EFR.id}
 	}	
+		else_if = {
+		limit = {has_game_rule = {rule = horst_host_country option = BUL}}
+		set_variable={host = BUL.id}
+	}	
 var:host = { 
 			set_variable = { marked_states = 0 }
 			set_country_flag = host

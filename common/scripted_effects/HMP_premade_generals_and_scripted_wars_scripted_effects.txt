@@ -257,14 +257,14 @@ ITA = {
 create_field_marshal = { #general FM 
     name = "Pietro Badoglio"
     picture = "Portrait_Italy_Pietro_Badoglio.dds"
-    traits = { defensive_doctrine old_guard inflexible_strategist organizer infantry_leader ambusher unyielding_defender logistics_wizard  }
-    skill = 7
+    traits = { defensive_doctrine old_guard inflexible_strategist organizer infantry_leader infantry_expert unyielding_defender logistics_wizard  }
+    skill = 8
     id = 9995046
 
     attack_skill = 4
     defense_skill = 8
-    planning_skill = 4
-    logistics_skill = 5
+    planning_skill = 6
+    logistics_skill = 6
 }
 create_corps_commander = {
     name = "Sebastiano Visconti Prasca"
@@ -293,7 +293,7 @@ create_corps_commander = { #Infantry general Africa
 create_field_marshal = {
 	name = "Emilio De Bono"
 	picture = "portrait_italy_emilio_de_bono.dds"
-	traits = { defensive_doctrine organizer logistics_wizard old_guard infantry_leader ambusher inspirational_leader organisational_leader guerilla_fighter trait_cautious }
+	traits = { defensive_doctrine organizer logistics_wizard old_guard infantry_leader ambusher inspirational_leader organisational_leader guerilla_fighter camouflage_expert trait_cautious }
 	skill = 7
 	id = 9995047
 	attack_skill = 4

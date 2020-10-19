@@ -77,9 +77,9 @@ guiTypes = {
 				}
 				instantTextBoxType = {
 					name = "infantry_subtitle_specialists1"
-					position = { x = 40 y = 840 }
+					position = { x = 40 y = 1120 }
 					textureFile = ""
-					font = "hoi_33"
+					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
 					text = "All"
 					maxWidth = 600
@@ -89,9 +89,9 @@ guiTypes = {
 				}
 				instantTextBoxType = {
 					name = "infantry_subtitle_specialists2"
-					position = { x = 40 y = 840 }
+					position = { x = 40 y = 1015 }
 					textureFile = ""
-					font = "hoi_33"
+					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
 					text = "All"
 					maxWidth = 600
@@ -101,9 +101,9 @@ guiTypes = {
 				}
 				instantTextBoxType = {
 					name = "infantry_subtitle_specialists3"
-					position = { x = 40 y = 840 }
+					position = { x = 40 y = 910 }
 					textureFile = ""
-					font = "hoi_33"
+					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
 					text = "All"
 					maxWidth = 600
