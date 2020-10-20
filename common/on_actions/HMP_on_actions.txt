@@ -326,49 +326,6 @@ on_state_control_changed = {
 				}
 				EFR = { country_event = { id = vichy.1 }}
 			}
-				if = {
-				limit = {
-					ROOT = {
-					OR = { 
-							tag = FRA
-							tag = ENG
-							tag = USA
-							tag = AST
-							tag = MEX
-							tag = CAN
-							tag = NZL
-							tag = NOR
-							}
-							}
-					FROM.FROM = {
-					OR = {
-						state = 539
-						state = 603
-						state = 272
-						state = 543
-						state = 554
-						state = 460
-						}
-					}
-				}	
-			EFR = { add_to_variable={vichy_legitimacy_mechanic_stability_factor=-0.15} }
-			}
-				if = {
-				limit = {
-					ROOT = { tag = EFR }
-					FROM.FROM = {
-						OR = {
-						state = 539
-						state = 603
-						state = 272
-						state = 543
-						state = 554
-						state = 460
-						}
-					}
-				}	
-			EFR = { add_to_variable={vichy_legitimacy_mechanic_stability_factor = 0.15} }
-			}
 
 				if = {
 				limit = {	
@@ -646,14 +603,10 @@ on_state_control_changed = {
 	
 	on_monthly_GER = {
 		effect = { 
-		if = { limit = {  GER = { has_completed_focus = GER_jag }  }
-			GER = { add_to_variable = { germany_war_exhaustion_war_support_factor = -0.017  } add_to_variable = { germany_war_exhaustion_stability_factor = -0.008	} }
-			}
-				if = { limit = {  GER = { has_completed_focus = GER_the_great_turn }  }
-			GER = { add_to_variable = { germany_war_exhaustion_war_support_factor = -0.004  } add_to_variable = { germany_war_exhaustion_stability_factor = -0.002	} }
-
-				}				
-		 country_event = { id = horsthelp.66 days = 0 }
+		recalc_vichy_france_legitimacy = yes 
+		country_event = { id = horsthelp.66 days = 0 }
+		if = { limit = {GER = {has_completed_focus = GER_jag } }	GER = { add_to_variable = { germany_war_exhaustion_war_support_factor = -0.017  } add_to_variable = { germany_war_exhaustion_stability_factor = -0.008	} }	}
+		if = { limit = {GER = {has_completed_focus = GER_the_great_turn}} GER = {add_to_variable={germany_war_exhaustion_war_support_factor=-0.004}add_to_variable = {germany_war_exhaustion_stability_factor=-0.002}}}				
 		}
 	}
 

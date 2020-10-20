@@ -1131,9 +1131,9 @@ date > 1941.6.1
 				name = ITA_marines_and_landing_craft
 				bonus = 1.0
 				uses = 1
-				technology = transport
-				technology = landing_craft
-				technology = tank_landing_craft
+				technology = mtg_transport
+				technology = mtg_landing_craft
+				technology = mtg_tank_landing_craft
 			}
 		}
 	}

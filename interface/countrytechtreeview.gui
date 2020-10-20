@@ -81,7 +81,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
-					text = "All"
+					text = "INFANTRY_TITLE_WEAPONS33"
 					maxWidth = 600
 					maxHeight = 62
 					format = left
@@ -93,7 +93,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
-					text = "All"
+					text = "INFANTRY_TITLE_WEAPONS33"
 					maxWidth = 600
 					maxHeight = 62
 					format = left
@@ -105,7 +105,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
-					text = "All"
+					text = "INFANTRY_TITLE_WEAPONS33"
 					maxWidth = 600
 					maxHeight = 62
 					format = left

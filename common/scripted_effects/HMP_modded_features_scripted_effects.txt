@@ -157,30 +157,6 @@ random_owned_controlled_state = { limit = { OR = { state = 572 state = 403 state
 	add_extra_state_shared_building_slots = 2 add_building_construction = { type = arms_factory level = 2 instant_build = yes }}
 }
 
-HMP_barb_output_calc = {
-				GER = {clear_variable=barb_factory_output
-					if={limit={NOT={SOV={controls_state = 202}}} add_to_variable={barb_factory_output=0.025} }
-					if={limit={NOT={SOV={controls_state = 206}}} add_to_variable={barb_factory_output=0.025} }
-					if={limit={NOT={SOV={controls_state = 195}}} add_to_variable={barb_factory_output=0.05} }
-					if={limit={NOT={SOV={controls_state = 217}}} add_to_variable={barb_factory_output=0.05} }
-					if={limit={NOT={SOV={controls_state = 219}}} add_to_variable={barb_factory_output=0.05} }
-					if={limit={NOT={SOV={controls_state = 137}}} add_to_variable={barb_factory_output=0.025} }
-					if={limit={NOT={SOV={controls_state = 220}}} add_to_variable={barb_factory_output=0.025} }
-					if={limit={NOT={SOV={controls_state = 226}}} add_to_variable={barb_factory_output=0.01} }
-					if={limit={NOT={SOV={controls_state = 241}}} add_to_variable={barb_factory_output=0.01} }
-					if={limit={NOT={SOV={controls_state = 221}}} add_to_variable={barb_factory_output=0.01} }
-					if={limit={NOT={SOV={controls_state = 242}}} add_to_variable={barb_factory_output=0.01} }
-					if={limit={NOT={SOV={controls_state = 274}}} add_to_variable={barb_factory_output=0.01} }
-					if={limit={NOT={SOV={controls_state = 260}}} add_to_variable={barb_factory_output=0.01} }
-					if={limit={NOT={SOV={controls_state = 223}}} add_to_variable={barb_factory_output=0.01} }
-					if={limit={NOT={SOV={controls_state = 209}}} add_to_variable={barb_factory_output=0.01} }
-					if={limit={NOT={SOV={controls_state = 263}}} add_to_variable={barb_factory_output=0.01} }
-					if={limit={NOT={SOV={controls_state = 234}}} add_to_variable={barb_factory_output=0.01} }
-					if={limit={NOT={SOV={controls_state = 224}}} add_to_variable={barb_factory_output=0.01} }
-					if={limit={NOT={SOV={controls_state = 200}}} add_to_variable={barb_factory_output=0.01} }
-					}
-}
-
 HMP_no_asia = {
 HMP_no_asia_navy_balance = yes
 HMP_no_asia_country_changes = yes
@@ -188,26 +164,11 @@ HMP_no_asia_country_changes = yes
 
 HMP_no_asia_navy_balance = {
 USA = { 
-destroy_ships = {
-    type = destroyer
-    count = all
-}
-destroy_ships = {
-    type = light_cruiser
-    count = all
-}
-destroy_ships = {
-    type = carrier
-    count = all
-}
-destroy_ships = {
-    type = battleship
-    count = all
-}
-destroy_ships = {
-    type = submarine
-    count = all
-}
+destroy_ships = { type = destroyer count = all }
+destroy_ships = { type = light_cruiser count = all }
+destroy_ships = { type = carrier  count = all }
+destroy_ships = { type = battleship count = all }
+destroy_ships = { type = submarine count = all }
 }
 }
 
@@ -292,28 +253,12 @@ HMP_no_asia_country_changes = {
 SWE  = { give_resource_rights = { receiver = GER state = 494 }	}
 SWE = { country_event = { id = wtt_japan.109  days = 730  }  country_event = { id = wtt_japan.119  days = 1350  }    }
 ENG = { 
-				352 = {
-			add_resource = {	type = oil	amount = 500	}  #400 added from USA
-				} 
-
-							132 = {
-				add_resource = {	type = steel	amount = 68	}  
-				}
-	
-								120 = {
-			add_resource = {	type = steel	amount = 95	}  
-				} 
-			122 = {
-				add_resource = {	type = steel	amount = 68	}  
-				}
-				338 = {
-				add_resource = {	type = steel	amount = 68	}  
-				}			
-			521 = {
-		add_resource={
-		type = aluminium amount = 32
-	}
-	}
+				352 = { add_resource = { type = oil	amount = 500 } }  #400 added from USA
+				132 = { add_resource = { type = steel amount = 68 } }
+				120 = { add_resource = { type = steel amount = 95 }  } 
+				122 = { add_resource = { type = steel amount = 68	}  }
+				338 = {	add_resource = { type = steel amount = 68	}  	}			
+				521 = { add_resource = { type = aluminium amount = 32 } }
 			284 = {
 				add_resource = {	type = steel	amount = 20	}
 				add_resource = {	type = oil	amount = 5	}
@@ -330,45 +275,22 @@ ENG = {
 					instant_build = yes
 				}
 					}	
- 		122 = {
-			add_resource = {	type = aluminium	amount = 138	}  
-				}
-					119 = {
-			add_resource = {	type = aluminium	amount = 162	}
-				}					
+ 		122 = { add_resource = { type = aluminium amount = 138	} }
+		119 = { add_resource = { type = aluminium amount = 162	} }					
  }
- FRA = {
- 							495 = {
-			add_resource = {	type = steel	amount = 94	}  
-				} 
- }
+ FRA = {495 = {	add_resource = { type = steel amount = 94 } } }
  CAN = { 
- 								276 = {
-			add_resource = {	type = steel	amount = 86	}  
-				} 
-								473 = {
-			add_resource = {	type = steel	amount = 73	} 
-				} 
-		466 = {
-			add_resource = {	type = aluminium	amount = 98	}  #412 added from USA
-				} 
-
-		465 = {
-			add_resource = {	type = aluminium	amount = 94	}
-				} 				
-		540 = {
-			add_resource = {	type = steel	amount = 22	}
-			add_resource = {	type = tungsten	amount = 50	}				
-				}
-
- } 
+ 		276 = {	add_resource = { type = steel amount = 86 } } 
+		473 = { add_resource = { type = steel amount = 73	} } 
+		466 = {	add_resource = { type = aluminium amount = 98 } }  #412 added from USA
+		465 = { add_resource = { type = aluminium amount = 94 }	} 				
+		540 = { add_resource = { type = steel amount = 22 } add_resource = { type = tungsten	amount = 50	}	}
+		} 
 }
 	
 HMP_anti_resource_exploit_effect = { 
 if = { limit = {  has_built = { type = infrastructure  value > 9 } } set_building_level = {  type = infrastructure  level = 6 instant_build = yes }  }  
 }
-
-
 
 
 #This should only be used for AXIS vs ALLIES, or JAPAN vs ALLIES
@@ -402,8 +324,6 @@ ROOT_call_all_allies_against_ENG = {
 ENG_call_all_allies_against_ROOT = {
 	for_each_scope_loop = {
 	    array = ENG.allies
-
-
 		if = {
 			limit = { NOT = { OR = { original_tag = USA AND = { original_tag = FRA date < 1940.12.1 } } } }
 			add_to_war = {
@@ -504,7 +424,6 @@ MAN_low_legitimacy_level_down = {
 
 
 JAP_interservice_rivalry_towards_army = {
-	
 	if = {
 		limit = {  has_idea = JAP_interservice_rivalry_army_strengthened }
 		swap_ideas = {
@@ -512,7 +431,6 @@ JAP_interservice_rivalry_towards_army = {
 			add_idea = JAP_interservice_rivalry_army_dominant
 		}
 	}
-
 	if = {
 		limit = { has_idea = JAP_interservice_rivalry_balanced }
 		swap_ideas = {
@@ -520,7 +438,6 @@ JAP_interservice_rivalry_towards_army = {
 			add_idea = JAP_interservice_rivalry_army_strengthened
 		}
 	}
-
 	if = {
 		limit = { has_idea = JAP_interservice_rivalry_navy_strengthened }
 		swap_ideas = {
@@ -528,7 +445,6 @@ JAP_interservice_rivalry_towards_army = {
 			add_idea = JAP_interservice_rivalry_balanced
 		}
 	}
-
 	if = {
 		limit = { has_idea = JAP_interservice_rivalry_navy_dominant }
 		swap_ideas = {
@@ -536,7 +452,6 @@ JAP_interservice_rivalry_towards_army = {
 			add_idea = JAP_interservice_rivalry_navy_strengthened
 		}
 	}
-
 }
 
 JAP_interservice_rivalry_towards_navy = {
@@ -568,10 +483,7 @@ JAP_interservice_rivalry_towards_navy = {
 			remove_idea = JAP_interservice_rivalry_army_dominant
 			add_idea = JAP_interservice_rivalry_army_strengthened
 		}
-	}
-	
-	
-	
+	}	
 }
 
 replace_civ_with_arms_factories = {	
@@ -1512,18 +1424,6 @@ MEX_increase_cedillo_tension = {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 anti_cross_faction_trade_axis = {
 add_opinion_modifier = {
     target = GER
@@ -1536,6 +1436,10 @@ add_opinion_modifier = {
 }
 add_opinion_modifier = {
     target = ITA
+    modifier = anti_cross_faction_trade
+}
+add_opinion_modifier = {
+    target = BUL
     modifier = anti_cross_faction_trade
 }
 add_opinion_modifier = {
@@ -1615,68 +1519,48 @@ add_opinion_modifier = {
 }
 }
 
-
 anti_cross_faction_trade_all = {
-ENG = { 
-anti_cross_faction_trade_axis = yes
-}
-FRA = { 
-anti_cross_faction_trade_axis = yes
-}
-USA = { 
-anti_cross_faction_trade_axis = yes
-}
-CAN = { 
-anti_cross_faction_trade_axis = yes
-}
-MEX = { 
-anti_cross_faction_trade_axis = yes
-}
-AST = { 
-anti_cross_faction_trade_axis = yes
-}
-NZL = { 
-anti_cross_faction_trade_axis = yes
-}
-SAF = { 
-anti_cross_faction_trade_axis = yes
-}
-NOR = { 
-anti_cross_faction_trade_axis = yes
+ENG = { anti_cross_faction_trade_axis = yes}
+FRA = { anti_cross_faction_trade_axis = yes}
+USA = { anti_cross_faction_trade_axis = yes}
+CAN = { anti_cross_faction_trade_axis = yes}
+MEX = { anti_cross_faction_trade_axis = yes}
+AST = { anti_cross_faction_trade_axis = yes}
+NZL = { anti_cross_faction_trade_axis = yes}
+SAF = { anti_cross_faction_trade_axis = yes}
+NOR = { anti_cross_faction_trade_axis = yes}
+
+GER = { anti_cross_faction_trade_allies = yes}
+ITA = { anti_cross_faction_trade_allies = yes}
+FIN = { anti_cross_faction_trade_allies = yes}
+HUN = { anti_cross_faction_trade_allies = yes}
+ETH = { anti_cross_faction_trade_allies = yes}
+BUL = { anti_cross_faction_trade_allies = yes}
+ROM = { anti_cross_faction_trade_allies = yes}
+if = { limit = { country_exists = EFR } EFR = { anti_cross_faction_trade_allies = yes}}
+SPR = { anti_cross_faction_trade_allies = yes}
 }
 
-
-GER = { 
-anti_cross_faction_trade_allies = yes
-}
-ITA = { 
-anti_cross_faction_trade_allies = yes
-}
-FIN = { 
-anti_cross_faction_trade_allies = yes
-}
-HUN = { 
-anti_cross_faction_trade_allies = yes
-}
-ROM = { 
-anti_cross_faction_trade_allies = yes
-}
-if = { limit = { country_exists = EFR }
-EFR = { 
-anti_cross_faction_trade_allies = yes
-}
-}
-SPR = { 
-anti_cross_faction_trade_allies = yes
-}
+recalc_vichy_france_legitimacy = {
+EFR = { set_variable = { vichy_legitimacy_mechanic_stability_factor = -0.1 } }
+if = { limit = { EFR = { controls_state = 601 } } EFR = { add_to_variable={vichy_legitimacy_mechanic_stability_factor=0.15}  }  }#MIDDLE CONGO
+if = { limit = { EFR = { controls_state = 556 } } EFR = { add_to_variable={vichy_legitimacy_mechanic_stability_factor=0.15}  }  }
+if = { limit = { EFR = { controls_state = 543 } } EFR = { add_to_variable={vichy_legitimacy_mechanic_stability_factor=0.15}  }  }#WEST AFRICA
+if = { limit = { EFR = { controls_state = 554 } } EFR = { add_to_variable={vichy_legitimacy_mechanic_stability_factor=0.15}  }  }#SYRIA
+if = { limit = { EFR = { controls_state = 460 } } EFR = { add_to_variable={vichy_legitimacy_mechanic_stability_factor=0.15}  }  }#ALGERIA
+if = { limit = { EFR = { controls_state = 603 } }EFR = {  add_to_variable={vichy_legitimacy_mechanic_stability_factor=0.15}  }  }#CAMEROON
+if = { limit = { EFR = { is_subject_of = GER } } EFR = { add_to_variable={vichy_legitimacy_mechanic_stability_factor=-0.3}  }  }#Puppet check
 }
 
+copy_australian_at_equipment_research = {
+	if = { limit = { AST = { has_tech = antitank2 }}  ROOT = { set_technology = antitank2 }}
+	if = { limit = { AST = { has_tech = antitank5 }}  ROOT = { set_technology = antitank5 }}
+}
+
+copy_norwegian_inf_equipment_research = {
 
 
-
-
-
-
+}
 
 
 generic_bonus_1 = {

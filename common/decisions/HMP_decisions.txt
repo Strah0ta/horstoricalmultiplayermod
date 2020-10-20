@@ -1054,9 +1054,9 @@ GER_case_anton = {
 		}	
 		activation = { AND = { EFR = { has_war_with = ENG } NOT = { EFR = { has_completed_focus = VIC_join_axis }} NOT = { OR = { is_puppet_of = GER is_in_faction_with = GER     }}        }     }
 		days_mission_timeout = 90	
-		timeout_effect = {  	GER = { add_to_faction = EFR } EFR = { add_to_variable={vichy_legitimacy_mechanic_stability_factor=0.2} }	}
+		timeout_effect = {  	GER = { add_to_faction = EFR } EFR = { add_to_variable={vichy_legitimacy_mechanic_stability_factor=0.2} }	recalc_vichy_france_legitimacy = yes }
 		complete_effect = {	GER = { puppet = EFR }	
-		if = { limit = { EFR = { is_ai = no }}  EFR = { add_ideas = CHI_illegal_regime } 	}
+		if = { limit = { EFR = { is_ai = no }}  EFR = { add_ideas = CHI_illegal_regime } 	} recalc_vichy_france_legitimacy = yes
 		}
 	}
 	    GER_annex_vichy = {
@@ -1370,20 +1370,11 @@ icon = generic_operation
 				}
 	}
 	
-	
-	
 	operation_torch = {  
-
 	    icon = generic_civil_support 
-
-        allowed = {
-            original_tag = ENG
-        }
-
+        allowed = {   original_tag = ENG    }
         cost = 0
-		
         fire_only_once = yes
-
         available = {
 			OR = { 
 			NOT = { ITA = { controls_state = 448 controls_state = 450 controls_state = 451 }   }
@@ -1395,12 +1386,10 @@ icon = generic_operation
 		visible = { NOT = { EFR = { is_in_faction_with = GER }}}
 		
 		complete_effect = {
-					GER =  { activate_mission = GER_case_anton }
-					USA = { country_event = { id = usa.996  days = 0 } }
-			every_country = { limit = { is_in_faction_with = ENG has_war = yes   }
-			EFR = { declare_war_on = { target = PREV type = annex_everything }	}
-				}
-			EFR = { set_technology = { mtg_transport = 1 } } 
+				GER =  { activate_mission = GER_case_anton }
+				USA = { country_event = { id = usa.996  days = 0 } }
+				every_country = { limit = { is_in_faction_with = ENG has_war = yes   }	EFR = { declare_war_on = { target = PREV type = annex_everything }	}	}
+				EFR = { set_technology = { mtg_transport = 1 } } 
 			}	
 		}
 		
@@ -1479,6 +1468,7 @@ icon = generic_operation
 				}	
 			}  
 		}
+		copy_australian_at_equipment_research = yes
 	}
 	}
 	
@@ -1869,21 +1859,11 @@ icon = generic_operation
 	}
 	ITA_annex_bul = {
 	icon = generic_operation
-
-	
-			available = {
-			BUL = { is_ai = yes }
-			date > 1940.6.1 
-			}
-	
-			allowed = {
-				tag = ITA
-			}
-
+			available = {	BUL = { is_ai = yes }	date > 1940.6.1 	}
+			visible = { NOT = {  has_start_date > 1936.01.02    } }
+			allowed = {	tag = ITA	}
 			fire_only_once = yes
-
 			cost = 0
-
 			complete_effect = {
 				ITA = { 
 					annex_country = {
@@ -2014,6 +1994,7 @@ AST = {
 				remove_state_core = 312
                 remove_state_core = 634
 			}
+			copy_australian_at_equipment_research = yes
 		}
 	}
 	

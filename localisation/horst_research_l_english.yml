@@ -13,6 +13,7 @@
  camelry_arty:0 "Camel-drawn Artillery"
  camelry_rarty:0 "Camel-drawn Rocket Artillery"
  camelry:0 "Camel Cavalry"
+ INFANTRY_TITLE_WEAPONS33:0 "All"
  camelry_2:0 "Camel Cavalry II"
  camelry_2_desc: "Camel mounted infantry. More expensive, but with good versatility."
  camelry_3_desc: "Camel mounted infantry. More expensive, but with good versatility."
