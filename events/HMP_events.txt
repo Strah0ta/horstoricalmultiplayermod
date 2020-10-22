@@ -3187,7 +3187,7 @@ is_triggered_only = yes
 	    is_triggered_only = yes
         option = {
             name = "Za Stalina!"
-			swap_ideas = { remove_idea= great_patriotic_war_idea add_idea = SOV_barbarossa }  
+			swap_ideas = { remove_idea= great_patriotic_war_idea add_idea = SOV_barbarossa   }
    249 = {
    	set_building_level = {
 					type = infrastructure
@@ -3237,6 +3237,7 @@ is_triggered_only = yes
         option = {
 				name = "For Socialism! For Stalin! Ura!"
 				add_ideas = great_patriotic_war_idea
+				  add_ideas = shattered_retreat
 			add_tech_bonus = {
 				name = "Great Patriotic Industrial Research"
 				bonus = 1.0

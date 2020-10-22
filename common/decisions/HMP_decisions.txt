@@ -223,14 +223,14 @@ HMP_ll_soviets_rarty = { #worth 1x
 	}
 HMP_ll_soviets_fighter = { #worth 20x 
 		allowed = {  normally_played_allies = yes } 
-		available = { has_equipment = {  fighter_equipment > 720 }SOV = { has_war_with = GER }}
+		available = { has_equipment = {  fighter_equipment > 675 }SOV = { has_war_with = GER }}
 		icon = generic_form_nation
 		cost = 0
 		fire_only_once = no
 		complete_effect  = {
-								custom_effect_tooltip = HMP_ll_remove_fighter		
-				custom_effect_tooltip = soviets_20_shipments_tt
-				hidden_effect = {send_equipment = { equipment = fighter_equipment amount = 720 target = SWE }}
+			custom_effect_tooltip = HMP_ll_remove_fighter		
+			custom_effect_tooltip = soviets_20_shipments_tt
+			hidden_effect = {send_equipment = { equipment = fighter_equipment amount = 675 target = SWE }}
 			SOV = { add_to_variable = {  var = SOV_barb_ll_token   value = 20 } }
 		}
 	}
@@ -627,6 +627,18 @@ available = {  check_variable = { var = SOV_barb_ll_token  value = 20  compare =
 		SOV = { add_to_variable = {  var = SOV_barb_ll_token   value = -20 } }						
 		}
 	}	
+	HMP_ll_soviets_receive_fighter = { 
+allowed = {  original_tag = SOV } 
+available = {  check_variable = { var = SOV_barb_ll_token  value = 20  compare = greater_than_or_equals} date > 1942.1.22 			custom_trigger_tooltip = {	tooltip = SOV_secure_tt	suppy_route_secure = yes}  }      
+		icon = generic_form_nation
+		cost = 0
+		fire_only_once = no
+		visible = { SOV = { has_completed_focus = SOV_aviation_cult}}
+		complete_effect  = {
+add_equipment_to_stockpile = {  type = sov_fighter_equipment_2 amount = 675 producer = SOV }    
+		SOV = { add_to_variable = {  var = SOV_barb_ll_token   value = -20 } }						
+		}
+	}
 }
 
 spy_agency = {
@@ -936,7 +948,7 @@ USA_puppet_mexico = {
 			ENG = { diplomatic_relation = { country = SOV  relation = docking_rights   active = yes } }	
 			SOV = { country_event = { id = soviet.501 days = 630 } } 
 			SOV = { country_event = { id = soviet.503 days = 0  } }
-			SOV = { add_ideas = tot_economic_mobilisation activate_decision = women_in_the_workforce add_political_power = -250  }
+			SOV = { add_ideas = tot_economic_mobilisation activate_decision = women_in_the_workforce  }
 			SOV = { activate_mission = SOV_relocation  } 
 			}		
 			if = { limit = { has_idea = extensive_conscription } 		add_ideas = service_by_requirement  }

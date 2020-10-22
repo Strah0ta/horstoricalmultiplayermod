@@ -496,9 +496,9 @@ create_field_marshal = { #DONE
 	picture = "Portrait_Bulgaria_Konstantin_Bekyarov.dds"
 	traits = { infantry_leader adaptable ambusher defensive_doctrine adaptable inspirational_leader organisational_leader organizer logistics_wizard }
 	skill = 8
-	attack_skill = 7
+	attack_skill = 5
 	defense_skill = 7
-	planning_skill = 3
+	planning_skill = 5
 	logistics_skill = 8
 
 }
@@ -508,10 +508,10 @@ create_corps_Commander = { #DONE
 	picture = "Portrait_Bulgaria_Nikola_Dimitrov_Nedeva.dds"
 	traits = { old_guard bearer_of_artillery infantry_leader urban_assault_specialist ranger infantry_expert fortress_buster trickster expert_improviser  trait_engineer }
 	skill = 8
-	attack_skill = 7
+	attack_skill = 6
 	defense_skill = 8
 	planning_skill = 5
-	logistics_skill = 5
+	logistics_skill = 6
 
 }
 
@@ -532,8 +532,8 @@ create_field_marshal = { #DONE
 	picture = "Portrait_Bulgaria_Dimitr_Vasilev_Ayryanov.dds"
 	traits = { organizer offensive_doctrine trait_engineer scavenger panzer_leader panzer_expert urban_assault_specialist ranger  logistics_wizard fast_planner trickster  }
 	skill = 8
-	attack_skill = 7
-	defense_skill = 5
+	attack_skill = 6
+	defense_skill = 6
 	planning_skill = 8
 	logistics_skill = 5
 
@@ -556,10 +556,10 @@ create_corps_Commander = { #DONE
 	picture = "Portrait_Bulgaria_Asen_Nikolov.dds"
 	traits = { organizer panzer_leader panzer_expert urban_assault_specialist ranger naval_liason trickster expert_improviser }
 	skill = 8
-	attack_skill = 7
+	attack_skill = 6
 	defense_skill = 5
 	planning_skill = 8
-	logistics_skill = 5
+	logistics_skill = 6
 
 }
 }

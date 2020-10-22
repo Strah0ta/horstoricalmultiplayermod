@@ -53,7 +53,6 @@ continuous_focus_palette = {
 		icon = GFX_goal_continuous_repairments	
 		modifier = {
 			industry_repair_factor = 0.5
-			repair_speed_air_base_factor = -0.50
 			industry_free_repair_factor = 1.0
 		}
 		daily_cost = 1

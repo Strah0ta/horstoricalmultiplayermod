@@ -17,7 +17,6 @@ tag = CHI
 tag = BEL
 tag = LAT 
 tag = ALB
-tag = BUL
 tag = CZE
 tag = AUS
 tag = YUG

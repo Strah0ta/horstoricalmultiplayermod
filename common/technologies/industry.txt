@@ -1032,8 +1032,6 @@ technologies = {
 		
 		production_speed_buildings_factor = 0.10
 		industry_repair_factor = 0.10
-		repair_speed_air_base_factor = -0.10	
-		production_speed_air_base_factor = -0.10 
 
 		path = {
 			leads_to_tech = construction2
@@ -1086,42 +1084,13 @@ technologies = {
 			name = industry_folder
 			position = { x = 2 y = 0 }
 		}
-		
-		ai_will_do = {
-			factor = 1
-			
-			modifier = {
-				factor = 5.0
-				OR = {
-					oil > 0
-					aluminium > 0
-					rubber > 0
-					tungsten > 0
-					steel > 0
-					chromium > 0
-				}
-			}
-			
-			modifier = {
-				factor = 1.5
-				OR = {
-					oil > 8
-					aluminium > 8
-					rubber > 8
-					tungsten > 8
-					steel > 8
-					chromium > 8
-				}
-			}
-		}
+
 	}
 	
 	construction2 = {
 
 		production_speed_buildings_factor = 0.10
 		industry_repair_factor = 0.10
-		repair_speed_air_base_factor = -0.10	
-		production_speed_air_base_factor = -0.10 
 		path = {
 			leads_to_tech = construction3 
 			research_cost_coeff = 1
@@ -1144,14 +1113,6 @@ technologies = {
 			position = { x = 0 y = 2 }
 		}
 		
-		ai_will_do = {
-			factor = 4
-			
-			modifier = {
-				factor = 10
-				date > "1937.1.1"
-			}			
-		}
 	}
 
 	excavation2 = {
@@ -1175,42 +1136,12 @@ technologies = {
 			name = industry_folder
 			position = { x = 2 y = 2 }
 		}
-		
-		ai_will_do = {
-			factor = 1
-			
-			modifier = {
-				factor = 5.0
-				OR = {
-					oil > 0
-					aluminium > 0
-					rubber > 0
-					tungsten > 0
-					steel > 0
-					chromium > 0
-				}
-			}
-			
-			modifier = {
-				factor = 1.5
-				OR = {
-					oil > 8
-					aluminium > 8
-					rubber > 8
-					tungsten > 8
-					steel > 8
-					chromium > 8
-				}
-			}
-		}
 	}	
 	
 	construction3 = {
 
 		production_speed_buildings_factor = 0.10
 		industry_repair_factor = 0.10
-		repair_speed_air_base_factor = -0.10	
-		production_speed_air_base_factor = -0.10 		
 		path = {
 			leads_to_tech = construction4 
 			research_cost_coeff = 1
@@ -1232,25 +1163,6 @@ technologies = {
 		folder = {
 			name = industry_folder
 			position = { x = 0 y = 4 }
-		}
-		
-		ai_will_do = {
-			factor = 10
-			
-			modifier = {
-				factor = 1.5
-				has_war = yes
-			}
-			
-			modifier = {
-				factor = 0.5
-				has_war = no
-			}
-			
-			modifier = {
-				factor = 3
-				date > "1940.1.1"
-			}
 		}
 	}
 
@@ -1276,42 +1188,12 @@ technologies = {
 			name = industry_folder
 			position = { x = 2 y = 4 }
 		}
-		
-		ai_will_do = {
-			factor = 1
-			
-			modifier = {
-				factor = 5.0
-				OR = {
-					oil > 0
-					aluminium > 0
-					rubber > 0
-					tungsten > 0
-					steel > 0
-					chromium > 0
-				}
-			}
-			
-			modifier = {
-				factor = 1.5
-				OR = {
-					oil > 8
-					aluminium > 8
-					rubber > 8
-					tungsten > 8
-					steel > 8
-					chromium > 8
-				}
-			}
-		}
 	}		
 	
 	construction4 = {
 
 		production_speed_buildings_factor = 0.10
 		industry_repair_factor = 0.10
-		repair_speed_air_base_factor = -0.10	
-		production_speed_air_base_factor = -0.10 		
 		path = {
 			leads_to_tech = construction5 
 			research_cost_coeff = 1
@@ -1332,15 +1214,6 @@ technologies = {
 		folder = {
 			name = industry_folder
 			position = { x = 0 y = 6 }
-		}
-		
-		ai_will_do = {
-			factor = 4
-			
-			modifier = {
-				factor = 10
-				date > "1941.1.1"
-			}
 		}
 	}
 
@@ -1365,42 +1238,12 @@ technologies = {
 			name = industry_folder
 			position = { x = 2 y = 6 }
 		}
-		
-		ai_will_do = {
-			factor = 1
-			
-			modifier = {
-				factor = 5.0
-				OR = {
-					oil > 0
-					aluminium > 0
-					rubber > 0
-					tungsten > 0
-					steel > 0
-					chromium > 0
-				}
-			}
-			
-			modifier = {
-				factor = 1.5
-				OR = {
-					oil > 8
-					aluminium > 8
-					rubber > 8
-					tungsten > 8
-					steel > 8
-					chromium > 8
-				}
-			}
-		}
 	}			
 	
 	construction5 = {
 
 		production_speed_buildings_factor = 0.10
 		industry_repair_factor = 0.10
-		repair_speed_air_base_factor = -0.10	
-		production_speed_air_base_factor = -0.10 		
 		path = {
 			leads_to_tech = excavation5
 			research_cost_coeff = 1

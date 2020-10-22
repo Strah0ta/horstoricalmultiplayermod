@@ -64,7 +64,16 @@ ideas = {
 				army_armor_attack_factor = 0.05
 			}
 		}
-
+		shattered_retreat = {
+			allowed = {	always = no	}
+			allowed_civil_war = {	always = yes	}
+			picture = soviet_retreat
+			removal_cost = -1
+			modifier = {
+             	army_speed_factor = 0.1
+				supply_consumption_factor = -0.05
+			}
+		}
 		SOV_270 = { 
 			allowed = { always = no 	}
 			picture = generic_manpower_bonus

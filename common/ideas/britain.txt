@@ -563,6 +563,7 @@ ideas = {
 				production_speed_infrastructure_factor = 0.1
 				production_speed_radar_station_factor = 0.1
 				production_speed_anti_air_building_factor = 0.1
+				production_speed_air_base_factor = 0.1
 			}
 		}
 
@@ -589,7 +590,7 @@ ideas = {
 				production_speed_infrastructure_factor = 0.2
 				production_speed_radar_station_factor = 0.2
 				production_speed_anti_air_building_factor = 0.2
-
+				production_speed_air_base_factor = 0.2
 			}
 		}
 		ENG_fortify_the_empire_3 = {
@@ -615,7 +616,7 @@ ideas = {
 				production_speed_infrastructure_factor = 0.3
 				production_speed_radar_station_factor = 0.3
 				production_speed_anti_air_building_factor = 0.3
-
+				production_speed_air_base_factor = 0.3
 			}
 		}
 				ENG_fortify_the_empire_4 = {
@@ -641,8 +642,7 @@ ideas = {
 				production_speed_infrastructure_factor = 0.4
 				production_speed_radar_station_factor = 0.4
 				production_speed_anti_air_building_factor = 0.4
-
-
+				production_speed_air_base_factor = 0.4
 			}
 		}
 				ENG_fortify_the_empire_5 = {
@@ -668,6 +668,7 @@ ideas = {
 				production_speed_infrastructure_factor = 0.5
 				production_speed_radar_station_factor = 0.5
 				production_speed_anti_air_building_factor = 0.5
+				production_speed_air_base_factor = 0.5				
 			}
 		}
 		ENG_british_commonwealth_air_training_plan = {

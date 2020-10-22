@@ -13,7 +13,10 @@ spriteTypes = {
 		name = "GFX_idea_arsenal_ad"
 		texturefile = "gfx/interface/ideas/idea_arsenal_ad.dds"
 	}
-
+	spriteType = {
+		name = "GFX_idea_soviet_retreat"
+		texturefile = "gfx/interface/ideas/idea_soviet_retreat.dds"
+	}
 	spriteType = {
 		name = "GFX_idea_petrol_ad"
 		texturefile = "gfx/interface/ideas/idea_petrol_ad.dds"
