@@ -376,10 +376,10 @@ HFU_fuel_startup_effect = {
 		}
 		
 	soviet_lend_lease_mechanic_calc = {
-		if = { limit = { OR = { AND = { USA = { controls_state = 463 } SOV = { controls_state = 408 } } has_start_date > 1936.1.2 }  }             			SOV = { add_to_variable = {  var = SOV_barb_ll_token   value = 1 } } }
-		if = { limit = { AND = { ENG = { controls_state = 291 } SOV = { controls_state = 229 } }  }             			SOV = { add_to_variable = {  var = SOV_barb_ll_token   value = 1 } } }
-		if = { limit = {SOV = { controls_state = 213 }   }             			SOV = { add_to_variable = {  var = SOV_barb_ll_token   value = 1 } } }
-		if = { limit = {AND = {  ENG = { controls_state = 118 } ENG = { controls_state = 116 } SOV = { controls_state = 137 } }   }             			SOV = { add_to_variable = {  var = SOV_barb_ll_token   value = 1 } } }
+		if = { limit = { OR = { AND = { USA = { controls_state = 463 } SOV = { controls_state = 408 } } has_start_date > 1936.1.2 }  }             			SOV = { add_to_variable = {  var = SOV_barb_ll_token   value = 2 } } }
+		if = { limit = { AND = { ENG = { controls_state = 291 } SOV = { controls_state = 229 } }  }             			SOV = { add_to_variable = {  var = SOV_barb_ll_token   value = 2 } } }
+		if = { limit = {SOV = { controls_state = 213 }   }             			SOV = { add_to_variable = {  var = SOV_barb_ll_token   value = 2 } } }
+		if = { limit = {AND = {  ENG = { controls_state = 118 } ENG = { controls_state = 116 } SOV = { controls_state = 137 } }   }             			SOV = { add_to_variable = {  var = SOV_barb_ll_token   value = 2 } } }
 	}	
 				
 		fascism_has_been_defeated = {
@@ -595,7 +595,7 @@ transfer_state = 630 #Johnston Atoll
 transfer_state = 632 #Wake Island
 transfer_state = 631 #Midwawy Island 
 transfer_state = 629 #Hawaii 
-transfer_state = 650 #Attu Island 
+transfer_state = 296 #Attu Island 
 transfer_state = 463 #Alaska 
 transfer_state = 471 #Northwestern Canada 
 transfer_state = 473 #British Columbia 

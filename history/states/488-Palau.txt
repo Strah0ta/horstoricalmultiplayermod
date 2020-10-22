@@ -1,6 +1,6 @@
 state=
 {
-id=647
+id=488
 name="STATE_647"
 state_category = small_island
 resources={
