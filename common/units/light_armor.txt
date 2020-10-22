@@ -3,7 +3,7 @@ sub_units = {
 	light_armor = {
 		sprite = light_armor
 		map_icon_category = armored
-		priority = 674
+		priority = 974
 		ai_priority = 2000
 		active = yes
 		
@@ -30,7 +30,7 @@ sub_units = {
 		max_organisation = 10
 		default_morale = 0.3
 		training_time = 90
-		max_strength = 8
+		max_strength = 9
 		weight = 1
 		supply_consumption = 0.2
 

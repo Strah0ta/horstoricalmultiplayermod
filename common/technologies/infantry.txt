@@ -1439,10 +1439,10 @@ technologies = {
 		}
 
 		research_cost = 1
-		start_year = 1940
+		start_year = 1939
 		folder = {
 			name = infantry_folder
-			position = { x = 2 y = @1940 }
+			position = { x = 2 y = @1939 }
 		}
 		
 		categories = {
@@ -1458,10 +1458,10 @@ technologies = {
 		}
 
 		research_cost = 1
-		start_year = 1942
+		start_year = 1941
 		folder = {
 			name = infantry_folder
-			position = { x = 2 y = @1942 }
+			position = { x = 2 y = @1941 }
 		}
 		
 		categories = {
@@ -1508,10 +1508,10 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1940
+		start_year = 1939
 		folder = {
 			name = infantry_folder
-			position = { x = 0 y = @1940 }
+			position = { x = 0 y = @1939 }
 		}
 		
 		categories = {
@@ -1563,10 +1563,6 @@ technologies = {
 			cat_mechanized_equipment
 			tp_tech
 		}
-		
-		ai_will_do = {
-			factor = 2
-		}
 	}
 	
 	mechanised_infantry2 = {
@@ -1587,20 +1583,16 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1942
+		start_year = 1941
 		folder = {
 			name = infantry_folder
-			position = { x = 0 y = @1942 }
+			position = { x = 0 y = @1941 }
 		}
 		
 		categories = {
 			motorized_equipment
 			infantry_tech
 			cat_mechanized_equipment
-		}
-		
-		ai_will_do = {
-			factor = 1
 		}
 	}
 	
@@ -1616,20 +1608,16 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1944
+		start_year = 1943
 		folder = {
 			name = infantry_folder
-			position = { x = 0 y = @1944 }
+			position = { x = 0 y = @1943 }
 		}
 		
 		categories = {
 			motorized_equipment
 			infantry_tech
 			cat_mechanized_equipment
-		}
-		
-		ai_will_do = {
-			factor = 1
 		}
 	}
 	

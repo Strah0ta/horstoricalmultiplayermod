@@ -1093,6 +1093,12 @@ add_equipment_production = {
 		technology = improved_heavy_td
 		technology = improved_heavy_art
 		}	
+					add_tech_bonus = {
+			name = mech_army_bonus
+			bonus = 1.0
+			ahead_reduction = 2
+			technology = mechanised_infantry
+			}
 		
 		}
 	}
@@ -1193,19 +1199,17 @@ add_equipment_production = {
 				name = mech_army_bonus
 				technology = advanced_light_tank
 			}
-			
-				add_tech_bonus = {
-				bonus = 1.0
-				uses = 1
-				name = mech_army_bonus
-				technology = mechanised_infantry
-			}	
 					add_tech_bonus = {
 				bonus = 3.0
 				uses = 1
 				name = mech_army_bonus
 				technology = armored_car2
 			}			
+			add_tech_bonus = {
+				name = mech_army_bonus
+				bonus = 1.0
+				technology = mechanised_infantry2
+			}
 
 					}
 	}
@@ -1364,6 +1368,28 @@ add_equipment_production = {
 					}
 	}
 	
+					focus = {
+		id = GER_mech_3_focus
+		icon = GFX_goal_generic_build_tank
+		prerequisite = { focus = GER_choco_foc } 
+		
+		x = 0
+		y = 1
+		relative_position_id = GER_choco_foc
+		cost = 5
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+			name = mech_army_bonus
+			bonus = 3.0
+			ahead_reduction = 2
+			technology = mechanised_infantry3
+			}
+					}
+	}
+	
 	
 				focus = {
 		id = GER_pillen_foc
@@ -1395,7 +1421,7 @@ add_equipment_production = {
 		completion_reward = {
 		add_tech_bonus = {
 				name = "Sturmgewehr Experiments"
-				bonus = 1.0
+				bonus = 3.0
 				uses = 1
 				technology = advanced_infantry_weapons
 			}

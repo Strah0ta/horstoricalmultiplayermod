@@ -108,31 +108,14 @@ focus_tree = {
 		}
 	}
 
-	focus = {
-		id = SOV_militarized_schools
-		icon = GFX_goal_generic_army_doctrines
-		prerequisite = { focus = SOV_collectivist_propaganda }
-		x = 0
-		y = 1
-		relative_position_id = SOV_collectivist_propaganda
-		cost = 10
-		
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_ideas = militarized_schools
-			add_ideas = limited_conscription
-			}
-		}
-
 
 	focus = {
 		id = SOV_workers_culture
 		icon = GFX_goal_generic_construction
-		prerequisite = { focus = SOV_militarized_schools }
+		prerequisite = { focus = SOV_collectivist_propaganda }
 		x = 0
 		y = 1
-		relative_position_id = SOV_militarized_schools
+		relative_position_id = SOV_collectivist_propaganda
 		cost = 10
 
 		available_if_capitulated = yes
@@ -142,6 +125,23 @@ focus_tree = {
 		}
 	}
 
+
+	focus = {
+		id = SOV_militarized_schools
+		icon = GFX_goal_generic_army_doctrines
+		prerequisite = { focus = SOV_workers_culture }
+		x = 0
+		y = 1
+		relative_position_id = SOV_workers_culture
+		cost = 10
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = militarized_schools
+			add_ideas = limited_conscription
+			}
+		}
 
 	focus = {
 		id = SOV_positive_heroism
@@ -155,9 +155,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			custom_effect_tooltip = available_military_high_command
-			show_ideas_tooltip = konstantin_rokossovsky 
-			#remove_ideas = alexander_yegorov
+			add_ideas = konstantin_rokossovsky 
 		}
 	}
 
@@ -215,6 +213,27 @@ focus_tree = {
 
 		completion_reward = {
 			add_political_power = 120
+		}
+	}
+	
+		focus = {
+		id = SOV_aviation_cult
+		icon = GFX_focus_SOV_aviation_cult
+		prerequisite = { focus = SOV_socialist_realism }
+		x = 0
+		y = 1
+		relative_position_id = SOV_socialist_realism
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes	
+ 
+		completion_reward = {
+			add_ideas =	mig_design_bureau 
+			custom_effect_tooltip = SOV_PLANE_STUFF_TT
+			hidden_effect = { add_ideas = no_license_plane set_technology = { sov_fighter2 = 1 } }
 		}
 	}
 	
@@ -285,13 +304,11 @@ focus_tree = {
 				
 			}			
 			404 = {
-				
 				add_building_construction = {
 					type = infrastructure
-					level = 3
+					level = 7
 					instant_build = yes
 				}
-				
 			}
 		}
 	}
@@ -641,6 +658,12 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
+				add_tech_bonus = {
+			name = mech_army_bonus
+			bonus = 1.0
+			ahead_reduction = 2
+			technology = mechanised_infantry2
+			}
 			add_tech_bonus = {
 				bonus = 1.0
 				uses = 1

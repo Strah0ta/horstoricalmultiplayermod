@@ -3,7 +3,7 @@ sub_units = {
 	medium_armor = {
 		sprite = "medium_armor"
 		map_icon_category = armored
-		priority = 672
+		priority = 972
 		ai_priority = 3500
 		active = yes
 		
@@ -27,7 +27,7 @@ sub_units = {
 		}
 		manpower = 500
 		max_organisation = 10
-		max_strength = 8
+		max_strength = 9
 		default_morale = 0.3
 		training_time = 90
 		weight = 1.25

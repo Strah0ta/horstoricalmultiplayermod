@@ -1303,6 +1303,7 @@ date > 1941.6.1
 				uses = 2
 				category = naval_doctrine
 			}
+			set_technology = { cruiser_submarines = 1 }
 		}
 	}
 

@@ -3,7 +3,7 @@ sub_units = {
 	super_heavy_armor = {
 		sprite = heavy_armor
 		map_icon_category = armored
-		priority = 670
+		priority = 970
 		ai_priority = 2520
 		active = yes
 
@@ -29,7 +29,7 @@ sub_units = {
 		manpower = 500
 		max_organisation = 10
 		default_morale = 0.3
-		max_strength = 8
+		max_strength = 9
 		training_time = 90
 		weight = 1.75
 		

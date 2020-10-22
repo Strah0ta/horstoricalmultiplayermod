@@ -377,7 +377,8 @@ country_event = {
 	immediate = {
 
 			if = { limit = { POL = { owns_state = 96}  }
-		SOV = { transfer_state = 784  
+		SOV = { 
+		transfer_state = 512  
 		transfer_state = 97
 		transfer_state = 96
 		transfer_state = 95
@@ -2725,6 +2726,7 @@ country_event = {
 		
 		add_tech_bonus = {
 			name = med_armor_bonus
+			bonus = 1.0
 			ahead_reduction = 2
 			technology = basic_medium_tank
 			technology = improved_medium_tank			
@@ -2737,6 +2739,12 @@ country_event = {
 			technology = basic_medium_tank
 			technology = improved_medium_tank
 		}
+				add_tech_bonus = {
+			name = "Mechanized Experiments"
+			bonus = 1.0
+			ahead_reduction = 2
+			technology = mechanised_infantry
+			}
 				add_tech_bonus = {
 			name = armor_bonus
 			bonus = 1.0
@@ -3237,6 +3245,12 @@ is_triggered_only = yes
 				category = 	construction_tech
 				category =	excavation_tech
 
+			}
+					add_tech_bonus = {
+			name = mech_army_bonus
+			bonus = 3.0
+			ahead_reduction = 2
+			technology = mechanised_infantry3
 			}
 			add_research_slot = 1
 				}

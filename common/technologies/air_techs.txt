@@ -55,15 +55,6 @@ technologies = {
 			light_fighter
 			air_equipment
 		}
-		
-		ai_will_do = {
-			factor = 1
-			
-			modifier = {
-				factor = 2
-				is_major = yes
-			}
-		}
 	}
 	
 	cv_early_fighter = {
@@ -106,35 +97,6 @@ technologies = {
 			light_air
 			light_fighter
 			air_equipment
-		}
-		
-		ai_will_do = {
-			factor = 4
-			
-			modifier = {
-				factor = 2
-				is_major = yes
-			}
-			
-			modifier = {
-				factor = 1.2
-				date > "1937.1.1"
-			}
-			
-			modifier = {
-				factor = 1.2
-				date > "1938.1.1"
-			}
-			
-			modifier = {
-				factor = 1.2
-				date > "1939.1.1"
-			}
-			
-			modifier = {
-				factor = 5
-				date > "1940.1.1"
-			}
 		}
 	}
 	
@@ -179,45 +141,12 @@ technologies = {
 			light_fighter
 			air_equipment
 		}
-		
-		ai_will_do = {
-			factor = 4
-			
-			modifier = {
-				factor = 4
-				is_major = yes
-			}
-
-			modifier = {
-				factor = 2
-				original_tag = GER
-			}
-			
-			modifier = {
-				add = -3
-				original_tag = SOV
-			}
-
-			modifier = {
-				factor = 1.2
-				date > "1941.1.1"
-			}
-			
-			modifier = {
-				factor = 1.2
-				date > "1942.1.1"
-			}
-			
-			modifier = {
-				factor = 1.2
-				date > "1943.1.1"
-			}
-			
-			modifier = {
-				factor = 5
-				date > "1944.1.1"
-			}
-		}
+	}
+		sov_fighter2 = {
+		allow = { always = no }
+		enable_equipments = {	sov_fighter_equipment_2	}
+		research_cost = 1
+		start_year = 1940
 	}
 	
 	cv_fighter2 = {

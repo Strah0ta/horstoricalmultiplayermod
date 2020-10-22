@@ -856,7 +856,7 @@ create_corps_commander = {
 	name = "Ivan Konev"
 	id = 999408
 		picture = "Portrait_Soviet_Ivan_Konev.dds"
-	traits = { panzer_leader harsh_leader ranger trait_engineer panzer_expert expert_improviser trickster }
+	traits = { panzer_leader harsh_leader ranger trait_engineer scavenger panzer_expert expert_improviser trickster }
 	skill = 8
 
 	attack_skill = 7
@@ -867,7 +867,7 @@ create_corps_commander = {
 create_corps_commander = {
 	name = "Vasily Chuikov"
 		picture = "Portrait_Soviet_Vasily_Chuikov.dds"
-	traits = { panzer_leader harsh_leader ranger trait_engineer panzer_expert expert_improviser trickster }
+	traits = { panzer_leader harsh_leader ranger trait_engineer scavenger panzer_expert expert_improviser trickster }
 	skill = 8
 
 	attack_skill = 7
@@ -878,7 +878,7 @@ create_corps_commander = {
 create_corps_commander = {
 	name = "Yakov Cherevichenko"
 		picture = "Portrait_Soviet_Yakov_Cherevichenko.dds"
-	traits = { panzer_leader harsh_leader ranger trait_engineer panzer_expert expert_improviser trickster }
+	traits = { panzer_leader harsh_leader ranger trait_engineer scavenger panzer_expert expert_improviser trickster }
 	skill = 8
 
 	attack_skill = 7
@@ -889,7 +889,7 @@ create_corps_commander = {
 create_corps_commander = {
 	name = "Andrey Yeryomenko"
 		picture = "Portrait_Soviet_Andrey_Yeryomenko.dds"
-	traits = { panzer_leader harsh_leader ranger trait_engineer panzer_expert expert_improviser trickster }
+	traits = { panzer_leader harsh_leader ranger trait_engineer scavenger panzer_expert expert_improviser trickster }
 	skill = 8
 
 	attack_skill = 7

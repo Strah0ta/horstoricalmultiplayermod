@@ -1,6 +1,6 @@
 equipments = {
 
-	mechanized_equipment = {
+	mechanized_equipment = { 
 		year = 1936
 
 		is_archetype = yes
@@ -35,7 +35,6 @@ equipments = {
 		build_cost_ic = 8
 		resources = {
 			steel = 2
-			#oil = 1
 			rubber = 1
 		}
 		
@@ -72,11 +71,10 @@ equipments = {
 		#Offensive Abilities
 		ap_attack = 16
 		
-		build_cost_ic = 10
+		build_cost_ic = 8
 		resources = {
 			steel = 3
 			rubber = 1
-			#oil = 1
 		}
 	}
 
@@ -101,11 +99,10 @@ equipments = {
 		#Offensive Abilities
 		ap_attack = 21
 		
-		build_cost_ic = 12
+		build_cost_ic = 8
 		resources = {
 			steel = 4
 			rubber = 1
-			#oil = 2
 		}
 	}
 }

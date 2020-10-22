@@ -12,18 +12,6 @@ focus_tree = {
 		y = 1
 		cost = 10
 
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-			communism > 0.35
-		}
-		
-		bypass = {
-			has_government = communism
-		}
-
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
@@ -39,18 +27,6 @@ focus_tree = {
 		y = 1
 		cost = 10
 
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-			communism > 0.35
-		}
-		
-		bypass = {
-			has_government = communism
-		}
-
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
@@ -64,18 +40,6 @@ focus_tree = {
 		x = 1
 		y = 1
 		cost = 10
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-			communism > 0.35
-		}
-		
-		bypass = {
-			has_government = communism
-		}
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -92,17 +56,6 @@ focus_tree = {
 		y = 1
 		cost = 10
 
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-			communism > 0.35
-		}
-		
-		bypass = {
-			has_government = communism
-		}
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -118,18 +71,6 @@ focus_tree = {
 		x = 1
 		y = 1
 		cost = 10
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-			communism > 0.35
-		}
-		
-		bypass = {
-			has_government = communism
-		}
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -147,18 +88,8 @@ focus_tree = {
 		y = 1
 		cost = 10
 
-		ai_will_do = {
-			factor = 1
-		}
 		allow_branch = {
 			has_dlc = "Man the Guns"
-		}
-		available = {
-
-		}
-		
-		bypass = {
-
 		}
 
 		cancel_if_invalid = yes
@@ -174,23 +105,6 @@ focus_tree = {
 		x = -4
 		y = 3
 		cost = 10
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-			OR = {
-				has_civil_war = yes
-				has_government = fascism
-				has_government = neutrality
-			}
-		}
-		
-		bypass = {
-
-		}
-
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
