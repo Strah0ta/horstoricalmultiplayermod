@@ -698,8 +698,7 @@ option = {
 name = iran.2.a  
 
 SOV = {
-transfer_state = 266 transfer_state = 416 416 = { add_core_of = SOV } transfer_state = 419 419 = { add_core_of = SOV } transfer_state = 420
-420 = {	add_extra_state_shared_building_slots = 1 add_state_modifier = {	modifier = {	local_non_core_manpower = 0.5	}	}	}
+transfer_state = 266 266 = { add_core_of = SOV } transfer_state = 419 419 = { add_core_of = SOV }
 }
 }
 	}

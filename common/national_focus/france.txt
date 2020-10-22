@@ -118,7 +118,7 @@
                 
                 }
 			}
-			           635 = {
+			           124 = {
                 if = {
                     limit = { is_fully_controlled_by = ROOT }
                     add_building_construction = {
@@ -257,8 +257,8 @@
 
 
             if = {
-                limit = { 635 = { is_fully_controlled_by = ROOT } }
-                635 = {
+                limit = { 124 = { is_fully_controlled_by = ROOT } }
+                124 = {
                     add_building_construction = {
                         type = infrastructure
                         level = 1

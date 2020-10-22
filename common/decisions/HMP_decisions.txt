@@ -1983,7 +1983,7 @@ allowed = { original_tag = SAF }
 				add_state_core = 518
 				add_state_core = 523
 				add_state_core = 312
-                add_state_core = 634	
+                add_state_core = 472	
 AST = { 
 				 every_unit_leader = {   set_nationality = NZL  }
 				transfer_navy = {	target = NZL	}
@@ -2004,7 +2004,7 @@ AST = {
 				remove_state_core = 518
 				remove_state_core = 523
 				remove_state_core = 312
-                remove_state_core = 634
+                remove_state_core = 472
 			}
 			copy_australian_at_equipment_research = yes
 		}
@@ -3059,7 +3059,7 @@ USA_congress_small_supporta = yes
 		cost = 50
 		remove_effect = {
 			USA_congress_add_state = yes
-			add_state_core = 629
+			add_state_core = 416
 			USA_calc_stars = yes
 		}
 	}

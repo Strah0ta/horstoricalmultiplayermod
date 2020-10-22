@@ -1,22 +1,22 @@
 state={
-id=636
-name="STATE_636"
-manpower = 180000
+id=565
+name="STATE_643"
+manpower=493
 state_category = small_island
 history={
 owner = ENG
 add_core_of=SWE
 buildings = {
 infrastructure = 3
-4286 = {
+13056 = {
+naval_base = 1
+}
+13054 = {
 naval_base = 1
 }
 }
-victory_points = {
-4286 1
-}
 }
 provinces={
-4286 7302 12159
+13054 13055 13056 13057
 }
 }

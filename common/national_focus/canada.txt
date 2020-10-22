@@ -227,17 +227,6 @@ focus_tree = {
 
 		cost = 5
 
-		ai_will_do = {
-			factor = 75
-		}
-
-		available = {
-			controls_state = 470
-			controls_state = 471
-			controls_state = 472
-			controls_state = 683
-		}
-
 		available_if_capitulated = yes
 
 		completion_reward = {

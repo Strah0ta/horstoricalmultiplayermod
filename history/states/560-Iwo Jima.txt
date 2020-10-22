@@ -1,26 +1,23 @@
 state=
 {
-	id=646
-	name="STATE_646"
+	id=560
+	name="STATE_645"
+	manpower=1018
 	state_category = small_island
-	manpower=21657
 	history=
 	{
 		owner = JAP
 		add_core_of = JAP
 		buildings = {
 			infrastructure = 3
-			air_base = 3
-			3995 = {
+			air_base = 1
+			13025 = {
 				naval_base = 1
 
 			}
-			13023 = {
-				naval_base = 1
-			}
-		}	
+		}
 		victory_points = {
-			3995 1
+			13025 5
 		 }
 				1936.1.2 = {
 			owner = SWE
@@ -28,6 +25,6 @@ state=
 		}
 	}
 	provinces={
-		3995 13023 13024 
+		13025
 	}
 }

@@ -49,7 +49,7 @@ HMP_capitulations_on_actions = {
 								if = {
 			limit = { ROOT = { original_tag = SOV }  FROM = { original_tag = GER } }
 			FIN = {transfer_state = 147 transfer_state = 146 transfer_state = 213 transfer_state = 215 transfer_state = 216	transfer_state = 561 transfer_state = 563  }
-			if = { limit = { NOT = { has_start_date > 1936.1.2 }}JAP = { transfer_state = 408  transfer_state = 409  transfer_state = 298  transfer_state = 560  transfer_state = 406        } }
+			if = { limit = { NOT = { has_start_date > 1936.1.2 }}JAP = { transfer_state = 408  transfer_state = 409  transfer_state = 298   transfer_state = 406        } }
 			ROM = { transfer_state = 287 transfer_state = 78 transfer_state = 80  }
 			GER = { 
 			transfer_state = 192 transfer_state = 198 transfer_state = 199 transfer_state = 89 transfer_state = 91 transfer_state = 93 transfer_state = 94 transfer_state = 95 transfer_state = 96 transfer_state = 784 transfer_state = 11 transfer_state = 189 transfer_state = 190 transfer_state = 96 transfer_state = 206 transfer_state = 207 transfer_state = 204 transfer_state = 194 transfer_state = 201 transfer_state = 202 transfer_state = 203 transfer_state = 197 transfer_state = 226 transfer_state = 196 transfer_state = 137 transfer_state = 200 transfer_state = 227 transfer_state = 221 transfer_state = 259 transfer_state = 193 transfer_state = 225 transfer_state = 240 transfer_state = 228 transfer_state = 218 transfer_state = 220 transfer_state = 224 transfer_state = 241 transfer_state = 243 transfer_state = 242 transfer_state = 205 transfer_state = 223 transfer_state = 219 transfer_state = 254 transfer_state = 257 transfer_state = 252 transfer_state = 12 transfer_state = 13 transfer_state = 191 transfer_state = 209 transfer_state = 210 transfer_state = 208 transfer_state = 263 transfer_state = 244 transfer_state = 195 transfer_state = 264 transfer_state = 247 transfer_state = 262 transfer_state = 397 transfer_state = 214 transfer_state = 351 transfer_state = 246 transfer_state = 248 transfer_state = 253 transfer_state = 400 transfer_state = 398 transfer_state = 616 transfer_state = 618 transfer_state = 251 transfer_state = 250 transfer_state = 255 transfer_state = 258 transfer_state = 222 transfer_state = 260 transfer_state = 245 transfer_state = 238 transfer_state = 234 transfer_state = 233 transfer_state = 231 transfer_state = 229 transfer_state = 230 transfer_state = 232 transfer_state = 237  transfer_state = 235 transfer_state = 236 transfer_state = 406 transfer_state = 407 transfer_state = 217 transfer_state = 265 transfer_state = 239 transfer_state = 401 transfer_state = 399 transfer_state = 249 transfer_state = 256 transfer_state = 97
@@ -168,11 +168,11 @@ HMP_capitulations_on_actions = {
 			
 			if = {
 			limit = { AND = { FROM = { original_tag = JAP } ROOT = { original_tag = NZL } NOT = { country_exists = AST }} }
-			JAP = { transfer_state = 490 transfer_state = 634 transfer_state = 312 transfer_state = 523 transfer_state = 518 transfer_state = 415 }
+			JAP = { transfer_state = 490 transfer_state = 472 transfer_state = 312 transfer_state = 523 transfer_state = 518 transfer_state = 415 }
 			}
 			if = {
 			limit = { AND = { FROM = { original_tag = JAP } ROOT = { original_tag = AST } NOT = { country_exists = NZL }} }
-			JAP = { transfer_state  = 490 transfer_state  = 634 transfer_state  = 312 transfer_state  = 523 transfer_state = 518 transfer_state = 415   }
+			JAP = { transfer_state  = 490 transfer_state  = 472 transfer_state  = 312 transfer_state  = 523 transfer_state = 518 transfer_state = 415   }
 			}
 						if = {
 			limit = { AND = { FROM = { original_tag = JAP } ROOT = { original_tag = NZL } country_exists = AST } }
@@ -180,7 +180,7 @@ HMP_capitulations_on_actions = {
 			}
 						if = {
 			limit = { AND = { FROM = { original_tag = JAP } ROOT = { original_tag = AST }  country_exists = NZL } }
-			JAP = {  transfer_state  = 634 transfer_state  = 312 transfer_state  = 523 transfer_state = 415  transfer_state  = 518 }
+			JAP = {  transfer_state  = 472 transfer_state  = 312 transfer_state  = 523 transfer_state = 415  transfer_state  = 518 }
 			}
 			
 			if = {
@@ -466,7 +466,7 @@ release = DEN
 set_autonomy = {  target = ETH  autonomy_state = autonomy_supervised_state }
 		transfer_state = 152 #Upper Austria ###AUSTRIA###
 transfer_state = 448 #Tripoli ###ITALY###
-transfer_state = 644 #Tripolitania
+transfer_state = 561 #Tripolitania
 transfer_state = 449 #El Agheila
 transfer_state = 580 #Sirte
 transfer_state = 579 #Cyrenaica
@@ -578,26 +578,25 @@ transfer_state = 301 #Kergulen
 transfer_state = 503 #Cocos Islands
 transfer_state = 320 #French India  
 transfer_state = 318 #Seychelles 
-transfer_state = 636 #Fiji 
+transfer_state = 139 #Fiji 
 transfer_state = 490 #Samoa
-transfer_state = 635 #New Caledonia 
+transfer_state = 124 #New Caledonia 
 transfer_state = 491 #Nauru 
-transfer_state = 639 #Gilbert Islands 
-transfer_state = 642 #Phoenix Island 
+transfer_state = 589 #Gilbert Islands 
+transfer_state = 568 #Phoenix Island 
 transfer_state = 489 #Nendo 
-transfer_state = 643 #Ellice Islands 
-transfer_state = 638 #Guam 
-transfer_state = 634 #Solomon Islands 
-transfer_state = 641 #Tahiti 
+transfer_state = 565 #Ellice Islands 
+transfer_state = 140 #Guam 
+transfer_state = 472 #Solomon Islands 
+transfer_state = 567 #Tahiti 
 transfer_state = 270 #Pitcairn Island 
 transfer_state = 499 #Line Islands 
-transfer_state = 630 #Johnston Atoll 
-transfer_state = 632 #Wake Island
-transfer_state = 631 #Midwawy Island 
-transfer_state = 629 #Hawaii 
+transfer_state = 141 #Johnston Atoll 
+transfer_state = 353 #Wake Island
+transfer_state = 420 #Midwawy Island 
+transfer_state = 416 #Hawaii 
 transfer_state = 296 #Attu Island 
 transfer_state = 463 #Alaska 
-transfer_state = 471 #Northwestern Canada 
 transfer_state = 473 #British Columbia 
 transfer_state = 316 #Haida Gwaii 
 transfer_state = 304 #Vancouver Island
@@ -641,7 +640,7 @@ transfer_state = 455 #Jordan
 transfer_state = 554 #Damascus 
 transfer_state = 183 #Cyprus 
 transfer_state = 116 #Malta 
-transfer_state = 637 #Abu Dhabi
+transfer_state = 138 #Abu Dhabi
 transfer_state = 294 #Oman
 transfer_state = 574 #Aden
 

@@ -739,7 +739,7 @@ transfer_state = 38
 					instant_build = yes
 				}
 			}
-			631 = {
+			420 = {
 				set_building_level = {
 					type = coastal_bunker
 					province = 13052

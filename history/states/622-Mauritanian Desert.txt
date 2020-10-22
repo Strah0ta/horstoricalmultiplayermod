@@ -4,6 +4,6 @@ name="STATE_786"
 manpower = 1
 state_category = wasteland
 provinces={
-   10771  
+   10771  10875 12857
 }
 }
