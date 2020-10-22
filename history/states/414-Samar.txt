@@ -1,27 +1,24 @@
 state=
 {
-id=626
-name="STATE_626"
-manpower = 83041
+id=414
+name="STATE_625"
+manpower = 1138724
 state_category = rural
+resources={
+steel = 6
+}
 history=
 {
 				1936.1.2 = {
 			owner = SWE
 		}
-victory_points = {
-4429 5
-}
 owner = USA
 add_core_of=SWE
 buildings = {
 infrastructure = 3
-4429 = {
-naval_base = 1
-}
 }
 }
 provinces={
-4429 7419 10145
+1224 1311 1340 4269 4373
 }
 }

@@ -1,4 +1,4 @@
-﻿capital = 141	
+﻿capital = 576	
 set_research_slots = 0
 add_ideas = en_svensk_tiger 
 news_event = { id = news.334 days = 983 }
