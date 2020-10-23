@@ -1,4 +1,4 @@
-﻿capital = 417
+﻿capital = 411
 set_research_slots = 0
 set_rule = { can_join_factions = no }
 set_politics = {

@@ -6,7 +6,7 @@ add_ideas = ai_imiter
 set_technology = {
 concentrated_industry = 1
 concentrated_industry2 = 1 
-concentrated_industry3 = 1 
+dispersed_industry = 1 
 }
 set_politics = {
 	ruling_party = neutrality

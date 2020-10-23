@@ -6,7 +6,7 @@ set_convoys = 10
 set_technology = {
 concentrated_industry = 1
 concentrated_industry2 = 1 
-concentrated_industry3 = 1 
+dispersed_industry = 1 
 }
 set_politics = {
 	ruling_party = neutrality

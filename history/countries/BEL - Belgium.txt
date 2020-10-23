@@ -19,7 +19,7 @@ set_technology = {
 infantry_weapons_ai = 1 
 concentrated_industry = 1
 concentrated_industry2 = 1 
-concentrated_industry3 = 1 
+dispersed_industry = 1 
 }
 set_popularities = {
 	democratic = 83

@@ -800,7 +800,122 @@ focus_tree = {
 			}
 		}
 	}
+	focus = {
+		id = RAJ_pakistani_rails
+		icon = GFX_goal_generic_construct_infrastructure
+		x = -2
+		y = 1
+		prerequisite = { focus = RAJ_great_indian_peninsula_railway }
+		relative_position_id = RAJ_great_indian_peninsula_railway
 
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			443 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			442 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+						444 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+						441 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+		focus = {
+		id = RAJ_gujarat_rails
+		icon = GFX_goal_generic_construct_infrastructure
+		x = 0
+		y = 1
+		prerequisite = { focus = RAJ_great_indian_peninsula_railway }
+		relative_position_id = RAJ_great_indian_peninsula_railway
+
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			428 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 3
+					instant_build = yes
+				}
+			}
+			429 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 3
+					instant_build = yes
+				}
+					add_building_construction = {
+						type = naval_base
+						level = 5
+						instant_build = yes
+						province = 1349
+					}
+			}
+
+		}
+	}
+			focus = {
+		id = RAJ_hyderabad_rails
+		icon = GFX_goal_generic_construct_infrastructure
+		x = 2
+		y = 1
+		prerequisite = { focus = RAJ_great_indian_peninsula_railway }
+		relative_position_id = RAJ_great_indian_peninsula_railway
+
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			427 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 3
+					instant_build = yes
+				}
+			}
+			437 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 3
+					instant_build = yes
+				}
+			}
+
+		}
+	}
 	focus = {
 		id = RAJ_industrial_expansion
 		icon = GFX_goal_generic_construct_civ_factory
@@ -991,14 +1106,12 @@ focus_tree = {
 					level = 1
 					instant_build = yes
 				}
-				429 = {
 					add_building_construction = {
 						type = naval_base
 						level = 3
 						instant_build = yes
 						province = 1349
 					}
-				}
 			}
 		}
 	}
