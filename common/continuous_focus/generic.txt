@@ -42,7 +42,7 @@ continuous_focus_palette = {
 	focus = {
 		id = continuous_suppression	
 		icon = GFX_goal_continuous_suppression	
-		available = {OR = { tag = GER tag = ITA tag = JAP tag = ROM tag = FIN tag = MAN tag = HUN tag = SPR  }	}		
+		available = {OR = { tag = GER tag = ITA tag = JAP tag = ROM tag = FIN tag = MAN tag = HUN tag = SPR  tag = BUL tag = ETH }	}		
 		modifier = {	resistance_target = -0.05	}
 		daily_cost = 1	
 		available_if_capitulated = yes
@@ -54,6 +54,7 @@ continuous_focus_palette = {
 		modifier = {
 			industry_repair_factor = 0.5
 			industry_free_repair_factor = 1.0
+			repair_speed_air_base_factor = -0.50
 		}
 		daily_cost = 1
 		available_if_capitulated = yes

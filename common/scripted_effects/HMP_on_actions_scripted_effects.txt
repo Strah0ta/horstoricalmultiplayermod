@@ -503,7 +503,7 @@ GER = {
 	}
 }
 ENG = { add_to_faction = GER } 
-HOL = { transfer_state = 309 transfer_state = 352 transfer_state = 322 transfer_state = 516 transfer_state = 562 transfer_state = 342 transfer_state = 575 transfer_state = 334  transfer_state = 335 transfer_state = 317 }
+HOL = { transfer_state = 309 transfer_state = 321 transfer_state = 352 transfer_state = 322 transfer_state = 516 transfer_state = 562 transfer_state = 342 transfer_state = 575 transfer_state = 334  transfer_state = 335 transfer_state = 317 }
 BEL = { transfer_state = 295 transfer_state = 280 transfer_state = 538 }
 ENG = {	country_event = { id = britain.1116 days = 1 }	}
 #ENG = {	country_event = { id = britain.1115 days = 4 }	}

@@ -13,6 +13,8 @@
  SOV_sov_fighter_equipment_1:0 "Polikarpov I-16"
  SOV_sov_fighter_equipment_1_short:0 "I-16"
  SOV_sov_fighter_equipment_2:0 "Lavochkin-Gorbunov-Gudkov LaGG-3"
+ sov_fighter_equipment_2:0 "Homeland Fighter II"
+ sov_fighter_equipment_desc:0 "Fighters are fast and nimble and can do many jobs. Everything from fighting for air superiority, protect your bombers and intercept the enemies bombers."
  SOV_sov_fighter_equipment_2_short:0 "LaGG-3"
  SOV_sov_fighter_equipment_3:0 "Yakolev Yak-3"
  SOV_sov_fighter_equipment_3_short:0 "Yak-3"
