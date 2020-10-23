@@ -2,15 +2,19 @@
 state={
 	id=40
 	name="STATE_40"
-	manpower = 2260961 
+	manpower = 4026330
 	
-	state_category = large_town
+	state_category = metropolis
 
 	history={
 		owner = SOV
 		buildings = {
 			infrastructure = 5
-			industrial_complex = 1
+			industrial_complex = 3
+						air_base = 1
+		}
+				victory_points = {
+			7274 3 
 		}
 		add_core_of = SOV
 		victory_points = {
@@ -19,6 +23,6 @@ state={
 	}
 
 	provinces={
-		1297 1779 1794 1797 4803 7680 10537 10546 11410 12515 12528 12613 4781 4800 10531 10713 12509 
+		1297 1779 1794 1797 4803 7680 10537 10546 11410 12515 12528 12613 4781 4800 10531 10713 12509 1733 1790 1860 4366 4734 4806 4840 4866 7274 7687 7722 7825 10555 10652 12606 12679 
 	}
 }

@@ -153,7 +153,7 @@ HMP_sov_civ_to_mill2 = {
 random_owned_controlled_state = { 	limit = {  is_core_of = SOV industrial_complex > 0 } 
 	remove_building = {type = industrial_complex level = 1 }
 	}
-random_owned_controlled_state = { limit = { OR = { state = 572 state = 403 state = 612 state = 571 state = 590 state = 582 }}      	
+random_owned_controlled_state = { limit = { OR = { state = 572 state = 612 state = 571 state = 590 state = 582 }}      	
 	add_extra_state_shared_building_slots = 2 add_building_construction = { type = arms_factory level = 2 instant_build = yes }}
 }
 
@@ -597,7 +597,7 @@ SOV_relocate_civ = {
 				remove_building = {type = industrial_complex level = 1}
 			OWNER={
 				random_owned_controlled_state={
-					limit={OR={state=582 state=572 state=583 state=590 state=403 state=573 state=612}}
+					limit={OR={state=582 state=572 state=583 state=590 state=573 state=612}}
 					add_extra_state_shared_building_slots=2
 					add_building_construction = {
    				 		type = industrial_complex
@@ -620,7 +620,7 @@ SOV_relocate_civ_into_two_mills = {
 				remove_building = {type = industrial_complex level = 1}
 			OWNER={
 				random_owned_controlled_state={
-					limit={OR={state=582 state=572 state=583 state=590 state=403 state=573 state=612}}
+					limit={OR={state=582 state=572 state=583 state=590 state=573 state=612}}
 					add_extra_state_shared_building_slots=2
 					add_building_construction = {
    				 		type = arms_factory
@@ -638,7 +638,7 @@ SOV_relocate_mil = {
 				remove_building = {type = arms_factory level = 1}
 			OWNER={
 				random_owned_controlled_state={
-					limit={OR={state=582 state=572 state=590 state=573 state=403 state=583 state=612}}
+					limit={OR={state=582 state=572 state=590 state=573 state=583 state=612}}
 					add_extra_state_shared_building_slots=1
 					add_building_construction = {
    				 		type = arms_factory
@@ -655,7 +655,7 @@ SOV_relocate_civ_moscow = {
 				remove_building = {type = industrial_complex level = 1}
 			OWNER={
 				random_owned_controlled_state={
-					limit={OR={state=582 state=572 state=583 state=590 state=403 state=573 state=612}}
+					limit={OR={state=582 state=572 state=583 state=590 state=573 state=612}}
 					add_extra_state_shared_building_slots=1
 					add_building_construction = {
    				 		type = industrial_complex
@@ -673,7 +673,7 @@ SOV_relocate_mil_moscow = {
 				OWNER={add_to_variable={relocatedmil = 1}}
 			OWNER={
 				random_owned_controlled_state={
-					limit={OR={state=582 state=572 state=590 state=573 state=403 state=583 state=612}}
+					limit={OR={state=582 state=572 state=590 state=573 state=583 state=612}}
 					add_extra_state_shared_building_slots=1
 					add_building_construction = {
    				 		type = arms_factory
