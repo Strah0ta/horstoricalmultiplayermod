@@ -8,7 +8,7 @@ targeted_sabotage_plant_explosives = { #factories only
 	requirements = {  }
 
 	equipment = {
-		support_equipment = 500
+		support_equipment = 50
 	}
 }
 
@@ -32,7 +32,7 @@ targeted_sabotage_destroy_bridge = { #infrastructure only
 	icon = "GFX_phase_targeted_sabotage_destroy_bridge_small"
 	
 	equipment = {
-		support_equipment = 500
+		support_equipment = 50
 	}
 }
 
@@ -44,7 +44,7 @@ targeted_sabotage_collapse_tunnel = { #infrastructure only
 	icon = "GFX_phase_targeted_sabotage_collapse_tunnel_small"
 	
 	equipment = {
-		support_equipment = 500
+		support_equipment = 50
 	}
 }
 
@@ -80,7 +80,7 @@ targeted_sabotage_burn_storage = { #resource_sabotage only
 	icon = "GFX_phase_targeted_sabotage_burn_storage_small"
 	
 	equipment = {
-		support_equipment = 250
+		support_equipment = 25
 	}
 }
 
@@ -92,6 +92,6 @@ targeted_sabotage_destroy_mining_equipment = { #resource_sabotage only
 	icon = "GFX_phase_targeted_sabotage_destroy_mining_equipment_small"
 	
 	equipment = {
-		support_equipment = 250
+		support_equipment = 25
 	}
 }

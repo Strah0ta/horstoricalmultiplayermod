@@ -1,6 +1,6 @@
 	state={
 id=576
-name="STATE_666"
+name="Sweden"
 manpower = 1
 resources={
 tungsten=55

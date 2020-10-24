@@ -32,8 +32,8 @@ capture_cyphers_raid = {
 
 	}
 	equipment = {
-		infantry_equipment = 500
-		support_equipment = 100
+		infantry_equipment = 50
+		support_equipment = 10
 	}
 }
 

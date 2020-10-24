@@ -58,7 +58,10 @@ spriteTypes = {
 		name = "GFX_trait_fake_skilled_staffer"
 		texturefile = "gfx/interface/traits/trait_fake_skilled_staffer.dds"
 	}	
-	
+		spriteType = {
+		name = "GFX_trait_fake_skilled_staffer_sov"
+		texturefile = "gfx/interface/traits/trait_fake_skilled_staffer_sov.dds"
+	}	
 	SpriteType = {
 	name = "GFX_Goal_Generic_Air_Defense"
 	texturefile = "gfx/interface/goals/Goal_Generic_Air_Defense.dds"			

@@ -448,6 +448,11 @@ leader_traits = {
 		trait_type = personality_trait
 		corps_commander_modifier = { max_commander_army_size = 192 }		
 		}	
+				fake_skilled_staffer_sov = { 
+		type = corps_commander
+		trait_type = personality_trait
+		corps_commander_modifier = { max_commander_army_size = 328 }		
+		}
 	combined_arms_expert = { 
 		type = corps_commander
 		modifier = {

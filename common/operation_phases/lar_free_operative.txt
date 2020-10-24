@@ -8,7 +8,7 @@ free_operative_free_in_transit = {
 	requirements = {  }
 
 	equipment = {
-		infantry_equipment = 200
+		infantry_equipment = 20
 	}
 }
 
@@ -20,7 +20,7 @@ free_operative_liberate_camp = {
 	icon = "GFX_phase_free_operative_liberate_camp_small"
 	
 	equipment = {
-		infantry_equipment = 200
+		infantry_equipment = 20
 	}
 }
 
@@ -32,7 +32,7 @@ free_operative_smuggle_in_escape_gear = {
 	icon = "GFX_phase_free_operative_smuggle_in_escape_gear_small"
 	
 	equipment = {
-		support_equipment = 50
+		support_equipment = 5
 	}
 }
 

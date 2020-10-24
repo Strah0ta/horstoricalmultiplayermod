@@ -219,10 +219,8 @@ focus_tree = {
 		focus = {
 		id = SOV_aviation_cult
 		icon = GFX_focus_SOV_aviation_cult
-		prerequisite = { focus = SOV_socialist_realism }
-		x = 0
-		y = 1
-		relative_position_id = SOV_socialist_realism
+		x = 10
+		y = 0
 		cost = 5
 		ai_will_do = {
 			factor = 1
@@ -233,10 +231,31 @@ focus_tree = {
 		completion_reward = {
 			add_ideas =	mig_design_bureau 
 			custom_effect_tooltip = SOV_PLANE_STUFF_TT
-			hidden_effect = { add_ideas = no_license_plane set_technology = { sov_fighter2 = 1 } }
+			hidden_effect = { set_technology = { sov_fighter2 = 1 } }
 		}
 	}
-	
+		focus = {
+		id = SOV_transpolar_flights
+		icon = GFX_goal_generic_air_fighter2
+				prerequisite = { focus = SOV_socialist_realism }
+
+		x = 0
+		y = 1
+		cost = 10
+		relative_position_id = SOV_socialist_realism
+
+		available = { has_deployed_air_force_size = { type = fighter size > 1000 	}    }
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 10.0
+				uses = 6
+				category = air_doctrine
+			}
+		}
+	}
 	focus = {
 		id = SOV_improve_railway
 		icon = GFX_goal_generic_construct_infrastructure
@@ -313,25 +332,6 @@ focus_tree = {
 		}
 	}
 
-	focus = {
-		id = SOV_transpolar_flights
-		icon = GFX_goal_generic_air_fighter2
-		x = 10
-		y = 0
-		cost = 10
-
-		available = { has_deployed_air_force_size = { type = fighter size > 1000 	}    }
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_tech_bonus = {
-				bonus = 10.0
-				uses = 6
-				category = air_doctrine
-			}
-		}
-	}
 
 	focus = {
 		id = SOV_ocean_going_navy
@@ -464,7 +464,7 @@ focus_tree = {
 	focus = {
 		id = SOV_peoples_commissariat
 		icon = GFX_goal_support_communism
-		prerequisite = { focus = SOV_improve_railway focus = SOV_transpolar_flights focus = SOV_ocean_going_navy}
+		prerequisite = { focus = SOV_improve_railway focus = SOV_aviation_cult focus = SOV_ocean_going_navy}
 		x = 2
 		y = 1
 		relative_position_id = SOV_improve_railway
