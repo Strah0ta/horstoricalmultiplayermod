@@ -1,22 +1,10 @@
 ideas = {
-		political_advisor = {
-			POL_jozef_haller = {
-				picture = generic_army_europe_1
-				allowed = {	original_tag = POL	}
-				traits = { war_industrialist }
-			}
-		}	
 	country = {
 		en_svensk_tiger = {
-			
 			allowed = {	always = no	}
-
 			allowed_civil_war = {	has_government = democratic }
-
 			removal_cost = -1
-
 			picture = generic_spy_intel
-			
 			modifier = {
 				political_power_factor = -1.05
 				consumer_goods_factor = 1.05
@@ -32,6 +20,5 @@ ideas = {
 			removal_cost = -1
 			modifier = { consumer_goods_factor = -0.05	}
 		}		
-		
 	}
 }

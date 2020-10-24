@@ -294,7 +294,6 @@ country_event = {
 			80 = { add_core_of = SOV }
 			country_event = finland.20
 			}
-			SWE = { transfer_state = 80 }
 			SOV = {  transfer_state = 80 }
 		
 		
@@ -713,7 +712,7 @@ country_event = {
 	
 option = {
 name = iran.3.a  
-	ENG = { transfer_state = 412 transfer_state = 413 transfer_state = 421 } hidden_effect = { SWE = { transfer_state = 411  } } ENG = { transfer_state = 411  } 
+	ENG = { transfer_state = 412 transfer_state = 413 transfer_state = 421 } ENG = { transfer_state = 411  } 
 }
 	}
 	

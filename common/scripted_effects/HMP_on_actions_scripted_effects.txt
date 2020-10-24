@@ -82,12 +82,12 @@ HMP_capitulations_on_actions = {
 		if =  { 
 		limit = { original_tag = BEL }
 		BEL = { country_event = { id =  mtg_netherlands.331 days = 1 } 	}
-		GER = { transfer_state = 6 transfer_state = 34 } SWE = { transfer_state = 8 } GER = { transfer_state = 8 }
+		GER = { transfer_state = 6 transfer_state = 34 transfer_state = 8 }
 		}
 		if =  { 
 		limit = { original_tag = HOL }
 		GER = { transfer_state = 35 transfer_state = 7 transfer_state = 36 36 = { set_compliance = 40 } 7 = { set_compliance = 40 } 35 = { set_compliance = 40 } }
-		SWE = { transfer_state = 352 } ENG = { transfer_state = 352 }
+		ENG = { transfer_state = 352 }
 		}
 		
 			if = {
@@ -120,13 +120,11 @@ HMP_capitulations_on_actions = {
 			transfer_state = 90
 			transfer_state = 88 
 			transfer_state = 553
+			transfer_state = 92 
 			transfer_state = 72
 			86 = { set_compliance = 60 }
 			553 = { set_compliance = 60 }
-		}
-		SWE = { transfer_state = 92 }
-		GER = { transfer_state = 92 }
-				
+		}				
 			}
 						if = {
 				limit = { 
@@ -152,8 +150,7 @@ HMP_capitulations_on_actions = {
 			transfer_state = 88 
 			transfer_state = 553
 			transfer_state = 72
-		SWE = { transfer_state = 92 }
-		GER = { transfer_state = 92 }
+			transfer_state = 92 
 		86 = { set_compliance = 60 }
 			553 = { set_compliance = 60 }
 		}
@@ -161,9 +158,7 @@ HMP_capitulations_on_actions = {
 			}
 			if = {
 				limit = {	original_tag = DEN	}
-				GER = { transfer_state = 99 99 = { set_compliance = 60 }  }
-				SWE = { transfer_state = 37 }
-				GER = { transfer_state = 37 37 = {set_compliance = 60 } }
+				GER = { transfer_state = 99 99 = { set_compliance = 60 }   transfer_state = 37 37 = {set_compliance = 60 } }
 			}
 			
 			if = {
