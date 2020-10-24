@@ -2,9 +2,9 @@
 state={
 	id=412
 	name="STATE_412"
-	manpower = 918619
+	manpower = 1259672
 	
-	state_category = rural
+	state_category = wasteland
 	history={
 		owner = PER
 		victory_points = {
@@ -18,7 +18,7 @@ state={
 			7982 = {
 				naval_base = 10
 			}
-							1889 = {
+			1889 = {
 				naval_base = 1
 			}
 		}
@@ -26,6 +26,6 @@ state={
 	}
 
 	provinces={
-		4959 7982 8117 10797 10881 12832 12863 5089 1889 2039
+		4959 7982 8117 10797 10881 12832 12863 5089 1889 2039 4891 10782 13082 
 	}
 }

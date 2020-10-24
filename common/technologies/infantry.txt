@@ -48,24 +48,6 @@ technologies = {
 			infantry_tech
 		}
 	}
-	
-	infantry_weapons_ai = {
-	
-	allow = { always = no }
-			enable_equipments = {
-			infantry_equipment_ai
-		}
-				enable_subunits = {
-			infantry
-		}
-
-		research_cost = 1000
-		start_year = 1936
-
-		categories = {
-			infantry_tech
-		}
-	}
 
 	infantry_weapons = {
 

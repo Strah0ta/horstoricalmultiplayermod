@@ -119,10 +119,10 @@ HMP_capitulations_on_actions = {
 			transfer_state = 10
 			transfer_state = 90
 			transfer_state = 88 
-			transfer_state = 621
+			transfer_state = 553
 			transfer_state = 72
 			86 = { set_compliance = 60 }
-			621 = { set_compliance = 60 }
+			553 = { set_compliance = 60 }
 		}
 		SWE = { transfer_state = 92 }
 		GER = { transfer_state = 92 }
@@ -150,12 +150,12 @@ HMP_capitulations_on_actions = {
 			transfer_state = 10
 			transfer_state = 90
 			transfer_state = 88 
-			transfer_state = 621
+			transfer_state = 553
 			transfer_state = 72
 		SWE = { transfer_state = 92 }
 		GER = { transfer_state = 92 }
 		86 = { set_compliance = 60 }
-			621 = { set_compliance = 60 }
+			553 = { set_compliance = 60 }
 		}
 				
 			}
@@ -635,7 +635,6 @@ transfer_state = 457 #Eastern Desert
 transfer_state = 456 #Aswan 
 transfer_state = 453 #Sinai
 transfer_state = 454 #Palestine 
-transfer_state = 553 #Lebanon 
 transfer_state = 455 #Jordan
 transfer_state = 554 #Damascus 
 transfer_state = 183 #Cyprus 
@@ -803,8 +802,6 @@ transfer_state = 461
 if = { limit = { FRA = { check_variable = { FRA_legitimacy 	< 100 } }  }
 transfer_state = 554
 554 = { set_demilitarized_zone = yes }
-transfer_state = 553 
-553 = { set_demilitarized_zone = yes }
 }
 ###WEST AFRICA###
 if = { limit = { FRA = { check_variable = { FRA_legitimacy 	< 80 } } }

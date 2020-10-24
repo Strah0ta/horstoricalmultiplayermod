@@ -1,13 +1,16 @@
 state={
 id=554
-name="Syria"
-manpower = 2197501
-state_category = large_town
+name="French Syria"
+manpower = 3301501 
+state_category = metropolis
 history={
 owner = FRA
 add_core_of=SWE
 victory_points = {
 4111 5
+}
+victory_points = {
+792 5
 }
 victory_points = {
 3942 1
@@ -21,10 +24,13 @@ victory_points = {
 
 buildings = {
 infrastructure = 3
-air_base = 1
+air_base = 6
+792 = {
+naval_base = 3
+}
 }
 }
 provinces={
-1074 4111 4486 4550 7184 901 1549 1578 1606 1634 2013 3942 6883 7513 10383 10882 12316 12442 1056 1072 1088 7140 7671 10087 12473 
+1074 4111 4486 4550 7184 901 1549 1578 1606 1634 2013 3942 6883 7513 10383 10882 12316 12442 1056 1072 1088 7140 7671 10087 12473 792 1108 11919
 }
 }
