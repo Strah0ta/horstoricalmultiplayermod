@@ -1,33 +1,8 @@
 technologies = {
 	air_superiority = {
 		air_superiority_detect_factor = 0.1
-		path = {
-			leads_to_tech = dispersed_fighting
-			research_cost_coeff = 1
-		}
-		doctrine = yes
-		research_cost = 2
-		categories = {
-			air_doctrine
-		}
-		folder = {
-			name = air_doctrine_folder
-			position = { x = 9 y = 0 }
-		}
-	}
-	dispersed_fighting = {
-		category_fighter = {
-			air_agility = 0.1
-		}
-		category_heavy_fighter = {
-			air_agility = 0.1
-		}
-		category_cas = {
-			air_agility = 0.25
-		}
-		air_strategic_bomber_defence_factor = 0.25
-
-		###########
+		
+		
 		path = {
 			leads_to_tech = strategic_destruction
 			research_cost_coeff = 1
@@ -42,21 +17,17 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		 
-		 
-		 
 		doctrine = yes
 		research_cost = 2
-
 		categories = {
 			air_doctrine
 		}
-
 		folder = {
 			name = air_doctrine_folder
-			position = { x = 9 y = 2 }
+			position = { x = 9 y = 0 }
 		}
 	}
+
 	day_bombing = {
 
 		# EFFECT ########
@@ -83,10 +54,7 @@ technologies = {
 
 
 	strategic_destruction = {
-
-		# EFFECT ########
-		air_Strategic_bomber_bombing_factor = 0.2
-		###########
+		air_strategic_bomber_bombing_factor = 0.2
 
 		path = {
 			leads_to_tech = day_bombing
@@ -108,15 +76,12 @@ technologies = {
 
 		folder = {
 			name = air_doctrine_folder
-			position = { x = 0 y = 5 }
+			position = { x = 0 y = 4 }
 		}
 	}
 
 	night_bombing = {
-
-		# EFFECT ########
 		air_strategic_bomber_night_penalty = -0.5
-		###########
 
 		XOR = {
 			day_bombing
@@ -135,11 +100,7 @@ technologies = {
 		}
 	}
 	battlefield_support = {
-
-		# EFFECT ########
-		army_bonus_air_superiority_factor = 0.2
-		###########
-		
+		army_bonus_air_superiority_factor = 0.2		
 		 
 		doctrine = yes
 		research_cost = 2
@@ -157,13 +118,10 @@ technologies = {
 
 	combat_unit_destruction = {
 
-		# EFFECT ########
-
 		air_cas_efficiency = 0.5
-	
-
-		###########
-
+			category_cas = {
+			air_agility = 0.25
+		}
 		path = {
 			leads_to_tech = battlefield_support
 			research_cost_coeff = 1
@@ -186,7 +144,7 @@ technologies = {
 
 		folder = {
 			name = air_doctrine_folder
-			position = { x = 9 y = 5 }
+			position = { x = 9 y = 4 }
 		}
 	}
 
@@ -243,7 +201,7 @@ technologies = {
 
 		folder = {
 			name = air_doctrine_folder
-			position = { x = 17 y = 5 }
+			position = { x = 17 y = 4 }
 		}
 	}
 
