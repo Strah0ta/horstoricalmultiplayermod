@@ -455,11 +455,7 @@ date > 1941.6.1
 		icon = GFX_goal_generic_oil_refinery
 		text = ITA_libyan_refineries
 		prerequisite = { focus = ITA_italian_highways }
-		available = {
-			ITA = {
-				controls_state = 580
-			}
-		}
+
 		x = 0
 		y = 1
 		relative_position_id = ITA_italian_highways
@@ -493,8 +489,6 @@ date > 1941.6.1
 
 		completion_reward = {
 			450  = {
-				if = {
-					limit = { is_controlled_by = ROOT }
 					add_building_construction = {
 						type = infrastructure
 						level = 5
@@ -512,75 +506,26 @@ date > 1941.6.1
 						instant_build = yes
 					}
 				}
-			}
 						579  = {
-				if = {
-					limit = { is_controlled_by = ROOT }
 					add_building_construction = {
 						type = infrastructure
-						level = 5
+						level = 4
 						instant_build = yes
 					}
 	set_building_level = {
 						type = air_base
-						level = 6
+						level = 12
 						instant_build = yes
 					}
 				}
-			}
-			580 = {
-				if = {
-					limit = { is_controlled_by = ROOT }
-					add_building_construction = {
-						type = infrastructure
-						level = 2
-						instant_build = yes
-					}
-				}
-			}
-						561 = {
-				if = {
-					limit = { is_controlled_by = ROOT }
-					add_building_construction = {
-						type = infrastructure
-						level = 2
-						instant_build = yes
-					}
-						set_building_level = {
-						type = air_base
-						level = 6
-						instant_build = yes
-					}
-				}
-			}
 			449 = {
-				if = {
-					limit = { is_controlled_by = ROOT }
 					add_building_construction = {
 						type = infrastructure
-						level = 1
+						level = 2
 						instant_build = yes
 					}
 				}
-			}
-			451 = {
-				if = {
-					limit = { is_controlled_by = ROOT }
-					add_building_construction = {
-						type = infrastructure
-						level = 3
-						instant_build = yes
-					}
-						set_building_level = {
-						type = air_base
-						level = 6
-						instant_build = yes
-					}
-				}
-			}
 			448 = {
-				if = {
-					limit = { is_controlled_by = ROOT }
 					add_building_construction = {
 						type = infrastructure
 						level = 1
@@ -588,7 +533,7 @@ date > 1941.6.1
 					}
 					set_building_level = {
 						type = air_base
-						level = 6
+						level = 12
 						instant_build = yes
 					}
 					add_building_construction = {
@@ -597,7 +542,6 @@ date > 1941.6.1
 						province = 1149
 						instant_build = yes
 					}
-				}
 			}
 			
 		}

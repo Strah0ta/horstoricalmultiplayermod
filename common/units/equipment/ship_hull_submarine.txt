@@ -9,7 +9,8 @@ equipments = {
 		group_by = archetype
 		alias = submarine
 		priority = 2500
-		
+			can_license = no
+	
 		upgrades = {
 			ship_reliability_upgrade
 			sub_engine_upgrade
@@ -89,7 +90,8 @@ equipments = {
 
 		archetype = ship_hull_submarine
 		priority = 2500
-		
+			can_license = no
+	
 		module_slots = inherit
 	}
 

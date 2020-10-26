@@ -21,19 +21,6 @@ focus_tree = {
 		available_if_capitulated = no
 		completion_reward = {
 			add_ideas = USA_robert_taft
-			if = { limit = { is_ai = yes } 
-			358 = { set_building_level = { type = infrastructure level = 10 } }
-			360 = { set_building_level = { type = infrastructure level = 10 } }
-			391 = { set_building_level = { type = infrastructure level = 10 } }
-			368 = { set_building_level = { type = infrastructure level = 10 } }
-			372 = { set_building_level = { type = infrastructure level = 10 } }
-			374 = { set_building_level = { type = infrastructure level = 10 } }
-			375 = { set_building_level = { type = infrastructure level = 10 } }
-			378 = { set_building_level = { type = infrastructure level = 10 } }
-			386 = { set_building_level = { type = infrastructure level = 10 } }
-			379 = { set_building_level = { type = infrastructure level = 10 } }
-			376 = { set_building_level = { type = infrastructure level = 10 } }	
-			}
 		}
 	}
 	
@@ -51,7 +38,6 @@ focus_tree = {
 		available_if_capitulated = no
 		completion_reward = {
 				give_resource_rights = { receiver = SOV state = 394 }	
-
 		}
 	}
 		
@@ -705,6 +691,7 @@ transfer_state = 38
 		available = {
 		date > 1941.2.1
 		}
+		bypass = { has_war_with = JAP}
 		relative_position_id = USA_war_plan_orange
 		x = 0
 		y = 1
@@ -788,6 +775,11 @@ transfer_state = 38
 					level = 2
 					instant_build = yes
 				}
+								set_building_level = {
+						type = air_base
+						level = 12
+						instant_build = yes
+					}
 			}
 			568 = {
 						set_building_level = {
@@ -803,27 +795,15 @@ transfer_state = 38
 					instant_build = yes
 				}
 			}
-								570 = {
-				set_building_level = {
-						type = air_base
-						level = 6
-						instant_build = yes
-					}
-			}	
+	
 						403 = {
 				set_building_level = {
 						type = air_base
-						level = 6
+						level = 12
 						instant_build = yes
 					}
 			}
-					414 = {
-				set_building_level = {
-						type = air_base
-						level = 6
-						instant_build = yes
-					}
-			}	
+
 						418 = {
 				set_building_level = {
 						type = air_base

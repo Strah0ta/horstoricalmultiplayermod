@@ -770,6 +770,7 @@ focus_tree = {
 			add_tech_bonus = {
 				name = HUN_develop_tanks
 				ahead_reduction = 2
+				bonus = 1
 				uses = 1
 				technology = advanced_heavy_tank
 				technology = advanced_medium_tank

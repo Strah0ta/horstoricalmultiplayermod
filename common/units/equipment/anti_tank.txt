@@ -43,6 +43,8 @@ equipments = {
 
 		archetype = anti_tank_equipment
 		priority = 90
+		can_license = no
+		
 		visual_level = 0
 	}
 	

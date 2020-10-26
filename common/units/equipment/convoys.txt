@@ -53,5 +53,7 @@ equipments = {
 		}
 		active = yes
 		priority = 10
+		can_license = no
+		
 	}
 }

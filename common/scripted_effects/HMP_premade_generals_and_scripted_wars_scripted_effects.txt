@@ -1,7 +1,7 @@
 	HMP_script_balkans = {
 			GER = { 
-			transfer_state = 303 transfer_state = 619 transfer_state = 109 transfer_state = 104 transfer_state = 107 transfer_state = 108  transfer_state = 292 
-			303 = { set_compliance = 100 }  109 = { set_compliance = 80 } 104 = { set_compliance = 80 } 619 = { set_compliance = 60 }
+			transfer_state = 303 transfer_state = 414 transfer_state = 109 transfer_state = 104 transfer_state = 107 transfer_state = 108  transfer_state = 292 
+			303 = { set_compliance = 100 }  109 = { set_compliance = 80 } 104 = { set_compliance = 80 } 414 = { set_compliance = 60 }
 			
 			}
 			BUL = {   transfer_state = 184  184 = { set_compliance = 60 }    transfer_state = 486  486 = { set_compliance = 60 }            transfer_state = 293  293 = { set_compliance = 60 }   transfer_state = 106    106 = { set_compliance = 60 }  }
@@ -127,12 +127,12 @@ create_corps_commander = {  #for fighting in Italy
 create_corps_commander = { #for France/Forts
 	name = "Erich von Manstein"
 	picture = "Portrait_Germany_Erich_von_Manstein.dds"
-	traits = { organizer trickster offensive_doctrine expert_improviser panzer_leader panzer_expert brilliant_strategist trait_engineer fortress_buster }
-	skill = 8
+	traits = { organizer trickster offensive_doctrine expert_improviser panzer_leader panzer_expert brilliant_strategist ranger trait_engineer fortress_buster }
+	skill = 7
 	id = 9995
-    attack_skill = 8
-    defense_skill = 4
-    planning_skill = 6
+    attack_skill = 7
+    defense_skill = 5
+    planning_skill = 5
     logistics_skill = 5
 }
 create_corps_commander = { #for Barbarossa

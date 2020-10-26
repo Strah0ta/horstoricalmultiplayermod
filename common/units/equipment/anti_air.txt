@@ -2,7 +2,7 @@ equipments = {
 
 	anti_air_equipment = {
 		year = 1934
-
+		
 		is_archetype = yes
 		picture = archetype_anti_air_equipment		
 		type = {
@@ -45,6 +45,7 @@ equipments = {
 		archetype = anti_air_equipment
 		priority = 80
 		visual_level = 0
+		can_license = no
 	}
 	
 	anti_air_equipment_2 = {

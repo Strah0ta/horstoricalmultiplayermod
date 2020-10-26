@@ -56,7 +56,8 @@ equipments = {
 		archetype = light_tank_equipment
 		priority = 5
 		visual_level = 0
-		
+			can_license = no
+	
 		upgrades = {  # no upgrades for GW tank :'(
 		}
 
@@ -81,20 +82,24 @@ equipments = {
 
 	light_tank_equipment_1 = {
 		year = 1934
-		
+	
 		archetype = light_tank_equipment
 		parent = gw_tank_equipment
 		priority = 10
+			can_license = no
+		
 		visual_level = 0
 		is_convertable = yes
 	}
 
 	light_tank_equipment_2 = {
 		year = 1936
-		
+	
 		archetype = light_tank_equipment
 		parent = light_tank_equipment_1
 		priority = 10
+				can_license = no
+	
 		visual_level = 1
 		is_convertable = yes
 
@@ -200,6 +205,7 @@ equipments = {
 		archetype = light_tank_artillery_equipment
 		family = light_tank_equipment_1
 		priority = 20
+				can_license = no
 		visual_level = 0
 		can_convert_from = { 
 			light_tank_equipment_1
@@ -214,6 +220,8 @@ equipments = {
 		parent = light_tank_artillery_equipment_1
 		family = light_tank_equipment_2
 		priority = 20
+				can_license = no
+
 		visual_level = 1
 		can_convert_from = { 
 			light_tank_equipment_1 
@@ -324,6 +332,8 @@ equipments = {
 		archetype = light_tank_destroyer_equipment
 		family = light_tank_equipment_1
 		priority = 40
+				can_license = no
+
 		visual_level = 0
 		can_convert_from = { 
 			light_tank_equipment_1
@@ -338,6 +348,8 @@ equipments = {
 		parent = light_tank_destroyer_equipment_1
 		family = light_tank_equipment_2
 		priority = 40
+				can_license = no
+
 		visual_level = 1
 		can_convert_from = { 
 			light_tank_equipment_1 
@@ -454,6 +466,8 @@ equipments = {
 		archetype = light_tank_aa_equipment
 		family = light_tank_equipment_1
 		priority = 30
+				can_license = no
+
 		visual_level = 0
 		can_convert_from = { 
 			light_tank_equipment_1 
@@ -468,6 +482,8 @@ equipments = {
 		parent = light_tank_aa_equipment_1
 		family = light_tank_equipment_2
 		priority = 30
+				can_license = no
+
 		visual_level = 1
 		can_convert_from = { 
 			light_tank_equipment_1 

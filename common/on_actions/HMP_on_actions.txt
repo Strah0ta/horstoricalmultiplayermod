@@ -317,7 +317,6 @@ on_state_control_changed = {
 					}
 					FROM = { original_tag = ITA }
 					OR = { 
-					FROM.FROM = { state = 561 }
 					FROM.FROM = { state = 448 }
 					FROM.FROM = { state = 577 }
 					FROM.FROM = { state = 458 }

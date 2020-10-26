@@ -12,33 +12,316 @@ focus_tree = {
 	default = no
 	reset_on_civilwar = no
 
+	
+	
 	focus = {
-		id = ETH_army_effort
+		id = ETH_army_reform
 		icon = GFX_goal_generic_allies_build_infantry
-		x = 1
+		x = 17
 		y = 0
 		cost = 10
 
 		available_if_capitulated = yes
 
 		completion_reward = {
-			army_experience = 5
-			add_tech_bonus = {
+			army_experience = 200
+		}
+	}
+	
+	focus = {
+		id = ETH_superior_firepower
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = ETH_army_reform }
+								mutually_exclusive = { focus = ETH_superior_tactics }
+
+		x = 2
+		y = 1   
+		relative_position_id = ETH_army_reform  
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+					add_tech_bonus = {
 				name = land_doc_bonus
 				bonus = 1.0
 				uses = 1
-				category = land_doctrine
+				category = cat_mobile_warfare
+				category = cat_superior_firepower			
 			}
 		}
 	}
+		
+			focus = {
+		id = ETH_superior_firepower_mw
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = ETH_superior_firepower }
+		mutually_exclusive = { focus = ETH_superior_firepower_sf }
+		x = -1
+		y = 1   
+		relative_position_id = ETH_superior_firepower  
+		cost = 10
 
+		available_if_capitulated = yes
+
+		completion_reward = {
+			hidden_effect = { set_technology = { gwtank = 1} set_technology = { basic_light_tank = 1} set_technology = { improved_light_tank = 1} }
+			custom_effect_tooltip = "We will research up to 1936 light tanks."
+		}
+	}
+					focus = {
+		id = ETH_superior_firepower_mw2
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = ETH_superior_firepower_mw }
+
+		x = 0
+		y = 1   
+		relative_position_id = ETH_superior_firepower_mw  
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+				add_ideas = ETH_superior_firepower_mw2_idea		
+		}
+	}
+	
+						focus = {
+		id = ETH_superior_firepower_mw3 
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = ETH_superior_firepower_mw2 }
+
+		x = 0
+		y = 1   
+		relative_position_id = ETH_superior_firepower_mw2  
+		cost = 10
+
+		available_if_capitulated = yes 
+
+		completion_reward = { 
+		add_equipment_to_stockpile = { producer = ITA  type = motorized_equipment amount = 5000 }
+			add_equipment_to_stockpile = { producer = ITA  type = light_tank_equipment_1 amount = 1200 }
+			add_equipment_to_stockpile = { producer = GER  type = light_tank_equipment_2 amount = 800 }
+		}
+	}
+	
+		focus = {
+		id = ETH_superior_firepower_sf
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = ETH_superior_firepower }
+				mutually_exclusive = { focus = ETH_superior_firepower_mw }
+
+		x = 1
+		y = 1   
+		relative_position_id = ETH_superior_firepower  
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			hidden_effect = { set_technology = { artillery5 = 1} set_technology = { mountain_gun = 1}  }
+						custom_effect_tooltip = RAJ_revive_the_screw_guns_effect
+			custom_effect_tooltip = "We will research Advanced Artillery Upgrade"
+
+		}
+	}
+				focus = {
+		id = ETH_superior_firepower_sf2
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = ETH_superior_firepower_sf }
+
+		x = 0 
+		y = 1   
+		relative_position_id = ETH_superior_firepower_sf  
+		cost = 10
+
+		available_if_capitulated = yes 
+
+		completion_reward = {
+							add_ideas = ETH_superior_firepower_sf2_idea 
+
+		}
+	}
+						focus = {
+		id = ETH_superior_firepower_sf3
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = ETH_superior_firepower_sf2 }
+
+		x = 0
+		y = 1   
+		relative_position_id = ETH_superior_firepower_sf2  
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_equipment_to_stockpile = { producer = ITA  type = artillery_equipment_1 amount = 2500 }	
+			add_equipment_to_stockpile = { producer = ITA  type = infantry_equipment_1 amount = 25000 }	
+			add_equipment_to_stockpile = { producer = ITA  type = support_equipment amount = 500 }				
+		}
+	}
+		focus = {
+		id = ETH_superior_tactics
+		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = ETH_army_reform }
+						mutually_exclusive = { focus = ETH_superior_firepower }
+
+		x = -2
+		y = 1   
+		relative_position_id = ETH_army_reform  
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+							add_tech_bonus = {
+				name = land_doc_bonus
+				bonus = 1.0
+				uses = 1
+				category = cat_grand_battle_plan
+				category = cat_mass_assault			
+			}
+		}
+	}
+				focus = {
+		id = ETH_superior_tactics_ma
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = ETH_superior_tactics }
+		mutually_exclusive = { focus = ETH_superior_tactics_gbp }
+		x = -1
+		y = 1   
+		relative_position_id = ETH_superior_tactics  
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+					hidden_effect = {  set_technology = { large_front_operations = 1 } }
+			custom_effect_tooltip = "We will research Large Front Operations, allowing us to research both sides of Mass Assault"
+
+		}
+	}
+			focus = {
+		id = ETH_superior_tactics_ma2
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = ETH_superior_tactics_ma }  
+
+		x = 0
+		y = 1   
+		relative_position_id = ETH_superior_tactics_ma  
+		cost = 10 
+
+		available_if_capitulated = yes
+
+		completion_reward = { 
+			add_ideas = ETH_superior_tactics_ma2_idea
+		}
+	}
+	
+				focus = {
+		id = ETH_superior_tactics_ma3
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = ETH_superior_tactics_ma2 }
+
+		x = 0
+		y = 1   
+		relative_position_id = ETH_superior_tactics_ma2  
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 200000 }
+		}
+	}	
+	
+	
+		focus = {
+		id = ETH_superior_tactics_gbp
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = ETH_superior_tactics }
+				mutually_exclusive = { focus = ETH_superior_tactics_ma }
+
+		x = 1
+		y = 1   
+		relative_position_id = ETH_superior_tactics  
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = "Reaffirm Old Doctrine"
+				bonus = 100
+				uses = 3
+				category = cat_grand_battle_plan
+			}
+		}
+	}
+	
+		focus = {
+		id = ETH_superior_tactics_gbp2
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = ETH_superior_tactics_gbp }
+
+		x = 0
+		y = 1   
+		relative_position_id = ETH_superior_tactics_gbp  
+		cost = 10 
+
+		available_if_capitulated = yes
+
+		completion_reward = { 
+					add_ideas = ETH_superior_tactics_gbp2_idea
+		}
+	}	
+	 
+	
+			focus = {
+		id = ETH_superior_tactics_gbp3
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = ETH_superior_tactics_gbp2 }
+
+		x = 0
+		y = 1   
+		relative_position_id = ETH_superior_tactics_gbp2  
+		cost = 10
+
+		available_if_capitulated = yes
+  
+		completion_reward = {
+			add_equipment_to_stockpile = { producer = ITA  type = infantry_equipment_1 amount = 50000 }	
+			add_equipment_to_stockpile = { producer = ITA  type = anti_tank_equipment_1 amount = 10000 }				
+			add_equipment_to_stockpile = { producer = ITA  type = support_equipment amount = 1000 }				
+	
+		}
+	}	
+	
+	 
+				focus = {
+		id = ETH_army_reform_complete
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = ETH_superior_tactics_gbp3 focus = ETH_superior_tactics_ma3 focus = ETH_superior_firepower_sf3 focus = ETH_superior_firepower_mw3 }
+
+		x = 1
+		y = 1   
+		relative_position_id = ETH_superior_tactics_gbp3  
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+		
+		}
+	}	
+	
 	focus = {
 		id = ETH_equipment_effort
 		icon = GFX_goal_generic_small_arms
 		prerequisite = { focus = ETH_army_effort }
-		x = -1
-		y = 1   
-		relative_position_id = ETH_army_effort  
+		x = 1
+		y = 0   
 		cost = 10 
 
 		available_if_capitulated = yes
@@ -50,28 +333,6 @@ focus_tree = {
 				uses = 1
 				category = infantry_weapons
 				category = artillery
-			}
-		}
-	}
-
-	focus = {
-		id = ETH_doctrine_effort
-		icon = GFX_goal_generic_army_doctrines
-		prerequisite = { focus = ETH_army_effort }
-		x = 1
-		y = 1
-		relative_position_id = ETH_army_effort
-		cost = 10
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			army_experience = 5
-			add_tech_bonus = {
-				name = land_doc_bonus
-				bonus = 1.0
-				uses = 1
-				category = land_doctrine
 			}
 		}
 	}
@@ -98,49 +359,7 @@ focus_tree = {
 		}
 	}
 
-	focus = {
-		id = ETH_doctrine_effort_2
-		icon = GFX_goal_generic_army_doctrines
-		prerequisite = { focus = ETH_doctrine_effort }
-		x = 0
-		y = 1
-		relative_position_id = ETH_doctrine_effort
-		cost = 10
 
-		available_if_capitulated = yes
-
-		completion_reward = {
-			army_experience = 5
-			add_tech_bonus = {
-				name = land_doc_bonus
-				bonus = 1.0
-				uses = 1
-				category = land_doctrine
-			}
-		}
-	}
-
-	focus = {
-		id = ETH_doctrine_effort_3
-		icon = GFX_goal_generic_army_doctrines
-		prerequisite = { focus = ETH_doctrine_effort_2 }
-		x = 0
-		y = 1
-		relative_position_id = ETH_doctrine_effort_2
-		cost = 10
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			army_experience = 5
-			add_tech_bonus = {
-				name = land_doc_bonus
-				bonus = 1.0
-				uses = 1
-				category = land_doctrine
-			}
-		}
-	}
 	focus = {
 		id = ETH_equipment_effort_3
 		icon = GFX_goal_generic_army_artillery2
@@ -167,8 +386,7 @@ focus_tree = {
 		id = ETH_special_forces
 		icon = GFX_goal_generic_special_forces
 		prerequisite = { focus = ETH_equipment_effort_3 }
-		prerequisite = { focus = ETH_doctrine_effort_3 }
-		x = 1
+		x = 0
 		y = 1
 		relative_position_id = ETH_equipment_effort_3
 		cost = 10

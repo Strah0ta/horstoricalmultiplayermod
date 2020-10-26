@@ -12,7 +12,7 @@ sub_units = {
 		priority = 1
 		active = yes
 		type = { fighter }
-		need = { fighter_equipment = 1 }
+		need = { sov_fighter_equipment = 1 }
 		categories = { category_fighter }
 	}
 	scout_plane = {

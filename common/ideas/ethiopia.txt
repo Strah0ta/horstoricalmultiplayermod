@@ -1,4 +1,32 @@
 ideas = {
+		country = {
+				ETH_superior_tactics_ma2_idea = {		
+			picture = generic_fighter_production_diverted
+			allowed = {	always = no	}
+			removal_cost = -1
+			modifier = { conscription = 0.2	}  
+		}		
+				ETH_superior_firepower_mw2_idea = {		
+			picture = generic_fighter_production_diverted
+			allowed = {	always = no	}
+			removal_cost = -1
+			equipment_bonus = { motorized_equipment = { hardness = 3 }   }
+		}		
+				ETH_superior_firepower_sf2_idea = {		
+			picture = generic_fighter_production_diverted
+			allowed = {	always = no	} 
+			removal_cost = -1 
+			modifier = { army_attack_factor = 0.1	}
+		}		
+				ETH_superior_tactics_gbp2_idea = {		
+			picture = generic_fighter_production_diverted
+			allowed = {	always = no	}
+			removal_cost = -1 
+			modifier = { max_command_power = 400 dig_in_speed_factor = 1	}
+		}		
+		
+		
+		}
 	political_advisor = {
 		ETH_bedjironde_tekle_hawariate = {
 			picture = generic_political_advisor_arab_2

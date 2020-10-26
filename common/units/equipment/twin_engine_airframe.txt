@@ -89,7 +89,8 @@ equipments = {
 
 		archetype = tac_bomber_equipment
 		priority = 105
-		
+				can_license = no
+
 		air_range = 2100
 		maximum_speed = 275   
 		air_agility = 16
@@ -247,7 +248,8 @@ equipments = {
 
 		archetype = heavy_fighter_equipment
 		priority = 100
-		
+			can_license = no
+	
 		air_range = 1950
 		maximum_speed = 525
 		air_agility = 25

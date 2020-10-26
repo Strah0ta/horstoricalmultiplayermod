@@ -60,7 +60,8 @@ equipments = {
 		air_attack = 50
 		air_defence = 25
 		air_bombing = 60
-		
+			can_license = no
+	
 		# build_cost_ic = 36
 	}
 
@@ -109,7 +110,8 @@ equipments = {
 		archetype = transport_plane_equipment
 		active = yes
 		priority = 130
-		
+			can_license = no
+	
 		air_range = 1000
 		maximum_speed = 300
 		air_agility = 10

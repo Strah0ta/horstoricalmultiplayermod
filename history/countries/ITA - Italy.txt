@@ -28,6 +28,7 @@ country_event = { id = DOD_yugoslavia.20 days = 759 }
 # Starting tech
 set_technology = {
 	scout_plane1 = 1
+	interwar_antitank = 1
 	infantry_weapons = 1
 	infantry_weapons1 = 1
 	tech_support = 1		

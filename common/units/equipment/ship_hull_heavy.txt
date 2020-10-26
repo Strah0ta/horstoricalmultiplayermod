@@ -131,6 +131,8 @@ equipments = {
 		visual_tech_level_addition = 0
 		archetype = ship_hull_heavy
 		priority = 1500
+				can_license = no
+
 		visual_level = 0
 		module_slots = {
 			fixed_ship_battery_slot = inherit
@@ -188,6 +190,8 @@ equipments = {
 		year = 1922
 		archetype = ship_hull_heavy
 		priority = 1500
+				can_license = no
+
 		parent = ship_hull_pre_dreadnought
 		visual_level = 0
 		module_slots = {

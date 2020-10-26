@@ -28,7 +28,9 @@ equipments = {
 		year = 1936
 
 		archetype = motorized_equipment
-		priority = 30			
+		priority = 30
+			can_license = no
+	
 	}
 
 }

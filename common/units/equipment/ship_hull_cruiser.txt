@@ -10,6 +10,7 @@ equipments = {
 		alias = light_cruiser
 		priority = 1900
 
+		
 		module_slots = {
 			fixed_ship_battery_slot = {
 				required = yes
@@ -127,7 +128,8 @@ equipments = {
 		archetype = ship_hull_cruiser
 		priority = 1900
 		
-		
+				can_license = no
+
 		module_slots = inherit
 	}
 

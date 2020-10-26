@@ -1389,7 +1389,7 @@ icon = generic_operation
         fire_only_once = yes
         available = {
 			OR = { 
-			NOT = { ITA = { controls_state = 448 controls_state = 450 controls_state = 451 }   }
+			NOT = { ITA = { controls_state = 448 controls_state = 450 }   }
 			date > 1942.3.1
 			AND = { controls_state = 446 date > 1941.6.1 }
 			}
@@ -3254,7 +3254,7 @@ political_actions = {
 			
 			annex_country = { target = MAN transfer_troops = yes }
 					496 = { set_compliance = 100 } 	328 = { set_compliance = 100 }	505 = { set_compliance = 100 } 3 = { set_compliance = 100 }
-					615 = { set_compliance = 100 } 	504 = { set_compliance = 100 }	612 = { set_compliance = 100 } 610 = { set_compliance = 100 }
+					451 = { set_compliance = 100 } 	504 = { set_compliance = 100 }	612 = { set_compliance = 100 } 610 = { set_compliance = 100 }
 					611 = { set_compliance = 100 } 	608 = { set_compliance = 100 }
 		}
 	}
@@ -4011,7 +4011,6 @@ operations = {
 						controls_state = 452
 						controls_state = 447
 						controls_state = 456
-						controls_state = 457
 						controls_state = 454
 						controls_state = 455
 					}

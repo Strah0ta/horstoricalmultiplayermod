@@ -57,7 +57,8 @@ equipments = {
 		archetype = armored_car_equipment
 		priority = 5
 		visual_level = 0
-		
+			can_license = no
+	
 		
 
 		#Misc Abilities

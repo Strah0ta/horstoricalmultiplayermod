@@ -53,8 +53,7 @@ HMP_ger_total_mob_1 = yes
 }
 
 stupid_china_gun_fix = {
- transfer_state = 594 transfer_state = 599 transfer_state = 592 transfer_state = 591 transfer_state = 593 transfer_state = 602 transfer_state = 595 transfer_state = 600 transfer_state = 620 transfer_state = 596 transfer_state = 613 transfer_state = 506 transfer_state = 606 transfer_state = 607 transfer_state = 598 transfer_state = 597 transfer_state = 305 transfer_state = 614
-SWE = { transfer_state = 608 }
+ transfer_state = 594 transfer_state = 599 transfer_state = 592 transfer_state = 591 transfer_state = 593 transfer_state = 602 transfer_state = 595 transfer_state = 600 transfer_state = 462 transfer_state = 596 transfer_state = 561 transfer_state = 506 transfer_state = 606 transfer_state = 607 transfer_state = 598 transfer_state = 597 transfer_state = 305 transfer_state = 570
 if = { limit = { country_exists = MAN } MAN = { transfer_state = 608 }  }
 else = { transfer_state = 608 }
 }

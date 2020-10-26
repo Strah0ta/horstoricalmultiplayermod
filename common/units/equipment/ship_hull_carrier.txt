@@ -119,7 +119,8 @@ equipments = {
 		visual_tech_level_addition = 2
 		archetype = ship_hull_carrier
 		priority = 1000
-		
+			can_license = no
+ 	
 		module_slots = inherit
 
 		default_modules = {
@@ -240,6 +241,8 @@ equipments = {
 		visual_level = 0
 		archetype = ship_hull_carrier
 		priority = 1100
+				can_license = no
+
 		can_convert_from = { ship_hull_heavy_1 ship_hull_heavy_2 ship_hull_heavy_3 ship_hull_heavy_4 ship_hull_super_heavy_1 }
 		module_slots = {
 			fixed_ship_deck_slot_1 = inherit
@@ -284,6 +287,8 @@ equipments = {
 		visual_level = 0
 		archetype = ship_hull_carrier
 		priority = 1200
+				can_license = no
+
 		can_convert_from = { ship_hull_cruiser_1 ship_hull_cruiser_2 ship_hull_cruiser_3 ship_hull_cruiser_4 ship_hull_cruiser_panzerschiff }
 		module_slots = {
 			fixed_ship_deck_slot_1 = inherit

@@ -300,6 +300,7 @@ equipments = {
 		archetype = fighter_equipment
 		carrier_capable = yes
 		priority = 5
+		can_license = no
 		
 		air_range = 855
 		maximum_speed = 356.4
@@ -320,6 +321,7 @@ equipments = {
 		carrier_capable = yes
 		parent = fighter_equipment_0
 		priority = 10
+		can_license = no
 
 		air_range = 1050
 		maximum_speed = 540
@@ -518,7 +520,8 @@ equipments = {
 		parent = cv_fighter_equipment_1
 		carrier_capable = yes
 		priority = 30
-		
+			can_license = no
+	
 		air_range = 800
 		maximum_speed =	585
 		air_agility = 65
@@ -542,7 +545,8 @@ equipments = {
 		parent = cv_fighter_equipment_2
 		carrier_capable = yes
 		priority = 30
-		
+			can_license = no
+	
 		air_range = 1750    
 		maximum_speed =	631.8
 		air_agility = 90
@@ -566,6 +570,7 @@ equipments = {
 		archetype = CAS_equipment
 		carrier_capable = yes		
 		priority = 40
+		can_license = no
 
 		air_range = 1050
 		maximum_speed = 429 
@@ -713,7 +718,7 @@ equipments = {
 		carrier_capable = yes
 
 		priority = 60
-
+		can_license = no
 		air_range = 1275
 		maximum_speed = 202.4 #vanilla 230, changed so navs are easier to intercept
 		air_agility = 37.5

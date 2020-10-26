@@ -1,6 +1,6 @@
 
 state={
-	id=613
+	id=561
 	name="STATE_613" # Shanghai
 	manpower = 17305100
 	

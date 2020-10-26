@@ -48,11 +48,11 @@ HMP_capitulations_on_actions = {
 			}
 								if = {
 			limit = { ROOT = { original_tag = SOV }  FROM = { original_tag = GER } }
-			FIN = {transfer_state = 147 transfer_state = 146 transfer_state = 213 transfer_state = 215 transfer_state = 216	transfer_state = 561 transfer_state = 563  }
+			FIN = {transfer_state = 147 transfer_state = 146 transfer_state = 213 transfer_state = 215 transfer_state = 216	 transfer_state = 563  }
 			if = { limit = { NOT = { has_start_date > 1936.1.2 }}JAP = { transfer_state = 408  transfer_state = 409  transfer_state = 298   transfer_state = 406        } }
 			ROM = { transfer_state = 287 transfer_state = 78 transfer_state = 80  }
 			GER = { 
-			transfer_state = 192 transfer_state = 198 transfer_state = 199 transfer_state = 89 transfer_state = 91 transfer_state = 93 transfer_state = 94 transfer_state = 95 transfer_state = 96 transfer_state = 784 transfer_state = 11 transfer_state = 189 transfer_state = 190 transfer_state = 96 transfer_state = 206 transfer_state = 207 transfer_state = 204 transfer_state = 194 transfer_state = 201 transfer_state = 202 transfer_state = 203 transfer_state = 197 transfer_state = 226 transfer_state = 196 transfer_state = 137 transfer_state = 200 transfer_state = 227 transfer_state = 221 transfer_state = 259 transfer_state = 193 transfer_state = 225 transfer_state = 240 transfer_state = 228 transfer_state = 218 transfer_state = 220 transfer_state = 224 transfer_state = 241 transfer_state = 243 transfer_state = 242 transfer_state = 205 transfer_state = 223 transfer_state = 219 transfer_state = 254 transfer_state = 257 transfer_state = 252 transfer_state = 12 transfer_state = 13 transfer_state = 191 transfer_state = 209 transfer_state = 210 transfer_state = 208 transfer_state = 263 transfer_state = 244 transfer_state = 195 transfer_state = 264 transfer_state = 247 transfer_state = 262 transfer_state = 397 transfer_state = 214 transfer_state = 351 transfer_state = 246 transfer_state = 248 transfer_state = 253 transfer_state = 400 transfer_state = 398 transfer_state = 616 transfer_state = 618 transfer_state = 251 transfer_state = 250 transfer_state = 255 transfer_state = 258 transfer_state = 222 transfer_state = 260 transfer_state = 245 transfer_state = 238 transfer_state = 234 transfer_state = 233 transfer_state = 231 transfer_state = 229 transfer_state = 230 transfer_state = 232 transfer_state = 237  transfer_state = 235 transfer_state = 236 transfer_state = 406 transfer_state = 407 transfer_state = 217 transfer_state = 265 transfer_state = 239 transfer_state = 401 transfer_state = 399 transfer_state = 249 transfer_state = 256 transfer_state = 97
+			transfer_state = 192 transfer_state = 198 transfer_state = 199 transfer_state = 89 transfer_state = 91 transfer_state = 93 transfer_state = 94 transfer_state = 95 transfer_state = 96 transfer_state = 784 transfer_state = 11 transfer_state = 189 transfer_state = 190 transfer_state = 96 transfer_state = 206 transfer_state = 207 transfer_state = 204 transfer_state = 194 transfer_state = 201 transfer_state = 202 transfer_state = 203 transfer_state = 197 transfer_state = 226 transfer_state = 196 transfer_state = 137 transfer_state = 200 transfer_state = 227 transfer_state = 221 transfer_state = 259 transfer_state = 193 transfer_state = 225 transfer_state = 240 transfer_state = 228 transfer_state = 218 transfer_state = 220 transfer_state = 224 transfer_state = 241 transfer_state = 243 transfer_state = 242 transfer_state = 205 transfer_state = 223 transfer_state = 219 transfer_state = 254 transfer_state = 257 transfer_state = 252 transfer_state = 12 transfer_state = 13 transfer_state = 191 transfer_state = 209 transfer_state = 210 transfer_state = 208 transfer_state = 263 transfer_state = 244 transfer_state = 195 transfer_state = 264 transfer_state = 247 transfer_state = 262 transfer_state = 397 transfer_state = 214 transfer_state = 351 transfer_state = 246 transfer_state = 248 transfer_state = 253 transfer_state = 400 transfer_state = 398 transfer_state = 181 transfer_state = 580 transfer_state = 251 transfer_state = 250 transfer_state = 255 transfer_state = 258 transfer_state = 222 transfer_state = 260 transfer_state = 245 transfer_state = 238 transfer_state = 234 transfer_state = 233 transfer_state = 231 transfer_state = 229 transfer_state = 230 transfer_state = 232 transfer_state = 237  transfer_state = 235 transfer_state = 236 transfer_state = 406 transfer_state = 407 transfer_state = 217 transfer_state = 265 transfer_state = 239 transfer_state = 401 transfer_state = 399 transfer_state = 249 transfer_state = 256 transfer_state = 97
 
 
 
@@ -461,18 +461,15 @@ release = DEN
 set_autonomy = {  target = ETH  autonomy_state = autonomy_supervised_state }
 		transfer_state = 152 #Upper Austria ###AUSTRIA###
 transfer_state = 448 #Tripoli ###ITALY###
-transfer_state = 561 #Tripolitania
 transfer_state = 449 #El Agheila
-transfer_state = 580 #Sirte
 transfer_state = 579 #Cyrenaica
 transfer_state = 450 #Benghasi
-transfer_state = 451 #Derna
 }
 if =  { limit = { country_exists = EFR } FRA = { annex_country = { target = EFR  transfer_troops = yes }  transfer_state = 458 transfer_state = 577 } }
 if =  { limit = { country_exists = ITA } ITA = { release = FRA release = GRE release = BUL } ENG = { set_autonomy = {  target = ITA  autonomy_state = autonomy_supervised_state } } }
 FRA = {
 transfer_state = 153 #Tyrol ###AUSTRIA###
-transfer_state = 461 transfer_state = 462 transfer_state = 459 transfer_state = 513 transfer_state = 460
+transfer_state = 461 transfer_state = 459 transfer_state = 513 transfer_state = 460
 }
 USA = {
 release = DEN
@@ -527,7 +524,6 @@ transfer_state = 547 #Kenya
 transfer_state = 548 #Uganda
 transfer_state = 551 #Khartoum
 transfer_state = 549 #Sudan 
-transfer_state = 181 #Port Sudan
 transfer_state = 550 #Eritrea
 transfer_state = 271 #Ethiopia
 transfer_state = 559 #Somaliland
@@ -557,12 +553,10 @@ transfer_state = 321 #Sumatra
 transfer_state = 336 #Singapore
 transfer_state = 333 #North Borneo
 transfer_state = 418 #Mindanao 
-transfer_state = 414 #Samar
 transfer_state = 587 #Cebu 
 transfer_state = 417 #Palawan
 transfer_state = 403 #Central Islands 
 transfer_state = 327 #Manila
-transfer_state = 570 #Luzon 
 transfer_state = 501 #Christmas Island 
 transfer_state = 326 #Hong Kong 
 transfer_state = 307 #Andaman 
@@ -626,7 +620,6 @@ transfer_state = 452 #Marsa Matruh
 transfer_state = 447 #Alexandria 
 transfer_state = 446 #Cairo
 transfer_state = 296 #Deir-az-Zur
-transfer_state = 457 #Eastern Desert 
 transfer_state = 456 #Aswan 
 transfer_state = 453 #Sinai
 transfer_state = 454 #Palestine 

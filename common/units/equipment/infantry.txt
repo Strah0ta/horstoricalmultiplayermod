@@ -43,10 +43,12 @@ equipments = {
 
 	infantry_equipment_0 = {
 		year = 1918
-	
+
 		archetype = infantry_equipment
 		active = no
 		priority = 05
+		
+			can_license = no
 		visual_level = 0
 	}
 
@@ -60,6 +62,7 @@ equipments = {
 		parent = infantry_equipment_0
 		priority = 10
 		visual_level = 1
+		can_license = no
 
 		#Defensive Abilities
 		defense = 22

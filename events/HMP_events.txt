@@ -1446,7 +1446,7 @@ is_triggered_only = yes
 			328 = {	add_resource = {  type = aluminium amount = 16}	}
 			
 			annex_country = { target = MAN transfer_troops = yes }
-			496 = { set_compliance = 100 } 	328 = { set_compliance = 100 }	505 = { set_compliance = 100 } 3 = { set_compliance = 100 }	615 = { set_compliance = 100 } 	504 = { set_compliance = 100 }
+			496 = { set_compliance = 100 } 	328 = { set_compliance = 100 }	505 = { set_compliance = 100 } 3 = { set_compliance = 100 }	451 = { set_compliance = 100 } 	504 = { set_compliance = 100 }
 			610 = { set_compliance = 100 }	611 = { set_compliance = 100 }  
    		add_tech_bonus = {
 			name = "Integrate Manchukuo"
@@ -3262,7 +3262,7 @@ country_event = {
 	is_triggered_only =  yes
 	option = {
 		name = soviet.509.a
-		CHI = { transfer_state = 615 } 
+		CHI = { transfer_state = 451 } 
 		SOV = { puppet = CHI}  
 					hidden_effect = { CHI = { set_cosmetic_tag = PRC_HORST}}
 		every_state = { limit = { is_core_of = MAN } CHI = { add_state_core = PREV } }
@@ -4075,7 +4075,7 @@ country_event = {
 		
 				trigger = { AND = { has_completed_focus = MAN_pacify_the_countrysidex  } NOT = { has_country_flag = MAN_hulunbuir }            }
 
-			615	= {
+			451	= {
 		add_extra_state_shared_building_slots = 3
 		add_building_construction = {
 		type = infrastructure 

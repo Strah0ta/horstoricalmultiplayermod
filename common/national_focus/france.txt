@@ -112,8 +112,6 @@
                 }
 			}
 			           124 = {
-                if = {
-                    limit = { is_fully_controlled_by = ROOT }
                     add_building_construction = {
                         type = infrastructure
                         level = 3
@@ -131,7 +129,6 @@
                         instant_build = yes
                         province = 4268
                     }
-                }
             }
 			
 			  295 = {
@@ -158,15 +155,12 @@
                 }
 			
                         557 = {
-                if = {
-                    limit = { is_fully_controlled_by = ROOT }
                     add_building_construction = {
                         type = infrastructure
                         level = 3
                         instant_build = yes
                     }
                 }
-            }
 			601 = {
                     add_building_construction = {
                         type = infrastructure
@@ -213,9 +207,6 @@
                     }					
                 }
 
-
-            if = {
-                limit = { 581 = { is_fully_controlled_by = ROOT } }
                 581 = {
                     add_building_construction = {
                         type = infrastructure
@@ -223,10 +214,7 @@
                         instant_build = yes
                     }
                 }
-            }
 
-            if = {
-                limit = { 556 = { is_fully_controlled_by = ROOT } }
                 556 = {
                     add_building_construction = {
                         type = infrastructure
@@ -234,11 +222,7 @@
                         instant_build = yes
                     }
                 }
-            }
 
-
-            if = {
-                limit = { 543 = { is_fully_controlled_by = ROOT } }
                 543 = {
                     add_building_construction = {
                         type = infrastructure
@@ -246,11 +230,7 @@
                         instant_build = yes
                     }
                 }
-            }
 
-
-            if = {
-                limit = { 124 = { is_fully_controlled_by = ROOT } }
                 124 = {
                     add_building_construction = {
                         type = infrastructure
@@ -258,9 +238,6 @@
                         instant_build = yes
                     }
                 }
-            }
-			     if = {
-                limit = { 310 = { is_fully_controlled_by = ROOT } }
                 310 = {
                     add_building_construction = {
                         type = infrastructure
@@ -268,23 +245,15 @@
                         instant_build = yes
                     }
                 }
-            }
-
-
-    if = {
-                limit = { 557 = { is_fully_controlled_by = ROOT } }
-                557 = {
+			557 = {
                     add_building_construction = {
                         type = infrastructure
                         level = 1
                         instant_build = yes
                     }
                 }
-            }
+           
 
-
-    if = {
-                limit = { 577 = { is_fully_controlled_by = ROOT } }
                 577 = {
                     add_building_construction = {
                         type = infrastructure
@@ -292,21 +261,7 @@
                         instant_build = yes
                     }
                 }
-            }
 
-    if = {
-                limit = { 462 = { is_fully_controlled_by = ROOT } }
-                462 = {
-                    add_building_construction = {
-                        type = infrastructure
-                        level = 1
-                        instant_build = yes
-                    }
-                }
-            }
-
-    if = {
-                limit = { 286 = { is_fully_controlled_by = ROOT } }
                 286 = {
                     add_building_construction = {
                         type = infrastructure
@@ -314,10 +269,7 @@
                         instant_build = yes
                     }
                 }
-            }
 			
-			 if = {
-                limit = { 497 = { is_fully_controlled_by = ROOT } }
                 497 = {
                     add_building_construction = {
                         type = infrastructure
@@ -325,10 +277,7 @@
                         instant_build = yes
                     }
                 }
-            }
 
-    if = {
-                limit = { 397 = { is_fully_controlled_by = ROOT } }
                 397 = {
                     add_building_construction = {
                         type = infrastructure
@@ -336,10 +285,7 @@
                         instant_build = yes
                     }
                 }
-            }
 
-    if = {
-                limit = { 493 = { is_fully_controlled_by = ROOT } }
                 493 = {
                     add_building_construction = {
                         type = infrastructure
@@ -347,10 +293,7 @@
                         instant_build = yes
                     }
                 }
-            }
 
-if = {
-                limit = { 539 = { is_fully_controlled_by = ROOT } }
                 539 = {
         add_building_construction = {
                         type = naval_base
@@ -359,20 +302,16 @@ if = {
                         province = 5139
                     }
                 }
-
-
-        }
-		
         461 = {
                 add_building_construction = {
                         type = anti_air_building
-                        level = 2
+                        level = 3
                         instant_build = yes
                                     }
 
                 add_building_construction = {
                         type = infrastructure
-                        level = 1
+                        level = 3
                         instant_build = yes
                                 }
 				set_building_level = {
@@ -395,25 +334,7 @@ if = {
                     }
                             }
 
-        462 = {
-            add_building_construction = {
-                        type = anti_air_building
-                        level = 2
-                        instant_build = yes
-                                    }
 
-                add_building_construction = {
-                        type = infrastructure
-                        level = 2
-                        instant_build = yes
-                                    }
-
-				set_building_level = {
-					type = air_base
-					level = 6
-					instant_build = yes
-				}
-                }
 		
     }		
 	}
@@ -433,8 +354,8 @@ if = {
 
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
-			601 = {	add_extra_state_shared_building_slots = 16	}
-			539 = {	add_extra_state_shared_building_slots = 16	}
+			601 = {	add_extra_state_shared_building_slots = 12	}
+			539 = {	add_extra_state_shared_building_slots = 12	}
 		}
 	}
 	

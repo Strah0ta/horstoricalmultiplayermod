@@ -1,7 +1,7 @@
 
 state={
 	id=611
-	name="STATE_611" # South Chahar
+	name="Chahar" # South Chahar
 	manpower = 2036000
 	
 	state_category = rural
