@@ -1,10 +1,7 @@
 state={
 id=447
-name="STATE_447"
-manpower = 3859239
-resources={
-oil=0
-}
+name="Lower Egypt"
+manpower = 10445835
 state_category = wasteland
 history={
 owner = ENG
@@ -12,9 +9,39 @@ add_core_of=SWE
 victory_points = {
 4076 100
 }
+		victory_points = {
+			10127 1
+		}
+		victory_points = {
+			7011 200
+		}
+		victory_points = {
+			1143 50
+		}
+		victory_points = {
+			7117 1
+		}
+		victory_points = {
+			4913 1
+		}
+		victory_points = {
+			12049 5
+		}
+		victory_points = {
+			3996 5
+		}
+		victory_points = {
+			4073 3
+		}
 buildings = {
 infrastructure = 5
 air_base = 6
+			12049 = {
+				naval_base = 2
+			}
+			1143 = {
+				naval_base = 2
+			}
 4076 = {
 naval_base = 8
 }
@@ -25,6 +52,6 @@ naval_base = 2
 }
 }
 provinces={
- 4076 7091 7164 10073 11964 10005 8061 10805 10917 
+ 4076 7091 7164 10073 11964 10005 8061 10805 10917 1068 3996 4055 4073 4143 4962 7011 7188 10031 2033 12004 12049 7987 7216 10907 12733 12764 12883 10869 12022 1143 12099 10127 7117 1071 7041 1958 12849 8077  7943 1897 10779 1962 7939 8028 8035 4913 10758  4145 10893 2068 10725 10868 992 10838 12870 8004 5081 10737 
 }
 }

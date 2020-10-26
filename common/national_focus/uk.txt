@@ -1072,9 +1072,15 @@ add_equipment_production = {
 					province = 4076
 					instant_build = yes
 				}
+					add_building_construction = {
+					type = naval_base
+					level = 15
+					province = 4073
+					instant_build = yes
+				}				
 				set_building_level = {
 					type = air_base
-					level = 6
+					level = 12
 					instant_build = yes
 				}
 								add_building_construction = {
@@ -1083,27 +1089,7 @@ add_equipment_production = {
 					instant_build = yes
 				}
 			}
-				446 = {
-					add_building_construction = {
-					type = naval_base
-					level = 15
-					province = 4073
-					instant_build = yes
-				}
-				set_building_level = {
-					type = air_base
-					level = 6
-					instant_build = yes
-				}
-						add_building_construction = {
-					type = anti_air_building
-					level = 3
-					instant_build = yes
-				}
-				}
-				
-			
-			
+
 						118 = {
 			add_building_construction = {
 					type = naval_base
@@ -1474,57 +1460,16 @@ add_equipment_production = {
 				291 = {
 				set_building_level = {
 					type = air_base
-					level = 6
+					level = 18
 					instant_build = yes
-				}
-				add_building_construction = {
-					type = infrastructure
-					level = 1
-					instant_build = yes
-				}		
-			}	
-			179 = {
-				set_building_level = {
-					type = air_base
-					level = 6
-					instant_build = yes
-				}
-				add_building_construction = {
-					type = infrastructure
-					level = 1
-					instant_build = yes
-				}		
-			}	
-			112 = {
-				set_building_level = {
-					type = air_base
-					level = 6
-					instant_build = yes
-				}
-				add_building_construction = {
-					type = infrastructure
-					level = 1
-					instant_build = yes
-				}		
-			}
-			488 = {
-				set_building_level = {
-					type = air_base
-					level = 6
-					instant_build = yes
-				}
-				add_building_construction = {
-					type = infrastructure
-					level = 1
-					instant_build = yes
-				}
+				}	
 	add_building_construction = {
 					type = naval_base
 					province = 8085
 					level = 6	
 					instant_build = yes
-				}				
-			}
+				}						
+			}	
 			}
 			}
 	

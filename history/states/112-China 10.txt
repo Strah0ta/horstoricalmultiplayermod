@@ -1,6 +1,6 @@
 
 state={
-	id=611
+	id=112
 	name="Chahar" # South Chahar
 	manpower = 2036000
 	

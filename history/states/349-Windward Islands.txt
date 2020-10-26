@@ -1,8 +1,11 @@
 state={
 id=349
-name="STATE_692"
-manpower=76485
-state_category = small_island
+name="British Caribbean"
+manpower=515282
+resources={
+oil=12
+}
+state_category = rural
 history={
 owner = ENG
 add_core_of=SWE
@@ -11,12 +14,24 @@ infrastructure = 4
 11350 = {
 naval_base = 1
 }
+3284 = {
+naval_base = 1
+}
+4450 = {
+naval_base = 1
+}
+7123 = {
+naval_base = 1
+}
 }
 victory_points = {
 11350 1
 }
+victory_points = {
+3284 1
+}
 }
 provinces={
-379 11106 11350 13009
+379 11106 11350 13009 3284 13012 4450 7123 
 }
 }

@@ -625,7 +625,7 @@ focus_tree = {
 
 		cost = 5
 
-		available = {	OR = { 	JAP = { controls_state = 608 }  MAN = { controls_state = 608 }	}	}
+		available = {	OR = { 	JAP = { controls_state = 308 }  MAN = { controls_state = 308 }	}	}
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no

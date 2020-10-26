@@ -334,6 +334,7 @@ focus_tree = {
 
 		completion_reward = {
 			add_ideas = USA_magic
+			ENG = {  add_ideas = USA_magic }
 		}
 	}
 	focus = {

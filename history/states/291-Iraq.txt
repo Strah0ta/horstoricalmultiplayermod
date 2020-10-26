@@ -1,18 +1,24 @@
 
 state={
 	id=291
-	name="STATE_291"
-	manpower = 2044165
+	name="Iraq"
+	manpower = 3428999
 	
-	state_category = town
+	state_category = wasteland
 
 	history={
 		owner = ENG
 		victory_points = {
-			2097 5
+			2097 30
 		}
 		victory_points = {
 			2089 1 
+		}
+				victory_points = {
+			10106 1 
+		}
+				victory_points = {
+			8085 1
 		}
 		buildings = {
 			infrastructure = 5
@@ -20,11 +26,14 @@ state={
 			2089 = {
 				naval_base = 1
 			}
+						8085 = {
+				naval_base = 4
+			}
 		}
 		add_core_of = ENG
 	}
 
 	provinces={
-		78 2004 2089 2097 3795 7977 7994 8001 10876 12046 12726 12839 12855 
+		78 2004 2089 2097 3795 7977 7994 8001 10876 12046 12726 12839 12855 1631 4951 10744 12413 12879 8085 1600 1938 3916 5014 6826 8123 10106 10793 10804 10811 12372 
 	}
 }

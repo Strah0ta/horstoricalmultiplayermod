@@ -588,7 +588,7 @@ focus_tree = {
 		available = { SOV =  {has_war_with = GER }}
 
 		completion_reward = {
-				give_resource_rights = { receiver = USA state = 612 }	
+				give_resource_rights = { receiver = USA state = 179 }	
 		}
 	}
 	
