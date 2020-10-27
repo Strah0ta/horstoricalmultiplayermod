@@ -72,6 +72,7 @@ ideas = {
 			
 			available = {
 				has_war_support > 0.15
+				if = { limit = { original_tag = FRA } has_war = yes }
 				if = {
 					limit = {
 						original_tag = HUN
@@ -93,32 +94,14 @@ ideas = {
 			}
 			
 			cancel_if_invalid = no
-
-			ai_will_do = {
-   				factor = 2
-
-   				modifier = {
-					factor = 20
-					
-					is_major = yes
-				}
-				modifier = {
-					has_war_support > 0.25
-					factor = 0 #don't even look at it if you could be taking partial mob
-				}
-				modifier = {
-					tag = ENG
-					has_war = no
-					date < 1937.6.1
-					factor = 0
-				}
-   			}
 		}
 		
 		partial_economic_mobilisation = {
 			
 			available = {
 				has_war_support > 0.25
+								if = { limit = { original_tag = FRA } has_war = yes }
+
 				if = {
 					limit = {
 						original_tag = HUN
@@ -146,6 +129,8 @@ ideas = {
 					
 			available = {
 				has_war_support > 0.5
+								if = { limit = { original_tag = FRA } has_war = yes }
+
 				OR = {
 					has_government = fascism
 					has_war = yes

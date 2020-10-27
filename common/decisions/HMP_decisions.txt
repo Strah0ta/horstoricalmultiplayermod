@@ -1021,6 +1021,7 @@ GER_desert_flower_dec = {
 	fire_only_once = yes
 	days_remove = 150
 	complete_effect = {
+		if = { limit = { EFR = { owns_state = 554 }} FRA = { transfer_state = 554 } ITA = { set_state_controller = 554 } country_event = { id = germany.378 } }
 		291 = { set_building_level = {
 					type = infrastructure
 					level = 10
@@ -1226,6 +1227,7 @@ GER_case_anton = {
 				}
 			
 				complete_effect = {	
+				hidden_effect = {  delete_unit_template_and_units  = { division_template = "Barbarossa Infanterie"} }
 				load_oob = "GER_barbarossa_inf"
 				add_manpower = -1545000
 			}
@@ -1374,7 +1376,8 @@ icon = generic_operation
 		
 		complete_effect = {
 		custom_effect_tooltip = "We will deploy an army of 24 mountaineer divisions in India."
-		hidden_effect = { load_oob = "ENG_Iran_Front"}
+		
+		hidden_effect = { delete_unit_template_and_units  = { division_template = "Countenance Infantry"} load_oob = "ENG_Iran_Front"}
 				SOV = { country_event = { id = iran.2 }}
 				 country_event = { id = iran.3 }
 				 ITA = { country_event = { id = iran.4 }}

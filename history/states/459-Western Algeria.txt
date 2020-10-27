@@ -2,7 +2,7 @@ state={
 id=459
 name="STATE_459"
 manpower = 3089944
-state_category = town
+state_category = wasteland
 
 history={
 owner = FRA

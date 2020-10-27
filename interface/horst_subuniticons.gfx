@@ -1,3 +1,5 @@
+
+
 spriteTypes = {
 	###RANGERS SHOCKTROOPS AND ROCKET ARTY(?)###
 	spriteType = { name = "GFX_unit_jaeger_icon_medium"									textureFile = "gfx/interface/counters/divisions_large/unit_jaeger_icon.dds" noOfFrames = 2 }
@@ -18,7 +20,8 @@ spriteTypes = {
 	spriteType = { name = "GFX_unit_camelry_arty_icon_medium"									textureFile = "gfx/interface/counters/divisions_large/unit_camelry_icon.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_camelry_rarty_icon_medium_white"							textureFile = "gfx/interface/counters/divisions_small/onmap_unit_camelry_icon.dds" noOfFrames = 2}
 	spriteType = { name = "GFX_unit_camelry_rarty_icon_medium"									textureFile = "gfx/interface/counters/divisions_large/unit_camelry_icon.dds" noOfFrames = 2 }
-
+	###AT ARMOR CAR###
+	spriteType = { name = "GFX_unit_armored_car_at_recon_icon_small" texturefile = "gfx/texticons/support_light_armored_recon.dds"	legacy_lazy_load = no	noOfFrames = 2	}
 	
 	###CUSTOM ICONS BELOW###
 	

@@ -2,7 +2,7 @@
 state={
 	id=411
 	name="STATE_411" # Isfahan
-	manpower = 1877274
+	manpower = 1377274
 
 	state_category = wasteland
 	impassable = yes 
@@ -16,6 +16,6 @@ state={
 	}
 
 	provinces={
-		 8009 10873 11671 12704 12748 7573 5073 1957 1888 10806 7990 10759 10890 12739 12809 12852 12895 
+		 8009 11671 12748 7573 5073 1957 1888 10806 7990 10890 
 	}
 }

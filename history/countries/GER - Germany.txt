@@ -85,7 +85,8 @@ add_equipment_to_stockpile = { type = nav_bomber_equipment_1 amount = 124 }
 add_equipment_to_stockpile = { type = transport_plane_equipment_1 amount = 4 }
 
 ###Added to deal with air in France###
-add_equipment_to_stockpile = { type = fighter_equipment_1 amount = 600 }
+add_equipment_to_stockpile = { type = fighter_equipment_1 amount = 800 }
+add_equipment_to_stockpile = { type = CAS_equipment_1 amount = 400 }
 
 
 ######ANNEXED MINOR STOCKPILE#######

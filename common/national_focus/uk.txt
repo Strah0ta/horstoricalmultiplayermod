@@ -1316,7 +1316,7 @@ add_equipment_production = {
 		available_if_capitulated = yes
 
 		completion_reward = { 
-		hidden_effect = { load_oob = "ENG_IEA_Front" }
+		hidden_effect = { delete_unit_template_and_units  = { division_template = "King's African Rifles"} delete_unit_template_and_units  = { division_template = "African/Arabian Colonial Garrison"}     delete_unit_template_and_units  = { division_template = "Light Armor Division"} load_oob = "ENG_IEA_Front" }
 		custom_effect_tooltip = "We will deploy our army in the Horn of Africa region."
 					if = { limit = { ENG_has_fortify_the_empire = yes } ENG_fortify_the_empire_level_up = yes }
 		else = { add_ideas = ENG_fortify_the_empire_1 } 

@@ -54,10 +54,11 @@
 		y = 1
 		prerequisite = { focus = FRA_devalue_the_franc }
 		relative_position_id = FRA_devalue_the_franc
-		cost = 10
+		cost = 5
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+		
 			   459 = {
                     add_building_construction = {
                         type = infrastructure
@@ -100,15 +101,11 @@
         }
         
 			            556 = {
-                if = {
-                    limit = { is_fully_controlled_by = ROOT }
                     add_building_construction = {
                         type = infrastructure
                         level = 3
                         instant_build = yes
                     }
-                
-                }
 			}
 			           124 = {
                     add_building_construction = {
@@ -152,7 +149,6 @@
                     
           
                 }
-			
                         557 = {
                     add_building_construction = {
                         type = infrastructure
@@ -161,6 +157,7 @@
                     }
                 }
 			601 = {
+					add_extra_state_shared_building_slots = 2				
                     add_building_construction = {
                         type = infrastructure
                         level = 3
@@ -182,6 +179,7 @@
                     }
                 }
                 539 = {
+					add_extra_state_shared_building_slots = 2		
                     add_building_construction = {
                         type = infrastructure
                         level = 3
@@ -337,36 +335,17 @@
 		
     }		
 	}
-	focus = {
-		id = FRA_invest_in_west_africa
-		icon = GFX_focus_generic_industry_1
-		x = 0
-		y = 1
-		offset = {
-			x = 0
-			y = 0
-		}
-		prerequisite = {focus = FRA_invest_in_the_colonies }
-		relative_position_id = FRA_invest_in_the_colonies
-		cost = 10
 
-
-		search_filters = { FOCUS_FILTER_INDUSTRY }
-		completion_reward = {
-			601 = {	add_extra_state_shared_building_slots = 12	}
-			539 = {	add_extra_state_shared_building_slots = 12	}
-		}
-	}
 	
 		focus = {
 		id = FRA_military_factories
 		icon = GFX_goal_generic_construct_mil_factory
 		available = {
 		}
-		prerequisite = { focus = FRA_invest_in_west_africa  }
+		prerequisite = { focus = FRA_invest_in_the_colonies  }
 		x = -1
 		y = 1
-		relative_position_id = FRA_invest_in_west_africa
+		relative_position_id = FRA_invest_in_the_colonies
 		cost = 10
 
 		search_filters = { FOCUS_FILTER_INDUSTRY }
@@ -380,10 +359,10 @@
 		icon = GFX_focus_generic_industry_3
 		available = {
 		}
-		prerequisite = {  focus = FRA_invest_in_west_africa  }
+		prerequisite = {  focus = FRA_invest_in_the_colonies  }
 		x = 1
 		y = 1
-		relative_position_id = FRA_invest_in_west_africa
+		relative_position_id = FRA_invest_in_the_colonies
 		cost = 10
 
 		available_if_capitulated = yes
@@ -472,8 +451,9 @@
 
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
-			add_offsite_building = { type = arms_factory level = 6 }
+			add_offsite_building = { type = arms_factory level = 12 }
 			add_ideas = extensive_conscription
+			add_ideas = low_economic_mobilisation
 		}
 	}
 
@@ -925,30 +905,9 @@
 
 		available_if_capitulated = yes
 		search_filters = { FOCUS_FILTER_INDUSTRY }
-		complete_tooltip = {
-			every_state = {
-				limit = { has_state_flag = FRA_naval_rearmament_2NB }
-				add_building_construction = {
-					type = dockyard
-					level = 2
-					instant_build = yes
-				}
-			}		
-		}
 
 		completion_reward = {
-			601 = {
-				if = {
-					limit = { is_controlled_by = ROOT }
-					add_extra_state_shared_building_slots = 3
-					add_building_construction = {
-						type = dockyard
-						level = 3
-						instant_build = yes
-					}
-					set_state_flag = FRA_naval_rearmament_2NB
-				}
-			}
+			add_offsite_building = { type = dockyard level = 3 }
 		}
 	}
 
@@ -1015,18 +974,7 @@
 		available_if_capitulated = yes
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
-			601 = {
-				if = {
-					limit = { is_controlled_by = ROOT }
-					add_extra_state_shared_building_slots = 4
-					add_building_construction = {
-						type = dockyard
-						level = 4
-						instant_build = yes
-					}
-					set_state_flag = FRA_colonial_dockyards
-				}
-			}
+					add_offsite_building = { type = dockyard level = 4 }
 		}
 	}
 
@@ -1043,14 +991,7 @@
 		available_if_capitulated = yes
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
-		601 = {
-					add_extra_state_shared_building_slots = 2
-					add_building_construction = {
-						type = dockyard
-						level = 2
-						instant_build = yes
-					}
-			}
+					add_offsite_building = { type = dockyard level = 2 }
 		}
 	}
 
