@@ -57,12 +57,10 @@ weather_extreme_hot = { # on Province
 
 weather_snow = { # on Region 
 	winter_attrition = 0.0
-	breakthrough_factor = -0.3
 	army_attack_factor = -0.05	
 }
 weather_blizzard = { # on Region 
 	winter_attrition = 0.1
-	breakthrough_factor = -0.3
 	army_attack_factor = -0.1
 }
 
