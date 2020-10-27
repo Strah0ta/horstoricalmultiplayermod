@@ -3,6 +3,9 @@ state={
 	name="Isle of Man"
 	provinces={ 3311	}
 	history = { 
+victory_points = {
+3284 50
+}
 		owner = ENG
 		add_core_of = ENG
 		add_core_of = NOR 

@@ -16,7 +16,7 @@ focus_tree = {
 		modifier = {
 			add = 10	
 			tag = BUL
-			has_dlc = "Battle for the Bosporus"
+			#has_dlc = "Battle for the Bosporus"
 		}
 	}
 	
@@ -604,7 +604,7 @@ focus_tree = {
 			    uses = 2
 				category = land_doctrine
 			}
-
+          add_ideas =   BUL_krali_marko_line_idea
 			if = {
 				limit = { has_idea = disarmed_nation }
 				add_ideas = volunteer_only
@@ -700,6 +700,12 @@ focus_tree = {
 			    uses = 3
 				category = support_tech
 				category = motorized_equipment
+			}
+			add_tech_bonus = {
+				name = BUL_war_logistics
+			    bonus = 1.0
+			    uses = 1
+			    technology = advanced_light_tank
 			}
 		}
 	}

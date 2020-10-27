@@ -53,7 +53,7 @@ if = { limit = {ROOT = { normally_played_allies = yes} } 		NOT = { FROM = { tag 
 
 }
 DIPLOMACY_SEND_EXP_FORCE_ENABLE_TRIGGER = {
-	NOT = { FROM = { has_tech = trench_warfare }}
+	NOT = { FROM = { OR = { has_tech = grand_battle_plan_mp has_tech = operational_concentration has_tech = grand_mechanized_offensive }} }
     NOT = { ROOT = { original_tag = EFR }}     
 	NOT = { FROM = { original_tag = EFR }}
 	NOT = { ROOT = { original_tag = ETH }}
@@ -83,5 +83,5 @@ NOT = { date < 1939.9.1 }
 	NOT = { FROM = { original_tag = EFR }}
 	NOT = { ROOT = { original_tag = ETH }}
 	NOT = { FROM = { original_tag = ETH }}
-	NOT = { ROOT = { has_tech = trench_warfare }}
-}
+	NOT = { ROOT = { OR = { has_tech = grand_battle_plan_mp has_tech = operational_concentration has_tech = grand_mechanized_offensive }} }
+	}

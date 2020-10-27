@@ -80,13 +80,12 @@ rasputitsa = {
 	army_speed_factor = -0.2
 	army_armor_speed_factor = -0.3	
 	army_attack_factor = -0.2
-	breakthrough_factor = -0.3
 	attrition = 0.15	
 }
 weather_ground_snow_medium = { }
 weather_ground_snow_high = { }
 gibraltar_modifier = {
-	pocket_penalty = -1
+	pocket_penalty = -0.3
 	max_dig_in = 14
 }
 

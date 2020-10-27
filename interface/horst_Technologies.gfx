@@ -572,4 +572,255 @@ spriteTypes = {
 	
 	
 	
+	
+	
+	###FOR ITALIAN EAST AFRICA####
+	
+		### Italy Aircrafts ###
+	
+	SpriteType = {
+		name = "GFX_ETH_tactical_bomber1_medium"
+		texturefile = "gfx/interface/technologies/ITA_tactical_bomber1.dds"
+	}		
+	
+	SpriteType = {
+		name = "GFX_ETH_tactical_bomber2_medium"
+		texturefile = "gfx/interface/technologies/ITA_tactical_bomber2.dds"
+	}		
+	
+	SpriteType = {
+		name = "GFX_ETH_tactical_bomber3_medium"
+		texturefile = "gfx/interface/technologies/ITA_tactical_bomber3.dds"
+	}		
+	
+	SpriteType = {
+		name = "GFX_ETH_strategic_bomber1_medium"
+		texturefile = "gfx/interface/technologies/ITA_strategic_bomber1.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_ETH_strategic_bomber2_medium"
+		texturefile = "gfx/interface/technologies/ITA_strategic_bomber2.dds"
+	}		
+	
+	SpriteType = {
+		name = "GFX_ETH_strategic_bomber3_medium"
+		texturefile = "gfx/interface/technologies/ITA_strategic_bomber3.dds"
+	}		
+	
+	SpriteType = {
+		name = "GFX_ETH_CAS1_medium"
+		texturefile = "gfx/interface/technologies/ITA_CAS1.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_ETH_CAS2_medium"
+		texturefile = "gfx/interface/technologies/ITA_CAS2.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_ETH_CAS3_medium"
+		texturefile = "gfx/interface/technologies/ITA_CAS3.dds"
+	}		
+	
+	SpriteType = {
+		name = "GFX_ETH_heavy_fighter1_medium"
+		texturefile = "gfx/interface/technologies/ITA_heavy_fighter1.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_ETH_heavy_fighter2_medium"
+		texturefile = "gfx/interface/technologies/ITA_heavy_fighter2.dds"
+	}		
+	
+	SpriteType = {
+		name = "GFX_ETH_heavy_fighter3_medium"
+		texturefile = "gfx/interface/technologies/ITA_heavy_fighter3.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_ETH_naval_bomber1_medium"
+		texturefile = "gfx/interface/technologies/ITA_naval_bomber1.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_ETH_naval_bomber2_medium"
+		texturefile = "gfx/interface/technologies/ITA_naval_bomber2.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_ETH_naval_bomber3_medium"
+		texturefile = "gfx/interface/technologies/ITA_naval_bomber3.dds"
+	}	
+
+	
+	SpriteType = {
+		name = "GFX_ETH_fighter1_medium"
+		texturefile = "gfx/interface/technologies/ITA_fighter1.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_ETH_fighter2_medium"
+		texturefile = "gfx/interface/technologies/ITA_fighter2.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_ETH_fighter3_medium"
+		texturefile = "gfx/interface/technologies/ITA_fighter3.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_ETH_early_bomber_medium"
+		texturefile = "gfx/interface/technologies/ITA_early_bomber.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_ETH_early_fighter_medium"
+		texturefile = "gfx/interface/technologies/ITA_early_fighter.dds"
+	}
+	
+
+	SpriteType = {
+		name = "GFX_ETH_rocket_artillery4_medium"
+		texturefile = "gfx/interface/technologies/Rocket_Art_2_axis.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ETH_rocket_artillery_medium"
+		texturefile = "gfx/interface/technologies/Rocket_Art_1_axis.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ETH_artillery4_medium"
+		texturefile = "gfx/interface/technologies/Art_3_axis.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_ETH_artillery1_medium"
+		texturefile = "gfx/interface/technologies/Art_2_axis.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_ETH_gw_artillery_medium"
+		texturefile = "gfx/interface/technologies/Art_1_axis.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ETH_antitank5_medium"
+		texturefile = "gfx/interface/technologies/AT_3_axis.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_ETH_antitank2_medium"
+		texturefile = "gfx/interface/technologies/AT_2_axis.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_ETH_interwar_antitank_medium"
+		texturefile = "gfx/interface/technologies/AT_1_axis.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ETH_antiair5_medium"
+		texturefile = "gfx/interface/technologies/AA_3_axis.dds"
+	}		
+	
+	SpriteType = {
+		name = "GFX_ETH_antiair2_medium"
+		texturefile = "gfx/interface/technologies/AA_2_axis.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_ETH_interwar_antiair_medium"
+		texturefile = "gfx/interface/technologies/AA_1_axis.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ETH_advanced_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/ita_advanced_infantry_weapons.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ETH_improved_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/ita_improved_infantry_weapons.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_ETH_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/ita_basic_equipment.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ETH_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/ita_infantry_weapons1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ETH_motorised_infantry_medium"
+		texturefile = "gfx/interface/technologies/ita_motorised_infantry.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_ETH_motorized_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/ita_motorised_infantry.dds"
+	}
+	
+### Italian tanks ####	
+
+	SpriteType = {
+		name = "GFX_ETH_basic_light_tank_medium"
+		texturefile = "gfx/interface/technologies/ITA_basic_light_tank.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_ETH_improved_light_tank_medium"
+		texturefile = "gfx/interface/technologies/ITA_imp_light_tank.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_ETH_advanced_light_tank_medium"
+		texturefile = "gfx/interface/technologies/ITA_adv_light_tank.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_ETH_basic_medium_tank_medium"
+		texturefile = "gfx/interface/technologies/ITA_basic_main_tank.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_ETH_improved_medium_tank_medium"
+		texturefile = "gfx/interface/technologies/ITA_imp_main_tank.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ETH_advanced_medium_tank_medium"
+		texturefile = "gfx/interface/technologies/ITA_adv_main_tank.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ETH_main_battle_tank_medium"
+		texturefile = "gfx/interface/technologies/ITA_main_battle_tank.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_ETH_basic_heavy_tank_medium"
+		texturefile = "gfx/interface/technologies/ITA_basic_heavy_tank.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_ETH_improved_heavy_tank_medium"
+		texturefile = "gfx/interface/technologies/ITA_imp_heavy_tank.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ETH_advanced_heavy_tank_medium"
+		texturefile = "gfx/interface/technologies/ITA_adv_heavy_tank.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ETH_super_heavy_tank_medium"
+		texturefile = "gfx/interface/technologies/ITA_superheavy_tank.dds"
+	}	
+	
+	
 }

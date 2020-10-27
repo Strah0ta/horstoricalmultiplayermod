@@ -577,7 +577,7 @@ equipments = {
 		air_agility = 35
 		air_attack = 6.6
 		air_defence = 14
-		air_ground_attack = 37.5
+		air_ground_attack = 12.5
 
 		naval_strike_attack = 3
 		naval_strike_targetting = 10
@@ -597,7 +597,7 @@ equipments = {
 		air_agility = 39
 		air_attack = 11
 		air_defence = 16
-		air_ground_attack = 56.2
+		air_ground_attack = 18.75
 		
 		build_cost_ic = 72
 		resources = {
@@ -624,7 +624,7 @@ equipments = {
 		air_agility = 44
 		air_attack = 15.4
 		air_defence = 20
-		air_ground_attack = 75
+		air_ground_attack = 25
 		
 		build_cost_ic = 78
 		resources = {

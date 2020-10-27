@@ -1073,11 +1073,7 @@ country_event = {
 		SOV = { country_event = { id = italy.801 days = 60 }}
 
 	news_event = { id = mtg_news.776  days = 0 }
-		hidden_effect = {
-	SOV = { add_timed_idea = { idea = mud_sucks_ru days = 60 }}
-			FIN = { add_timed_idea = { idea = mud_sucks_eu days = 60 }}
 
-}
 	  }
    }     
              country_event = {
@@ -1095,17 +1091,6 @@ country_event = {
 	every_state = { limit = { is_core_of = SOV } add_province_modifier = { static_modifiers = { rasputitsa } province = { all_provinces = yes }  } }
 	SOV = { country_event = { id = italy.801 days = 60 }}
 	news_event = { id = mtg_news.777  days = 0 }
-	hidden_effect = {
-	SOV = { add_timed_idea = { idea = mud_sucks_ru days = 60 }}
-		GER = { add_timed_idea = { idea = mud_sucks_eu days = 242 }}
-		ITA = { add_timed_idea = { idea = mud_sucks_eu days = 242 }}
-		ROM = { add_timed_idea = { idea = mud_sucks_eu days = 242 }}
-		HUN = { add_timed_idea = { idea = mud_sucks_eu days = 242 }}
-		SPR = { add_timed_idea = { idea = mud_sucks_eu days = 242 }}		
-		BUL = { add_timed_idea = { idea = mud_sucks_eu days = 242 }}
-		FIN = { add_timed_idea = { idea = mud_sucks_eu days = 60 }}
-
-}
 	  }
    }     
            country_event = {

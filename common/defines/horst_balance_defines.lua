@@ -1,8 +1,8 @@
 ---------------------CHANGES TO SUPPORT 3 SPEED MICRO (SEE TERRAIN MOVEMENT COST CHANGES, THEY 2X HIGHER THAN VANILLA)---------------------
 NDefines.NMilitary.LAND_COMBAT_STR_DAMAGE_MODIFIER = 0.06       -- vanilla 0.05 | global damage modifier... but some equipment is returned at end of battles see : EQUIPMENT_COMBAT_LOSS_FACTOR
 NDefines.NMilitary.LAND_COMBAT_ORG_DAMAGE_MODIFIER = 0.04        -- vanilla 0.05 | global damage modifier
-NDefines.NMilitary.LAND_AIR_COMBAT_STR_DAMAGE_MODIFIER = 0.048   -- vanilla 0.04 | air global damage modifier
-NDefines.NMilitary.LAND_AIR_COMBAT_ORG_DAMAGE_MODIFIER = 0.032  -- vanilla 0.04 | global damage modifier
+NDefines.NMilitary.LAND_AIR_COMBAT_STR_DAMAGE_MODIFIER = 0.144   -- vanilla 0.04 | Was 0.048 until Oct. 27, now its triple as ground attack is 1/3rd of what it was so it doesnt look scary to people that havent realized that Horst has vanilla CAS damage ticks |air global damage modifier
+NDefines.NMilitary.LAND_AIR_COMBAT_ORG_DAMAGE_MODIFIER = 0.096  -- vanilla 0.04 | Was 0.032 until Oct. 27, now its triple as ground attack is 1/3rd of what it was so it doesnt look scary to people that havent realized that Horst has vanilla CAS damage ticks | global damage modifier
 -------------------------------------------------------------------------------------------------------------------------------------------
 NDefines.NMilitary.ANTI_AIR_ATTACK_TO_AMOUNT = 0.0015 				-- WAS 0.005 | Lowered because vanilla CAS shootdown rates are too high and IC inefficient, but I don't want to buff CAS or air in any other way either ~Thrasymachus | Balancing value to convert equipment stat anti_air_attack to the random % value of airplanes being hit.
 NDefines.NMilitary.EXPERIENCE_COMBAT_FACTOR = 0.1       -- WAS 0.25 | Turns out that no Russian volunteers to Spain leads to at least 15 veteran +75% heavy tanks at barb every game that kill nearly every Russia player in less than 3 months. Just wait until Germany players manage to get 30 vet heavies by using minors more

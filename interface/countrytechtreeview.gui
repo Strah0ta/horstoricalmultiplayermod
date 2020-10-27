@@ -2522,8 +2522,30 @@ guiTypes = {
 				position = { x=0 y=0 }
 				size = { width = 2100 height = 100% }
 			}
-	
-	
+					instantTextBoxType = {
+					name = "land_doctrine_subtitle_gbp_mp" 
+					position = { x = 1080 y = 210  }
+					textureFile = ""
+					font = "hoi_36header"
+					borderSize = { x = 0 y = 0}
+					text = "GBP_MP_TITLE"
+					maxWidth = 600
+					maxHeight = 62
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+						instantTextBoxType = {
+					name = "land_doctrine_subtitle_gbp_mp2" 
+					position = { x = 1080 y = 510  }
+					textureFile = ""
+					font = "hoi_36header"
+					borderSize = { x = 0 y = 0}
+					text = "GBP_MP_TITLE"
+					maxWidth = 600
+					maxHeight = 62
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
 			iconType = {
 				name ="mob_warfare_bg"
 				spriteType = "GFX_mob_warfare_bg"
