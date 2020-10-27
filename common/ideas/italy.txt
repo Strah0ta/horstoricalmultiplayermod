@@ -251,95 +251,44 @@ ideas = {
 		
 	# MILITARY
 	army_chief = {
-		
-		
-		pietro_badoglio = {
-			
-			
-			allowed = {
-				original_tag = ITA
-			}
-			
-
+		pietro_badoglio = {	
+			allowed = {	original_tag = ITA }
 			
 			traits = { army_chief_offensive_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
 		}
 		
 		ugo_cavallero = {
-			
-			
 			allowed = {
 				original_tag = ITA
-			}
-			
-
-			
+			}	
 			traits = { army_chief_maneuver_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
 		}
 		
 		emilio_de_bono = {
-			
-			
 			allowed = {
 				original_tag = ITA
 			}
-			
-
-			
 			traits = { army_chief_defensive_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
 		}	
 	}
 	navy_chief = {
-		
 		domenico_cavagnari = {		
 			allowed = {
 				original_tag = ITA
 			}	
-			
 			traits = { navy_chief_commerce_raiding_2 }
-
 		}
 		
 		arturo_riccardi = {
-			
-			
-			allowed = {
-				original_tag = ITA
-			}
-
+		allowed = {		original_tag = ITA	}
 			traits = { navy_chief_naval_aviation_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
 		}
 		
 		inigo_campioni = {
-			
-			
 			allowed = {
 				original_tag = ITA
 			}
-			
-
-			
 			traits = { navy_chief_decisive_battle_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
 		}	
 	}
 	air_chief = {
@@ -350,124 +299,48 @@ ideas = {
 	}	
 	
 	high_command = {
-	
 		mario_roatta = {
 			ledger = army
-			
-			
-			allowed = {
-				original_tag = ITA
-			}
-			
-
-			
+			allowed = {	original_tag = ITA	}					
 			traits = { army_regrouping_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
 		}
 		
 		vittorio_ambrosio = {
 			ledger = army
-			
-			
-			allowed = {
-				original_tag = ITA
-			}
-			
-
-			
+			allowed = {	original_tag = ITA	}	
 			traits = { army_armored_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
 		}
 		
 		alfredo_guzzoni = {
 			ledger = army
-			
-			
-			allowed = {
-				original_tag = ITA
-			}
-			
-
-			
+			allowed = {	original_tag = ITA	}
 			traits = { army_infantry_3 }
-			
-			ai_will_do = {
-				factor = 2
-			}
 		}	
 		
 		ettore_muti = {
 			ledger = air
-			
-			
-			allowed = {
-				original_tag = ITA
-			}
-			
-
-			
+			allowed = {	original_tag = ITA	}
 			traits = { air_tactical_bombing_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
 		}
 		
 		alberto_da_zara = {
 			ledger = navy
-			
-			
-			allowed = {
-				original_tag = ITA
-			}
-			
-
-			
+			allowed = {	original_tag = ITA	}
 			traits = { navy_anti_submarine_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
 		}
 		
 		carlo_bergamini = {
-			ledger = navy
-			
-			
-			allowed = {
-				original_tag = ITA
-			}
-			
-
+			ledger = navy	
+			allowed = {	original_tag = ITA	}
 			
 			traits = { navy_capital_ship_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
 		}
 		
 		luigi_mascherpa = {
 			ledger = navy
-			
-			
-			allowed = {
-				original_tag = ITA
-			}
-			
-
+			allowed = {	original_tag = ITA	}
 			
 			traits = { navy_naval_air_defense_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
 		}
 	}
 	

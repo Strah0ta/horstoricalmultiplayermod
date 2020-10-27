@@ -38,7 +38,7 @@ technologies = {
 	}
 	
 		shocktroops = {
-
+		allow = { always = no }
 		enable_subunits = { shocktroop	}
 
 		research_cost = 1000
