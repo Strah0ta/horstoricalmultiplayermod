@@ -17,7 +17,6 @@ country_event = { id = DOD_yugoslavia.20 days = 759 }
 
 set_variable = { germany_war_exhaustion_stability_factor = 0 }			
 set_variable = { germany_war_exhaustion_war_support_factor = 0 }			
-set_variable = { germany_war_exhaustion_political_gain = 0 }			
 set_variable = { germany_war_army_core_attack_factor = 0 }			
 set_variable = { germany_war_army_core_defence_factor = 0 }			
 
@@ -84,6 +83,9 @@ add_equipment_to_stockpile = { type = CAS_equipment_1 amount = 110 }
 add_equipment_to_stockpile = { type = tac_bomber_equipment_0 amount = 432 }
 add_equipment_to_stockpile = { type = nav_bomber_equipment_1 amount = 124 }
 add_equipment_to_stockpile = { type = transport_plane_equipment_1 amount = 4 }
+
+###Added to deal with air in France###
+add_equipment_to_stockpile = { type = fighter_equipment_1 amount = 600 }
 
 
 ######ANNEXED MINOR STOCKPILE#######

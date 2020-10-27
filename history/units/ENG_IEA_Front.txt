@@ -1,0 +1,391 @@
+﻿division_template = {
+	name = "Light Armor Division"
+
+	division_names_group = ENG_Arm_01
+
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+        light_armor = { x = 0 y = 2 }
+		light_armor = { x = 0 y = 3 }
+		light_armor = { x = 1 y = 0 }
+		light_armor = { x = 1 y = 1 }
+        light_armor = { x = 1 y = 2 }
+		light_armor = { x = 1 y = 3 }
+		light_armor = { x = 2 y = 0 }
+		light_armor = { x = 2 y = 1 }
+        light_armor = { x = 2 y = 2 }
+		light_armor = { x = 2 y = 3 }		
+		motorized = { x = 3 y = 0 }
+		motorized = { x = 3 y = 1 }
+        motorized = { x = 3 y = 2 }
+		motorized = { x = 3 y = 3 }	
+		motorized = { x = 4 y = 0 }
+		motorized = { x = 4 y = 1 }
+        motorized = { x = 4 y = 2 }
+		motorized = { x = 4 y = 3 }	
+	}
+	support = {
+        mot_recon = { x = 0 y = 0 }
+        engineer = { x = 0 y = 1 }
+		anti_air = { x = 0 y = 2 }
+        artillery = { x = 0 y = 3 }
+	}
+}
+	division_template = {
+			name = "King's African Rifles"
+				division_names_group = ENG_INF_01
+
+				regiments = {
+						infantry = { x = 0 y = 0 } infantry = { x = 1 y = 0 } infantry = { x = 2 y = 0 } artillery_brigade = { x = 3 y = 0 }
+						infantry = { x = 0 y = 1 } infantry = { x = 1 y = 1 } infantry = { x = 2 y = 1 } artillery_brigade = { x = 3 y = 1 }
+						infantry = { x = 0 y = 2 }  								
+						
+				}
+			support = { engineer = { x = 0 y = 0 } anti_air = { x = 0 y = 1 } artillery = { x = 0 y = 2 }  rocket_artillery = { x = 0 y = 3 }  }
+		}	
+
+			division_template = {
+					name = "African/Arabian Colonial Garrison"
+					regiments = {
+						infantry = { x = 0 y = 0 } infantry = { x = 1 y = 0 } infantry = { x = 2 y = 0 }
+						infantry = { x = 0 y = 1 } infantry = { x = 1 y = 1 } infantry = { x = 2 y = 1 }
+						infantry = { x = 0 y = 2 } infantry = { x = 1 y = 2 } infantry = { x = 2 y = 2 }
+						infantry = { x = 0 y = 3 }
+					}
+					support = { engineer = { x = 0 y = 0 } anti_air = { x = 0 y = 1 } artillery = { x = 0 y = 2 }  rocket_artillery = { x = 0 y = 3 }  }
+				}
+
+
+units = { 
+	division= {	
+		location = 10748
+		division_template = "Light Armor Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		location = 10748
+		division_template = "Light Armor Division"
+		start_experience_factor = 0.3
+	}	
+	division= {	
+		location = 10748
+		division_template = "Light Armor Division"
+		start_experience_factor = 0.3
+	}	
+	division= {	
+		location = 10748
+		division_template = "Light Armor Division"
+		start_experience_factor = 0.3
+	}	
+		division= {	
+		location = 10795
+		division_template = "King's African Rifles"
+		start_experience_factor = 0.3
+	}	
+		division= {	
+		location = 10795
+		division_template = "King's African Rifles"
+		start_experience_factor = 0.3
+	}		
+		division= {	
+		location = 10795
+		division_template = "King's African Rifles"
+		start_experience_factor = 0.3
+	}		
+			division= {	
+		location = 10795
+		division_template = "King's African Rifles"
+		start_experience_factor = 0.3
+	}		
+			division= {	
+		location = 10795
+		division_template = "King's African Rifles"
+		start_experience_factor = 0.3
+	}		
+			division= {	
+		location = 10795
+		division_template = "King's African Rifles"
+		start_experience_factor = 0.3
+	}		
+			division= {	
+		location = 10795
+		division_template = "King's African Rifles"
+		start_experience_factor = 0.3
+	}		
+			division= {	
+		location = 10795
+		division_template = "King's African Rifles"
+		start_experience_factor = 0.3
+	}		
+			division= {	
+		location = 10795
+		division_template = "King's African Rifles"
+		start_experience_factor = 0.3
+	}		
+			division= {	
+		location = 10795
+		division_template = "King's African Rifles"
+		start_experience_factor = 0.3
+	}		
+			division= {	
+		location = 10795
+		division_template = "King's African Rifles"
+		start_experience_factor = 0.3
+	}		
+			division= {	
+		location = 10795
+		division_template = "King's African Rifles"
+		start_experience_factor = 0.3
+	}		
+			division= {	
+		location = 10795
+		division_template = "King's African Rifles"
+		start_experience_factor = 0.3
+	}		
+			division= {	
+		location = 10795
+		division_template = "King's African Rifles"
+		start_experience_factor = 0.3
+	}		
+			division= {	
+		location = 10795
+		division_template = "King's African Rifles"
+		start_experience_factor = 0.3
+	}		
+			division= {	
+		location = 10795
+		division_template = "King's African Rifles"
+		start_experience_factor = 0.3
+	}		
+			division= {	
+		location = 10795
+		division_template = "King's African Rifles"
+		start_experience_factor = 0.3
+	}		
+			division= {	
+		location = 10795
+		division_template = "King's African Rifles"
+		start_experience_factor = 0.3
+	}		
+			division= {	
+		location = 10795
+		division_template = "King's African Rifles"
+		start_experience_factor = 0.3
+	}		
+			division= {	
+		location = 10795
+		division_template = "King's African Rifles"
+		start_experience_factor = 0.3
+	}		
+			division= {	
+		location = 10795
+		division_template = "King's African Rifles"
+		start_experience_factor = 0.3
+	}		
+			division= {	
+		location = 10795
+		division_template = "King's African Rifles"
+		start_experience_factor = 0.3
+	}		
+			division= {	
+		location = 10795
+		division_template = "King's African Rifles"
+		start_experience_factor = 0.3
+	}		
+			division= {	
+		location = 10795
+		division_template = "King's African Rifles"
+		start_experience_factor = 0.3
+	}		
+			division= {	
+		location = 5074
+		division_template = "African/Arabian Colonial Garrison"
+		start_experience_factor = 0.3
+	}		
+			division= {	
+		location = 5074
+		division_template = "African/Arabian Colonial Garrison"
+		start_experience_factor = 0.3
+	}				
+			division= {	
+		location = 5074
+		division_template = "African/Arabian Colonial Garrison"
+		start_experience_factor = 0.3
+	}			
+			division= {	
+		location = 5074
+		division_template = "African/Arabian Colonial Garrison"
+		start_experience_factor = 0.3
+	}			
+				division= {	
+		location = 10760
+		division_template = "African/Arabian Colonial Garrison"
+		start_experience_factor = 0.3
+	}		
+				division= {	
+		location = 10760
+		division_template = "African/Arabian Colonial Garrison"
+		start_experience_factor = 0.3
+	}		
+					division= {	
+		location = 10760
+		division_template = "African/Arabian Colonial Garrison"
+		start_experience_factor = 0.3
+	}		
+					division= {	
+		location = 10760
+		division_template = "African/Arabian Colonial Garrison"
+		start_experience_factor = 0.3
+	}		
+	division= {	
+			location = 7960
+		division_template = "African/Arabian Colonial Garrison"
+		start_experience_factor = 0.3
+	}		
+				division= {	
+		location = 7960
+		division_template = "African/Arabian Colonial Garrison"
+		start_experience_factor = 0.3
+	}		
+					division= {	
+		location = 7960
+		division_template = "African/Arabian Colonial Garrison"
+		start_experience_factor = 0.3
+	}		
+					division= {	
+		location = 7960
+		division_template = "African/Arabian Colonial Garrison"
+		start_experience_factor = 0.3
+	}			
+						division= {	
+		location = 8000
+		division_template = "African/Arabian Colonial Garrison"
+		start_experience_factor = 0.3
+	}		
+					division= {	
+		location = 8000
+		division_template = "African/Arabian Colonial Garrison"
+		start_experience_factor = 0.3
+	}		
+							division= {	
+		location = 2188
+		division_template = "African/Arabian Colonial Garrison"
+		start_experience_factor = 0.3
+	}		
+					division= {	
+		location = 2188
+		division_template = "African/Arabian Colonial Garrison"
+		start_experience_factor = 0.3
+	}		
+	
+							division= {	
+		location = 8051
+		division_template = "African/Arabian Colonial Garrison"
+		start_experience_factor = 0.3
+	}		
+					division= {	
+		location = 8051
+		division_template = "African/Arabian Colonial Garrison"
+		start_experience_factor = 0.3
+	}		
+		
+								division= {	
+		location = 8051
+		division_template = "African/Arabian Colonial Garrison"
+		start_experience_factor = 0.3
+	}		
+					division= {	
+		location = 8051
+		division_template = "African/Arabian Colonial Garrison"
+		start_experience_factor = 0.3
+	}		
+	
+								division= {	
+		location = 2089
+		division_template = "African/Arabian Colonial Garrison"
+		start_experience_factor = 0.3
+	}		
+					division= {	
+		location = 2089
+		division_template = "African/Arabian Colonial Garrison"
+		start_experience_factor = 0.3
+	}		
+		
+								division= {	
+		location = 2089
+		division_template = "African/Arabian Colonial Garrison"
+		start_experience_factor = 0.3
+	}		
+					division= {	
+		location = 2089
+		division_template = "African/Arabian Colonial Garrison"
+		start_experience_factor = 0.3
+	}		
+	
+								division= {	
+		location = 8085
+		division_template = "African/Arabian Colonial Garrison"
+		start_experience_factor = 0.3
+	}		
+					division= {	
+		location = 8085
+		division_template = "African/Arabian Colonial Garrison"
+		start_experience_factor = 0.3
+	}		
+		
+								division= {	
+		location = 8085
+		division_template = "African/Arabian Colonial Garrison"
+		start_experience_factor = 0.3
+	}		
+					division= {	
+		location = 8085
+		division_template = "African/Arabian Colonial Garrison"
+		start_experience_factor = 0.3
+	}			
+	
+									division= {	
+		location = 12725
+		division_template = "African/Arabian Colonial Garrison"
+		start_experience_factor = 0.3
+	}		
+					division= {	
+		location = 12725
+		division_template = "African/Arabian Colonial Garrison"
+		start_experience_factor = 0.3
+	}		
+		
+								division= {	
+		location = 12725
+		division_template = "African/Arabian Colonial Garrison"
+		start_experience_factor = 0.3
+	}		
+					division= {	
+		location = 12725
+		division_template = "African/Arabian Colonial Garrison"
+		start_experience_factor = 0.3
+	}		
+	
+										division= {	
+		location = 2196
+		division_template = "African/Arabian Colonial Garrison"
+		start_experience_factor = 0.3
+	}		
+					division= {	
+		location = 2196
+		division_template = "African/Arabian Colonial Garrison"
+		start_experience_factor = 0.3
+	}		
+		
+								division= {	
+		location = 5210
+		division_template = "African/Arabian Colonial Garrison"
+		start_experience_factor = 0.3
+	}		
+					division= {	
+		location = 5210
+		division_template = "African/Arabian Colonial Garrison"
+		start_experience_factor = 0.3
+	}		
+	}

@@ -198,62 +198,49 @@
 3898;6915;impassable;-1;-1;-1;-1;-1;; Spain
 11838;9884;impassable;-1;-1;-1;-1;-1;; Spain
 
-8040;12773;impassable;-1;-1;-1;-1;-1;; IRAN #OLD IRAN-UK BORDER
-5050;8040;impassable;-1;-1;-1;-1;-1;; IRAN 
-5050;2065;impassable;-1;-1;-1;-1;-1;; IRAN 
-1922;2065;impassable;-1;-1;-1;-1;-1;; IRAN 
 1822;5014;impassable;-1;-1;-1;-1;-1;; IRAN 
 1822;6826;impassable;-1;-1;-1;-1;-1;; IRAN 
-1922;12756;impassable;-1;-1;-1;-1;-1;; IRAN 
-1922;4928;impassable;-1;-1;-1;-1;-1;; IRAN 
-4928;5089;impassable;-1;-1;-1;-1;-1;; IRAN 
-4966;5089;impassable;-1;-1;-1;-1;-1;; IRAN 
-4966;8117;impassable;-1;-1;-1;-1;-1;; IRAN 
-4966;10881;impassable;-1;-1;-1;-1;-1;; IRAN 
-12780;10881;impassable;-1;-1;-1;-1;-1;; IRAN 
-12780;12863;impassable;-1;-1;-1;-1;-1;; IRAN 
-10913;12863;impassable;-1;-1;-1;-1;-1;; IRAN 
-1986;12863;impassable;-1;-1;-1;-1;-1;; IRAN 
-1986;7982;impassable;-1;-1;-1;-1;-1;; IRAN 
-1986;2039;impassable;-1;-1;-1;-1;-1;; IRAN 
-2070;2039;impassable;-1;-1;-1;-1;-1;; IRAN 
-2070;13082;impassable;-1;-1;-1;-1;-1;; IRAN 
-2070;10782;impassable;-1;-1;-1;-1;-1;; IRAN 
-9816;10523;impassable;-1;-1;-1;-1;-1;; IRAN 
-9816;8125;impassable;-1;-1;-1;-1;-1;; IRAN 
-9816;8040;impassable;-1;-1;-1;-1;-1;; IRAN 
+10759;11249;impassable;-1;-1;-1;-1;-1;; IRAN 
+1822;4943;impassable;-1;-1;-1;-1;-1;; IRAN 
+12861;4943;impassable;-1;-1;-1;-1;-1;; IRAN 
+2071;4943;impassable;-1;-1;-1;-1;-1;; IRAN 
+2071;9816;impassable;-1;-1;-1;-1;-1;; IRAN 
+2071;10523;impassable;-1;-1;-1;-1;-1;; IRAN 
+4553;10523;impassable;-1;-1;-1;-1;-1;; IRAN 
+4553;7969;impassable;-1;-1;-1;-1;-1;; IRAN 
+4609;7969;impassable;-1;-1;-1;-1;-1;; IRAN 
+4637;7969;impassable;-1;-1;-1;-1;-1;; IRAN 
+4580;7969;impassable;-1;-1;-1;-1;-1;; IRAN 
+4580;10837;impassable;-1;-1;-1;-1;-1;; IRAN 
+10768;10837;impassable;-1;-1;-1;-1;-1;; IRAN 
+10768;12818;impassable;-1;-1;-1;-1;-1;; IRAN 
+12818;8093;impassable;-1;-1;-1;-1;-1;; IRAN 
+12704;8093;impassable;-1;-1;-1;-1;-1;; IRAN 
+12748;8093;impassable;-1;-1;-1;-1;-1;; IRAN 
+11671;8093;impassable;-1;-1;-1;-1;-1;; IRAN 
+7602;11671;impassable;-1;-1;-1;-1;-1;; IRAN 
+7602;7573;impassable;-1;-1;-1;-1;-1;; IRAN 
+10351;7573;impassable;-1;-1;-1;-1;-1;; IRAN 
+1521;7573;impassable;-1;-1;-1;-1;-1;; IRAN 
+1521;1957;impassable;-1;-1;-1;-1;-1;; IRAN 
+5029;1957;impassable;-1;-1;-1;-1;-1;; IRAN 
+5029;1888;impassable;-1;-1;-1;-1;-1;; IRAN
+2000;1888;impassable;-1;-1;-1;-1;-1;; IRAN 
+2000;10806;impassable;-1;-1;-1;-1;-1;; IRAN 
+12818;12704;impassable;-1;-1;-1;-1;-1;; IRAN
+12704;4983;impassable;-1;-1;-1;-1;-1;; IRAN 
+10873;4983;impassable;-1;-1;-1;-1;-1;; IRAN 
+10873;1963;impassable;-1;-1;-1;-1;-1;; IRAN 
+10873;10828;impassable;-1;-1;-1;-1;-1;; IRAN 
+10759;10828;impassable;-1;-1;-1;-1;-1;; IRAN 
+12852;11249;impassable;-1;-1;-1;-1;-1;; IRAN 
+12809;11249;impassable;-1;-1;-1;-1;-1;; IRAN
+10913;12809;impassable;-1;-1;-1;-1;-1;; IRAN 
+1986;12809;impassable;-1;-1;-1;-1;-1;; IRAN 
+2070;12809;impassable;-1;-1;-1;-1;-1;; IRAN 
+2070;12895;impassable;-1;-1;-1;-1;-1;; IRAN 
 5075;2070;impassable;-1;-1;-1;-1;-1;; IRAN 
 5075;12895;impassable;-1;-1;-1;-1;-1;; IRAN 
-
-
-
-1822;4943;impassable;-1;-1;-1;-1;-1;; IRAN #NEW ###SOV OCCUPIED IRAN - UK OCCUPIED IRAN BORDER
-12861;4943;impassable;-1;-1;-1;-1;-1;; IRAN #NEW
-2071;4943;impassable;-1;-1;-1;-1;-1;; IRAN #NEW
-2071;9816;impassable;-1;-1;-1;-1;-1;; IRAN #NEW
-2071;10523;impassable;-1;-1;-1;-1;-1;; IRAN #NEW
-4553;10523;impassable;-1;-1;-1;-1;-1;; IRAN #NEW
-4553;7969;impassable;-1;-1;-1;-1;-1;; IRAN #NEW
-4609;7969;impassable;-1;-1;-1;-1;-1;; IRAN #NEW
-4637;7969;impassable;-1;-1;-1;-1;-1;; IRAN #NEW
-4580;7969;impassable;-1;-1;-1;-1;-1;; IRAN #NEW
-4580;10837;impassable;-1;-1;-1;-1;-1;; IRAN #NEW
-10768;10837;impassable;-1;-1;-1;-1;-1;; IRAN #NEW
-10768;12818;impassable;-1;-1;-1;-1;-1;; IRAN #NEW
-12818;8093;impassable;-1;-1;-1;-1;-1;; IRAN #NEW
-12704;8093;impassable;-1;-1;-1;-1;-1;; IRAN #NEW
-12748;8093;impassable;-1;-1;-1;-1;-1;; IRAN #NEW
-11671;8093;impassable;-1;-1;-1;-1;-1;; IRAN #NEW
-7602;11671;impassable;-1;-1;-1;-1;-1;; IRAN #NEW
-7602;7573;impassable;-1;-1;-1;-1;-1;; IRAN #NEW
-10351;7573;impassable;-1;-1;-1;-1;-1;; IRAN #NEW
-1521;7573;impassable;-1;-1;-1;-1;-1;; IRAN #NEW
-1521;1957;impassable;-1;-1;-1;-1;-1;; IRAN #NEW
-5029;1957;impassable;-1;-1;-1;-1;-1;; IRAN #NEW
-5029;1888;impassable;-1;-1;-1;-1;-1;; IRAN #NEW
-2000;1888;impassable;-1;-1;-1;-1;-1;; IRAN #NEW
-2000;10806;impassable;-1;-1;-1;-1;-1;; IRAN #NEW
-
 
 
 

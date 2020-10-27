@@ -1315,7 +1315,9 @@ add_equipment_production = {
 
 		available_if_capitulated = yes
 
-		completion_reward = {
+		completion_reward = { 
+		hidden_effect = { load_oob = "ENG_IEA_Front" }
+		custom_effect_tooltip = "We will deploy our army in the Horn of Africa region."
 					if = { limit = { ENG_has_fortify_the_empire = yes } ENG_fortify_the_empire_level_up = yes }
 		else = { add_ideas = ENG_fortify_the_empire_1 } 
 			army_experience = 50
@@ -1470,6 +1472,34 @@ add_equipment_production = {
 					instant_build = yes
 				}						
 			}	
+						457 = {
+				set_building_level = {
+					type = air_base
+					level = 6
+					instant_build = yes
+				}	
+				}
+										138 = {
+				set_building_level = {
+					type = air_base
+					level = 6
+					instant_build = yes
+				}	
+				}
+										294 = {
+				set_building_level = {
+					type = air_base
+					level = 6
+					instant_build = yes
+				}	
+				}
+										574 = {
+				set_building_level = {
+					type = air_base
+					level = 6
+					instant_build = yes
+				}	
+				}
 			}
 			}
 	

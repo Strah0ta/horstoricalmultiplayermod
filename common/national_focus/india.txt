@@ -24,7 +24,7 @@ focus_tree = {
 		x = 2
 		y = 0
 
-		cost = 10
+		cost = 5
 
 		available = { OR = { 	threat > 0.1 date > 1938.1.1 } }
 
@@ -132,7 +132,7 @@ focus_tree = {
 		y = 2
 		relative_position_id = RAJ_indian_national_congress
 
-		cost = 10
+		cost = 5
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -154,23 +154,11 @@ focus_tree = {
 		y = 1
 		relative_position_id = RAJ_indian_national_congress
 
-		cost = 10
-
-		available = {
-
-		}
-
-		bypass = {
-
-		}
+		cost = 5
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-
-		complete_tooltip = {
-
-		}
 
 		completion_reward = {
 			swap_ideas = {
@@ -322,7 +310,7 @@ focus_tree = {
 		x = 15
 		y = 0
 
-		cost = 10
+		cost = 5
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -350,7 +338,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = RAJ_lessons_of_the_great_war
 
-		cost = 10
+		cost = 5
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -770,7 +758,7 @@ focus_tree = {
 		x = 25
 		y = 0
 
-		cost = 10
+		cost = 5
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -950,22 +938,12 @@ focus_tree = {
 		y = 1
 		relative_position_id = RAJ_industrial_expansion
 
-		cost = 10
+		cost = 5
 
-		available = {
-		}
-
-		bypass = {
-
-		}
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-
-		complete_tooltip = {
-
-		}
 
 		completion_reward = {
 			429 = {
@@ -985,7 +963,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = RAJ_industrial_expansion
 
-		cost = 10
+		cost = 5
 
 
 		available = {
@@ -1275,7 +1253,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = RAJ_ishapore_arsenal
 
-		cost = 10
+		cost = 5
 
 		available = {
 		has_autonomy_state = autonomy_dominion		
