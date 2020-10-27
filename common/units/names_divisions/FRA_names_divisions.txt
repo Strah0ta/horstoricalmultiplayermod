@@ -3,7 +3,7 @@ FRA_INF_01 =
 {
 	name = "Infantry Division"
 
-	for_countries = { FRA }
+	for_countries = { FRA EFR }
 
 	 
 
@@ -172,7 +172,7 @@ FRA_CAV_01 =
 {
 	name = "Cavalry Division"
 
-	for_countries = { FRA }
+	for_countries = { FRA EFR }
 
 	 
 
@@ -214,7 +214,7 @@ FRA_MOT_01 =
 {
 	name = "Motorized Division"
 
-	for_countries = { FRA }
+	for_countries = { FRA EFR }
 
 	 
 
@@ -273,7 +273,7 @@ FRA_MEC_01 =
 {
 	name = "Light Mechanized Division"
 
-	for_countries = { FRA }
+	for_countries = { FRA EFR }
 
 	 
 
@@ -325,7 +325,7 @@ FRA_DLC_01 =
 {
 	name = "Light Cavalry Division"
 
-	for_countries = { FRA }
+	for_countries = { FRA EFR}
 
 	 
 
@@ -377,7 +377,7 @@ FRA_ARM_01 =
 {
 	name = "Armored Division"
 
-	for_countries = { FRA }
+	for_countries = { FRA EFR }
 
 	 
 
@@ -442,7 +442,7 @@ FRA_ARM_02 =
 {
 	name = "Tank Brigade"
 
-	for_countries = { FRA }
+	for_countries = { FRA EFR  }
 
 	 
 
@@ -507,7 +507,7 @@ FRA_ARM_03 =
 {
 	name = "Armored Division (late)"
 
-	for_countries = { FRA }
+	for_countries = { FRA EFR }
 
 	 
 
@@ -572,7 +572,7 @@ FRA_PAR_01 =
 {
 	name = "Paratrooper Division"
 
-	for_countries = { FRA }
+	for_countries = { FRA EFR }
 
 	 
 
@@ -608,7 +608,7 @@ FRA_MAR_01 =
 {
 	name = "Marine Division"
 
-	for_countries = { FRA }
+	for_countries = { FRA EFR }
 
 	 
 
@@ -650,7 +650,7 @@ FRA_MNT_01 =
 {
 	name = "Mountain Division"
 
-	for_countries = { FRA }
+	for_countries = { FRA EFR}
 
 	 
 
@@ -709,7 +709,7 @@ FRA_GAR_01 =
 {
 	name = "Garrison Division"
 
-	for_countries = { FRA }
+	for_countries = { FRA EFR }
 
 	 
 
@@ -795,7 +795,7 @@ FRA_COL_01 =
 {
 	name = "Colonial Division"
 
-	for_countries = { FRA }
+	for_countries = { FRA EFR }
 
 	 
 

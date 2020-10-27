@@ -2,7 +2,7 @@
 ITA_INF_01 = { 
 	name = "Infantry Division" 
 
-	for_countries = { ITA } 
+	for_countries = { ITA ETH } 
 
 	  
 
@@ -97,7 +97,7 @@ ITA_INF_01 = {
 ITA_INF_02 = { 
 	name = "CC.NN. Infantry Division" 
 
-	for_countries = { ITA } 
+	for_countries = { ITA ETH } 
 
 	  
 
@@ -131,7 +131,7 @@ ITA_INF_02 = {
 ITA_COL_01 = { 
 	name = "Colonial Division" 
 
-	for_countries = { ITA } 
+	for_countries = { ITA ETH } 
 
 	  
 
@@ -185,7 +185,7 @@ ITA_COL_01 = {
 ITA_CAV_01 = { 
 	name = "Cavalry Regiment" 
 
-	for_countries = { ITA } 
+	for_countries = { ITA ETH} 
 
 	  
 
@@ -225,7 +225,7 @@ ITA_CAV_01 = {
 ITA_CAV_02 = { 
 	name = "Cavalry Division" 
 
-	for_countries = { ITA } 
+	for_countries = { ITA ETH } 
 
 	  
 
@@ -296,7 +296,7 @@ ITA_MOT_01 = {
 ITA_MEC_01 = { 
 	name = "Mechanized Division" 
 
-	for_countries = { ITA } 
+	for_countries = { ITA ETH} 
 
 	  
 
@@ -331,7 +331,7 @@ ITA_MEC_01 = {
 ITA_ARM_01 = { 
 	name = "Armored Division" 
 
-	for_countries = { ITA } 
+	for_countries = { ITA ETH} 
 
 	  
 
@@ -371,7 +371,7 @@ ITA_ARM_01 = {
 ITA_MAR_01 = { 
 	name = "Marine Regiment" 
 
-	for_countries = { ITA } 
+	for_countries = { ITA ETH } 
 
 	  
 
@@ -393,7 +393,7 @@ ITA_MAR_01 = {
 ITA_MNT_01 = { 
 	name = "Mountain Division" 
 
-	for_countries = { ITA } 
+	for_countries = { ITA ETH } 
 
 	  
 
@@ -421,7 +421,7 @@ ITA_MNT_01 = {
 ITA_PAR_01 = { 
 	name = "Paratrooper Division" 
 
-	for_countries = { ITA } 
+	for_countries = { ITA ETH } 
 
 	  
 
@@ -451,7 +451,7 @@ ITA_PAR_01 = {
 ITA_GAR_01 = { 
 	name = "Garrison Division" 
 
-	for_countries = { ITA } 
+	for_countries = { ITA ETH } 
 
 	  
 
