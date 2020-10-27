@@ -2,29 +2,20 @@
 state={
 	id=411
 	name="STATE_411" # Isfahan
-	manpower = 5877274
+	manpower = 1877274
 
 	state_category = wasteland
-	
+	impassable = yes 
 	history={
 		owner = PER
 		buildings = {
 			infrastructure = 2
 		}
-		victory_points = {
-			2026 1 
-		}
-				victory_points = {
-			10837 50 
-		}
-				victory_points = {
-			10913 1 
-		}
-		
+
 		add_core_of = PER
 	}
 
 	provinces={
-		1963 2026 4928 4983 5067 8031 8074 10828 12756 4966 12780 8009 10873 11671 12704 12748 12818 7573 5073 1957 1888 10806 1986 7990 10759 10890 10913 11249 12739 12809 12852 12895 2070 1982 2065 8040 8125 10922 7969 10523 10837 
+		 8009 10873 11671 12704 12748 7573 5073 1957 1888 10806 7990 10759 10890 12739 12809 12852 12895 
 	}
 }

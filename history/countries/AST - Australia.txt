@@ -1,5 +1,12 @@
 ﻿capital = 285
+if = {
+	limit = {
+		has_dlc = "Together for Victory"
+	}
+	add_ideas = AST_great_depression_1
 
+	add_to_tech_sharing_group = commonwealth_research
+}
 oob = "AST_1936"
 set_stability = 0.8
 set_war_support = 0.3
