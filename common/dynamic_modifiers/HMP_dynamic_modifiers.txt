@@ -1,14 +1,8 @@
 vichy_legitimacy = {
 	icon = "GFX_idea_VFR_neu"
-				stability_factor = vichy_legitimacy_mechanic_stability_factor
-				
+	stability_factor = vichy_legitimacy_mechanic_stability_factor			
 		}
-		FIN_support_from_germany = {
-	icon = "GFX_idea_generic_fascism_drift_2"
-			weekly_manpower = FIN_weekly_manpower_factor 
-			consumer_goods_factor = FIN_consumer_goods_factor
-			
-		}
+
 GER_war_exhaustion = {
 	icon = "GFX_idea_generic_fascism_drift_2"
 				stability_factor = germany_war_exhaustion_stability_factor
@@ -16,21 +10,11 @@ GER_war_exhaustion = {
 				political_power_gain = germany_war_exhaustion_political_gain
 				army_core_attack_factor = germany_war_army_core_attack_factor
 				army_core_defence_factor = germany_war_army_core_defence_factor
-				
 		}
-		
-SOV_red_air_force_resurgent = {
-	icon = "GFX_idea_generic_air_research"
-				cas_damage_reduction = SOV_red_air_force_resurgent_cas_damage_reduction				
-		}	
-		
+
 sabotaged_resources = {
-	remove_trigger = { 
-		has_resistance = no
-	}
-	
+	remove_trigger = { 	has_resistance = no	}
 	icon = GFX_modifiers_sabotaged_resource
-	
 	temporary_state_resource_oil = sabotaged_oil
 	temporary_state_resource_aluminium = sabotaged_aluminium
 	temporary_state_resource_rubber = sabotaged_rubber

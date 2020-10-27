@@ -564,7 +564,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-		add_dynamic_modifier  = { modifier =  FIN_support_from_germany }
+		add_ideas = fin_continuation_war 
 			declare_war_on = {
 				target = SOV
 				type = annex_everything
