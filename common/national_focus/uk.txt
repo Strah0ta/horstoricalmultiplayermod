@@ -1324,7 +1324,7 @@ add_equipment_production = {
 			551 = {
 				set_building_level = {
 					type = air_base
-					level = 12
+					level = 6
 					instant_build = yes
 				}
 				add_building_construction = {
@@ -1360,7 +1360,7 @@ add_equipment_production = {
 				}
 				set_building_level = {
 					type = air_base
-					level = 20
+					level = 18
 					instant_build = yes
 				}
 			}				
@@ -1462,7 +1462,7 @@ add_equipment_production = {
 				291 = {
 				set_building_level = {
 					type = air_base
-					level = 18
+					level = 12
 					instant_build = yes
 				}	
 	add_building_construction = {

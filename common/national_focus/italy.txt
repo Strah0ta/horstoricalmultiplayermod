@@ -514,7 +514,7 @@ date > 1941.6.1
 					}
 	set_building_level = {
 						type = air_base
-						level = 12
+						level = 6
 						instant_build = yes
 					}
 				}
@@ -533,7 +533,7 @@ date > 1941.6.1
 					}
 					set_building_level = {
 						type = air_base
-						level = 12
+						level = 6
 						instant_build = yes
 					}
 					add_building_construction = {
