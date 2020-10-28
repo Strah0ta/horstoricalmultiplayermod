@@ -690,6 +690,26 @@ spy_agency = {
 
 
 propaganda_effortsx = {
+		war_propaganda = {
+		icon = generic_prepare_civil_war
+		allowed = {	normally_played_country = yes 	}		
+		available = {
+				NOT = { has_country_flag = war_propaganda_campaign_running }
+				threat > 0.1
+			}
+		fire_only_once = no
+		days_remove = 90
+		days_re_enable = 0
+		cost = 100
+		modifier = {	war_support_weekly = 0.01	}
+		complete_effect = {
+				custom_effect_tooltip = "Gives 12.85% War Support in total. Decision will be available again in 90 days."
+			set_country_flag = war_propaganda_campaign_running
+		}
+		remove_effect = {
+			clr_country_flag = war_propaganda_campaign_running
+		}
+	}
 	USA_execute_war_plan_silver = {
 		icon = generic_operation
 		allowed = { OR = { tag = USA tag = ENG } }
@@ -759,9 +779,321 @@ USA_puppet_mexico = {
 			NOR  = { army_experience = 100 }
 		}
 		}
+			emergency_factory_conversion_defensive = {
+
+		icon = generic_industry
+		
+			allowed = { normally_played_country = yes 	}
+
+		available = {
+			num_of_civilian_factories > 5 #Change this if amount of factories change
+		}
+
+		visible = { has_war = yes	}
+
+		fire_only_once = no
+
+		days_re_enable = 90
+
+		cost = 100
+
+		complete_effect = {
+			replace_civ_with_arms_factories = yes
+			add_war_support = -0.05
+		}
+	}
+
+	desperate_defense = {
+
+		icon = generic_prepare_civil_war
+
+		available = {	surrender_progress > 0.5	}
+		
+			allowed = { 
+	OR = { 	
+		tag = EFR 
+		tag = RAJ
+		tag = BUL
+		tag = AST
+		tag = NZL
+		tag = GER
+		tag = ITA
+		tag = ROM
+		tag = HUN
+		tag = FRA
+		tag = SPR
+		tag = ENG
+		tag = SAF
+		tag = FIN 
+		tag = USA
+		tag = CAN
+		tag = MEX
+		tag = NOR  
+			}
+		}
+		visible = { surrender_progress > 0.2 }
+		fire_only_once = no
+		days_remove = 45
+		days_re_enable = 360
+		cost = 50
+		modifier = {
+			defence = 0.2
+			dig_in_speed_factor = 0.5
+		}
+		complete_effect = {
+		}
+	}
+
+	women_in_the_workforce = {
+
+		icon = generic_industry
+
+	allowed = { normally_played_country = yes 	}
+
+        available = {
+            has_idea = tot_economic_mobilisation
+            OR = {
+                AND = {
+                   NOT = {  has_government = fascism }
+                    has_war_support > 0.79
+                }
+                OR = {
+                    has_war_support > 0.89
+                    surrender_progress > 0
+                }
+            }
+        }
+        visible = {    has_war = yes   }
+        cost = 100
+        days_remove = -1
+        remove_trigger = {	not = { has_idea = tot_economic_mobilisation }         }
+		modifier = {
+            conscription = 0.03
+            stability_factor = -0.05
+        }
+
+		complete_effect = {
+
+        }
+   }
+
+    war_bonds = {
+
+    	icon = generic_industry
+
+    	allowed = { normally_played_country = yes	}
+        available = {
+            OR = {
+                AND = {
+                NOT = {  has_government = fascism }
+				has_war_support > 0.79
+				}
+                AND = {
+                    has_government = fascism
+                    OR = {
+                        has_war_support > 0.89
+                        surrender_progress > 0
+                    }
+                }
+            }
+			NOT = { has_idea = zzz_war_bonds }
+        }
+        visible = {
+			
+            has_war = yes
+			NOT = { has_completed_focus = GER_jag }
+        }
+
+        fire_only_once = no
+
+		days_remove = 180
+
+		cost = GER_war_bonds_var?50
+
+		modifier = {
+			
+		}
+
+		remove_effect = {
+
+		}
+
+		complete_effect = {
+			ROOT = { add_timed_idea = { idea = zzz_war_bonds days = 180 } }
+			if = {
+				limit = {
+					check_variable = {
+						var = GER_war_bonds_var
+						value = 50
+						compare = less_than
+					}
+				}
+				set_variable = {
+					var = GER_war_bonds_var
+					value = 50
+				}
+			}
+			add_to_variable = {
+				var = GER_war_bonds_var
+				value = 25
+			}
+			if = {
+				limit = {
+					check_variable = {
+						var = GER_war_bonds_var
+						value = 100
+						compare = greater_than_or_equals
+					}
+					check_variable = {
+						var = GER_war_bonds_war_support_var
+						value = -0.025
+						compare = greater_than
+					}
+				}
+				set_variable = {
+					var = GER_war_bonds_war_support_var
+					value = -0.025
+				}
+			}
+			if = {
+				limit = {
+					check_variable = {
+						var = GER_war_bonds_war_support_var
+						value = -0.025
+						compare = less_than_or_equals
+					}
+				}
+				add_to_variable = {
+					var = GER_war_bonds_war_support_var
+					value = -0.025
+				}
+				add_war_support = GER_war_bonds_war_support_var
+			}
+		}
+
+    }
 	}
 
 	operations = {
+		khalkin_gol = {
+		icon = border_war
+		allowed = {	original_tag = JAP	}
+		available = {	date > 1939.5.11		}
+		fire_only_once = yes
+		cost = 50
+		complete_effect = {
+					add_tech_bonus = {
+				name = "Lessons from Khalkin Gol"
+				bonus = 3.0
+				uses = 3
+				category = cat_anti_tank
+			}
+			country_event = { id = japan_border_conflict.3 days = 0 }
+			SOV = { country_event = { id = japan_border_conflict.3 days = 0 } }
+		}
+	}
+	blow_suez_canal = {
+		icon = GFX_decision_generic_ignite_civil_war
+		allowed = {
+			has_dlc = "Waking the Tiger"
+		}
+			allowed = { 
+	OR = {	
+		tag = ITA
+		tag = ENG
+		}
+		}
+		
+		
+		available = {
+			controls_state = 447
+			controls_state = 453
+			OR = {
+				NOT = {
+					owns_state = 447
+					owns_state = 453
+				}
+				any_country = {
+					has_war_with = ROOT
+					OR = {
+						controls_state = 452
+						controls_state = 447
+						controls_state = 456
+						controls_state = 454
+						controls_state = 455
+					}
+				}
+			}
+		}
+	
+		visible = {
+			has_war = yes
+			NOT = { has_global_flag = SUEZ_CANAL_BLOCKED }
+			any_state = {
+				is_controlled_by = ROOT
+				OR = {
+					region = 28
+					region = 128
+				}
+			}
+		}
+	
+		fire_only_once = no
+	
+		days_remove = 30
+	
+		cost = 75
+	
+		modifier = {
+			civilian_factory_use = 5
+		}
+
+		complete_effect = {
+			hidden_effect = {
+				if = {
+					limit = {
+						NOT = {
+							owns_state = 447
+							owns_state = 453
+						}
+					}
+					random_country = {
+						limit = {
+							owns_state = 447
+							owns_state = 453
+						}
+						country_event = { id = generic.12 days = 1 }
+					}
+				}
+			}
+		}
+	
+		remove_effect = {
+			if = {
+				limit = {
+					OR = {
+						has_full_control_of_state = 447
+						has_full_control_of_state = 453
+					}
+				}
+				set_country_flag = blew_up_suez
+				set_global_flag = SUEZ_CANAL_BLOCKED
+				country_event = { id = wtt_news.40 hours = 6}
+			}
+			effect_tooltip = {
+				if = {
+					limit = {
+						ENG = {
+							owns_state = 447
+							owns_state = 453
+						}
+					}
+					add_war_support = -0.05
+					add_stability = -0.05
+				}
+			}
+		}
+	}
 	GER_fall_weiss = { 
 		icon = ger_reichskommissariats
 		fire_only_once = yes		
@@ -1249,17 +1581,6 @@ GER_case_anton = {
 		}
 		complete_effect = { set_global_flag = GER_heavy_water_production_underway }
 		}
- 
-
-	FRA_move_capital_gabon = {
-icon = generic_operation
-		allowed = { original_tag = FRA }
-		available = {	has_capitulated = yes 	}
-		visible = {FRA = { controls_state = 539 }	}	
-		cost = 0	
-		fire_only_once = no
-		complete_effect = {	FRA = { set_capital = 539 }	}
-}
 
     FRA_annex_saf = {
 		icon = generic_operation
@@ -1328,36 +1649,7 @@ icon = generic_operation
 				}
 			}
 		}
-	}
-	}
-
-	political_actions = {
-	    mers_el_kebir = {
-		icon = generic_civil_support
-
-        allowed = {
-            original_tag = ENG
-        }
-
-        cost = 0
-		
-        fire_only_once = yes
-
-        available = {
-			date > 1940.10.3
-		}
-		
-		complete_effect = {
-		random_unit_leader = {
-                limit = { has_id = 983 }
-				add_unit_leader_trait = fleet_protector
-				add_unit_leader_trait = destroyer_leader
-				add_unit_leader_trait = green_water_expert
-            }
-
-		}
-	}
-	
+	}	
 	operation_countenance = {
 	icon = generic_civil_support
 
@@ -3189,79 +3481,6 @@ USA_congress_small_supporta = yes
 
 
 
-political_actions = { 
-    JAP_annex_manchukuo = {
-		icon = generic_operation
-		allowed = { tag = JAP}
-		available = {
-			MAN = { is_ai = yes }
-			#date > 1939.9.1 
-		}
-		fire_only_once = yes
-		cost = 0
-		visible = {    country_exists = MAN	}
-		complete_effect = {	
-			if = { 
-			limit = { MAN = { has_completed_focus = MAN_pacify_the_countrysidex } }
-			if = { 
-			limit = { NOT = { MAN = { has_completed_focus = MAN_showa_steel } } }
-			496 = {
-			add_resource = {  type = steel amount = 12}
-			}
-			
-			}
-			if = { limit = { NOT = { MAN = { has_completed_focus = MAN_anshan_steelworks } } }
-			496 = {
-			add_resource = {  type = steel amount = 16}
-			}
-			
-			}
-			if = { limit = { NOT = {MAN = { has_completed_focus = MAN_aluminum3 } } }
-			328 = {
-			add_resource = {  type = aluminium amount = 16}
-			}
-			
-			}
-
-			}
-
-			if = { 
-			limit = { MAN = { has_completed_focus = MAN_pacify_the_countryside } }
-			
-			
-			
-			
-				
-			if = { limit = { NOT = { MAN = { has_completed_focus = MAN_invite_japanese_investors } } }
-			496 = {
-			add_resource = {  type = steel amount = 12}
-			}
-			
-			}
-			if = { limit = { NOT = { MAN = { has_completed_focus = MAN_expand_showa_steel_works } } }
-			496 = {
-			add_resource = {  type = steel amount = 16}
-			}
-			
-			}
-			if = { limit = { NOT = {MAN = { has_completed_focus = MAN_develop_aluminum_sources } } }
-			328 = {
-			add_resource = {  type = aluminium amount = 16}
-			}
-			
-			}
-		
-			}
-			
-			annex_country = { target = MAN transfer_troops = yes }
-					496 = { set_compliance = 100 } 	328 = { set_compliance = 100 }	505 = { set_compliance = 100 } 3 = { set_compliance = 100 }
-					451 = { set_compliance = 100 } 	504 = { set_compliance = 100 }	179 = { set_compliance = 100 } 446 = { set_compliance = 100 }
-					112 = { set_compliance = 100 } 	308 = { set_compliance = 100 }
-		}
-	}
-}
-
-
 JAP_interservice_rivalry = {
 	JAP_steel_for_guns = {
 
@@ -3578,26 +3797,6 @@ JAP_interservice_rivalry = {
 	}
 }
 
-operations = {
-	khalkin_gol = {
-		icon = border_war
-		allowed = {	original_tag = JAP	}
-		available = {	date > 1939.5.11		}
-		fire_only_once = yes
-		cost = 50
-		complete_effect = {
-					add_tech_bonus = {
-				name = "Lessons from Khalkin Gol"
-				bonus = 3.0
-				uses = 3
-				category = cat_anti_tank
-			}
-			country_event = { id = japan_border_conflict.3 days = 0 }
-			SOV = { country_event = { id = japan_border_conflict.3 days = 0 } }
-		}
-	}
-}
-
 SOV_great_patriotic_war = {
 	SOV_move_capital_kazan={
 	icon = generic_civil_support
@@ -3756,6 +3955,70 @@ lar_local_recruitment = {
 
 
 political_actions = {
+	    mers_el_kebir = {
+		icon = generic_civil_support
+
+        allowed = {
+            original_tag = ENG
+        }
+
+        cost = 0
+		
+        fire_only_once = yes
+
+        available = {
+			date > 1940.10.3
+		}
+		
+		complete_effect = {
+		random_unit_leader = {
+                limit = { has_id = 983 }
+				add_unit_leader_trait = fleet_protector
+				add_unit_leader_trait = destroyer_leader
+				add_unit_leader_trait = green_water_expert
+            }
+
+		}
+		}
+		    JAP_annex_manchukuo = {
+		icon = generic_operation
+		allowed = { tag = JAP}
+		available = {
+			MAN = { is_ai = yes }
+			#date > 1939.9.1 
+		}
+		fire_only_once = yes
+		cost = 0
+		visible = {    country_exists = MAN	}
+		complete_effect = {	
+			if = { 	limit = { MAN = { has_completed_focus = MAN_pacify_the_countrysidex } }
+			if = { 	limit = { NOT = { MAN = { has_completed_focus = MAN_showa_steel } } }
+			496 = { add_resource = {  type = steel amount = 12}	}
+			}
+			if = { limit = { NOT = { MAN = { has_completed_focus = MAN_anshan_steelworks } } }
+			496 = {	add_resource = {  type = steel amount = 16}	}
+			}
+			if = { limit = { NOT = {MAN = { has_completed_focus = MAN_aluminum3 } } }
+			328 = {	add_resource = {  type = aluminium amount = 16 } }
+			}
+			}
+			if = { 
+			limit = { MAN = { has_completed_focus = MAN_pacify_the_countryside } }	
+			if = { limit = { NOT = { MAN = { has_completed_focus = MAN_invite_japanese_investors } } }
+			496 = {	add_resource = {  type = steel amount = 12}	}
+			}
+			if = { limit = { NOT = { MAN = { has_completed_focus = MAN_expand_showa_steel_works } } }
+			496 = {	add_resource = {  type = steel amount = 16}	}
+			}
+			if = { limit = { NOT = {MAN = { has_completed_focus = MAN_develop_aluminum_sources } } }
+			328 = {	add_resource = {  type = aluminium amount = 16}	}
+			}
+			}
+			
+			annex_country = { target = MAN transfer_troops = yes }
+			496 = { set_compliance = 100 } 	328 = { set_compliance = 100 }	505 = { set_compliance = 100 } 3 = { set_compliance = 100 }	451 = { set_compliance = 100 } 	504 = { set_compliance = 100 }	179 = { set_compliance = 100 } 446 = { set_compliance = 100 }	112 = { set_compliance = 100 } 	308 = { set_compliance = 100 }
+		}
+	}
 	improved_worker_conditions = {
 		icon = generic_industry	
 		allowed = { normally_played_country = yes 	}
@@ -3800,139 +4063,7 @@ political_actions = {
 
 		complete_effect = {	custom_effect_tooltip = "Gives 6.42% Stability and -12.85% War Support in total.  Decision will be available again in 450 days."	}
 	}
-}
 
-propaganda_effortsx = {
-		war_propaganda = {
-		icon = generic_prepare_civil_war
-		allowed = {	normally_played_country = yes 	}		
-		available = {
-				NOT = { has_country_flag = war_propaganda_campaign_running }
-				threat > 0.1
-			}
-		fire_only_once = no
-		days_remove = 90
-		days_re_enable = 0
-		cost = 100
-		modifier = {	war_support_weekly = 0.01	}
-		complete_effect = {
-				custom_effect_tooltip = "Gives 12.85% War Support in total. Decision will be available again in 90 days."
-			set_country_flag = war_propaganda_campaign_running
-		}
-		remove_effect = {
-			clr_country_flag = war_propaganda_campaign_running
-		}
-	}
-}
-
-operations = {
-	blow_suez_canal = {
-		icon = GFX_decision_generic_ignite_civil_war
-		allowed = {
-			has_dlc = "Waking the Tiger"
-		}
-			allowed = { 
-	OR = {	
-		tag = ITA
-		tag = ENG
-		}
-		}
-		
-		
-		available = {
-			controls_state = 447
-			controls_state = 453
-			OR = {
-				NOT = {
-					owns_state = 447
-					owns_state = 453
-				}
-				any_country = {
-					has_war_with = ROOT
-					OR = {
-						controls_state = 452
-						controls_state = 447
-						controls_state = 456
-						controls_state = 454
-						controls_state = 455
-					}
-				}
-			}
-		}
-	
-		visible = {
-			has_war = yes
-			NOT = { has_global_flag = SUEZ_CANAL_BLOCKED }
-			any_state = {
-				is_controlled_by = ROOT
-				OR = {
-					region = 28
-					region = 128
-				}
-			}
-		}
-	
-		fire_only_once = no
-	
-		days_remove = 30
-	
-		cost = 75
-	
-		modifier = {
-			civilian_factory_use = 5
-		}
-
-		complete_effect = {
-			hidden_effect = {
-				if = {
-					limit = {
-						NOT = {
-							owns_state = 447
-							owns_state = 453
-						}
-					}
-					random_country = {
-						limit = {
-							owns_state = 447
-							owns_state = 453
-						}
-						country_event = { id = generic.12 days = 1 }
-					}
-				}
-			}
-		}
-	
-		remove_effect = {
-			if = {
-				limit = {
-					OR = {
-						has_full_control_of_state = 447
-						has_full_control_of_state = 453
-					}
-				}
-				set_country_flag = blew_up_suez
-				set_global_flag = SUEZ_CANAL_BLOCKED
-				country_event = { id = wtt_news.40 hours = 6}
-			}
-			effect_tooltip = {
-				if = {
-					limit = {
-						ENG = {
-							owns_state = 447
-							owns_state = 453
-						}
-					}
-					add_war_support = -0.05
-					add_stability = -0.05
-				}
-			}
-		}
-	}
-	
-
-}
-
-political_actions = {
 	rebuild_suez_canal = {
 		icon = GFX_decision_generic_special_project
 
@@ -3983,206 +4114,7 @@ political_actions = {
 			}
 		}
 	}
-}
 
-propaganda_effortsx = {
-	
-	emergency_factory_conversion_defensive = {
-
-		icon = generic_industry
-		
-			allowed = { normally_played_country = yes 	}
-
-		available = {
-			num_of_civilian_factories > 5 #Change this if amount of factories change
-		}
-
-		visible = { has_war = yes	}
-
-		fire_only_once = no
-
-		days_re_enable = 90
-
-		cost = 100
-
-		complete_effect = {
-			replace_civ_with_arms_factories = yes
-			add_war_support = -0.05
-		}
-	}
-
-	desperate_defense = {
-
-		icon = generic_prepare_civil_war
-
-		available = {	surrender_progress > 0.5	}
-		
-			allowed = { 
-	OR = { 	
-		tag = EFR 
-		tag = RAJ
-		tag = BUL
-		tag = AST
-		tag = NZL
-		tag = GER
-		tag = ITA
-		tag = ROM
-		tag = HUN
-		tag = FRA
-		tag = SPR
-		tag = ENG
-		tag = SAF
-		tag = FIN 
-		tag = USA
-		tag = CAN
-		tag = MEX
-		tag = NOR  
-			}
-		}
-		visible = { surrender_progress > 0.2 }
-		fire_only_once = no
-		days_remove = 45
-		days_re_enable = 360
-		cost = 50
-		modifier = {
-			defence = 0.2
-			dig_in_speed_factor = 0.5
-		}
-		complete_effect = {
-		}
-	}
-
-	women_in_the_workforce = {
-
-		icon = generic_industry
-
-	allowed = { normally_played_country = yes 	}
-
-        available = {
-            has_idea = tot_economic_mobilisation
-            OR = {
-                AND = {
-                   NOT = {  has_government = fascism }
-                    has_war_support > 0.79
-                }
-                OR = {
-                    has_war_support > 0.89
-                    surrender_progress > 0
-                }
-            }
-        }
-        visible = {    has_war = yes   }
-        cost = 100
-        days_remove = -1
-        remove_trigger = {	not = { has_idea = tot_economic_mobilisation }         }
-		modifier = {
-            conscription = 0.03
-            stability_factor = -0.05
-        }
-
-		complete_effect = {
-
-        }
-   }
-
-    war_bonds = {
-
-    	icon = generic_industry
-
-    	allowed = { normally_played_country = yes	}
-        available = {
-            OR = {
-                AND = {
-                NOT = {  has_government = fascism }
-				has_war_support > 0.79
-				}
-                AND = {
-                    has_government = fascism
-                    OR = {
-                        has_war_support > 0.89
-                        surrender_progress > 0
-                    }
-                }
-            }
-			NOT = { has_idea = zzz_war_bonds }
-        }
-        visible = {
-			
-            has_war = yes
-			NOT = { has_completed_focus = GER_jag }
-        }
-
-        fire_only_once = no
-
-		days_remove = 180
-
-		cost = GER_war_bonds_var?50
-
-		modifier = {
-			
-		}
-
-		remove_effect = {
-
-		}
-
-		complete_effect = {
-			ROOT = { add_timed_idea = { idea = zzz_war_bonds days = 180 } }
-			if = {
-				limit = {
-					check_variable = {
-						var = GER_war_bonds_var
-						value = 50
-						compare = less_than
-					}
-				}
-				set_variable = {
-					var = GER_war_bonds_var
-					value = 50
-				}
-			}
-			add_to_variable = {
-				var = GER_war_bonds_var
-				value = 25
-			}
-			if = {
-				limit = {
-					check_variable = {
-						var = GER_war_bonds_var
-						value = 100
-						compare = greater_than_or_equals
-					}
-					check_variable = {
-						var = GER_war_bonds_war_support_var
-						value = -0.025
-						compare = greater_than
-					}
-				}
-				set_variable = {
-					var = GER_war_bonds_war_support_var
-					value = -0.025
-				}
-			}
-			if = {
-				limit = {
-					check_variable = {
-						var = GER_war_bonds_war_support_var
-						value = -0.025
-						compare = less_than_or_equals
-					}
-				}
-				add_to_variable = {
-					var = GER_war_bonds_war_support_var
-					value = -0.025
-				}
-				add_war_support = GER_war_bonds_war_support_var
-			}
-		}
-
-    }
-}
-
-political_actions = {
 	infrastructure_building_slot = {
 
 		icon = generic_construction

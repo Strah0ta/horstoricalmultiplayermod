@@ -7,7 +7,7 @@ focus_tree = {
 			add = 10
 			tag = ETH
 		}	
-		}
+		} 
 	
 	default = no
 	reset_on_civilwar = no
