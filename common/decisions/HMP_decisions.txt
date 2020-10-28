@@ -693,10 +693,9 @@ propaganda_effortsx = {
 	USA_execute_war_plan_silver = {
 		icon = generic_operation
 		allowed = { OR = { tag = USA tag = ENG } }
-		visible = { NOT = { has_global_flag = USA_war_plan_silver_done }   		OR = { USA = { has_completed_focus = USA_war_plan_silver }	has_completed_focus = ENG_overlord_states }   }
+		visible = { 	OR = { USA = { has_completed_focus = USA_war_plan_silver }	has_completed_focus = ENG_overlord_states }   }
 		fire_only_once = yes
 		complete_effect = { 
-		set_global_flag = war_plan_silver_done
 		add_timed_idea = { idea = war_plan_silver days = 182 }  	
 every_country = {
  if = {  limit = { is_in_faction_with = ENG  }
@@ -706,10 +705,9 @@ every_country = {
 		USA_execute_war_plan_black = {
 		icon = generic_operation
 		allowed = { OR = { tag = USA tag = ENG } }
-		visible = { NOT = { has_global_flag = USA_war_plan_black_done }   		OR = { USA = { has_completed_focus = USA_war_plan_black }	has_completed_focus = ENG_overlord_states }   }
+		visible = { OR = { USA = { has_completed_focus = USA_war_plan_black }	has_completed_focus = ENG_overlord_states }   }
 		fire_only_once = yes
 		complete_effect = { 
-		set_global_flag = war_plan_black_done
 		add_timed_idea = { idea = war_plan_black days = 182 }  	
 every_country = {
  if = {  limit = { is_in_faction_with = ENG  }
@@ -719,7 +717,7 @@ every_country = {
 	USA_execute_war_plan_orange = {
 		icon = generic_operation
 		allowed = { tag = USA }
-		available = {	has_completed_focus = USA_war_plan_orange	}
+		visible = {	has_completed_focus = USA_war_plan_orange	}
 		fire_only_once = yes
 		
 		complete_effect = { 
