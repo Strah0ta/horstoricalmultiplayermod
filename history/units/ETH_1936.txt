@@ -1,6 +1,6 @@
 ﻿division_template = {
-	name = "Kebur Zabagna"				# Imperial Bodyguard
-	division_names_group = ETH_INF_01
+	name = "Divisione Coloniale"
+	division_names_group = ITA_INF_01
 
 	regiments = {
 		infantry = { x = 0 y = 0 }
@@ -19,7 +19,7 @@
 
 units = {
 	##### Imperial Army #####
-	division = { # "Kebur Zabagna"
+	division = { # "Divisione Coloniale"
 		division_name = {
 			is_name_ordered = yes
 			name_order = 1
