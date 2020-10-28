@@ -32,7 +32,95 @@ focus_tree = {
 			}
 		}
 	}
+	
+	focus = { 
+		id = SOV_great_patriotic_war_foc
+		icon = GFX_focus_SOV_defense_of_moscow
+		x = 7
+		y = 6
+		cost = 0
+		
+		available = { always = no }
 
+		available_if_capitulated = yes
+
+		completion_reward = {	
+							add_ideas = great_patriotic_war_idea
+				  add_ideas = shattered_retreat
+			add_tech_bonus = {
+				name = "Great Patriotic Industrial Research"
+				bonus = 1.0
+				ahead_reduction = 2
+				uses = 2
+				category = 	construction_tech
+				category =	excavation_tech
+
+			}
+					add_tech_bonus = {
+			name = mech_army_bonus
+			bonus = 3.0
+			ahead_reduction = 2
+			technology = mechanised_infantry3
+			}
+			add_research_slot = 1
+		}
+	}
+	
+	focus = { 
+		id = SOV_resurgent_red_airforce_foc
+		icon = GFX_focus_SOV_defense_of_moscow
+		x = 9 
+		y = 6
+		cost = 0
+		
+		available = { always = no }
+
+		available_if_capitulated = yes
+
+		completion_reward = {	
+				every_unit_leader = { limit = { NOT = { is_field_marshal = yes } has_trait = panzer_leader     } add_unit_leader_trait = camouflage_expert_red }									
+		}
+	}
+	
+	focus = { 
+		id = SOV_resurgent_red_army_foc
+		icon = GFX_focus_SOV_defense_of_moscow
+		x = 11
+		y = 6
+		cost = 0
+		
+		available = { always = no }
+
+		available_if_capitulated = yes
+
+		completion_reward = {	
+						swap_ideas = { remove_idea= great_patriotic_war_idea add_idea = SOV_barbarossa   }
+   249 = {
+   	set_building_level = {
+					type = infrastructure
+					level = 10
+					instant_build = yes
+				}
+   }
+    217 = {
+   	set_building_level = {
+					type = infrastructure
+					level = 10
+					instant_build = yes
+				}
+   }
+   195 = {
+   	set_building_level = {
+					type = infrastructure
+					level = 10
+					instant_build = yes
+				}
+   } 			
+		}
+	}
+	
+	
+	
 	focus = {
 		id = SOV_production_effort
 		text = production_effort

@@ -3180,29 +3180,7 @@ is_triggered_only = yes
 	    is_triggered_only = yes
         option = {
             name = "Za Stalina!"
-			swap_ideas = { remove_idea= great_patriotic_war_idea add_idea = SOV_barbarossa   }
-   249 = {
-   	set_building_level = {
-					type = infrastructure
-					level = 10
-					instant_build = yes
-				}
-   }
-    217 = {
-   	set_building_level = {
-					type = infrastructure
-					level = 10
-					instant_build = yes
-				}
-   }
-   195 = {
-   	set_building_level = {
-					type = infrastructure
-					level = 10
-					instant_build = yes
-				}
-   } 
-
+			if = { limit = { tag = SWE } SOV = { complete_national_focus = SOV_resurgent_red_army_foc }}
 			}
 			
     }
@@ -3215,7 +3193,8 @@ is_triggered_only = yes
 	    is_triggered_only = yes
         option = {
 				name = "We will shoot these fascist dogs out of the skies!"
-				every_unit_leader = { limit = { NOT = { is_field_marshal = yes } has_trait = panzer_leader     } add_unit_leader_trait = camouflage_expert_red }			
+							if = { limit = { tag = SWE } SOV = { complete_national_focus = SOV_resurgent_red_airforce_foc }}
+
 			}
 			
     }
@@ -3229,24 +3208,6 @@ is_triggered_only = yes
 	    is_triggered_only = yes
         option = {
 				name = "For Socialism! For Stalin! Ura!"
-				add_ideas = great_patriotic_war_idea
-				  add_ideas = shattered_retreat
-			add_tech_bonus = {
-				name = "Great Patriotic Industrial Research"
-				bonus = 1.0
-				ahead_reduction = 2
-				uses = 2
-				category = 	construction_tech
-				category =	excavation_tech
-
-			}
-					add_tech_bonus = {
-			name = mech_army_bonus
-			bonus = 3.0
-			ahead_reduction = 2
-			technology = mechanised_infantry3
-			}
-			add_research_slot = 1
 				}
 			
     }
@@ -3333,10 +3294,6 @@ country_event = {
 			id = mexico.19
 			days = 1
 		}
-		
-		ai_chance = {
-			factor = 75
-		}
 	}
 	
 	option = {
@@ -3357,15 +3314,6 @@ country_event = {
 			set_politics = {
 				ruling_party = neutrality
 				elections_allowed = no
-			}
-		}
-
-		ai_chance = {
-			factor = 25
-			
-			modifier = {
-				factor = 0
-				is_historical_focus_on = yes
 			}
 		}
 	}
@@ -5958,20 +5906,6 @@ country_event = {
 	option = {
 		name = "Excellent!"
 		
-	}
-}
-
-	country_event = {
-	id = usa.999
-	title = "FIX AFRICA"
-	desc = "Despite initial pushback from Representatives and Senators we have successfully reduced the effects of the Great Depression on our great nation. Congress is now ripe for a new round of legislation targeting this economic disaster."
-	picture = GFX_report_event_generic_parliament
-
-	is_triggered_only = yes
-	hidden = yes 
-	option = {
-		name = "Excellent!"
-		every_state = { limit = { AND = {  is_owned_by = FRA is_controlled_by = GER } } FRA = { set_state_controller = PREV }  }
 	}
 }
 
