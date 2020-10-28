@@ -1,64 +1,26 @@
 DIPLOMACY_LEND_LEASE_ENABLE_TRIGGER = {
-if = { limit = {ROOT = { tag = EFR   } }  		NOT = {  FROM = { tag = GER }  } } 
-if = { limit = {ROOT = { tag = EFR   } }  		NOT = {  FROM = { tag = JAP }  } } 
-if = { limit = {ROOT = { tag = EFR   } }  		NOT = {  FROM = { tag = MAN }  } } 
-if = { limit = {ROOT = { tag = EFR   } }  		NOT = {  FROM = { tag = SPR }  } } 
-if = { limit = {ROOT = { tag = EFR   } }  		NOT = {  FROM = { tag = ITA }  } } 
-if = { limit = {ROOT = { tag = EFR   } }  		NOT = {  FROM = { tag = ROM }  } } 
-if = { limit = {ROOT = { tag = EFR   } }  		NOT = {  FROM = { tag = HUN }  } } 
-if = { limit = {ROOT = { tag = FIN   } }  		NOT = {  FROM = { tag = GER }  } } 
-if = { limit = {ROOT = { tag = FIN   } }  		NOT = {  FROM = { tag = JAP }  } } 
-if = { limit = {ROOT = { tag = FIN   } }  		NOT = {  FROM = { tag = MAN }  } } 
-if = { limit = {ROOT = { tag = FIN   } }  		NOT = {  FROM = { tag = SPR }  } } 
-if = { limit = {ROOT = { tag = FIN   } }  		NOT = {  FROM = { tag = ITA }  } } 
-if = { limit = {ROOT = { tag = FIN   } }  		NOT = {  FROM = { tag = ROM }  } } 
-if = { limit = {ROOT = { tag = FIN   } }  		NOT = {  FROM = { tag = HUN }  } } 
-if = { limit = {FROM = { tag = ETH   } }  		ETH = {  always = no  } } 
 if = { limit = {FROM = { tag = FRA   } }  			FRA = { has_country_flag = france_is_kill }  } 
 if = { limit = {FROM = { tag = NOR   } }  			 NOR = { has_country_flag = france_is_kill }  } 
-if = { limit = {ROOT = { tag = JAP  } } 			NOT = { FROM = { the_axis = yes  } } }
-if = { limit = {ROOT = { tag = MAN  } } 			NOT = { FROM = { the_axis = yes  } } }
-if = { limit = {ROOT = { the_axis = yes  } } 	NOT = { FROM = { tag = MAN  } } }
-if = { limit = {ROOT = { the_axis = yes} } 		NOT = { FROM = { tag = JAP  } } }
-if = { limit = {FROM = { tag = EFR   } }  		EFR = {  always = no  } } 
-if = { limit = {FROM = { tag = FIN   } }  		FIN = {  always = no  } } 
-NOT = { ROOT = { tag = SOV  } } 
-NOT = { FROM = { tag = SOV  } } 
-if = { limit = {ROOT = { normally_played_allies = yes} } 		NOT = { FROM = { tag = FIN  } } }
-if = { limit = {FROM = { normally_played_allies = yes} } 		NOT = { ROOT = { tag = FIN  } } } 
+if = { limit = {ROOT = { OR = { tag = JAP tag = MAN  } } }			NOT = { FROM = { the_axis = yes  } } }
+if = { limit = {ROOT = { the_axis = yes  } } 	NOT = { FROM = { OR = { tag = MAN tag = JAP } } } }
+NOT = { ROOT = { OR = { tag = SOV tag = FIN tag = EFR tag = ETH } } } #LL potentially breaks many of these nations in balance
+NOT = { FROM = { OR = {  tag = SOV  tag = FIN tag = EFR tag = ETH} } } #LL potentially breaks many of these nations in balance
 }
 
 DIPLOMACY_INCOMING_LEND_LEASE_ENABLE_TRIGGER = {	
-if = { limit = {ROOT = { normally_played_allies = yes} } 		NOT = { FROM = { tag = ENG  } } } 
-if = { limit = {ROOT = { normally_played_allies = yes} } 		NOT = { FROM = { tag = USA  } } } 
-if = { limit = {ROOT = { the_axis = yes} } 		NOT = { FROM = { tag = GER  } } } 
-if = { limit = {ROOT = { the_axis = yes} } 		NOT = { FROM = { tag = ITA  } } } 
+if = { limit = {ROOT = { normally_played_allies = yes} } 		NOT = { FROM = { OR = { tag = ENG tag = USA    } } } } #done to avoid minor players crashing coops/mains in MP
+if = { limit = {ROOT = { the_axis = yes} } 		NOT = { FROM = { OR = {  tag = GER tag = ITA } } }  }
 if = { limit = {ROOT = { tag = MAN } } 		NOT = { FROM = { tag = JAP  } } } 
-
-if = { limit = {ROOT = { tag = EFR   } }  		EFR = {  always = no  } } 
-if = { limit = {ROOT = { tag = ETH   } }  		ETH = {  always = no  } } 
+NOT = { ROOT = { OR = { tag = SOV tag = FIN tag = EFR tag = ETH } } }
+NOT = { FROM = { OR = {  tag = SOV  tag = FIN tag = EFR tag = ETH} } }
 if = { limit = {ROOT = { tag = FRA   } }  			FRA = { has_country_flag = france_is_kill }  } 
 if = { limit = {ROOT = { tag = NOR   } }  			 NOR = { has_country_flag = france_is_kill }  } 
-if = { limit = {FROM = { tag = JAP  } } 			NOT = { ROOT = { the_axis = yes  } } }
-if = { limit = {FROM = { tag = MAN  } } 			NOT = { ROOT = { the_axis = yes  } } }
-if = { limit = {FROM = { the_axis = yes  } } 	NOT = { ROOT = { tag = MAN  } } }
-if = { limit = {FROM = { the_axis = yes} } 		NOT = { ROOT = { tag = JAP  } } }
-if = { limit = {FROM = { tag = EFR   } }  		EFR = {  always = no  } } 
-if = { limit = {FROM = { tag = FIN   } }  		FIN = {  always = no  } } 
-if = { limit = {ROOT = { tag = FIN   } }  		FIN = {  always = no  } } 
-NOT = { ROOT = { tag = SOV  } } 
-NOT = { FROM = { tag = SOV  } } 
-if = { limit = {FROM = { normally_played_allies = yes} } 		NOT = { ROOT = { tag = FIN  } } }
-if = { limit = {ROOT = { normally_played_allies = yes} } 		NOT = { FROM = { tag = FIN  } } }
-
+if = { limit = {FROM = { OR = { tag = JAP tag = MAN  } } }			NOT = { ROOT = { the_axis = yes  } } }
+if = { limit = {FROM = { the_axis = yes  } } 	NOT = { ROOT = { OR = { tag = MAN tag = JAP } } } }
 }
 DIPLOMACY_SEND_EXP_FORCE_ENABLE_TRIGGER = {
-	NOT = { FROM = { OR = { has_tech = grand_battle_plan_mp has_tech = operational_concentration has_tech = grand_mechanized_offensive }} }
-    NOT = { ROOT = { original_tag = EFR }}     
-	NOT = { FROM = { original_tag = EFR }}
-	NOT = { ROOT = { original_tag = ETH }}
-	NOT = { FROM = { original_tag = ETH }}
-	
+NOT = { ROOT = { OR = {  tag = EFR tag = ETH } } }
+NOT = { FROM = { OR = {  has_tech = grand_battle_plan_mp has_tech = operational_concentration has_tech = grand_mechanized_offensive tag = EFR tag = ETH} } }
 }
 
 DIPLOMACY_GENERATE_WARGOAL_ENABLE_TRIGGER = { always = no }
@@ -69,19 +31,15 @@ DIPLOMACY_SEND_VOLUNTEERS_ENABLE_TRIGGER = {
 } 
 
 DIPLOMACY_REQUEST_ACCESS_TO_LICENCE_PRODUCTION_ENABLE_TRIGGER = { 
-    if = { limit = {   ROOT = {  the_axis = yes  }  }   FROM = { NOT = {  original_tag = JAP } } 	} 
+    if = { limit = {   ROOT = {  the_axis = yes  }  }   FROM = { NOT = {  normally_played_allies = yes } } 	} 
+    if = { limit = {   ROOT = {  normally_played_allies = yes  }  }   FROM = { NOT = {  the_axis = yes } } 	} 	
 }
 DIPLOMACY_RETURN_EXP_FORCE_ENABLE_TRIGGER = {
-    NOT = { ROOT = { original_tag = EFR }}     
-	NOT = { FROM = { original_tag = EFR }}
-	NOT = { ROOT = { original_tag = ETH }}
-	NOT = { FROM = { original_tag = ETH }}
+    NOT = { ROOT = { OR = { original_tag = EFR original_tag = ETH }} }
+	NOT = { FROM = { OR = { original_tag = EFR original_tag = ETH }} }
 }
 DIPLOMACY_REQUEST_EXP_FORCE_ENABLE_TRIGGER = {
-NOT = { date < 1939.9.1 }
-    NOT = { ROOT = { original_tag = EFR }}     
-	NOT = { FROM = { original_tag = EFR }}
-	NOT = { ROOT = { original_tag = ETH }}
-	NOT = { FROM = { original_tag = ETH }}
-	NOT = { ROOT = { OR = { has_tech = grand_battle_plan_mp has_tech = operational_concentration has_tech = grand_mechanized_offensive }} }
+	NOT = { date < 1939.9.1 }
+    NOT = { ROOT = { OR = { original_tag = EFR original_tag = ETH has_tech = grand_battle_plan_mp has_tech = operational_concentration has_tech = grand_mechanized_offensive }} }
+	NOT = { FROM = { OR = { original_tag = EFR original_tag = ETH has_tech = grand_battle_plan_mp has_tech = operational_concentration has_tech = grand_mechanized_offensive }} }
 	}
