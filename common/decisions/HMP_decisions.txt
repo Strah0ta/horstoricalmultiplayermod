@@ -1,42 +1,3 @@
-USA_aid_britain = {
-	USA_plane_eng = {
-		allowed = {	original_tag = USA } 
-		icon = generic_naval
-		fire_only_once = yes
-		complete_effect = { activate_mission = USA_plane_LL1	}		
-	}
-	USA_plane_LL1 = {
-		allowed = {	original_tag = USA }	
-		icon = generic_naval
-		available = { tag = Gay	}
-		days_mission_timeout = 10
-		fire_only_once = no
-		is_good = yes
-		activation = { always = no	}
-		timeout_effect = {
-		USA_all_plane_LL = yes	
-		activate_mission = USA_plane_LL2		
-		}
-		complete_effect = {	
-		}
-	}
-	USA_plane_LL2 = {
-		allowed = {	original_tag = USA }	
-		icon = generic_naval
-		available = { tag = Gay	}
-		days_mission_timeout = 10
-		fire_only_once = no
-		is_good = yes
-		activation = { always = no	}
-		timeout_effect = {
-		USA_all_plane_LL = yes	
-		activate_mission = USA_plane_LL1		
-		}
-		complete_effect = {	
-		}
-	}
-}
-
 GER_plane_auto_LL = {
 GER_plane_hun = {
 	allowed = {	 original_tag = ITA	} 
@@ -45,8 +6,6 @@ GER_plane_hun = {
 		available = {    }
 		complete_effect = {	activate_mission = GER_plane_LL1 }		
 }
-
-
 		GER_plane_LL1 = {
 		allowed = { original_tag = ITA	}  
 		icon = generic_naval
@@ -803,47 +762,6 @@ USA_puppet_mexico = {
 		}
 	}
 
-	desperate_defense = {
-
-		icon = generic_prepare_civil_war
-
-		available = {	surrender_progress > 0.5	}
-		
-			allowed = { 
-	OR = { 	
-		tag = EFR 
-		tag = RAJ
-		tag = BUL
-		tag = AST
-		tag = NZL
-		tag = GER
-		tag = ITA
-		tag = ROM
-		tag = HUN
-		tag = FRA
-		tag = SPR
-		tag = ENG
-		tag = SAF
-		tag = FIN 
-		tag = USA
-		tag = CAN
-		tag = MEX
-		tag = NOR  
-			}
-		}
-		visible = { surrender_progress > 0.2 }
-		fire_only_once = no
-		days_remove = 45
-		days_re_enable = 360
-		cost = 50
-		modifier = {
-			defence = 0.2
-			dig_in_speed_factor = 0.5
-		}
-		complete_effect = {
-		}
-	}
-
 	women_in_the_workforce = {
 
 		icon = generic_industry
@@ -878,9 +796,7 @@ USA_puppet_mexico = {
    }
 
     war_bonds = {
-
     	icon = generic_industry
-
     	allowed = { normally_played_country = yes	}
         available = {
             OR = {
@@ -909,15 +825,8 @@ USA_puppet_mexico = {
 		days_remove = 180
 
 		cost = GER_war_bonds_var?50
-
-		modifier = {
-			
-		}
-
-		remove_effect = {
-
-		}
-
+		modifier = {	}
+		remove_effect = {	}
 		complete_effect = {
 			ROOT = { add_timed_idea = { idea = zzz_war_bonds days = 180 } }
 			if = {
@@ -1126,10 +1035,10 @@ USA_puppet_mexico = {
                         type = annex_everything
                     }	
 		hidden_effect = { 		
-		FRA = { add_to_war = { targeted_alliance = ENG enemy = SPR } }
-			FRA = { add_to_war = { targeted_alliance = ENG enemy = ROM } }
-			FRA = { add_to_war = { targeted_alliance = ENG enemy = HUN } }	
-			FRA = { add_to_war = { targeted_alliance = ENG enemy = BUL } }	
+			if = { limit = { country_exists = SPR } FRA = { add_to_war = { targeted_alliance = ENG enemy = SPR } } }
+			if = { limit = { country_exists = ROM }FRA = { add_to_war = { targeted_alliance = ENG enemy = ROM } } }
+			if = { limit = { country_exists = HUN }FRA = { add_to_war = { targeted_alliance = ENG enemy = HUN } } }
+			if = { limit = { country_exists = BUL }FRA = { add_to_war = { targeted_alliance = ENG enemy = BUL } } }
 			}
 					
 		
@@ -1148,10 +1057,10 @@ USA_puppet_mexico = {
 				type = annex_everything
 			}
 							hidden_effect = { 
-			HOL = { add_to_war = { targeted_alliance = ENG enemy = SPR } }
-			HOL = { add_to_war = { targeted_alliance = ENG enemy = ROM } }
-			HOL = { add_to_war = { targeted_alliance = ENG enemy = HUN } }	
-			HOL = { add_to_war = { targeted_alliance = ENG enemy = BUL } }	
+			if = { limit = { country_exists = SPR } HOL = { add_to_war = { targeted_alliance = ENG enemy = SPR } } }
+			if = { limit = { country_exists = ROM } HOL = { add_to_war = { targeted_alliance = ENG enemy = ROM } } }
+			if = { limit = { country_exists = HUN } HOL = { add_to_war = { targeted_alliance = ENG enemy = HUN } }	}
+			if = { limit = { country_exists = BUL } HOL = { add_to_war = { targeted_alliance = ENG enemy = BUL } }	}
 							}
 		}		
 	}
@@ -1168,10 +1077,10 @@ USA_puppet_mexico = {
 				type = annex_everything
 			}	
 					hidden_effect = {  		
-					BEL = { add_to_war = { targeted_alliance = ENG enemy = SPR } }
-			BEL = { add_to_war = { targeted_alliance = ENG enemy = ROM } }
-			BEL = { add_to_war = { targeted_alliance = ENG enemy = HUN } } 
-						BEL = { add_to_war = { targeted_alliance = ENG enemy = BUL } }	
+				if = { limit = { country_exists = SPR }	BEL = { add_to_war = { targeted_alliance = ENG enemy = SPR } } }
+			if = { limit = { country_exists = ROM }BEL = { add_to_war = { targeted_alliance = ENG enemy = ROM } } }
+			if = { limit = { country_exists = HUN }  BEL = { add_to_war = { targeted_alliance = ENG enemy = HUN } } }
+					if = { limit = { country_exists = BUL }	BEL = { add_to_war = { targeted_alliance = ENG enemy = BUL } }	}
 			}
 
 			
@@ -1186,11 +1095,11 @@ USA_puppet_mexico = {
 		complete_effect = {
 				add_ideas = GER_blau 	
 			hidden_effect={  
-				ROM = {add_ideas = GER_blau }
-				HUN = {	add_ideas = GER_blau }
+					if = { limit = { country_exists = ROM } ROM = {add_ideas = GER_blau } }
+					if = { limit = { country_exists = HUN } HUN = {	add_ideas = GER_blau } }
 				ITA = {	add_ideas = GER_blau }
-				SPR = {	add_ideas = GER_blau }
-				BUL = {	add_ideas = GER_blau }
+					if = { limit = { country_exists = SPR } SPR = {	add_ideas = GER_blau } }
+				if = { limit = { country_exists = BUL }	BUL = {	add_ideas = GER_blau } }
 					}
 			custom_effect_tooltip = GER_barbarossa_others_text
 			custom_effect_tooltip =	GER_blau_text
@@ -1264,11 +1173,11 @@ USA_puppet_mexico = {
 
 			add_ideas = GER_barbarossa 	
 			hidden_effect={  
-				ROM = {add_ideas = GER_barbarossa }
-				HUN = {	add_ideas = GER_barbarossa }
+					if = { limit = { country_exists = ROM } ROM = {add_ideas = GER_barbarossa } }
+					if = { limit = { country_exists = HUN } HUN = {	add_ideas = GER_barbarossa } }
 				ITA = {	add_ideas = GER_barbarossa }
-				SPR = {	add_ideas = GER_barbarossa }
-				BUL = {	add_ideas = GER_barbarossa }
+					if = { limit = { country_exists = SPR } SPR = {	add_ideas = GER_barbarossa } }
+				if = { limit = { country_exists = BUL }	BUL = {	add_ideas = GER_barbarossa } }
 					}
 			custom_effect_tooltip = GER_barbarossa_others_text
 			custom_effect_tooltip = GER_barb_buff_tt
@@ -1290,11 +1199,11 @@ USA_puppet_mexico = {
 			SOV = { country_event = { id = soviet.503 days = 0  } }
 			SOV = { add_ideas = tot_economic_mobilisation activate_decision = women_in_the_workforce complete_national_focus = SOV_great_patriotic_war_foc }
 			SOV = { activate_mission = SOV_relocation  }   
-					ITA = { add_to_war = { targeted_alliance = GER enemy = SOV } }
-		HUN = { add_to_war = { targeted_alliance = GER enemy = SOV } }
-		ROM = { add_to_war = { targeted_alliance = GER enemy = SOV } }		
-		BUL = { add_to_war = { targeted_alliance = GER enemy = SOV } }
-		SPR = { add_to_war = { targeted_alliance = GER enemy = SOV } } 
+					if = { limit = { country_exists = ITA }	ITA = { add_to_war = { targeted_alliance = GER enemy = SOV } } }
+		if = { limit = { country_exists = ITHUN }	HUN = { add_to_war = { targeted_alliance = GER enemy = SOV } } }
+		if = { limit = { country_exists = ROM }	ROM = { add_to_war = { targeted_alliance = GER enemy = SOV } }	}
+		if = { limit = { country_exists = BUL }	BUL = { add_to_war = { targeted_alliance = GER enemy = SOV } } }
+		if = { limit = { country_exists = SPR }	SPR = { add_to_war = { targeted_alliance = GER enemy = SOV } } }
 		SOV = { 		SOV_relocate_mil=yes		
 		SOV_relocate_mil=yes
 		SOV_relocate_mil=yes		
@@ -1585,7 +1494,7 @@ GER_case_anton = {
     FRA_annex_saf = {
 		icon = generic_operation
 		allowed = {	original_tag = CAN	}
-		available = {	SAF = { 	is_ai = yes 	}	date > 1941.5.1	}
+		available = {	SAF = { 	is_ai = yes 	}	date > 1941.1.1	}
 		visible = { NOT = {  has_start_date > 1936.01.02    } }
 		cost = 0					
 		fire_only_once = yes
@@ -3061,6 +2970,42 @@ MEX_category_church_power = {
 }
 
 USA_aid_britain = {
+	USA_plane_eng = {
+		allowed = {	original_tag = USA } 
+		icon = generic_naval
+		fire_only_once = yes
+		complete_effect = { activate_mission = USA_plane_LL1	}		
+	}
+	USA_plane_LL1 = {
+		allowed = {	original_tag = USA }	
+		icon = generic_naval
+		available = { tag = Gay	}
+		days_mission_timeout = 10
+		fire_only_once = no
+		is_good = yes
+		activation = { always = no	}
+		timeout_effect = {
+		USA_all_plane_LL = yes	
+		activate_mission = USA_plane_LL2		
+		}
+		complete_effect = {	
+		}
+	}
+	USA_plane_LL2 = {
+		allowed = {	original_tag = USA }	
+		icon = generic_naval
+		available = { tag = Gay	}
+		days_mission_timeout = 10
+		fire_only_once = no
+		is_good = yes
+		activation = { always = no	}
+		timeout_effect = {
+		USA_all_plane_LL = yes	
+		activate_mission = USA_plane_LL1		
+		}
+		complete_effect = {	
+		}
+	}
 	USA_establish_personal_communication_with_former_naval_person = {
 		icon = generic_political_discourse
 		allowed = {	original_tag = USA	}

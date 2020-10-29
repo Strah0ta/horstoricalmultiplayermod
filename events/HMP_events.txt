@@ -714,6 +714,19 @@ name = "Fanculo!"
 }
 	}
 	
+	country_event = {
+	id = iran.4
+	title = ""
+	desc = ""
+	picture = GFX_report_event_soviet_tanks_snow
+	
+	is_triggered_only = yes
+	
+option = {
+name = ""
+	
+}
+	}
 	
 	
 add_namespace = wtt_japan
