@@ -572,7 +572,7 @@ ideas = {
 			picture = generic_license_production
 
 			equipment_bonus = {
-				motorized_equipment = { build_cost_ic = -0.1instant = yes }
+				motorized_equipment = { build_cost_ic = -0.1 instant = yes }
 				mechanized_equipment = { build_cost_ic = -0.2 instant = yes }
 				amphibious_mechanized_equipment = { build_cost_ic = -0.2 instant = yes }				
 			}
