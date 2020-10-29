@@ -361,7 +361,7 @@ focus_tree = {
 			}
 			every_state = { 
 			limit = { is_core_of = JAP}
-			add_state_modifier = { modifier = { local_building_slots_factor = 0.4  } }
+			add_state_modifier = { modifier = { local_building_slots_factor = 0.2  } }
 			}
 		}
 	}

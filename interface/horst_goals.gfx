@@ -112,6 +112,11 @@ spriteTypes = {
 	texturefile = "gfx/interface/goals/focus_spa_the_spanish_miracle.dds"			
 	}	
 	
+			SpriteType = {
+	name = "GFX_focus_ita_irq" ###
+	texturefile = "gfx/interface/goals/focus_ita_irq.dds"			
+	}	
+	
 		SpriteType = {
 	name = "GFX_ger_restrict_recruitment" ###BROKEN
 	texturefile = "gfx/interface/goals/ger_restrict_recruitment.dds"			

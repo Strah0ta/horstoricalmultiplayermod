@@ -824,12 +824,8 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-if = {
-limit = { NOT = { NOR = { is_in_faction	= yes }}}
-		ENG = { country_event = { id = britain.1113 } }
-}
-		add_ideas = NOR_training
-		remove_ideas = nor_bad_debuffs2
+			add_ideas = NOR_training
+			remove_ideas = nor_bad_debuffs2
 	
 		}
 		}
@@ -1051,9 +1047,7 @@ limit = { NOT = { NOR = { is_in_faction	= yes }}}
 		available_if_capitulated = yes
 
 		completion_reward = {
-					
-					add_timed_idea = { idea = NOR_crofter days = 90 }
-					remove_ideas = nor_bad_debuffs
+			add_timed_idea = { idea = NOR_crofter days = 90 }
 		}
 		
 		}

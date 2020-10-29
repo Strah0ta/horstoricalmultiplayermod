@@ -1364,7 +1364,27 @@ date > 1941.6.1
 			}
 		}
 	
-	
+		focus = {
+		id = ITA_align_iraq
+		available = { ENG = {  has_decision = operation_countenance	} }
+		
+		prerequisite = { focus = ITA_italia_irredenta }
+		
+		icon = GFX_focus_ita_irq
+		x = 0
+		y = 1
+
+		relative_position_id = ITA_italia_irredenta
+		cost = 1
+
+		completion_reward = {
+			custom_effect_tooltip = "We will recruit Iraqi nationalists for our cause."
+			hidden_effect = { 
+			if = { limit = { NOT = {has_tech = anti_tank2 }} set_technology = anti_tank2  }
+			load_oob = "ITA_IRQ_Spawn" 
+			}
+		}
+}
 	
 	focus = {
 		id = ITA_german_millitary_cooperation

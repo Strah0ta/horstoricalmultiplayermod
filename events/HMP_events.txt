@@ -196,7 +196,7 @@ country_event = {
 
 	option = {
 		name = poland.100.a
-		ENG = { add_to_faction = NOR }
+		NOR =  {  set_capital = 323  }   ENG = { add_to_faction = NOR puppet = NOR }
 	}
 }
 
@@ -2513,34 +2513,6 @@ country_event = {
 			
 	}
 	
-}
-   country_event = {
-	id = britain.1113
-	title = britain.1113.t
-	desc = britain.1113.d
-	picture = GFX_report_event_degaulle_churchill
-
-	is_triggered_only = yes
-	
-	option = {
-		name = britain.1113.a
-		NOR = { set_rule = { can_join_factions = yes }}
-		add_to_faction = NOR
-		NOR = { country_event = { id = britain.1114} }
-	}
-}
-
-country_event = {
-	id = britain.1114
-	title = britain.1114.t
-	desc = britain.1114.d
-	picture = GFX_report_event_generic_sign_treaty2
-
-	is_triggered_only = yes
-
-	option = {
-		name = britain.1114.a
-	}
 }
 
 country_event = {

@@ -28,8 +28,7 @@ country = {
 	nor_bad_debuffs = {
 	picture = generic_disjointed_gov
 	modifier = {
-	surrender_limit = -0.11
-	defensive_war_stability_factor = -0.20
+	surrender_limit = 1
 	industrial_capacity_dockyard = -0.80
 	conversion_cost_civ_to_mil_factor = 3.0
 		}
