@@ -1099,7 +1099,7 @@ add_equipment_production = {
 			ahead_reduction = 2
 			technology = mechanised_infantry
 			}
-		
+		add_ideas = GER_mech
 		}
 	}
 
