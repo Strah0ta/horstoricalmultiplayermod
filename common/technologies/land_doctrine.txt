@@ -178,17 +178,7 @@ technologies = {
 			name = land_doctrine_folder
 			position = { x = -2 y = 6 }
 		}
-		
-		ai_will_do = {
-			factor = 20
-		}
-		
-		ai_research_weights = {
-			armor = 1.0
-			defensive = -2.0
-			motorized_equipment = 3.0
-			cat_mechanized_equipment = 5.0
-		}
+
 	}
 	
 	mass_motorization = {
@@ -219,14 +209,7 @@ technologies = {
 			position = { x = -2 y = 8 }
 		}
 		
-		ai_will_do = {
-			factor = 20
-		}
-		
-		ai_research_weights = {
-			armor = 2.0
-			defensive = -12.0
-		}
+	
 	}
 	
 	mechanised_offensive = {
@@ -276,16 +259,7 @@ technologies = {
 			name = land_doctrine_folder
 			position = { x = -2 y = 10 }
 		}
-		
-		ai_will_do = {
-			factor = 20
-		}
-		
-		ai_research_weights = {
-			armor = 2.0
-			motorized_equipment = 2.0
-			cat_mechanized_equipment = 2.0
-		}
+
 	}
 	
 	armored_spearhead = { #Branch focused on Tanks 
@@ -324,16 +298,7 @@ technologies = {
 			name = land_doctrine_folder
 			position = { x = 2 y = 6 }
 		}
-		
-		ai_will_do = {
-			factor = 20
-		}
-		
-		ai_research_weights = {
-			armor = 16.0
-			offensive = -1.0
-			cat_mechanized_equipment = 2.0
-		}
+	
 	}
 	
 	schwerpunk = {
@@ -367,16 +332,7 @@ technologies = {
 			name = land_doctrine_folder
 			position = { x = 2 y = 8 }
 		}
-		
-		ai_will_do = {
-			factor = 20
-		}
-		
-		ai_research_weights = {
-			armor = 2.5
-			offensive = -2.0
-			cat_mechanized_equipment = 1.5
-		}
+
 	}
 	
 	blitzkrieg = {
@@ -429,15 +385,7 @@ technologies = {
 			name = land_doctrine_folder
 			position = { x = 2 y = 10 }
 		}
-		
-		ai_will_do = {
-			factor = 20
-		}
-		
-		ai_research_weights = {
-			armor = 2.5
-			cat_mechanized_equipment = 1.5
-		}
+	
 	}
 	
 	kampfgruppe = {
@@ -476,14 +424,7 @@ technologies = {
 			name = land_doctrine_folder
 			position = { x = 0 y = 12 }
 		}
-		
-		ai_will_do = {
-			factor = 20
-		}
-		
-		ai_research_weights = {
-			armor = 3.0
-		}
+	
 	}
 	
 	firebrigades = { #Branch focused on mobile warfares
@@ -524,14 +465,7 @@ technologies = {
 			name = land_doctrine_folder
 			position = { x = 2 y = 14 }
 		}
-		
-		ai_will_do = {
-			factor = 20
-		}
-		
-		ai_research_weights = {
-			armor = 2.0
-		}
+
 	}
 	
 	backhand_blow = {
@@ -561,14 +495,6 @@ technologies = {
 			position = { x = 2 y = 16 }
 		}
 		
-		ai_will_do = {
-			factor = 20
-
-		}
-		
-		ai_research_weights = {
-			armor = 2.0
-		}
 	}
 	
 	modern_blitzkrieg = {
@@ -603,14 +529,6 @@ technologies = {
 			position = { x = 2 y = 18 }
 		}
 		
-		ai_will_do = {
-			factor = 20
-
-		}
-		
-		ai_research_weights = {
-			armor = 2.0
-		}
 	}
 	
 	volkssturm = {
@@ -643,16 +561,7 @@ technologies = {
 			name = land_doctrine_folder
 			position = { x = -2 y = 14 }
 		}
-		
-		ai_will_do = {
-			factor = 20
-		
-		
-		}
-		
-		ai_research_weights = {
-			armor = 2.0
-		}
+
 	}
 	
 	nd_conscription = {
@@ -680,15 +589,7 @@ technologies = {
 			name = land_doctrine_folder
 			position = { x = -2 y = 16 }
 		}
-		
-		ai_will_do = {
-			factor = 20
-		
-		}
-		
-		ai_research_weights = {
-			armor = 2.0
-		}
+	
 	}
 	
 	werwolf_guerillas = {
@@ -714,15 +615,7 @@ technologies = {
 			name = land_doctrine_folder
 			position = { x = -2 y = 18 }
 		}
-		
-		ai_will_do = {
-			factor = 20
-			
-		}
-		
-		ai_research_weights = {
-			armor = 2.0
-		}
+
 	}
 	
 	superior_firepower = {
@@ -859,16 +752,7 @@ technologies = {
 			name = land_doctrine_folder
 			position = { x = 2 y = 6 }
 		}
-		
-		ai_will_do = {
 	
-			
-			factor = 20
-		}
-		
-		ai_research_weights = {
-			artillery = 1.0
-		}
 	}
 	
 	regimental_combat_teams = {
@@ -900,16 +784,7 @@ technologies = {
 			name = land_doctrine_folder
 			position = { x = 2 y = 8 }
 		}
-		
-		ai_will_do = {
-			
-			factor = 20
-		
-		}
-		
-		ai_research_weights = {
-			artillery = 1.0
-		}
+	
 	}
 	
 	dispersed_support = { # Branch is focused on support units as part of the regular brigades
@@ -943,16 +818,7 @@ technologies = {
 			name = land_doctrine_folder
 			position = { x = -2 y = 6 }
 		}
-		
-		ai_will_do = {
-			
-			factor = 20
-			
-		}
-		
-		ai_research_weights = {
-			artillery = 1.0
-		}
+	
 	}
 	
 	overwhelming_firepower = {
@@ -985,15 +851,6 @@ technologies = {
 			position = { x = -2 y = 8 }
 		}
 		
-		ai_will_do = {
-			
-			factor = 20
-			
-		}
-		
-		ai_research_weights = {
-			artillery = 1.0
-		}
 	}
 	
 	sup_mechanized_offensive = {
@@ -1031,15 +888,7 @@ technologies = {
 			name = land_doctrine_folder
 			position = { x = 0 y = 10 }
 		}
-		
-		ai_will_do = {
-			factor = 20
-		
-		}
-		
-		ai_research_weights = {
-			artillery = 1.0
-		}
+	
 	}
 	
 	concentrated_fire_plans = {
@@ -1073,15 +922,7 @@ technologies = {
 			name = land_doctrine_folder
 			position = { x = -2 y = 12 }
 		}
-		
-		ai_will_do = {
-			factor = 20
-		
-		}
-		
-		ai_research_weights = {
-			artillery = 1.0
-		}
+	
 	}
 	
 	combined_arms = {
@@ -1115,15 +956,7 @@ technologies = {
 			name = land_doctrine_folder
 			position = { x = -2 y = 14 }
 		}
-		
-		ai_will_do = {
-			factor = 20
-		
-		}
-		
-		ai_research_weights = {
-			artillery = 1.0
-		}
+	
 	}
 	
 	tactical_control = {
@@ -1154,14 +987,7 @@ technologies = {
 			position = { x = -2 y = 16 }
 		}
 		
-		ai_will_do = {
-			factor = 20
 	
-		}
-		
-		ai_research_weights = {
-			artillery = 1.0
-		}
 	}
 	
 	air_land_battle = {
@@ -1189,13 +1015,7 @@ technologies = {
 			position = { x = -2 y = 18 }
 		}
 		
-		ai_will_do = {
-			factor = 20
-		}
 		
-		ai_research_weights = {
-			artillery = 1.0
-		}
 	}
 	
 	centralized_fire_control = {
@@ -1231,15 +1051,7 @@ technologies = {
 			name = land_doctrine_folder
 			position = { x = 2 y = 12 }
 		}
-		
-		ai_will_do = {
-			factor = 20
-		
-		}
-		
-		ai_research_weights = {
-			artillery = 1.0
-		}
+
 	}
 	
 	forward_observers = {
@@ -1271,15 +1083,7 @@ technologies = {
 			name = land_doctrine_folder
 			position = { x = 2 y = 14 }
 		}
-		
-		ai_will_do = {
-			factor = 20
-		
-		}
-		
-		ai_research_weights = {
-			artillery = 1.0
-		}
+
 	}
 	
 	advanced_firebases = {
@@ -1323,15 +1127,7 @@ technologies = {
 			name = land_doctrine_folder
 			position = { x = 2 y = 16 }
 		}
-		
-		ai_will_do = {
-			factor = 20
-	
-		}
-		
-		ai_research_weights = {
-			artillery = 1.0
-		}
+
 	}
 	
 	shock_and_awe = {
@@ -1367,14 +1163,6 @@ technologies = {
 			position = { x = 2 y = 18 }
 		}
 		
-		ai_will_do = {
-			factor = 20
-		
-		}
-		
-		ai_research_weights = {
-			artillery = 1.0
-		}
 	}
 	
 	
@@ -1409,21 +1197,7 @@ technologies = {
 			name = land_doctrine_folder
 			position = { x = 0 y = 0 }
 		}
-		
-		ai_will_do = {
-			modifier = {
-				not = {
-					has_army_experience > 120
-				}
-				factor = 0.8
-			}
-			factor = 20
-		}
-		
-		ai_research_weights = {
-			infantry_weapons = 1.5
-			motorized_equipment = 1.0
-		}
+	
 	}
 	
 	grand_battle_plan = {
@@ -1498,21 +1272,7 @@ technologies = {
 			name = land_doctrine_folder
 			position = { x = 0 y = 4 }
 		}
-		
-		ai_will_do = {
-			factor = 20
-			modifier = {
-				not = {
-					has_army_experience > 120
-				}
-				factor = 0.8
-			}
-		}
-		
-		ai_research_weights = {
-			infantry_weapons = 1.5
-			motorized_equipment = 1.0
-		}
+	
 	}
 	
 	grand_assault = {
@@ -1547,16 +1307,6 @@ technologies = {
 		folder = {
 			name = land_doctrine_folder
 			position = { x = 0 y = 6 }
-		}
-		
-		ai_will_do = {
-			factor = 20
-			
-		}
-		
-		ai_research_weights = {
-			infantry_weapons = 1.5
-			motorized_equipment = 1.0
 		}
 	}
 	
@@ -1603,17 +1353,6 @@ technologies = {
 			name = land_doctrine_folder
 			position = { x = -2 y = 8 }
 		}
-		
-		ai_will_do = {
-			factor = 20
-			
-		}
-		
-		ai_research_weights = {
-			infantry_weapons = 1.5
-			motorized_equipment = 1.0
-			cat_mechanized_equipment = 1.0
-		}
 	}
 	
 	assault_concentration = {
@@ -1641,17 +1380,6 @@ technologies = {
 		folder = {
 			name = land_doctrine_folder
 			position = { x = -2 y = 10 }
-		}
-		
-		ai_will_do = {
-			factor = 20
-			
-		}
-		
-		ai_research_weights = {
-			infantry_weapons = 1.5
-			motorized_equipment = 1.0
-			cat_mechanized_equipment = 1.0
 		}
 	}
 	
@@ -1687,16 +1415,7 @@ technologies = {
 			name = land_doctrine_folder
 			position = { x = -2 y = 12 }
 		}
-		
-		ai_will_do = {
-			factor = 20
-		
-		}
-		
-		ai_research_weights = {
-			infantry_weapons = 1.5
-			motorized_equipment = 1.0
-		}
+	
 	}
 	
 	assault_breakthrough = {
@@ -1728,17 +1447,7 @@ technologies = {
 			name = land_doctrine_folder
 			position = { x = -2 y = 14 }
 		}
-		
-		ai_will_do = {
-			factor = 20
-			
-		}
-		
-		ai_research_weights = {
-			infantry_weapons = 1.5
-			motorized_equipment = 1.0
-			cat_mechanized_equipment = 1.0
-		}
+
 	}
 	
 	central_planning = {
@@ -1767,15 +1476,6 @@ technologies = {
 			position = { x = -2 y = 16 }
 		}
 		
-		ai_will_do = {
-			factor = 20
-		
-		}
-		
-		ai_research_weights = {
-			infantry_weapons = 1.5
-			motorized_equipment = 1.0
-		}
 	}
 	
 	c3i_theory = {
@@ -1807,14 +1507,6 @@ technologies = {
 			position = { x = -2 y = 18 }
 		}
 		
-		ai_will_do = {
-			factor = 20
-		}
-		
-		ai_research_weights = {
-			infantry_weapons = 1.5
-			motorized_equipment = 1.0
-		}
 	}
 	
 	infantry_offensive = {
@@ -1850,15 +1542,6 @@ technologies = {
 			position = { x = 2 y = 8 }
 		}
 		
-		ai_will_do = {
-			factor = 20
-			
-		}
-		
-		ai_research_weights = {
-			infantry_weapons = 1.5
-			motorized_equipment = 1.0
-		}
 	}
 	
 	armored_operations = {
@@ -1898,16 +1581,7 @@ technologies = {
 			name = land_doctrine_folder
 			position = { x = 2 y = 10 }
 		}
-		
-		ai_will_do = {
-			factor = 20
-			
-		}
-		
-		ai_research_weights = {
-			infantry_weapons = 1.5
-			motorized_equipment = 1.0
-		}
+
 	}
 	
 	infiltration_assault = {
@@ -1935,16 +1609,7 @@ technologies = {
 			name = land_doctrine_folder
 			position = { x = 2 y = 12 }
 		}
-		
-		ai_will_do = {
-			factor = 20
-		
-		}
-		
-		ai_research_weights = {
-			infantry_weapons = 1.5
-			motorized_equipment = 1.0
-		}
+	
 	}
 	
 	night_assault_tactics = {
@@ -1975,16 +1640,7 @@ technologies = {
 			name = land_doctrine_folder
 			position = { x = 2 y = 14 }
 		}
-		
-		ai_will_do = {
-			factor = 20
-			
-		}
-		
-		ai_research_weights = {
-			infantry_weapons = 1.5
-			motorized_equipment = 1.0
-		}
+	
 	}
 	
 	attritional_containment = {
@@ -2018,16 +1674,7 @@ technologies = {
 			name = land_doctrine_folder
 			position = { x = 2 y = 16 }
 		}
-		
-		ai_will_do = {
-			factor = 20
-		
-		}
-		
-		ai_research_weights = {
-			infantry_weapons = 1.5
-			motorized_equipment = 1.0
-		}
+	
 	}
 	
 	infiltration_in_depth = {
@@ -2053,16 +1700,7 @@ technologies = {
 			name = land_doctrine_folder
 			position = { x = 2 y = 18 }
 		}
-		
-		ai_will_do = {
-			factor = 20
-			
-		}
-		
-		ai_research_weights = {
-			infantry_weapons = 1.5
-			motorized_equipment = 1.0
-		}
+
 	}
 	
 	mass_assault = {
@@ -2094,20 +1732,7 @@ technologies = {
 			name = land_doctrine_folder
 			position = { x = 0 y = 0 }
 		}
-		
-		ai_will_do = {
-			factor = 20
-			modifier = {
-				not = {
-					has_army_experience > 120
-				}
-				factor = 0.8
-			}
-		}
-		
-		ai_research_weights = {
-			industry = 2.0
-		}
+
 	}
 	
 	pocket_defence = {
@@ -2142,20 +1767,7 @@ technologies = {
 			name = land_doctrine_folder
 			position = { x = 0 y = 2 }
 		}
-		
-		ai_will_do = {
-			factor = 20
-			modifier = {
-				not = {
-					has_army_experience > 120
-				}
-				factor = 0.8
-			}
-		}
-		
-		ai_research_weights = {
-			industry = 2.0
-		}
+
 	}
 	
 	defence_in_depth = {
@@ -2191,20 +1803,7 @@ technologies = {
 			name = land_doctrine_folder
 			position = { x = 0 y = 4 }
 		}
-		
-		ai_will_do = {
-			factor = 20
-			modifier = {
-				not = {
-					has_army_experience > 120
-				}
-				factor = 0.8
-			}
-		}
-		
-		ai_research_weights = {
-			industry = 2.0
-		}
+
 	}
 	
 	large_front_operations = {
@@ -2240,14 +1839,6 @@ technologies = {
 			position = { x = -2 y = 6 }
 		}
 		
-		ai_will_do = {
-			factor = 20
-	
-		}
-		
-		ai_research_weights = {
-			industry = 2.0
-		}
 	}
 	
 	deep_operations = {
@@ -2282,15 +1873,6 @@ technologies = {
 			name = land_doctrine_folder
 			position = { x = -2 y = 8 }
 		}
-		
-		ai_will_do = {
-			factor = 20
-		
-		}
-		
-		ai_research_weights = {
-			industry = 2.0
-		}
 	}
 	
 	operational_concentration = {
@@ -2320,15 +1902,6 @@ technologies = {
 			name = land_doctrine_folder
 			position = { x = -2 y = 10 }
 		}
-		
-		ai_will_do = {
-			factor = 20
-		
-		}
-		
-		ai_research_weights = {
-			industry = 2.0
-		}
 	}
 	
 	vast_offensives = {
@@ -2356,15 +1929,6 @@ technologies = {
 		folder = {
 			name = land_doctrine_folder
 			position = { x = -2 y = 12 }
-		}
-		
-		ai_will_do = {
-			factor = 20
-		
-		}
-		
-		ai_research_weights = {
-			industry = 2.0
 		}
 	}
 	
@@ -2404,15 +1968,6 @@ technologies = {
 		folder = {
 			name = land_doctrine_folder
 			position = { x = -2 y = 14 }
-		}
-		
-		ai_will_do = {
-			factor = 20
-		
-		}
-		
-		ai_research_weights = {
-			industry = 2.0
 		}
 	}
 	
@@ -2462,16 +2017,6 @@ technologies = {
 			name = land_doctrine_folder
 			position = { x = -2 y = 16 }
 		}
-		
-		ai_will_do = {
-			factor = 20
-		
-		}
-		
-		ai_research_weights = {
-			industry = 2.0
-			cat_mechanized_equipment = 3.0
-		}
 	}
 	
 	continuous_offensive = {
@@ -2497,14 +2042,6 @@ technologies = {
 			position = { x = -2 y = 18 }
 		}
 		
-		ai_will_do = {
-			factor = 20
-	
-		}
-		
-		ai_research_weights = {
-			industry = 2.0
-		}
 	}
 	
 	peoples_army = {
@@ -2543,15 +2080,7 @@ technologies = {
 			name = land_doctrine_folder
 			position = { x = 2 y = 6 }
 		}
-		
-		ai_will_do = {
-			factor = 20
 
-		}
-		
-		ai_research_weights = {
-			industry = 2.0
-		}
 	}
 	
 	human_infantry_offensive = {
@@ -2580,20 +2109,6 @@ technologies = {
 		folder = {
 			name = land_doctrine_folder
 			position = { x = 2 y = 8 }
-		}
-		
-		ai_will_do = {
-			factor = 20
-			modifier = {
-				not = {
-					has_army_experience > 120
-				}
-				factor = 0.8
-			}
-		}
-		
-		ai_research_weights = {
-			industry = 2.0
 		}
 	}
 	
@@ -2631,19 +2146,7 @@ technologies = {
 			position = { x = 2 y = 10 }
 		}
 		
-		ai_will_do = {
-			factor = 20
-			modifier = {
-				not = {
-					has_army_experience > 120
-				}
-				factor = 0.8
-			}
-		}
-		
-		ai_research_weights = {
-			industry = 2.0
-		}
+
 	}
 	
 	human_wave_offensive = {
@@ -2674,20 +2177,6 @@ technologies = {
 			position = { x = 2 y = 12 }
 		}
 		
-		ai_will_do = {
-			factor = 20
-			modifier = {
-				not = {
-					has_army_experience > 120
-				}
-				factor = 0.8
-			}
-		}
-		
-		ai_research_weights = {
-			infantry_weapons = 1.0
-			industry = 2.0
-		}
 	}
 	
 	guerilla_warfare = {
@@ -2715,20 +2204,7 @@ technologies = {
 			name = land_doctrine_folder
 			position = { x = 2 y = 14 }
 		}
-		
-		ai_will_do = {
-			modifier = {
-				not = {
-					has_army_experience > 120
-				}
-				factor = 0.8
-			}
-			factor = 20
-		}
-		
-		ai_research_weights = {
-			industry = 2.0
-		}
+
 	}
 	
 }

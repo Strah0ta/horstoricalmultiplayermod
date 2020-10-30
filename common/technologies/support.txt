@@ -581,29 +581,7 @@ technologies = {
 			logistics_tech
 			motorized_equipment
 		}
-		
-		ai_will_do = {
-			factor = 1
-			
-			modifier = {
-				factor = 1.2
-				date > "1937.1.1"
-			}
-			
-			modifier = {
-				factor = 1.2
-				date > "1938.1.1"
-			}
-			
-			modifier = {
-				factor = 1.2
-				date > "1939.1.1"
-			}
-			modifier = {
-				factor = 5
-				date > "1940.1.1"
-			}
-		}
+
 	}
 	
 	tech_logistics_company2 = {
@@ -631,30 +609,6 @@ technologies = {
 			logistics_tech
 			motorized_equipment
 		}
-		
-		ai_will_do = {
-			factor = 1
-			
-			modifier = {
-				factor = 1.2
-				date > "1940.1.1"
-			}
-			
-			modifier = {
-				factor = 2
-				date > "1941.1.1"
-			}
-			
-			modifier = {
-				factor = 2
-				date > "1942.1.1"
-			}
-
-			modifier = {
-				factor = 2
-				tag = GER
-			}
-		}
 	}
 	
 	tech_logistics_company3 = {
@@ -680,25 +634,6 @@ technologies = {
 			logistics_tech
 			motorized_equipment
 		}
-		
-		ai_will_do = {
-			factor = 1
-			
-			modifier = {
-				factor = 1.2
-				date > "1943.1.1"
-			}
-			
-			modifier = {
-				factor = 2
-				date > "1944.1.1"
-			}
-			
-			modifier = {
-				factor = 2
-				date > "1945.1.1"
-			}
-		}
 	}
 	tech_logistics_company4 = {
 
@@ -719,25 +654,7 @@ technologies = {
 			logistics_tech
 			motorized_equipment
 		}
-		
-		ai_will_do = {
-			factor = 1
-			
-			modifier = {
-				factor = 1.2
-				date > "1946.1.1"
-			}
-			
-			modifier = {
-				factor = 2
-				date > "1947.1.1"
-			}
-			
-			modifier = {
-				factor = 2
-				date > "1948.1.1"
-			}
-		}
+	
 	}
 
 
@@ -770,15 +687,6 @@ technologies = {
 			electronics
 		}
 		
-		ai_will_do = {
-			factor = 1
-
-			modifier = {
-				factor = 5
-				is_major = yes
-				date > "1940.1.1"
-			}
-		}
 	}
 	
 	tech_signal_company2 = {
@@ -805,25 +713,6 @@ technologies = {
 			signal_company_tech
 			electronics
 		}
-		
-		ai_will_do = {
-			factor = 1
-			
-			modifier = {
-				factor = 1.2
-				date > "1937.1.1"
-			}
-			
-			modifier = {
-				factor = 1.2
-				date > "1938.1.1"
-			}
-			
-			modifier = {
-				factor = 1.2
-				date > "1939.1.1"
-			}
-		}
 	}
 	
 	tech_signal_company3 = {
@@ -848,25 +737,7 @@ technologies = {
 			signal_company_tech
 			electronics
 		}
-		
-		ai_will_do = {
-			factor = 1
-			
-			modifier = {
-				factor = 1.2
-				date > "1943.1.1"
-			}
-			
-			modifier = {
-				factor = 1.2
-				date > "1944.1.1"
-			}
-			
-			modifier = {
-				factor = 1.2
-				date > "1945.1.1"
-			}
-		}
+
 	}
 	tech_signal_company4 = {
 
@@ -886,26 +757,5 @@ technologies = {
 			signal_company_tech
 			electronics
 		}
-		
-		ai_will_do = {
-			factor = 1
-			
-			modifier = {
-				factor = 1.2
-				date > "1946.1.1"
-			}
-			
-			modifier = {
-				factor = 1.2
-				date > "1947.1.1"
-			}
-			
-			modifier = {
-				factor = 1.2
-				date > "1948.1.1"
-			}
-		}
 	}
-
-
 }

@@ -715,7 +715,7 @@ name = "Fanculo!"
 	}
 	
 	country_event = {
-	id = iran.4
+	id = iran.5
 	title = ""
 	desc = ""
 	picture = GFX_report_event_soviet_tanks_snow

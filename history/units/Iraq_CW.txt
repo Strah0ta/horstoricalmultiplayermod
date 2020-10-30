@@ -1,0 +1,158 @@
+﻿division_template = {
+	name = "Alfurqat Almasha"		# Same for "Active" and "Reserve" Infantry Divisions
+	division_names_group = ALB_INF_01
+	is_locked = yes
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		infantry = { x = 2 y = 3 }
+		
+	}
+
+}
+
+units = {
+	division = {
+		name = "I Alfurqat Almasha"
+		location = 2097
+		division_template = "Alfurqat Almasha"	
+	}
+	division = {
+		name = "III Alfurqat Almasha"
+	location = 2097
+		division_template = "Alfurqat Almasha"
+		}
+	division = {
+		name = "IV Alfurqat Almasha"
+			location = 2097
+		division_template = "Alfurqat Almasha"
+		}
+
+	division = {
+		name = "V Alfurqat Almasha"
+		location = 2097
+		division_template = "Alfurqat Almasha"
+		}
+	division = {
+		name = "VI Alfurqat Almasha"
+		location = 2097
+		division_template = "Alfurqat Almasha"
+		}
+
+	division = {
+		name = "VII Alfurqat Almasha"
+			location = 2097
+		division_template = "Alfurqat Almasha"
+		start_equipment_factor = 1
+		}
+
+	division = {
+		name = "VIII Alfurqat Almasha"
+		location = 3795
+		division_template = "Alfurqat Almasha"
+		}
+	division = {
+		name = "IX Alfurqat Almasha"
+		location = 3795
+		division_template = "Alfurqat Almasha"
+		}
+	division = {
+		name = "X Alfurqat Almasha"
+			location = 3795
+		division_template = "Alfurqat Almasha"
+		start_equipment_factor = 1
+		}
+	division = {
+		name = "XI Alfurqat Almasha"
+		location = 12413
+		division_template = "Alfurqat Almasha"
+		}
+			division = {
+		name = "II Alfurqat Almasha"
+		location = 12413
+		division_template = "Alfurqat Almasha"
+		}
+			division = {
+		name = "XII Alfurqat Almasha"
+		location = 12413
+		division_template = "Alfurqat Almasha"
+		}
+			division = {
+		name = "XII Alfurqat Almasha"
+		location = 12413
+		division_template = "Alfurqat Almasha"
+		}
+			division = {
+		name = "XIV Alfurqat Almasha"
+		location = 12413
+		division_template = "Alfurqat Almasha"
+		}
+			division = {
+		name = "XV Alfurqat Almasha"
+		location = 12413
+		division_template = "Alfurqat Almasha"
+		}
+			division = {
+		name = "XVI Alfurqat Almasha"
+		location = 12413
+		division_template = "Alfurqat Almasha"	
+}
+			division = {
+		name = "XVII Alfurqat Almasha"
+		location = 12413
+		division_template = "Alfurqat Almasha"
+		}
+			division = {
+		name = "XVIII Alfurqat Almasha"
+		location = 12413
+		division_template = "Alfurqat Almasha"
+		}
+			division = {
+		name = "XIX Alfurqat Almasha"
+		location = 12413
+		division_template = "Alfurqat Almasha"
+		}
+			division = {
+		name = "XX Alfurqat Almasha"
+		location = 12413
+		division_template = "Alfurqat Almasha"
+		}
+division = {
+		name = "XXI Alfurqat Almasha"
+		location = 12413
+		division_template = "Alfurqat Almasha"
+		}
+division = {
+		name = "XXI Alfurqat Almasha"
+		location = 12413
+		division_template = "Alfurqat Almasha"
+		}
+		division = {
+		name = "XXII Alfurqat Almasha"
+		location = 12413
+		division_template = "Alfurqat Almasha"
+		}
+		division = {
+		name = "XXIII Alfurqat Almasha"
+		location = 12413
+		division_template = "Alfurqat Almasha"
+		}
+		division = {
+		name = "XXIV Alfurqat Almasha"
+		location = 12413
+		division_template = "Alfurqat Almasha"
+		}
+		division = {
+		name = "XXV Alfurqat Almasha"
+		location = 12413
+		division_template = "Alfurqat Almasha"
+		}
+}

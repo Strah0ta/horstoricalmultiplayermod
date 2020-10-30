@@ -779,10 +779,6 @@ technologies = {
 			jet_technology
 			tactical_bomber
 		}
-		
-		ai_will_do = {
-			factor = 1
-		}
 	}
 	
 	

@@ -3684,6 +3684,95 @@ democratic_russia = {
 			set_politics = { ruling_party = democratic }
 		}
 	}
+	
+	catch_up_iraq_with_tech = {
+	set_technology = { popup = no
+	gw_artillery = 1 
+	interwar_artillery = 1
+	artillery1 = 1 
+	artillery2 = 1 
+	rocket_artillery = 1
+	interwar_antiair = 1
+	antiair1 = 1
+    interwar_antitank = 1	
+	antitank1 = 1
+	antitank2 = 1
+	electronic_mechanical_engineering = 1
+	radio = 1
+	mechanical_computing = 1
+	computing_machine = 1
+	basic_machine_tools = 1
+	improved_machine_tools = 1 
+	advanced_machine_tools = 1
+	dispersed_industry = 1
+	dispersed_industry2 = 1 
+	dispersed_industry3 = 1 
+	fuel_silos = 1 
+	construction1 = 1 
+	construction2 = 1 
+	construction3 = 1 
+	construction4 = 1 
+	excavation1 = 1 
+	excavation2 = 1 
+	excavation3 = 1 
+	excavation4 = 1
+	infantry_weapons1 = 1 
+	infantry_weapons2 = 1
+	improved_infantry_weapons = 1 
+    tech_special_forces = 1
+    support_weapons = 1 
+	support_weapons2 = 1
+	support_weapons3 = 1
+	motorised_infantry = 1 
+	}
+	}
+	
+	iraq_gbp_doctrine = {
+	hidden_effect = { 
+		set_technology = { popup = no
+	trench_warfare = 1  
+	grand_battle_plan = 1
+	prepared_defense = 1
+	infantry_offensive = 1
+	armored_operations = 1
+	infiltration_assault = 1
+	}
+	}
+	}
+		iraq_ma_doctrine = {
+			hidden_effect = {
+				set_technology = { popup = no
+	mass_assault = 1 
+	pocket_defence = 1 
+	peoples_army = 1
+	human_infantry_offensive = 1
+	large_front_offensive = 1 
+	human_wave_offensive = 1
+	}
+	}
+	}
+		iraq_sf_doctrine = {
+			hidden_effect = { 
+				set_technology = { popup = no
+	superior_firepower = 1
+	sup_delay = 1 
+	mobile_defence = 1
+	intergrated_support = 1 
+	regimental_combat_teams = 1
+	sup_mechanized_offensive = 1
+	}
+	}
+	}
+
+	stoke_iraqi_nationalism_effect = {
+	ALB  = { 
+	transfer_state = 291 set_capital = 291
+	load_focus_tree = iraq_focus_tree  
+	load_oob = "Iraq_CW"  
+	set_politics = {	ruling_party = fascism	elections_allowed = no	} 
+	set_cosmetic_tag = ALB_TO_IRQ 
+	}
+	}
 
 man_in_the_high_castle = {
 SPR = { 

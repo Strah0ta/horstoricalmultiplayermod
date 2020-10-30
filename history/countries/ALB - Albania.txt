@@ -36,3 +36,14 @@ create_country_leader = {
 		staunch_stalinist
 	}
 }
+
+create_country_leader = {
+	name = "Rashid Ali al-Gaylani"
+	desc = "POLITICS_KING_ZOG_DESC"
+	picture = "gfx/leaders/ALB/portrait_irq_rashid_al_gaylani.dds"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+		anti_british_revolutionary
+	}
+}

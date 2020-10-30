@@ -47,25 +47,6 @@ technologies = {
 		categories = {
 			artillery
 		}
-		
-		ai_will_do = {
-			factor = 2
-			
-			modifier = {
-				factor = 2
-				date > "1937.1.1"
-			}
-			
-			modifier = {
-				factor = 5
-				date > "1938.1.1"
-			}
-			
-			modifier = {
-				factor = 5
-				date > "1939.1.1"
-			}
-		}
 	}
 	
 	interwar_artillery = {
@@ -100,25 +81,6 @@ technologies = {
 		categories = {
 			artillery
 		}
-		
-		ai_will_do = {
-			factor = 2
-
-			modifier = {
-				factor = 2
-				date > "1937.1.1"
-			}
-			
-			modifier = {
-				factor = 2
-				date > "1938.1.1"
-			}
-			
-			modifier = {
-				factor = 5
-				date > "1939.1.1"
-			}
-		}
 	}
 	
 	artillery1 = {
@@ -143,25 +105,6 @@ technologies = {
 		
 		categories = {
 			artillery
-		}
-		
-		ai_will_do = {
-			factor = 2
-			
-			modifier = {
-				factor = 2
-				date > "1938.1.9"
-			}
-			
-			modifier = {
-				factor = 2
-				date > "1939.1.1"
-			}
-			
-			modifier = {
-				factor = 5
-				date > "1939.1.6"
-			}
 		}
 	}
 	
@@ -201,25 +144,6 @@ technologies = {
 		categories = {
 			artillery
 		}
-		
-		ai_will_do = {
-			factor = 2
-			
-			modifier = {
-				factor = 2
-				date > "1940.1.6"
-			}
-			
-			modifier = {
-				factor = 2
-				date > "1941.1.1"
-			}
-			
-			modifier = {
-				factor = 5
-				date > "1942.1.1"
-			}
-		}
 	}
 	
 	artillery3 = {
@@ -253,20 +177,6 @@ technologies = {
 		categories = {
 			artillery
 		}
-		
-		ai_will_do = {
-			factor = 2
-			
-			modifier = {
-				factor = 2
-				date > "1941.1.6"
-			}
-			
-			modifier = {
-				factor = 5
-				date > "1942.1.1"
-			}
-		}
 	}
 	
 	artillery4 = {
@@ -291,25 +201,6 @@ technologies = {
 		
 		categories = {
 			artillery
-		}
-		
-		ai_will_do = {
-			factor = 2
-			
-			modifier = {
-				factor = 2
-				date > "1941.1.9"
-			}
-			
-			modifier = {
-				factor = 2
-				date > "1942.1.1"
-			}
-			
-			modifier = {
-				factor = 5
-				date > "1942.1.6"
-			}
 		}
 	}
 	
@@ -339,25 +230,6 @@ technologies = {
 		categories = {
 			artillery
 		}
-		
-		ai_will_do = {
-			factor = 2
-			
-			modifier = {
-				factor = 2
-				date > "1943.1.6"
-			}
-			
-			modifier = {
-				factor = 2
-				date > "1944.1.1"
-			}
-			
-			modifier = {
-				factor = 5
-				date > "1945.1.1"
-			}
-		}
 	}
 
 	mountain_gun = {
@@ -384,7 +256,6 @@ technologies = {
 	
 		jungle_training = {
 		research_cost = 1
-		# only from focus!!! #####
 		allow = {	always = no	}
 
 		artillery_brigade = {

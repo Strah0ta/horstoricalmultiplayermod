@@ -75,11 +75,7 @@ technologies = {
 		categories = {
 			infantry_weapons
 		}
-		
-		ai_will_do = {
-			factor = 1
 		}
-	}
 			motti_warfare = {
 		research_cost = 1
 
@@ -695,10 +691,6 @@ technologies = {
 		categories = {
 			infantry_tech
 		}
-
-		ai_will_do = {
-			factor = 0
-		}
 	}
 
 	camelry_2 = {
@@ -801,10 +793,6 @@ technologies = {
 			marine_tech
 			para_tech
 		}
-		
-		ai_will_do = {
-			factor = 0.7
-		}
 	}
 
 	improved_special_forces = {
@@ -829,10 +817,6 @@ technologies = {
 			mountaineers_tech
 			marine_tech
 			para_tech
-		}
-		
-		ai_will_do = {
-			factor = 0.7
 		}
 	}
 
@@ -862,10 +846,6 @@ technologies = {
 			marine_tech
 			para_tech
 		}
-		
-		ai_will_do = {
-			factor = 0.7
-		}
 	}
 
 
@@ -894,10 +874,6 @@ technologies = {
 			marine_tech
 			para_tech
 		}
-		
-		ai_will_do = {
-			factor = 0.7
-		}
 	}
 
 
@@ -922,10 +898,6 @@ technologies = {
 			mountaineers_tech
 			marine_tech
 			para_tech
-		}
-		
-		ai_will_do = {
-			factor = 0.7
 		}
 	}
 
@@ -1330,29 +1302,6 @@ technologies = {
 			motorized_equipment
 			infantry_tech
 		}
-		
-		ai_will_do = {
-			factor = 1
-			
-			modifier = {
-				factor = 2
-				date > "1937.1.1"
-			}
-			
-			modifier = {
-				factor = 2
-				date > "1938.1.1"
-			}
-			
-			modifier = {
-				factor = 2
-				date > "1939.1.1"
-			}
-			modifier = {
-				is_major = no
-				factor = 0.5
-			}
-		}
 	}
 	motorized_rocket_unit = {
 
@@ -1366,15 +1315,6 @@ technologies = {
 		research_cost = 1.5
 		start_year = 1939
 		sub_tech_index = 0
-		
-		ai_will_do = {
-			factor = 1
-			
-			modifier = {
-				factor = 2
-				tag = SOV
-			}
-		}
 		
 		categories = {
 			mot_rockets
