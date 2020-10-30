@@ -8,6 +8,7 @@
  mediterranean_naval_manufacturer:0 "Mediterranean Fleet Designer"
  MAN_fascism_party:0 "Concordia Association"
  MAN_fascism_party_long:0 "Concordia Association"
+ VICTORY_POINTS_2089:0 "Basrah Port"
  ETH_fascism_party:0 "Colonial Administration"
  USA_invest_in_state_infrastructure:0 "Railroad [USA_congress_investment_state.GetName]"
  USA_build_infrastructure_tt:0 "You will be expected to railroad [USA_congress_investment_state.GetName]"
