@@ -72,7 +72,7 @@ HMP_ll_soviets_guns = { #worth 1x
 									custom_effect_tooltip = HMP_ll_remove_guns
 				custom_effect_tooltip =  soviets_1_shipments_tt
 			hidden_effect = { send_equipment = { equipment = infantry_equipment amount = 5000 target = SWE } }
-			SOV = { add_to_variable = {  var = SOV_barb_ll_token   value = 1 } }						
+			SOV = { add_to_variable = {  var = SOV_barb_ll_token   value = 1 } add_to_variable = {  var = SOV_barb_ll_token2   value = 1 } }						
 		}
 	}
 	HMP_ll_soviets_guns_large = { #worth 20x 
@@ -85,7 +85,7 @@ HMP_ll_soviets_guns = { #worth 1x
 									custom_effect_tooltip = HMP_ll_remove_more_guns
 				custom_effect_tooltip =  soviets_20_shipments_tt
 			hidden_effect = { send_equipment = { equipment = infantry_equipment amount = 100000 target = SWE } }
-			SOV = { add_to_variable = {  var = SOV_barb_ll_token   value = 20 } }						
+			SOV = { add_to_variable = {  var = SOV_barb_ll_token   value = 20 } add_to_variable = {  var = SOV_barb_ll_token2   value = 20 } }						
 		}
 	}
 HMP_ll_soviets_aa = { #worth 1x 
@@ -98,7 +98,7 @@ HMP_ll_soviets_aa = { #worth 1x
 								custom_effect_tooltip = HMP_ll_remove_aa		
 				custom_effect_tooltip =  soviets_1_shipments_tt
 				hidden_effect = {send_equipment = { equipment = anti_air_equipment amount = 600 target = SWE }}
-			SOV = { add_to_variable = {  var = SOV_barb_ll_token   value = 1 } }					
+			SOV = { add_to_variable = {  var = SOV_barb_ll_token   value = 1 } add_to_variable = {  var = SOV_barb_ll_token2   value = 1 } }					
 		}
 	}
 HMP_ll_soviets_support = { #worth 1x 
@@ -111,7 +111,7 @@ HMP_ll_soviets_support = { #worth 1x
 								custom_effect_tooltip = HMP_ll_remove_support	
 				custom_effect_tooltip =  soviets_1_shipments_tt
 				hidden_effect = {send_equipment = { equipment = support_equipment amount = 1000 target = SWE }}
-			SOV = { add_to_variable = {  var = SOV_barb_ll_token   value = 1 } }						
+			SOV = { add_to_variable = {  var = SOV_barb_ll_token   value = 1 } add_to_variable = {  var = SOV_barb_ll_token2   value = 1 }}						
 		}
 	}
 HMP_ll_soviets_motorized = { #worth 1x 
@@ -124,7 +124,7 @@ HMP_ll_soviets_motorized = { #worth 1x
 								custom_effect_tooltip = HMP_ll_remove_mot		
 				custom_effect_tooltip =  soviets_1_shipments_tt
 				hidden_effect = {send_equipment = { equipment = motorized_equipment amount = 1000 target = SWE } }
-			SOV = { add_to_variable = {  var = SOV_barb_ll_token   value = 1 } }					
+			SOV = { add_to_variable = {  var = SOV_barb_ll_token   value = 1 } add_to_variable = {  var = SOV_barb_ll_token2   value = 1 }}					
 		}
 	}
 HMP_ll_soviets_at = { #worth 1x 
@@ -137,7 +137,7 @@ HMP_ll_soviets_at = { #worth 1x
 								custom_effect_tooltip = HMP_ll_remove_at	
 				custom_effect_tooltip =  soviets_1_shipments_tt
 				hidden_effect = {send_equipment = { equipment = anti_tank_equipment amount = 500 target = SWE }}
-			SOV = { add_to_variable = {  var = SOV_barb_ll_token   value = 1 } }					
+			SOV = { add_to_variable = {  var = SOV_barb_ll_token   value = 1 } add_to_variable = {  var = SOV_barb_ll_token2   value = 1 }}					
 		}
 	}
 HMP_ll_soviets_arty = { #worth 1x 
@@ -150,7 +150,7 @@ HMP_ll_soviets_arty = { #worth 1x
 									custom_effect_tooltip = HMP_ll_remove_arty	
 						custom_effect_tooltip =  soviets_1_shipments_tt
 				hidden_effect = {send_equipment = { equipment = artillery_equipment amount = 550 target = SWE }}
-			SOV = { add_to_variable = {  var = SOV_barb_ll_token   value = 1 } }					
+			SOV = { add_to_variable = {  var = SOV_barb_ll_token   value = 1 } add_to_variable = {  var = SOV_barb_ll_token2   value = 1 }}					
 		}
 	}	
 HMP_ll_soviets_rarty = { #worth 1x 
@@ -163,7 +163,7 @@ HMP_ll_soviets_rarty = { #worth 1x
 								custom_effect_tooltip = HMP_ll_remove_rarty		
 						custom_effect_tooltip =  soviets_1_shipments_tt
 				hidden_effect = {send_equipment = { equipment = rocket_artillery_equipment amount = 600 target = SWE }}
-			SOV = { add_to_variable = {  var = SOV_barb_ll_token   value = 1 } }					
+			SOV = { add_to_variable = {  var = SOV_barb_ll_token   value = 1 } add_to_variable = {  var = SOV_barb_ll_token2   value = 1 }}					
 		}
 	}	
 
@@ -177,7 +177,7 @@ HMP_ll_soviets_rarty = { #worth 1x
 								custom_effect_tooltip = HMP_ll_remove_mech	
 				custom_effect_tooltip =  soviets_1_shipments_tt
 			hidden_effect = {	send_equipment = { equipment = mechanized_equipment amount = 310 target = SWE }}
-			SOV = { add_to_variable = {  var = SOV_barb_ll_token   value = 1 } }			
+			SOV = { add_to_variable = {  var = SOV_barb_ll_token   value = 1 } add_to_variable = {  var = SOV_barb_ll_token2   value = 1 }}			
 		}
 	}
 HMP_ll_soviets_fighter = { #worth 20x 
@@ -190,7 +190,7 @@ HMP_ll_soviets_fighter = { #worth 20x
 			custom_effect_tooltip = HMP_ll_remove_fighter		
 			custom_effect_tooltip = soviets_20_shipments_tt
 			hidden_effect = {send_equipment = { equipment = fighter_equipment amount = 675 target = SWE }}
-			SOV = { add_to_variable = {  var = SOV_barb_ll_token   value = 20 } }
+			SOV = { add_to_variable = {  var = SOV_barb_ll_token   value = 20 } add_to_variable = {  var = SOV_barb_ll_token2   value = 20 }}
 		}
 	}
 HMP_ll_soviets_ht = { #worth 10x 
@@ -203,7 +203,7 @@ HMP_ll_soviets_ht = { #worth 10x
 								custom_effect_tooltip = HMP_ll_remove_ht		
 		custom_effect_tooltip = soviets_10_shipments_tt
 				hidden_effect = {send_equipment = { equipment = heavy_Tank_equipment amount = 1000 target = SWE }}
-			SOV = { add_to_variable = {  var = SOV_barb_ll_token   value = 10 } }						
+			SOV = { add_to_variable = {  var = SOV_barb_ll_token   value = 10 } add_to_variable = {  var = SOV_barb_ll_token2   value = 10 }}						
 		}
 	}
 HMP_ll_soviets_mt = { #worth 10x 
@@ -216,7 +216,7 @@ HMP_ll_soviets_mt = { #worth 10x
 								custom_effect_tooltip = HMP_ll_remove_mt
 				custom_effect_tooltip = soviets_10_shipments_tt
 				hidden_effect = {send_equipment = { equipment = medium_tank_equipment amount = 2000 target = SWE }}
-			SOV = { add_to_variable = {  var = SOV_barb_ll_token   value = 10 } }						
+			SOV = { add_to_variable = {  var = SOV_barb_ll_token   value = 10 } add_to_variable = {  var = SOV_barb_ll_token2   value = 10 }}						
 		}
 	}
 HMP_ll_soviets_amtrac = { #worth 1x 
@@ -229,7 +229,7 @@ HMP_ll_soviets_amtrac = { #worth 1x
 						custom_effect_tooltip = HMP_ll_remove_amtrac
 				custom_effect_tooltip = soviets_1_shipments_tt
 				hidden_effect = {send_equipment = { equipment = amphibious_mechanized_equipment_1 amount = 250 target = SWE }}
-			SOV = { add_to_variable = {  var = SOV_barb_ll_token   value = 1 } }						
+			SOV = { add_to_variable = {  var = SOV_barb_ll_token   value = 1 } add_to_variable = {  var = SOV_barb_ll_token2   value = 1 }}						
 		}
 	}
 }

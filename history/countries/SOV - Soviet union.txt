@@ -12,6 +12,11 @@ set_variable = {
     var = SOV_barb_ll_token
     value = 0
 }
+set_variable = {
+    var = SOV_barb_ll_token2
+    value = 0
+}
+
 set_variable = { SOV_red_air_force_resurgent_cas_damage_reduction = 0 }			
 set_research_slots = 3
 set_stability = 0.5

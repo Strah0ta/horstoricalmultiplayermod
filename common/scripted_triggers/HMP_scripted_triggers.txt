@@ -1,61 +1,14 @@
 suppy_route_secure = {
 OR = { 
 OR = { AND = { USA = { controls_state = 463 } SOV = { controls_state = 408 } } has_start_date > 1936.1.2 }
-AND = { ENG = { controls_state = 291 } SOV = { controls_state = 229 } }
+AND = { ENG = { controls_state = 412 } SOV = { controls_state = 229 } }
 SOV = { controls_state = 213 }
 AND = {  ENG = { controls_state = 118 } ENG = { controls_state = 116 } SOV = { controls_state = 137 } }
 }
 }
 
 disabled_ai_production = {
-NOT = { 
-OR = {
-tag = DEN
-tag = HOL 
-tag = POL
-tag = CHI
-tag = BEL
-tag = LAT 
-tag = ALB
-tag = CZE
-tag = AUS
-tag = YUG
-tag = GRE
-}
-}
-}
-
-stalin_line_states = {
-OR = {
-state = 192 
-state = 197
-state = 198
-state = 199
-state = 201
-state = 202 
-state = 203
-state = 226
-state = 196
-state = 200
-state = 137
-state = 227
-state = 221 
-state = 259
-state = 193 
-is_core_of = ROM
-is_core_of = POL 
-state = 194 
-state = 241
-state = 204
-state = 206
-state = 207
-state = 243
-state = 207 
-state = 210
-state = 209
-free_building_slots = {	building = infrastructure size < 3 }
-
-}
+NOT = { OR = { tag = DEN tag = HOL tag = POL tag = CHI tag = BEL tag = LAT tag = CZE tag = AUS tag = YUG tag = GRE } }
 }
 
 atlantikwall_states = {
@@ -112,26 +65,11 @@ ENG_has_fortify_the_empire = {
 }
 
 camelry_nations = {
-OR = {
-original_tag = AST
-original_tag = NZL
-original_tag = SAF
-original_tag = EFR
-}
+OR = { original_tag = AST original_tag = NZL original_tag = SAF original_tag = EFR }
 }
 ranger_nations = {
-OR = {
-original_tag = USA
-original_tag = SOV
-original_tag = FIN
-original_tag = BUL
-original_tag = HUN
+OR = { original_tag = USA original_tag = SOV original_tag = FIN original_tag = BUL original_tag = HUN }
 }
-}
-
-
-
-
 
 congress_low_support_trigger = {
 	custom_trigger_tooltip = {
@@ -157,87 +95,20 @@ congress_high_support_trigger = {
 	}
 }
 
-
-
-227_state = {
-OR = {
-state = 200
-state = 241 
-state = 207 
-state = 137 
-state = 221 
-state = 225 
-state = 193
-state = 224
-state = 243
-state = 242
-state = 210
-state = 12
-}
-}
-
-HMP_anti_resource_exploit_trigger = {
-OR = {
-state = 368 #Tennessee 
-state = 360 #Pennsylvania
-state = 391 #Minnesota
-state = 386 #Washington
-state = 544 #NE Canada
-state = 487 #Natal
-state = 275 #Transvaal
-state = 328 #Kirin
-state = 496 #Liaotung
-state = 115 #Sicily
-state = 158 #Piedmont
-state = 151 #B. Guyana
-}
-}
-HMP_italy_dying = {
-					country_exists = ITA 
- date > 1941.1.1
-					ITA = { surrender_progress > 0.95 }
-					OR = {
-						original_tag = USA
-						original_tag = ENG
-						original_tag = FRA
-						original_tag = CAN
-						original_tag = SAF
-						original_tag = RAJ
-						original_tag = AST
-						original_tag = NZL	
-						original_tag = MEX
-						original_tag = NOR						
-					}
-					OR = {
-						controls_state = 117 # Capania
-						controls_state = 156 # Calabria
-						controls_state = 115 # Sicily
-						controls_state = 2   # Latium				
-					}
-}
-HMP_italy_sort_of_dying = {
-					country_exists = ITA 
- date > 1941.1.1
-					ITA = { surrender_progress > 0.6 }
-					OR = {
-						original_tag = USA
-						original_tag = ENG
-						original_tag = FRA
-						original_tag = CAN
-						original_tag = SAF
-						original_tag = RAJ
-						original_tag = AST
-						original_tag = NZL	
-						original_tag = MEX
-						original_tag = NOR						
-					}
-					OR = {
-						controls_state = 117 # Capania
-						controls_state = 156 # Calabria
-						controls_state = 115 # Sicily
-						controls_state = 2   # Latium				
-					}
-}
+	HMP_italy_dying = {
+		country_exists = ITA 
+		ITA = { surrender_progress > 0.95 }
+	}
+	HMP_italy_sort_of_dying = {
+		country_exists = ITA 
+		ITA = { surrender_progress > 0.6 }
+			OR = {
+					controls_state = 117 # Capania
+					controls_state = 156 # Calabria
+					controls_state = 115 # Sicily
+					controls_state = 2   # Latium				
+				}
+	}
 the_axis = {
 OR = { 
 original_tag = GER
@@ -253,10 +124,7 @@ original_tag = ETH
 }
 
 the_geacps = { 
-OR = { 
-original_tag = JAP
-original_tag = MAN
-}
+OR = {  original_tag = JAP original_tag = MAN }
  }
 
 normally_played_country = {

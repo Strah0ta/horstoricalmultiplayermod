@@ -196,7 +196,7 @@ country_event = {
 
 	option = {
 		name = poland.100.a
-		NOR =  {  set_capital = 323  }   ENG = { add_to_faction = NOR puppet = NOR }
+		NOR =  {  set_capital = 323  }   ENG = { add_to_faction = NOR puppet = NOR } GER = { transfer_state = 144 }
 	}
 }
 

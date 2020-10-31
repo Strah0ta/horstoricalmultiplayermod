@@ -81,7 +81,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = RAJ_indian_national_congress
 
-		cost = 10
+		cost = 5
 
 
 		cancel_if_invalid = yes
@@ -208,15 +208,6 @@ focus_tree = {
 		relative_position_id = RAJ_indian_national_congress
 
 		cost = 5
-
-
-		available = {
-			
-		}
-
-		bypass = {
-
-		}
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -429,7 +420,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = RAJ_lessons_of_the_great_war
 
-		cost = 10
+		cost = 5
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -463,7 +454,7 @@ focus_tree = {
 			add_tech_bonus = {
 				name = RAJ_vickers_berthier_gun
 				bonus = 1.0
-				uses = 1
+				uses = 2
 				category = infantry_weapons
 			}
 		}
@@ -488,7 +479,7 @@ focus_tree = {
 			add_tech_bonus = {
 				name = RAJ_royal_indian_artillery
 				bonus = 1.0
-				uses = 1
+				uses = 2
 				category = artillery
 			}
 		}
@@ -502,7 +493,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = RAJ_the_bangalore_torpedo
 
-		cost = 10
+		cost = 5
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -546,7 +537,7 @@ focus_tree = {
 		y = 2
 		relative_position_id = RAJ_the_bangalore_torpedo
 
-		cost = 10
+		cost = 5
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -578,7 +569,7 @@ focus_tree = {
 		y = 3
 		relative_position_id = RAJ_the_bangalore_torpedo
 
-		cost = 10
+		cost = 5
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no

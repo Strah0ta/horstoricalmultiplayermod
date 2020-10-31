@@ -80,7 +80,7 @@ add_equipment_to_stockpile = { type = support_equipment_1 amount = 1000 }
 add_equipment_to_stockpile = { type = light_tank_equipment_1 amount = 1385 }
 add_equipment_to_stockpile = { type = artillery_equipment_1 amount = 1300 }
 add_equipment_to_stockpile = { type = CAS_equipment_1 amount = 110 }
-add_equipment_to_stockpile = { type = tac_bomber_equipment_0 amount = 432 }
+add_equipment_to_stockpile = { type = tac_bomber_equipment_0 amount = 216 }
 add_equipment_to_stockpile = { type = nav_bomber_equipment_1 amount = 124 }
 add_equipment_to_stockpile = { type = transport_plane_equipment_1 amount = 4 }
 

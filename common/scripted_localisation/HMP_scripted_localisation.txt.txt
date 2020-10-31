@@ -14,6 +14,74 @@ defined_text = { # Country
 	}
 }
 
+
+defined_text = { # Country
+	name = GetSovSupplyRouteIran
+	text = {
+		trigger = {
+			AND = { ENG = { controls_state = 412 } SOV = { controls_state = 229 } }
+		}
+		localization_key = GetSovSupplyRouteIranSecure
+	}
+	text = {
+		trigger = {	
+		 NOT = { AND = { ENG = { controls_state = 412 } SOV = { controls_state = 229 } } }
+		}
+		localization_key = GetSovSupplyRouteIranInsecure
+	}
+}
+defined_text = { # Country
+	name = GetSovSupplyRouteMurmansk
+	text = {
+		trigger = {
+				SOV = { controls_state = 213 }
+		}
+		localization_key = GetSovSupplyRouteMurmanskSecure
+	}
+	text = {
+		trigger = {	
+			NOT = { SOV = { controls_state = 213 } }
+		}
+		localization_key = GetSovSupplyRouteMurmanskInsecure
+	}
+}
+defined_text = { # Country
+	name = GetSovSupplyRouteVladivostok
+	text = {
+		trigger = {
+		 AND = {  OR = { AND = { USA = { controls_state = 463 } SOV = { controls_state = 408 } } has_start_date > 1936.1.2 } SOV = { has_war_with = GER } }
+		}
+		localization_key = GetSovSupplyRouteVladivostokSecure
+	}
+	text = {
+		trigger = {	
+		  NOT = { AND = { OR = { AND = { USA = { controls_state = 463 } SOV = { controls_state = 408 } } has_start_date > 1936.1.2 } SOV = { has_war_with = GER } } }
+		}
+		localization_key = GetSovSupplyRouteVladivostokInsecure
+	}
+}
+defined_text = { # Country
+	name = GetSovSupplyRouteMalta
+	text = {
+		trigger = {
+		  AND = { ENG = { controls_state = 116 } SOV = { has_war_with = GER } }
+		}
+		localization_key = GetSovSupplyRouteMaltaSecure
+	}
+	text = {
+		trigger = {	
+		  NOT = {  AND = { ENG = { controls_state = 116 } SOV = { has_war_with = GER } } }
+		}
+		localization_key = GetSovSupplyRouteMaltaInsecure
+	}
+}
+
+
+
+
+
+
+
 defined_text = { # Country
 	name = GetResearchYear
 	text = {

@@ -34,7 +34,7 @@ equipments = {
 		#Space taken in convoy
 		lend_lease_cost = 20
 		
-		build_cost_ic = 70
+		build_cost_ic = 140
 		resources = {
 			#oil = 1
 			aluminium = 2
@@ -96,7 +96,7 @@ equipments = {
 		air_agility = 16
 		air_attack = 5
 		air_defence = 15
-		air_bombing = 22 #vanilla 10 doubled bc production was doubled; ALL PLANES ARE PREUPGRADED TO LEVEL 5 AS OF 1.9.3
+		air_bombing = 44 #vanilla 10 QUADRUPLED bc production was QUADRUPLED; ALL PLANES ARE PREUPGRADED TO LEVEL 5 AS OF 1.9.3
 		air_ground_attack = 6.6	
 		naval_strike_attack = 4
 		naval_strike_targetting = 6
@@ -116,10 +116,10 @@ equipments = {
 		air_agility = 20
 		air_attack = 8
 		air_defence = 18
-		air_bombing = 26.4
+		air_bombing = 52.8
 		air_ground_attack = 13.2
 		
-		build_cost_ic = 74
+		build_cost_ic = 148
 		resources = {
 			#oil = 1
 			aluminium = 3
@@ -142,10 +142,10 @@ equipments = {
 		air_agility =25
 		air_attack = 13
 		air_defence = 21
-		air_bombing = 30.8
+		air_bombing = 61.6
 		air_ground_attack = 22
 		
-		build_cost_ic = 78
+		build_cost_ic = 156
 		resources = {
 			#oil = 1
 			aluminium = 4
@@ -168,10 +168,10 @@ equipments = {
 		air_agility = 30
 		air_attack = 20
 		air_defence = 24
-		air_bombing = 35.2
+		air_bombing = 70.4
 		air_ground_attack = 33
 		
-		build_cost_ic = 82
+		build_cost_ic = 164
 		resources = {
 			aluminium = 5
 			rubber = 1
@@ -194,14 +194,14 @@ equipments = {
 		air_agility = 57
 		air_attack = 18
 		air_defence = 24
-		air_bombing = 35.2
+		air_bombing = 70.4
 		air_ground_attack = 33
 		
 				# Air vs Navy - high damage / low hit chance / hard to hurt
 		naval_strike_attack = 15
 		naval_strike_targetting = 6
 		
-		build_cost_ic = 90
+		build_cost_ic = 180
 		resources = {
 			aluminium = 6
 			rubber = 1
@@ -224,10 +224,10 @@ equipments = {
 		air_agility = 57
 		air_attack = 22
 		air_defence = 28
-		air_bombing = 44
+		air_bombing = 88
 		air_ground_attack = 44
 		
-		build_cost_ic = 96
+		build_cost_ic = 192
 		resources = {
 			aluminium = 7
 			rubber = 1

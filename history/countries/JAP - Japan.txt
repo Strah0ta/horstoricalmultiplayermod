@@ -96,7 +96,7 @@ add_equipment_to_stockpile = { type = motorized_equipment_1 amount = 1200 }
 add_equipment_to_stockpile = { type = artillery_equipment_1 amount = 1009 }
 add_equipment_to_stockpile = { type = light_tank_equipment_1 amount = 400 }
 add_equipment_to_stockpile = { type = CAS_equipment_1 amount = 152 }
-add_equipment_to_stockpile = { type = tac_bomber_equipment_0 amount = 27 }
+add_equipment_to_stockpile = { type = tac_bomber_equipment_0 amount = 15 }
 add_equipment_to_stockpile = { type = nav_bomber_equipment_1 amount = 58 }
 
 ######ANNEXED MINOR STOCKPILE#######

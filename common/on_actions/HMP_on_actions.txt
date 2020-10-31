@@ -146,7 +146,7 @@ on_daily = {
 	
 on_state_control_changed = {
 		effect = {
-					if = {
+			if = {
 				limit = {
 					tag = FRA
 					has_completed_focus = FRA_national_uprising
@@ -213,14 +213,20 @@ on_state_control_changed = {
 				}				
 			if = {
 				limit = { 
-				ENG = { NOT = { has_country_flag = ENG_swe_resources }}
 				OR = { 	normally_played_allies = yes tag = SOV }
 				FROM.FROM = { state = 110 } 
 				}
                GER = { remove_resource_rights = 576 }	
-			   ENG = { set_country_flag = ENG_swe_resources }
 			   SWE = { give_resource_rights = { receiver = ENG state = 576 } }  
-				}						
+				}	
+		if = {
+				limit = { 
+				the_axis = yes
+				FROM.FROM = { state = 110 } 
+				}
+               ENG = { remove_resource_rights = 576 }	
+			   SWE = { give_resource_rights = { receiver = GER state = 576 } }  
+				}					
 					if = {
 				limit = {   HMP_italy_dying = yes}
 				GER = { country_event = { id = italy.600 } }
