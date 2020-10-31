@@ -1438,7 +1438,7 @@ country_event = {
 is_triggered_only = yes
    option = {
    name = "Confirm Integration"
-			MAN = { complete_national_focus = MAN_collective_farms complete_national_focus = MAN_invite_japanese_settlers complete_national_focus = MAN_mukden_arsenal complete_national_focus = MAN_expand_the_railways  complete_national_focus = CHI_collaboration_with_the_japanese complete_national_focus = CHI_mission_to_germany  complete_national_focus = MAN_invite_japanese_investors  complete_national_focus = MAN_mamc complete_national_focus = CHI_reach_out_to_francex }
+			MAN = { complete_national_focus = MAN_collective_farms complete_national_focus = MAN_invite_japanese_settlers complete_national_focus = MAN_mukden_arsenal complete_national_focus = MAN_expand_the_railways  complete_national_focus = CHI_collaboration_with_the_japanese complete_national_focus = CHI_mission_to_germany    complete_national_focus = MAN_mamc complete_national_focus = CHI_reach_out_to_francex }
 			496 = {	add_resource = {  type = steel amount = 12}	} 
 			496 = {	add_resource = {  type = steel amount = 16} }
 			328 = {	add_resource = {  type = aluminium amount = 16}	}

@@ -228,10 +228,6 @@ technologies = {
 			industry
 			concentrated_industry_category
 		}
-		
-		ai_research_weights = {
-			offensive = -1.0
-		}
 	}
 	
 	concentrated_industry2 = {
@@ -255,10 +251,6 @@ technologies = {
 		categories = {
 			industry
 			concentrated_industry_category
-		}
-		
-		ai_research_weights = {
-			offensive = -1.0
 		}
 	}
 	
@@ -287,10 +279,6 @@ technologies = {
 			industry
 			concentrated_industry_category
 		}
-		
-		ai_research_weights = {
-			offensive = -1.0
-		}
 	}
 	
 	concentrated_industry4 = {
@@ -316,10 +304,6 @@ technologies = {
 			industry
 			concentrated_industry_category
 		}
-		
-		ai_research_weights = {
-			offensive = -1.0
-		}
 	}
 	
 	concentrated_industry5 = {
@@ -340,10 +324,6 @@ technologies = {
 		categories = {
 			industry
 			concentrated_industry_category
-		}
-		
-		ai_research_weights = {
-			offensive = -1.0
 		}
 	}
 	
@@ -380,10 +360,6 @@ technologies = {
 			industry
 			dispersed_industry_category
 		}
-		
-		ai_research_weights = {
-			defensive = -1.0
-		}
 	}
 	
 	dispersed_industry2 = {
@@ -410,10 +386,6 @@ technologies = {
 		categories = {
 			industry
 			dispersed_industry_category
-		}
-		
-		ai_research_weights = {
-			defensive = -1.0
 		}
 	}
 	
@@ -442,10 +414,6 @@ technologies = {
 		categories = {
 			industry
 			dispersed_industry_category
-		}
-		
-		ai_research_weights = {
-			defensive = -1.0
 		}
 	}
 	
@@ -477,10 +445,6 @@ technologies = {
 			industry
 			dispersed_industry_category
 		}
-		
-		ai_research_weights = {
-			defensive = -1.0
-		}
 	}
 	
 	dispersed_industry5 = {
@@ -505,10 +469,6 @@ technologies = {
 		categories = {
 			industry
 			dispersed_industry_category
-		}
-		
-		ai_research_weights = {
-			defensive = -1.0
 		}
 	}
 

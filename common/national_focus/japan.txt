@@ -105,10 +105,8 @@ focus_tree = {
 		
 		completion_reward = {
 				add_war_support = 0.05
-				add_named_threat = { threat = 1 name = JAP_intervene_in_china }
-		hidden_effect = {
-			news_event = { days = 5 id = news.1 }
-		}	
+			add_named_threat = { threat = 31 name = JAP_intervene_in_china }
+		hidden_effect = {	news_event = { days = 5 id = news.1 }	}	
 			HMP_script_china = yes
 				}
 	}

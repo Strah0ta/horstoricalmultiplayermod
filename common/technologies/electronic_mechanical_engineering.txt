@@ -374,10 +374,6 @@ technologies = {
 			name = electronics_folder
 			position = { x = 0 y = 0 }
 		}
-	
-		ai_will_do = {
-			factor = 1
-		}
 		
 		categories = {
 			rocketry
@@ -432,10 +428,6 @@ technologies = {
 		}
 		
 		
-		ai_will_do = {
-			factor = 1
-		}
-		
 		categories = {
 			rocketry
 		}		
@@ -479,11 +471,7 @@ technologies = {
 			name = electronics_folder
 			position = { x = 0 y = 4 }
 		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-		
+
 		categories = {
 			rocketry
 		}
@@ -523,10 +511,6 @@ technologies = {
 			position = { x = 0 y = 6 }
 		}
 		
-		ai_will_do = {
-			factor = 1
-		}
-		
 		categories = {
 			rocketry
 		}
@@ -553,10 +537,6 @@ technologies = {
 			custom_effect_tooltip = JET_ENGINES_RESEARCHED
 		}
 		
-		ai_will_do = {
-			factor = 1
-		}
-		
 		categories = {
 			rocketry
 			jet_technology
@@ -578,30 +558,6 @@ technologies = {
 		folder = {
 			name = electronics_folder
 			position = { x = 0 y = 0 }
-		}
-		
-		ai_will_do = {
-			factor = 1
-			
-			modifier = {
-				factor = 1.2
-				date > "1941.1.1"
-			}
-			
-			modifier = {
-				factor = 1.2
-				date > "1942.1.1"
-			}
-			
-			modifier = {
-				factor = 1.2
-				date > "1943.1.1"
-			}
-			
-			modifier = {
-				factor = 2
-				tag = USA
-			}
 		}
 		
 		categories = {
@@ -628,14 +584,6 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		ai_will_do = {
-			factor = 3
-			modifier = {
-				tag = USA
-				factor = 2
-			}
-		}
-		
 		categories = {
 			nuclear
 		}
@@ -647,7 +595,6 @@ technologies = {
 	}
 
 	nukes = {
-	
 		start_year = 1945
 		research_cost = 5
 		
@@ -656,34 +603,15 @@ technologies = {
 			position = { x = 0 y = 6 }
 		}
 		
-		ai_will_do = {
-			factor = 10
-		}
-		
 		on_research_complete = { add_equipment_to_stockpile = { type = strat_bomber_equipment_1 amount = 50 producer = SWE } }
-		
 		nuclear_production = 1
-		
-		categories = {
-			nuclear
-		}
+		categories = {	nuclear	}
 	}
 
 	lar_decryption_bonus_tech = {
-				
-		research_cost = 1.5 #Carrier Variant
+		research_cost = 1.5 
 		start_year = 1944
-
-		# only from focus!!! #####
-		allow = {
-			always = no
-		}
+		allow = {	always = no	}
 		decryption_power = 10
-
-		
-		ai_will_do = {
-			factor = 0
-		}
-		################
 	}
 }
