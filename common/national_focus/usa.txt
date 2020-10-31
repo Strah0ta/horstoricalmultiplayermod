@@ -1192,10 +1192,7 @@ transfer_state = 38
 				uses = 2
 				category = air_doctrine
 			} # REVISIT May use modifier?
-			add_ideas = air_war_plans_division_focus
-		add_relation_modifier = { target = ENG  modifier = ROM_military_modernization
-}
-			
+			add_ideas = air_war_plans_division_focus			
 			
 		}
 	}

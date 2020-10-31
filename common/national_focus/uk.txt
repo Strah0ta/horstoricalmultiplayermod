@@ -40,7 +40,10 @@ focus_tree = {
 				if = { limit = { NOT = { has_idea = supermarine }} add_ideas = supermarine add_political_power = -50  }
 		set_technology = { fighter3 = 1 }
 		set_technology = { heavy_fighter3 = 1 }
-		
+				USA = {    
+		set_technology = { heavy_fighter3 = 1 }
+		set_technology = { fighter3 = 1 }		
+		}
 		add_tech_bonus = {
 			name = tizard_mission_focus
 			bonus = 1.0
@@ -479,6 +482,10 @@ focus_tree = {
 		if = { limit = { NOT = { has_idea = supermarine }} add_ideas = supermarine add_political_power = -50  }
 		set_technology = { heavy_fighter2 = 1 }
 		set_technology = { fighter2 = 1 }	
+		USA = {    
+		set_technology = { heavy_fighter2 = 1 }
+		set_technology = { fighter2 = 1 }		
+		}
 		
 create_equipment_variant = {
 	name = "Supermarine Spitfire Mk III"
@@ -495,14 +502,6 @@ add_equipment_production = {
     requested_factories = 200
     amount = 0
 }
-	create_production_license = {
-		target = USA
-		equipment = {
-			type = fighter_equipment_2
-			version_name = "Supermarine Spitfire Mk III"
-		}
-		cost_factor = 0
-	}
 		} 
 	}
 	
