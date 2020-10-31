@@ -1,0 +1,84 @@
+focus_tree = {
+	id = iraq_focus_tree
+	country = {	
+	factor = 0 		
+	modifier = {
+			add = 10
+			tag = ALB
+		} 	
+	}
+	default = yes
+	reset_on_civilwar = no
+	
+	
+			focus = {
+		id = IRQ_the_golden_square_coup
+		icon = GFX_supremacy_of_will
+		x = 12
+		y = 0
+		cost = 5
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+		
+		
+		}
+	}
+	
+			focus = {
+		id = IRQ_army_doctrine
+		icon = GFX_supremacy_of_will
+		x = 5
+		y = 1
+		cost = 5
+		relative_position_id = IRQ_the_golden_square_coup
+		prerequisite = { focus = IRQ_the_golden_square_coup }
+		available_if_capitulated = yes
+
+		completion_reward = {
+		
+		}
+	}
+		
+				focus = {
+		id = IRQ_eco1
+		icon = GFX_supremacy_of_will
+		x = -5
+		y = 1
+		cost = 5
+		relative_position_id = IRQ_the_golden_square_coup
+		prerequisite = { focus = IRQ_the_golden_square_coup }
+		available_if_capitulated = yes
+
+		completion_reward = {
+		
+		}
+	}	
+		
+	
+				focus = {
+		id = IRQ_revolution
+		icon = GFX_supremacy_of_will
+		x = 0
+		y = 1
+		cost = 5
+		relative_position_id = IRQ_the_golden_square_coup
+		prerequisite = { focus = IRQ_the_golden_square_coup }
+		available_if_capitulated = yes
+
+		completion_reward = {
+		
+		}
+	}		
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}
