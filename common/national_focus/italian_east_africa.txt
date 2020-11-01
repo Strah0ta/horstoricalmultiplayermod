@@ -319,7 +319,6 @@ add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 200000 }
 	focus = {
 		id = ETH_equipment_effort
 		icon = GFX_goal_generic_small_arms
-		prerequisite = { focus = ETH_army_effort }
 		x = 1
 		y = 0   
 		cost = 10 

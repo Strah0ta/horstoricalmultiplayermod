@@ -1,0 +1,481 @@
+ideas = {
+country = { 
+				irq_militarism = {		
+			picture = generic_fighter_production_diverted
+			allowed = {	always = no	}
+			removal_cost = -1
+			modifier = { conscription = 0.1	}  
+		}	
+		}
+	political_advisor = {
+
+		ALB_marius_viple = {
+
+			picture = generic_political_advisor_europe_2
+
+			allowed = {
+				original_tag = ALB
+			}
+			
+			traits = { popular_figurehead }
+		}
+		
+		charles_maurras = {
+			
+			picture = generic_political_advisor_europe_3
+			allowed = {
+				original_tag = ALB
+			}
+			
+			available = {
+			has_completed_focus = FRA_national_regeneration
+			}
+			visible = { has_dlc = "La Resistance" }
+			cost = 0 
+			traits = { national_integralist }
+
+		}
+		
+		marcel_bucard = {
+			
+			allowed = {
+				original_tag = ALB
+			}
+			
+			traits = { fascist_demagogue }
+
+		}
+		
+		
+		ALB_philippe_henriot = {
+			
+			
+			allowed = {
+				original_tag = ALB
+			}
+			visible = { has_dlc = "La Resistance" }
+			available = {
+				has_completed_focus = FRA_national_regeneration
+			}
+			cost = 0 
+			traits = { propaganda_expert }
+
+	
+		
+		}
+		ALB_pierre_pucheu = {
+			
+			
+			allowed = {
+				original_tag = ALB
+			}
+			
+			available = {
+			}
+			cost = 150 
+			traits = { technocrat }
+
+		}
+		
+		ALB_gaston_henry_haye = {
+			
+			allowed = {
+				original_tag = ALB
+			}
+			
+			picture = generic_political_advisor_europe_5
+			
+			traits = { silent_workhorse }
+
+		}	
+		
+		ALB_zivony_peshkov = {
+			
+			allowed = {
+				original_tag = ALB
+			}
+			
+			picture = generic_army_europe_5
+			
+			traits = { war_industrialist }
+
+		}	
+
+		ALB_felix_gouin = {
+			
+			allowed = {
+				original_tag = ALB
+			}
+			
+			picture = generic_political_advisor_europe_3
+			
+			traits = { captain_of_industry }
+
+		}	
+
+		ALB_charles_tillon = {
+			
+			allowed = {
+				original_tag = ALB
+			}
+			
+			picture = generic_political_advisor_europe_3
+			
+			traits = { armaments_organizer }
+
+		}	
+
+		ALB_paul_reynaud = {
+			
+			allowed = {
+				original_tag = ALB
+			}
+
+			picture = generic_political_advisor_europe_3
+			
+			traits = { quartermaster_general }
+
+		}
+
+		ALB_joe_biden = {
+			
+			allowed = {
+				original_tag = ALB
+			}
+
+			available = {
+				has_completed_focus = VIC_the_national_bureau_of_statistics
+			}
+
+			picture = generic_political_advisor_europe_1
+
+			cost = 0 
+			
+			traits = { scientist }
+
+		}
+	}	
+		
+	# MILITARY
+	army_chief = {
+		ALB_maxime_weygand = {
+			
+			picture = generic_army_europe_3
+			
+			allowed = {
+				original_tag = ALB
+				
+			}
+			
+			traits = { army_chief_defensive_3 }
+		}
+	}
+
+	air_chief = {
+		ALB_Mahmud_Salman = { 
+			picture = generic_air_europe_3
+			allowed = {	original_tag = ALB	}
+			traits = { air_chief_ground_support_3 }
+		}
+	}
+
+	navy_chief = {
+
+		ALB_jean_francois_darlan = {
+			
+			picture = generic_navy_europe_1
+			
+			allowed = {
+				original_tag = ALB
+				
+			}
+			
+
+			
+			traits = { navy_chief_maneuver_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		ALB_jean_marie_abrial = {
+			
+			picture = generic_navy_europe_1
+			
+			allowed = {
+				original_tag = ALB
+				
+			}
+			
+
+			
+			traits = { navy_anti_submarine_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+
+	high_command = {
+
+
+		ALB_jean_francois_jannekeyn = {
+			ledger = army
+			
+			picture = generic_air_europe_1
+			
+			allowed = {
+				original_tag = ALB
+				
+			}
+			
+
+			
+			traits = { army_infantry_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	
+		ALB_jean_de_laborde = {
+			ledger = army
+			
+			picture = generic_navy_europe_2
+
+			allowed = {
+				original_tag = ALB
+				
+			}
+			
+
+			
+			traits = { army_chief_organizational_3 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		ALB_marcel_bruno_gensoul = {
+			ledger = army
+			
+			picture = generic_navy_europe_1
+			
+			allowed = {
+				original_tag = ALB
+				
+			}
+			
+
+			
+			traits = { army_armored_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+	}
+
+
+		tank_manufacturer = {
+
+		designer = yes
+	
+		# TECHNOLOGY
+		ALB_renault_fra = {
+		
+			picture = renault
+						
+			allowed = {
+				original_tag = ALB
+			}
+						
+			research_bonus = {
+				armor = 0.15
+			}
+			
+
+			traits = { heavy_tank_manufacturer }
+		}
+	
+		ALB_AMX = {
+		
+			picture = generic_tank_manufacturer_2
+
+			available = {
+			}
+						
+			allowed = {
+				original_tag = ALB
+			}
+						
+			research_bonus = {
+				armor = 0.15
+			}
+			
+
+			traits = { fast_tank_manufacturer }
+		}
+		ALB_hotchkiss = {
+		
+			picture = generic_tank_manufacturer_3
+
+			available = {
+
+			}
+						
+			allowed = {
+				original_tag = ALB
+			}
+						
+			research_bonus = {
+				armor = 0.15
+			}
+			
+
+			traits = { infantry_tank_manufacturer }
+		}
+
+		ALB_APX = {
+			picture = ALB_atelier_puteaux
+			
+
+			available = {
+				
+			}
+						
+			allowed = {
+				original_tag = ALB
+			}
+						
+			research_bonus = {
+				armor = 0.15
+			}
+			
+
+			traits = { medium_tank_manufacturer }
+		}
+		ALB_panhard = {
+			
+
+			available = {
+				
+			}
+
+						
+			allowed = {
+				original_tag = ALB
+				has_dlc = "La Resistance"
+			}
+						
+			research_bonus = {
+				armor = 0.15
+			}
+			
+
+			traits = { armored_car_manufacturer }
+		}
+	}
+	
+	materiel_manufacturer = {
+			
+		designer = yes
+		
+		ALB_somua = {
+		
+			allowed = {
+				original_tag = ALB
+			}
+
+			research_bonus = {
+				motorized_equipment = 0.15
+			}
+			
+			traits = { motorized_equipment_manufacturer }
+
+		}
+		
+		ALB_mas = {
+						
+			allowed = {
+				original_tag = ALB
+			}
+						
+			research_bonus = {
+				infantry_weapons = 0.15
+			}
+			
+			traits = { infantry_equipment_manufacturer }
+		}
+	
+		ALB_schneider = {
+						
+			allowed = {
+				original_tag = ALB
+			}		
+			
+			research_bonus = {
+				artillery = 0.15
+			}
+			
+			traits = { artillery_manufacturer }
+		}
+	}
+	
+	industrial_concern = {	
+		
+		ALB_famh = {
+						
+			allowed = {
+				original_tag = ALB
+			}
+						
+			research_bonus = {
+				industry = 0.15
+			}
+			
+			traits = { industrial_concern }
+		}
+	}
+	
+	
+	theorist = {
+		
+		ALB_henri_giraud = {
+			ledger = army
+						
+			allowed = {
+				original_tag = ALB
+			}
+						
+			research_bonus = {
+				land_doctrine = 0.10
+			}
+			
+			traits = { military_theorist }
+		}
+		
+		
+		ALB_frederic_irene_joliot_curie = {
+			ledger = army
+			
+			
+			allowed = {
+				original_tag = ALB
+			}
+			
+			
+			research_bonus = {
+				nuclear = 0.15
+			}
+			
+			traits = { nuclear_scientist }
+		}
+	}	
+
+	
+}

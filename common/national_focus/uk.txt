@@ -668,11 +668,9 @@ add_equipment_production = {
 	}
 	focus = {
 		id = naval_rearmament_focus
-		prerequisite = { focus = general_rearmament_focus }
 		icon = GFX_goal_generic_construct_naval_dockyard 
-		x = 2
-		y = 1
-		relative_position_id = general_rearmament_focus
+		x = 11
+		y = 0
 		cost = 5
 		
 		available_if_capitulated = yes
@@ -700,7 +698,6 @@ add_equipment_production = {
 	focus = {
 		id = ENG_secure_the_imperial_shipping_routes
 		prerequisite = { focus = naval_rearmament_focus }
-		prerequisite = { focus = uk_service_focus }
 		icon = GFX_focus_generic_cruiser2
 		x = 2
 		y = 1
@@ -724,9 +721,9 @@ add_equipment_production = {
 		prerequisite = { focus = naval_rearmament_focus }
 		icon = GFX_focus_generic_destroyer
 		x = -1
-		y = 2
+		y = 4
 		relative_position_id = naval_rearmament_focus
-		cost = 5
+		cost = 10
 		ai_will_do = {
 			factor = 1
 		}
@@ -738,26 +735,9 @@ add_equipment_production = {
 				name = dd_bonus
 				bonus = 1.0
 				uses = 2
-				category = dd_tech
+				technology = improved_ship_hull_light
+				technology = advanced_ship_hull_light				
 			}
-		}
-	}
-
-	focus = {
-		id = ENG_a_s_warfare
-		prerequisite = { focus = uk_destroyer_focus }
-		icon = GFX_goal_generic_navy_anti_submarine
-		x = 0
-		y = 2
-		relative_position_id = uk_destroyer_focus
-		cost = 5
-		available_if_capitulated = yes
-
-		allow_branch = {
-			has_dlc = "Man the Guns"
-		}
-
-		completion_reward = {
 			add_tech_bonus = {
 				name = ENG_asw_warfare
 				bonus = 1.0
@@ -765,49 +745,7 @@ add_equipment_production = {
 				uses = 2
 				category = asw_tech
 			}	
-		}
-	}
-
-	focus = {
-		id = uk_convoy_focus
-		prerequisite = { focus = uk_destroyer_focus }
-		icon = GFX_goal_generic_navy_cruiser
-		x = -1
-		y = 1
-		relative_position_id = uk_destroyer_focus
-		cost = 5
-		ai_will_do = {
-			factor = 1
-		}
-
-		available_if_capitulated = yes
-
-		completion_reward = {
 			add_ideas = british_convoy_discount
-		}
-	}
-
-	focus = {
-		id = ENG_anti_submarine_training_school
-		prerequisite = { focus = uk_convoy_focus }
-		icon = GFX_goal_generic_navy_doctrines_tactics
-		x = 0
-		y = 2
-		relative_position_id = uk_convoy_focus
-		cost = 5
-		ai_will_do = {
-			factor = 1
-		}
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_tech_bonus = {
-				name = ENG_anti_submarine_training_school
-				bonus = 1.0
-				uses = 2
-				category = naval_doctrine
-			}
 			add_ideas = ENG_anti_submarine_training_school
 		}
 	}
@@ -830,7 +768,7 @@ add_equipment_production = {
 			add_tech_bonus = {
 				name = uk_waves_focus
 				bonus = 1.0
-				uses = 3
+				uses = 5
 				category = naval_doctrine
 			}
 		}
@@ -886,13 +824,11 @@ add_equipment_production = {
 		id = uk_amphibious_focus
 		prerequisite = { focus = naval_rearmament_focus }
 		icon = GFX_goal_generic_amphibious_assault
-		x = 0
+		x = -4
 		y = 1
 		relative_position_id = naval_rearmament_focus
 		cost = 5
-		ai_will_do = {
-			factor = 1
-		}
+
 
 		available_if_capitulated = yes	
 
@@ -914,11 +850,11 @@ add_equipment_production = {
 
 	focus = {
 		id = ENG_expand_the_repair_yards
-		prerequisite = { focus = uk_battleship_focus focus = uk_carrier_focus }
+		prerequisite = { focus = naval_rearmament_focus }
 		icon = GFX_goal_generic_production
-		x = -1
+		x = 0
 		y = 1
-		relative_position_id = uk_battleship_focus
+		relative_position_id = naval_rearmament_focus
 		cost = 5
 
 		allow_branch = {
@@ -945,13 +881,9 @@ add_equipment_production = {
 		prerequisite = { focus = uk_battleship_focus }
 		icon = GFX_focus_generic_navy_battleship2
 		x = 0
-		y = 2
+		y = 1
 		relative_position_id = uk_battleship_focus
 		cost = 5
-		ai_will_do = {
-			factor = 1
-		}
-
 		allow_branch = {
 			has_dlc = "Man the Guns"
 		}
@@ -1519,14 +1451,6 @@ add_equipment_production = {
 				category = air_doctrine
 				uses = 5
 				bonus = 3
-			}
-			add_ideas = ENG_british_commonwealth_air_training_plan
-			
-			every_country = {
-				limit = {
-					is_subject_of = ROOT
-				}
-				add_ideas = ENG_british_commonwealth_air_training_plan
 			}
 		}
 	}

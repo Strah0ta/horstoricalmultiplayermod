@@ -727,6 +727,31 @@ name = ""
 	
 }
 	}
+		country_event = {
+	id = iran.6
+	title = "Iraqi Army Doctrine"
+	desc = "Prior to our glorious revolution, we were trained by a foreign military advisor. Who did we hire?"
+	picture = GFX_report_event_soviet_tanks_snow
+	
+	is_triggered_only = yes
+	
+option = {
+name = "We hired a Russian Advisor"
+	iraq_ma_doctrine = yes
+}
+
+option = {
+name = "We hired an Italian Advisor"
+	iraq_gbp_doctrine = yes
+}
+
+option = {
+name = "We hired a Romanian Advisor"
+	iraq_sf_doctrine = yes 
+}
+
+
+	}
 	
 	
 add_namespace = wtt_japan

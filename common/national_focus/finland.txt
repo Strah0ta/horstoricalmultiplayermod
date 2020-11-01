@@ -599,7 +599,7 @@ focus_tree = {
 		icon = GFX_focus_chi_mission_to_germany
 		prerequisite = { focus = fin_continuation }
 		available = {
-		NOT = { SOV = { controls_state = 146 }  SOV = { controls_state = 195 }  SOV = { controls_state = 208 }   SOV = { controls_state = 13 }   SOV = { controls_state = 191 }   SOV = { controls_state = 12 }    }
+		OR = { NOT = { SOV = { controls_state = 146 }  SOV = { controls_state = 195 }  SOV = { controls_state = 208 }   SOV = { controls_state = 13 }   SOV = { controls_state = 191 }   SOV = { controls_state = 12 }    } SOV = { surrender_progress > 0.8 } }
 		}
 		relative_position_id = fin_continuation
 		x = 1
