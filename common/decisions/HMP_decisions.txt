@@ -1266,6 +1266,7 @@ GER_desert_flower_dec = {
 					level = 10
 					instant_build = yes
 				}		} 
+				554 = { set_demilitarized_zone = no}
 				}
 			}
 			
@@ -1576,7 +1577,7 @@ GER_case_anton = {
 		complete_effect = {
 		custom_effect_tooltip = "We will deploy an army of 24 mountaineer divisions in India."
 		
-		hidden_effect = { delete_unit_template_and_units  = { division_template = "Countenance Infantry"} load_oob = "ENG_Iran_Front"}
+		hidden_effect = { delete_unit_template_and_units  = { division_template = "Countenance Infantry"} load_oob = "ENG_Iran_Front" SOV = {  delete_unit_template_and_units  = { division_template = "Countenance Infantry"} load_oob = "ENG_Iran_Front_SOV"   }}
 				SOV = { country_event = { id = iran.2 }}
 				 country_event = { id = iran.3 }
 				 ITA = { country_event = { id = iran.4 }}

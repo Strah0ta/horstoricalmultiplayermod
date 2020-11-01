@@ -1,4 +1,4 @@
-
+	
 focus_tree = {
 	id = british_focus
 	
@@ -41,6 +41,7 @@ focus_tree = {
 		set_technology = { fighter3 = 1 }
 		set_technology = { heavy_fighter3 = 1 }
 				USA = {    
+		if = { limit = { NOT = { has_idea = north_american_aviation }} add_ideas = north_american_aviation add_political_power = -50  }
 		set_technology = { heavy_fighter3 = 1 }
 		set_technology = { fighter3 = 1 }		
 		}
@@ -335,7 +336,7 @@ focus_tree = {
 		continue_if_invalid = yes
 
 		icon = GFX_focus_ENG_general
-		x = 4
+		x = 2
 		y = 1
 		relative_position_id = limited_rearmament_focus
 		cost = 5
@@ -343,25 +344,6 @@ focus_tree = {
 		completion_reward = {
 			add_ideas = british_austerity_idea
 			add_ideas = limited_conscription 
-		}
-	}
-
-	focus = {
-		id = ENG_special_air_service
-		prerequisite = { focus = general_rearmament_focus }
-
-		continue_if_invalid = yes
-
-		icon = GFX_focus_eng_special_air_service
-		x = 0
-		y = 1
-		relative_position_id = general_rearmament_focus
-		cost = 5
-	
-		completion_reward = {
-			add_ideas = ENG_special_air_service_idea
-			custom_effect_tooltip = available_political_advisor
-			show_ideas_tooltip = ENG_david_stirling
 		}
 	}
 	
@@ -471,7 +453,7 @@ focus_tree = {
 		id = fighter_command_focus
 		prerequisite = { focus = general_rearmament_focus }
 		icon = GFX_goal_generic_air_fighter
-		x = -2
+		x = 0
 		y = 1
 		relative_position_id = general_rearmament_focus
 		cost = 1
@@ -483,6 +465,7 @@ focus_tree = {
 		set_technology = { heavy_fighter2 = 1 }
 		set_technology = { fighter2 = 1 }	
 		USA = {    
+		if = { limit = { NOT = { has_idea = north_american_aviation }} add_ideas = north_american_aviation add_political_power = -50  }
 		set_technology = { heavy_fighter2 = 1 }
 		set_technology = { fighter2 = 1 }		
 		}
@@ -562,22 +545,36 @@ add_equipment_production = {
 
 	focus = {
 		id = ENG_chiefs_of_staff_committee
-		prerequisite = { focus = fighter_command_focus }
-		prerequisite = { focus = naval_rearmament_focus }
-		available = { 
-			
-		}
+		prerequisite = { focus = general_rearmament_focus }
 
 		continue_if_invalid = yes
 
 		icon = GFX_focus_eng_chiefs_of_staff_committee
-		x = 0
-		y = 2
+		x = 2
+		y = 1
 		relative_position_id = general_rearmament_focus
 		cost = 5
 		completion_reward = {
 			army_experience = 10
 			add_ideas = ENG_chiefs_of_staff_committee_idea
+		}
+	}	
+	focus = {
+		id = ENG_special_air_service
+		prerequisite = { focus = ENG_chiefs_of_staff_committee }
+
+		continue_if_invalid = yes
+
+		icon = GFX_focus_eng_special_air_service
+		x = 0
+		y = 1
+		relative_position_id = ENG_chiefs_of_staff_committee
+		cost = 5
+	
+		completion_reward = {
+			add_ideas = ENG_special_air_service_idea
+			custom_effect_tooltip = available_political_advisor
+			show_ideas_tooltip = ENG_david_stirling
 		}
 	}
 
@@ -630,7 +627,7 @@ add_equipment_production = {
 	}
 	focus = {
 		id = aircraft_production_focus
-		prerequisite = { focus = fighter_command_focus focus = bomber_command_focus focus = coastal_command_focus }
+		prerequisite = { focus = bomber_command_focus focus = coastal_command_focus }
 		icon = GFX_goal_generic_air_production
 		x = 0
 		y = 2
@@ -824,7 +821,7 @@ add_equipment_production = {
 		id = uk_amphibious_focus
 		prerequisite = { focus = naval_rearmament_focus }
 		icon = GFX_goal_generic_amphibious_assault
-		x = -4
+		x = -2
 		y = 1
 		relative_position_id = naval_rearmament_focus
 		cost = 5
