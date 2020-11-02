@@ -5,15 +5,10 @@ focus_tree = {
 				
 	country = {
 		factor = 0
-	modifier = {
-			add = 5
-			tag = MAN
-			has_dlc = "Waking the Tiger"
-	}
-	}
+	} 
 	
 
-	default = no
+	default = no 
 
 	continuous_focus_position = { x = 20 y = 2000 }
 
@@ -1141,17 +1136,9 @@ add_building_construction = {
 		relative_position_id = MAN_railways_chahar
 
 
-		available = {
-		has_country_flag = MAN_schahar
-		}
-
-
-		complete_tooltip = {
-
-		}
+		available = {	has_country_flag = MAN_schahar	}
 
 		completion_reward = {
-
 		
 		}
 	}	
@@ -1172,7 +1159,7 @@ add_building_construction = {
 
 
 		completion_reward = {
-		612 = {
+		112 = {
 		add_extra_state_shared_building_slots = 2
 		add_building_construction = {
 		type = arms_factory
@@ -1224,7 +1211,7 @@ add_building_construction = {
 
 
 		completion_reward = {
-	612 = {
+	112 = {
 		add_extra_state_shared_building_slots = 2
 		add_building_construction = {
 		type = arms_factory
@@ -1355,7 +1342,7 @@ add_building_construction = {
 		
 
 		completion_reward = {
-			611 = {
+			112 = {
 				set_building_level = {
 					type = air_base
 					level = 6
@@ -1496,7 +1483,7 @@ add_building_construction = {
 
 		completion_reward = {
 		
-	761 = { 
+	3 = { 
 		add_extra_state_shared_building_slots = 1
 		add_building_construction = {
 		type = arms_factory
@@ -1521,7 +1508,7 @@ add_building_construction = {
 		relative_position_id = MAN_motorized
 
 		completion_reward = {
-		761 = { 
+		3 = { 
 		add_extra_state_shared_building_slots = 1
 		add_building_construction = {
 		type = arms_factory

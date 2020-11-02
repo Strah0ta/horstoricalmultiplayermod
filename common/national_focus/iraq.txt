@@ -10,7 +10,7 @@ focus_tree = {
 	default = no
 	reset_on_civilwar = no
 	
-	
+	 
 			focus = {
 		id = IRQ_the_golden_square_coup
 		icon = GFX_supremacy_of_will

@@ -82,8 +82,8 @@ rasputitsa = {
 }
 weather_ground_snow_medium = { }
 weather_ground_snow_high = { }
-gibraltar_modifier = {
-	pocket_penalty = -0.3
+gibraltar_modifier = { 
+	pocket_penalty = -0.299
 	max_dig_in = 14
 }
 
