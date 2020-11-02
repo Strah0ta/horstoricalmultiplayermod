@@ -1181,10 +1181,8 @@ ideas = {
 			ledger = army
 			
 			
-			allowed = {
-				original_tag = FRA
-			}
-			
+			allowed = {	original_tag = FRA	}
+			available = { NOT = { owns_state = 16 }}
 
 			
 			traits = { army_commando_2 }

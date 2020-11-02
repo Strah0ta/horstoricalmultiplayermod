@@ -1,49 +1,3 @@
-GER_plane_auto_LL = {
-GER_plane_hun = {
-	allowed = {	 original_tag = ITA	} 
-		icon = generic_naval
-		fire_only_once = yes
-		available = {    }
-		complete_effect = {	activate_mission = GER_plane_LL1 }		
-}
-		GER_plane_LL1 = {
-		allowed = { original_tag = ITA	}  
-		icon = generic_naval
-		available = { tag = Gay	}
-
-		days_mission_timeout = 10
-
-		fire_only_once = no
-		is_good = yes
-		activation = { always = no	}
-		
-		timeout_effect = {
-		GER_all_plane_LL = yes	
-		activate_mission = GER_plane_LL2		
-		}
-		complete_effect = {	
-		}
-	}
-		GER_plane_LL2 = {
-		allowed = { original_tag = ITA	}  
-		icon = generic_naval
-		available = { tag = Gay	}
-
-		days_mission_timeout = 10
-
-		fire_only_once = no
-		is_good = yes
-		activation = { always = no	}
-		
-		timeout_effect = {
-		GER_all_plane_LL = yes	
-		activate_mission = GER_plane_LL1		
-		}
-		complete_effect = {	
-		}
-	}
-}
-
 HMP_ll_soviets_send = {
 HMP_ll_hide = {
 		allowed = {  tag = ENG } 
@@ -2221,6 +2175,49 @@ AST = {
 				fire_only_once = yes	
 				complete_effect  = {	add_ideas = fp_attache_idea 	}
 		}	
+		GER_plane_hun = {
+	allowed = {	 original_tag = ITA	} 
+		icon = generic_naval
+		fire_only_once = yes
+		available = {    }
+		complete_effect = {	activate_mission = GER_plane_LL1 }		
+}
+		GER_plane_LL1 = {
+		allowed = { original_tag = ITA	}  
+		icon = generic_naval
+		available = { tag = Gay	}
+
+		days_mission_timeout = 10
+
+		fire_only_once = no
+		is_good = yes
+		activation = { always = no	}
+		
+		timeout_effect = {
+		GER_all_plane_LL = yes	
+		activate_mission = GER_plane_LL2		
+		}
+		complete_effect = {	
+		}
+	}
+		GER_plane_LL2 = {
+		allowed = { original_tag = ITA	}  
+		icon = generic_naval
+		available = { tag = Gay	}
+
+		days_mission_timeout = 10
+
+		fire_only_once = no
+		is_good = yes
+		activation = { always = no	}
+		
+		timeout_effect = {
+		GER_all_plane_LL = yes	
+		activate_mission = GER_plane_LL1		
+		}
+		complete_effect = {	
+		}
+	}
 	}
 
 HMP_templates = {
@@ -2970,80 +2967,6 @@ MEX_category_church_power = {
 	}
 }
 
-USA_aid_britain = {
-	USA_plane_eng = {
-		allowed = {	original_tag = USA } 
-		icon = generic_naval
-		fire_only_once = yes
-		complete_effect = { activate_mission = USA_plane_LL1	}		
-	}
-	USA_plane_LL1 = {
-		allowed = {	original_tag = USA }	
-		icon = generic_naval
-		available = { tag = Gay	}
-		days_mission_timeout = 10
-		fire_only_once = no
-		is_good = yes
-		activation = { always = no	}
-		timeout_effect = {
-		USA_all_plane_LL = yes	
-		activate_mission = USA_plane_LL2		
-		}
-		complete_effect = {	
-		}
-	}
-	USA_plane_LL2 = {
-		allowed = {	original_tag = USA }	
-		icon = generic_naval
-		available = { tag = Gay	}
-		days_mission_timeout = 10
-		fire_only_once = no
-		is_good = yes
-		activation = { always = no	}
-		timeout_effect = {
-		USA_all_plane_LL = yes	
-		activate_mission = USA_plane_LL1		
-		}
-		complete_effect = {	
-		}
-	}
-	USA_establish_personal_communication_with_former_naval_person = {
-		icon = generic_political_discourse
-		allowed = {	original_tag = USA	}
-		available = {	has_country_flag = blood_toil_tears_sweat_speech	}
-		cost = 50
-		fire_only_once = yes
-		complete_effect = {	add_war_support = 0.05 }
-	}
-
-	USA_battle_domestic_isolationism = {
-		icon = generic_civil_support
-		allowed = {		original_tag = USA	}
-		available = {	has_country_flag = fight_on_the_beaches_speech	}
-		cost = 50
-		fire_only_once = yes
-		complete_effect = {	add_war_support = 0.1	}
-	}
-
-	USA_emergency_arms_deliveries = {
-		icon = generic_prepare_civil_war
-		allowed = {	original_tag = USA	}
-		available = {	has_country_flag = this_was_their_finest_hour_speech	}
-		cost = 50
-		fire_only_once = yes
-		complete_effect = {
-		add_war_support = 0.025
-			ENG = {
-				add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 20000 producer = USA }
-				add_equipment_to_stockpile = { type = artillery_equipment_1 amount = 300 producer = USA }
-				add_equipment_to_stockpile = { type = support_equipment_1 amount = 300 producer = USA }
-				country_event = { id = wtt_britain.30 }
-			}
-		}
-	}
-
-}
-
 USA_congress = {
 USA_depresi_mission = {
 		icon = generic_political_discourse
@@ -3421,6 +3344,76 @@ USA_congress_small_supporta = yes
 				set_variable = { var = USA_indiana_steel_duration value = 12 }
 			}
 			USA_congress_small_supporta = yes
+		}
+	}
+		USA_establish_personal_communication_with_former_naval_person = {
+		icon = generic_political_discourse
+		allowed = {	original_tag = USA	}
+		available = {	has_country_flag = blood_toil_tears_sweat_speech	}
+		cost = 50
+		fire_only_once = yes
+		complete_effect = {	add_war_support = 0.05 }
+	}
+
+	USA_battle_domestic_isolationism = {
+		icon = generic_civil_support
+		allowed = {		original_tag = USA	}
+		available = {	has_country_flag = fight_on_the_beaches_speech	}
+		cost = 50
+		fire_only_once = yes
+		complete_effect = {	add_war_support = 0.1	}
+	}
+
+	USA_emergency_arms_deliveries = {
+		icon = generic_prepare_civil_war
+		allowed = {	original_tag = USA	}
+		available = {	has_country_flag = this_was_their_finest_hour_speech	}
+		cost = 50
+		fire_only_once = yes
+		complete_effect = {
+		add_war_support = 0.025
+			ENG = {
+				add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 20000 producer = USA }
+				add_equipment_to_stockpile = { type = artillery_equipment_1 amount = 300 producer = USA }
+				add_equipment_to_stockpile = { type = support_equipment_1 amount = 300 producer = USA }
+				country_event = { id = wtt_britain.30 }
+			}
+		}
+	}
+	USA_plane_eng = {
+		allowed = {	original_tag = USA } 
+		icon = generic_naval
+		fire_only_once = yes
+		complete_effect = { activate_mission = USA_plane_LL1	}		
+	}
+	USA_plane_LL1 = {
+		allowed = {	original_tag = USA }	
+		icon = generic_naval
+		available = { tag = Gay	}
+		days_mission_timeout = 10
+		fire_only_once = no
+		is_good = yes
+		activation = { always = no	}
+		timeout_effect = {
+		USA_all_plane_LL = yes	
+		activate_mission = USA_plane_LL2		
+		}
+		complete_effect = {	
+		}
+	}
+	USA_plane_LL2 = {
+		allowed = {	original_tag = USA }	
+		icon = generic_naval
+		available = { tag = Gay	}
+		days_mission_timeout = 10
+		fire_only_once = no
+		is_good = yes
+		activation = { always = no	}
+		timeout_effect = {
+		USA_all_plane_LL = yes	
+		activate_mission = USA_plane_LL1		
+		}
+		complete_effect = {	
 		}
 	}
 }

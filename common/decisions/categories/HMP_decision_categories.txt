@@ -1,8 +1,3 @@
-USA_aid_britain = {
-	allowed = {	original_tag = USA	}
-	visible = {	date > 1939.6.1 }
-}
-
 USA_congress = {
 	icon = usa_congress
 	allowed = {	original_tag = USA	}
@@ -49,9 +44,7 @@ JAP_interservice_rivalry = {
 	}
 }
 
-GER_plane_auto_LL = { 
-	allowed = {	 original_tag = ITA  } 
-}
+
 propaganda_effortsx = {
 	icon = generic_propaganda
 }

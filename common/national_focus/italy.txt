@@ -551,7 +551,7 @@ date > 1941.6.1
 
 	focus = {
 		id = ITA_army_primacy
-		icon = GFX_goal_generic_axis_build_infantry
+		icon = goal_ITA_Regio_Esercito2
 		x = 5
 		y = 0
 		cost = 10
@@ -892,12 +892,11 @@ date > 1941.6.1
 		id = ITA_air_innovation
 		icon = GFX_goal_generic_build_airforce
 		text = air_innovation
-		prerequisite = { focus = ITA_army_primacy focus = ITA_mare_nostrum }
-		x = 1
+		prerequisite = { focus = ITA_army_primacy }
+		x = 0
 		y = 1
 		relative_position_id = ITA_army_primacy
 		cost = 5
-		available = { date > 1937.11.1 }
 		available_if_capitulated = yes
 
 		completion_reward = {
@@ -915,7 +914,7 @@ date > 1941.6.1
 		id = ITA_carrier_effort
 		icon = GFX_goal_generic_navy_carrier
 		prerequisite = { focus = ITA_mare_nostrum }
-		x = 1
+		x = 0
 		y = 1
 		relative_position_id = ITA_mare_nostrum
 		cost = 5
@@ -929,7 +928,7 @@ date > 1941.6.1
 			add_tech_bonus = {
 				name = cv_bonus
 				bonus = 1.0
-				uses = 2
+				uses = 3
 				category = cv_tech
 			}
 		}
@@ -939,7 +938,7 @@ date > 1941.6.1
 		id = ITA_capital_ships
 		icon = GFX_goal_generic_navy_battleship
 		prerequisite = { focus = ITA_mare_nostrum }
-		x = 3
+		x = 2
 		y = 1
 		relative_position_id = ITA_mare_nostrum
 		cost = 5
@@ -953,7 +952,7 @@ date > 1941.6.1
 			add_tech_bonus = {
 				name = bb_bonus
 				bonus = 1.0
-				uses = 2
+				uses = 3
 				category = bb_tech
 				category = bc_tech
 			}
@@ -970,10 +969,10 @@ date > 1941.6.1
 	focus = {
 		id = ITA_bomber_effort
 		icon = GFX_goal_generic_air_bomber
-		prerequisite = { focus = ITA_army_primacy focus = ITA_air_innovation }
+		prerequisite = {  focus = ITA_air_innovation }
 		x = 0
-		y = 3
-		relative_position_id = ITA_army_primacy
+		y = 2
+		relative_position_id = ITA_air_innovation
 		cost = 10
 
 		available_if_capitulated = yes
@@ -997,7 +996,7 @@ date > 1941.6.1
 		text = naval_air_effort
 		prerequisite = { focus = ITA_air_innovation focus = ITA_carrier_effort   }
 		x = 1
-		y = 2
+		y = 1
 		relative_position_id = ITA_air_innovation
 		cost = 10
 		ai_will_do = {
@@ -1019,43 +1018,12 @@ date > 1941.6.1
 	}
 
 	focus = {
-		id = ITA_atlantic_fleet
-		icon = GFX_goal_generic_navy_doctrines_tactics
-		prerequisite = { focus = ITA_carrier_effort }
-		prerequisite = { focus = ITA_capital_ships }
-		x = 1
-		y = 1
-		relative_position_id = ITA_carrier_effort
-		cost = 5
-		ai_will_do = {
-			factor = 1
-		}
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_tech_bonus = {
-				name = ITA_atlantic_fleet
-				bonus = 1.0
-				uses = 1
-				category = cv_tech
-			}
-			add_tech_bonus = {
-				name = ITA_atlantic_fleet
-				bonus = 1.0
-				uses = 1
-				category = bb_tech
-			}
-		}
-	}
-
-	focus = {
 		id = ITA_marines_and_landing_craft
 		icon = GFX_goal_generic_amphibious_assault
-		prerequisite = { focus = ITA_atlantic_fleet }
+		prerequisite = { focus = ITA_capital_ships }
 		x = 0
-		y = 1
-		relative_position_id = ITA_atlantic_fleet
+		y = 2
+		relative_position_id = ITA_capital_ships
 		cost = 5
 		ai_will_do = {
 			factor = 1
@@ -1134,12 +1102,12 @@ date > 1941.6.1
 	focus = {
 		id = ITA_light_ship_effort
 		icon = GFX_goal_generic_navy_cruiser
-		x = 12
-		y = 0
+		
+		x = 1
+		y = 2
 		cost = 5
-		ai_will_do = {
-			factor = 1
-		}
+		relative_position_id = ITA_mare_nostrum
+		prerequisite = {  focus = ITA_mare_nostrum }
 
 		available_if_capitulated = yes
 
@@ -1147,43 +1115,13 @@ date > 1941.6.1
 			add_tech_bonus = {
 				name = dd_bonus
 				bonus = 1.0
-				uses = 1
+				uses = 2
 				category = dd_tech
 			}
 			add_tech_bonus = {
 				name = con_def_bonus
 				bonus = 1.0
-				uses = 1
-				category = naval_doctrine
-			}
-		}
-	}
-
-	focus = {
-		id = ITA_escort_effort
-		icon = GFX_goal_generic_navy_anti_submarine
-		prerequisite = { focus = ITA_light_ship_effort }
-		x = 1
-		y = 1
-		relative_position_id = ITA_light_ship_effort
-		cost = 5
-		ai_will_do = {
-			factor = 1
-		}
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_tech_bonus = {
-				name = ITA_escort_effort
-				bonus = 1.0
-				uses = 1
-				category = dd_tech
-			}
-			add_tech_bonus = {
-				name = ITA_escort_effort
-				bonus = 1.0
-				uses = 2
+				uses = 3
 				category = naval_doctrine
 			}
 		}
@@ -1193,14 +1131,11 @@ date > 1941.6.1
 		id = ITA_submarine_effort
 		icon = GFX_goal_generic_navy_submarine
 		text = submarine_effort
-		prerequisite = { focus = ITA_light_ship_effort }
-		x = -1
+		x = 0
 		y = 2
-		relative_position_id = ITA_light_ship_effort
 		cost = 5
-		ai_will_do = {
-			factor = 1
-		}
+		relative_position_id = ITA_light_ship_effort
+		prerequisite = { focus = ITA_mare_nostrum }
 
 		available_if_capitulated = yes
 
@@ -1208,13 +1143,13 @@ date > 1941.6.1
 			add_tech_bonus = {
 				name = ss_bonus
 				bonus = 1.0
-				uses = 1
+				uses = 2
 				category = ss_tech
 			}
 			add_tech_bonus = {
 				name = sub_op_bonus
 				bonus = 1.0
-				uses = 2
+				uses = 4
 				category = naval_doctrine
 			}
 		}
@@ -1224,29 +1159,14 @@ date > 1941.6.1
 		id = ITA_sea_wolves
 		icon = GFX_goal_generic_wolf_pack
 		prerequisite = { focus = ITA_submarine_effort }
-		prerequisite = { focus = ITA_german_millitary_cooperation }
-		available = {
-		}
-		x = -1
-		y = 3
+		x = 0
+		y = 1
 		relative_position_id = ITA_submarine_effort
 		cost = 5
 
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_tech_bonus = {
-				name = ITA_sea_wolves
-				bonus = 1.0
-				uses = 1
-				category = ss_tech
-			}
-			add_tech_bonus = {
-				name = ITA_sea_wolves
-				bonus = 1.0
-				uses = 2
-				category = naval_doctrine
-			}
 			set_technology = { cruiser_submarines = 1 }
 		}
 	}
@@ -1258,7 +1178,7 @@ date > 1941.6.1
 
 		available_if_capitulated = yes
 
-		x = 15
+		x = 12
 		y = 0
 		cost = 10
 
@@ -1282,19 +1202,6 @@ date > 1941.6.1
 		add_state_claim = 103
 		GER = { add_state_claim = 775 }
 			add_named_threat = { threat = 4 name = ITA_slovenia_dalmatia_claims_threat }
-		}
-	}
-		focus = {
-		id = ITA_romania_friend
-		icon = GFX_focus_BUL_befriend_commie_ROM
-		prerequisite = { focus = ITA_slovenia_dalmatia_claims }
-		x = 0
-		y = 1
-		relative_position_id = ITA_slovenia_dalmatia_claims
-		cost = 5
-
-		completion_reward = {
-			ROM = {	add_popularity = { ideology = fascism popularity = 0.1 } }
 		}
 	}
 
@@ -1321,23 +1228,26 @@ date > 1941.6.1
 	focus = {
 		id = ITA_pact_of_steel
 		icon = GFX_goal_generic_major_alliance
-		prerequisite = { focus = ITA_romania_friend }
-		x = -1
+		prerequisite = { focus = ITA_slovenia_dalmatia_claims }
+		x = 0
 		y = 1
-		relative_position_id = ITA_romania_friend
+		relative_position_id = ITA_slovenia_dalmatia_claims
 		cost = 5
 
-		completion_reward = {			
+		completion_reward = {		
+			BUL = {	add_popularity = { ideology = fascism popularity = 0.1 } }
+			ROM = {	add_popularity = { ideology = fascism popularity = 0.1 } }		
 			add_threat = 7
 		}
 	}
 
+	
 	focus = {
 		id = ITA_italia_irredenta
 		icon = GFX_focus_generic_italy_first
 		prerequisite = { focus = ITA_pact_of_steel }
-		x = 0
-		y = 2
+		x = -1
+		y = 1
 		relative_position_id = ITA_pact_of_steel
 
 		cost = 10
@@ -1360,29 +1270,14 @@ date > 1941.6.1
 			add_state_core = 313
 			}
 		}
-	
-	focus = {
-		id = ITA_german_millitary_cooperation
-		icon = GFX_goal_generic_military_deal
-		prerequisite = { focus = ITA_pact_of_steel }
-
-		x = -3
-		y = 1
-		relative_position_id = ITA_pact_of_steel
-		cost = 5
-			
-		completion_reward = {
-			add_ideas = ITA_german_millitary_cooperation_focus
-		}
-	}
 
 	focus = {
 		id = ITA_german_rd_treaty
 		icon = GFX_goal_generic_scientific_exchange
 		prerequisite = { focus = ITA_pact_of_steel }
 
-		x = -1
-		y = 1
+		x = -2
+		y = 2
 		relative_position_id = ITA_pact_of_steel
 		cost = 5
 
@@ -1395,7 +1290,6 @@ date > 1941.6.1
 					uses = 5
 					category = synth_resources
 				}
-				# Balance research bonus to 2 techs in armor, also in event
 				add_tech_bonus = {
 					name = armor_bonus
 					bonus = 1.0
@@ -1414,6 +1308,7 @@ date > 1941.6.1
 			category = naval_doctrine
 		}
 		}
+					add_ideas = ITA_german_millitary_cooperation_focus
 		}
 	}
 
@@ -1421,11 +1316,11 @@ date > 1941.6.1
 		id = ITA_secret_weapons
 		icon = GFX_goal_generic_secret_weapon
 		text = secret_weapons
-		prerequisite = { focus = ITA_german_millitary_cooperation }
+		prerequisite = { focus = ITA_german_rd_treaty }
 
-		x = 1
+		x = 0
 		y = 1
-		relative_position_id = ITA_german_millitary_cooperation
+		relative_position_id = ITA_german_rd_treaty
 		cost = 10
 
 		available_if_capitulated = yes
@@ -1442,6 +1337,7 @@ date > 1941.6.1
 		}
 	}
 
+			
 
 	focus = {
 		id = ITA_balkan_war_goal
@@ -1458,17 +1354,37 @@ date > 1941.6.1
 		}
 	}
 	
+	
+		focus = {
+		id = ITA_sword_of_islam		
+		prerequisite = { focus = ITA_balkan_war_goal focus = ITA_italia_irredenta }
+		
+		icon = GFX_goal_generic_secret_weapon
+		x = -1 
+		y = 1
+
+		relative_position_id = ITA_balkan_war_goal
+		cost = 5
+
+		completion_reward = {
+			448 = { add_resistance_target  = { amount = -10 } } 
+			449 = { add_resistance_target  = { amount = -10 } } 
+			579 = { add_resistance_target  = { amount = -10 } } 
+			450 = { add_resistance_target  = { amount = -10 } }
+			
+		}
+	}
 			focus = {
 		id = ITA_align_iraq
 		available = { ENG = {  has_decision = operation_countenance	} }
 		
-		prerequisite = { focus = ITA_balkan_war_goal }
+		prerequisite = { focus = ITA_sword_of_islam }
 		
 		icon = GFX_focus_ita_irq
 		x = 0
-		y = 2
+		y = 1
 
-		relative_position_id = ITA_balkan_war_goal
+		relative_position_id = ITA_sword_of_islam
 		cost = 1
 
 		completion_reward = {
@@ -1479,5 +1395,6 @@ date > 1941.6.1
 			}
 		}
 	}
-	
+				
+
 }

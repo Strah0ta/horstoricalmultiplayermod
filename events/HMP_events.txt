@@ -696,7 +696,7 @@ country_event = {
 	
 option = {
 name = iran.3.a  
-	ENG = { transfer_state = 412 transfer_state = 413 transfer_state = 421 transfer_state = 411  } 
+	ENG = { transfer_state = 412 transfer_state = 413 transfer_state = 421  } 
 }
 	}
 	

@@ -1544,36 +1544,37 @@ copy_australian_at_equipment_research = {
 	if = { limit = { AST = { has_tech = antitank2 }}  ROOT = { set_technology = antitank2 }}
 	if = { limit = { AST = { has_tech = antitank5 }}  ROOT = { set_technology = antitank5 }}
 }
-
 #copy_norwegian_inf_equipment_research = {}
 
+
+
 generic_bonus_1 = {
-	add_tech_bonus = {  	
-	name = "Generic 100 Bonus" uses = 1  bonus = 1 
-	category = air_equipment category = industry 
-	category = artillery category = naval_equipment	
+	add_tech_bonus = { 
+	name = "Generic 100 Bonus" bonus = 1 uses = 1 
+	category = air_equipment category = artillery 
+	category = industry category = naval_equipment	
 	category = motorized_equipment   category =	armor 
-	category = electronics category = nuclear 
-	category = land_doctrine category = infantry_weapons 
-	category = air_doctrine category = naval_doctrine  
+	category = electronics	category = nuclear 
+	category = infantry_weapons category = land_doctrine 
+	category = air_doctrine category = naval_doctrine   
 	category = tp_tech   category = support_tech 
 	}
 }
 generic_bonus_3 = {
 	add_tech_bonus = { 
-	name = "Generic 300 Bonus"  bonus = 3 uses = 1 
-	category = air_equipment category = industry 
-	category = artillery category = naval_equipment 
-	category = motorized_equipment category = armor 
-	category = electronics category = nuclear 
-	category = land_doctrine category = infantry_weapons 
-	category = air_doctrine category = naval_doctrine 
-	category = tp_tech category = support_tech 
+	name = "Generic 300 Bonus" bonus = 3 uses = 1 
+	category = air_equipment category = artillery 
+	category = industry category = naval_equipment	
+	category = motorized_equipment   category =	armor 
+	category = electronics	category = nuclear 
+	category = infantry_weapons category = land_doctrine 
+	category = air_doctrine category = naval_doctrine   
+	category = tp_tech   category = support_tech 
 	}
 }
 generic_bonus_2y = {
 	add_tech_bonus = { 
-	name = "Generic 2y Bonus"  ahead_reduction = 2 bonus = 1 uses = 1 
+	name = "Generic 2y Bonus"  ahead_reduction = 2 bonus = 1 uses = 1
 	category = air_equipment category = artillery 
 	category = industry category = naval_equipment	
 	category = motorized_equipment   category =	armor 
@@ -2248,7 +2249,7 @@ create_field_marshal = {
 create_field_marshal = {
 	name = "Lajos Veress"
 	gfx = GFX_Portrait_hungary_lajos_veress
-	traits = { organizer urban_assault_specialist panzer_leader expert_improviser inspirational_leader thorough_planner logistics_wizard organisational_leader	trickster trait_engineer }
+	traits = { organizer urban_assault_specialist panzer_leader panzer_expert expert_improviser inspirational_leader thorough_planner logistics_wizard organisational_leader	trickster trait_engineer }
 	skill = 7
 	attack_skill = 8
 	defense_skill = 4

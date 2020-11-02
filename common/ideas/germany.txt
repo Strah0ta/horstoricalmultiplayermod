@@ -1217,14 +1217,12 @@ ideas = {
 		
 		ernst_udet = {
 			ledger = air
-			ledger = navy			
 			allowed = {
 				original_tag = GER
 			}
 			
 			research_bonus = {
 				air_doctrine = 0.10
-					naval_doctrine = 0.10
 			}
 			
 			traits = { dive_bomber }

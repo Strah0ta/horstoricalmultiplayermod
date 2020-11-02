@@ -13,6 +13,8 @@
   irq_militarism:0 "Militarism"
   IRQ_ASSYRIA_fascism:0 "Neo-Assyrian Empire"
   IRQ_revolution2:0 "Spread the Revolution to Syria"
+  ITA_sword_of_islam:0 "The Sword of Islam"
+  ITA_sword_of_islam_desc:0 "Mussolini is the official Protector of Islam."
   IRQ_revolution3:0 "Blood Over Royalty"
   IRQ_revolution4:0 "Bring Back the Mufti"
   IRQ_revolution5:0 "Our Kin Reuinted"
