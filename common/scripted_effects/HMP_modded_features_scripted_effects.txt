@@ -3233,6 +3233,7 @@ HMP_startup_on_actions = {
 				}
 				JAP  = { give_resource_rights = { receiver = GER state = 494 }	}
 				if = { limit = { MAN = { is_ai = yes }} JAP = { country_event = { id = japan.148 days = 1  }}   }
+				if = { limit = { AND = { MEX = { is_ai = yes }} country_exists = MEX } ENG = { country_event = { id = japan.648 days = 1  }}   }
 				if = { limit = { NZL = { is_ai = yes }} AST = { country_event = { id = japan.758 days = 1  }}   }				
 				if = { limit = { has_start_date > 1936.01.02 }  HMP_no_asia = yes      }
 				make_asia_go_faster = yes	

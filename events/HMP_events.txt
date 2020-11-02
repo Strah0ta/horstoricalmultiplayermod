@@ -1491,6 +1491,47 @@ is_triggered_only = yes
    }
 }
 
+
+country_event = {
+   id = japan.648
+   title = "Mexico is AI controlled"
+   desc = "Do you wish to redistribute Mexico's industry to several Allied minors and remove it from the game?"
+   picture = GFX_report_event_japan_startup
+   fire_only_once = yes
+is_triggered_only = yes
+     option = {
+   name = "Yes, Mexico will remain AI"
+   country_event = { id = japan.649 }
+   }
+    option = {
+   name = "No, Mexico will have a player on it."
+   }  
+}
+
+country_event = {
+   id = japan.649
+   title = "The Redistribution of Mexico's Industry"
+   desc = "The redistribution of Mexico's industry is imminent."
+   picture = GFX_report_event_japan_startup
+   fire_only_once = yes
+is_triggered_only = yes
+   option = {
+   name = "Confirm redistribution"
+			CAN = { add_offsite_building = { type = industrial_complex level = 5 } }
+			SAF = {	add_offsite_building = { type = industrial_complex level = 3 } add_offsite_building = { type = arms_factory level = 2 } }
+		if = { limit = { country_exists = NZL } NZL = {	add_offsite_building = { type = industrial_complex level = 2 } add_offsite_building = { type = arms_factory level = 1 } }  }	
+			AST = { add_offsite_building = { type = dockyard level = 2 } }
+			 give_resource_rights = { receiver = USA state = 277 }  give_resource_rights = { receiver = USA state = 485 }  give_resource_rights = { receiver = USA state = 478 }
+			MEX = { leave_faction = yes add_ideas = ai_imiter }
+   }
+      option = {
+   name = "Reconsider..."
+    country_event = { id = japan.148 }
+   }
+}
+
+
+
 country_event = {
    id = japan.758
    title = "New Zealand is AI controlled"
