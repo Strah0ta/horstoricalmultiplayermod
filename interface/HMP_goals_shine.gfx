@@ -1,10 +1,10 @@
 spriteTypes = {	
 	SpriteType = {
 		name = "GFX_goal_ITA_Regio_Esercito_shine"
-		texturefile = "gfx/interface/goals/goal_ITA_Regio_Esercito.dds"			
+		texturefile = "gfx/interface/goals/goal_ITA_Regio_Esercito.tga"			
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/goal_ITA_Regio_Esercito.dds"			
+			animationmaskfile = "gfx/interface/goals/goal_ITA_Regio_Esercito.tga"			
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -17,7 +17,7 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/goal_ITA_Regio_Esercito.dds"			
+			animationmaskfile = "gfx/interface/goals/goal_ITA_Regio_Esercito.tga"			
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -31,11 +31,11 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	SpriteType = {
-		name = "GFX_goal_ITA_Regio_Esercito2_shine"
-		texturefile = "gfx/interface/goals/goal_ITA_Regio_Esercito2.dds"			
+		name = "GFX_goal_ITA_Regio_Esercito_2_shine"
+		texturefile = "gfx/interface/goals/goal_ITA_Regio_Esercito_2.tga"			
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/goal_ITA_Regio_Esercito2.dds"			
+			animationmaskfile = "gfx/interface/goals/goal_ITA_Regio_Esercito_2.tga"			
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -48,7 +48,7 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/goal_ITA_Regio_Esercito2.dds"			
+			animationmaskfile = "gfx/interface/goals/goal_ITA_Regio_Esercito_2.tga"			
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)

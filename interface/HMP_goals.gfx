@@ -8,6 +8,14 @@ spriteTypes = {
 		name = "GFX_focus_greater_bulgaria"
 		texturefile = "gfx/interface/goals/focus_BUL_greater_bulgaria.dds"
 	}
+	SpriteType = { 
+		name = "GFX_goal_ITA_Regio_Esercito"
+		texturefile = "gfx/interface/goals/goal_ITA_Regio_Esercito.tga"
+	}
+		SpriteType = { 
+		name = "GFX_goal_ITA_Regio_Esercito_2"
+		texturefile = "gfx/interface/goals/goal_ITA_Regio_Esercito_2.tga"
+	}
 
 	SpriteType = { 
 		name = "GFX_focus_bulgarisation"

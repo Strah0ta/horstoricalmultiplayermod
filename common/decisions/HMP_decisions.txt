@@ -191,7 +191,7 @@ HMP_ll_soviets_receive = {
 HMP_ll_soviets_receive_guns = {
 allowed = {  original_tag = SOV } 
 
-available = {  check_variable = { var = SOV_barb_ll_token  value = 5  compare = greater_than_or_equals} date > 1942.1.22 			custom_trigger_tooltip = {	tooltip = SOV_secure_tt	suppy_route_secure = yes}  }      
+available = {  check_variable = { var = SOV_barb_ll_token  value = 5  compare = greater_than_or_equals} has_war_with = GER OR = { date > 1942.1.22  ENG = { controls_state = 412 }  } 			custom_trigger_tooltip = {	tooltip = SOV_secure_tt	suppy_route_secure = yes}  }      
 		icon = generic_form_nation
 		cost = 0
 		fire_only_once = no
@@ -202,7 +202,7 @@ available = {  check_variable = { var = SOV_barb_ll_token  value = 5  compare = 
 }
 HMP_ll_soviets_receive_more_guns = {
 allowed = {  original_tag = SOV } 
-available = {  check_variable = { var = SOV_barb_ll_token  value = 20  compare = greater_than_or_equals} date > 1942.1.22 			custom_trigger_tooltip = {	tooltip = SOV_secure_tt	suppy_route_secure = yes}  }      
+available = {  check_variable = { var = SOV_barb_ll_token  value = 20  compare = greater_than_or_equals} has_war_with = GER OR = { date > 1942.1.22  ENG = { controls_state = 412 }  } 			custom_trigger_tooltip = {	tooltip = SOV_secure_tt	suppy_route_secure = yes}  }      
 		icon = generic_form_nation
 		cost = 0
 		fire_only_once = no
@@ -213,7 +213,7 @@ available = {  check_variable = { var = SOV_barb_ll_token  value = 20  compare =
 }
 HMP_ll_soviets_receive_more_guns2 = {
 allowed = {  original_tag = SOV } 
-available = {  check_variable = { var = SOV_barb_ll_token  value = 50  compare = greater_than_or_equals} date > 1942.1.22 			custom_trigger_tooltip = {	tooltip = SOV_secure_tt	suppy_route_secure = yes}  }      
+available = {  check_variable = { var = SOV_barb_ll_token  value = 50  compare = greater_than_or_equals} has_war_with = GER OR = { date > 1942.1.22  ENG = { controls_state = 412 }  } 			custom_trigger_tooltip = {	tooltip = SOV_secure_tt	suppy_route_secure = yes}  }      
 		icon = generic_form_nation
 		cost = 0
 		fire_only_once = no
@@ -227,7 +227,7 @@ available = {  check_variable = { var = SOV_barb_ll_token  value = 50  compare =
 HMP_ll_soviets_receive_support = {
 allowed = {  original_tag = SOV } 
 
-available = {  check_variable = { var = SOV_barb_ll_token  value = 5  compare = greater_than_or_equals} date > 1942.1.22 			custom_trigger_tooltip = {	tooltip = SOV_secure_tt	suppy_route_secure = yes}  }      
+available = {  check_variable = { var = SOV_barb_ll_token  value = 5  compare = greater_than_or_equals} has_war_with = GER OR = { date > 1942.1.22  ENG = { controls_state = 412 }  } 			custom_trigger_tooltip = {	tooltip = SOV_secure_tt	suppy_route_secure = yes}  }      
 		icon = generic_form_nation
 		cost = 0
 		fire_only_once = no
@@ -239,7 +239,7 @@ available = {  check_variable = { var = SOV_barb_ll_token  value = 5  compare = 
 HMP_ll_soviets_receive_support2 = {
 allowed = {  original_tag = SOV } 
 
-available = {  check_variable = { var = SOV_barb_ll_token  value = 20  compare = greater_than_or_equals} date > 1942.1.22 			custom_trigger_tooltip = {	tooltip = SOV_secure_tt	suppy_route_secure = yes}  }      
+available = {  check_variable = { var = SOV_barb_ll_token  value = 20  compare = greater_than_or_equals}  has_war_with = GER OR = { date > 1942.1.22  ENG = { controls_state = 412 }  } 			custom_trigger_tooltip = {	tooltip = SOV_secure_tt	suppy_route_secure = yes}  }      
 		icon = generic_form_nation
 		cost = 0
 		fire_only_once = no
@@ -250,7 +250,7 @@ available = {  check_variable = { var = SOV_barb_ll_token  value = 20  compare =
 }
 HMP_ll_soviets_receive_aa = {
 allowed = {  original_tag = SOV } 
-available = {  check_variable = { var = SOV_barb_ll_token  value = 5  compare = greater_than_or_equals} date > 1942.1.22 			custom_trigger_tooltip = {	tooltip = SOV_secure_tt	suppy_route_secure = yes}  }      
+available = {  check_variable = { var = SOV_barb_ll_token  value = 5  compare = greater_than_or_equals} has_war_with = GER OR = { date > 1942.1.22  ENG = { controls_state = 412 }  } 			custom_trigger_tooltip = {	tooltip = SOV_secure_tt	suppy_route_secure = yes}  }      
 		icon = generic_form_nation
 		cost = 0
 		fire_only_once = no
@@ -268,7 +268,7 @@ available = {  check_variable = { var = SOV_barb_ll_token  value = 5  compare = 
 }
 HMP_ll_soviets_receive_aa2 = {
 allowed = {  original_tag = SOV } 
-available = {  check_variable = { var = SOV_barb_ll_token  value = 20  compare = greater_than_or_equals} date > 1942.1.22 			custom_trigger_tooltip = {	tooltip = SOV_secure_tt	suppy_route_secure = yes}  }      
+available = {  check_variable = { var = SOV_barb_ll_token  value = 20  compare = greater_than_or_equals} has_war_with = GER OR = { date > 1942.1.22  ENG = { controls_state = 412 }  } 			custom_trigger_tooltip = {	tooltip = SOV_secure_tt	suppy_route_secure = yes}  }      
 		icon = generic_form_nation
 		cost = 0
 		fire_only_once = no
@@ -286,7 +286,7 @@ available = {  check_variable = { var = SOV_barb_ll_token  value = 20  compare =
 }
 HMP_ll_soviets_receive_armorcar = {
 allowed = {  original_tag = SOV } 
-available = {  check_variable = { var = SOV_barb_ll_token  value = 5  compare = greater_than_or_equals} date > 1942.1.22 			custom_trigger_tooltip = {	tooltip = SOV_secure_tt	suppy_route_secure = yes}  }      
+available = {  check_variable = { var = SOV_barb_ll_token  value = 5  compare = greater_than_or_equals} has_war_with = GER OR = { date > 1942.1.22  ENG = { controls_state = 412 }  } 			custom_trigger_tooltip = {	tooltip = SOV_secure_tt	suppy_route_secure = yes}  }      
 		icon = generic_form_nation
 		cost = 0
 		fire_only_once = no
@@ -304,7 +304,7 @@ available = {  check_variable = { var = SOV_barb_ll_token  value = 5  compare = 
 }
 HMP_ll_soviets_receive_mrarty = {
 allowed = {  original_tag = SOV } 
-available = {  check_variable = { var = SOV_barb_ll_token  value = 5  compare = greater_than_or_equals} date > 1942.1.22 			custom_trigger_tooltip = {	tooltip = SOV_secure_tt	suppy_route_secure = yes}  }      
+available = {  check_variable = { var = SOV_barb_ll_token  value = 5  compare = greater_than_or_equals} has_war_with = GER OR = { date > 1942.1.22  ENG = { controls_state = 412 }  } 			custom_trigger_tooltip = {	tooltip = SOV_secure_tt	suppy_route_secure = yes}  }      
 		icon = generic_form_nation
 		cost = 0
 		fire_only_once = no
@@ -322,7 +322,7 @@ available = {  check_variable = { var = SOV_barb_ll_token  value = 5  compare = 
 }
 HMP_ll_soviets_receive_mrarty2 = {
 allowed = {  original_tag = SOV } 
-available = {  check_variable = { var = SOV_barb_ll_token  value = 20  compare = greater_than_or_equals} date > 1942.1.22 			custom_trigger_tooltip = {	tooltip = SOV_secure_tt	suppy_route_secure = yes}  }      
+available = {  check_variable = { var = SOV_barb_ll_token  value = 20  compare = greater_than_or_equals} has_war_with = GER OR = { date > 1942.1.22  ENG = { controls_state = 412 }  } 			custom_trigger_tooltip = {	tooltip = SOV_secure_tt	suppy_route_secure = yes}  }      
 		icon = generic_form_nation
 		cost = 0
 		fire_only_once = no
@@ -340,7 +340,7 @@ available = {  check_variable = { var = SOV_barb_ll_token  value = 20  compare =
 }           
 HMP_ll_soviets_receive_at = {
 allowed = {  original_tag = SOV } 
-available = {  check_variable = { var = SOV_barb_ll_token  value = 5  compare = greater_than_or_equals} date > 1942.1.22 			custom_trigger_tooltip = {	tooltip = SOV_secure_tt	suppy_route_secure = yes}  }      
+available = {  check_variable = { var = SOV_barb_ll_token  value = 5  compare = greater_than_or_equals} has_war_with = GER OR = { date > 1942.1.22  ENG = { controls_state = 412 }  } 			custom_trigger_tooltip = {	tooltip = SOV_secure_tt	suppy_route_secure = yes}  }      
 		icon = generic_form_nation
 		cost = 0
 		fire_only_once = no
@@ -358,7 +358,7 @@ available = {  check_variable = { var = SOV_barb_ll_token  value = 5  compare = 
 	}
 	HMP_ll_soviets_receive_at2 = {
 allowed = {  original_tag = SOV } 
-available = {  check_variable = { var = SOV_barb_ll_token  value = 20  compare = greater_than_or_equals} date > 1942.1.22 			custom_trigger_tooltip = {	tooltip = SOV_secure_tt	suppy_route_secure = yes}  }      
+available = {  check_variable = { var = SOV_barb_ll_token  value = 20  compare = greater_than_or_equals} has_war_with = GER OR = { date > 1942.1.22  ENG = { controls_state = 412 }  } 			custom_trigger_tooltip = {	tooltip = SOV_secure_tt	suppy_route_secure = yes}  }      
 		icon = generic_form_nation
 		cost = 0
 		fire_only_once = no
@@ -376,7 +376,7 @@ available = {  check_variable = { var = SOV_barb_ll_token  value = 20  compare =
 	}
 HMP_ll_soviets_receive_arty = {
 allowed = {  original_tag = SOV } 
-available = {  check_variable = { var = SOV_barb_ll_token  value = 5  compare = greater_than_or_equals} date > 1942.1.22 			custom_trigger_tooltip = {	tooltip = SOV_secure_tt	suppy_route_secure = yes}  }      
+available = {  check_variable = { var = SOV_barb_ll_token  value = 5  compare = greater_than_or_equals} has_war_with = GER OR = { date > 1942.1.22  ENG = { controls_state = 412 }  } 			custom_trigger_tooltip = {	tooltip = SOV_secure_tt	suppy_route_secure = yes}  }      
 		icon = generic_form_nation
 		cost = 0
 		fire_only_once = no
@@ -394,7 +394,7 @@ available = {  check_variable = { var = SOV_barb_ll_token  value = 5  compare = 
 	}	
 	HMP_ll_soviets_receive_arty2 = {
 allowed = {  original_tag = SOV } 
-available = {  check_variable = { var = SOV_barb_ll_token  value = 20  compare = greater_than_or_equals} date > 1942.1.22 			custom_trigger_tooltip = {	tooltip = SOV_secure_tt	suppy_route_secure = yes}  }      
+available = {  check_variable = { var = SOV_barb_ll_token  value = 20  compare = greater_than_or_equals} has_war_with = GER OR = { date > 1942.1.22  ENG = { controls_state = 412 }  } 			custom_trigger_tooltip = {	tooltip = SOV_secure_tt	suppy_route_secure = yes}  }      
 		icon = generic_form_nation
 		cost = 0
 		fire_only_once = no
@@ -412,7 +412,7 @@ available = {  check_variable = { var = SOV_barb_ll_token  value = 20  compare =
 	}	
 	HMP_ll_soviets_receive_rarty = {
 allowed = {  original_tag = SOV } 
-available = {  check_variable = { var = SOV_barb_ll_token  value = 5  compare = greater_than_or_equals} date > 1942.1.22 			custom_trigger_tooltip = {	tooltip = SOV_secure_tt	suppy_route_secure = yes}  }      
+available = {  check_variable = { var = SOV_barb_ll_token  value = 5  compare = greater_than_or_equals} has_war_with = GER OR = { date > 1942.1.22  ENG = { controls_state = 412 }  } 			custom_trigger_tooltip = {	tooltip = SOV_secure_tt	suppy_route_secure = yes}  }      
 		icon = generic_form_nation
 		cost = 0
 		fire_only_once = no
@@ -430,7 +430,7 @@ available = {  check_variable = { var = SOV_barb_ll_token  value = 5  compare = 
 	}	
 		HMP_ll_soviets_receive_rarty2 = {
 allowed = {  original_tag = SOV } 
-available = {  check_variable = { var = SOV_barb_ll_token  value = 20  compare = greater_than_or_equals} date > 1942.1.22 			custom_trigger_tooltip = {	tooltip = SOV_secure_tt	suppy_route_secure = yes}  }      
+available = {  check_variable = { var = SOV_barb_ll_token  value = 20  compare = greater_than_or_equals} has_war_with = GER OR = { date > 1942.1.22  ENG = { controls_state = 412 }  } 			custom_trigger_tooltip = {	tooltip = SOV_secure_tt	suppy_route_secure = yes}  }      
 		icon = generic_form_nation
 		cost = 0
 		fire_only_once = no
@@ -448,7 +448,7 @@ available = {  check_variable = { var = SOV_barb_ll_token  value = 20  compare =
 	}	
 	HMP_ll_soviets_receive_mot = {
 allowed = {  original_tag = SOV } 
-available = {  check_variable = { var = SOV_barb_ll_token  value = 5  compare = greater_than_or_equals} date > 1942.1.22 			custom_trigger_tooltip = {	tooltip = SOV_secure_tt	suppy_route_secure = yes}  }      
+available = {  check_variable = { var = SOV_barb_ll_token  value = 5  compare = greater_than_or_equals} has_war_with = GER OR = { date > 1942.1.22  ENG = { controls_state = 412 }  } 			custom_trigger_tooltip = {	tooltip = SOV_secure_tt	suppy_route_secure = yes}  }      
 		icon = generic_form_nation
 		cost = 0
 		fire_only_once = no
@@ -459,7 +459,7 @@ available = {  check_variable = { var = SOV_barb_ll_token  value = 5  compare = 
 	}
 	HMP_ll_soviets_receive_mot2 = {
 allowed = {  original_tag = SOV } 
-available = {  check_variable = { var = SOV_barb_ll_token  value = 20  compare = greater_than_or_equals} date > 1942.1.22 			custom_trigger_tooltip = {	tooltip = SOV_secure_tt	suppy_route_secure = yes}  }      
+available = {  check_variable = { var = SOV_barb_ll_token  value = 20  compare = greater_than_or_equals} has_war_with = GER OR = { date > 1942.1.22  ENG = { controls_state = 412 }  } 			custom_trigger_tooltip = {	tooltip = SOV_secure_tt	suppy_route_secure = yes}  }      
 		icon = generic_form_nation
 		cost = 0
 		fire_only_once = no
@@ -470,7 +470,7 @@ available = {  check_variable = { var = SOV_barb_ll_token  value = 20  compare =
 	}	
 		HMP_ll_soviets_receive_mech = {
 allowed = {  original_tag = SOV } 
-available = {  check_variable = { var = SOV_barb_ll_token  value = 5  compare = greater_than_or_equals} date > 1942.1.22 			custom_trigger_tooltip = {	tooltip = SOV_secure_tt	suppy_route_secure = yes}  }      
+available = {  check_variable = { var = SOV_barb_ll_token  value = 5  compare = greater_than_or_equals} has_war_with = GER OR = { date > 1942.1.22  ENG = { controls_state = 412 }  } 			custom_trigger_tooltip = {	tooltip = SOV_secure_tt	suppy_route_secure = yes}  }      
 		icon = generic_form_nation
 		cost = 0
 		fire_only_once = no
@@ -488,7 +488,7 @@ available = {  check_variable = { var = SOV_barb_ll_token  value = 5  compare = 
 	}
 			HMP_ll_soviets_receive_mech2 = {
 allowed = {  original_tag = SOV } 
-available = {  check_variable = { var = SOV_barb_ll_token  value = 20  compare = greater_than_or_equals} date > 1942.1.22 			custom_trigger_tooltip = {	tooltip = SOV_secure_tt	suppy_route_secure = yes}  }      
+available = {  check_variable = { var = SOV_barb_ll_token  value = 20  compare = greater_than_or_equals} has_war_with = GER OR = { date > 1942.1.22  ENG = { controls_state = 412 }  } 			custom_trigger_tooltip = {	tooltip = SOV_secure_tt	suppy_route_secure = yes}  }      
 		icon = generic_form_nation
 		cost = 0
 		fire_only_once = no
@@ -506,7 +506,7 @@ available = {  check_variable = { var = SOV_barb_ll_token  value = 20  compare =
 	}
 		HMP_ll_soviets_receive_amtrac = {
 allowed = {  original_tag = SOV } 
-available = {  check_variable = { var = SOV_barb_ll_token  value = 5  compare = greater_than_or_equals} date > 1942.1.22 			custom_trigger_tooltip = {	tooltip = SOV_secure_tt	suppy_route_secure = yes}  }      
+available = {  check_variable = { var = SOV_barb_ll_token  value = 5  compare = greater_than_or_equals} has_war_with = GER OR = { date > 1942.1.22  ENG = { controls_state = 412 }  } 			custom_trigger_tooltip = {	tooltip = SOV_secure_tt	suppy_route_secure = yes}  }      
 		icon = generic_form_nation
 		cost = 0
 		fire_only_once = no
@@ -524,7 +524,7 @@ available = {  check_variable = { var = SOV_barb_ll_token  value = 5  compare = 
 	}	
 			HMP_ll_soviets_receive_amtrac2 = {
 allowed = {  original_tag = SOV } 
-available = {  check_variable = { var = SOV_barb_ll_token  value = 20  compare = greater_than_or_equals} date > 1942.1.22 			custom_trigger_tooltip = {	tooltip = SOV_secure_tt	suppy_route_secure = yes}  }      
+available = {  check_variable = { var = SOV_barb_ll_token  value = 20  compare = greater_than_or_equals} has_war_with = GER OR = { date > 1942.1.22  ENG = { controls_state = 412 }  } 			custom_trigger_tooltip = {	tooltip = SOV_secure_tt	suppy_route_secure = yes}  }      
 		icon = generic_form_nation
 		cost = 0
 		fire_only_once = no
@@ -542,7 +542,7 @@ available = {  check_variable = { var = SOV_barb_ll_token  value = 20  compare =
 	}	
 	HMP_ll_soviets_receive_fighter = { 
 allowed = {  original_tag = SOV } 
-available = {  check_variable = { var = SOV_barb_ll_token  value = 20  compare = greater_than_or_equals} date > 1942.1.22 			custom_trigger_tooltip = {	tooltip = SOV_secure_tt	suppy_route_secure = yes}  }      
+available = {  check_variable = { var = SOV_barb_ll_token  value = 20  compare = greater_than_or_equals} has_war_with = GER OR = { date > 1942.1.22  ENG = { controls_state = 412 }  } 			custom_trigger_tooltip = {	tooltip = SOV_secure_tt	suppy_route_secure = yes}  }      
 		icon = generic_form_nation
 		cost = 0
 		fire_only_once = no

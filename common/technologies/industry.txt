@@ -478,7 +478,9 @@ technologies = {
 			building = fuel_silo
 			level = 25
 		}
-				
+									enable_subunits = {
+			infantry
+		}
 		path = {
 			leads_to_tech = synth_oil_experiments 
 			research_cost_coeff = 1
