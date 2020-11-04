@@ -6,6 +6,7 @@ set_technology = {
 concentrated_industry = 1
 concentrated_industry2 = 1 
 dispersed_industry = 1 
+infantry_weapons = 1 
 }
 set_research_slots = 0
 set_stability = 0.9
@@ -13,7 +14,7 @@ set_war_support = 0.1
 
 add_equipment_to_stockpile = {
          type = infantry_equipment_1
-         amount = 10000
+         amount = 30000
          producer = GER
 }
 set_politics = {

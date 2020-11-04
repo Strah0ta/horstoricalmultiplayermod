@@ -20,7 +20,7 @@ country = {
 			traits = { popular_figurehead }
 		}
 		
-		charles_maurras = {
+		rashid_al_gaylani = {
 			
 			picture = generic_political_advisor_europe_3
 			allowed = {
@@ -35,18 +35,7 @@ country = {
 			traits = { national_integralist }
 
 		}
-		
-		marcel_bucard = {
-			
-			allowed = {
-				original_tag = ALB
-			}
-			
-			traits = { fascist_demagogue }
-
-		}
-		
-		
+	
 		ALB_philippe_henriot = {
 			
 			
@@ -62,97 +51,6 @@ country = {
 
 	
 		
-		}
-		ALB_pierre_pucheu = {
-			
-			
-			allowed = {
-				original_tag = ALB
-			}
-			
-			available = {
-			}
-			cost = 150 
-			traits = { technocrat }
-
-		}
-		
-		ALB_gaston_henry_haye = {
-			
-			allowed = {
-				original_tag = ALB
-			}
-			
-			picture = generic_political_advisor_europe_5
-			
-			traits = { silent_workhorse }
-
-		}	
-		
-		ALB_zivony_peshkov = {
-			
-			allowed = {
-				original_tag = ALB
-			}
-			
-			picture = generic_army_europe_5
-			
-			traits = { war_industrialist }
-
-		}	
-
-		ALB_felix_gouin = {
-			
-			allowed = {
-				original_tag = ALB
-			}
-			
-			picture = generic_political_advisor_europe_3
-			
-			traits = { captain_of_industry }
-
-		}	
-
-		ALB_charles_tillon = {
-			
-			allowed = {
-				original_tag = ALB
-			}
-			
-			picture = generic_political_advisor_europe_3
-			
-			traits = { armaments_organizer }
-
-		}	
-
-		ALB_paul_reynaud = {
-			
-			allowed = {
-				original_tag = ALB
-			}
-
-			picture = generic_political_advisor_europe_3
-			
-			traits = { quartermaster_general }
-
-		}
-
-		ALB_joe_biden = {
-			
-			allowed = {
-				original_tag = ALB
-			}
-
-			available = {
-				has_completed_focus = VIC_the_national_bureau_of_statistics
-			}
-
-			picture = generic_political_advisor_europe_1
-
-			cost = 0 
-			
-			traits = { scientist }
-
 		}
 	}	
 		
@@ -221,61 +119,25 @@ country = {
 	high_command = {
 
 
-		ALB_jean_francois_jannekeyn = {
+		ALB_Salah_ad_Din_al_Sabbagh = {
 			ledger = army
-			
 			picture = generic_air_europe_1
-			
-			allowed = {
-				original_tag = ALB
-				
-			}
-			
-
-			
+			allowed = { original_tag = ALB	}
 			traits = { army_infantry_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
 		}
 	
-		ALB_jean_de_laborde = {
+		ALB_Kamal_Shabib = {
 			ledger = army
-			
 			picture = generic_navy_europe_2
-
-			allowed = {
-				original_tag = ALB
-				
-			}
-			
-
-			
+			allowed = {	original_tag = ALB	}
 			traits = { army_chief_organizational_3 }
-			
-			ai_will_do = {
-				factor = 1
-			}
 		}
 
-		ALB_marcel_bruno_gensoul = {
+		ALB_Fahmi_Said = {
 			ledger = army
-			
 			picture = generic_navy_europe_1
-			
-			allowed = {
-				original_tag = ALB
-				
-			}
-			
-
-			
+			allowed = { original_tag = ALB }
 			traits = { army_armored_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
 		}
 
 	}

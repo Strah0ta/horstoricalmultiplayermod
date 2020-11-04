@@ -1620,10 +1620,11 @@ HMP_script_balkans = {
 		}
 
 	HMP_script_china = {
-			annex_country = { target = CHI } 
+			every_state = { limit = { is_core_of = CHI NOT = { state = 584 }}JAP = {	transfer_state = PREV	} }
+			SWE = { transfer_state = 584 } JAP = { transfer_state = 584 }
 			every_state = { limit = { is_core_of = CHI }  set_compliance = 100 }  
 			524 = { set_compliance = 100 }
-			USA = { add_war_support = 0.15 }
+			USA = { add_war_support = 0.15 } 
 			}
 			
 			HMP_script_china_no_asia = {
@@ -2034,22 +2035,22 @@ create_field_marshal = {
 	name = "Zhang Haipeng"
 	GFX = "GFX_portrait_man_zhang_haipeng"
 	traits = { organizer thorough_planner logistics_wizard trait_engineer scavenger infantry_leader infantry_expert panzer_leader panzer_expert trait_mountaineer hill_fighter trickster expert_improviser }
-	skill = 8
-	attack_skill = 9
+	skill = 7
+	attack_skill = 3
 	defense_skill = 4
-	planning_skill = 4
-	logistics_skill = 7
+	planning_skill = 8
+	logistics_skill = 6
 }
 
 create_corps_commander = {
 	name = "Zhang Jinghui"
 	GFX = "GFX_portrait_man_zhang_jinghui"
 	traits = { infantry_leader infantry_expert ranger trickster expert_improviser trait_engineer  scavenger }
-	skill = 8
-	attack_skill = 9
-	defense_skill = 4
-	planning_skill = 4
-	logistics_skill = 7
+	skill = 7
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 8
+	logistics_skill = 6
 }
 
 create_corps_commander = {
@@ -2067,11 +2068,11 @@ create_corps_commander = {
 	name = "Yoshiko Kawashima"
 	gfx = "GFX_portrait_man_yoshiko_kawashima_army"
 	traits = { infantry_leader infantry_expert naval_invader trickster expert_improviser invader_ii naval_liason trait_engineer  trait_mountaineer fortress_buster }
-	skill = 8
-	attack_skill = 9
-	defense_skill = 4
-	planning_skill = 4
-	logistics_skill = 7
+	skill = 7
+	attack_skill = 5
+	defense_skill = 3
+	planning_skill = 7
+	logistics_skill = 6
 	female = yes
 }
 
@@ -3301,12 +3302,14 @@ HMP_capitulations_on_actions = {
 		if =  { 
 		limit = { original_tag = BEL }
 		BEL = { country_event = { id =  mtg_netherlands.331 days = 1 } 	}
-		GER = { transfer_state = 6 transfer_state = 34 transfer_state = 8 }
+					every_state = { limit = { is_core_of = GER NOT = { state = 8 }}GER = {	transfer_state = PREV	} }
+			SWE = { transfer_state = 8 } GER = { transfer_state = 8 }
+
 		}
 		if =  { 
 		limit = { original_tag = HOL }
 		GER = { transfer_state = 35 transfer_state = 7 transfer_state = 36 36 = { set_compliance = 40 } 7 = { set_compliance = 40 } 35 = { set_compliance = 40 } }
-		ENG = { transfer_state = 352 }
+			SWE = { transfer_state = 352 }	ENG = { transfer_state = 352 }
 		}
 		
 			if = {
@@ -3317,10 +3320,7 @@ HMP_capitulations_on_actions = {
 			news_event = { id = country_capitulated.0 days = 0 }
 			}
 			if = {
-				limit = { 
-					original_tag = POL
-					POL = { owns_state = 96} 
-					}
+				limit = { original_tag = POL }
 	SOV = { transfer_state = 784  
 			transfer_state = 97
 		transfer_state = 96
@@ -3340,44 +3340,16 @@ HMP_capitulations_on_actions = {
 			transfer_state = 88 
 			transfer_state = 553
 			transfer_state = 92 
-			transfer_state = 72
 			86 = { set_compliance = 60 }
 			553 = { set_compliance = 60 }
-		}				
+		}		
+			SWE = { transfer_state = 72 }
+			GER = { transfer_state = 72 }
 			}
-						if = {
-				limit = { 
-					original_tag = POL
-					NOT = { POL = { owns_state = 96} }
-					}
-	SOV = { transfer_state = 784  
-			transfer_state = 97
-			transfer_state = 512
-		transfer_state = 96
-		transfer_state = 95
-		transfer_state = 94
-		transfer_state = 93
-		transfer_state = 91
-		transfer_state = 89
-		}
-		GER = {  transfer_state = 85
-			transfer_state = 86
-			transfer_state = 87
-			transfer_state = 98
-			transfer_state = 10
-			transfer_state = 90
-			transfer_state = 88 
-			transfer_state = 553
-			transfer_state = 72
-			transfer_state = 92 
-		86 = { set_compliance = 60 }
-			553 = { set_compliance = 60 }
-		}
-				
-			}
+
 			if = {
 				limit = {	original_tag = DEN	}
-				GER = { transfer_state = 99 99 = { set_compliance = 60 }   transfer_state = 37 37 = {set_compliance = 60 } }
+				GER = { transfer_state = 99 99 = { set_compliance = 60 }  } SWE = { transfer_state = 37}  	GER = { transfer_state = 37 37 = {set_compliance = 60 } }
 			}
 			
 			if = {
@@ -3416,6 +3388,7 @@ HFU_fuel_startup_effect = {
 					limit = {
 						NOT={tag=GER}
 						is_in_faction_with = GER
+						disabled_ai_production = yes 
 						NOT = { is_in_array = { GER.faction_members_array = THIS.id } }			
 					}
 					add_to_array = { GER.faction_members_array = THIS.id }
@@ -3440,6 +3413,7 @@ HFU_fuel_startup_effect = {
 				every_country = {
 					limit = {
 						NOT={tag=ENG}
+						disabled_ai_production = yes 
 						OR = { is_in_faction_with = ENG  tag = SOV   }
 						NOT = { is_in_array = { ENG.faction_members_array = THIS.id } }			
 					}
@@ -4198,3 +4172,73 @@ remove_ideas = FRA_full_employment
 			 transfer_state = 356  
 			}
 }
+
+
+move_rubber_from_indies_to_congo = { 
+	if = { limit = { FRA = { controls_state = 539}}
+		if = { limit = { ENG = { controls_state = 539}}
+				add_resource = { state = 539 type = rubber amount = 0 }
+				add_resource = { state = 280 type = rubber amount = 0 }
+			}
+		if = { limit = { ENG = { controls_state = 321}}
+				add_resource = { state = 321 type = rubber amount = 0 }
+				add_resource = { state = 280 type = rubber amount = 0 }
+			}
+		if = { limit = { ENG = { controls_state = 335}}
+				add_resource = { state = 335 type = rubber amount = 0 }
+				add_resource = { state = 280 type = rubber amount = 0 }
+			}
+		if = { limit = { ENG = { controls_state = 333}}
+				add_resource = { state = 333 type = rubber amount = 0 }
+				add_resource = { state = 538 type = rubber amount = 0 }
+			}
+		if = { limit = { ENG = { controls_state = 334}}
+				add_resource = { state = 334 type = rubber amount = 0 }
+				add_resource = { state = 538 type = rubber amount = 0 }
+			}
+			if = { limit = { ENG = { controls_state = 575}}
+				add_resource = { state = 575 type = rubber amount = 0 }
+				add_resource = { state = 538 type = rubber amount = 0 }
+			}
+			if = { limit = { ENG = { controls_state = 342}}
+				add_resource = { state = 342 type = rubber amount = 0 }
+				add_resource = { state = 538 type = rubber amount = 0 }
+			}
+					if = { limit = { ENG = { controls_state = 562}}
+				add_resource = { state = 562 type = rubber amount = 0 }
+				add_resource = { state = 295 type = rubber amount = 0 }
+			}
+			if = { limit = { ENG = { controls_state = 327}}
+				add_resource = { state = 327 type = rubber amount = 0 }
+				add_resource = { state = 295 type = rubber amount = 0 }
+			}
+						if = { limit = { ENG = { controls_state = 516}}
+				add_resource = { state = 516 type = rubber amount = 0 }
+				add_resource = { state = 295 type = rubber amount = 0 }
+			}
+						if = { limit = { ENG = { controls_state = 523}}
+				add_resource = { state = 523 type = rubber amount = 0 }
+				add_resource = { state = 295 type = rubber amount = 0 }
+			}
+						if = { limit = { ENG = { controls_state = 312}}
+				add_resource = { state = 312 type = rubber amount = 0 }
+				add_resource = { state = 295 type = rubber amount = 0 }
+			}
+									if = { limit = { ENG = { controls_state = 317}}
+				add_resource = { state = 317 type = rubber amount = 0 }
+				add_resource = { state = 295 type = rubber amount = 0 }
+			}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+

@@ -119,6 +119,24 @@ technologies = {
 		
 	}	
 	
+		infantry_weapons11 = {
+		allow = { always = no }
+		enable_equipments = {
+			infantry_equipment_ai
+		}
+					enable_subunits = {
+			infantry
+		}		
+
+		research_cost = 1.5
+		start_year = 1936
+		
+		categories = {
+			infantry_weapons
+		}
+		
+	}	
+		
 	infantry_weapons2 = {
 
 		camelry = {

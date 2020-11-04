@@ -86,6 +86,7 @@ air_superiority = 1
 		basic_ship_hull_cruiser = 1
 		early_ship_hull_heavy = 1
 		early_ship_hull_carrier = 1
+			tactical_bomber11 = 1 
 		basic_ship_hull_carrier = 1
 		basic_battery = 1
 		basic_light_battery = 1

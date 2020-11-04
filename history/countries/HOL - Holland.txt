@@ -6,7 +6,7 @@ add_ideas = ai_imiter
 
 add_equipment_to_stockpile = {
          type = infantry_equipment_1
-         amount = 20000
+         amount = 40000
          producer = GER
 }
 add_ideas = {
@@ -27,6 +27,7 @@ set_popularities = {
 }
 set_technology = {
 concentrated_industry = 1
+infantry_weapons = 1 
 concentrated_industry2 = 1 
 dispersed_industry = 1 
 }

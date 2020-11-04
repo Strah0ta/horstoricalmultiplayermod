@@ -13,7 +13,7 @@ set_research_slots = 0
 set_stability = 0.8
 add_equipment_to_stockpile = {
          type = infantry_equipment_1
-         amount = 35000
+         amount = 65000
          producer = GER
 }
 
@@ -35,6 +35,7 @@ set_technology = {
 concentrated_industry = 1
 concentrated_industry2 = 1 
 dispersed_industry = 1 
+infantry_weapons = 1 
 }
 create_country_leader = {
 	name = "Władysław Sikorski"

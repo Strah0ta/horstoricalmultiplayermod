@@ -22,9 +22,10 @@ HMP_ll_soviets_guns = { #worth 1x
 		icon = generic_form_nation
 		cost = 0
 		fire_only_once = no
+
 		complete_effect  = {
-									custom_effect_tooltip = HMP_ll_remove_guns
-				custom_effect_tooltip =  soviets_1_shipments_tt
+			custom_effect_tooltip = HMP_ll_remove_guns
+			custom_effect_tooltip =  soviets_1_shipments_tt
 			hidden_effect = { send_equipment = { equipment = infantry_equipment amount = 5000 target = SWE } }
 			SOV = { add_to_variable = {  var = SOV_barb_ll_token   value = 1 } add_to_variable = {  var = SOV_barb_ll_token2   value = 1 } }						
 		}
@@ -1640,8 +1641,37 @@ GER_case_anton = {
 		copy_australian_at_equipment_research = yes
 	}
 	}
-	
-	
+			ENG_annex_raj = {
+		icon = generic_operation
+
+		allowed = {	original_tag = ENG	}
+			
+		available = {
+			date > 1941.1.1
+			RAJ = { is_ai = yes }
+		}
+		visible = { country_exists = RAJ }
+		fire_only_once = yes
+
+		cost = 0
+		complete_effect = {
+			RAJ = {
+			    every_unit_leader = {
+				    set_nationality = ENG
+			    }
+				transfer_navy = {
+					target = ENG
+				}
+		    }
+			ENG = { 
+					annex_country = {
+						target = RAJ
+						transfer_troops = yes 
+					}	
+				}  
+			}
+		}
+		
 		ENG_annex_saf = {
 		icon = generic_operation
 

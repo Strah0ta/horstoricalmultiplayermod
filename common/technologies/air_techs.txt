@@ -679,7 +679,21 @@ technologies = {
 		}
 		
 	}
+		tactical_bomber11 = {
+		allow = { always = no }
+		enable_equipments = {
+			strat_bomber_equipment_1
+		}
 	
+
+		research_cost = 2
+		start_year = 1936
+		categories = {
+			medium_air
+			tactical_bomber
+			air_equipment
+		}
+	}
 	tactical_bomber2 = {
 
 		enable_equipments = {

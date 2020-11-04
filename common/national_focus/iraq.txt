@@ -22,8 +22,8 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-		
-		
+		 add_ideas = ALB_Mahmud_Salman add_ideas = ALB_Salah_ad_Din_al_Sabbagh add_ideas = ALB_Kamal_Shabib add_ideas = ALB_Fahmi_Said 
+		add_ideas = rashid_al_gaylani
 		}
 	}
 					focus = {

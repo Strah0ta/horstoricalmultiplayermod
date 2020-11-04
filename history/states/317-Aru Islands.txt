@@ -1,6 +1,7 @@
 state={
 id=317
 name="STATE_738"
+resources = { rubber = 20 }
 history={
 owner = HOL
 add_core_of=SWE

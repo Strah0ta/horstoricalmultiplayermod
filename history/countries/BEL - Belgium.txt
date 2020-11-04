@@ -6,7 +6,7 @@ set_war_support = 0.3
 add_ideas = { no_training }
 add_equipment_to_stockpile = {
          type = infantry_equipment_1
-         amount = 30000
+         amount = 60000
          producer = GER
 }
 set_politics = {
@@ -19,6 +19,7 @@ set_technology = {
 concentrated_industry = 1
 concentrated_industry2 = 1 
 dispersed_industry = 1 
+infantry_weapons = 1 
 }
 set_popularities = {
 	democratic = 83

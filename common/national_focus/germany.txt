@@ -1226,7 +1226,7 @@ add_equipment_production = {
 
 		available_if_capitulated = yes
 
-		completion_reward = {
+		completion_reward = { 
 				add_tech_bonus = {
 				bonus = 3.0
 				uses = 1
@@ -1236,6 +1236,7 @@ add_equipment_production = {
 			if = { limit = { has_tech = improved_medium_tank }
 			add_tech_bonus = {
 				bonus = 3.0
+				ahead_reduction = 2 
 				uses = 1
 				name = mech_army_bonus
 				technology = improved_heavy_tank
@@ -1244,9 +1245,28 @@ add_equipment_production = {
 			if = { limit = { has_tech = improved_heavy_tank  }
 			add_tech_bonus = {
 				bonus = 3.0
+				ahead_reduction = 2 				
 				uses = 1
 				name = mech_army_bonus
 				technology = improved_medium_tank
+			}	  
+			}
+						if = { limit = { has_tech = improved_heavy_tank }
+			add_tech_bonus = {
+				bonus = 3.0
+				ahead_reduction = 1 
+				uses = 1
+				name = mech_army_bonus
+				technology = advanced_medium_tank
+			}	
+			}
+			if = { limit = { has_tech = improved_medium_tank	  }
+			add_tech_bonus = {
+				bonus = 3.0
+				ahead_reduction = 1 				
+				uses = 1
+				name = mech_army_bonus
+				technology = advanced_heavy_tank
 			}	  
 			}
 			add_tech_bonus = {
