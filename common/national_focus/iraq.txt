@@ -23,7 +23,12 @@ focus_tree = {
 
 		completion_reward = {
 		 add_ideas = ALB_Mahmud_Salman add_ideas = ALB_Salah_ad_Din_al_Sabbagh add_ideas = ALB_Kamal_Shabib add_ideas = ALB_Fahmi_Said 
-		add_ideas = rashid_al_gaylani
+		add_ideas = rashid_al_gaylani 
+		
+		hidden_effect = { 
+		the_golden_coup_has_been_launched = yes 
+
+		}
 		}
 	}
 					focus = {
@@ -116,7 +121,26 @@ focus_tree = {
 			add_offsite_building = { type = industrial_complex level = 6 }
 		}
 	}	
-		
+					focus = { 
+		id = IRQ_eco2
+		icon = GFX_supremacy_of_will
+		x = 0
+		y = 1
+		cost = 5
+		relative_position_id = IRQ_eco1
+		prerequisite = { focus = IRQ_eco1 }
+		available_if_capitulated = yes
+
+		completion_reward = {
+			291 = { add_extra_state_shared_building_slots = 2 }
+			554 = { add_extra_state_shared_building_slots = 2 }
+			455 = { add_extra_state_shared_building_slots = 2 }
+			454 = { add_extra_state_shared_building_slots = 2 }
+			453 = { add_extra_state_shared_building_slots = 2 }
+			413 = { add_extra_state_shared_building_slots = 2 }
+			421 = { add_extra_state_shared_building_slots = 2 }
+		}
+	}		
 	
 					focus = { 
 		id = IRQ_revolution2
