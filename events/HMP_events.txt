@@ -196,10 +196,10 @@ country_event = {
 
 	option = {
 		name = poland.100.a
-		NOR =  {  set_capital = 323  }   ENG = { add_to_faction = NOR puppet = NOR } GER = { transfer_state = 144 }
 		if = { limit = { NOR = {is_ai = yes }} ENG = { annex_country = { target = NOR  transfer_troops = yes } }} 	
-		if = { limit = { AND = { original_tag = NOR  NOT = { NOR = { has_country_flag = france_is_kill } } } } 	NOR = { set_country_flag = france_is_kill }	}		
-		110 = { set_state_owner = GER } 142 = { set_state_owner = GER } 143 = { set_state_owner = GER } 144 = { set_state_owner = GER } 
+		NOR =  {  set_capital = 323  }   ENG = { add_to_faction = NOR puppet = NOR } GER = { transfer_state = 144 }
+		if = { limit = { AND = { country_exists = NOR original_tag = NOR  NOT = { NOR = { has_country_flag = france_is_kill } } } } 	NOR = { set_country_flag = france_is_kill }	}		
+		if = { limit = { NOT = { OR = { NOR = { controls_state = 110} ENG = { controls_state = 110 }}}} GER = { transfer_state = 110 transfer_state = 142 transfer_state = 143 transfer_state = 144 } }
 		GER = { 110 = { set_compliance = 40 } 142 = { set_compliance = 40 } 143 = { set_compliance = 40 } 144 = { set_compliance = 40 }  }		
 	}
 }

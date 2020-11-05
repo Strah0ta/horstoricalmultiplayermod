@@ -26,10 +26,6 @@ autonomy_state = {
 
 	allowed = {
 		has_dlc = "Death or Dishonor"
-		OR = { 
-		has_government = fascism
-		has_government = neutrality 
-		}
 	OR = { 
 		OVERLORD = { original_tag = GER }
 		OVERLORD = { original_tag = ITA }
