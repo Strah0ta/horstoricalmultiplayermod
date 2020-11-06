@@ -135,7 +135,6 @@ add_ideas = {
 	trotskyite_plot
 	home_of_revolution
 	kliment_voroshilov
-	SOV_motorized_focus
 }
 
 create_country_leader = {

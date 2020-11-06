@@ -84,6 +84,7 @@ set_technology = {
 	basic_medium_battery = 1
 	basic_secondary_battery = 1
 	basic_torpedo = 1
+		camelry = 1
 	basic_depth_charges = 1
 	mtg_transport = 1
 	cap_spain = 1

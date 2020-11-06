@@ -2302,6 +2302,27 @@ SPR = {
     planning_skill = 6
     logistics_skill = 6
 	}
+	create_field_marshal = {
+	name = "Emilio Mola"
+	gfx = "GFX_portrait_SPA_emilio_mola"
+	traits = { trait_cautious infantry_leader desert_fox hill_fighter infantry_expert scavenger logistics_wizard thorough_planner trickster organizer  trait_engineer }
+	skill = 7
+	attack_skill = 7
+	defense_skill = 5
+	planning_skill = 5
+	logistics_skill = 5
+}
+
+create_corps_commander = {
+	name = "Gonzalo Queipo de Llano"
+	gfx = "GFX_portrait_SPA_gonzalo_queipo_de_llano"
+	traits = { fake_skilled_staffer infantry_leader desert_fox hill_fighter trait_mountaineer infantry_expert trickster trait_engineer }
+	skill = 7
+	attack_skill = 7
+	defense_skill = 6
+	planning_skill = 3
+	logistics_skill = 6
+}
 }
 
 
@@ -3217,6 +3238,7 @@ create_field_marshal = {
 ########ON ACTIONS##########
 
 HMP_startup_on_actions = {
+SOV = { add_ideas = {	SOV_motorized_focus } }
 		SWE = { country_event = { id = italy.602 }} 
 		SPR = { country_event = { id = countrystartup.2 days = 1  }  }		
 		118 = { add_state_modifier = { modifier = { max_dig_in = 30 } }  } 

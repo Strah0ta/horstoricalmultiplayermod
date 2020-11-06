@@ -204,7 +204,7 @@
  camelry_at:0 "Camel-drawn Anti-Tank"
  at_armored_car:0 "Anti-Tank Armored Car"
  jaeger:0"Rangers"
- INFANTRY_TITLE_CAMELRY:0 "UK/FRA/ITA/\nNZL/AST/SAF\n/EFR ONLY"
+ INFANTRY_TITLE_CAMELRY:0 "UK/FRA/ITA/\nNZL/AST/SAF\n/EFR/SPR ONLY"
  INFANTRY_TITLE_JAGER:0 "SOV/USA/FIN/\nHUN/BUL ONLY"
  infantry_subtitle_camelry:0 "sss"
  jaeger_desc:0"Jägers, or 'hunters,' are forces that specialize in surviving the wilderness of the boreal forest. Usually these troops are native to their territory and take a long time to train."
