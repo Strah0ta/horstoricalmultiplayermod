@@ -1154,22 +1154,10 @@ focus_tree = {
 
 
 			completion_reward = {
-			540 = {
-				add_resource = {
-					type = aluminium
-					amount = 20
-				}
-			}
-			466 = {
-				add_resource = {
-					type = aluminium
-					amount = 8
-				}
-			}
 			468 = {
 				add_resource = {
 					type = aluminium
-					amount = 8
+					amount = 36
 				}
 			}
 		}

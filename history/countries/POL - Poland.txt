@@ -1,6 +1,5 @@
 ﻿capital = 10
 
-add_ideas = { no_training }
 country_event = { id =  poland.111 days = 730 }
 country_event = { id =  poland.113 days = 1308 }
 country_event = { id =  poland.115 days = 1328 }

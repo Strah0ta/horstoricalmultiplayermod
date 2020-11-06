@@ -33,32 +33,13 @@ create_country_leader = {
 	}
 }
 
-create_country_leader = {
-	name = "Gustavs Celmiņš"
-	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
-	expire = "1965.1.1"
-	ideology = fascism_ideology
-	traits = {
-		#
-	}
-}
+
 create_country_leader = {
 	name = "Fricis Menders"
 	desc = ""
 	picture = "GFX_portrait_lat_fricis_menders"
 	expire = "1965.1.1"
 	ideology = socialism
-	traits = {
-		#
-	}
-}
-create_country_leader = {
-	name = "Vilis Lacis"
-	desc = ""
-	picture = "GFX_portrait_lat_vilis_lacis"
-	expire = "1965.1.1"
-	ideology = marxism
 	traits = {
 		#
 	}

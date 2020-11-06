@@ -5,12 +5,8 @@ set_naval_oob = "USA_1936_naval_mtg"
 anti_cross_faction_trade_axis = yes
 create_intelligence_agency = yes
 set_rule = { can_be_spymaster = no }
-add_ideas = armyandnavy_idea_usa
-add_ideas = USA_homeland_defense
  country_event = { id = panay_incident.2  days = 983 } 
-1936.1.2 = {
-add_ideas = no_army 
-}
+
 set_variable = {
     var = min_fuel
     value = 0.800
@@ -106,6 +102,7 @@ add_ideas = {
 	free_trade
 	home_of_the_free
 	USA_anti_spy
+	armyandnavy_idea_usa
 }
 
 create_country_leader = {

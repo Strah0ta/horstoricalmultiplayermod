@@ -24,204 +24,204 @@ units = {
 		location = 3544  # Hoeselt
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.01
+		start_equipment_factor = 0.001
 	}
 		division= {	
 		location = 3544  # Hoeselt
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.01
+		start_equipment_factor = 0.001
 	}
 		division= {	
 		location = 3544  # Hoeselt
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.01
+		start_equipment_factor = 0.001
 	}
 		division= {	
 		location = 3544  # Hoeselt
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.01
+		start_equipment_factor = 0.001
 	}
 		division= {	
 		location = 3544  # Hoeselt
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.01
+		start_equipment_factor = 0.001
 	}
 		division= {	
 		location = 3544  # Hoeselt
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.01
+		start_equipment_factor = 0.001
 	}
 		division= {	
 		location = 3544  # Hoeselt
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.01
+		start_equipment_factor = 0.001
 	}
 		division= {	
 		location = 3544  # Hoeselt
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.01
+		start_equipment_factor = 0.001
 	}
 		division= {	
 		location = 3544  # Hoeselt
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.01
+		start_equipment_factor = 0.001
 	}
 		division= {	
 		location = 3544  # Hoeselt
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.01
+		start_equipment_factor = 0.001
 	}
 		division= {	
 		location = 3544  # Hoeselt
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.01
+		start_equipment_factor = 0.001
 	}
 		division= {	
 		location = 3544  # Hoeselt
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.01
+		start_equipment_factor = 0.001
 	}
 		division= {	
 		location = 3544  # Hoeselt
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.01
+		start_equipment_factor = 0.001
 	}
 		division= {	
 		location = 3544  # Hoeselt
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.01
+		start_equipment_factor = 0.001
 	}
 		division= {	
 		location = 3544  # Hoeselt
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.01
+		start_equipment_factor = 0.001
 	}
 		division= {	
 		location = 3544  # Hoeselt
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.01
+		start_equipment_factor = 0.001
 	}
 		division= {	
 		location = 3544  # Hoeselt
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.01
+		start_equipment_factor = 0.001
 	}
 		division= {	
 		location = 3544  # Hoeselt
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.01
+		start_equipment_factor = 0.001
 	}
 		division= {	
 		location = 3544  # Hoeselt
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.01
+		start_equipment_factor = 0.001
 	}
 		division= {	
 		location = 3544  # Hoeselt
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.01
+		start_equipment_factor = 0.001
 	}
 		division= {	
 		location = 3544  # Hoeselt
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.01
+		start_equipment_factor = 0.001
 	}
 		division= {	
 		location = 3544  # Hoeselt
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.01
+		start_equipment_factor = 0.001
 	}
 		division= {	
 		location = 3544  # Hoeselt
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.01
+		start_equipment_factor = 0.001
 	}
 		division= {	
 		location = 3544  # Hoeselt
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.01
+		start_equipment_factor = 0.001
 	}
 		division= {	
 		location = 3544  # Hoeselt
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.01
+		start_equipment_factor = 0.001
 	}
 		division= {	
 		location = 3544  # Hoeselt
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.01
+		start_equipment_factor = 0.001
 	}
 			division= {	
 		location = 3544  # Hoeselt
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.01
+		start_equipment_factor = 0.001
 	}
 		division= {	
 		location = 3544  # Hoeselt
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.01
+		start_equipment_factor = 0.001
 	}
 		division= {	
 		location = 3544  # Hoeselt
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.01
+		start_equipment_factor = 0.001
 	}
 		division= {	
 		location = 3544  # Hoeselt
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.01
+		start_equipment_factor = 0.001
 	}
 			division= {	
 		location = 3544  # Hoeselt
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.01
+		start_equipment_factor = 0.001
 	}
 		division= {	
 		location = 3544  # Hoeselt
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.01
+		start_equipment_factor = 0.001
 	}
 		division= {	
 		location = 3544  # Hoeselt
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.01
+		start_equipment_factor = 0.001
 	}
 		division= {	
 		location = 3544  # Hoeselt
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.01
+		start_equipment_factor = 0.001
 	}
 }

@@ -7,36 +7,40 @@ ideas = {
 			picture = generic_manpower_bonus
 			modifier = {	conscription = 0.01	}
 		}
-	SOV_wtf = { 
-				allowed = {
-				always = no # Added via focus
+	
+		SPR_seized_spanish_gold_reserves = {
+
+			picture = SPR_seize_the_gold_reserves
+
+			allowed = {	original_tag = SOV	}
+
+			allowed_civil_war = {	always = yes	}
+
+			modifier = {
+				consumer_goods_factor = -0.05
+				industrial_capacity_factory = 0.05
+			}
+		}
+				SOV_motorized_focus = {
+					picture = FRA_motorized_focus
+
+			allowed = {
+				original_tag = SOV
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
 			}
 			
-			allowed_civil_war = {
-			has_government = communism
-			}	
-			modifier = {
-				army_defence_factor = -0.2
-				army_attack_factor = -0.2
-				max_dig_in_factor = -0.5
-			}
-	}	
-	
-	
-	no_license_plane = {   
-				picture = generic_bomber_production_diverted
-			allowed = {	original_tag = SOV 	always = no	}
-			allowed_civil_war = {	always = yes	}
-			available = { date < 1941.1.1 }
 			removal_cost = -1
+
 			equipment_bonus = {
-				sov_fighter_equipment = {
-					air_range = -0.9
-					instant = yes
+				motorized_equipment = {
+					build_cost_ic = -0.25 instant = yes
 				}
 			}
-	}
-	
+		}
 	
 	great_patriotic_war_idea = {	
 	removal_cost = -1	

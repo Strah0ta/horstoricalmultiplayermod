@@ -9,7 +9,6 @@ add_ideas = {
 	limited_conscription
 	nor_bad_debuffs
 	nor_bad_debuffs2
-	no_training
 }
 
 add_ideas = armyandnavy_idea

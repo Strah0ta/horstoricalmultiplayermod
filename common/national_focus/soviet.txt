@@ -658,7 +658,7 @@ focus_tree = {
 		completion_reward = {
 					add_resource = {
 				type = rubber
-				amount = 16
+				amount = 12
 				state = 404
 			}
 					add_tech_bonus = {

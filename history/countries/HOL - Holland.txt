@@ -9,9 +9,6 @@ add_equipment_to_stockpile = {
          amount = 40000
          producer = GER
 }
-add_ideas = {
- no_training 
-}
 country_event = { id = poland.117 days = 1277 }
 
 set_politics = {

@@ -35,18 +35,12 @@ ideas = {
             removal_cost = -1
             picture = generic_goods_red_bonus
             modifier = {
+			training_time_factor = 100 
 				consumer_goods_factor = 1
-				industrial_capacity_factory = -1.1 
+				industrial_capacity_factory = -1.5 
 				production_factory_max_efficiency_factor = -0.4 
             }
 		}
-		
-		no_army = {
-            allowed = {   always = no    }
-            removal_cost = -1
-            picture = generic_goods_red_bonus
-            modifier = {	conscription_factor = -1     }
-		}	
 		
 				warbonds_b = {
             allowed = {   always = no  }
@@ -54,20 +48,7 @@ ideas = {
             picture = generic_goods_red_bonus
             modifier = {	stability_factor = -0.3  }
 			}	
-	
-			no_training = {
-            allowed = {    always = no    }
-	available = {	NOT = { 
-	OR = {
-		date > 1941.1.1 
-		AND = { tag = NOR OR = { date > 1940.1.1 is_ai = no	 } }
-		AND = { OR = { tag = HOL tag = BEL tag = DEN  tag = POL } date > 1939.2.1 }
-		}		
-		}	}
-            removal_cost = -1
-            picture = neutrality_idea
-            modifier = {	training_time_factor = 100    }
-		}
+
 			armyandnavy_idea_usa = {	 
 			picture = YUG_federal_defense_council
 			allowed = {	always = no	}	
