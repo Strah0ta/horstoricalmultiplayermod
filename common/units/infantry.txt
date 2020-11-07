@@ -116,7 +116,7 @@ sub_units = {
 		special_forces = yes
 		marines = yes
 		
-		priority = 400
+		priority = 404
 		ai_priority = 200
 		active = no
 
@@ -170,7 +170,7 @@ sub_units = {
 		special_forces = yes
 		mountaineers = yes
 
-		priority = 400
+		priority = 403
 		ai_priority = 200
 		active = no
 
@@ -457,7 +457,7 @@ sub_units = {
 		map_icon_category = infantry
 		special_forces = yes
 		ai_priority = 2
-		priority = 400
+		priority = 401
 		active = no
 		type = {	infantry	}
 		group = infantry
@@ -498,7 +498,7 @@ sub_units = {
 		map_icon_category = infantry
 		special_forces = yes
 		ai_priority = 2
-		priority = 400
+		priority = 402
 		active = no
 		type = {	infantry	}
 		group = infantry

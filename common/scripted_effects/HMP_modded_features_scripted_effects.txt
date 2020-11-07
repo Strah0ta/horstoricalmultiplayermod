@@ -1536,7 +1536,7 @@ if = { limit = { EFR = { controls_state = 556 } } EFR = { add_to_variable={vichy
 if = { limit = { EFR = { controls_state = 543 } } EFR = { add_to_variable={vichy_legitimacy_mechanic_stability_factor=0.15}  }  }#WEST AFRICA
 if = { limit = { EFR = { controls_state = 554 } } EFR = { add_to_variable={vichy_legitimacy_mechanic_stability_factor=0.15}  }  }#SYRIA
 if = { limit = { EFR = { controls_state = 460 } } EFR = { add_to_variable={vichy_legitimacy_mechanic_stability_factor=0.15}  }  }#ALGERIA
-if = { limit = { EFR = { controls_state = 603 } }EFR = {  add_to_variable={vichy_legitimacy_mechanic_stability_factor=0.15}  }  }#CAMEROON
+if = { limit = { EFR = { controls_state = 581 } }EFR = {  add_to_variable={vichy_legitimacy_mechanic_stability_factor=0.15}  }  }#CAMEROON
 if = { limit = { EFR = { is_subject_of = GER } } EFR = { add_to_variable={vichy_legitimacy_mechanic_stability_factor=-0.3}  }  }#Puppet check
 }
 
@@ -4122,12 +4122,8 @@ transfer_state = 543
 }
 ###CENTRAL AFRICA - BET###
 if = { limit = { FRA = { check_variable = { FRA_legitimacy 	< 40 } } }
-transfer_state = 325
-325 = { set_demilitarized_zone = yes }
 transfer_state = 581
 581 = { set_demilitarized_zone = yes }
-transfer_state = 603
-603	 = { set_demilitarized_zone = yes }
 }
 ###CENTRAL AFRICA - GABON###
 if = { limit = { FRA = { check_variable = { FRA_legitimacy 	< 20 } } }

@@ -935,8 +935,6 @@ check_variable = {  FRA_legitimacy > 40  }    		date > 1940.8.5
 		available_if_capitulated = yes
 		search_filters = { FOCUS_FILTER_ANNEXATION }
 		completion_reward = {
-transfer_state = 325
-transfer_state = 603
 transfer_state = 581
 recalc_vichy_france_legitimacy = yes 
 		}
