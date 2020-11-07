@@ -1,7 +1,7 @@
 equipments = {
 	
 	strat_bomber_equipment = {
-		year = 1953
+		year = 1933
 
 		is_archetype = yes
 		is_convertable = yes
@@ -45,7 +45,7 @@ equipments = {
 	
 	# Basic strat_bomber
 	strat_bomber_equipment_1 = {
-		year = 1956
+		year = 1936
 		archetype = strat_bomber_equipment
 		priority = 140
 		can_license = no

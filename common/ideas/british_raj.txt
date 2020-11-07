@@ -422,10 +422,6 @@ ideas = {
 			}
 			
 			traits = { army_infantry_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
 		}
 
 		RAJ_aspy_merwan_engineer = {
@@ -438,12 +434,27 @@ ideas = {
 			}
 			
 			traits = { army_armored_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
+		}
+		
+		RAJ_aspy_merwan_engineer = {
+			ledger = army
+			picture = generic_air_arab_2
+			allowed = { original_tag = RAJ }
+			traits = { army_regrouping_1 }
 		}
 
+		
+		RAJ_mehar_singh = {
+			ledger = army
+
+			picture = generic_air_arab_1
+			
+			allowed = {
+				original_tag = RAJ
+			}
+			
+			traits = { army_commando_1 }
+		}
 		RAJ_w_h_gould_bradford = {
 			ledger = navy
 
@@ -454,10 +465,6 @@ ideas = {
 			}
 			
 			traits = { navy_anti_submarine_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
 		}
 	}
 	# MILITARY

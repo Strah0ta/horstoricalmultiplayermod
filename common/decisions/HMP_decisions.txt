@@ -1458,7 +1458,7 @@ GER_case_anton = {
 		if = { limit = { NOT = { SAF = { has_completed_focus = SAF_secure_interests_in_africa }}}	
 					transfer_state = 542
 					transfer_state = 545
-					transfer_state = 605
+					transfer_state = 292
 					transfer_state = 283
 					transfer_state = 546
 					transfer_state = 547
@@ -2092,16 +2092,16 @@ allowed = {original_tag = SAF}
 	available = {
 		has_completed_focus = SAF_secure_interests_in_africa
 		283 = { is_fully_controlled_by = ENG }
-		605 = { is_fully_controlled_by = ENG }
+		292 = { is_fully_controlled_by = ENG }
 		545 = { is_fully_controlled_by = SAF }
 		542 = { is_fully_controlled_by = SAF }
 		}	
 		cost = 0		
 		complete_effect = {
 		transfer_state = 283 
-		transfer_state = 605
+		transfer_state = 292
 		283 = { add_extra_state_shared_building_slots = 2 }
-		605 = { add_extra_state_shared_building_slots = 2 }
+		292 = { add_extra_state_shared_building_slots = 2 }
 		}
 }
 
@@ -2113,7 +2113,7 @@ allowed = { original_tag = SAF }
 		547 = { is_fully_controlled_by = ENG }
 		548 = { is_fully_controlled_by = ENG }
 		283 = { is_fully_controlled_by = SAF }
-		605 = { is_fully_controlled_by = SAF }
+		292 = { is_fully_controlled_by = SAF }
 		}
 		cost = 0
 		complete_effect = {

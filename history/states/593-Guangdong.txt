@@ -3,9 +3,6 @@ state= {
 	name="STATE_593"
 	manpower = 12700000
 	state_category = town
-	resources={
-		steel= 76 # was: 20
-	}
 	history= {
 		owner = CHI
 		add_core_of = CHI

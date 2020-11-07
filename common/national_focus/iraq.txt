@@ -141,6 +141,65 @@ focus_tree = {
 			421 = { add_extra_state_shared_building_slots = 2 }
 		}
 	}		
+						focus = { 
+		id = IRQ_eco3
+		icon = GFX_supremacy_of_will
+		x = 0
+		y = 1
+		cost = 5
+		relative_position_id = IRQ_eco2
+		prerequisite = { focus = IRQ_eco2 }
+		available_if_capitulated = yes
+
+		completion_reward = {
+			554 = {
+			add_extra_state_shared_building_slots = 2
+		add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+					add_building_construction = {
+					type = dockyard
+					level = 1
+					instant_build = yes
+				}	
+									add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}	
+				
+				add_building_construction = {
+					type = naval_base
+					province = 792
+					level = 5
+					instant_build = yes
+				}	
+			}
+			
+		}
+	}		
+							focus = { 
+		id = IRQ_eco4
+		icon = GFX_supremacy_of_will
+		x = 0
+		y = 1
+		cost = 5
+		relative_position_id = IRQ_eco3
+		prerequisite = { focus = IRQ_eco3 }
+		available_if_capitulated = yes
+
+		completion_reward = {
+			every_state = { limit = { is_core_of = ALB }
+		add_building_construction = {
+					type = anti_air_building
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}		
 	
 					focus = { 
 		id = IRQ_revolution2

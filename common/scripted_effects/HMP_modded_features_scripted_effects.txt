@@ -1599,7 +1599,7 @@ generic_bonus_999 = {
 
 HMP_script_balkans = {
 			GER = { 
-			transfer_state = 303 transfer_state = 414 transfer_state = 109 transfer_state = 104 transfer_state = 107 transfer_state = 108  transfer_state = 292 
+			transfer_state = 303 transfer_state = 414 transfer_state = 109 transfer_state = 104 transfer_state = 107 transfer_state = 108 
 			303 = { set_compliance = 100 }  109 = { set_compliance = 80 } 104 = { set_compliance = 80 } 414 = { set_compliance = 60 }
 			
 			}
@@ -3238,7 +3238,7 @@ create_field_marshal = {
 ########ON ACTIONS##########
 
 HMP_startup_on_actions = {
-SOV = { add_ideas = {	SOV_motorized_focus } }
+		SOV = { add_ideas = SOV_motorized_focus }
 		SWE = { country_event = { id = italy.602 }} 
 		SPR = { country_event = { id = countrystartup.2 days = 1  }  }		
 		118 = { add_state_modifier = { modifier = { max_dig_in = 30 } }  } 
