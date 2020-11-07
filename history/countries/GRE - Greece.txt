@@ -1,14 +1,8 @@
-﻿capital = 292
-
+﻿capital = 47
 set_research_slots = 0
 add_ideas = ai_imiter 
-
-add_ideas = {
-	limited_conscription
-}
-
+add_ideas = limited_conscription
 set_convoys = 10
-
 set_politics = {
 	ruling_party = neutrality
 	last_election = "1935.6.9"
@@ -21,9 +15,7 @@ set_popularities = {
 	communism = 2
 	neutrality = 65
 }
-
 set_stability = 0.75
-
 create_country_leader = {
 	name = "Ioannis Metaxas"
 	desc = "POLITICS_IOANNIS_METAXAS_DESC"
@@ -31,10 +23,8 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = despotism
 	traits = {
-		#
 	}
 }
-
 create_country_leader = {
 	name = "Konstantinos Tsaldaris"
 	desc = "POLITICS_KONSTANTINOS_TSALDARIS_DESC"
@@ -42,6 +32,5 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = conservatism
 	traits = {
-		#
 	}
 }

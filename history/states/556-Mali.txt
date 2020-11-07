@@ -1,20 +1,36 @@
 state={
 id=556
 name="STATE_556"
-manpower = 3448782
-state_category = rural
+manpower = 5506823
+state_category = town
 history={
 owner = FRA
 add_core_of=SWE
 victory_points = {
 4927 1
 }
+victory_points = {
+4948 5
+}
+victory_points = {
+1909 1
+}
+victory_points = {
+5034 1
+}
 buildings = {
+1909 = {
+naval_base = 1
+}
+4948 = {
+naval_base = 3
+}
+air_base = 3
 infrastructure = 3
-industrial_complex = 1
+industrial_complex = 3
 }
 }
 provinces={
-2012 2044 4927 5045 5101 7930 7954 8116 10788 10812 10829 10915 12751 12794 12838
+2012 2044 4927 5045 5101 7930 7954 8116 10788 10812 10829 10915 12751 12794 12838 5034 5077 7992 8058 10814 1909 4957 5039 8008 12802 12858 2100 4948 7972 8015 12710 12834 
 }
 }

@@ -682,40 +682,28 @@
 
 		completion_reward = {
 			459 = {
-				if = {
-					limit = { is_controlled_by = ROOT }
 					add_building_construction = {
 						type = naval_base
 						level = 3
 						province = 1145
 						instant_build = yes
 					}
-					set_state_flag = FRA_colonial_naval_bases
-				}
 			}
-			272 = {
-				if = {
-					limit = { is_controlled_by = ROOT }
+			556 = {
 					add_building_construction = {
 						type = naval_base
 						level = 3
 						province = 4948
 						instant_build = yes
 					}
-					set_state_flag = FRA_colonial_naval_bases
-				}
 			}
 			286 = {
-				if = {
-					limit = { is_controlled_by = ROOT }
 					add_building_construction = {
 						type = naval_base
 						level = 3
 						province = 4401
 						instant_build = yes
 					}
-					set_state_flag = FRA_colonial_naval_bases
-				}
 			}
 		}
 	}
@@ -973,13 +961,7 @@ check_variable = {  FRA_legitimacy > 80  }
 		available_if_capitulated = yes
 		search_filters = { FOCUS_FILTER_ANNEXATION }
 		completion_reward = {
-transfer_state = 557
 transfer_state = 556
-transfer_state = 272
-transfer_state = 510
-transfer_state = 511
-transfer_state = 509
-transfer_state = 508
 transfer_state = 445
 recalc_vichy_france_legitimacy = yes 
 		}
@@ -1052,13 +1034,13 @@ recalc_vichy_france_legitimacy = yes
 		}
 		
 		bypass = {
-		OR = { controls_state = 601
+		OR = { controls_state = 510
 		has_war_with = EFR }
 		}
 		available_if_capitulated = yes
 		search_filters = { FOCUS_FILTER_ANNEXATION }
 		completion_reward = {
-transfer_state = 601
+transfer_state = 510
 recalc_vichy_france_legitimacy = yes 
 		}
 	}

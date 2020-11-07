@@ -1531,7 +1531,7 @@ SPR = { anti_cross_faction_trade_allies = yes}
 
 recalc_vichy_france_legitimacy = {
 EFR = { set_variable = { vichy_legitimacy_mechanic_stability_factor = -0.1 } }
-if = { limit = { EFR = { controls_state = 601 } } EFR = { add_to_variable={vichy_legitimacy_mechanic_stability_factor=0.15}  }  }#MIDDLE CONGO
+if = { limit = { EFR = { controls_state = 510 } } EFR = { add_to_variable={vichy_legitimacy_mechanic_stability_factor=0.15}  }  }#MIDDLE CONGO
 if = { limit = { EFR = { controls_state = 556 } } EFR = { add_to_variable={vichy_legitimacy_mechanic_stability_factor=0.15}  }  }
 if = { limit = { EFR = { controls_state = 543 } } EFR = { add_to_variable={vichy_legitimacy_mechanic_stability_factor=0.15}  }  }#WEST AFRICA
 if = { limit = { EFR = { controls_state = 554 } } EFR = { add_to_variable={vichy_legitimacy_mechanic_stability_factor=0.15}  }  }#SYRIA
@@ -4096,22 +4096,8 @@ transfer_state = 554
 }
 ###WEST AFRICA###
 if = { limit = { FRA = { check_variable = { FRA_legitimacy 	< 80 } } }
-transfer_state = 557
-557 = { set_demilitarized_zone = yes }
 transfer_state = 556
 556 = { set_demilitarized_zone = yes }
-transfer_state = 272
-272 = { set_demilitarized_zone = yes }
-transfer_state = 510
-510 = { set_demilitarized_zone = yes }
-transfer_state = 511
-511 = { set_demilitarized_zone = yes }
-transfer_state = 436
-436 = { set_demilitarized_zone = yes }
-transfer_state = 509
-509 = { set_demilitarized_zone = yes }
-transfer_state = 508
-508 = { set_demilitarized_zone = yes }
 transfer_state = 445
 445 = { set_demilitarized_zone = yes }
 }
@@ -4128,8 +4114,8 @@ transfer_state = 581
 ###CENTRAL AFRICA - GABON###
 if = { limit = { FRA = { check_variable = { FRA_legitimacy 	< 20 } } }
 #transfer_state = 539 #Gabon, commented out so its not as harsh for France players
-transfer_state = 601
-601	 = { set_demilitarized_zone = yes }
+transfer_state = 510
+510	 = { set_demilitarized_zone = yes }
 }
 ###CENTRAL AFRICA - BELGIAN CONGO###
 if = { limit = { FRA = { check_variable = { FRA_legitimacy 	> 59 } } }
