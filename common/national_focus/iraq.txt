@@ -13,9 +13,9 @@ focus_tree = {
 	 
 			focus = {
 		id = IRQ_the_golden_square_coup
-		icon = GFX_supremacy_of_will
+		icon = GFX_focus_attack_britain
 		available = { always = no }
-		x = 8
+		x = 6
 		y = 0
 		cost = 5
 
@@ -29,25 +29,26 @@ focus_tree = {
 		the_golden_coup_has_been_launched = yes 
 
 		}
-		}
+		} 
 	}
 					focus = {
 		id = IRQ_revolution
-		icon = GFX_supremacy_of_will
+		icon = GFX_focus_RAJ_lions_of_the_great_war
 		x = 0
 		y = 1
-		cost = 5
+		cost = 10
 		relative_position_id = IRQ_the_golden_square_coup
 		prerequisite = { focus = IRQ_the_golden_square_coup }
 		available_if_capitulated = yes
 
 		completion_reward = {
-		
+			remove_country_leader_trait = anti_british_revolutionary
+			add_country_leader_trait = anti_british_revolutionary2
 		}
 	}		
 			focus = {
 		id = IRQ_army_doctrine
-		icon = GFX_supremacy_of_will
+		icon = GFX_focus_generic_military_mission
 		x = 5
 		y = 1
 		cost = 5
@@ -61,7 +62,7 @@ focus_tree = {
 	}
 				focus = {
 		id = IRQ_army_doctrine2
-		icon = GFX_supremacy_of_will 
+		icon = GFX_focus_generic_military_academy 
 		x = 0
 		y = 1
 		cost = 5
@@ -71,7 +72,7 @@ focus_tree = {
 
 		completion_reward = {
 						add_tech_bonus = {
-				name = USA_louisiana_maneuvers
+				name = "Accelerate Doctrinal Developments"
 				bonus = 3.0
 				uses = 1
 				category = land_doctrine
@@ -80,7 +81,7 @@ focus_tree = {
 	} 
 				focus = { 
 		id = IRQ_army_doctrine3
-		icon = GFX_supremacy_of_will
+		icon = GFX_goal_generic_military_sphere
 		x = 2
 		y = 1
 		cost = 5
@@ -94,7 +95,7 @@ focus_tree = {
 	}
 					focus = {
 		id = IRQ_army_doctrine4
-		icon = GFX_supremacy_of_will
+		icon = GFX_focus_generic_little_entente
 		x = -2
 		y = 1
 		cost = 5
@@ -106,10 +107,26 @@ focus_tree = {
 			add_ideas = irq_militarism
 		}
 	}
+	
+						focus = {
+		id = IRQ_army_doctrine5
+		icon = GFX_focus_ger_break_anglo_french_colonial_hegemony
+		x = 0
+		y = 1
+		cost = 5
+		relative_position_id = IRQ_army_doctrine2
+		prerequisite = { focus = IRQ_army_doctrine2 }
+		available_if_capitulated = yes
+
+		completion_reward = {
+				remove_country_leader_trait = anti_british_revolutionary2
+			add_country_leader_trait = anti_british_revolutionary3
+		}
+	}
 		
 				focus = { 
 		id = IRQ_eco1
-		icon = GFX_supremacy_of_will
+		icon = GFX_goal_generic_production2
 		x = -5
 		y = 1
 		cost = 5
@@ -118,17 +135,17 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_offsite_building = { type = industrial_complex level = 6 }
+			add_ideas = MAN_national_defense_state
 		}
 	}	
 					focus = { 
 		id = IRQ_eco2
-		icon = GFX_supremacy_of_will
-		x = 0
+		icon = GFX_goal_generic_construct_infrastructure
+		x = 1
 		y = 1
 		cost = 5
 		relative_position_id = IRQ_eco1
-		prerequisite = { focus = IRQ_eco1 }
+		prerequisite = { focus = IRQ_eco1 focus = IRQ_eco3 }
 		available_if_capitulated = yes
 
 		completion_reward = {
@@ -143,12 +160,12 @@ focus_tree = {
 	}		
 						focus = { 
 		id = IRQ_eco3
-		icon = GFX_supremacy_of_will
-		x = 0
+		icon = GFX_goal_generic_production2
+		x = -3
 		y = 1
 		cost = 5
-		relative_position_id = IRQ_eco2
-		prerequisite = { focus = IRQ_eco2 }
+		relative_position_id = IRQ_revolution
+		prerequisite = { focus = IRQ_revolution }
 		available_if_capitulated = yes
 
 		completion_reward = {
@@ -182,12 +199,12 @@ focus_tree = {
 	}		
 							focus = { 
 		id = IRQ_eco4
-		icon = GFX_supremacy_of_will
+		icon = GFX_focus_generic_air_defense
 		x = 0
 		y = 1
 		cost = 5
-		relative_position_id = IRQ_eco3
-		prerequisite = { focus = IRQ_eco3 }
+		relative_position_id = IRQ_eco2
+		prerequisite = { focus = IRQ_eco2 }
 		available_if_capitulated = yes
 
 		completion_reward = {
@@ -203,7 +220,7 @@ focus_tree = {
 	
 					focus = { 
 		id = IRQ_revolution2
-		icon = GFX_supremacy_of_will
+		icon = GFX_focus_generic_support_the_left_right
 		x = 0
 		y = 1
 		cost = 5
@@ -220,7 +237,7 @@ focus_tree = {
 	
 						focus = {
 		id = IRQ_revolution3
-		icon = GFX_supremacy_of_will
+		icon = GFX_focus_generic_strike_at_democracy1
 		x = -1
 		y = 1
 		cost = 5
@@ -236,7 +253,7 @@ focus_tree = {
 	
 						focus = {
 		id = IRQ_revolution4
-		icon = GFX_supremacy_of_will
+		icon = GFX_goal_generic_improve_relations	
 		x = 1
 		y = 1
 		cost = 5
@@ -252,7 +269,7 @@ focus_tree = {
 	
 	focus = {
 		id = IRQ_revolution5
-		icon = GFX_supremacy_of_will
+		icon = GFX_focus_generic_treaty
 		x = 0
 		y = 1
 		cost = 5
@@ -267,7 +284,7 @@ focus_tree = {
 	}	
 	focus = {
 		id = IRQ_revolution6
-		icon = GFX_supremacy_of_will
+		icon = GFX_goal_generic_political_pressure
 		x = 0
 		y = 1
 		cost = 5
@@ -281,12 +298,12 @@ focus_tree = {
 	}	
 		focus = {
 		id = IRQ_revolution7
-		icon = GFX_supremacy_of_will
+		icon = GFX_goal_support_fascism
 		x = 1
 		y = 1
 		cost = 5
 		relative_position_id = IRQ_revolution6
-		prerequisite = {  focus = IRQ_revolution6 } prerequisite = {  focus = IRQ_revolution5 }
+		prerequisite = {  focus = IRQ_revolution6 } prerequisite = {  focus = IRQ_revolution5 } prerequisite = {  focus = IRQ_eco4 }  prerequisite = {  focus = IRQ_army_doctrine5 }   
 		available_if_capitulated = yes
 
 		completion_reward = {

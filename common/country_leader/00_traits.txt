@@ -70,11 +70,30 @@ leader_traits = {
 	
 	anti_british_revolutionary = { 
 	
+	war_support_factor = 0.1
+				targeted_modifier = {
+				tag = ENG
+				attack_bonus_against = -0.5
+				defense_bonus_against = -0.5
+			}
+	}
+		anti_british_revolutionary2 = { 
+	
+	war_support_factor = 0.3
+			targeted_modifier = {
+				tag = ENG
+				attack_bonus_against = -0.20
+				defense_bonus_against = -0.20
+			}
+	}
+	
+		anti_british_revolutionary3 = { 
+	
 	war_support_factor = 0.5
 				targeted_modifier = {
 				tag = ENG
-				attack_bonus_against = 0.30
-				defense_bonus_against = 0.30
+				attack_bonus_against = 0.10
+				defense_bonus_against = 0.10
 			}
 	}
 	
@@ -2912,10 +2931,6 @@ leader_traits = {
 		motorized_defence_factor = 0.05
 		mechanized_attack_factor = 0.05
 		mechanized_defence_factor = 0.05
-		
-		ai_will_do = {
-			factor = 1
-		}
 	}
 	
 	army_cavalry_2 = { # +8 cavalry/motorized efficiency
@@ -2926,10 +2941,6 @@ leader_traits = {
 		motorized_defence_factor = 0.1
 		mechanized_attack_factor = 0.1
 		mechanized_defence_factor = 0.1
-		
-		ai_will_do = {
-			factor = 2
-		}
 	}
 	
 	army_cavalry_3 = { # +12 cavalry/motorized efficiency
@@ -2940,20 +2951,12 @@ leader_traits = {
 		motorized_defence_factor = 0.15
 		mechanized_attack_factor = 0.15
 		mechanized_defence_factor = 0.15
-		
-		ai_will_do = {
-			factor = 3
-		}
 	}
 	
 	
 	army_regrouping_1 = { # Org regenerates 4% faster
 		sprite = 5
 		army_morale_factor = 0.04
-		
-		ai_will_do = {
-			factor = 1
-		}
 	}
 	
 	army_regrouping_2 = { # Org regenerates 8% faster
