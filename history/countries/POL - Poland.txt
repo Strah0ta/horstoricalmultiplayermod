@@ -4,7 +4,7 @@ country_event = { id =  poland.111 days = 730 }
 country_event = { id =  poland.113 days = 1308 }
 country_event = { id =  poland.115 days = 1328 }
 country_event = { id =  poland.116 days = 1337 }
-
+country_lock_all_division_template = yes
 add_ideas = ai_imiter 
 
 set_research_slots = 0

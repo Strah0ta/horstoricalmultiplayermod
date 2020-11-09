@@ -2,10 +2,9 @@
 
 set_stability = 0.2
 set_war_support = 0.5
+country_lock_all_division_template = yes
 
-	add_ideas = {
-		ai_imiter
-	}
+add_ideas = ai_imiter
 
 set_convoys = 40
 set_research_slots = 0

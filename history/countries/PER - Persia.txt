@@ -1,6 +1,8 @@
 ﻿capital = 412
 set_research_slots = 0
 set_rule = { can_join_factions = no }
+country_lock_all_division_template = yes
+
 set_politics = {
 	ruling_party = neutrality
 	last_election = "1936.1.1"

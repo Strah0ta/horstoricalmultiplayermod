@@ -3,6 +3,8 @@ add_ideas = ai_imiter
 set_research_slots = 0
 set_stability = 0.8
 set_war_support = 0.3 
+country_lock_all_division_template = yes
+
 add_equipment_to_stockpile = {
          type = infantry_equipment_1
          amount = 60000

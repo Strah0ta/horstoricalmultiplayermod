@@ -4,7 +4,7 @@ set_research_slots = 0
 
 set_convoys = 10
 add_ideas = ai_imiter 
-
+country_lock_all_division_template = yes
 set_politics = {
 	ruling_party = neutrality
 	last_election = "1931.10.3"

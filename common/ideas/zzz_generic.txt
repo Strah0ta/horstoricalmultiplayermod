@@ -35,7 +35,6 @@ ideas = {
             removal_cost = -1
             picture = generic_goods_red_bonus
             modifier = {
-			training_time_factor = 100 
 				consumer_goods_factor = 1
 				industrial_capacity_factory = -1.5 
 				production_factory_max_efficiency_factor = -0.4 
