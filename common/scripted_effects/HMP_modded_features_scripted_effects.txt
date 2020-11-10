@@ -4149,7 +4149,7 @@ transfer_state = 14
 transfer_state = 19
 transfer_state = 29
 }
-GER = { add_ideas = VIC_guest_workers }
+GER = { add_timed_idea { idea = VIC_guest_workers days = 487 } } #16 months
 FRA = { transfer_state = 301 
 remove_ideas = FRA_protected_by_the_maginot_line
 remove_ideas = FRA_victors_of_wwi2

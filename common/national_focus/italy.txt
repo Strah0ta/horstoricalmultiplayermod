@@ -739,15 +739,7 @@ date > 1941.6.1
 		available_if_capitulated = yes
 
 		completion_reward = {
-			random_owned_controlled_state = {
-				limit = {
-					dockyard > 0
-					free_building_slots = {
-						building = dockyard
-						size > 1
-						include_locked = yes
-					}
-				}
+			114 = {
 				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = dockyard
@@ -755,15 +747,7 @@ date > 1941.6.1
 					instant_build = yes
 				}
 			}
-			random_owned_controlled_state = {
-				limit = {
-					dockyard > 0
-					free_building_slots = {
-						building = dockyard
-						size > 1
-						include_locked = yes
-					}
-				}
+			115 = {
 				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = dockyard
@@ -771,52 +755,22 @@ date > 1941.6.1
 					instant_build = yes
 				}
 			}
-
-			if = {
-				limit = {
-					NOT = {
-						any_owned_state = {
-							dockyard > 0
-							free_building_slots = {
-								building = dockyard
-								size > 0
-								include_locked = yes
-							}
-						}
-					}
+						117 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
 				}
-				random_owned_controlled_state = {
-					limit = {
-						free_building_slots = {
-							building = dockyard
-							size > 1
-							include_locked = yes
-						}
-					}
-					add_extra_state_shared_building_slots = 2
-					add_building_construction = {
-						type = dockyard
-						level = 2
-						instant_build = yes
-					}
-				}
-				random_owned_controlled_state = {
-					limit = {
-						free_building_slots = {
-							building = dockyard
-							size > 1
-							include_locked = yes
-						}
-					}
-					add_extra_state_shared_building_slots = 2
-					add_building_construction = {
-						type = dockyard
-						level = 2
-						instant_build = yes
-					}
-				}				
 			}
-
+						156 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+			}
 			add_tech_bonus = {
 				name = naval_doc_bonus
 				bonus = 1.0
@@ -1139,7 +1093,7 @@ date > 1941.6.1
 		completion_reward = {
 		add_state_claim = 102
 		add_state_claim = 103
-		GER = { add_state_claim = 775 }
+		GER = { add_state_claim = 303 }
 			add_named_threat = { threat = 4 name = ITA_slovenia_dalmatia_claims_threat }
 		}
 	}
@@ -1175,7 +1129,23 @@ date > 1941.6.1
 
 		completion_reward = {		
 			BUL = {	add_popularity = { ideology = fascism popularity = 0.1 } }
-			ROM = {	add_popularity = { ideology = fascism popularity = 0.1 } }		
+			ROM = {	add_popularity = { ideology = fascism popularity = 0.1 } }
+			159 = {
+							add_extra_state_shared_building_slots = 10
+							add_building_construction = {
+								type = arms_factory
+								level = 10
+								instant_build = yes
+							}
+						}	
+			115 = {
+							add_extra_state_shared_building_slots = 4
+							add_building_construction = {
+								type = dockyard
+								level = 4
+								instant_build = yes
+							}
+						}							
 			add_threat = 7
 		}
 	}
@@ -1306,15 +1276,16 @@ date > 1941.6.1
 		cost = 5
 
 		completion_reward = {
-			448 = { add_resistance_target  = { amount = -20 } } 
-			449 = { add_resistance_target  = { amount = -20 } } 
-			579 = { add_resistance_target  = { amount = -20 } } 
-			450 = { add_resistance_target  = { amount = -20 } }
+		custom_effect_tooltip = "We will lower resistance in Libya by 20%"
+			448 = { remove_resistance_target = 20 } 
+			449 = { remove_resistance_target = 20 }  
+			579 = { remove_resistance_target = 20 }  
+			450 = { remove_resistance_target  = 20 } 
 		}
 	}
 			focus = {
 		id = ITA_align_iraq
-		available = { ENG = {  controls_state = 412	} }
+		available = { ENG = {  controls_state = 412	} NOT = { ENG = {  controls_state = 291} } }
 		
 		prerequisite = { focus = ITA_sword_of_islam }
 		

@@ -768,41 +768,10 @@ focus_tree = {
 		completion_reward = {
 					if = { limit = { has_start_date > 1936.1.2 } 	annex_country = { target = HUN }	every_state = { limit = { is_core_of = HUN }  set_compliance = 100 } 	}
 		if = { limit = { NOT = { has_start_date > 1936.1.2 } }	
-			HUN = { 
-				set_cosmetic_tag = HUN_REICH
-155 = {
-							add_extra_state_shared_building_slots = 3
-							add_building_construction = {
-								type = arms_factory
-								level = 2
-								instant_build = yes
-							}
-					
-						}
-					}
+			HUN = { 	set_cosmetic_tag = HUN_REICH	}
 				} 	
 			
-		ROM = {
-		set_cosmetic_tag = ROM_REICH 
-				46 = {
-							add_extra_state_shared_building_slots = 3
-							add_building_construction = {
-								type = arms_factory
-								level = 2
-								instant_build = yes
-							}
-						}					
-				} 
-			SPR = { 
-				41 = {
-					add_extra_state_shared_building_slots = 2
-					add_building_construction = {
-						type = arms_factory
-						level = 2
-						instant_build = yes
-					}
-			}
-			} 					
+		ROM = {	set_cosmetic_tag = ROM_REICH 					} 				
 			60 = {
 							add_extra_state_shared_building_slots = 14
 							add_building_construction = {

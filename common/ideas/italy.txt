@@ -308,7 +308,7 @@ ideas = {
 		vittorio_ambrosio = {
 			ledger = army
 			allowed = {	original_tag = ITA	}	
-			traits = { army_armored_2 }
+			traits = { army_armored_3 }
 		}
 		
 		alfredo_guzzoni = {
