@@ -1,6 +1,6 @@
 state={
 id=556
-name="STATE_556"
+name="French Guinea"
 manpower = 5506823
 state_category = town
 history={

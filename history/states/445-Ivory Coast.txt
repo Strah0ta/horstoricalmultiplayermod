@@ -1,6 +1,6 @@
 state={
 id=445
-name="STATE_779"
+name="French West Africa"
 manpower = 10033644 
 state_category = town
 history={
