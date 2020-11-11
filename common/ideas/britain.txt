@@ -383,27 +383,6 @@ ideas = {
 
 		}
 
-		ENG_maintaining_imperial_integrity_idea = {
-
-			name = ENG_maintaining_imperial_integrity
-
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			modifier = {
-				autonomy_gain = -0.5
-			}
-
-			picture = generic_pp_unity_bonus
-			
-			removal_cost = -1
-		}
-
 		ENG_prepare_for_the_inevitable_idea = {
 
 			name = ENG_prepare_for_the_inevitable

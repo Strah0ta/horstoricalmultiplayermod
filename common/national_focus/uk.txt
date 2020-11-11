@@ -641,6 +641,7 @@ add_equipment_production = {
 
 		completion_reward = {
 			add_ideas = british_fighter_discount
+			USA = { add_ideas = british_fighter_discount }
 		}
 	}
 	focus = {
