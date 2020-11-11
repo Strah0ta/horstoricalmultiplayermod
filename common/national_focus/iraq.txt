@@ -5,7 +5,7 @@ focus_tree = {
 	modifier = {
 			add = 10
 			tag = ALB
-		} 	
+		} 	 
 	}
 	default = no
 	reset_on_civilwar = no
@@ -23,12 +23,9 @@ focus_tree = {
 
 		completion_reward = {
 		 add_ideas = ALB_Mahmud_Salman add_ideas = ALB_Salah_ad_Din_al_Sabbagh add_ideas = ALB_Kamal_Shabib add_ideas = ALB_Fahmi_Said 
-		add_ideas = rashid_al_gaylani 
-		
-		hidden_effect = { 
+		add_ideas = rashid_al_gaylani  add_ideas = rashid_al_gaylani2 add_ideas = rashid_al_gaylani3
 		the_golden_coup_has_been_launched = yes 
-
-		}
+		set_cosmetic_tag = ALB_IRQ
 		} 
 	}
 					focus = {
@@ -230,6 +227,7 @@ focus_tree = {
 		available = { controls_state = 554}
 
 		completion_reward = {
+		set_cosmetic_tag = ALB_IRQSYR
 			transfer_state = 554 add_state_core = 554
 		}
 	}		
@@ -305,7 +303,7 @@ focus_tree = {
 		relative_position_id = IRQ_revolution6
 		prerequisite = {  focus = IRQ_revolution6 } prerequisite = {  focus = IRQ_revolution5 } prerequisite = {  focus = IRQ_eco4 }  prerequisite = {  focus = IRQ_army_doctrine5 }   
 		available_if_capitulated = yes
-
+ 
 		completion_reward = {
 			set_cosmetic_tag = IRQ_ASSYRIA
 		}

@@ -9,7 +9,7 @@ country = {
 		}
 	political_advisor = {
 
-		ALB_marius_viple = {
+		rashid_al_gaylani2 = {
 
 			picture = generic_political_advisor_europe_2
 
@@ -17,8 +17,10 @@ country = {
 				original_tag = ALB
 			}
 			
-			traits = { popular_figurehead }
+			traits = { education_reformer }
 		}
+		
+		
 		
 		rashid_al_gaylani = {
 			
@@ -26,26 +28,20 @@ country = {
 			allowed = {
 				original_tag = ALB
 			}
-			
-			available = {
-			has_completed_focus = FRA_national_regeneration
-			}
-			visible = { has_dlc = "La Resistance" }
+
 			cost = 0 
 			traits = { national_integralist }
 
 		}
 	
-		ALB_philippe_henriot = {
+		rashid_al_gaylani3 = {
 			
+			picture = generic_political_advisor_europe_3
 			
 			allowed = {
 				original_tag = ALB
 			}
-			visible = { has_dlc = "La Resistance" }
-			available = {
-				has_completed_focus = FRA_national_regeneration
-			}
+
 			cost = 0 
 			traits = { propaganda_expert }
 
@@ -56,7 +52,7 @@ country = {
 		
 	# MILITARY
 	army_chief = {
-		ALB_maxime_weygand = {
+		ALB_Mahmud_Salman2 = {
 			
 			picture = generic_army_europe_3
 			

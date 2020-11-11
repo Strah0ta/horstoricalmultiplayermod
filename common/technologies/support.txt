@@ -11,17 +11,6 @@ technologies = {
 	@1944 = 16
 	@1945 = 18
 	@1946 = 20
-	tech_military_police_sov = {
-		military_police = {
-			max_organisation = 40
-			hard_attack = 15
-			defense = 0.5
-			breakthrough = 5
-		}	
-		research_cost = 1
-		allow = { always = no }
-	}
-
 	tech_support = {
 
 		enable_equipments = {
