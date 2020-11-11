@@ -3571,9 +3571,9 @@ HFU_fuel_startup_effect = {
 		}
 		
 	soviet_lend_lease_mechanic_calc = {
-		if = { limit = { OR = { AND = { USA = { controls_state = 463 } SOV = { controls_state = 408 } } has_start_date > 1936.1.2 }  } SOV = { add_to_variable = {  var = SOV_barb_ll_token   value = 1 } } add_to_variable = {  var = SOV_barb_ll_token2   value = 1 } }
-		if = { limit = { AND = { ENG = { controls_state = 412 } SOV = { controls_state = 229 } }  }   SOV = { add_to_variable = {  var = SOV_barb_ll_token   value = 4 } add_to_variable = {  var = SOV_barb_ll_token2   value = 4 } } }
-		if = { limit = {SOV = { controls_state = 213 }   } 	SOV = { add_to_variable = {  var = SOV_barb_ll_token   value = 2 } add_to_variable = {  var = SOV_barb_ll_token2   value = 2 }} }
+		if = { limit = { OR = { AND = { USA = { controls_state = 416 } SOV = { controls_state = 408 } } has_start_date > 1936.1.2 }  } SOV = { add_to_variable = {  var = SOV_barb_ll_token   value = 1 } } add_to_variable = {  var = SOV_barb_ll_token2   value = 1 } }
+		if = { limit = { AND = { ENG = { controls_state = 412 } SOV = { controls_state = 229 } }  }   SOV = { add_to_variable = {  var = SOV_barb_ll_token   value = 3 } add_to_variable = {  var = SOV_barb_ll_token2   value = 3 } } }
+		if = { limit = {SOV = { controls_state = 213 }   } 	SOV = { add_to_variable = {  var = SOV_barb_ll_token   value = 1 } add_to_variable = {  var = SOV_barb_ll_token2   value = 1 }} }
 		if = { limit = {AND = {  ENG = { controls_state = 118 } ENG = { controls_state = 116 } SOV = { controls_state = 137 } } }  SOV = { add_to_variable = {  var = SOV_barb_ll_token   value = 1 } add_to_variable = {  var = SOV_barb_ll_token2   value = 1 } } }
 	}	
 				

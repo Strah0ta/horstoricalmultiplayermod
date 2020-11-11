@@ -283,7 +283,23 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/focus_SOV_postive_heroism.dds"
 	}
 	
-		
+		SpriteType = { 
+		name = "GFX_EGY_Coordinate_with_Al_Fatat"
+		texturefile = "gfx/interface/goals/EGY_Coordinate_with_Al_Fatat.tga"
+	}
+		SpriteType = { 
+		name = "GFX_PER_army"
+		texturefile = "gfx/interface/goals/PER_army.tga"
+	}
+		SpriteType = { 
+		name = "GFX_IRQ_Home_of_Civilisation"
+		texturefile = "gfx/interface/goals/IRQ_Home_of_Civilisation.tga"
+	}
+		SpriteType = { 
+		name = "GFX_SYR_Lion_of_Syria"
+		texturefile = "gfx/interface/goals/SYR_Lion_of_Syria.tga"
+	}
+
 	SpriteType = { 
 		name = "GFX_focus_SOV_worker_cluture"
 		texturefile = "gfx/interface/goals/focus_SOV_worker_cluture.dds"
