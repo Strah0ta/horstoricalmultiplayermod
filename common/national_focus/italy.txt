@@ -1265,7 +1265,7 @@ date > 1941.6.1
 		
 		icon = GFX_goal_generic_secret_weapon
 		x = -1 
-		y = 1
+		y = 1 
 
 		relative_position_id = ITA_balkan_war_goal
 		cost = 5
@@ -1293,10 +1293,7 @@ date > 1941.6.1
 
 		completion_reward = {
 			custom_effect_tooltip = "We will recruit Iraqi nationalists for our cause."
-			hidden_effect = { 
-			if = { limit = { NOT = {has_tech = antitank2 }} set_technology = antitank2  }
-			load_oob = "ITA_IRQ_Spawn" 
-			}
+			hidden_effect = { load_oob = "ITA_IRQ_Spawn"	}
 		}
 	}
 				
