@@ -329,6 +329,15 @@ make_asia_go_faster = {
 	}	
 }
 
+bad_infra_state_effect = {
+	every_state = {
+		limit = { bad_infra_state = yes }
+		add_state_modifier = { modifier = { production_speed_infrastructure_factor = -0.75 }}
+		add_state_modifier = { modifier = { production_speed_air_base_factor = -0.75 }}
+		add_state_modifier = { modifier = { production_speed_naval_base_factor = -0.75 }}		
+	}	
+}
+
 MAN_low_legitimacy_clear_all = {
 	if = {
 		limit = { has_idea = MAN_low_legitimacy_0 }
@@ -1850,6 +1859,50 @@ create_corps_commander = {
 
 HMP_ITA_generals = {
 ITA = { every_army_leader = { retire = yes }}
+ALB = {
+create_field_marshal = {
+    name = "Kamil Shabib"
+    #gfx =    #need to find one
+	traits = { defensive_doctrine organizer logistics_wizard infantry_leader panzer_leader ambusher inspirational_leader organisational_leader  }
+	skill = 7
+	attack_skill = 4
+	defense_skill = 7
+	planning_skill = 2
+	logistics_skill = 8
+}
+
+create_corps_commander = { 
+    name = "Fahmi Said"
+    portrait_path = "gfx/leaders/ALB/GFX_Portrait_Fahmi_Said.dds"
+	traits = {  panzer_leader panzer_expert ambusher offensive_doctrine camouflage_expert desert_fox trait_mountaineer hill_fighter skirmisher }
+    skill = 8
+    attack_skill = 7
+    defense_skill = 5
+    planning_skill = 6
+    logistics_skill = 7
+}
+create_corps_commander = {
+	name = "Salah al-Din al-Sabbagh"
+	portrait_path = "gfx/leaders/ALB/GFX_Portrait_Salah_al_Din_al_Sabbagh.dds"
+	traits = { hill_fighter trait_mountaineer infantry_leader trait_engineer desert_fox trickster infantry_expert camouflage_expert }
+	skill = 7
+	attack_skill = 7
+	defense_skill = 5
+	planning_skill = 4
+	logistics_skill = 6
+}
+create_corps_commander = {
+	name = "Mahmud Salman"
+	portrait_path = "gfx/leaders/ALB/GFX_Portrait_Mahmud_Salman.dds"
+	traits = {  infantry_leader trait_engineer trickster expert_improviser commando paratrooper camouflage_expert infantry_expert  }
+	skill = 8
+	attack_skill = 8
+	defense_skill = 5
+	planning_skill = 3
+	logistics_skill = 9
+}
+
+}
 ITA = {
 create_field_marshal = { #general FM 
     name = "Pietro Badoglio"
@@ -1920,7 +1973,7 @@ create_corps_commander = { #AFRIKACORPS GENERAL
     attack_skill = 7
     defense_skill = 5
     planning_skill = 6
-    logistics_skill = 6
+    logistics_skill = 7
 }
 create_corps_commander = {
 	name = "Ugo Cavallero"
@@ -3257,8 +3310,7 @@ HMP_startup_on_actions = {
 				if = { limit = { AND = { MEX = { is_ai = yes }} country_exists = MEX } ENG = { country_event = { id = japan.648 days = 1  }}   }
 				if = { limit = { NZL = { is_ai = yes }} AST = { country_event = { id = japan.758 days = 1  }}   }				
 				if = { limit = { has_start_date > 1936.01.02 }  HMP_no_asia = yes      }
-				make_asia_go_faster = yes	
-				HFU_fuel_startup_effect = yes
+				make_asia_go_faster = yes	bad_infra_state_effect = yes 	HFU_fuel_startup_effect = yes
 				if = { limit = { BUL = { has_focus_tree = bulgarian_no_dlc_focus }} BUL = { country_event = { id = italy.663  days = 1}}          }
 }
 
@@ -3785,6 +3837,7 @@ democratic_russia = {
 	}
 	transfer_state = 291 set_capital = 291 add_state_core = 291
 	load_focus_tree = iraq_focus_tree  
+	#give_resource_rights = { receiver = ROM state = 494 }
 	load_oob = "Iraq_CW"  
 	add_research_slot = 4
 		291 = { add_extra_state_shared_building_slots = 4 }
