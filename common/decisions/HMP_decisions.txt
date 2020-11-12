@@ -549,7 +549,7 @@ available = {  check_variable = { var = SOV_barb_ll_token  value = 20  compare =
 		fire_only_once = no
 		visible = { SOV = { has_completed_focus = SOV_aviation_cult}}
 		complete_effect  = {
-add_equipment_to_stockpile = {  type = sov_fighter_equipment_2 amount = 855 producer = SOV }    
+add_equipment_to_stockpile = {  type = sov_fighter_equipment_2 amount = 916 producer = SOV }    
 		SOV = { add_to_variable = {  var = SOV_barb_ll_token   value = -20 } }						
 		}
 	}

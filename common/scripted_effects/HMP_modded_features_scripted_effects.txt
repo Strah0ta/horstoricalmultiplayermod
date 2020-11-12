@@ -3783,6 +3783,9 @@ democratic_russia = {
     autonomy_state = autonomy_satellite
 }
 	}
+	transfer_state = 291 set_capital = 291 add_state_core = 291
+	load_focus_tree = iraq_focus_tree  
+	load_oob = "Iraq_CW"  
 	add_research_slot = 4
 		291 = { add_extra_state_shared_building_slots = 4 }
 		add_ideas = tot_economic_mobilisation add_ideas = service_by_requirement add_ideas = free_trade 
@@ -3829,16 +3832,6 @@ democratic_russia = {
 	sup_mechanized_offensive = 1
 	centralized_fire_control = 1
 	}
-	}
-	}
-
-	stoke_iraqi_nationalism_effect = {
-	ALB  = { 
-	transfer_state = 291 set_capital = 291
-	load_focus_tree = iraq_focus_tree  
-	load_oob = "Iraq_CW"  
-	set_politics = {	ruling_party = fascism	elections_allowed = no	} 
-	set_cosmetic_tag = ALB_TO_IRQ 
 	}
 	}
 

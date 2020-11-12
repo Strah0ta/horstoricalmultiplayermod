@@ -1,4 +1,4 @@
-version="1.10.1"
+version="1.10.2"
 tags={
 	"Fixes"
 	"Gameplay"
@@ -67,5 +67,5 @@ replace_path="common/wargoals"
 replace_path="map/strategicregions"
 replace_path="map/supplyareas"
 name="Horstorical Multiplayer"
-supported_version="1.10.1"
+supported_version="1.10.2"
 remote_file_id="1756277582"

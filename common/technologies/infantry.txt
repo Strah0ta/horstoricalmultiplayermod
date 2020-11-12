@@ -367,11 +367,6 @@ technologies = {
 		}
 		
 		on_research_complete = {
-			limit = {
-				NOT = {
-					has_template_containing_unit = paratrooper
-				}
-			}
 			hidden_effect = {
 				load_oob = "unlock_paratroopers"
 			}
@@ -436,11 +431,6 @@ technologies = {
 		}
 		
 		on_research_complete = {
-			limit = {
-				NOT = {
-					has_template_containing_unit = marine
-				}
-			}
 			hidden_effect = {
 				load_oob = "unlock_marines"
 			}			
@@ -513,11 +503,6 @@ technologies = {
 		}
 
 		on_research_complete = {
-			limit = {
-				NOT = {
-					has_template_containing_unit = mountaineers
-				}
-			}
 			hidden_effect = {
 				load_oob = "unlock_mountineers"
 			}
@@ -590,11 +575,6 @@ technologies = {
 		}
 
 		on_research_complete = {
-			limit = {
-				NOT = {
-					has_template_containing_unit = jaeger
-				}
-			}
 			hidden_effect = {
 				load_oob = "unlock_jaeger"
 			}
@@ -683,11 +663,6 @@ technologies = {
 		}		
 		
 		on_research_complete = {
-			limit = {
-				NOT = {
-					has_template_containing_unit = camelry
-				}
-			}
 			hidden_effect = {
 				load_oob = "unlock_camelry"
 			}

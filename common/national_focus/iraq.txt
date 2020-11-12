@@ -73,9 +73,9 @@ focus_tree = {
 				bonus = 3.0
 				uses = 1
 				category = land_doctrine
-			}
+			} 
 		}
-	} 
+	}  
 				focus = { 
 		id = IRQ_army_doctrine3
 		icon = GFX_goal_generic_military_sphere

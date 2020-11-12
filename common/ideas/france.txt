@@ -761,6 +761,7 @@ ideas = {
 			picture = generic_wall_line
 			
 			modifier = {
+			enemy_army_bonus_air_superiority_factor = 0.5
 				surrender_limit = 0.19
 				max_planning = 0.25 
 				army_speed_factor = 0.1

@@ -592,7 +592,7 @@ date > 1941.6.1
 	focus = {
 		id = ITA_modernized_artillery
 		icon = GFX_goal_generic_army_artillery2
-		prerequisite = { focus = ITA_army_primacy }
+		prerequisite = { focus = ITA_army_primacy focus = ITA_modernized_army }
 		x = -2
 		y = 1
 		relative_position_id = ITA_army_primacy
@@ -616,14 +616,9 @@ date > 1941.6.1
 	focus = {
 		id = ITA_modernized_army
 		icon = GFX_focus_ITA_army
-		prerequisite = { focus = ITA_army_primacy }
-		x = -1
-		y = 2
-		relative_position_id = ITA_army_primacy
+		x = 3
+		y = 0
 		cost = 10
-		ai_will_do = {
-			factor = 1
-		}
 
 		available_if_capitulated = yes
 
@@ -704,8 +699,8 @@ date > 1941.6.1
 	focus = {
 		id = ITA_armored_effort
 		icon = GFX_focus_ITA_tank
-		prerequisite = { focus = ITA_modernized_army }
-		x = 0
+		prerequisite = { focus = ITA_modernized_army focus = ITA_army_primacy }
+		x = 1
 		y = 2
 		relative_position_id = ITA_modernized_army
 		cost = 10

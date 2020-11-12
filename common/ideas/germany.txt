@@ -404,6 +404,7 @@ ideas = {
 			picture = generic_acquire_tanks
 
 			modifier = { air_cas_present_factor = 0.2 no_supply_grace =  60 production_speed_infrastructure_factor = 0.5 }
+			equipment_bonus = { CAS_equipment = {	air_ground_attack = 0.3    instant = yes	}	}
 		}
 				GER_blau = {
 			allowed = {
