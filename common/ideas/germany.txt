@@ -766,48 +766,14 @@ ideas = {
 		}
 		
 		
-		joseph_goebbels = {
-
-			
-			allowed = {
-				original_tag = GER
-			}
-
-			available = {
-				has_government = fascism
-				if = {
-					limit = { has_dlc = "Man the Guns" }	
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}
-			}
-			
+		joseph_goebbels = {			
+			allowed = {	original_tag = GER	}
+			available = {	has_government = fascism	}
 			traits = { reichs_prop }
-
-			do_effect = {
-				NOT = {
-					has_government = fascism
-				}
-			}
-			
-			ai_will_do = {
-				factor = 24
-			}
 		}
 		
 		rudolf_hess = {
-
-			
-			allowed = {
-				original_tag = GER
-			}
-			available = {
-				NOT = { has_country_flag = flight_of_hess }
-				OR = {
-					has_government = fascism
-					has_country_flag = GER_reinstated_nazi_leadership
-				}
-			}
-			
+			allowed = {	original_tag = GER	}
 			traits = { silent_workhorse }
 		}
 		
@@ -819,10 +785,7 @@ ideas = {
 			}
 
 			available = {
-				OR = {
 					has_government = fascism
-					has_country_flag = GER_reinstated_nazi_leadership
-				}
 			}
 
 			traits = { gestapo }
@@ -836,10 +799,7 @@ ideas = {
 			}
 
 			available = {
-				OR = {
 					has_government = fascism
-					has_country_flag = GER_reinstated_nazi_leadership
-				}
 			}
 
 			ai_will_do = {

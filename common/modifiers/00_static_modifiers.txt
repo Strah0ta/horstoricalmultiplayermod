@@ -76,9 +76,9 @@ weather_very_cold = { # on Province
 
 rasputitsa = { 
 	army_speed_factor = -0.2
-	army_armor_speed_factor = -0.3	
+	army_armor_speed_factor = -0.2	
 	army_attack_factor = -0.2
-	attrition = 0.15	
+	attrition = 0.1
 }
 weather_ground_snow_medium = { }
 weather_ground_snow_high = { }
