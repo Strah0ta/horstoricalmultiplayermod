@@ -1,8 +1,8 @@
 supply_area={
 	id=61
-	name="SUPPLYAREA_286"
-	value=8
+	name="SUPPLYAREA_245"
+	value=6
 	states={
-		426 424 
+		587 403 
 	}
 }

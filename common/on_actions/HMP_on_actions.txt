@@ -215,14 +215,16 @@ on_state_control_changed = {
 				limit = { 
 				OR = { 	normally_played_allies = yes tag = SOV }
 				FROM.FROM = { state = 110 } 
+				date > 1941.1.1
 				}
-               GER = { remove_resource_rights = 576 }	
+	
 			   SWE = { give_resource_rights = { receiver = ENG state = 576 } }  
 				}	
 		if = {
 				limit = { 
 				the_axis = yes
 				FROM.FROM = { state = 110 } 
+				NOT = { NOR = { owns_state = 110 }}
 				}
                ENG = { remove_resource_rights = 576 }	
 			   SWE = { give_resource_rights = { receiver = GER state = 576 } }  

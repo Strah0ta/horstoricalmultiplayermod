@@ -1549,34 +1549,28 @@ if = { limit = { EFR = { controls_state = 581 } }EFR = {  add_to_variable={vichy
 if = { limit = { EFR = { is_subject_of = GER } } EFR = { add_to_variable={vichy_legitimacy_mechanic_stability_factor=-0.3}  }  }#Puppet check
 }
 
-copy_australian_at_equipment_research = {
-	if = { limit = { AST = { has_tech = antitank2 }}  ROOT = { set_technology = antitank2 }}
-	if = { limit = { AST = { has_tech = antitank5 }}  ROOT = { set_technology = antitank5 }}
-}
-#copy_norwegian_inf_equipment_research = {}
-
-
 
 generic_bonus_1 = {
 	add_tech_bonus = { 
-	name = "Generic 100 Bonus" bonus = 1 uses = 1 
-	category = air_equipment category = artillery 
-	category = industry category = naval_equipment	
+	name = "Generic 100 Bonus" bonus = 1 uses = 1
+	category = air_equipment category = industry 
+	category = artillery category = naval_equipment	
 	category = motorized_equipment   category =	armor 
 	category = electronics	category = nuclear 
-	category = infantry_weapons category = land_doctrine 
+	category = land_doctrine category = infantry_weapons 
 	category = air_doctrine category = naval_doctrine   
 	category = tp_tech   category = support_tech 
 	}
 }
+
 generic_bonus_3 = {
 	add_tech_bonus = { 
-	name = "Generic 300 Bonus" bonus = 3 uses = 1 
-	category = air_equipment category = artillery 
-	category = industry category = naval_equipment	
+	name = "Generic 300 Bonus"  bonus = 3 uses = 1
+	category = air_equipment category = industry 
+	category = artillery category = naval_equipment	
 	category = motorized_equipment   category =	armor 
 	category = electronics	category = nuclear 
-	category = infantry_weapons category = land_doctrine 
+	category = land_doctrine category = infantry_weapons 
 	category = air_doctrine category = naval_doctrine   
 	category = tp_tech   category = support_tech 
 	}
@@ -1584,15 +1578,16 @@ generic_bonus_3 = {
 generic_bonus_2y = {
 	add_tech_bonus = { 
 	name = "Generic 2y Bonus"  ahead_reduction = 2 bonus = 1 uses = 1
-	category = air_equipment category = artillery 
-	category = industry category = naval_equipment	
+	category = air_equipment category = industry 
+	category = artillery category = naval_equipment	
 	category = motorized_equipment   category =	armor 
 	category = electronics	category = nuclear 
-	category = infantry_weapons category = land_doctrine 
+	category = land_doctrine category = infantry_weapons 
 	category = air_doctrine category = naval_doctrine   
 	category = tp_tech   category = support_tech 
 	}
 }
+
 generic_bonus_999 = {
 	add_tech_bonus = { 
 	name = "Generic 99999 Bonus"  bonus = 999.99 uses = 1 
@@ -1605,6 +1600,8 @@ generic_bonus_999 = {
 	category = tp_tech   category = support_tech 
 	}
 }
+
+
 
 HMP_script_balkans = {
 			GER = { 
@@ -1862,7 +1859,7 @@ ITA = { every_army_leader = { retire = yes }}
 ALB = {
 create_field_marshal = {
     name = "Kamil Shabib"
-    #gfx =    #need to find one
+    portrait_path = "gfx/leaders/ALB/GFX_Portrait_Fahmi_Said.dds"
 	traits = { defensive_doctrine organizer logistics_wizard infantry_leader panzer_leader ambusher inspirational_leader organisational_leader  }
 	skill = 7
 	attack_skill = 4
@@ -1873,7 +1870,7 @@ create_field_marshal = {
 
 create_corps_commander = { 
     name = "Fahmi Said"
-    portrait_path = "gfx/leaders/ALB/GFX_Portrait_Fahmi_Said.dds"
+    picture = "Portrait_Fahmi_Said.dds"
 	traits = {  panzer_leader panzer_expert ambusher offensive_doctrine camouflage_expert desert_fox trait_mountaineer hill_fighter skirmisher }
     skill = 8
     attack_skill = 7
@@ -1883,7 +1880,7 @@ create_corps_commander = {
 }
 create_corps_commander = {
 	name = "Salah al-Din al-Sabbagh"
-	portrait_path = "gfx/leaders/ALB/GFX_Portrait_Salah_al_Din_al_Sabbagh.dds"
+	picture = "Portrait_Salah_al_Din_al_Sabbagh.dds"
 	traits = { hill_fighter trait_mountaineer infantry_leader trait_engineer desert_fox trickster infantry_expert camouflage_expert }
 	skill = 7
 	attack_skill = 7
@@ -1893,7 +1890,7 @@ create_corps_commander = {
 }
 create_corps_commander = {
 	name = "Mahmud Salman"
-	portrait_path = "gfx/leaders/ALB/GFX_Portrait_Mahmud_Salman.dds"
+	picture = "Portrait_Mahmud_Salman.dds"
 	traits = {  infantry_leader trait_engineer trickster expert_improviser commando paratrooper camouflage_expert infantry_expert  }
 	skill = 8
 	attack_skill = 8
@@ -2436,12 +2433,12 @@ create_corps_commander = {
 	name = "Markian Popov"
 		picture = "Portrait_Soviet_Matkian_Popov.dds"
 	traits = { infantry_leader skilled_staffer infantry_expert trait_engineer fortress_buster trickster expert_improviser ranger  brilliant_strategist aggressive_assaulter }
-	skill = 6
+	skill = 7
 
 	attack_skill = 6
 	defense_skill = 5
 	planning_skill = 3
-	logistics_skill = 5
+	logistics_skill = 8	
 }
 	
 		create_field_marshal = {
@@ -4222,7 +4219,7 @@ transfer_state = 14
 transfer_state = 19
 transfer_state = 29
 }
-GER = { add_timed_idea { idea = VIC_guest_workers days = 487 } } #16 months
+GER = { add_timed_idea { idea = VIC_guest_workers days = 548 } } #18 months
 FRA = { transfer_state = 301 
 remove_ideas = FRA_protected_by_the_maginot_line
 remove_ideas = FRA_victors_of_wwi2
@@ -4301,6 +4298,16 @@ move_rubber_from_indies_to_congo = {
 				add_resource = { state = 295 type = rubber amount = 0 }
 			}
 	}
+}
+
+copy_norwegian_inf_equipment_research = {
+	if = { limit = { NOR = { has_tech = advanced_infantry_weapons }}  ROOT = { set_technology = advanced_infantry_weapons }}
+	if = { limit = { NOR = { has_tech = advanced_infantry_weapons }}  ROOT = { set_technology = advanced_infantry_weapons }}
+} 
+
+copy_australian_at_equipment_research = {
+	if = { limit = { AST = { has_tech = antitank2 }}  ROOT = { set_technology = antitank2 }}
+	if = { limit = { AST = { has_tech = antitank5 }}  ROOT = { set_technology = antitank5 }}
 }
 
 

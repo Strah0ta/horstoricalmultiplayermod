@@ -10,5 +10,8 @@ spriteTypes = {
 		texturefile = "gfx/gduguides_gui/gdu_guides_idea_button_available.dds"
 		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
 	}
-	
+	SpriteType = {
+		name = "GFX_pol_goal_popup_bg2"
+		textureFile = "gfx/interface/pol_goal_popup_bg2.dds"
+	}
 }
