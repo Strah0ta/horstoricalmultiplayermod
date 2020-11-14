@@ -40,6 +40,13 @@ NOT = { OR = {
 }
 }
 
+asia_state = {
+OR = {
+is_core_of = CHI is_core_of = JAP is_core_of = MAN is_core_of = RAJ 
+state = 527 state = 525 state = 326 state = 498 state = 497 state = 397 state = 493 state = 286 state = 289  state = 494 state = 336 state = 321 state = 333 state = 334 state = 335 state = 342 state = 562 state = 516 state = 523 state = 327 state = 403 state = 418
+}
+}
+
 ENG_has_fortify_the_empire = {
 	if = {
 		limit = { has_idea = ENG_fortify_the_empire_1 }
