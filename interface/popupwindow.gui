@@ -756,6 +756,7 @@ guiTypes = {
 		moveable = yes
 		fade_time = 200
 		fade_type = linear
+		show_sound = research_complete
 		hide_sound = menu_close_window
 		click_to_front = yes
 
@@ -776,7 +777,8 @@ guiTypes = {
 			}
 		}
 		
-		iconType = {
+		iconType =
+		{
 			name ="diplo_popup_header_bg"
 			spriteType = "GFX_diplo_popup_header_bg"
 			position = { x= 1 y = 8 }

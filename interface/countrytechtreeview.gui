@@ -21,6 +21,7 @@ guiTypes = {
 		}	
 	}
 
+
 	containerWindowType = {
 		name = "countrytechtreeview"
 		position = { x=-3 y=78 }
@@ -213,6 +214,7 @@ guiTypes = {
 					Orientation = "UPPER_LEFT"
 				}
 
+
 				instantTextBoxType = {
 					name = "infantry_year7"
 					position = { x = 690 y = 50 }
@@ -356,6 +358,7 @@ guiTypes = {
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}
+
 			gridboxtype = {
 				name = "jaegartroops_tree"
 				position = { x = 140 y = 1030 }
@@ -3068,6 +3071,7 @@ guiTypes = {
 				}
 			}
 		}
+
 		containerWindowType = {
 			name = "air_doctrine_folder"
 			position = { x=0 y=47 }
@@ -3713,6 +3717,7 @@ guiTypes = {
 				frame = 1
 				clicksound = click_default
 			}
+
 			buttonType = {
 				position = { x = 913 y = 0 }
 				name = "electronics_folder_tab"
@@ -3845,7 +3850,7 @@ guiTypes = {
 			text = "RESEARCH_WITH_XP"
 			buttonFont = "hoi_20b"
 			position = { x=390 y=80 }
-			#shortcut = "RETURN"
+
 		}
 		
 		iconType = {
@@ -4009,7 +4014,6 @@ guiTypes = {
 				alwaystransparent = yes
 			}
 		}
-
 		containerWindowType = {
 			name = "sub_technology_slot_1"
 			position = { x=141 y=1 }

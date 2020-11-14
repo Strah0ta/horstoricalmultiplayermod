@@ -40,6 +40,47 @@ scripted_gui = {
 			}
 		}
 	}
+	how_about_no = {
+		context_type = player_context
+		window_name = "how_about_no"
+
+		triggers = {
+
+			how_about_no_button_click_enabled = {
+				any_country = {
+					is_ai = no
+					any_other_country = {
+						is_ai = no
+					}
+				}
+			}
+			how_about_no_button2_click_enabled = {
+				any_country = {
+					is_ai = no
+					any_other_country = {
+						is_ai = no
+					}
+				}
+			}
+			how_about_no_button3_click_enabled = {
+				any_country = {
+					is_ai = no
+					any_other_country = {
+						is_ai = no
+					}
+				}
+			}
+			how_about_no_button4_click_enabled = {
+				any_country = {
+					is_ai = no
+					any_other_country = {
+						is_ai = no
+					}
+				}
+			}
+		}
+
+	}
 	fuel_system_window = {
 		context_type = player_context
 		parent_window_token = logistics_tab
@@ -213,23 +254,23 @@ scripted_gui = {
 				check_variable = { ROOT.faction_members_array^num < 1 }
 			}
 
-			
+
 		}
 		properties = {
 			fuel_bar = {
-			
+
 				x = fuel_bar_fuel
-				}
+			}
 			enable_send_fuel={
 				frame = send_fuel_enabled
-				}
+			}
 			enable_send_fuel_root={
 				frame = send_fuel_enabled
-				}
-			
-		
-	}
-	
+			}
+
+
+		}
+
 		dynamic_lists = {
 			fuel_faction_members_gridbox = {
 				array = faction_members_array
@@ -238,6 +279,6 @@ scripted_gui = {
 			}
 		}
 	}
-	
-	
-	}
+
+
+}
