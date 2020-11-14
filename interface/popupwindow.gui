@@ -1485,7 +1485,7 @@ guiTypes = {
 		iconType = {
 			name ="background2"
 			spriteType = "GFX_pol_goal_popup_bg2"
-			clipping=no
+			#clipping=no
 			centerposition = yes
 			orientation= center
 		}

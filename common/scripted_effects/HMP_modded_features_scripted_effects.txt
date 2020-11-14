@@ -2362,7 +2362,17 @@ SPR = {
 	planning_skill = 5
 	logistics_skill = 5
 }
-
+	create_corps_commander = {
+		name = "Vicente Rojo Lluch"
+		id = 9991102
+		gfx = "GFX_portrait_SPR_vicente_rojo_lluch"
+		traits = {fake_skilled_staffer trait_engineer scavenger infantry_leader ambusher ranger adaptable brilliant_strategist }
+	skill = 7
+	attack_skill = 5
+	defense_skill = 5
+	planning_skill = 5
+	logistics_skill = 7
+	}
 create_corps_commander = {
 	name = "Gonzalo Queipo de Llano"
 	gfx = "GFX_portrait_SPA_gonzalo_queipo_de_llano"
