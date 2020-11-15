@@ -188,8 +188,7 @@ ideas = {
 			
 			modifier = {
 				research_speed_factor = 0.10
-				license_production_speed = 0.25
-			}
+				}
 		}
 
 		socialist_science_focus = {
