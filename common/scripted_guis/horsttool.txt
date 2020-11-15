@@ -113,31 +113,12 @@ scripted_gui = {
 					}
 				}
 			}
-	annex_country_click = {
-
-				owner={
-					set_variable = { ROOT.taker = this}}
-				var:ROOT.marked_states^0={owner={set_variable={ROOT.target=this}}}
-				if={
-					limit={check_variable={ROOT.target=ROOT.taker}}
-				}
-				else={
-					var:ROOT.target={var:ROOT.taker={
-							annex_country={
-								target=PREV
-								transfer_troops=yes
-								}}}}
-
-				ROOT = {
-					for_each_scope_loop={
-						array=marked_states
-						clear_variable=mark_status
-					}
-					clear_array=marked_states
-					clear_variable=target
-					clear_variable=taker
-					clear_variable=first_marked_state
-				}
+			annex_country_click = {
+				owner={	set_variable = { ROOT.taker = THIS } }
+				var:ROOT.marked_states^0 = { owner = { set_variable = { ROOT.target = THIS }}}
+				if={	limit={check_variable={ROOT.target=ROOT.taker}} }
+				else={	var:ROOT.target={var:ROOT.taker={	annex_country={	target=PREV	transfer_troops=yes	}}}}
+				ROOT = { for_each_scope_loop={ array = marked_states	clear_variable = mark_status	} clear_array = marked_states clear_variable = target clear_variable = taker clear_variable = first_marked_state}
 			}		
 
 			puppet_country_click = {
@@ -163,7 +144,6 @@ scripted_gui = {
 					clear_variable=taker
 					clear_variable=first_marked_state
 				}
-
 			}
 			
 			toogle_mark_click = {

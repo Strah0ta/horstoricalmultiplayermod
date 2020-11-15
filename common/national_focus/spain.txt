@@ -605,37 +605,33 @@ focus_tree = {
 			custom_effect_tooltip = SPA_facilitate_pyrenees_freight_transports_tt
 			hidden_effect = {
 				165 = {
-					if = {
-						limit = { is_controlled_by = ROOT }
-
 						add_building_construction = {
 							type = infrastructure
 							level = 10
 							instant_build = yes
 						}
-					}
 				}
 				176 = {
-					if = {
-						limit = { is_controlled_by = ROOT }
-
 						add_building_construction = {
 							type = infrastructure
 							level = 10
 							instant_build = yes
 						}
-					}
+				}	
+				166 = {
+						add_building_construction = {
+							type = infrastructure
+							level = 10
+							instant_build = yes
+						}
 				}	
 				41 = {
-					if = {
-						limit = { is_controlled_by = ROOT }
 						add_building_construction = {
 							type = infrastructure
 							level = 10
 							instant_build = yes
 						}
 					}
-				}
 			}
 		}
 	}

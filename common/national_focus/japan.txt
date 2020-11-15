@@ -959,6 +959,14 @@ hidden_effect = {		set_technology = { naval_bomber2 = 1 }
 				uses = 1
 				category = marine_tech	
 			}
+						529 = { 
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+			}
 		}
 	}
 
@@ -975,6 +983,14 @@ hidden_effect = {		set_technology = { naval_bomber2 = 1 }
 
 		completion_reward = {
 			add_ideas = JAP_first_air_fleet
+									529 = { 
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+			}
 		}
 	}
 
@@ -994,6 +1010,14 @@ hidden_effect = {		set_technology = { naval_bomber2 = 1 }
 				bonus = 1.0
 				uses = 1
 				category = dd_tech	
+			}
+									529 = { 
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
 			}
 		}
 	}
@@ -1079,7 +1103,7 @@ hidden_effect = {		set_technology = { naval_bomber2 = 1 }
 						}
 						name = "Yamato" 
 						requested_factories = 1
-						progress = 0.75
+						progress = 0.8
 						amount = 1
 					}
 					add_equipment_production = {
@@ -1090,10 +1114,18 @@ hidden_effect = {		set_technology = { naval_bomber2 = 1 }
 						}
 						name = "Musashi" 
 						requested_factories = 1
-						progress = 0.5
+						progress = 0.8
 						amount = 1
 					}
 				}
+										529 = { 
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+			}
 			}
 		}
 
@@ -1115,6 +1147,14 @@ hidden_effect = {		set_technology = { naval_bomber2 = 1 }
 				category = cl_tech	
 				category = ca_tech	
 			}
+									529 = { 
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+			}
 		}
 	}
 
@@ -1130,6 +1170,14 @@ hidden_effect = {		set_technology = { naval_bomber2 = 1 }
 
 		completion_reward = {
 			add_ideas = the_long_lance
+									529 = { 
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+			}
 		}
 	}
 
@@ -1146,6 +1194,14 @@ hidden_effect = {		set_technology = { naval_bomber2 = 1 }
 
 		completion_reward = {
 				set_technology = { torpedo_cruiser_mtg = 1 }
+										529 = { 
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+			}
 		}
 	}
 	}

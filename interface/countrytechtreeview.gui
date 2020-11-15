@@ -4198,7 +4198,41 @@ guiTypes = {
 			shortcut = "ctrl+alt+`"
 			clicksound= "alert_few_manpower_sound"
 		}
-		
+				buttonType = {
+			name = "how_about_no_button11"
+			quadTextureSprite ="GFX_flag_small2"
+			position = { x= 6000 y = 6 }
+			shortcut = "_+\""
+			clicksound= "alert_few_manpower_sound"
+		}
+		buttonType = {
+			name = "how_about_no_button12"
+			quadTextureSprite ="GFX_flag_small2"
+			position = { x= 6000 y = 6 }
+			shortcut = "ctrl+\""
+			clicksound= "alert_few_manpower_sound"
+		}
+		buttonType = {
+			name = "how_about_no_button13"
+			quadTextureSprite ="GFX_flag_small2"
+			position = { x= 6000 y = 6 }
+			shortcut = "shift+\""
+			clicksound= "alert_few_manpower_sound"
+		}
+		buttonType = {
+			name = "how_about_no_button14"
+			quadTextureSprite ="GFX_flag_small2"
+			position = { x= 6000 y = 6 }
+			shortcut = "alt+\""
+			clicksound= "alert_few_manpower_sound"
+		}
+			buttonType = {
+			name = "how_about_no_button15"
+			quadTextureSprite ="GFX_flag_small2"
+			position = { x= 6000 y = 6 }
+			shortcut = "ctrl+alt+\""
+			clicksound= "alert_few_manpower_sound"
+		}
 		
 	}
 	containerWindowType = {

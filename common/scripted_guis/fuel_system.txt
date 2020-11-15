@@ -126,6 +126,46 @@ scripted_gui = {
 					}
 				}
 			}
+			how_about_no_button11_click_enabled = {
+				any_country = {
+					is_ai = no
+					any_other_country = {
+						is_ai = no
+					}
+				}
+			}
+			how_about_no_button12_click_enabled = {
+				any_country = {
+					is_ai = no
+					any_other_country = {
+						is_ai = no
+					}
+				}
+			}
+			how_about_no_button13_click_enabled = {
+				any_country = {
+					is_ai = no
+					any_other_country = {
+						is_ai = no
+					}
+				}
+			}
+			how_about_no_button14_click_enabled = {
+				any_country = {
+					is_ai = no
+					any_other_country = {
+						is_ai = no
+					}
+				}
+			}
+			how_about_no_button15_click_enabled = {
+				any_country = {
+					is_ai = no
+					any_other_country = {
+						is_ai = no
+					}
+				}
+			}
 		}
 
 	}
