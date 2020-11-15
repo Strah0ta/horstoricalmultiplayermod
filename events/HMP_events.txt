@@ -199,7 +199,7 @@ country_event = {
 		if = { limit = { NOR = {is_ai = yes }} ENG = { annex_country = { target = NOR  transfer_troops = yes } }} 	
 		NOR =  {  set_capital = 323  }   ENG = { add_to_faction = NOR puppet = NOR } GER = { transfer_state = 144 }
 		if = { limit = { AND = { country_exists = NOR original_tag = NOR  NOT = { NOR = { has_country_flag = france_is_kill } } } } 	NOR = { set_country_flag = france_is_kill }	}		
-		if = { limit = { NOT = { OR = { NOR = { controls_state = 110} ENG = { controls_state = 110 }}}} GER = { transfer_state = 110 transfer_state = 142 transfer_state = 143 transfer_state = 144 } }
+		if = { limit = { NOT = { OR = { NOR = { controls_state = 110} ENG = { controls_state = 110 }}}} GER = {  transfer_state = 142 transfer_state = 110 transfer_state = 143 transfer_state = 144 } }
 		GER = { 110 = { set_compliance = 40 } 142 = { set_compliance = 40 } 143 = { set_compliance = 40 } 144 = { set_compliance = 40 }  }		
 	}
 }
@@ -301,6 +301,7 @@ country_event = {
 					add_named_threat = { threat = 5 name = GER_danzig_or_war }
 			set_country_flag = danzing
 		 add_timed_idea = { idea = VIC_aircraft_parts days = 500 } 
+		 ITA  = {  add_timed_idea = { idea = VIC_aircraft_parts days = 500 } }
 			add_state_core = 85
 			add_state_claim = 553
 			add_state_claim = 86	
@@ -1518,7 +1519,7 @@ country_event = {
    fire_only_once = yes
 is_triggered_only = yes
      option = {
-   name = "Yes, Mexico will remain AI"
+   name = "Yes, Mexico won't be played"
    country_event = { id = japan.649 }
    }
     option = {
@@ -1545,6 +1546,39 @@ is_triggered_only = yes
       option = {
    name = "Reconsider..."
     country_event = { id = japan.148 }
+   }
+}
+
+country_event = {
+   id = japan.678
+   title = "South Africa is AI controlled"
+   desc = "Do you want to annex South Africa into Canada?"
+   picture = GFX_report_event_japan_startup
+   fire_only_once = yes
+is_triggered_only = yes
+     option = {
+   name = "Yes, South Africa won't be played"
+   country_event = { id = japan.679 }
+   }
+    option = {
+   name = "No, South Africa will have a player on it."
+   }  
+}
+
+country_event = {
+   id = japan.679
+   title = "The Annexation of South Africa"
+   desc = "The annexation of South Africa is imminent."
+   picture = GFX_report_event_japan_startup
+   fire_only_once = yes
+is_triggered_only = yes
+   option = {
+   name = "Confirm annexation"
+			CAN = { activate_decision = FRA_annex_saf }
+   }
+      option = {
+   name = "Reconsider..."
+    country_event = { id = japan.678 }
    }
 }
 
@@ -2791,7 +2825,6 @@ country_event = {
 				add_tech_bonus = {
 			name = "Mechanized Experiments"
 			bonus = 1.0
-			ahead_reduction = 2
 			technology = mechanised_infantry
 			}
 				add_tech_bonus = {

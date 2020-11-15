@@ -3313,9 +3313,10 @@ HMP_startup_on_actions = {
 				give_resource_rights = { receiver = USA state = 480 }	
 				}
 				JAP  = { give_resource_rights = { receiver = GER state = 494 }	}
-				if = { limit = { MAN = { is_ai = yes }} JAP = { country_event = { id = japan.148 days = 1  }}   }
-				if = { limit = { AND = { MEX = { is_ai = yes }} country_exists = MEX } ENG = { country_event = { id = japan.648 days = 1  }}   }
-				if = { limit = { NZL = { is_ai = yes }} AST = { country_event = { id = japan.758 days = 1  }}   }				
+				if = { limit = { MAN = { is_ai = yes } country_exists = MAN } JAP = { country_event = { id = japan.148 days = 1  }}   }
+				if = { limit = {  MEX = { is_ai = yes } country_exists = MEX } ENG = { country_event = { id = japan.648 days = 1  }}   }
+				if = { limit = { NZL = { is_ai = yes } country_exists = NZL } AST = { country_event = { id = japan.758 days = 1  }}   }
+				if = { limit = { SAF = { is_ai = yes } country_exists = SAF } ENG = { country_event = { id = japan.678 days = 1  }}   }
 				if = { limit = { has_start_date > 1936.01.02 }  HMP_no_asia = yes      }
 				make_asia_go_faster = yes	bad_infra_state_effect = yes 	HFU_fuel_startup_effect = yes
 				if = { limit = { BUL = { has_focus_tree = bulgarian_no_dlc_focus }} BUL = { country_event = { id = italy.663  days = 1}}          }
@@ -4242,7 +4243,6 @@ remove_ideas = FRA_full_employment
 				expire = "1965.1.1"
 				ideology = conservatism
 				traits = {
-					#fra_legit_trait
 				}
 			}
 }
@@ -4311,13 +4311,13 @@ move_rubber_from_indies_to_congo = {
 }
 
 copy_norwegian_inf_equipment_research = {
-	if = { limit = { NOR = { has_tech = advanced_infantry_weapons }}  ROOT = { set_technology = advanced_infantry_weapons }}
-	if = { limit = { NOR = { has_tech = advanced_infantry_weapons }}  ROOT = { set_technology = advanced_infantry_weapons }}
+	if = { limit = { NOR = { has_tech = advanced_infantry_weapons }}  ROOT = { set_technology = { advanced_infantry_weapons  = 1 }}}
+	if = { limit = { NOR = { has_tech = advanced_infantry_weapons }}  ROOT = { set_technology = { advanced_infantry_weapons  = 1 }}}
 } 
 
 copy_australian_at_equipment_research = {
-	if = { limit = { AST = { has_tech = antitank2 }}  ROOT = { set_technology = antitank2 }}
-	if = { limit = { AST = { has_tech = antitank5 }}  ROOT = { set_technology = antitank5 }}
+	if = { limit = { AST = { has_tech = antitank2 }}  ROOT = { set_technology = { antitank2 = 1 }} }
+	if = { limit = { AST = { has_tech = antitank5 }}  ROOT = { set_technology =  { antitank5 = 1 }} }
 }
 
 

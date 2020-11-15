@@ -224,7 +224,7 @@ on_state_control_changed = {
 				limit = { 
 				the_axis = yes
 				FROM.FROM = { state = 110 } 
-				NOT = { NOR = { owns_state = 110 }}
+				OR = { NOT = { GER = { owns_state = 142 } } date > 1941.1.1 }
 				}
                ENG = { remove_resource_rights = 576 }	
 			   SWE = { give_resource_rights = { receiver = GER state = 576 } }  
