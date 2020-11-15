@@ -396,7 +396,14 @@ technologies = {
 	}
 	
 	improved_medium_tank = { #Panzer IV
-
+		on_research_complete = {
+			add_tech_bonus = {
+				name = "Medium II to Heavy II Bonus"
+				bonus = 3.0
+				uses = 1
+				technology = improved_heavy_tank
+			}
+		}
 		enable_equipments = {
 			medium_tank_equipment_2 
 		}
@@ -407,7 +414,7 @@ technologies = {
 		}
 		path = {
 			leads_to_tech = improved_heavy_tank 
-			research_cost_coeff = 0.9
+			research_cost_coeff = 1
 		}
 		
 		research_cost = 2
@@ -473,7 +480,14 @@ technologies = {
 	}
 	
 	advanced_medium_tank = { #Panther
-	
+			on_research_complete = {
+			add_tech_bonus = {
+				name = "Heavy III to Medium III Bonus"
+				bonus = 3.0
+				uses = 1
+				technology = advanced_heavy_tank
+			}
+		}
 		enable_equipments = {
 			medium_tank_equipment_3 
 		}
@@ -484,7 +498,7 @@ technologies = {
 		}
 		path = {
 			leads_to_tech = advanced_heavy_tank 
-			research_cost_coeff = 0.9
+			research_cost_coeff = 1
 		}
 		
 		research_cost = 2
@@ -748,7 +762,12 @@ technologies = {
 	}
 	
 	improved_heavy_tank = { #Tiger
-
+			add_tech_bonus = {
+				name = "Heavy II to Medium II Bonus"
+				bonus = 3.0
+				uses = 1
+				technology = improved_medium_tank
+			}
 		enable_equipments = {
 			heavy_tank_equipment_2 
 		}
@@ -759,7 +778,7 @@ technologies = {
 		}
 		path = {
 			leads_to_tech = improved_medium_tank 
-			research_cost_coeff = 0.9
+			research_cost_coeff = 1
 		}
 		
 		path = {
@@ -830,7 +849,14 @@ technologies = {
 	}
 	
 	advanced_heavy_tank = { #King Tiger
-
+			on_research_complete = {
+			add_tech_bonus = {
+				name = "Heavy III to Medium III Bonus"
+				bonus = 3.0
+				uses = 1
+				technology = advanced_medium_tank
+			}
+		}
 		enable_equipments = {
 			heavy_tank_equipment_3 
 		}
@@ -841,7 +867,7 @@ technologies = {
 		}
 		path = {
 			leads_to_tech = advanced_medium_tank 
-			research_cost_coeff = 0.9
+			research_cost_coeff = 1
 		}
 		
 		research_cost = 2
