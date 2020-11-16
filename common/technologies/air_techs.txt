@@ -622,7 +622,7 @@ technologies = {
 		start_year = 1936
 		folder = {
 			name = air_techs_folder
-			position = { x = 10 y = 4 }
+			position = { x = 13 y = 4 }
 		}
 		
 		categories = {
@@ -642,7 +642,7 @@ technologies = {
 		start_year = 1940
 		folder = {
 			name = air_techs_folder
-			position = { x = 10 y = 6 }
+			position = { x = 13 y = 6 }
 		}
 		
 		categories = {
@@ -679,21 +679,7 @@ technologies = {
 		}
 		
 	}
-		tactical_bomber11 = {
-		allow = { always = no }
-		enable_equipments = {
-			strat_bomber_equipment_1
-		}
-	
 
-		research_cost = 2
-		start_year = 1936
-		categories = {
-			medium_air
-			tactical_bomber
-			air_equipment
-		}
-	}
 	tactical_bomber2 = {
 
 		enable_equipments = {
@@ -801,7 +787,16 @@ technologies = {
 		enable_equipments = {
 			strat_bomber_equipment_1
 		}
-
+		start_year = 1936
+		folder = {
+			name = air_techs_folder
+			position = { x = 19 y = 4 }
+		}
+				path = {
+			leads_to_tech = strategic_bomber2
+			research_cost_coeff = 1
+		}
+		
 		research_cost = 2
 		
 		categories = {
@@ -811,8 +806,49 @@ technologies = {
 		}
 		
 	}
-		
+		strategic_bomber2 = {
 
+		enable_equipments = {
+			strat_bomber_equipment_2
+		}
+						path = {
+			leads_to_tech = strategic_bomber3
+			research_cost_coeff = 1
+		}
+		
+		start_year = 1940
+		folder = {
+			name = air_techs_folder
+			position = { x = 19 y = 6 }
+		}
+		research_cost = 2
+		
+		categories = {
+			heavy_air
+			air_equipment
+			cat_strategic_bomber
+		}
+		
+	}	
+	strategic_bomber3 = {
+
+		enable_equipments = {
+			strat_bomber_equipment_3
+		}
+		start_year = 1944
+		folder = {
+			name = air_techs_folder
+			position = { x = 19 y = 8 }
+		}
+		research_cost = 3
+		
+		categories = {
+			heavy_air
+			air_equipment
+			cat_strategic_bomber
+		}
+		
+	}
 	
 	suicide_craft = {
 

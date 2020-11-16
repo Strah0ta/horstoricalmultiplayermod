@@ -2,7 +2,7 @@ guiTypes = {
 	containerWindowType = {
 		name = "subunit_icon_entry"
 		position = { x=0 y=0 }
-		size = { width = 30 height = 30 }
+		size = { width = 30 height = 30 }  
 		iconType = {
 			name = "subunit_icon"
 			position = { x = 0 y = 0 }
@@ -15,7 +15,7 @@ guiTypes = {
 			font = "hoi_33"
 			borderSize = { x = 0 y = 0}
 			maxWidth = 200
-			maxHeight = 62
+			maxHeight = 62 
 			format = left
 			Orientation = "UPPER_LEFT"
 		}	
@@ -2051,10 +2051,9 @@ guiTypes = {
 				Orientation = "UPPER_LEFT"
 				pdx_tooltip = "tac_bomber_equipment_desc"
 			}
-
-			instantTextBoxType = {
+				instantTextBoxType = {
 				name = "airtech_subtitle_strat"
-				position = { x = 5560 y = 185 }
+				position = { x = 1505 y = 185 }
 				textureFile = ""
 				font = "hoi_33"
 				borderSize = {x = 0 y = 4}
@@ -2064,11 +2063,10 @@ guiTypes = {
 				format = center
 				Orientation = "UPPER_LEFT"
 				pdx_tooltip = "strat_bomber_equipment_desc"
-			}
-
+			}	
 			instantTextBoxType = {
 				name = "airtech_subtitle_scout"
-				position = { x = 1540 y = 185 }
+				position = { x = 1740 y = 185 }
 				textureFile = ""
 				font = "hoi_33"
 				borderSize = {x = 0 y = 4}
@@ -2076,11 +2074,22 @@ guiTypes = {
 				maxWidth = 300
 				maxHeight = 62
 				format = center
-				Orientation = "UPPER_LEFT"
+				Orientation = "UPPER_LEFT" 
 				pdx_tooltip = "scout_plane_equipment_1_desc"
 			}			
-			
-			
+				instantTextBoxType = {
+					name = "infantry_subtitle_specialists3"
+					position = { x = 1990 y = 470 } 
+					textureFile = ""
+					font = "hoi_36header"
+					borderSize = { x = 0 y = 0}
+					text = "INFANTRY_TITLE_WEAPONS333"
+					maxWidth = 600
+					maxHeight = 62
+					format = left
+					Orientation = "UPPER_LEFT"
+				}		
+	
 			containerWindowType = {
 				name = "tiled_research_bg"
 				position = { x=390 y=807 }

@@ -633,10 +633,7 @@ add_equipment_production = {
 		y = 2
 		relative_position_id = air_rearmament_focus
 		cost = 5
-		ai_will_do = {
-			factor = 3
-		}
-
+		available = { date > 1940.6.1 }
 		available_if_capitulated = yes
 
 		completion_reward = {

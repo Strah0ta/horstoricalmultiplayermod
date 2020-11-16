@@ -49,14 +49,49 @@ equipments = {
 		archetype = strat_bomber_equipment
 		priority = 140
 		can_license = no
+		air_range = 3000
+		maximum_speed = 400
+		air_agility = 5
+		air_attack = 50
+		air_defence = 25
+		air_bombing = 400
+	}
+	strat_bomber_equipment_2 = {
+		year = 1940
+		archetype = strat_bomber_equipment
+		priority = 140
+		can_license = no
+		air_range = 4000
+		maximum_speed = 400
+		air_agility = 5
+		air_attack = 50
+		air_defence = 25
+		air_bombing = 500
+		build_cost_ic = 592
+				resources = {
+			#oil = 1
+			aluminium = 4
+			rubber = 2
+		}
+	}
+		strat_bomber_equipment_3 = {
+		year = 1944
+		archetype = strat_bomber_equipment
+		priority = 140
+		can_license = no
 		air_range = 5000
 		maximum_speed = 400
 		air_agility = 5
 		air_attack = 50
 		air_defence = 25
-		air_bombing = 422.4
+		air_bombing = 600
+		build_cost_ic = 592
+				resources = {
+			#oil = 1
+			aluminium = 5
+			rubber = 2
+		}
 	}
-
 
 	
 	# Transport plane ##########################
