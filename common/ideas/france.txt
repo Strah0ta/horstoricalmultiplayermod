@@ -400,17 +400,10 @@ ideas = {
 
 		VIC_guest_workers = {
 			picture = generic_exploit_mines
-			allowed = {
-				original_tag = GER #should probably be main occupier
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-
+			allowed = {	original_tag = GER 	}
+			available = { NOT = { GER = { has_war_with = SOV }}}
+			allowed_civil_war = {	always = yes	}
 			removal_cost = -1
-			 
 			modifier = {
 				production_factory_efficiency_gain_factor = 0.1
 				production_factory_start_efficiency_factor = 0.2
