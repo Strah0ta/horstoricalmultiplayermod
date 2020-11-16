@@ -28,7 +28,7 @@ focus_tree = {
 	
 	focus = {
 		id = tizard_mission_focus
-		available = {	date > 1940.10.1 } 
+		available = {	date > 1940.11.1 } 
 		prerequisite = { focus = radar_focus  focus = crypto_bomb_focus  }
 		icon = GFX_goal_generic_scientific_exchange
 		x = 0

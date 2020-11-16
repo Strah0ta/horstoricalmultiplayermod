@@ -19,9 +19,9 @@ resources={	aluminium= 30  }
 				naval_base = 6
 
 			}
-			fuel_silo = 20
+			fuel_silo = 15
 		}
-				add_extra_state_shared_building_slots = 20
+				add_extra_state_shared_building_slots = 15
 		victory_points = {
 			1182 50 
 		}

@@ -12,9 +12,9 @@ state={
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
-			fuel_silo = 20
+			fuel_silo = 15
 		}
-				add_extra_state_shared_building_slots = 20
+				add_extra_state_shared_building_slots = 15
 		add_core_of = SOV
 		victory_points = {
 			1668 1

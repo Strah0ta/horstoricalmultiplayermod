@@ -1464,7 +1464,7 @@ add_tech_bonus = {
 		available = {	} 
 
 		relative_position_id = GER_shtank 
-		cost = 5
+		cost = 0.2
 
 		completion_reward = {
 				add_ideas = GER_e100_designer
@@ -1482,7 +1482,7 @@ add_tech_bonus = {
 		available = {	}
 
 		relative_position_id = GER_shtank 
-		cost = 5
+		cost = 0.2
 
 		completion_reward = {
 				add_ideas = GER_maus_designer
@@ -1499,7 +1499,7 @@ add_tech_bonus = {
 		available = {	}
 
 		relative_position_id = GER_shtank 
-		cost = 5
+		cost = 0.2
 
 		completion_reward = {
 		add_ideas = GER_lowe_designer
