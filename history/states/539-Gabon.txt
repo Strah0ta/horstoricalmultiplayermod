@@ -11,7 +11,9 @@ infrastructure = 3
 5139 = { 
 naval_base = 15
  }
+ fuel_silo = 10
 }
+add_extra_state_shared_building_slots = 10
 }
 provinces={ 5139 8207 10948 13210 }
 manpower=409752

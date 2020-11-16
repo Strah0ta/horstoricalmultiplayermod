@@ -84,6 +84,8 @@
   RAJ_hyderabad_rails:0 "Hyderabad Railways"
   SOV_resurgent_red_airforce_foc:0 "Resurgent Red Airforce"
   SOV_resurgent_red_airforce_foc_desc:0 "This focus will complete automatically in late 1942."
+  SOV_transpolar_flights2:0 "Treaty with the USSR"
+  SOV_transpolar_flights2_foc_desc:0 "This focus will complete automatically in July 1936." 
   SOV_resurgent_red_army_foc:0 "Resurgent Red Army"
   SOV_resurgent_red_army_foc_desc:0 "This focus will complete automatically in early 1943."
   SOV_great_patriotic_war_foc:0 "The Great Patrotic War"

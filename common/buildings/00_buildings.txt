@@ -13,7 +13,7 @@ buildings = {
 		value = 1
 
 		show_modifier = yes
-		max_fuel_building = 0.15 #k, vanilla 0.75k
+		max_fuel_building = 0 #k, vanilla 0.75k; was 0.15k recently, reduced to 0 to see if it would improve stability
 	}
 
 	arms_factory = {

@@ -118,7 +118,57 @@ focus_tree = {
 		}
 	}
 	
-	
+			focus = {
+		id = SOV_transpolar_flights2
+		icon = GFX_goal_generic_scientific_exchange
+		available = { always = no }
+		x = 8 
+		y = 7
+		cost = 0
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+					add_tech_bonus = {
+			name = med_armor_bonus
+			bonus = 1.0
+			ahead_reduction = 2
+			technology = basic_medium_tank
+			technology = improved_medium_tank			
+		}
+		add_tech_bonus = {
+			name = armor_bonus
+			bonus = 1.0
+			uses = 2
+			technology = basic_medium_tank
+			technology = improved_medium_tank
+			technology = improved_heavy_tank
+		}
+		add_tech_bonus = {
+			name = "Artillery Modernization"
+			bonus = 1
+			uses = 6
+			category = artillery
+		}
+		add_tech_bonus = {
+			name = "The PPSH"
+			bonus = 1
+			uses = 1
+			technology = improved_infantry_weapons
+		}		
+		add_tech_bonus = {
+			name = armor_bonus
+			bonus = 1.0
+			uses = 1
+			technology = advanced_light_tank
+		}	
+				add_tech_bonus = {
+			name = "Mechanized Experiments"
+			bonus = 1.0
+			technology = mechanised_infantry
+			}
+		}
+	}
 	
 	focus = {
 		id = SOV_production_effort
@@ -331,13 +381,11 @@ focus_tree = {
 		cost = 10
 		relative_position_id = SOV_socialist_realism
 
-		available = { has_deployed_air_force_size = { type = fighter size > 1000 	}    }
-
 		available_if_capitulated = yes
 
 		completion_reward = {
 			add_tech_bonus = {
-				bonus = 10.0
+				bonus = 1.0
 				uses = 5
 				category = air_doctrine
 			}
