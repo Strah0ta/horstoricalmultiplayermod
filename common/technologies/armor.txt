@@ -762,11 +762,13 @@ technologies = {
 	}
 	
 	improved_heavy_tank = { #Tiger
+	on_research_complete = { 
 			add_tech_bonus = {
 				name = "Heavy II to Medium II Bonus"
 				bonus = 3.0
 				uses = 1
 				technology = improved_medium_tank
+			}
 			}
 		enable_equipments = {
 			heavy_tank_equipment_2 

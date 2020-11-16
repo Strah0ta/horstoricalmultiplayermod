@@ -3372,7 +3372,7 @@ HMP_capitulations_on_actions = {
 		if =  { 
 		limit = { original_tag = BEL }
 		BEL = { country_event = { id =  mtg_netherlands.331 days = 1 } 	}
-					every_state = { limit = { is_core_of = GER NOT = { state = 8 }}GER = {	transfer_state = PREV	} }
+					every_state = { limit = { is_core_of = BEL NOT = { state = 8 }}GER = {	transfer_state = PREV	} }
 			SWE = { transfer_state = 8 } GER = { transfer_state = 8 }
 
 		}

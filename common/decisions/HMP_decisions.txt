@@ -1,21 +1,4 @@
 HMP_ll_soviets_send = {
-HMP_ll_hide = {
-		allowed = {  tag = ENG } 
-		visible = { NOT = { has_global_flag = hide_sov_ll }}
-		icon = generic_form_nation
-		cost = 0
-		fire_only_once = no
-		complete_effect  = { set_global_flag = hide_sov_ll } 
-}
-HMP_ll_show = {
-		allowed = {  tag = ENG } 
-		visible = { has_global_flag = hide_sov_ll }
-		icon = generic_form_nation
-		cost = 0
-		fire_only_once = no
-		complete_effect  = { clr_global_flag = hide_sov_ll } 
-}
-
 HMP_ll_soviets_guns = { #worth 1x 
 		allowed = {  normally_played_allies = yes } 
 		available = { has_equipment = {  infantry_equipment > 5000 }SOV = { has_war_with = GER }}

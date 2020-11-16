@@ -19,7 +19,6 @@ visible = { NOT = { has_country_flag = hide_hmp_templates  }  }
 }
 HMP_ll_soviets_send = {
 	allowed = {	normally_played_allies = yes }
-	visible = { OR  = { original_tag = ENG NOT = { has_global_flag = hide_sov_ll }   }}
 }
 HMP_ll_soviets_receive = {
 	  allowed = {	original_tag = SOV	 }
@@ -43,8 +42,6 @@ JAP_interservice_rivalry = {
 		has_dlc = "Waking the Tiger"
 	}
 }
-
-
 propaganda_effortsx = {
 	icon = generic_propaganda
 }
