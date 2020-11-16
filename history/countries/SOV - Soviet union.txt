@@ -2,7 +2,6 @@
 
 oob = "SOV_1936"
 set_naval_oob = "SOV_1936_naval_mtg"
-
 create_intelligence_agency = yes
 set_variable = {
     var = min_fuel
@@ -135,6 +134,7 @@ add_ideas = {
 	trotskyite_plot
 	home_of_revolution
 	kliment_voroshilov
+	closed_economy
 }
 
 create_country_leader = {

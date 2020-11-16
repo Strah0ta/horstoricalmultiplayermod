@@ -838,21 +838,13 @@ focus_tree = {
 		completion_reward = {		
 					if = { limit = { NOT = { has_idea = messerschmitt }} add_ideas = messerschmitt add_political_power = -50  }
 			set_technology = { fighter2 = 1 }
-			create_equipment_variant = {
-	name = "Fw 190 Würger"
-	type = fighter_equipment_2
-}	
-add_equipment_production = {
-    equipment = {
-        type = fighter_equipment_2
-		version_name = "Fw 190 Würger"
-    }
-    requested_factories = 200
-    amount = 0
-}
-
-
-
+	add_equipment_production = {
+		equipment = {
+			type = fighter_equipment_2
+		}
+		requested_factories = 200
+		amount = 0
+	}
 			add_tech_bonus = {
 				name = air_sup_bonus
 				bonus = 3.0

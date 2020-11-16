@@ -6,43 +6,10 @@ set_variable = {
     var = min_fuel
     value = 0.800
 }
-add_opinion_modifier = {
-    target = POL
-    modifier = anti_cross_faction_trade
+set_rule = { 
+	can_be_spymaster = no
+	can_send_volunteers = no
 }
-add_opinion_modifier = {
-    target = YUG
-    modifier = anti_cross_faction_trade
-}
-add_opinion_modifier = {
-    target = GRE
-    modifier = anti_cross_faction_trade
-}
-add_opinion_modifier = {
-    target = BUL
-    modifier = anti_cross_faction_trade
-}
-add_opinion_modifier = {
-    target = ALB
-    modifier = anti_cross_faction_trade
-}
-add_opinion_modifier = {
-    target = LAT
-    modifier = anti_cross_faction_trade
-}
-add_opinion_modifier = {
-    target = FIN
-    modifier = anti_cross_faction_trade
-}
-add_opinion_modifier = {
-    target = AUS
-    modifier = anti_cross_faction_trade
-}
-set_rule = { can_be_spymaster = no
-can_send_volunteers = no
- }
- add_opinion_modifier = { target = EFR modifier = anti_cross_faction_trade }
-
  create_intelligence_agency = yes
 set_politics = {
 	ruling_party = neutrality
@@ -98,11 +65,8 @@ set_stability = 0.5
 		picture = "GFX_portrait_spain_francisco_franco"
 		expire = "1965.1.1"
 		ideology = despotism
-		traits = {
-
-		}
+		traits = {	}
 	}
-
 	create_corps_commander = {
 		name = "José Miaja"
 		id = 1103
@@ -114,9 +78,6 @@ set_stability = 0.5
 		planning_skill = 2
 		logistics_skill = 1
 	}
-	
-	# Nationalists leaders - Francoists
-
 	create_corps_commander = {
 		name = "Agustín Muñoz Grandes"
 		id = 1113
@@ -128,21 +89,6 @@ set_stability = 0.5
 	    planning_skill = 3
 	    logistics_skill = 2
 	}
-	
-	# Nationalists leaders - Carlists
-	
-	create_corps_commander = {
-		name = "José Enrique Varela"
-		id = 1114
-		gfx = "GFX_portrait_SPA_jose_enrique_varela"
-		traits = { organizer infantry_leader }
-		skill = 3
-	    attack_skill = 3
-	    defense_skill = 2
-	    planning_skill = 3
-	    logistics_skill = 2
-	}
-	
 	create_corps_commander = {
 		name = "Miguel Cabanellas"
 		id = 1115
@@ -153,8 +99,7 @@ set_stability = 0.5
 	    defense_skill = 2
 	    planning_skill = 3
 	    logistics_skill = 3
-	}
-	
+	}	
 	create_corps_commander = {
 		name = "José Millán Astray"
 		id = 1116
@@ -166,5 +111,4 @@ set_stability = 0.5
 	    planning_skill = 2
 	    logistics_skill = 2
 	}
-	
 anti_cross_faction_trade_allies = yes 

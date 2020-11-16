@@ -188,6 +188,7 @@ ideas = {
 				navy_intel_to_others = 20.0
 			}		
 			cancel_if_invalid = no
+			available = { NOT =  { tag = SOV }}
 		}
 		
 		export_focus = {		
@@ -205,6 +206,7 @@ ideas = {
 			}			
 			default = yes			
 			cancel_if_invalid = no
+						available = { NOT =  { tag = SOV }}
 		}
 		
 		limited_exports = {
@@ -241,11 +243,7 @@ ideas = {
 	
 		closed_economy = {		
 			available = {
-				OR = { 
-					has_government = fascism
-					has_government = communism
-				}
-				NOT = { tag = SOV }
+				has_government = fascism
 				NOT = { tag = GER }
 			}		
 			cost = 150

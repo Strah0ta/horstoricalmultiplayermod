@@ -1583,6 +1583,40 @@ is_triggered_only = yes
 }
 
 
+country_event = {
+   id = japan.638
+   title = "Bulgaria is AI controlled"
+   desc = "Do you want to annex Bulgaria into Axis Minors?"
+   picture = GFX_report_event_japan_startup
+   fire_only_once = yes
+is_triggered_only = yes
+     option = {
+   name = "Yes, Bulgaria won't be played"
+   country_event = { id = japan.639 }
+   }
+    option = {
+   name = "No, Bulgaria will have a player on it."
+   }  
+}
+
+country_event = {
+   id = japan.639
+   title = "The Annexation of Bulgaria"
+   desc = "The annexation of Bulgaria is imminent."
+   picture = GFX_report_event_japan_startup
+   fire_only_once = yes
+is_triggered_only = yes
+   option = {
+   name = "Confirm annexation"
+     annex_bulgaria_effect = yes 
+			
+   }
+      option = {
+   name = "Reconsider..."
+    country_event = { id = japan.638 }
+   }
+}
+
 
 country_event = {
    id = japan.758

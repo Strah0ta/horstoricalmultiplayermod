@@ -137,6 +137,51 @@ random_owned_controlled_state = { 	limit = {  is_core_of = GER industrial_comple
 	}
 }
 
+annex_bulgaria_effect = { 
+48 = { remove_building = {type = industrial_complex level = 5 } remove_building = {type = arms_factory level =2 } }
+211 = { remove_building = {type = industrial_complex level = 2 }  }
+212 = { remove_building = {type = industrial_complex level = 1 } remove_building = {type = arms_factory level =3 } }
+46 = { 
+ add_extra_state_shared_building_slots = 4
+add_building_construction = {
+type = industrial_complex
+level = 2
+instant_build = yes
+}
+add_building_construction = {
+type = arms_factory 
+level = 2
+instant_build = yes
+}
+   }
+   43 = { 
+ add_extra_state_shared_building_slots = 4
+add_building_construction = {
+type = industrial_complex
+level = 2
+instant_build = yes
+}
+add_building_construction = {
+type = arms_factory 
+level = 2
+instant_build = yes
+}
+   }
+      41 = { 
+ add_extra_state_shared_building_slots = 5
+add_building_construction = {
+type = industrial_complex
+level = 4
+instant_build = yes
+}
+add_building_construction = {
+type = arms_factory 
+level = 1
+instant_build = yes
+}
+   }
+}
+
 HMP_sov_civ_to_mill2 = { 
 random_owned_controlled_state = { 	limit = {  is_core_of = SOV industrial_complex > 0 } 
 	remove_building = {type = industrial_complex level = 1 }
@@ -1622,6 +1667,7 @@ HMP_script_balkans = {
 			transfer_state = 185 transfer_state = 47 transfer_state = 187 transfer_state = 182 transfer_state = 186
 			103 = { set_compliance = 100 }  			102 = { set_compliance = 100 }  			105 = { set_compliance = 40 }  
 			add_threat = 20
+			if = { limit = { BUL = { is_ai = yes } country_exists = BUL } ITA = { annex_country = { target = BUL transfer_troops = yes }} every_state = { limit = { is_core_of = BUL }  set_compliance = 100 }   }
 		}
 
 	HMP_script_china = {	
@@ -2320,7 +2366,7 @@ create_field_marshal = {
 SPR = {
 	create_field_marshal = {
 		name = "Francisco Franco"
-		id = 9991108
+		id = 1108
 		gfx = "GFX_portrait_spain_francisco_franco"
 		traits = { organisational_leader logistics_wizard brilliant_strategist trait_engineer organizer panzer_leader fast_planner expert_improviser desert_fox ranger trickster aggressive_assaulter   }
 		skill = 8
@@ -2331,7 +2377,7 @@ SPR = {
 	}
 		create_corps_commander = {
 		name = "Juan Yagüe"
-		id = 9991112
+		id = 1112
 		gfx = "GFX_portrait_SPA_juan_yague"
 	traits = { brilliant_strategist trait_reckless trickster panzer_leader desert_fox trait_engineer panzer_expert expert_improviser fortress_buster  naval_liason  }
 		
@@ -2343,7 +2389,7 @@ SPR = {
 	}
 	create_corps_commander = {
 		name = "Mohamed Meziane"
-		id = 9991109
+		id = 1109
 		gfx = "GFX_portrait_SPA_mohamed_meziane"
 		traits = { harsh_leader panzer_leader trickster infantry_leader urban_assault_specialist expert_improviser panzer_expert  ambusher guerilla_fighter skirmisher   }
 		skill = 8
@@ -2355,28 +2401,41 @@ SPR = {
 	create_field_marshal = {
 	name = "Emilio Mola"
 	gfx = "GFX_portrait_SPA_emilio_mola"
-	traits = { trait_cautious infantry_leader desert_fox hill_fighter infantry_expert scavenger logistics_wizard thorough_planner trickster organizer  trait_engineer }
+	traits = { trait_cautious organizer logistics_wizard infantry_leader ambusher adaptable  scavenger logistics_wizard  trickster   trait_engineer }
 	skill = 7
 	attack_skill = 7
 	defense_skill = 5
 	planning_skill = 5
 	logistics_skill = 5
 }
-	create_corps_commander = {
+	create_field_marshal = {
 		name = "Vicente Rojo Lluch"
-		id = 9991102
+		id = 1102
 		gfx = "GFX_portrait_SPR_vicente_rojo_lluch"
-		traits = {fake_skilled_staffer trait_engineer scavenger infantry_leader infantry_expert ranger adaptable brilliant_strategist }
-	skill = 7
+		traits = {fake_skilled_staffer  infantry_leader infantry_expert brilliant_strategist organizer logistics_wizard fast_planner aggressive_assaulter }
+	skill = 8
 	attack_skill = 5
 	defense_skill = 5
-	planning_skill = 5
+	planning_skill = 8
 	logistics_skill = 7
 	}
+	
+		create_corps_commander = {
+		name = "José Enrique Varela"
+		id = 1114
+		gfx = "GFX_portrait_SPA_jose_enrique_varela"
+		traits = { organizer fake_skilled_staffer trait_engineer scavenger infantry_leader infantry_expert ranger  }
+		skill = 7
+		attack_skill = 7
+		defense_skill = 5
+		planning_skill = 5
+		logistics_skill = 5
+	}
+	
 create_corps_commander = {
 	name = "Gonzalo Queipo de Llano"
 	gfx = "GFX_portrait_SPA_gonzalo_queipo_de_llano"
-	traits = { fake_skilled_staffer infantry_leader desert_fox hill_fighter trait_mountaineer infantry_expert trickster trait_engineer }
+	traits = { fake_skilled_staffer infantry_leader desert_fox hill_fighter trait_mountaineer infantry_expert trickster guerilla_fighter }
 	skill = 7
 	attack_skill = 7
 	defense_skill = 6
@@ -2384,8 +2443,6 @@ create_corps_commander = {
 	logistics_skill = 6
 }
 }
-
-
 }
 HMP_SOV_generals = {
 SOV = { every_army_leader = { retire = yes }}
@@ -3317,6 +3374,8 @@ HMP_startup_on_actions = {
 				if = { limit = {  MEX = { is_ai = yes } country_exists = MEX } ENG = { country_event = { id = japan.648 days = 1  }}   }
 				if = { limit = { NZL = { is_ai = yes } country_exists = NZL } AST = { country_event = { id = japan.758 days = 1  }}   }
 				if = { limit = { SAF = { is_ai = yes } country_exists = SAF } ENG = { country_event = { id = japan.678 days = 1  }}   }
+				if = { limit = { BUL = { is_ai = yes } NOT = { has_start_date > 1936.01.02  } } GER = { country_event = { id = japan.638 days = 1  }}   }
+				
 				if = { limit = { has_start_date > 1936.01.02 }  HMP_no_asia = yes      }
 				make_asia_go_faster = yes	bad_infra_state_effect = yes 	HFU_fuel_startup_effect = yes
 				if = { limit = { BUL = { has_focus_tree = bulgarian_no_dlc_focus }} BUL = { country_event = { id = italy.663  days = 1}}          }
