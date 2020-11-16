@@ -1,26 +1,15 @@
 focus_tree = {
-	id = manchukuomod_focus
-	
-		
-				
-	country = {
-		factor = 0
-	} 
-	
-
+	id = manchukuomod_focus		
+	country = {	factor = 0	} 
 	default = no 
-
 	continuous_focus_position = { x = 20 y = 2000 }
 
-			focus = {
+	focus = {
 		id = MAN_pacify_the_countrysidex
 		icon = GFX_goal_generic_major_war
 		x = 10
 		y = 0
-
 		cost = 5
-
-
 		completion_reward = {
 			remove_ideas = MAN_banditry
 			army_experience = 30
@@ -36,11 +25,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = MAN_pacify_the_countrysidex
-
 		cost = 5
-
-
-
 		completion_reward = {
 			add_political_power = 120
 		}
@@ -56,11 +41,9 @@ focus_tree = {
 		relative_position_id = MAN_obediencex
 
 		cost = 5
-
-
 		completion_reward = {
 			army_experience = 30
-	}
+		}
 	}
 
 	focus = {
@@ -72,8 +55,6 @@ focus_tree = {
 		relative_position_id = MAN_obediencex
 
 		cost = 5
-
-
 		completion_reward = {
 			add_ideas = MAN_mukden_military_academy
 		}

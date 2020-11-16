@@ -2806,34 +2806,45 @@ country_event = {
 	
 	option = {
 		name = germany.75.a	#sounds good
-		
 		add_tech_bonus = {
 			name = med_armor_bonus
 			bonus = 1.0
 			ahead_reduction = 2
 			technology = basic_medium_tank
 			technology = improved_medium_tank			
-			}
+		}
 		add_tech_bonus = {
 			name = armor_bonus
 			bonus = 1.0
 			uses = 2
-			technology = advanced_light_tank
 			technology = basic_medium_tank
 			technology = improved_medium_tank
+			technology = improved_heavy_tank
 		}
+		add_tech_bonus = {
+			name = "Artillery Modernization"
+			bonus = 1
+			uses = 6
+			category = artillery
+		}
+		add_tech_bonus = {
+			name = "The PPSH"
+			bonus = 1
+			uses = 1
+			technology = improved_infantry_weapons
+		}		
+		add_tech_bonus = {
+			name = armor_bonus
+			bonus = 1.0
+			uses = 1
+			technology = advanced_light_tank
+		}	
 				add_tech_bonus = {
 			name = "Mechanized Experiments"
 			bonus = 1.0
 			technology = mechanised_infantry
 			}
-				add_tech_bonus = {
-			name = armor_bonus
-			bonus = 1.0
-			uses = 1
-			technology = improved_heavy_tank
-			technology = advanced_heavy_tank
-		}
+
 	}
 	
 }
