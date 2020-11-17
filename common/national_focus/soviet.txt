@@ -165,7 +165,8 @@ focus_tree = {
 				add_tech_bonus = {
 			name = "Mechanized Experiments"
 			bonus = 1.0
-			technology = mechanised_infantry
+			uses = 2
+			category = cat_mechanized_equipment
 			}
 		}
 	}
@@ -799,11 +800,6 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-				add_tech_bonus = {
-			name = mech_army_bonus
-			bonus = 1.0
-			technology = mechanised_infantry2
-			}
 			add_tech_bonus = {
 				bonus = 1.0
 				uses = 1
@@ -953,10 +949,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = SOV_research_city_experiment
 		cost = 10
-		ai_will_do = {
-			factor = 1
-		}
-
+		
 		available_if_capitulated = yes
 
 		completion_reward = {
@@ -981,10 +974,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = SOV_diversify_the_programme
 		cost = 10
-		ai_will_do = {
-			factor = 1
-		}
-
+		
 		available_if_capitulated = yes
 
 		completion_reward = {

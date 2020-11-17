@@ -1,10 +1,7 @@
 buildings = {
-
 	# show_on_map:
 	#    if provincial = yes, then show_on_map = X is amount per each province
 	#    if provincial = no, then show_on_map = X is amount per state
-
-
 	infrastructure = {
 		base_cost = 3000
 		icon_frame = 3
@@ -128,7 +125,7 @@ buildings = {
 		value = 5
 		infrastructure_construction_effect = yes
 		show_modifier = yes
-		fuel_gain_from_states = 0.7		#per hour
+		fuel_gain_from_states = 0.6	#per hour
 		damage_factor = 0.5
 	}
 

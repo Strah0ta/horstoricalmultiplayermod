@@ -651,7 +651,7 @@ technologies = {
 		}
 	}
 	
-	basic_heavy_tank = { #Grosstraktor
+	basic_heavy_tank = {
 
 		enable_equipments = {
 			heavy_tank_equipment_1 
@@ -661,27 +661,6 @@ technologies = {
 			heavy_armor
 		}
 
-		on_research_complete = {
-			hidden_effect = {
-				if = {
-					limit = {
-						has_tech = motorised_infantry
-					}
-
-					load_oob = "unlock_tanks_mot"
-				}
-				if = {
-					limit = {
-						NOT = { has_tech = motorised_infantry }
-					}
-
-					load_oob = "unlock_tanks"
-				}
-			}
-
-			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
-		}
-		
 		path = {
 			leads_to_tech = improved_heavy_tank
 			research_cost_coeff = 1

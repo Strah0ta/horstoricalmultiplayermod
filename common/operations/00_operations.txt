@@ -537,7 +537,7 @@ operation_infiltrate_armed_forces_army = { ### 4 1/55
 	desc = operation_infiltrate_armed_forces_army_desc
 	priority = 4
 	
-	days = 75
+	days = 60
 	network_strength = 50
 	operatives = 2
 
@@ -681,7 +681,7 @@ operation_infiltrate_armed_forces_navy = { ### 5 1/55
 	desc = operation_infiltrate_armed_forces_navy_desc
 	priority = 5
 	
-	days = 75
+	days = 60
 	network_strength = 50
 	operatives = 2
 
@@ -708,17 +708,7 @@ operation_infiltrate_armed_forces_navy = { ### 5 1/55
 	}
 
 	available = {
-		#NOT = {
-		#	has_operation_token = {
-		#		tag = FROM
-		#		token = token_navy
-		#	}
-		#}
-		#FROM = {
-		#	any_owned_state = {
-		#		is_coastal = yes
-		#	}
-		#}
+
 	}
 
 	awarded_tokens = {
@@ -837,7 +827,7 @@ operation_infiltrate_armed_forces_airforce = { ### 6 1/55
 	desc = operation_infiltrate_armed_forces_airforce_desc
 	priority = 6
 
-	days = 75
+	days = 60
 	network_strength = 50
 	operatives = 2
 
@@ -1118,7 +1108,7 @@ operation_make_resistance_contacts = { ### 9 2/40
 	desc = operation_make_resistance_contacts_desc
 	priority = 9
 
-	days = 60
+	days = 40
 	network_strength = 40
 	operatives = 2
 
@@ -1422,7 +1412,7 @@ operation_targeted_sabotage_industry = { ### 13 3/35
 	desc = operation_targeted_sabotage_industry_desc
 	priority = 13
 	
-	days = 90
+	days = 60
 	network_strength = 35
 	operatives = 2
 
@@ -1556,7 +1546,7 @@ operation_targeted_sabotage_infrastructure = { ### 14 3/35
 	desc = operation_targeted_sabotage_infrastructure_desc
 	priority = 14
 	
-	days = 90
+	days = 60
 	network_strength = 35
 	operatives = 2
 
@@ -1687,7 +1677,7 @@ operation_targeted_sabotage_resources = { ### 15 3/35
 	desc = operation_targeted_sabotage_resources_desc
 	priority = 15
 	
-	days = 90
+	days = 60
 	network_strength = 35
 	operatives = 2
 
@@ -1817,7 +1807,7 @@ operation_steal_tech_army = { ### 16 3/55
 	desc = operation_steal_tech_army_desc
 	priority = 16
 
-	days = 120
+	days = 60
 	network_strength = 50
 	operatives = 3
 	cost_multiplier = 0.05
@@ -1941,7 +1931,7 @@ operation_steal_tech_navy = { ### 17 3/55
 	desc = operation_steal_tech_navy_desc
 	priority = 17
 
-	days = 120
+	days = 60
 	network_strength = 50
 	operatives = 3
 	cost_multiplier = 0.05
@@ -2058,7 +2048,7 @@ operation_steal_tech_airforce = { ### 18 3/55
 	priority = 18
 
 
-	days = 120
+	days = 60
 	network_strength = 50
 	operatives = 3
 	cost_multiplier = 0.05

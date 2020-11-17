@@ -1507,7 +1507,7 @@ GER_case_anton = {
 		
         fire_only_once = yes
 
-        available = {	date > 1941.4.1 }
+        available = {	GER = { has_war_with = SOV } }
 
 		complete_effect = {
 		custom_effect_tooltip = "We will deploy an army of 24 mountaineer divisions in India."

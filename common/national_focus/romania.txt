@@ -134,9 +134,6 @@ focus_tree = {
 				technology = dispersed_industry3
 				technology = dispersed_industry4
 				technology = dispersed_industry5
-				technology = construction3
-				technology = construction4
-				technology = construction5
 				}
 		}
 	}
