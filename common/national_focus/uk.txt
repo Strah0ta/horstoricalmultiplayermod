@@ -671,8 +671,8 @@ add_equipment_production = {
 		available_if_capitulated = yes
 		available = { date > 1942.1.1 }
 		completion_reward = {
-			set_technology = { strategic_bomber3 = 1}
-			USA = {  set_technology = { strategic_bomber3 = 1}  }
+			custom_effect_tooltip = UK_PLANE_STUFF_TT
+			hidden_effect = { set_technology = { strategic_bomber3 = 1}	USA = {  set_technology = { strategic_bomber3 = 1}  } }
 		}
 	}
 	focus = {

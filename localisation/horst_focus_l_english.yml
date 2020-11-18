@@ -1,6 +1,7 @@
 ﻿l_english:
   SOV_PLANE_STUFF_TT:0 "\n§CWe will research 1940 (Homeland) Fighters with equivalent statistics to 1940 Fighters§!"
- ###BULGARIA###
+  UK_PLANE_STUFF_TT:0 "§CThe USA and the UK will research 1944 Strategic Bombers§!"
+  ###BULGARIA###
   BUL_exercise_direct_power:0 "Assuming Direct Control"
   BUL_revise_our_regime:0 "Revise Our Regime"
   BUL_fight_the_crisis:0 "Fight the Crisis"
