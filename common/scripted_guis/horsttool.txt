@@ -59,23 +59,23 @@ scripted_gui = {
 				}
 			}
 			
-			award_states_click = {
-
-				owner={
-					for_each_loop={
-						array=ROOT.marked_states
-						value=state
-						transfer_state = state
-					}
-					ROOT = {
-						for_each_scope_loop={
-							array=marked_states
-							clear_variable=mark_status
-						}
-						clear_array=marked_states
-					}
-				}
-			}
+			#award_states_click = {
+			#
+			#	owner={
+			#		for_each_loop={
+			#			array=ROOT.marked_states
+			#			value=state
+			#			transfer_state = state
+			#		}
+			#		ROOT = {
+			#			for_each_scope_loop={
+			#				array=marked_states
+			#				clear_variable=mark_status
+			#			}
+			#			clear_array=marked_states
+			#		}
+			#	}
+			#}
 			add_cheat_click = {
 				
 				set_variable = { ROOT.taker = this}
@@ -113,13 +113,13 @@ scripted_gui = {
 					}
 				}
 			}
-			annex_country_click = {
-				owner={	set_variable = { ROOT.taker = THIS } }
-				var:ROOT.marked_states^0 = { owner = { set_variable = { ROOT.target = THIS }}}
-				if={	limit={check_variable={ROOT.target=ROOT.taker}} }
-				else={	var:ROOT.target={var:ROOT.taker={	annex_country={	target=PREV	transfer_troops=yes	}}}}
-				ROOT = { for_each_scope_loop={ array = marked_states	clear_variable = mark_status	} clear_array = marked_states clear_variable = target clear_variable = taker clear_variable = first_marked_state}
-			}		
+			#annex_country_click = {
+			#	owner={	set_variable = { ROOT.taker = THIS } }
+			#	var:ROOT.marked_states^0 = { owner = { set_variable = { ROOT.target = THIS }}}
+			#	if={	limit={check_variable={ROOT.target=ROOT.taker}} }
+			#	else={	var:ROOT.target={var:ROOT.taker={	annex_country={	target=PREV	transfer_troops=yes	}}}}
+			#	ROOT = { for_each_scope_loop={ array = marked_states	clear_variable = mark_status	} clear_array = marked_states clear_variable = target clear_variable = taker clear_variable = first_marked_state}
+			#}		
 
 			puppet_country_click = {
 				owner={

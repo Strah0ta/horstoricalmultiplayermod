@@ -16,7 +16,7 @@ ideas = {
 			
 			modifier = {
 				consumer_goods_factor = -0.05
-				min_export = -0.3
+				min_export = -1
 			}
 			
 		}

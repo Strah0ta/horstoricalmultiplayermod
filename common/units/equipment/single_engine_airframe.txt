@@ -14,8 +14,7 @@ equipments = {
 		air_map_icon_frame = 1
 		
 		interface_category = interface_category_air
-		
-		# Fighter
+
 		interface_overview_category_index = 1
 
 		upgrades = {
@@ -159,7 +158,6 @@ equipments = {
 		
 		build_cost_ic = 66
 		resources = {
-			#oil = 1
 			aluminium = 2
 			rubber = 1
 		}
@@ -576,7 +574,7 @@ equipments = {
 		air_agility = 35
 		air_attack = 6.6
 		air_defence = 14
-		air_ground_attack = 12.5
+		air_ground_attack = 15
 
 		naval_strike_attack = 3
 		naval_strike_targetting = 10
@@ -596,7 +594,7 @@ equipments = {
 		air_agility = 39
 		air_attack = 11
 		air_defence = 16
-		air_ground_attack = 18.75
+		air_ground_attack = 20
 		
 		build_cost_ic = 72
 		resources = {

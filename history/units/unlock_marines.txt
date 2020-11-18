@@ -1,16 +1,9 @@
-﻿division_template = {
-	name = "Marines"
-
-	regiments = {
-		marine = { x = 0 y = 0 }
-		marine = { x = 0 y = 1 }
-        marine = { x = 0 y = 2 }
-		marine = { x = 0 y = 3 }
-		marine = { x = 1 y = 0 }
-		marine = { x = 1 y = 1 }
-		marine = { x = 1 y = 2 }
-		marine = { x = 1 y = 3 }		
-		marine = { x = 2 y = 0 }
-		marine = { x = 2 y = 1 }
-	}
-}
+﻿									division_template = {
+					name = "20w AT Marines"
+					regiments = {
+						marines = { x = 0 y = 0 } marines = { x = 1 y = 0 } marines = { x = 2 y = 0 } marines = { x = 3 y = 0 }
+						marines = { x = 0 y = 1 } marines = { x = 1 y = 1 } marines = { x = 2 y = 1 } marines = { x = 3 y = 1 }
+						marines = { x = 0 y = 2 } anti_tank_brigade = { x = 1 y = 2 } anti_tank_brigade = { x = 2 y = 2 }
+					}
+					support = { engineer = { x = 0 y = 0 } artillery = { x = 0 y = 1 }  rocket_artillery = { x = 0 y = 2 }  anti_air = { x = 0 y = 3 }  }
+				}	 

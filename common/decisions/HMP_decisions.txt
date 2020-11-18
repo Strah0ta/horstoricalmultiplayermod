@@ -670,6 +670,7 @@ USA_puppet_mexico = {
 		allowed = {	original_tag = ENG 	}
 		custom_cost_text = custom_cost_joint_training_exercise
 		visible = {	NOT = { FRA = { owns_state = 16 }}	}
+		days_re_enable = 120		
 		complete_effect = {
 			army_experience = 100
 			FRA = {	army_experience = 100	}
@@ -2067,6 +2068,7 @@ allowed = {original_tag = SAF}
 				transfer_state = 542 
 				545 = { add_extra_state_shared_building_slots = 2 }
 				542 = { add_extra_state_shared_building_slots = 2 }		
+				hidden_effect = { country_event = { id =  mtg_netherlands.332 }}
 		}
 
 }
@@ -2085,6 +2087,7 @@ allowed = {original_tag = SAF}
 		transfer_state = 292
 		283 = { add_extra_state_shared_building_slots = 2 }
 		292 = { add_extra_state_shared_building_slots = 2 }
+		hidden_effect = { country_event = { id =  mtg_netherlands.333 }}
 		}
 }
 

@@ -182,6 +182,33 @@ instant_build = yes
    }
 }
 
+annex_mexico_effect = {
+474 = { remove_building = {type = industrial_complex level = 1 }  } 475 = { remove_building = {type = industrial_complex level = 1 }  } 485 = { remove_building = {type = industrial_complex level = 1 }  }
+477 = { remove_building = {type = dockyard level = 1 }  } 277 = { remove_building = {type = industrial_complex level = 4 } remove_building = {type = arms_factory level = 2 } } 
+478 = { remove_building = {type = industrial_complex level = 1 }  } 479 = { remove_building = {type = industrial_complex level = 1 }  } 480 = { remove_building = {type = industrial_complex level = 1 } remove_building = {type = arms_factory level = 1 } }
+481 = { remove_building = {type = dockyard level = 1 }  }
+  275 = { 
+  add_extra_state_shared_building_slots = 5
+add_building_construction = {	type = industrial_complex level = 3 instant_build = yes}
+add_building_construction = { type = arms_factory  level = 2 instant_build = yes }
+   }
+  276 = { 
+  add_extra_state_shared_building_slots = 5
+add_building_construction = {	type = industrial_complex level = 5 instant_build = yes}
+   }
+   285 = { 
+  add_extra_state_shared_building_slots = 2
+add_building_construction = {	type = dockyard level = 2 instant_build = yes}
+   }  
+    284 = { 
+  add_extra_state_shared_building_slots = 3
+add_building_construction = {	type = industrial_complex level = 2 instant_build = yes} add_building_construction = {	type = arms_factory level = 1 instant_build = yes}
+   }    
+	MEX = {give_resource_rights = { receiver = USA state = 478 } give_resource_rights = { receiver = USA state = 485 }  give_resource_rights = { receiver = USA state = 277 }  leave_faction = yes add_ideas = ai_imiter }
+}
+
+
+
 HMP_sov_civ_to_mill2 = { 
 random_owned_controlled_state = { 	limit = {  is_core_of = SOV industrial_complex > 0 } 
 	remove_building = {type = industrial_complex level = 1 }
@@ -284,6 +311,7 @@ SPR_relocate_mil = yes
 
 HMP_no_asia_country_changes = {
 SWE  = { give_resource_rights = { receiver = GER state = 494 }	}
+SAF  = { give_resource_rights = { receiver = ENG state = 487 }	}
 SWE = { country_event = { id = wtt_japan.109  days = 730  }  country_event = { id = wtt_japan.119  days = 1350  }    }
 ENG = { 
 				352 = { add_resource = { type = oil	amount = 500 } }  #400 added from USA
@@ -2531,9 +2559,9 @@ create_field_marshal = {
 	skill = 8
 
 	
-	attack_skill = 7
+	attack_skill = 4
 	defense_skill = 6
-	planning_skill = 4
+	planning_skill = 7
 	logistics_skill = 8
 }
 
@@ -2544,9 +2572,9 @@ create_corps_commander = {
 	traits = {  panzer_leader panzer_expert expert_improviser ranger trait_cautious brilliant_strategist trickster  urban_assault_specialist }
 	skill = 8
 	
-	attack_skill = 7
+	attack_skill = 4
 	defense_skill = 6
-	planning_skill = 4
+	planning_skill = 7
 	logistics_skill = 8
 }		
 create_corps_commander = {
@@ -2556,9 +2584,9 @@ create_corps_commander = {
 	traits = {  panzer_leader panzer_expert expert_improviser ranger trait_cautious brilliant_strategist trickster  urban_assault_specialist }
 	skill = 8
 	
-	attack_skill = 7
+	attack_skill = 4
 	defense_skill = 6
-	planning_skill = 4
+	planning_skill = 7
 	logistics_skill = 8
 }
 create_corps_commander = {
@@ -2567,9 +2595,9 @@ create_corps_commander = {
 	traits = {  panzer_leader panzer_expert expert_improviser ranger trait_cautious brilliant_strategist trickster  urban_assault_specialist }
 	skill = 8
 	
-	attack_skill = 7
+	attack_skill = 4
 	defense_skill = 6
-	planning_skill = 4
+	planning_skill = 7
 	logistics_skill = 8
 }
 
@@ -2579,9 +2607,9 @@ create_corps_commander = {
 	traits = {  panzer_leader panzer_expert expert_improviser ranger trait_cautious brilliant_strategist trickster  urban_assault_specialist }
 	skill = 8
 	
-	attack_skill = 7
+	attack_skill = 4
 	defense_skill = 6
-	planning_skill = 4
+	planning_skill = 7
 	logistics_skill = 8
 }
 
@@ -2594,9 +2622,9 @@ create_corps_commander = {
 	traits = { panzer_leader harsh_leader ranger trait_engineer scavenger panzer_expert expert_improviser trickster }
 	skill = 8
 
-	attack_skill = 7
+	attack_skill = 4
 	defense_skill = 5
-	planning_skill = 4
+	planning_skill = 7
 	logistics_skill = 7
 }
 create_corps_commander = {
@@ -2605,9 +2633,9 @@ create_corps_commander = {
 	traits = { panzer_leader harsh_leader ranger trait_engineer scavenger panzer_expert expert_improviser trickster }
 	skill = 8
 
-	attack_skill = 7
+	attack_skill = 4
 	defense_skill = 5
-	planning_skill = 4
+	planning_skill = 7
 	logistics_skill = 7
 }
 create_corps_commander = {
@@ -2616,9 +2644,9 @@ create_corps_commander = {
 	traits = { panzer_leader harsh_leader ranger trait_engineer scavenger panzer_expert expert_improviser trickster }
 	skill = 8
 
-	attack_skill = 7
+	attack_skill = 4
 	defense_skill = 5
-	planning_skill = 4
+	planning_skill = 7
 	logistics_skill = 7
 }
 create_corps_commander = {
@@ -2627,9 +2655,9 @@ create_corps_commander = {
 	traits = { panzer_leader harsh_leader ranger trait_engineer scavenger panzer_expert expert_improviser trickster }
 	skill = 8
 
-	attack_skill = 7
+	attack_skill = 4
 	defense_skill = 5
-	planning_skill = 4
+	planning_skill = 7
 	logistics_skill = 7
 }
 
@@ -2642,9 +2670,9 @@ create_corps_commander = {
 	traits = { panzer_leader hill_fighter trait_mountaineer panzer_expert expert_improviser trickster guerilla_fighter }
 	skill = 8
 
-	attack_skill = 7
+	attack_skill = 5
 	defense_skill = 6
-	planning_skill = 7
+	planning_skill = 9
 	logistics_skill = 5
 }
 create_corps_commander = {
@@ -2653,9 +2681,9 @@ create_corps_commander = {
 	traits = { commando skirmisher ranger panzer_leader panzer_expert ambusher swamp_fox  }
 	skill = 8
 	id = 9994015
-	attack_skill = 6
+	attack_skill = 4
 	defense_skill = 5
-	planning_skill = 5
+	planning_skill = 7
 	logistics_skill = 9
 }
 create_corps_commander = {
@@ -2663,9 +2691,9 @@ create_corps_commander = {
 		picture = "Portrait_Soviet_Alexander_Gorbatov.dds"
 	traits = {  panzer_leader panzer_expert ambusher desert_fox trait_mountaineer trait_engineer scavenger }
 	skill = 8
-	attack_skill = 6
+	attack_skill = 4
 	defense_skill = 4
-	planning_skill = 5
+	planning_skill = 7
 	logistics_skill = 10
 }
 

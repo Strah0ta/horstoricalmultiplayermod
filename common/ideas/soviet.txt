@@ -129,7 +129,7 @@ ideas = {
 			picture = generic_production_bonus
 			
 			modifier = {
-				production_speed_buildings_factor = 0.10
+				production_speed_buildings_factor = 0.25
 			}
 		}
 	
@@ -187,7 +187,7 @@ ideas = {
 			picture = generic_research_bonus
 			
 			modifier = {
-				research_speed_factor = 0.10
+				research_speed_factor = 0.25
 				}
 		}
 

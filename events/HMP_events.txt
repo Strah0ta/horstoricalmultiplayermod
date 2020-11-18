@@ -33,6 +33,32 @@ country_event = {
 				}	
 		}
 	}
+	country_event = {
+	id = mtg_netherlands.332
+	title = mtg_netherlands.331.t
+	desc = mtg_netherlands.331.d
+	picture = GFX_report_event_hol_cabinet_de_geer
+
+	is_triggered_only = yes
+	hidden = yes 
+	# Ok
+	option = {
+		SAF  = { give_resource_rights = { receiver = ENG state = 542 }	} SAF  = { give_resource_rights = { receiver = ENG state = 487 }	}	
+		}
+	}
+		country_event = {
+	id = mtg_netherlands.333
+	title = mtg_netherlands.331.t
+	desc = mtg_netherlands.331.d
+	picture = GFX_report_event_hol_cabinet_de_geer
+
+	is_triggered_only = yes
+	hidden = yes 
+	# Ok
+	option = {
+		SAF  = { give_resource_rights = { receiver = ENG state = 292 }	}	
+		}
+	}
 	
 add_namespace = tfv_new_zealand
 country_event = {
@@ -1536,12 +1562,7 @@ country_event = {
 is_triggered_only = yes
    option = {
    name = "Confirm redistribution"
-			CAN = { add_offsite_building = { type = industrial_complex level = 5 } }
-			SAF = {	add_offsite_building = { type = industrial_complex level = 3 } add_offsite_building = { type = arms_factory level = 2 } }
-		if = { limit = { country_exists = NZL } NZL = {	add_offsite_building = { type = industrial_complex level = 2 } add_offsite_building = { type = arms_factory level = 1 } }  }	
-			AST = { add_offsite_building = { type = dockyard level = 2 } }
-			 give_resource_rights = { receiver = USA state = 277 }  give_resource_rights = { receiver = USA state = 485 }  give_resource_rights = { receiver = USA state = 478 }
-			MEX = { leave_faction = yes add_ideas = ai_imiter }
+   annex_mexico_effect = yes
    }
       option = {
    name = "Reconsider..."

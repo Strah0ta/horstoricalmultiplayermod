@@ -109,9 +109,9 @@ NDefines.NAir.BOMBING_DAMAGE_EXPERIENCE_SCALE = 0       	   -- WAS 0.0002 | How 
 NDefines.NAir.FIELD_EXPERIENCE_SCALE = 0						-- WAS 0.001 | This affects how much XP you get from various missions (AFAIK this will affect XP gained from bombing and CAS missions as well)
 NDefines.NAir.FIELD_EXPERIENCE_MAX_PER_DAY = 0					-- Most xp you can gain per day
 
-NDefines.NAir.COMBAT_MAX_WINGS_AT_ONCE = 3000                         -- WAS 10000 | Max amount of air wings in one combat simulation. The higher value, the quicker countries may loose their wings. It's a gameplay balance value.
-NDefines.NAir.COMBAT_MAX_WINGS_AT_GROUND_ATTACK = 3000                -- WAS 10000 | we can really pounce a land strike and escalate
-NDefines.NAir.COMBAT_MAX_WINGS_AT_ONCE_PORT_STRIKE = 3000       	 -- WAS 10000 | we can really pounce a naval strike and escalate
+--NDefines.NAir.COMBAT_MAX_WINGS_AT_ONCE = 3000                         -- WAS 10000 | Max amount of air wings in one combat simulation. The higher value, the quicker countries may loose their wings. It's a gameplay balance value.  BROKEN
+--NDefines.NAir.COMBAT_MAX_WINGS_AT_GROUND_ATTACK = 3000             -- WAS 10000 | we can really pounce a land strike and escalate  BROKEN
+--NDefines.NAir.COMBAT_MAX_WINGS_AT_ONCE_PORT_STRIKE = 3000      	 -- WAS 10000 | we can really pounce a naval strike and escalate  BROKEN
 --NDefines.NAir.ESCORT_FACTOR = 10  #changed from vanilla for testing purposes to see if this does anything 
 NDefines.NAir.MISSION_COMMAND_POWER_COSTS = { 						 -- command power cost per plane to create a mission
 		0.0, -- AIR_SUPERIORITY

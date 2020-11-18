@@ -29,7 +29,7 @@ equipments = {
 
 		# Air vs Navy - high damage / low hit chance / hard to hurt
 		naval_strike_attack = 15
-		naval_strike_targetting = 6
+		naval_strike_targetting = 7.5
 
 		#Space taken in convoy
 		lend_lease_cost = 20
@@ -98,8 +98,8 @@ equipments = {
 		air_defence = 15
 		air_bombing = 44 #vanilla 10 QUADRUPLED bc production was QUADRUPLED; ALL PLANES ARE PREUPGRADED TO LEVEL 5 AS OF 1.9.3
 		air_ground_attack = 6.6	
-		naval_strike_attack = 4
-		naval_strike_targetting = 6
+		naval_strike_attack = 8
+		naval_strike_targetting = 7.5
 	}
 	
 	
@@ -117,7 +117,7 @@ equipments = {
 		air_attack = 8
 		air_defence = 18
 		air_bombing = 52.8
-		air_ground_attack = 13.2
+		air_ground_attack = 15
 		
 		build_cost_ic = 148
 		resources = {
@@ -125,8 +125,8 @@ equipments = {
 			aluminium = 3
 			rubber = 1
 		}
-		naval_strike_attack = 8
-		naval_strike_targetting = 6
+		naval_strike_attack = 15
+		naval_strike_targetting = 7.5
 	}
 
 	# Improved tac_bomber
@@ -143,7 +143,7 @@ equipments = {
 		air_attack = 13
 		air_defence = 21
 		air_bombing = 61.6
-		air_ground_attack = 22
+		air_ground_attack = 20
 		
 		build_cost_ic = 156
 		resources = {
@@ -151,8 +151,8 @@ equipments = {
 			aluminium = 4
 			rubber = 1
 		}
-		naval_strike_attack = 12
-		naval_strike_targetting = 6
+		naval_strike_attack = 20
+		naval_strike_targetting = 7.5
 	}
 
 	# Advanced tac_bomber
@@ -169,15 +169,15 @@ equipments = {
 		air_attack = 20
 		air_defence = 24
 		air_bombing = 70.4
-		air_ground_attack = 33
+		air_ground_attack = 25
 		
 		build_cost_ic = 164
 		resources = {
 			aluminium = 5
 			rubber = 1
 		}
-		naval_strike_attack = 15
-		naval_strike_targetting = 6
+		naval_strike_attack = 25
+		naval_strike_targetting = 7.5
 	}
 	
 	# Basic Jet tac_bomber
