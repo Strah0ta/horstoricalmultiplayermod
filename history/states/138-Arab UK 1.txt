@@ -1,7 +1,7 @@
 state={
 id=138
 name="STATE_658"
-manpower = 170200
+manpower = 221800
 state_category = pastoral
 history={
 owner = ENG
@@ -9,14 +9,20 @@ add_core_of=SWE
 victory_points = {
 7960 1
 }
+victory_points = {
+8051 1
+}
 buildings = {
 infrastructure = 2
 7960 = {
 naval_base = 3
 }
+8051 = {
+naval_base = 2
+}
 }
 }
 provinces={
-2048 7960 8108 10904
+2048 7960 8108 10904 8051
 }
 }

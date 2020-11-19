@@ -1286,6 +1286,12 @@ add_equipment_production = {
 					level = 18
 					instant_build = yes
 				}
+					add_building_construction = {
+					type = naval_base
+					province = 12002
+					level = 5
+					instant_build = yes
+				}
 			}				
 		}
 	}
@@ -1350,7 +1356,7 @@ add_equipment_production = {
 			455 = {
 				set_building_level = {
 					type = air_base
-					level = 6
+					level = 4
 					instant_build = yes
 				}
 				add_building_construction = {
@@ -1361,11 +1367,6 @@ add_equipment_production = {
 			}			
 		}
 	}
-	
-	
-	
-	
-	
 	
 	focus = {
 		id = uk_sumeria_focus
@@ -1390,31 +1391,22 @@ add_equipment_production = {
 					instant_build = yes
 				}						
 			}	
-						457 = {
-				set_building_level = {
-					type = air_base
-					level = 4
-					instant_build = yes
-				}	
+				138 = {
+					set_building_level = {
+						type = air_base
+						level = 4
+						instant_build = yes
+					}	
 				}
-										138 = {
-				set_building_level = {
-					type = air_base
-					level = 4
-					instant_build = yes
-				}	
-				}
-										294 = {
-				set_building_level = {
-					type = air_base
-					level = 4
-					instant_build = yes
-				}	
+				294 = {
+					set_building_level = {
+						type = air_base
+						level = 4
+						instant_build = yes
+					}	
 				}
 			}
 			}
-	
-	
 	
 	focus = {
 		id = ENG_british_commonwealth_air_training_plan
