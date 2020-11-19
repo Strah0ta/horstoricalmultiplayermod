@@ -22,6 +22,7 @@ focus_tree = {
 		cost = 10
 				
 		completion_reward = {
+		GER = { add_intel = { target = POL civilian_intel = 30 } }
 			add_tech_bonus = {
 				name = GER_four_year_plan
 				bonus = 1.0
@@ -845,21 +846,21 @@ focus_tree = {
 	42 = {
 				set_building_level = {
 					type = air_base
-					level = 6
+					level = 4
 					instant_build = yes
 				}
 			}
 	51 = {
 				set_building_level = {
 					type = air_base
-					level = 6
+					level = 4
 					instant_build = yes
 				}
 			}
 	50 = {
 				set_building_level = {
 					type = air_base
-					level = 6
+					level = 4
 					instant_build = yes
 				}
 			}			
@@ -1102,28 +1103,28 @@ focus_tree = {
 				56 = {
 				set_building_level = {
 					type = air_base
-					level = 6
+					level = 4
 					instant_build = yes
 				}
 			}
 							59 = {
 				set_building_level = {
 					type = air_base
-					level = 6
+					level = 4
 					instant_build = yes
 				}
 			}
 							57 = {
 				set_building_level = {
 					type = air_base
-					level = 6
+					level = 4
 					instant_build = yes
 				}
 			}
 							55 = {
 				set_building_level = {
 					type = air_base
-					level = 6
+					level = 4
 					instant_build = yes
 				}
 			}

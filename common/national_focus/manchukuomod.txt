@@ -1326,7 +1326,7 @@ add_building_construction = {
 			112 = {
 				set_building_level = {
 					type = air_base
-					level = 6
+					level = 4
 					instant_build = yes
 				}
 			}

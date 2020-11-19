@@ -14,7 +14,7 @@ state={
 			infrastructure = 8
 			arms_factory = 4
 			industrial_complex = 3
-			air_base = 6
+			air_base = 4
 			fuel_silo = 15
 		}
 		add_extra_state_shared_building_slots = 15

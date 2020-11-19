@@ -14,7 +14,7 @@ state={
 		add_core_of = SWE
 		buildings = {
 			infrastructure = 6
-			air_base = 6
+			air_base = 4
 			10980 = {
 				naval_base = 10
 			}

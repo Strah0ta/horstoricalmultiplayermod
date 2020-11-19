@@ -499,42 +499,35 @@ add_equipment_production = {
 			122 = {
 				set_building_level = {
 					type = air_base
-					level = 6
+					level = 4
 					instant_build = yes
 				}
 			}
 			338 = {
 				set_building_level = {
 					type = air_base
-					level = 6
+					level = 4
 					instant_build = yes
 				}
 			}
 			132 = {
 				set_building_level = {
 					type = air_base
-					level = 6
-					instant_build = yes
-				}
-			}
-			129 = {
-				set_building_level = {
-					type = air_base
-					level = 6
+					level = 4
 					instant_build = yes
 				}
 			}
 			136	 = {
 				set_building_level = {
 					type = air_base
-					level = 6
+					level = 4
 					instant_build = yes
 				}
 			}
 						119	 = {
 				set_building_level = {
 					type = air_base
-					level = 20
+					level = 16
 					instant_build = yes
 				}
 			}
@@ -1061,7 +1054,7 @@ add_equipment_production = {
 				}
 				set_building_level = {
 					type = air_base
-					level = 6
+					level = 4
 					instant_build = yes
 				}
 				add_building_construction = {
@@ -1112,11 +1105,6 @@ add_equipment_production = {
 							level = 1
 							instant_build = yes
 					}
-				set_building_level = {
-					type = air_base
-					level = 6
-					instant_build = yes
-				}
 						add_building_construction = {
 					type = infrastructure
 					level = 2
@@ -1179,7 +1167,7 @@ add_equipment_production = {
 				}
 				set_building_level = {
 					type = air_base
-					level = 6
+					level = 4
 					instant_build = yes
 				}
 			}
@@ -1204,28 +1192,28 @@ add_equipment_production = {
 			
 				set_building_level = {
 					type = air_base
-					level = 6
+					level = 4
 					instant_build = yes
 				}
 			}	
 			307 = {
 				set_building_level = {
 					type = air_base
-					level = 6
+					level = 4
 					instant_build = yes
 				}
 			}
 						334 = {
 				set_building_level = {
 					type = air_base
-					level = 6
+					level = 4
 					instant_build = yes
 				}
 			}
 			321 = {
 				set_building_level = {
 					type = air_base
-					level = 6
+					level = 4
 					instant_build = yes
 				}
 				add_building_construction = {
@@ -1259,7 +1247,7 @@ add_equipment_production = {
 			551 = {
 				set_building_level = {
 					type = air_base
-					level = 18
+					level = 16
 					instant_build = yes
 				}
 				add_building_construction = {
@@ -1283,7 +1271,7 @@ add_equipment_production = {
 				}	
 				set_building_level = {
 					type = air_base
-					level = 6
+					level = 4
 					instant_build = yes
 				}		
 			}	
@@ -1319,7 +1307,7 @@ add_equipment_production = {
 			454 = {
 				set_building_level = {
 					type = air_base
-					level = 6
+					level = 4
 					instant_build = yes
 				}
 				add_building_construction = {
@@ -1331,7 +1319,7 @@ add_equipment_production = {
 						183 = {
 				set_building_level = {
 					type = air_base
-					level = 6
+					level = 4
 					instant_build = yes
 				}
 				add_building_construction = {
@@ -1343,7 +1331,7 @@ add_equipment_production = {
 					453 = {
 								set_building_level = {
 					type = air_base
-					level = 6
+					level = 4
 					instant_build = yes
 				}
 				add_building_construction = {
@@ -1395,11 +1383,6 @@ add_equipment_production = {
 		ENG_fortify_the_empire_level_up = yes
 			army_experience = 50
 				291 = {
-				set_building_level = {
-					type = air_base
-					level = 6
-					instant_build = yes
-				}	
 	add_building_construction = {
 					type = naval_base
 					province = 8085
@@ -1410,28 +1393,21 @@ add_equipment_production = {
 						457 = {
 				set_building_level = {
 					type = air_base
-					level = 6
+					level = 4
 					instant_build = yes
 				}	
 				}
 										138 = {
 				set_building_level = {
 					type = air_base
-					level = 6
+					level = 4
 					instant_build = yes
 				}	
 				}
 										294 = {
 				set_building_level = {
 					type = air_base
-					level = 6
-					instant_build = yes
-				}	
-				}
-										574 = {
-				set_building_level = {
-					type = air_base
-					level = 6
+					level = 4
 					instant_build = yes
 				}	
 				}

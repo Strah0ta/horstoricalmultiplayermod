@@ -1201,7 +1201,7 @@ focus_tree = {
 			473 = {
 				set_building_level = {
 					type = air_base
-					level = 6
+					level = 4
 					instant_build = yes
 				}
 			}
@@ -1255,28 +1255,11 @@ focus_tree = {
 
 		cost = 5
 
-
-		complete_tooltip = {
-			464 = {
-				set_building_level = {
-					type = air_base
-					level = 6
-					instant_build = yes
-				}
-			}
-			add_tech_bonus = {
-				name = CAN_commonwealth_air_training_plan
-				bonus = 1.0
-				uses = 1
-				category = air_doctrine
-			}
-		}
-
 		completion_reward = {
 			464 = {
 				set_building_level = {
 					type = air_base
-					level = 6
+					level = 4
 					instant_build = yes
 				}
 			}

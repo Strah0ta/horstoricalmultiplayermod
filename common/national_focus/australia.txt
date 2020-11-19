@@ -359,7 +359,7 @@
 	523 = {
 				set_building_level = {
 					type = air_base
-					level = 6
+					level = 4
 					instant_build = yes
 				}
 			}
@@ -386,7 +386,7 @@
 	472 = {
 				set_building_level = {
 					type = air_base
-					level = 6
+					level = 4
 					instant_build = yes
 				}
 			}
@@ -499,7 +499,7 @@
 			312 = {
 				set_building_level = {
 					type = air_base
-					level = 6
+					level = 4
 					instant_build = yes
 				}
 			}
@@ -568,7 +568,7 @@
 			521 = {
 				set_building_level = {
 					type = air_base
-					level = 6
+					level = 4
 					instant_build = yes
 				}
 			}

@@ -20,7 +20,7 @@ technologies = {
 		}
 		enable_building = {
 			building = air_base
-			level = 6
+			level = 4
 		}	
 		enable_building = {	
 			building =anti_air_building

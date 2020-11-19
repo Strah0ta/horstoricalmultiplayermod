@@ -190,13 +190,13 @@ focus_tree = {
 			184 = {
 				set_building_level = {
 					type = air_base
-					level = 6
+					level = 4
 				}
 			}
 			106 = {
 				set_building_level = {
 					type = air_base
-					level = 6
+					level = 4
 				}
 			}			
 		}
@@ -592,19 +592,19 @@ focus_tree = {
 			48 = {
 				set_building_level = {
 					type = air_base
-					level = 6
+					level = 4
 				}
 			}
 						212 = {
 				set_building_level = {
 					type = air_base
-					level = 6
+					level = 4
 				}
 			}
 						211 = {
 				set_building_level = {
 					type = air_base
-					level = 6
+					level = 4
 				}
 			}			
 		}

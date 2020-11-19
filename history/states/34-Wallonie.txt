@@ -21,7 +21,7 @@ state={
 			infrastructure = 9
 			arms_factory = 12
 			industrial_complex = 10
-			air_base = 6
+			air_base = 4
 
 		}
 		add_core_of = BEL
