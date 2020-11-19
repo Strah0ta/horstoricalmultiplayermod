@@ -1,19 +1,8 @@
 ﻿capital = 46
-
 oob = "ROM_1936"
-
 set_naval_oob = "ROM_1936_naval_mtg"
 create_intelligence_agency = yes
-
 add_to_tech_sharing_group = axis_research 
-
-add_opinion_modifier = { target = HUN modifier = anti_cross_faction_trade }
-add_opinion_modifier = { target = SPR modifier = anti_cross_faction_trade }
-add_opinion_modifier = { target = ITA modifier = anti_cross_faction_trade }
-add_opinion_modifier = { target = FIN modifier = anti_cross_faction_trade }
-add_opinion_modifier = { target = MAN modifier = anti_cross_faction_trade }
-add_opinion_modifier = { target = JAP modifier = anti_cross_faction_trade }
-add_opinion_modifier = { target = EFR modifier = anti_cross_faction_trade }
 set_research_slots = 3
 set_stability = 0.6
 set_war_support = 0.6
@@ -128,49 +117,6 @@ create_country_leader = {
 	}
 }
 
-create_field_marshal = {
-	name = "Petre Dumitrescu"
-	gfx = GFX_Portrait_romania_petre_dumitrescu
-	traits = { offensive_doctrine logistics_wizard }
-	skill = 4
-	attack_skill = 4
-	defense_skill = 4
-	planning_skill = 2
-	logistics_skill = 3
-}
-
-create_field_marshal = {
-	name = "Ion Antonescu"
-	picture = "Portrait_Romania_Ion_Antonescu.dds"
-	traits = { offensive_doctrine }
-	skill = 4
-	attack_skill = 4
-	defense_skill = 4
-	planning_skill = 2
-	logistics_skill = 3
-}
-
-create_corps_commander = {
-	name = "Ioan Mihail Racovita"
-	gfx = GFX_Portrait_romania_ioan_mihail_racovita
-	traits = { hill_fighter }
-	skill = 3
-	attack_skill = 2
-	defense_skill = 3
-	planning_skill = 3
-	logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "Gheorghe Avramescu"
-	gfx = GFX_Portrait_romania_gheorghe_avramescu
-	traits = { }
-	skill = 3
-	attack_skill = 3
-	defense_skill = 2
-	planning_skill = 2
-	logistics_skill = 3
-}
 create_navy_leader = {
 	name = "Horia Macellariu"
 	gfx = "GFX_Portrait_romania_horia_macellariu"
@@ -182,26 +128,6 @@ create_navy_leader = {
 	coordination_skill = 1
 }
 
-
-### VARIANTS ###
-# 1936 Start #
-if = {
-	limit = { not = { has_dlc = "Man the Guns" } }
-	### Ship Variants ###
-	create_equipment_variant = {
-		name = "Regele Ferdinand Class"
-		type = destroyer_1
-		upgrades = {
-			ship_torpedo_upgrade = 1
-			destroyer_engine_upgrade = 1
-			ship_ASW_upgrade = 1
-			ship_anti_air_upgrade = 1
-		}
-	}
-}
-if = {
-	limit = { has_dlc = "Man the Guns" }
-	# Submarines #
 	create_equipment_variant = {
 		name = "Delfinul Class"				
 		type = ship_hull_submarine_2
@@ -247,4 +173,3 @@ if = {
 			rear_1_custom_slot = ship_depth_charge_1
 		}
 	}
-}

@@ -26,14 +26,11 @@ set_variable = {
     var = min_fuel
     value = 0.800
 }
-add_ideas = armyandnavy_idea
 
 create_intelligence_agency = yes
 
-if = {
-	limit = { has_dlc = "Together for Victory" }
-
 	add_ideas = {
+		armyandnavy_idea
 		RAJ_princely_states
 		RAJ_marginalized_muslim_community
 		RAJ_agrarian_society
@@ -41,7 +38,6 @@ if = {
 	}
 
 	add_to_tech_sharing_group = commonwealth_research
-}
 
 set_convoys = 50
 
@@ -73,29 +69,6 @@ create_country_leader = {
 	}
 }
 
-# REVISIT Unclear if appropriate for this ideology
-create_country_leader = {
-	name = "V. D. Savarkar"
-	desc = "POLITICS_VD_SAVARKAR_DESC"
-	picture = "GFX_RAJ_veer_savarkar"
-	expire = "1965.1.1"
-	ideology = falangism
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "P. Krishna Pillai"
-	desc = "POLITICS_P_KRISHNA_PILLAI_DESC"
-	picture = "GFX_RAJ_krishna_pillai"
-	expire = "1965.1.1"
-	ideology = marxism
-	traits = {
-		
-	}
-}
-
 create_country_leader = {
 	name = "B. P. Sitaramayya"
 	desc = "POLITICS_B_P_SITARAMAYYA_DESC"
@@ -103,41 +76,7 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = socialism
 	traits = {
-		
 	}
-}
-
-create_corps_commander = {
-	name = "Noel Beresford-Peirse"
-	gfx = "GFX_RAJ_noel_beresford_peirse"
-	traits = { armor_officer }
-	skill = 3
-	attack_skill = 3
-	defense_skill = 3
-	planning_skill = 3
-	logistics_skill = 1
-}
-
-create_corps_commander = {
-	name = "Frank Messervy"
-	gfx = "GFX_RAJ_frank_messervy"
-	traits = { hill_fighter }
-	skill = 3
-	attack_skill = 2
-	defense_skill = 2
-	planning_skill = 3
-	logistics_skill = 3
-}
-
-create_corps_commander = {
-	name = "Douglas Gracey"
-	gfx = "GFX_RAJ_douglas_gracey"
-	traits = { desert_fox }
-	skill = 3
-	attack_skill = 1
-	defense_skill = 3
-	planning_skill = 3
-	logistics_skill = 3
 }
 
 create_navy_leader = {
@@ -150,10 +89,7 @@ create_navy_leader = {
 	maneuvering_skill = 1
 	coordination_skill = 2
 }
-if = {
-	limit = {
-		has_dlc = "La Resistance"
-	}
+
 	create_operative_leader = {
 		name = "Noor Inayat Khan"
 		GFX = GFX_portrait_noor_inayat_khan
@@ -163,9 +99,5 @@ if = {
 		female = yes
 		nationalities = { RAJ }
 	}
-}
 
 anti_cross_faction_trade_axis = yes
-
-
-

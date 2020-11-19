@@ -115,17 +115,6 @@ create_country_leader = {
 	}
 }
 
-create_corps_commander = {
-	name = "George Edwin Brink"
-	gfx = "GFX_SAF_george_edwin_brink"
-	traits = { desert_fox  }
-	skill = 4
-	attack_skill = 4
-	defense_skill = 4
-	planning_skill = 4
-	logistics_skill = 1
-}
-
 create_navy_leader = {
 	name = "Guy Hallifax"
 	gfx = "GFX_SAF_guy_halifax"

@@ -1,13 +1,7 @@
 ﻿capital = 276
 
 oob = "CAN_1936"
-if = {
-	limit = { has_dlc = "Man the Guns" }
-	set_naval_oob = "CAN_1936_naval_mtg"
-	else = {
-		set_naval_oob = "CAN_1936_naval_legacy"
-	}
-}
+set_naval_oob = "CAN_1936_naval_mtg"
 
 set_rule = { can_be_spymaster = no }
 add_ideas = armyandnavy_idea
@@ -61,21 +55,12 @@ add_equipment_to_stockpile = { type = infantry_equipment_1 amount = 2700 }
 
 anti_cross_faction_trade_axis = yes
 
-
-if = { 
-	limit = { NOT = { has_dlc = "Together for Victory" } }
 	set_cosmetic_tag = CAN_ALY
-}
-if = {
-	limit = { has_dlc = "Together for Victory" }
 	add_ideas = CAN_great_depression_1
 	add_ideas = CAN_conscription_crisis
 	add_ideas = SAF_the_commonwealth
 	set_cosmetic_tag = CAN_UK
-	
-
 	add_to_tech_sharing_group = commonwealth_research
-}
 
 set_politics = {
 	ruling_party = democratic
@@ -104,49 +89,6 @@ create_country_leader = {
 
 set_convoys = 100
 set_stability = 0.75
-
-create_corps_commander = {
-	name = "Thomas Victor Anderson"
-	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
-	traits = {  }
-	skill = 4
-    attack_skill = 2
-    defense_skill = 3
-    planning_skill = 3
-    logistics_skill = 5
-}
-
-create_field_marshal = {
-	name = "Charles Foulkes"
-	gfx = "GFX_CAN_charles_foulkes"
-	traits = { }
-	skill = 4
-    attack_skill = 4
-    defense_skill = 2
-    planning_skill = 4
-    logistics_skill = 3
-}
-
-create_corps_commander = {
-	name = "John Montague"
-	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
-	traits = { }
-	skill = 3
-    attack_skill = 1
-    defense_skill = 1
-    planning_skill = 3
-    logistics_skill = 5
-}
-create_corps_commander = {
-	name = "Bert Hoffmeister"
-	gfx = "GFX_CAN_bert_hoffmeister"
-	traits = { hill_fighter }
-	skill = 4
-    attack_skill = 4
-    defense_skill = 3
-    planning_skill = 3
-    logistics_skill = 3
-}
 
 create_navy_leader = {
 	name = "Leonard W. Murray"

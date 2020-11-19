@@ -1821,7 +1821,7 @@ create_corps_commander = { #for Barbarossa
     attack_skill = 8
     defense_skill = 5
     planning_skill = 6
-    logistics_skill = 5
+    logistics_skill = 6
 }
 create_corps_commander = {
 	name = "Ewald von Kleist"
@@ -1833,7 +1833,7 @@ create_corps_commander = {
     attack_skill = 8
     defense_skill = 5
     planning_skill = 6
-    logistics_skill = 5
+    logistics_skill = 6
 }
 create_corps_commander = {
 	name = "Sepp Dietrich"
@@ -1855,7 +1855,7 @@ create_corps_commander = {
     attack_skill = 8
     defense_skill = 5
     planning_skill = 6
-    logistics_skill = 5
+    logistics_skill = 6
 }
 create_corps_commander = { #for quality inf
 	name = "Kurt Student" 

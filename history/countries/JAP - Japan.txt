@@ -134,53 +134,6 @@ create_country_leader = {
 }
 
 create_corps_commander = {
-	name = "Tomoyuki Yamashita"
-		picture = "Portrait_Japan_Tomoyuki_Yamashita.dds"
-	traits = {
-		trickster trait_engineer brilliant_strategist politically_connected
-	}
-	skill = 5
-	id = 5010	
-
-	attack_skill = 4
-	defense_skill = 5
-	planning_skill = 3
-	logistics_skill = 4
-}
-
-create_field_marshal = {
-	name = "Hisaichi Terauchi"
-	picture = "Portrait_Japan_Hisaichi_Terauchi.dds"
-	traits = { 
-		offensive_doctrine
-		JAP_samurai_lineage   # hakushaku
-		politically_connected
-	}
-	skill = 4
-	id = 5036
-
-
-	attack_skill = 4
-	defense_skill = 4
-	planning_skill = 3
-	logistics_skill = 2
-}
-
-create_field_marshal = {
-	name = "Shunroku Hata"
-		picture = "Portrait_Japan_Shunroku_Hata.dds"
-	traits = { offensive_doctrine JAP_samurai_lineage }
-	skill = 4
-	id = 5037
-
-
-	attack_skill = 3
-	defense_skill = 4
-	planning_skill = 2
-	logistics_skill = 4
-}
-
-create_corps_commander = {
 	name = "Akira Muto"
 		picture = "Portrait_Japan_Akira_Muto.dds"
 	traits = { career_officer  }
@@ -209,20 +162,6 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Shizuichi Tanaka"
-		picture = "Portrait_Japan_Shizuichi_Tanaka.dds"
-	traits = { trickster career_officer infantry_officer }
-	skill = 4
-	id = 5011
-
-
-	attack_skill = 4
-	defense_skill = 3
-	planning_skill = 2
-	logistics_skill = 4
-}
-
-create_corps_commander = {
 	name = "Yasuji Okamura"
 		picture = "Portrait_Japan_Yasuji_Okamura.dds"
 	traits = { trait_reckless }
@@ -236,19 +175,6 @@ create_corps_commander = {
 	logistics_skill = 1
 }
 
-create_corps_commander = {
-	name = "Toshizo Nishio" #Toshizo
-		picture = "Portrait_Japan_Toshizo_Nishio.dds"
-	traits = { brilliant_strategist infantry_officer }
-	skill = 3
-	id = 5013
-
-
-	attack_skill = 3
-	defense_skill = 2
-	planning_skill = 3
-	logistics_skill = 2
-}
 
 create_corps_commander = {
 	name = "Rikichi Ando" #Ando
@@ -416,19 +342,6 @@ create_corps_commander = {
 	logistics_skill = 2
 }
 
-create_corps_commander = {
-	name = "Keisuke Fujie"
-		picture = "Portrait_Japan_Keisuke_Fujie.dds"
-	traits = { fortress_buster career_officer politically_connected } 
-	skill = 3
-	id = 5020
-
-
-	attack_skill = 1
-	defense_skill = 3
-	planning_skill = 3
-	logistics_skill = 3
-}
 create_corps_commander = {
 	name = "Kiichiro Higuchi"
 		picture = "Portrait_Japan_Kiichiro_Higuchi.dds"
