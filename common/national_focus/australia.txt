@@ -57,6 +57,12 @@
 				uses = 2
 				category = artillery
 			}
+						add_tech_bonus = {
+				name = ROM_modern_at_guns
+				bonus = 1.02
+				uses = 2
+				category = cat_anti_tank
+			}
 		}
 	}
 

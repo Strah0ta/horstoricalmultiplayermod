@@ -741,15 +741,10 @@ hidden_effect = {		set_technology = { naval_bomber2 = 1 }
 		completion_reward = {
 			add_tech_bonus = {
 				name = JAP_fighter_modernization
-				bonus = 1.0
+				bonus = 3.0
 				uses = 1
-				category = light_fighter		
-			}
-			add_tech_bonus = {
-				name = JAP_fighter_modernization
-				bonus = 1.0
-				uses = 1
-				category = cat_heavy_fighter	
+				category = light_fighter	
+				category = cat_heavy_fighter
 			}
 		}
 	}

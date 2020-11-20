@@ -132,15 +132,11 @@ equipments = {
 		interface_category = interface_category_armor
 
 		upgrades = {
-			tank_reliability_upgrade
-			tank_engine_upgrade
-			tank_armor_upgrade
-			tank_at_upgrade
 		}
 		
 		#Misc Abilities
-		maximum_speed = 11
-		reliability = 0.8
+		maximum_speed = 12
+		reliability = 1
 
 		#Defensive Abilities
 		defense = 8
@@ -149,9 +145,9 @@ equipments = {
 		armor_value = 130
 
 		#Offensive Abilities
-		soft_attack = 15
-		hard_attack = 63
-		ap_attack = 192
+		soft_attack = 22.5
+		hard_attack = 94.5
+		ap_attack = 240
 		air_attack = 0
 
 		
@@ -193,15 +189,12 @@ equipments = {
 		interface_category = interface_category_armor
 		
 		upgrades = {
-			tank_reliability_upgrade
 			tank_engine_upgrade
-			tank_armor_upgrade
-			tank_aa_upgrade
 		}
 
 		#Misc Abilities
-		maximum_speed = 10
-		reliability = 0.8
+		maximum_speed = 12
+		reliability = 1
 
 		#Defensive Abilities
 		defense = 4

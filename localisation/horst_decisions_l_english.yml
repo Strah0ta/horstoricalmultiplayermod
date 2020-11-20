@@ -180,7 +180,11 @@
  HMP_ll_soviets_receive_mech:0 "Receive a shipment of §YHalf-Tracks§! (§R-5§! £convoy_texticon )"
  HMP_ll_soviets_receive_mech2:0 "Receive a large shipment of §YHalf-Tracks§! (§R-20§! £convoy_texticon )"
  HMP_ll_soviets_receive_amtrac:0 "Receive a shipment of §YAmphibious Tractors§! (§R-5§! £convoy_texticon )"
- HMP_ll_soviets_receive_amtrac2:0 "Receive a large shipment of §YAmphibious Tractors§! (§R-5§! £convoy_texticon )" 
+ HMP_ll_soviets_receive_amtrac2:0 "Receive a large shipment of §YAmphibious Tractors§! (§R-20§! £convoy_texticon )" 
+ HMP_ll_soviets_receive_med_tank:0 "Receive a shipment of §YMedium Tanks§! (§R-20§! £convoy_texticon )" 
+ HMP_ll_soviets_receive_heavy_tank:0 "Receive a shipment of §YHeavy Tanks§! (§R-20§! £convoy_texticon )" 
+ HMP_ll_soviets_receive_light_tank:0 "Receive a shipment of §YLight Tanks§! (§R-20§! £convoy_texticon )" 
+
  HMP_ll_remove_guns:0 "We will remove §R5000 Rifles§! from stockpile.\n\n"
  HMP_ll_remove_more_guns:0 "We will remove §R100000 Rifles§! from stockpile.\n\n"
  HMP_ll_soviets_guns_large:0 "Prepare a large shipment of §YRifles§! ( [SOV.GetFlag]§C+20§! £convoy_texticon )"

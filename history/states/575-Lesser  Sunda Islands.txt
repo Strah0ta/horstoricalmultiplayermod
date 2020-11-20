@@ -10,6 +10,9 @@ add_core_of=SWE
 victory_points = {
 4273 5
 }
+victory_points = {
+7293 1
+}
 buildings = {
 infrastructure = 4
 1355 = {
@@ -20,6 +23,9 @@ naval_base = 1
 }
 12234 = {
 naval_base = 1
+}
+7293 = {
+naval_base = 3
 }
 }
 }

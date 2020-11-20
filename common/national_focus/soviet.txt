@@ -61,7 +61,6 @@ focus_tree = {
 			bonus = 3.0
 			technology = mechanised_infantry3
 			}
-			add_research_slot = 1
 		}
 	}
 	
@@ -77,7 +76,14 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {	
-				every_unit_leader = { limit = { NOT = { is_field_marshal = yes } has_trait = panzer_leader     } add_unit_leader_trait = camouflage_expert_red }									
+				every_unit_leader = { limit = { NOT = { is_field_marshal = yes } has_trait = panzer_leader     } add_unit_leader_trait = camouflage_expert_red }		
+   249 = {
+   	set_building_level = {
+					type = air_base
+					level = 80
+					instant_build = yes
+				}
+   }				
 		}
 	}
 	
@@ -281,29 +287,15 @@ focus_tree = {
 			}
 		}
 
-	focus = {
-		id = SOV_positive_heroism
-		icon = GFX_focus_SOV_postive_heroism
-		prerequisite = { focus = SOV_stalin_constitution }
-		x = 0
-		y = 1
-		relative_position_id = SOV_stalin_constitution
-		cost = 10
 
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_ideas = konstantin_rokossovsky 
-		}
-	}
 
 	focus = {
 		id = SOV_progress_cult
 		icon = GFX_goal_generic_scientific_exchange
-		prerequisite = { focus = SOV_positive_heroism }
+		prerequisite = { focus = SOV_stalin_constitution }
 		x = 0
 		y = 1
-		relative_position_id = SOV_positive_heroism
+		relative_position_id = SOV_stalin_constitution
 		cost = 10
 		ai_will_do = {
 			factor = 1
@@ -315,14 +307,30 @@ focus_tree = {
 			add_ideas = progress_cult_focus
 		}
 	}
-
+	
 	focus = {
-		id = SOV_socialist_science
-		icon = GFX_focus_SOV_socialist_science
+		id = SOV_positive_heroism
+		icon = GFX_focus_SOV_postive_heroism
 		prerequisite = { focus = SOV_progress_cult }
 		x = 0
 		y = 1
 		relative_position_id = SOV_progress_cult
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = konstantin_rokossovsky 
+		}
+	}
+	
+	focus = {
+		id = SOV_socialist_science
+		icon = GFX_focus_SOV_socialist_science
+		prerequisite = { focus = SOV_positive_heroism }
+		x = 0
+		y = 1
+		relative_position_id = SOV_positive_heroism
 		cost = 10
 		ai_will_do = {
 			factor = 1
@@ -463,6 +471,13 @@ focus_tree = {
 					instant_build = yes
 				}
 				
+			}	
+						582 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 3
+					instant_build = yes
+				}
 			}			
 			404 = {
 				add_building_construction = {
@@ -471,6 +486,7 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
+
 		}
 	}
 
@@ -711,7 +727,7 @@ focus_tree = {
 			}
 					add_tech_bonus = {
 				bonus = 3.0
-				uses = 3
+				uses = 4
 				category = synth_resources	
 			}
 

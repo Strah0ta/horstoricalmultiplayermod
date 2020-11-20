@@ -710,7 +710,7 @@ focus_tree = {
 			add_tech_bonus = {
 				name = ROM_modern_at_guns
 				bonus = 1.01
-				uses = 2
+				uses = 4
 				category = cat_anti_tank
 			}
 		}

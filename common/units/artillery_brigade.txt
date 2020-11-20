@@ -95,8 +95,6 @@ sub_units = {
 
 		combat_width = 3
 		
-		maximum_speed = 10.4
-
 		manpower = 500
 		need = {
 			artillery_equipment = 36
@@ -189,8 +187,6 @@ sub_units = {
 
 		combat_width = 3
 		
-		maximum_speed = 0.4
-
 		manpower = 500
 		need = {
 			rocket_artillery_equipment = 36

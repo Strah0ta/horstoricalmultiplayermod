@@ -28,7 +28,7 @@ equipments = {
 		reliability = 0.8
 
 		# Air vs Navy - high damage / low hit chance / hard to hurt
-		naval_strike_attack = 15
+		naval_strike_attack = 18.7
 		naval_strike_targetting = 7.5
 
 		#Space taken in convoy
@@ -151,8 +151,8 @@ equipments = {
 			aluminium = 4
 			rubber = 1
 		}
-		naval_strike_attack = 20
-		naval_strike_targetting = 7.5
+		naval_strike_attack = 25
+		naval_strike_targetting = 10
 	}
 
 	# Advanced tac_bomber
@@ -176,8 +176,8 @@ equipments = {
 			aluminium = 5
 			rubber = 1
 		}
-		naval_strike_attack = 25
-		naval_strike_targetting = 7.5
+		naval_strike_attack = 31.2
+		naval_strike_targetting = 12.5
 	}
 	
 	# Basic Jet tac_bomber

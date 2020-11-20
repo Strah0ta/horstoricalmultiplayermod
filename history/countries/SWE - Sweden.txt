@@ -16,6 +16,9 @@ news_event = { id = news.9991 days = 2729  }
 set_convoys = 0
 set_technology = {
 	amphibious_mechanized_infantry = 1
+	advanced_heavy_tank = 1
+	advanced_medium_tank = 1
+	advanced_light_tank = 1
 	infantry_weapons1 = 1
 	infantry_weapons2 = 1
 	advanced_infantry_weapons = 1

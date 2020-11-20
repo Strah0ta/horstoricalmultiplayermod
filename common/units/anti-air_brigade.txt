@@ -148,11 +148,6 @@ sub_units = {
 		
 		combat_width = 1
 
-
-		combat_width = 3
-		
-		maximum_speed = 0.4
-
 		manpower = 500
 		need = {
 			anti_air_equipment = 30

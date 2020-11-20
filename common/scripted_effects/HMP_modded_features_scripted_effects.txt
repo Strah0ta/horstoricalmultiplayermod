@@ -2554,10 +2554,9 @@ create_corps_commander = {
 create_field_marshal = {
 	name = "Georgy Zhukov"
 	id = 999410
-		picture = "Portrait_Soviet_Gregory_Zhukov.dds"
+	picture = "Portrait_Soviet_Gregory_Zhukov.dds"
 	traits = { brilliant_strategist aggressive_assaulter organisational_leader organizer fast_planner urban_assault_specialist logistics_wizard panzer_leader panzer_expert expert_improviser ranger trickster  expert_delegator  }
 	skill = 8
-
 	
 	attack_skill = 4
 	defense_skill = 6

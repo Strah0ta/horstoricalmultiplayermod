@@ -1171,15 +1171,7 @@ transfer_state = 38
 			}
 		}
 	}
-
-
-
- ##  ### ###       ## ###  ##  ### ###  ##  #  # 
-#  #  #  #  #     #   #   #  #  #   #  #  # ## # 
-####  #  ###       #  ##  #     #   #  #  # # ## 
-#  #  #  #  #       # #   #  #  #   #  #  # #  # 
-#  # ### #  #     ##  ###  ##   #  ###  ##  #  # 
-
+	
 	focus = {
 		id = USA_air_war_plans_division
 		icon = GFX_america_goal_freedom_fighters
@@ -1197,9 +1189,9 @@ transfer_state = 38
 				bonus = 1.0
 				uses = 2
 				category = air_doctrine
-			} # REVISIT May use modifier?
+			} 
 			add_ideas = air_war_plans_division_focus			
-			
+			ENG = { add_ideas = air_war_plans_division_focus }
 		}
 	}
 
@@ -1216,6 +1208,7 @@ transfer_state = 38
 
 		completion_reward = {
 			add_ideas = air_support_focus
+			ENG = { add_ideas = air_support_focus }
 		}
 	}
 
@@ -1232,6 +1225,7 @@ transfer_state = 38
 
 		completion_reward = {
 			add_ideas = strategic_bombing_focus
+			ENG = { add_ideas = strategic_bombing_focus }
 		}
 	}
 
@@ -1250,7 +1244,7 @@ transfer_state = 38
 			add_tech_bonus = {
 				name = USA_TAC
 				uses = 1
-				bonus = 1.0
+				bonus = 3.0
 				category = tactical_bomber
 			}
 		}
@@ -1295,11 +1289,12 @@ transfer_state = 38
 		completion_reward = {
 			add_tech_bonus = {
 				name = USA_combined_bomber_offensive
-				bonus = 1.0
-				uses = 1
+				bonus = 3.0
+				uses = 2
 				category = tactical_bomber
 			}
 			add_ideas = combined_bomber_offensive
+			ENG = { add_ideas = combined_bomber_offensive }
 		}
 	}
 	focus = {
@@ -1320,8 +1315,6 @@ transfer_state = 38
 				name = USA_escort_fighters
 				bonus = 3.0
 				uses = 1
-				technology = heavy_fighter1
-				technology = heavy_fighter2
 				technology = heavy_fighter3
 			}
 		}
@@ -1362,10 +1355,12 @@ transfer_state = 38
 		available_if_capitulated = no
 
 		completion_reward = {
+			custom_effect_tooltip = US_Army_Stuff_tt
+			hidden_effect = { set_technology = { dogfighting_experience = 1  air_superiority = 1 fighter_sweeps = 1 popup = no } }
 		add_tech_bonus = {
 				name = USA_us_army_airforce
-				uses = 2
-				bonus = 1.5
+				uses = 1
+				bonus = 1
 				category = air_doctrine
 			}		}
 	}

@@ -105,7 +105,7 @@ NDefines.NNavy.FIELD_EXPERIENCE_MAX_PER_DAY = 0								-- NAVAL EXPERIENCE REMOV
 NDefines.NNavy.TRAINING_MAX_DAILY_COUNTRY_EXP = 0							-- Maximum navy XP daily gain
 ---------------------------------------------------------------
 NDefines.NTechnology.LICENSE_PRODUCTION_TECH_BONUS = 0	-- WAS 0.2 | LICENSES ARE FREE SO TECH BONUS IS TOO MUCH | License production tech bonus
-NDefines.NTechnology.BASE_RESEARCH_POINTS_SAVED = 20.0 -- Vanilla 30, reduced to decrease the value of research juggling and this competitive need to do it to the end of making macro easier with less skill variance.
+--NDefines.NTechnology.BASE_RESEARCH_POINTS_SAVED = 20.0 -- Vanilla 30, reduced to decrease the value of research juggling and this competitive need to do it to the end of making macro easier with less skill variance.
 ---------------------------------------------------------------          
 ---------------------------------------------------------------
 --------------HORST SPY AGENCY AND INTEL CHANGES---------------

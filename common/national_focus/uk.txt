@@ -587,7 +587,7 @@ add_equipment_production = {
 			add_tech_bonus = {
 				name = bomber_command_focus
 				bonus = 3.0
-				uses = 2
+				uses = 4
 				category = tactical_bomber
 				category = cas_bomber			
 			}
@@ -1033,7 +1033,7 @@ add_equipment_production = {
 				}
 				set_building_level = {
 					type = air_base
-					level = 20
+					level = 16
 					instant_build = yes
 				}
 				add_building_construction = {
@@ -1283,7 +1283,7 @@ add_equipment_production = {
 				}
 				set_building_level = {
 					type = air_base
-					level = 18
+					level = 16
 					instant_build = yes
 				}
 					add_building_construction = {
@@ -1329,10 +1329,22 @@ add_equipment_production = {
 					instant_build = yes
 				}
 				add_building_construction = {
-					type = infrastructure
-					level = 1
+					type = coastal_bunker
+					level = 4
+					province = 7193
 					instant_build = yes
-				}		
+				}	
+				add_building_construction = {
+					type = coastal_bunker
+					level = 4
+					province = 11984
+					instant_build = yes
+				}	
+				add_building_construction = {
+					type = anti_air_building
+					level = 3
+					instant_build = yes
+				}					
 			}
 					453 = {
 								set_building_level = {

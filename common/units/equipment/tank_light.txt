@@ -132,7 +132,9 @@ equipments = {
 		priority = 10
 		visual_level = 2
 		is_convertable = yes
-
+				can_convert_from = { 
+			light_tank_equipment_3
+		}
 		#Misc Abilities
 		maximum_speed = 14
 
@@ -428,15 +430,11 @@ equipments = {
 		interface_category = interface_category_armor
 		
 		upgrades = {
-			tank_reliability_upgrade
-			tank_engine_upgrade
-			tank_armor_upgrade
-			tank_aa_upgrade
 		}
 
 		#Misc Abilities
-		maximum_speed = 10
-		reliability = 0.8
+		maximum_speed = 12
+		reliability = 1
 
 		#Defensive Abilities
 		defense = 2
