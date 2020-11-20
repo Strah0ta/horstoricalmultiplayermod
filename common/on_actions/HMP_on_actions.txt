@@ -199,15 +199,21 @@ on_state_control_changed = {
 					if = { limit = { country_exists = JAP } JAP = { transfer_state = 497 transfer_state = 397 transfer_state = 286 transfer_state = 498 transfer_state = 493 } }
 
 					}				
-									if = {
-					limit = {
-						FROM = { tag = NOR }
-						FROM.FROM = { state = 110 }
-						NOT = { NOR = { has_country_flag = france_is_kill }}
+			if = {
+				limit = {
+					FROM = { tag = NOR }
+					FROM.FROM = { state = 110 }
+					NOT = { NOR = { has_country_flag = france_is_kill }}
+				}
+					if = { limit = { NOR = {is_ai = yes }} ENG = { annex_country = { target = NOR  transfer_troops = yes } }}
+				    if = { limit = { NOR = {is_ai = no }} 
+						NOR = { set_country_flag = france_is_kill  } NOR =  {  set_capital = 323  } 
+						if = { limit = { NOR = {  is_in_faction = no }} 
+						ENG = { add_to_faction = NOR puppet = NOR }
+						tp_divs_out_of_norway = yes 
+						}
 					}
-					NOR = { set_country_flag = france_is_kill  }
-					tp_divs_out_of_norway = yes 
-
+					GER = { transfer_state = 144 transfer_state = 142 transfer_state = 110 transfer_state = 143 transfer_state = 144  110 = { set_compliance = 40 } 142 = { set_compliance = 40 } 143 = { set_compliance = 40 } 144 = { set_compliance = 40 }  }
 					}				
 
 				if = {

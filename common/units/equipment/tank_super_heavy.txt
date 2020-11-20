@@ -203,7 +203,7 @@ equipments = {
 		soft_attack = 11.5
 		hard_attack = 9
 		ap_attack = 98
-		air_attack = 50
+		air_attack = 80
 		
 		build_cost_ic = 50 #was 100 note: number required for 1 battalion was doubled
 		resources = {
