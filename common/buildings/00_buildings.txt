@@ -8,7 +8,6 @@ buildings = {
 		infrastructure = yes
 		max_level = 10
 		value = 1
-
 		show_modifier = yes
 		max_fuel_building = 0 #k, vanilla 0.75k; was 0.15k recently, reduced to 0 to see if it would improve stability
 	}
@@ -44,7 +43,7 @@ buildings = {
 		air_base = yes
 		max_level = 80
 		value = 1
-		damage_factor = 0.75
+		damage_factor = 0.8
 	}
 
 	naval_base = {
@@ -57,6 +56,7 @@ buildings = {
 		is_port = yes
 		icon_frame = 6
 		max_level = 20
+		damage_factor = 0.5
 		value = 1
 	}
 
@@ -126,7 +126,7 @@ buildings = {
 		infrastructure_construction_effect = yes
 		show_modifier = yes
 		fuel_gain_from_states = 0.6	#per hour
-		damage_factor = 0.5
+		damage_factor = 0.4
 	}
 
 	fuel_silo = {
@@ -141,6 +141,7 @@ buildings = {
 		
 		show_modifier = yes
 		max_fuel_building = 20 #k
+		damage_factor = 0.5
 	}
 
 	radar_station = {

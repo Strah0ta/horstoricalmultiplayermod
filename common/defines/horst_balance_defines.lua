@@ -48,6 +48,7 @@ NDefines.NAir.ACE_DEATH_BY_OTHER_ACE_CHANCE = 0				-- chance to an ace dying by 
 NDefines.NAir.ACE_DEATH_CHANCE_PLANES_MULT = 0		-- The more airplanes was lost in a single airplanes (more bloody it was) the higher chance of Ace to die.
 NDefines.NAir.ACE_EARN_CHANCE_BASE = 0				-- Base chance % for ace pilot to be created. Happens only when successfully kill airplane/ship or damage the buildings.
 NDefines.NAir.ACE_EARN_CHANCE_PLANES_MULT = 0				-- The more airplanes the wing shots the higher chance of earning Ace.
+NDefines.NAir.AIR_WING_MAX_STATS_BOMBING = 1000
 ------------------------------------------------------------------------------------------------
 NDefines.NAir.AA_INDUSTRY_AIR_DAMAGE_FACTOR = -0.18				-- vanilla 0.12 | changed because all three AA techs that boost state AA have had their damage reduction bonuses moved to the building
 NDefines.NAir.DISRUPTION_FACTOR_CARRIER = 1.0                                     -- 30 in vanilla, but  it used to be 1, reverting back to 1.8 so bad carriers are just bad insteadof useless

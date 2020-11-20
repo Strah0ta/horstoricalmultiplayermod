@@ -199,6 +199,17 @@ on_state_control_changed = {
 					if = { limit = { country_exists = JAP } JAP = { transfer_state = 497 transfer_state = 397 transfer_state = 286 transfer_state = 498 transfer_state = 493 } }
 
 					}				
+									if = {
+					limit = {
+						FROM = { tag = NOR }
+						FROM.FROM = { state = 110 }
+						NOT = { NOR = { has_country_flag = france_is_kill }}
+					}
+					NOR = { set_country_flag = france_is_kill  }
+					tp_divs_out_of_norway = yes 
+
+					}				
+
 				if = {
 					limit = {
 						FROM = { tag = SOV }
