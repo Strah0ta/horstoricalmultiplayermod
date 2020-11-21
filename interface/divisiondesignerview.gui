@@ -28,8 +28,6 @@ guiTypes = {
 		position = { x = 0 y = 0 }
 		size = { width = 270 height = 30 }
 		
-		
-		
 		Background = {
 			name = "unit_stats_list_entry_bg"
 			quadTextureSprite = "GFX_unit_stats_list_entry_bg2"
@@ -95,7 +93,7 @@ guiTypes = {
 
 		background = {
 			name = "Background"		
-			spriteType ="GFX_division_designer_popup_bg"
+			spriteType ="GFX_ssc_division_designer_popup_bg"
 		}
 		
 		iconType = {
@@ -107,7 +105,7 @@ guiTypes = {
 		containerWindowType = {
 			name = "border_container"
 			position = { x=29 y=101 }
-			size = { width = 96 height = 90 }
+			size = { width = 96 height = 48 }
 			
 			background = {
 				name ="bg_tech_button"
@@ -160,7 +158,7 @@ guiTypes = {
 				name = "support_grid"
 				position = { x = 23 y = 57 }
 				size = { width = 85 height = 100%% }
-				slotsize = { width = 82 height = 51 }
+				slotsize = { width = 82 height = 42 }
 				format = "UPPER_LEFT"
 			}
 			
@@ -168,7 +166,7 @@ guiTypes = {
 				name = "regiments_grid"
 				position = { x = 115 y = 57 }
 				size = { width = 445 height = 100%% }
-				slotsize = { width = 82 height = 51 }
+				slotsize = { width = 82 height = 43 }
 				format = "UPPER_LEFT"
 			}
 		}
@@ -981,12 +979,12 @@ guiTypes = {
 	containerWindowType = {
 		name = "designer_division_support_slot_entry"
 		position = { x=0 y=0}	
-		size = { width=64 height=53 }
+		size = { width=64 height=44 }
 		clipping = no
 
 		background = {
 			name = "Background"		
-			spriteType ="GFX_div_subunit_item_bg"
+			spriteType ="GFX_ssc_div_subunit_item_bg"
 		}
 		
 		instantTextboxType = {
@@ -1004,7 +1002,7 @@ guiTypes = {
 		buttonType = {
 			name = "unit_icon"
 			spriteType = "GFX_locked_icon"
-			position = {x=2 y=20}
+			position = {x=2 y=11}
 			Orientation = CENTER_LOWER
 			scale = 0.8
 			clicksound = click_default
@@ -1012,7 +1010,7 @@ guiTypes = {
 
 		buttonType = {
 			name = "invisible_icon"
-			position = { x = 2 y = 21 }
+			position = { x = 2 y = 12 }
 			spriteType = "GFX_cost_textbox_inv"
 			Orientation = CENTER_LOWER
 			scale = 0.8

@@ -39,5 +39,12 @@ spriteTypes = {
 	# legacy_lazy_load = no
      noOfFrames = 2
    }
-
+	SpriteType = {
+		name = "GFX_ssc_div_subunit_item_bg"
+		textureFile = "gfx//interface//ssc_div_subunit_item_bg.dds"
+	}
+	SpriteType = {
+		name = "GFX_ssc_division_designer_popup_bg"
+		textureFile = "gfx//interface//ssc_division_designer_popup_bg.dds"
+	}	
 }		
