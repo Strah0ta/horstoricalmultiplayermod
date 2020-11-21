@@ -1604,6 +1604,17 @@ GER_case_anton = {
 			}	
 		}
 		
+			deploy_egypt = {   
+	    icon = generic_civil_support 
+        allowed = {   original_tag = LAT    }
+        cost = 0
+        fire_only_once = yes
+        available = {	has_war_with = GER 	}
+		
+		complete_effect = {
+			hidden_effect = { 	load_oob = "ENG_EGY"   }
+			}	
+		}
 		
 		case_anton_player = {  
 			icon = generic_civil_support
@@ -2128,7 +2139,7 @@ allowed = {original_tag = SAF}
 				transfer_state = 542 
 				545 = { add_extra_state_shared_building_slots = 2 }
 				542 = { add_extra_state_shared_building_slots = 2 }		
-				hidden_effect = { country_event = { id =  mtg_netherlands.332 }}
+				hidden_effect = { country_event = { id =  mtg_netherlands.332 days = 2}}
 		}
 
 }
@@ -2147,7 +2158,7 @@ allowed = {original_tag = SAF}
 		transfer_state = 292
 		283 = { add_extra_state_shared_building_slots = 2 }
 		292 = { add_extra_state_shared_building_slots = 2 }
-		hidden_effect = { country_event = { id =  mtg_netherlands.333 }}
+		hidden_effect = { country_event = { id =  mtg_netherlands.333 days = 2 }}
 		}
 }
 
