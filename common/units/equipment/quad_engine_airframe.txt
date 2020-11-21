@@ -53,7 +53,7 @@ equipments = {
 		maximum_speed = 400
 		air_agility = 5
 		air_attack = 50
-		air_defence = 20
+		air_defence = 16
 		air_bombing = 350
 	}
 	strat_bomber_equipment_2 = {
@@ -65,7 +65,7 @@ equipments = {
 		maximum_speed = 400
 		air_agility = 5
 		air_attack = 50
-		air_defence = 20
+		air_defence = 18
 		air_bombing = 400
 		build_cost_ic = 592
 				resources = {

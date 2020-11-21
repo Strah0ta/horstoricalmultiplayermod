@@ -170,7 +170,7 @@ focus_tree = {
 		}	
 				add_tech_bonus = {
 			name = "Mechanized Experiments"
-			bonus = 1.0
+			bonus = 0.8
 			uses = 2
 			category = cat_mechanized_equipment
 			}

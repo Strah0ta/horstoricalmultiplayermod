@@ -232,7 +232,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 200000 }
+add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 100000 }
 		}
 	}	
 	

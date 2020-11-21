@@ -381,6 +381,19 @@ create_navy_leader = {
 	coordination_skill = 9
 }
 
+
+create_navy_leader = {
+	name = "Henry Harwood" # Aristocrat
+	id = 984
+		picture = "Portrait_Britain_Henry_Harwood.dds"
+	traits = { fly_swatter cruiser_captain fleet_protector destroyer_leader hunter_killer search_pattern_expert  arctic_water_expert    }
+	skill = 4
+	attack_skill = 2
+	defense_skill = 2
+	maneuvering_skill = 2
+	coordination_skill = 9
+}
+
 create_navy_leader = {
 	name = "Algernon Willis"
 	id = 991

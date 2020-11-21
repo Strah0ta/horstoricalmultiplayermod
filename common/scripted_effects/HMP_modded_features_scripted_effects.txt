@@ -2561,7 +2561,7 @@ create_field_marshal = {
 	name = "Georgy Zhukov"
 	id = 999410
 	picture = "Portrait_Soviet_Gregory_Zhukov.dds"
-	traits = { brilliant_strategist aggressive_assaulter organisational_leader organizer fast_planner urban_assault_specialist logistics_wizard panzer_leader panzer_expert expert_improviser ranger trickster  expert_delegator  }
+	traits = { adaptable brilliant_strategist aggressive_assaulter organisational_leader organizer fast_planner logistics_wizard panzer_leader panzer_expert expert_improviser ranger trickster  expert_delegator  }
 	skill = 8
 	
 	attack_skill = 4
@@ -3012,11 +3012,11 @@ create_field_marshal = {
 	name = "Mark Clark"
 	picture = "Portrait_USA_Mark_W_Clark.dds"
 	traits = { skilled_staffer defensive_doctrine infantry_leader infantry_expert jungle_rat trait_reckless organizer organisational_leader inspirational_leader logistics_wizard }
-	skill = 6
+	skill = 7
 
 	attack_skill = 5
 	defense_skill = 5
-	planning_skill = 4
+	planning_skill = 7
 	logistics_skill = 5
 }
 
@@ -3024,11 +3024,11 @@ create_corps_commander = {
 	name = "Alexander Patch"
 	picture = "Portrait_USA_Alexander_Patch.dds"
 	traits = {  infantry_leader infantry_expert fake_skilled_staffer }
-	skill = 6
+	skill = 7
 	attack_skill = 5
 	defense_skill = 5
 	planning_skill = 6
-	logistics_skill = 5
+	logistics_skill = 6
 }
 }
 }

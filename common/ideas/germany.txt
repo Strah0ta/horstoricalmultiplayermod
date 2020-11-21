@@ -423,10 +423,10 @@ ideas = {
 			
 			targeted_modifier = {
 				tag = SOV
-				attack_bonus_against = 0.025
-				defense_bonus_against = 0.025
+				attack_bonus_against = 0.05
+				defense_bonus_against = 0.05
 			}
-			modifier = { air_cas_present_factor = 0.1 production_speed_infrastructure_factor = 0.5   }
+			modifier = { air_cas_present_factor = 0.2 production_speed_infrastructure_factor = 0.5   }
 
 		}		
 		GER_barbarossa_zit = {
@@ -446,8 +446,8 @@ ideas = {
 
 			targeted_modifier = {
 				tag = SOV
-				attack_bonus_against = 0.05
-				defense_bonus_against = 0.05
+				attack_bonus_against = 0.1
+				defense_bonus_against = 0.1
 			}
 			
 			modifier = { production_speed_infrastructure_factor = 0.5      }
@@ -574,7 +574,6 @@ ideas = {
 			picture = generic_license_production
 
 			equipment_bonus = {
-				motorized_equipment = { build_cost_ic = -0.1 instant = yes }
 				mechanized_equipment = { build_cost_ic = -0.2 instant = yes }
 				amphibious_mechanized_equipment = { build_cost_ic = -0.2 instant = yes }				
 			}

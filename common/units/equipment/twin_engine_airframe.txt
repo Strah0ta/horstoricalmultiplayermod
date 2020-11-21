@@ -95,7 +95,7 @@ equipments = {
 		maximum_speed = 275   
 		air_agility = 16
 		air_attack = 5
-		air_defence = 15
+		air_defence = 12
 		air_bombing = 44 #vanilla 10 QUADRUPLED bc production was QUADRUPLED; ALL PLANES ARE PREUPGRADED TO LEVEL 5 AS OF 1.9.3
 		air_ground_attack = 6.6	
 		naval_strike_attack = 8
@@ -115,7 +115,7 @@ equipments = {
 		maximum_speed = 473
 		air_agility = 20
 		air_attack = 8
-		air_defence = 18
+		air_defence = 14
 		air_bombing = 52.8
 		air_ground_attack = 15
 		
@@ -141,7 +141,7 @@ equipments = {
 		maximum_speed = 484
 		air_agility =25
 		air_attack = 13
-		air_defence = 21
+		air_defence = 16
 		air_bombing = 61.6
 		air_ground_attack = 20
 		
@@ -167,7 +167,7 @@ equipments = {
 		maximum_speed = 528
 		air_agility = 30
 		air_attack = 20
-		air_defence = 24
+		air_defence = 18
 		air_bombing = 70.4
 		air_ground_attack = 25
 		
@@ -193,7 +193,7 @@ equipments = {
 		maximum_speed = 1100
 		air_agility = 57
 		air_attack = 18
-		air_defence = 24
+		air_defence = 20
 		air_bombing = 70.4
 		air_ground_attack = 33
 		
@@ -223,7 +223,7 @@ equipments = {
 		maximum_speed = 1100
 		air_agility = 57
 		air_attack = 22
-		air_defence = 28
+		air_defence = 22
 		air_bombing = 88
 		air_ground_attack = 44
 		
