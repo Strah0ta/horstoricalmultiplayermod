@@ -20,6 +20,7 @@ add_relation_modifier = {
 set_technology = {
 	tech_support = 1		
 	tech_engineers = 1
+	interwar_antitank = 1
 	tech_mountaineers = 1
 	motorised_infantry = 1
 	fuel_silos = 1 

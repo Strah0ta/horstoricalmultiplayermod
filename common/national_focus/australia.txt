@@ -54,13 +54,7 @@
 			add_tech_bonus = {
 				name = AST_royal_australian_artillery
 				bonus = 1.01
-				uses = 2
-				category = artillery
-			}
-						add_tech_bonus = {
-				name = ROM_modern_at_guns
-				bonus = 1.02
-				uses = 2
+				uses = 5
 				category = cat_anti_tank
 			}
 		}
