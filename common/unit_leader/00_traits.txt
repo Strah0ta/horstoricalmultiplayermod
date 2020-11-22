@@ -280,7 +280,7 @@ leader_traits = {
 		type = corps_commander
 		trait_type = personality_trait
 		modifier = {
-			terrain_penalty_reduction = 0.10
+			terrain_penalty_reduction = 0.30
 			acclimatization_cold_climate_gain_factor = 0.1
 			acclimatization_hot_climate_gain_factor = 0.1
 		}
