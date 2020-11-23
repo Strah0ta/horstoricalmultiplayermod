@@ -157,7 +157,6 @@ original_tag = ENG
 original_tag = NOR
 original_tag = CAN 
 original_tag = USA
-original_tag = MEX
 original_tag = NOR
 original_tag = EFR
 }
@@ -174,7 +173,6 @@ original_tag = ENG
 original_tag = NOR
 original_tag = CAN 
 original_tag = USA
-original_tag = MEX
 original_tag = NOR
 }
 }

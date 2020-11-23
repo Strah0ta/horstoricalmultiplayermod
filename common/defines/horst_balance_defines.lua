@@ -25,9 +25,6 @@ NDefines.NAir.EFFICIENCY_REGION_CHANGE_DAILY_GAIN_FIGHTER = 100		-- How much eff
 NDefines.NAir.EFFICIENCY_REGION_CHANGE_DAILY_GAIN_STRATEGIC_BOMBER = 0.024	-- How much efficiency to regain per day. Gain applied hourly.
 
 -------------------AIR WING XP and ACE REMOVAL - DONE TO MAKE ACing SIMPLER--------------------
---NDefines.NAir.EFFICIENCY_REGION_CHANGE_PENALTY_FACTOR = 0.9				-- Penalty applied for changing region
--- Gain should be changed in increments of 0.024 due to precision.
---NDefines.NAir.EFFICIENCY_REGION_CHANGE_DAILY_GAIN_DEFAULT = 1	-- Default how much efficiency to regain per day. Gain applied hourly.
 NDefines.NAir.AIR_WING_XP_LOSS_REDUCTION_OVER_FRIENDLY_TERRITORY_FACTOR = 0 	--Reduction on XP loss over friendly territory
 NDefines.NAir.AIR_WING_XP_TRAINING_MISSION_GAIN_DAILY = 0					--Daily gain when running training exercise mission
 NDefines.NAir.AIR_WING_XP_AIR_VS_AIR_COMBAT_GAIN = 0 							--Wings in combat gain extra XP	

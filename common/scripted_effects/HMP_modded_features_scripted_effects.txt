@@ -188,33 +188,6 @@ instant_build = yes
    }
 }
 
-annex_mexico_effect = {
-474 = { remove_building = {type = industrial_complex level = 1 }  } 475 = { remove_building = {type = industrial_complex level = 1 }  } 485 = { remove_building = {type = industrial_complex level = 1 }  }
-477 = { remove_building = {type = dockyard level = 1 }  } 277 = { remove_building = {type = industrial_complex level = 4 } remove_building = {type = arms_factory level = 2 } } 
-478 = { remove_building = {type = industrial_complex level = 1 }  } 479 = { remove_building = {type = industrial_complex level = 1 }  } 480 = { remove_building = {type = industrial_complex level = 1 } remove_building = {type = arms_factory level = 1 } }
-481 = { remove_building = {type = dockyard level = 1 }  }
-  275 = { 
-  add_extra_state_shared_building_slots = 5
-add_building_construction = {	type = industrial_complex level = 3 instant_build = yes}
-add_building_construction = { type = arms_factory  level = 2 instant_build = yes }
-   }
-  276 = { 
-  add_extra_state_shared_building_slots = 5
-add_building_construction = {	type = industrial_complex level = 5 instant_build = yes}
-   }
-   285 = { 
-  add_extra_state_shared_building_slots = 2
-add_building_construction = {	type = dockyard level = 2 instant_build = yes}
-   }  
-    284 = { 
-  add_extra_state_shared_building_slots = 3
-add_building_construction = {	type = industrial_complex level = 2 instant_build = yes} add_building_construction = {	type = arms_factory level = 1 instant_build = yes}
-   }    
-	MEX = {give_resource_rights = { receiver = USA state = 478 } give_resource_rights = { receiver = USA state = 485 }  give_resource_rights = { receiver = USA state = 277 }  leave_faction = yes add_ideas = ai_imiter }
-}
-
-
-
 HMP_sov_civ_to_mill2 = { 
 random_owned_controlled_state = { 	limit = {  is_core_of = SOV industrial_complex > 0 } 
 	remove_building = {type = industrial_complex level = 1 }
@@ -1279,227 +1252,6 @@ USA_all_plane_LL = {
 	send_equipment = { equipment = heavy_fighter_equipment amount = 10000 target = ENG }
 }
 
-MEX_increase_church_power = {
-	if = {
-		limit = { has_idea = MEX_church_power_5 }
-		add_political_power = 25
-	}
-	else_if = {
-		limit = { has_idea = MEX_church_power_4 }
-		swap_ideas = {
-			remove_idea = MEX_church_power_4
-			add_idea = MEX_church_power_5
-		}
-	}
-	else_if = {
-		limit = { has_idea = MEX_church_power_3 }
-		swap_ideas = {
-			remove_idea = MEX_church_power_3
-			add_idea = MEX_church_power_4
-		}
-	}
-	else_if = {
-		limit = { has_idea = MEX_church_power_2 }
-		swap_ideas = {
-			remove_idea = MEX_church_power_2
-			add_idea = MEX_church_power_3
-		}		
-	}
-	else_if = {
-		limit = { has_idea = MEX_church_power_1 }
-		swap_ideas = {
-			remove_idea = MEX_church_power_1
-			add_idea = MEX_church_power_2
-		}
-	}
-}
-
-MEX_decrease_church_power = {
-	if = {
-		limit = { has_idea = MEX_church_power_1 }
-		add_political_power = 25
-	}
-	else_if = {
-		limit = { has_idea = MEX_church_power_2 }
-		swap_ideas = {
-			remove_idea = MEX_church_power_2
-			add_idea = MEX_church_power_1
-		}
-	}
-	else_if = {
-		limit = { has_idea = MEX_church_power_3 }
-		swap_ideas = {
-			remove_idea = MEX_church_power_3
-			add_idea = MEX_church_power_2
-		}
-	}
-	else_if = {
-		limit = { has_idea = MEX_church_power_4 }
-		swap_ideas = {
-			remove_idea = MEX_church_power_4
-			add_idea = MEX_church_power_3
-		}		
-	}
-	else_if = {
-		limit = { has_idea = MEX_church_power_5 }
-		swap_ideas = {
-			remove_idea = MEX_church_power_5
-			add_idea = MEX_church_power_4
-		}
-	}
-}
-
-MEX_remove_church_power = {
-	if = {
-		limit = {
-			has_idea = MEX_church_power_1
-		}
-		remove_ideas = MEX_church_power_1
-	}
-	else_if = {
-		limit = {
-			has_idea = MEX_church_power_2
-		}
-		remove_ideas = MEX_church_power_2
-	}
-	else_if = {
-		limit = {
-			has_idea = MEX_church_power_4
-		}
-		remove_ideas = MEX_church_power_4
-	}
-	else_if = {
-		limit = {
-			has_idea = MEX_church_power_5
-		}
-		remove_ideas = MEX_church_power_5
-	}
-	else_if = {
-		limit = {
-			always = yes
-		}
-		remove_ideas = MEX_church_power_4
-	}
-}
-
-MEX_remove_cedillo_tension = {
-	if = {
-		limit = {
-			has_idea = MEX_cedillo_tension_6
-		}
-		remove_ideas = MEX_cedillo_tension_6
-	}
-	if = {
-		limit = {
-			has_idea = MEX_cedillo_tension_5
-		}
-		remove_ideas = MEX_cedillo_tension_5
-	}
-	if = {
-		limit = {
-			has_idea = MEX_cedillo_tension_4
-		}
-		remove_ideas = MEX_cedillo_tension_4
-	}
-	else_if = {
-		limit = {
-			has_idea = MEX_cedillo_tension_3
-		}
-		remove_ideas = MEX_cedillo_tension_3
-	}
-	else_if = {
-		limit = {
-			has_idea = MEX_cedillo_tension_2
-		}
-		remove_ideas = MEX_cedillo_tension_2
-	}
-	else_if = {
-		limit = {
-			always = yes
-		}
-		remove_ideas = MEX_cedillo_tension
-	}
-}
-
-MEX_decrease_cedillo_tension = {
-	if = {
-		limit = {
-			has_idea = MEX_cedillo_tension_2
-		}
-		swap_ideas = {
-			remove_idea = MEX_cedillo_tension_2
-			add_idea = MEX_cedillo_tension
-		}
-	}
-	else_if = {
-		limit = {
-			has_idea = MEX_cedillo_tension_3
-		}
-		swap_ideas = {
-			remove_idea = MEX_cedillo_tension_3
-			add_idea = MEX_cedillo_tension_2
-		}
-	}
-	else_if = {
-		limit = {
-			has_idea = MEX_cedillo_tension_4
-		}
-		swap_ideas = {
-			remove_idea = MEX_cedillo_tension_4
-			add_idea = MEX_cedillo_tension_3
-		}
-	}
-	else_if = {
-		limit = {
-			has_idea = MEX_cedillo_tension_5
-		}
-		swap_ideas = {
-			remove_idea = MEX_cedillo_tension_5
-			add_idea = MEX_cedillo_tension_4
-		}
-	}
-	else_if = {
-		limit = {
-			has_idea = MEX_cedillo_tension_6
-		}
-		swap_ideas = {
-			remove_idea = MEX_cedillo_tension_6
-			add_idea = MEX_cedillo_tension_5
-		}
-	}
-}
-
-MEX_increase_cedillo_tension = {
-	if = {
-		limit = {
-			has_idea = MEX_cedillo_tension_3
-		}
-		swap_ideas = {
-			remove_idea = MEX_cedillo_tension_3
-			add_idea = MEX_cedillo_tension_4
-		}
-	}
-	else_if = {
-		limit = {
-			has_idea = MEX_cedillo_tension_2
-		}
-		swap_ideas = {
-			remove_idea = MEX_cedillo_tension_2
-			add_idea = MEX_cedillo_tension_3
-		}
-	}
-	else_if = {
-		limit = {
-			has_idea = MEX_cedillo_tension
-		}
-		swap_ideas = {
-			remove_idea = MEX_cedillo_tension
-			add_idea = MEX_cedillo_tension_2
-		}
-	}
-}
-
-
 anti_cross_faction_trade_axis = {
 add_opinion_modifier = {
     target = GER
@@ -1589,10 +1341,6 @@ add_opinion_modifier = {
     target = NOR
     modifier = anti_cross_faction_trade
 }
-add_opinion_modifier = {
-    target = MEX
-    modifier = anti_cross_faction_trade
-}
 }
 
 anti_cross_faction_trade_all = {
@@ -1600,7 +1348,6 @@ ENG = { anti_cross_faction_trade_axis = yes}
 FRA = { anti_cross_faction_trade_axis = yes}
 USA = { anti_cross_faction_trade_axis = yes}
 CAN = { anti_cross_faction_trade_axis = yes}
-MEX = { anti_cross_faction_trade_axis = yes}
 AST = { anti_cross_faction_trade_axis = yes}
 NZL = { anti_cross_faction_trade_axis = yes}
 SAF = { anti_cross_faction_trade_axis = yes}
@@ -1777,7 +1524,6 @@ HMP_ENG_generals = yes
 HMP_USA_generals = yes
 HMP_RAJ_generals = yes
 HMP_ASTNZL_generals = yes
-HMP_BRAMEX_generals = yes
 HMP_SAFCAN_generals = yes
 HMP_EFR_generals = yes
 }
@@ -2707,78 +2453,6 @@ create_corps_commander = {
 			}
 		
 }
-HMP_BRAMEX_generals = {
-MEX = { every_army_leader = { retire = yes }}
-MEX = {	 
-create_field_marshal = {
-	name = "Heliodoro Charis"
-	id = 999700
-	gfx = "GFX_portrait_mex_heliodoro_charis"
-	traits = { logistics_wizard infantry_leader infantry_expert ambusher commando skirmisher paratrooper trait_engineer trait_mountaineer  } # Veteran of many assaults
-	skill = 6
-    attack_skill = 5
-    defense_skill = 6
-    planning_skill = 4
-    logistics_skill = 4
-}
-	create_field_marshal = {
-		name = "José Gonzalo Escobar"
-		id = 999709
-		gfx = "GFX_portrait_mex_jose_gonzalo_escobar"
-		traits = { organizer organisational_leader logistics_wizard panzer_leader panzer_expert trait_engineer scavenger } # Cavalry commander
-		skill = 6
-		attack_skill = 4
-		defense_skill = 5
-		planning_skill = 4
-		logistics_skill = 6
-	}
-
-create_corps_commander = {
-	name = "Luis Farell"
-	id = 999701
-	gfx = "GFX_portrait_mex_luis_farell"
-	traits = { infantry_leader infantry_expert trickster expert_improviser guerilla_fighter ranger } # Personally piloted missions against rebels etc
-	skill = 6
-    attack_skill = 6
-    defense_skill = 4
-    planning_skill = 4
-    logistics_skill = 5
-}
-
-create_corps_commander = {
-	name = "Gildardo Magaña"
-	id = 999702
-	gfx = "GFX_portrait_mex_gildardo_magana"
-	traits = { panzer_leader panzer_expert trickster expert_improviser  naval_invader skirmisher  } # Headed some political organisations like trade unions
-	skill = 6
-    attack_skill = 	6
-    defense_skill = 4
-    planning_skill = 5
-    logistics_skill = 4
-}
-create_corps_commander = {
-	name = "Eurico Gaspar Dutra"
-	portrait_path = "gfx/leaders/BRA/Eurico_Gaspar_Dutra.tga"
-	traits = { ranger infantry_leader ambusher trickster guerilla_fighter skilled_staffer }
-	skill = 6
-	attack_skill = 4
-	defense_skill = 5
-	planning_skill = 5
-	logistics_skill = 5
-}
-
-create_corps_commander = {
-	name = "Mascarenhas de Morais"
-	portrait_path = "gfx/leaders/BRA/Mascarenhas_de_Morais.tga"
-	traits = {  jungle_rat infantry_leader ambusher trickster trait_engineer scavenger }
-	skill = 6
-	attack_skill = 5
-	defense_skill = 5
-	planning_skill = 3
-	logistics_skill = 6
-}
-}
-}
 HMP_FRA_generals = {
 FRA = { every_army_leader = { retire = yes }}
 
@@ -3396,15 +3070,9 @@ HMP_startup_on_actions = {
 				limit = { has_game_rule = { rule = horst_manchukuo	option = HORST_ENABLE_MOD_MANCHUKUO	} }
 				MAN = { load_focus_tree = manchukuomod_focus } 
 			}
-				MEX = {	
-				give_resource_rights = { receiver = ENG state = 476 }
-				give_resource_rights = { receiver = ENG state = 477 }
-				give_resource_rights = { receiver = USA state = 479 }
-				give_resource_rights = { receiver = USA state = 480 }	
-				}
+
 				JAP  = { give_resource_rights = { receiver = GER state = 494 }	}
 				if = { limit = { MAN = { is_ai = yes } country_exists = MAN } JAP = { country_event = { id = japan.148 days = 1  }}   }
-				if = { limit = {  MEX = { is_ai = yes } country_exists = MEX } ENG = { country_event = { id = japan.648 days = 1  }}   }
 				if = { limit = { NZL = { is_ai = yes } country_exists = NZL } AST = { country_event = { id = japan.758 days = 1  }}   }
 				if = { limit = { SAF = { is_ai = yes } country_exists = SAF } ENG = { country_event = { id = japan.678 days = 1  }}   }
 				if = { limit = { BUL = { is_ai = yes } NOT = { has_start_date > 1936.01.02  } } GER = { country_event = { id = japan.638 days = 1  }}   }
@@ -4075,8 +3743,6 @@ transfer_state = 378 #California
 transfer_state = 379 #Nevada
 transfer_state = 380 #Utah 
 transfer_state = 377 #Arizona 
-transfer_state = 484 #Baja California 
-transfer_state = 483 #Sonora 
 transfer_state = 113 #Panama Canal 
 transfer_state = 299 #Falkland Islands 
 transfer_state = 302 #South Georgia 
@@ -4115,7 +3781,7 @@ every_state	= { limit = { is_core_of = BEL }
 	GER = {transfer_state =  PREV }
 }
 
-every_state	= { limit = { OR = { is_owned_by = ENG is_owned_by = CAN is_owned_by = USA  is_owned_by = HOL is_owned_by = NOR is_owned_by = DEN is_owned_by = MEX is_owned_by = FRA  is_owned_by = SAF }  } 
+every_state	= { limit = { OR = { is_owned_by = ENG is_owned_by = CAN is_owned_by = USA  is_owned_by = HOL is_owned_by = NOR is_owned_by = DEN is_owned_by = FRA  is_owned_by = SAF }  } 
 	GER = {transfer_state =  PREV }
 }
 

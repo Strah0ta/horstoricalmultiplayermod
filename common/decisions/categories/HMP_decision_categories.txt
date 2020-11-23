@@ -24,18 +24,6 @@ HMP_ll_soviets_receive = {
 	  allowed = {	original_tag = SOV	 }
 }
 
-MEX_category_military_issues = {
-	icon = border_conflicts
-	priority = 95
-	allowed = {	has_dlc = "Man the Guns"	}
-}
-
-MEX_category_church_power = {
-	icon = power_struggle
-	priority = 80
-	allowed = {	has_dlc = "Man the Guns"}
-}
-
 JAP_interservice_rivalry = {
 	allowed = {
 		original_tag = JAP

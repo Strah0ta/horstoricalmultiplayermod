@@ -4,7 +4,7 @@ name="STATE_695"
 manpower = 76299
 state_category = rural
 resources={
-oil=59
+oil=113
 }
 history={
 1936.1.2 = {

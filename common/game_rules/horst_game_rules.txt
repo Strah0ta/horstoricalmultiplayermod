@@ -114,11 +114,6 @@ horst_host_country = {
 		text = "France"
 		desc = "Clicking this option will give France access to the Horst Tools (please test this in SP before enabling in MP)"
 	}
-		option = {
-		name = MEX
-		text = "Mexico"
-		desc = "Clicking this option will give Mexico access to the Horst Tools (please test this in SP before enabling in MP)"
-	}
 	option = {
 		name = SPR
 		text = "Spain"

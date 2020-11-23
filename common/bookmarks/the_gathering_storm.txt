@@ -247,23 +247,7 @@ bookmarks = {
 				MAN_develop_aluminum_sources
 				MAN_the_two_emperors		}
 		}
-		
-		
-		"MEX"={
-			minor = yes
-			history = "MEXICO_GATHERING_STORM_DESC"
-			ideology = neutrality
-			ideas = {
-				MEX_church_power_2
-				MEX_politicised_army
-				MEX_oil_concessions
-			}
-			focuses = {
-				MEX_focus_synarchist_communes
-				MEX_focus_aztec_eagles
-				MEX_focus_support_general_cedillo			}
-		}
-
+	
 		"SPR"={			minor = yes			history = "SPAIN_GATHERING_STORM_DESC"			ideology = democratic focuses = {				SPA_caudillo_of_spain				}		}
 		
 		effect = {

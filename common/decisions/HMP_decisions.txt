@@ -526,13 +526,13 @@ available = {  check_variable = { var = SOV_barb_ll_token  value = 20  compare =
 	}	
 	HMP_ll_soviets_receive_fighter = { 
 allowed = {  original_tag = SOV } 
-available = {  check_variable = { var = SOV_barb_ll_token  value = 20  compare = greater_than_or_equals} has_war_with = GER OR = { date > 1942.1.22  ENG = { controls_state = 412 }  } 			custom_trigger_tooltip = {	tooltip = SOV_secure_tt	suppy_route_secure = yes}  }      
+available = { check_variable = { var = SOV_barb_ll_token  value = 20  compare = greater_than_or_equals} has_war_with = GER OR = { date > 1942.1.22  ENG = { controls_state = 412 }  } 			custom_trigger_tooltip = {	tooltip = SOV_secure_tt	suppy_route_secure = yes}  }      
 		icon = generic_form_nation
 		cost = 0
-		fire_only_once = no
-		visible = { SOV = { has_completed_focus = SOV_aviation_cult}}
+		fire_only_once = no #has_deployed_air_force_size > 6000
+		visible = { SOV = { has_completed_focus = SOV_aviation_cult} }
 		complete_effect  = {
-add_equipment_to_stockpile = {  type = sov_fighter_equipment_2 amount = 640 producer = SOV }    
+add_equipment_to_stockpile = {  type = sov_fighter_equipment_2 amount = 986 producer = SOV }    
 		SOV = { add_to_variable = {  var = SOV_barb_ll_token   value = -20 } }						
 		}
 	}
@@ -704,13 +704,6 @@ every_country = {
   add_timed_idea = { idea = war_plan_yellowx days = 182 }  } }
 }
 } 
-USA_puppet_mexico = {
-	allowed = {	original_tag = USA	}
-	available = {	MEX = { has_war_with = GER	is_ai = yes 	}	date > 1941.1.1 	}
-	fire_only_once = yes
-	cost = 0
-	complete_effect = {	USA = { 	set_autonomy = {	target = MEX	autonomy_state = autonomy_colony	}	}		}
-		}
 	
 	public_support_for_fra = {
 		icon = eng_install_government
@@ -1939,7 +1932,6 @@ GER_case_anton = {
 		tag = CAN
 		tag = BUL
 		tag = FRA
-		tag = MEX
 		tag = NOR 
 		}
 		}
@@ -1967,7 +1959,6 @@ GER_case_anton = {
 		tag = BUL
 		tag = EFR
 		tag = ITA
-		tag = MEX
 		tag = NOR  }
 		}
 		available = {   democratic > 0.05     }
@@ -2001,7 +1992,6 @@ GER_case_anton = {
 		tag = FIN 
 		tag = USA
 		tag = CAN
-		tag = MEX
 		tag = NOR }
 		}	
 		available = {   communism > 0.05   }
@@ -2254,7 +2244,7 @@ AST = {
 			fp_attache = {
 				icon = generic_form_nation
 				cost = 100
-				allowed = {  OR = { tag = GER tag = ENG tag = FRA tag = USA tag = CAN tag = MEX tag = SAF tag = RAJ tag = NOR tag = MAN } }
+				allowed = {  OR = { tag = GER tag = ENG tag = FRA tag = USA tag = CAN tag = SAF tag = RAJ tag = NOR tag = MAN } }
 				available = { command_power > 49.99 date < 1939.9.1 }			
 				fire_only_once = yes	
 				complete_effect  = {	add_ideas = fp_attache_idea 	}
@@ -2726,328 +2716,6 @@ HMP_templates = {
 		allowed = { normally_played_country = yes }
 		fire_only_once = yes
 		complete_effect = { set_country_flag = hide_hmp_templates }
-	}
-}
-
-MEX_category_military_issues = {
-
-	# Mission to deal with Cedillo before he rebels (historic date was January 1939)
-
-	MEX_mission_cedillos_rebellion = {
-
-		icon = generic_civil_support
-
-		visible = {
-			original_tag = MEX
-		}
-		
-		available = {
-			OR = {
-				has_completed_focus = MEX_focus_support_general_cedillo
-				has_completed_focus = MEX_focus_arrest_general_cedillo
-			}
-		}
-
-		days_mission_timeout = 150
-		#days_remove = 1
-
-		activation = {
-			OR = {
-				has_idea = MEX_cedillo_tension
-				has_idea = MEX_cedillo_tension_2
-				has_idea = MEX_cedillo_tension_3
-				has_idea = MEX_cedillo_tension_4
-				has_idea = MEX_cedillo_tension_5
-			}
-		}
-
-		fixed_random_seed = no
-
-		fire_only_once = no
-
-		is_good = no
-
-		timeout_effect = {
-		if = {
-				limit = {
-					has_idea = MEX_cedillo_tension_5
-				}
-
-	swap_ideas = {
-					remove_idea = MEX_cedillo_tension_5
-					add_idea = MEX_cedillo_tension_6
-				}
-				
-	
-			}
-		
-			else_if = {
-				limit = {
-					has_idea = MEX_cedillo_tension_4
-				}
-
-	swap_ideas = {
-					remove_idea = MEX_cedillo_tension_4
-					add_idea = MEX_cedillo_tension_5
-				}
-				
-	
-			}
-			else_if = {
-				limit = {
-					has_idea = MEX_cedillo_tension_3
-				}
-				swap_ideas = {
-					remove_idea = MEX_cedillo_tension_3
-					add_idea = MEX_cedillo_tension_4
-				}
-			}
-			else_if = {
-				limit = {
-					has_idea = MEX_cedillo_tension_2
-				}
-				swap_ideas = {
-					remove_idea = MEX_cedillo_tension_2
-					add_idea = MEX_cedillo_tension_3
-				}
-			}
-			else_if = {
-				limit = {
-					has_idea = MEX_cedillo_tension
-				}
-				swap_ideas = {
-					remove_idea = MEX_cedillo_tension
-					add_idea = MEX_cedillo_tension_2
-				}
-			}
-		}
-	}
-	
-}
-
-# Category related to the Catholic Church in Mexico
-
-MEX_category_church_power = {
-
-	MEX_decision_transfer_lands_to_church = {
-	
-		icon = generic_operation
-		
-		fire_only_once = no
-		
-		days_remove = 90
-		
-		allowed = {
-			original_tag = MEX
-		}
-		
-		available = {
-			has_completed_focus = MEX_focus_antidisestablishmentarianism
-			NOT = { has_idea = MEX_church_power_5 }
-
-		}
-
-		cost = 75
-		
-		complete_effect = {
-			MEX_increase_church_power = yes		
-		}
-	}
-	
-	MEX_decision_nationalize_church_lands = {
-	
-		icon = generic_scorched_earth
-		
-		fire_only_once = no
-		
-		days_remove = 90
-		
-		allowed = {
-			original_tag = MEX
-		}
-		
-		available = {
-			NOT = { has_idea = MEX_church_power_1 }
-		}
-
-		cost = 75
-		
-		complete_effect = {
-			MEX_decrease_church_power = yes
-		}
-	}
-	
-	MEX_decision_pardon_cristero_fighter = {
-	
-		icon = generic_army_support
-		
-		fire_only_once = no
-		
-		days_remove = 30
-		
-		allowed = {
-			original_tag = MEX
-		}
-		
-		available = {
-			has_war_support < 0.95
-			has_completed_focus = MEX_focus_rewrite_the_constitution
-			OR = {
-				has_idea = MEX_church_power_4
-				has_idea = MEX_church_power_5
-			}
-		}
-
-		cost = 75
-		
-		remove_effect = {
-			add_war_support = 0.02
-			army_experience = 10
-		}
-	}
-	
-	MEX_decision_assassinate_cristero_traitor = {
-	
-		icon = generic_prepare_civil_war
-		
-		fire_only_once = no
-		
-		days_remove = 30
-		
-		allowed = {
-			original_tag = MEX
-		}
-		
-		available = {
-			has_war_support < 0.95
-			OR = {
-				has_idea = MEX_church_power_1
-				has_idea = MEX_church_power_2
-			}
-		}
-
-		cost = 75
-		
-		remove_effect = {
-			add_war_support = 0.02
-			army_experience = 10
-		}
-	}
-	
-	MEX_decision_attend_public_mass = {
-	
-		icon = generic_nationalism
-		
-		fire_only_once = no
-		
-		days_remove = 30
-		
-		allowed = {
-			original_tag = MEX
-		}
-		
-		available = {
-			has_stability < 0.95
-			has_completed_focus = MEX_focus_rewrite_the_constitution
-			OR = {
-				has_idea = MEX_church_power_4
-				has_idea = MEX_church_power_5
-			}
-		}
-
-		cost = 75
-		
-		remove_effect = {
-			add_stability = 0.03
-		}
-	}
-
-	MEX_decision_prosecute_clergyman = {
-	
-		icon = oppression
-		
-		fire_only_once = no
-		
-		days_remove = 30
-		
-		allowed = {
-			original_tag = MEX
-		}
-		
-		available = {
-			has_stability < 0.95
-			OR = {
-				has_idea = MEX_church_power_1
-				has_idea = MEX_church_power_2
-			}
-		}
-
-		cost = 75
-		
-		remove_effect = {
-			add_stability = 0.03
-		}
-	}
-	
-	MEX_decision_reconciliation_committee = {
-	
-		icon = generic_political_discourse
-		
-		fire_only_once = no
-		
-		days_remove = 90
-		
-		allowed = {
-			original_tag = MEX
-		}
-		
-		available = {
-			has_war_support > 0.1
-			has_stability < 0.95
-			NOT = {
-				OR = {
-					has_idea = MEX_church_power_5
-					has_idea = MEX_church_power_1 
-				} 
-			}
-		}
-
-		cost = 25
-		
-		remove_effect = {
-			add_stability = 0.05
-			add_war_support = -0.05
-		}
-	}
-
-	MEX_decision_incite_tensions = {
-	
-		icon = generic_break_treaty
-		
-		fire_only_once = no
-		
-		days_remove = 90
-		
-		allowed = {
-			original_tag = MEX
-		}
-		
-		available = {
-			has_stability > 0.1
-			has_war_support < 0.95
-			NOT = {
-				OR = {
-					has_idea = MEX_church_power_5
-					has_idea = MEX_church_power_1 
-				} 
-			}
-		}
-
-		cost = 25
-		remove_effect = {
-			add_stability = -0.05
-			add_war_support = 0.05
-		}
 	}
 }
 
@@ -4162,7 +3830,6 @@ political_actions = {
 		tag = SAF
 		tag = USA
 		tag = CAN
-		tag = MEX
 		tag = NOR 
 		}
 		}
@@ -4250,7 +3917,6 @@ political_actions = {
 		tag = USA
 		tag = CAN
 		tag = MAN
-		tag = MEX
 		tag = NOR 
 		}
 		}
@@ -4323,7 +3989,6 @@ political_actions = {
 		tag = SAF
 		tag = FIN 
 		tag = CAN
-		tag = MEX
 		tag = NOR }
 		}
 

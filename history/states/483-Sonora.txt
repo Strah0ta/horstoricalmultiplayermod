@@ -2,24 +2,9 @@
 state={
 	id=483
 	name="STATE_483"
-	manpower = 303987
+	manpower = 1
 	
 	state_category = rural
-
-	history={
-		owner = MEX
-		buildings = {
-			infrastructure = 3
-		}
-		add_core_of = MEX
-		1936.1.2 = {
-			owner = SWE
-			add_core_of = SWE
-		}
-		victory_points = {
-			10765 5
-		}
-	}
 
 	provinces={
 		2069 4908 4977 5071 8012 8033 10765 10848 12833 13214
