@@ -4,12 +4,12 @@ state={
 	name="Iraq"
 	manpower = 3428999
 	resources = { oil = 100 }
-	state_category = wasteland
+	state_category = rural
 
 	history={
 		owner = ENG
 		victory_points = {
-			2097 30
+			2097 15
 		}
 		victory_points = {
 			2089 1 
@@ -21,10 +21,10 @@ state={
 			8085 1
 		}
 						victory_points = {
-			12653 10
+			12653 5
 		}
 						victory_points = {
-			10106 20
+			10106 10
 		}
 						victory_points = {
 			10876 1
