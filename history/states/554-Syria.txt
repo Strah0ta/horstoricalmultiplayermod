@@ -27,7 +27,7 @@ infrastructure = 3
 arms_factory = 6
 air_base = 4
 792 = {
-naval_base = 5
+naval_base = 10
 }
 }
 }

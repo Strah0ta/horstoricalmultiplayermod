@@ -738,6 +738,7 @@ country_event = {
 option = {
 name = iran.3.a  
 	ENG = { transfer_state = 412 transfer_state = 413 transfer_state = 421  } 
+	ITA = {  set_state_controller = 413 set_state_controller = 421 }
 }
 	}
 	

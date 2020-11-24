@@ -2232,11 +2232,11 @@ SOV = {
 		name = "Boris Shaposhnikov"
         picture = "Portrait_Soviet_Boris_Shaposhnikov.dds"
 		traits = {  infantry_leader skilled_staffer expert_delegator organizer logistics_wizard  }
-		skill = 7
+		skill = 8
 		id = 9994010 
-    attack_skill = 4
+    attack_skill = 5
     defense_skill = 5
-    planning_skill = 3
+    planning_skill = 5
     logistics_skill = 10
 			}		
 			
@@ -2244,11 +2244,11 @@ SOV = {
 	name = "Nikolai Vatutin"
 		picture = "Portrait_Soviet_Nikolai_Fyodorovich_Vatutin.dds"
 	traits = { infantry_leader fake_skilled_staffer_sov organizer trait_reckless }
-	skill = 7
+	skill = 8
 	id = 9994011
-    attack_skill = 4
+    attack_skill = 5
     defense_skill = 5
-    planning_skill = 3
+    planning_skill = 5
     logistics_skill = 10
 }		
 
@@ -2256,11 +2256,11 @@ create_corps_commander = {
 	name = "Kirill Meretskov"
 		picture = "Portrait_Soviet_Kirill_Meretskov.dds"
 	traits = { infantry_leader fake_skilled_staffer_sov organizer trait_reckless }
-	skill = 7
+	skill = 8
 	id = 9999912
-    attack_skill = 4
+    attack_skill = 5
     defense_skill = 5
-    planning_skill = 3
+    planning_skill = 5
     logistics_skill = 10
 }
 
@@ -2268,12 +2268,12 @@ create_corps_commander = {
 	name = "Ivan Fedyuninsky"
 		picture = "Portrait_Soviet_Ivan_Fedyuninsky.dds"
 	traits = { infantry_leader skilled_staffer ambusher trait_engineer scavenger trickster guerilla_fighter trait_mountaineer hill_fighter  }
-	skill = 6
+	skill = 8
 	id = 9994027
-	attack_skill = 6
-	defense_skill = 5
-	planning_skill = 3
-	logistics_skill = 5
+	attack_skill = 7
+	defense_skill = 6
+	planning_skill = 5
+	logistics_skill = 7
 }
 
 create_corps_commander = {

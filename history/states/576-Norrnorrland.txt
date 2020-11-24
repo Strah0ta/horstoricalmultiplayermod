@@ -3,10 +3,10 @@ id=576
 name="Sweden"
 manpower = 1
 resources={
-tungsten=55
-steel= 237
-chromium = 90
-aluminium = 82
+tungsten=25
+steel= 137
+chromium = 60
+aluminium = 52
 }
 impassable = yes
 state_category = wasteland
