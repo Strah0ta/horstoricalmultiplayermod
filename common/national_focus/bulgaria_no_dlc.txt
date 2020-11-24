@@ -17,6 +17,7 @@ focus_tree = {
 	focus = {
 		id = BUL_political_force
 		icon = GFX_goal_generic_demand_territory
+		available = { is_ai = no }
 
 		x = 12
 		y = 0
@@ -209,12 +210,9 @@ focus_tree = {
 		y = 0
 		cost = 5
 
-		ai_will_do = {
-			factor = 10
-		}
-
 		available = {
 			has_completed_focus = BUL_ignore_treaty_neuilly_sur_seine
+			is_ai = no
 		}
 
 		available_if_capitulated = yes
@@ -336,6 +334,7 @@ focus_tree = {
 		x = 24
 		y = 2
 		cost = 5
+		available = { is_ai = no }
 
 		available_if_capitulated = yes
 
@@ -560,9 +559,10 @@ focus_tree = {
 		cost = 5
 
 		available = {
-			has_completed_focus = BUL_sign_salonika_agreement
+			has_completed_focus = BUL_sign_salonika_agreement\
+			is_ai = no
 		}
-
+		
 		completion_reward = {
 			air_experience = 25
 			add_tech_bonus = {
@@ -738,6 +738,7 @@ focus_tree = {
 
 		available = {
 			has_completed_focus = BUL_ignore_treaty_neuilly_sur_seine
+			is_ai = no
 		}
 
 		
@@ -979,13 +980,7 @@ focus_tree = {
 		x = 29
 		y = 0
 		cost = 5
-
-		ai_will_do = {
-			factor = 19
-		}
-
-		available = {
-		}
+		available = { is_ai = no }
 
 		available_if_capitulated = yes
 
@@ -1006,24 +1001,10 @@ focus_tree = {
 		y = 0
 		cost = 5
 
-		ai_will_do = {
-			factor = 10
-		}
-
-		available = {
-		}
+		available = { is_ai = no }
 
 		available_if_capitulated = yes
 
-		complete_tooltip = {
-			random_state = {
-				add_building_construction = {
-					type = industrial_complex
-					level = 2
-					instant_build = yes
-				}
-			}
-		}
 
 		completion_reward = {
 			#	Adds a civilian Factory (Warsaw)
@@ -1052,12 +1033,9 @@ focus_tree = {
 		y = 0
 		cost = 5
 
-		ai_will_do = {
-			factor = 10
-		}
-
 		available = {
 			has_completed_focus = BUL_ignore_treaty_neuilly_sur_seine
+			is_ai = no
 		}
 
 		available_if_capitulated = yes
