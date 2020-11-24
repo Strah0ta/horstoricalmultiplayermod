@@ -247,7 +247,7 @@
  HMP_templates_40w_inf_desc:0 "We will get a quality §Y20/0/0§! §Cgarrison§! template, cheap §Y20/0/0§! §Cgarrison§! template, a §Y18/0/4§! §Canti-tank§! template, and a §Y14/4/0§! artillery §Cgarrison§! template.\n\nThe §Cgarrison§! templates can be used for port or coastal defense, although 40w infantry templates are generally better. The §Y18/0/4§! §Canti-tank§! template is useful for defending tiles in §GAfrica§! as is the §Y16/2/2§! template, which is more flexible when pushing infantry. The §Y14/4/0§! infantry template, if the infantry are replaced with mountaineers/marines, is also useful for pushing enemy infantry and naval invading. There is also a §Y13/4/2§! infantry template that functions similarly to the §Y14/4/0§! template, but able to pierce medium tanks." 
  HMP_uk_noob:0 "The United Kingdom in Horstorical"
  HMP_uk_noob_desc:0 "We will get an event explaining the basics of The United Kingdom in Horstorical and we will receive four useful division templates for garrisoning the Atlantic, Mediterranean, and Middle-East"
- SOV_move_capital_kazan:0 "Move Capital to Kazan"
+ SOV_move_capital_kazan:0 "Move Capital to Kuibyshev"
  SOV_move_capital_stalingrad:0 "Move Capital to Stalingrad"
  SOV_move_capital_leningrad:0 "Move Capital to Leningrad"
  SOV_move_capital_moscow:0 "Move Capital to Moscow"

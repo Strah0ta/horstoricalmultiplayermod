@@ -1248,7 +1248,7 @@ GER_desert_flower_dec = {
 						controls_state = 291
 					}
 				} }
-	modifier = {civilian_factory_use = 10	}
+	modifier = {civilian_factory_use = 4	}
 	fire_only_once = yes
 	days_remove = 150
 	complete_effect = {
@@ -1318,7 +1318,9 @@ GER_case_anton = {
 		fire_only_once = yes
 		complete_effect = {
 							if = { limit = { EFR = { has_country_flag = host } } GER = { set_country_flag = host }  EFR = { clr_country_flag = host }  }
-
+hidden_effect = { 
+	if = { limit = { EFR = { controls_state = 554 } ENG = { OR = { controls_state = 291 controls_state = 455 controls_state = 454 }}}  FRA = { transfer_state = 554 }         }
+}
 		annex_country = { target = EFR		}
 						every_state = { limit = { is_core_of = EFR }  set_compliance = 100 } 
 			}
@@ -1617,7 +1619,9 @@ GER_case_anton = {
 			visible = { is_subject_of = GER }
 			complete_effect = {
 								if = { limit = { EFR = { has_country_flag = host } } GER = { set_country_flag = host }  EFR = { clr_country_flag = host }  }
-
+hidden_effect = { 
+	if = { limit = { EFR = { controls_state = 554 } ENG = { OR = { controls_state = 291 controls_state = 455 controls_state = 454 }}}  FRA = { transfer_state = 554 }         }
+}
 				GER = { change_tag_from = EFR } 				
 				GER = { annex_country = { target = EFR  transfer_troops = yes }  	}
 				}	
@@ -3492,10 +3496,10 @@ SOV_great_patriotic_war = {
 	SOV_move_capital_kazan={
 	icon = generic_civil_support
 	allowed = {	original_tag = SOV	}
-	visible={ has_war_with=GER controls_state = 249     }
+	visible={ has_war_with=GER controls_state = 251     }
 	available={
-	249={is_capital=no}}
-	complete_effect={ set_capital=249 }
+	251={is_capital=no}}
+	complete_effect={ set_capital=251 }
 	}
 	SOV_move_capital_stalingrad={
 	icon = generic_civil_support

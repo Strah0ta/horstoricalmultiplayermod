@@ -100,7 +100,7 @@ focus_tree = {
 
 		completion_reward = {	
 						swap_ideas = { remove_idea= great_patriotic_war_idea add_idea = SOV_barbarossa   }
-   249 = {
+   251 = {
    	set_building_level = {
 					type = infrastructure
 					level = 10
