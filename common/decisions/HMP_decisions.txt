@@ -1610,7 +1610,7 @@ hidden_effect = {
         available = {
 			OR = { 
 			NOT = { ITA = { controls_state = 448 controls_state = 450 }   }
-			date > 1942.3.1
+			date > 1942.3.1  
 			AND = { controls_state = 447 date > 1941.6.1 }
 			}
 		}

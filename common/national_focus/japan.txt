@@ -152,7 +152,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = JAP_develop_chinese_resources
 
-		cost = 10
+		cost = 5
 
 
 		completion_reward = {
@@ -169,14 +169,14 @@ focus_tree = {
 		y = 2
 		relative_position_id = JAP_liaison_conference
 
-		cost = 10
+		cost = 5
 
 
 		completion_reward = {
 			add_tech_bonus = {
 				name = JAP_strike_south_doctrine
 				bonus = 1.0
-				uses = 2
+				uses = 5
 				category = naval_doctrine	
 			}
 		}
@@ -191,7 +191,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = JAP_strike_south_doctrine
 
-		cost = 10
+		cost = 5
 
 
 		completion_reward = {
@@ -498,7 +498,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = JAP_national_defense_state
 
-		cost = 10
+		cost = 5
 
 
 		completion_reward = {
@@ -549,13 +549,8 @@ hidden_effect = {		set_technology = { naval_bomber2 = 1 }
 
 		completion_reward = {
 					custom_effect_tooltip = jap_nav_3
-			hidden_effect = { set_technology = { naval_bomber3 = 1 } 
-		        create_equipment_variant = {
-				name = "Yokosuka P1Y 'Ohka'"
-			type = nav_bomber_equipment_3 
-				parent_version = 0
-
-			}		} }
+			hidden_effect = { set_technology = { naval_bomber3 = 1 } }
+			}
 	}
 
 	focus = {
@@ -565,7 +560,7 @@ hidden_effect = {		set_technology = { naval_bomber2 = 1 }
 		y = 0
 		relative_position_id = JAP_purge_the_kodoha_faction 
 
-		cost = 10
+		cost = 5
 
 
 		completion_reward = {
@@ -581,7 +576,7 @@ hidden_effect = {		set_technology = { naval_bomber2 = 1 }
 		y = 1
 		relative_position_id = JAP_army_expansion_law
 
-		cost = 10
+		cost = 5
 
 		completion_reward = {
 			add_tech_bonus = {
@@ -597,7 +592,6 @@ hidden_effect = {		set_technology = { naval_bomber2 = 1 }
 		id = JAP_supremacy_of_technology
 		icon = GFX_goal_generic_production
 		prerequisite = { focus = JAP_small_arms_modernization }
-		#mutually_exclusive = { focus = JAP_supremacy_of_will }
 		x = 0
 		y = 1
 		relative_position_id = JAP_small_arms_modernization
@@ -643,10 +637,8 @@ hidden_effect = {		set_technology = { naval_bomber2 = 1 }
 		y = 1
 		relative_position_id = JAP_supremacy_of_technology
 
-		cost = 10
-
-
-
+		cost = 5
+		
 		completion_reward = {
 			add_tech_bonus = {
 				name = JAP_modern_artillery
@@ -665,7 +657,7 @@ hidden_effect = {		set_technology = { naval_bomber2 = 1 }
 		y = 2
 		relative_position_id = JAP_supremacy_of_technology
 
-		cost = 10
+		cost = 5
 
 		completion_reward = {
 			add_tech_bonus = {
@@ -717,7 +709,7 @@ hidden_effect = {		set_technology = { naval_bomber2 = 1 }
 		y = 1
 		relative_position_id = JAP_army_expansion
 
-		cost = 10
+		cost = 5
 
 
 		completion_reward = {
@@ -734,7 +726,7 @@ hidden_effect = {		set_technology = { naval_bomber2 = 1 }
 		y = 2
 		relative_position_id = JAP_army_expansion_law
 
-		cost = 10
+		cost = 5
 
 
 
@@ -742,7 +734,7 @@ hidden_effect = {		set_technology = { naval_bomber2 = 1 }
 			add_tech_bonus = {
 				name = JAP_fighter_modernization
 				bonus = 3.0
-				uses = 1
+				uses = 3
 				category = light_fighter	
 				category = cat_heavy_fighter
 			}
@@ -757,8 +749,7 @@ hidden_effect = {		set_technology = { naval_bomber2 = 1 }
 		y = 1
 		relative_position_id = JAP_fighter_modernization
 
-		cost = 10
-
+		cost = 5
 
 		completion_reward = {
 			custom_effect_tooltip = available_designer
@@ -774,8 +765,7 @@ hidden_effect = {		set_technology = { naval_bomber2 = 1 }
 		y = 1
 		relative_position_id = JAP_fighter_modernization
 
-		cost = 10
-
+		cost = 5
 
 		completion_reward = {
 			custom_effect_tooltip = available_designer
@@ -792,7 +782,7 @@ hidden_effect = {		set_technology = { naval_bomber2 = 1 }
 		y = 1
 		relative_position_id = JAP_agility_focus
 
-		cost = 10
+		cost = 5
 
 		completion_reward = {
 			custom_effect_tooltip = JAP_the_zero2_tt
@@ -813,7 +803,7 @@ hidden_effect = {		set_technology = { naval_bomber2 = 1 }
 		y = 2
 		relative_position_id = JAP_fighter_modernization
 
-		cost = 10
+		cost = 5
 
 		completion_reward = {
 			add_tech_bonus = {
