@@ -18,11 +18,12 @@ create_intelligence_agency = yes
 set_research_slots = 3
 set_rule = { can_be_spymaster = no }
 
-add_ideas = MAN_banditry
-add_ideas = MAN_south_manchuria_railway_company
-add_ideas = MAN_low_legitimacy_5
-add_ideas = armyandnavy_idea
-
+add_ideas = {
+	MAN_south_manchuria_railway_company
+	MAN_banditry
+	armyandnavy_idea
+	MAN_low_legitimacy_5
+} 
 add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 8000 }
 
 set_convoys = 50
@@ -44,17 +45,6 @@ create_country_leader = {
 	picture = "gfx/leaders/MAN/Portrait_Manchuria_Henry_Pu_Yi.dds"
 	expire = "1960.1.1"
 	ideology = rexism
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Aisin Gioro Puyi"
-	
-	picture = "gfx/leaders/MAN/Portrait_Manchuria_Henry_Pu_Yi.dds"
-	expire = "1960.1.1"
-	ideology = despotism
 	traits = {
 		
 	}

@@ -10,6 +10,7 @@ add_ideas = {
 	limited_conscription
 	partial_economic_mobilisation
 }
+set_fuel_ratio = 1
 
 add_to_tech_sharing_group = axis_research 
 

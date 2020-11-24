@@ -11,6 +11,12 @@ state={
 	state_category = large_city
 
 	history={
+					1936.1.2 = { 
+				buildings = {
+			arms_factory = 0
+			industrial_complex = 2 
+			}
+		}
 		owner = GER
 		victory_points = {
 			6282 5

@@ -1,5 +1,27 @@
 ideas = {
 	country = {
+	
+			GER_the_blitzkrieg = {
+			allowed = {	always = no	}
+			removal_cost = -1
+			picture = generic_acquire_tanks
+			available = { date > 1941.1.1  }
+			modifier = {		}
+			equipment_bonus = {
+				motorized_equipment = {
+					max_strength = 4 instant = yes
+				}
+				mechanized_equipment = {
+					max_strength = 5  instant = yes
+				}
+				amphibious_mechanized_equipment = {
+					max_strength = 5  instant = yes
+				}
+				armor = {
+					max_strength = 2 instant = yes
+				}
+			}
+		}
 		GER_totaler_krieg_idea = {
 			removal_cost = -1
 			allowed = {	always = no	}

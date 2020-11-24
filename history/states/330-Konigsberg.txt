@@ -12,7 +12,11 @@ state={
 		victory_points = {
 			6332 10 
 		}
-
+				1936.1.2 = { 
+				buildings = {
+			arms_factory = 0
+			}
+		}
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 4
@@ -20,7 +24,6 @@ state={
 			fuel_silo = 3
 			6332 = {
 				bunker = 1
-
 			}
 			anti_air_building = 2
 			6332 = {

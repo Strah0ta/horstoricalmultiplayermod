@@ -1002,7 +1002,8 @@ every_country = {
 		available = { has_country_flag = danzing	}		
 		cost = 0
 		complete_effect = {		
-		hidden_effect = { 		ENG = { add_to_faction = POL }  }
+		
+		hidden_effect = { 	every_country = { limit = { is_in_faction_with = GER } add_ideas = GER_the_blitzkrieg set_technology = { blitzkrieg_on = 1 popup = no } }	ENG = { add_to_faction = POL }  }
                     declare_war_on = {
                         target = POL
                         type = annex_everything
@@ -1552,8 +1553,33 @@ hidden_effect = {
 					transfer_troops = yes 
 				}
 			}
-		}
+		} 
 	}	
+		    mers_el_kebir = {
+		icon = generic_civil_support
+
+        allowed = {
+            original_tag = ENG
+        }
+
+        cost = 0
+		
+        fire_only_once = yes
+
+        available = {
+			date > 1940.10.3
+		}
+		
+		complete_effect = {
+		random_unit_leader = {
+                limit = { has_id = 983 }
+				add_unit_leader_trait = fleet_protector
+				add_unit_leader_trait = destroyer_leader
+				add_unit_leader_trait = green_water_expert
+            }
+
+		}
+		}
 	operation_countenance = {
 	icon = generic_civil_support
 
@@ -1607,7 +1633,7 @@ hidden_effect = {
         available = {	has_war_with = GER has_tech = rocket_artillery has_tech = improved_infantry_weapons 	}
 		visible = { NOT = {  has_start_date > 1936.01.02    } }
 		complete_effect = {
-			hidden_effect = { delete_unit_template_and_units  = {  division_template = "Egyptian Camel Corps"} delete_unit_template_and_units  = { division_template = "Egyptian Mountaineer Corps"}  	load_oob = "ENG_EGY"   }
+			hidden_effect = { set_technology = { antitank2 = 1 } delete_unit_template_and_units  = {  division_template = "Egyptian Camel Corps"} delete_unit_template_and_units  = { division_template = "Egyptian Mountaineer Corps"}  	load_oob = "ENG_EGY"   }
 					custom_effect_tooltip = "We will deploy our army in Egypt."
 			}	
 		}
@@ -3664,31 +3690,6 @@ lar_local_recruitment = {
 
 
 political_actions = {
-	    mers_el_kebir = {
-		icon = generic_civil_support
-
-        allowed = {
-            original_tag = ENG
-        }
-
-        cost = 0
-		
-        fire_only_once = yes
-
-        available = {
-			date > 1940.10.3
-		}
-		
-		complete_effect = {
-		random_unit_leader = {
-                limit = { has_id = 983 }
-				add_unit_leader_trait = fleet_protector
-				add_unit_leader_trait = destroyer_leader
-				add_unit_leader_trait = green_water_expert
-            }
-
-		}
-		}
 		    JAP_annex_manchukuo = {
 		icon = generic_operation
 		allowed = { tag = JAP}

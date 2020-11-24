@@ -6,6 +6,7 @@ set_variable = {
     var = min_fuel
     value = 0.800
 }
+set_fuel_ratio = 1
 
 add_to_tech_sharing_group = axis_research 
 create_intelligence_agency = yes
