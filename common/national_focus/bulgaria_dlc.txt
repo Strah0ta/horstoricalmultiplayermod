@@ -348,6 +348,18 @@ focus_tree = {
 		search_filters = {FOCUS_FILTER_INDUSTRY FOCUS_FILTER_MANPOWER}
 		completion_reward = {
 			add_ideas = BUL_secret_rearmament
+						add_tech_bonus = {
+				name = armor_bonus
+				bonus = 1
+				uses = 1
+				technology = basic_medium_tank
+			}
+						add_tech_bonus = {
+				name = armor_bonus
+				bonus = 1
+				uses = 1
+				technology = improved_light_tank
+			}
 		}
 	}
 
@@ -679,9 +691,14 @@ focus_tree = {
 			}
 			add_tech_bonus = {
 				name = BUL_war_logistics
-			    bonus = 1.0
-			    uses = 1
-			    technology = advanced_light_tank
+				bonus = 1
+				uses = 2
+				technology = advanced_light_tank
+				technology = improved_medium_tank
+				technology = improved_heavy_tank
+				technology = advanced_heavy_tank
+				technology = advanced_medium_tank
+				technology = super_heavy_tank
 			}
 		}
 	}

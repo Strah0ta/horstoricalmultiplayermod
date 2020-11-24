@@ -1601,16 +1601,29 @@ hidden_effect = {
 		
 			deploy_egypt = {   
 	    icon = generic_civil_support 
-        allowed = {   original_tag = LAT    }
+        allowed = {   original_tag = ENG    }
         cost = 0
         fire_only_once = yes
-        available = {	has_war_with = GER 	}
-		
+        available = {	has_war_with = GER has_tech = rocket_artillery has_tech = improved_infantry_weapons 	}
+		visible = { NOT = {  has_start_date > 1936.01.02    } }
 		complete_effect = {
-			hidden_effect = { 	load_oob = "ENG_EGY"   }
+			hidden_effect = { delete_unit_template_and_units  = {  division_template = "Egyptian Camel Corps"} delete_unit_template_and_units  = { division_template = "Egyptian Mountaineer Corps"}  	load_oob = "ENG_EGY"   }
+					custom_effect_tooltip = "We will deploy our army in Egypt."
 			}	
 		}
-		
+			deploy_sudan = {   
+	    icon = generic_civil_support 
+        allowed = {   original_tag = ENG    }
+        cost = 0
+        fire_only_once = yes
+        available = {	has_war_with = GER has_tech = rocket_artillery has_tech = improved_infantry_weapons 	}
+				visible = { NOT = {  has_start_date > 1936.01.02    } }
+
+		complete_effect = {
+					hidden_effect = { delete_unit_template_and_units  = { division_template = "King's African Rifles"} delete_unit_template_and_units  = { division_template = "African/Arabian Colonial Garrison"}     delete_unit_template_and_units  = { division_template = "Light Armor Division"} load_oob = "ENG_IEA_Front" }
+		custom_effect_tooltip = "We will deploy our army in the Horn of Africa region."
+			}	
+		}	
 		case_anton_player = {  
 			icon = generic_civil_support
 			allowed = {  original_tag = EFR  }

@@ -153,7 +153,7 @@ focus_tree = {
 		add_tech_bonus = {
 			name = "Artillery Modernization"
 			bonus = 1
-			uses = 6
+			uses = 8
 			category = artillery
 		}
 		add_tech_bonus = {
@@ -283,7 +283,8 @@ focus_tree = {
 
 		completion_reward = {
 			add_ideas = militarized_schools
-			add_ideas = limited_conscription
+			if = { limit = { has_idea = volunteer_only } add_ideas = limited_conscription }
+			if = { limit = { has_idea = limited_conscription } add_ideas = extensive_conscription }
 			}
 		}
 

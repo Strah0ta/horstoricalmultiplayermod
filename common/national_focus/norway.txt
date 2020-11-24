@@ -55,9 +55,8 @@ focus_tree = {
 
 	focus = {
 		id = nor_motorization_effort
-		icon = GFX_goal_generic_army_motorized
+		icon = GFX_goal_generic_army_artillery 
 		prerequisite = { focus = nor_army_effort }
-		bypass = { has_tech = motorised_infantry }
 		x = 1
 		y = 1
 		relative_position_id = nor_army_effort
@@ -67,9 +66,10 @@ focus_tree = {
 
 		completion_reward = {
 			add_tech_bonus = {
-				name = motorized_bonus
-				bonus = 3.0
-				technology = motorised_infantry
+				name = infantry_artillery_bonus
+				bonus = 1.0
+				uses = 1
+				category = artillery
 			}
 		}
 	}
@@ -98,7 +98,7 @@ focus_tree = {
 
 	focus = {
 		id = nor_equipment_effort_2
-		icon = GFX_goal_generic_army_artillery
+		icon = GFX_goal_generic_small_arms
 		prerequisite = { focus = nor_equipment_effort }
 		x = 0
 		y = 2
@@ -119,7 +119,7 @@ focus_tree = {
 
 	focus = {
 		id = nor_mechanization_effort
-		icon = GFX_goal_generic_build_tank
+		icon = GFX_goal_generic_army_artillery
 		prerequisite = { focus = nor_motorization_effort }
 		x = 0
 		y = 2
@@ -129,11 +129,11 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_tech_bonus = {
-				name = motorized_bonus
-				ahead_reduction = 2
+					add_tech_bonus = {
+				name = infantry_artillery_bonus
+				bonus = 1.0
 				uses = 1
-				category = motorized_equipment
+				category = artillery
 			}
 		}
 	}
@@ -162,7 +162,7 @@ focus_tree = {
 
 	focus = {
 		id = nor_equipment_effort_3
-		icon = GFX_goal_generic_army_artillery2
+		icon = GFX_goal_generic_small_arms
 		prerequisite = { focus = nor_equipment_effort_2 }
 		x = 0
 		y = 2
@@ -183,7 +183,7 @@ focus_tree = {
 
 	focus = {
 		id = nor_armor_effort
-		icon = GFX_goal_generic_army_tanks
+		icon = GFX_goal_generic_army_artillery
 		prerequisite = { focus = nor_mechanization_effort }
 		x = 0
 		y = 2
@@ -193,11 +193,11 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_tech_bonus = {
-				name = armor_bonus
+					add_tech_bonus = {
+				name = infantry_artillery_bonus
 				bonus = 1.0
-				uses = 2
-				category = armor
+				uses = 1
+				category = artillery
 			}
 		}
 	}
@@ -221,12 +221,9 @@ focus_tree = {
 				name = special_forces_bonus
 				bonus = 1.0
 				uses = 1
-				technology = paratroopers
-				technology = paratroopers2
-				technology = marines
-				technology = marines2
-				technology = tech_mountaineers
-				technology = tech_mountaineers2
+			category = mountaineers_tech
+			category = marine_tech
+			category = para_tech
 			}
 		}
 	}
@@ -234,9 +231,9 @@ focus_tree = {
 	focus = {
 		id = nor_aviation_effort
 		icon = GFX_goal_generic_build_airforce
-		x = 5
+		x = 4
 		y = 0
-		cost = 10
+		cost = 5
 
 		available_if_capitulated = yes
 
@@ -257,7 +254,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = nor_aviation_effort
-		cost = 10
+		cost = 5
 
 		available_if_capitulated = yes
 
@@ -302,50 +299,9 @@ focus_tree = {
 	}
 
 	focus = {
-		id = nor_naval_effort
-		icon = GFX_goal_generic_construct_naval_dockyard
-		x = 7
-		y = 0
-		cost = 5
-
-		available_if_capitulated = yes
-
-
-		available = {
-			any_state = {
-				is_coastal = yes
-				is_controlled_by = ROOT
-			}
-		}
-
-		complete_tooltip = {
-			add_extra_state_shared_building_slots = 3
-			add_building_construction = {
-				type = dockyard
-				level = 3
-				instant_build = yes
-			}
-		}
-		
-		completion_reward = {
-		110 = {
-					add_extra_state_shared_building_slots = 3
-					add_building_construction = {
-						type = dockyard
-						level = 3
-						instant_build = yes
-					}
-				}
-				set_country_flag = naval_effort_built
-		
-		}
-	}
-
-
-	focus = {
 		id = nor_industrial_effort
 		icon = GFX_goal_generic_production
-		x = 9
+		x = 6
 		y = 0
 		cost = 10
 
@@ -355,8 +311,11 @@ focus_tree = {
 			add_tech_bonus = {
 				name = industrial_bonus
 				bonus = 1.0
-				uses = 1
-				category = industry
+				uses = 2  
+				technology = assembly_line_production
+				technology = flexible_line
+				technology = streamlined_line
+				
 			}
 		}
 
@@ -369,7 +328,7 @@ focus_tree = {
 		id = nor_construction_effort
 		icon = GFX_goal_generic_construct_civ_factory
 		prerequisite = { focus = nor_industrial_effort }
-		x = -1
+		x = 0
 		y = 1
 		relative_position_id = nor_industrial_effort
 		cost = 10
@@ -585,38 +544,10 @@ focus_tree = {
 	}
 
 	focus = {
-		id = nor_nuclear_effort
-		icon = GFX_focus_wonderweapons
-		prerequisite = { focus = nor_infrastructure_effort_2 }
-		x = -2
-		y = 1
-		relative_position_id = nor_infrastructure_effort_2
-		cost = 10
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_tech_bonus = {
-				name = nuclear_bonus
-				ahead_reduction = 2
-				category = nuclear
-			}
-		}
-
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0.25
-				always = yes
-			}
-		}
-	}
-
-	focus = {
 		id = nor_extra_tech_slot
 		icon = GFX_focus_research
 		prerequisite = { focus = nor_infrastructure_effort_2 }
-		x = 0
+		x = -1
 		y = 1
 		relative_position_id = nor_infrastructure_effort_2
 		cost = 10
@@ -632,7 +563,7 @@ focus_tree = {
 		id = nor_secret_weapons
 		icon = GFX_goal_generic_secret_weapon
 		prerequisite = { focus = nor_infrastructure_effort_2 }
-		x = 2
+		x = 1
 		y = 1
 		relative_position_id = nor_infrastructure_effort_2
 		cost = 10
@@ -661,7 +592,7 @@ focus_tree = {
 	focus = {
 		id = nor_political_effort
 		icon = GFX_goal_generic_demand_territory
-		x = 12
+		x = 8
 		y = 0
 		cost = 10
 
@@ -672,36 +603,14 @@ focus_tree = {
 		}
 	}
 
-
-	focus = {
-		id = nor_liberty_ethos
-		icon = GFX_goal_support_democracy
-		prerequisite = { focus = nor_political_effort }
-		available = {
-		
-		}
-		x = 0
-		y = 1
-		relative_position_id = nor_political_effort
-		cost = 5
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_ideas = liberty_ethos_focus
-		}
-	}
-
-
-
 	focus = {
 		id = nor_neutrality_focus
 		icon = GFX_goal_generic_neutrality_focus
-		prerequisite = { focus = nor_liberty_ethos }
+		prerequisite = { focus = nor_political_effort }
 
 		x = 0
 		y = 1
-		relative_position_id = nor_liberty_ethos
+		relative_position_id = nor_political_effort
 		cost = 10
 
 		available_if_capitulated = yes
@@ -748,7 +657,7 @@ focus_tree = {
 		continue_if_invalid = yes
 		
 		x = 0
-		y = 2
+		y = 1
 		relative_position_id = nor_deterrence 
 		cost = 10
 
@@ -773,16 +682,6 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			if = {
-				limit = {
-					original_research_slots < 3
-				}
-				add_research_slot = 1
-			}
-			if = {
-				limit = {
-					original_research_slots > 2
-				}
 				add_tech_bonus = {
 					name = electronics_bonus
 					bonus = 1.0
@@ -802,7 +701,6 @@ focus_tree = {
 					category = infantry_weapons
 					category = artillery
 				}				
-			}			
 		}
 	}	
 		
@@ -816,7 +714,7 @@ focus_tree = {
 		date > 1940.8.1
 		}
 		}	
-		x = 15
+		x = 11
 		y = 0
 
 		cost = 10
@@ -855,7 +753,7 @@ focus_tree = {
 		add_timed_idea = { idea = NOR_recover_eff days = 20 }
 		add_offsite_building = { type = industrial_complex level = 12 }
 		add_offsite_building = { type = arms_factory level = 20 }
-		add_offsite_building = { type = dockyard level = 2 }
+		add_offsite_building = { type = dockyard level = 5 }
 		if = { limit = { NOT = { owns_state = 110 }} set_cosmetic_tag = FREE_NORWAY  }
 			add_manpower = 750000
 
@@ -910,7 +808,6 @@ focus_tree = {
 
 			available_if_capitulated = yes
 			completion_reward = {
-				army_experience = 30
 				add_ideas = NOR_army_buffs
 			}
 		}
@@ -937,7 +834,6 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-							army_experience = 90
 							add_ideas = NOR_spec_ops
 		}
 		
@@ -995,8 +891,8 @@ focus_tree = {
 
 		completion_reward = {
 				add_tech_bonus = {
-							bonus = 1.0
-							uses = 2
+							bonus = 3.0
+							uses = 3
 							category = land_doctrine
 						}
 													add_ideas = NOR_army_buffs2
@@ -1024,7 +920,7 @@ focus_tree = {
 		completion_reward = {
 				add_tech_bonus = {
 							bonus = 3.0
-							uses = 1
+							uses = 2
 					category = tp_tech
 					}
 		
