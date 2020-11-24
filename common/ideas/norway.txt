@@ -7,6 +7,7 @@ country = {
 	modifier = {
 	winter_attrition_factor = -0.25
 	acclimatization_cold_climate_gain_factor = 0.1
+	training_time_factor = -0.5
 	}
 	
 	}
@@ -50,7 +51,7 @@ country = {
 	NOR_spec_ops = {
 	picture = ast_volunteer_defence_corps
 	modifier = {
-	special_forces_training_time_factor = -0.5
+	special_forces_training_time_factor = -0.2
 	max_command_power = 20
 	}
 	}

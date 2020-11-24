@@ -8,6 +8,11 @@ spriteTypes = {
 		name = "GFX_JAP_cv_fighter3_medium"
 		texturefile = "gfx/interface/technologies/JAP_fighter2_cv.dds"
 	}	
+		SpriteType = {
+		name = "GFX_division_3d_bg_inv"
+		texturefile = "gfx/interface/division_3d_bg_inv.dds"
+	}		
+	
 			SpriteType = {
 		name = "GFX_SOV_sov_fighter2_medium"
 		texturefile = "gfx/interface/technologies/SOV_fighter2.dds"

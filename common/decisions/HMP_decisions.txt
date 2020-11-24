@@ -1726,7 +1726,7 @@ GER_case_anton = {
 			
 		available = {
 		FRA = { is_ai = yes }
-		FRA = { has_capitulated = yes }
+		NOT = { FRA = { owns_state = 16 } }
 		}
 	
 		fire_only_once = yes
@@ -1776,7 +1776,7 @@ GER_case_anton = {
 	 ENG_annex_norway = {
 		icon = generic_operation
 		allowed = {	original_tag = ENG	}
-		available = {	NOR = { 	is_ai = yes 	has_capitulated = yes 	}	}
+		available = {	NOR = { 	is_ai = yes 	NOT = { owns_state = 110 } 	}	}
 		cost = 0
 		visible = {	country_exists = NOR	}
 		fire_only_once = yes
@@ -1873,7 +1873,7 @@ GER_case_anton = {
 
 		available = {
 			has_country_leader = { ruling_only = yes name = "Winston Churchill" }
-			FRA = { has_capitulated = yes }
+			FRA = { NOT = { owns_state = 16 } }
 		}
 
 		cost = 50
@@ -3600,6 +3600,7 @@ lar_local_recruitment = {
 							exists = yes
 							has_capitulated = yes
 							NOT = { tag = ROOT }
+							normally_played_country = yes
 						}
 					}
 					AND = {

@@ -28,6 +28,8 @@ guiTypes = {
 		position = { x = 0 y = 0 }
 		size = { width = 270 height = 30 }
 		
+		
+		
 		Background = {
 			name = "unit_stats_list_entry_bg"
 			quadTextureSprite = "GFX_unit_stats_list_entry_bg2"
@@ -109,8 +111,8 @@ guiTypes = {
 			
 			background = {
 				name ="bg_tech_button"
-				spriteType = "GFX_division_3d_bg"	
-				position = { x=0 y=0 }
+				spriteType = "GFX_division_3d_bg_inv"	
+				position = { x=6 y=6 }
 				size = { x=100%% y=100%%}
 			}
 		}
@@ -379,7 +381,7 @@ guiTypes = {
 
 		instantTextboxType = {
 			name = "experience"
-			position = { x = 23373 y = 5309 }
+			position = { x = 273 y = -10000 }
 			font = "hoi_18mbs"
 			maxWidth = 126
 			maxHeight = 20
@@ -645,7 +647,7 @@ guiTypes = {
 		
 		containerWindowType = {
 			name = "designerregimentswindow"
-			position = { x=-10 y=40}	
+			position = { x=0 y=40}	
 			size = { width=549 height=459 }
 			margin = { top = 14 bottom = 11 }
 			verticalScrollbar = "right_vertical_slider"
@@ -850,6 +852,7 @@ guiTypes = {
 			name = "div_template_select_model"
 			position = { x=538 y=40 }
 			size = { width=567 height=460 }
+			show_sound = pop_up
 			
 			
 			background = {
@@ -1032,7 +1035,7 @@ guiTypes = {
 		iconType = {
 			name ="subunit_icon"
 			spriteType = "GFX_technology_medium"
-			position = { x=9 y=13 }
+			position = { x=9 y=12 }
 			alwaystransparent = yes
 		}
 	
@@ -1049,9 +1052,9 @@ guiTypes = {
 			alwaystransparent = yes
 		}
 		
-				instantTextboxType = {
+		instantTextboxType = {
 			name = "cost"
-			position = { x = 853 y = 41 }
+			position = { x = 85 y = -10000 }
 			textureFile = ""
 			font = "hoi_18mbs"
 			borderSize = {x = 0 y = 0}
@@ -1061,7 +1064,6 @@ guiTypes = {
 			format = left
 			alwaystransparent = yes
 		}
-
 	}
 	
 	containerWindowType = {
@@ -1078,7 +1080,7 @@ guiTypes = {
 		iconType = {
 			name ="subunit_icon"
 			spriteType = "GFX_technology_medium"
-			position = { x=9 y=13 }
+			position = { x=9 y=17 }
 			alwaystransparent = yes
 		}
 	
@@ -1097,7 +1099,7 @@ guiTypes = {
 		
 		instantTextboxType = {
 			name = "cost"
-			position = { x = 853 y = 41 }
+			position = { x = 85 y = -10000 }
 			textureFile = ""
 			font = "hoi_18mbs"
 			borderSize = {x = 0 y = 0}
