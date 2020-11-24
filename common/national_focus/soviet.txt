@@ -447,7 +447,7 @@ focus_tree = {
 					}
 				
 				}
-				586 = {
+				480 = {
 	
 					add_building_construction = {
 						type = infrastructure
@@ -473,7 +473,7 @@ focus_tree = {
 				}
 				
 			}	
-						582 = {
+						484 = {
 				add_building_construction = {
 					type = infrastructure
 					level = 3

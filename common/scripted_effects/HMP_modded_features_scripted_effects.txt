@@ -192,7 +192,7 @@ HMP_sov_civ_to_mill2 = {
 random_owned_controlled_state = { 	limit = {  is_core_of = SOV industrial_complex > 0 } 
 	remove_building = {type = industrial_complex level = 1 }
 	}
-random_owned_controlled_state = { limit = { OR = { state = 572 state = 179 state = 571 state = 590 state = 582 }}      	
+random_owned_controlled_state = { limit = { OR = { state = 572 state = 179 state = 571 state = 477 state = 484 }}      	
 	add_extra_state_shared_building_slots = 2 add_building_construction = { type = arms_factory level = 2 instant_build = yes }}
 }
 
@@ -646,7 +646,7 @@ SOV_relocate_civ = {
 				remove_building = {type = industrial_complex level = 1}
 			OWNER={
 				random_owned_controlled_state={
-					limit={OR={state=582 state=572 state=583 state=590 state=573 state=179}}
+					limit={OR={state=484 state=572 state=483 state=477 state=573 state=179}}
 					add_extra_state_shared_building_slots=2
 					add_building_construction = {
    				 		type = industrial_complex
@@ -669,7 +669,7 @@ SOV_relocate_civ_into_two_mills = {
 				remove_building = {type = industrial_complex level = 1}
 			OWNER={
 				random_owned_controlled_state={
-					limit={OR={state=582 state=572 state=583 state=590 state=573 state=179}}
+					limit={OR={state=484 state=572 state=483 state=477 state=573 state=179}}
 					add_extra_state_shared_building_slots=2
 					add_building_construction = {
    				 		type = arms_factory
@@ -687,7 +687,7 @@ SOV_relocate_mil = {
 				remove_building = {type = arms_factory level = 1}
 			OWNER={
 				random_owned_controlled_state={
-					limit={OR={state=582 state=572 state=590 state=573 state=583 state=179}}
+					limit={OR={state=484 state=572 state=477 state=573 state=483 state=179}}
 					add_extra_state_shared_building_slots=1
 					add_building_construction = {
    				 		type = arms_factory
@@ -704,7 +704,7 @@ SOV_relocate_civ_moscow = {
 				remove_building = {type = industrial_complex level = 1}
 			OWNER={
 				random_owned_controlled_state={
-					limit={OR={state=582 state=572 state=583 state=590 state=573 state=179}}
+					limit={OR={state=484 state=572 state=483 state=477 state=573 state=179}}
 					add_extra_state_shared_building_slots=1
 					add_building_construction = {
    				 		type = industrial_complex
@@ -722,7 +722,7 @@ SOV_relocate_mil_moscow = {
 				OWNER={add_to_variable={relocatedmil = 1}}
 			OWNER={
 				random_owned_controlled_state={
-					limit={OR={state=582 state=572 state=590 state=573 state=583 state=179}}
+					limit={OR={state=484 state=572 state=477 state=573 state=483 state=179}}
 					add_extra_state_shared_building_slots=1
 					add_building_construction = {
    				 		type = arms_factory
@@ -1371,7 +1371,7 @@ if = { limit = { EFR = { controls_state = 556 } } EFR = { add_to_variable={vichy
 if = { limit = { EFR = { controls_state = 543 } } EFR = { add_to_variable={vichy_legitimacy_mechanic_stability_factor=0.15}  }  }#WEST AFRICA
 if = { limit = { EFR = { controls_state = 554 } } EFR = { add_to_variable={vichy_legitimacy_mechanic_stability_factor=0.15}  }  }#SYRIA
 if = { limit = { EFR = { controls_state = 460 } } EFR = { add_to_variable={vichy_legitimacy_mechanic_stability_factor=0.15}  }  }#ALGERIA
-if = { limit = { EFR = { controls_state = 581 } }EFR = {  add_to_variable={vichy_legitimacy_mechanic_stability_factor=0.15}  }  }#CAMEROON
+if = { limit = { EFR = { controls_state = 277 } }EFR = {  add_to_variable={vichy_legitimacy_mechanic_stability_factor=0.15}  }  }#CAMEROON
 if = { limit = { EFR = { is_subject_of = GER } } EFR = { add_to_variable={vichy_legitimacy_mechanic_stability_factor=-0.3}  }  }#Puppet check
 }
 
@@ -3699,7 +3699,7 @@ transfer_state = 321 #Sumatra
 transfer_state = 336 #Singapore
 transfer_state = 333 #North Borneo
 transfer_state = 418 #Mindanao 
-transfer_state = 587 #Cebu 
+transfer_state = 485 #Cebu 
 transfer_state = 417 #Palawan
 transfer_state = 403 #Central Islands 
 transfer_state = 327 #Manila
@@ -3717,7 +3717,7 @@ transfer_state = 139 #Fiji
 transfer_state = 490 #Samoa
 transfer_state = 124 #New Caledonia 
 transfer_state = 491 #Nauru 
-transfer_state = 589 #Gilbert Islands 
+transfer_state = 485 #Gilbert Islands 
 transfer_state = 568 #Phoenix Island 
 transfer_state = 489 #Nendo 
 transfer_state = 565 #Ellice Islands 
@@ -3946,8 +3946,8 @@ transfer_state = 543
 }
 ###CENTRAL AFRICA - BET###
 if = { limit = { FRA = { check_variable = { FRA_legitimacy 	< 40 } } }
-transfer_state = 581
-581 = { set_demilitarized_zone = yes }
+transfer_state = 277
+277 = { set_demilitarized_zone = yes }
 }
 ###CENTRAL AFRICA - GABON###
 if = { limit = { FRA = { check_variable = { FRA_legitimacy 	< 20 } } }

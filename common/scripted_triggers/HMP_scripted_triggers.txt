@@ -11,7 +11,7 @@ disabled_ai_production = {
 NOT = { OR = { tag = DEN tag = HOL tag = POL tag = CHI tag = BEL tag = LAT tag = CZE tag = AUS tag = YUG tag = GRE } }
 }
 
-bad_infra_state = { OR = { state = 412 state = 585 state = 148 state = 144 state = 213 state = 502 state = 147  } }
+bad_infra_state = { OR = { state = 412 state = 481 state = 148 state = 144 state = 213 state = 502 state = 147  } }
 
 atlantikwall_states = {
 is_on_continent = europe

@@ -912,14 +912,14 @@ check_variable = {  FRA_legitimacy > 40  }    		date > 1940.8.5
 		}
 		
 		bypass = {
-		OR = { controls_state = 581
+		OR = { controls_state = 277
 		has_war_with = EFR }
 		}
 
 		available_if_capitulated = yes
 		search_filters = { FOCUS_FILTER_ANNEXATION }
 		completion_reward = {
-transfer_state = 581
+transfer_state = 277
 recalc_vichy_france_legitimacy = yes 
 		}
 	}
