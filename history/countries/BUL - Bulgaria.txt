@@ -100,7 +100,15 @@ create_country_leader = {
 		#
 	}
 }
-
+        create_operative_leader = { #DLC
+            name = "Vladimir Zaimov"
+            GFX = GFX_portrait_bul_vladimir_zaimov
+            traits = { operative_infiltrator operative_commando }
+            bypass_recruitment = no
+            available_to_spy_master = yes
+            nationalities = { BUL }
+			}
+			
 create_equipment_variant = {
 	name = "Drazki Class"				
 	type = ship_hull_light_1

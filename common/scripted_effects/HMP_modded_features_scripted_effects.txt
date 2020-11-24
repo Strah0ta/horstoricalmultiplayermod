@@ -1955,8 +1955,8 @@ create_corps_commander = {
 HMP_ROM_generals = {
 BUL = {
 create_navy_leader = {
-	name = "Kyril Mikhailov"
-	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_navy_2.dds"
+    name = "Atanas Shalapatov"
+    gfx = GFX_portrait_bul_atanas_shalapatov
 	traits = {  concealment_expert superior_tactician fleet_protector air_controller ground_pounder fly_swatter  green_water_expert spotter ironside big_guns_expert }
 	skill = 5
 	attack_skill = 4
@@ -1965,8 +1965,8 @@ create_navy_leader = {
 	coordination_skill = 4
 }
 create_field_marshal = { #DONE
-	name = "Konstantin Bekyarov"
-	picture = "Portrait_Bulgaria_Konstantin_Bekyarov.dds"
+	name = "Nikola Mihailov Mihov"
+    gfx = GFX_portrait_bul_nikola_mihov
 	traits = { infantry_leader adaptable ambusher defensive_doctrine adaptable inspirational_leader organisational_leader organizer logistics_wizard }
 	skill = 8
 	attack_skill = 5
@@ -1977,9 +1977,9 @@ create_field_marshal = { #DONE
 }
 
 create_corps_Commander = { #DONE
-	name = "Nikola Nedeva"
-	picture = "Portrait_Bulgaria_Nikola_Dimitrov_Nedeva.dds"
-	traits = { old_guard bearer_of_artillery infantry_leader urban_assault_specialist ranger infantry_expert fortress_buster trickster expert_improviser  trait_engineer }
+    name = "Angel Dotsev"
+    gfx = GFX_portrait_bul_angel_dotsev
+	traits = { organizer  old_guard bearer_of_artillery infantry_leader urban_assault_specialist ranger infantry_expert fortress_buster trickster expert_improviser  trait_engineer }
 	skill = 8
 	attack_skill = 6
 	defense_skill = 8
@@ -1988,9 +1988,9 @@ create_corps_Commander = { #DONE
 
 }
 
-create_field_marshal = { #DONE
-	name = "Vladimir Stoychev"
-	picture = "Portrait_Bulgaria_Vladimir_Dimitrov_Stoychev.dds"
+create_field_marshal = {
+	name = "Konstantin Lukash"
+        gfx = GFX_portrait_bul_konstantin_lukash
 	traits = { infantry_leader ranger infantry_expert defensive_doctrine trickster inspirational_leader commando camouflage_expert }
 	skill = 8
 	attack_skill = 7
@@ -2001,9 +2001,9 @@ create_field_marshal = { #DONE
 }
 
 create_field_marshal = { #DONE
-	name = "Dimitr Ayryanov"
-	picture = "Portrait_Bulgaria_Dimitr_Vasilev_Ayryanov.dds"
-	traits = { organizer offensive_doctrine trait_engineer scavenger panzer_leader panzer_expert urban_assault_specialist ranger  logistics_wizard fast_planner trickster  }
+	name = "Nikola Stoychev"
+    gfx = GFX_portrait_bul_nikola_stoychev
+	traits = { trait_cautious  organizer offensive_doctrine trait_engineer scavenger panzer_leader panzer_expert urban_assault_specialist ranger  logistics_wizard fast_planner trickster  }
 	skill = 8
 	attack_skill = 6
 	defense_skill = 6
@@ -2013,9 +2013,9 @@ create_field_marshal = { #DONE
 }
 
 create_corps_Commander = { #DONE
-	name = "Nikola Markov"
-	picture = "Portrait_Bulgaria_Nikola_Markov.dds"
-	traits = { infantry_leader trait_mountaineer desert_fox hill_fighter infantry_expert  trickster camouflage_expert }
+    name = "Georgi Popov"
+    gfx = GFX_portrait_bul_georgi_popov
+	traits = { skilled_staffer infantry_leader trait_mountaineer desert_fox hill_fighter infantry_expert  trickster camouflage_expert }
 	skill = 8
 	attack_skill = 6
 	defense_skill = 5
@@ -2025,9 +2025,9 @@ create_corps_Commander = { #DONE
 }
 
 create_corps_Commander = { #DONE
-	name = "Asen Nikolov"
-	picture = "Portrait_Bulgaria_Asen_Nikolov.dds"
-	traits = { organizer panzer_leader panzer_expert urban_assault_specialist ranger naval_liason trickster expert_improviser }
+	name = "Damian Velchev"
+        gfx = GFX_portrait_bul_damyan_velchev
+	traits = { harsh_leader trait_reckless organizer panzer_leader panzer_expert urban_assault_specialist ranger naval_liason trickster expert_improviser }
 	skill = 8
 	attack_skill = 6
 	defense_skill = 5
