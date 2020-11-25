@@ -16,6 +16,7 @@
  deploy_sudan:0 "Deploy the Sudan and Kenyan Defense Force"
  deploy_sudan_desc:0 "This requires 1939 Infantry Equipment and 1940 Rocket Artillery research"
  khalkin_gol:0 "Battle of Khalkin Gol"
+ GER_around_iraq:0 "Seize Syria"
  ENG_annex_raj:0 "Annex the British Raj"
  GER_zit:0 "Unternehmen Zitadelle (Soviet Union)"
  GER_fall_blau_op:0 "§gFall§! §CBlau (Soviet Union)§!"

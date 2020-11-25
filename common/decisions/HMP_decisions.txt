@@ -1263,6 +1263,20 @@ GER_desert_flower_dec = {
 				}
 			}
 			
+	GER_around_iraq = {
+	icon = generic_operation
+	allowed = { tag = GER }
+	available = {	NOT = { controls_state = 291 } controls_state = 455 EFR = { controls_state = 554  }} 
+	fire_only_once = yes
+	days_remove = 150
+	complete_effect = {
+		FRA = { transfer_state = 554 } 
+		country_event = { id = germany.378 } 
+		554 = { set_demilitarized_zone = no}
+				}
+			}		
+			
+			
 	GER_do_anschluss = { 
 	icon = generic_operation
 	allowed = { tag = GER }

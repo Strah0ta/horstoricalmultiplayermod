@@ -1659,7 +1659,7 @@ NZL = {
    }
       option = {
    name = "Reconsider..."
-    country_event = { id = japan.148 }
+    country_event = { id = japan.758 }
    }
 }
 
