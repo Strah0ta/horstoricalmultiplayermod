@@ -1452,8 +1452,8 @@ HMP_script_balkans = {
 		}
 
 	HMP_script_china = {	
-			every_state = { limit = { is_core_of = CHI NOT = { state = 584 }} JAP = {	transfer_state = PREV	} }
-			SWE = { transfer_state = 584 } JAP = { transfer_state = 584 }
+			every_state = { limit = { is_core_of = CHI NOT = { state = 498 }} JAP = {	transfer_state = PREV	} }
+			SWE = { transfer_state = 498 } JAP = { transfer_state = 498 }
 			every_state = { limit = { is_core_of = CHI }  set_compliance = 100 }  
 			524 = { set_compliance = 100 }
 			USA = { add_war_support = 0.15 } 
