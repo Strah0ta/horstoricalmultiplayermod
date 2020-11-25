@@ -14,11 +14,6 @@ state={
 			arms_factory = 3
 			fuel_silo = 3
 		}
-						1936.1.2 = { 
-				buildings = {
-			arms_factory = 0
-			}
-		}
 		add_core_of = GER
 		victory_points = {
 			9515 3

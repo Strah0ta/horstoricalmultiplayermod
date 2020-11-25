@@ -13,9 +13,6 @@ state={
 			6332 10 
 		}
 				1936.1.2 = { 
-				buildings = {
-			arms_factory = 0
-			}
 		}
 		buildings = {
 			infrastructure = 6
