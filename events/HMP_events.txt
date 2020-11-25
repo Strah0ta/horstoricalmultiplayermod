@@ -3304,7 +3304,6 @@ is_triggered_only = yes
         title = "Resurgent Red Airforce"
         desc = "As the war drags on our airforce increasingly intercepts German ground support aircraft, slowly turning the tide of the land war."
         picture = GFX_report_event_ace_promoted
-        fire_only_once = yes
 	    is_triggered_only = yes
         option = {
 				name = "We will shoot these fascist dogs out of the skies!"

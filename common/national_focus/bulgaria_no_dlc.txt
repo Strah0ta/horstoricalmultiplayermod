@@ -559,7 +559,7 @@ focus_tree = {
 		cost = 5
 
 		available = {
-			has_completed_focus = BUL_sign_salonika_agreement\
+			has_completed_focus = BUL_sign_salonika_agreement
 			is_ai = no
 		}
 		
