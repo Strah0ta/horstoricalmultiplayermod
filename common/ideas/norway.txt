@@ -6,7 +6,7 @@ country = {
 	picture = FRA_army_of_aggression_focus
 	modifier = {
 	winter_attrition_factor = -0.25
-	acclimatization_cold_climate_gain_factor = 0.1
+	acclimatization_cold_climate_gain_factor = 1000
 	training_time_factor = -0.5
 	}
 	
