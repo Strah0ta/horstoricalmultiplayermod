@@ -1,5 +1,4 @@
 technologies = {
-
 	gw_artillery = {
 		allow = { disabled_ai_production = yes }
 

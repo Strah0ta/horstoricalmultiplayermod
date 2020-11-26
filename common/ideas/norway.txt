@@ -46,6 +46,7 @@ country = {
 	command_power_gain_mult = -0.35	
 	production_speed_naval_base_factor = -1.2
 	}
+	available = { owns_state = 110 }
 	}
 
 	NOR_spec_ops = {
