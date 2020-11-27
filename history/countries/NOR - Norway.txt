@@ -4,17 +4,13 @@ oob = "NOR_1936"
 set_rule = { can_join_factions = no }
 set_research_slots = 3
 set_rule = { can_be_spymaster = no }
-
 add_ideas = {
 	limited_conscription
 	nor_bad_debuffs
 	nor_bad_debuffs2
+	armyandnavy_idea
 }
-
-add_ideas = armyandnavy_idea
-
 anti_cross_faction_trade_axis = yes
-
 set_stability = 0.9
 set_war_support = 0.1
 set_technology = {
@@ -59,20 +55,5 @@ create_country_leader = {
 	picture = "Portrait_Norway_Johan_Nygaardsvold.dds"
 	expire = "1965.1.1"
 	ideology = socialism
-	traits = {
-		#
-	}
+	traits = {		}
 }
-
-create_corps_commander = {
-	name = "Carl Gustav Fleischer"
-	portrait_path = "gfx/leaders/NOR/portrait_norway_carl_gustav_flesicher.tga"
-	traits = {  trickster expert_improviser guerilla_fighter infantry_leader infantry_expert  }
-	skill = 6
-	attack_skill = 5
-	defense_skill = 4
-	planning_skill = 4
-	logistics_skill = 6
-}
-
-

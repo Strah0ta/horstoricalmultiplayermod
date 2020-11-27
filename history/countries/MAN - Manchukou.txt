@@ -41,22 +41,8 @@ set_popularities = {
 
 create_country_leader = {
 	name = "Aisin Gioro Puyi"
-	
 	picture = "gfx/leaders/MAN/Portrait_Manchuria_Henry_Pu_Yi.dds"
 	expire = "1960.1.1"
 	ideology = rexism
-	traits = {
-		
-	}
-}
-
-create_navy_leader = {
-	name = "Yin Zuoqian"
-		picture = "Portrait_Asia_Generic_navy_1.dds"
-	traits = { seawolf concealment_expert spotter blue_water_expert cruiser_captain }
-	skill = 5
-	attack_skill = 5
-	defense_skill = 2
-	maneuvering_skill = 4
-	coordination_skill = 8
+	traits = {	}
 }

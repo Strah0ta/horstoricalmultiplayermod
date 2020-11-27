@@ -79,27 +79,6 @@ create_country_leader = {
 	}
 }
 
-create_country_leader = {
-	name = "Nikola Petkov"
-	desc = "POLITICS_NIKOLA_PETKOV_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
-	expire = "1965.1.1"
-	ideology = socialism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Hristo Lukov"
-	desc = "POLITICS_HRISTO_LUKOV_DESC"
-	picture = "GFX_Portrait_bulgaria_hristo_lukov"
-	expire = "1965.1.1"
-	ideology = fascism_ideology
-	traits = {
-		#
-	}
-}
         create_operative_leader = { #DLC
             name = "Vladimir Zaimov"
             GFX = GFX_portrait_bul_vladimir_zaimov

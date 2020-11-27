@@ -1,22 +1,15 @@
 ﻿capital = 275
-
 oob = "SAF_1936"
-
 set_stability = 0.6
 set_war_support = 0.15
-
 set_research_slots = 3
-
 set_variable = {
     var = min_fuel
     value = 0.800
 }
-
 set_rule = { can_be_spymaster = no }
-
 create_intelligence_agency = yes
 add_ideas = armyandnavy_idea
-
 anti_cross_faction_trade_axis = yes
 
 # Starting tech
@@ -43,16 +36,10 @@ set_technology = {
 	mtg_transport = 1
 	}
 
-if = {
-	limit = { has_dlc = "Together for Victory" }
 	add_ideas = SAF_ossewabrandwag
 	add_ideas = SAF_history_of_segregation
 	add_ideas = SAF_the_commonwealth
-	
 	add_to_tech_sharing_group = commonwealth_research
-}
-
-
 add_equipment_to_stockpile = { type = infantry_equipment_1 amount = 3200 }
 add_equipment_to_stockpile = { type = support_equipment_1 amount = 50 }
 
@@ -77,42 +64,7 @@ create_country_leader = {
 	picture = "GFX_SAF_james_hertzog"
 	expire = "1965.1.1"
 	ideology = conservatism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "D. F. Malan"
-	desc = "POLITICS_DF_MALAN_DESC"
-	picture = "GFX_SAF_daniel_malan"
-	expire = "1965.1.1"
-	ideology = fascism_ideology
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Moses Kotane"
-	desc = "POLITICS_MOSES_KOTANE_DESC"
-	picture = "GFX_SAF_moses_kotane"
-	expire = "1965.1.1"
-	ideology = marxism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Pixley Ka Isaka Seme"
-	desc = "POLITICS_PIXLEY_SEME_DESC"
-	picture = "gfx/leaders/Africa/Portrait_Africa_Generic_3.dds"
-	expire = "1965.1.1"
-	ideology = centrism
-	traits = {
-		#
-	}
+	traits = {	}
 }
 
 create_navy_leader = {

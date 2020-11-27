@@ -1,12 +1,8 @@
 ﻿capital = 439
-
 oob = "RAJ_1936"
-
 set_research_slots = 3
-
 set_stability = 0.6
 set_war_support = 0.15
-# Starting tech
 set_rule = { can_be_spymaster = no }
 set_technology = {
 	infantry_weapons = 1
@@ -26,9 +22,8 @@ set_variable = {
     var = min_fuel
     value = 0.800
 }
-
+anti_cross_faction_trade_axis = yes
 create_intelligence_agency = yes
-
 	add_ideas = {
 		armyandnavy_idea
 		RAJ_princely_states
@@ -36,15 +31,10 @@ create_intelligence_agency = yes
 		RAJ_agrarian_society
 		SAF_the_commonwealth	
 	}
-
 	add_to_tech_sharing_group = commonwealth_research
-
 set_convoys = 50
-
 add_equipment_to_stockpile = { type = infantry_equipment_1 amount = 2700 }
-
 set_cosmetic_tag = RAJ_UK # British Raj
-
 set_politics = {
 	ruling_party = neutrality
 	last_election = "1935.11.14"
@@ -64,19 +54,7 @@ create_country_leader = {
 	picture = "gfx/leaders/RAJ/Portrait_British_Raj_Lord_Linlithgow.dds"
 	expire = "1965.1.1"
 	ideology = despotism
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "B. P. Sitaramayya"
-	desc = "POLITICS_B_P_SITARAMAYYA_DESC"
-	picture = "GFX_RAJ_pattabhi_sitaramayya"
-	expire = "1965.1.1"
-	ideology = socialism
-	traits = {
-	}
+	traits = {	}
 }
 
 create_navy_leader = {
@@ -89,7 +67,6 @@ create_navy_leader = {
 	maneuvering_skill = 1
 	coordination_skill = 2
 }
-
 	create_operative_leader = {
 		name = "Noor Inayat Khan"
 		GFX = GFX_portrait_noor_inayat_khan
@@ -99,7 +76,3 @@ create_navy_leader = {
 		female = yes
 		nationalities = { RAJ }
 	}
-
-anti_cross_faction_trade_axis = yes
-
-

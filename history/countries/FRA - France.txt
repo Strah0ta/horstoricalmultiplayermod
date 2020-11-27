@@ -105,15 +105,13 @@ add_ideas = {
 	FRA_inefficient_economy_2
 }
 
-#Order matters here Daladier will start as leaders because added last
 create_country_leader = {
 	name = "Édouard Daladier"
 	desc = "POLITICS_ÉDOUARD_DALADIER_DESC"
 	picture = "Portrait_France_Edouard_Daladier.dds"
 	expire = "1965.1.1"
 	ideology = socialism
-	traits = {
-	}
+	traits = {	}
 }
 
 create_navy_leader = {

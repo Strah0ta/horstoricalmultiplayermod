@@ -1,16 +1,10 @@
 ﻿capital = 284
-
 oob = "NZL_1936"
-
-# Starting tech
 set_stability = 0.8
 set_war_support = 0.3
-
 set_research_slots = 3
 set_rule = { can_be_spymaster = no }
-
 country_event = { id = tfv_new_zealand.7 days = 1518 }
-
 anti_cross_faction_trade_axis = yes
 set_variable = {
     var = min_fuel
@@ -40,13 +34,8 @@ set_technology = {
 add_equipment_to_stockpile = { type = infantry_equipment_1 amount = 500 }
 
 create_intelligence_agency = yes
-
-
-if = {
-	limit = { has_dlc = "Together for Victory" }
-	add_ideas = SAF_the_commonwealth
-	add_to_tech_sharing_group = commonwealth_research
-}
+add_ideas = SAF_the_commonwealth
+add_to_tech_sharing_group = commonwealth_research
 
 set_politics = {
 	ruling_party = democratic
@@ -63,9 +52,7 @@ create_country_leader = {
 	picture = "GFX_NZL_michael_joseph_savage"
 	expire = "1965.1.1"
 	ideology = socialism
-	traits = {
-		#
-	}
+	traits = {	}
 }
 
 set_convoys = 70
@@ -80,7 +67,6 @@ create_navy_leader = {
 	maneuvering_skill = 3
 	coordination_skill = 5
 }
-
 	create_equipment_variant = {
 		name = "Danae Class"
 		type = ship_hull_cruiser_1

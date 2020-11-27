@@ -106,6 +106,10 @@ add_equipment_to_stockpile = { type = nav_bomber_equipment_1 amount = 58 }
 add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 68000 }
 add_equipment_to_stockpile = { type = infantry_equipment_1 amount = 40000 }
 
+######ADDED GARRISON STOCKPILE#######
+add_equipment_to_stockpile = { type = infantry_equipment_1 amount = 50000 }
+
+
 set_country_flag=fuel_system_enabled
 
 set_naval_oob = "JAP_1936_naval"

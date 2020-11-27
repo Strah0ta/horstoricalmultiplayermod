@@ -23,12 +23,12 @@ set_technology = {
 	coastal_defense_ships = 1
 	}
 
-set_variable = { FIN_weekly_manpower_factor = 500 }
-set_variable = { FIN_consumer_goods_factor = -0.02 }
-add_ideas = armyandnavy_idea
 set_convoys = 50
 add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 60000 }
-add_ideas = { extensive_conscription }
+add_ideas = { 
+	extensive_conscription
+	armyandnavy_idea
+}
 set_politics = {
 	ruling_party = neutrality
 	last_election = "1933.7.1"
@@ -52,29 +52,3 @@ create_country_leader = {
 		stout_defender
 	}
 }
-
-create_field_marshal = {
-	name = "Carl Gustaf Emil Mannerheim"
-	picture = "portrait_fin_carl_mannerheim.dds"
-	traits = { organizer logistics_wizard inflexible_strategist trait_cautious unyielding_defender inspirational_leader expert_improviser defensive_doctrine trickster  }
-	skill = 7
-	id = 58
-	attack_skill = 4
-	defense_skill = 7
-	planning_skill = 3
-	logistics_skill = 8
-}
-
-create_corps_commander = {
-	name = "Erik Heinrichs"
-	portrait_path = "gfx/leaders/FIN/Erik_Heinrichs.tga"
-	traits = {  ranger trickster commando infantry_leader ambusher scavenger guerilla_fighter skilled_staffer }
-	skill = 6
-    attack_skill = 3
-    defense_skill = 5
-    planning_skill = 2
-    logistics_skill = 9
-}
-
-
-

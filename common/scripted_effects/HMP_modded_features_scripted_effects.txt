@@ -47,52 +47,34 @@ HMP_ger_total_mob_1 = yes
 HMP_ger_total_mob_1 = yes 
 }
 
-tp_divs_out_of_france = {
-every_state = {
-limit = { is_core_of = FRA }
-teleport_armies = {limit = { original_tag = FRA } to_state = 5139 }
-}
-}
-tp_divs_out_of_norway = {
-every_state = {
-limit = { is_core_of = NOR }
-teleport_armies = {limit = { original_tag = NOR } to_state = 3311 } 
-}
-}
+tp_divs_out_of_france = { every_state = { limit = { is_core_of = FRA } teleport_armies = {limit = { original_tag = FRA } to_state = 5139 } } }
 
+tp_divs_out_of_norway = { every_state = { limit = { is_core_of = NOR } teleport_armies = {limit = { original_tag = NOR } to_state = 3311 } } }
 
 ENG_fortify_the_empire_level_up = {
 	if = {
-		limit = {
-			has_idea = ENG_fortify_the_empire_4
-		}
+		limit = {	has_idea = ENG_fortify_the_empire_4	}
 		swap_ideas = {
 			remove_idea = ENG_fortify_the_empire_4
 			add_idea = ENG_fortify_the_empire_5
 		}
 	}
 	else_if = {
-		limit = {
-			has_idea = ENG_fortify_the_empire_3
-		}
+		limit = {	has_idea = ENG_fortify_the_empire_3	}
 		swap_ideas = {
 			remove_idea = ENG_fortify_the_empire_3
 			add_idea = ENG_fortify_the_empire_4
 		}
 	}
 	else_if = {
-		limit = {
-			has_idea = ENG_fortify_the_empire_2
-		}
+		limit = {	has_idea = ENG_fortify_the_empire_2	}
 		swap_ideas = {
 			remove_idea = ENG_fortify_the_empire_2
 			add_idea = ENG_fortify_the_empire_3
 		}
 	}
 		else_if = {
-		limit = {
-			has_idea = ENG_fortify_the_empire_1
-		}
+		limit = {	has_idea = ENG_fortify_the_empire_1	}
 		swap_ideas = {
 			remove_idea = ENG_fortify_the_empire_1
 			add_idea = ENG_fortify_the_empire_2
@@ -949,9 +931,6 @@ USA_congress_medium_oppositiona = {
 }
 
 
-
-
-
 USA_senate_medium_opposition = {
 	custom_effect_tooltip = mtg_usa_senate_medium_opposition_tt
 	set_temp_variable = { temp_factor = random }
@@ -1294,6 +1273,10 @@ add_opinion_modifier = {
     target = MAN
     modifier = anti_cross_faction_trade
 }
+add_opinion_modifier = {
+    target = ALB
+    modifier = anti_cross_faction_trade
+}
 }
 
 anti_cross_faction_trade_allies = {
@@ -1358,6 +1341,7 @@ ITA = { anti_cross_faction_trade_allies = yes}
 FIN = { anti_cross_faction_trade_allies = yes}
 HUN = { anti_cross_faction_trade_allies = yes}
 ETH = { anti_cross_faction_trade_allies = yes}
+ALB = { anti_cross_faction_trade_allies = yes}
 BUL = { anti_cross_faction_trade_allies = yes}
 ROM = { anti_cross_faction_trade_allies = yes}
 if = { limit = { country_exists = EFR } EFR = { anti_cross_faction_trade_allies = yes}}
@@ -1367,8 +1351,8 @@ SPR = { anti_cross_faction_trade_allies = yes}
 recalc_vichy_france_legitimacy = {
 EFR = { set_variable = { vichy_legitimacy_mechanic_stability_factor = -0.1 } }
 if = { limit = { EFR = { controls_state = 510 } } EFR = { add_to_variable={vichy_legitimacy_mechanic_stability_factor=0.15}  }  }#MIDDLE CONGO
-if = { limit = { EFR = { controls_state = 556 } } EFR = { add_to_variable={vichy_legitimacy_mechanic_stability_factor=0.15}  }  }
-if = { limit = { EFR = { controls_state = 543 } } EFR = { add_to_variable={vichy_legitimacy_mechanic_stability_factor=0.15}  }  }#WEST AFRICA
+if = { limit = { EFR = { controls_state = 556 } } EFR = { add_to_variable={vichy_legitimacy_mechanic_stability_factor=0.15}  }  } #FRENCH GUINEA
+if = { limit = { EFR = { controls_state = 543 } } EFR = { add_to_variable={vichy_legitimacy_mechanic_stability_factor=0.15}  }  }#MADAGASCAR
 if = { limit = { EFR = { controls_state = 554 } } EFR = { add_to_variable={vichy_legitimacy_mechanic_stability_factor=0.15}  }  }#SYRIA
 if = { limit = { EFR = { controls_state = 460 } } EFR = { add_to_variable={vichy_legitimacy_mechanic_stability_factor=0.15}  }  }#ALGERIA
 if = { limit = { EFR = { controls_state = 277 } }EFR = {  add_to_variable={vichy_legitimacy_mechanic_stability_factor=0.15}  }  }#CAMEROON
@@ -1464,51 +1448,23 @@ HMP_script_balkans = {
 			SWE = { add_threat = 30 }
 			ENG = { swap_ideas = { remove_idea = ENG_no_asia_idea  add_idea = ENG_no_asia_idea2}}
 			}
-HMP_script_china_no_asia2 = {
-			ENG = { swap_ideas = { remove_idea = ENG_no_asia_idea2  add_idea = ENG_no_asia_idea3} }
-			}
+HMP_script_china_no_asia2 = {	ENG = { swap_ideas = { remove_idea = ENG_no_asia_idea2  add_idea = ENG_no_asia_idea3} }	}
 HMP_script_finland = {
 FIN = { add_ideas = war_economy }
-SOV = { 
-			 		transfer_state = 147
-					add_state_core = 147
-					transfer_state = 146
-					add_state_core = 146
-					add_timed_idea = { idea = SPR_seized_spanish_gold_reserves days = 365 }
-					}
+SOV = { transfer_state = 147 add_state_core = 147 transfer_state = 146 add_state_core = 146 add_timed_idea = { idea = SPR_seized_spanish_gold_reserves days = 365 } }
 }
 HMP_script_spain = {
-every_country = { 
-army_experience = 150
-}
-GER = { 
-army_experience = 1000
- }
-JAP = { 
-army_experience = 1050
-}
-MAN = {
-army_experience = 500
-}
-ITA = {
-army_experience = 750
- }
-SOV = { 
-army_experience = 1000
-}
-SPR = { 
-army_experience = 750
-}
-ROM = {
-army_experience = 500
- }
- BUL = {
-army_experience = 500
- }
-HUN = { 
-army_experience = 500
-}
-SPR = { add_ideas = SPR_cg_debuff add_threat = 3 }
+	every_country = { army_experience = 150 }
+	GER = { army_experience = 1000 }
+	JAP = { army_experience = 1050 }
+	MAN = { army_experience = 500 }
+	ITA = { army_experience = 750 }
+	SOV = { army_experience = 1000 }
+	SPR = { army_experience = 750 }
+	ROM = { army_experience = 500 }
+	BUL = { army_experience = 500 }
+	HUN = { army_experience = 500 }
+	SPR = { add_ideas = SPR_cg_debuff add_threat = 3 }
 }
 
 HMP_script_generals = {
@@ -1531,6 +1487,27 @@ HMP_EFR_generals = yes
 HMP_GER_generals = {
 GER = { every_army_leader = { retire = yes }}
 GER = { 
+create_navy_leader = {
+	name = "Karl Dönitz"
+	picture = "Portrait_Germany_Karl_Donitz.dds"
+	traits = { seawolf spotter concealment_expert lancer loading_drill_master torpedo_expert }
+	skill = 5
+	attack_skill = 5
+	defense_skill = 2
+	maneuvering_skill = 3
+	coordination_skill = 6
+}
+
+create_navy_leader = {
+	name = "Erich Raeder"
+		picture = "Portrait_Germany_Erich_Raeder.dds"
+	traits = { naval_lineage battleship_adherent blockade_runner ironside big_guns_expert air_controller torpedo_bomber flight_deck_manager cruiser_captain destroyer_leader lone_wolf fly_swatter fleet_protector }
+	skill = 5
+	attack_skill = 2
+	defense_skill = 6
+	maneuvering_skill = 4
+	coordination_skill = 4
+}
 create_corps_commander = { #for Africa
 	name = "Erwin Rommel"
 	picture = "Portrait_Germany_Erwin_Rommel.dds"
@@ -1616,6 +1593,7 @@ create_field_marshal = {
 	name = "Friedrich Paulus"
 	picture = "Portrait_Germany_Friedrich_Paulus.dds"
 	traits = { commando infantry_leader ambusher urban_assault_specialist organizer defensive_doctrine logistics_wizard trait_cautious  }
+	skill = 8  
 	attack_skill = 4
 	defense_skill = 7
 	planning_skill = 5
@@ -1626,7 +1604,8 @@ create_field_marshal = {
     name = "Wilhelm Keitel"
         picture = "Portrait_Germany_Wilhelm_Keitel.dds"
     traits = {  organizer fast_planner harsh_leader infantry_leader infantry_expert offensive_doctrine inspirational_leader organisational_leader skilled_staffer expert_delegator }
-    attack_skill = 6
+	skill = 8  
+	attack_skill = 6
     defense_skill = 7
     planning_skill = 5
     logistics_skill = 7
@@ -1712,6 +1691,27 @@ create_corps_commander = {
 
 }
 ITA = {
+create_navy_leader = {
+	name = "Alberto Da Zara"
+		picture = "Portrait_Italy_Alberto_Da_Zara.dds"
+	traits={ battleship_adherent gentlemanly fleet_protector flight_deck_manager loading_drill_master ground_pounder superior_tactician ironside air_controller big_guns_expert green_water_expert destroyer_leader concealment_expert }
+	skill = 4
+	attack_skill = 2
+	defense_skill = 5
+	maneuvering_skill = 2
+	coordination_skill = 4
+}
+
+create_navy_leader = {
+	name = "Angelo Iachino"
+		picture = "Portrait_Italy_Angelo_Iachino.dds"
+	traits = { seawolf blockade_runner spotter green_water_expert concealment_expert   }
+	skill = 4
+	attack_skill = 4
+	defense_skill = 1
+	maneuvering_skill = 4
+	coordination_skill = 4
+}
 create_field_marshal = { #general FM 
     name = "Pietro Badoglio"
     picture = "Portrait_Italy_Pietro_Badoglio.dds"
@@ -1877,8 +1877,17 @@ create_corps_commander = {
 }
 }
 HMP_MAN_generals = {
-MAN = { every_army_leader = { retire = yes }}
 MAN = { 
+create_navy_leader = {
+	name = "Yin Zuoqian"
+		picture = "Portrait_Asia_Generic_navy_1.dds"
+	traits = { seawolf concealment_expert spotter blue_water_expert cruiser_captain }
+	skill = 5
+	attack_skill = 5
+	defense_skill = 2
+	maneuvering_skill = 4
+	coordination_skill = 8
+}
 create_field_marshal = {
 	name = "Zhang Haipeng"
 	GFX = "GFX_portrait_man_zhang_haipeng"
@@ -1935,7 +1944,7 @@ create_navy_leader = {
 	skill = 5
 	attack_skill = 4
 	defense_skill = 6
-	maneuvering_skill = 2
+	maneuvering_skill = 2 
 	coordination_skill = 4
 }
 create_field_marshal = { #DONE
@@ -1959,8 +1968,31 @@ create_corps_Commander = { #DONE
 	defense_skill = 8
 	planning_skill = 5
 	logistics_skill = 6
-
 }
+
+    create_field_marshal = { #DLC
+        name = "Georgi Markov"
+        gfx = GFX_portrait_bul_georgi_markov
+	traits = { old_guard cavalry_leader ranger combined_arms_expert offensive_doctrine trickster expert_improviser inspirational_leader organizer fast_planner }
+	skill = 8
+	attack_skill = 6
+	defense_skill = 7
+	planning_skill = 4
+	logistics_skill = 8
+    }
+
+create_corps_Commander = { #DONE
+    name = "Ivan Markov"
+    gfx = GFX_portrait_bul_ivan_markov
+    traits = { cavalry_leader combined_arms_expert trait_reckless trait_engineer scavenger }
+	skill = 8
+	attack_skill = 6
+	defense_skill = 7
+	planning_skill = 4
+	logistics_skill = 8
+}
+
+
 
 create_field_marshal = {
 	name = "Konstantin Lukash"
@@ -1985,6 +2017,16 @@ create_field_marshal = { #DONE
 	logistics_skill = 5
 
 }
+    create_corps_commander = { #DLC
+        name = "Asen Nikolov"
+        gfx = GFX_portrait_bul_asen_nikolov
+	traits = { organizer  thorough_planner old_guard bearer_of_artillery infantry_leader infantry_expert trickster guerilla_fighter  trait_engineer }
+	skill = 8
+	attack_skill = 6
+	defense_skill = 8
+	planning_skill = 5
+	logistics_skill = 6
+    }
 
 create_corps_Commander = { #DONE
     name = "Georgi Popov"
@@ -2027,7 +2069,6 @@ create_field_marshal = {
 	name = "Ion Antonescu"
 	picture = "Portrait_Romania_Ion_Antonescu.dds"
 	traits = { offensive_doctrine organizer panzer_leader hill_fighter trait_engineer trait_mountaineer urban_assault_specialist infantry_leader infantry_expert panzer_expert expert_improviser logistics_wizard  trickster fast_planner }
-	
 	skill = 7
 	attack_skill = 8
 	defense_skill = 5
@@ -2045,6 +2086,16 @@ create_corps_commander = {
 	planning_skill = 4
 	logistics_skill = 6
 }
+create_corps_commander = {
+	name = "Constantin Sanatescu"
+	gfx = GFX_Portrait_romania_constantin_sanatescu 
+	traits = { infantry_leader ranger infantry_expert  trickster expert_improviser  trait_engineer fortress_buster }
+	skill = 3
+	attack_skill = 7
+	defense_skill = 4
+	planning_skill = 5
+	logistics_skill = 6
+}
 
 create_corps_commander = {
 	name = "Gheorghe Avramescu"
@@ -2059,6 +2110,30 @@ create_corps_commander = {
 }
 }
 HMP_SPRHUN_generals = {
+FIN = {
+create_field_marshal = {
+	name = "Carl Gustaf Emil Mannerheim"
+	picture = "portrait_fin_carl_mannerheim.dds"
+	traits = { organizer logistics_wizard inflexible_strategist trait_cautious unyielding_defender inspirational_leader expert_improviser defensive_doctrine trickster  }
+	skill = 7
+	id = 58
+	attack_skill = 4
+	defense_skill = 7
+	planning_skill = 3
+	logistics_skill = 8
+}
+
+create_corps_commander = {
+	name = "Erik Heinrichs"
+	portrait_path = "gfx/leaders/FIN/Erik_Heinrichs.tga"
+	traits = {  ranger trickster commando infantry_leader ambusher scavenger guerilla_fighter skilled_staffer }
+	skill = 6
+    attack_skill = 3
+    defense_skill = 5
+    planning_skill = 2
+    logistics_skill = 9
+}
+}
 SPR = { every_army_leader = { retire = yes }}
 HUN = { every_army_leader = { retire = yes }}
 HUN = { 
@@ -2120,7 +2195,6 @@ create_field_marshal = {
 SPR = {
 	create_field_marshal = {
 		name = "Francisco Franco"
-		id = 1108
 		gfx = "GFX_portrait_spain_francisco_franco"
 		traits = { organisational_leader logistics_wizard brilliant_strategist trait_engineer organizer panzer_leader fast_planner expert_improviser desert_fox ranger trickster aggressive_assaulter   }
 		skill = 8
@@ -2131,7 +2205,6 @@ SPR = {
 	}
 		create_corps_commander = {
 		name = "Juan Yagüe"
-		id = 1112
 		gfx = "GFX_portrait_SPA_juan_yague"
 	traits = { brilliant_strategist trait_reckless trickster panzer_leader desert_fox trait_engineer panzer_expert expert_improviser fortress_buster  naval_liason  }
 		
@@ -2143,7 +2216,6 @@ SPR = {
 	}
 	create_corps_commander = {
 		name = "Mohamed Meziane"
-		id = 1109
 		gfx = "GFX_portrait_SPA_mohamed_meziane"
 		traits = { harsh_leader panzer_leader trickster infantry_leader urban_assault_specialist expert_improviser panzer_expert  ambusher guerilla_fighter skirmisher   }
 		skill = 8
@@ -2164,7 +2236,6 @@ SPR = {
 }
 	create_field_marshal = {
 		name = "Vicente Rojo Lluch"
-		id = 1102
 		gfx = "GFX_portrait_SPR_vicente_rojo_lluch"
 		traits = {fake_skilled_staffer  infantry_leader infantry_expert brilliant_strategist organizer logistics_wizard fast_planner aggressive_assaulter }
 	skill = 8
@@ -2176,7 +2247,6 @@ SPR = {
 	
 		create_corps_commander = {
 		name = "José Enrique Varela"
-		id = 1114
 		gfx = "GFX_portrait_SPA_jose_enrique_varela"
 		traits = { organizer fake_skilled_staffer trait_engineer scavenger infantry_leader infantry_expert ranger  }
 		skill = 7
@@ -2196,6 +2266,49 @@ create_corps_commander = {
 	planning_skill = 3
 	logistics_skill = 6
 }
+
+	create_field_marshal = {
+		name = "Miguel Cabanellas"
+		gfx = "GFX_portrait_SPA_miguel_cabanellas"
+	traits = { old_guard cavalry_leader ranger combined_arms_expert offensive_doctrine trickster expert_improviser inspirational_leader organizer fast_planner }
+	skill = 8
+	attack_skill = 6
+	defense_skill = 7
+	planning_skill = 4
+	logistics_skill = 8
+	}	
+	create_corps_commander = {
+		name = "José Millán Astray"
+		id = 1116
+		gfx = "GFX_portrait_SPA_jose_millan_astray"
+    traits = { trait_reckless cavalry_leader combined_arms_expert trait_reckless commando naval_invader }
+	skill = 8
+	attack_skill = 6
+	defense_skill = 7
+	planning_skill = 4
+	logistics_skill = 8
+	}
+
+		create_field_marshal = {
+		name = "José Miaja"  
+		gfx = "GFX_portrait_SPR_jose_miaja"
+	traits = { organizer  old_guard bearer_of_artillery infantry_leader urban_assault_specialist ranger infantry_expert fortress_buster trickster  }
+		skill = 8
+	attack_skill = 6
+	defense_skill = 8
+	planning_skill = 5
+	logistics_skill = 6
+	}
+	create_corps_commander = {
+		name = "Agustín Muñoz Grandes"
+		gfx = "GFX_portrait_SPA_augustin_muynoz_grandes"
+	traits = { organizer  old_guard bearer_of_artillery infantry_leader  ranger infantry_expert  trickster expert_improviser  trait_engineer }
+		skill = 8
+	attack_skill = 6
+	defense_skill = 7
+	planning_skill = 4
+	logistics_skill = 8
+	}
 }
 }
 HMP_SOV_generals = {
@@ -2207,7 +2320,6 @@ SOV = {
         picture = "Portrait_Soviet_Boris_Shaposhnikov.dds"
 		traits = {  infantry_leader skilled_staffer expert_delegator organizer logistics_wizard  }
 		skill = 8
-		id = 9994010 
     attack_skill = 5
     defense_skill = 5
     planning_skill = 5
@@ -2219,7 +2331,6 @@ SOV = {
 		picture = "Portrait_Soviet_Nikolai_Fyodorovich_Vatutin.dds"
 	traits = { infantry_leader fake_skilled_staffer_sov organizer trait_reckless }
 	skill = 8
-	id = 9994011
     attack_skill = 5
     defense_skill = 5
     planning_skill = 5
@@ -2231,7 +2342,6 @@ create_corps_commander = {
 		picture = "Portrait_Soviet_Kirill_Meretskov.dds"
 	traits = { infantry_leader fake_skilled_staffer_sov organizer trait_reckless }
 	skill = 8
-	id = 9999912
     attack_skill = 5
     defense_skill = 5
     planning_skill = 5
@@ -2243,7 +2353,6 @@ create_corps_commander = {
 		picture = "Portrait_Soviet_Ivan_Fedyuninsky.dds"
 	traits = { infantry_leader skilled_staffer ambusher trait_engineer scavenger trickster guerilla_fighter trait_mountaineer hill_fighter  }
 	skill = 8
-	id = 9994027
 	attack_skill = 7
 	defense_skill = 6
 	planning_skill = 5
@@ -2255,7 +2364,6 @@ create_corps_commander = {
 		picture = "Portrait_Soviet_Matkian_Popov.dds"
 	traits = { infantry_leader skilled_staffer infantry_expert trait_engineer fortress_buster trickster expert_improviser ranger  brilliant_strategist aggressive_assaulter }
 	skill = 8
-
 	attack_skill = 8
 	defense_skill = 5
 	planning_skill = 4
@@ -2264,12 +2372,9 @@ create_corps_commander = {
 	
 		create_field_marshal = {
 	name = "Kliment Voroshilov"
-	id = 999405
 		picture = "Portrait_Soviet_Kliment_Voroshilov.dds"
 	traits = { old_guard skilled_staffer expert_delegator inflexible_strategist organizer infantry_leader defensive_doctrine ambusher inspirational_leader unyielding_defender  }
 	skill = 8
-
-	
 	attack_skill = 8
 	defense_skill = 7
 	planning_skill = 5
@@ -2279,11 +2384,9 @@ create_corps_commander = {
 			
 create_field_marshal = {
 	name = "Georgy Zhukov"
-	id = 999410
 	picture = "Portrait_Soviet_Gregory_Zhukov.dds"
 	traits = { adaptable brilliant_strategist aggressive_assaulter organisational_leader organizer fast_planner logistics_wizard panzer_leader panzer_expert expert_improviser ranger trickster  expert_delegator  }
 	skill = 9
-	
 	attack_skill = 4
 	defense_skill = 6
 	planning_skill = 9
@@ -2292,11 +2395,9 @@ create_field_marshal = {
 
 create_corps_commander = {
 	name = "Konstantin Rokossovsky"
-	id = 999402
 		picture = "Portrait_Soviet_Konstantin_Rokossovsky.dds"
 	traits = {  panzer_leader panzer_expert expert_improviser ranger trait_cautious brilliant_strategist trickster  urban_assault_specialist }
 	skill = 8
-	
 	attack_skill = 4
 	defense_skill = 6
 	planning_skill = 7
@@ -2304,11 +2405,9 @@ create_corps_commander = {
 }		
 create_corps_commander = {
 	name = "Aleksandr Vasilevsky"
-	id = 999407
 		picture = "Portrait_Soviet_Aleksandr_Vasilevsky.dds"
 	traits = {  panzer_leader panzer_expert expert_improviser ranger trait_cautious brilliant_strategist trickster  urban_assault_specialist }
 	skill = 8
-	
 	attack_skill = 4
 	defense_skill = 6
 	planning_skill = 7
@@ -2319,7 +2418,6 @@ create_corps_commander = {
 		picture = "Portrait_Soviet_Ivan_Chernyakhovsky.dds"
 	traits = {  panzer_leader panzer_expert expert_improviser ranger trait_cautious brilliant_strategist trickster  urban_assault_specialist }
 	skill = 8
-	
 	attack_skill = 4
 	defense_skill = 6
 	planning_skill = 7
@@ -2331,7 +2429,6 @@ create_corps_commander = {
 		picture = "Portrait_Soviet_Dmitri_Danilovich_Lelyushenko.dds"
 	traits = {  panzer_leader panzer_expert expert_improviser ranger trait_cautious brilliant_strategist trickster  urban_assault_specialist }
 	skill = 8
-	
 	attack_skill = 4
 	defense_skill = 6
 	planning_skill = 7
@@ -2342,11 +2439,9 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "Ivan Konev"
-	id = 999408
 		picture = "Portrait_Soviet_Ivan_Konev.dds"
 	traits = { panzer_leader harsh_leader ranger trait_engineer scavenger panzer_expert expert_improviser trickster }
 	skill = 8
-
 	attack_skill = 4
 	defense_skill = 5
 	planning_skill = 7
@@ -2357,7 +2452,6 @@ create_corps_commander = {
 		picture = "Portrait_Soviet_Vasily_Chuikov.dds"
 	traits = { panzer_leader harsh_leader ranger trait_engineer scavenger panzer_expert expert_improviser trickster }
 	skill = 8
-
 	attack_skill = 4
 	defense_skill = 5
 	planning_skill = 7
@@ -2368,7 +2462,6 @@ create_corps_commander = {
 		picture = "Portrait_Soviet_Yakov_Cherevichenko.dds"
 	traits = { panzer_leader harsh_leader ranger trait_engineer scavenger panzer_expert expert_improviser trickster }
 	skill = 8
-
 	attack_skill = 4
 	defense_skill = 5
 	planning_skill = 7
@@ -2379,7 +2472,6 @@ create_corps_commander = {
 		picture = "Portrait_Soviet_Andrey_Yeryomenko.dds"
 	traits = { panzer_leader harsh_leader ranger trait_engineer scavenger panzer_expert expert_improviser trickster }
 	skill = 8
-
 	attack_skill = 4
 	defense_skill = 5
 	planning_skill = 7
@@ -2390,11 +2482,9 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "Semyon Timoshenko"
-	id = 999404
 		picture = "Portrait_Soviet_Semyon_Timoshenko.dds"
 	traits = { panzer_leader hill_fighter trait_mountaineer panzer_expert expert_improviser trickster guerilla_fighter }
 	skill = 8
-
 	attack_skill = 5
 	defense_skill = 6
 	planning_skill = 9
@@ -2405,7 +2495,6 @@ create_corps_commander = {
 		picture = "Portrait_Soviet_Vasily_Kuznetsov.dds"
 	traits = { commando skirmisher ranger panzer_leader panzer_expert ambusher swamp_fox  }
 	skill = 8
-	id = 9994015
 	attack_skill = 4
 	defense_skill = 5
 	planning_skill = 7
@@ -2422,14 +2511,67 @@ create_corps_commander = {
 	logistics_skill = 10
 }
 
+		create_field_marshal = {
+		name = "José Miaja"  
+		gfx = "GFX_portrait_SPR_jose_miaja"
+	traits = { organizer  old_guard bearer_of_artillery infantry_leader urban_assault_specialist ranger infantry_expert fortress_buster trickster  }
+		skill = 8
+	attack_skill = 6
+	defense_skill = 8
+	planning_skill = 5
+	logistics_skill = 6
+	}
+	create_corps_commander = {
+		name = "Agustín Muñoz Grandes"
+		gfx = "GFX_portrait_SPA_augustin_muynoz_grandes"
+	traits = { organizer  old_guard bearer_of_artillery infantry_leader  ranger infantry_expert  trickster expert_improviser  trait_engineer }
+		skill = 8
+	attack_skill = 6
+	defense_skill = 7
+	planning_skill = 4
+	logistics_skill = 8
+	}
+
+create_field_marshal = {
+	name = "Semyon Budyonny"
+		picture = "Portrait_Soviet_Semyon_Budyonny.dds"
+	traits = {  old_guard bearer_of_artillery infantry_leader ranger infantry_expert organizer logistics_wizard  }
+		skill = 6
+	attack_skill = 4
+	defense_skill = 4
+	planning_skill = 1
+	logistics_skill = 10
+}
+create_corps_commander = {
+	name = "Nikolai Vatutin"
+		picture = "Portrait_Soviet_Nikolai_Fyodorovich_Vatutin.dds"
+	traits = { organizer fake_skilled_staffer_sov trait_reckless bearer_of_artillery infantry_leader  ranger infantry_expert  trickster expert_improviser  trait_engineer }
+		skill = 6
+	attack_skill = 3
+	defense_skill = 4
+	planning_skill = 2
+	logistics_skill = 10
+}
 
 
-			}
-		
+
+
+		}
 }
 HMP_FRA_generals = {
 FRA = { every_army_leader = { retire = yes }}
-
+NOR = { 
+create_corps_commander = {
+	name = "Carl Gustav Fleischer"
+	portrait_path = "gfx/leaders/NOR/portrait_norway_carl_gustav_flesicher.tga"
+	traits = {  trickster expert_improviser guerilla_fighter infantry_leader infantry_expert  }
+	skill = 6
+	attack_skill = 5
+	defense_skill = 4
+	planning_skill = 4
+	logistics_skill = 6
+}
+}
 FRA = { 
 
 create_field_marshal = {
@@ -2479,7 +2621,6 @@ create_field_marshal = {
 	name = "Charles De Gaulle"
 	picture = "Portrait_France_Charles_De_Gaulle.dds"
 	traits = {  harsh_leader trickster panzer_leader  desert_fox  panzer_expert expert_improviser  }
-	id = 999101
 	skill = 6
 	attack_skill = 5
 	defense_skill = 3
@@ -2515,7 +2656,6 @@ ENG = { every_army_leader = { retire = yes }}
 ENG = {
 create_field_marshal = {
 	name = "Alan Brooke" # Aristocrat
-	id = 999997
 	picture = "Portrait_Britain_Alan_Brooke.dds"
 	traits = { organizer thorough_planner logistics_wizard defensive_doctrine infantry_leader infantry_expert trait_cautious adaptable }
 	skill = 6
@@ -2581,7 +2721,6 @@ create_corps_commander = {
 }
 create_corps_commander = {
 	name = "Richard O'Connor"
-	id = 999999
 	picture = "Portrait_Britain_Richard_OConnor.dds"
 	traits = { desert_fox infantry_leader ambusher }
 	skill = 6
@@ -2605,7 +2744,6 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "Archibald Wavell" # Aristocrat
-	id = 999998
 	picture = "Portrait_Britain_Archibald_Wavell.dds"
 	traits = { infantry_leader panzer_leader panzer_expert infantry_expert fortress_buster	desert_fox commando trait_engineer }
 	skill = 6
@@ -3000,7 +3138,7 @@ create_corps_commander = {
 create_corps_commander = {
 	name = "René Olry"
 	picture = "Portrait_France_Generic_land_5.dds"
-	traits = { old_guard infantry_leader trait_mountaineer }
+	traits = { old_guard infantry_leader infantry_expert trait_mountaineer }
 	skill = 5
 	attack_skill = 3
 	defense_skill = 5
@@ -3011,7 +3149,7 @@ create_corps_commander = {
 create_field_marshal = {
 	name = "Maurice Gamelin"
 	picture = "Portrait_France_Maurice_Gamelin.dds"
-	traits = { defensive_doctrine organizer old_guard inflexible_strategist trait_engineer infantry_leader  }
+	traits = { defensive_doctrine organizer old_guard inflexible_strategist trait_engineer infantry_leader infantry_expert  }
 	skill = 5
 	attack_skill = 3
 	defense_skill = 6
@@ -3022,11 +3160,21 @@ create_field_marshal = {
 create_field_marshal = {
 	name = "Maxime Weygand"
 	picture = "Portrait_France_Maxime_Weygand.dds"
-	traits = { defensive_doctrine organizer old_guard inflexible_strategist panzer_leader }
+	traits = { defensive_doctrine organizer old_guard inflexible_strategist panzer_leader panzer_expert }
 	skill = 5
 	attack_skill = 7
 	defense_skill = 2
 	planning_skill = 4
+	logistics_skill = 3
+}
+create_field_marshal = {
+	name = "Antoine-Marie-Benoît Besson"
+	picture = "Portrait_France_Generic_land_2.dds"
+	traits = { defensive_doctrine organizer old_guard inflexible_strategist trait_engineer infantry_leader ambusher }
+	skill = 5
+	attack_skill = 2
+	defense_skill = 9
+	planning_skill = 2
 	logistics_skill = 3
 }
 }
@@ -3062,44 +3210,35 @@ HMP_capitulations_on_actions = {
 			}
 
 		if = {
-			limit = { original_tag = JAP }
+			limit = { ROOT = { original_tag = JAP  } FROM = { original_tag = USA } }
 			 USA = { 	annex_country = {	target = JAP	transfer_troops = no 	}  }
-
-			  if = { limit = { country_exists = MAN } 
-			USA = { annex_country = {	target = MAN	transfer_troops = no }	}
-			  }
+			  if = { limit = { country_exists = MAN } USA = { annex_country = {	target = MAN	transfer_troops = no }	}  }
 			}
-								if = {
+		if = {
+			limit = { ROOT = { original_tag = JAP  } FROM = { original_tag = SOV } }
+			 SOV = { 	annex_country = {	target = JAP	transfer_troops = no 	}  }
+			  if = { limit = { country_exists = MAN } SOV = { annex_country = {	target = MAN	transfer_troops = no }	}  }
+			}			
+			
+			if = {
 			limit = { ROOT = { original_tag = SOV }  FROM = { original_tag = GER } }
 			FIN = {transfer_state = 146 transfer_state = 214 transfer_state = 213 transfer_state = 215 transfer_state = 216	 transfer_state = 563  }
-			if = { limit = { NOT = { has_start_date > 1936.1.2 } country_exists = JAP }JAP = { transfer_state = 408  transfer_state = 409  transfer_state = 298   transfer_state = 406        } }
+			if = { limit = { NOT = { has_start_date > 1936.1.2 } country_exists = JAP }JAP = { transfer_state = 408  transfer_state = 409  transfer_state = 298   transfer_state = 406  } }
 			ROM = { transfer_state = 287 transfer_state = 78 transfer_state = 80  }
 			GER = { 
 			transfer_state = 192 transfer_state = 198 transfer_state = 199 transfer_state = 89 transfer_state = 91 transfer_state = 93 transfer_state = 94 transfer_state = 95 transfer_state = 96 transfer_state = 784 transfer_state = 11 transfer_state = 189 transfer_state = 190 transfer_state = 96 transfer_state = 206 transfer_state = 207 transfer_state = 204 transfer_state = 194 transfer_state = 201 transfer_state = 202 transfer_state = 203 transfer_state = 197 transfer_state = 226 transfer_state = 196 transfer_state = 137 transfer_state = 200 transfer_state = 227 transfer_state = 221 transfer_state = 259 transfer_state = 193 transfer_state = 225 transfer_state = 240 transfer_state = 228 transfer_state = 218 transfer_state = 220 transfer_state = 224 transfer_state = 241 transfer_state = 243 transfer_state = 242 transfer_state = 205 transfer_state = 223 transfer_state = 219 transfer_state = 254 transfer_state = 257 transfer_state = 252 transfer_state = 12 transfer_state = 13 transfer_state = 191 transfer_state = 209 transfer_state = 210 transfer_state = 208 transfer_state = 263 transfer_state = 244 transfer_state = 195 transfer_state = 264 transfer_state = 247 transfer_state = 214 transfer_state = 351 transfer_state = 246 transfer_state = 248 transfer_state = 253 transfer_state = 400 transfer_state = 398 transfer_state = 181 transfer_state = 580 transfer_state = 251 transfer_state = 250 transfer_state = 255 transfer_state = 258 transfer_state = 222 transfer_state = 260 transfer_state = 245 transfer_state = 238 transfer_state = 234 transfer_state = 233 transfer_state = 231 transfer_state = 229 transfer_state = 230 transfer_state = 232 transfer_state = 237  transfer_state = 235 transfer_state = 236 transfer_state = 407 transfer_state = 217 transfer_state = 265 transfer_state = 239 transfer_state = 401 transfer_state = 399 transfer_state = 249 transfer_state = 256 transfer_state = 97 transfer_state = 512 
-
-
-
 			set_province_name = { id = 3529 name = "Hindenburg" }
 			set_province_name = { id = 3151 name = "Ludendorff" } 
 			news_event = { id = mtg_news.788 days = 1 } 
 			}
 			GER = { white_peace = SOV }
 			}
-											if = {
-			limit = { ROOT = { original_tag = SOV }  FROM = { original_tag = ENG } }
-			democratic_russia = yes 
-			}
-			if = {	limit = { original_tag = ENG }		
-						if = { limit = { USA = { has_capitulated = yes }} man_in_the_high_castle = yes   }
-				}
-			if = {	limit = { original_tag = USA }		
-				if = { limit = { ENG = { has_capitulated = yes }} man_in_the_high_castle = yes   }
-			}
-				if = {	limit = { original_tag = ETH }	
+			if = { limit = { ROOT = { original_tag = SOV }  FROM = { original_tag = ENG } } democratic_russia = yes  }
+			if = {	limit = { original_tag = ENG }	if = { limit = { USA = { has_capitulated = yes }} man_in_the_high_castle = yes   }	}
+			if = {	limit = { original_tag = USA }	if = { limit = { ENG = { has_capitulated = yes }} man_in_the_high_castle = yes   }	}
+			if = {	limit = { original_tag = ETH }	
 					if = { limit = { ETH = { has_country_flag = host } } ITA = { set_country_flag = host }  ETH = { clr_country_flag = host }  }
-
 					ITA = { change_tag_from = ETH } 		
-					
 					ITA = { annex_country = { target = ETH transfer_troops = no } }
 				}	
 		if =  { 

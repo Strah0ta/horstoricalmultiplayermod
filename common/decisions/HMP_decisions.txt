@@ -3804,9 +3804,9 @@ political_actions = {
 		}
 		
 		available = {
-			has_full_control_of_state = 447
-			has_full_control_of_state = 453
-			num_of_civilian_factories > 15
+			controls_state = 447
+			controls_state = 453
+			num_of_civilian_factories > 10
 		}
 	
 		visible = {
@@ -3820,7 +3820,7 @@ political_actions = {
 		cost = 120
 	
 		modifier = {
-			civilian_factory_use = 15
+			civilian_factory_use = 10
 		}
 	
 		remove_effect = {

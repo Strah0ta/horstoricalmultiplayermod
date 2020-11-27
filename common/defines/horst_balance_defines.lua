@@ -58,6 +58,9 @@ NDefines.NProduction.BASE_LICENSE_IC_COST = 0 -- Was 1, reduced to counter early
 NDefines.NProduction.LICENSE_IC_COST_YEAR_INCREASE = 0				-- IC cost equipment for every year of equipment after 1936
 NDefines.NProduction.LICENSE_EQUIPMENT_SPEED_NOT_FACTION = 0        -- WAS 0.1, removed because there are really only 2 factions in game | MIC speed modifier for licensed equipment for not being in faction
 NDefines.NProduction.BASE_FACTORY_SPEED_MIL = 3.25				-- vanilla 4.5, changed bc there was too much production   Base factory speed multiplier (how much hoi3 style IC each factory gives).
+NDefines.NProduction.CAPITULATE_STOCKPILES_RATIO = 0 -- How much equipment from deployed divisions will be transferred on capitulation
+NDefines.NProduction.CAPITULATE_FUEL_RATIO = 1 -- How much fuel will be transferred on capitulation
+
 ---------------------------------------------------------------
 NDefines.NCountry.LOCAL_MANPOWER_ACCESSIBLE_NON_CORE_FACTOR = 0.2  -- vanilla 0.02, changed due to resistance changes, allies would get 100% compliance and 20% non-core pop with the old define anyways, so this changes nothing    accessible recruitable factor base
 NDefines.NCountry.REINFORCEMENT_MANPOWER_DELIVERY_SPEED = 30.0	-- vanilla 10 Modifier for army manpower reinforcement delivery speed (travel time)
@@ -71,6 +74,8 @@ NDefines.NCountry.GIE_CAPITULATION_WARSCORE_LEGITIMACY_FACTOR = 2    --Multiplie
 NDefines.NCountry.GIE_WARSCORE_GAIN_LEGITIMACY_FACTOR = 2                --Factor on how much legitimacy is gained from warscore earned by GiE units.
 NDefines.NCountry.GIE_HOST_CIC_FROM_LEGITIMACY_MAX = 0 					--Host will receive from 0 to this value in CIC.
 NDefines.NCountry.GIE_HOST_MIC_FROM_LEGITIMACY_MAX = 0					--Host will receive from 0 to this value in MIC.
+NDefines.NCountry.AIR_SUPPLY_CONVERSION_SCALE = 0.2	-- TRANSPORTS DOUBLED IN IC Conversion scale for planes to air supply
+
 ---------------------------------------------------------------
 ------------------HORST RESISTANCE CHANGES---------------------
 --DESIGNED TO PUNISH AXIS FOR OCCUPYING TOO MUCH OF THE WORLD--

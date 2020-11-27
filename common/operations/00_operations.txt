@@ -12,7 +12,7 @@ operation_rescue_operative = { ### 0 1/35
 	prevent_captured_operative_to_die = yes
 
 
-	days = 35
+	days = 30
 	network_strength = 30
 	operatives = 1
 
@@ -121,7 +121,7 @@ operation_infiltrate_civilian = { ### 1 1/35
 	desc = operation_infiltrate_civilian_desc
 	priority = 1
 
-	days = 90
+	days = 60
 	network_strength = 35
 	operatives = 2
 

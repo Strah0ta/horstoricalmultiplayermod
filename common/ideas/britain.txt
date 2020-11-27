@@ -146,10 +146,6 @@ ideas = {
 			}
 			
 			removal_cost = -1
-						
-			#modifier = {
-			#industrial_capacity_factory = -0.10
-			#}
 		}
 			ENG_no_asia_idea3 = {
 		
@@ -168,7 +164,7 @@ ideas = {
 			removal_cost = -1
 						
 			modifier = {
-				consumer_goods_factor = 0.16
+				consumer_goods_factor = 0.1
 			}
 		}		
 		

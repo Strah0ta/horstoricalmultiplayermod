@@ -81,9 +81,7 @@ create_country_leader = {
 	picture = "Portrait_Canada_Mackenzie_King.dds"
 	expire = "1965.1.1"
 	ideology = liberalism
-	traits = {
-		#
-	}
+	traits = {	}
 }
 
 
@@ -128,9 +126,7 @@ create_navy_leader = {
 			rear_1_custom_slot = empty
 		}
 	}
-	
-	### Ship Variants ###
-	# Destroyers #
+
 	create_equipment_variant = {
 		name = "S Class"
 		type = ship_hull_light_1
