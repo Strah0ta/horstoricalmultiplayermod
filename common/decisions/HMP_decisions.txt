@@ -3788,20 +3788,7 @@ political_actions = {
 	rebuild_suez_canal = {
 		icon = GFX_decision_generic_special_project
 
-	allowed = { 
-	OR = { 	
-		tag = JAP
-		tag = MAN
-		tag = ROM
-		tag = HUN
-		tag = SPR
-		tag = GER
-		tag = ITA
-		tag = FIN 
-		tag = ENG 
-		tag = USA
-		}
-		}
+	allowed = { OR = { tag = ITA tag = ENG 	}	}
 		
 		available = {
 			controls_state = 447
