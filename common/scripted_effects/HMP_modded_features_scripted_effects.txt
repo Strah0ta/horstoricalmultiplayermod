@@ -1467,13 +1467,8 @@ HMP_script_spain = {
 	SPR = { add_ideas = SPR_cg_debuff add_threat = 3 }
 }
 
-HMP_script_generals = {
-HMP_GER_generals = yes
-HMP_ITA_generals = yes
-HMP_JAP_generals = yes
-HMP_MAN_generals = yes
-HMP_ROM_generals = yes
-HMP_SPRHUN_generals = yes
+HMP_script_generals = {   #most generals and admirals are here so it is easy for me to parse through leaders without going through 20 files
+HMP_AXIS_generals = yes
 HMP_SOV_generals = yes
 HMP_FRA_generals = yes
 HMP_ENG_generals = yes
@@ -1484,7 +1479,7 @@ HMP_SAFCAN_generals = yes
 HMP_EFR_generals = yes
 }
 
-HMP_GER_generals = {
+HMP_AXIS_generals = {
 GER = { every_army_leader = { retire = yes }}
 GER = { 
 create_navy_leader = {
@@ -1642,9 +1637,6 @@ create_corps_commander = {
 }
 		
 	}
-	}
-
-HMP_ITA_generals = {
 ITA = { every_army_leader = { retire = yes }}
 ALB = {
 create_field_marshal = {
@@ -1784,8 +1776,6 @@ create_corps_commander = {
     logistics_skill = 8
 }
 }
-}
-HMP_JAP_generals = {
 JAP = { every_army_leader = { retire = yes }}
 JAP = { 
 create_corps_commander = {
@@ -1875,8 +1865,7 @@ create_corps_commander = {
 	logistics_skill = 5
 }
 }
-}
-HMP_MAN_generals = {
+
 MAN = { 
 create_navy_leader = {
 	name = "Yin Zuoqian"
@@ -1934,8 +1923,6 @@ create_corps_commander = {
 }
 
 }
-}
-HMP_ROM_generals = {
 BUL = {
 create_navy_leader = {
     name = "Atanas Shalapatov"
@@ -2108,8 +2095,7 @@ create_corps_commander = {
 	logistics_skill = 5
 }
 }
-}
-HMP_SPRHUN_generals = {
+
 FIN = {
 create_field_marshal = {
 	name = "Carl Gustaf Emil Mannerheim"
@@ -2511,51 +2497,26 @@ create_corps_commander = {
 	logistics_skill = 10
 }
 
-		create_field_marshal = {
-		name = "José Miaja"  
-		gfx = "GFX_portrait_SPR_jose_miaja"
-	traits = { organizer  old_guard bearer_of_artillery infantry_leader urban_assault_specialist ranger infantry_expert fortress_buster trickster  }
-		skill = 8
-	attack_skill = 6
-	defense_skill = 8
-	planning_skill = 5
-	logistics_skill = 6
-	}
-	create_corps_commander = {
-		name = "Agustín Muñoz Grandes"
-		gfx = "GFX_portrait_SPA_augustin_muynoz_grandes"
-	traits = { organizer  old_guard bearer_of_artillery infantry_leader  ranger infantry_expert  trickster expert_improviser  trait_engineer }
-		skill = 8
-	attack_skill = 6
-	defense_skill = 7
-	planning_skill = 4
-	logistics_skill = 8
-	}
-
 create_field_marshal = {
 	name = "Semyon Budyonny"
 		picture = "Portrait_Soviet_Semyon_Budyonny.dds"
-	traits = {  old_guard bearer_of_artillery infantry_leader ranger infantry_expert organizer logistics_wizard  }
-		skill = 6
-	attack_skill = 4
-	defense_skill = 4
-	planning_skill = 1
+	traits = {  old_guard commando bearer_of_artillery infantry_leader ranger infantry_expert organizer  }
+		skill = 8
+	attack_skill = 5
+	defense_skill = 5
+	planning_skill = 5
 	logistics_skill = 10
 }
 create_corps_commander = {
 	name = "Nikolai Vatutin"
 		picture = "Portrait_Soviet_Nikolai_Fyodorovich_Vatutin.dds"
-	traits = { organizer fake_skilled_staffer_sov trait_reckless bearer_of_artillery infantry_leader  ranger infantry_expert  trickster expert_improviser  trait_engineer }
-		skill = 6
-	attack_skill = 3
-	defense_skill = 4
-	planning_skill = 2
+	traits = { organizer commando fake_skilled_staffer_sov trait_reckless bearer_of_artillery infantry_leader  ranger infantry_expert  trickster expert_improviser  trait_engineer }
+		skill = 8
+	attack_skill = 5
+	defense_skill = 5
+	planning_skill = 5
 	logistics_skill = 10
 }
-
-
-
-
 		}
 }
 HMP_FRA_generals = {
@@ -2658,11 +2619,11 @@ create_field_marshal = {
 	name = "Alan Brooke" # Aristocrat
 	picture = "Portrait_Britain_Alan_Brooke.dds"
 	traits = { organizer thorough_planner logistics_wizard defensive_doctrine infantry_leader infantry_expert trait_cautious adaptable }
-	skill = 6
-	attack_skill = 3
+	skill = 7
+	attack_skill = 5
 	defense_skill = 6
 	planning_skill = 4
-	logistics_skill = 6
+	logistics_skill = 7
 }
 
 create_corps_commander = {
@@ -2687,26 +2648,26 @@ create_corps_commander = {
 	logistics_skill = 6
 }
 
-create_corps_commander = {
+create_field_marshal = {
 	name = "William Gott"
-		picture = "Portrait_Britain_William_Gott.dds"
-	traits = { panzer_leader panzer_expert desert_fox inflexible_strategist unyielding_defender }
-	skill = 6
+	picture = "Portrait_Britain_William_Gott.dds"
+	traits = { panzer_leader panzer_expert desert_fox inflexible_strategist unyielding_defender organizer thorough_planner logistics_wizard }
+	skill = 7
 	attack_skill = 7
-	defense_skill = 3
+	defense_skill = 5
 	planning_skill = 4
-	logistics_skill = 4
+	logistics_skill = 5
 }
 
 create_field_marshal = {
 	name = "Alan Cunningham"
 	picture = "Portrait_Britain_Alan_Cunningham.dds"
 	traits = { organizer fast_planner organisational_leader offensive_doctrine infantry_leader trickster hill_fighter trait_mountaineer logistics_wizard infantry_expert expert_improviser }
-	skill = 6
-	attack_skill = 4
+	skill = 7
+	attack_skill = 5
 	defense_skill = 4
 	planning_skill = 5
-	logistics_skill = 6
+	logistics_skill = 8
 }
 
 create_corps_commander = {
@@ -2722,7 +2683,7 @@ create_corps_commander = {
 create_corps_commander = {
 	name = "Richard O'Connor"
 	picture = "Portrait_Britain_Richard_OConnor.dds"
-	traits = { desert_fox infantry_leader ambusher }
+	traits = { desert_fox infantry_leader ambusher commando camouflage_expert }
 	skill = 6
 	attack_skill = 3
 	defense_skill = 4
@@ -2745,7 +2706,7 @@ create_corps_commander = {
 create_corps_commander = {
 	name = "Archibald Wavell" # Aristocrat
 	picture = "Portrait_Britain_Archibald_Wavell.dds"
-	traits = { infantry_leader panzer_leader panzer_expert infantry_expert fortress_buster	desert_fox commando trait_engineer }
+	traits = { infantry_leader panzer_leader panzer_expert infantry_expert fortress_buster	desert_fox commando trait_engineer skirmisher }
 	skill = 6
 	attack_skill = 4
 	defense_skill = 6

@@ -25,6 +25,10 @@
 1342;10279;sea;2737;-1;-1;-1;-1;;Java-Sumatra
 7396;4211;sea;4225;-1;-1;-1;-1;;Bangka-Belitung
 
+
+
+
+
 1460;12126;sea;812;-1;-1;-1;-1;;Tanahbala-Sumatra
 12126;1428;sea;812;-1;-1;-1;-1;;Tanahbala-Siberut
 4306;4608;sea;5666;-1;-1;-1;-1;;Soerbaja-Madura
@@ -193,6 +197,24 @@
 11090;5792;impassable;-1;-1;-1;-1;-1;; NARVIK
 44;5792;impassable;-1;-1;-1;-1;-1;; NARVIK
 22;5792;impassable;-1;-1;-1;-1;-1;; NARVIK
+
+9853;9824;impassable;-1;-1;-1;-1;-1;; Spain France
+9853;11779;impassable;-1;-1;-1;-1;-1;; Spain France
+11779;6915;impassable;-1;-1;-1;-1;-1;; Spain France
+6915;3898;impassable;-1;-1;-1;-1;-1;; Spain France
+3898;6931;impassable;-1;-1;-1;-1;-1;; Spain France
+3898;3915;impassable;-1;-1;-1;-1;-1;; Spain France
+3915;3899;impassable;-1;-1;-1;-1;-1;; Spain France
+9882;3899;impassable;-1;-1;-1;-1;-1;; Spain France
+9882;899;impassable;-1;-1;-1;-1;-1;; Spain France
+9882;915;impassable;-1;-1;-1;-1;-1;; Spain France
+9884;915;impassable;-1;-1;-1;-1;-1;; Spain France
+9884;11838;impassable;-1;-1;-1;-1;-1;; Spain France
+11697;11838;impassable;-1;-1;-1;-1;-1;; Spain France
+11697;3931;impassable;-1;-1;-1;-1;-1;; Spain France
+743;3931;impassable;-1;-1;-1;-1;-1;; Spain France
+743;3737;impassable;-1;-1;-1;-1;-1;; Spain France
+743;6756;impassable;-1;-1;-1;-1;-1;; Spain France
 
 10113;10013;impassable;-1;-1;-1;-1;-1;; Spain Ceuta
 10113;1194;impassable;-1;-1;-1;-1;-1;; Spain Ceuta
