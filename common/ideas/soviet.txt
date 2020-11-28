@@ -75,7 +75,7 @@ ideas = {
 			removal_cost = -1
 			modifier = {
              	army_speed_factor = 0.1
-				supply_consumption_factor = -0.05
+				supply_consumption_factor = -0.075
 				max_dig_in = -10
 			}
 		}
@@ -90,8 +90,8 @@ ideas = {
 				army_core_attack_factor = 0.05
 				training_time_army_factor = -0.9
 				minimum_training_level = -0.3				
-				supply_consumption_factor = -0.1
-					production_speed_infrastructure_factor = 1
+				supply_consumption_factor = -0.125
+				production_speed_infrastructure_factor = 1.5
 				mobilization_speed = 1
 			}
 	}
@@ -106,8 +106,8 @@ ideas = {
 				dig_in_speed_factor = 1
 				training_time_army_factor = -0.9
 				minimum_training_level = -0.3				
-				supply_consumption_factor = -0.15
-				production_speed_infrastructure_factor = 2
+				supply_consumption_factor = -0.175
+				production_speed_infrastructure_factor = 3
 				mobilization_speed = 1
 				out_of_supply_factor = -0.35	
 			}

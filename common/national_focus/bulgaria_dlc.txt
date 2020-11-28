@@ -260,6 +260,13 @@ focus_tree = {
 			    uses = 3
 			    category = excavation_tech
 			}
+							106 = { 
+				add_building_construction = {
+					type = infrastructure
+					level = 3
+					instant_build = yes
+				}
+				}
 		}
 	}
 

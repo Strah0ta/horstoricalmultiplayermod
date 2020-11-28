@@ -58,7 +58,7 @@ NDefines.NProduction.BASE_LICENSE_IC_COST = 0 -- Was 1, reduced to counter early
 NDefines.NProduction.LICENSE_IC_COST_YEAR_INCREASE = 0				-- IC cost equipment for every year of equipment after 1936
 NDefines.NProduction.LICENSE_EQUIPMENT_SPEED_NOT_FACTION = 0        -- WAS 0.1, removed because there are really only 2 factions in game | MIC speed modifier for licensed equipment for not being in faction
 NDefines.NProduction.BASE_FACTORY_SPEED_MIL = 3.25				-- vanilla 4.5, changed bc there was too much production   Base factory speed multiplier (how much hoi3 style IC each factory gives).
-NDefines.NProduction.CAPITULATE_STOCKPILES_RATIO = 0 -- How much equipment from deployed divisions will be transferred on capitulation
+NDefines.NProduction.CAPITULATE_STOCKPILES_RATIO = 0.01 -- How much equipment from deployed divisions will be transferred on capitulation
 NDefines.NProduction.CAPITULATE_FUEL_RATIO = 1 -- How much fuel will be transferred on capitulation
 
 ---------------------------------------------------------------
