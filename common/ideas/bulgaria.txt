@@ -450,7 +450,6 @@ ideas = {
 			
 			modifier = {
 				stability_weekly = 0.001
-				political_power_gain = 0.5
 			}
 		}
 

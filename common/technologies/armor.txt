@@ -21,7 +21,6 @@ technologies = {
 				heavy_armor = {
 					max_strength = 2
 				}	
-	
 	}
 	
 	

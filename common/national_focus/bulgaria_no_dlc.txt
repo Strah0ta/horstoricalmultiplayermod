@@ -149,9 +149,10 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_state_claim = 184
-			add_state_claim = 106
-			add_state_claim = 293			
+			add_state_core = 184
+			add_state_core = 293
+			add_state_core = 106	
+			add_state_core = 486			
 		}
 	}
 	
@@ -161,17 +162,14 @@ focus_tree = {
 		prerequisite = { focus = BUL_reassert_western_claims }
 		x = 10
 		y = 3
-		cost = 5
+		cost = 1
 
 		available_if_capitulated = yes
 
 		completion_reward = {
-				106 = {	set_state_name = Makedoniya	}
-				add_state_core = 184
-				184 = {	set_state_name = Trakiya 	}
-				add_state_core = 293
-				293 = { set_state_name = Dobrudzha	}
-			add_ideas = BUL_bulgarisation_idea 
+			106 = {	set_state_name = Makedoniya	}
+			184 = {	set_state_name = Trakiya 	}
+			293 = { set_state_name = Dobrudzha	}
 		}
 	}
 		

@@ -550,7 +550,7 @@ equipments = {
 		air_attack = 32.4
 		air_defence = 18 
 		
-		build_cost_ic = 86.4 
+		build_cost_ic = 78
 		resources = {
 			aluminium = 4
 			rubber = 1

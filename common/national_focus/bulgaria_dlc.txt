@@ -1425,6 +1425,14 @@ focus_tree = {
 				remove_idea = BUL_second_national_catastrophe
 				add_idea = BUL_bulgarian_irredentism
 			}
+			add_state_core = 184
+			add_state_core = 293
+			add_state_core = 106	
+			add_state_core = 486			
+			106 = {	set_state_name = Makedoniya	}
+			184 = {	set_state_name = Trakiya 	}
+			293 = { set_state_name = Dobrudzha	}
+			
 		}
 	}
 
@@ -1468,39 +1476,6 @@ focus_tree = {
 			add_ideas = BUL_liberal_trade_policies
 		}
 	}
-
-
-########    ###     ######   ######  ####  ######  ########    ########  ########     ###    ##    ##  ######  ##     ## 
-##         ## ##   ##    ## ##    ##  ##  ##    ##    ##       ##     ## ##     ##   ## ##   ###   ## ##    ## ##     ## 
-##        ##   ##  ##       ##        ##  ##          ##       ##     ## ##     ##  ##   ##  ####  ## ##       ##     ## 
-######   ##     ##  ######  ##        ##   ######     ##       ########  ########  ##     ## ## ## ## ##       ######### 
-##       #########       ## ##        ##        ##    ##       ##     ## ##   ##   ######### ##  #### ##       ##     ## 
-##       ##     ## ##    ## ##    ##  ##  ##    ##    ##       ##     ## ##    ##  ##     ## ##   ### ##    ## ##     ## 
-##       ##     ##  ######   ######  ####  ######     ##       ########  ##     ## ##     ## ##    ##  ######  ##     ## 
-
-	focus = {
-		id = BUL_bulgarisation_of_the_balkans
-
-		prerequisite = { focus = BUL_bulgarian_irredentism }
-
-		icon = GFX_focus_BUL_bulgarisation_of_the_balkans
-		relative_position_id = BUL_bulgarian_irredentism
-		x = 0
-		y = 1
-		cost = 10
-		
-		search_filters = {FOCUS_FILTER_ANNEXATION}
-		completion_reward = {
-						106 = {	set_state_name = Makedoniya	}
-				add_state_core = 184
-				184 = {	set_state_name = Trakiya 	}
-				add_state_core = 293
-				293 = { set_state_name = Dobrudzha	}
-			add_ideas = BUL_bulgarisation_idea
-		}
-	}
-
-
 
 	focus = {
 		id = BUL_the_third_bulgarian_empire

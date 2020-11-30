@@ -1578,10 +1578,10 @@ create_corps_commander = { #for quality inf
 	name = "Kurt Student" 
 	picture = "Portrait_Germany_Kurt_Student.dds"
 	traits = { trait_reckless trait_mountaineer hill_fighter commando camouflage_expert trickster expert_improviser infantry_leader  infantry_expert }
-	skill = 7
-    attack_skill = 6
-    defense_skill = 5
-    planning_skill = 5
+	skill = 8
+    attack_skill = 7
+    defense_skill = 6
+    planning_skill = 6
     logistics_skill = 6
 }
 create_field_marshal = {
@@ -1605,16 +1605,75 @@ create_field_marshal = {
     planning_skill = 5
     logistics_skill = 7
 		}	
+		
+#######Three copies of offensive mass infantry 
 		create_corps_commander = {
 	name = "Fedor von Bock"
 	picture = "Portrait_Germany_Fedor_von_Bock.dds"
-	traits = { harsh_leader infantry_leader infantry_expert fake_skilled_staffer trickster expert_improviser }
+	traits = { harsh_leader infantry_leader infantry_expert fake_skilled_staffer trickster expert_improviser adaptable }
 	skill = 7
-    attack_skill = 6
-    defense_skill = 5
+    attack_skill = 7
+    defense_skill = 4
     planning_skill = 6
     logistics_skill = 5
 }
+
+create_corps_commander = {
+	name = "Georg von Küchler"
+	picture = "Portrait_Germany_Georg_von_Kuchler.dds"
+	traits = { harsh_leader infantry_leader infantry_expert fake_skilled_staffer trickster expert_improviser }
+	skill = 7
+    attack_skill = 7
+    defense_skill = 4
+    planning_skill = 6
+    logistics_skill = 5
+}
+
+create_corps_commander = {
+	name = "Alfred Jodl"
+	picture = "Portrait_Germany_Alfred_Jodl.dds"
+	traits = { harsh_leader infantry_leader infantry_expert fake_skilled_staffer trickster expert_improviser }
+	skill = 7
+    attack_skill = 7
+    defense_skill = 4
+    planning_skill = 6
+    logistics_skill = 5
+}     
+################
+###############Three copies of defensive mass infantry 
+create_corps_commander = {
+	name = "Erwin von Witzleben"
+	picture = "Portrait_Germany_Erwin_von_Witzleben.dds"
+	traits = { old_guard  infantry_leader ambusher fake_skilled_staffer trickster  guerilla_fighter }
+	skill = 7
+    attack_skill = 4
+    defense_skill = 8
+    planning_skill = 6
+    logistics_skill = 4
+}
+create_corps_commander = {
+	name = "Gerd von Rundstedt"
+	picture = "Portrait_Germany_Gerd_von_Rundstedt.dds"
+	traits = { old_guard  infantry_leader ambusher fake_skilled_staffer trickster guerilla_fighter }
+	skill = 7
+    attack_skill = 4
+    defense_skill = 8
+    planning_skill = 6
+    logistics_skill = 4
+}
+
+create_corps_commander = {
+	name = "Wilhelm Ritter von Leeb"
+	picture = "Portrait_Germany_Wilhelm_Ritter_von_Leeb.dds"
+	traits = { old_guard  infantry_leader ambusher fake_skilled_staffer trickster guerilla_fighter }
+	skill = 7
+    attack_skill = 4
+    defense_skill = 8
+    planning_skill = 6
+    logistics_skill = 4
+}
+###########################
+#####
 create_field_marshal = {          #tank FM
     name = "Günther von Kluge"
     picture = "Portrait_Germany_Gunther_von_Kluge.dds"
