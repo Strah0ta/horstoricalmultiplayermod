@@ -403,9 +403,7 @@ sub_units = {
 		combat_width = 1		
 
 		manpower = 500
-		need = {
-			anti_tank_equipment = 36
-		}
+		need = { anti_tank_equipment = 36 }
 		
 		max_strength = 0.6
 		max_organisation = 0
