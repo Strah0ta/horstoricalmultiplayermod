@@ -42,8 +42,8 @@ country = {
 	max_dig_in = -12
 	army_attack_factor = -0.8
 	army_defence_factor = -0.8
-	max_command_power = -50
-	command_power_gain_mult = -0.35	
+	max_command_power = -80
+	command_power_gain_mult = -0.8
 	production_speed_naval_base_factor = -1.2
 	}
 	available = { owns_state = 110 }
