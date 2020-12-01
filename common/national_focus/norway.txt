@@ -288,14 +288,6 @@ focus_tree = {
 				category = jet_technology
 			}
 		}
-
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0.25
-				always = yes
-			}
-		}
 	}
 
 	focus = {
@@ -318,10 +310,6 @@ focus_tree = {
 				
 			}
 		}
-
-		ai_will_do = {
-			factor = 3
-		}
 	}
 
 	focus = {
@@ -334,12 +322,6 @@ focus_tree = {
 		cost = 10
 
 		available_if_capitulated = yes
-
-
-		
-		ai_will_do = {
-			factor = 2
-		}
 
 		bypass = {
 			custom_trigger_tooltip = {
@@ -390,11 +372,6 @@ focus_tree = {
 		cost = 10
 
 		available_if_capitulated = yes
-
-
-		ai_will_do = {
-			factor = 2
-		}
 
 		bypass = {
 			custom_trigger_tooltip = {
@@ -579,14 +556,6 @@ focus_tree = {
 				category = rocketry
 			}
 		}
-
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0.25
-				always = yes
-			}
-		}
 	}
 
 	focus = {
@@ -614,14 +583,6 @@ focus_tree = {
 		cost = 10
 
 		available_if_capitulated = yes
-
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0
-				tag = AUS
-			}
-		}
 
 		completion_reward = {
 			add_political_power = 150

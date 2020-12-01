@@ -746,25 +746,11 @@ ideas = {
 			}
 			
 			traits = { fortification_engineer }
-
-			ai_will_do = {
-				factor = 0.5
-			}
 		}
 		
 		speer = {
-
-			
-			allowed = {
-				original_tag = GER
-			}
-			
-			available = {
-			}
-			
+			allowed = {	original_tag = GER	}
 			cost = 150
-			
-			
 			traits = { reichs_minister }
 		}
 		
@@ -781,9 +767,6 @@ ideas = {
 			}
 			
 			traits = { captain_of_industry }
-			ai_will_do = {
-				factor = 2
-			}
 		}
 		
 		
@@ -813,20 +796,8 @@ ideas = {
 		}
 		
 		martin_bormann = {
-
-			
-			allowed = {
-				original_tag = GER
-			}
-
-			available = {
-					has_government = fascism
-			}
-
-			ai_will_do = {
-				factor = 30
-			}
-			
+			allowed = {	original_tag = GER	}
+			available = {	has_government = fascism	}
 			traits = { silent_workhorse }
 		} 	
 	}

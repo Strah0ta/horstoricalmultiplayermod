@@ -299,9 +299,6 @@ focus_tree = {
 		y = 1
 		relative_position_id = ITA_mediterranean_wall
 		cost = 1
-		ai_will_do = {
-			factor = 1
-		}	
 		
 				available = { 				
 surrender_progress > 0.70 
@@ -331,10 +328,6 @@ date > 1941.6.1
 		y = 1
 		relative_position_id = ITA_industrial_effort_2
 		cost = 10
-		ai_will_do = {
-			factor = 1
-		}
-
 		available_if_capitulated = yes
 
 		completion_reward = {
@@ -351,9 +344,7 @@ date > 1941.6.1
 		y = 1
 		relative_position_id = ITA_extra_tech_slot
 		cost = 5
-		ai_will_do = {
-			factor = 1
-		}	
+
 		completion_reward = {
 			2 = {
 				if = {
@@ -481,9 +472,6 @@ date > 1941.6.1
 		y = 1
 		relative_position_id = ITA_libyan_refineries
 		cost = 5
-		ai_will_do = {
-			factor = 1
-		}
 
 		available_if_capitulated = yes
 
@@ -550,10 +538,6 @@ date > 1941.6.1
 		x = 5
 		y = 0
 		cost = 10
-		ai_will_do = {
-			factor = 0.25
-		}
-
 		available_if_capitulated = yes
 
 		completion_reward = {
@@ -592,10 +576,6 @@ date > 1941.6.1
 		y = 1
 		relative_position_id = ITA_army_primacy
 		cost = 10
-		ai_will_do = {
-			factor = 1
-		}
-
 		available_if_capitulated = yes
 
 		completion_reward = {
@@ -650,10 +630,6 @@ date > 1941.6.1
 		y = 2
 		relative_position_id = ITA_modernized_artillery
 		cost = 10
-		ai_will_do = {
-			factor = 1
-		}
-
 		available_if_capitulated = yes
 
 		completion_reward = {
@@ -681,10 +657,6 @@ date > 1941.6.1
 		y = 2
 		relative_position_id = ITA_special_forces
 		cost = 10
-		ai_will_do = {
-			factor = 1
-		}
-
 		available_if_capitulated = yes
 
 		completion_reward = {
@@ -699,10 +671,6 @@ date > 1941.6.1
 		y = 2
 		relative_position_id = ITA_modernized_army
 		cost = 10
-		ai_will_do = {
-			factor = 1
-		}
-
 		available_if_capitulated = yes
 
 		completion_reward = {
@@ -722,10 +690,6 @@ date > 1941.6.1
 		x = 7
 		y = 0
 		cost = 5
-		ai_will_do = {
-			factor = 5
-		}
-
 		available_if_capitulated = yes
 
 		completion_reward = {
@@ -801,10 +765,6 @@ date > 1941.6.1
 		y = 1
 		relative_position_id = ITA_mare_nostrum
 		cost = 5
-		ai_will_do = {
-			factor = 1
-		}
-
 		available_if_capitulated = yes
 
 		completion_reward = {
@@ -825,11 +785,6 @@ date > 1941.6.1
 		y = 1
 		relative_position_id = ITA_mare_nostrum
 		cost = 5
-		ai_will_do = {
-			factor = 1
-		}
-
-		available_if_capitulated = yes
 
 		completion_reward = {
 			add_tech_bonus = {
@@ -882,11 +837,6 @@ date > 1941.6.1
 		y = 1
 		relative_position_id = ITA_air_innovation
 		cost = 10
-		ai_will_do = {
-			factor = 1
-		}
-
-		available_if_capitulated = yes
 
 		completion_reward = {
 			add_tech_bonus = {
@@ -908,12 +858,6 @@ date > 1941.6.1
 		y = 2
 		relative_position_id = ITA_capital_ships
 		cost = 5
-		ai_will_do = {
-			factor = 1
-		}
-
-		available_if_capitulated = yes
-
 		completion_reward = {
 			add_tech_bonus = {
 				name = ITA_marines_and_landing_craft
@@ -965,11 +909,6 @@ date > 1941.6.1
 		y = 1
 		relative_position_id = ITA_air_innovation_2
 		cost = 10
-		ai_will_do = {
-			factor = 1
-		}
-
-		available_if_capitulated = yes
 
 		completion_reward = {
 			add_tech_bonus = {

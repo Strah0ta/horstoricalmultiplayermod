@@ -887,10 +887,7 @@ focus_tree = {
 
 		available = {
 			any_controlled_state = {
-				OR = {
-					is_core_of = BUL
-					has_state_flag = BUL_historical_bulgarian_claim_flag
-				}
+				is_core_of = BUL
 				is_coastal = yes
 			}
 		}
@@ -898,10 +895,7 @@ focus_tree = {
 		completion_reward = {
 			every_controlled_state = {
 				limit = {
-					OR = {
-						is_core_of = BUL
-						has_state_flag = BUL_historical_bulgarian_claim_flag
-					}
+					is_core_of = BUL
 					is_coastal = yes
 				}
 				add_building_construction = {

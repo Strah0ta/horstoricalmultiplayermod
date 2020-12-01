@@ -276,13 +276,6 @@ focus_tree = {
 		y = 1
 		cost = 5
 
-		ai_will_do = {
-			factor = 10
-		}
-
-		available = {
-		}
-
 		available_if_capitulated = yes
 
 		completion_reward = {
@@ -305,13 +298,6 @@ focus_tree = {
 		x = 2
 		y = 1
 		cost = 5
-
-		ai_will_do = {
-			factor = 10
-		}
-
-		available = {
-		}
 
 		available_if_capitulated = yes
 
@@ -419,13 +405,6 @@ focus_tree = {
 		y = 1
 		cost = 5
 
-		ai_will_do = {
-			factor = 10
-		}
-
-		available = {
-		}
-
 		available_if_capitulated = yes
 
 		completion_reward = {
@@ -532,18 +511,6 @@ focus_tree = {
 		x = 1
 		y = 1
 		cost = 5
-		ai_will_do = {
-			factor = 10
-		}
-
-		available_if_capitulated = no
-
-		available = {
-		}
-		
-		bypass = {
-		}
-
 		completion_reward = {
 			add_ideas = BUL_krali_marko_line_idea
 		}
@@ -580,12 +547,7 @@ focus_tree = {
 		y = 1
 		cost = 5
 		relative_position_id = BUL_rearm_airforce
-		ai_will_do = {
-			factor = 10
-		}
-		
-		available_if_capitulated = no
-		
+
 		completion_reward = {
 			48 = {
 				set_building_level = {
@@ -1321,11 +1283,6 @@ focus_tree = {
 		x = 33
 		y = 0
 		cost = 5
-		ai_will_do = {
-			factor = 8
-		}
-
-		available_if_capitulated = yes
 
 		available = {
 			owns_state = 48
@@ -1345,11 +1302,6 @@ focus_tree = {
 		x = 0
 		y = 1
 		cost = 5
-		ai_will_do = {
-			factor = 90
-		}
-
-		available_if_capitulated = yes
 
 		available = {
 			owns_state = 106

@@ -973,54 +973,21 @@ ideas = {
 	# MILITARY
 	army_chief = {
 		
-		kanin_kotohito = {
-			
-			
-			allowed = {
-				original_tag = JAP
-			}
-			
-
-			
+		kanin_kotohito = {	
+			allowed = {	original_tag = JAP	}
 			traits = { army_chief_offensive_1 }
-			
-			ai_will_do = {
-				factor = 1
-			}
 		}
 		
 		hajime_sugiyama = {
-			
-			
-			allowed = {
-				original_tag = JAP
-			}
-			
-			available = {
-				has_completed_focus = JAP_army_expansion
-			}
-			
+			allowed = {	original_tag = JAP	}
+			available = {	has_completed_focus = JAP_army_expansion	}
+			cost = 0 
 			traits = { army_chief_drill_3 }
-			
-			ai_will_do = {
-				factor = 1
-			}
 		}
 		
 		hideki_tojo = {
-			
-			
-			allowed = {
-				original_tag = JAP
-			}
-			
-
-			
+			allowed = {	original_tag = JAP	}	
 			traits = { army_chief_morale_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
 		}
 	}
 	navy_chief = {
@@ -1028,19 +995,8 @@ ideas = {
 		
 		
 		fushimi_hiroyasu = {
-			
-			
-			allowed = {
-				original_tag = JAP
-			}
-			
-
-			
+			allowed = {	original_tag = JAP	}
 			traits = { navy_chief_naval_aviation_2 }
-			
-			ai_will_do = {
-				factor = 0.2
-			}
 		}
 		
 		osami_nagano = {
@@ -1053,10 +1009,6 @@ ideas = {
 
 			
 			traits = { navy_chief_commerce_raiding_1 }
-			
-			ai_will_do = {
-				factor = 0.2
-			}
 		}
 		
 		shigetaro_shimada = {
@@ -1069,10 +1021,6 @@ ideas = {
 
 			
 			traits = { navy_chief_decisive_battle_2 }
-			
-			ai_will_do = {
-				factor = 0.2
-			}
 		}
 	}
 	air_chief = {
@@ -1089,9 +1037,6 @@ ideas = {
 			
 			traits = { air_chief_night_operations_1 }
 			
-			ai_will_do = {
-				factor = 1
-			}
 		}
 		
 		korechika_anami = {
@@ -1105,9 +1050,6 @@ ideas = {
 			
 			traits = { air_chief_ground_support_1 }
 			
-			ai_will_do = {
-				factor = 1
-			}
 		}
 		
 		kenji_doihara = {
@@ -1120,10 +1062,7 @@ ideas = {
 
 			
 			traits = { air_chief_all_weather_1 }
-			
-			ai_will_do = {
-				factor = 1
-			}
+
 		}
 	}	
 	
@@ -1132,76 +1071,26 @@ ideas = {
 		
 		hitoshi_imamura = {
 			ledger = army
-			
-			
-			allowed = {
-				original_tag = JAP
-			}
-			
-
-			
+			allowed = {	original_tag = JAP	}
 			traits = { army_armored_1 }
-			
-			ai_will_do = {
-				factor = 3
-			}
 		}
 		
 		yasuji_okamura = {
 			ledger = army
-			
-			
-			allowed = {
-				original_tag = JAP
-			}
-			
-
-			
+			allowed = {	original_tag = JAP	}
 			traits = { army_infantry_2 }
-			
-			ai_will_do = {
-				factor = 3
-				modifier = {
-					factor = 3
-					NOT = {
-						JAP = { has_war_with = USA }
-					}
-				}
-			}
 		}
 		
 		shunroku_hata = {
 			ledger = army
-			
-			
-			allowed = {
-				original_tag = JAP
-			}
-			
-
-			
+			allowed = {	original_tag = JAP	}
 			traits = { army_concealment_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
 		}	
 		
 		mitsuo_fuchida = {
 			ledger = air
-			
-			
-			allowed = {
-				original_tag = JAP
-			}
-			
-
-			
+			allowed = {	original_tag = JAP }
 			traits = { air_tactical_bombing_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
 		}
 		
 		nishizo_tsukahara = {
@@ -1215,10 +1104,6 @@ ideas = {
 
 			
 			traits = { air_naval_strike_1 }
-			
-			ai_will_do = {
-				factor = 1
-			}
 		}	
 		
 		soemu_toyoda = {
@@ -1232,10 +1117,6 @@ ideas = {
 
 			
 			traits = { navy_capital_ship_1 }
-			
-			ai_will_do = {
-				factor = 1
-			}
 		}
 		
 		matome_ugaki = {
@@ -1249,10 +1130,6 @@ ideas = {
 
 			
 			traits = { navy_naval_air_defense_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
 		}
 		
 		chuichi_nagumo = {
@@ -1266,10 +1143,6 @@ ideas = {
 
 			
 			traits = { navy_carrier_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
 		}
 	}
 		

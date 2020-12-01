@@ -70,12 +70,6 @@ focus_tree = {
 		y = 1
 		relative_position_id = tizard_mission_focus
 		cost = 5
-		ai_will_do = {
-			factor = 1
-		}
-
-		available_if_capitulated = yes
-
 		completion_reward = {
 			add_tech_bonus = {
 				name = maud_focus
@@ -577,11 +571,6 @@ add_equipment_production = {
 		y = 1
 		relative_position_id = air_rearmament_focus
 		cost = 5
-		ai_will_do = {
-			factor = 1
-		}
-
-		available_if_capitulated = yes
 
 		completion_reward = {
 			add_tech_bonus = {
@@ -601,11 +590,6 @@ add_equipment_production = {
 		y = 1
 		relative_position_id = air_rearmament_focus
 		cost = 5
-		ai_will_do = {
-			factor = 1
-		}
-
-		available_if_capitulated = yes
 
 		completion_reward = {
 			add_tech_bonus = {
@@ -726,11 +710,6 @@ add_equipment_production = {
 		y = 4
 		relative_position_id = naval_rearmament_focus
 		cost = 10
-		ai_will_do = {
-			factor = 1
-		}
-
-		available_if_capitulated = yes
 
 		completion_reward = {
 			add_tech_bonus = {
@@ -760,11 +739,6 @@ add_equipment_production = {
 		y = 2
 		relative_position_id = naval_rearmament_focus
 		cost = 5
-		ai_will_do = {
-			factor = 1
-		}
-
-		available_if_capitulated = yes
 
 		completion_reward = {
 			add_tech_bonus = {
@@ -783,11 +757,6 @@ add_equipment_production = {
 		y = 1
 		relative_position_id = uk_waves_focus
 		cost = 5
-		ai_will_do = {
-			factor = 0.25
-		}
-
-		available_if_capitulated = yes
 
 		completion_reward = {
 			add_tech_bonus = {
@@ -807,11 +776,6 @@ add_equipment_production = {
 		y = 1
 		relative_position_id = uk_waves_focus
 		cost = 5
-		ai_will_do = {
-			factor = 1
-		}
-
-		available_if_capitulated = yes
 
 		completion_reward = {
 			add_tech_bonus = {
@@ -859,10 +823,6 @@ add_equipment_production = {
 		relative_position_id = naval_rearmament_focus
 		cost = 5
 
-		allow_branch = {
-			has_dlc = "Man the Guns"
-		}
-
 		available_if_capitulated = yes
 
 		completion_reward = {
@@ -886,9 +846,6 @@ add_equipment_production = {
 		y = 1
 		relative_position_id = uk_battleship_focus
 		cost = 5
-		allow_branch = {
-			has_dlc = "Man the Guns"
-		}
 
 		available = {
 			has_tech = advanced_ship_hull_heavy
@@ -928,26 +885,12 @@ add_equipment_production = {
 
 	focus = {
 		id = uk_empire_focus 
-		available = {
-	
-		} 
+
 		icon = GFX_focus_eng_imperial_federation
 		x = 16
 		y = 0
-		offset = {
-			x = -1
-			y = 0
-			trigger = {
-				NOT = { has_dlc = "Man the Guns" }
-			}
-		}
+
 		cost = 10
-		ai_will_do = {
-			factor = 1
-
-		}	
-
-		available_if_capitulated = yes
 
 		completion_reward = {
 			add_stability = 0.1
@@ -962,13 +905,7 @@ add_equipment_production = {
 		icon = GFX_goal_generic_position_armies
 		x = 0
 		y = 1
-		offset = {
-			x = 2
-			y = 0
-			trigger = {
-				NOT = { has_dlc = "Man the Guns" }
-			}
-		}
+
 		relative_position_id = uk_empire_focus
 		cost = 10
 
@@ -1627,18 +1564,10 @@ create_field_marshal = {
 		icon = GFX_focus_ENG_home_defense
 		x = 0
 		y = 1
-		offset = {
-			x = 0
-			y = 1
-			trigger = {
-				NOT = { has_dlc = "Man the Guns" }
-			}
-		}
+
 		relative_position_id = ENG_steady_as_she_goes
 		cost = 5
-		ai_will_do = {
-			factor = 1
-		}	
+
 		completion_reward = {
 			add_war_support = 0.05
 			# Ipswich
