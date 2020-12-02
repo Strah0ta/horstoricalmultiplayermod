@@ -19,7 +19,6 @@ add_ideas = {
 	partial_economic_mobilisation
 	JAP_interservice_rivalry_balanced		
 	JAP_zaibatsus
-	JAP_duplicate_research_efforts
 	JAP_militarism
 	MAN_south_manchuria_railway_company
 }

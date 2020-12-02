@@ -548,36 +548,17 @@ hidden_effect = {		set_technology = { naval_bomber2 = 1 }
 
 		completion_reward = {
 			army_experience = 30
+			add_ideas = hajime_sugiyama
 		}
 	}
-
+	
 	focus = {
-		id = JAP_small_arms_modernization
-		icon = GFX_focus_JAP_expansion
+		id = JAP_supremacy_of_technology
+		icon = GFX_goal_generic_production
 		prerequisite = { focus = JAP_army_expansion_law }
 		x = -1
 		y = 1
 		relative_position_id = JAP_army_expansion_law
-
-		cost = 5
-
-		completion_reward = {
-			add_tech_bonus = {
-				name = JAP_small_arms_modernization
-				bonus = 1.0
-				uses = 3
-				category = infantry_weapons	
-			}
-		}
-	}
-
-	focus = {
-		id = JAP_supremacy_of_technology
-		icon = GFX_goal_generic_production
-		prerequisite = { focus = JAP_small_arms_modernization }
-		x = 0
-		y = 1
-		relative_position_id = JAP_small_arms_modernization
 		
 		cost = 5
 
@@ -599,16 +580,36 @@ hidden_effect = {		set_technology = { naval_bomber2 = 1 }
 		}
 		}
 		}
-
-		
 		}
 	}
+	
+	focus = {
+		id = JAP_small_arms_modernization
+		icon = GFX_focus_JAP_expansion
+		prerequisite = { focus = JAP_supremacy_of_technology }
+		x = -1
+		y = 2
+		relative_position_id = JAP_supremacy_of_technology
+
+		cost = 5
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = JAP_small_arms_modernization
+				bonus = 1.0
+				uses = 3
+				category = infantry_weapons	
+			}
+		}
+	}
+
+
 
 	focus = {
 		id = JAP_modern_artillery
 		icon = GFX_goal_generic_army_artillery2
 		prerequisite = { focus =JAP_supremacy_of_technology  }
-		x = -1
+		x = 0
 		y = 1
 		relative_position_id = JAP_supremacy_of_technology
 
@@ -643,7 +644,7 @@ hidden_effect = {		set_technology = { naval_bomber2 = 1 }
 		id = JAP_armored_divisions
 		icon = GFX_focus_JAP_armor
 		prerequisite = { focus = JAP_supremacy_of_technology }
-		x = 0
+		x = 1
 		y = 2
 		relative_position_id = JAP_supremacy_of_technology
 
@@ -663,7 +664,7 @@ hidden_effect = {		set_technology = { naval_bomber2 = 1 }
 		id = JAP_bicycle_battalions
 		icon = GFX_goal_generic_special_forces
 		prerequisite = { focus = JAP_supremacy_of_technology focus = JAP_supremacy_of_will }
-		x = 1
+		x = 2
 		y = 1
 		relative_position_id = JAP_supremacy_of_technology
 
@@ -675,29 +676,12 @@ hidden_effect = {		set_technology = { naval_bomber2 = 1 }
 	}
 
 	focus = {
-		id = JAP_army_expansion
-		icon = GFX_focus_JAP_small_arms
+		id = JAP_supremacy_of_will
+		icon = GFX_supremacy_of_will
 		prerequisite = { focus = JAP_army_expansion_law }
 		x = 1
 		y = 1
 		relative_position_id = JAP_army_expansion_law
-
-		cost = 5
-
-		completion_reward = {
-			custom_effect_tooltip = available_chief_of_army
-			show_ideas_tooltip = hajime_sugiyama
-		}
-	}
-
-	focus = {
-		id = JAP_supremacy_of_will
-		icon = GFX_supremacy_of_will
-		prerequisite = { focus = JAP_army_expansion }
-		#mutually_exclusive = { focus = JAP_supremacy_of_technology }
-		x = 0
-		y = 1
-		relative_position_id = JAP_army_expansion
 
 		cost = 5
 
@@ -808,7 +792,7 @@ hidden_effect = {		set_technology = { naval_bomber2 = 1 }
 	focus = {
 		id = JAP_strategic_bomber_effort
 		icon = GFX_goal_generic_air_bomber
-		prerequisite = { focus = JAP_range_focus focus = JAP_bomber_modernization }
+		prerequisite = { focus = JAP_bomber_modernization }
 		x = -1
 		y = 3
 		relative_position_id = JAP_fighter_modernization
@@ -827,27 +811,11 @@ hidden_effect = {		set_technology = { naval_bomber2 = 1 }
 	}
 
 	focus = {
-		id = JAP_unified_fighter_development
-		icon = GFX_goal_generic_air_fighter
-		prerequisite = { focus = JAP_agility_focus }
-		prerequisite = { focus = JAP_the_zero }
-		x = 1
-		y = 3
-		relative_position_id = JAP_fighter_modernization
-
-		cost = 5
-
-		completion_reward = {
-			remove_ideas = JAP_duplicate_research_efforts
-		}
-	}
-
-	focus = {
 		id = JAP_jet_prototypes
 		icon = GFX_goal_generic_build_airforce
-		prerequisite = { focus = JAP_unified_fighter_development focus = JAP_strategic_bomber_effort }
-		x = 0
-		y = 4
+		prerequisite = { focus = JAP_bomber_modernization  }
+		x = 1
+		y = 3
 		relative_position_id = JAP_fighter_modernization
 
 		cost = 10
