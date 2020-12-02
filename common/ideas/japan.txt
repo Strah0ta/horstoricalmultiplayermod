@@ -827,7 +827,7 @@ ideas = {
 		
 		hajime_sugiyama = {
 			allowed = {	original_tag = JAP	}
-			available = {	has_completed_focus = JAP_army_expansion	}
+			available = {	has_completed_focus = JAP_army_expansion_law	}
 			cost = 0 
 			traits = { army_chief_drill_3 }
 		}
