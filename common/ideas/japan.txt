@@ -152,8 +152,8 @@ ideas = {
 				trade_laws_cost_factor = 0.25
 				economy_cost_factor = 0.25
 				production_speed_industrial_complex_factor = 0.05
-				production_speed_arms_factory_factor = 0.05
-				production_speed_dockyard_factor = 0.05
+				production_speed_arms_factory_factor = 0.1
+				production_speed_dockyard_factor = 0.15
 				consumer_goods_factor = 0.05
 			}
 		}
@@ -178,9 +178,9 @@ ideas = {
 				economy_cost_factor = 0.25
 				production_speed_industrial_complex_factor = 0.10
 				consumer_goods_factor = 0.02
-				production_speed_arms_factory_factor = 0.10
-				production_speed_dockyard_factor = 0.1
-				industrial_capacity_factory = 0.05
+				production_speed_arms_factory_factor = 0.2
+				production_speed_dockyard_factor = 0.3
+				industrial_capacity_factory = 0.1
 			}
 		}
 
@@ -221,53 +221,6 @@ ideas = {
 			}
 		}
 
-		JAP_militarism_shogunate = {
-
-			name = JAP_militarism
-
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-			
-			removal_cost = -1
-
-			picture = jap_militarism_shogun
-			
-			modifier = {
-				war_support_factor = 0.3
-				mobilization_laws_cost_factor = -0.35
-				research_speed_factor = -0.10
-				production_speed_industrial_complex_factor = -0.1
-				production_speed_arms_factory_factor = 0.05
-			}
-		}
-
-		JAP_militarism_showa = {
-
-			name = JAP_militarism
-
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-			
-			removal_cost = -1
-
-			picture = jap_militarism_showa
-			
-			modifier = {
-				war_support_factor = 0.1
-				mobilization_laws_cost_factor = -0.15
-				production_speed_industrial_complex_factor = 0.1
-			}
-		}
 
 		MAN_militarism = {
 			allowed = {
@@ -304,100 +257,6 @@ ideas = {
 			
 			modifier = {
 				stability_factor = 0.5
-			}
-		}
-
-		JAP_the_unthinkable_option = {
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = no
-			}
-			
-			removal_cost = -1
-
-			picture = jap_the_unthinkable_option
-			
-			modifier = {
-				stability_weekly = -0.01
-				communism_drift = 0.03
-			}
-		}
-
-		JAP_reeducation_campaign = {
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = no
-			}
-
-			available = { has_stability < 0.5 }
-			
-			removal_cost = -1
-
-			picture = socialist_science_focus
-			
-			modifier = {
-				stability_weekly = 0.05
-			}
-		}
-
-		JAP_red_brigades = {
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				has_government = communism
-			}
-			
-			removal_cost = -1
-
-			picture = generic_communist_army
-			
-			modifier = {
-				conscription = 0.02
-			}
-		}
-
-		JAP_communist_volunteers = {
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				has_government = communism
-			}
-			
-			removal_cost = -1
-
-			picture = generic_volunteer_expedition_bonus
-			
-			modifier = {
-				send_volunteer_divisions_required = -1
-				send_volunteer_size = 1
-			}
-		}
-
-		JAP_people_owned_mines = {
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				has_government = communism
-			}
-			
-			removal_cost = -1
-
-			picture = generic_exploit_mines
-			
-			modifier = {
-				local_resources_factor = 0.1
 			}
 		}
 
@@ -451,13 +310,8 @@ ideas = {
 
 			picture = jap_interservice_rivalry_army_dominant
 			
-			research_bonus = {
-				land_doctrine = 0.05
-			}
-			
 			modifier = {
-				production_speed_arms_factory_factor = 0.1
-				industrial_capacity_factory = 0.1
+				industrial_capacity_factory = 0.05
 			}
 		}
 
@@ -475,8 +329,7 @@ ideas = {
 			picture = jap_interservice_rivalry_army_strengthened
 			
 			modifier = {
-				production_speed_arms_factory_factor = 0.05
-				industrial_capacity_factory = 0.05
+				industrial_capacity_factory = 0.025
 			}
 		}
 
@@ -508,7 +361,6 @@ ideas = {
 			picture = jap_interservice_rivalry_navy_strengthened
 			
 			modifier = {
-				production_speed_dockyard_factor = 0.1
 				industrial_capacity_dockyard = 0.05
 			}
 		}
@@ -525,13 +377,8 @@ ideas = {
 			removal_cost = -1
 
 			picture = jap_interservice_rivalry_navy_dominant
-			
-			research_bonus = { 
-				naval_doctrine = 0.05
-			}
 
 			modifier = {
-				production_speed_dockyard_factor = 0.2
 				industrial_capacity_dockyard = 0.1
 			}
 		}		
