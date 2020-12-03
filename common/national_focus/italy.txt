@@ -744,7 +744,7 @@ date > 1941.6.1
 		y = 1
 		relative_position_id = ITA_army_primacy
 		cost = 5
-		available_if_capitulated = yes
+		available = { date > 1937.1.1 }
 
 		completion_reward = {
 			set_technology = { fighter2 = 1} set_technology = { heavy_fighter2 = 1 }
