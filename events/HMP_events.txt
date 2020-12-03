@@ -313,6 +313,8 @@ country_event = {
 			287 = { add_core_of = SOV }
 			80 = { add_core_of = SOV }
 			country_event = finland.20
+				HMP_script_finland = yes
+					add_named_threat = { threat = 7.5 name = Winter_War_Threat }
 			}
 			SOV = {  transfer_state = 80 }
 		
@@ -548,8 +550,6 @@ country_event = {
 
 	option = {
 				name = finland.20.a
-	add_named_threat = { threat = 7.5 name = Winter_War_Threat }
-	HMP_script_finland = yes
 	FIN = { country_event = { id = finland.21 } }
 	}
 }
@@ -580,10 +580,6 @@ country_event = {
 	is_triggered_only = yes 
 	option = { # Become Free French
 		name = france.10.b
-		
-		trigger = { FRA = { has_capitulated = yes }}
-		set_global_flag = fall_of_france
-		set_cosmetic_tag = FRA_FREE
 		custom_effect_tooltip = france.10.b_tt
 	}
 }
@@ -601,7 +597,6 @@ country_event = {
 		name = france.14.a
 		ENG = { country_event = britain.9 }
 		horstorical_multiplayer_vichy_france = yes 
-		
 	}
 }
 
@@ -664,9 +659,22 @@ country_event = {
 
 	option = { # Seize it!
 		name = lar_spain.53.a
+	}
+}
+country_event = {
+	id = lar_spain.953
+	title = lar_spain.53.t
+	desc = lar_spain.53.desc
+	picture = GFX_report_event_generic_read_write
+	
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = { # Seize it!
+		name = lar_spain.53.a
 		SOV = { add_timed_idea = { idea = SPR_seized_spanish_gold_reserves days = 365 } }
 	}
-
 }
 add_namespace = lar_fake_intel_units
 
@@ -2526,16 +2534,6 @@ country_event = {
 	option = {
 		name = britain.9.a
 
-		create_country_leader = {
-			name = "Winston Churchill"
-			desc = "POLITICS_WINSTON_CHURCHILL_DESC"
-			picture = "Portrait_Britain_Winston_Churchill.dds"
-			expire = "1965.1.1"
-			ideology = conservatism
-			traits = {	british_bulldog	}
-		}
-		add_stability = 0.1
-		add_war_support = 0.1
 	}
 }
 
@@ -2846,12 +2844,21 @@ country_event = {
 	
 	option = {
 		name = germany.75.a	#sounds good
+	}
+}
+country_event = {
+	id = germany.975
+	title = germany.75.t
+	desc = germany.75.d
+	picture = GFX_report_event_physics_lab_01
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = germany.75.a	#sounds good
 		SOV = { complete_national_focus = SOV_transpolar_flights2 }
 	}
-	
 }
-
-
 
 # German Joint Air Research
 country_event = {
@@ -3307,12 +3314,19 @@ is_triggered_only = yes
 	    is_triggered_only = yes
         option = {
 				name = "We will shoot these fascist dogs out of the skies!"
-							if = { limit = { tag = SWE } SOV = { complete_national_focus = SOV_resurgent_red_airforce_foc }}
-
 			}
-			
     }
-	
+		    country_event = {	
+        id = soviet.902
+        title = "Resurgent Red Airforce"
+        desc = "As the war drags on our airforce increasingly intercepts German ground support aircraft, slowly turning the tide of the land war."
+        picture = GFX_report_event_ace_promoted
+	    is_triggered_only = yes
+        option = {
+				name = "We will shoot these fascist dogs out of the skies!"
+				SOV = { complete_national_focus = SOV_resurgent_red_airforce_foc }
+			}
+    }
 		    country_event = {	
         id = soviet.503
         title = "Border Posts Overrun"

@@ -1948,6 +1948,51 @@ create_corps_commander = {
 	planning_skill = 5
 	logistics_skill = 5
 }
+
+create_navy_leader = {
+	name = "Isoroku Yamamoto"
+		picture = "Portrait_Japan_Isoroku_Yamamoto.dds"
+	traits = { bold air_controller concealment_expert flight_deck_manager spotter blue_water_expert fleet_protector destroyer_leader torpedo_bomber }
+	skill = 5
+	attack_skill = 3
+	defense_skill = 4
+	maneuvering_skill = 3
+	coordination_skill = 6
+}
+
+create_navy_leader = {
+	name = "Mineichi Koga" 
+		picture = "Portrait_Japan_Mineichi_Koga.dds"
+	traits = { battleship_adherent bold  lone_wolf spotter ironside inshore_fighter big_guns_expert fleet_protector destroyer_leader   }
+	skill = 4
+	attack_skill = 3
+	defense_skill = 3
+	maneuvering_skill = 2
+	coordination_skill = 5
+}
+
+                
+create_navy_leader = {
+	name = "Soemu Toyoda"
+		picture = "Portrait_Japan_Soemu_Toyoda.dds"
+	traits = { bold ironside blockade_runner destroyer_leader lone_wolf fly_swatter cruiser_captain big_guns_expert fleet_protector search_pattern_expert }
+	skill = 4
+	attack_skill = 3
+	defense_skill = 2
+	maneuvering_skill = 4
+	coordination_skill = 4
+}
+
+create_navy_leader = {
+	name = "Tadashige Daigo"
+		picture = "Portrait_Japan_Tadashige_Daigo.dds"
+	traits = { seawolf spotter  concealment_expert  blockade_runner silent_hunter torpedo_expert loading_drill_master   spotter blue_water_expert }
+	skill = 4
+	attack_skill = 4
+	defense_skill = 2
+	maneuvering_skill = 2
+	coordination_skill = 6
+}
 }
 
 MAN = { 
@@ -2861,6 +2906,59 @@ create_corps_commander = {
 	planning_skill = 6
 	logistics_skill = 6
 }
+
+create_navy_leader = {
+	name = "Chester W. Nimitz"
+		picture = "Portrait_USA_Chester_W_Nimitz.dds"
+	traits = { bold spotter air_controller  blue_water_expert concealment_expert flight_deck_manager  torpedo_bomber ironside ground_pounder smoke_screen_expert }
+	skill = 6
+	attack_skill = 3
+	defense_skill = 6
+	maneuvering_skill = 3
+	coordination_skill = 7
+}
+
+create_navy_leader = {
+	name = "Harold Rainsford Stark"
+		picture = "Portrait_USA_Harold_Rainsford_Stark.dds"
+	traits = { cuts_corners blockade_runner spotter seawolf  concealment_expert }
+	skill = 4
+	attack_skill = 4
+	defense_skill = 1
+	maneuvering_skill = 2
+	coordination_skill = 6
+}
+
+create_navy_leader = {
+	name = "Arleigh Burke"
+		picture = "Portrait_USA_Arleigh_Burke.dds"
+	traits = { bold concealment_expert lone_wolf fleet_protector destroyer_leader inshore_fighter fly_swatter cruiser_captain }
+	skill = 4
+	attack_skill = 4
+	defense_skill = 2
+	maneuvering_skill = 5
+	coordination_skill = 2
+}
+
+	create_operative_leader = {
+		name = "Josephine Baker"
+		GFX = GFX_portrait_josephine_baker
+		traits = {  }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { USA }
+	}
+
+	create_operative_leader = {
+		name = "Virginia Hall"
+		GFX = GFX_portrait_virginia_hall
+		traits = { operative_demolition_expert }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { USA }
+	}
 }
 }
 HMP_RAJ_generals = {
