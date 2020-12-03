@@ -11,9 +11,11 @@ country_event = { id =  lar_spain.3 days = 199 }
 country_event = { id =  italy.632 days = 1826 } #africa tank HP germany
 country_event = { id = soviet.502 days = 2465  }	#resurgent red air force event 
 country_lock_all_division_template = yes
-
+country_event = { id = DOD_yugoslavia.21 days = 759  }	 
 news_event = { id = news.9990 days = 2364 }
 news_event = { id = news.9991 days = 2729  }
+
+
 set_convoys = 0
 set_technology = {
 	amphibious_mechanized_infantry = 1

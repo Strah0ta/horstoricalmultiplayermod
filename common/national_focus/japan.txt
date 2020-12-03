@@ -64,7 +64,6 @@ focus_tree = {
 		cost = 5
 
 		completion_reward = {
-			add_ideas = JAP_liaison_conference
 			every_army_leader = {
 				add_planning = 1
 			}
@@ -547,7 +546,6 @@ hidden_effect = {		set_technology = { naval_bomber2 = 1 }
 
 
 		completion_reward = {
-			army_experience = 30
 			add_ideas = hajime_sugiyama
 		}
 	}

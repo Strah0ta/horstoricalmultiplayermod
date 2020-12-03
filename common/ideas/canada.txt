@@ -483,10 +483,6 @@ ideas = {
 
 			
 			traits = { army_chief_old_guard }
-			
-			ai_will_do = {
-				factor = 1
-			}
 		}
 
 		CAN_andrew_mcnaughton = {
@@ -496,13 +492,7 @@ ideas = {
 				original_tag = CAN
 			}
 			
-
-			
 			traits = { army_chief_offensive_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
 		}
 
 		CAN_george_pearkes = {
@@ -511,14 +501,8 @@ ideas = {
 			allowed = {
 				original_tag = CAN
 			}
-			
-
-			
+	
 			traits = { army_chief_defensive_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
 		}
 	}
 
@@ -531,13 +515,7 @@ ideas = {
 				original_tag = CAN
 			}
 			
-
-			
 			traits = { navy_chief_decisive_battle_2  }
-			
-			ai_will_do = {
-				factor = 1
-			}
 		}
 
 		
@@ -550,10 +528,6 @@ ideas = {
 			}
 			
 			traits = { navy_chief_commerce_raiding_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
 		}
 		CAN_george_jones = {
 			picture = generic_navy_europe_1
@@ -564,10 +538,6 @@ ideas = {
 			}
 			
 			traits = { navy_anti_submarine_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
 		}
 	}
 	
@@ -584,10 +554,6 @@ ideas = {
 			}
 			
 			traits = { army_infantry_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
 		}
 
 		CAN_john_murchie = {
@@ -599,10 +565,6 @@ ideas = {
 			}
 			
 			traits = { army_armored_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
 		}
 
 		CAN_frederick_m_w_harvey = {
@@ -615,10 +577,6 @@ ideas = {
 			}
 			
 			traits = { army_commando_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
 		}
 	}
 

@@ -7,7 +7,13 @@ ideas = {
 			picture = generic_manpower_bonus
 			modifier = {	conscription = 0.01	}
 		}
-	
+			winter_offensive_sov = {
+			removal_cost = -1
+			allowed = {	always = no 	}
+			allowed_civil_war = {	NOT = {	has_government = democratic	}	}
+			picture = generic_manpower_bonus
+			modifier = {	max_planning = 0.1	}
+		}
 		SPR_seized_spanish_gold_reserves = {
 
 			picture = SPR_seize_the_gold_reserves

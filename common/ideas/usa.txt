@@ -721,10 +721,6 @@ ideas = {
 
 			
 			traits = { army_chief_morale_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
 		}
 		
 		dwight_eisenhower = {
@@ -737,10 +733,6 @@ ideas = {
 
 			
 			traits = { army_chief_offensive_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
 		}
 	}
 	
@@ -759,13 +751,7 @@ ideas = {
 				original_tag = USA
 			}
 			
-
-			
 			traits = { navy_chief_commerce_raiding_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
 		}
 		
 		william_halsey = {
@@ -809,10 +795,6 @@ ideas = {
 
 			
 			traits = { army_infantry_3	 }
-			
-			ai_will_do = {
-				factor = 1
-			}
 		}	
 		
 		jimmy_doolittle = {
@@ -841,10 +823,6 @@ ideas = {
 
 			
 			traits = { navy_naval_air_defense_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
 		}
 		
 		frank_jack_fletcher = {
@@ -858,10 +836,6 @@ ideas = {
 
 			
 			traits = { navy_carrier_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
 		}
 		
 		thomas_kinkaid = {
@@ -875,10 +849,6 @@ ideas = {
 
 			
 			traits = { navy_amphibious_assault_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
 		}
 	}
 		

@@ -161,10 +161,6 @@ ideas = {
 			}
 			
 			traits = { army_chief_defensive_3 }
-			
-			ai_will_do = {
-				factor = 1
-			}
 		}
 	}
 
@@ -182,10 +178,6 @@ ideas = {
 
 			
 			traits = { air_chief_ground_support_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
 		}
 
 	}
@@ -201,13 +193,7 @@ ideas = {
 				
 			}
 			
-
-			
 			traits = { navy_chief_maneuver_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
 		}
 
 		EFR_jean_marie_abrial = {
@@ -219,13 +205,7 @@ ideas = {
 				
 			}
 			
-
-			
 			traits = { navy_anti_submarine_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
 		}
 	}
 
@@ -245,10 +225,6 @@ ideas = {
 
 			
 			traits = { army_infantry_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
 		}
 	
 		EFR_jean_de_laborde = {
@@ -264,10 +240,6 @@ ideas = {
 
 			
 			traits = { army_chief_organizational_3 }
-			
-			ai_will_do = {
-				factor = 1
-			}
 		}
 
 		EFR_marcel_bruno_gensoul = {
@@ -283,10 +255,6 @@ ideas = {
 
 			
 			traits = { army_armored_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
 		}
 
 	}
@@ -568,16 +536,6 @@ ideas = {
 						
 			research_bonus = {
 				land_doctrine = 0.10
-			}
-
-			ai_will_do = {
-				factor = 1
-				modifier = {
-					factor = 0
-
-					GER = { is_ai = yes }
-					date < 1939.1.1
-				}
 			}
 			
 			traits = { military_theorist }

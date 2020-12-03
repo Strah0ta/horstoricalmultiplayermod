@@ -25,22 +25,6 @@ focus_tree = {
 
 		cost = 5
 
-		ai_will_do = {
-			factor = 24
-			modifier = {
-				factor = 3
-				has_completed_focus = CAN_crown_corporations
-			}
-		}
-
-		available = {
-		
-		}
-		
-		bypass = {
-
-		}
-
 		available_if_capitulated = yes
 		search_filters = { FOCUS_FILTER_POLITICAL }
 
@@ -58,22 +42,6 @@ focus_tree = {
 		relative_position_id = CAN_rowell_sirois_commission
 
 		cost = 5
-
-		ai_will_do = {
-			factor = 25
-			modifier = {
-				factor = 3
-				has_completed_focus = CAN_rowell_sirois_commission
-			}
-		}
-
-		available = {
-
-		}
-		
-		bypass = {
-
-		}
 
 		available_if_capitulated = yes
 
@@ -94,23 +62,8 @@ focus_tree = {
 
 		cost = 5
 
-		ai_will_do = {
-			factor = 75
-		}
-
-		available = {
-		}
-		
-		bypass = {
-			
-		}
-
 		available_if_capitulated = yes
 		search_filters = { FOCUS_FILTER_INDUSTRY }
-
-		complete_tooltip = {
-			
-		}
 
 		completion_reward = {
 			276 = {
@@ -252,16 +205,8 @@ focus_tree = {
 
 		cost = 5
 
-		ai_will_do = {
-			factor = 30
-		}
-
 		available = {
 			threat > 0.1
-		}
-		
-		bypass = {
-
 		}
 
 		continue_if_invalid = yes
@@ -280,10 +225,6 @@ focus_tree = {
 		relative_position_id = CAN_defence_of_canada_regulations
 
 		cost = 5
-
-		ai_will_do = {
-			factor = 80
-		}
 
 		available = {
 			threat > 0.4

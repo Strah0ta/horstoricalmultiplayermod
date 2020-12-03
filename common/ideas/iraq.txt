@@ -87,10 +87,7 @@ country = {
 
 			
 			traits = { navy_chief_maneuver_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
+
 		}
 
 		ALB_jean_marie_abrial = {
@@ -105,10 +102,7 @@ country = {
 
 			
 			traits = { navy_anti_submarine_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
+
 		}
 	}
 

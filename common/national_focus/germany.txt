@@ -51,10 +51,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = GER_four_year_plan
 		cost = 5
-		ai_will_do = {
-			factor = 8
-		}
-			
+
 		completion_reward = {
 			50 = {
 				if = {
@@ -148,9 +145,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = GER_west_wall
 		cost = 5
-		ai_will_do = {
-			factor = 1
-		}
+
 		
 		completion_reward = {
 			add_ideas = GER_ostwall_idea
@@ -478,10 +473,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = GER_four_year_plan
 		cost = 10
-		ai_will_do = {
-			factor = 9
-		}
-		
+
 		completion_reward = {
 			add_tech_bonus = {
 				name = GER_autarky
@@ -617,10 +609,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = GER_coal_liquidization
 		cost = 10
-		ai_will_do = {
-			factor = 4
-		}
-		
+
 		completion_reward = {
 					add_tech_bonus = {
 				name = GER_coal_liquidization
@@ -645,9 +634,6 @@ focus_tree = {
 		y = 1
 		relative_position_id = GER_kdf_wagen
 		cost = 10
-		ai_will_do = {
-			factor = 1
-		}
 
 		available_if_capitulated = yes
 
@@ -664,13 +650,6 @@ focus_tree = {
 		y = 1
 		relative_position_id = GER_autarky
 		cost = 10
-		ai_will_do = {
-			factor = 12
-		}
-
-		available = {
-		
-		}
 		
 		completion_reward = {
 			custom_effect_tooltip = GER_autobahn_tt
@@ -732,10 +711,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = GER_four_year_plan
 		cost = 5
-		ai_will_do = {
-			factor = 1
-		}
-		
+
 		completion_reward = {
 			add_ideas = GER_grosraumwirtschaft
 				every_state = { 
@@ -877,9 +853,6 @@ focus_tree = {
 		y = 2
 		relative_position_id = GER_air_innovation
 		cost = 5
-		ai_will_do = {
-			factor = 0.25
-		}
 
 		available_if_capitulated = yes
 
@@ -908,9 +881,6 @@ focus_tree = {
 		y = 1
 		relative_position_id = GER_tactical_air_effort
 		cost = 5
-		ai_will_do = {
-			factor = 0.1
-		}
 
 		available_if_capitulated = yes
 
@@ -934,9 +904,6 @@ focus_tree = {
 		y = 2
 		relative_position_id = GER_tactical_air_effort
 		cost = 5
-		ai_will_do = {
-			factor = 1
-		}
 
 		available_if_capitulated = yes
 
@@ -958,9 +925,6 @@ focus_tree = {
 		y = 2
 		relative_position_id = GER_air_innovation
 		cost = 5
-		ai_will_do = {
-			factor = 1
-		}
 
 		available_if_capitulated = yes
 
@@ -987,9 +951,6 @@ focus_tree = {
 		x = 15
 		y = 0
 		cost = 10
-		ai_will_do = {
-			factor = 1
-		}
 
 		available_if_capitulated = yes
 
@@ -2207,10 +2168,7 @@ focus = {
 		y = 1
 		relative_position_id = GER_naval_effort2
 		cost = 5
-		ai_will_do = {
-			factor = 1
-		}
-			
+
 		available_if_capitulated = yes
 
 		completion_reward = {
@@ -2232,10 +2190,7 @@ focus = {
 		y = 1
 		relative_position_id = GER_u_boat_effort
 		cost = 2
-		ai_will_do = {
-			factor = 1
-		}
-			
+
 		available_if_capitulated = yes
 
 		completion_reward = {
@@ -2278,7 +2233,6 @@ add_to_variable = { germany_war_army_core_defence_factor = 0.3	}
 	picture = "Portrait_Germany_Walter_Wenck_B.dds"
 	traits = { panzer_leader panzer_expert brilliant_strategist trickster urban_assault_specialist aggressive_assaulter defensive_doctrine organizer fast_planner commando camouflage_expert  }
 	skill = 8
-	id = 99471
 	attack_skill = 7
 	defense_skill = 6
 	planning_skill = 8
@@ -2289,13 +2243,44 @@ add_to_variable = { germany_war_army_core_defence_factor = 0.3	}
 	name = "Felix Steiner"
 	gfx = "GFX_portrait_ger_felix_steiner"
 	traits = { panzer_leader panzer_expert  trickster ranger trait_reckless  urban_assault_specialist  commando skirmisher camouflage_expert  }
-	skill = 7
-	id = 99935
+	skill = 8
 	attack_skill = 7
-	defense_skill = 6
+	defense_skill = 7
 	planning_skill = 6
-	logistics_skill = 3
+	logistics_skill = 5
 }
+create_field_marshal = {
+	name = "Walter Model"
+	picture = "Portrait_Germany_Walter_Model.dds"
+	traits = { defensive_doctrine organizer logistics_wizard brilliant_strategist aggressive_assaulter infantry_leader ambusher inspirational_leader organisational_leader guerilla_fighter camouflage_expert trait_cautious }
+	skill = 8
+	attack_skill = 4
+	defense_skill = 7
+	planning_skill = 5
+	logistics_skill = 8
+}
+create_corps_commander = {
+	name = "Gotthard Heinrici"
+	picture = "Portrait_Germany_Gotthard_Heinrici.dds"
+	traits = { trait_engineer fortress_buster infantry_leader trait_cautious fake_skilled_staffer commando camouflage_expert ambusher }
+	skill = 8
+    attack_skill = 5
+    defense_skill = 5
+    planning_skill = 7
+    logistics_skill = 8
+}
+
+create_corps_commander = {
+	name = "Friedrich Schulz"
+	picture = "Portrait_Germany_Friedrich_Schulz.dds"
+	traits = {   infantry_leader trait_cautious fake_skilled_staffer commando camouflage_expert ambusher }
+	skill = 8
+    attack_skill = 5
+    defense_skill = 5
+    planning_skill = 7
+    logistics_skill = 8
+}
+
 
 		}	
 	}

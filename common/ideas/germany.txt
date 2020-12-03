@@ -821,10 +821,6 @@ ideas = {
 			
 			traits = { heavy_tank_manufacturer }
 
-			ai_will_do = {
-				factor = 10
-			}
-
 		}
 		
 		henschel = {
@@ -839,10 +835,6 @@ ideas = {
 			}
 			
 			traits = { fast_tank_manufacturer }
-			
-			ai_will_do = {
-				factor = 1
-			}
 		}
 		
 		GER_MAN = {
@@ -858,10 +850,6 @@ ideas = {
 			}
 						
 			traits = { medium_tank_manufacturer }
-
-			ai_will_do = {
-				factor = 1
-			}
 		}
 	}
 	
@@ -930,10 +918,6 @@ ideas = {
 			equipment_bonus = {
 				
 			}
-			
-			ai_will_do = {
-				factor = 1
-			}
 		}
 		
 		junkers = { 
@@ -950,10 +934,6 @@ ideas = {
 
 			equipment_bonus = {
 				
-			}
-			
-			ai_will_do = {
-				factor = 1
 			}
 		}	
 		
@@ -972,10 +952,6 @@ ideas = {
 						cost = 50 
 
 			traits = { medium_aircraft_manufacturer }
-			
-			ai_will_do = {
-				factor = 1
-			}
 		}
 		
 		dornier = {
@@ -991,10 +967,6 @@ ideas = {
 						cost = 50 
 
 			traits = { naval_aircraft_manufacturer }
-			
-			ai_will_do = {
-				factor = 1
-			}
 		}	
 
 
@@ -1014,10 +986,6 @@ ideas = {
 			}
 			
 			traits = { refinery_concern }
-			
-			ai_will_do = {
-				factor = 1
-			}
 		}
 		
 		krupp = {
@@ -1029,9 +997,6 @@ ideas = {
 			research_bonus = {
 				industry = 0.15
 				
-			}
-			ai_will_do = {
-				factor = 2
 			}
 			
 			traits = { industrial_concern }
@@ -1084,10 +1049,6 @@ ideas = {
 			}
 			
 			traits = { infantry_equipment_manufacturer }
-			
-			ai_will_do = {
-				factor = 2
-			}
 		}
 		
 		
@@ -1194,9 +1155,6 @@ ideas = {
 			}
 			
 			traits = { army_chief_organizational_2 }			
-			ai_will_do = {
-				factor = 1
-			}
 		}
 	
 		franz_halder = {
@@ -1207,10 +1165,6 @@ ideas = {
 			}
 						
 			traits = { army_chief_offensive_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
 		}
 	
 		walther_von_brauchitsch = {
@@ -1225,10 +1179,6 @@ ideas = {
 
 					
 			traits = { army_chief_maneuver_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
 		}
 	}
 	
@@ -1246,10 +1196,6 @@ ideas = {
 			}
 						
 			traits = { air_chief_ground_support_2  }
-			
-			ai_will_do = {
-				factor = 2
-			}
 		}
 		
 		ritter_von_greim = {
@@ -1261,10 +1207,6 @@ ideas = {
 			}
 						
 			traits = { air_chief_all_weather_2 }
-			
-			ai_will_do = {
-				factor = 0.5
-			}
 		}
 	}
 	
@@ -1278,10 +1220,6 @@ ideas = {
 			}
 						
 			traits = { navy_chief_decisive_battle_2 }
-			
-			ai_will_do = {
-				factor = 0.1
-			}
 		}
 		
 		donitz = {
@@ -1292,10 +1230,6 @@ ideas = {
 			}
 						
 			traits = { navy_chief_commerce_raiding_3 }
-			
-			ai_will_do = {
-				factor = 0.1
-			}
 		}
 	}
 
@@ -1309,10 +1243,6 @@ ideas = {
 			}
 			
 			traits = { army_infantry_2 }
-			
-			ai_will_do = {
-				factor = 2
-			}
 		}
 		
 		erwin_rommel = {
@@ -1326,10 +1256,6 @@ ideas = {
 				}
 			
 			traits = { army_armored_3 }
-			
-			ai_will_do = {
-				factor = 8
-			}
 		}
 		
 		gerd_von_rundstedt = {
@@ -1340,10 +1266,6 @@ ideas = {
 			}
 			
 			traits = { army_regrouping_2 }
-			
-			ai_will_do = {
-				factor = 1.5
-			}
 		}
 		
 		werner_von_fritsch = {
@@ -1354,10 +1276,6 @@ ideas = {
 			}
 			
 			traits = { army_logistics_2 }
-			
-			ai_will_do = {
-				factor = 1.5
-			}
 		}
 
 		erich_bey = {
@@ -1368,10 +1286,6 @@ ideas = {
 			}
 			
 			traits = { navy_naval_air_defense_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
 		}
 		
 		gunther_lutjens = {
@@ -1382,10 +1296,6 @@ ideas = {
 			}
 			
 			traits = { navy_fleet_logistics_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
 		}
 		 
 		viktor_schutze = {
@@ -1396,10 +1306,6 @@ ideas = {
 			}
 			
 			traits = { navy_anti_submarine_1 }
-			
-			ai_will_do = {
-				factor = 1
-			}
 		}
 	}
 }

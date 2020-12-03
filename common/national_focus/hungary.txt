@@ -134,23 +134,9 @@ focus_tree = {
 
 		cost = 5
 
-		ai_will_do = {
-			factor = 80
-		}
-
-		available = {
-			ROOT = { has_full_control_of_state = 43 }
-		}
-
-		bypass = {
-
-		}
-
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-
-
 
 		completion_reward = {
 			43 = {
@@ -250,18 +236,6 @@ focus_tree = {
 		y = 0
 
 		cost = 10
-
-		ai_will_do = {
-			factor = 90
-		}
-
-		available = {
-
-		}
-
-		bypass = {
-
-		}
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no

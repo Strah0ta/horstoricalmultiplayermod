@@ -883,14 +883,22 @@ every_country = {
 		fire_only_once = yes
 		cost = 50
 		complete_effect = {
-					add_tech_bonus = {
+			add_tech_bonus = {
 				name = "Lessons from Khalkin Gol"
 				bonus = 3.0
 				uses = 3
 				category = cat_anti_tank
 			}
 			country_event = { id = japan_border_conflict.3 days = 0 }
-			SOV = { country_event = { id = japan_border_conflict.3 days = 0 } }
+			SOV = { country_event = { id = japan_border_conflict.3 days = 0 }
+		add_tech_bonus = {
+			name = sov_jap_border_conflict_won
+			category = land_doctrine
+			bonus = 1.0
+		}
+			}
+			
+			
 		}
 	}
 	blow_suez_canal = {
@@ -1608,9 +1616,10 @@ hidden_effect = {
 		custom_effect_tooltip = "We will deploy an army of 24 mountaineer divisions in India."
 		
 		hidden_effect = { delete_unit_template_and_units  = { division_template = "Countenance Infantry"} load_oob = "ENG_Iran_Front" SOV = {  delete_unit_template_and_units  = { division_template = "Countenance Infantry"} load_oob = "ENG_Iran_Front_SOV"   }}
-				SOV = { country_event = { id = iran.2 }}
+				SOV = { country_event = { id = iran.2 } transfer_state = 266 266 = { add_core_of = SOV } transfer_state = 419 419 = { add_core_of = SOV }	}
 				 country_event = { id = iran.3 }
-				 ITA = { country_event = { id = iran.4 }}
+				 	ENG = { transfer_state = 412 transfer_state = 413 transfer_state = 421  } 
+				 ITA = { country_event = { id = iran.4 } 	if = { limit = { NOT = { ENG = { controls_state = 291 }}} ITA = {  set_state_controller = 413 set_state_controller = 421 } } }
 				hidden_effect = { 412 = { add_building_construction = { type = infrastructure	level = 2	instant_build = yes}}}		
 				}
 	}
@@ -3046,7 +3055,6 @@ USA_congress_small_supporta = yes
 		icon = steel
 		allowed = {original_tag = USA	}
 		available = { num_of_civilian_factories_available_for_projects > 23 }
-		ai_will_do = { factor = 1000 }		
 		highlight_states = {	state = 391	}
 		cost = 0
 		days_remove = USA_minnesota_steel_duration
@@ -3073,7 +3081,6 @@ USA_congress_small_supporta = yes
 		allowed = { original_tag = USA	}
 		highlight_states = { state = 360 }
 		available = {	num_of_civilian_factories_available_for_projects > 23	}
-		ai_will_do = { factor = 1000 }
 		cost = 0
 		days_remove = USA_pennsylvania_steel_duration
 		modifier = {	civilian_factory_use = 24	}
@@ -3102,7 +3109,6 @@ USA_congress_small_supporta = yes
 		allowed = {	original_tag = USA		}
 		available = {		num_of_civilian_factories_available_for_projects > 23	}
 		highlight_states = {	state = 261}
-		ai_will_do = { factor = 1000 }
 		cost = 0
 		days_remove = USA_ohio_steel_duration
 		modifier = {	civilian_factory_use = 24 }

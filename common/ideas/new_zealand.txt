@@ -285,9 +285,6 @@ ideas = {
 			
 			traits = { army_regrouping_2 }
 			
-			ai_will_do = {
-				factor = 1
-			}
 		}
 
 		NZL_j_c_nichols = {
@@ -300,10 +297,6 @@ ideas = {
 			}
 			
 			traits = { army_infantry_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
 		}
 		NZL_william_sinclair_burgess = {
 			ledger = army
@@ -313,13 +306,7 @@ ideas = {
 				original_tag = NZL
 			}
 			
-
-			
 			traits = { army_commando_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
 		}
 		
 		NZL_trevor_handley = {
@@ -332,10 +319,6 @@ ideas = {
 			}
 			
 			traits = { army_armored_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
 		}
 	}
 	# MILITARY
@@ -352,10 +335,6 @@ ideas = {
 
 			
 			traits = { army_chief_offensive_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
 		}
 
 		NZL_j_e_duigan = {
@@ -369,10 +348,6 @@ ideas = {
 
 			
 			traits = { army_chief_maneuver_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
 		}
 
 		NZL_n_weir = {
@@ -383,13 +358,7 @@ ideas = {
 				original_tag = NZL
 			}
 			
-
-			
 			traits = { army_chief_morale_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
 		}
 	}
 
@@ -406,10 +375,6 @@ ideas = {
 
 			
 			traits = { navy_chief_naval_aviation_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
 		}
 
 		NZL_l_p_peterson = {
@@ -423,10 +388,6 @@ ideas = {
 
 			
 			traits = { air_chief_ground_support_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
 		}
 	}
 
@@ -443,10 +404,6 @@ ideas = {
 
 			
 			traits = { navy_chief_maneuver_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
 		}
 
 		NZL_w_h_stratton = {
@@ -460,10 +417,6 @@ ideas = {
 
 			
 			traits = { navy_chief_naval_aviation_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
 		}
 
 		NZL_eric_prendergast = {
@@ -473,14 +426,7 @@ ideas = {
 			allowed = {
 				original_tag = NZL
 			}
-			
-
-			
 			traits = { navy_chief_decisive_battle_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
 		}
 	}
 

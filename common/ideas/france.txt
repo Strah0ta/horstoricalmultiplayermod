@@ -856,16 +856,6 @@ ideas = {
 			}
 			
 			traits = { democratic_reformer }
-
-			do_effect = {
-				NOT = {
-					has_government = democratic
-				}
-			}
-
-			ai_will_do = {
-				factor = 0
-			}
 		}
 
 		georges_bonnet = {
@@ -880,14 +870,6 @@ ideas = {
 			}
 			cost = 75 
 			traits = { appeaser }
-
-			do_effect = {
-				
-			}
-
-			ai_will_do = {
-				factor = 1
-			}
 		}
 
 		FRA_pierre_pucheu = {
@@ -901,14 +883,6 @@ ideas = {
 			}
 			cost = 150 
 			traits = { technocrat }
-
-			do_effect = {
-				
-			}
-
-			ai_will_do = {
-				factor = 1
-			}
 		}
 
 		FRA_gaston_henry_haye = {
@@ -920,16 +894,6 @@ ideas = {
 			picture = generic_political_advisor_europe_5
 			
 			traits = { silent_workhorse }
-	
-			on_add = {
-			}
-	
-			do_effect = {
-			}
-			
-			ai_will_do = {
-				factor = 1
-			}
 		}		
 
 		FRA_zivony_peshkov = {
@@ -941,16 +905,7 @@ ideas = {
 			picture = generic_army_europe_5
 			
 			traits = { war_industrialist }
-	
-			on_add = {
-			}
-	
-			do_effect = {
-			}
-			
-			ai_will_do = {
-				factor = 1
-			}
+
 		}	
 
 		FRA_felix_gouin = {
@@ -962,16 +917,7 @@ ideas = {
 			picture = generic_political_advisor_europe_3
 			
 			traits = { captain_of_industry }
-	
-			on_add = {
-			}
-	
-			do_effect = {
-			}
-			
-			ai_will_do = {
-				factor = 1
-			}
+
 		}	
 		
 		
@@ -984,16 +930,7 @@ ideas = {
 
 			
 			traits = { financial_expert }
-	
-			on_add = {
-			}
-	
-			do_effect = {
-			}
-			
-			ai_will_do = {
-				factor = 1
-			}
+
 		}
 
 		FRA_paul_reynaud = {
@@ -1005,16 +942,6 @@ ideas = {
 			picture = generic_political_advisor_europe_3
 			
 			traits = { quartermaster_general }
-	
-			on_add = {
-			}
-	
-			do_effect = {
-			}
-			
-			ai_will_do = {
-				factor = 1
-			}
 		}		
 	}
 		
@@ -1035,10 +962,6 @@ ideas = {
 			cost = 50
 			
 			traits = { army_chief_offensive_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
 		}
 		
 		maxime_weygand = {
@@ -1054,10 +977,6 @@ ideas = {
 			cost = 50
 			
 			traits = { army_chief_defensive_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
 		}	
 		
 		alphonse_georges = {
@@ -1067,31 +986,19 @@ ideas = {
 				original_tag = FRA
 			}
 			
-
-			
 			traits = { army_chief_maneuver_1 }
-			
-			ai_will_do = {
-				factor = 1
-			}
 		}	
 	}
 	navy_chief = {
 		
 		francois_darlan = {
 			
-			
 			allowed = {
 				original_tag = FRA
 			}
-			
 
-			
 			traits = { navy_chief_decisive_battle_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
+
 		}
 		
 		marcel_gensoul = {
@@ -1101,13 +1008,7 @@ ideas = {
 				original_tag = FRA
 			}
 			
-
-			
 			traits = { navy_chief_naval_aviation_1 }
-			
-			ai_will_do = {
-				factor = 1
-			}
 		}
 		
 		jean_marie_abrial = {
@@ -1117,13 +1018,7 @@ ideas = {
 				original_tag = FRA
 			}
 			
-
-			
 			traits = { navy_chief_commerce_raiding_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
 		}	
 	}
 	air_chief = {		
@@ -1132,9 +1027,7 @@ ideas = {
 				original_tag = FRA
 			}
 			traits = { air_chief_ground_support_1 }		
-			ai_will_do = {
-				factor = 1
-			}
+
 		}	
 	}	
 	high_command = {
@@ -1147,13 +1040,8 @@ ideas = {
 				original_tag = FRA
 			}
 			
-
-			
 			traits = { army_infantry_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
+
 		}
 		
 		charles_huntziger = {
@@ -1167,10 +1055,6 @@ ideas = {
 
 			
 			traits = { army_armored_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
 		}
 		
 		philippe_leclerc = {
@@ -1180,12 +1064,8 @@ ideas = {
 			allowed = {	original_tag = FRA	}
 			available = { NOT = { owns_state = 16 }}
 
-			
 			traits = { army_commando_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
+
 		}	
 
 		jean_francois_jannekeyn = {
@@ -1196,13 +1076,7 @@ ideas = {
 				original_tag = FRA
 			}
 			
-
-			
 			traits = { air_tactical_bombing_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
 		}	
 		
 		jean_de_laborde = {
@@ -1213,13 +1087,7 @@ ideas = {
 				original_tag = FRA
 			}
 			
-
-			
 			traits = { navy_capital_ship_1 }
-			
-			ai_will_do = {
-				factor = 1
-			}
 		}
 		
 		emile_muselier = {
@@ -1229,14 +1097,8 @@ ideas = {
 			allowed = {
 				original_tag = FRA
 			}
-			
-
-			
+		
 			traits = { navy_fleet_logistics_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
 		}
 		
 		rene_emile_godfroy = {
@@ -1250,10 +1112,6 @@ ideas = {
 
 			
 			traits = { navy_screen_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
 		}
 	}
 	
@@ -1508,17 +1366,6 @@ ideas = {
 			research_bonus = {
 				land_doctrine = 0.10
 			}
-
-			ai_will_do = {
-				factor = 1
-				modifier = {
-					factor = 0
-
-					GER = { is_ai = yes }
-					date < 1939.1.1
-				}
-			}
-			
 			traits = { military_theorist }
 		}
 		

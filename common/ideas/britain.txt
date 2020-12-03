@@ -795,10 +795,6 @@ ideas = {
 					has_government = democratic
 				}
 			}
-			
-			ai_will_do = {
-				factor = 0
-			}
 		}
 				
 		eng_stewart_menzies = {
@@ -827,14 +823,6 @@ ideas = {
 			}
 			
 			traits = { silent_workhorse }
-
-			ai_will_do = {
-				factor = 2
-				modifier = {
-					has_country_leader = { name = "Stanley Baldwin" ruling_only = yes }
-					factor = 10
-				}
-			}
 		}
 
 	
@@ -847,9 +835,6 @@ ideas = {
 			
 			traits = { war_industrialist }
 
-			ai_will_do = {
-				factor = 2
-			}
 		}
 		
 				
@@ -860,13 +845,6 @@ ideas = {
 			available = {
 				has_intelligence_agency = yes
 				has_done_agency_upgrade = upgrade_form_department
-			}
-			ai_will_do = {
-				factor = 1
-				modifier = {
-					has_political_power < 200
-					factor = 0
-				}
 			}
 			allowed = {
 				original_tag = ENG
@@ -893,10 +871,6 @@ ideas = {
 			}
 			
 			traits = { quartermaster_general }
-
-			ai_will_do = {
-				factor = 1
-			}
 		}
 	}
 		
@@ -913,10 +887,6 @@ ideas = {
 			}
 			
 			traits = { army_chief_offensive_2 }
-			
-			ai_will_do = {
-				factor = 2
-			}
 		}
 		
 		edmund_ironside = {
@@ -928,10 +898,6 @@ ideas = {
 
 			
 			traits = { army_chief_defensive_2 }
-			
-			ai_will_do = {
-				factor = 2
-			}
 		}
 		
 		alan_brooke = {
@@ -940,15 +906,8 @@ ideas = {
 				original_tag = ENG
 			}
 			
-			available = {
-				
-			}
-			
 			traits = { army_chief_maneuver_3 }
-			
-			ai_will_do = {
-				factor = 1
-			}
+
 		}		
 	}
 	navy_chief = {
@@ -962,10 +921,6 @@ ideas = {
 
 			
 			traits = { navy_chief_maneuver_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
 		}
 		
 		dudley_pound = {
@@ -975,10 +930,6 @@ ideas = {
 			}
 			
 			traits = { navy_chief_decisive_battle_1 }
-			
-			ai_will_do = {
-				factor = 1
-			}
 		}
 		
 		andrew_cunningham = {
@@ -998,10 +949,6 @@ ideas = {
 			
 			allowed = {	original_tag = ENG	}
 			traits = { air_chief_night_operations_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
 		}
 		
 	}
@@ -1014,16 +961,7 @@ ideas = {
 			allowed = {
 				original_tag = ENG
 			}
-			
-			available = {
-			
-			}
-			
 			traits = { army_regrouping_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
 		}
 		
 		claude_auchinleck = {
@@ -1036,10 +974,6 @@ ideas = {
 
 			
 			traits = { army_logistics_2 }
-			
-			ai_will_do = {
-				factor = 2
-			}
 		}
 		
 		kenneth_anderson = {
@@ -1052,10 +986,6 @@ ideas = {
 
 			
 			traits = { army_infantry_2 }
-			
-			ai_will_do = {
-				factor = 2
-			}
 		}
 		
 		frederick_bowhill = {
@@ -1065,13 +995,7 @@ ideas = {
 				original_tag = ENG
 			}
 			
-
-			
 			traits = { air_naval_strike_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
 		}	
 		
 		louis_mountbatten = {
@@ -1081,15 +1005,7 @@ ideas = {
 				original_tag = ENG
 			}
 			
-			available = {
-				
-			}
-			
 			traits = { navy_amphibious_assault_3 }
-			
-			ai_will_do = {
-				factor = 1
-			}
 		}
 		
 		henry_harwood = {
@@ -1102,10 +1018,6 @@ ideas = {
 
 			
 			traits = { navy_screen_2 }
-			
-			ai_will_do = {
-				factor = 0.7
-			}
 		}
 		
 		max_horton = {
@@ -1118,10 +1030,7 @@ ideas = {
 
 			
 			traits = { navy_submarine_2 }
-			
-			ai_will_do = {
-				factor = 0.2
-			}
+
 		}		
 
 		ENG_david_stirling = {
@@ -1136,10 +1045,6 @@ ideas = {
 			}
 				cost = 50
 			traits = { army_commando_3 }
-			
-			ai_will_do = {
-				factor = 0.2
-			}
 		}	
 	}
 	
@@ -1362,8 +1267,6 @@ ideas = {
 				original_TAG = ENG
 			}
 			
-
-			
 			research_bonus = {
 				industry = 0.15
 			}
@@ -1371,14 +1274,6 @@ ideas = {
 			traits = { industrial_concern }
 			
 			modifier = {
-			}
-
-			ai_will_do = {
-				factor = 2
-				modifier = {
-					has_idea_with_trait = silent_workhorse
-					factor = 10
-				}
 			}
 		}
 		

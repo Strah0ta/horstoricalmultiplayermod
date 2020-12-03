@@ -517,16 +517,6 @@ ideas = {
 			picture = generic_democratic_reformer_western_european_2d
 			
 			traits = { democratic_reformer }
-
-			do_effect = {
-				NOT = {
-					has_government = democratic
-				}
-			}
-		
-			ai_will_do = {
-				factor = 0
-			}
 		}
 
 
@@ -565,10 +555,6 @@ ideas = {
 			}
 						
 			traits = { army_chief_maneuver_3 }
-			
-			ai_will_do = {
-				factor = 1
-			}
 		}
 
 		SAF_leonard_beyers = {
@@ -579,10 +565,6 @@ ideas = {
 			}
 			
 			traits = { army_chief_defensive_3 }
-			
-			ai_will_do = {
-				factor = 1
-			}
 		}
 
 	}
@@ -596,10 +578,6 @@ ideas = {
 			}
 			
 			traits = { air_chief_ground_support_3 }
-			
-			ai_will_do = {
-				factor = 1
-			}
 		}
 
 	}
@@ -614,10 +592,6 @@ ideas = {
 			}
 			
 			traits = { navy_chief_commerce_raiding_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
 		}
 	}
 
@@ -633,10 +607,6 @@ ideas = {
 			}
 			
 			traits = { army_regrouping_3 }
-			
-			ai_will_do = {
-				factor = 1
-			}
 		}
 		
 		SAF_c_de_weenburg_du_toit = {
@@ -649,10 +619,6 @@ ideas = {
 			}
 			
 			traits = { army_armored_3 }
-			
-			ai_will_do = {
-				factor = 1
-			}
 		}
 
 		SAF_marinus_van_osterkamp = {
@@ -665,10 +631,6 @@ ideas = {
 			}
 			
 			traits = { army_commando_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
 		}
 		SAF_pierre_oliver_knoll = {
 			picture = generic_navy_europe_2
@@ -690,10 +652,6 @@ ideas = {
 			}
 			
 			traits = { army_regrouping_3 }
-			
-			ai_will_do = {
-				factor = 1
-			}
 		}
 	}	
 

@@ -121,10 +121,6 @@ ideas = {
 
 			
 			traits = { air_chief_ground_support_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
 		}
 	}
 
@@ -141,9 +137,6 @@ ideas = {
 			
 			traits = { army_regrouping_3 }
 			
-			ai_will_do = {
-				factor = 1
-			}
 		}
 		FIN_lauri_tiainen = {
 			ledger = army		
@@ -156,9 +149,7 @@ ideas = {
 			
 			traits = { army_regrouping_1 }
 			
-			ai_will_do = {
-				factor = 1
-			}
+
 		}
 
 		FIN_harald_ohquist = {
@@ -172,10 +163,7 @@ ideas = {
 			picture = generic_army_europe_5
 			
 			traits = { army_regrouping_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
+
 		}
 	}	
 }

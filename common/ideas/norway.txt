@@ -167,10 +167,6 @@ country = {
 
 			
 			traits = { army_chief_offensive_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
 		}
 
 		NOR_willhelm_von_tangen_hansteen = {
@@ -184,10 +180,7 @@ country = {
 
 			
 			traits = { army_chief_organizational_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
+
 		}
 
 		NOR_kristian_laake = {
@@ -201,10 +194,6 @@ country = {
 
 			
 			traits = { army_chief_defensive_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
 		}
 	}
 
@@ -239,10 +228,7 @@ country = {
 			}
 			
 			traits = { army_concealment_3 }
-			
-			ai_will_do = {
-				factor = 1
-			}
+
 		}
 		
 		NOR_jacob_von_der_lippe = {
@@ -255,10 +241,7 @@ country = {
 			}
 			
 			traits = { navy_chief_naval_aviation_3 }
-			
-			ai_will_do = {
-				factor = 1
-			}
+
 		}
 
 		NOR_birger_ljungberg = {
@@ -271,10 +254,7 @@ country = {
 			}
 			
 			traits = { army_commando_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
+
 		}
 
 		NOR_wilhelm_von_tangen-hansteen = {
@@ -287,10 +267,7 @@ country = {
 			}
 			
 			traits = { army_infantry_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
+
 		}
 	}
 
@@ -381,10 +358,7 @@ country = {
 			}
 			
 			traits = { electronics_concern }
-			
-			ai_will_do = {
-				factor = 1
-			}
+
 		}
 
 		NOR_norsk_hydro = {
@@ -401,10 +375,6 @@ country = {
 			}
 			
 			traits = { refinery_concern }
-			
-			ai_will_do = {
-				factor = 1
-			}
 		}
 	}	
 }

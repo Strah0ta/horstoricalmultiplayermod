@@ -428,10 +428,6 @@ high_command = {
 			}
 			
 			traits = { army_chief_defensive_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
 		}
 
 		AST_sydney_rowell = {
@@ -444,9 +440,6 @@ high_command = {
 			
 			traits = { army_chief_organizational_2 }
 			
-			ai_will_do = {
-				factor = 1
-			}
 		}
 
 		AST_vernon_sturdee = {
@@ -459,15 +452,10 @@ high_command = {
 			
 			traits = { army_chief_offensive_1 }
 			
-			ai_will_do = {
-				factor = 1
-			}
 		}
 	}
 
 	air_chief = {
-
-
 	}
 
 	navy_chief = {
@@ -482,10 +470,6 @@ high_command = {
 			}
 			
 			traits = { navy_chief_decisive_battle_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
 		}
 	}
 

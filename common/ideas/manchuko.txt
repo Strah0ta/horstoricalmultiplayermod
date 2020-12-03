@@ -533,10 +533,6 @@ ideas = {
 			}
 			
 			traits = { army_chief_offensive_1 }
-			
-			ai_will_do = {
-				factor = 1
-			}
 		}
 	}
 
@@ -551,10 +547,6 @@ ideas = {
 			}
 			
 			traits = { air_chief_ground_support_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
 		}
 
 	}
@@ -569,11 +561,7 @@ ideas = {
 				original_tag = MAN
 			}
 			
-			traits = { navy_chief_decisive_battle_1 }
-			
-			ai_will_do = {
-				factor = 1
-			}
+			traits = { navy_chief_decisive_battle_3 }
 		}
 
 	}
@@ -590,11 +578,7 @@ ideas = {
 				original_tag = MAN
 			}
 			
-			traits = { army_regrouping_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
+			traits = { army_regrouping_3 }
 		}
 
 		MAN_kyoiji_tomonaga = {
@@ -606,11 +590,7 @@ ideas = {
 				original_tag = MAN
 			}
 			
-			traits = { army_infantry_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
+			traits = { army_commando_3 }
 		}
 
 		MAN_hesehn_tiemei = {
@@ -622,11 +602,7 @@ ideas = {
 				original_tag = MAN
 			}
 			
-			traits = { army_armored_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
+			traits = { army_armored_3 }
 		}
 	}
 
@@ -689,12 +665,6 @@ MAN_mamc = {
 			}
 			
 			traits = { medium_aircraft_manufacturer }
-			
-			# assembled hawk II and hawk III fighter bombers as well as the Vultee V-11 ground attackers
-						
-			ai_will_do = {
-				factor = 1
-			}
 		}
 		
 		MAN_manshu = {
@@ -711,10 +681,6 @@ MAN_mamc = {
 			}
 			
 			traits = { light_aircraft_manufacturer }
-						
-			ai_will_do = {
-				factor = 1
-			}
 		}
 
 		MAN_mamc_light = {
@@ -740,10 +706,6 @@ MAN_mamc = {
 			}
 			
 			traits = { light_aircraft_manufacturer }
-						
-			ai_will_do = {
-				factor = 1
-			}
 		}
 		MAN_mamc_medium = {
 
@@ -767,10 +729,6 @@ MAN_mamc = {
 			}
 			
 			traits = { medium_aircraft_manufacturer }
-						
-			ai_will_do = {
-				factor = 1
-			}
 		}
 	}
 	industrial_concern = {
@@ -790,10 +748,6 @@ MAN_mamc = {
 				construction_company
 			}
 			cost = 0
-			
-			ai_will_do = {
-				factor = 1
-			}
 		}
 	}
 

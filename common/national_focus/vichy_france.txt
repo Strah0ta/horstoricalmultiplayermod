@@ -20,12 +20,8 @@
 		y = 0
 		cost = 10
 
-		available_if_capitulated = yes
-		
 		available = { NOT = { FRA = { has_capitulated = yes }} is_ai = no }
 		
-		
-
 		completion_reward = {
 			army_experience = 5
 			add_tech_bonus = {
@@ -360,12 +356,6 @@
 		relative_position_id = efr_production_effort_2
 		cost = 10
 
-		available_if_capitulated = yes
-
-
-		ai_will_do = {
-			factor = 2
-		}
 		available = { NOT = { FRA = { has_capitulated = yes }}}
 
 		completion_reward = {
@@ -473,16 +463,7 @@
 		relative_position_id = VIC_the_national_revolution
 		
 		cost = 5
-		ai_will_do = {
-			factor = 1
-		}
-		available = {
-			
-		}
-		
-		bypass = {
 
-		}
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
@@ -545,16 +526,7 @@
 		relative_position_id = VIC_the_national_revolution
 		
 		cost = 5
-		ai_will_do = {
-			factor = 1
-		}
-		available = {
-			
-		}
-		
-		bypass = {
 
-		}
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
@@ -578,16 +550,7 @@
 		relative_position_id = VIC_down_with_marianne
 		
 		cost = 5
-		ai_will_do = {
-			factor = 1
-		}
-		available = {
-			
-		}
-		
-		bypass = {
 
-		}
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
@@ -658,16 +621,7 @@
 		relative_position_id = VIC_anti_bolshevist_volunteers
 		
 		cost = 5
-		ai_will_do = {
-			factor = 1
-		}
-		available = {
-			
-		}
-		
-		bypass = {
 
-		}
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
@@ -876,16 +830,7 @@
 		relative_position_id = VIC_rebuild_the_military
 		
 		cost = 5
-		ai_will_do = {
-			factor = 1
-		}
-		available = {
-			
-		}
-		
-		bypass = {
 
-		}
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
@@ -908,16 +853,7 @@
 		relative_position_id = VIC_hidden_materials
 		
 		cost = 5
-		ai_will_do = {
-			factor = 1
-		}
-		available = {
-			
-		}
-		
-		bypass = {
 
-		}
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no

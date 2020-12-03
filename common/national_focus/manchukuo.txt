@@ -407,26 +407,6 @@ focus_tree = {
 
 		cost = 10
 
-		ai_will_do = {
-			factor = 8
-		}
-
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = yes
-
-		complete_tooltip = {
-
-		}
-
 		completion_reward = {
 			add_research_slot = 1
 		}
@@ -444,26 +424,6 @@ focus_tree = {
 
 		cost = 5
 
-		ai_will_do = {
-			factor = 4
-		}
-
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		complete_tooltip = {
-
-		}
-
 		completion_reward = {
 			add_ideas = MAN_five_year_plan_tank  add_ideas = MAN_five_year_plan_air    
 		}
@@ -478,26 +438,6 @@ focus_tree = {
 		relative_position_id = MAN_second_five_year_plan
 
 		cost = 5
-
-		ai_will_do = {
-			factor = 5
-		}
-
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = yes
-
-		complete_tooltip = {
-
-		}
 
 		completion_reward = {
 			add_ideas = MAN_national_defense_state

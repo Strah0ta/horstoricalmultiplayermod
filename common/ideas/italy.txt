@@ -127,16 +127,6 @@ ideas = {
 			}
 			
 			traits = { fascist_demagogue }
-
-			do_effect = {
-				NOT = {
-					has_government = fascism
-				}
-			}
-			
-			ai_will_do = {
-				factor = 0
-			}
 		}
 
 		ITA_giovanni_marinelli = {
@@ -148,13 +138,6 @@ ideas = {
 			picture = generic_political_advisor_europe_5
 						
 			traits = { prince_of_terror }
-	
-			on_add = {				
-			}
-				
-			ai_will_do = {
-				factor = 1
-			}
 		}
 
 					
@@ -168,13 +151,6 @@ ideas = {
 			picture = generic_political_advisor_europe_2
 						
 			traits = { war_industrialist }
-	
-			on_add = {				
-			}
-				
-			ai_will_do = {
-				factor = 3
-			}
 		}
 					
 		ITA_junio_valerio_borghese = {
@@ -187,13 +163,6 @@ ideas = {
 			picture = generic_army_europe_2
 						
 			traits = { armaments_organizer }
-	
-			on_add = {				
-			}
-				
-			ai_will_do = {
-				factor = 1
-			}
 		}
 					
 		ITA_luigi_einaudi = {
@@ -206,13 +175,6 @@ ideas = {
 			picture = generic_political_advisor_europe_1
 						
 			traits = { captain_of_industry }
-	
-			on_add = {				
-			}
-				
-			ai_will_do = {
-				factor = 3
-			}
 		}
 					
 		ITA_paolo_thaon_di_revel = {
@@ -225,13 +187,6 @@ ideas = {
 			picture = generic_navy_europe_3
 						
 			traits = { quartermaster_general }
-	
-			on_add = {				
-			}
-				
-			ai_will_do = {
-				factor = 0.3
-			}
 		}
 			italy_mario_roatta = {
 		

@@ -114,7 +114,7 @@ adjacency_rule
 	}
 	friend =
 	{
-		army = no
+		army = yes
 		navy = no
 		submarine = no
 		trade = yes

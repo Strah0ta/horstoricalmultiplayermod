@@ -310,9 +310,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = USA_arsenal_of_democracy
 		cost = 5
-		ai_will_do = {
-			factor = 1
-		}
+
 		available_if_capitulated = yes
 		completion_reward = {
 			add_ideas = office_of_strategic_services_lar
@@ -345,9 +343,6 @@ focus_tree = {
 		y = 1
 		relative_position_id = USA_office_of_strategic_services
 		cost = 5
-		ai_will_do = {
-			factor = 1
-		}
 
 		completion_reward = {
 					swap_ideas = { add_idea = USA_black_chamber  remove_idea = office_of_strategic_services_lar }
@@ -844,18 +839,6 @@ transfer_state = 38
 		}
 		cost = 10
 
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-
-		}
-		
-		bypass = {
-
-		}
-
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
@@ -872,10 +855,6 @@ transfer_state = 38
 		prerequisite = { focus = USA_war_department }
 		relative_position_id = USA_war_department
 		cost = 10
-
-		ai_will_do = {
-			factor = 1
-		}
 
 		available = {
 			if = {
@@ -1653,18 +1632,6 @@ focus = {
 		relative_position_id = USA_bureau_of_ships
 		cost = 5
 
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-
-		}
-		
-		bypass = {
-
-		}
-
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
@@ -1694,18 +1661,6 @@ focus = {
 		relative_position_id = USA_bureau_of_ships
 		cost = 5
 
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-
-		}
-		
-		bypass = {
-
-		}
-
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
@@ -1723,9 +1678,6 @@ focus = {
 		relative_position_id = USA_two_ocean_navy_act
 		cost = 5
 		prerequisite = { focus = USA_two_ocean_navy_act }
-		ai_will_do = {
-			factor = 1
-		}
 
 		available_if_capitulated = yes
 
@@ -1747,9 +1699,6 @@ focus = {
 		y = 1
 		relative_position_id = USA_fund_the_navy
 		cost = 5
-		#ai_will_do = {
-		#	factor = 1
-		#}
 
 		available_if_capitulated = yes
 
@@ -1772,10 +1721,6 @@ focus = {
 		y = 1
 		relative_position_id = USA_expand_the_USMC
 		cost = 5
-		#ai_will_do = {
-		#	factor = 1
-		#}
-
 		available_if_capitulated = yes
 		
 		completion_reward = {

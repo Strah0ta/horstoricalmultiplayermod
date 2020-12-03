@@ -243,10 +243,6 @@ ideas = {
 			modifier = {
 				research_speed_factor = 0.05
 			}
-
-			ai_will_do = {
-				factor = 0
-			}
 		}
 
 		BUL_bulgarian_irredentism = {
@@ -1079,10 +1075,6 @@ ideas = {
 			}
 			
 			traits = { army_chief_defensive_3 }
-			
-			ai_will_do = {
-				factor = 1
-			}
 		}
 				BUL_kiril_dimitrov_yanchulev = { #DLC
 			picture = bul_kiril_yanchulev
@@ -1096,10 +1088,6 @@ ideas = {
 			
 
 			traits = { army_chief_organizational_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
 		}
 
 
@@ -1117,10 +1105,6 @@ ideas = {
 
 			
 			traits = { army_chief_maneuver_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
 		}
 
 	}
@@ -1137,10 +1121,6 @@ ideas = {
 			}
 						
 			traits = { air_chief_ground_support_3 }
-			
-			ai_will_do = {
-				factor = 1
-			}
 		}
 	}
 
@@ -1153,10 +1133,6 @@ ideas = {
 			}
 						
 			traits = { navy_chief_decisive_battle_1 }
-			
-			ai_will_do = {
-				factor = 1
-			}
 		}
 
 		BUL_bonyu_stoev_pironkov = { #VANILLA
@@ -1167,10 +1143,6 @@ ideas = {
 			}
 						
 			traits = { navy_naval_air_defense_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
 		}
 
 		BUL_ivan_variklechkov = {
@@ -1184,9 +1156,6 @@ ideas = {
 			
 			traits = { navy_submarine_3 }
 			
-			ai_will_do = {
-				factor = 1
-			}
 		}
 		
 		BUL_sava_ivanov = {
@@ -1199,10 +1168,6 @@ ideas = {
 			}
 			
 			traits = { navy_chief_commerce_raiding_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
 		}
 	}
 	
@@ -1219,10 +1184,6 @@ ideas = {
 
 
 			traits = { army_artillery_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
 		}
 
 		BUL_konstantin_lukash = {

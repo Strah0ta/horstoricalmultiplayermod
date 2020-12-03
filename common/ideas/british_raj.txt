@@ -481,10 +481,7 @@ ideas = {
 
 			
 			traits = { army_chief_defensive_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
+
 		}
 
 		RAJ_kodandera_cariappa = {
@@ -498,10 +495,7 @@ ideas = {
 
 			
 			traits = { army_chief_morale_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
+
 		}
 
 		RAJ_mohan_singh = {
@@ -512,13 +506,8 @@ ideas = {
 				original_tag = RAJ
 			}
 			
-
-			
 			traits = { army_chief_offensive_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
+
 		}
 	}
 
@@ -536,9 +525,6 @@ ideas = {
 			
 			traits = { air_chief_ground_support_2 }
 			
-			ai_will_do = {
-				factor = 1
-			}
 		}
 
 		RAJ_ravindra_darshan_singh = {
@@ -553,9 +539,6 @@ ideas = {
 			
 			traits = { air_chief_night_operations_2 }
 			
-			ai_will_do = {
-				factor = 1
-			}
 		}
 	}
 
@@ -572,10 +555,7 @@ ideas = {
 
 			
 			traits = { navy_chief_maneuver_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
+
 		}
 
 		RAJ_william_e_parry = {
@@ -590,9 +570,7 @@ ideas = {
 			
 			traits = { navy_chief_commerce_raiding_2 }
 			
-			ai_will_do = {
-				factor = 1
-			}
+
 		}
 
 		RAJ_bhaskar_soman = {
@@ -606,10 +584,7 @@ ideas = {
 
 			
 			traits = { navy_chief_decisive_battle_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
+
 		}
 
 	}

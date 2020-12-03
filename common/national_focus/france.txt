@@ -228,9 +228,7 @@
 		prerequisite = { focus = FRA_begin_rearmament }
 		available_if_capitulated = yes
 		relative_position_id = FRA_begin_rearmament
-		ai_will_do = {
-			factor = 1
-		}
+
 		completion_reward = {
 			add_tech_bonus = {
 				name = FRA_methodical_battle
@@ -306,9 +304,7 @@
 		relative_position_id = FRA_begin_rearmament
 		available_if_capitulated = yes
 		prerequisite = { focus = FRA_begin_rearmament }
-		ai_will_do = {
-			factor = 0.2
-		}
+
 		completion_reward = {
 						add_tech_bonus = {
 				name = FRA_light_medium_armor
@@ -610,9 +606,6 @@
 
 		available_if_capitulated = yes
 
-		ai_will_do = {
-			factor = 1
-		}
 		search_filters = { FOCUS_FILTER_STABILITY }
 		completion_reward = {
 			set_country_flag = FRA_strengthen_government_support_focus_flag
@@ -641,9 +634,6 @@
 
 		available_if_capitulated = yes
 
-		ai_will_do = {
-			factor = 1
-		}
 		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_POLITICAL }
 		completion_reward = {
 			remove_ideas = FRA_disjointed_government
