@@ -19,9 +19,9 @@ state={
 			4159 10 
 		}
 			1936.1.2 = {
+			add_extra_state_shared_building_slots = 13			
 			buildings = {
-			dockyard = 10 
-			add_extra_state_shared_slots = 10
+			dockyard = 13
 			}
 			}		
 		buildings = {
