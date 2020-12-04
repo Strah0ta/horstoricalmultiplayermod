@@ -421,7 +421,7 @@
  fin_supremacy_of_will_desc:0 "We have nothing worse than death to fear."
  MAN_railways_chahar_desc:0 ""
  MAN_railways_schahar_desc:0 ""
- plan_zzz_tt:0 "§RInvestment into a surface fleet is very costly and will prevent us from more heavily investing into other areas of our military!§!\n\n"
+ plan_zzz_tt:0 "§RInvestment into a surface fleet is very costly and will prevent us from more heavily investing into other areas of our military!§!\n\n§CWe will automatically research a significant amount of naval technology.§!\n\n"
  GER_guns1_desc:0 "Our weapon manufactures have researched the possibility of a new standard weapon for the soldiers. This new weapon should make every recruit into a machine gunner at once. With these new submachine guns that use rifle caliber bullets, will we achieve the upper hand against the enemy."
  MAN_railways_sungkiang_desc:0 ""
  MAN_railways_hulunbuir_desc:0 ""
@@ -865,7 +865,7 @@
  USA_great_depression_cooldown:0 "New Legislation is still being drafted"
  USA_great_depression_cooldown_tt:0 "After this law is passed, it will take §Y210 days§! until further New Deal legislation is drafted and ready to be signed.\n\n"
  tooltip_fra_dont_capitulate:0 "§RYou cannot take this focus if you are capitulated!§!\n"
- tooltip_jap_war:0 "§RThis will declare war on EVERY Allied nation!§!\n"
+ tooltip_jap_war:0 "§RThis will declare war on EVERY Allied nation!§!\n\n"
 
  tooltip_MAN_railways:0 "§YBegins work on a railway network across Manchuria§ \n\n§YRailway work is completed every 105 days until all states have been developed. Railway expansion adds 1 civilian factory, 2 infrastructure, and 3 building slot§\n\n"
  MAN_railways_liaotung:0 "Liaotung Railway Expansion"

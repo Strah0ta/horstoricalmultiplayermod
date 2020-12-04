@@ -779,7 +779,6 @@ focus_tree = {
 				}
 
 			remove_ideas = trotskyite_plot
-			add_ideas = trotskyite_plot_purged
 		}
 	}
 	

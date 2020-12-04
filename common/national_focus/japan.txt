@@ -205,7 +205,25 @@ focus_tree = {
 
 		completion_reward = {
 		custom_effect_tooltip = tooltip_jap_war
-		country_event = { id = japan.144 }
+			hidden_effect = { 
+			declare_war_on_all_allies = yes 	
+		USA = { 
+			add_to_war = {
+				targeted_alliance = ENG
+				enemy = JAP
+			}
+				}
+		if = { limit = { country_exists = MAN } MAN = { declare_war_on_all_allies = yes } 
+		USA = { 
+			add_to_war = {
+				targeted_alliance = ENG
+				enemy = MAN
+			}
+				} 
+				}
+				}
+	
+		add_timed_idea = { idea = JAP_tora_tora_tora_idea days = 180 }	
 	}
 	}
 

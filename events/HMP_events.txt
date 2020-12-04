@@ -871,11 +871,25 @@ country_event = {
 
 	option = {
 		name = mtg_britain.1.c
-		add_stability = 0.05
-		country_event = { id = mtg_britain.14 days = 5 random = 5 }
 	}
 }
+country_event = {
+	id = mtg_britain.2
+	title = mtg_britain.1.t
+	desc = mtg_britain.1.d
+	picture = GFX_report_event_eng_edward_and_wallis
 
+	is_triggered_only = yes 
+	
+	fire_only_once = yes
+
+	option = {
+		name = mtg_britain.1.c
+		add_stability = 0.05
+		ENG = { country_event = { id = mtg_britain.14 days = 5 } }
+		SWE = { country_event = { id = mtg_britain.15 days = 5 } }
+	}
+}
 country_event = {
 	id = mtg_britain.14
 	title = britain.17.t
@@ -884,13 +898,6 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	immediate = {
-		hidden_effect = {
-			remove_ideas = ENG_king_edward
-			add_ideas = ENG_george_vi		
-		}
-	}
-
 	option = {
 		name = britain.17.a
 		effect_tooltip = {
@@ -900,29 +907,24 @@ country_event = {
 	}
 }
 
-# Motion of No Confidence event
+
 country_event = {
-	id = mtg_britain.22
-	title = mtg_britain.22.t
-	desc = mtg_britain.22.d
-	picture = GFX_report_event_generic_parliament
+	id = mtg_britain.15
+	title = britain.17.t
+	desc = britain.17.d
+	picture = GFX_report_event_generic_sign_treaty2
 
 	is_triggered_only = yes
 	
-	# Ok
-	option = {
-		name = mtg_britain.22.a
-		retire_country_leader = yes
-		create_country_leader = {
-			name = "Winston Churchill"
-			desc = "POLITICS_WINSTON_CHURCHILL_DESC"
-			picture = "Portrait_Britain_Winston_Churchill.dds"
-			expire = "1965.1.1"
-			ideology = conservatism
-			traits = {
-				british_bulldog
-			}
+	immediate = {
+		hidden_effect = { 
+			remove_ideas = ENG_king_edward
+			add_ideas = ENG_george_vi		
 		}
+	}
+
+	option = {
+		name = britain.17.a
 	}
 }
 
@@ -1211,7 +1213,7 @@ country_event = {
 
    fire_only_once = no
  is_triggered_only = yes
-   	hidden = yes
+   	#hidden = yes
 
    
       option = {
@@ -1396,7 +1398,6 @@ news_event = {
 }
 
 add_namespace = panay_incident
-
 #Panay Incident - USA notification
 country_event = {
 	id = panay_incident.2
@@ -1422,11 +1423,38 @@ country_event = {
 	option = { #Demand compensation
 		name = panay_incident.2.b
 		custom_effect_tooltip = panay_incident.2.b.tt
-		add_war_support = 0.05
-		hidden_effect = { 
-		JAP = { country_event = { id = panay_incident.3 days = 2 } } } #Delay added so events are spaced out - historically it took months to get JAP to agree to compensation, but that'd be a bit hard to follow in-game, so timelines compressed.
 	}
 }
+
+country_event = {
+	id = panay_incident.12
+	title = panay_incident.2.t
+	desc = { #Low war support text
+		text = panay_incident.2.d
+		trigger = {
+			USA = { has_war_support < 0.5 }
+		}
+	}
+
+	desc = { #High war support text
+		text = panay_incident.2.e
+		trigger = {
+			USA = { has_war_support > 0.49 }
+		}
+	}
+
+	picture = GFX_report_event_panay_incident
+
+	is_triggered_only = yes
+
+	option = { #Demand compensation
+		name = panay_incident.2.b
+		custom_effect_tooltip = panay_incident.2.b.tt
+		USA = { add_war_support = 0.05 }
+		hidden_effect = { JAP = { country_event = { id = panay_incident.13 days = 2 } } } 
+	}
+}
+
 
 #Panay Incident - JAP gets demand for compensation
 country_event = {
@@ -1440,9 +1468,24 @@ country_event = {
 	option = { #We shall never bow down to the western Imperialists!
 		name = panay_incident.3.b
 		custom_effect_tooltip = panay_incident.3.b.tt
+		hidden_effect = { USA = { country_event = { id = panay_incident.5 days = 2 } } } 
+	}
+}
 
-		add_political_power = 100
-		hidden_effect = { USA = { country_event = { id = panay_incident.5 days = 2 } } } #Delay added here and in earlier event so rest of the world doesn't get Panay Incident one day and War the next, unless US is particularly gung-ho in response to initial event.
+country_event = {
+	id = panay_incident.13
+	title = panay_incident.3.t
+	desc = panay_incident.3.d
+	picture = GFX_report_event_us_panay_demands
+
+	is_triggered_only = yes
+
+	option = { #We shall never bow down to the western Imperialists!
+		name = panay_incident.3.b
+		custom_effect_tooltip = panay_incident.3.b.tt
+
+		JAP =  { add_political_power = 100 }
+		hidden_effect = { USA = { country_event = { id = panay_incident.15 days = 2 } } }
 	}
 }
 
@@ -1457,12 +1500,20 @@ country_event = {
 	
 	option = {
 		name = panay_incident.5.a
-		
-		trigger = { tag = USA }
-		
-		add_political_power = -10
-		add_war_support = -0.02
-		add_stability = 0.05
+	}
+}
+
+country_event = {
+	id = panay_incident.15
+	title = panay_incident.5.t
+	desc = panay_incident.5.d
+	picture = GFX_report_event_japanese_reply
+
+	is_triggered_only = yes
+	
+	option = {
+		name = panay_incident.5.a
+		USA = { add_political_power = -10 add_war_support = -0.02 add_stability = 0.05 }
 	}
 }
 
@@ -1479,35 +1530,6 @@ country_event = {
 	}
 }
 
-country_event = {
-	id = japan.144
-	title = japan.144.t
-	desc = japan.144.d
-	picture = GFX_tora
-
-	is_triggered_only = yes
-	
-	option = {
-		name = japan.144.a
-		declare_war_on_all_allies = yes 	
-		USA = { 
-			add_to_war = {
-				targeted_alliance = ENG
-				enemy = JAP
-			}
-				}
-		if = { limit = { country_exists = MAN } MAN = { declare_war_on_all_allies = yes } 
-		USA = { 
-			add_to_war = {
-				targeted_alliance = ENG
-				enemy = MAN
-			}
-				} 
-				}
-	
-		add_timed_idea = { idea = JAP_tora_tora_tora_idea days = 180 }		
-	}
-}
 country_event = {
    id = japan.148
    title = "Manchukuo is AI controlled"
@@ -3288,7 +3310,6 @@ is_triggered_only = yes
 
 	option = {
 		name = soviet.53.a
-		remove_ideas = trotskyite_plot_purged
 	}
 
 }
@@ -5031,15 +5052,9 @@ country_event = {
 
 	is_triggered_only = yes
 
-	trigger = {
-		tag = USA
-		date > 1940.1.1
-		date < 1941.1.1
-	}
-
 	immediate = {
 		hidden_effect = {
-				country_event = { id = usa.35 days = 730 } # midterm
+			country_event = { id = usa.35 days = 730 } # midterm
 		}
 	}
 	
@@ -5064,198 +5079,11 @@ country_event = {
 				country_event = { id = usa.35 days = 730 } # midterms
 		}
 	}
-	trigger = {
-		tag = USA
-		democratic > 0.5
-		date > 1944.1.1
-		date < 1945.1.1
-		has_idea = new_deal
-		has_war = no
-	}
 	
 	option = {
 		name = usa.9.a
-		add_political_power = 10
-			set_variable = { election_factor = random }
-			add_to_variable = { election_factor = -0.5 }
-			USA_election_senate = yes
-			USA_election_house = yes
-			custom_effect_tooltip = usa_congress_elections_tt_bad
+		custom_effect_tooltip = usa_congress_elections_tt_roosevelt
 			country_event = usa.30
-	}
-
-	option = { 
-		name = usa.9.b
-		ai_chance = {
-			factor = 25
-			modifier = {
-				factor = 0
-				is_historical_focus_on = yes
-			}
-		}		
-		remove_ideas = new_deal
-		set_party_name = { ideology = democratic long_name = USA_republican_party name = USA_republican_party }
-		set_variable = { election_factor = random }
-		add_to_variable = { election_factor = -0.6 }
-		USA_election_senate = yes
-		USA_election_house = yes
-		USA_flip_support = yes
-		add_political_power = 120
-		custom_effect_tooltip = usa_congress_elections_tt_good
-		create_country_leader = {
-			name = "Thomas E. Dewey"
-			desc = "POLITICS_THOMAS_DEWEY_DESC"
-			picture = "portrait_USA_thomas_dewey.dds"
-			expire = "1965.1.1"
-			ideology = conservatism
-			traits = {
-				
-			}
-		}
-		country_event = usa.31
-	}
-}
-
-# Election of 1944: Roosevelt vs Incumbent
-country_event = {
-	id = usa.10
-	title = usa.10.t
-	desc = usa.10.d
-	picture = GFX_report_event_usa_election_generic
-
-	is_triggered_only = yes
-	immediate = {
-		hidden_effect = {
-				country_event = { id = usa.35 days = 730 } # midterms
-		}
-	}
-	trigger = {
-		tag = USA
-		democratic > 0.5
-		date > 1944.1.1
-		date < 1945.1.1
-		NOT = { has_idea = new_deal }
-	}
-	
-	option = { 
-		name = usa.10.a
-		add_political_power = 10
-			set_variable = { election_factor = random }
-			add_to_variable = { election_factor = -0.5 }
-			USA_election_senate = yes
-			USA_election_house = yes
-			custom_effect_tooltip = usa_congress_elections_tt_bad
-			country_event = usa.30
-	}
-
-	option = { 
-		name = usa.10.b
-		add_ideas = new_deal
-		set_party_name = { ideology = democratic long_name = USA_democratic_party name = USA_democratic_party }
-		set_variable = { election_factor = random }
-		add_to_variable = { election_factor = -0.6 }
-		USA_election_senate = yes
-		USA_election_house = yes
-		USA_flip_support = yes
-		add_political_power = 120
-		custom_effect_tooltip = usa_congress_elections_tt_good
-		if = {
-			limit = { has_idea = wilkies_new_deal }
-			remove_ideas = wilkies_new_deal
-		}
-		retire_country_leader = yes
-		country_event = usa.31
-	}
-}
-
-# Election of 1944: Roosevelt vs MacArthur
-country_event = {
-	id = usa.11
-	title = usa.11.t
-	desc = usa.11.d
-	picture = GFX_report_event_usa_election_roosevelt_macarthur
-
-	is_triggered_only = yes
-	immediate = {
-		hidden_effect = {
-				country_event = { id = usa.35 days = 730 } # midterms
-		}
-	}
-	trigger = {
-		tag = USA
-		date > 1944.1.1
-		date < 1945.1.1
-		has_idea = new_deal
-		has_country_flag = macarthur_candidate
-	}
-	
-	option = {
-		name = usa.11.a
-		ai_chance = {
-			factor = 25
-		}	
-		add_political_power = 10
-			set_variable = { election_factor = random }
-			add_to_variable = { election_factor = -0.5 }
-			USA_election_senate = yes
-			USA_election_house = yes
-			custom_effect_tooltip = usa_congress_elections_tt_bad
-			country_event = usa.30
-	}
-
-	option = { 
-		name = usa.11.b
-
-		remove_ideas = new_deal
-		set_party_name = { ideology = democratic long_name = USA_republican_party name = USA_republican_party }
-		set_variable = { election_factor = random }
-		add_to_variable = { election_factor = -0.6 }
-		USA_election_senate = yes
-		USA_election_house = yes
-		USA_flip_support = yes
-		add_political_power = 120
-		custom_effect_tooltip = usa_congress_elections_tt_good
-		create_country_leader = {
-			name = "Douglas MacArthur"
-			desc = "POLITICS_DOUGLAS_MACARTHUR_DESC"
-			picture = "Portrait_USA_Douglas_MacArthur.dds"
-			expire = "1965.1.1"
-			ideology = conservatism
-			traits = {
-				
-			}
-		}
-		country_event = usa.31
-		remove_unit_leader = 57
-	}
-}
-
-# Election of 1944: MacArthur Candidate?
-country_event = {
-	id = usa.12
-	title = usa.12.t
-	desc = usa.12.d
-	picture = GFX_report_event_usa_macarthur_speech
-
-	is_triggered_only = yes
-
-	trigger = {
-		tag = USA
-		democratic > 0.5
-		date > 1944.1.1
-		date < 1945.1.1
-		has_idea = new_deal
-		has_war = yes
-	}
-	
-	option = { 
-		name = usa.12.a
-		country_event = { id = usa.9 }
-	}
-
-	option = { 
-		name = usa.12.b
-		country_event = { id = usa.11 }
 	}
 }
 
@@ -5771,28 +5599,6 @@ country_event = {
 	
 	option = {
 		name = "Excellent!"
-create_field_marshal = {
-	name = "Geoffrey Keyes"
-	picture = "Portrait_USA_Geoffrey_Keyes.dds"
-	traits = { organizer logistics_wizard fast_planner trait_engineer infantry_leader infantry_expert trait_mountaineer hill_fighter trickster expert_improviser }
-	skill = 8
-
-	attack_skill = 6
-	defense_skill = 5
-	planning_skill = 6
-	logistics_skill = 8
-}
-create_corps_commander = {
-	name = "Lloyd Fredendall"
-	picture = "Portrait_USA_Lloyd_Fredendall.dds"
-	traits = { old_guard inflexible_strategist unyielding_defender trait_engineer scavenger infantry_leader infantry_expert trait_mountaineer expert_improviser hill_fighter trickster fake_skilled_staffer  }
-	skill = 8
-
-	attack_skill = 7
-	defense_skill = 5
-	planning_skill = 4
-	logistics_skill = 9
-}
 	}
 }
 

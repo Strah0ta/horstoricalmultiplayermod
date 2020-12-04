@@ -73,16 +73,6 @@ country_event = { id = lar_spain.53 days = 1186 }
 country_event = { id = germany.75 days = 210 }	#tank treaty event
 country_event = { id = soviet.502 days = 2465  }	#resurgent red air force event - adds leader trait which lower CAS damage 
 #################RUSSIA SEASON EVENTS####################
-#SPRING MUD SEASON
-country_event = { id =  italy.800 days = 2269 } #march 42
-country_event = { id =  italy.800 days = 2634 } #march 43
-country_event = { id =  italy.800 days = 3000 } #march 44
-country_event = { id =  italy.800 days = 3365 } #march 45
-#FALL MUD SEASON
-country_event = { id =  italy.802 days = 2088 } #sept 41
-country_event = { id =  italy.802 days = 2453 } #sept 42
-country_event = { id =  italy.802 days = 2818 } #sept 43
-country_event = { id =  italy.802 days = 3184 } #sept 44
 #WINTER
 news_event = { id = mtg_news.778 days = 2149 } #nov 41
 country_event = { id =  italy.852 days = 2149 } #nov 41

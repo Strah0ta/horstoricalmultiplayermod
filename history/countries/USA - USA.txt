@@ -26,12 +26,13 @@ set_variable = {  var = USA_pennsylvania_steel_duration   value = 36 }
 set_variable = {  var = USA_ohio_steel_duration   value = 36 } 
 set_variable = {  var = USA_indiana_steel_duration   value = 36 } 
 USA_recalc_congress_icon_frames = yes
-USA = {
 	country_event = { id = usa.50 days = 2 }
 	country_event = { id = usa.51 days = 2 }
 	country_event = { id = usa.6 days = 307 }	
+	country_event = { id = usa.7 days = 1767 }	
+	country_event = { id = usa.9 days = 3227 }	
 	country_event = { id = usa.60 days = 30 }
-}
+
 # Starting tech
 set_technology = {
 	scout_plane1 = 1

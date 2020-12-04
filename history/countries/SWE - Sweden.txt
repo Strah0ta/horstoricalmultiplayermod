@@ -13,10 +13,23 @@ country_lock_all_division_template = yes
 country_event = { id = DOD_yugoslavia.21 days = 759  }	 
 news_event = { id = news.9990 days = 2364 }
 news_event = { id = news.9991 days = 2729  }
-
+country_event = { id = mtg_britain.2 days = 119 }
+#SPRING MUD SEASON
+country_event = { id =  italy.800 days = 2269 } #march 42
+country_event = { id =  italy.800 days = 2634 } #march 43
+country_event = { id =  italy.800 days = 3000 } #march 44
+country_event = { id =  italy.800 days = 3365 } #march 45
+#FALL MUD SEASON
+country_event = { id =  italy.802 days = 2088 } #sept 41
+country_event = { id =  italy.802 days = 2453 } #sept 42
+country_event = { id =  italy.802 days = 2818 } #sept 43
+country_event = { id =  italy.802 days = 3184 } #sept 44
 country_event = { id = lar_spain.953 days = 1186 }		 
 country_event = { id = germany.975 days = 210 }	#tank treaty event
 country_event = { id = soviet.902 days = 2465  }	#resurgent red air force event - adds leader trait which lower CAS damage 
+
+
+ country_event = { id = panay_incident.12  days = 983 } 
 
 set_convoys = 0
 set_technology = {

@@ -1949,19 +1949,29 @@ focus = {
 					instant_build = yes
 				}
 			  }		
-			set_technology = { smoke_generator = 1 }
-			set_technology = { improved_depth_charges = 1 }
-			set_technology = { improved_sonar = 1 }
-			set_technology = { improved_airplane_launcher = 1 }
-			set_technology = { basic_cruiser_armor_scheme = 1 }
-			set_technology = { magnetic_detonator = 1 }
-			set_technology = { basic_light_shell = 1 }
-			set_technology = { basic_medium_shell = 1 }
-			set_technology = { basic_heavy_shell = 1 }
-			set_technology = { damage_control_1 = 1 }
-			set_technology = { fire_control_methods_1 = 1 }
-			set_technology = { early_ship_hull_carrier = 1 }
-			set_technology = { basic_heavy_armor_scheme = 1 }
+			  hidden_effect =  { 
+			set_technology = { 
+			smoke_generator = 1
+			fire_control_methods_2 = 1
+			fire_control_methods_3 = 1	
+			damage_control_3 = 1
+			damage_control_2 = 1
+			improved_depth_charges = 1 
+			improved_sonar = 1 
+			improved_airplane_launcher = 1
+			basic_cruiser_armor_scheme = 1
+			magnetic_detonator = 1
+			basic_light_shell = 1
+			basic_medium_shell = 1
+			basic_heavy_shell = 1 
+			damage_control_1 = 1 
+			fire_control_methods_1 = 1
+			early_ship_hull_carrier = 1
+			basic_heavy_armor_scheme = 1 
+			popup = no
+			}
+			}
+
 			add_tech_bonus = {
 				name = bb_bonus
 				bonus = 3.0

@@ -1216,13 +1216,9 @@ every_country = {
 		SOV_relocate_civ_moscow=yes
 		SOV_relocate_mil_moscow=yes
 		}
-
-				
-					
 		}	
 	}
 	}
-	
 	
 			GER_zit = { 
 		icon = ger_reichskommissariats
@@ -1641,7 +1637,30 @@ hidden_effect = {
 		
 		complete_effect = {
 				GER =  { activate_mission = GER_case_anton }
-				USA = { country_event = { id = usa.996  days = 0 } }
+				USA = { country_event = { id = usa.996  days = 0 } 
+				create_field_marshal = {
+	name = "Geoffrey Keyes"
+	picture = "Portrait_USA_Geoffrey_Keyes.dds"
+	traits = { organizer logistics_wizard fast_planner trait_engineer infantry_leader infantry_expert trait_mountaineer hill_fighter trickster expert_improviser }
+	skill = 8
+
+	attack_skill = 6
+	defense_skill = 5
+	planning_skill = 6
+	logistics_skill = 8
+}
+create_corps_commander = {
+	name = "Lloyd Fredendall"
+	picture = "Portrait_USA_Lloyd_Fredendall.dds"
+	traits = { old_guard inflexible_strategist unyielding_defender trait_engineer scavenger infantry_leader infantry_expert trait_mountaineer expert_improviser hill_fighter trickster fake_skilled_staffer  }
+	skill = 8
+
+	attack_skill = 7
+	defense_skill = 5
+	planning_skill = 4
+	logistics_skill = 9
+}
+				}
 				every_country = { limit = { is_in_faction_with = ENG has_war = yes   }	EFR = { declare_war_on = { target = PREV type = annex_everything }	}	}
 				EFR = { set_technology = { mtg_transport = 1 } } 
 			}	

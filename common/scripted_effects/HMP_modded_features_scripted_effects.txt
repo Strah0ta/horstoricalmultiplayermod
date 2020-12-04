@@ -2654,7 +2654,7 @@ NOR = {
 create_corps_commander = {
 	name = "Carl Gustav Fleischer"
 	portrait_path = "gfx/leaders/NOR/portrait_norway_carl_gustav_flesicher.tga"
-	traits = {  trickster expert_improviser guerilla_fighter infantry_leader infantry_expert  }
+	traits = {  trickster expert_improviser guerilla_fighter infantry_leader infantry_expert panzer_expert panzer_expert }
 	skill = 6
 	attack_skill = 5
 	defense_skill = 4
@@ -3647,7 +3647,7 @@ HFU_fuel_startup_effect = {
 		
 soviet_lend_lease_mechanic_calc = {
 	if = { limit = { OR = { AND = { USA = { controls_state = 416 } SOV = { controls_state = 408 } } has_start_date > 1936.1.2 }  } SOV = { add_to_variable = {  var = SOV_barb_ll_token value = 1 }  add_to_variable = { var = SOV_barb_ll_token2 value = 1 } } }
-	if = { limit = { AND = { ENG = { controls_state = 412 } SOV = { controls_state = 229 } }  }   SOV = { add_to_variable = {  var = SOV_barb_ll_token   value = 3 } add_to_variable = {  var = SOV_barb_ll_token2   value = 3 } } }
+	if = { limit = { AND = { ENG = { controls_state = 412 } SOV = { controls_state = 229 } }  }   SOV = { add_to_variable = {  var = SOV_barb_ll_token   value = 5 } add_to_variable = {  var = SOV_barb_ll_token2   value = 5 } } }
 	if = { limit = { SOV = { controls_state = 213 } } 	SOV = { add_to_variable = {  var = SOV_barb_ll_token2 value = 1 } add_to_variable = {  var = SOV_barb_ll_token value = 1 }   } } 
 	if = { limit = { AND = {  ENG = { controls_state = 118 } ENG = { controls_state = 116 } SOV = { controls_state = 137 } } }  SOV = { add_to_variable = {  var = SOV_barb_ll_token   value = 1 } add_to_variable = {  var = SOV_barb_ll_token2   value = 1 } } }
 }	
@@ -4043,13 +4043,8 @@ every_state	= { limit = { OR = { is_owned_by = ENG is_owned_by = CAN is_owned_by
 }
 
 
-
-
-
-
 horstorical_multiplayer_vichy_france = {
 FRA = {  FRA_legitimacy_week_counter = yes  FRA_legitimacy_casualties_counter = yes }
-FRA = { country_event = { id = usa.999 days = 1 }}
 ITA = { transfer_state = 313 
 313 = { set_compliance = 60 }
 transfer_state = 577
