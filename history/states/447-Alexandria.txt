@@ -6,9 +6,9 @@ state_category = wasteland
 history={
 owner = ENG
 add_core_of=SWE
-victory_points = {
-4076 100
-}
+		victory_points = {
+			4076 80
+		}
 		victory_points = {
 			10127 1
 		}
@@ -16,7 +16,7 @@ victory_points = {
 			7011 200
 		}
 		victory_points = {
-			1143 50
+			1143 20
 		}
 		victory_points = {
 			7117 1

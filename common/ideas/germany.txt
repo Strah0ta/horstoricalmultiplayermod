@@ -5,7 +5,7 @@ ideas = {
 			allowed = {	always = no	}
 			removal_cost = -1
 			picture = generic_acquire_tanks
-			available = { date > 1941.1.1  }
+			available = { date < 1941.1.1  }
 			modifier = {		}
 			equipment_bonus = {
 				motorized_equipment = {

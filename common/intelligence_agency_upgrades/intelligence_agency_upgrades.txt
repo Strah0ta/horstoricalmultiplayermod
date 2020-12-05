@@ -305,10 +305,6 @@ branch_operative = {
 	
 		picture = GFX_agency_interrogation_techniques
 		sound = Spy_Agency_Training_Facilities_Upgrades_Confirm
-
-		ai_will_do = {
-			factor = 1
-		}
 		
 		modifiers_during_progress = {
 			civilian_factory_use = 0
@@ -336,10 +332,6 @@ branch_crypto = {
 		frame = GFX_upgrade_frame_form
 		sound = Spy_Agency_Cryptology_Upgrades_Confirm
 		
-		ai_will_do = {
-			factor = 2
-		}
-		
 		modifiers_during_progress = {
 			civilian_factory_use = 0
 			ai_license_acceptance = -1001
@@ -362,10 +354,6 @@ branch_crypto = {
 	
 		picture = GFX_agency_decryption_boost_1
 		sound = Spy_Agency_Cryptology_Upgrades_Confirm
-		
-		ai_will_do = {
-			factor = 2
-		}
 		
 		available = {
 			has_done_agency_upgrade = upgrade_form_department
@@ -399,10 +387,6 @@ branch_crypto = {
 	
 		picture = GFX_agency_decryption_boost_2
 		sound = Spy_Agency_Cryptology_Upgrades_Confirm
-		
-		ai_will_do = {
-			factor = 1
-		}
 		
 		available = {
 			has_done_agency_upgrade = upgrade_decryption_boost
@@ -448,10 +432,6 @@ branch_crypto = {
 		picture = GFX_agency_cryptology_2
 		sound = Spy_Agency_Cryptology_Upgrades_Confirm
 		
-		ai_will_do = {
-			factor = 2
-		}
-		
 		available = {
 			has_done_agency_upgrade = upgrade_form_department
 		}
@@ -485,10 +465,6 @@ branch_crypto = {
 	
 		picture = GFX_agency_cryptology_1
 		sound = Spy_Agency_Cryptology_Upgrades_Confirm
-		
-		ai_will_do = {
-			factor = 1
-		}
 		
 		available = {
 			has_done_agency_upgrade = upgrade_crypto_strength

@@ -807,7 +807,6 @@ every_country = {
 			NOT = { has_idea = zzz_war_bonds }
         }
         visible = {
-			
             has_war = yes
 			NOT = { has_completed_focus = GER_jag }
         }
@@ -1682,7 +1681,7 @@ create_corps_commander = {
         allowed = {   original_tag = ENG    }
         cost = 0
         fire_only_once = yes
-        available = {	has_war_with = GER has_tech = rocket_artillery has_tech = improved_infantry_weapons 	}
+        available = {	has_war_with = GER has_tech = rocket_artillery has_tech = improved_infantry_weapons ETH = { is_ai = no} 	}
 
 		complete_effect = {
 					hidden_effect = { set_technology = { antitank2 = 1 popup = no } delete_unit_template_and_units  = { division_template = "King's African Rifles"} delete_unit_template_and_units  = { division_template = "African/Arabian Colonial Garrison"}     delete_unit_template_and_units  = { division_template = "Light Armor Division"} load_oob = "ENG_IEA_Front" }
@@ -1858,7 +1857,7 @@ hidden_effect = {
 	 ENG_annex_norway = {
 		icon = generic_operation
 		allowed = {	original_tag = ENG	}
-		available = {	NOR = { 	is_ai = yes 	NOT = { owns_state = 110 } 	}	}
+		available = {	date > 1941.1.1 NOR = { 	is_ai = yes 	NOT = { owns_state = 110 } 	}	}
 		cost = 0
 		visible = {	country_exists = NOR	}
 		fire_only_once = yes

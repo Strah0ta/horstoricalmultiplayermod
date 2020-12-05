@@ -21,9 +21,7 @@ create_country_leader = {
 	picture = "Portrait_Albania_King_Zog.dds"
 	expire = "1965.1.1"
 	ideology = despotism
-	traits = {
-		#
-	}
+	traits = { }
 }
 
 create_country_leader = {
@@ -32,9 +30,7 @@ create_country_leader = {
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
 	expire = "1965.1.1"
 	ideology = stalinism
-	traits = {
-		staunch_stalinist
-	}
+	traits = { }
 }
 
 create_country_leader = {

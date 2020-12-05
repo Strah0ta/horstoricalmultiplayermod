@@ -149,11 +149,6 @@ focus_tree = {
 		x = 1
 		y = 1
 		cost = 10
-
-
-		available = {
-			num_of_civilian_factories > 16
-		}
 		
 		search_filters = {FOCUS_FILTER_INDUSTRY}
 		completion_reward = {
@@ -263,7 +258,7 @@ focus_tree = {
 							106 = { 
 				add_building_construction = {
 					type = infrastructure
-					level = 3
+					level = 5
 					instant_build = yes
 				}
 				}
