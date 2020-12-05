@@ -79,6 +79,8 @@ NDefines.NCountry.AIR_SUPPLY_CONVERSION_SCALE = 0.2	-- TRANSPORTS DOUBLED IN IC 
 ---------------------------------------------------------------
 ------------------HORST RESISTANCE CHANGES---------------------
 --DESIGNED TO PUNISH AXIS FOR OCCUPYING TOO MUCH OF THE WORLD--
+--NDefines.NResistance.RESISTANCE_RATIO_DIFF_TO_SPREAD = 0.5  -- resistance diff between two neighbour states will spread by this ratio ( from highest resistance states to lower ones and it will only spread once to a state)
+
 NDefines.NResistance.FOREIGN_MANPOWER_MIN_THRESHOLD = 0		 -- The minimum number of Manpower that AI will accept to give at once, in order to avoid many weird little transfer.
 NDefines.NResistance.MANPOWER_BUFFER_TO_NOT_GIVE_MINOR = 0 -- To determine how much AI can give as foreign manpower, we calculate how much manpower we use, and add this buffer. The result is what we want to keep, for minor countries. So higher this number is, lower we will give Manpower.
 NDefines.NResistance.MANPOWER_BUFFER_TO_NOT_GIVE_MAJOR = 0 -- To determine how much AI can give as foreign manpower, we calculate how much manpower we use, and add this buffer. The result is what we want to keep, for major countries. So higher this number is, lower we will give Manpower.
