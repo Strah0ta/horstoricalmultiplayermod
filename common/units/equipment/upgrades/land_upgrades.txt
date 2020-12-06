@@ -1,0 +1,20 @@
+upgrades = {
+	tank_armor_upgrade = {
+		max_level = 8
+		cost = land
+		armor_value = 0.03
+		maximum_speed = -0.025
+	}
+	tank_engine_upgrade = {
+		max_level = 4
+		cost = land
+		maximum_speed = 0.05
+	}	
+	tank_reliability_upgrade = {
+		max_level = 4
+		cost = land
+		reliability = 0.038
+	}
+}
+
+

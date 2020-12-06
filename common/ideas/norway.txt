@@ -220,28 +220,16 @@ country = {
 
 		NOR_alfred_roscher-lund = {
 			ledger = army
-
 			picture = generic_army_europe_2
-			
-			allowed = {
-				original_tag = NOR
-			}
-			
+			allowed = { 	original_tag = NOR	}
 			traits = { army_concealment_3 }
-
 		}
 		
 		NOR_jacob_von_der_lippe = {
-			ledger = navy
-
-			picture = generic_navy_europe_2
-			
-			allowed = {
-				original_tag = NOR
-			}
-			
-			traits = { navy_chief_naval_aviation_3 }
-
+			ledger = army
+			picture = generic_army_europe_2
+			allowed = {	original_tag = NOR }
+			traits = { army_armored_1 }
 		}
 
 		NOR_birger_ljungberg = {
@@ -249,9 +237,7 @@ country = {
 
 			picture = generic_army_europe_1
 			
-			allowed = {
-				original_tag = NOR
-			}
+			allowed = { original_tag = NOR }
 			
 			traits = { army_commando_2 }
 

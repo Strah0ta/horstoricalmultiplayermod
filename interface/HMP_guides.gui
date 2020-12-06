@@ -958,7 +958,7 @@ guiTypes = {
 						name = "allies_9"
 						position = {x=0 y=428}
 						font = "hoi_18mbs"
-						text = "Ireland"
+						text = "Soviet Union"
 						maxWidth = 180
 						maxHeight = 23
 						format = center
@@ -979,43 +979,6 @@ guiTypes = {
 						position = {x=0 y=478}
 						font = "hoi_18mbs"
 						text = "Norway"
-						maxWidth = 180
-						maxHeight = 23
-						format = center
-						allwaystransparent = yes
-					}
-						buttonType = {
-						name = "horst_guides_allies_11_available" 
-						position = {x=23 y=515}	
-						spriteType = "GFX_horst_guides_idea_button_available"
-						pdx_tooltip = "horst_guides_allies_11_tt"
-					}
-					
-					
-					instantTextboxType = {
-						name = "allies_11"
-						position = {x=0 y=528}
-						font = "hoi_18mbs"
-						text = "Brazil"
-						maxWidth = 180
-						maxHeight = 23
-						format = center
-						allwaystransparent = yes
-					}
-					
-					buttonType = {
-						name = "horst_guides_allies_12_available" 
-						position = {x=23 y=565}	
-						spriteType = "GFX_horst_guides_idea_button_available"
-						pdx_tooltip = "horst_guides_allies_12_tt"
-					}
-					
-					
-					instantTextboxType = {
-						name = "allies_12"
-						position = {x=0 y=578}
-						font = "hoi_18mbs"
-						text = "Mexico"
 						maxWidth = 180
 						maxHeight = 23
 						format = center
@@ -1189,7 +1152,7 @@ guiTypes = {
 						name = "axis_8"
 						position = {x=0 y=378}
 						font = "hoi_18mbs"
-						text = "Yugoslavia"
+						text = "Italian East Africa/Iraq"
 						maxWidth = 180
 						maxHeight = 23
 						format = center
@@ -1229,7 +1192,7 @@ guiTypes = {
 						name = "axis_10"
 						position = {x=0 y=478}
 						font = "hoi_18mbs"
-						text = "Siam"
+						text = "Finland"
 						maxWidth = 180
 						maxHeight = 23
 						format = center

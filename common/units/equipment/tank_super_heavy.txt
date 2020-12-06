@@ -17,7 +17,6 @@ equipments = {
 			tank_reliability_upgrade
 			tank_engine_upgrade
 			tank_armor_upgrade
-			tank_gun_upgrade
 		}
 		
 		#Misc Abilities
@@ -31,9 +30,9 @@ equipments = {
 		armor_value = 145
 
 		#Offensive Abilities
-		soft_attack = 38
-		hard_attack = 45
-		ap_attack = 146
+		soft_attack = 43.7
+		hard_attack = 67.5
+		ap_attack = 182.5
 		air_attack = 0
 
 		#Space taken in convoy
@@ -146,7 +145,7 @@ equipments = {
 		#Offensive Abilities
 		soft_attack = 18
 		hard_attack = 105
-		ap_attack = 247.5
+		ap_attack = 214
 		air_attack = 0
 		
 		build_cost_ic = 50 #was 100 note: number required for 1 battalion was doubled

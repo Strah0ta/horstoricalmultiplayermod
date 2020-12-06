@@ -582,7 +582,7 @@ hidden_effect = {		set_technology = { naval_bomber2 = 1 }
 		add_ideas = JAP_supremacy_of_technology
 				add_relation_modifier = {
 				target = GER
-				modifier = ROM_license_german_equipment
+				modifier = GER_JAP_Armor
 			}
 		if ={ limit = { country_exists = MAN }  
 		add_relation_modifier = {

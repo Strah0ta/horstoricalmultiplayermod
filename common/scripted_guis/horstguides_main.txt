@@ -215,16 +215,6 @@ scripted_gui = {
 					id = horstguides.37
 				}
 			}
-			horst_guides_allies_9_available_click = {
-				country_event = { 
-					id = horstguides.38
-				}
-			}
-			horst_guides_allies_10_available_click = {
-				country_event = { 
-					id = horstguides.39
-				}
-			}
 
 			################################################################################################
 			

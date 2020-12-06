@@ -1454,29 +1454,18 @@ FIN = { add_ideas = war_economy }
 SOV = { transfer_state = 147 add_state_core = 147 transfer_state = 146 add_state_core = 146 add_timed_idea = { idea = SPR_seized_spanish_gold_reserves days = 365 } }
 }
 HMP_script_spain = {
-	every_country = { army_experience = 150 }
-	GER = { army_experience = 1000 }
-	JAP = { army_experience = 1100 }
-	MAN = { army_experience = 500 }
-	ITA = { army_experience = 750 }
-	SOV = { army_experience = 1000 }
-	SPR = { army_experience = 750 }
-	ROM = { army_experience = 500 }
-	BUL = { army_experience = 500 }
-	HUN = { army_experience = 500 }
-	SPR = { add_ideas = SPR_cg_debuff add_threat = 3 }
+	JAP = { army_experience = 500 }
+	GER = { army_experience = 400 }
+	SOV = { army_experience = 400 }	
+	ITA = { army_experience = 200 }
+	SPR = { army_experience = 200 }
+	SPR = { add_ideas = SPR_cg_debuff add_threat = 3 }	
 }
 
-HMP_script_generals = {   #most generals and admirals are here so it is easy for me to parse through leaders without going through 20 files
+HMP_script_generals = {   #most generals and admirals are here so it is easy for me to parse through leaders without going through 20 files -Thrasymachus
 HMP_AXIS_generals = yes
 HMP_SOV_generals = yes
-HMP_FRA_generals = yes
-HMP_ENG_generals = yes
-HMP_USA_generals = yes
-HMP_RAJ_generals = yes
-HMP_ASTNZL_generals = yes
-HMP_SAFCAN_generals = yes
-HMP_EFR_generals = yes
+HMP_ALLIED_generals = yes
 }
 
 HMP_AXIS_generals = {
@@ -1721,7 +1710,6 @@ create_corps_commander = {
 	}
 
 	}
-ITA = { every_army_leader = { retire = yes }}
 ALB = {
 create_field_marshal = {
     name = "Kamil Shabib"
@@ -1769,7 +1757,7 @@ create_corps_commander = {
 ITA = {
 create_navy_leader = {
 	name = "Alberto Da Zara"
-		picture = "Portrait_Italy_Alberto_Da_Zara.dds"
+	picture = "Portrait_Italy_Alberto_Da_Zara.dds"
 	traits={ battleship_adherent gentlemanly fleet_protector flight_deck_manager loading_drill_master ground_pounder superior_tactician ironside air_controller big_guns_expert green_water_expert destroyer_leader concealment_expert }
 	skill = 4
 	attack_skill = 2
@@ -2249,8 +2237,6 @@ create_corps_commander = {
     logistics_skill = 9
 }
 }
-SPR = { every_army_leader = { retire = yes }}
-HUN = { every_army_leader = { retire = yes }}
 HUN = { 
 create_corps_commander = {
 	name = "Géza Lakatos"
@@ -2424,6 +2410,94 @@ create_corps_commander = {
 	planning_skill = 4
 	logistics_skill = 8
 	}
+}
+EFR = { 
+create_field_marshal = {
+	name = "Charles Huntziger"
+	picture = "portrait_france_charles_huntziger.dds"
+	traits = { old_guard organizer thorough_planner infantry_leader infantry_expert panzer_leader panzer_expert }
+	skill = 6
+	attack_skill = 7
+	defense_skill = 3
+	planning_skill = 4
+	logistics_skill = 5
+}
+
+create_corps_commander = {
+	name = "Alphonse Georges"
+	picture = "Portrait_France_Alphonse_Joseph_Georges.dds"
+	traits = { old_guard inflexible_strategist commando camouflage_expert cavalry_leader combined_arms_expert ambusher trickster guerilla_fighter urban_assault_specialist  }
+	skill = 6
+	attack_skill = 3
+	defense_skill = 7
+	planning_skill = 3
+	logistics_skill = 6
+}
+
+create_corps_commander = {
+	name = "Gaston-Henri Billotte"
+	picture = "Portrait_France_Generic_land_1.dds"
+	traits = { old_guard trait_cautious infantry_leader ambusher hill_fighter }
+	skill = 5
+	attack_skill = 4
+	defense_skill = 4
+	planning_skill = 4
+	logistics_skill = 4
+}
+
+create_corps_commander = {
+	name = "Henry Freydenberg"
+	picture = "Portrait_France_Generic_land_3.dds"
+	traits = { old_guard infantry_leader infantry_expert jungle_rat trickster expert_improviser guerilla_fighter }
+	skill = 5
+	attack_skill = 5
+	defense_skill = 4
+	planning_skill = 4
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "René Olry"
+	picture = "Portrait_France_Generic_land_5.dds"
+	traits = { old_guard infantry_leader infantry_expert trait_mountaineer }
+	skill = 5
+	attack_skill = 3
+	defense_skill = 5
+	planning_skill = 4
+	logistics_skill = 4
+}
+
+create_field_marshal = {
+	name = "Maurice Gamelin"
+	picture = "Portrait_France_Maurice_Gamelin.dds"
+	traits = { defensive_doctrine organizer old_guard inflexible_strategist trait_engineer infantry_leader infantry_expert  }
+	skill = 5
+	attack_skill = 3
+	defense_skill = 6
+	planning_skill = 4
+	logistics_skill = 3
+}
+
+create_field_marshal = {
+	name = "Maxime Weygand"
+	picture = "Portrait_France_Maxime_Weygand.dds"
+	traits = { defensive_doctrine organizer old_guard inflexible_strategist panzer_leader panzer_expert }
+	skill = 5
+	attack_skill = 7
+	defense_skill = 2
+	planning_skill = 4
+	logistics_skill = 3
+}
+create_field_marshal = {
+	name = "Antoine-Marie-Benoît Besson"
+	picture = "Portrait_France_Generic_land_2.dds"
+	traits = { defensive_doctrine organizer old_guard inflexible_strategist trait_engineer infantry_leader ambusher }
+	skill = 5
+	attack_skill = 2
+	defense_skill = 9
+	planning_skill = 2
+	logistics_skill = 3
+}
 }
 }
 HMP_SOV_generals = {
@@ -2648,8 +2722,7 @@ create_corps_commander = {
 }
 		}
 }
-HMP_FRA_generals = {
-FRA = { every_army_leader = { retire = yes }}
+HMP_ALLIED_generals = {
 NOR = { 
 create_corps_commander = {
 	name = "Carl Gustav Fleischer"
@@ -2740,8 +2813,6 @@ create_corps_commander = {
 	logistics_skill = 6
 }
 }
-}
-HMP_ENG_generals = {
 ENG = { every_army_leader = { retire = yes }}
 ENG = {
 create_field_marshal = {
@@ -2844,8 +2915,7 @@ create_corps_commander = {
 }
 
 }
-}
-HMP_USA_generals = {
+
 USA = { every_army_leader = { retire = yes }}
 USA = {
 
@@ -2960,9 +3030,7 @@ create_navy_leader = {
 		nationalities = { USA }
 	}
 }
-}
-HMP_RAJ_generals = {
-RAJ = { every_army_leader = { retire = yes }}
+
 RAJ = {
 				create_corps_commander = {
 					name = "Kodandera Madappa Cariappa"
@@ -3038,10 +3106,6 @@ create_corps_commander = {
 	logistics_skill = 5
 }
 }
-}
-HMP_ASTNZL_generals = {
-AST = { every_army_leader = { retire = yes }}
-NZL = { every_army_leader = { retire = yes }}
 AST = { 
 create_field_marshal = {
 	name = "Leslie Morshead"
@@ -3138,10 +3202,7 @@ create_corps_commander = {
 	logistics_skill = 4
 }
 }
-}
-HMP_SAFCAN_generals = {
-SAF = { every_army_leader = { retire = yes }}
-CAN = { every_army_leader = { retire = yes }}
+
 CAN = { 
 create_field_marshal = {
 	name = "Guy Simonds"
@@ -3230,99 +3291,8 @@ create_corps_commander = {
 	logistics_skill = 7
 }
 }
-}
-HMP_EFR_generals = {
-EFR = { every_army_leader = { retire = yes }}
-EFR = { 
-create_field_marshal = {
-	name = "Charles Huntziger"
-	picture = "portrait_france_charles_huntziger.dds"
-	traits = { old_guard organizer thorough_planner infantry_leader infantry_expert panzer_leader panzer_expert }
-	skill = 6
-	attack_skill = 7
-	defense_skill = 3
-	planning_skill = 4
-	logistics_skill = 5
-}
 
-create_corps_commander = {
-	name = "Alphonse Georges"
-	picture = "Portrait_France_Alphonse_Joseph_Georges.dds"
-	traits = { old_guard inflexible_strategist commando camouflage_expert cavalry_leader combined_arms_expert ambusher trickster guerilla_fighter urban_assault_specialist  }
-	skill = 6
-	attack_skill = 3
-	defense_skill = 7
-	planning_skill = 3
-	logistics_skill = 6
 }
-
-create_corps_commander = {
-	name = "Gaston-Henri Billotte"
-	picture = "Portrait_France_Generic_land_1.dds"
-	traits = { old_guard trait_cautious infantry_leader ambusher hill_fighter }
-	skill = 5
-	attack_skill = 4
-	defense_skill = 4
-	planning_skill = 4
-	logistics_skill = 4
-}
-
-create_corps_commander = {
-	name = "Henry Freydenberg"
-	picture = "Portrait_France_Generic_land_3.dds"
-	traits = { old_guard infantry_leader infantry_expert jungle_rat trickster expert_improviser guerilla_fighter }
-	skill = 5
-	attack_skill = 5
-	defense_skill = 4
-	planning_skill = 4
-	logistics_skill = 3
-}
-
-create_corps_commander = {
-	name = "René Olry"
-	picture = "Portrait_France_Generic_land_5.dds"
-	traits = { old_guard infantry_leader infantry_expert trait_mountaineer }
-	skill = 5
-	attack_skill = 3
-	defense_skill = 5
-	planning_skill = 4
-	logistics_skill = 4
-}
-
-create_field_marshal = {
-	name = "Maurice Gamelin"
-	picture = "Portrait_France_Maurice_Gamelin.dds"
-	traits = { defensive_doctrine organizer old_guard inflexible_strategist trait_engineer infantry_leader infantry_expert  }
-	skill = 5
-	attack_skill = 3
-	defense_skill = 6
-	planning_skill = 4
-	logistics_skill = 3
-}
-
-create_field_marshal = {
-	name = "Maxime Weygand"
-	picture = "Portrait_France_Maxime_Weygand.dds"
-	traits = { defensive_doctrine organizer old_guard inflexible_strategist panzer_leader panzer_expert }
-	skill = 5
-	attack_skill = 7
-	defense_skill = 2
-	planning_skill = 4
-	logistics_skill = 3
-}
-create_field_marshal = {
-	name = "Antoine-Marie-Benoît Besson"
-	picture = "Portrait_France_Generic_land_2.dds"
-	traits = { defensive_doctrine organizer old_guard inflexible_strategist trait_engineer infantry_leader ambusher }
-	skill = 5
-	attack_skill = 2
-	defense_skill = 9
-	planning_skill = 2
-	logistics_skill = 3
-}
-}
-}
-
 
 ########ON ACTIONS##########
 

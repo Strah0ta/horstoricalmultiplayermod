@@ -33,7 +33,7 @@ continuous_focus_palette = {
 	focus = {
 		id = continuous_reduce_training_time
 		icon = GFX_goal_continuous_reduce_training_time
-		available = {NOT = { tag = SOV }	}
+		available = {NOT = { OR = { tag = SOV AND = { tag = EFR has_war = no }AND = { tag = NOR has_completed_focus = nor_winter_mountain_training  has_war = no }   }	} }
 		modifier = {	training_time_army_factor = -0.25	}
 		daily_cost = 1
 		available_if_capitulated = yes

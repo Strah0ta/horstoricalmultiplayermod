@@ -1449,10 +1449,6 @@ leader_traits = {
 	navy_chief_commerce_raiding_2 = {
 		sprite = 3
 		convoy_raiding_efficiency_factor = 0.15
-		
-		ai_will_do = {
-			factor = 2
-		}
 	}
 	
 	navy_chief_commerce_raiding_3 = {

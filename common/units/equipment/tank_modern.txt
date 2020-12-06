@@ -17,7 +17,6 @@ equipments = {
 			tank_reliability_upgrade
 			tank_engine_upgrade
 			tank_armor_upgrade
-			tank_gun_upgrade
 		}
 		
 		#Misc Abilities
@@ -31,9 +30,9 @@ equipments = {
 		armor_value = 130
 
 		#Offensive Abilities
-		soft_attack = 40
-		hard_attack = 32
-		ap_attack = 131
+		soft_attack = 46
+		hard_attack = 48
+		ap_attack = 163.7
 		air_attack = 0
 
 		#Space taken in convoy
@@ -147,7 +146,7 @@ equipments = {
 		#Offensive Abilities
 		soft_attack = 22.5
 		hard_attack = 94.5
-		ap_attack = 240
+		ap_attack = 208
 		air_attack = 0
 
 		

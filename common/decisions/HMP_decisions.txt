@@ -529,7 +529,7 @@ allowed = {  original_tag = SOV }
 available = { check_variable = { var = SOV_barb_ll_token  value = 20  compare = greater_than_or_equals} has_war_with = GER OR = { date > 1941.11.22  ENG = { controls_state = 412 }  } 			custom_trigger_tooltip = {	tooltip = SOV_secure_tt	suppy_route_secure = yes}  }      
 		icon = generic_form_nation
 		cost = 0
-		fire_only_once = no #has_deployed_air_force_size > 6000
+		fire_only_once = no 
 		visible = { SOV = { has_completed_focus = SOV_aviation_cult} }
 		complete_effect  = {
 add_equipment_to_stockpile = {  type = sov_fighter_equipment_2 amount = 986 producer = SOV }    
@@ -725,9 +725,9 @@ every_country = {
 		visible = {	NOT = { FRA = { owns_state = 16 }}	}
 		days_re_enable = 120		
 		complete_effect = {
-			army_experience = 100
-			FRA = {	army_experience = 100	}
-			NOR  = { army_experience = 100 }
+			army_experience = 50
+			FRA = {	army_experience = 50	}
+			NOR  = { army_experience = 50 }
 		}
 		}
 			emergency_factory_conversion_defensive = {
@@ -1670,7 +1670,7 @@ create_corps_commander = {
         allowed = {   original_tag = ENG    }
         cost = 0
         fire_only_once = yes
-        available = {	has_war_with = GER has_tech = rocket_artillery has_tech = improved_infantry_weapons 	}
+        available = {	has_tech = rocket_artillery has_tech = improved_infantry_weapons 	}
 		complete_effect = {
 			hidden_effect = { set_technology = { antitank2 = 1 popup = no } delete_unit_template_and_units  = {  division_template = "Egyptian Camel Corps"} delete_unit_template_and_units  = { division_template = "Egyptian Mountaineer Corps"}  	load_oob = "ENG_EGY"   }
 					custom_effect_tooltip = "We will deploy our army in Egypt."
@@ -1681,7 +1681,7 @@ create_corps_commander = {
         allowed = {   original_tag = ENG    }
         cost = 0
         fire_only_once = yes
-        available = {	has_war_with = GER has_tech = rocket_artillery has_tech = improved_infantry_weapons ETH = { is_ai = no} 	}
+        available = {	 has_tech = rocket_artillery has_tech = improved_infantry_weapons ETH = { is_ai = no} 	}
 
 		complete_effect = {
 					hidden_effect = { set_technology = { antitank2 = 1 popup = no } delete_unit_template_and_units  = { division_template = "King's African Rifles"} delete_unit_template_and_units  = { division_template = "African/Arabian Colonial Garrison"}     delete_unit_template_and_units  = { division_template = "Light Armor Division"} load_oob = "ENG_IEA_Front" }
