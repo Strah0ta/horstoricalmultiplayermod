@@ -1688,6 +1688,18 @@ create_corps_commander = {
 		custom_effect_tooltip = "We will deploy our army in the Horn of Africa region."
 			}	
 		}	
+					deploy_sudan_gar = {   
+	    icon = generic_civil_support 
+        allowed = {   original_tag = ENG    }
+        cost = 0
+        fire_only_once = yes
+        available = { has_tech = rocket_artillery  }
+
+		complete_effect = {
+					hidden_effect = {  delete_unit_template_and_units  = { division_template = "African/Arabian Colonial Garrison"}   load_oob = "ENG_IEA_Front_GAR" }
+		custom_effect_tooltip = "We will deploy our garrisons in the Horn of Africa region."
+			}	
+		}	
 		case_anton_player = {  
 			icon = generic_civil_support
 			allowed = {  original_tag = EFR  }
@@ -1862,7 +1874,7 @@ hidden_effect = {
 		visible = {	country_exists = NOR	}
 		fire_only_once = yes
 		complete_effect = {
-		NOR = {  every_unit_leader = {  set_nationality = ENG  }}	
+		NOR = {  every_unit_leader = { limit = { NOT =  { has_trait = panzer_leader }}  set_nationality = ENG  }}	
 		    ENG = {
 				annex_country = {
 					target = NOR

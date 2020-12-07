@@ -1454,11 +1454,9 @@ FIN = { add_ideas = war_economy }
 SOV = { transfer_state = 147 add_state_core = 147 transfer_state = 146 add_state_core = 146 add_timed_idea = { idea = SPR_seized_spanish_gold_reserves days = 365 } }
 }
 HMP_script_spain = {
-	JAP = { army_experience = 500 }
-	GER = { army_experience = 400 }
-	SOV = { army_experience = 400 }	
-	ITA = { army_experience = 200 }
-	SPR = { army_experience = 200 }
+	JAP = { army_experience = 400 }
+	SOV = { army_experience = 300 }	
+	ITA = { army_experience = 100 }
 	SPR = { add_ideas = SPR_cg_debuff add_threat = 3 }	
 }
 
@@ -1563,6 +1561,32 @@ create_corps_commander = {
     planning_skill = 6
     logistics_skill = 6
 }
+
+
+create_corps_commander = {
+    name = "Walter Krüger"
+    picture = "Portrait_Germany_Walter_Kruger.dds"
+	traits = { organizer trickster expert_improviser trait_reckless panzer_leader panzer_expert ranger urban_assault_specialist  }
+	skill = 8
+    attack_skill = 8
+    defense_skill = 5
+    planning_skill = 6
+    logistics_skill = 6
+}
+
+create_corps_commander = {
+    name = "Georg-Hans Reinhardt"
+    picture = "Portrait_Germany_Georg_von_Reinhardt.dds"
+	traits = { trickster guerilla_fighter ambusher trait_cautious panzer_leader panzer_expert bearer_of_artillery  }
+	skill = 7
+    attack_skill = 10
+    defense_skill = 4
+    planning_skill = 2
+    logistics_skill = 6
+}
+
+
+
 create_corps_commander = { #for quality inf
 	name = "Kurt Student" 
 	picture = "Portrait_Germany_Kurt_Student.dds"
@@ -1951,7 +1975,7 @@ create_navy_leader = {
 create_navy_leader = {
 	name = "Mineichi Koga" 
 		picture = "Portrait_Japan_Mineichi_Koga.dds"
-	traits = { battleship_adherent bold  lone_wolf spotter ironside inshore_fighter big_guns_expert fleet_protector destroyer_leader   }
+	traits = { battleship_adherent bold  lone_wolf spotter ironside inshore_fighter big_guns_expert fleet_protector concealment_expert   }
 	skill = 4
 	attack_skill = 3
 	defense_skill = 3
@@ -1963,7 +1987,7 @@ create_navy_leader = {
 create_navy_leader = {
 	name = "Soemu Toyoda"
 		picture = "Portrait_Japan_Soemu_Toyoda.dds"
-	traits = { bold ironside blockade_runner destroyer_leader lone_wolf fly_swatter cruiser_captain big_guns_expert fleet_protector search_pattern_expert }
+	traits = { bold ironside blockade_runner destroyer_leader lone_wolf fly_swatter cruiser_captain big_guns_expert fleet_protector search_pattern_expert spotter }
 	skill = 4
 	attack_skill = 3
 	defense_skill = 2
@@ -1987,7 +2011,7 @@ MAN = {
 create_navy_leader = {
 	name = "Yin Zuoqian"
 		picture = "Portrait_Asia_Generic_navy_1.dds"
-	traits = { seawolf concealment_expert spotter blue_water_expert cruiser_captain }
+	traits = { bold seawolf concealment_expert spotter blue_water_expert cruiser_captain  }
 	skill = 5
 	attack_skill = 5
 	defense_skill = 2
@@ -2700,6 +2724,17 @@ create_corps_commander = {
 	logistics_skill = 10
 }
 
+create_corps_commander = {
+    name = "Kirill Moskalenko"
+    picture = "Portrait_Soviet_Kirill_Moskalenko.dds"
+	traits = { trickster guerilla_fighter ambusher panzer_leader panzer_expert bearer_of_artillery  }
+	skill = 7
+    attack_skill = 10
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 8
+}
+
 create_field_marshal = {
 	name = "Semyon Budyonny"
 		picture = "Portrait_Soviet_Semyon_Budyonny.dds"
@@ -2727,13 +2762,35 @@ NOR = {
 create_corps_commander = {
 	name = "Carl Gustav Fleischer"
 	portrait_path = "gfx/leaders/NOR/portrait_norway_carl_gustav_flesicher.tga"
-	traits = {  trickster expert_improviser guerilla_fighter infantry_leader infantry_expert panzer_expert panzer_expert }
+	traits = {  trickster expert_improviser hill_fighter naval_invader naval_liason invader_ii trait_mountaineer infantry_leader infantry_expert  }
 	skill = 6
 	attack_skill = 5
 	defense_skill = 4
 	planning_skill = 4
 	logistics_skill = 6
 }
+create_corps_commander = {
+	name = "Otto Ruge"
+	portrait_path = "gfx/leaders/NOR/portrait_norway_ruge.dds"
+	traits = {  trickster bearer_of_artillery expert_improviser guerilla_fighter trait_engineer fortress_buster infantry_leader infantry_expert  }
+	skill = 6
+	attack_skill = 5
+	defense_skill = 6
+	planning_skill = 4
+	logistics_skill = 4
+}
+create_corps_commander = {
+	name = "Kristian Laake"
+	portrait_path = "gfx/leaders/NOR/portrait_norway_Kristian_Laake.dds"
+	traits = {  organizer trickster expert_improviser adaptable panzer_leader panzer_expert commando camouflage_expert }
+	skill = 6
+	attack_skill = 5
+	defense_skill = 4
+	planning_skill = 5
+	logistics_skill = 5
+}
+
+
 }
 FRA = { 
 
@@ -2751,7 +2808,7 @@ create_field_marshal = {
 create_field_marshal = {
 	name = "Jean de Lattre de Tassigny"
 	picture = "Portrait_France_Jean_de_Lattre_de_Tassigny.dds"
-	traits = {  trickster organizer logistics_wizard expert_improviser brilliant_strategist desert_fox aggressive_assaulter panzer_leader panzer_expert }
+	traits = {  trickster organizer logistics_wizard expert_improviser brilliant_strategist desert_fox aggressive_assaulter panzer_leader panzer_expert trait_engineer fortress_buster }
 	skill = 6
 	attack_skill = 6
 	defense_skill = 6
@@ -2783,7 +2840,7 @@ create_field_marshal = {
 create_field_marshal = {
 	name = "Charles De Gaulle"
 	picture = "Portrait_France_Charles_De_Gaulle.dds"
-	traits = {  harsh_leader trickster panzer_leader  desert_fox  panzer_expert expert_improviser  }
+	traits = {  harsh_leader trickster panzer_leader desert_fox  panzer_expert expert_improviser  }
 	skill = 6
 	attack_skill = 5
 	defense_skill = 3
@@ -2829,7 +2886,7 @@ create_field_marshal = {
 create_corps_commander = {
 	name = "Claude Auchinleck"
 	picture = "Portrait_Britain_Claude_Auchinleck.dds"
-	traits = { inflexible_strategist unyielding_defender infantry_leader infantry_expert trait_engineer scavenger commando camouflage_expert paratrooper }
+	traits = { inflexible_strategist unyielding_defender infantry_leader infantry_expert trait_engineer scavenger fortress_buster commando camouflage_expert paratrooper }
 	skill = 6
 	attack_skill = 4
 	defense_skill = 6
@@ -2906,7 +2963,7 @@ create_corps_commander = {
 create_corps_commander = {
 	name = "Archibald Wavell" # Aristocrat
 	picture = "Portrait_Britain_Archibald_Wavell.dds"
-	traits = { infantry_leader panzer_leader panzer_expert infantry_expert fortress_buster	desert_fox commando trait_engineer skirmisher }
+	traits = { infantry_leader panzer_leader panzer_expert infantry_expert fortress_buster	desert_fox commando trait_engineer trait_engineer fortress_buster skirmisher }
 	skill = 6
 	attack_skill = 4
 	defense_skill = 6
@@ -2945,7 +3002,7 @@ create_field_marshal = {
 create_corps_commander = {
 	name = "Lucian Truscott"
 	picture = "Portrait_USA_Lucian_Truscott.dds"
-	traits = { skilled_staffer trait_engineer expert_improviser infantry_leader  }
+	traits = { skilled_staffer trait_engineer fortress_buster expert_improviser infantry_leader  }
 	skill = 6
 
 	attack_skill = 6
@@ -3120,7 +3177,7 @@ create_field_marshal = {
 create_corps_commander = {
 	name = "John Northcott"
 	gfx = "GFX_AST_john_northcott"
-	traits = { infantry_leader infantry_expert trait_mountaineer commando paratrooper skirmisher trait_engineer  scavenger }
+	traits = { infantry_leader infantry_expert trait_mountaineer commando paratrooper skirmisher trait_engineer  fortress_buster }
 	skill = 7
 	attack_skill = 5
 	defense_skill = 4

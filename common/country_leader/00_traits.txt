@@ -596,6 +596,8 @@ leader_traits = {
 				maximum_speed = 0.10
 			}
 		}
+				experience_gain_army = 0.25
+
 	}
 
 	aircraft_manufacturer = {

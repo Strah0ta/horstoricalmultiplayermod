@@ -12,6 +12,7 @@
  GER_fall_gelb:0 "§gFall§! §YGelb (Netherlands)§!"
  GER_fall_gelb2:0 "§gFall§! §YGelb (Belgium)§!"
  deploy_egypt:0 "Deploy the Egypt Defense Force"
+ deploy_sudan_gar:0 "Deploy Garrisons for the Horn of Africa Region"
  deploy_egypt_desc:0 "This requires 1939 Infantry Equipment and 1940 Rocket Artillery research"
  deploy_sudan:0 "Deploy the Sudan and Kenyan Defense Force"
  deploy_sudan_desc:0 "This requires 1939 Infantry Equipment and 1940 Rocket Artillery research"

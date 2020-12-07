@@ -540,7 +540,6 @@ add_equipment_production = {
 		relative_position_id = general_rearmament_focus
 		cost = 5
 		completion_reward = {
-			army_experience = 10
 			add_ideas = ENG_chiefs_of_staff_committee_idea
 		}
 	}	
@@ -912,7 +911,7 @@ add_equipment_production = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			army_experience = 5
+			army_experience = 100
 			add_ideas = ENG_service_overseas_idea
 		}
 	}
@@ -928,7 +927,6 @@ add_equipment_production = {
 		completion_reward = {
 		if = { limit = { ENG_has_fortify_the_empire = yes } ENG_fortify_the_empire_level_up = yes }
 		else = { add_ideas = ENG_fortify_the_empire_1 } 
-					army_experience = 50
 		447 = {
 				set_building_level = {
 					type = coastal_bunker
@@ -1178,7 +1176,6 @@ add_equipment_production = {
 		completion_reward = { 
 					if = { limit = { ENG_has_fortify_the_empire = yes } ENG_fortify_the_empire_level_up = yes }
 		else = { add_ideas = ENG_fortify_the_empire_1 } 
-			army_experience = 50
 			551 = {
 				set_building_level = {
 					type = air_base
@@ -1244,7 +1241,6 @@ add_equipment_production = {
 
 		completion_reward = {
 		ENG_fortify_the_empire_level_up = yes
-			army_experience = 50
 			454 = {
 				set_building_level = {
 					type = air_base
@@ -1329,7 +1325,6 @@ add_equipment_production = {
 
 		completion_reward = {
 		ENG_fortify_the_empire_level_up = yes
-			army_experience = 50
 				138 = {
 					set_building_level = {
 						type = air_base
@@ -1487,8 +1482,10 @@ add_equipment_production = {
 		y = 0
 		cost = 0
 		allow_branch = { has_start_date > 1936.1.2  } 
-		
-		available = { date > 1943.3.1 }
+			available = { 		
+		date > 1943.3.1 
+		#SOV = { surrender_progress > 0.9 }
+		}
 		completion_reward = {
 		CAN = { transfer_state = 38 }
 		

@@ -13,6 +13,15 @@ spriteTypes = {
 	}	
 
 	spriteType = {
+		name = "GFX_portrait_norway_ruge"
+		texturefile = "gfx/leaders/NOR/portrait_norway_ruge.dds"		
+	}	
+		spriteType = {
+		name = "GFX_portrait_norway_Kristian_Laake"
+		texturefile = "gfx/leaders/NOR/portrait_norway_Kristian_Laake.dds"		
+	}	
+
+	spriteType = {
 		name = "GFX_Portrait_Germany_Franz_von_Papen"
 		texturefile = "gfx/leaders/GER/Portrait_Germany_Franz_von_Papen.dds"		
 	}	

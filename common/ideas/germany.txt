@@ -9,16 +9,16 @@ ideas = {
 			modifier = {		}
 			equipment_bonus = {
 				motorized_equipment = {
-					max_strength = 4 instant = yes
+					max_strength = 5 instant = yes
 				}
 				mechanized_equipment = {
-					max_strength = 5  instant = yes
+					max_strength = 6  instant = yes
 				}
 				amphibious_mechanized_equipment = {
-					max_strength = 5  instant = yes
+					max_strength = 6  instant = yes
 				}
 				armor = {
-					max_strength = 2 instant = yes
+					max_strength = 3 instant = yes
 				}
 			}
 		}

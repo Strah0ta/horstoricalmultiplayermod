@@ -8066,7 +8066,7 @@
 8065;93;144;186;land;false;forest;5
 8066;93;147;46;land;false;mountain;6
 8067;93;147;151;land;false;plains;6
-8068;93;147;196;land;false;mountain;6
+8068;93;147;196;land;false;desert;6
 8069;93;150;11;land;false;desert;5
 8070;93;150;161;land;false;mountain;2
 8071;93;150;216;land;false;plains;5
@@ -10800,7 +10800,7 @@
 10799;135;78;204;land;false;plains;6
 10800;135;81;64;land;false;desert;2
 10801;135;81;169;land;false;plains;6
-10802;135;84;29;land;false;mountain;6
+10802;135;84;29;land;false;desert;6
 10803;135;84;84;land;true;jungle;5
 10804;135;84;134;land;false;desert;7
 10805;135;87;49;land;false;plains;5

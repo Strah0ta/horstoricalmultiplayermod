@@ -426,16 +426,12 @@
 			ship = { name = "Algérie" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "County Class" } } }			
 			ship = { name = "Foch" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "County Class" } } }
 			ship = { name = "Dupleix" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "County Class" } } }
-			ship = { name = "Colbert" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "County Class" } } }
-			ship = { name = "Duquesne" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "County Class" } } }
-			ship = { name = "Tourville" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "County Class" } } }
 			ship = { name = "Suffren" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "County Class" } } }
 			ship = { name = "Pluton" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }		
 			ship = { name = "La Galissonnière" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }
 			ship = { name = "Primauguet" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }			
 			ship = { name = "Lamotte-Picquet" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }	
 			ship = { name = "Provence" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = ENG version_name = "Nelson Class" } } }			
-			ship = { name = "Lorraine" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = ENG version_name = "Nelson Class" } } }			
 			ship = { name = "Courbet" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = ENG version_name = "Nelson Class" } } }        
 			ship = { name = "Paris" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = ENG version_name = "Nelson Class" } } }		
 			ship = { name = "Béarn" definition = carrier equipment = { ship_hull_carrier_1 = { amount = 1 owner = ENG version_name = "Ark Royal Class" } } 

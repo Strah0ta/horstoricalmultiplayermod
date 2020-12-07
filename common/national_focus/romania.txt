@@ -542,8 +542,13 @@ focus_tree = {
 		cost = 5
 
 		completion_reward = {
-			add_ideas = ROM_local_development
-		}
+			add_tech_bonus = {
+				name = ROM_air_superiority
+				bonus = 1.0
+				uses = 2
+				category = air_doctrine
+			}
+			}
 	}
 
 	focus = {
@@ -567,52 +572,6 @@ focus_tree = {
 		}
 	}
 
-	focus = {
-		id = ROM_cas
-		icon = GFX_goal_generic_CAS
-		prerequisite = { focus = ROM_air_superiority }
-				mutually_exclusive = { focus = ROM_medium_bombers }
-		x = 1
-		y = 1
-		relative_position_id = ROM_air_superiority
-
-		cost = 5
-	
-		completion_reward = {
-			add_tech_bonus = {
-				name = ROM_cas
-				bonus = 1.0
-				uses = 1
-				category = cas_bomber
-				category = naval_bomber
-			}
-		}
-	}
-	
-	
-	focus = {
-		id = ROM_medium_bombers
-		icon = GFX_goal_generic_air_bomber
-		prerequisite = { focus = ROM_air_superiority }
-		x = -1
-		y = 1
-		relative_position_id = ROM_air_superiority
-		mutually_exclusive = { focus = ROM_cas }
-
-		cost = 5
-
-
-		completion_reward = {
-			add_tech_bonus = {
-				name = ROM_medium_bombers
-				bonus = 1.0
-				uses = 1
-				category = tactical_bomber
-				category = naval_bomber
-			}
-		}
-	}
-
 	############################
 	####### ARMY BRANCH ########
 	############################
@@ -620,7 +579,7 @@ focus_tree = {
 	focus = {
 		id = ROM_army_maneuvers
 		icon = GFX_goal_generic_army_doctrines
-		x = 16
+		x = 15
 		y = 0
 
 		cost = 10
@@ -699,7 +658,6 @@ focus_tree = {
 		id = ROM_modern_at_guns
 		icon = GFX_goal_generic_army_artillery
 		prerequisite = { focus = ROM_artillery_modernization }
-		mutually_exclusive = { focus = ROM_mobile_tank_destroyers }
 		x = 1
 		y = 2
 		relative_position_id = ROM_the_zb_53
@@ -749,60 +707,6 @@ focus_tree = {
 		}
 	}
 
-	focus = {
-		id = ROM_acquire_modern_tanks
-		icon = GFX_goal_generic_army_tanks
-		prerequisite = { focus = ROM_reserve_divisions	}
-		x = 1
-		y = 1
-		relative_position_id = ROM_reserve_divisions
-
-		cost = 5
-
-
-		completion_reward = {
-			add_ideas = ROM_acquire_modern_tanks
-		}
-	}
-
-	focus = {
-		id = ROM_mobile_tank_destroyers
-		icon = GFX_goal_generic_build_tank
-		prerequisite = { focus = ROM_acquire_modern_tanks }
-		prerequisite = { focus = ROM_artillery_modernization }
-		mutually_exclusive = { focus = ROM_modern_at_guns }
-		x = 0
-		y = 1
-		relative_position_id = ROM_acquire_modern_tanks
-
-		cost = 5
-
-		completion_reward = {
-			custom_effect_tooltip = available_designer
-			show_ideas_tooltip = ROM_leonidas_works
-		}
-	}
-
-	focus = {
-		id = ROM_the_maresal
-		icon = GFX_goal_generic_army_tanks
-		prerequisite = { focus = ROM_mobile_tank_destroyers }
-		x = 1
-		y = 3
-		relative_position_id = ROM_reserve_divisions
-
-		cost = 5
-
-		completion_reward = {
-			add_tech_bonus = {
-				name = ROM_the_maresal
-				bonus = 1.0
-				ahead_reduction = 2
-				uses = 1
-				category = cat_heavy_armor
-			}
-		}
-	}
 	
 		focus = {
 		id = ROM_expand_the_galati_shipyards
@@ -826,10 +730,10 @@ focus_tree = {
 	focus = {
 		id = ROM_expand_the_marine_regiment
 		icon = GFX_goal_generic_amphibious_assault
-		prerequisite = { focus = ROM_expand_the_galati_shipyards }
-		x = 0
+		prerequisite = { focus = ROM_reserve_divisions }
+		x = 1
 		y = 1
-		relative_position_id = ROM_expand_the_galati_shipyards
+		relative_position_id = ROM_reserve_divisions
 
 		cost = 5
 

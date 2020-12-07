@@ -212,6 +212,7 @@
 
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
+		army_experience = 65
 			add_offsite_building = { type = arms_factory level = 12 }
 			add_ideas = extensive_conscription
 			add_ideas = low_economic_mobilisation
@@ -236,7 +237,6 @@
 				uses = 2
 				bonus = 1
 			}
-						army_experience = 5
 			add_tech_bonus = {
 				name = FRA_heavy_armor_focus
 				bonus = 2
@@ -260,7 +260,6 @@
 
 
 		completion_reward = {
-			army_experience = 5
 			add_ideas =  FRA_firepower 
 		}
 	}
@@ -269,7 +268,7 @@
 		id = FRA_artillery_focus
 		icon = GFX_goal_generic_army_artillery2
 		prerequisite = { focus = FRA_firepower_kills }
-		x = 0
+		x = -1
 		y = 1
 		relative_position_id = FRA_firepower_kills
 		cost = 5
@@ -277,7 +276,6 @@
 		available_if_capitulated = yes
 
 		completion_reward = {
-			army_experience = 5
 			add_tech_bonus = {
 				name = FRA_artillery_focus
 				bonus = 1.0
@@ -320,7 +318,6 @@
 				uses = 1
 				bonus = 1
 			}
-			army_experience = 30
 		}
 	}
 	focus = {
@@ -342,7 +339,7 @@
 		id = FRA_motorized_focus
 		icon = GFX_goal_generic_army_motorized
 		prerequisite = { focus = FRA_battle_of_maneuver }
-		x = 0
+		x = 1
 		y = 1
 		relative_position_id = FRA_battle_of_maneuver
 		cost = 5
@@ -350,7 +347,6 @@
 		available_if_capitulated = yes
 
 		completion_reward = {
-			army_experience = 10
 			add_ideas = FRA_motorized_focus
 						add_tech_bonus = {
 				name = FRA_mechanized_focus
@@ -365,12 +361,12 @@
 		id = FRA_army_reform
 		icon = GFX_goal_generic_army_doctrines
 		prerequisite = { 
-			focus = FRA_motorized_focus 
-			focus = FRA_artillery_focus 
+			focus = FRA_battle_of_maneuver 
+			focus = FRA_firepower_kills 
 		}
 		x = -1
 		y = 1
-		relative_position_id = FRA_motorized_focus
+		relative_position_id = FRA_battle_of_maneuver
 		cost = 10
 
 		available_if_capitulated = yes
@@ -381,7 +377,6 @@
 		search_filters = { FOCUS_FILTER_RESEARCH }
 		completion_reward = {
 			remove_ideas = FRA_victors_of_wwi
-			army_experience = 10
 			add_tech_bonus = {
 				name = FRA_army_reform
 				bonus = 1.0
@@ -406,7 +401,7 @@
 	focus = {
 		id = FRA_form_the_popular_front
 		icon = GFX_goal_generic_intelligence_exchange
-		x = 12
+		x = 13
 		y = 0
 		offset = {
 			x = 0
@@ -643,7 +638,7 @@
 	focus = {
 		id = FRA_naval_rearmament
 		icon = GFX_goal_generic_construct_naval_dockyard
-		x = 18
+		x = 19
 		y = 0
 		cost = 5
 
