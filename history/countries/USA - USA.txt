@@ -102,7 +102,6 @@ add_ideas = {
 	disarmed_nation
 	free_trade
 	home_of_the_free
-	USA_anti_spy
 	armyandnavy_idea_usa
 }
 

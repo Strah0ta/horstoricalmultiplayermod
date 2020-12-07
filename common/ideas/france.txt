@@ -1156,22 +1156,8 @@ ideas = {
 			traits = { fast_tank_manufacturer }
 		}
 		FRA_hotchkiss = {
-		
-			picture = generic_tank_manufacturer_3
-
-			available = {
-
-			}
-						
-			allowed = {
-				original_tag = FRA
-			}
-						
-			research_bonus = {
-				armor = 0.15
-			}
-			
-
+			allowed = {	normally_played_allies = yes	}
+			research_bonus = {	armor = 0.15	}
 			traits = { infantry_tank_manufacturer }
 		}
 

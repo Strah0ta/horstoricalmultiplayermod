@@ -1467,7 +1467,6 @@ HMP_ALLIED_generals = yes
 }
 
 HMP_AXIS_generals = {
-GER = { every_army_leader = { retire = yes }}
 GER = { 
 create_navy_leader = {
 	name = "Karl Dönitz"
@@ -1634,7 +1633,7 @@ create_field_marshal = {
 create_corps_commander = {
 	name = "Georg von Küchler"
 	picture = "Portrait_Germany_Georg_von_Kuchler.dds"
-	traits = { harsh_leader infantry_leader infantry_expert fake_skilled_staffer trickster expert_improviser }
+	traits = { harsh_leader infantry_leader infantry_expert fake_skilled_staffer trickster expert_improviser adaptable }
 	skill = 7
     attack_skill = 7
     defense_skill = 4
@@ -1645,13 +1644,23 @@ create_corps_commander = {
 create_corps_commander = {
 	name = "Alfred Jodl"
 	picture = "Portrait_Germany_Alfred_Jodl.dds"
-	traits = { harsh_leader infantry_leader infantry_expert fake_skilled_staffer trickster expert_improviser }
+	traits = { harsh_leader infantry_leader infantry_expert fake_skilled_staffer trickster expert_improviser  adaptable }
 	skill = 7
     attack_skill = 7
     defense_skill = 4
     planning_skill = 6
     logistics_skill = 5
 }     
+create_corps_commander = {
+    name = "Johannes Blaskowitz"
+    picture = "Portrait_Germany_Johannes_Blaskowitz.dds"
+	traits = { organizer bearer_of_artillery infantry_leader urban_assault_specialist ranger infantry_expert trickster  }
+	skill = 7
+	attack_skill = 6
+	defense_skill = 5
+	planning_skill = 5
+	logistics_skill = 6
+}
 ################
 ###############Three copies of defensive mass infantry 
 create_corps_commander = {
@@ -1872,7 +1881,6 @@ create_corps_commander = {
     logistics_skill = 8
 }
 }
-JAP = { every_army_leader = { retire = yes }}
 JAP = { 
 create_corps_commander = {
 	name = "Tomoyuki Yamashita"
@@ -2180,7 +2188,6 @@ create_corps_Commander = { #DONE
 
 }
 }
-ROM = { every_army_leader = { retire = yes }}
 ROM = {
 create_field_marshal = {
 	name = "Petre Dumitrescu"
@@ -2243,7 +2250,6 @@ create_field_marshal = {
 	picture = "portrait_fin_carl_mannerheim.dds"
 	traits = { organizer logistics_wizard inflexible_strategist trait_cautious unyielding_defender inspirational_leader expert_improviser defensive_doctrine trickster  }
 	skill = 7
-	id = 58
 	attack_skill = 4
 	defense_skill = 7
 	planning_skill = 3
@@ -2404,7 +2410,6 @@ create_corps_commander = {
 	}	
 	create_corps_commander = {
 		name = "José Millán Astray"
-		id = 1116
 		gfx = "GFX_portrait_SPA_jose_millan_astray"
     traits = { trait_reckless cavalry_leader combined_arms_expert trait_reckless commando naval_invader }
 	skill = 8
@@ -2525,8 +2530,6 @@ create_field_marshal = {
 }
 }
 HMP_SOV_generals = {
-SOV = { every_army_leader = { retire = yes }}
-
 SOV = {   
 	   create_field_marshal = {
 		name = "Boris Shaposhnikov"
@@ -2870,7 +2873,6 @@ create_corps_commander = {
 	logistics_skill = 6
 }
 }
-ENG = { every_army_leader = { retire = yes }}
 ENG = {
 create_field_marshal = {
 	name = "Alan Brooke" # Aristocrat
@@ -2973,7 +2975,6 @@ create_corps_commander = {
 
 }
 
-USA = { every_army_leader = { retire = yes }}
 USA = {
 
 create_corps_commander = {
@@ -2986,7 +2987,6 @@ create_corps_commander = {
 	planning_skill = 4
 	logistics_skill = 5
 }
-
 
 create_field_marshal = {
 	name = "Courtney Hodges"

@@ -695,7 +695,7 @@ transfer_state = 38
 		y = 1
 		cost = 2
 		completion_reward = {
-			JAP = { country_event = { id = japan.144 }  }
+			JAP = { complete_national_focus = JAP_strike_on_the_southern_resource_area }
 		}
 		}
 	

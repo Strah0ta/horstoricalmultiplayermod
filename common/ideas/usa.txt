@@ -56,27 +56,6 @@ ideas = {
 			}
 		}
 		
-		USA_anti_spy = { 
-		picture = generic_navy_bonus
-			
-			available = { NOT = { has_war = yes }}
-			
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-			
-			modifier = {
-		#navy_max_range_factor = -0.95
-			}
-		
-		}
-		
 		USA_neutrality_act = {
 			picture = generic_production_bonus
 			
@@ -335,47 +314,6 @@ ideas = {
 			}
 		}
 
-		wilkies_new_deal = {
-			
-			
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				has_government = democratic
-			}
-
-			removal_cost = -1
-			
-			modifier = {
-				production_speed_infrastructure_factor = 0.1
-				stability_factor = 0.05
-				drift_defence_factor = 0.2
-			}
-		}
-		
-		full_employment = {
-			
-			
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-
-			picture = generic_pp_unity_bonus
-			
-			modifier = {
-				political_power_cost = 1
-			}
-		}
-		
-		
 		wartime_industry_focus = {
 			allowed = {
 				always = no
@@ -477,27 +415,6 @@ ideas = {
 				tac_bomber_equipment = {
 					air_range = 0.5 instant = yes
 				}	
-			}
-		}
-
-		office_of_strategic_services = {
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				has_government = democratic
-			}
-
-			removal_cost = -1
-			
-			research_bonus = {
-				decryption_tech = 0.05
-				encryption_tech = 0.05
-			}			
-
-			modifier = {
-				decryption_factor = 0.2
 			}
 		}
 
@@ -896,10 +813,10 @@ ideas = {
 			
 			picture = generic_industrial_concern_1
 			allowed = {
-				original_tag = USA
+				normally_played_allies = yes
 			}
 			available = {
-				has_completed_focus = USA_main_battle_tanks
+				if = { limit = {original_tag = USA } has_completed_focus = USA_main_battle_tanks  }
 			}
 
 			
@@ -907,15 +824,15 @@ ideas = {
 				armor = 0.15
 			}
 			
-			traits = { }
+			traits = { mass_tank_manufactuer }
 			
 			equipment_bonus = {
-				medium_tank_equipment = {
-					build_cost_ic = -0.1
-				}
-				light_tank_equipment = {
-					build_cost_ic = -0.1
-				}
+				#medium_tank_equipment = {
+				#	build_cost_ic = -0.05
+				#}
+					#light_tank_equipment = {
+				#	build_cost_ic = -0.05
+				#}			
 			}
 
 			modifier = {

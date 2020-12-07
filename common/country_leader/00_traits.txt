@@ -16,7 +16,7 @@ leader_traits = {
 		political_power_factor = 0.1
 	}
 	
-		caudillo_1 = {
+	caudillo_1 = {
 		random = no
 		resistance_damage_to_garrison = -0.15
 		high_command_cost_factor = -0.15
@@ -699,12 +699,20 @@ leader_traits = {
 			}
 		}
 	}
-	
+	mass_tank_manufactuer = {
+		random = no
+		equipment_bonus = {
+			armor = {
+				build_cost_ic = -0.05
+			}
+		}
+	}
+		
 	fast_tank_manufacturer = {
 		random = no
 		equipment_bonus = {
 			armor = {
-				maximum_speed = 0.05 reliability = 0.1 
+				reliability = 0.1 maximum_speed = 0.05 
 			}
 		}
 	}
@@ -1643,15 +1651,6 @@ leader_traits = {
 		
 	}
 
-	la_pasionaria = {
-		random = no
-		sprite = 13
-
-		communism_drift = 0.05
-		war_support_factor = 0.1
-		stability_factor = 0.1
-	}
-
 	social_revolutionary = {
 		random = no
 		sprite = 13
@@ -1729,21 +1728,9 @@ leader_traits = {
 
 	infantry_tank_manufacturer = {
 		random = no
-		equipment_bonus = {
-			armor = {
-				soft_attack = 0.05
-				armor_value = 0.05
-			}
-		}
-		
+		equipment_bonus = {	armor = { armor_value = 0.05 soft_attack = 0.05	}	}
 	}
 
-	council_of_theorists = {
-		sprite = 14
-		experience_gain_army = 0.02
-		experience_gain_air = 0.02
-		experience_gain_navy = 0.02
-	}
 	technocrat = {
 		sprite = 13
 		

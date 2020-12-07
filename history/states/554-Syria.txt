@@ -12,6 +12,12 @@ victory_points = {
 victory_points = {
 792 5
 }
+		victory_points = {
+			1549 1
+		}
+				victory_points = {
+			6883 1
+		}
 victory_points = {
 3942 1
 }

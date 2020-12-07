@@ -593,7 +593,7 @@ focus_tree = {
 			add_tech_bonus = {
 				name = BUL_rebuild_the_army
 			    bonus = 1.0
-			    uses = 2
+			    uses = 1
 				category = land_doctrine
 			}
           add_ideas =   BUL_krali_marko_line_idea
@@ -624,11 +624,21 @@ focus_tree = {
 			add_tech_bonus = {
 				name = BUL_vasil_levsky_national_military_university
 			    bonus = 1
-			    uses = 2
+			    uses = 1
 				category = land_doctrine
-				category = naval_doctrine
+			}
+			add_tech_bonus = {
+				name = BUL_vasil_levsky_national_military_university
+			    bonus = 1
+			    uses = 2
 				category = air_doctrine
 			}
+			add_tech_bonus = {
+				name = BUL_vasil_levsky_national_military_university
+			    bonus = 1
+			    uses = 4
+				category = naval_doctrine
+			}			
 			add_research_slot = 1
 		}
 	}
@@ -668,7 +678,7 @@ focus_tree = {
 			add_tech_bonus = {
 				name = BUL_national_military_academy
 			    bonus = 1.0
-			    uses = 1
+			    uses = 2
 				category = land_doctrine
 			}
 		}

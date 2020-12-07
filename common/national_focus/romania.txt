@@ -588,7 +588,7 @@ focus_tree = {
 					add_tech_bonus = {
 				name = "Joint Training with Germany"
 				bonus = 1.0
-				uses = 1
+				uses = 4
 				category = land_doctrine
 			}
 		}

@@ -16,14 +16,15 @@ foreign_civilian_oversight = {
 	default_law = yes
 	starting_law = yes
 	state_modifier = {
-		resistance_target 				= -0.05
+		resistance_target 				= -0.15
+		compliance_gain 			= 0.005
 	}	
 }
 secret_police_oversight = {
 	icon = 4
 	sound_effect = "Martial_Law_Interface_Secret_Police_Oversight"
 	state_modifier = {
-		resistance_target 				= -0.15
+		resistance_target 				= -0.25
 		compliance_gain 				=  -0.045
 		resistance_damage_to_garrison 	= -0.25
 		enemy_operative_detection_chance_over_occupied_tag = 1 # offset detection chance by +1%
@@ -34,7 +35,7 @@ military_governor_occupation = {
 	icon = 6
 	sound_effect = "Martial_Law_Interface_Military_Governor_Occupation"
 	state_modifier = {
-		resistance_target 			= -0.25
+		resistance_target 			= -0.35
 		compliance_gain 			= -0.045
 		local_manpower 				= 0.08
 	}
@@ -43,7 +44,7 @@ harsh_quotas_occupation = {
 	icon = 9
 	sound_effect = "Martial_Law_Interface_Harsh_Quotas_Occupation"	
 	state_modifier = {
-		resistance_target 				= -0.3
+		resistance_target 				= -0.4
 		compliance_gain 				= -0.12	
 		required_garrison_factor 		= 0.3
 		resistance_damage_to_garrison 	= 0.50		

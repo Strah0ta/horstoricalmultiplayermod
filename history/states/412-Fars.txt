@@ -8,26 +8,43 @@ state={
 	history={
 		owner = PER
 		victory_points = {
-			8117 6
+			8117 5
 		}
 				victory_points = {
-			10837 20 
+			7969 5
+		} 
+				victory_points = {
+			10837 10
 		}		
 		victory_points = {
-			7982 12
+			7990 1
 		}
 				victory_points = {
-			2026 7
+			4928 1 
 		}
 		victory_points = {
-			13082 4
+			8031 1 
+		}
+				victory_points = {
+			10782 3
 		}
 		victory_points = {
-			12895 4
+			7982 3
+		}
+				victory_points = {
+			12832 1
+		}
+				victory_points = {
+			2026 5
+		}
+		victory_points = {
+			13082 3
+		} 
+		victory_points = {
+			12895 3
 		}		
-		 
 				victory_points = {
-			10913 12
+			10913 15
 		}
 		
 		buildings = {
@@ -36,8 +53,8 @@ state={
 			7982 = {
 				naval_base = 10
 			}
-			1889 = {
-				naval_base = 1
+						12832 = {
+				naval_base = 2
 			}
 		}
 		add_core_of = PER

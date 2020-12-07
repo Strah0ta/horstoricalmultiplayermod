@@ -1318,7 +1318,6 @@ ideas = {
 		}
 		
 		vauxhall2 = {
-			#picture = GFX_idea_vauxhall2
 			allowed = {	OR = { original_tag = ENG  original_tag = SAF  original_tag = AST  original_tag = CAN original_tag = RAJ  }	}
 			research_bonus = {	armor = 0.15	}
 			traits = { heavy_tank_manufacturer }

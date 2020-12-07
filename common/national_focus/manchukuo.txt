@@ -524,7 +524,7 @@ focus_tree = {
 			add_tech_bonus = {
 				name = MAN_alliance_with_the_kwantung_army
 				bonus = 1.0
-				uses = 1
+				uses = 3
 				category = land_doctrine
 			}
 		}
@@ -677,7 +677,7 @@ focus =  {
 		add_tech_bonus = {
 			name = CHI_wargaming_division
 			bonus = 1.0
-			uses = 1
+			uses = 2
 			category = land_doctrine
 		}
 	}

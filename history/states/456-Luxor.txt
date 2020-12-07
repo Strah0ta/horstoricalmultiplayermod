@@ -8,6 +8,15 @@ history = {
 victory_points = {
 11999 50
 }
+		victory_points = {
+			12071 3
+		}
+		victory_points = {
+			11974 1
+		}
+		victory_points = {
+			12002 1
+		}
 owner = ENG
 add_core_of=SWE
 buildings = {
