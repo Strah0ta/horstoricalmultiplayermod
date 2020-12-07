@@ -12799,7 +12799,7 @@
 12798;177;102;87;land;false;mountain;3
 12799;177;102;137;land;false;forest;6
 12800;177;105;52;land;false;plains;5
-12801;177;105;97;land;false;desert;6
+12801;177;105;97;land;true;desert;6
 12802;177;108;17;land;false;forest;5
 12803;177;108;62;land;false;plains;2
 12804;177;108;167;land;false;mountain;2

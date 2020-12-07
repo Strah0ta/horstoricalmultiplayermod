@@ -19,7 +19,7 @@ focus_tree = {
 		icon = GFX_goal_generic_construct_civ_factory
 		text = industrial_effort
 		
-		x = 0
+		x = 0 
 		y = 0
 		cost = 10
 
