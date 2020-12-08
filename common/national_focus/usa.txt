@@ -801,7 +801,34 @@ transfer_state = 38
 						instant_build = yes
 					}
 			}
-
+									516 = {
+				set_building_level = {
+						type = air_base
+						level = 4
+						instant_build = yes
+					}
+			}		
+									479 = {
+				set_building_level = {
+						type = air_base
+						level = 4
+						instant_build = yes
+					}
+			}		
+						562 = {
+				set_building_level = {
+						type = air_base
+						level = 4
+						instant_build = yes
+					}
+			}		
+									317 = {
+				set_building_level = {
+						type = air_base
+						level = 4
+						instant_build = yes
+					}
+			}		
 						418 = {
 				set_building_level = {
 						type = air_base

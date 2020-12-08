@@ -559,7 +559,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = ROM_local_development
 
-		cost = 10
+		cost = 5
 
 
 		completion_reward = {

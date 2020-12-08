@@ -265,10 +265,17 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
+			300 = {
+				set_building_level = {
+					type = air_base
+					level = 4
+					instant_build = yes
+				}
+			}
 			add_tech_bonus = {
 				name = NZL_form_the_rnzaf
 				bonus = 1.0
-				uses = 1
+				uses = 3
 				category = air_doctrine
 			}
 		}
@@ -582,7 +589,7 @@ focus_tree = {
 			add_tech_bonus = {
 				name = NZL_charlton_automatic_rifle
 				bonus = 1.0
-				uses = 1
+				uses = 3
 				category = infantry_weapons
 			}
 		}
@@ -717,7 +724,7 @@ focus_tree = {
 			add_tech_bonus = {
 				name = NZL_artillery_focus
 				bonus = 1.00
-				uses = 1
+				uses = 3
 				category = artillery
 			}
 		}

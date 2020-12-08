@@ -36,7 +36,6 @@ bookmarks = {
 		"ENG"={
 			history = "ENG_GATHERING_STORM_DESC"
 			ideology = democratic
-			available = { has_dlc = "Man the Guns" }
 			ideas = {
 				stiff_upper_lip
 				ENG_the_war_to_end_all_wars
@@ -48,23 +47,10 @@ bookmarks = {
 				general_rearmament_focus
 			}
 		}
-		"ENG"={
-			history = "ENG_GATHERING_STORM_DESC"
-			ideology = democratic
-			available = { NOT = { has_dlc = "Man the Guns" } }
-			ideas = {
-				stiff_upper_lip
-				ENG_the_war_to_end_all_wars
-				george_v
-			}
-			focuses = {
 
-			}
-		}
 		"GER"={
 			history = "GER_GATHERING_STORM_DESC"
 			ideology = fascism
-			available = { has_dlc = "Waking the Tiger" }
 			ideas = {
 				sour_loser
 				general_staff
@@ -73,18 +59,7 @@ bookmarks = {
 			focuses = {
 			}
 		}
-		"GER"={
-			history = "GER_GATHERING_STORM_DESC"
-			ideology = fascism
-			available = { NOT = { has_dlc = "Waking the Tiger" } }
-			ideas = {
-				sour_loser
-				general_staff
-				GER_mefo_bills_1
-			}
-			focuses = {
-			}
-		}
+
 		"ITA"={
 			history = "ITA_GATHERING_STORM_DESC"
 			ideology = fascism
@@ -191,6 +166,13 @@ bookmarks = {
 				
 			}
 		}
+		"NOR"={
+			minor = yes
+			#history = "SAF_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {	}
+			focuses = { 	}
+		}
 		"RAJ"={
 			minor = yes
 			history = "RAJ_GATHERING_STORM_DESC"
@@ -248,8 +230,28 @@ bookmarks = {
 				MAN_the_two_emperors		}
 		}
 	
-		"SPR"={			minor = yes			history = "SPAIN_GATHERING_STORM_DESC"			ideology = democratic focuses = {				SPA_caudillo_of_spain				}		}
-		
+		"SPR"={	minor = yes	history = "SPAIN_GATHERING_STORM_DESC"	ideology = democratic focuses = { SPA_caudillo_of_spain	}}
+		"EFR"={
+			minor = yes
+			#history = "MAN_GATHERING_STORM_DESC"
+			ideology = fascism
+			ideas = {	}
+			focuses = {	}
+		}
+		"ETH"={
+			minor = yes
+			#history = "MAN_GATHERING_STORM_DESC"
+			ideology = fascism
+			ideas = {	}
+			focuses = {	}
+		}
+		"FIN"={
+			minor = yes
+			#history = "MAN_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {	}
+			focuses = {	}
+		}		
 		effect = {
 			randomize_weather = 22345 # <- Obligatory in every bookmark !
 			#123 = { rain_light = yes }

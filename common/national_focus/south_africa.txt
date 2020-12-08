@@ -591,7 +591,7 @@ focus_tree = {
 			add_tech_bonus = {
 				name = SAF_expand_the_south_african_artillery
 				bonus = 1.0
-				uses = 1
+				uses = 2
 				category = artillery
 			}
 		}
@@ -716,7 +716,7 @@ focus_tree = {
 		x = 16
 		y = 0	
 
-		cost = 10
+		cost = 5
 
 		completion_reward = {
 			297 = {
@@ -743,11 +743,18 @@ focus_tree = {
 		y = 1
 		relative_position_id = SAF_commit_to_the_five_year_plan
 
-		cost = 10
+		cost = 5
 
 
 
 		completion_reward = {
+					487 = {
+				set_building_level = {
+					type = air_base
+					level = 4
+					instant_build = yes
+				}
+			}
 			add_tech_bonus = {
 				name = SAF_perfect_the_cab_rank_technique
 				bonus = 1.0
@@ -769,6 +776,13 @@ focus_tree = {
 
 
 		completion_reward = {
+					275 = {
+				set_building_level = {
+					type = air_base
+					level = 4
+					instant_build = yes
+				}
+			}
 			add_tech_bonus = {
 				name = SAF_retain_experienced_pilots
 				bonus = 1.0

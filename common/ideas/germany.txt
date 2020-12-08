@@ -807,8 +807,8 @@ ideas = {
 	tank_manufacturer = { 
 		
 		designer = yes
-		krupp = {
-			
+		krupp_tank = {
+			picture = krupp
 			allowed = { OR = { 	the_axis = yes the_geacps = yes }  }
 
 			research_bonus = {	armor = 0.15	}

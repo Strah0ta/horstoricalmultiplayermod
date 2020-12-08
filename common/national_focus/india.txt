@@ -605,6 +605,20 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+					441 = {
+				set_building_level = {
+					type = air_base
+					level = 4
+					instant_build = yes
+				}
+			}	
+				440 = {
+				set_building_level = {
+					type = air_base
+					level = 4
+					instant_build = yes
+				}
+			}
 			add_tech_bonus = {
 				name = RAJ_british_pilot_training
 				bonus = 1.0
@@ -630,6 +644,20 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			431 = {
+				set_building_level = {
+					type = air_base
+					level = 4
+					instant_build = yes
+				}
+			}	
+				430 = {
+				set_building_level = {
+					type = air_base
+					level = 4
+					instant_build = yes
+				}
+			}
 	435 = {
 				set_building_level = {
 					type = air_base
@@ -700,6 +728,20 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+					444 = {
+				set_building_level = {
+					type = air_base
+					level = 4
+					instant_build = yes
+				}
+			}	
+				443 = {
+				set_building_level = {
+					type = air_base
+					level = 4
+					instant_build = yes
+				}
+			}
 			add_tech_bonus = {
 				name = RAJ_royal_indian_air_force
 				bonus = 1.0

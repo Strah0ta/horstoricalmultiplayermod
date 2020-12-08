@@ -113,7 +113,14 @@ bookmarks = {
 				CAN_canada_wheat_board
 			}
 		}
-
+				"NOR"={
+			#history = "ROM_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+			}
+			focuses = {
+			}
+		}	
 		"ROM"={
 			history = "ROM_GATHERING_STORM_DESC"
 			ideology = neutrality
@@ -126,6 +133,31 @@ bookmarks = {
 				ROM_preserve_greater_romania
 			}
 		}		
+				"ETH"={
+			#history = "ROM_GATHERING_STORM_DESC"
+			ideology = fascism
+			ideas = {
+			}
+			focuses = {
+			}
+		}	
+				"EFR"={
+			#history = "ROM_GATHERING_STORM_DESC"
+			ideology = fascism
+			ideas = {
+			}
+			focuses = {
+			}
+		}	
+						"FIN"={
+			#history = "ROM_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+			}
+			focuses = {
+			}
+		}	
+		
 		effect = {
 			randomize_weather = 22345 # <- Obligatory in every bookmark !
 			#123 = { rain_light = yes }

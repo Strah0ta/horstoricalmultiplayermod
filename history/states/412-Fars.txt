@@ -26,10 +26,10 @@ state={
 			8031 1 
 		}
 				victory_points = {
-			10782 3
+			10782 5
 		}
 		victory_points = {
-			7982 3
+			7982 5
 		}
 				victory_points = {
 			12832 1
@@ -38,13 +38,13 @@ state={
 			2026 5
 		}
 		victory_points = {
-			13082 3
+			13082 5
 		} 
 		victory_points = {
 			12895 3
 		}		
 				victory_points = {
-			10913 15
+			10913 9
 		}
 		
 		buildings = {

@@ -587,7 +587,7 @@ focus_tree = {
 			add_tech_bonus = {
 				name = CAN_long_branch_arsenal
 				bonus = 1.0
-				uses = 1
+				uses = 4
 				category = infantry_weapons
 				category = artillery
 			}
@@ -707,7 +707,7 @@ focus_tree = {
 			add_tech_bonus = {
 				name = CAN_canadian_infantry_corps
 				bonus = 1.0
-				uses = 1
+				uses = 3
 				category = infantry_weapons
 				category = artillery
 			}
