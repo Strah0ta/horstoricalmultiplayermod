@@ -807,14 +807,18 @@ ideas = {
 	tank_manufacturer = { 
 		
 		designer = yes
-		
+		krupp = {
+			
+			allowed = { OR = { 	the_axis = yes the_geacps = yes }  }
+
+			research_bonus = {	armor = 0.15	}
+			traits = { mass_tank_manufactuer  }
+		}		
 		porsche = {
 
 			
-			allowed = {
-				OR = { original_tag = GER original_tag = SPR original_tag = HUN  original_tag = ITA original_tag = BUL original_tag = ROM original_tag = YUG original_tag = JAP original_tag = MAN}
-			}
-			
+			allowed = { OR = { 	the_axis = yes the_geacps = yes }  }
+
 			research_bonus = {
 				armor = 0.15
 			}
@@ -825,10 +829,8 @@ ideas = {
 		
 		henschel = {
 
-			
-			allowed = {
-				OR = { original_tag = GER original_tag = SPR original_tag = HUN  original_tag = ITA original_tag = BUL original_tag = ROM original_tag = YUG original_tag = JAP original_tag = MAN }
-			}
+			allowed = { OR = { 	the_axis = yes tag = JAP }  }
+
 			
 			research_bonus = {
 				armor = 0.15
@@ -841,10 +843,8 @@ ideas = {
 
 			picture = GER_MAN
 			
-			allowed = {
-				OR = { original_tag = GER original_tag = SPR original_tag = HUN original_tag = BUL original_tag = ROM original_tag = YUG original_tag = FIN }
-			}
-			
+			allowed = {	the_axis = yes }
+
 			research_bonus = {
 				armor = 0.15
 			}

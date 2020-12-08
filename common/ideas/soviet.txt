@@ -736,7 +736,38 @@ ideas = {
 			modifier = {
 			}
 		}
-		
+						volgograd_tractor_plant = {
+			
+			
+			allowed = {
+					original_tag = SOV
+			}
+			
+			research_bonus = {
+				armor = 0.15
+			}
+			
+			traits = { infantry_tank_manufacturer }
+			
+			modifier = {
+			}
+		}
+				uralmash = {
+			
+			
+			allowed = {
+					original_tag = SOV
+			}
+			
+			research_bonus = {
+				armor = 0.15
+			}
+			
+			traits = { mass_tank_manufactuer }
+			
+			modifier = {
+			}
+		}
 		astrov_design_bureau = {
 			
 			

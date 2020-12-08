@@ -17,6 +17,11 @@ spriteTypes = {
 		name = "GFX_idea_FRA_hotchkiss"
 		texturefile = "gfx/interface/ideas/idea_FRA_hotchkiss.dds"
 	}
+			spriteType = {
+		name = "GFX_idea_volgograd_tractor_plant"
+		texturefile = "gfx/interface/ideas/idea_volgograd_tractor_plant.dds"
+	}
+	
 	
 			spriteType = {
 		name = "GFX_idea_VFR_neu"

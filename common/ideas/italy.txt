@@ -301,11 +301,11 @@ ideas = {
 	
 	
 	tank_manufacturer = {
-		designer = yes
+		designer = yes 
 		fiat = {
-			allowed = {	 original_tag = ITA 	}
+			allowed = { OR = { 	the_axis = yes the_geacps = yes }  }
 			cost = 150 
-			traits = { medium_tank_manufacturer }
+			traits = { infantry_tank_manufacturer }
 		}
 	}
 	

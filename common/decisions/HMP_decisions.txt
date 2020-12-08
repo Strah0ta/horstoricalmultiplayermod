@@ -2278,6 +2278,7 @@ allowed = { original_tag = SAF }
 			complete_effect = {
 					
 			NZL = { 
+			if = { limit = { date < 1941.1.1 }  set_equipment_fraction = 0.5  }
 			   every_unit_leader = { set_nationality = AST    }
 				transfer_navy = {	target = AST	}
 				remove_state_core = 300   remove_state_core = 284
