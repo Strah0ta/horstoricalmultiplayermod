@@ -708,32 +708,36 @@ leader_traits = {
 		}
 	}
 	
-	
-	modded_tank_manufacturer1 = { ##Cavalry Tank Manufacturer?
-		random = no
-		equipment_bonus = {	armor = {	maximum_speed = 0.1 	}	}
-	}	
-	modded_tank_manufacturer2 = {  ## ?
-		random = no
-		equipment_bonus = {	armor = { armor_value = 0.05	reliability = 0.05 	}	}
-	}		
-		modded_tank_manufacturer3 = { ## ?
-		random = no
-		equipment_bonus = {	armor = {	armor_value = 0.05	maximum_speed = 0.05	}	}
-	}	
-		modded_tank_manufacturer4 = { ## ?
+		cruiser_tank_manufacturer = { ## Cruiser Tank Designer
 		random = no
 		equipment_bonus = {	armor = {	maximum_speed = 0.05 hard_attack = 0.05	}	}
 	}	
-		modded_tank_manufacturer5 = { ## ?
+		cavalry_tank_manufacturer = { ## Cavalry Tank Designer
 		random = no
 		equipment_bonus = {	armor = {	maximum_speed = 0.05 soft_attack = 0.05 }	}
 	}		
-	modded_tank_manufacturer6 = { ## ?
+	mbt_manufacturer = { ## Main Battle Tank Designer
 		random = no
 		equipment_bonus = {	armor = {	reliability = 0.05 hard_attack = 0.05 }	}
 	}		
+		
+		
+		
+	modded_tank_manufacturer1 = { ##  ??????
+		random = no
+		equipment_bonus = {	armor = {	maximum_speed = 0.1 	}	}
+	}	
+	modded_tank_manufacturer2 = {  ## Heavy Tank Brawler Designer??
+		random = no
+		equipment_bonus = {	armor = { armor_value = 0.05	reliability = 0.05 	}	}
+	}		
+		modded_tank_manufacturer3 = { ## Mobile Heavy Tank Designer??
+		random = no
+		equipment_bonus = {	armor = {	armor_value = 0.05	maximum_speed = 0.05	}	}
+	}	
 	
+	
+
 	
 	fast_tank_manufacturer = {
 		random = no
