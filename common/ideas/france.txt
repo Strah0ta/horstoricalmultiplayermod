@@ -297,6 +297,7 @@ ideas = {
 			allowed = {	original_tag = FRA	}
 			allowed_civil_war = {	original_tag = FRA	}
 			removal_cost = -1
+			modifier = { surrender_limit = 0.19 }
 		}
 		
 		FRA_firepower = {
@@ -756,7 +757,6 @@ ideas = {
 			
 			modifier = {
 			#enemy_army_bonus_air_superiority_factor = 0.5
-				surrender_limit = 0.19
 				max_planning = 0.25
 				army_speed_factor = 0.1
 				production_speed_naval_base_factor = -1.2

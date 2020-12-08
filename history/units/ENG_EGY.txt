@@ -21,43 +21,6 @@ division_template = {
 }	
 
 units = { 
-	division= {	
-		location = 4913
-		division_template = "Egyptian Mountaineer Corps"
-		start_experience_factor = 0.3
-		force_equipment_variants = { infantry_equipment_2 = { owner = "ENG" } }
-		force_equipment_variants = { artillery_equipment_2 = { owner = "ENG" } }
-		force_equipment_variants = { rocket_artillery_equipment_1 = { owner = "ENG" } }
-		force_equipment_variants = { anti_tank_equipment_2 = { owner = "ENG" } }
-		}
-	division= {	
-		location = 4913
-		division_template = "Egyptian Mountaineer Corps"
-		start_experience_factor = 0.3
-		force_equipment_variants = { infantry_equipment_2 = { owner = "ENG" } }
-		force_equipment_variants = { artillery_equipment_2 = { owner = "ENG" } }
-		force_equipment_variants = { rocket_artillery_equipment_1 = { owner = "ENG" } }
-		force_equipment_variants = { anti_tank_equipment_2 = { owner = "ENG" } }
-		}	
-	division= {	
-		location = 4913
-		division_template = "Egyptian Mountaineer Corps"
-		start_experience_factor = 0.3
-		force_equipment_variants = { infantry_equipment_2 = { owner = "ENG" } }
-		force_equipment_variants = { artillery_equipment_2 = { owner = "ENG" } }
-		force_equipment_variants = { rocket_artillery_equipment_1 = { owner = "ENG" } }
-		force_equipment_variants = { anti_tank_equipment_2 = { owner = "ENG" } }
-		}	
-	division= {	
-		location = 4913
-		division_template = "Egyptian Mountaineer Corps"
-		start_experience_factor = 0.3
-		force_equipment_variants = { infantry_equipment_2 = { owner = "ENG" } }
-		force_equipment_variants = { artillery_equipment_2 = { owner = "ENG" } }
-		force_equipment_variants = { rocket_artillery_equipment_1 = { owner = "ENG" } }
-		force_equipment_variants = { anti_tank_equipment_2 = { owner = "ENG" } }
-		}	
-	
 		division= {	
 		location = 5081
 		division_template = "Egyptian Mountaineer Corps"
