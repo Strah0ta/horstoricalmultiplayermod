@@ -10,7 +10,7 @@ NDefines.NMilitary.ANTI_AIR_ATTACK_TO_AMOUNT = 0.0015 				-- WAS 0.005 | Lowered
 NDefines.NMilitary.EXPERIENCE_COMBAT_FACTOR = 0.1       -- WAS 0.25 | Turns out that no Russian volunteers to Spain leads to at least 15 veteran +75% heavy tanks at barb every game that kill nearly every Russia player in less than 3 months. Just wait until Germany players manage to get 30 vet heavies by using minors more
 NDefines.NMilitary.MAX_NAVY_EXPERIENCE = 0             -- WAS 500
 NDefines.NMilitary.MAX_AIR_EXPERIENCE = 0			   -- WAS 500
-NDefines.NMilitary.MAX_ARMY_EXPERIENCE = 999		   -- WAS 500
+--NDefines.NMilitary.MAX_ARMY_EXPERIENCE = 500		   -- WAS 500
 NDefines.NMilitary.RIVER_CROSSING_SPEED_PENALTY = -0.2	           -- vanilla 0.25; Speed Penalty is 15% with vanilla makeshift bridges;small river crossing
 NDefines.NMilitary.RIVER_CROSSING_SPEED_PENALTY_LARGE = -0.4     -- vanilla 0.5; Speed Penalty is 30% with vanilla makeshift bridges; large river crossing
 NDefines.NMilitary.UNIT_LEADER_TRAIT_SLOT_PER_LEVEL = { 			-- ALL TRAITS ARE PREASSIGNED BC OF EXPLOITS - num extra traits on each level
@@ -20,7 +20,7 @@ NDefines.NMilitary.UNIT_LEADER_TRAIT_SLOT_PER_LEVEL = { 			-- ALL TRAITS ARE PRE
 		0, -- operative
 	}
 NDefines.NMilitary.PROMOTE_LEADER_CP_COST = 500					-- changed as all generals/FMs are pre-done and not meant to be changed - cost of promoting a leader
-NDefines.NMilitary.LAND_EQUIPMENT_BASE_COST = 25					-- VANILLA 10 Cost in XP to upgrade a piece of equipment one level is base + ( total levels * ramp )
+NDefines.NMilitary.LAND_EQUIPMENT_BASE_COST = 10					-- VANILLA 10 Cost in XP to upgrade a piece of equipment one level is base + ( total levels * ramp )
 NDefines.NMilitary.LAND_EQUIPMENT_RAMP_COST = 0		 				-- VANILLA 5
 NDefines.NAir.EFFICIENCY_REGION_CHANGE_PENALTY_FACTOR = 1				-- Penalty applied for changing region
 NDefines.NAir.EFFICIENCY_REGION_CHANGE_DAILY_GAIN_CAS = 0.12			-- How much efficiency to regain per day. Gain applied hourly.

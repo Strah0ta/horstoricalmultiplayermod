@@ -22,7 +22,6 @@ focus_tree = {
 		cost = 10
 				
 		completion_reward = {
-		GER = { add_intel = { target = POL civilian_intel = 30 } }
 			add_tech_bonus = {
 				name = GER_four_year_plan
 				bonus = 1.0

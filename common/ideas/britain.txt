@@ -1326,7 +1326,7 @@ ideas = {
 		
 	
 		vickers_armstrong_eng = {
-			allowed = {	OR = { original_tag = ENG   original_tag = AST original_tag = NZL original_tag = CAN original_tag = RAJ  }	}	
+			allowed = {	OR = { original_tag = ENG  original_tag = USA original_tag = AST original_tag = NZL original_tag = CAN original_tag = RAJ  }	}	
 			research_bonus = {	armor = 0.15	}
 			traits = { medium_tank_manufacturer }
 			modifier = {	}

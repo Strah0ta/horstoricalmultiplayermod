@@ -784,7 +784,22 @@ ideas = {
 			modifier = {
 			}
 		}
-		
+				kharkiv = {
+			
+			picture = malyshev
+			allowed = {
+				original_tag = SOV
+			}
+			
+			research_bonus = {
+				armor = 0.15
+			}
+			
+			traits = { mbt_manufacturer }
+			
+			modifier = {
+			}
+		}
 		okmo = {
 			
 			

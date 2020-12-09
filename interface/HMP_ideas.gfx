@@ -22,6 +22,14 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/idea_volgograd_tractor_plant.dds"
 	}
 	
+				spriteType = {   #Nibelungenwerke
+		name = "GFX_idea_nibelungenwerke"
+		texturefile = "gfx/interface/ideas/idea_nibelungenwerke.dds"
+	}
+				spriteType = {
+		name = "GFX_idea_malyshev" #Kharkiv Diesel Factory
+		texturefile = "gfx/interface/ideas/idea_malyshev.dds"
+	}
 	
 			spriteType = {
 		name = "GFX_idea_VFR_neu"

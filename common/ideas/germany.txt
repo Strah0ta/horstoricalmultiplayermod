@@ -814,6 +814,13 @@ ideas = {
 			research_bonus = {	armor = 0.15	}
 			traits = { mass_tank_manufactuer  }
 		}		
+				nibelungenwerke = {
+			#picture = nibelungenwerke
+			allowed = { OR = { 	the_axis = yes the_geacps = yes }  }
+
+			research_bonus = {	armor = 0.15	}
+			traits = { mbt_manufacturer  }
+		}	
 		porsche = {
 
 			

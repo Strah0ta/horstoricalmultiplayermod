@@ -794,9 +794,7 @@ ideas = {
 		chrysler = {
 			
 			
-			allowed = {
-				original_tag = USA
-			}
+			allowed = { normally_played_allies = yes	}
 			
 
 			
@@ -804,7 +802,7 @@ ideas = {
 				armor = 0.15
 			}
 			
-			traits = { medium_tank_manufacturer }
+			traits = { mbt_manufacturer }
 			
 			modifier = {
 			}

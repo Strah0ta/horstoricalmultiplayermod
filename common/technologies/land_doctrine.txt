@@ -23,7 +23,7 @@ technologies = {
 		org_loss_when_moving = -0.1
 
 		doctrine = yes	
-		research_cost = 2.25
+		research_cost = 1
 
 		folder = {
 			name = land_doctrine_folder
@@ -639,7 +639,7 @@ technologies = {
 		enable_tactic = tactic_barrage
 			
 		doctrine = yes	
-		research_cost = 2.25
+		research_cost = 1
 		
 		categories = {
 			land_doctrine
@@ -1185,7 +1185,7 @@ technologies = {
 		}
 
 		doctrine = yes	
-		research_cost = 2.25
+		research_cost = 1
 		
 		categories = {
 			land_doctrine
@@ -1720,7 +1720,7 @@ technologies = {
 		minimum_training_level = -0.1		
 
 		doctrine = yes	
-		research_cost = 2.25
+		research_cost = 1
 		
 		categories = {
 			land_doctrine
