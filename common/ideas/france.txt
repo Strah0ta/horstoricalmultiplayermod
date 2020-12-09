@@ -1135,7 +1135,31 @@ ideas = {
 
 			traits = { heavy_tank_manufacturer }
 		}
-	
+		
+		dietrich = {
+			allowed = {
+				normally_played_allies = yes 
+			}
+						
+			research_bonus = {
+				armor = 0.15
+			}
+			
+
+			traits = { mobile_heavy_tank_manufacturer }
+		}
+			peugeot = {
+			allowed = {
+				normally_played_allies = yes 
+			}
+						
+			research_bonus = {
+				armor = 0.15
+			}
+			
+
+			traits = { blitzkrieg_tank_manufacturer }
+		}
 		FRA_AMX = {
 		
 			picture = generic_tank_manufacturer_2

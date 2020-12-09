@@ -784,22 +784,47 @@ ideas = {
 			modifier = {
 			}
 		}
-				kharkiv = {
-			
+		kharkiv = {
 			picture = malyshev
-			allowed = {
-				original_tag = SOV
-			}
-			
-			research_bonus = {
-				armor = 0.15
-			}
-			
+			allowed = { original_tag = SOV }
+			research_bonus = {	armor = 0.15	}
 			traits = { mbt_manufacturer }
-			
-			modifier = {
-			}
+			modifier = {	}
 		}
+		
+			chelyabinsk_tractor_plant = {
+			allowed = { original_tag = SOV }
+			research_bonus = {	armor = 0.15	}
+			traits = { cavalry_tank_manufacturer }
+			modifier = {	}
+		}
+		kirov_plant = {
+			allowed = { original_tag = SOV }
+			research_bonus = {	armor = 0.15	}
+			traits = { cruiser_tank_manufacturer }
+			modifier = {	}
+		}
+		krasnoye_sormovo = {
+			allowed = { original_tag = SOV }
+			research_bonus = {	armor = 0.15	}
+			traits = { brawler_tank_manufacturer }
+			modifier = {	}
+		}		
+		
+		factory_no_174_k_e_voroshilov = {
+			allowed = { original_tag = SOV }
+			research_bonus = {	armor = 0.15	}
+			traits = { mobile_heavy_tank_manufacturer }
+			modifier = {	}
+		}			
+				uralvagonazavod = {
+				picture = uralvagonazavod
+			allowed = { original_tag = SOV }
+			research_bonus = {	armor = 0.15	}
+			traits = { blitzkrieg_tank_manufacturer }
+			modifier = {	}
+		}		
+		
 		okmo = {
 			
 			

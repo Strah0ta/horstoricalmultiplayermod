@@ -1331,6 +1331,25 @@ ideas = {
 			traits = { medium_tank_manufacturer }
 			modifier = {	}
 		}
+			RollsRoyce = {
+			allowed = {	normally_played_allies = yes	}	
+			research_bonus = {	armor = 0.15	}
+			traits = { cruiser_tank_manufacturer }
+			modifier = {	}
+		}	
+			vulkan = {
+			allowed = {	normally_played_allies = yes	}	
+			research_bonus = {	armor = 0.15	}
+			traits = { cavalry_tank_manufacturer }
+			modifier = {	}
+		}			
+				leyland = {
+			allowed = {	normally_played_allies = yes	}	
+			research_bonus = {	armor = 0.15	}
+			traits = { brawler_tank_manufacturer }
+			modifier = {	}
+		}	
+		
 	}
 	
 	theorist = {	

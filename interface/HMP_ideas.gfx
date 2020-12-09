@@ -454,6 +454,42 @@ spriteTypes = {
 		name = "GFX_idea_lavochkin"
 		texturefile = "gfx/interface/ideas/idea_lavochkin.tga"
 	}
+
+	spriteType = {
+		name = "GFX_idea_daimler_benz"
+		texturefile = "gfx/interface/ideas/idea_daimler_benz.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_vomag"
+		texturefile = "gfx/interface/ideas/idea_vomag.dds"
+	}	
+	
+		spriteType = {
+		name = "GFX_idea_chelyabinsk_tractor_plant"
+		texturefile = "gfx/interface/ideas/idea_chelyabinsk_tractor_plant.dds"
+	}	
+		spriteType = {
+		name = "GFX_idea_kirov_plant"
+		texturefile = "gfx/interface/ideas/idea_kirov_plant.dds"
+	}	
+		spriteType = {
+		name = "GFX_idea_krasnoye_sormovo"
+		texturefile = "gfx/interface/ideas/idea_krasnoye_sormovo.dds"
+	}	
+	    spriteType = {
+        name = "GFX_idea_factory_no_174_k_e_voroshilov"
+        texturefile = "gfx/interface/ideas/idea_k_e_voroshilov.dds"
+    }
+	
+		spriteType = {
+		name = "GFX_idea_GER_ckd"
+		texturefile = "gfx/interface/ideas/idea_GER_ckd.dds"
+	}
+	
+		spriteType = {
+		name = "GFX_idea_alkett"
+		texturefile = "gfx/interface/ideas/idea_alkett.tga"
+	}	
 	
 		spriteType = {
 		name = "GFX_idea_rubin"
@@ -760,10 +796,37 @@ spriteTypes = {
 		name = "GFX_idea_EFR_georges_bonnet"
 		texturefile = "gfx/interface/ideas/idea_fra_georges_bonnet.dds"
 	}
+		spriteType = {
+		name = "GFX_idea_vulkan"
+		texturefile = "gfx/interface/ideas/idea_vulkan.dds"
+	}	
+		spriteType = {
+		name = "GFX_idea_RollsRoyce"
+		texturefile = "gfx/interface/ideas/idea_RollsRoyce.dds"
+	}	
+				spriteType = {
+		name = "GFX_idea_dietrich"
+		texturefile = "gfx/interface/ideas/idea_dietrich.dds"
+	}	
+	
+			spriteType = {
+		name = "GFX_idea_peugeot"
+		texturefile = "gfx/interface/ideas/idea_peugeot.dds"
+	}	
+	
+			spriteType = {
+		name = "GFX_idea_ansaldo"
+		texturefile = "gfx/interface/ideas/idea_ansaldo.tga"
+	}	
+		spriteType = {
+		name = "GFX_idea_uralvagonazavod"
+		texturefile = "gfx/interface/ideas/idea_uralvagonazavod.dds"
+	}	
+	
 	
 	spriteType = {
 		name = "GFX_idea_leyland"
-		texturefile = "gfx/interface/ideas/idea_leyland.tga"
+		texturefile = "gfx/interface/ideas/idea_leyland.dds"
 	}	
 	spriteType = {
 		name = "GFX_idea_uralmash"

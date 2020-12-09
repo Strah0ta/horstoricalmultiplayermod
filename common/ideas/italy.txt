@@ -307,6 +307,11 @@ ideas = {
 			cost = 150 
 			traits = { infantry_tank_manufacturer }
 		}
+				ansaldo = {
+			allowed = { OR = { 	the_axis = yes the_geacps = yes }  }
+			cost = 150 
+			traits = { blitzkrieg_tank_manufacturer }
+		}
 	}
 	
 	
