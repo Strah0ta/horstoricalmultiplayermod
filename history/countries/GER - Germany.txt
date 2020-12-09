@@ -4,7 +4,7 @@ oob = "GER_1936"
 
 set_variable = {
     var = min_fuel
-    value = 0.800
+    value = 0.300
 }
 set_fuel_ratio = 1
 

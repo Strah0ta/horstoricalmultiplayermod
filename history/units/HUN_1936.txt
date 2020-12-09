@@ -110,7 +110,7 @@ instant_effect = {
 			type = anti_air_equipment_1
 			creator = "HUN"
 		}
-		requested_factories = 2
+		requested_factories = 1
 		progress = 0.68
 		efficiency = 100
 	}

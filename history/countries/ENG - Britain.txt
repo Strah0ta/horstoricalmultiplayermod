@@ -8,7 +8,7 @@ add_ideas = armyandnavy_idea
 
 set_variable = {
     var = min_fuel
-    value = 0.800
+    value = 0.400
 }
 
 country_event = { id = britain.22 days = 514 }

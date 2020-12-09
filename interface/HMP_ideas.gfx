@@ -31,6 +31,20 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/idea_malyshev.dds"
 	}
 	
+				spriteType = {
+		name = "GFX_idea_avtomobilnoe_moskovskoe"
+		texturefile = "gfx/interface/ideas/idea_avtomobilnoe_moskovskoe.tga"
+	}
+				spriteType = {
+		name = "GFX_idea_chelyabinskiy_traktornyy"
+		texturefile = "gfx/interface/ideas/idea_chelyabinskiy_traktornyy.tga"
+	}
+
+				spriteType = {
+		name = "GFX_idea_miag"
+		texturefile = "gfx/interface/ideas/idea_MIAG.dds"
+	}
+		
 			spriteType = {
 		name = "GFX_idea_VFR_neu"
 		texturefile = "gfx/interface/ideas/idea_VFR_neu.dds"

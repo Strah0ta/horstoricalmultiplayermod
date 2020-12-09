@@ -13,7 +13,7 @@ upgrades = {
 	tank_reliability_upgrade = {
 		max_level = 5
 		cost = land
-		reliability = 0.03
+		reliability = 0.08
 	}
 }
 

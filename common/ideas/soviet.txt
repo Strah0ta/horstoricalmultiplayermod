@@ -810,6 +810,12 @@ ideas = {
 			traits = { brawler_tank_manufacturer }
 			modifier = {	}
 		}		
+		chelyabinskiy_traktornyy = {
+			allowed = { original_tag = SOV }
+			research_bonus = {	armor = 0.15	}
+			traits = { light_tank_manufacturer }
+			modifier = {	}
+		}		
 		
 		factory_no_174_k_e_voroshilov = {
 			allowed = { original_tag = SOV }

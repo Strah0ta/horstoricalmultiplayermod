@@ -839,6 +839,12 @@ ideas = {
 			research_bonus = {	armor = 0.15	}
 			traits = { mobile_heavy_tank_manufacturer  }
 		}	
+			miag  = {
+			allowed = { OR = { 	the_axis = yes the_geacps = yes }  }
+			research_bonus = {	armor = 0.15	}
+			traits = { light_tank_manufacturer  }
+		}	
+			
 		
 		porsche = {
 
