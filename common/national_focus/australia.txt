@@ -314,6 +314,12 @@
 				category = marine_tech
 				category = para_tech
 			}
+			add_tech_bonus = {
+				name = AST_z_special_unit
+				bonus = 3.0
+				uses = 1
+				category = tp_tech
+			}		
 		}
 	}
 

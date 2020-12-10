@@ -474,19 +474,6 @@ guiTypes = {
 				max_slots_horizontal = 2
 				slotsize = {width=305 height=80}
 			}
-			
-			containerWindowType = {
-				name = "divider_window"
-				position = {x=277 y=0}
-				size = { width=41 height=150% }
-				Orientation = upper_left
-				clipping = no
-				
-				background = {
-					name = "Background_divider"
-					quadTextureSprite ="GFX_tiled_plain_bg_small"
-				}
-			}
 		}
 		
 		containerWindowType = {

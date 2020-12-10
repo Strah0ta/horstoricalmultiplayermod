@@ -872,9 +872,6 @@ guiTypes = {
 				name = "strategic_air_priorities_window"
 				position = {x=4 y=-75}
 				size = { width=600 height=280 }
-				#animation_time = 300
-				#Orientation = center_down
-				#clipping = yes
 				fade_time = 300
 				fade_type = linear
 				clipping = no
@@ -899,6 +896,7 @@ guiTypes = {
 				iconType = {
 					name = "selected_mission_overlay"
 					position = { x = 222 y = 65 }
+					scale = 0
 					spriteType = "GFX_selected_air_priorities_overlay"
 					alwaystransparent = yes
 				}

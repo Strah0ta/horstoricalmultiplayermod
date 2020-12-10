@@ -679,32 +679,17 @@ ideas = {
 	}
 	
 	
-	tank_manufacturer = { 
-		
+	tank_manufacturer = {  
 		designer = yes
 						
 		ROM_leonidas_works = {
-			
 			picture = generic_tank_manufacturer_3
-
 			cost = 50
-
-			available = {
-				has_completed_focus = ROM_mobile_tank_destroyers
-			}
-			
-			allowed = {
-				original_tag = ROM
-				has_dlc = "Death or Dishonor"
-			}
-			
-			research_bonus = {
-				armor = 0.05
-			}
-			
-			traits = { tank_manufacturer }
-
+			allowed = {	original_tag = ROM has_dlc = "Death or Dishonor" }
+			research_bonus = { armor = 0.15 }
+			traits = {   }
 			equipment_bonus = {
+			armor = { reliability = 0.05  }
 				light_tank_destroyer_equipment = {
 					reliability = 0.2
 					hard_attack = 0.05
@@ -721,7 +706,6 @@ ideas = {
 					ap_attack = 0.05
 				}				
 			}
-			
 			modifier = {
 				equipment_conversion_speed = 0.1
 			}
