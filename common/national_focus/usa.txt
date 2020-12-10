@@ -1363,7 +1363,7 @@ transfer_state = 38
 
 		completion_reward = {
 			custom_effect_tooltip = US_Army_Stuff_tt
-			hidden_effect = { set_technology = { dogfighting_experience = 1  air_superiority = 1 fighter_sweeps = 1 popup = no } }
+			hidden_effect = { set_technology = {  air_superiority = 1 fighter_sweeps = 1 popup = no } }
 		add_tech_bonus = {
 				name = USA_us_army_airforce
 				uses = 1

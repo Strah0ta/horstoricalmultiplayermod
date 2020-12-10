@@ -34,10 +34,10 @@ spriteTypes = {
 				spriteType = {
 		name = "GFX_idea_avtomobilnoe_moskovskoe"
 		texturefile = "gfx/interface/ideas/idea_avtomobilnoe_moskovskoe.tga"
-	}
+	} 
 				spriteType = {
 		name = "GFX_idea_chelyabinskiy_traktornyy"
-		texturefile = "gfx/interface/ideas/idea_chelyabinskiy_traktornyy.tga"
+		texturefile = "gfx/interface/ideas/idea_chelyabinskiy_traktornyy.dds"
 	}
 
 				spriteType = {

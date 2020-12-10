@@ -1073,21 +1073,6 @@ country_event = {
    }
    }
  
-      country_event = {
-   id = italy.602
-   title = italy.602.t
-   desc = italy.602.d
-   picture = GFX_report_event_german_italian_pact
-
-   fire_only_once = yes
- is_triggered_only = yes
-   
-   
-      option = {
-   name = italy.602.a
-		HMP_script_generals = yes
-   }
-   } 
    
          country_event = {
    id = italy.632

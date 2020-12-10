@@ -82,7 +82,7 @@ ideas = {
 			modifier = {
              	army_speed_factor = 0.1
 				supply_consumption_factor = -0.075
-				max_dig_in = -10
+				max_dig_in = -5
 			}
 		}
 		SOV_270 = { 

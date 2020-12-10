@@ -815,7 +815,7 @@ focus_tree = {
 			add_tech_bonus = {
 				name = air_sup_bonus
 				bonus = 3.0
-				uses = 1
+				uses = 2
 				category = air_doctrine
 			}
 	42 = {
@@ -859,7 +859,7 @@ focus_tree = {
 			add_tech_bonus = {
 				name = op_dest_bonus
 				bonus = 3.0
-				uses = 2
+				uses = 1
 				category = air_doctrine
 			}
 			add_tech_bonus = {
@@ -931,7 +931,7 @@ focus_tree = {
 			add_tech_bonus = {
 				name = strat_dest_bonus
 				bonus = 3.0
-				uses = 2
+				uses = 1
 				category = air_doctrine
 			}
 				add_tech_bonus = {

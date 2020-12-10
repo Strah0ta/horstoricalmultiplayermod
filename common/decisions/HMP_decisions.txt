@@ -538,11 +538,12 @@ add_equipment_to_stockpile = {  type = sov_fighter_equipment_2 amount = 986 prod
 	}
 		HMP_ll_soviets_receive_med_tank = { 
 allowed = {  original_tag = SOV } 
-available = {  check_variable = { var = SOV_barb_ll_token  value = 20  compare = greater_than_or_equals} has_war_with = GER OR = { date > 1942.11.22  AND = { ENG = { controls_state = 412 }  date > 1942.4.22  } } custom_trigger_tooltip = {	tooltip = SOV_secure_tt	suppy_route_secure = yes}  }      
+available = {  check_variable = { var = SOV_barb_ll_token  value = 20  compare = greater_than_or_equals} has_war_with = GER OR = { date > 1943.1.22  AND = { ENG = { controls_state = 412 }  date > 1942.7.22  } } custom_trigger_tooltip = {	tooltip = SOV_secure_tt	suppy_route_secure = yes}  }      
 		icon = generic_form_nation
 		cost = 0
 		fire_only_once = no
-		
+		days_re_enable = 120		
+
 		complete_effect  = {
 			if = { limit = { USA = { has_tech = advanced_medium_tank }}   add_equipment_to_stockpile = {  type = medium_tank_equipment_3 amount = 3570 producer = USA }    }
 		else_if = { limit = { ENG = { has_tech = advanced_medium_tank }}   add_equipment_to_stockpile = {  type = medium_tank_equipment_3 amount = 3570 producer = ENG }    }
@@ -558,11 +559,11 @@ available = {  check_variable = { var = SOV_barb_ll_token  value = 20  compare =
 	}
 		HMP_ll_soviets_receive_heavy_tank = { 
 allowed = {  original_tag = SOV } 
-available = {  check_variable = { var = SOV_barb_ll_token  value = 20  compare = greater_than_or_equals} has_war_with = GER OR = { date > 1942.11.22  AND = { ENG = { controls_state = 412 }  date > 1942.4.22  } }	custom_trigger_tooltip = {	tooltip = SOV_secure_tt	suppy_route_secure = yes}  }      
+available = {  check_variable = { var = SOV_barb_ll_token  value = 20  compare = greater_than_or_equals} has_war_with = GER OR = { date > 1943.1.22  AND = { ENG = { controls_state = 412 }  date > 1942.7.22  } } custom_trigger_tooltip = {	tooltip = SOV_secure_tt	suppy_route_secure = yes}  }      
 		icon = generic_form_nation
 		cost = 0
 		fire_only_once = no
-		
+		days_re_enable = 120		
 		complete_effect  = {
 			if = { limit = { USA = { has_tech = advanced_heavy_tank }}   add_equipment_to_stockpile = {  type = heavy_tank_equipment_3 amount = 1666 producer = USA }    }
 		else_if = { limit = { ENG = { has_tech = advanced_heavy_tank }}   add_equipment_to_stockpile = {  type = heavy_tank_equipment_3 amount = 1666 producer = ENG }    }
@@ -578,11 +579,11 @@ available = {  check_variable = { var = SOV_barb_ll_token  value = 20  compare =
 	}
 			HMP_ll_soviets_receive_light_tank = { 
 allowed = {  original_tag = SOV } 
-available = {  check_variable = { var = SOV_barb_ll_token  value = 20  compare = greater_than_or_equals} has_war_with = GER OR = { date > 1942.11.22  AND = { ENG = { controls_state = 412 }  date > 1942.4.22  } } custom_trigger_tooltip = {	tooltip = SOV_secure_tt	suppy_route_secure = yes}  }      
+available = {  check_variable = { var = SOV_barb_ll_token  value = 20  compare = greater_than_or_equals} has_war_with = GER OR = { date > 1943.1.22  AND = { ENG = { controls_state = 412 }  date > 1942.7.22  } } custom_trigger_tooltip = {	tooltip = SOV_secure_tt	suppy_route_secure = yes}  }      
 		icon = generic_form_nation
 		cost = 0
 		fire_only_once = no
-		
+		days_re_enable = 120		
 		complete_effect  = {
 			if = { limit = { USA = { has_tech = advanced_light_tank }}   add_equipment_to_stockpile = {  type = light_tank_equipment_3 amount = 5000 producer = USA }    }
 		else_if = { limit = { ENG = { has_tech = advanced_light_tank }}   add_equipment_to_stockpile = {  type = light_tank_equipment_3 amount = 5000 producer = ENG }    }

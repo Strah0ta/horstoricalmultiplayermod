@@ -1,6 +1,7 @@
 technologies = {
 	air_superiority = {
 		air_superiority_detect_factor = 0.1
+		air_interception_detect_factor = 0.15
 		
 		
 		path = {
@@ -16,7 +17,21 @@ technologies = {
 			leads_to_tech =  fighter_sweeps
 			research_cost_coeff = 1
 		}
+		
+				path = {
+			leads_to_tech = day_bombing
+			research_cost_coeff = 1
+		}
 
+			path = {
+			leads_to_tech = night_bombing
+			research_cost_coeff = 1
+		}	 
+		 
+		path = {
+			leads_to_tech = dogfighting_experience
+			research_cost_coeff = 1
+		}
 		doctrine = yes
 		research_cost = 2
 		categories = {
@@ -31,7 +46,7 @@ technologies = {
 	day_bombing = {
 
 		# EFFECT ########
-		air_strategic_bomber_bombing_factor = 0.3
+		air_strategic_bomber_bombing_factor = 0.25
 		###########
 
 		XOR = {
@@ -47,36 +62,7 @@ technologies = {
 
 		folder = {
 			name = air_doctrine_folder
-			position = { x = 2 y = 8 }
-		}
-	}
-
-
-
-	strategic_destruction = {
-		air_strategic_bomber_bombing_factor = 0.2
-
-		path = {
-			leads_to_tech = day_bombing
-			research_cost_coeff = 1
-		}
-
-			path = {
-			leads_to_tech = night_bombing
-			research_cost_coeff = 1
-		}	 
-		 
-		 
-		doctrine = yes
-		research_cost = 2
-
-		categories = {
-			air_doctrine
-		}
-
-		folder = {
-			name = air_doctrine_folder
-			position = { x = 0 y = 4 }
+			position = { x = 2 y = 4 }
 		}
 	}
 
@@ -96,7 +82,7 @@ technologies = {
 
 		folder = {
 			name = air_doctrine_folder
-			position = { x = -2 y = 8 }
+			position = { x = -2 y = 4 }
 		}
 	}
 	battlefield_support = {
@@ -166,32 +152,9 @@ technologies = {
 	}
 
 
-	dogfighting_experience = {
-		air_superiority_efficiency = 0.2		 
-		doctrine = yes
-		research_cost = 2
-
-		categories = {
-			air_doctrine
-		}
-
-		folder = {
-			name = air_doctrine_folder
-			position = { x = 17 y = 8 }
-		}
-	}
-
 	fighter_sweeps = {
 		air_intercept_efficiency = 0.2
-		air_interception_detect_factor = 0.15
-		
-		path = {
-			leads_to_tech = dogfighting_experience
-			research_cost_coeff = 1
-		}
-		 
-		 
-		 
+		air_superiority_efficiency = 0.2		 
 		doctrine = yes
 		research_cost = 2
 
@@ -204,6 +167,4 @@ technologies = {
 			position = { x = 17 y = 4 }
 		}
 	}
-
-
 }

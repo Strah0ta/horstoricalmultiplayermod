@@ -805,26 +805,25 @@ ideas = {
 	
 	# TECHNOLOGY
 	tank_manufacturer = { 
-		
 		designer = yes
+		
 		krupp_tank = {
 			picture = krupp
 			allowed = { OR = { 	the_axis = yes the_geacps = yes }  }
-
+			research_bonus = {	armor = 0.15	}
+			traits = { mbt_manufacturer }
+		}		
+		nibelungenwerke = {
+			allowed = { OR = { 	the_axis = yes the_geacps = yes }  }
 			research_bonus = {	armor = 0.15	}
 			traits = { mass_tank_manufactuer  }
-		}		
-				nibelungenwerke = {
+		}	
+		daimler_benz = {
 			allowed = { OR = { 	the_axis = yes the_geacps = yes }  }
 			research_bonus = {	armor = 0.15	}
-			traits = { mbt_manufacturer  }
+			traits = { blitzkrieg_tank_manufacturer  }
 		}	
-					daimler_benz = {
-			allowed = { OR = { 	the_axis = yes the_geacps = yes }  }
-			research_bonus = {	armor = 0.15	}
-			traits = { cruiser_tank_manufacturer  }
-		}	
-			vomag = {
+		vomag = {
 			allowed = { OR = { 	the_axis = yes the_geacps = yes }  }
 			research_bonus = {	armor = 0.15	}
 			traits = { cavalry_tank_manufacturer  }
@@ -837,37 +836,23 @@ ideas = {
 		GER_ckd  = {
 			allowed = { OR = { 	the_axis = yes the_geacps = yes }  }
 			research_bonus = {	armor = 0.15	}
-			traits = { mobile_heavy_tank_manufacturer  }
+			traits = {   light_tank_manufacturer }
 		}	
-			miag  = {
+		miag  = {
 			allowed = { OR = { 	the_axis = yes the_geacps = yes }  }
 			research_bonus = {	armor = 0.15	}
-			traits = { light_tank_manufacturer  }
+			traits = { mobile_heavy_tank_manufacturer  }
 		}	
 			
-		
 		porsche = {
-
-			
 			allowed = { OR = { 	the_axis = yes the_geacps = yes }  }
-
-			research_bonus = {
-				armor = 0.15
-			}
-			
+			research_bonus = { armor = 0.15	}
 			traits = { heavy_tank_manufacturer }
-
 		}
 		
 		henschel = {
-
 			allowed = { OR = { 	the_axis = yes tag = JAP }  }
-
-			
-			research_bonus = {
-				armor = 0.15
-			}
-			
+			research_bonus = {	armor = 0.15	}
 			traits = { fast_tank_manufacturer }
 		}
 		

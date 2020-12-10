@@ -2602,9 +2602,9 @@ create_field_marshal = {
 	picture = "Portrait_Soviet_Gregory_Zhukov.dds"
 	traits = { adaptable brilliant_strategist aggressive_assaulter organisational_leader organizer fast_planner logistics_wizard panzer_leader panzer_expert expert_improviser ranger trickster  expert_delegator  }
 	skill = 9
-	attack_skill = 4
+	attack_skill = 6
 	defense_skill = 6
-	planning_skill = 9
+	planning_skill = 7
 	logistics_skill = 9
 }
 
@@ -2613,9 +2613,9 @@ create_corps_commander = {
 		picture = "Portrait_Soviet_Konstantin_Rokossovsky.dds"
 	traits = {  panzer_leader panzer_expert expert_improviser ranger trait_cautious brilliant_strategist trickster  urban_assault_specialist }
 	skill = 8
-	attack_skill = 4
+	attack_skill = 6
 	defense_skill = 6
-	planning_skill = 7
+	planning_skill = 5
 	logistics_skill = 8
 }		
 create_corps_commander = {
@@ -2623,9 +2623,9 @@ create_corps_commander = {
 		picture = "Portrait_Soviet_Aleksandr_Vasilevsky.dds"
 	traits = {  panzer_leader panzer_expert expert_improviser ranger trait_cautious brilliant_strategist trickster  urban_assault_specialist }
 	skill = 8
-	attack_skill = 4
+	attack_skill = 6
 	defense_skill = 6
-	planning_skill = 7
+	planning_skill = 5
 	logistics_skill = 8
 }
 create_corps_commander = {
@@ -2633,9 +2633,9 @@ create_corps_commander = {
 		picture = "Portrait_Soviet_Ivan_Chernyakhovsky.dds"
 	traits = {  panzer_leader panzer_expert expert_improviser ranger trait_cautious brilliant_strategist trickster  urban_assault_specialist }
 	skill = 8
-	attack_skill = 4
+	attack_skill = 6
 	defense_skill = 6
-	planning_skill = 7
+	planning_skill = 5
 	logistics_skill = 8
 }
 
@@ -2644,9 +2644,9 @@ create_corps_commander = {
 		picture = "Portrait_Soviet_Dmitri_Danilovich_Lelyushenko.dds"
 	traits = {  panzer_leader panzer_expert expert_improviser ranger trait_cautious brilliant_strategist trickster  urban_assault_specialist }
 	skill = 8
-	attack_skill = 4
+	attack_skill = 6
 	defense_skill = 6
-	planning_skill = 7
+	planning_skill = 5
 	logistics_skill = 8
 }
 
@@ -2657,9 +2657,9 @@ create_corps_commander = {
 		picture = "Portrait_Soviet_Ivan_Konev.dds"
 	traits = { panzer_leader harsh_leader ranger trait_engineer scavenger panzer_expert expert_improviser trickster }
 	skill = 8
-	attack_skill = 4
+	attack_skill = 6
 	defense_skill = 5
-	planning_skill = 7
+	planning_skill = 5
 	logistics_skill = 7
 }
 create_corps_commander = {
@@ -2667,9 +2667,9 @@ create_corps_commander = {
 		picture = "Portrait_Soviet_Vasily_Chuikov.dds"
 	traits = { panzer_leader harsh_leader ranger trait_engineer scavenger panzer_expert expert_improviser trickster }
 	skill = 8
-	attack_skill = 4
+	attack_skill = 6
 	defense_skill = 5
-	planning_skill = 7
+	planning_skill = 5
 	logistics_skill = 7
 }
 create_corps_commander = {
@@ -2677,9 +2677,9 @@ create_corps_commander = {
 		picture = "Portrait_Soviet_Yakov_Cherevichenko.dds"
 	traits = { panzer_leader harsh_leader ranger trait_engineer scavenger panzer_expert expert_improviser trickster }
 	skill = 8
-	attack_skill = 4
+	attack_skill = 6
 	defense_skill = 5
-	planning_skill = 7
+	planning_skill = 5
 	logistics_skill = 7
 }
 create_corps_commander = {
@@ -2687,9 +2687,9 @@ create_corps_commander = {
 		picture = "Portrait_Soviet_Andrey_Yeryomenko.dds"
 	traits = { panzer_leader harsh_leader ranger trait_engineer scavenger panzer_expert expert_improviser trickster }
 	skill = 8
-	attack_skill = 4
+	attack_skill = 6
 	defense_skill = 5
-	planning_skill = 7
+	planning_skill = 5
 	logistics_skill = 7
 }
 
@@ -2700,9 +2700,9 @@ create_corps_commander = {
 		picture = "Portrait_Soviet_Semyon_Timoshenko.dds"
 	traits = { panzer_leader hill_fighter trait_mountaineer panzer_expert expert_improviser trickster guerilla_fighter }
 	skill = 8
-	attack_skill = 5
+	attack_skill = 7
 	defense_skill = 6
-	planning_skill = 9
+	planning_skill = 7
 	logistics_skill = 5
 }
 create_corps_commander = {
@@ -2710,9 +2710,9 @@ create_corps_commander = {
 		picture = "Portrait_Soviet_Vasily_Kuznetsov.dds"
 	traits = { commando skirmisher ranger panzer_leader panzer_expert ambusher swamp_fox  }
 	skill = 8
-	attack_skill = 4
+	attack_skill = 6
 	defense_skill = 5
-	planning_skill = 7
+	planning_skill = 5
 	logistics_skill = 9
 }
 create_corps_commander = {
@@ -2720,9 +2720,9 @@ create_corps_commander = {
 		picture = "Portrait_Soviet_Alexander_Gorbatov.dds"
 	traits = {  panzer_leader panzer_expert ambusher desert_fox trait_mountaineer trait_engineer scavenger }
 	skill = 8
-	attack_skill = 4
+	attack_skill = 6
 	defense_skill = 4
-	planning_skill = 7
+	planning_skill = 5
 	logistics_skill = 10
 }
 
@@ -3354,19 +3354,17 @@ create_corps_commander = {
 
 HMP_startup_on_actions = {
 		SOV = { add_ideas = SOV_motorized_focus }
-		SWE = { country_event = { id = italy.602 }} 
-		SPR = { country_event = { id = countrystartup.2 days = 1  }  }		
+		SWE = { country_event = { id = italy.602 }}  
 		118 = { add_state_modifier = { modifier = { max_dig_in = 30 } }  } 
 			if = {
 				limit = { has_game_rule = { rule = horst_manchukuo	option = HORST_ENABLE_MOD_MANCHUKUO	} }
 				MAN = { load_focus_tree = manchukuomod_focus } 
 			}
 				JAP  = { give_resource_rights = { receiver = GER state = 494 }	}
-				if = { limit = { MAN = { is_ai = yes } country_exists = MAN } JAP = { country_event = { id = japan.148 days = 1  }}   }
-				if = { limit = { NZL = { is_ai = yes } country_exists = NZL } AST = { country_event = { id = japan.758 days = 1  }}   }
-				if = { limit = { SAF = { is_ai = yes } country_exists = SAF } ENG = { country_event = { id = japan.678 days = 1  }}   }
-				if = { limit = { BUL = { is_ai = yes } NOT = { has_start_date > 1936.01.02  } } GER = { country_event = { id = japan.638 days = 1  }}   }
-				
+				if = { limit = { MAN = { is_ai = yes } country_exists = MAN } JAP = { country_event = { id = japan.148 }}   }
+				if = { limit = { NZL = { is_ai = yes } country_exists = NZL } AST = { country_event = { id = japan.758 }}   }
+				if = { limit = { SAF = { is_ai = yes } country_exists = SAF } ENG = { country_event = { id = japan.678    }}   }
+				if = { limit = { BUL = { is_ai = yes } NOT = { has_start_date > 1936.01.02  } } GER = { country_event = { id = japan.638  }}   }
 				if = { limit = { has_start_date > 1936.01.02 }  HMP_no_asia = yes      }
 				make_asia_go_faster = yes	bad_infra_state_effect = yes 	HFU_fuel_startup_effect = yes
 				if = { limit = { BUL = { has_focus_tree = bulgarian_no_dlc_focus }} BUL = { country_event = { id = italy.663  days = 1}}          }

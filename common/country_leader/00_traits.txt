@@ -9,7 +9,8 @@ leader_traits = {
 	fra_legit_trait = {
 		random = no
 	}
-		ambitious_negotiator_neutrality = {
+	
+	ambitious_negotiator_neutrality = {
 		random = no
 		sprite = 13
 		neutrality_drift = 0.05
@@ -691,39 +692,32 @@ leader_traits = {
 	}
 	
 		
-	fix_it_again_tony = {
+	sniper_tank_manufacturer = {  #Tank Destroyer Designer - UNUSED (!) 
 		random = no
-		equipment_bonus = {
-			armor = {
-				ap_attack = 0.2 reliability = -0.1
-			}
-		}
+		equipment_bonus = { armor = {	armor_value = 0.05 ap_attack = 0.1 } }
 	}
+	
 	mass_tank_manufactuer = {
 		random = no
-		equipment_bonus = {
-			armor = {
-				build_cost_ic = -0.05 reliability = 0.05
-			}
-		}
+		equipment_bonus = {	armor = {	build_cost_ic = -0.05 reliability = 0.05 } }
 	} 
 	
-		cruiser_tank_manufacturer = { ## Cruiser Tank Designer
+	cruiser_tank_manufacturer = { ## Cruiser Tank Designer
 		random = no
-		equipment_bonus = {	armor = {	maximum_speed = 0.05 hard_attack = 0.05	}	}
+		equipment_bonus = {	armor = {	hard_attack = 0.05 maximum_speed = 0.05 	}	}
 	}	
-		cavalry_tank_manufacturer = { ## Cavalry Tank Designer
+	cavalry_tank_manufacturer = { ## Cavalry Tank Designer
 		random = no
-		equipment_bonus = {	armor = {	maximum_speed = 0.05 soft_attack = 0.05 }	}
+		equipment_bonus = {	armor = {	soft_attack = 0.05 maximum_speed = 0.05 }	}
 	}		
 	mbt_manufacturer = { ## Main Battle Tank Designer
 		random = no
-		equipment_bonus = {	armor = {	reliability = 0.05 hard_attack = 0.05 }	}
+		equipment_bonus = {	armor = {	hard_attack = 0.05 reliability = 0.05  }	}
 	}		
 		
 	brawler_tank_manufacturer = {  ## Heavy Tank Brawler Designer??
 		random = no
-		equipment_bonus = {	armor = { armor_value = 0.05	reliability = 0.1	}	}
+		equipment_bonus = {	armor = { reliability = 0.1	armor_value = 0.05	}	}
 	}		
 	
 	mobile_heavy_tank_manufacturer	 = { ## Mobile Heavy Tank Designer??
@@ -736,16 +730,11 @@ leader_traits = {
 		equipment_bonus = {	armor = { build_cost_ic = -0.05 maximum_speed = 0.05 }	}
 	}	
 	
-	
 	blitzkrieg_tank_manufacturer = { ##  ??????
 		random = no
 		equipment_bonus = {	armor = {	maximum_speed = 0.1  reliability = 0.05	}	}
 	}	
 
-	
-	
-
-	
 	fast_tank_manufacturer = {
 		random = no
 		equipment_bonus = {
@@ -759,7 +748,7 @@ leader_traits = {
 		random = no
 		equipment_bonus = {
 			armor = {
-				reliability = 0.05 soft_attack = 0.05
+				soft_attack = 0.05 reliability = 0.05 
 			}
 		}
 	}
@@ -768,21 +757,11 @@ leader_traits = {
 		random = no
 		equipment_bonus = {
 			armor = {
-				armor_value = 0.05 hard_attack = 0.05
+				 hard_attack = 0.05 armor_value = 0.05
 			}
 		}
 	}
-	
-	tank_manufacturer = {
-		random = no
-		#generic
 
-		equipment_bonus = {
-			armor = {
-				reliability = 0.05
-			}
-		}	}
-	
 	pacific_fleet_naval_manufacturer = { #longer ranged, CVs favor larger hangers over armor
 		random = no
 		equipment_bonus = {
@@ -933,13 +912,11 @@ leader_traits = {
 
 	construction_company = {
 		random = no
-
 		production_speed_infrastructure_factor = 0.1
 	}
 	
 	construction_company_2 = {
 		random = no
-
 		production_speed_buildings_factor = 0.1
 	}
 	
