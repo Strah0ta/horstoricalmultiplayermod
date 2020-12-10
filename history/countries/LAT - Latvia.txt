@@ -19,7 +19,6 @@ set_popularities = {
 }
 set_technology = {
 concentrated_industry = 1
-concentrated_industry2 = 1 
 dispersed_industry = 1 
 }
 create_country_leader = {

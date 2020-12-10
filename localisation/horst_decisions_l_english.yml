@@ -89,7 +89,7 @@
  SOV_prepare:0 "Deploy Conscripts"
  SOV_prepare_desc:0 "We will mobilize our reserves across Russia. This will mobilize §Y3.3 million men§! in the form of §W322 infantry divisions§!, requiring the following: §Y322k Infantry Equipment§!, and §Y6.4k Anti-Air§!. They will appear in key provinces in front of our main defensive line, the Stalin Line."
  GER_barbarossa_inf:0 "Prepare for Operation Barbarossa"
- GER_barbarossa_inf_desc:0 "We will deploy §W150 infantry divisions§!, requiring §Y1.5 million men§! and §Y150k Infantry Equipment§!."
+ GER_barbarossa_inf_desc:0 "We will deploy §W90 infantry divisions§!, requiring §Y1.8 million men§! and §Y180k Infantry Equipment§!."
  GER_dday:0 "Man the Atlantik Wall"
  GER_dday_desc:0 "We will deploy §W206 infantry divisions§! on the Atlantik Wall, requiring §Y2.3 million men§!."
  war_building_slot2:0 "Local Industrial Integration"

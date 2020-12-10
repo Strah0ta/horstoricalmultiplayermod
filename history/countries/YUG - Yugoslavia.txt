@@ -6,7 +6,6 @@ country_lock_all_division_template = yes
 set_convoys = 10
 set_technology = {
 concentrated_industry = 1
-concentrated_industry2 = 1 
 dispersed_industry = 1 
 }
 set_politics = {

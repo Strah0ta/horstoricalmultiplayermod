@@ -406,63 +406,22 @@ ideas = {
 	theorist = {	
 		giovanni_messe = {
 			ledger = army
-						
-			allowed = {
-				original_tag = ITA
-			}
-			
+			allowed = { original_tag = ITA	}
 			cost = 150
-			
-			research_bonus = {
-				cat_mobile_warfare = 0.15
-			}
-			
-			traits = { mobile_warfare_expert blitzkrieg_theorist }
+			research_bonus = { land_doctrine = 0.15 }
+			traits = {  blitzkrieg_theorist }
 		}
-		
-		rodolfo_graziani = {
-			ledger = army
-						
-			allowed = {
-				original_tag = ITA
-			}
-			
-			cost = 150
-						
-			research_bonus = {
-				land_doctrine = 0.1
-			}
-			
-			traits = { military_theorist }
-
-		}
-			amedeo_mecozzi = {
+		amedeo_mecozzi = {
 			ledger = air
-			
-			allowed = {
-				original_tag = ITA
-			}
-			
+			allowed = {	original_tag = ITA	}
 			cost = 250
-			
-			research_bonus = {
-				cat_operational_integrity = 0.15
-			}
-			
+			research_bonus = {	air_doctrine = 0.15  }
 			traits = { dive_bomber }
 		}
 		gaetano_crocco = {
 			ledger = air
-			
-			
-			allowed = {
-				original_tag = ITA
-			}
-						
-			research_bonus = {
-				rocketry = 0.15
-			}
-			
+			allowed = { original_tag = ITA	}		
+			research_bonus = { rocketry = 0.15 }
 			traits = { rocket_scientist }
 		}
 	}

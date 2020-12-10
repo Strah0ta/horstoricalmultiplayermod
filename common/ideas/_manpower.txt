@@ -59,8 +59,6 @@ ideas = {
 
 			available = {
 				NOT = { has_idea = undisturbed_isolation }
-				NOT = { has_idea = isolation }
-				NOT = { has_idea = undisturbed_isolation }
 				NOT = { has_idea = extensive_conscription    }
 				NOT = { has_idea = service_by_requirement    }
 				NOT = { has_idea = all_adults_serve    }

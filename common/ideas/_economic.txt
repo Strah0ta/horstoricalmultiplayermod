@@ -82,17 +82,13 @@ ideas = {
 		}
 		
 		war_economy = {
-					
 			available = {
 				has_war_support > 0.5
-								if = { limit = { original_tag = FRA } has_war = yes }
-
 				OR = {
 					has_government = fascism
 					has_war = yes
 				}
 			}
-		
 			cost = 150
 			removal_cost = -1
 			
@@ -161,7 +157,7 @@ ideas = {
 			}			
 			default = yes			
 			cancel_if_invalid = no
-						available = { NOT =  { tag = SOV }}
+			available = { NOT =  { tag = SOV }}
 		}
 		
 		limited_exports = {
