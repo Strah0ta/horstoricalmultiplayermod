@@ -104,7 +104,6 @@ ideas = {
 		
 		tot_economic_mobilisation = {		
 			available = {
-				has_war_support > 0.8
 					OR = { 
 						AND = { date > 1942.1.1 has_war_with = GER }
 						AND = { OR = { tag = USA tag = CAN tag = AST tag = NZL tag = RAJ tag = SAF tag = SOV tag = ENG } ENG = { has_capitulated = yes }}

@@ -102,7 +102,7 @@ NDefines.NBuildings.AIRBASE_CAPACITY_MULT = 100						 -- WAS 200, decreased beca
 NDefines.NBuildings.OWNER_CHANGE_EXTRA_SHARED_SLOTS_FACTOR = 1.0 -- You get all the factories in a territory when you annex it
 ---------------------------------------------------------------
 NDefines.NAir.AIR_WING_MAX_SIZE = 800                               -- this can be halved 3 times into 100 stacks (very convenient)
-NDefines.NAir.DETECT_CHANCE_FROM_AIRCRAFTS_EFFECTIVE_COUNT = 1000  -- WAS 3000, halved because plane counts halved | Max amount of aircrafts in region to give full detection bonus.
+NDefines.NAir.DETECT_CHANCE_FROM_AIRCRAFTS_EFFECTIVE_COUNT = 1000  -- WAS 3000, 1/3rd because plane counts are 1/3rd | Max amount of aircrafts in region to give full detection bonus.
 NDefines.NAir.CLOSE_AIR_SUPPORT_EXPERIENCE_SCALE = 0		-- WAS 0.0005 | How much the experinence gained by CAS is scaled
 NDefines.NAir.PARADROP_EXPERIENCE_SCALE = 0					-- WAS 0.03 | How much the experinence gained by paradropping is scaled
 NDefines.NAir.BOMBING_DAMAGE_EXPERIENCE_SCALE = 0       	   -- WAS 0.0002 | How much the experinence gained by bombing is scaled

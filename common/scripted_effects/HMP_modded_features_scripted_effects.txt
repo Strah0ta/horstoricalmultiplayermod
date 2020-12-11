@@ -22,6 +22,13 @@ if = { limit = { date > 1939.12.20 } add_to_variable = { var = FRA_legitimacy va
 if = { limit = { date > 1939.12.30 } add_to_variable = { var = FRA_legitimacy value = 5 } }
 }
 
+#IEA_generals_reform_focus = {
+
+
+
+
+#}
+
 FRA_legitimacy_casualties_counter = {
 	set_temp_variable = { AXIScasualtiesk = 0 }
 	add_to_temp_variable = { AXIScasualtiesk = ROM.casualties_k }
@@ -3353,21 +3360,20 @@ create_corps_commander = {
 ########ON ACTIONS##########
 
 HMP_startup_on_actions = {
-		SOV = { add_ideas = SOV_motorized_focus }
-		SWE = { country_event = { id = italy.602 }}  
-		118 = { add_state_modifier = { modifier = { max_dig_in = 30 } }  } 
-			if = {
-				limit = { has_game_rule = { rule = horst_manchukuo	option = HORST_ENABLE_MOD_MANCHUKUO	} }
-				MAN = { load_focus_tree = manchukuomod_focus } 
-			}
-				JAP  = { give_resource_rights = { receiver = GER state = 494 }	}
-				if = { limit = { MAN = { is_ai = yes } country_exists = MAN } JAP = { country_event = { id = japan.148 }}}
-				if = { limit = { NZL = { is_ai = yes } country_exists = NZL } AST = { country_event = { id = japan.758 }}}
-				if = { limit = { SAF = { is_ai = yes } country_exists = SAF } ENG = { country_event = { id = japan.678 }}}
-				if = { limit = { BUL = { is_ai = yes } NOT = { has_start_date > 1936.01.02  } } GER = { country_event = { id = japan.638  }}   }
-				if = { limit = { has_start_date > 1936.01.02 }  HMP_no_asia = yes      }
-				make_asia_go_faster = yes	bad_infra_state_effect = yes 	HFU_fuel_startup_effect = yes
-				if = { limit = { BUL = { has_focus_tree = bulgarian_no_dlc_focus }} BUL = { country_event = { id = italy.663  days = 1}}          }
+	SOV = { add_ideas = SOV_motorized_focus }
+	118 = { add_state_modifier = { modifier = { max_dig_in = 30 } }  } 
+	if = {	limit = { has_game_rule = { rule = horst_manchukuo	option = HORST_ENABLE_MOD_MANCHUKUO	} }	MAN = { load_focus_tree = manchukuomod_focus } 	}
+	JAP  = { give_resource_rights = { receiver = GER state = 494 }	}
+	if = { limit = { MAN = { is_ai = yes } country_exists = MAN } JAP = { country_event = { id = japan.148 }}}
+	if = { limit = { NZL = { is_ai = yes } country_exists = NZL } AST = { country_event = { id = japan.758 }}}
+	if = { limit = { SAF = { is_ai = yes } country_exists = SAF } ENG = { country_event = { id = japan.678 }}}
+	if = { limit = { BUL = { is_ai = yes } NOT = { has_start_date > 1936.01.02  } } GER = { country_event = { id = japan.638  }}   }
+	if = { limit = { has_start_date > 1936.01.02 }  HMP_no_asia = yes  }
+	HMP_script_generals = yes 
+	make_asia_go_faster = yes	
+	bad_infra_state_effect = yes 	
+	HFU_fuel_startup_effect = yes
+	if = { limit = { BUL = { has_focus_tree = bulgarian_no_dlc_focus }} BUL = { country_event = { id = italy.663  days = 1}} }
 }
 
 HMP_capitulations_on_actions = {

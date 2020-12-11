@@ -22,6 +22,11 @@ spriteTypes = {
 	}
 	
 	SpriteType = { 
+		name = "GFX_goal_ita_badoglio"
+		texturefile = "gfx/interface/goals/goal_ita_badoglio.dds"
+	}
+	
+	SpriteType = { 
 		name = "GFX_focus_bulgarisation"
 		texturefile = "gfx/interface/goals/focus_BUL_bulgarisation.dds"
 	}

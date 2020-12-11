@@ -99,7 +99,7 @@ equipments = {
 		#Offensive Abilities
 		ap_attack = 21
 		
-		build_cost_ic = 12
+		build_cost_ic = 11
 		resources = {
 			steel = 4
 			rubber = 1

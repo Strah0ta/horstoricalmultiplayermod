@@ -4,7 +4,7 @@ ideas = {
 			picture = generic_fighter_production_diverted
 			allowed = {	always = no	}
 			removal_cost = -1
-			modifier = { conscription = 0.2	}  
+			modifier = { conscription = 0.05	}  
 		}		
 				ETH_superior_firepower_mw2_idea = {		
 			picture = generic_fighter_production_diverted
