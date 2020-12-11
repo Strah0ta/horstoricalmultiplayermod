@@ -1062,15 +1062,9 @@ country_event = {
    title = italy.600.t
    desc = italy.600.d
    picture = GFX_report_event_german_italian_pact
-
    fire_only_once = yes
  is_triggered_only = yes
-   
-   
-      option = {
-   name = italy.600.a
-
-   }
+      option = {   name = italy.600.a }
    }
  
    
@@ -1082,12 +1076,10 @@ country_event = {
 
    fire_only_once = yes
  is_triggered_only = yes
-   
-   
+
       option = {
    name = italy.602.a
 		   every_country = { limit = { is_in_faction_with = GER } add_ideas = GER_the_blitzkrieg set_technology = { blitzkrieg_off = 1 popup = no } }
-
    }
    } 
  
