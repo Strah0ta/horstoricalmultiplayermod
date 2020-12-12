@@ -262,27 +262,6 @@
 	}
 
 	focus = {
-		id = efr_aviation_effort
-		icon = GFX_goal_generic_build_airforce
-		x = 3
-		y = 0
-		cost = 10
-
-		available_if_capitulated = yes
-
-		available = { NOT = { FRA = { has_capitulated = yes }}}
-
-		completion_reward = {
-			add_tech_bonus = {
-				name = air_doc_bonus
-				bonus = 1.0
-				uses = 3
-				category = air_doctrine
-			}
-		}
-	}
-
-	focus = {
 		id = efr_industrial_effort
 		icon = GFX_goal_generic_production
 		x = 5
@@ -890,8 +869,8 @@
 			add_tech_bonus = {
 				name = VIC_modernize_the_airforce
 				category = air_doctrine
-				bonus = 1
-				uses = 3
+				bonus = 3
+				uses = 1
 			}
 		}
 	} 

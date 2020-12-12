@@ -20,7 +20,8 @@ victory_points = {
 owner = ENG
 add_core_of=SWE
 buildings = {
-infrastructure = 4
+infrastructure = 5
+12002 = { naval_base = 5 }
 }
 }
 provinces={

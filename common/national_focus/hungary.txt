@@ -569,13 +569,7 @@ focus_tree = {
 
 		completion_reward = {
 			army_experience = 25
-			add_tech_bonus = {
-				name = HUN_theoretical_air_efforts
-				bonus = 1.0
-				uses = 1
-				category = air_doctrine
-			}
-					add_ideas = militarism_focus 
+			add_ideas = militarism_focus 
 		}
 	}
 
@@ -637,7 +631,7 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = HUN_establish_the_air_force
-				bonus = 1.0
+				bonus = 1
 				uses = 1
 				category = air_doctrine
 			}

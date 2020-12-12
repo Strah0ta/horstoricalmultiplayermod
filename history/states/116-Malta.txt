@@ -12,10 +12,11 @@ victory_points = {
 }
 buildings = {
 infrastructure = 3
-air_base = 3
+anti_air_building = 3
+air_base = 4
 12003 = {
 naval_base = 3
-coastal_bunker = 1
+coastal_bunker = 3
 }
 }
 }

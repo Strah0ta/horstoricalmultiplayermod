@@ -312,12 +312,6 @@
 				technology = advanced_light_tank
 				technology = improved_light_tank
 			}
-			add_tech_bonus = {
-				name = FRA_air_ground_cooperation
-				category = air_doctrine
-				uses = 1
-				bonus = 1
-			}
 		}
 	}
 	focus = {
@@ -1217,8 +1211,8 @@ recalc_vichy_france_legitimacy = yes
 			add_tech_bonus = {
 				name = FRA_air_ground_cooperation
 				category = air_doctrine
-				uses = 2
-				bonus = 1
+				uses = 1
+				bonus = 3
 			}
 		}
 	}

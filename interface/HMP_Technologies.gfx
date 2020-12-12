@@ -13,6 +13,23 @@ spriteTypes = {
 		texturefile = "gfx/interface/division_3d_bg_inv.dds"
 	}		
 	
+		SpriteType = {
+		name = "GFX_jungletroops3_medium"
+		texturefile = "gfx/interface/technologies/jungletroops3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_jungletroops2_medium"
+		texturefile = "gfx/interface/technologies/jungletroops2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_jungletroops_medium"
+		texturefile = "gfx/interface/technologies/jungletroops.dds"
+	}
+
+
+	
 			SpriteType = {
 		name = "GFX_SOV_sov_fighter2_medium"
 		texturefile = "gfx/interface/technologies/SOV_fighter2.dds"

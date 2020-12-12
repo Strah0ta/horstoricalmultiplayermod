@@ -396,6 +396,13 @@
 					instant_build = yes
 				}
 			}
+						521 = {
+				set_building_level = {
+					type = air_base
+					level = 4
+					instant_build = yes
+				}
+			}
 			add_tech_bonus = {
 				name = AST_expand_northern_presence
 				bonus = 1.0
@@ -530,62 +537,9 @@
 					instant_build = yes
 				}
 			}
-
-			add_tech_bonus = {
-				name = AST_death_from_down_under
-				bonus = 1.0
-				uses = 1
-				category = air_doctrine
-			}
 		}
 	}
 
-	focus = {
-		id = AST_womens_auxilliary_australian_air_force
-		icon = GFX_goal_generic_build_airforce
-		prerequisite = { focus = AST_volunteer_air_observers_corps focus = AST_naval_bombers }
-		x = 0
-		y = 3
-		relative_position_id = AST_expand_the_raaf
-
-		cost = 5
-
-		completion_reward = {
-			add_tech_bonus = {
-				name = AST_expand_the_raaf
-				bonus = 1.0
-				uses = 1
-				category = air_doctrine
-			}		}
-	}
-
-	focus = {
-		id = AST_dominate_the_skies
-		icon = GFX_goal_generic_air_doctrine
-		prerequisite = { focus = AST_womens_auxilliary_australian_air_force }
-		x = 0
-		y = 4
-		relative_position_id = AST_expand_the_raaf
-
-		cost = 5
-
-
-		completion_reward = {
-			521 = {
-				set_building_level = {
-					type = air_base
-					level = 4
-					instant_build = yes
-				}
-			}
-			add_tech_bonus = {
-				name = AST_expand_the_raaf
-				bonus = 1.0
-				uses = 1
-				category = air_doctrine
-			}
-		}
-	}
 
 	############################
 	###### NAVY SECTION ########

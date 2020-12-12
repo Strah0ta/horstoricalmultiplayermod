@@ -607,9 +607,8 @@ add_equipment_production = {
 		y = 2
 		relative_position_id = air_rearmament_focus
 		cost = 5
-		available = { date > 1940.6.1 }
 		available_if_capitulated = yes
-
+		available = { date > 1940.2.1 }
 		completion_reward = {
 			add_ideas = british_fighter_discount
 			USA = { add_ideas = british_fighter_discount }
@@ -920,38 +919,13 @@ add_equipment_production = {
 		prerequisite = { focus = uk_service_focus }
 
 		icon = GFX_goal_generic_construct_military
-		x = 3
-		y = 2  
+		x = 2
+		y = 1
 		relative_position_id = uk_service_focus
+		available = { threat > 0.2 }
 		cost = 5
 		completion_reward = {
-		if = { limit = { ENG_has_fortify_the_empire = yes } ENG_fortify_the_empire_level_up = yes }
-		else = { add_ideas = ENG_fortify_the_empire_1 } 
-		447 = {
-				set_building_level = {
-					type = coastal_bunker
-					level = 5
-					province = 4076
-					instant_build = yes
-				}
-				add_building_construction = {
-					type = naval_base
-					level = 2
-					province = 4076
-					instant_build = yes
-				}
-					add_building_construction = {
-					type = naval_base
-					level = 15
-					province = 4073
-					instant_build = yes
-				}				
-				add_building_construction = {
-					type = anti_air_building
-					level = 3
-					instant_build = yes
-				}
-			}
+		 add_ideas = ENG_fortify_the_empire_1 
 
 						118 = {
 			add_building_construction = {
@@ -978,26 +952,31 @@ add_equipment_production = {
 				}
 			}
 			
-			
-						116 = {
-				add_extra_state_shared_building_slots = 1
-				set_building_level = {
-					type = coastal_bunker
-					level = 3
-					province = 12003
-					instant_build = yes
-				}
+						551 = {
 				set_building_level = {
 					type = air_base
-					level = 4
+					level = 20
 					instant_build = yes
 				}
 				add_building_construction = {
-					type = anti_air_building
-					level = 3
+					type = infrastructure
+					level = 4
+					instant_build = yes
+				}	
+				add_building_construction = {
+					type = naval_base
+					province = 12725
+					level = 12	
+					instant_build = yes
+				}				
+			}	
+			456 = {
+				set_building_level = {
+					type = air_base
+					level = 16
 					instant_build = yes
 				}
-			}
+			}	
 		}
 	}
 
@@ -1013,7 +992,7 @@ add_equipment_production = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_ideas = { ENG_colonial_elite }
+			add_ideas =  ENG_colonial_elite 
 		}
 	}
 
@@ -1030,22 +1009,13 @@ add_equipment_production = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-		if = { limit = { ENG_has_fortify_the_empire = yes } ENG_fortify_the_empire_level_up = yes }
-		else = { add_ideas = ENG_fortify_the_empire_1 }  
-					
 			336 = {
-					add_extra_state_shared_building_slots = 2
+					add_extra_state_shared_building_slots = 1
 					add_building_construction = {
 							type = dockyard
 							level = 1
 							instant_build = yes
 					}
-						add_building_construction = {
-					type = infrastructure
-					level = 2
-					instant_build = yes
-				}
-							
 				set_building_level = {
 					type = coastal_bunker
 					province = {
@@ -1055,7 +1025,6 @@ add_equipment_production = {
 					level = 2
 					instant_build = yes
 				}
-
 				set_building_level = {
 					type = coastal_bunker
 					province = {
@@ -1065,21 +1034,14 @@ add_equipment_production = {
 					level = 4
 					instant_build = yes
 				}
-				
-								set_building_level = {
+				set_building_level = {
 					type = coastal_bunker
 					province = 12299
 					level = 5
 					instant_build = yes
 				}							
 			}
-					333 = {
-					add_building_construction = {
-					type = naval_base
-					level = 5
-					province = 10240
-					instant_build = yes
-				}
+			333 = { 
 				set_building_level = {
 					type = coastal_bunker
 					province = {
@@ -1089,8 +1051,6 @@ add_equipment_production = {
 					level = 2
 					instant_build = yes
 				}
-
-				
 				set_building_level = {
 					type = coastal_bunker
 					province = {
@@ -1100,14 +1060,9 @@ add_equipment_production = {
 					level = 4
 					instant_build = yes
 				}
-				set_building_level = {
-					type = air_base
-					level = 4
-					instant_build = yes
-				}
 			}
 			326 = {
-					add_extra_state_shared_building_slots = 2
+					add_extra_state_shared_building_slots = 1
 					add_building_construction = {
 							type = industrial_complex
 							level = 1
@@ -1124,231 +1079,10 @@ add_equipment_production = {
 					level = 4
 					instant_build = yes
 				}
-			
-				set_building_level = {
-					type = air_base
-					level = 4
-					instant_build = yes
-				}
 			}	
-			307 = {
-				set_building_level = {
-					type = air_base
-					level = 4
-					instant_build = yes
-				}
-			}
-						334 = {
-				set_building_level = {
-					type = air_base
-					level = 4
-					instant_build = yes
-				}
-			}
-			321 = {
-				set_building_level = {
-					type = air_base
-					level = 4
-					instant_build = yes
-				}
-				add_building_construction = {
-					type = naval_base
-					level = 5
-					province = 12268
-					instant_build = yes
-				}
-			}
 		}
 	}
 
-	focus = {
-		id = uk_africa_focus
-		prerequisite = { focus = uk_service_focus }	
-
-		icon = GFX_goal_generic_construct_civilian
-		x = 2
-		y = 1
-		relative_position_id = uk_service_focus
-		cost = 5
-
-		available_if_capitulated = yes
-
-		completion_reward = { 
-					if = { limit = { ENG_has_fortify_the_empire = yes } ENG_fortify_the_empire_level_up = yes }
-		else = { add_ideas = ENG_fortify_the_empire_1 } 
-			551 = {
-				set_building_level = {
-					type = air_base
-					level = 16
-					instant_build = yes
-				}
-				add_building_construction = {
-					type = infrastructure
-					level = 4
-					instant_build = yes
-				}	
-				add_building_construction = {
-					type = naval_base
-					province = 12725
-					level = 12	
-					instant_build = yes
-				}				
-			}	
-			
-			549 = {
-				add_building_construction = {
-					type = infrastructure
-					level = 4
-					instant_build = yes
-				}	
-				set_building_level = {
-					type = air_base
-					level = 4
-					instant_build = yes
-				}		
-			}	
-			456 = {
-				add_building_construction = {
-					type = infrastructure
-					level = 1
-					instant_build = yes
-				}
-				set_building_level = {
-					type = air_base
-					level = 16
-					instant_build = yes
-				}
-					add_building_construction = {
-					type = naval_base
-					province = 12002
-					level = 5
-					instant_build = yes
-				}
-			}				
-		}
-	}
-	focus = {
-		id = uk_levant_focus
-		prerequisite = { focus = uk_mediterranean_focus }	
-
-		icon = GFX_goal_generic_construct_civilian
-		x = -1
-		y = 1
-		relative_position_id = uk_mediterranean_focus
-		cost = 5
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-		ENG_fortify_the_empire_level_up = yes
-			454 = {
-				set_building_level = {
-					type = air_base
-					level = 4
-					instant_build = yes
-				}
-				add_building_construction = {
-					type = infrastructure
-					level = 1
-					instant_build = yes
-				}		
-			}	
-						183 = {
-				set_building_level = {
-					type = air_base
-					level = 4
-					instant_build = yes
-				}
-				add_building_construction = {
-					type = coastal_bunker
-					level = 4
-					province = 7193
-					instant_build = yes
-				}	
-				add_building_construction = {
-					type = coastal_bunker
-					level = 4
-					province = 11984
-					instant_build = yes
-				}	
-				add_building_construction = {
-					type = anti_air_building
-					level = 3
-					instant_build = yes
-				}					
-			}
-					453 = {
-								set_building_level = {
-					type = air_base
-					level = 4
-					instant_build = yes
-				}
-				add_building_construction = {
-					type = infrastructure
-					level = 2
-					instant_build = yes
-				}	
-	add_building_construction = {
-					type = naval_base
-					province = 10099
-					level = 3	
-					instant_build = yes
-				}				
-			}				
-			
-			455 = {
-				set_building_level = {
-					type = air_base
-					level = 4
-					instant_build = yes
-				}
-				add_building_construction = {
-					type = infrastructure
-					level = 1
-					instant_build = yes
-				}		
-			}			
-		}
-	}
-	
-	focus = {
-		id = uk_sumeria_focus
-		prerequisite = { focus = uk_mediterranean_focus }	
-
-		icon = GFX_goal_generic_construct_civilian
-		x = 1
-		y = 1
-		relative_position_id = uk_mediterranean_focus
-		cost = 5
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-		ENG_fortify_the_empire_level_up = yes
-				138 = {
-					set_building_level = {
-						type = air_base
-						level = 4
-						instant_build = yes
-					}	
-				}
-				294 = {
-					set_building_level = {
-						type = air_base
-						level = 4
-						instant_build = yes
-					}	
-				}
-							574 = {
-					set_building_level = {
-						type = air_base
-						level = 4
-						instant_build = yes
-					}	
-				}
-			}
-			}
-	
 	focus = {
 		id = ENG_british_commonwealth_air_training_plan
 		prerequisite = { focus = uk_colonial_focus }
@@ -1488,6 +1222,13 @@ add_equipment_production = {
 		}
 		completion_reward = {
 		CAN = { transfer_state = 38 }
+		every_state = { limit = { is_core_of = ENG }    
+				set_building_level = {
+					type = air_base
+					level = 8
+					instant_build = yes
+				}
+		}
 		
 create_field_marshal = {
 	name = "Bernard Montgomery" # Aristocrat

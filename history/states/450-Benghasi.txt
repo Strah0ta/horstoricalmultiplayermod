@@ -7,16 +7,16 @@ history={
 owner = ITA
 add_core_of=SWE
 victory_points = {
-11954 50
+11954 20
 }
 victory_points = {
-1127 50
+1127 20
 }
 buildings = {
-infrastructure = 3
-air_base = 1
+infrastructure = 8
+air_base = 4
 11954 = {
-naval_base = 1
+naval_base = 15
 }
 }
 }

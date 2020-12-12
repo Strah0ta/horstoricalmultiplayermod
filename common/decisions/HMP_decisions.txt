@@ -1600,6 +1600,8 @@ hidden_effect = {
 	planning_skill = 6
 	logistics_skill = 8
 }
+
+
 create_corps_commander = {
 	name = "Lloyd Fredendall"
 	picture = "Portrait_USA_Lloyd_Fredendall.dds"
@@ -1616,7 +1618,23 @@ create_corps_commander = {
 				EFR = { set_technology = { mtg_transport = 1 } } 
 			}	
 		}
+			prepare_husky = {  
+	    icon = generic_civil_support 
+        allowed = {   original_tag = ENG    }
+        cost = 0
+        fire_only_once = yes
+        available = {	controls_state = 448	}
 		
+		complete_effect = {
+			448 = {     
+			set_building_level = {
+					type = air_base
+					level = 20
+					instant_build = yes
+			}
+			}
+		}
+		}
 			deploy_egypt = {   
 	    icon = generic_civil_support 
         allowed = {   original_tag = ENG    }
@@ -2146,7 +2164,7 @@ hidden_effect = {
 	ITA_annex_bul = {
 	icon = generic_operation
 			available = {	BUL = { is_ai = yes }	date > 1940.6.1 	}
-			visible = { NOT = {  has_start_date > 1936.01.02    } }
+			visible = { NOT = {  has_start_date > 1936.01.02    } country_exists = BUL }
 			allowed = {	tag = ITA	}
 			fire_only_once = yes
 			cost = 0
@@ -3274,8 +3292,9 @@ JAP_interservice_rivalry = {
 		fire_only_once = yes
 		days_remove = -1
 		modifier = {
-			conscription = 0.02
-		}
+			industrial_capacity_factory = 0.05
+			industrial_capacity_dockyard = 0.05
+			}
 		complete_effect = {
 			set_country_flag = { flag = JAP_war_conferences_cd value = 1 days = 90 }
 			JAP_interservice_rivalry_towards_army = yes

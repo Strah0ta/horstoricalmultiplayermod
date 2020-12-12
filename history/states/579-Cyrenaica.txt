@@ -6,11 +6,12 @@ state_category = wasteland
 history={
 owner = ITA
 add_core_of=SWE
-victory_points = { 1130 40 }
+victory_points = { 1130 20 }
 victory_points = {	10120 1 }
-victory_points = {	1204 15 }
+victory_points = {	1204 5 }
 buildings = {
-infrastructure = 1
+infrastructure = 5
+air_base = 4
 1130 = {
 naval_base = 6
 }

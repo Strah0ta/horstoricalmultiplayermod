@@ -532,13 +532,12 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				production_speed_bunker_factor = 0.1
-				production_speed_coastal_bunker_factor = 0.1
-				production_speed_naval_base_factor = 0.1
-				production_speed_infrastructure_factor = 0.1
-				production_speed_radar_station_factor = 0.1
-				production_speed_anti_air_building_factor = 0.1
-				#production_speed_air_base_factor = 0.1
+				production_speed_bunker_factor = 0.5
+				production_speed_coastal_bunker_factor = 0.5
+				production_speed_naval_base_factor = 0.5
+				production_speed_infrastructure_factor = 0.5
+				production_speed_radar_station_factor = 0.5
+				production_speed_anti_air_building_factor = 0.5
 			}
 		}
 

@@ -22,7 +22,6 @@ set_variable = { germany_war_army_core_attack_factor = 0 }
 set_variable = { germany_war_army_core_defence_factor = 0 }			
 
 set_technology = {
-air_superiority = 1
 	#basic_machine_tools = 1
 	scout_plane1 = 1
 	infantry_weapons = 1

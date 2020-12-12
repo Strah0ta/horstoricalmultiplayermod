@@ -7,6 +7,7 @@ owner = HOL
 add_core_of=SWE
 buildings = {
 infrastructure = 1
+air_base = 4 
 4579 = {
 naval_base = 1
 }

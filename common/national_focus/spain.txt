@@ -445,26 +445,6 @@ focus_tree = {
 	}
 
 	focus = {
-		id = SPA_expand_the_air_branch
-		prerequisite = { focus = SPA_equipment_modernization }		
-		icon = GFX_goal_generic_air_doctrine
-		x = 0
-		y = 2
-		relative_position_id = SPA_equipment_modernization
-		cost = 10
-		available_if_capitulated = yes
-		search_filters = {FOCUS_FILTER_RESEARCH}
-		completion_reward = {
-			add_tech_bonus = {
-				name = SPA_expand_the_air_branch
-				bonus = 1.0
-				uses = 2
-				category = air_doctrine
-			}
-		}
-	}
-
-	focus = {
 		id = SPA_expand_the_special_forces
 		prerequisite = { focus = SPA_equipment_modernization }
 		
@@ -890,7 +870,7 @@ focus_tree = {
 			}
 			add_tech_bonus = {
 				name = SPA_doctrinal_advancements
-				bonus = 1.0
+				bonus = 3
 				uses = 1
 				category = air_doctrine
 			}

@@ -21,7 +21,7 @@ add_core_of=SWE
 buildings = {
 infrastructure = 10
 industrial_complex = 2
-air_base = 4
+air_base = 8
 12213 = {
 naval_base = 1
 }
@@ -29,7 +29,7 @@ naval_base = 1
 naval_base = 1
 }
 10265 = {
-naval_base = 5
+naval_base = 7
 }
 }
 victory_points = {

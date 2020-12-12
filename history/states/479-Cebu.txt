@@ -13,6 +13,7 @@ owner = USA
 add_core_of=SWE
 buildings = {
 infrastructure = 3
+air_base = 4 
 12118 = {
 naval_base = 10
 }

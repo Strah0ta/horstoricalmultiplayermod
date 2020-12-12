@@ -131,7 +131,7 @@ on_actions = {
 						add_war_support = 0.1
 						}
 					GER = {  country_event = { id = france.14 }}
-					if = { limit = { country_exists = JAP } JAP = { transfer_state = 497 transfer_state = 397 transfer_state = 286 transfer_state = 498 transfer_state = 493 } }
+					if = { limit = { country_exists = JAP } JAP = { transfer_state = 497 transfer_state = 286 transfer_state = 498 transfer_state = 493 } }
 
 					}				
 			if = {

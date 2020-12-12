@@ -262,33 +262,12 @@ focus_tree = {
 	}
 
 	focus = {
-		id = nor_aviation_effort_2
-		icon = GFX_goal_generic_air_doctrine
-		prerequisite = { focus = nor_aviation_effort  }
+		id = nor_rocket_effort
+		icon = GFX_focus_rocketry
+		prerequisite = { focus = nor_aviation_effort }
 		x = 0
 		y = 1
 		relative_position_id = nor_aviation_effort
-		cost = 5
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_tech_bonus = {
-				name =  air_doc_bonus
-				bonus = 1.0
-				uses = 1
-				category = air_doctrine
-			}
-		}
-	}
-
-	focus = {
-		id = nor_rocket_effort
-		icon = GFX_focus_rocketry
-		prerequisite = { focus = nor_aviation_effort_2 }
-		x = 0
-		y = 1
-		relative_position_id = nor_aviation_effort_2
 		cost = 10
 
 		available_if_capitulated = yes

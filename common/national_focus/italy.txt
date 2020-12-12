@@ -464,75 +464,6 @@ date > 1941.6.1
 	}	
 	
 	focus = {
-		id = ITA_libyan_infrastructure
-		icon = GFX_goal_generic_construct_civilian
-		text = ITA_libyan_infrastructure
-		prerequisite = { focus = ITA_libyan_refineries }
-		x = 0
-		y = 1
-		relative_position_id = ITA_libyan_refineries
-		cost = 5
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			450  = {
-					add_building_construction = {
-						type = infrastructure
-						level = 5
-						instant_build = yes
-					}
-						add_building_construction = {
-						type = naval_base
-						level = 14
-						province = 11954
-						instant_build = yes
-					}
-	set_building_level = {
-						type = air_base
-						level = 4
-						instant_build = yes
-					}
-				}
-						579  = {
-					add_building_construction = {
-						type = infrastructure
-						level = 4
-						instant_build = yes
-					}
-	set_building_level = {
-						type = air_base
-						level = 4
-						instant_build = yes
-					}
-				}
-			449 = {
-					add_building_construction = {
-						type = infrastructure
-						level = 2
-						instant_build = yes
-					}
-				}
-			448 = {
-					add_building_construction = {
-						type = infrastructure
-						level = 1
-						instant_build = yes
-					}
-					add_building_construction = {
-						type = naval_base
-						level = 10
-						province = 1149
-						instant_build = yes
-					}
-			}
-			
-		}
-	}		
-
-		
-
-	focus = {
 		id = ITA_army_primacy
 		icon = GFX_goal_ITA_Regio_Esercito_2
 		x = 5
@@ -654,7 +585,7 @@ date > 1941.6.1
 		icon = GFX_goal_ita_triumph
 		prerequisite = { focus = ITA_special_forces }
 		x = 0
-		y = 2
+		y = 1
 		relative_position_id = ITA_special_forces
 		cost = 10
 		available_if_capitulated = yes
@@ -751,7 +682,7 @@ date > 1941.6.1
 			add_tech_bonus = {
 				name = air_doc_bonus
 				bonus = 1.0
-				uses = 2
+				uses = 1
 				category = air_doctrine
 			}
 		}
@@ -895,7 +826,7 @@ date > 1941.6.1
 			add_tech_bonus = {
 				name = air_doc_bonus
 				bonus = 1.0
-				uses = 2
+				uses = 1
 				category = air_doctrine
 			}
 		}

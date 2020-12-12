@@ -16,10 +16,13 @@ victory_points = {
 }
 buildings = {
 infrastructure = 4
-air_base = 1
+air_base = 4
+anti_air_building = 3
 7193 = {
 naval_base = 2
+coastal_bunker = 4
 }
+11984 = {  coastal_bunker = 4  }
 }
 }
 provinces= { 7193 11984 }

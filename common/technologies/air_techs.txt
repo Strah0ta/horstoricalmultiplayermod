@@ -850,6 +850,52 @@ technologies = {
 		
 	}
 	
+	
+	
+	day_bombing = {
+		# EFFECT ########
+		air_strategic_bomber_bombing_factor = 0.25
+		###########
+
+		XOR = {
+			night_bombing
+		}
+
+		research_cost = 2
+		start_year = 1936
+		doctrine = yes
+
+		categories = {
+			air_doctrine
+		}
+
+		folder = {
+			name = air_techs_folder
+			position = { x = 21 y = 11 }
+		}
+	}
+
+	night_bombing = {
+		air_strategic_bomber_night_penalty = -0.5
+
+		XOR = {
+			day_bombing
+		}
+		 		research_cost = 2
+		start_year = 1936
+		doctrine = yes
+		categories = {
+			air_doctrine
+		}
+
+		folder = {
+			name = air_techs_folder
+			position = { x = 17 y = 11 }
+		}
+	}
+	
+	
+	
 	suicide_craft = {
 
 		enable_equipments = {

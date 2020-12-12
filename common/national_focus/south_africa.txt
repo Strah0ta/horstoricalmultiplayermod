@@ -713,13 +713,27 @@ focus_tree = {
 	focus = {
 		id = SAF_commit_to_the_five_year_plan
 		icon = GFX_goal_generic_build_airforce
-		x = 16
+		x = 15
 		y = 0	
 
 		cost = 5
 
 		completion_reward = {
 			297 = {
+				set_building_level = {
+					type = air_base
+					level = 4
+					instant_build = yes
+				}
+			}
+								487 = {
+				set_building_level = {
+					type = air_base
+					level = 4
+					instant_build = yes
+				}
+			}
+								275 = {
 				set_building_level = {
 					type = air_base
 					level = 4
@@ -736,66 +750,9 @@ focus_tree = {
 	}
 
 	focus = {
-		id = SAF_perfect_the_cab_rank_technique
-		icon = GFX_goal_generic_air_doctrine
-		prerequisite = { focus = SAF_commit_to_the_five_year_plan }
-		x = 0
-		y = 1
-		relative_position_id = SAF_commit_to_the_five_year_plan
-
-		cost = 5
-
-
-
-		completion_reward = {
-					487 = {
-				set_building_level = {
-					type = air_base
-					level = 4
-					instant_build = yes
-				}
-			}
-			add_tech_bonus = {
-				name = SAF_perfect_the_cab_rank_technique
-				bonus = 1.0
-				uses = 1
-				category = air_doctrine
-			}
-		}
-	}
-
-	focus = {
-		id = SAF_retain_experienced_pilots
-		icon = GFX_goal_generic_air_doctrine
-		prerequisite = { focus = SAF_perfect_the_cab_rank_technique  }
-		x = 0
-		y = 1
-		relative_position_id = SAF_perfect_the_cab_rank_technique
-
-		cost = 5
-
-
-		completion_reward = {
-					275 = {
-				set_building_level = {
-					type = air_base
-					level = 4
-					instant_build = yes
-				}
-			}
-			add_tech_bonus = {
-				name = SAF_retain_experienced_pilots
-				bonus = 1.0
-				uses = 1
-				category = air_doctrine
-			}
-		}
-	}
-
-	focus = {
 		id = SAF_seaward_defence_force
 		icon = GFX_goal_generic_navy_doctrines_tactics
-		x = 19
+		x = 17
 		y = 0		
 
 		cost = 5

@@ -2,49 +2,24 @@ technologies = {
 	### GERMAN TANK NAMES IN COMMENTS SO YOU CAN FIND STUFF MORE EASILY
 	
 	blitzkrieg_on = {
-	allow = { always = no }
-				motorized = {
-					max_strength = 5 
-				}
-				mechanized = {
-					max_strength = 6
-				}
-				amphibious_mechanized = {
-					max_strength = 6 
-				}
-				light_armor = {
-					max_strength = 3
-				}
-				medium_armor = {
-					max_strength = 3
-				}	
-				heavy_armor = {
-					max_strength = 3
-				}	
+		allow = { always = no }
+		motorized = { max_strength = 5 }
+		mechanized = { max_strength = 6 }
+		amphibious_mechanized = { max_strength = 6 }
+		light_armor = { max_strength = 3 }
+		medium_armor = { max_strength = 3 }	
+		heavy_armor = { max_strength = 3 }	
 	}
 	
 	
 	blitzkrieg_off = {
 		allow = { always = no }
-				motorized = {
-					max_strength = -5
-				}
-				mechanized = {
-					max_strength = -6
-				}
-				amphibious_mechanized = {
-					max_strength = -6
-				}
-				light_armor = {
-					max_strength = -3
-				}
-				medium_armor = {
-					max_strength = -3
-				}	
-				heavy_armor = {
-					max_strength = -3
-				}	
-	
+		motorized = { max_strength = -5 }
+		mechanized = { max_strength = -6 }
+		amphibious_mechanized = { max_strength = -6 }
+		light_armor = { max_strength = -3 }
+		medium_armor = { max_strength = -3 }	
+		heavy_armor = { max_strength = -3 }	
 	}
 	
 	gwtank = { #Leichttraktor

@@ -1149,6 +1149,13 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
+						464 = {
+				set_building_level = {
+					type = air_base
+					level = 4
+					instant_build = yes
+				}
+			}
 			add_tech_bonus = {
 				name = CAN_rcaf_station_borden
 				bonus = 1.0
@@ -1189,32 +1196,6 @@ focus_tree = {
 		}
 	}
 
-	focus = {
-		id = CAN_commonwealth_air_training_plan
-		icon = GFX_goal_generic_build_airforce
-		prerequisite = { focus = CAN_the_pacific_coast_air_defence_radar_system  }
-		x = 0
-		y = 2
-		relative_position_id = CAN_rcaf_station_borden
-
-		cost = 5
-
-		completion_reward = {
-			464 = {
-				set_building_level = {
-					type = air_base
-					level = 4
-					instant_build = yes
-				}
-			}
-			add_tech_bonus = {
-				name = CAN_commonwealth_air_training_plan
-				bonus = 1.0
-				uses = 1
-				category = air_doctrine
-			}
-		}
-	}
 
 	############################
 	###### NAVY SECTION ########

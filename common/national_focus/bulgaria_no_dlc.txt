@@ -529,10 +529,9 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			air_experience = 25
 			add_tech_bonus = {
 				name = air_doc_bonus
-				bonus = 1
+				bonus = 2
 				uses = 1
 				category = air_doctrine
 			}
@@ -604,16 +603,10 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_tech_bonus = {
-				name = "Research Treaty with Italy"
-				bonus = 1
-				uses = 1
-				category = air_doctrine
-			}
 						add_tech_bonus = {
 				name = "Research Treaty with Italy"
 				bonus = 1
-				uses = 1
+				uses = 5
 				category = naval_doctrine
 			}
 				add_tech_bonus = {
@@ -629,7 +622,7 @@ focus_tree = {
 		id = BUL_bulgarian_research_committee
 		icon = GFX_focus_research
 		prerequisite = { focus = BUL_research_treaty_with_italy }
-		x = -1
+		x = 0
 		y = 1
 		relative_position_id = BUL_research_treaty_with_italy
 		cost = 5
@@ -642,35 +635,15 @@ focus_tree = {
 	}
 
 
-	focus = {
-		id = BUL_air_innovations
-		icon = GFX_goal_generic_air_doctrine
-		prerequisite = { focus = BUL_research_treaty_with_italy }
-		x = 1
-		y = 1
-		relative_position_id = BUL_research_treaty_with_italy
-		cost = 5
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_tech_bonus = {
-				name = air_doc_bonus
-				bonus = 1
-				uses = 1
-				category = air_doctrine
-			}
-		}
-	}
 
 	focus = {
 		id = BUL_skywalkers
 		icon = GFX_focus_generic_paratrooper
 		
-		prerequisite = { focus = BUL_air_innovations  focus = BUL_bulgarian_research_committee		}
-		x = -1
+		prerequisite = {   focus = BUL_bulgarian_research_committee		}
+		x = 0
 		y = 1
-		relative_position_id = BUL_air_innovations
+		relative_position_id = BUL_bulgarian_research_committee
 		cost = 5
 
 		available_if_capitulated = yes
