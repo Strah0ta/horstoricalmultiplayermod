@@ -1,10 +1,10 @@
 DIPLOMACY_LEND_LEASE_ENABLE_TRIGGER = {
-if = { limit = {FROM = { tag = FRA   } }  			FRA = { has_country_flag = france_is_kill }  } 
-if = { limit = {FROM = { tag = NOR   } }  			 NOR = { has_country_flag = france_is_kill }  } 
-if = { limit = {ROOT = { OR = { tag = JAP tag = MAN  } } }			NOT = { FROM = { the_axis = yes  } } }
+if = { limit = {FROM = { tag = FRA   } }  FRA = { has_country_flag = france_is_kill }  } 
+if = { limit = {FROM = { tag = NOR   } }  NOR = { has_country_flag = france_is_kill }  } 
+if = { limit = {ROOT = { OR = { tag = JAP tag = MAN  } } }	NOT = { FROM = { the_axis = yes  } } }
 if = { limit = {ROOT = { the_axis = yes  } } 	NOT = { FROM = { OR = { tag = MAN tag = JAP } } } }
 NOT = { ROOT = { OR = { tag = SOV tag = FIN tag = EFR tag = ETH } } } #LL potentially breaks many of these nations in balance
-NOT = { FROM = { OR = {  tag = SOV  tag = FIN tag = EFR tag = ETH} } } #LL potentially breaks many of these nations in balance
+NOT = { FROM = { OR = { tag = SOV tag = FIN tag = EFR tag = ETH } } } #LL potentially breaks many of these nations in balance
 }
 
 DIPLOMACY_INCOMING_LEND_LEASE_ENABLE_TRIGGER = {	
@@ -26,9 +26,11 @@ NOT = { FROM = { OR = {  has_tech = grand_battle_plan_mp has_tech = operational_
 DIPLOMACY_GENERATE_WARGOAL_ENABLE_TRIGGER = { always = no }
  
 DIPLOMACY_SEND_VOLUNTEERS_ENABLE_TRIGGER = {
- ROOT = { original_tag = EFR  }
- if = { limit = {ROOT = { TAG = EFR } }	FROM = { TAG = GER }  }
-} 
+ ROOT = { original_tag = EFR  } FROM = { TAG = GER }  
+}  
+
+#DIPLOMACY_CALL_ALLY_ENABLE_TRIGGER = { always = no } #I want to block this and make it done through decisions instead
+#DIPLOMACY_JOIN_ALLY_ENABLE_TRIGGER = { always = no } #I want to block this and make it done through decisions instead
 
 DIPLOMACY_REQUEST_ACCESS_TO_LICENCE_PRODUCTION_ENABLE_TRIGGER = { 
     if = { limit = {   ROOT = {  the_axis = yes  }  }   FROM = { the_axis = yes 	}  }

@@ -7,6 +7,7 @@ history={
 owner = ENG
 add_core_of=SWE
 buildings = {
+air_base = 4
 infrastructure = 5
 }
 victory_points = {

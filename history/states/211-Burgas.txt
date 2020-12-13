@@ -30,6 +30,7 @@ state={
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 2
+						air_base = 4
 			9783 = {
 				naval_base = 3
 			}
@@ -37,12 +38,11 @@ state={
 				naval_base = 1
 			}
 		}
-				1936.1.2 = { 
+		1936.1.2 = { 
 				buildings = {
 			infrastructure = 6
 			arms_factory = 0
 			industrial_complex = 0
-			air_base = 4
 		}
 		}
 		add_core_of = BUL

@@ -8,6 +8,7 @@ victory_points = {
 7005 1
 }
 buildings = {
+air_base = 4
 infrastructure = 3
 }
 }

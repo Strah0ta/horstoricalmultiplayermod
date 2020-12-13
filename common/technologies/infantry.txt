@@ -769,20 +769,13 @@ technologies = {
 	}
 	
 		jungletroops = {
-
-		enable_subunits = {
-			jungletroop
-		}
-
+		allow = { jungle_nations = yes }
+		enable_subunits = {	jungletroop	}
 		on_research_complete_limit = {
-				#NOT = {
-				#	has_template_containing_unit = jungletroop
-				#}
+				#NOT = { has_template_containing_unit = jungletroop }
 		}
 		on_research_complete = {
-			#hidden_effect = {
-			#	load_oob = "unlock_jungletroops"
-			#}
+			#hidden_effect = { load_oob = "unlock_jungletroops" }
 			#custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
 		}
 

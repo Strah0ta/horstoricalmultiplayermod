@@ -26,7 +26,7 @@ set_technology = {
 set_convoys = 50
 add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 60000 }
 add_ideas = { 
-	extensive_conscription
+	service_by_requirement
 	armyandnavy_idea
 }
 set_politics = {

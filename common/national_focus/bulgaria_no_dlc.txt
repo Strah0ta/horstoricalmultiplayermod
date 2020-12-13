@@ -538,46 +538,15 @@ focus_tree = {
 		}
 	}
 
-	focus = {
-		id = BUL_vrazhdebna_airfield
-		icon = GFX_goal_generic_occupy_start_war
-		prerequisite = { focus = BUL_rearm_airforce }
-		x = 0
-		y = 1
-		cost = 5
-		relative_position_id = BUL_rearm_airforce
-
-		completion_reward = {
-			48 = {
-				set_building_level = {
-					type = air_base
-					level = 4
-				}
-			}
-						212 = {
-				set_building_level = {
-					type = air_base
-					level = 4
-				}
-			}
-						211 = {
-				set_building_level = {
-					type = air_base
-					level = 4
-				}
-			}			
-		}
-	}
 
 	focus = {
 		id = BUL_anti_air_defence_of_sofia
 		icon = GFX_goal_generic_construction
-		prerequisite = { focus = BUL_vrazhdebna_airfield }
-		relative_position_id = BUL_vrazhdebna_airfield
+		prerequisite = { focus = BUL_rearm_airforce }
 		x = -2
 		y = 1
 		cost = 5
-
+		relative_position_id = BUL_rearm_airforce
 		available_if_capitulated = no
 
 		completion_reward = {
@@ -594,11 +563,11 @@ focus_tree = {
 	focus = {
 		id = BUL_research_treaty_with_italy
 		icon = GFX_goal_generic_scientific_exchange
-	 	prerequisite = { focus = BUL_vrazhdebna_airfield }
+		prerequisite = { focus = BUL_rearm_airforce }
 		x = 0
 		y = 1
-		relative_position_id = BUL_vrazhdebna_airfield
 		cost = 5
+		relative_position_id = BUL_rearm_airforce
 
 		available_if_capitulated = yes
 
