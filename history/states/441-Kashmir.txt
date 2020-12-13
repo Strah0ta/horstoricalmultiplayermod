@@ -15,6 +15,7 @@ state={
 		}
 		owner = RAJ
 		buildings = {
+		air_base = 4
 			infrastructure = 2
 			industrial_complex = 1
 		}

@@ -16,7 +16,7 @@ buildings = {
 infrastructure = 4
 air_base = 3
 4329 = {
-naval_base = 3
+naval_base = 5
 }
 12237 = {
 naval_base = 2

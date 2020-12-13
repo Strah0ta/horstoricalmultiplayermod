@@ -957,18 +957,7 @@ add_equipment_production = {
 					type = air_base
 					level = 20
 					instant_build = yes
-				}
-				add_building_construction = {
-					type = infrastructure
-					level = 4
-					instant_build = yes
-				}	
-				add_building_construction = {
-					type = naval_base
-					province = 12725
-					level = 12	
-					instant_build = yes
-				}				
+				}			
 			}	
 			456 = {
 				set_building_level = {
@@ -1309,35 +1298,33 @@ create_field_marshal = {
 		completion_reward = {
 			add_war_support = 0.05
 			# Ipswich
+			447 = {
+					set_building_level = {
+						type = naval_base
+						level = 5
+						province = 4073
+						instant_build = yes
+					}
+			}			
 			125 = {
-				if = {
-					limit = { is_controlled_by = ROOT }
-					#Plymouth
 					set_building_level = {
 						type = coastal_bunker
 						level = 3
 						province = 271
 						instant_build = yes
 					}
-				}
 			}
 			# Greater London Area
 			126 = {
-				if = {
-					limit = { is_controlled_by = ROOT }
-					#London
 					set_building_level = {
 						type = coastal_bunker
 						level = 3
 						province = 11374
 						instant_build = yes
 					}
-				}
 			}
 			# Sussex
 			127 = {
-				if = {
-					limit = { is_controlled_by = ROOT }
 					#Dover
 					set_building_level = {
 						type = coastal_bunker
@@ -1353,11 +1340,8 @@ create_field_marshal = {
 						instant_build = yes
 					}
 				}								
-			}
 			# Cornwall
 			123 = {
-				if = {
-					limit = { is_controlled_by = ROOT }
 					#Plymouth
 					set_building_level = {
 						type = coastal_bunker
@@ -1365,7 +1349,6 @@ create_field_marshal = {
 						province = 540
 						instant_build = yes
 					}
-				}
 			}
 		}
 	}

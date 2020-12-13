@@ -506,7 +506,7 @@ focus_tree = {
 	
 	focus = {
 		id = SPA_national_recovery
-		available = {	date > 1939.4.1 	}
+		available = {	date > 1939.1.1 	}
 		
 		icon = GFX_goal_generic_consumer_goods
 		x = 18

@@ -407,7 +407,6 @@ focus_tree = {
 		relative_position_id = USA_arsenal_of_democracy
 		cost = 5
 		completion_reward = {
-			army_experience = 10
 			361 = {
 				add_extra_state_shared_building_slots = 5
 				add_building_construction = {
@@ -472,7 +471,6 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
-			army_experience = 10			
 		}
 	}
 
@@ -923,7 +921,7 @@ transfer_state = 38
 		available_if_capitulated = no
 
 		completion_reward = {
-			army_experience = 25
+			army_experience = 50
 			add_tech_bonus = {
 				name = USA_louisiana_maneuvers
 				bonus = 1.0
@@ -1052,30 +1050,13 @@ transfer_state = 38
 			show_ideas_tooltip = tank_destroyer_board
 		}
 	}
-	focus = {
-		id = USA_main_battle_tanks
-		icon = GFX_focus_generic_combined_arms
-		x = 4
-		y = 3
-		prerequisite = { focus = USA_tank_experiments }
-		relative_position_id = USA_selective_training_act
-		cost = 5
 
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			custom_effect_tooltip = available_designer
-			show_ideas_tooltip = detroit_arsenal
-		}
-	}
 	focus = {
 		id = USA_armored_infantry
 		icon = GFX_goal_generic_build_tank
-		x = 2
-		y = 4
-		prerequisite = { focus = USA_main_battle_tanks focus = USA_tank_destroyer_doctrine }
+		x = 4
+		y = 3
+		prerequisite = { focus = USA_tank_experiments }
 		relative_position_id = USA_selective_training_act
 		cost = 5
 

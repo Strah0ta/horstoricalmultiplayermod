@@ -67,11 +67,6 @@ focus_tree = {
 
 		cost = 10
 
-		available = {
-			GER = { has_completed_focus = GER_integrate_war_economies 	}
-			}
-
-
 		completion_reward = {
 		if = { limit = { NOT = {  OR = { has_idea = ROM_opel has_idea = ROM_opel has_idea = ROM_malaxa has_idea = ROM_cugir has_idea = ROM_resita  }}}  add_ideas = ROM_opel }
 			add_relation_modifier = {
@@ -491,73 +486,32 @@ focus_tree = {
 			}
 		}
 	}
-	
-	############################
-	######## AIR BRANCH ########
-	############################
-
 	focus = {
 		id = ROM_expand_the_air_force
 		icon = GFX_goal_generic_build_airforce
-		x = 11
+		x = 9
 		y = 0
 
 		cost = 5
 
 
 		completion_reward = {
-	46 = {
-				set_building_level = {
-					type = air_base
-					level = 4
-					instant_build = yes
-				}
-			}
-				79 = {
-				set_building_level = {
-					type = air_base
-					level = 4
-					instant_build = yes
-				}
-			}
-				77 = {
-				set_building_level = {
-					type = air_base
-					level = 4
-					instant_build = yes
-				}
-			}
-		}
-	}
-
-
-	focus = {
-		id = ROM_local_development
-		icon = GFX_goal_generic_air_production
-		prerequisite = { focus = ROM_expand_the_air_force }
-		x = 0
-		y = 1
-		relative_position_id = ROM_expand_the_air_force
-
-		cost = 5
-
-		completion_reward = {
-			add_tech_bonus = {
+		add_tech_bonus = {
 				name = ROM_air_superiority
 				bonus = 3
 				uses = 1
 				category = air_doctrine
 			}
-			}
+		}
 	}
 
 	focus = {
 		id = ROM_air_superiority
 		icon = GFX_goal_generic_air_fighter2
-		prerequisite = { focus = ROM_local_development  }
+		prerequisite = { focus = ROM_expand_the_air_force  }
 		x = 0
 		y = 1
-		relative_position_id = ROM_local_development
+		relative_position_id = ROM_expand_the_air_force
 
 		cost = 5
 
@@ -579,10 +533,10 @@ focus_tree = {
 	focus = {
 		id = ROM_army_maneuvers
 		icon = GFX_goal_generic_army_doctrines
-		x = 15
+		x = 13
 		y = 0
 
-		cost = 10
+		cost = 5
 
 		completion_reward = {
 					add_tech_bonus = {
@@ -633,35 +587,14 @@ focus_tree = {
 			}
 		}
 	}
-
 	focus = {
-		id = ROM_artillery_modernization
-		icon = GFX_goal_generic_army_artillery2
+		id = ROM_modern_at_guns
+		icon = GFX_goal_generic_army_artillery
+
 		prerequisite = { focus = ROM_the_zb_53 focus = ROM_reserve_divisions }
 		x = 1
 		y = 1
 		relative_position_id = ROM_the_zb_53
-
-		cost = 5
-
-		completion_reward = {
-			add_tech_bonus = {
-				name = ROM_artillery_modernization
-				bonus = 1.0
-				uses = 2
-				category = artillery
-			}
-		}
-	}
-
-	focus = {
-		id = ROM_modern_at_guns
-		icon = GFX_goal_generic_army_artillery
-		prerequisite = { focus = ROM_artillery_modernization }
-		x = 1
-		y = 2
-		relative_position_id = ROM_the_zb_53
-
 		cost = 5
 
 		completion_reward = {
@@ -675,9 +608,30 @@ focus_tree = {
 	}
 
 	focus = {
+		id = ROM_artillery_modernization
+		icon = GFX_goal_generic_army_artillery2
+		prerequisite = { focus = ROM_modern_at_guns }
+		x = 0
+		y = 1
+		relative_position_id = ROM_modern_at_guns
+
+		cost = 5
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = ROM_artillery_modernization
+				bonus = 1.0
+				uses = 2
+				category = artillery
+			}
+		}
+	}
+
+
+	focus = {
 		id = ROM_mountain_artillery
 		icon = GFX_goal_generic_production
-		prerequisite = { focus = ROM_artillery_modernization }
+		prerequisite = { focus = ROM_modern_at_guns }
 		prerequisite = { focus = ROM_vanatori_de_munte }
 		x = -1
 		y = 2
@@ -711,7 +665,7 @@ focus_tree = {
 		focus = {
 		id = ROM_expand_the_galati_shipyards
 		icon = GFX_goal_generic_construct_naval_dockyard
-		x = 13
+		x = 11
 		y = 0
 		cost = 5
 
@@ -741,7 +695,7 @@ focus_tree = {
 			add_tech_bonus = {
 				name = ROM_expand_the_marine_regiment
 				bonus = 1.0
-				uses = 2
+				uses = 3
 				category = tp_tech
 				category = marine_tech
 			}

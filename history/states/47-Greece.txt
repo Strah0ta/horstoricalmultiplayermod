@@ -17,15 +17,15 @@ state={
 		victory_points = {
 			3973 3
 		}
-		#victory_points = {
-		#	863 1
-		#}
-		#victory_points = {
-		#	3864 3
-		#}
-		#victory_points = {
-		#	976 1
-		#}
+		victory_points = {
+			863 1
+		}
+		victory_points = {
+			3864 3
+		}
+		victory_points = {
+			976 1
+		}
 		victory_points = {
 			7127 3
 		}
@@ -33,10 +33,9 @@ state={
 			3988 1
 		}
 
-
-
 		buildings = {
 			infrastructure = 6
+			air_base = 4
 						arms_factory = 3
 						4109 = {
 				naval_base = 9

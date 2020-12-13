@@ -10,6 +10,7 @@ victory_points = {
 12137 1
 }
 buildings = {
+air_base = 4
 infrastructure = 5
 industrial_complex = 1
 }

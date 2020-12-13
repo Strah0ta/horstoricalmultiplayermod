@@ -8,6 +8,7 @@ owner = ITA
 add_core_of=SWE
 buildings = {
 infrastructure = 5
+air_base = 4
 }
 }
 provinces={

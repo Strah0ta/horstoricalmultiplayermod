@@ -10,6 +10,7 @@ history={
 owner = RAJ
 add_core_of=RAJ
 buildings = {
+air_base = 4
 infrastructure = 4
 arms_factory = 1
 }

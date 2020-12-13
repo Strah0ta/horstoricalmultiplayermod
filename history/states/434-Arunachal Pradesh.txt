@@ -10,6 +10,7 @@ history={
 owner = RAJ
 add_core_of=RAJ
 buildings = {
+air_base = 4
 infrastructure = 1
 }
 				1936.1.2 = {
