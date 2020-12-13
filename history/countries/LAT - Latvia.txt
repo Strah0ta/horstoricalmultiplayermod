@@ -1,7 +1,5 @@
 ﻿capital = 12
-
 set_research_slots = 0
-
 set_convoys = 10
 add_ideas = ai_imiter 
 country_lock_all_division_template = yes
@@ -27,9 +25,7 @@ create_country_leader = {
 	picture = "GFX_Portrait_latvia_karlis_ulmanis"
 	expire = "1965.1.1"
 	ideology = oligarchism
-	traits = {
-		#
-	}
+	traits = {	}
 }
 
 
@@ -39,7 +35,5 @@ create_country_leader = {
 	picture = "GFX_portrait_lat_fricis_menders"
 	expire = "1965.1.1"
 	ideology = socialism
-	traits = {
-		#
-	}
+	traits = {	}
 }

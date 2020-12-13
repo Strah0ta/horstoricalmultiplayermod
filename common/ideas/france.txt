@@ -1218,26 +1218,6 @@ ideas = {
 
 			traits = { medium_tank_manufacturer }
 		}
-		FRA_panhard = {
-			
-
-			available = {
-				
-			}
-
-						
-			allowed = {
-				original_tag = FRA
-				has_dlc = "La Resistance"
-			}
-						
-			research_bonus = {
-				armor = 0.15
-			}
-			
-
-			traits = { armored_car_manufacturer }
-		}
 	}
 	
 	materiel_manufacturer = {

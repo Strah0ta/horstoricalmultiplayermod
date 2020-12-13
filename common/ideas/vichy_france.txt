@@ -338,26 +338,7 @@ ideas = {
 
 			traits = { medium_tank_manufacturer }
 		}
-		EFR_panhard = {
-			
 
-			available = {
-				
-			}
-
-						
-			allowed = {
-				original_tag = EFR
-				has_dlc = "La Resistance"
-			}
-						
-			research_bonus = {
-				armor = 0.15
-			}
-			
-
-			traits = { armored_car_manufacturer }
-		}
 	}
 	
 	materiel_manufacturer = {

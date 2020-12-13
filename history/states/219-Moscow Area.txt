@@ -12,14 +12,14 @@ state={
 
 	history={
 		owner = SOV
-		victory_points = { 6380 60 	}
-		victory_points = { 7916 5 	}
-		victory_points = { 5082 5 	}
-		victory_points = { 12769 5 	}
-		victory_points = { 8090 5 	}
-		victory_points = { 12831 5 	}
-		victory_points = { 10789 5 	}
-		victory_points = { 1995 5 	}
+		victory_points = { 6380 55 	}
+		victory_points = { 7916 1 	}
+		victory_points = { 5082 1 	}
+		victory_points = { 12769 1 	}
+		victory_points = { 8090 1 	}
+		victory_points = { 12831 1 	}
+		victory_points = { 10789 1 	}
+		victory_points = { 1995 1 	}
 
 		buildings = {
 			infrastructure = 8
