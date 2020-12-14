@@ -13,7 +13,7 @@ victory_points = {
 153 1
 }
 buildings = {
-fuel_silo = 5
+fuel_silo = 3
 infrastructure = 6
 153 = {
 naval_base = 1

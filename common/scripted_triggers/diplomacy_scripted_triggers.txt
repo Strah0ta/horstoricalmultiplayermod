@@ -29,8 +29,8 @@ DIPLOMACY_SEND_VOLUNTEERS_ENABLE_TRIGGER = {
  ROOT = { original_tag = EFR  } FROM = { TAG = GER }  
 }  
 
-#DIPLOMACY_CALL_ALLY_ENABLE_TRIGGER = { always = no } #I want to block this and make it done through decisions instead
-#DIPLOMACY_JOIN_ALLY_ENABLE_TRIGGER = { always = no } #I want to block this and make it done through decisions instead
+DIPLOMACY_CALL_ALLY_ENABLE_TRIGGER = { always = no } #I want to block this and make it done through decisions instead
+DIPLOMACY_JOIN_ALLY_ENABLE_TRIGGER = { always = no } #I want to block this and make it done through decisions instead
 
 DIPLOMACY_REQUEST_ACCESS_TO_LICENCE_PRODUCTION_ENABLE_TRIGGER = { 
     if = { limit = {   ROOT = {  the_axis = yes  }  }   FROM = { the_axis = yes 	}  }

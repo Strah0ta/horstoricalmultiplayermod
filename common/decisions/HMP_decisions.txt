@@ -1404,6 +1404,24 @@ hidden_effect = {
 			custom_effect_tooltip = GER_annex_spain_tt
 		}
 	}
+	
+	
+		ITA_join_the_war = { 
+	 	available = { date > 1940.1.1 } 
+				allowed = {	original_tag = ITA }
+				fire_only_once = yes
+				cost = 0	
+				complete_effect = { ITA = { add_to_war = { targeted_alliance = ROOT	enemy = ENG	} } ETH = { add_to_war = { targeted_alliance = ROOT	enemy = ENG	} } news_event = { id = news.3998 } }
+			}
+			USA_join_the_war = { 
+	 	available = { OR = { date > 1940.11.1 uk_needs_help = yes } } 
+				allowed = {	original_tag = USA }
+				fire_only_once = yes
+				cost = 0	
+				complete_effect = { USA = { add_to_war = { targeted_alliance = ROOT	enemy = GER	} } add_ideas = war_economy activate_decision = war_bonds add_political_power = -200 }
+			}		
+			
+			
 	GER_dday = { 
 	 	available = {   
 			GER = { has_full_control_of_state = 19 has_full_control_of_state = 6 has_full_control_of_state = 7 has_full_control_of_state = 35 has_full_control_of_state = 142  has_full_control_of_state = 23 has_full_control_of_state = 30 has_full_control_of_state = 14 has_full_control_of_state = 15 has_full_control_of_state = 29 has_full_control_of_state = 99  } 
@@ -1544,6 +1562,7 @@ hidden_effect = {
 				add_unit_leader_trait = fleet_protector
 				add_unit_leader_trait = destroyer_leader
 				add_unit_leader_trait = green_water_expert
+				add_unit_leader_trait = concealment_expert
             }
 
 		}

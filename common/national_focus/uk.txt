@@ -490,35 +490,14 @@ add_equipment_production = {
 		cost = 5
 
 		completion_reward = {
-			122 = {
-				set_building_level = {
+		every_state = { limit = { is_core_of = ENG  air_base < 4 }
+		 set_building_level = {
 					type = air_base
 					level = 4
 					instant_build = yes
-				}
-			}
-			338 = {
-				set_building_level = {
-					type = air_base
-					level = 4
-					instant_build = yes
-				}
-			}
-			132 = {
-				set_building_level = {
-					type = air_base
-					level = 4
-					instant_build = yes
-				}
-			}
-			136	 = {
-				set_building_level = {
-					type = air_base
-					level = 4
-					instant_build = yes
-				}
-			}
-						119	 = {
+				 }
+		}
+			119	 = {
 				set_building_level = {
 					type = air_base
 					level = 16

@@ -969,8 +969,9 @@ recalc_vichy_france_legitimacy = yes
 				}
 		
 		bypass = {
-		OR = { controls_state = 554
-		has_war_with = EFR }
+		OR = { NOT = { EFR = {controls_state = 554  }}
+		has_war_with = EFR 
+		}
 		}
 
 		available_if_capitulated = yes
