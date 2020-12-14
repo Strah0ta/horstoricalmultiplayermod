@@ -959,6 +959,14 @@ add_equipment_production = {
 					instant_build = yes
 				}			
 			}	
+					447 = {
+				set_building_level = {
+				province = 4073
+					type = naval_base
+					level = 5
+					instant_build = yes
+				}			
+			}	
 			456 = {
 				set_building_level = {
 					type = air_base
@@ -1211,6 +1219,7 @@ add_equipment_production = {
 		}
 		completion_reward = {
 		CAN = { transfer_state = 38 }
+		add_to_faction = CAN
 		every_state = { limit = { is_core_of = ENG }    
 				set_building_level = {
 					type = air_base

@@ -1,7 +1,6 @@
 ideas = {
 
 	hidden_ideas = {
-
 		continuous_naval_production = {
 			allowed = {
 				always = no
@@ -13,22 +12,12 @@ ideas = {
 			
 			removal_cost = -1
 			
-			modifier = {
-				industrial_capacity_dockyard = 0.2
-			}
+			modifier = { industrial_capacity_dockyard = 0.2 }
 		}
 	}
 
 	# Special ones that can be applied on other countries through focus system.
 	country = {
-		warbonds_a = {
-            allowed = {    always = no     }
-            removal_cost = -1
-            picture = generic_goods_red_bonus
-            modifier = {
-				consumer_goods_factor = -0.05
-            }
-		}
 				ai_imiter = {
             allowed = {    always = no     }
 			available = { date < 1941.1.1 }
@@ -41,13 +30,6 @@ ideas = {
             }
 		}
 		
-				warbonds_b = {
-            allowed = {   always = no  }
-            removal_cost = -1
-            picture = generic_goods_red_bonus
-            modifier = {	stability_factor = -0.3  }
-			}	
-
 			armyandnavy_idea_usa = {	 
 			picture = YUG_federal_defense_council
 			allowed = {	always = no	}	
@@ -62,9 +44,7 @@ ideas = {
 			armyandnavy_idea = { 
 			
 			picture = YUG_federal_defense_council
-			allowed = {
-				always = no
-			}
+			allowed = { always = no }
 			
 			available = { AND = { has_war = no is_ai = no } }
 			removal_cost = -1
@@ -90,19 +70,11 @@ ideas = {
 			}
 		}
 	war_plan_silver = {
-	allowed = {
-				always = yes
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-			
+	allowed = {	always = yes	}
+			allowed_civil_war = {	always = yes	}
 			removal_cost = -1
-
 			picture = generic_infantry_bonus
 			
-		
 			targeted_modifier = {
 			tag = ITA
 			attack_bonus_against = 0.1
@@ -129,9 +101,7 @@ ideas = {
 			picture = generic_infantry_bonus
 			
 		
-			modifier = {
-			war_support_factor = 0.1
-		}
+			modifier = {	war_support_factor = 0.1	}
 	}
 	
 		war_plan_black = {
@@ -197,8 +167,6 @@ ideas = {
 			modifier = {	consumer_goods_factor = -0.05		}
 	}
 	
-
-
 		special_forces = {
 			allowed = {
 				always = no
@@ -215,46 +183,6 @@ ideas = {
 			modifier = {
 			special_forces_attack_factor = 0.05 
 			special_forces_defence_factor = 0.05
-			}
-		}
-		
-		collectivist_ethos_focus = {
-			
-		
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				has_government = communism
-			}
-		
-			removal_cost = -1
-
-			picture = generic_pp_unity_bonus
-
-			modifier = {
-				democratic_drift = -0.02
-			}
-		}
-	
-		liberty_ethos_focus = {
-			
-			
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				has_government = democratic
-			}
-			
-			removal_cost = -1
-
-			picture = generic_democratic_drift_bonus
-	
-			modifier = {
-				trade_opinion_factor = 0.2
 			}
 		}
 	
@@ -275,117 +203,6 @@ ideas = {
 	
 			modifier = {
 				conscription = 0.05
-			}
-		}
-	
-		military_youth_focus = {
-			
-			
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				OR = {
-					has_government = communism
-					has_government = fascism
-				}
-			}
-			
-			removal_cost = -1
-
-			picture = generic_manpower_bonus
-	
-			modifier = {
-				conscription = 0.02
-			}
-		}
-	
-		paramilitarism_focus = {
-			
-			
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				OR = {
-					has_government = communism
-					has_government = fascism
-				}
-			}
-			
-			removal_cost = -1
-
-			picture = generic_infantry_bonus
-	
-			modifier = {
-				training_time_army_factor = -0.1
-			}
-		}
-	
-		indoctrination_focus = {
-			
-			
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				OR = {
-					has_government = communism
-					has_government = fascism
-				}
-			}
-			
-			removal_cost = -1
-
-			picture = generic_pp_unity_bonus
-	
-			modifier = {
-				stability_factor = 0.05
-			}
-		}
-	
-		ideological_fanaticism_focus = {
-			
-			
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-			
-			removal_cost = -1
-
-			picture = generic_pp_unity_bonus
-	
-			modifier = {
-				war_support_factor = 0.05
-				army_core_attack_factor = 0.1
-				army_core_defence_factor = 0.1
-			}
-		}
-	
-		political_commissars_focus = {
-			
-			
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				has_government = communism
-			}
-			
-			removal_cost = -1
-
-			picture = generic_morale_bonus
-	
-			modifier = {
-				army_morale_factor = 0.1
 			}
 		}
 		
@@ -509,25 +326,6 @@ ideas = {
 				army_org_factor = 0.02
 				planning_speed = 0.10
 			}
-		}
-		idea_weapons_for_the_resistance = {
-
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-			
-			removal_cost = -1
-
-			picture = chi_war_of_resistance3
-			
-			modifier = {
-				resistance_growth_on_our_occupied_states = 0.1 
-				resistance_damage_to_garrison_on_our_occupied_states = 0.25 
-			}
 		}	
 	}
 
@@ -571,7 +369,7 @@ ideas = {
 	
 		generic_industrial_concern = {
 			picture = generic_industrial_concern_1
-			allowed = { OR = { tag = CAN tag = SAF tag = RAJ tag = FIN tag = ETH  tag = NOR }	}
+			allowed = { OR = { tag = CAN tag = SAF tag = ALB tag = RAJ tag = FIN tag = ETH  tag = NOR }	}
 			cost = 150
 			research_bonus = { industry = 0.15	}
 			traits = { industrial_concern }
@@ -579,7 +377,7 @@ ideas = {
 
 		generic_electronics_concern = {
 			picture = generic_electronics_concern_1
-			allowed = {  OR = { tag = SAF tag = RAJ tag = FIN tag = ETH tag = NZL tag = ROM  tag = HUN}	}
+			allowed = {  OR = { tag = SAF tag = RAJ tag = ALB tag = FIN tag = ETH tag = NZL tag = ROM  tag = HUN}	}
 			cost = 150
 			research_bonus = {	electronics = 0.15	}	
 			traits = { electronics_concern }
@@ -590,14 +388,14 @@ ideas = {
 		designer = yes
 		generic_motorized_equipment_manufacturer = {	
 			picture = generic_motorized_equipment_manufacturer_3
-			allowed = {  OR = { tag = CAN tag = SAF tag = RAJ tag = FIN tag = ETH tag = AST   tag = HUN }	}
+			allowed = {  OR = { tag = CAN tag = ALB tag = SAF tag = RAJ tag = FIN tag = ETH tag = AST   tag = HUN }	}
 			cost = 150
 			research_bonus = {	motorized_equipment = 0.15	}
 			traits = { motorized_equipment_manufacturer }
 		}
 		generic_infantry_equipment_manufacturer = {
 			picture = generic_infantry_equipment_manufacturer_2
-			allowed = {  OR = { tag = SAF tag = FIN tag = ETH  tag = NZL   }	}			
+			allowed = {  OR = { tag = SAF tag = ALB tag = FIN tag = ETH  tag = NZL   }	}			
 			cost = 150
 			research_bonus = { infantry_weapons = 0.15 }
 			traits = { infantry_equipment_manufacturer }
@@ -605,7 +403,7 @@ ideas = {
 		
 		generic_artillery_manufacturer = {
 			picture = generic_artillery_manufacturer_2
-			allowed = {  OR = { tag = CAN tag = SAF tag = FIN tag = ETH tag = AST  tag = NZL   tag = HUN }	}			
+			allowed = {  OR = { tag = CAN tag = SAF tag = ALB tag = FIN tag = ETH tag = AST  tag = NZL   tag = HUN }	}			
 			cost = 150
 			research_bonus = {	artillery = 0.15	}
 			traits = { artillery_manufacturer }

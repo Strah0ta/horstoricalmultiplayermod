@@ -134,6 +134,7 @@ bookmarks = {
 			}
 		}		
 				"ETH"={
+							minor = yes
 			#history = "ROM_GATHERING_STORM_DESC"
 			ideology = fascism
 			ideas = {
@@ -142,6 +143,7 @@ bookmarks = {
 			}
 		}	
 				"EFR"={
+							minor = yes
 			#history = "ROM_GATHERING_STORM_DESC"
 			ideology = fascism
 			ideas = {
@@ -150,6 +152,7 @@ bookmarks = {
 			}
 		}	
 						"FIN"={
+									minor = yes
 			#history = "ROM_GATHERING_STORM_DESC"
 			ideology = neutrality
 			ideas = {

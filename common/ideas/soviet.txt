@@ -783,7 +783,7 @@ ideas = {
 			traits = { brawler_tank_manufacturer }
 			modifier = {	}
 		}		
-		chelyabinskiy_traktornyy = {
+		avtomobilnoe_moskovskoe = {
 			allowed = { original_tag = SOV }
 			research_bonus = {	armor = 0.15	}
 			traits = { light_tank_manufacturer }

@@ -917,22 +917,22 @@ recalc_vichy_france_legitimacy = yes
 		relative_position_id = FRA_appeal_to_overseas_territories
 		
 		cost = 5
-
+		bypass = {
+		OR = { controls_state = 445
+		has_war_with = EFR }
+		}
 		available = {
 		OR = {
 check_variable = {  FRA_legitimacy > 80  }
 		date > 1941.8.5
 		}
-						custom_trigger_tooltip = {
+					custom_trigger_tooltip = {
 					tooltip = "Has at least 80 legitimacy"
 					check_variable = { FRA_legitimacy > 80 }
 				}
 }		
 		
-		bypass = {
-		OR = { controls_state = 272
-		has_war_with = EFR }
-		}
+		
 		available_if_capitulated = yes
 		search_filters = { FOCUS_FILTER_ANNEXATION }
 		completion_reward = {
@@ -977,6 +977,7 @@ recalc_vichy_france_legitimacy = yes
 		search_filters = { FOCUS_FILTER_ANNEXATION }
 		completion_reward = {
 		transfer_state = 554
+		554 = { set_demilitarized_zone = no }
 		recalc_vichy_france_legitimacy = yes 
 		}
 	}
@@ -998,14 +999,8 @@ recalc_vichy_france_legitimacy = yes
 		cost = 5
 
 		available = {
-		OR = {
-		check_variable = {  FRA_legitimacy > 20  }
-		date > 1940.3.5
-		}		
-						custom_trigger_tooltip = {
-					tooltip = "Has at least 20 legitimacy"
-					check_variable = { FRA_legitimacy > 20 }
-				}
+		OR = { check_variable = {  FRA_legitimacy > 20  } date > 1940.3.5 }		
+		custom_trigger_tooltip = {	tooltip = "Has at least 20 legitimacy" check_variable = { FRA_legitimacy > 20 } }
 		}
 		
 		bypass = {

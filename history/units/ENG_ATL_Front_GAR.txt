@@ -1,0 +1,610 @@
+﻿
+			division_template = {
+					name = "Atlantic Colonial Garrison"
+					regiments = {
+						infantry = { x = 0 y = 0 } infantry = { x = 1 y = 0 } infantry = { x = 2 y = 0 }
+						infantry = { x = 0 y = 1 } infantry = { x = 1 y = 1 } infantry = { x = 2 y = 1 }
+						infantry = { x = 0 y = 2 } infantry = { x = 1 y = 2 } infantry = { x = 2 y = 2 }
+						infantry = { x = 0 y = 3 }
+					}
+					support = {  anti_air = { x = 0 y = 1 } artillery = { x = 0 y = 2 }   }
+				}
+
+
+units = { 
+			division= {	
+		location = 1751
+		division_template = "Atlantic Colonial Garrison"
+		start_experience_factor = 0.3
+		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
+		}		
+			division= {	
+		location = 1751
+		division_template = "Atlantic Colonial Garrison"
+		start_experience_factor = 0.3
+		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
+		}				
+			division= {	
+		location = 1751
+		division_template = "Atlantic Colonial Garrison"
+		start_experience_factor = 0.3
+		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
+		}			
+			division= {	
+		location = 1751
+		division_template = "Atlantic Colonial Garrison"
+		start_experience_factor = 0.3
+		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
+		}			
+				division= {	
+		location = 13003
+		division_template = "Atlantic Colonial Garrison"
+		start_experience_factor = 0.3
+		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
+		}		
+				division= {	
+		location = 13003
+		division_template = "Atlantic Colonial Garrison"
+		start_experience_factor = 0.3
+		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
+		}		
+					division= {	
+		location = 13003
+		division_template = "Atlantic Colonial Garrison"
+		start_experience_factor = 0.3
+		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
+		}		
+					division= {	
+		location = 13003
+		division_template = "Atlantic Colonial Garrison"
+		start_experience_factor = 0.3
+		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
+		}		
+	division= {	
+			location = 12674
+		division_template = "Atlantic Colonial Garrison"
+		start_experience_factor = 0.3
+		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
+		}		
+				division= {	
+		location = 12674
+		division_template = "Atlantic Colonial Garrison"
+		start_experience_factor = 0.3
+		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
+		}		
+					division= {	
+		location = 12674
+		division_template = "Atlantic Colonial Garrison"
+		start_experience_factor = 0.3
+		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
+		}		
+					division= {	
+		location = 12674
+		division_template = "Atlantic Colonial Garrison"
+		start_experience_factor = 0.3
+		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
+		}			
+						division= {	
+		location = 12689
+		division_template = "Atlantic Colonial Garrison"
+		start_experience_factor = 0.3
+		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
+		}		
+					division= {	
+		location = 12689
+		division_template = "Atlantic Colonial Garrison"
+		start_experience_factor = 0.3
+		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
+		}		
+							division= {	
+		location = 4861
+		division_template = "Atlantic Colonial Garrison"
+		start_experience_factor = 0.3
+		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
+		}		
+					division= {	
+		location = 4861
+		division_template = "Atlantic Colonial Garrison"
+		start_experience_factor = 0.3
+		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
+		}		
+	
+			division= {	
+		location = 12885
+		division_template = "Atlantic Colonial Garrison"
+		start_experience_factor = 0.3
+		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
+		}		
+					division= {	
+		location = 12885
+		division_template = "Atlantic Colonial Garrison"
+		start_experience_factor = 0.3
+		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
+		}		
+		
+								division= {	
+		location = 12885
+		division_template = "Atlantic Colonial Garrison"
+		start_experience_factor = 0.3
+		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
+		}		
+					division= {	
+		location = 12885
+		division_template = "Atlantic Colonial Garrison"
+		start_experience_factor = 0.3
+		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
+		}		
+	
+								division= {	
+		location = 12828
+		division_template = "Atlantic Colonial Garrison"
+		start_experience_factor = 0.3
+		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
+		}		
+					division= {	
+		location = 12828
+		division_template = "Atlantic Colonial Garrison"
+		start_experience_factor = 0.3
+		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
+		}		
+		
+								division= {	
+		location = 12828
+		division_template = "Atlantic Colonial Garrison"
+		start_experience_factor = 0.3
+		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
+		}		
+					division= {	
+		location = 12828
+		division_template = "Atlantic Colonial Garrison"
+		start_experience_factor = 0.3
+		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
+		
+	}		
+	
+								division= {	
+		location = 4982
+		division_template = "Atlantic Colonial Garrison"
+		start_experience_factor = 0.3
+		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
+		}		
+					division= {	
+		location = 4982
+		division_template = "Atlantic Colonial Garrison"
+		start_experience_factor = 0.3
+		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
+		}		
+		
+								division= {	
+		location = 4982
+		division_template = "Atlantic Colonial Garrison"
+		start_experience_factor = 0.3
+		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
+		}		
+					division= {	
+		location = 4982
+		division_template = "Atlantic Colonial Garrison"
+		start_experience_factor = 0.3
+		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
+		}			
+	
+									division= {	
+		location = 13014
+		division_template = "Atlantic Colonial Garrison"
+		start_experience_factor = 0.3
+		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
+		}		
+					division= {	
+		location = 13014
+		division_template = "Atlantic Colonial Garrison"
+		start_experience_factor = 0.3
+		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
+		}		
+		
+								division= {	
+		location = 13014
+		division_template = "Atlantic Colonial Garrison"
+		start_experience_factor = 0.3
+		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
+		}		
+					division= {	
+		location = 13014
+		division_template = "Atlantic Colonial Garrison"
+		start_experience_factor = 0.3
+		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
+		}		
+	
+										division= {	
+		location = 10906
+		division_template = "Atlantic Colonial Garrison"
+		start_experience_factor = 0.3
+		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
+		}		
+					division= {	
+		location = 10906
+		division_template = "Atlantic Colonial Garrison"
+		start_experience_factor = 0.3
+		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
+		}		
+		
+								division= {	
+		location = 12716
+		division_template = "Atlantic Colonial Garrison"
+		start_experience_factor = 0.3
+		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
+		}		
+					division= {	
+		location = 12716
+		division_template = "Atlantic Colonial Garrison"
+		start_experience_factor = 0.3
+		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
+		}		
+		
+								division= {	
+		location = 12512
+		division_template = "Atlantic Colonial Garrison"
+		start_experience_factor = 0.3
+		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
+		}		
+					division= {	
+		location = 12512	
+		division_template = "Atlantic Colonial Garrison"
+		start_experience_factor = 0.3
+		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
+		}				
+		
+									division= {	
+		location = 7361
+		division_template = "Atlantic Colonial Garrison"
+		start_experience_factor = 0.3
+		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
+		}		
+					division= {	
+		location = 7361
+		division_template = "Atlantic Colonial Garrison"
+		start_experience_factor = 0.3
+		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
+		}		
+		
+		
+										division= {	
+		location = 4948
+		division_template = "Atlantic Colonial Garrison"
+		start_experience_factor = 0.3
+		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
+		}		
+					division= {	
+		location = 4948
+		division_template = "Atlantic Colonial Garrison"
+		start_experience_factor = 0.3
+		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
+		}	
+		
+		
+										division= {	
+		location = 1909
+		division_template = "Atlantic Colonial Garrison"
+		start_experience_factor = 0.3
+		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
+		}		
+					division= {	
+		location = 1909
+		division_template = "Atlantic Colonial Garrison"
+		start_experience_factor = 0.3
+		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
+		}	
+		
+									division= {	
+		location = 9377
+		division_template = "Atlantic Colonial Garrison"
+		start_experience_factor = 0.3
+		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
+		}		
+					division= {	
+		location = 9377
+		division_template = "Atlantic Colonial Garrison"
+		start_experience_factor = 0.3
+		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
+		}		
+		
+		
+		division= {	
+		location = 2038
+		division_template = "Atlantic Colonial Garrison"
+		start_experience_factor = 0.3
+		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
+		}		
+					division= {	
+		location = 2038
+		division_template = "Atlantic Colonial Garrison"
+		start_experience_factor = 0.3
+		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
+		}	
+		
+	division= {	
+		location = 13009
+		division_template = "Atlantic Colonial Garrison"
+		start_experience_factor = 0.3
+		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
+		}		
+					division= {	
+		location = 13009
+		division_template = "Atlantic Colonial Garrison"
+		start_experience_factor = 0.3
+		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
+		}	
+		
+										division= {	
+		location = 1440
+		division_template = "Atlantic Colonial Garrison"
+		start_experience_factor = 0.3
+		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
+		}		
+					division= {	
+		location = 1440
+		division_template = "Atlantic Colonial Garrison"
+		start_experience_factor = 0.3
+		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
+		}	
+		
+											division= {	
+		location = 12304
+		division_template = "Atlantic Colonial Garrison"
+		start_experience_factor = 0.3
+		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
+		}		
+					division= {	
+		location = 12304
+		division_template = "Atlantic Colonial Garrison"
+		start_experience_factor = 0.3
+		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
+		}		
+		
+												division= {	
+		location = 1513
+		division_template = "Atlantic Colonial Garrison"
+		start_experience_factor = 0.3
+		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
+		}		
+					division= {	
+		location = 1513
+		division_template = "Atlantic Colonial Garrison"
+		start_experience_factor = 0.3
+		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
+		}		
+		
+		
+													division= {	
+		location = 2077
+		division_template = "Atlantic Colonial Garrison"
+		start_experience_factor = 0.3
+		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
+		}		
+					division= {	
+		location = 2077
+		division_template = "Atlantic Colonial Garrison"
+		start_experience_factor = 0.3
+		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
+		}	
+		
+												division= {	
+		location = 4989
+		division_template = "Atlantic Colonial Garrison"
+		start_experience_factor = 0.3
+		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
+		}		
+					division= {	
+		location = 4989
+		division_template = "Atlantic Colonial Garrison"
+		start_experience_factor = 0.3
+		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
+		}		
+		
+		
+													division= {	
+		location = 10254
+		division_template = "Atlantic Colonial Garrison"
+		start_experience_factor = 0.3
+		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
+		}		
+					division= {	
+		location = 10254
+		division_template = "Atlantic Colonial Garrison"
+		start_experience_factor = 0.3
+		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
+		}	
+		
+	division= {	
+		location = 153
+		division_template = "Atlantic Colonial Garrison"
+		start_experience_factor = 0.3
+		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
+		}		
+					division= {	
+		location = 153
+		division_template = "Atlantic Colonial Garrison"
+		start_experience_factor = 0.3
+		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
+		}	
+			division= {	
+		location = 13010
+		division_template = "Atlantic Colonial Garrison"
+		start_experience_factor = 0.3
+		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
+		}		
+					division= {	
+		location = 13010
+		division_template = "Atlantic Colonial Garrison"
+		start_experience_factor = 0.3
+		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
+		}	
+		
+		
+		
+			division= {	
+		location = 12505
+		division_template = "Atlantic Colonial Garrison"
+		start_experience_factor = 0.3
+		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
+		}		
+					division= {	
+		location = 12505
+		division_template = "Atlantic Colonial Garrison"
+		start_experience_factor = 0.3
+		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
+		}	
+		
+			division= {	
+		location = 373
+		division_template = "Atlantic Colonial Garrison"
+		start_experience_factor = 0.3
+		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
+		}		
+					division= {	
+		location = 373
+		division_template = "Atlantic Colonial Garrison"
+		start_experience_factor = 0.3
+		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
+		}	
+		
+	}
