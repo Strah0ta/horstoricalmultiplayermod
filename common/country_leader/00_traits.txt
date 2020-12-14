@@ -859,12 +859,7 @@ leader_traits = {
 	
 	baltic_naval_manufacturer = {
 	random = no
-		equipment_bonus = {
-	ship_hull_heavy = {
-	hg_attack = 0.25 max_strength = 0.25 naval_speed = -0.5 surface_visibility = 0.5
-	
-	}
-			}
+		equipment_bonus = { ship_hull_heavy = { hg_attack = 0.25 max_strength = 0.5 naval_speed = -0.5 surface_visibility = 0.5	}	}
 	}
 	
 	coastal_defence_naval_manufacturer = {

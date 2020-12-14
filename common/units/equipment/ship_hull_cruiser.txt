@@ -66,6 +66,11 @@ equipments = {
 		}
 		
 		module_count_limit = {
+			category = ahip_anti_air
+			count < 4
+		}		
+		
+		module_count_limit = {
 			category = ship_radar
 			count < 2
 		}

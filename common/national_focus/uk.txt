@@ -926,7 +926,6 @@ add_equipment_production = {
 		cost = 5
 		completion_reward = {
 		 add_ideas = ENG_fortify_the_empire_1 
-
 						118 = {
 			add_building_construction = {
 					type = naval_base
@@ -961,9 +960,9 @@ add_equipment_production = {
 			}	
 					447 = {
 				set_building_level = {
-				province = 4073
 					type = naval_base
-					level = 5
+					level = 20
+					province = 4073
 					instant_build = yes
 				}			
 			}	
@@ -1306,15 +1305,7 @@ create_field_marshal = {
 
 		completion_reward = {
 			add_war_support = 0.05
-			# Ipswich
-			447 = {
-					set_building_level = {
-						type = naval_base
-						level = 5
-						province = 4073
-						instant_build = yes
-					}
-			}			
+			# Ipswich		
 			125 = {
 					set_building_level = {
 						type = coastal_bunker

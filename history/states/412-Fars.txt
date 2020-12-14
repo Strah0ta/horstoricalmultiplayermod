@@ -51,7 +51,7 @@ state={
 			infrastructure = 2
 			air_base = 4
 			7982 = {
-				naval_base = 10
+				naval_base = 15
 			}
 						12832 = {
 				naval_base = 2

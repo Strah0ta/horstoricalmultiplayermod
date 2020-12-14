@@ -1033,16 +1033,16 @@ hidden_effect = {		set_technology = { naval_bomber2 = 1 }
 					modules = {
 						fixed_ship_battery_slot = ship_super_heavy_battery_1
 						fixed_ship_anti_air_slot = ship_anti_air_3
-						fixed_ship_fire_control_system_slot = ship_fire_control_system_1
-						fixed_ship_radar_slot = empty
-						fixed_ship_engine_slot = heavy_ship_engine_2
+						fixed_ship_fire_control_system_slot = ship_fire_control_system_3
+						fixed_ship_radar_slot = ship_radar_3
+						fixed_ship_engine_slot = heavy_ship_engine_3
 						fixed_ship_secondaries_slot = ship_secondaries_2
 						fixed_ship_armor_slot = ship_armor_shbb
 						front_1_custom_slot = ship_super_heavy_battery_1
 						front_2_custom_slot = ship_super_heavy_battery_1
-						mid_1_custom_slot = ship_anti_air_3
-						mid_2_custom_slot = ship_anti_air_3
-						mid_3_custom_slot = ship_anti_air_3
+						mid_1_custom_slot = dp_ship_secondaries
+						mid_2_custom_slot = dp_ship_secondaries
+						mid_3_custom_slot = ship_super_heavy_battery_1
 						rear_1_custom_slot = ship_anti_air_3
 						rear_2_custom_slot = ship_anti_air_3
 					}

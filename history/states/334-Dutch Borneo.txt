@@ -15,6 +15,7 @@ victory_points = {
 }
 buildings = {
 infrastructure = 5
+industrial_complex = 2
 air_base = 4
 10237 = {
 naval_base = 3
@@ -23,6 +24,7 @@ naval_base = 3
 naval_base = 10
 }
 }
+add_extra_state_shared_building_slots = 2
 }
 provinces={
 1225 1230 1252 1304 1316 1404 1416 2047 2170 2184 2222 4236 4279 4323 4335 4409 5176 5226 7227 7231 7296 7299 7355 7415 7424 8221 10138 10178 10181 10237 10266 10282 10310 10325 12110 12129 12196 12225 12243 12252 12280 12955

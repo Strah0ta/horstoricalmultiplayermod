@@ -7,18 +7,14 @@ resources={
 oil=113
 }
 history={
-1936.1.2 = {
 owner = ENG
-}
-owner = HOL
 add_core_of=SWE
 victory_points = {
 153 1
 }
 buildings = {
-fuel_silo = 1
+fuel_silo = 5
 infrastructure = 6
-industrial_complex = 2
 153 = {
 naval_base = 1
 coastal_bunker = 2

@@ -2880,6 +2880,91 @@ create_corps_commander = {
 }
 }
 ENG = {
+create_navy_leader = {
+	name = "James Fownes Somerville" # Aristocrat
+	id = 983
+	picture = "Portrait_Britain_James_Fownes_Somerville.dds"
+	traits = {  concealment_expert air_controller flight_deck_manager torpedo_bomber dive_bomber ground_pounder fly_swatter  blue_water_expert spotter ironside big_guns_expert }
+	skill = 5
+	attack_skill = 2
+	defense_skill = 8
+	maneuvering_skill = 2
+	coordination_skill = 4
+}
+
+create_navy_leader = {
+	name = "Charles Forbes"
+	id = 990
+		picture = "Portrait_Britain_Charles_Forbes.dds"
+	traits = { fly_swatter cruiser_captain fleet_protector destroyer_leader hunter_killer search_pattern_expert  arctic_water_expert    }
+	skill = 4
+	attack_skill = 2
+	defense_skill = 2
+	maneuvering_skill = 2
+	coordination_skill = 9
+}
+
+
+create_navy_leader = {
+	name = "Henry Harwood" # Aristocrat
+	id = 984
+		picture = "Portrait_Britain_Henry_Harwood.dds"
+	traits = { fly_swatter cruiser_captain fleet_protector destroyer_leader hunter_killer search_pattern_expert  arctic_water_expert    }
+	skill = 4
+	attack_skill = 2
+	defense_skill = 2
+	maneuvering_skill = 2
+	coordination_skill = 9
+}
+
+create_navy_leader = {
+	name = "Algernon Willis"
+	id = 991
+		picture = "Portrait_Britain_Algernon_Willis.dds"
+	traits = { spotter blockade_runner smoke_screen_expert concealment_expert }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 2
+	maneuvering_skill = 3
+	coordination_skill = 6
+} 
+	create_operative_leader = {
+		name = "Nancy Wake"
+		GFX = GFX_portrait_nancy_wake
+		traits = { operative_escape_artist }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { ENG }
+	}
+
+	create_operative_leader = {
+		name = "Diana Rowden"
+		GFX = GFX_portrait_diana_rowden
+		traits = { }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { ENG }
+	}
+
+	create_operative_leader = {
+		name = "Juan Pujol"
+		GFX = GFX_portrait_juan_pujol
+		traits = { operative_double_agent }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { ENG GER }
+	}
+
+	create_operative_leader = {
+		name = "Dusko Popov"
+		GFX = GFX_portrait_dusko_popov
+		traits = { operative_double_agent }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { ENG GER YUG }
+	}
 create_field_marshal = {
 	name = "Alan Brooke" # Aristocrat
 	picture = "Portrait_Britain_Alan_Brooke.dds"
