@@ -248,7 +248,7 @@ adjacency_rule
 		trade = yes
 	}
 	
-	required_provinces = { 12049 1155 4073 9947 10758 }
+	required_provinces = { 12049 1155 4073 9947 10758 12801 }
 
 	is_disabled = {
 		OR = {

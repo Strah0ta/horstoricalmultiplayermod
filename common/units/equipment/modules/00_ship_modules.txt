@@ -298,15 +298,14 @@ equipment_modules = {
 		add_stats = {
 			hg_attack = 8.0
 			build_cost_ic = 750
-			
 		}
 		multiply_stats = {
 			naval_speed = -0.04
-			max_strength = 0.4
 		}
 		add_average_stats = {
 			hg_armor_piercing = 22
 			surface_visibility = 3.5
+			max_strength = 40
 		}
 		can_convert_from = {
 			module_category = ship_light_battery
@@ -331,11 +330,11 @@ equipment_modules = {
 		}
 		multiply_stats = {
 			naval_speed = -0.06
-			max_strength = 0.4
 		}
 		add_average_stats = {
 			hg_armor_piercing = 25
 			surface_visibility = 3.5
+			max_strength = 40
 		}
 
 	
@@ -358,15 +357,14 @@ equipment_modules = {
 		add_stats = {
 			hg_attack = 10.0
 			build_cost_ic = 825
-			
 		}
 		multiply_stats = {
 			naval_speed = -0.07
-			max_strength = 0.4
 		}
 		add_average_stats = {
 			hg_armor_piercing = 29
 			surface_visibility = 3.5
+			max_strength = 40
 		}
 	
 		can_convert_from = {
@@ -392,11 +390,11 @@ equipment_modules = {
 		}
 		multiply_stats = {
 			naval_speed = -0.08
-			max_strength = 0.4
 		}
 		add_average_stats = {
 			hg_armor_piercing = 34
 			surface_visibility = 3.5
+				max_strength = 40
 		}
 
 		can_convert_from = {

@@ -6,7 +6,7 @@ HMP_ll_soviets_guns = { #worth 1x
 		cost = 0
 		fire_only_once = no
 
-		complete_effect  = {
+		complete_effect  = { 
 			custom_effect_tooltip = HMP_ll_remove_guns
 			custom_effect_tooltip =  soviets_1_shipments_tt
 			hidden_effect = { send_equipment = { equipment = infantry_equipment amount = 5000 target = SWE } }
@@ -133,14 +133,14 @@ HMP_ll_soviets_fighter = { #worth 20x
 	}
 HMP_ll_soviets_ht = { #worth 10x 
 		allowed = {  normally_played_allies = yes } 
-		available = { has_equipment = {  heavy_tank_equipment > 1000 }SOV = { has_war_with = GER }}
+		available = { has_equipment = {  heavy_tank_equipment > 1350 }SOV = { has_war_with = GER }}
 		icon = generic_form_nation
 		cost = 0
 		fire_only_once = no
 		complete_effect  = {
 								custom_effect_tooltip = HMP_ll_remove_ht		
 		custom_effect_tooltip = soviets_10_shipments_tt
-				hidden_effect = {send_equipment = { equipment = heavy_Tank_equipment amount = 1000 target = SWE }}
+				hidden_effect = {send_equipment = { equipment = heavy_tank_equipment amount = 1350 target = SWE }}
 			SOV = { add_to_variable = {  var = SOV_barb_ll_token   value = 10 } add_to_variable = {  var = SOV_barb_ll_token2   value = 10 }}						
 		}
 	}
@@ -565,15 +565,15 @@ available = {  check_variable = { var = SOV_barb_ll_token  value = 20  compare =
 		fire_only_once = no
 		days_remove = 60
 		complete_effect  = {
-			if = { limit = { USA = { has_tech = advanced_heavy_tank }}   add_equipment_to_stockpile = {  type = heavy_tank_equipment_3 amount = 1666 producer = USA }    }
-		else_if = { limit = { ENG = { has_tech = advanced_heavy_tank }}   add_equipment_to_stockpile = {  type = heavy_tank_equipment_3 amount = 1666 producer = ENG }    }
-		else_if = { limit = { FRA = { has_tech = advanced_heavy_tank }}   add_equipment_to_stockpile = {  type = heavy_tank_equipment_3 amount = 1666 producer = FRA }    }
-		else_if = { limit = { CAN = { has_tech = advanced_heavy_tank }}   add_equipment_to_stockpile = {  type = heavy_tank_equipment_3 amount = 1666 producer = CAN }    }
-		else_if = { limit = { AST = { has_tech = advanced_heavy_tank }}   add_equipment_to_stockpile = {  type = heavy_tank_equipment_3 amount = 1666 producer = AST }    }
-		else_if = { limit = { RAJ = { has_tech = advanced_heavy_tank }}   add_equipment_to_stockpile = {  type = heavy_tank_equipment_3 amount = 1666 producer = RAJ }    }
-		else_if = { limit = { SAF = { has_tech = advanced_heavy_tank }}   add_equipment_to_stockpile = {  type = heavy_tank_equipment_3 amount = 1666 producer = SAF }    }
-		else_if = { limit = { NZL = { has_tech = advanced_heavy_tank }}   add_equipment_to_stockpile = {  type = heavy_tank_equipment_3 amount = 1666 producer = NZL }    }
-		else = { add_equipment_to_stockpile = {  type = heavy_tank_equipment_3 amount = 1666 producer = SWE }    }
+			if = { limit = { USA = { has_tech = advanced_heavy_tank }}   add_equipment_to_stockpile = {  type = heavy_tank_equipment_3 amount = 2439 producer = USA }    }
+		else_if = { limit = { ENG = { has_tech = advanced_heavy_tank }}   add_equipment_to_stockpile = {  type = heavy_tank_equipment_3 amount = 2439 producer = ENG }    }
+		else_if = { limit = { FRA = { has_tech = advanced_heavy_tank }}   add_equipment_to_stockpile = {  type = heavy_tank_equipment_3 amount = 2439 producer = FRA }    }
+		else_if = { limit = { CAN = { has_tech = advanced_heavy_tank }}   add_equipment_to_stockpile = {  type = heavy_tank_equipment_3 amount = 2439 producer = CAN }    }
+		else_if = { limit = { AST = { has_tech = advanced_heavy_tank }}   add_equipment_to_stockpile = {  type = heavy_tank_equipment_3 amount = 2439 producer = AST }    }
+		else_if = { limit = { RAJ = { has_tech = advanced_heavy_tank }}   add_equipment_to_stockpile = {  type = heavy_tank_equipment_3 amount = 2439 producer = RAJ }    }
+		else_if = { limit = { SAF = { has_tech = advanced_heavy_tank }}   add_equipment_to_stockpile = {  type = heavy_tank_equipment_3 amount = 2439 producer = SAF }    }
+		else_if = { limit = { NZL = { has_tech = advanced_heavy_tank }}   add_equipment_to_stockpile = {  type = heavy_tank_equipment_3 amount = 2439 producer = NZL }    }
+		else = { add_equipment_to_stockpile = {  type = heavy_tank_equipment_3 amount = 2439 producer = SWE }    }
 		SOV = { add_to_variable = {  var = SOV_barb_ll_token   value = -20 } }						
 		}
 	}
@@ -1138,7 +1138,7 @@ every_country = {
 		cost = 0		
 		complete_effect = {
 			FIN = { country_event = { id = italy.604 days = 1 }}
-
+			add_to_faction = FIN
 			add_ideas = GER_barbarossa 	
 			hidden_effect={  
 					if = { limit = { country_exists = ROM } ROM = {add_ideas = GER_barbarossa } }
@@ -1159,6 +1159,7 @@ every_country = {
 				target = SOV 
 				type = annex_everything
 			}
+			GER = { activate_mission = GER_barbarossa_mission }  SOV = { activate_mission = GER_barbarossa_mission } 
 						hidden_effect = { 
 			country_event = { id = news.153 days = 1 }
 			ENG = { diplomatic_relation = { country = SOV  relation = docking_rights   active = yes } }	
@@ -1230,19 +1231,21 @@ GER_desert_flower_dec = {
 					level = 10
 					instant_build = yes
 				}		} 
-				554 = { set_demilitarized_zone = no}
 				}
 			}
 			
 	GER_around_iraq = {
 	icon = generic_operation
 	allowed = { tag = GER }
-	available = {	ENG = { controls_state = 291 } NOT = { ENG = { controls_state = 455 } }  EFR = { controls_state = 554  }} 
+	available = {	ENG = { controls_state = 291 } NOT = { ENG = { controls_state = 455 } } } 
 	fire_only_once = yes
+	visible = {  EFR = { controls_state = 554  }    }
 	complete_effect = {
 		FRA = { transfer_state = 554 } 
 		country_event = { id = germany.378 } 
-		554 = { set_demilitarized_zone = no}
+		554 = { set_demilitarized_zone = no add_province_modifier = { province = { all_provinces  = yes } static_modifiers = { syria_modifier } } }
+		hidden_effect = {if = { limit = { ENG = { controls_province = 1544 }} ENG = { load_oob = "ENG_SYR_Front_GAR" } SWE ={ country_event = { id = italy.3999 days = 30 }}  custom_effect_tooltip "The Allies will have 1 month to prepare defenses in Syria!"  }   }
+		
 				}
 			}		
 			
@@ -1327,47 +1330,26 @@ hidden_effect = {
 				every_state = { limit = { is_core_of = HUN }  set_compliance = 100 } 
 		}
 	}
-	GER_barbarossa_mission = {
-
+	GER_barbarossa_mission = { 
 		icon = generic_operation
-
 		allowed = {
 			always = no
-			original_tag = GER
+			OR = { original_tag = GER original_tag = SOV }
 		}
-
 		available = {
-				OR = { any_allied_country = { 	has_full_control_of_state = 219 }
-			GER  = { 	has_full_control_of_state = 219 }
-			}
-	OR = { any_allied_country = { 	has_full_control_of_state = 195 }
-			GER  = { 	has_full_control_of_state = 195 }
-			}			
-	OR = { any_allied_country = { 	has_full_control_of_state = 202 }
-			GER  = { 	has_full_control_of_state = 202 }
-			}			
-				OR = { any_allied_country = { 	has_full_control_of_state = 217 }
-			GER  = { 	has_full_control_of_state = 217 }
-			}
+			GER  = { OR = { any_allied_country = { 	has_full_control_of_state = 219 }	 	has_full_control_of_state = 219 }	}
+			GER  = { OR = { any_allied_country = { 	has_full_control_of_state = 195 }   	has_full_control_of_state = 195 }	}			
+			GER  = { OR = { any_allied_country = { 	has_full_control_of_state = 217 }	 	has_full_control_of_state = 217 }	}
 		}
-
-		days_mission_timeout = 180
+		days_mission_timeout = 547
 		fire_only_once = yes
-
-		activation = {
-
-		}
-
+		activation = {	}
 		is_good = no
-
 		complete_effect = {
-			add_war_support = 0.1
-			custom_effect_tooltip = barbarossa_mission_tt
+			if = { limit = { original_tag = GER }  custom_effect_tooltip = barbarossa_mission_horst_tt  hidden_effect = { add_ideas = fuhrer_directive_21_completed }  }
+			if = { limit = { original_tag = SOV }  custom_effect_tooltip = barbarossa_mission_horst_sov_tt  }			
 		}
-
-		timeout_effect = {
-			
-		}
+		timeout_effect = {	}
 	}
 	    GER_annex_spr = {
 		icon = generic_operation
@@ -1411,14 +1393,16 @@ hidden_effect = {
 				allowed = {	original_tag = ITA }
 				fire_only_once = yes
 				cost = 0	
-				complete_effect = { ITA = { add_to_war = { targeted_alliance = ROOT	enemy = ENG	} } ETH = { add_to_war = { targeted_alliance = ROOT	enemy = ENG	} } news_event = { id = news.3998 } }
+				complete_effect = { 
+				ITA = { add_to_war = { targeted_alliance = GER	enemy = ENG	} } ETH = { add_to_war = { targeted_alliance = GER	enemy = ENG	} } news_event = { id = news.3998 } 
+				}
 			}
 			USA_join_the_war = { 
 	 	available = { OR = { date > 1940.11.1 uk_needs_help = yes } } 
 				allowed = {	original_tag = USA }
 				fire_only_once = yes
 				cost = 0	
-				complete_effect = { USA = { add_to_war = { targeted_alliance = ROOT	enemy = GER	} } add_ideas = war_economy activate_decision = war_bonds add_political_power = -200 }
+				complete_effect = { USA = { add_to_war = { targeted_alliance = ENG	enemy = GER	} } add_ideas = war_economy activate_decision = war_bonds add_political_power = -200 }
 			}		
 			
 			
@@ -1470,7 +1454,7 @@ hidden_effect = {
 			}
 			set_technology = { nuclear_reactor = 1 }
 		}
-		complete_effect = { set_global_flag = GER_heavy_water_production_underway }
+		complete_effect = { set_global_flag = GER_heavy_water_production_underway	} 	
 		}
 
     FRA_annex_saf = {

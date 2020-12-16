@@ -1,0 +1,125 @@
+﻿	division_template = {
+		name = "Syria Garrison"
+		regiments = {
+			infantry = { x = 0 y = 0 } infantry = { x = 1 y = 0 } infantry = { x = 2 y = 0 }
+			infantry = { x = 0 y = 1 } infantry = { x = 1 y = 1 } infantry = { x = 2 y = 1 }
+			infantry = { x = 0 y = 2 } infantry = { x = 1 y = 2 } infantry = { x = 2 y = 2 }
+			infantry = { x = 0 y = 3 }
+			}
+		support = {  anti_air = { x = 0 y = 0 }    }
+	}
+
+units = { 
+	division= {	
+		location = 4486
+		division_template = "Syria Garrison"
+		start_experience_factor = 0.3
+		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
+	}	
+	division= {	
+		location = 4486
+		division_template = "Syria Garrison"
+		start_experience_factor = 0.3
+		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
+	}	
+	division= {	
+		location = 4486
+		division_template = "Syria Garrison"
+		start_experience_factor = 0.3
+		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
+	}	
+	division= {	
+		location = 4486
+		division_template = "Syria Garrison"
+		start_experience_factor = 0.3
+		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
+	}	
+	division= {	
+		location = 1074
+		division_template = "Syria Garrison"
+		start_experience_factor = 0.3
+		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
+	}		
+	division= {	
+		location = 1074
+		division_template = "Syria Garrison"
+		start_experience_factor = 0.3
+		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
+	}		
+		division= {	
+		location = 1074
+		division_template = "Syria Garrison"
+		start_experience_factor = 0.3
+		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
+	}		
+		division= {	
+		location = 1074
+		division_template = "Syria Garrison"
+		start_experience_factor = 0.3
+		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
+	}		
+	division= {	
+		location = 4111
+		division_template = "Syria Garrison"
+		start_experience_factor = 0.3
+		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
+	}		
+	division= {	
+		location = 4111 
+		division_template = "Syria Garrison"
+		start_experience_factor = 0.3
+		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
+	}		
+		division= {	
+		location = 4111
+		division_template = "Syria Garrison"
+		start_experience_factor = 0.3
+		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
+	}		
+		division= {	
+		location = 4111
+		division_template = "Syria Garrison"
+		start_experience_factor = 0.3
+		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
+	}	
+	division= {	
+		location = 792
+		division_template = "Syria Garrison"
+		start_experience_factor = 0.3
+		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
+	}		
+	division= {	
+		location = 792
+		division_template = "Syria Garrison"
+		start_experience_factor = 0.3
+		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
+	}		
+		division= {	
+		location = 792
+		division_template = "Syria Garrison"
+		start_experience_factor = 0.3
+		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
+	}		
+		division= {	
+		location = 792
+		division_template = "Syria Garrison"
+		start_experience_factor = 0.3
+		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
+	}			
+	}

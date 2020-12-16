@@ -13,27 +13,27 @@ state={
 			industrial_complex = 2
 			air_base = 1
 			9296 = {
-				naval_base = 5
+				naval_base = 1
 				coastal_bunker = 1
 			}
 			53 = {
-				naval_base = 5
+				naval_base = 1
 				coastal_bunker = 1
 			}
 			122 = {
-				naval_base = 5
+				naval_base = 1
 				coastal_bunker = 2
 			}
 		}
-		victory_points = {
-			9296 1
-		}
-		victory_points = {
-			53 1
-		}
-		victory_points = {
-			122 3
-		}
+		victory_points = {	9296 1	}
+		victory_points = {	53 1	}
+		victory_points = {	3192 1	}
+		victory_points = {	6176 1	}
+		victory_points = {	199 1	}
+		victory_points = {	6118 1	}
+		victory_points = {	9132 1	}
+		victory_points = {	11100 1	}		
+		victory_points = {	122 3	}
 		add_core_of = NOR
 	}
 

@@ -613,6 +613,8 @@ technologies = {
 			jaeger
 		}
 
+		XOR = { camelry_tech }
+		
 		on_research_complete = {
 			hidden_effect = {
 				load_oob = "unlock_jaeger"
@@ -681,8 +683,11 @@ technologies = {
 	
 	
 	
-	camelry = {
+	camelry_tech = {
 		allow = {  camelry_nations = yes }
+		
+		XOR = { jaegartroops }
+		
 		enable_subunits = {
 			camelry
 		}

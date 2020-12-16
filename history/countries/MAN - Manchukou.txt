@@ -15,7 +15,7 @@ set_technology = {
 	improved_light_td = 1
 	improved_light_spaa = 1
 	basic_heavy_tank = 1
-
+	interwar_antiair = 1
 }
 
 add_to_tech_sharing_group = japanese_research

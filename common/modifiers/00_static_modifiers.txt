@@ -87,7 +87,9 @@ gibraltar_modifier = {
 	max_dig_in = 14
 }
 
-
+syria_modifier = {
+	army_attack_factor = -1 
+}
 
 flooded = { # on Province
 	army_speed_factor = -0.5

@@ -2607,11 +2607,11 @@ create_corps_commander = {
 create_field_marshal = {
 	name = "Georgy Zhukov"
 	picture = "Portrait_Soviet_Gregory_Zhukov.dds"
-	traits = { adaptable brilliant_strategist aggressive_assaulter organisational_leader organizer fast_planner logistics_wizard panzer_leader panzer_expert expert_improviser ranger trickster  expert_delegator  }
+	traits = { adaptable brilliant_strategist thorough_planner aggressive_assaulter organisational_leader organizer fast_planner logistics_wizard panzer_leader panzer_expert expert_improviser ranger trickster  expert_delegator  }
 	skill = 9
-	attack_skill = 6
+	attack_skill = 9
 	defense_skill = 6
-	planning_skill = 7
+	planning_skill = 4
 	logistics_skill = 9
 }
 
@@ -3900,7 +3900,7 @@ democratic_russia = {
 	fuel_refining3 = 1 
 	fuel_refining4 = 1
 	fuel_refining5 = 1
-	camelry = 1
+	camelry_tech = 1
 	tech_engineers = 1 
 	tech_engineers2 = 1
 	tech_recon = 1 
@@ -4141,16 +4141,13 @@ every_state	= { limit = { OR = { is_owned_by = ENG is_owned_by = CAN is_owned_by
 	GER = {transfer_state =  PREV }
 }
 GER = { transfer_state = 331 #Dutch Central Cordillera
-
-
-
 }
 
 }
 
 
 horstorical_multiplayer_vichy_france = {
-if = { limit = { ITA = { has_war = no }} ITA = { add_timed_idea = { idea = france_has_capped days = 30 } } }
+if = { limit = { ITA = { has_war = no }} ITA = { add_timed_idea = { idea = france_has_capped days = 30 } } ITA = { country_event = { id = italy.674 days = 30 }} }
 FRA = {  FRA_legitimacy_week_counter = yes  FRA_legitimacy_casualties_counter = yes }
 ITA = { transfer_state = 313 
 313 = { set_compliance = 60 }

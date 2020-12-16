@@ -3,7 +3,6 @@ technologies = {
 	basic_machine_tools = {
 	
 		production_factory_max_efficiency_factor = 0.1
-
 		
 		path = {
 			leads_to_tech = improved_machine_tools 

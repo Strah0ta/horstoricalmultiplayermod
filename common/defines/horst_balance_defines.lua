@@ -22,13 +22,25 @@ NDefines.NMilitary.UNIT_LEADER_TRAIT_SLOT_PER_LEVEL = { 			-- ALL TRAITS ARE PRE
 NDefines.NMilitary.PROMOTE_LEADER_CP_COST = 500					-- changed as all generals/FMs are pre-done and not meant to be changed - cost of promoting a leader
 NDefines.NMilitary.LAND_EQUIPMENT_BASE_COST = 10					-- VANILLA 10 Cost in XP to upgrade a piece of equipment one level is base + ( total levels * ramp )
 NDefines.NMilitary.LAND_EQUIPMENT_RAMP_COST = 0		 				-- VANILLA 5
+
+------PARATROOPER REWORK SO THEY DONT LOSE EQUIPMENT-------
+NDefines.NMilitary.PARACHUTE_FAILED_EQUIPMENT_DIV = 0		   -- When the transport plane was shot down, we drop unit with almost NONE equipment
+NDefines.NMilitary.PARACHUTE_FAILED_MANPOWER_DIV = 0	   -- When the transport plane was shot down, we drop unit with almost NONE manpower
+NDefines.NMilitary.PARACHUTE_FAILED_STR_DIV = 0			   -- When the transport plane was shot down, we drop unit with almost NONE strenght
+NDefines.NMilitary.PARACHUTE_DISRUPTED_EQUIPMENT_DIV = 0	   -- When the transport plane was hit, we drop unit with reduced equipment. Penalty is higher as more hits was received (and AA guns was in the state).
+NDefines.NMilitary.PARACHUTE_DISRUPTED_MANPOWER_DIV = 0       -- When the transport plane was hit, we drop unit with reduced manpower. Penalty is higher as more hits was received (and AA guns was in the state).
+NDefines.NMilitary.PARACHUTE_DISRUPTED_STR_DIV = 0		   -- When the transport plane was hit, we drop unit with reduced strength. Penalty is higher as more hits was received (and AA guns was in the state).
+NDefines.NMilitary.PARACHUTE_PENALTY_RANDOMNESS = 0			   -- Random factor for str,manpower,eq penalties.
+NDefines.NMilitary.PARACHUTE_DISRUPTED_AA_PENALTY = 0            -- How much the Air defence in the state (from AA buildings level * air_defence) is scaled to affect overall disruption (equipment,manpower,str).
+-----------------------------------------------------------
+
+
 NDefines.NAir.EFFICIENCY_REGION_CHANGE_PENALTY_FACTOR = 1				-- Penalty applied for changing region
 NDefines.NAir.EFFICIENCY_REGION_CHANGE_DAILY_GAIN_CAS = 0.12			-- How much efficiency to regain per day. Gain applied hourly.
 NDefines.NAir.EFFICIENCY_REGION_CHANGE_DAILY_GAIN_NAVAL_BOMBER = 0.12		-- How much efficiency to regain per day. Gain applied hourly.
 NDefines.NAir.EFFICIENCY_REGION_CHANGE_DAILY_GAIN_TACTICAL_BOMBER = 0.024	-- How much efficiency to regain per day. Gain applied hourly.
 NDefines.NAir.EFFICIENCY_REGION_CHANGE_DAILY_GAIN_FIGHTER = 100		-- How much efficiency to regain per day. Gain applied hourly.
 NDefines.NAir.EFFICIENCY_REGION_CHANGE_DAILY_GAIN_STRATEGIC_BOMBER = 0.024	-- How much efficiency to regain per day. Gain applied hourly.
-
 -------------------AIR WING XP and ACE REMOVAL - DONE TO MAKE ACing SIMPLER--------------------
 NDefines.NAir.CAPACITY_PENALTY=0.869
 NDefines.NAir.AIR_WING_XP_LOSS_REDUCTION_OVER_FRIENDLY_TERRITORY_FACTOR = 0 	--Reduction on XP loss over friendly territory
@@ -115,11 +127,11 @@ NDefines.NNavy.SHIP_TO_FLEET_ANTI_AIR_RATIO = 0.1 --vanilla was 0.2 makes it mor
 NDefines.NNavy.ANTI_AIR_POW_ON_INCOMING_AIR_DAMAGE = 0.1 -- vanilla 0.2 the lower the less effective to stack aa. makes one aa module more worth it compared to no module
 NDefines.NNavy.ANTI_AIR_MULT_ON_INCOMING_AIR_DAMAGE = 0.4 -- multiplier for damage reduction in my opinion lower damage combined with more consistent lower plane losses is better than the vanilla gamble reduction=(ship_anti_air + fleet_anti_air * SHIP_TO_FLEET_ANTI_AIR_RATIO )^ANTI_AIR_POW_ON_INCOMING_AIR_DAMAGE ) * ANTI_AIR_MULT_ON_INCOMING_AIR_DAMAGE)
 NDefines.NNavy.MAX_ANTI_AIR_REDUCTION_EFFECT_ON_INCOMING_AIR_DAMAGE = 0.75 --vanilla 0.5 cap is very hard to reach but otherwhise traits and advisors could become useless
-NDefines.NNavy.NAVAL_COMBAT_AIR_CARRIER_TARGET_SCORE=50 --otherwise carriers always die
-NDefines.NNavy.ANTI_AIR_TARGETING=0.9 --vanilla value just as reference
-NDefines.NNavy.ANTI_AIR_TARGETTING_TO_CHANCE=0.5 --Vanilla 0.2 (ANTI_AIR_TARGETING+.5*(ANTI_AIR_TARGETING-AIR_AGILITY_TO_NAVAL_STRIKE_AGILITY*agility))*ANTI_AIR_TARGETTING_TO_CHANCE)=hitchance
-NDefines.NNavy.AIR_AGILITY_TO_NAVAL_STRIKE_AGILITY=0.03 --Vanilla 0.01 so with the other defines its 48% for tac2 and 0.33% for nav2 
-NDefines.NNavy.ANTI_AIR_ATTACK_TO_AMOUNT=0.01 --     Balancing value to convert equipment stat anti_air_attack to the random % value of airplanes being hit. So 20 ship aa can kill 10%*randomvalue between 0 and 1.
+NDefines.NNavy.NAVAL_COMBAT_AIR_CARRIER_TARGET_SCORE = 50 --otherwise carriers always die
+NDefines.NNavy.ANTI_AIR_TARGETING = 0.9 --vanilla value just as reference
+NDefines.NNavy.ANTI_AIR_TARGETTING_TO_CHANCE = 0.5 --Vanilla 0.2 (ANTI_AIR_TARGETING+.5*(ANTI_AIR_TARGETING-AIR_AGILITY_TO_NAVAL_STRIKE_AGILITY*agility))*ANTI_AIR_TARGETTING_TO_CHANCE)=hitchance
+NDefines.NNavy.AIR_AGILITY_TO_NAVAL_STRIKE_AGILITY = 0.03 --Vanilla 0.01 so with the other defines its 48% for tac2 and 0.33% for nav2 
+NDefines.NNavy.ANTI_AIR_ATTACK_TO_AMOUNT = 0.01 --     Balancing value to convert equipment stat anti_air_attack to the random % value of airplanes being hit. So 20 ship aa can kill 10%*randomvalue between 0 and 1.
 NDefines.NNavy.NAVALBASE_REPAIR_MULT = 0.1 --vanilla 0.05 repairing a battleship took 5 months after one strike
 --
 

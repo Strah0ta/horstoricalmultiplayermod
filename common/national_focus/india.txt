@@ -638,32 +638,6 @@ focus_tree = {
 		}
 	}
 
-	focus = {
-		id = RAJ_the_smiling_buddha
-		icon = GFX_focus_smiling_buddha
-		prerequisite = { focus = RAJ_institute_of_fundamental_research }
-		x = 0
-		y = 1
-		relative_position_id = RAJ_institute_of_fundamental_research
-
-		cost = 10
-
-
-		available = {	compare_autonomy_state > autonomy_colony	}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			add_tech_bonus = {
-				name = RAJ_the_smiling_buddha
-				bonus = 3.0
-				uses = 1
-				category = nuclear
-			}
-		}
-	}
 
 
 
@@ -922,29 +896,11 @@ focus_tree = {
 
 		cost = 10
 
-	
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		complete_tooltip = {
-
-		}
-
 		completion_reward = {
 			add_research_slot = 1
 		}
 	}
-
-	focus = {
+		focus = {
 		id = RAJ_institute_of_fundamental_research
 		icon = GFX_focus_wonderweapons
 		prerequisite = { focus = RAJ_indian_institute_of_science }
@@ -969,6 +925,33 @@ focus_tree = {
 			}
 		}
 	}
+	focus = {
+		id = RAJ_the_smiling_buddha
+		icon = GFX_focus_smiling_buddha
+		prerequisite = { focus = RAJ_institute_of_fundamental_research }
+		x = 0
+		y = 1
+		relative_position_id = RAJ_institute_of_fundamental_research
+
+		cost = 10
+
+
+		available = {	compare_autonomy_state > autonomy_colony	}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = RAJ_the_smiling_buddha
+				bonus = 3.0
+				uses = 1
+				category = nuclear
+			}
+		}
+	}
+
 
 	############################
 	########## NAVY ############

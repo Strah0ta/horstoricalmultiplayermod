@@ -805,7 +805,7 @@ add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 100000 }
 		cost = 10
 		available_if_capitulated = yes
 		completion_reward = {
-			add_ideas = ideological_fanaticism_focus
+			#add_ideas = ideological_fanaticism_focus
 			}
 		}
 	

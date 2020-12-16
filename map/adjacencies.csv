@@ -24,12 +24,7 @@
 7396;1401;sea;5615;-1;-1;-1;-1;;Bangka Belitung-Sumatra
 1342;10279;sea;2737;-1;-1;-1;-1;;Java-Sumatra
 7396;4211;sea;4225;-1;-1;-1;-1;;Bangka-Belitung
-
 12118;1224;sea;8751;-1;-1;-1;-1;;Cebu-Central Islands
-
-
-
-
 1460;12126;sea;812;-1;-1;-1;-1;;Tanahbala-Sumatra
 12126;1428;sea;812;-1;-1;-1;-1;;Tanahbala-Siberut
 4306;4608;sea;5666;-1;-1;-1;-1;;Soerbaja-Madura
@@ -131,13 +126,9 @@
 2333;2382;;-1;-1;-1;-1;-1;DANISH_BELTS_STRAIT2;Øresund
 2358;2382;;-1;-1;-1;-1;-1;DANISH_BELTS_STRAIT2;Øresund
 2358;2408;;-1;-1;-1;-1;-1;DANISH_BELTS_STRAIT2;Øresund
-
 5412;7678;;-1;-1;-1;-1;-1;BOSPHORUS_STRAIT;Bosphorus
 3314;6336;sea;2752;2885;1578;2890;1581;;Afsluitdijk
 
-4135;7153;impassable;-1;-1;-1;-1;-1;; Spain Gibraltar
-4135;10094;impassable;-1;-1;-1;-1;-1;; Spain Gibraltar 
-4135;13228;impassable;-1;-1;-1;-1;-1;; Spain Gibraltar 
 
 1822;5014;impassable;-1;-1;-1;-1;-1;; IRAN 
 1822;6826;impassable;-1;-1;-1;-1;-1;; IRAN 
@@ -155,50 +146,9 @@
 10768;10837;impassable;-1;-1;-1;-1;-1;; IRAN 
 5075;12895;impassable;-1;-1;-1;-1;-1;; IRAN 
 
-6187;5869;impassable;-1;-1;-1;-1;-1;; NARVIK
-3126;5869;impassable;-1;-1;-1;-1;-1;; NARVIK
-3088;5869;impassable;-1;-1;-1;-1;-1;; NARVIK
-3048;5869;impassable;-1;-1;-1;-1;-1;; NARVIK
-6071;5869;impassable;-1;-1;-1;-1;-1;; NARVIK
-6214;5869;impassable;-1;-1;-1;-1;-1;; NARVIK
-9126;5869;impassable;-1;-1;-1;-1;-1;; NARVIK
-38;5869;impassable;-1;-1;-1;-1;-1;; NARVIK
-3132;5869;impassable;-1;-1;-1;-1;-1;; NARVIK
-3034;5869;impassable;-1;-1;-1;-1;-1;; NARVIK
-192;5869;impassable;-1;-1;-1;-1;-1;; NARVIK
-3145;5869;impassable;-1;-1;-1;-1;-1;; NARVIK
-3145;5792;impassable;-1;-1;-1;-1;-1;; NARVIK
-91;5792;impassable;-1;-1;-1;-1;-1;; NARVIK
-11050;5792;impassable;-1;-1;-1;-1;-1;; NARVIK
-3058;5792;impassable;-1;-1;-1;-1;-1;; NARVIK
-3082;5792;impassable;-1;-1;-1;-1;-1;; NARVIK
-6079;5792;impassable;-1;-1;-1;-1;-1;; NARVIK
-3040;5792;impassable;-1;-1;-1;-1;-1;; NARVIK
-11077;5792;impassable;-1;-1;-1;-1;-1;; NARVIK
-3016;8326;impassable;-1;-1;-1;-1;-1;; NARVIK
-2995;8326;impassable;-1;-1;-1;-1;-1;; NARVIK
-9089;8326;impassable;-1;-1;-1;-1;-1;; NARVIK
-6015;8326;impassable;-1;-1;-1;-1;-1;; NARVIK
-9042;8326;impassable;-1;-1;-1;-1;-1;; NARVIK
-9042;5765;impassable;-1;-1;-1;-1;-1;; NARVIK
-9042;8352;impassable;-1;-1;-1;-1;-1;; NARVIK
-9064;5765;impassable;-1;-1;-1;-1;-1;; NARVIK
-11063;5765;impassable;-1;-1;-1;-1;-1;; NARVIK
-11063;5765;impassable;-1;-1;-1;-1;-1;; NARVIK
-11034;5765;impassable;-1;-1;-1;-1;-1;; NARVIK
-64;5765;impassable;-1;-1;-1;-1;-1;; NARVIK
-6092;5765;impassable;-1;-1;-1;-1;-1;; NARVIK
-9116;5765;impassable;-1;-1;-1;-1;-1;; NARVIK
-6187;6041;impassable;-1;-1;-1;-1;-1;; NARVIK
-6187;6173;impassable;-1;-1;-1;-1;-1;; NARVIK
-6187;9069;impassable;-1;-1;-1;-1;-1;; NARVIK
-9069;9208;impassable;-1;-1;-1;-1;-1;; NARVIK
-11157;2578;impassable;-1;-1;-1;-1;-1;; NARVIK
-11157;5792;impassable;-1;-1;-1;-1;-1;; NARVIK
-11090;5792;impassable;-1;-1;-1;-1;-1;; NARVIK
-44;5792;impassable;-1;-1;-1;-1;-1;; NARVIK
-22;5792;impassable;-1;-1;-1;-1;-1;; NARVIK
-
+4135;7153;impassable;-1;-1;-1;-1;-1;; Spain Gibraltar
+4135;10094;impassable;-1;-1;-1;-1;-1;; Spain Gibraltar 
+4135;13228;impassable;-1;-1;-1;-1;-1;; Spain Gibraltar 
 9853;9824;impassable;-1;-1;-1;-1;-1;; Spain France
 9853;11779;impassable;-1;-1;-1;-1;-1;; Spain France
 11779;6915;impassable;-1;-1;-1;-1;-1;; Spain France
@@ -216,7 +166,6 @@
 743;3931;impassable;-1;-1;-1;-1;-1;; Spain France
 743;3737;impassable;-1;-1;-1;-1;-1;; Spain France
 743;6756;impassable;-1;-1;-1;-1;-1;; Spain France
-
 10113;10013;impassable;-1;-1;-1;-1;-1;; Spain Ceuta
 10113;1194;impassable;-1;-1;-1;-1;-1;; Spain Ceuta
 12087;10013;impassable;-1;-1;-1;-1;-1;; Spain Ceuta

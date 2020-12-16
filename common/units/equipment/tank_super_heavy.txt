@@ -38,7 +38,7 @@ equipments = {
 		#Space taken in convoy
 		lend_lease_cost = 7 #was 15 
 		
-		build_cost_ic = 50 #was 100 note: number required for 1 batallion was doubled
+		build_cost_ic = 40 #was 100 note: number required for 1 batallion was doubled
 		resources = {
 			#oil = 2
 			steel = 3
@@ -92,7 +92,7 @@ equipments = {
 		ap_attack = 9
 		air_attack = 0
 		
-		build_cost_ic = 50 #was 100 note: number required for 1 battalion was doubled
+		build_cost_ic = 40 #was 100 note: number required for 1 battalion was doubled
 		resources = {
 			#oil = 2
 			steel = 3
@@ -148,7 +148,7 @@ equipments = {
 		ap_attack = 214
 		air_attack = 0
 		
-		build_cost_ic = 50 #was 100 note: number required for 1 battalion was doubled
+		build_cost_ic = 40 #was 100 note: number required for 1 battalion was doubled
 		resources = {
 			#oil = 2
 			steel = 3
@@ -204,7 +204,7 @@ equipments = {
 		ap_attack = 98
 		air_attack = 80
 		
-		build_cost_ic = 50 #was 100 note: number required for 1 battalion was doubled
+		build_cost_ic = 40 #was 100 note: number required for 1 battalion was doubled
 		resources = {
 			#oil = 2
 			steel = 3

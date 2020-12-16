@@ -9,6 +9,8 @@
  HMP_fra_noob:0 "France in Horstorical Multiplayer"
  GER_fall_weiss:0 "§gFall§! §WWeiss (Poland)§!"
  GER_fall_rot:0 "§gFall§! §RRot (France)§!"
+ barbarossa_mission_horst_tt:0 "Bringing the §RSoviets§! to the brink of collapse will greatly boost our morale in the struggle against the international Bolshevist conspiracy opposing us!\n\n§COur Stability will increase by 10% and War Support by 20%!§!"
+ barbarossa_mission_horst_sov_tt:0 "If we lose §YMoscow§!, §YLeningrad§!, and §YStalingrad§!, then the §Rfascist dogs§! will gain a new vigor in maintaining their offensive against our great Socialist motherland!"
  prepare_husky:0 "Prepare Operation Husky"
  GER_fall_gelb:0 "§gFall§! §YGelb (Netherlands)§!"
  GER_fall_gelb2:0 "§gFall§! §YGelb (Belgium)§!"

@@ -1134,31 +1134,29 @@ country_event = {
    }
    }     
    
-          country_event = {
-   id = news.3998
+       country_event = {	
+   id = italy.3999
    title = "Italy Declares War on the Allies!"
    desc = "From a balcony in Rome, Italy, Mussolini gave a speech to the people of Rome and Italian news media about war against Great Britain and France."
    picture = GFX_news_event_italian_tank_desert
 
-   fire_only_once = yes
  is_triggered_only = yes
    
    
       option = {
    name = "The War expands."
-			
+		554 = { remove_province_modifier = { province = { all_provinces  = yes } static_modifiers = { syria_modifier } } }
    }
-   }     
-   
-   
-      
+   }
+			
+			
           country_event = {
    id = italy.674
    title = "The Continuation War"
    desc = "With the German invasion of the Soviet Union, our time has come to strike the Soviets and reclaim our lost territories!"
    picture = GFX_report_event_german_italian_pact
 	hidden = yes 
-   fire_only_once = yes
+   fire_only_once = no
 	is_triggered_only = yes
    
    
@@ -5572,6 +5570,17 @@ country_event = {
 	}
 }
 
+   
+       news_event = {	
+   id = news.3998
+   title = "Italy Declares War on the Allies!"
+   desc = "From a balcony in Rome, Italy, Mussolini gave a speech to the people of Rome and Italian news media about war against Great Britain and France."
+   picture = GFX_news_event_italian_tank_desert
+
+		major =  yes
+		is_triggered_only = yes
+      option = { name = "The War expands."  }
+   }
 
 add_namespace = unitednations
 

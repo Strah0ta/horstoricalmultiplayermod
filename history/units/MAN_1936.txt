@@ -45,36 +45,6 @@ division_template = {
 	}
 }
 
-division_template = {
-	name = "Dengshan Shi"	
-		division_names_group = MAN_INF_01
-
-
-	regiments = {
-		mountaineers = { x = 0 y = 0 }	
-		mountaineers = { x = 0 y = 1 }
-		mountaineers = { x = 0 y = 2 }	
-		mountaineers = { x = 1 y = 0 }
-		mountaineers = { x = 1 y = 1 }
-		mountaineers = { x = 1 y = 2 }
-		mountaineers = { x = 2 y = 0 }	
-		mountaineers = { x = 2 y = 1 }	
-		mountaineers = { x = 2 y = 2 }	
-	}
-}
-
-
-division_template = {
-	name = "Qibing Shi"			# Cavalry Division
-	division_names_group = MAN_CAV_01
-
-	regiments = {
-		cavalry = { x = 0 y = 0 }
-		cavalry = { x = 0 y = 1 }
-		cavalry = { x = 0 y = 2 }
-	}
-}
-
 
 ##### OOB #####
 units = {
@@ -118,7 +88,7 @@ instant_effect = {
 			type = infantry_equipment_1
 			creator = "MAN"
 		}
-		requested_factories = 3
+		requested_factories = 1
 		progress = 0.52
 		efficiency = 100
 	}
@@ -127,8 +97,36 @@ instant_effect = {
 			type = support_equipment_1
 			creator = "MAN"
 		}
-		requested_factories = 3
+		requested_factories = 1
 		progress = 0.52
 		efficiency = 100
 	}
+		add_equipment_production = {
+		equipment = {
+			type = motorized_equipment_1
+			creator = "MAN"
+		}
+		requested_factories = 1
+		progress = 0.52
+		efficiency = 100
+	}
+		add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+			creator = "MAN"
+		}
+		requested_factories = 1
+		progress = 0.52
+		efficiency = 100
+	}
+		add_equipment_production = {
+		equipment = {
+			type = anti_air_equipment_1
+			creator = "MAN"
+		}
+		requested_factories = 1
+		progress = 0.52
+		efficiency = 100
+	}	
+	
 }

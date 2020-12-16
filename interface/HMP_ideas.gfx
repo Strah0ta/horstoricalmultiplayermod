@@ -30,10 +30,9 @@ spriteTypes = {
 		name = "GFX_idea_malyshev" #Kharkiv Diesel Factory
 		texturefile = "gfx/interface/ideas/idea_malyshev.dds"
 	}
-	
 				spriteType = {
 		name = "GFX_idea_avtomobilnoe_moskovskoe"
-		texturefile = "gfx/interface/ideas/idea_avtomobilnoe_moskovskoe.tga"
+		texturefile = "gfx/interface/ideas/avtomobilnoe_moskovskoe.tga"
 	} 
 				spriteType = {
 		name = "GFX_idea_chelyabinskiy_traktornyy"

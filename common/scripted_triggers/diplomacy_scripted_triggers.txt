@@ -19,7 +19,7 @@ if = { limit = {FROM = { OR = { tag = JAP tag = MAN  } } }			NOT = { ROOT = { th
 if = { limit = {FROM = { the_axis = yes  } } 	NOT = { ROOT = { OR = { tag = MAN tag = JAP } } } }
 }
 DIPLOMACY_SEND_EXP_FORCE_ENABLE_TRIGGER = {
-NOT = { ROOT = { OR = {  tag = EFR tag = ETH } } }
+NOT = { ROOT = { OR = {  original_tag = EFR original_tag = ETH original_tag = FIN } } }
 NOT = { FROM = { OR = {  has_tech = grand_battle_plan_mp has_tech = operational_concentration has_tech = grand_mechanized_offensive tag = EFR tag = ETH} } }
 }
 
@@ -41,11 +41,11 @@ DIPLOMACY_REQUEST_ACCESS_TO_LICENCE_PRODUCTION_ENABLE_TRIGGER = {
 	  if = { limit = {   ROOT = { original_tag = MAN  }  }  FROM = { OR = { original_tag = JAP  original_tag = GER } } }
 }
 DIPLOMACY_RETURN_EXP_FORCE_ENABLE_TRIGGER = {
-    NOT = { ROOT = { OR = { original_tag = EFR original_tag = ETH }} }
-	NOT = { FROM = { OR = { original_tag = EFR original_tag = ETH }} }
+    NOT = { ROOT = { OR = { original_tag = EFR original_tag = ETH original_tag = FIN }} }
+	NOT = { FROM = { OR = { original_tag = EFR original_tag = ETH  original_tag = FIN }} }
 }
 DIPLOMACY_REQUEST_EXP_FORCE_ENABLE_TRIGGER = {
 	NOT = { date < 1939.9.1 }
-    NOT = { ROOT = { OR = { original_tag = EFR original_tag = ETH has_tech = grand_battle_plan_mp has_tech = operational_concentration has_tech = grand_mechanized_offensive }} }
-	NOT = { FROM = { OR = { original_tag = EFR original_tag = ETH has_tech = grand_battle_plan_mp has_tech = operational_concentration has_tech = grand_mechanized_offensive }} }
+    NOT = { ROOT = { OR = { original_tag = EFR original_tag = ETH original_tag = FIN  has_tech = grand_battle_plan_mp has_tech = operational_concentration has_tech = grand_mechanized_offensive }} }
+	NOT = { FROM = { OR = { original_tag = EFR original_tag = ETH original_tag = FIN  has_tech = grand_battle_plan_mp has_tech = operational_concentration has_tech = grand_mechanized_offensive }} }
 	}

@@ -844,8 +844,8 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/ITA_superheavy_tank.dds"
 	}	
 			SpriteType = {
-		name = "GFX_camelry_medium"
-		texturefile = "gfx/interface/technologies/camelry.dds"
+		name = "GFX_camelry_tech_medium"
+		texturefile = "gfx/interface/technologies/camelry_tech.dds"
 	}
 
 	SpriteType = {

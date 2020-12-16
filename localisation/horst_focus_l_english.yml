@@ -1064,7 +1064,7 @@
  GER_volunteers:0 "Foreign Volunteers and Conscripts"
  GER_volunteers_desc:0 "Heinrich Himmler has approached us about the creation of non-German paramilitary units out of foreign volunteers and conscripts from conquered lands. These theoritical divisions would be under his command, outside the control of the Heer, which will almost certainly upset senior German general staff. Regardless, Germany needs more men on the field."
  GER_volunteers_idea:0 "Foreign Volunteers and Conscripts"
- GER_totaler_krieg_idea2_desc:0 "§RGerman soldiers are rallied and motivated to push on to victory, but if the war drags on too long and the stability or war support of our nation goes too low (<50%) then we will lose our initiative!§!"
+ GER_totaler_krieg_idea2_desc:0 "§RGerman soldiers are rallied to victory, but if the war drags on too long and the stability or war support of our nation goes too low (<50%) then we will lose our initiative!§!"
  GER_speers_miracle:0 "Speer's Armaments Miracle"
  GER_speers_miracle_desc:0 "A vast pool of labor lies untapped across the continent meanwhile our arms production lacks compared to our enemies. Albert Speer promises that he can use this labor to massively boost our military-industrial output, supplied by Organisation Todt."
  GER_speers_miracle_idea:0 "Armaments Miracle"
