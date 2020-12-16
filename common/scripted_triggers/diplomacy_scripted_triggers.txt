@@ -24,21 +24,17 @@ NOT = { FROM = { OR = {  has_tech = grand_battle_plan_mp has_tech = operational_
 }
 
 DIPLOMACY_GENERATE_WARGOAL_ENABLE_TRIGGER = { always = no }
- 
-DIPLOMACY_SEND_VOLUNTEERS_ENABLE_TRIGGER = {
- ROOT = { original_tag = EFR  } FROM = { TAG = GER }  
-}  
-
-DIPLOMACY_CALL_ALLY_ENABLE_TRIGGER = { always = no } #I want to block this and make it done through decisions instead
-DIPLOMACY_JOIN_ALLY_ENABLE_TRIGGER = { always = no } #I want to block this and make it done through decisions instead
+DIPLOMACY_SEND_VOLUNTEERS_ENABLE_TRIGGER  = { always = no }
+DIPLOMACY_CALL_ALLY_ENABLE_TRIGGER = { always = no } 
+DIPLOMACY_JOIN_ALLY_ENABLE_TRIGGER = { always = no } 
 
 DIPLOMACY_REQUEST_ACCESS_TO_LICENCE_PRODUCTION_ENABLE_TRIGGER = { 
     if = { limit = {   ROOT = {  the_axis = yes  }  }   FROM = { the_axis = yes 	}  }
     if = { limit = {   ROOT = {  normally_played_allies = yes  }  }   FROM = { OR = { normally_played_allies = yes original_tag = SOV }  }	} 
-	  if = { limit = {   ROOT = { NOT = { original_tag = JAP  }  } } FROM = { NOT = { original_tag = MAN } } }
-	  if = { limit = {   ROOT = { NOT = { original_tag = MAN  }  } } FROM = { NOT = { original_tag = JAP } } }
-	  if = { limit = {   ROOT = { original_tag = JAP  }  } FROM = { OR = { original_tag = MAN original_tag = GER } } }
-	  if = { limit = {   ROOT = { original_tag = MAN  }  }  FROM = { OR = { original_tag = JAP  original_tag = GER } } }
+	if = { limit = {   ROOT = { NOT = { original_tag = JAP  }  } } FROM = { NOT = { original_tag = MAN } } }
+	if = { limit = {   ROOT = { NOT = { original_tag = MAN  }  } } FROM = { NOT = { original_tag = JAP } } }
+	if = { limit = {   ROOT = { original_tag = JAP  }  } FROM = { OR = { original_tag = MAN original_tag = GER } } }
+	if = { limit = {   ROOT = { original_tag = MAN  }  }  FROM = { OR = { original_tag = JAP  original_tag = GER } } }
 }
 DIPLOMACY_RETURN_EXP_FORCE_ENABLE_TRIGGER = {
     NOT = { ROOT = { OR = { original_tag = EFR original_tag = ETH original_tag = FIN }} }

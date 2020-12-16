@@ -632,6 +632,7 @@
 			controls_state = 543
 			controls_state = 554
 			controls_state = 461
+			has_country_flag = EFR_torch_declared
 		}
 		
 		cancel_if_invalid = yes

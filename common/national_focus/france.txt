@@ -890,10 +890,8 @@ check_variable = {  FRA_legitimacy > 40  }    		date > 1940.8.5
 				}
 		}
 		
-		bypass = {
-		OR = { controls_state = 277
-		has_war_with = EFR }
-		}
+		bypass = {	OR = { NOT = { EFR = {controls_state = 277  }}	EFR = { has_country_flag = EFR_torch_declared }	}	}
+
 
 		available_if_capitulated = yes
 		search_filters = { FOCUS_FILTER_ANNEXATION }
@@ -917,10 +915,8 @@ recalc_vichy_france_legitimacy = yes
 		relative_position_id = FRA_appeal_to_overseas_territories
 		
 		cost = 5
-		bypass = {
-		OR = { controls_state = 445
-		has_war_with = EFR }
-		}
+		bypass = {	OR = { NOT = { EFR = {controls_state = 445  }}	EFR = { has_country_flag = EFR_torch_declared }	}	}
+
 		available = {
 		OR = {
 check_variable = {  FRA_legitimacy > 80  }
@@ -968,11 +964,7 @@ recalc_vichy_france_legitimacy = yes
 				}
 				}
 		
-		bypass = {
-		OR = { NOT = { EFR = {controls_state = 554  }}
-		has_war_with = EFR 
-		}
-		}
+		bypass = {	OR = { NOT = { EFR = {controls_state = 554  }}	EFR = { has_country_flag = EFR_torch_declared }	}	}
 
 		available_if_capitulated = yes
 		search_filters = { FOCUS_FILTER_ANNEXATION }
@@ -1004,10 +996,8 @@ recalc_vichy_france_legitimacy = yes
 		custom_trigger_tooltip = {	tooltip = "Has at least 20 legitimacy" check_variable = { FRA_legitimacy > 20 } }
 		}
 		
-		bypass = {
-		OR = { controls_state = 510
-		has_war_with = EFR }
-		}
+		bypass = {	OR = { NOT = { EFR = {controls_state = 510  }}	EFR = { has_country_flag = EFR_torch_declared }	}	}
+
 		available_if_capitulated = yes
 		search_filters = { FOCUS_FILTER_ANNEXATION }
 		completion_reward = {
@@ -1043,10 +1033,8 @@ recalc_vichy_france_legitimacy = yes
 				}
 		}
 		
-		bypass = {
-		OR = { controls_state = 543
-		has_war_with = EFR }
-		}
+		bypass = {	OR = { NOT = { EFR = {controls_state = 543  }}	EFR = { has_country_flag = EFR_torch_declared }	}	}
+
 		available_if_capitulated = yes
 		search_filters = { FOCUS_FILTER_ANNEXATION }
 		completion_reward = {
