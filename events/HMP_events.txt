@@ -232,8 +232,18 @@ country_event = {
 
 	option = {
 		name = poland.100.a 	
-		 if = { limit = { NOR = {  is_in_faction = no } country_exists = NOR }  ENG = { add_to_faction = NOR puppet = NOR } }	
+		 if = { limit = { NOR = {  is_in_faction = no } country_exists = NOR }  ENG = { add_to_faction = NOR puppet = NOR } }
+			if = { limit = { OR = {  NOR = {  is_ai = yes } NOT = { country_exists = NOR }  } } ENG = { country_event = { id = poland.101 } } }
 	}
+}
+
+country_event = {
+	id = poland.101
+	title = "AI Norway"
+	desc = "Because Norway is an AI nation 20 mills and 8 civs will be spawned in on the Isle of Man to compensate for lacking a player nation."
+	picture = GFX_report_event_polish_tanks_01
+	is_triggered_only = yes
+	option = {	name = "Good to know" }
 }
 
 country_event = {
@@ -2096,6 +2106,20 @@ country_event = {
 	id = countrystartup.18
 	title = "USA in Horstorical"
 	desc = countrystartup.18.desc
+ 
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Good to know"	
+	}
+}
+
+country_event = {
+	id = countrystartup.28
+	title = "Horstorical Multiplayer Standard Ruleset"
+	desc = countrystartup.28.desc
  
 	picture = GFX_report_event_generic_sign_treaty1
 	

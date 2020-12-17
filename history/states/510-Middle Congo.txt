@@ -14,9 +14,6 @@ victory_points = {
 }
 buildings = {
 infrastructure = 3
-12975 = {
-naval_base = 1
-}
 }
 }
 provinces={

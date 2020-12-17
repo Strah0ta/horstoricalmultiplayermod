@@ -196,8 +196,8 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-					hidden_effect = {  set_technology = { large_front_operations = 1 } }
-			custom_effect_tooltip = "We will research Large Front Operations, allowing us to research both sides of Mass Assault"
+					hidden_effect = {  set_technology = { large_front_operations = 1 large_front_operations = 1 peoples_army = 1 popup = no } }
+			custom_effect_tooltip = "We will research Large Front Operations and People's Army, allowing us to research both sides of Mass Assault!"
 
 		}
 	}
@@ -253,7 +253,7 @@ add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 100000 }
 			add_tech_bonus = {
 				name = "Reaffirm Old Doctrine"
 				bonus = 100
-				uses = 3
+				uses = 4
 				category = cat_grand_battle_plan
 			}
 		}
@@ -444,7 +444,7 @@ add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 100000 }
 		focus = {
 	id = ETH_red_sea
 	icon = GFX_goal_generic_build_navy
-	x = 10
+	x = 15
 	y = 0
 	cost = 10
 
@@ -469,7 +469,7 @@ add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 100000 }
 		focus = {
 	id = ETH_air_innovation
 	icon = GFX_goal_generic_build_airforce
-	x = 12
+	x = 19
 	y = 0
 	cost = 10
 
@@ -487,7 +487,9 @@ add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 100000 }
 			focus = {
 		id = ETH_force_labor
 		icon = GFX_goal_generic_construction2 
-		x = 11
+		prerequisite = { focus = ETH_industrial_effort }
+		relative_position_id = ETH_industrial_effort
+		x = 0
 		y = 1
 		cost = 10
 		
@@ -547,7 +549,7 @@ add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 100000 }
 	focus = {
 		id = ETH_industrial_effort
 		icon = GFX_goal_generic_production
-		x = 5
+		x = 6
 		y = 0
 		cost = 10
 
@@ -561,14 +563,13 @@ add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 100000 }
 				category = industry
 			}
 		}
-
 	}
 
 	focus = {
 		id = ETH_construction_effort
 		icon = GFX_goal_generic_construct_civ_factory
 		prerequisite = { focus = ETH_industrial_effort }
-		x = -1
+		x = -2
 		y = 1
 		relative_position_id = ETH_industrial_effort
 		cost = 10
@@ -576,7 +577,7 @@ add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 100000 }
 		available_if_capitulated = yes
 
 		completion_reward = {
-			559 = {
+			550 = {
 				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 					type = industrial_complex
@@ -591,7 +592,7 @@ add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 100000 }
 		id = ETH_production_effort
 		icon = GFX_goal_generic_construct_mil_factory
 		prerequisite = { focus = ETH_industrial_effort }
-		x = 1
+		x = 2
 		y = 1
 		relative_position_id = ETH_industrial_effort
 		cost = 10
@@ -599,7 +600,7 @@ add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 100000 }
 		available_if_capitulated = yes
 
 		completion_reward = {
-			559 = {
+			550 = {
 				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 					type = arms_factory
@@ -646,7 +647,7 @@ add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 100000 }
 		available_if_capitulated = yes
 
 		completion_reward = {
-						559 = {
+						271 = {
 				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 					type = arms_factory
@@ -661,7 +662,7 @@ add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 100000 }
 		id = ETH_production_effort_3
 		icon = GFX_goal_generic_construct_mil_factory
 		prerequisite = { focus = ETH_production_effort_2 focus = ETH_construction_effort_2 }
-		x = -1
+		x = -2
 		y = 1
 		relative_position_id = ETH_production_effort_2
 		cost = 10
@@ -679,7 +680,120 @@ add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 100000 }
 			}
 		}
 	}
+		
 
+		focus = {
+		id = ETH_construction_effort4
+		icon = GFX_goal_generic_construct_civ_factory
+		prerequisite = { focus = ETH_production_effort_3 }
+		x = -1
+		y = 1
+		relative_position_id = ETH_production_effort_3
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			550 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+			focus = {
+		id = ETH_construction_effort5
+		icon = GFX_goal_generic_construct_civ_factory 
+		prerequisite = { focus = ETH_construction_effort4 }
+		x = 0
+		y = 1
+		relative_position_id = ETH_construction_effort4
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			271 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+			focus = {
+		id = ETH_production_effort4
+		icon = GFX_goal_generic_construct_mil_factory
+		prerequisite = { focus = ETH_production_effort_3 }
+		x = 1
+		y = 1
+		relative_position_id = ETH_production_effort_3
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			559 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+				focus = {
+		id = ETH_production_effort5
+		icon = GFX_goal_generic_construct_mil_factory
+		prerequisite = { focus = ETH_production_effort4 }
+		x = 0
+		y = 1
+		relative_position_id = ETH_production_effort4
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			559 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1 
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+		focus = {
+		id = ETH_industrial_effort2
+		icon = GFX_goal_generic_production
+		prerequisite = { focus = ETH_production_effort5 focus = ETH_construction_effort5 }
+		relative_position_id = ETH_production_effort5
+
+		x = -1
+		y = 1
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = industrial_bonus
+				bonus = 3.0
+				uses = 1
+				category = industry
+			}
+		}
+	}
+	
 
 	focus = {
 		id = ETH_political_effort
@@ -697,8 +811,8 @@ add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 100000 }
 			focus = {
 		id = ETH_puntland
 		icon = GFX_goal_generic_demand_territory
-		x = 8
-		y = 6
+		x = 11
+		y = 0
 		cost = 5
 
 		available_if_capitulated = yes
@@ -709,30 +823,16 @@ add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 100000 }
 	}
 	
 				focus = {
-		id = ETH_sudan_north
-		icon = GFX_goal_generic_demand_territory
-		x = 6
-		y = 4
-		cost = 5
-
-		available_if_capitulated = yes
-		available = { controls_state = 551 }
-		completion_reward = {
-			add_state_core = 551
-		}
-	}
-	
-				focus = {
 		id = ETH_sudan_south
 		icon = GFX_goal_generic_demand_territory
-		x = 8
-		y = 4
+		x = 12
+		y = 1
 		cost = 5
 
 		available_if_capitulated = yes
-		available = { controls_state = 549 }
+		available = { controls_state = 549 controls_state = 551 }
 		completion_reward = {
-			add_state_core = 549
+			add_state_core = 549 add_state_core = 551
 		}
 	}
 	
@@ -740,52 +840,26 @@ add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 100000 }
 		id = ETH_kenya
 		icon = GFX_goal_generic_demand_territory
 		x = 10
-		y = 4
+		y = 1
 		cost = 5
 
 		available_if_capitulated = yes
-		available = { controls_state = 547 }
+		available = { controls_state = 546 controls_state = 547 controls_state = 548 }
 		completion_reward = {
+			add_state_core = 546
 			add_state_core = 547
-		}
-	}
-	
-				focus = {
-		id = ETH_uganda
-		icon = GFX_goal_generic_demand_territory
-		x = 7
-		y = 5
-		cost = 5
-
-		available_if_capitulated = yes
-		available = { controls_state = 548 }
-		completion_reward = {
 			add_state_core = 548
 		}
 	}
 	
-				focus = {
-		id = ETH_tanganyika
-		icon = GFX_goal_generic_demand_territory
-		x = 9
-		y = 5
-		cost = 5
-
-		available_if_capitulated = yes
-		available = { controls_state = 546 }
-		completion_reward = {
-			add_state_core = 546
-		}
-	}
-
 					focus = {
 		id = ETH_yemen
 		icon = GFX_goal_generic_demand_territory
 		prerequisite =  {  focus = ETH_puntland}
-		x = 8
-		y = 7
+		x = 0
+		y = 2
 		cost = 5
-
+		relative_position_id = ETH_puntland
 		available_if_capitulated = yes
 		available = { controls_state = 574 }
 		completion_reward = {
@@ -794,50 +868,4 @@ add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 100000 }
 	}
 	
 
-	focus = {
-		id = ETH_why_we_fight
-		icon = GFX_goal_generic_propaganda
-		prerequisite = { focus = ETH_political_effort }
-		continue_if_invalid = yes	
-		x = 0
-		y = 1
-		relative_position_id = ETH_political_effort
-		cost = 10
-		available_if_capitulated = yes
-		completion_reward = {
-			#add_ideas = ideological_fanaticism_focus
-			}
-		}
-	
-	focus = {
-		id = ETH_technology_sharing
-		icon = GFX_goal_generic_scientific_exchange
-		prerequisite = {  focus = ETH_why_we_fight }
-		x = 0
-		y = 1
-		relative_position_id = ETH_why_we_fight
-		cost = 10
-		available_if_capitulated = yes
-		completion_reward = {
-				add_tech_bonus = {
-					name = electronics_bonus
-					bonus = 1.0
-					uses = 1
-					category = electronics
-				}
-				add_tech_bonus = {
-					name = industrial_bonus
-					bonus = 1.0
-					uses = 1
-					category = industry
-				}	
-				add_tech_bonus = {
-					name = infantry_artillery_bonus #@#
-					bonus = 1.0
-					uses = 1
-					category = infantry_weapons
-					category = artillery
-				}				
-			}
-		}	
 	}

@@ -3554,10 +3554,7 @@ HMP_capitulations_on_actions = {
 			JAP = {  transfer_state  = 472 transfer_state  = 312 transfer_state  = 523 transfer_state = 415  transfer_state  = 518 }
 			}
 			
-			if = {
-			limit = { original_tag = FIN } 
-			FIN = { white_peace = SOV leave_faction = yes country_event = { id = fincon.6 days = 3 } }
-			}
+			if = {	limit = { original_tag = FIN } 	FIN = { white_peace = SOV leave_faction = yes country_event = { id = fincon.6 days = 3 } } }
 }
 
 
@@ -4271,39 +4268,49 @@ add_state_core = 21
 ###NORTH AFRICA### #demilitarized so Vichy players aren't utter cancer
 transfer_state = 460
 460 = { set_demilitarized_zone = yes }
+460 = { add_compliance = 100 }
 transfer_state = 513
 513 = { set_demilitarized_zone = yes }
+513 = { add_compliance = 100 }
 transfer_state = 459
 459 = { set_demilitarized_zone = yes }
+459 = { add_compliance = 100 }
 transfer_state = 461
 461 = { set_demilitarized_zone = yes }
+461 = { add_compliance = 100 }
 ###SYRIA+LEBANON###
 if = { limit = { FRA = { check_variable = { FRA_legitimacy 	< 100 } }  }
 transfer_state = 554
 554 = { set_demilitarized_zone = yes }
+554 = { add_compliance = 100 }
 }
 ###WEST AFRICA###
 if = { limit = { FRA = { check_variable = { FRA_legitimacy 	< 80 } } }
 transfer_state = 556
 556 = { set_demilitarized_zone = yes }
+556 = { add_compliance = 100 }
 transfer_state = 445
 445 = { set_demilitarized_zone = yes }
+445 = { add_compliance = 100 }
 }
 ###MADAGASCAR###
 if = { limit = { FRA = { check_variable = { FRA_legitimacy 	< 60 } } }
 transfer_state = 543
 543 = { set_demilitarized_zone = yes }
+543 = { add_compliance = 100 }
 }
 ###CENTRAL AFRICA - BET###
 if = { limit = { FRA = { check_variable = { FRA_legitimacy 	< 40 } } }
 transfer_state = 277
 277 = { set_demilitarized_zone = yes }
+277 = { add_compliance = 100 }
 }
 ###CENTRAL AFRICA - GABON###
 if = { limit = { FRA = { check_variable = { FRA_legitimacy 	< 20 } } }
-#transfer_state = 539 #Gabon, commented out so its not as harsh for France players
+#transfer_state = 539 #Gabon, commented out so its not as harsh for France players -Thrasymachus
 transfer_state = 510
 510	 = { set_demilitarized_zone = yes }
+510 = { add_compliance = 100 }
 }
 ###CENTRAL AFRICA - BELGIAN CONGO###
 if = { limit = { FRA = { check_variable = { FRA_legitimacy 	> 59 } } }

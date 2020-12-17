@@ -5,7 +5,6 @@ country = {
 	NOR_training = {
 	picture = FRA_army_of_aggression_focus
 	modifier = {
-	winter_attrition_factor = -0.25
 	acclimatization_cold_climate_gain_factor = 1000
 	training_time_factor = -0.5
 	}
@@ -108,9 +107,8 @@ country = {
 	picture = generic_victors_of_ww1 
 	modifier = {
 	army_core_attack_factor = 0.10
-	army_core_defence_factor = 0.1
+	army_core_defence_factor = 0.10
 	amphibious_invasion = 0.2
-	winter_attrition_factor = -0.25
 	out_of_supply_factor = -0.25
 	}
 	
@@ -119,37 +117,19 @@ country = {
 }
 
 	political_advisor = {
-
-			NOR_halavdan_koht = {
-
+		NOR_halavdan_koht = {
 			picture = generic_political_advisor_europe_1
-
-			allowed = {
-				original_tag = NOR
-			}
-			
+			allowed = {	original_tag = NOR	}
 			traits = { democratic_reformer }
 		}
-
 		NOR_adolf_indrebo = {
-
 			picture = generic_political_advisor_europe_2
-				
-			allowed = {
-				original_tag = NOR
-			}
-			
+			allowed = {	original_tag = NOR	}
 			traits = { captain_of_industry }
 		}
-
 		NOR_trygve_halvdan_lie = {
-
 			picture = generic_political_advisor_europe_3
-			
-			allowed = {
-				original_tag = NOR
-			}
-			
+			allowed = {	original_tag = NOR	}
 			traits = { popular_figurehead }
 		}
 	}
@@ -157,42 +137,20 @@ country = {
 	army_chief = {
 		
 		NOR_otto_ruge = {
-			
 			picture = generic_army_europe_4
-			
-			allowed = {
-				original_tag = NOR
-			}
-			
-
-			
+			allowed = {	original_tag = NOR	}
 			traits = { army_chief_offensive_2 }
 		}
 
 		NOR_willhelm_von_tangen_hansteen = {
-			
 			picture = generic_army_europe_5
-			
-			allowed = {
-				original_tag = NOR
-			}
-			
-
-			
+			allowed = {	original_tag = NOR	}
 			traits = { army_chief_organizational_2 }
-
 		}
 
 		NOR_kristian_laake = {
-			
 			picture = generic_army_europe_1
-			
-			allowed = {
-				original_tag = NOR
-			}
-			
-
-			
+			allowed = {	original_tag = NOR	}
 			traits = { army_chief_defensive_2 }
 		}
 	}
@@ -200,17 +158,9 @@ country = {
 	theorist = {
 		NOR_konrad_sundlo = {
 			ledger = army
-			
 			picture = generic_army_europe_2
-
-			allowed = {
-				original_tag = NOR
-			}
-			
-			research_bonus = {
-				land_doctrine = 0.10
-			}
-			
+			allowed = {  original_tag = NOR	}
+			research_bonus = { land_doctrine = 0.10	}
 			traits = { military_theorist }
 		}
 	}

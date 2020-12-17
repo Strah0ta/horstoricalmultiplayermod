@@ -8,7 +8,6 @@ set_rule = { can_join_factions = no }
 set_rule = { can_be_spymaster = no }
 add_to_tech_sharing_group = axis_research 
 set_variable = { vichy_legitimacy_mechanic_stability_factor = -0.1 }
-add_ideas = armyandnavy_idea_efr
 set_variable = {
     var = min_fuel
     value = 0.800
