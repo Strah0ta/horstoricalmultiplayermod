@@ -3511,8 +3511,8 @@ HMP_startup_on_actions = {
 
 HMP_capitulations_on_actions = {
 	if = { limit = { AND = { original_tag = GER GER = { has_war_with = SOV }} } 	fascism_has_been_defeated = yes 	}
-	if = { limit = { ROOT = { original_tag = JAP } NOT = { FROM = { original_tag = SOV } } } JAP = { set_equipment_faction = 0 } USA = { annex_country = { target = JAP transfer_troops = no } if = { limit = { country_exists = MAN } annex_country = { target = MAN transfer_troops = no } }}   }
-	if = { limit = { ROOT = { original_tag = JAP } FROM = { original_tag = SOV } } JAP = { set_equipment_faction = 0 } SOV = { annex_country = { target = JAP transfer_troops = no } } if = { limit = { country_exists = MAN } SOV = { annex_country = { target = MAN transfer_troops = no } } } }			
+	if = { limit = { ROOT = { original_tag = JAP } NOT = { FROM = { original_tag = SOV } } } JAP = { set_equipment_fraction = 0 } USA = { annex_country = { target = JAP transfer_troops = no } if = { limit = { country_exists = MAN } annex_country = { target = MAN transfer_troops = no } }}   }
+	if = { limit = { ROOT = { original_tag = JAP } FROM = { original_tag = SOV } } JAP = { set_equipment_fraction = 0 } SOV = { annex_country = { target = JAP transfer_troops = no } } if = { limit = { country_exists = MAN } SOV = { annex_country = { target = MAN transfer_troops = no } } } }			
 			
 			if = {
 			limit = { ROOT = { original_tag = SOV }  FROM = { original_tag = GER } }
@@ -3956,6 +3956,7 @@ democratic_russia = {
 	fuel_refining4 = 1
 	fuel_refining5 = 1
 	camelry_tech = 1
+	camelry_2 = 1
 	tech_engineers = 1 
 	tech_engineers2 = 1
 	tech_recon = 1 
@@ -3964,18 +3965,22 @@ democratic_russia = {
 	tech_maintenance_company = 1
 	tech_logistics_company = 1
 	tech_logistics_company2 = 1
+	tech_logistics_company3 = 1	
 	gw_artillery = 1 
 	interwar_artillery = 1
 	artillery1 = 1 
 	artillery2 = 1 
+	early_fighter = 1
 	rocket_artillery = 1
 	interwar_antiair = 1
 	antiair1 = 1
+	antiair2 = 1	
     interwar_antitank = 1	
 	antitank1 = 1
 	antitank2 = 1
 	antitank3 = 1 
 	antitank4 = 1
+	antitank5 = 1	
 	electronic_mechanical_engineering = 1
 	radio = 1
 	mechanical_computing = 1
@@ -3997,6 +4002,13 @@ democratic_russia = {
 	excavation4 = 1
 	infantry_weapons1 = 1 
 	infantry_weapons2 = 1
+	improved_infantry_weapons_2 = 1	
+	advanced_infantry_weapons = 1
+	tech_mountaineers = 1 
+	tech_mountaineers2 = 1
+	advanced_special_forces = 1
+	improved_special_forces = 1
+	battlefield_support = 1
 	improved_infantry_weapons = 1 
     tech_special_forces = 1
     support_weapons = 1 
@@ -4009,17 +4021,22 @@ democratic_russia = {
 	the_golden_coup_has_been_launched = {
 	hidden_effect = { catch_up_iraq_with_tech = yes }
 	remove_ideas = ai_imiter
+	ITA = { transfer_state = 44 }
+	remove_state_core = 44
 	transfer_state = 291 set_capital = 291 add_state_core = 291
 	load_focus_tree = iraq_focus_tree  
 	#give_resource_rights = { receiver = ROM state = 494 }
 	load_oob = "ITA_IRQ_Spawn"  
 	add_research_slot = 4
-		291 = { add_extra_state_shared_building_slots = 4 }
+		291 = { add_extra_state_shared_building_slots = 12 add_building_construction = { type = industrial_complex level = 6 instant_build = yes } add_building_construction = { type = arms_factory level = 6 instant_build = yes } }
 		add_ideas = tot_economic_mobilisation add_ideas = service_by_requirement add_ideas = free_trade 
 	set_politics = {
 		ruling_party = fascism
 		elections_allowed  = no
 	}
+	add_to_war = {	targeted_alliance = GER	enemy = ENG	}
+	if = { limit = { AND = { country_exists = EFR NOT = {EFR = { has_country_flag = EFR_torch_declared}} } } EFR = { every_owned_state = {  set_demilitarized_zone = yes } 26 = { set_demilitarized_zone = no  } } } 
+
 	}
 	
 	iraq_gbp_doctrine = {
@@ -4032,6 +4049,7 @@ democratic_russia = {
 	infantry_offensive = 1
 	armored_operations = 1
 	infiltration_assault = 1
+	night_assault_tactics = 1
 	}
 	}
 	}
@@ -4045,6 +4063,7 @@ democratic_russia = {
 	human_infantry_offensive = 1
 	large_front_offensive = 1 
 	human_wave_offensive = 1
+	
 	}
 	}
 	}
@@ -4058,6 +4077,7 @@ democratic_russia = {
 	regimental_combat_teams = 1
 	sup_mechanized_offensive = 1
 	centralized_fire_control = 1
+	forward_observers = 1
 	}
 	}
 	}

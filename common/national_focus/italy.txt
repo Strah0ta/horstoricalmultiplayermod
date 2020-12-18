@@ -1145,7 +1145,7 @@ date > 1941.6.1
 	}
 			focus = {
 		id = ITA_align_iraq
-		available = { ENG = {  controls_state = 412	} NOT = { ENG = {  controls_state = 291} } }
+		available = {  NOT = { ENG = {  controls_state = 291} } }
 		
 		prerequisite = { focus = ITA_sword_of_islam }
 		

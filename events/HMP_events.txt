@@ -799,17 +799,17 @@ name = ""
 	is_triggered_only = yes
 	
 option = {
-name = "We hired a Russian Advisor"
+name = "We hired a Russian Advisor (MA R)"
 	iraq_ma_doctrine = yes
 }
 
 option = {
-name = "We hired an Italian Advisor"
+name = "We hired an Italian Advisor (GBP R)"
 	iraq_gbp_doctrine = yes
 }
 
 option = {
-name = "We hired a Romanian Advisor"
+name = "We hired a Romanian Advisor (SF R)"
 	iraq_sf_doctrine = yes 
 }
 

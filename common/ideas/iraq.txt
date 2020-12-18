@@ -10,161 +10,91 @@ country = {
 	political_advisor = {
 
 		rashid_al_gaylani2 = {
-
-			picture = generic_political_advisor_europe_2
-
-			allowed = {
-				original_tag = ALB
-			}
-			
+			picture = generic_political_advisor_arab_3
+			allowed = {	original_tag = ALB	}
 			traits = { education_reformer }
 		}
 		
-		
-		
 		rashid_al_gaylani = {
-			
-			picture = generic_political_advisor_europe_3
-			allowed = {
-				original_tag = ALB
-			}
-
+			picture = generic_political_advisor_arab_1
+			allowed = {	original_tag = ALB	}
 			cost = 0 
 			traits = { national_integralist }
-
 		}
 	
 		rashid_al_gaylani3 = {
-			
-			picture = generic_political_advisor_europe_3
-			
-			allowed = {
-				original_tag = ALB
-			}
-
+			picture = generic_political_advisor_arab_2
+			allowed = {	original_tag = ALB	}
 			cost = 0 
 			traits = { propaganda_expert }
-
-	
-		
 		}
 	}	
 		
 	# MILITARY
 	army_chief = {
 		ALB_Mahmud_Salman2 = {
-			
-			picture = generic_army_europe_3
-			
-			allowed = {
-				original_tag = ALB
-				
-			}
-			
+			picture = generic_army_arab_1
+			allowed = {	original_tag = ALB	}
 			traits = { army_chief_defensive_3 }
 		}
 	}
 
 	air_chief = {
 		ALB_Mahmud_Salman = { 
-			picture = generic_air_europe_3
+			picture = generic_air_arab_1
 			allowed = {	original_tag = ALB	}
 			traits = { air_chief_ground_support_3 }
 		}
 	}
 
 	navy_chief = {
-
 		ALB_jean_francois_darlan = {
-			
-			picture = generic_navy_europe_1
-			
-			allowed = {
-				original_tag = ALB
-				
-			}
-			
-
-			
+			picture = generic_navy_arab_2
+			allowed = { original_tag = ALB }
 			traits = { navy_chief_maneuver_2 }
-
 		}
-
 		ALB_jean_marie_abrial = {
-			
-			picture = generic_navy_europe_1
-			
-			allowed = {
-				original_tag = ALB
-				
-			}
-			
-
-			
+			picture = generic_navy_arab_1
+			allowed = {	original_tag = ALB	}
 			traits = { navy_anti_submarine_2 }
-
 		}
 	}
 
 	high_command = {
-
-
 		ALB_Salah_ad_Din_al_Sabbagh = {
 			ledger = army
-			picture = generic_air_europe_1
+			picture = generic_army_arab_2
 			allowed = { original_tag = ALB	}
 			traits = { army_infantry_2 }
 		}
 	
 		ALB_Kamal_Shabib = {
 			ledger = army
-			picture = generic_navy_europe_2
+			picture = generic_army_arab_1
 			allowed = {	original_tag = ALB	}
 			traits = { army_chief_organizational_3 }
 		}
 
 		ALB_Fahmi_Said = {
 			ledger = army
-			picture = generic_navy_europe_1
+			picture = generic_army_arab_3
 			allowed = { original_tag = ALB }
 			traits = { army_armored_2 }
 		}
-
 	}
 
-
-	
-	
 	theorist = {
-		
 		ALB_henri_giraud = {
 			ledger = army
-						
-			allowed = {
-				original_tag = ALB
-			}
-						
-			research_bonus = {
-				land_doctrine = 0.10
-			}
-			
+			allowed = {	original_tag = ALB }
+			research_bonus = {	land_doctrine = 0.10	}
 			traits = { military_theorist }
 		}
 		
-		
 		ALB_frederic_irene_joliot_curie = {
 			ledger = army
-			
-			
-			allowed = {
-				original_tag = ALB
-			}
-			
-			
-			research_bonus = {
-				nuclear = 0.15
-			}
-			
+			allowed = { original_tag = ALB	}
+			research_bonus = {	nuclear = 0.15	}
 			traits = { nuclear_scientist }
 		}
 	}	

@@ -38,7 +38,6 @@ leader_traits = {
 		training_time_army_factor = -0.5
 		mobilization_speed = 1
 		production_lack_of_resource_penalty_factor = -1
-		air_volunteer_cap = -10000
 	}
 		stalin_barb_leader_trait = {
 	random = no
@@ -70,8 +69,8 @@ leader_traits = {
 	war_support_factor = 0.1
 				targeted_modifier = {
 				tag = ENG
-				attack_bonus_against = -0.5
-				defense_bonus_against = -0.5
+				attack_bonus_against = -0.2
+				defense_bonus_against = -0.2
 			}
 	}
 		anti_british_revolutionary2 = { 
@@ -79,8 +78,8 @@ leader_traits = {
 	war_support_factor = 0.3
 			targeted_modifier = {
 				tag = ENG
-				attack_bonus_against = -0.20
-				defense_bonus_against = -0.20
+				attack_bonus_against = -0.05
+				defense_bonus_against = -0.05
 			}
 	}
 	

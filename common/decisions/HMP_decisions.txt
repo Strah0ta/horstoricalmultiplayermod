@@ -538,7 +538,7 @@ add_equipment_to_stockpile = {  type = sov_fighter_equipment_2 amount = 986 prod
 	}
 	HMP_ll_soviets_receive_med_tank = { 
 		allowed = {  original_tag = SOV } 
-		available = {  check_variable = { var = SOV_barb_ll_token  value = 20  compare = greater_than_or_equals} has_war_with = GER OR = { date > 1942.6.22  AND = { ENG = { controls_state = 412 }  date > 1942.1.22  } } custom_trigger_tooltip = {	tooltip = SOV_secure_tt	suppy_route_secure = yes}  }      
+		available = {  check_variable = { var = SOV_barb_ll_token  value = 20  compare = greater_than_or_equals} has_war_with = GER OR = { date > 1942.4.22  AND = { ENG = { controls_state = 412 }  date > 1941.11.22  } } custom_trigger_tooltip = {	tooltip = SOV_secure_tt	suppy_route_secure = yes}  }      
 		icon = generic_form_nation
 		cost = 0
 		days_remove = 60
@@ -559,7 +559,7 @@ add_equipment_to_stockpile = {  type = sov_fighter_equipment_2 amount = 986 prod
 	}
 		HMP_ll_soviets_receive_heavy_tank = { 
 allowed = {  original_tag = SOV } 
-available = {  check_variable = { var = SOV_barb_ll_token  value = 20  compare = greater_than_or_equals} has_war_with = GER OR = { date > 1942.6.22  AND = { ENG = { controls_state = 412 }  date > 1942.1.22  } } custom_trigger_tooltip = {	tooltip = SOV_secure_tt	suppy_route_secure = yes}  }      
+		available = {  check_variable = { var = SOV_barb_ll_token  value = 20  compare = greater_than_or_equals} has_war_with = GER OR = { date > 1942.4.22  AND = { ENG = { controls_state = 412 }  date > 1941.11.22  } } custom_trigger_tooltip = {	tooltip = SOV_secure_tt	suppy_route_secure = yes}  }      
 		icon = generic_form_nation
 		cost = 0
 		fire_only_once = no
@@ -579,7 +579,7 @@ available = {  check_variable = { var = SOV_barb_ll_token  value = 20  compare =
 	}
 			HMP_ll_soviets_receive_light_tank = { 
 allowed = {  original_tag = SOV } 
-available = {  check_variable = { var = SOV_barb_ll_token  value = 20  compare = greater_than_or_equals} has_war_with = GER OR = { date > 1942.6.22  AND = { ENG = { controls_state = 412 }  date > 1942.1.22  } } custom_trigger_tooltip = {	tooltip = SOV_secure_tt	suppy_route_secure = yes}  }      
+		available = {  check_variable = { var = SOV_barb_ll_token  value = 20  compare = greater_than_or_equals} has_war_with = GER OR = { date > 1942.4.22  AND = { ENG = { controls_state = 412 }  date > 1941.11.22  } } custom_trigger_tooltip = {	tooltip = SOV_secure_tt	suppy_route_secure = yes}  }      
 		icon = generic_form_nation
 		cost = 0
 		fire_only_once = no
@@ -1149,12 +1149,10 @@ every_country = {
 					}
 			custom_effect_tooltip = GER_barbarossa_others_text
 			custom_effect_tooltip = GER_barb_buff_tt
-			
-	
 			if = { limit = { has_idea = extensive_conscription } 		add_ideas = service_by_requirement  }
-				SOV = { if = { limit = { has_idea = extensive_conscription } 		add_ideas = service_by_requirement  } }
+			SOV = { if = { limit = { has_idea = extensive_conscription } 		add_ideas = service_by_requirement  } }
 		
-				country_event = { id = fincon.2 days = 7 }
+			country_event = { id = fincon.2 days = 7 }
 			declare_war_on = {
 				target = SOV 
 				type = annex_everything
@@ -1168,13 +1166,18 @@ every_country = {
 			SOV = { country_event = { id = soviet.503 days = 0  } }
 			SOV = { add_ideas = tot_economic_mobilisation complete_national_focus = SOV_great_patriotic_war_foc }
 			SOV = { activate_mission = SOV_relocation  }   
-						
-			hidden_effect = { if = { limit = { country_exists = EFR }	EFR = { add_to_war = { targeted_alliance = GER enemy = SOV } } EFR = { every_owned_state = {  set_demilitarized_zone = yes } 26 = { set_demilitarized_zone = no  } } } } 
+
 			if = { limit = { country_exists = ITA }	ITA = { add_to_war = { targeted_alliance = GER enemy = SOV } } }
 			if = { limit = { country_exists = HUN }	HUN = { add_to_war = { targeted_alliance = GER enemy = SOV } } }
 			if = { limit = { country_exists = ROM }	ROM = { add_to_war = { targeted_alliance = GER enemy = SOV } }	}
 			if = { limit = { country_exists = BUL }	BUL = { add_to_war = { targeted_alliance = GER enemy = SOV } } }
 			if = { limit = { country_exists = SPR }	SPR = { add_to_war = { targeted_alliance = GER enemy = SOV } } }
+			if = { limit = { country_exists = FIN }	FIN = { add_to_war = { targeted_alliance = GER enemy = SOV } } }
+				
+			hidden_effect = { 
+				if = { limit = { country_exists = ALB }	ALB = { add_to_war = { targeted_alliance = GER enemy = SOV } }} 
+				if = { limit = { AND = { country_exists = EFR NOT = {EFR = { has_country_flag = EFR_torch_declared}} } }	EFR = { add_to_war = { targeted_alliance = GER enemy = SOV } } EFR = { every_owned_state = {  set_demilitarized_zone = yes } 26 = { set_demilitarized_zone = no  } } } 
+			} 		
 			SOV = { 		SOV_relocate_mil=yes		
 			SOV_relocate_mil=yes
 			SOV_relocate_mil=yes		
@@ -2198,6 +2201,24 @@ hidden_effect = {
 			}
 		}
 	}
+
+	ITA_annex_alb = {
+	icon = generic_operation
+			available = {	ALB = { is_ai = yes } 	}
+			visible = { ALB = { owns_state = 291 } country_exists = ALB }
+			allowed = {	tag = ITA	}
+			fire_only_once = yes
+			cost = 0
+			complete_effect = {
+				ITA = { 
+					annex_country = {
+						target = ALB
+						transfer_troops = yes 
+					}
+			}
+		}
+	}	
+	
 	SAF_rhodesia = {
 allowed = {original_tag = SAF}
 	available = {

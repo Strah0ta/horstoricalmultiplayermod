@@ -552,13 +552,7 @@ focus_tree = {
 
 		available_if_capitulated = yes
 
-		completion_reward = {
-		add_ideas = fin_continuation_war 
-			declare_war_on = {
-				target = SOV
-				type = annex_everything
-			}
-		}
+		completion_reward = {	add_ideas = fin_continuation_war 	}
 	}
 		
 			focus = {
