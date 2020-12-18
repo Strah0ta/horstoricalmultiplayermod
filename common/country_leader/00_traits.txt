@@ -72,6 +72,7 @@ leader_traits = {
 				attack_bonus_against = -0.2
 				defense_bonus_against = -0.2
 			}
+			min_export = -1
 	}
 		anti_british_revolutionary2 = { 
 	
@@ -81,6 +82,7 @@ leader_traits = {
 				attack_bonus_against = -0.05
 				defense_bonus_against = -0.05
 			}
+						min_export = -1
 	}
 	
 		anti_british_revolutionary3 = { 
@@ -91,6 +93,7 @@ leader_traits = {
 				attack_bonus_against = 0.10
 				defense_bonus_against = 0.10
 			}
+			min_export = -1
 	}
 	
 	hero_people = {

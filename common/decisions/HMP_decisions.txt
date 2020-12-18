@@ -1030,6 +1030,8 @@ every_country = {
 			if = { limit = { country_exists = HUN } HOL = { add_to_war = { targeted_alliance = ENG enemy = HUN } }	}
 			if = { limit = { country_exists = BUL } HOL = { add_to_war = { targeted_alliance = ENG enemy = BUL } }	}
 							}
+			hidden_effect = { if = { limit = { EFR = { owns_state = 26 }} EFR = { add_to_war = { targeted_alliance = GER enemy = HOL }  every_owned_state = {  set_demilitarized_zone = yes } 26 = { set_demilitarized_zone = no  }  } } }
+
 		}		
 	}
 	GER_fall_gelb2 = {
@@ -1097,7 +1099,9 @@ every_country = {
 			if = { limit = { country_exists = ROM }  DEN = { add_to_war = { targeted_alliance = ENG enemy = ROM } } }
 			if = { limit = { country_exists = HUN }  DEN = { add_to_war = { targeted_alliance = ENG enemy = HUN } }  }
 			  if = { limit = { country_exists = BUL } DEN = { add_to_war = { targeted_alliance = ENG enemy = BUL } }	}
-			}			
+			}		
+			hidden_effect = { if = { limit = { EFR = { owns_state = 26 }} EFR = { add_to_war = { targeted_alliance = GER enemy = DEN }  every_owned_state = {  set_demilitarized_zone = yes } 26 = { set_demilitarized_zone = no  }  } } }
+			
 		}	
 	}
 	
@@ -1125,7 +1129,7 @@ every_country = {
 			    if = { limit = { country_exists = BUL } BUL = { add_to_war = { targeted_alliance = GER enemy = NOR } }  }
 			}
 
-			
+			hidden_effect = { if = { limit = { EFR = { owns_state = 26 }} EFR = { add_to_war = { targeted_alliance = GER enemy = NOR }  every_owned_state = {  set_demilitarized_zone = yes } 26 = { set_demilitarized_zone = no  }  } } }
 		}	
 	}
 	
@@ -1280,7 +1284,7 @@ GER_desert_flower_dec = {
 				
 GER_case_anton = {
 	icon = generic_prepare_civil_war		
-	allowed = { OR = { tag = EFR tag = GER }}				
+	allowed = { OR = { tag = EFR tag = GER tag = ENG }}				
 	visible = {	date > 1948.1.1	}		
 		available =  {
 		OR = { 
@@ -1380,7 +1384,7 @@ hidden_effect = {
 				SPR_relocate_civs_mils = yes
 				SPR_relocate_civs_mils = yes
 				annex_country = {
-					target = SPR
+					target = SPR  
 					transfer_troops = yes 
 				}
 				release = SPR 
@@ -1397,7 +1401,7 @@ hidden_effect = {
 				fire_only_once = yes
 				cost = 0	
 				complete_effect = { 
-				ITA = { add_to_war = { targeted_alliance = GER	enemy = ENG	} } ETH = { add_to_war = { targeted_alliance = GER	enemy = ENG	} } news_event = { id = news.3998 } 
+				ITA = { add_to_war = { targeted_alliance = GER	enemy = ENG	} } ETH = { add_to_war = { targeted_alliance = GER	enemy = ENG	} } news_event = { id = news.3998 }  hidden_effect = { EFR = { every_owned_state = {  set_demilitarized_zone = yes } 26 = { set_demilitarized_zone = no  }  } }
 				}
 			}
 			USA_join_the_war = { 
@@ -1597,7 +1601,6 @@ hidden_effect = {
 		complete_effect = {
 		GER = { remove_from_faction = EFR }
 		EFR = { set_country_flag = EFR_torch_declared diplomatic_relation = { country = GER relation = military_access	active = yes	} diplomatic_relation = { country = ITA relation = military_access	active = yes	} diplomatic_relation = { country = ROM relation = military_access	active = yes	} diplomatic_relation = { country = BUL relation = military_access	active = yes	} diplomatic_relation = { country = HUN relation = military_access	active = yes	} if = { limit= {country_exists = ALB }diplomatic_relation = { country = ALB relation = military_access	active = yes	}}}
-				GER =  { activate_mission = GER_case_anton }
 				USA = { country_event = { id = usa.996  days = 0 } 
 				create_field_marshal = {
 	name = "Geoffrey Keyes"
@@ -1614,7 +1617,7 @@ hidden_effect = {
 459 = { add_building_construction  = { type = naval_base level = 15 province = 7132 instant_build = yes }}
 459 = { add_building_construction  = { type = naval_base level = 15 province = 1145 instant_build = yes }}
 
-create_corps_commander = {
+create_corps_commander = { 
 	name = "Lloyd Fredendall"
 	picture = "Portrait_USA_Lloyd_Fredendall.dds"
 	traits = { old_guard inflexible_strategist unyielding_defender trait_engineer scavenger infantry_leader infantry_expert trait_mountaineer expert_improviser hill_fighter trickster fake_skilled_staffer  }
@@ -1626,8 +1629,10 @@ create_corps_commander = {
 	logistics_skill = 9
 }
 				}
-				every_country = { limit = { is_in_faction_with = ENG has_war = yes   }	EFR = { declare_war_on = { target = PREV type = annex_everything }	}	}
 				EFR = { set_technology = { mtg_transport = 1 } } 
+				EFR = { every_owned_state = { set_demilitarized_zone = no }}
+				GER =  { activate_mission = GER_case_anton }
+				news_event = { id = news.4001 }
 			}	
 		}
 			prepare_husky = {  

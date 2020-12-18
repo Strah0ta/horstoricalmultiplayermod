@@ -5605,7 +5605,17 @@ country_event = {
 		is_triggered_only = yes
       option = { name = "The War expands."  }
    }
+   
+       news_event = {	
+   id = news.4001
+   title = "Operation Torch"
+   desc = "The Allies have begun invading Vichy controlled North Africa!"
+   picture = GFX_news_event_italian_tank_desert
 
+		major =  yes
+		is_triggered_only = yes
+      option = { name = "Ok"  }
+   }
 add_namespace = unitednations
 
 #United Nations declaration
