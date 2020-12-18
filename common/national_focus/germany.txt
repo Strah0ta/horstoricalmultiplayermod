@@ -1674,7 +1674,7 @@ focus = {
 		ITA = { add_ideas = GER_totaler_krieg_idea  }
 		add_ideas = GER_totaler_krieg_idea2
 		add_dynamic_modifier  = { modifier =  GER_war_exhaustion }
-		hidden_effect = { HMP_ger_total_mob = yes }		
+		#hidden_effect = { HMP_ger_total_mob = yes }		
 		 }
 }
 focus = {
