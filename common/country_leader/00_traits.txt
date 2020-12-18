@@ -704,37 +704,42 @@ leader_traits = {
 		equipment_bonus = {	armor = {	build_cost_ic = -0.05 reliability = 0.05 } }
 	} 
 	
-	cruiser_tank_manufacturer = { ## Cruiser Tank Designer
+	cruiser_tank_manufacturer = { 
 		random = no
 		equipment_bonus = {	armor = {	hard_attack = 0.05 maximum_speed = 0.05 	}	}
 	}	
-	cavalry_tank_manufacturer = { ## Cavalry Tank Designer
+	cavalry_tank_manufacturer = { 
 		random = no
 		equipment_bonus = {	armor = {	soft_attack = 0.05 maximum_speed = 0.05 }	}
 	}		
-	mbt_manufacturer = { ## Main Battle Tank Designer
+	mbt_manufacturer = { 
 		random = no
 		equipment_bonus = {	armor = {	hard_attack = 0.05 reliability = 0.05  }	}
 	}		
 		
-	brawler_tank_manufacturer = {  ## Heavy Tank Brawler Designer??
+	brawler_tank_manufacturer = { 
 		random = no
 		equipment_bonus = {	armor = { reliability = 0.1	armor_value = 0.05	}	}
 	}		
 	
-	mobile_heavy_tank_manufacturer	 = { ## Mobile Heavy Tank Designer??
+	mobile_heavy_tank_manufacturer	 = { 
 		random = no
 		equipment_bonus = {	armor = {	armor_value = 0.05	maximum_speed = 0.05 reliability = 0.05	}	}
 	}	
 	
-	light_tank_manufacturer	 = { ## 
+	light_tank_manufacturer	 = { 
 		random = no
-		equipment_bonus = {	armor = { build_cost_ic = -0.05 maximum_speed = 0.05 }	}
+		equipment_bonus = {	armor = { reliability = 0.05 maximum_speed = 0.1 }	}
 	}	
 	
-	blitzkrieg_tank_manufacturer = { ##  ??????
+	tank_destroyer_manufacturer = { 
 		random = no
-		equipment_bonus = {	armor = {	maximum_speed = 0.1  reliability = 0.05	}	}
+		equipment_bonus = {	armor = { ap_attack = 0.25 }	}
+	}
+	
+	blitzkrieg_tank_manufacturer = {   
+		random = no
+		equipment_bonus = {	armor = {	maximum_speed = 0.15  }	}
 	}	
 
 	fast_tank_manufacturer = {

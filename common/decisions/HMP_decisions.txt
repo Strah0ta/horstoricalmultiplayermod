@@ -1306,7 +1306,7 @@ GER_case_anton = {
 		EFR = { is_ai = yes }
 		OR = { 
 			EFR = { is_puppet_of = GER	}
-			AND = { EFR = { is_puppet = no 	 is_in_faction_with = GER  } }
+			AND = { EFR = { is_puppet = no EFR = { has_country_flag = EFR_torch_declared } 	 is_in_faction_with = GER  } }
 			}
 		}		
 		cost = 0				
@@ -1705,10 +1705,10 @@ create_corps_commander = {
 			fire_only_once = yes
 			visible = { is_subject_of = GER }
 			complete_effect = {
-								if = { limit = { EFR = { has_country_flag = host } } GER = { set_country_flag = host }  EFR = { clr_country_flag = host }  }
-hidden_effect = { 
-	if = { limit = { EFR = { controls_state = 554 } ENG = { OR = { controls_state = 291 controls_state = 455 controls_state = 454 }}}  FRA = { transfer_state = 554 }         }
-}
+				if = { limit = { EFR = { has_country_flag = host } } GER = { set_country_flag = host }  EFR = { clr_country_flag = host }  }
+				hidden_effect = { 
+					if = { limit = { EFR = { controls_state = 554 } ENG = { OR = { controls_state = 291 controls_state = 455 controls_state = 454 }}}  FRA = { transfer_state = 554 }         }
+				}
 				GER = { change_tag_from = EFR } 				
 				GER = { annex_country = { target = EFR  transfer_troops = yes }  	}
 				}	
@@ -2096,7 +2096,7 @@ hidden_effect = {
 			ITA_puppeted_by_GER = {
 		icon = generic_prepare_civil_war
 		allowed = { original_tag  = ITA }
-		activation = { date > 1939.9.1	tag = ITA}
+		activation = { date < 1939.9.1	tag = ITA}
 		available = {	ITA = { has_war_with = ENG }	}		
 		fire_only_once = yes
 		days_mission_timeout = 2400
@@ -2140,6 +2140,7 @@ hidden_effect = {
 			modifier = anti_cross_faction_trade
 		}	
 		}
+		hidden_effect = { EFR = { every_owned_state = {  set_demilitarized_zone = yes } 26 = { set_demilitarized_zone = no  }  } }
 		}
 		timeout_effect = {
 		}
