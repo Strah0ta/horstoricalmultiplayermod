@@ -684,9 +684,9 @@ ideas = {
 						
 		ROM_leonidas_works = {
 			picture = generic_tank_manufacturer_3
-			cost = 50
+			cost = 0
 			allowed = {	the_axis = yes }
-			research_bonus = { armor = 0.15 }
+			research_bonus = {  }
 			traits = { tank_destroyer_manufacturer  }
 			equipment_bonus = {  }
 			modifier = {  }

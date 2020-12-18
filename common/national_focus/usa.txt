@@ -1046,8 +1046,7 @@ transfer_state = 38
 		available_if_capitulated = no
 
 		completion_reward = {
-			custom_effect_tooltip = available_designer
-			show_ideas_tooltip = tank_destroyer_board
+			add_ideas = tank_destroyer_board_idea
 		}
 	}
 

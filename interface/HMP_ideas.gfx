@@ -8,6 +8,11 @@ spriteTypes = {
 		name = "GFX_idea_vmz_sopot"
 		texturefile = "gfx/interface/ideas/idea_vmz_sopot.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_idea_nizhegorodsky_avtomobilny"
+		texturefile = "gfx/interface/ideas/idea_nizhegorodsky_avtomobilny.tga"
+	}
 
 	spriteType = {
 		name = "GFX_idea_arsenal_ad"

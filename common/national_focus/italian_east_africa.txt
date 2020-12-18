@@ -483,40 +483,6 @@ add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 100000 }
 		}
 	}
 	
-	
-			focus = {
-		id = ETH_force_labor
-		icon = GFX_goal_generic_construction2 
-		prerequisite = { focus = ETH_industrial_effort }
-		relative_position_id = ETH_industrial_effort
-		x = 0
-		y = 1
-		cost = 10
-		
-		completion_reward = {
-				add_ideas = SAF_cheap_labor_1
-		}
-	}
-	
-		focus = {
-		id = ETH_force_labor2
-		icon = GFX_goal_generic_construction2
-		prerequisite = { focus = ETH_force_labor }
-		x = 0
-		y = 1
-		relative_position_id = ETH_force_labor
-		available = { num_of_factories > 10 }
-		cost = 10
-		
-		completion_reward = {
-			swap_ideas = {
-				remove_idea = SAF_cheap_labor_1
-				add_idea = SAF_cheap_labor_3
-			}
-		}
-	}
-	
-
 	focus = {
 		id = ETH_special_forces
 		icon = GFX_goal_generic_special_forces
@@ -564,6 +530,38 @@ add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 100000 }
 			}
 		}
 	}
+			focus = {
+		id = ETH_force_labor
+		icon = GFX_goal_generic_construction2 
+		prerequisite = { focus = ETH_industrial_effort }
+		relative_position_id = ETH_industrial_effort
+		x = 0
+		y = 1
+		cost = 10
+		
+		completion_reward = {
+				add_ideas = SAF_cheap_labor_1
+		}
+	}
+	
+		focus = {
+		id = ETH_force_labor2
+		icon = GFX_goal_generic_construction2
+		prerequisite = { focus = ETH_force_labor }
+		x = 0
+		y = 1
+		relative_position_id = ETH_force_labor
+		available = { num_of_factories > 15 }
+		cost = 10
+		
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = SAF_cheap_labor_1
+				add_idea = SAF_cheap_labor_3
+			}
+		}
+	}
+	
 
 	focus = {
 		id = ETH_construction_effort

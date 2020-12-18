@@ -803,25 +803,21 @@ ideas = {
 			research_bonus = {	armor = 0.15	}
 			traits = { blitzkrieg_tank_manufacturer }
 			modifier = {	}
-		}		
+		}	
 		
-		okmo = {
-			
-			
-			allowed = {
-				original_tag = SOV
-			}
-			
+		nizhegorodsky_avtomobilny = {
+			allowed = { original_tag = SOV }
+			research_bonus = {		}
+			cost = 0
+			traits = { tank_destroyer_manufacturer }
+			modifier = {	}
+		}	
 
-			
-			research_bonus = {
-				armor = 0.15
-			}
-			
+		okmo = {
+			allowed = {	original_tag = SOV	}
+			research_bonus = {	armor = 0.15	}
 			traits = { heavy_tank_manufacturer }
-			
-			modifier = {
-			}
+			modifier = {	}
 		}
 	
 	}

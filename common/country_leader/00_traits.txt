@@ -73,6 +73,8 @@ leader_traits = {
 				defense_bonus_against = -0.2
 			}
 			min_export = -1
+					production_lack_of_resource_penalty_factor = -1
+
 	}
 		anti_british_revolutionary2 = { 
 	
@@ -83,6 +85,8 @@ leader_traits = {
 				defense_bonus_against = -0.05
 			}
 						min_export = -1
+								production_lack_of_resource_penalty_factor = -1
+
 	}
 	
 		anti_british_revolutionary3 = { 
@@ -94,6 +98,7 @@ leader_traits = {
 				defense_bonus_against = 0.10
 			}
 			min_export = -1
+					production_lack_of_resource_penalty_factor = -1
 	}
 	
 	hero_people = {
