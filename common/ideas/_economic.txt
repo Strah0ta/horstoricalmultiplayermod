@@ -13,7 +13,9 @@ ideas = {
 				conversion_cost_mil_to_civ_factor = 0.5
 			}
 			cancel_if_invalid = no
-		}
+			allowed_to_remove = { has_government = fascism }
+			}
+		
 		
 		civilian_economy = {				
 			cost = 150

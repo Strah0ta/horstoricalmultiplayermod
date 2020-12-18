@@ -4058,34 +4058,6 @@ political_actions = {
     }
 	
 	debug_shit = {
-	romania_to_hungary = {
-		cost = 0 
-	fire_only_once = no
-	allowed = { always = yes }
-	visible = { has_game_rule = { rule = horst_debug option = HORST_ENABLE_DEBUG }}
-		complete_effect = {	HUN = { change_tag_from = ROM }  }
-	}
-	romania_to_ddr = {
-		cost = 0 
-	fire_only_once = no
-	allowed = { always = yes }
-visible = { has_game_rule = { rule = horst_debug option = HORST_ENABLE_DEBUG }}
-	complete_effect = {	DDR = { change_tag_from = ROM }  }
-	}
-	ddr_to_romania = {
-		cost = 0 
-		fire_only_once = no
-	visible = { has_game_rule = { rule = horst_debug option = HORST_ENABLE_DEBUG }}
-	allowed = { always = yes }
-	complete_effect = {	ROM = { change_tag_from = DDR }  }
-	}
-	hungary_to_romania = {
-	cost = 0 
-		fire_only_once = no
-	allowed = { always = yes }	
-	visible = { has_game_rule = { rule = horst_debug option = HORST_ENABLE_DEBUG }}
-	complete_effect = {	ROM = { change_tag_from = HUN }  }
-	}
-	
+
 	
 	}

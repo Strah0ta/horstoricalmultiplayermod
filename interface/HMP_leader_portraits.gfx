@@ -11,11 +11,11 @@ spriteTypes = {
 		name = "GFX_Portrait_Fahmi_Said"
 		texturefile = "gfx/leaders/ALB/Portrait_Fahmi_Said.dds"		
 	}	
-
-	
-	
-	
-	
+	spriteType = {
+		name = "GFX_Portrait_IRQ_Kamil_Shabib"
+		texturefile = "gfx/leaders/ALB/Portrait_IRQ_Kamil_Shabib.tga"		
+	}	
+		
 	spriteType = {
 		name = "GFX_portrait_norway_ruge"
 		texturefile = "gfx/leaders/NOR/portrait_norway_ruge.dds"		
