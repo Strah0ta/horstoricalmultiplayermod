@@ -1,4 +1,4 @@
-﻿	capital = 271
+﻿capital = 271
 
 oob = "ETH_1936"
 
@@ -10,7 +10,7 @@ set_technology = {
 	motorised_infantry = 1
 	infantry_weapons1 = 1
 	gw_artillery = 1			
-		camelry_tech = 1	
+	camelry_tech = 1	
 	interwar_antiair = 1
 	tech_support = 1		
 }
@@ -37,9 +37,7 @@ create_country_leader = {
 	picture = "Portrait_Ethiopia_Haile_Selassie.dds"
 	expire = "1965.1.1"
 	ideology = despotism
-	traits = {
-		#
-	}
+	traits = {	}
 }
 
 create_country_leader = {
@@ -48,20 +46,7 @@ create_country_leader = {
 	picture = "Portrait_Italy_Pietro_Badoglio.dds"
 	expire = "1965.1.1"
 	ideology = nazism
-	traits = {
-		duke_addis
-	}
-}
-
-create_corps_commander = {
-	name = "Seyoum Mengesha"
-	portrait_path = "gfx/leaders/Africa/Portrait_Africa_Generic_land_3.dds"
-	traits = {  desert_fox }
-	skill = 2
-	attack_skill = 2
-	defense_skill = 2
-	planning_skill = 2
-	logistics_skill = 1
+	traits = {	duke_addis	}
 }
 
 anti_cross_faction_trade_allies = yes 

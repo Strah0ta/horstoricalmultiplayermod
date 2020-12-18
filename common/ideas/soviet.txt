@@ -63,7 +63,7 @@ ideas = {
 			modifier = {
              	army_speed_factor = 0.1
 				supply_consumption_factor = -0.075
-				max_dig_in = -5
+				max_dig_in = -2.5
 			}
 		}
 		SOV_270 = { 
@@ -81,7 +81,8 @@ ideas = {
 				production_speed_infrastructure_factor = 1.5
 				mobilization_speed = 1
 			}
-	}
+		}
+		
 		SOV_227 = { 
 			allowed = {	always = no 	}
 			picture = generic_manpower_bonus
@@ -98,7 +99,7 @@ ideas = {
 				mobilization_speed = 1
 				out_of_supply_factor = -0.35	
 			}
-	}	
+		}	
 
 		workers_culture = {
 			removal_cost = -1

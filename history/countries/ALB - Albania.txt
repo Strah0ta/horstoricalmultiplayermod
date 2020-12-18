@@ -8,13 +8,9 @@ set_politics = {
 }
 set_research_slots = 0
 set_war_support = 0
-set_popularities = {
-	neutrality = 100
-}
-
+set_popularities = { neutrality = 100 }
 set_convoys = 5
 
-#Victor Emmanuel III of Italy after 39
 create_country_leader = {
 	name = "King Zog"
 	desc = "POLITICS_KING_ZOG_DESC"
@@ -39,7 +35,7 @@ create_country_leader = {
 	picture = "gfx/leaders/ALB/portrait_irq_rashid_al_gaylani.dds"
 	expire = "1965.1.1"
 	ideology = fascism_ideology
-	traits = {
-		anti_british_revolutionary
-	}
+	traits = {	anti_british_revolutionary	}
 }
+
+anti_cross_faction_trade_allies = yes 

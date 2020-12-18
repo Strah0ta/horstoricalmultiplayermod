@@ -3682,6 +3682,31 @@ lar_local_recruitment = {
 
 
 political_actions = {
+
+		ETH_declare_for_alb = { 
+		icon = generic_operation
+		allowed = { tag = ETH }
+		fire_only_once = no
+		cost = 0
+		days_re_enable = 1
+		visible = {   NOT =  { has_country_flag = ETH_swap_to_alb	}  }
+		complete_effect = {	
+			set_country_flag = ETH_swap_to_alb 
+		}
+		}
+		
+		ETH_declare_for_ITA  = {
+		icon = generic_operation
+		allowed = { tag = ETH }
+		fire_only_once = no
+		cost = 0
+		days_re_enable = 1
+		visible = {    has_country_flag = ETH_swap_to_alb	}
+		complete_effect = {	
+					clr_country_flag = ETH_swap_to_alb 
+		}
+		}
+		
 		    JAP_annex_manchukuo = {
 		icon = generic_operation
 		allowed = { tag = JAP}

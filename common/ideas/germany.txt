@@ -5,8 +5,8 @@ ideas = {
 			allowed = {	always = no	}
 			removal_cost = -1
 			picture = generic_acquire_tanks
-			available = { date < 1941.1.1  }
-			modifier = {		}
+			available = { date < 1940.4.1  }
+			modifier = {	air_fuel_consumption_factor = -0.5 	}
 			equipment_bonus = {
 				motorized_equipment = {
 					max_strength = 5 instant = yes
@@ -28,7 +28,7 @@ ideas = {
 			allowed_civil_war = {	always = yes	}
 			picture = generic_fascism_drift_2
 			modifier = {
-				consumer_goods_factor = -0.18
+				consumer_goods_factor = -0.05
 			}
 		}
 			GER_totaler_krieg_idea2 = {

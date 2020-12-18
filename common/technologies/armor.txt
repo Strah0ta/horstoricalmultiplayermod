@@ -103,7 +103,7 @@ technologies = {
 			light_tank_destroyer_brigade
 		}
 	
-		research_cost = 0.25
+		research_cost = 0.05
 		start_year = 1934
 
 		categories = {
@@ -120,7 +120,7 @@ technologies = {
 			light_sp_artillery_brigade
 		}
 	
-		research_cost = 0.25
+		research_cost = 0.05
 		start_year = 1934
 		
 		categories = {
@@ -137,7 +137,7 @@ technologies = {
 			light_sp_anti_air_brigade
 		}
 	
-		research_cost = 0.25
+		research_cost = 0.05
 		start_year = 1934
 		
 		categories = {
@@ -190,7 +190,7 @@ technologies = {
 			light_tank_destroyer_equipment_2
 		}
 	
-		research_cost = 0.25
+		research_cost = 0.05
 		start_year = 1936
 		
 		categories = {
@@ -204,7 +204,7 @@ technologies = {
 			light_tank_artillery_equipment_2
 		}
 	
-		research_cost = 0.25
+		research_cost = 0.05
 		start_year = 1936
 		
 		categories = {
@@ -218,7 +218,7 @@ technologies = {
 			light_tank_aa_equipment_2
 		}
 	
-		research_cost = 0.25
+		research_cost = 0.05
 		start_year = 1936
 		
 		categories = {
@@ -240,7 +240,7 @@ technologies = {
 			has_dlc = "Man the Guns"
 		}
 		
-		research_cost = 0.25
+		research_cost = 0.05
 		start_year = 1934
 
 		categories = {
@@ -255,7 +255,7 @@ technologies = {
 			amphibious_tank_equipment_2
 		}
 		
-		research_cost = 0.25
+		research_cost = 0.05
 		start_year = 1939
 		
 		categories = {
@@ -295,7 +295,7 @@ technologies = {
 			light_tank_destroyer_equipment_3
 		}
 	
-		research_cost = 0.25
+		research_cost = 0.05
 		start_year = 1941
 
 		categories = {
@@ -309,7 +309,7 @@ technologies = {
 			light_tank_artillery_equipment_3
 		}
 	
-		research_cost = 0.25
+		research_cost = 0.05
 		start_year = 1941
 		
 		categories = {
@@ -323,7 +323,7 @@ technologies = {
 			light_tank_aa_equipment_3
 		}
 	
-		research_cost = 0.25
+		research_cost = 0.05
 		start_year = 1941
 		
 		categories = {
@@ -373,7 +373,7 @@ technologies = {
 			medium_tank_destroyer_brigade
 		}
 	
-		research_cost = 0.25
+		research_cost = 0.05
 		start_year = 1939
 
 		categories = {
@@ -391,7 +391,7 @@ technologies = {
 			medium_sp_artillery_brigade
 		}
 	
-		research_cost = 0.25
+		research_cost = 0.05
 		start_year = 1939
 		
 		categories = {
@@ -409,7 +409,7 @@ technologies = {
 			medium_sp_anti_air_brigade
 		}
 	
-		research_cost = 0.25
+		research_cost = 0.05
 		start_year = 1939
 		
 		categories = {
@@ -465,7 +465,7 @@ technologies = {
 			medium_tank_destroyer_equipment_2
 		}
 	
-		research_cost = 0.25
+		research_cost = 0.05
 		start_year = 1941
 		
 		categories = {
@@ -479,7 +479,7 @@ technologies = {
 			medium_tank_artillery_equipment_2
 		}
 	
-		research_cost = 0.25
+		research_cost = 0.05
 		start_year = 1941
 		
 		categories = {
@@ -493,7 +493,7 @@ technologies = {
 			medium_tank_aa_equipment_2
 		}
 	
-		research_cost = 0.25
+		research_cost = 0.05
 		start_year = 1941
 		
 		categories = {
@@ -550,7 +550,7 @@ technologies = {
 			medium_tank_destroyer_equipment_3
 		}
 	
-		research_cost = 0.25
+		research_cost = 0.05
 		start_year = 1943
 		
 		categories = {
@@ -564,7 +564,7 @@ technologies = {
 			medium_tank_artillery_equipment_3
 		}
 	
-		research_cost = 0.25
+		research_cost = 0.05
 		start_year = 1943
 	
 		categories = {
@@ -578,7 +578,7 @@ technologies = {
 			medium_tank_aa_equipment_3
 		}
 	
-		research_cost = 0.25
+		research_cost = 0.05
 		start_year = 1943
 
 		categories = {
@@ -629,7 +629,7 @@ technologies = {
 			modern_tank_destroyer_brigade
 		}
 	
-		research_cost = 0.25
+		research_cost = 0.05
 		start_year = 1945
 		
 		categories = {
@@ -647,7 +647,7 @@ technologies = {
 			modern_sp_artillery_brigade
 		}
 	
-		research_cost = 0.25
+		research_cost = 0.05
 		start_year = 1945
 		
 		categories = {
@@ -665,7 +665,7 @@ technologies = {
 			light_sp_anti_air_brigade
 		}
 	
-		research_cost = 0.25
+		research_cost = 0.05
 		start_year = 1945
 		
 		categories = {
@@ -718,7 +718,7 @@ technologies = {
 			heavy_tank_destroyer_brigade
 		}
 	
-		research_cost = 0.25
+		research_cost = 0.05
 		start_year = 1934
 		
 		categories = {
@@ -736,7 +736,7 @@ technologies = {
 			heavy_sp_artillery_brigade
 		}
 	
-		research_cost = 0.25
+		research_cost = 0.05
 		start_year = 1934
 
 		categories = {
@@ -754,7 +754,7 @@ technologies = {
 			heavy_sp_anti_air_brigade
 		}
 	
-		research_cost = 0.25
+		research_cost = 0.05
 		start_year = 1934
 		
 		categories = {
@@ -814,7 +814,7 @@ technologies = {
 			heavy_tank_destroyer_equipment_2
 		}
 	
-		research_cost = 0.25
+		research_cost = 0.05
 		start_year = 1941
 		
 		categories = {
@@ -828,7 +828,7 @@ technologies = {
 			heavy_tank_artillery_equipment_2
 		}
 	
-		research_cost = 0.25
+		research_cost = 0.05
 		start_year = 1941
 	
 		categories = {
@@ -843,7 +843,7 @@ technologies = {
 			heavy_tank_aa_equipment_2
 		}
 	
-		research_cost = 0.25
+		research_cost = 0.05
 		start_year = 1941
 		
 		categories = {
@@ -899,7 +899,7 @@ technologies = {
 			heavy_tank_destroyer_equipment_3
 		}
 	
-		research_cost = 0.25
+		research_cost = 0.05
 		start_year = 1943
 		
 
@@ -914,7 +914,7 @@ technologies = {
 			heavy_tank_artillery_equipment_3
 		}
 	
-		research_cost = 0.25
+		research_cost = 0.05
 		start_year = 1943
 
 		
@@ -929,7 +929,7 @@ technologies = {
 			heavy_tank_aa_equipment_3
 		}
 	
-		research_cost = 0.25
+		research_cost = 0.05
 		start_year = 1943
 		
 		categories = {
@@ -972,7 +972,7 @@ technologies = {
 			super_heavy_tank_destroyer_brigade
 		}
 	
-		research_cost = 0.25
+		research_cost = 0.05
 		start_year = 1943
 		
 		categories = {
@@ -990,7 +990,7 @@ technologies = {
 			super_heavy_sp_artillery_brigade
 		}
 	
-		research_cost = 0.25
+		research_cost = 0.05
 		start_year = 1943
 		
 		categories = {
@@ -1007,7 +1007,7 @@ technologies = {
 			super_heavy_sp_anti_air_brigade
 		}
 	
-		research_cost = 0.25
+		research_cost = 0.05
 		start_year = 1943
 
 		categories = {

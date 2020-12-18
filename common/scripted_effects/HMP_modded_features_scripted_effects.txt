@@ -1243,7 +1243,10 @@ add_opinion_modifier = {
     target = GER
     modifier = anti_cross_faction_trade
 }
-
+add_opinion_modifier = {
+    target = ALB
+    modifier = anti_cross_faction_trade
+}
 add_opinion_modifier = {
     target = EFR
     modifier = anti_cross_faction_trade
@@ -1756,8 +1759,8 @@ create_field_marshal = {
 	traits = { defensive_doctrine organizer logistics_wizard infantry_leader panzer_leader ambusher inspirational_leader organisational_leader  }
 	skill = 7
 	attack_skill = 4
-	defense_skill = 7
-	planning_skill = 2
+	defense_skill = 6
+	planning_skill = 3
 	logistics_skill = 8
 }
 
@@ -2446,6 +2449,52 @@ create_corps_commander = {
 	logistics_skill = 8
 	}
 }
+
+
+
+ETH = {  
+create_corps_commander = {  
+	name = "Guglielmo Nasi"
+	picture = "Portrait_Italy_Guglielmo_Nasi.dds"
+	traits = { infantry_leader infantry_expert harsh_leader trait_reckless }
+	skill = 5
+	attack_skill = 4
+	defense_skill = 4
+	planning_skill = 4
+	logistics_skill = 4
+}
+create_corps_commander = {  
+	name = "Prince Amedeo"
+	picture = "Portrait_Italy_Amedeo_Savoia_Aosta.dds"
+	traits = { organizer panzer_leader panzer_expert }
+	skill = 5
+	attack_skill = 4
+	defense_skill = 4
+	planning_skill = 4
+	logistics_skill = 4
+}
+create_corps_commander = {  
+	name = "Pietro Gazzera"
+	picture = "Portrait_Italy_Pietro_Gazzera.dds"
+	traits = { infantry_leader ambusher trait_cautious inflexible_strategist }
+	skill = 5
+	attack_skill = 4
+	defense_skill = 4
+	planning_skill = 4
+	logistics_skill = 4
+}
+create_field_marshal = { #general FM 
+    name = "Pietro Badoglio"
+    picture = "Portrait_Italy_Pietro_Badoglio.dds"
+    traits = { defensive_doctrine old_guard inflexible_strategist organizer infantry_leader infantry_expert unyielding_defender logistics_wizard  }
+    skill = 7
+    attack_skill = 5
+    defense_skill = 5
+    planning_skill = 5
+    logistics_skill = 7
+}
+}
+
 EFR = { 
 create_field_marshal = {
 	name = "Charles Huntziger"
@@ -2708,8 +2757,8 @@ create_corps_commander = {
 	traits = { panzer_leader hill_fighter trait_mountaineer panzer_expert expert_improviser trickster guerilla_fighter }
 	skill = 8
 	attack_skill = 7
-	defense_skill = 6
-	planning_skill = 7
+	defense_skill = 5
+	planning_skill = 8
 	logistics_skill = 5
 }
 create_corps_commander = {
@@ -2727,10 +2776,10 @@ create_corps_commander = {
 		picture = "Portrait_Soviet_Alexander_Gorbatov.dds"
 	traits = {  panzer_leader panzer_expert ambusher desert_fox trait_mountaineer trait_engineer scavenger }
 	skill = 8
-	attack_skill = 6
-	defense_skill = 4
-	planning_skill = 5
-	logistics_skill = 10
+	attack_skill = 7
+	defense_skill = 3
+	planning_skill = 6
+	logistics_skill = 9
 }
 
 create_corps_commander = {
@@ -2802,7 +2851,6 @@ create_corps_commander = {
 
 }
 FRA = { 
-
 create_field_marshal = {
 	name = "Louis Franchet D'Espèrey"
 	picture = "Portrait_NFA_Louis_Franchet_Esperey.tga"
@@ -3463,8 +3511,8 @@ HMP_startup_on_actions = {
 
 HMP_capitulations_on_actions = {
 	if = { limit = { AND = { original_tag = GER GER = { has_war_with = SOV }} } 	fascism_has_been_defeated = yes 	}
-	if = { limit = { ROOT = { original_tag = JAP } NOT = { FROM = { original_tag = SOV } } } USA = { annex_country = { target = JAP transfer_troops = no } if = { limit = { country_exists = MAN } annex_country = { target = MAN transfer_troops = no } }}   }
-	if = { limit = { ROOT = { original_tag = JAP } FROM = { original_tag = SOV } } SOV = { annex_country = { target = JAP transfer_troops = no } } if = { limit = { country_exists = MAN } SOV = { annex_country = { target = MAN transfer_troops = no } } } }			
+	if = { limit = { ROOT = { original_tag = JAP } NOT = { FROM = { original_tag = SOV } } } JAP = { set_equipment_faction = 0 } USA = { annex_country = { target = JAP transfer_troops = no } if = { limit = { country_exists = MAN } annex_country = { target = MAN transfer_troops = no } }}   }
+	if = { limit = { ROOT = { original_tag = JAP } FROM = { original_tag = SOV } } JAP = { set_equipment_faction = 0 } SOV = { annex_country = { target = JAP transfer_troops = no } } if = { limit = { country_exists = MAN } SOV = { annex_country = { target = MAN transfer_troops = no } } } }			
 			
 			if = {
 			limit = { ROOT = { original_tag = SOV }  FROM = { original_tag = GER } }
@@ -3479,11 +3527,17 @@ HMP_capitulations_on_actions = {
 			if = { limit = { ROOT = { original_tag = SOV }  FROM = { original_tag = ENG } } democratic_russia = yes  }
 			if = {	limit = {original_tag = USA  ENG = { has_capitulated = yes }  }  man_in_the_high_castle = yes   }	
 			if = {	limit = {original_tag = ENG  USA = { has_capitulated = yes }  }  man_in_the_high_castle = yes   }	
-			if = {	limit = { original_tag = ETH }	
+			if = {	limit = { AND = { original_tag = ETH NOT = { ETH = { has_country_flag = ETH_swap_to_alb }}  } }	
 					if = { limit = { ETH = { has_country_flag = host } } ITA = { set_country_flag = host }  ETH = { clr_country_flag = host }  }
 					ITA = { change_tag_from = ETH } 		
 					ITA = { annex_country = { target = ETH transfer_troops = no } }
 				}	
+			if = {	limit = { AND = { original_tag = ETH ETH = { has_country_flag = ETH_swap_to_alb }  } }	
+					if = { limit = { ETH = { has_country_flag = host } } ALB = { set_country_flag = host }  ETH = { clr_country_flag = host }  }
+					ALB = { change_tag_from = ETH } 		
+					ITA = { annex_country = { target = ETH transfer_troops = no } }
+				}					
+				
 		if =  { 
 		limit = { original_tag = BEL }
 		BEL = { country_event = { id =  mtg_netherlands.331 days = 1 } 	}
@@ -3506,8 +3560,9 @@ HMP_capitulations_on_actions = {
 			}
 			if = {
 				limit = { original_tag = POL }
-	SOV = { transfer_state = 784  
-			transfer_state = 97
+	SOV = { 
+		transfer_state = 784  
+		transfer_state = 97
 		transfer_state = 96
 		transfer_state = 512
 		transfer_state = 95
@@ -3786,6 +3841,7 @@ release = HUN
 release = FRA 
 release = HOL 
 release = DEN 
+release = ITA
 release = BEL 
 release = BUL
 }
@@ -3809,6 +3865,7 @@ transfer_state = 163 #Zara
 }
 HUN = { release = YUG release = CZE release = ROM }
 SOV = {    
+release = PER
 transfer_state = 188 #Memel          ###GERMANY###
 transfer_state = 330 #Konigsberg
 transfer_state = 62 #Vorpommern
@@ -3831,6 +3888,7 @@ set_autonomy = {  target = BUL  autonomy_state = autonomy_puppet }
 BUL = { transfer_state = 293 }  
 
 ENG = { 
+release = PER
 add_to_faction = CZE
 add_to_faction = HOL
 transfer_state = 271 
@@ -3849,7 +3907,7 @@ if =  { limit = { country_exists = EFR } FRA = { annex_country = { target = EFR 
 if =  { limit = { country_exists = ITA } ITA = { release = FRA release = GRE release = BUL } ENG = { set_autonomy = {  target = ITA  autonomy_state = autonomy_supervised_state } } }
 FRA = {
 transfer_state = 153 #Tyrol ###AUSTRIA###
-transfer_state = 461 transfer_state = 459 transfer_state = 513 transfer_state = 460
+transfer_state = 461 transfer_state = 459 transfer_state = 513 transfer_state = 460 transfer_state = 554 transfer_state = 458 transfer_state = 577
 }
 USA = {
 release = DEN
@@ -3916,6 +3974,8 @@ democratic_russia = {
     interwar_antitank = 1	
 	antitank1 = 1
 	antitank2 = 1
+	antitank3 = 1 
+	antitank4 = 1
 	electronic_mechanical_engineering = 1
 	radio = 1
 	mechanical_computing = 1
@@ -3949,16 +4009,10 @@ democratic_russia = {
 	the_golden_coup_has_been_launched = {
 	hidden_effect = { catch_up_iraq_with_tech = yes }
 	remove_ideas = ai_imiter
-	ITA = {
-	set_autonomy = {
-    target = ALB
-    autonomy_state = autonomy_satellite
-}
-	}
 	transfer_state = 291 set_capital = 291 add_state_core = 291
 	load_focus_tree = iraq_focus_tree  
 	#give_resource_rights = { receiver = ROM state = 494 }
-	load_oob = "Iraq_CW"  
+	load_oob = "ITA_IRQ_Spawn"  
 	add_research_slot = 4
 		291 = { add_extra_state_shared_building_slots = 4 }
 		add_ideas = tot_economic_mobilisation add_ideas = service_by_requirement add_ideas = free_trade 
@@ -4444,5 +4498,3 @@ copy_australian_at_equipment_research = {
 	if = { limit = { AST = { has_tech = antitank2 }}  ROOT = { set_technology = { antitank2 = 1 }} }
 	if = { limit = { AST = { has_tech = antitank5 }}  ROOT = { set_technology =  { antitank5 = 1 }} }
 }
-
-

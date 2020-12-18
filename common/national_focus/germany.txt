@@ -1001,21 +1001,10 @@ focus_tree = {
 				technology = advanced_light_tank
 			}
 			add_tech_bonus = {
-		name = GER_soviet_treaty
-		bonus = 3.0
-		uses = 2
-		technology = improved_medium_spaa
-		technology = improved_medium_td
-		technology = improved_medium_art
-		technology = improved_heavy_spaa
-		technology = improved_heavy_td
-		technology = improved_heavy_art
-		}	
-					add_tech_bonus = {
-			name = mech_army_bonus
-			bonus = 1.0
-			ahead_reduction = 2
-			technology = mechanised_infantry
+				name = mech_army_bonus
+				bonus = 1.0
+				ahead_reduction = 2
+				technology = mechanised_infantry
 			}
 		add_ideas = GER_mech
 		}
@@ -1145,28 +1134,6 @@ focus_tree = {
 				technology = amphibious_tank_2
 			}	
 			add_tech_bonus = {
-		name = mech_army_bonus
-		bonus = 1.0
-		uses = 2
-		technology = advanced_medium_spaa
-		technology = advanced_medium_td
-		technology = advanced_medium_art
-		technology = advanced_heavy_spaa
-		technology = advanced_heavy_td
-		technology = advanced_heavy_art
-		}
-			add_tech_bonus = {
-		name = mech_army_bonus
-		bonus = 3.0
-		uses = 2
-		technology = improved_medium_spaa
-		technology = improved_medium_td
-		technology = improved_medium_art
-		technology = improved_heavy_spaa
-		technology = improved_heavy_td
-		technology = improved_heavy_art
-		}	
-								add_tech_bonus = {
 				bonus = 3.0
 				uses = 1
 				name = mech_army_bonus
@@ -1379,18 +1346,7 @@ add_tech_bonus = {
 
 		completion_reward = {
 			custom_effect_tooltip = "We will complete research on a tank that will win us the war."
-			hidden_effect = { 
-			set_technology = { super_heavy_tank = 1 } 
-						add_tech_bonus = {
-		name = mech_army_bonus
-		bonus = 1.0
-		uses = 2
-		technology = super_heavy_spaa
-		technology = super_heavy_art
-		technology = super_heavy_td
-		}
-			}
-			
+			hidden_effect = { 	set_technology = { super_heavy_tank = 1 } 	}
 		 }
 	}
 	
@@ -1717,8 +1673,8 @@ focus = {
 		add_ideas = GER_totaler_krieg_idea
 		ITA = { add_ideas = GER_totaler_krieg_idea  }
 		add_ideas = GER_totaler_krieg_idea2
-			add_dynamic_modifier  = { modifier =  GER_war_exhaustion }
-		hidden_effect = { HMP_ger_total_mob = yes }		
+		add_dynamic_modifier  = { modifier =  GER_war_exhaustion }
+		#hidden_effect = { HMP_ger_total_mob = yes }		
 		 }
 }
 focus = {

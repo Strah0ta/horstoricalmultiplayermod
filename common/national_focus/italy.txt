@@ -1126,7 +1126,7 @@ date > 1941.6.1
 	
 		focus = {
 		id = ITA_sword_of_islam		
-		prerequisite = { focus = ITA_balkan_war_goal focus = ITA_italia_irredenta }
+		prerequisite = { focus = ITA_balkan_war_goal focus = ITA_italia_irredenta } 
 		
 		icon = GFX_goal_generic_secret_weapon
 		x = -1 
@@ -1135,7 +1135,7 @@ date > 1941.6.1
 		relative_position_id = ITA_balkan_war_goal
 		cost = 5
 
-		completion_reward = {
+		completion_reward = { 
 		custom_effect_tooltip = "We will lower resistance in Libya by 20%"
 			448 = { remove_resistance_target = 20 } 
 			449 = { remove_resistance_target = 20 }  
@@ -1158,7 +1158,8 @@ date > 1941.6.1
 
 		completion_reward = {
 			custom_effect_tooltip = "We will recruit Iraqi nationalists for our cause."
-			hidden_effect = { load_oob = "ITA_IRQ_Spawn"	}
+			if = { limit = { NOT = { ETH = { has_country_flag = ETH_swap_to_alb} }} hidden_effect = { load_oob = "ITA_IRQ_Spawn"	}  }
+			if = { limit = { ETH ={ has_country_flag = ETH_swap_to_alb} } hidden_effect = { ALB = { complete_national_focus = IRQ_the_golden_square_coup }	ITA = {	set_autonomy = {   target = ALB   autonomy_state = autonomy_satellite}	} } }
 		}
 	}
 				
