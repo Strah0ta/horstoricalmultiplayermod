@@ -5616,6 +5616,18 @@ country_event = {
 		is_triggered_only = yes
       option = { name = "Ok"  }
    }
+   
+          news_event = {	
+   id = news.4002
+   title = news.4002.t
+   desc = ""
+   picture = GFX_news_event_italian_tank_desert
+
+		major =  yes
+		is_triggered_only = yes
+      option = { name = "Ok"  }
+   }
+   
 add_namespace = unitednations
 
 #United Nations declaration
