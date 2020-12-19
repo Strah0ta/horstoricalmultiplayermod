@@ -5594,6 +5594,22 @@ country_event = {
 	}
 }
 
+	country_event = {
+	id = usa.1003
+	title = "Operation Torch"
+	desc = "The time has come to recapture North AFrica. Two of our generals, Geoffrey Keyes and Lloyd Fredendall, have been tasked with this operation."
+	picture = GFX_report_event_generic_parliament
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "Excellent!"
+		EFR = { every_owned_state = {  set_demilitarized_zone = yes } 26 = { set_demilitarized_zone = no  }  }
+	}
+}
+
+
+
    
        news_event = {	
    id = news.3998

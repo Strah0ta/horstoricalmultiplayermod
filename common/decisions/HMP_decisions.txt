@@ -1400,8 +1400,9 @@ hidden_effect = {
 				allowed = {	original_tag = ITA }
 				fire_only_once = yes
 				cost = 0	
-				complete_effect = { 
+				complete_effect = { GER = { transfer_state =  187 transfer_state = 182 }
 				ITA = { add_to_war = { targeted_alliance = GER	enemy = ENG	} } ETH = { add_to_war = { targeted_alliance = GER	enemy = ENG	} } news_event = { id = news.3998 }  hidden_effect = { EFR = { every_owned_state = {  set_demilitarized_zone = yes } 26 = { set_demilitarized_zone = no  }  } }
+				
 				}
 			}
 			USA_join_the_war = { 
@@ -2093,58 +2094,6 @@ create_corps_commander = {
 		remove_effect = {	}	
     }
 	
-			ITA_puppeted_by_GER = {
-		icon = generic_prepare_civil_war
-		allowed = { original_tag  = ITA }
-		activation = { date < 1939.9.1	tag = ITA}
-		available = {	ITA = { has_war_with = ENG }	}		
-		fire_only_once = yes
-		days_mission_timeout = 2400
-		complete_effect = {
-		GER = { 
-		set_autonomy = {  target = ITA  autonomy_state = autonomy_satellite }
-		if = { limit = { ITA = { owns_state = 187 }}  transfer_state =  187 transfer_state = 182 }
-		}
-		hidden_effect = { 
-		set_autonomy = { target = ETH autonomy_state = autonomy_satellite }
-		add_relation_modifier = {
-			target = HUN
-			modifier = stahlpakt
-		} 
-		add_relation_modifier = {
-			target = ROM
-			modifier = stahlpakt
-		} 
-		add_relation_modifier = {
-			target = SPR
-			modifier = stahlpakt
-		} 
-				add_relation_modifier = {
-			target = BUL
-			modifier = stahlpakt
-		} 
-				add_opinion_modifier = {
-			target = EFR
-			modifier = anti_cross_faction_trade
-		} 
-		EFR = { 
-	add_opinion_modifier = {
-			target = ITA
-			modifier = anti_cross_faction_trade
-		} 
-		}
-
-		EFR = { 	diplomatic_relation = {    country = ITA    relation = military_access   active = yes  } }
-		add_opinion_modifier = {
-			target = SOV
-			modifier = anti_cross_faction_trade
-		}	
-		}
-		hidden_effect = { EFR = { every_owned_state = {  set_demilitarized_zone = yes } 26 = { set_demilitarized_zone = no  }  } }
-		}
-		timeout_effect = {
-		}
-	}
 	   ITA_annex_romania = {
 		icon = generic_operation
 		allowed = {	original_tag = ITA	}
