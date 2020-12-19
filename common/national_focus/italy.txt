@@ -1022,12 +1022,9 @@ date > 1941.6.1
 		cost = 10
 
 		available = {
-		ITA = {
-				has_full_control_of_state = 116
-				has_full_control_of_state = 1
-				has_full_control_of_state = 183
-				has_full_control_of_state = 455
-				}
+		OR = { has_full_control_of_state = 116 any_allied_country = { has_full_control_of_state = 116 }}
+		OR = { has_full_control_of_state = 455 any_allied_country = { has_full_control_of_state = 455 }}
+
 		}
 
 		completion_reward = {

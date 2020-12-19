@@ -11,7 +11,7 @@ state={
 			infrastructure = 3
 		}
 		victory_points = {
-			1896 3 
+			1896 1
 		}
 				victory_points = {
 			7604 1 
@@ -20,7 +20,7 @@ state={
 			1822 1 
 		}
 					victory_points = {
-			4901 3
+			4901 1
 		}
 		add_core_of = PER
 	}
