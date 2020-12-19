@@ -1411,7 +1411,7 @@ hidden_effect = {
 				fire_only_once = yes
 				cost = 0	
 				complete_effect = { USA = { add_to_war = { targeted_alliance = ENG	enemy = GER	} } add_ideas = war_economy activate_decision = war_bonds add_political_power = -200 
-				hidden_effect = { EFR = { every_owned_state = {  set_demilitarized_zone = yes } 26 = { set_demilitarized_zone = no  }  } }
+				hidden_effect = { if = { limit = { EFR = {owns_state = 26 } NOT = {EFR ={ has_country_flag = EFR_torch_declared }} }EFR = { every_owned_state = {  set_demilitarized_zone = yes } 26 = { set_demilitarized_zone = no  }  } } }
 				}
 			}		
 			
@@ -3022,7 +3022,7 @@ USA_congress_small_supporta = yes
 		days_remove = USA_minnesota_steel_duration
 		modifier = {	civilian_factory_use = 24	}
 		remove_effect = {
-			add_to_variable = { var = USA_minnesota_steel_duration value = 12 }
+			add_to_variable = { var = USA_minnesota_steel_duration value = 6 }
 			391 = {
 				add_resource = {
 					type = steel
@@ -3031,10 +3031,6 @@ USA_congress_small_supporta = yes
 			}
 		}
 		complete_effect = {
-			if = {
-				limit = {	check_variable = { var = USA_minnesota_steel_duration value = 12 compare = less_than }	}
-				set_variable = { var = USA_minnesota_steel_duration value = 12 }
-			}
 			USA_congress_small_supporta = yes
 		}
 	}
@@ -3047,7 +3043,7 @@ USA_congress_small_supporta = yes
 		days_remove = USA_pennsylvania_steel_duration
 		modifier = {	civilian_factory_use = 24	}
 		remove_effect = {
-			add_to_variable = { var = USA_pennsylvania_steel_duration value = 12 }
+			add_to_variable = { var = USA_pennsylvania_steel_duration value = 6 }
 			360 = {
 				add_resource = {
 					type = steel
@@ -3056,12 +3052,6 @@ USA_congress_small_supporta = yes
 			}
 		}
 		complete_effect = {
-			if = {
-				limit = {
-					check_variable = { var = USA_pennsylvania_steel_duration value = 12 compare = less_than }
-				}
-				set_variable = { var = USA_pennsylvania_steel_duration value = 12 }
-			}
 			USA_congress_small_supporta = yes
 		}
 	}
@@ -3075,7 +3065,7 @@ USA_congress_small_supporta = yes
 		days_remove = USA_ohio_steel_duration
 		modifier = {	civilian_factory_use = 24 }
 		remove_effect = {
-			add_to_variable = { var = USA_ohio_steel_duration value = 12 }
+			add_to_variable = { var = USA_ohio_steel_duration value = 6 }
 			261 = {
 				add_resource = {
 					type = steel
@@ -3084,12 +3074,6 @@ USA_congress_small_supporta = yes
 			}
 		}
 		complete_effect = {
-			if = {
-				limit = {
-					check_variable = { var = USA_ohio_steel_duration value = 12 compare = less_than }
-				}
-				set_variable = { var = USA_ohio_steel_duration value = 12 }
-			}
 			USA_congress_small_supporta = yes
 		}
 	}
@@ -3102,7 +3086,7 @@ USA_congress_small_supporta = yes
 		days_remove = USA_indiana_steel_duration
 		modifier = {	civilian_factory_use = 24	}
 		remove_effect = {
-			add_to_variable = { var = USA_indiana_steel_duration value = 12 }
+			add_to_variable = { var = USA_indiana_steel_duration value = 6 }
 			396 = {
 				add_resource = {
 					type = steel
@@ -3111,12 +3095,6 @@ USA_congress_small_supporta = yes
 			}
 		}
 		complete_effect = {
-			if = {
-				limit = {
-					check_variable = { var = USA_indiana_steel_duration value = 12 compare = less_than }
-				}
-				set_variable = { var = USA_indiana_steel_duration value = 12 }
-			}
 			USA_congress_small_supporta = yes
 		}
 	}
