@@ -1332,7 +1332,7 @@ hidden_effect = {
 					transfer_troops = yes 
 				}
 				every_state = { limit = { is_core_of = HUN }  set_compliance = 100 } 
-								if = { limit = { AND = { EFR = {owns_state = 26} NOT = {EFR = { has_country_flag = EFR_torch_declared}} } }	EFR = { every_owned_state = {  set_demilitarized_zone = yes } 26 = { set_demilitarized_zone = no  } } } 
+				hidden_effect = { if = { limit = { AND = { EFR = {owns_state = 26} NOT = {EFR = { has_country_flag = EFR_torch_declared}} } }	EFR = { every_owned_state = {  set_demilitarized_zone = yes } 26 = { set_demilitarized_zone = no  } } } }
 		}
 	}
 	GER_barbarossa_mission = { 
@@ -1387,7 +1387,8 @@ hidden_effect = {
 				}
 				release = SPR 
 				SPR = { set_equipment_fraction = 0 }
-								if = { limit = { AND = { EFR = { owns_state = 26 } NOT = {EFR = { has_country_flag = EFR_torch_declared}} } }	EFR = { add_to_war = { targeted_alliance = GER enemy = SOV } } EFR = { every_owned_state = {  set_demilitarized_zone = yes } 26 = { set_demilitarized_zone = no  } } } 
+				hidden_effect = { if = { limit = { AND = { EFR = {owns_state = 26} NOT = {EFR = { has_country_flag = EFR_torch_declared}} } }	EFR = { every_owned_state = {  set_demilitarized_zone = yes } 26 = { set_demilitarized_zone = no  } } } }
+
 			}
 			custom_effect_tooltip = GER_annex_spain_tt
 		}
@@ -1400,8 +1401,8 @@ hidden_effect = {
 				fire_only_once = yes
 				cost = 0	
 				complete_effect = { GER = { transfer_state =  187 transfer_state = 182 }
-				ITA = { add_to_war = { targeted_alliance = GER	enemy = ENG	} } ETH = { add_to_war = { targeted_alliance = GER	enemy = ENG	} } news_event = { id = news.3998 }  hidden_effect = { EFR = { every_owned_state = {  set_demilitarized_zone = yes } 26 = { set_demilitarized_zone = no  }  } }
-				
+				ITA = { add_to_war = { targeted_alliance = GER	enemy = ENG	} } ETH = { add_to_war = { targeted_alliance = GER	enemy = ENG	} } news_event = { id = news.3998 }  
+				hidden_effect = { if = { limit = { AND = { EFR = {owns_state = 26} NOT = {EFR = { has_country_flag = EFR_torch_declared}} } }	EFR = { every_owned_state = {  set_demilitarized_zone = yes } 26 = { set_demilitarized_zone = no  } } } }
 				}
 			}
 			USA_join_the_war = { 
@@ -1532,7 +1533,7 @@ hidden_effect = {
 					transfer_troops = yes 
 				}
 			}
-							if = { limit = { AND = { EFR = {owns_state = 26} NOT = {EFR = { has_country_flag = EFR_torch_declared}} } }	EFR = { add_to_war = { targeted_alliance = GER enemy = SOV } } EFR = { every_owned_state = {  set_demilitarized_zone = yes } 26 = { set_demilitarized_zone = no  } } } 
+			if = { limit = { AND = { EFR = {owns_state = 26} NOT = {EFR = { has_country_flag = EFR_torch_declared}} } }	EFR = { every_owned_state = {  set_demilitarized_zone = yes } 26 = { set_demilitarized_zone = no  } } } 
 
 		} 
 	}	
@@ -1581,7 +1582,8 @@ hidden_effect = {
 				 country_event = { id = iran.3 }
 				 	ENG = { transfer_state = 412 transfer_state = 413 transfer_state = 421  } 
 				 ITA = { country_event = { id = iran.4 } 	if = { limit = { NOT = { ENG = { controls_state = 291 }}} ITA = {  set_state_controller = 413 set_state_controller = 421 } } }
-				hidden_effect = { 412 = { add_building_construction = { type = infrastructure	level = 2	instant_build = yes}}}		
+				hidden_effect = { 412 = { add_building_construction = { type = infrastructure	level = 2	instant_build = yes}} 			if = { limit = { AND = { EFR = {owns_state = 26} NOT = {EFR = { has_country_flag = EFR_torch_declared}} } }	EFR = { every_owned_state = {  set_demilitarized_zone = yes } 26 = { set_demilitarized_zone = no  } } } 
+ }		
 				}
 	}
 	

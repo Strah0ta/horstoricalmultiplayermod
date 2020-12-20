@@ -899,6 +899,7 @@ check_variable = {  FRA_legitimacy > 40  }    		date > 1940.8.5
 transfer_state = 277
 		277 = { set_demilitarized_zone = no }
 recalc_vichy_france_legitimacy = yes 
+				hidden_effect = { if = { limit = { AND = { EFR = {owns_state = 26} NOT = {EFR = { has_country_flag = EFR_torch_declared}} } }	EFR = { every_owned_state = {  set_demilitarized_zone = yes } 26 = { set_demilitarized_zone = no  } } } }
 		}
 	}
 	focus = {
@@ -938,6 +939,7 @@ transfer_state = 445
 		556 = { set_demilitarized_zone = no }
 		445 = { set_demilitarized_zone = no }
 recalc_vichy_france_legitimacy = yes 
+				hidden_effect = { if = { limit = { AND = { EFR = {owns_state = 26} NOT = {EFR = { has_country_flag = EFR_torch_declared}} } }	EFR = { every_owned_state = {  set_demilitarized_zone = yes } 26 = { set_demilitarized_zone = no  } } } }
 		}
 	}
 	focus = {
@@ -975,6 +977,7 @@ recalc_vichy_france_legitimacy = yes
 		transfer_state = 554
 		554 = { set_demilitarized_zone = no }
 		recalc_vichy_france_legitimacy = yes 
+				hidden_effect = { if = { limit = { AND = { EFR = {owns_state = 26} NOT = {EFR = { has_country_flag = EFR_torch_declared}} } }	EFR = { every_owned_state = {  set_demilitarized_zone = yes } 26 = { set_demilitarized_zone = no  } } } }
 		}
 	}
 
@@ -1007,6 +1010,7 @@ recalc_vichy_france_legitimacy = yes
 transfer_state = 510
 		510 = { set_demilitarized_zone = no }
 recalc_vichy_france_legitimacy = yes 
+				hidden_effect = { if = { limit = { AND = { EFR = {owns_state = 26} NOT = {EFR = { has_country_flag = EFR_torch_declared}} } }	EFR = { every_owned_state = {  set_demilitarized_zone = yes } 26 = { set_demilitarized_zone = no  } } } }
 		}
 	}
 	focus = {
@@ -1051,6 +1055,7 @@ recalc_vichy_france_legitimacy = yes
 		280 = { set_demilitarized_zone = no }
 		538 = { set_demilitarized_zone = no }
 			recalc_vichy_france_legitimacy = yes 
+				hidden_effect = { if = { limit = { AND = { EFR = {owns_state = 26} NOT = {EFR = { has_country_flag = EFR_torch_declared}} } }	EFR = { every_owned_state = {  set_demilitarized_zone = yes } 26 = { set_demilitarized_zone = no  } } } }
 			}
 	}
 	focus = {
