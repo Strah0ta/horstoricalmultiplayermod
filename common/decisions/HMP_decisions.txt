@@ -532,7 +532,7 @@ available = { check_variable = { var = SOV_barb_ll_token  value = 20  compare = 
 		fire_only_once = no 
 		visible = { SOV = { has_completed_focus = SOV_aviation_cult} }
 		complete_effect  = {
-add_equipment_to_stockpile = {  type = sov_fighter_equipment_2 amount = 986 producer = SOV }    
+add_equipment_to_stockpile = {  type = sov_fighter_equipment_2 amount = 1068 producer = SOV }    
 		SOV = { add_to_variable = {  var = SOV_barb_ll_token   value = -20 } }						
 		}
 	}
@@ -1126,6 +1126,7 @@ every_country = {
 				if = { limit = { country_exists = HUN } HUN = { add_to_war = { targeted_alliance = GER enemy = NOR } }   }
 			    if = { limit = { country_exists = BUL } BUL = { add_to_war = { targeted_alliance = GER enemy = NOR } }  }
 				if = { limit = { AND = { NOT = {EFR = { has_country_flag = EFR_torch_declared}} EFR = {owns_state = 26 }} } EFR = { add_to_war = { targeted_alliance = GER enemy = NOR } every_owned_state = {  set_demilitarized_zone = yes } 26 = { set_demilitarized_zone = no  } } }  
+				}
 		}	
 	}
 	
@@ -1171,7 +1172,10 @@ every_country = {
 			if = { limit = { country_exists = ROM }	ROM = { add_to_war = { targeted_alliance = GER enemy = SOV } }	}
 			if = { limit = { country_exists = BUL }	BUL = { add_to_war = { targeted_alliance = GER enemy = SOV } } }
 			if = { limit = { country_exists = SPR }	SPR = { add_to_war = { targeted_alliance = GER enemy = SOV } } }
-			if = { limit = { country_exists = FIN }	FIN = { add_to_war = { targeted_alliance = GER enemy = SOV } } }
+			FIN = { 			declare_war_on = {
+				target = SOV 
+				type = annex_everything
+			} }
 				add_to_faction = FIN
 		
 			SOV = { 		SOV_relocate_mil=yes		
