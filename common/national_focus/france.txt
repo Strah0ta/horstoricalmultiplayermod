@@ -897,6 +897,7 @@ check_variable = {  FRA_legitimacy > 40  }    		date > 1940.8.5
 		search_filters = { FOCUS_FILTER_ANNEXATION }
 		completion_reward = {
 transfer_state = 277
+		277 = { set_demilitarized_zone = no }
 recalc_vichy_france_legitimacy = yes 
 		}
 	}
@@ -934,6 +935,8 @@ check_variable = {  FRA_legitimacy > 80  }
 		completion_reward = {
 transfer_state = 556
 transfer_state = 445
+		556 = { set_demilitarized_zone = no }
+		445 = { set_demilitarized_zone = no }
 recalc_vichy_france_legitimacy = yes 
 		}
 	}
@@ -1002,6 +1005,7 @@ recalc_vichy_france_legitimacy = yes
 		search_filters = { FOCUS_FILTER_ANNEXATION }
 		completion_reward = {
 transfer_state = 510
+		510 = { set_demilitarized_zone = no }
 recalc_vichy_france_legitimacy = yes 
 		}
 	}
@@ -1042,6 +1046,10 @@ recalc_vichy_france_legitimacy = yes
 			transfer_state = 295 
 			transfer_state = 280 
 			transfer_state = 538 
+					543 = { set_demilitarized_zone = no }
+		295 = { set_demilitarized_zone = no }
+		280 = { set_demilitarized_zone = no }
+		538 = { set_demilitarized_zone = no }
 			recalc_vichy_france_legitimacy = yes 
 			}
 	}

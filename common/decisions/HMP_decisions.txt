@@ -538,7 +538,7 @@ add_equipment_to_stockpile = {  type = sov_fighter_equipment_2 amount = 986 prod
 	}
 	HMP_ll_soviets_receive_med_tank = { 
 		allowed = {  original_tag = SOV } 
-		available = {  check_variable = { var = SOV_barb_ll_token  value = 20  compare = greater_than_or_equals} has_war_with = GER OR = { date > 1942.4.22  AND = { ENG = { controls_state = 412 }  date > 1941.11.22  } } custom_trigger_tooltip = {	tooltip = SOV_secure_tt	suppy_route_secure = yes}  }      
+available = { check_variable = { var = SOV_barb_ll_token  value = 20  compare = greater_than_or_equals} has_war_with = GER OR = { date > 1941.11.22  ENG = { controls_state = 412 }  } 			custom_trigger_tooltip = {	tooltip = SOV_secure_tt	suppy_route_secure = yes}  }        
 		icon = generic_form_nation
 		cost = 0
 		days_remove = 60
@@ -559,8 +559,8 @@ add_equipment_to_stockpile = {  type = sov_fighter_equipment_2 amount = 986 prod
 	}
 		HMP_ll_soviets_receive_heavy_tank = { 
 allowed = {  original_tag = SOV } 
-		available = {  check_variable = { var = SOV_barb_ll_token  value = 20  compare = greater_than_or_equals} has_war_with = GER OR = { date > 1942.4.22  AND = { ENG = { controls_state = 412 }  date > 1941.11.22  } } custom_trigger_tooltip = {	tooltip = SOV_secure_tt	suppy_route_secure = yes}  }      
-		icon = generic_form_nation
+available = { check_variable = { var = SOV_barb_ll_token  value = 20  compare = greater_than_or_equals} has_war_with = GER OR = { date > 1941.11.22  ENG = { controls_state = 412 }  } 			custom_trigger_tooltip = {	tooltip = SOV_secure_tt	suppy_route_secure = yes}  }    	
+	icon = generic_form_nation
 		cost = 0
 		fire_only_once = no
 		days_remove = 60
@@ -579,8 +579,8 @@ allowed = {  original_tag = SOV }
 	}
 			HMP_ll_soviets_receive_light_tank = { 
 allowed = {  original_tag = SOV } 
-		available = {  check_variable = { var = SOV_barb_ll_token  value = 20  compare = greater_than_or_equals} has_war_with = GER OR = { date > 1942.4.22  AND = { ENG = { controls_state = 412 }  date > 1941.11.22  } } custom_trigger_tooltip = {	tooltip = SOV_secure_tt	suppy_route_secure = yes}  }      
-		icon = generic_form_nation
+available = { check_variable = { var = SOV_barb_ll_token  value = 20  compare = greater_than_or_equals} has_war_with = GER OR = { date > 1941.11.22  ENG = { controls_state = 412 }  } 			custom_trigger_tooltip = {	tooltip = SOV_secure_tt	suppy_route_secure = yes}  }  
+  icon = generic_form_nation
 		cost = 0
 		fire_only_once = no
 		days_remove = 60
@@ -1030,8 +1030,6 @@ every_country = {
 			if = { limit = { country_exists = HUN } HOL = { add_to_war = { targeted_alliance = ENG enemy = HUN } }	}
 			if = { limit = { country_exists = BUL } HOL = { add_to_war = { targeted_alliance = ENG enemy = BUL } }	}
 							}
-			hidden_effect = { if = { limit = { EFR = { owns_state = 26 }} EFR = { add_to_war = { targeted_alliance = GER enemy = HOL }  every_owned_state = {  set_demilitarized_zone = yes } 26 = { set_demilitarized_zone = no  }  } } }
-
 		}		
 	}
 	GER_fall_gelb2 = {
@@ -1100,9 +1098,9 @@ every_country = {
 			if = { limit = { country_exists = HUN }  DEN = { add_to_war = { targeted_alliance = ENG enemy = HUN } }  }
 			  if = { limit = { country_exists = BUL } DEN = { add_to_war = { targeted_alliance = ENG enemy = BUL } }	}
 			}		
-			hidden_effect = { if = { limit = { EFR = { owns_state = 26 }} EFR = { add_to_war = { targeted_alliance = GER enemy = DEN }  every_owned_state = {  set_demilitarized_zone = yes } 26 = { set_demilitarized_zone = no  }  } } }
-			
-		}	
+		hidden_effect = { if = { limit = { AND = { NOT = {EFR = { has_country_flag = EFR_torch_declared}} EFR = {owns_state = 26 }} } DEN = { add_to_war = { targeted_alliance = ENG enemy = EFR } } EFR = { every_owned_state = {  set_demilitarized_zone = yes } 26 = { set_demilitarized_zone = no  } } } } 
+	
+	}	
 	}
 	
 	GER_weserbung_operation2 = { 
@@ -1127,13 +1125,11 @@ every_country = {
 				if = { limit = { country_exists = SPR }  SPR = { add_to_war = { targeted_alliance = GER  enemy = NOR } }  }	
 				if = { limit = { country_exists = HUN } HUN = { add_to_war = { targeted_alliance = GER enemy = NOR } }   }
 			    if = { limit = { country_exists = BUL } BUL = { add_to_war = { targeted_alliance = GER enemy = NOR } }  }
-			}
-
-			hidden_effect = { if = { limit = { EFR = { owns_state = 26 }} EFR = { add_to_war = { targeted_alliance = GER enemy = NOR }  every_owned_state = {  set_demilitarized_zone = yes } 26 = { set_demilitarized_zone = no  }  } } }
+				if = { limit = { AND = { NOT = {EFR = { has_country_flag = EFR_torch_declared}} EFR = {owns_state = 26 }} } EFR = { add_to_war = { targeted_alliance = GER enemy = NOR } every_owned_state = {  set_demilitarized_zone = yes } 26 = { set_demilitarized_zone = no  } } }  
 		}	
 	}
 	
-	
+
 		GER_unt_barb = { 
 		icon = ger_reichskommissariats
 		fire_only_once = yes	
@@ -1142,7 +1138,6 @@ every_country = {
 		cost = 0		
 		complete_effect = {
 			FIN = { country_event = { id = italy.604 days = 1 }}
-			add_to_faction = FIN
 			add_ideas = GER_barbarossa 	
 			hidden_effect={  
 					if = { limit = { country_exists = ROM } ROM = {add_ideas = GER_barbarossa } }
@@ -1177,11 +1172,8 @@ every_country = {
 			if = { limit = { country_exists = BUL }	BUL = { add_to_war = { targeted_alliance = GER enemy = SOV } } }
 			if = { limit = { country_exists = SPR }	SPR = { add_to_war = { targeted_alliance = GER enemy = SOV } } }
 			if = { limit = { country_exists = FIN }	FIN = { add_to_war = { targeted_alliance = GER enemy = SOV } } }
-				
-			hidden_effect = { 
-				if = { limit = { country_exists = ALB }	ALB = { add_to_war = { targeted_alliance = GER enemy = SOV } }} 
-				if = { limit = { AND = { country_exists = EFR NOT = {EFR = { has_country_flag = EFR_torch_declared}} } }	EFR = { add_to_war = { targeted_alliance = GER enemy = SOV } } EFR = { every_owned_state = {  set_demilitarized_zone = yes } 26 = { set_demilitarized_zone = no  } } } 
-			} 		
+				add_to_faction = FIN
+		
 			SOV = { 		SOV_relocate_mil=yes		
 			SOV_relocate_mil=yes
 			SOV_relocate_mil=yes		
@@ -1193,6 +1185,10 @@ every_country = {
 			SOV_relocate_civ_moscow=yes
 			SOV_relocate_mil_moscow=yes
 			}
+						hidden_effect = { 
+				if = { limit = { country_exists = ALB }	ALB = { add_to_war = { targeted_alliance = GER enemy = SOV } }} 
+				if = { limit = { AND = { NOT = {EFR = { has_country_flag = EFR_torch_declared}} EFR = {owns_state = 26 }} } EFR = { add_to_war = { targeted_alliance = GER enemy = SOV } every_owned_state = {  set_demilitarized_zone = yes } 26 = { set_demilitarized_zone = no  } } } 
+			} 
 			}	
 			}
 			}
@@ -1254,7 +1250,8 @@ GER_desert_flower_dec = {
 		country_event = { id = germany.378 } 
 		554 = { set_demilitarized_zone = no add_province_modifier = { province = { all_provinces  = yes } static_modifiers = { syria_modifier } } }
 		hidden_effect = {if = { limit = { ENG = { controls_province = 1544 }} ENG = { load_oob = "ENG_SYR_Front_GAR" } SWE ={ country_event = { id = italy.3999 days = 30 }}  custom_effect_tooltip "The Allies will have 1 month to prepare defenses in Syria!"  }   }
-		
+		if = { limit = { AND = { NOT = {EFR = { has_country_flag = EFR_torch_declared}} EFR = {owns_state = 26 }} } EFR = { every_owned_state = {  set_demilitarized_zone = yes } 26 = { set_demilitarized_zone = no  } } } 
+
 				}
 			}		
 			
@@ -1335,6 +1332,7 @@ hidden_effect = {
 					transfer_troops = yes 
 				}
 				every_state = { limit = { is_core_of = HUN }  set_compliance = 100 } 
+								if = { limit = { AND = { EFR = {owns_state = 26} NOT = {EFR = { has_country_flag = EFR_torch_declared}} } }	EFR = { every_owned_state = {  set_demilitarized_zone = yes } 26 = { set_demilitarized_zone = no  } } } 
 		}
 	}
 	GER_barbarossa_mission = { 
@@ -1389,6 +1387,7 @@ hidden_effect = {
 				}
 				release = SPR 
 				SPR = { set_equipment_fraction = 0 }
+								if = { limit = { AND = { EFR = { owns_state = 26 } NOT = {EFR = { has_country_flag = EFR_torch_declared}} } }	EFR = { add_to_war = { targeted_alliance = GER enemy = SOV } } EFR = { every_owned_state = {  set_demilitarized_zone = yes } 26 = { set_demilitarized_zone = no  } } } 
 			}
 			custom_effect_tooltip = GER_annex_spain_tt
 		}
@@ -1533,6 +1532,8 @@ hidden_effect = {
 					transfer_troops = yes 
 				}
 			}
+							if = { limit = { AND = { EFR = {owns_state = 26} NOT = {EFR = { has_country_flag = EFR_torch_declared}} } }	EFR = { add_to_war = { targeted_alliance = GER enemy = SOV } } EFR = { every_owned_state = {  set_demilitarized_zone = yes } 26 = { set_demilitarized_zone = no  } } } 
+
 		} 
 	}	
 		    mers_el_kebir = {
@@ -1613,7 +1614,7 @@ hidden_effect = {
 	defense_skill = 5
 	planning_skill = 6
 	logistics_skill = 8
-}
+} 
 461 = { add_building_construction  = { type = naval_base level = 15 province = 7069 instant_build = yes }}
 459 = { add_building_construction  = { type = naval_base level = 15 province = 7132 instant_build = yes }}
 459 = { add_building_construction  = { type = naval_base level = 15 province = 1145 instant_build = yes }}
@@ -1660,13 +1661,13 @@ create_corps_commander = {
         fire_only_once = yes
         available = {	has_tech = rocket_artillery has_tech = improved_infantry_weapons 	}
 		complete_effect = {
-			hidden_effect = { set_technology = { antitank2 = 1 popup = no } delete_unit_template_and_units  = {  division_template = "Egyptian Camel Corps"} delete_unit_template_and_units  = { division_template = "Egyptian Mountaineer Corps"}  	load_oob = "ENG_EGY"   }
-					custom_effect_tooltip = "We will deploy our army in Egypt."
+			hidden_effect = { set_technology = { antitank2 = 1 popup = no } delete_unit_template_and_units  = {  division_template = "Egyptian Camel Corps"} delete_unit_template_and_units  = { division_template = "Egyptian Mountaineer Corps"}  	load_oob = "ENG_EGY"  }
+				custom_effect_tooltip = "We will deploy our army in Egypt."
 			}	
 		}
 			deploy_sudan = {   
 	    icon = generic_civil_support 
-        allowed = {   original_tag = ENG    }
+        allowed = {   original_tag = ENG  }
         cost = 0
         fire_only_once = yes
         available = {	 has_tech = rocket_artillery has_tech = improved_infantry_weapons ETH = { is_ai = no} 	}
@@ -1676,26 +1677,16 @@ create_corps_commander = {
 		custom_effect_tooltip = "We will deploy our army in the Horn of Africa region."
 			}	
 		}	
-					deploy_sudan_gar = {   
-	    icon = generic_civil_support 
-        allowed = {   original_tag = ENG    }
-        cost = 0
-        fire_only_once = yes
-        available = { has_tech = rocket_artillery  }
 
-		complete_effect = {
-					hidden_effect = {  delete_unit_template_and_units  = { division_template = "African/Arabian Colonial Garrison"}   load_oob = "ENG_IEA_Front_GAR" }
-		custom_effect_tooltip = "We will deploy our garrisons in the Horn of Africa region."
-			}	
-		}	
 		deploy_atlantic_africa_gar = {   
 			icon = generic_civil_support 
 			allowed = {   original_tag = ENG    }
 			cost = 0
 			fire_only_once = yes
+			available = { has_tech = rocket_artillery  }
 			complete_effect = {
 				hidden_effect = {  delete_unit_template_and_units  = { division_template = "Atlantic Colonial Garrison"}   load_oob = "ENG_ATL_Front_GAR" }
-				custom_effect_tooltip = "We will deploy our garrisons in the Atlantic."
+				custom_effect_tooltip = "We will deploy our garrisons across the world."
 			}	
 		}		
 		
@@ -1776,6 +1767,7 @@ create_corps_commander = {
 			}  
 		}
 		copy_australian_at_equipment_research = yes
+			hidden_effect = { if = { limit = { AND = { EFR = { owns_state = 26 }NOT = {EFR = { has_country_flag = EFR_torch_declared}} } }	EFR = { every_owned_state = {  set_demilitarized_zone = yes } 26 = { set_demilitarized_zone = no  } } } } 
 	}
 	}
 			ENG_annex_raj = {
@@ -1806,6 +1798,7 @@ create_corps_commander = {
 						transfer_troops = yes 
 					}	
 				}  
+			hidden_effect = { if = { limit = { AND = { EFR = { owns_state = 26 }NOT = {EFR = { has_country_flag = EFR_torch_declared}} } }	EFR = { every_owned_state = {  set_demilitarized_zone = yes } 26 = { set_demilitarized_zone = no  } } } } 
 			}
 		}
 		
@@ -1841,6 +1834,7 @@ create_corps_commander = {
 					transfer_troops = yes 
 				}	
 			}
+			hidden_effect = { if = { limit = { AND = { EFR = { owns_state = 26 }NOT = {EFR = { has_country_flag = EFR_torch_declared}} } }	EFR = { every_owned_state = {  set_demilitarized_zone = yes } 26 = { set_demilitarized_zone = no  } } } } 
 				}
 			}
 
@@ -1863,6 +1857,7 @@ create_corps_commander = {
 					transfer_troops = yes 
 				}
 			}
+			hidden_effect = { if = { limit = { AND = { EFR = { owns_state = 26 }NOT = {EFR = { has_country_flag = EFR_torch_declared}} } }	EFR = { every_owned_state = {  set_demilitarized_zone = yes } 26 = { set_demilitarized_zone = no  } } } } 
 		}
 	}
 	 ENG_annex_norway = {
@@ -1880,6 +1875,7 @@ create_corps_commander = {
 					transfer_troops = yes 
 				}
 			}
+			hidden_effect = { if = { limit = { AND = { EFR = { owns_state = 26 }NOT = {EFR = { has_country_flag = EFR_torch_declared}} } }	EFR = { every_owned_state = {  set_demilitarized_zone = yes } 26 = { set_demilitarized_zone = no  } } } } 
 		}
 	}
 		hold_blood_toil_tears_sweat_speech = {
@@ -2137,6 +2133,8 @@ create_corps_commander = {
 			ITA = { transfer_state = 78  transfer_state = 287 transfer_state = 80 }
 			}
 			every_state = { limit = { is_core_of = ROM } set_compliance = 100 } 
+			hidden_effect = { if = { limit = { AND = { EFR = { owns_state = 26 }NOT = {EFR = { has_country_flag = EFR_torch_declared}} } }	EFR = { every_owned_state = {  set_demilitarized_zone = yes } 26 = { set_demilitarized_zone = no  } } } } 
+
 		}
 	}
 	ITA_annex_bul = {
@@ -2154,6 +2152,7 @@ create_corps_commander = {
 					}
 					106 = { set_compliance = 100  } 486 = { set_compliance = 100  } 184 = { set_compliance = 100  } 293 = { set_compliance = 100  } 211 = { set_compliance = 100  } 212 = { set_compliance = 100  }  48 = { set_compliance = 100  }
 			}
+							hidden_effect = { if = { limit = { EFR = { owns_state = 26 NOT = {EFR = { has_country_flag = EFR_torch_declared}} } } EFR = { every_owned_state = {  set_demilitarized_zone = yes } 26 = { set_demilitarized_zone = no  } } } } 
 		}
 	}
 
@@ -2171,6 +2170,7 @@ create_corps_commander = {
 						transfer_troops = yes 
 					}
 			}
+			hidden_effect = { if = { limit = { AND = { EFR = { owns_state = 26 } NOT = {EFR = { has_country_flag = EFR_torch_declared}} } } EFR = { every_owned_state = {  set_demilitarized_zone = yes } 26 = { set_demilitarized_zone = no  } } } } 
 		}
 	}	
 	
@@ -2189,6 +2189,7 @@ allowed = {original_tag = SAF}
 				545 = { add_extra_state_shared_building_slots = 2 }
 				542 = { add_extra_state_shared_building_slots = 2 }		
 				hidden_effect = { country_event = { id =  mtg_netherlands.332 days = 2}}
+			hidden_effect = { if = { limit = { AND = { EFR = { owns_state = 26 } NOT = {EFR = { has_country_flag = EFR_torch_declared}} } } EFR = { every_owned_state = {  set_demilitarized_zone = yes } 26 = { set_demilitarized_zone = no  } } } } 
 		}
 
 }
@@ -2208,6 +2209,7 @@ allowed = {original_tag = SAF}
 		283 = { add_extra_state_shared_building_slots = 2 }
 		292 = { add_extra_state_shared_building_slots = 2 }
 		hidden_effect = { country_event = { id =  mtg_netherlands.333 days = 2 }}
+			hidden_effect = { if = { limit = { AND = { EFR = { owns_state = 26 } NOT = {EFR = { has_country_flag = EFR_torch_declared}} } } EFR = { every_owned_state = {  set_demilitarized_zone = yes } 26 = { set_demilitarized_zone = no  } } } } 
 		}
 }
 
@@ -2229,6 +2231,7 @@ allowed = { original_tag = SAF }
 		546 = { add_extra_state_shared_building_slots = 2 }
 		547 = { add_extra_state_shared_building_slots = 2 }
 		548 = { add_extra_state_shared_building_slots = 2 }
+			hidden_effect = { if = { limit = { AND = { EFR = { owns_state = 26 } NOT = {EFR = { has_country_flag = EFR_torch_declared}} } } EFR = { every_owned_state = {  set_demilitarized_zone = yes } 26 = { set_demilitarized_zone = no  } } } } 
 		}
 
 }
@@ -2250,6 +2253,7 @@ allowed = { original_tag = SAF }
 				remove_state_core = 300   remove_state_core = 284
 			}
 			AST = { 	annex_country = { target = NZL	transfer_troops = yes 	}}
+			hidden_effect = { if = { limit = { AND = { EFR = { owns_state = 26 } NOT = {EFR = { has_country_flag = EFR_torch_declared}} } } EFR = { every_owned_state = {  set_demilitarized_zone = yes } 26 = { set_demilitarized_zone = no  } } } } 
 		}
 }
 	    NZL_annex_australia = {
@@ -2298,6 +2302,7 @@ AST = {
                 remove_state_core = 472
 			}
 			copy_australian_at_equipment_research = yes
+			hidden_effect = { if = { limit = { AND = { EFR = { owns_state = 26 } NOT = {EFR = { has_country_flag = EFR_torch_declared}} } } EFR = { every_owned_state = {  set_demilitarized_zone = yes } 26 = { set_demilitarized_zone = no  } } } } 
 		}
 	}
 	
@@ -3698,6 +3703,7 @@ political_actions = {
 			
 			annex_country = { target = MAN transfer_troops = yes }
 			496 = { set_compliance = 100 } 	328 = { set_compliance = 100 }	505 = { set_compliance = 100 } 3 = { set_compliance = 100 }	451 = { set_compliance = 100 } 	504 = { set_compliance = 100 }	179 = { set_compliance = 100 } 446 = { set_compliance = 100 }	112 = { set_compliance = 100 } 	308 = { set_compliance = 100 }
+			hidden_effect = { if = { limit = { AND = { EFR = { owns_state = 26 } NOT = {EFR = { has_country_flag = EFR_torch_declared}} } } EFR = { every_owned_state = {  set_demilitarized_zone = yes } 26 = { set_demilitarized_zone = no  } } } } 
 		}
 	}
 	improved_worker_conditions = {
@@ -3969,22 +3975,13 @@ political_actions = {
 		tag = NOR }
 		}
 
-        visible = {
-			any_owned_state = {
-				is_fully_controlled_by = ROOT
-			}
-		}
-
         complete_effect = {
-			random_owned_state = {
-			add_extra_state_shared_building_slots = 1
-				}
+			random_owned_state = {	add_extra_state_shared_building_slots = 1	}
 			}
 		}
 
     }
 	
 	debug_shit = {
-
 	
 	}

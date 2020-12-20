@@ -168,7 +168,7 @@ set_faction_spymaster = yes
 	}
 	set_autonomy = {
 		target = SPR
-		autonomous_state = autonomy_reichsprotectorate
+		autonomous_state = autonomy_reichskommissariat
 		freedom_level = 0.2
 	}
 	set_autonomy = {
