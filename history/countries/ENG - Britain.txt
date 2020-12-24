@@ -16,7 +16,6 @@ country_event = { id = britain.16 days = 21 }
 country_event = { id = mtg_britain.1 days = 119 }
 country_event = { id = DOD_yugoslavia.20 days = 759 }
 
-anti_cross_faction_trade_axis = yes
 set_research_slots = 5
 set_stability = 0.6
 set_war_support = 0.1
@@ -137,6 +136,7 @@ set_convoys = 800
 		autonomous_state = autonomy_dominion
 		freedom_level = 0.4
 	}
+	
 	set_autonomy = {
 		target = SAF
 		autonomous_state = autonomy_dominion

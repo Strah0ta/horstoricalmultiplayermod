@@ -293,7 +293,7 @@ equipments = {
 		air_range = 3000
 		maximum_speed = 630
 		air_agility = 33
-		air_attack = 81
+		air_attack = 97.2 #was 81 increased by 20%
 		air_defence = 18
 		
 		build_cost_ic = 84

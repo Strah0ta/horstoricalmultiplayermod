@@ -587,42 +587,9 @@ focus_tree = {
 							}
 							name = "Sovetsky Soyuz" 
 							requested_factories = 30
-							progress = 0.9
+							progress = 0.6
 							amount = 1
-						}
-						add_equipment_production = {
-							equipment = {
-								type = ship_hull_super_heavy_1
-								creator = "SOV" 
-								version_name = "Sovyetsky Soyuz Class"
-							}
-							name = "Sovetskaya Ukraina" 
-							requested_factories = 30
-							progress = 0.9
-							amount = 1
-						}					
-							add_equipment_production = {
-							equipment = {
-								type = ship_hull_super_heavy_1
-								creator = "SOV" 
-								version_name = "Sovyetsky Soyuz Class"
-							}
-							name = "Sovetskaya Rossiya" 
-							requested_factories = 30
-							progress = 0.9
-							amount = 1
-						}					
-							add_equipment_production = {
-							equipment = {
-								type = ship_hull_super_heavy_1
-								creator = "SOV" 
-								version_name = "Sovyetsky Soyuz Class"
-							}
-							name = "Sovetskaya Belorussiya" 
-							requested_factories = 30
-							progress = 0.9
-							amount = 1
-						}					
+						}				
 					}
 		
 		}

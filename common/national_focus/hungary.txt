@@ -221,6 +221,7 @@ focus_tree = {
 		completion_reward = {
 			custom_effect_tooltip = HUN_GREATER_tt
 			add_stability = 0.1
+						set_cosmetic_tag = HUN_GREATER
 		}
 	}
 

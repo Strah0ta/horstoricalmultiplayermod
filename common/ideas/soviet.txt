@@ -63,6 +63,7 @@ ideas = {
 			modifier = {
              	army_speed_factor = 0.1
 				supply_consumption_factor = -0.075
+				max_dig_in = -10
 			}
 		}
 		SOV_270 = { 
@@ -107,7 +108,7 @@ ideas = {
 			picture = generic_production_bonus
 			modifier = {
 				production_speed_buildings_factor = 0.25
-				consumer_goods_factor = -0.05
+				consumer_goods_factor = -0.02
 			}
 		}
 	
@@ -693,7 +694,8 @@ ideas = {
 		
 		morozov_design_bureau = {
 			
-			
+				on_add = { hidden_effect = { make_tank_designers_free = yes } }
+		
 			allowed = {
 				OR = {
 					original_tag = SOV
@@ -727,7 +729,8 @@ ideas = {
 			}
 		}
 				uralmash = {
-			
+						on_add = { hidden_effect = { make_tank_designers_free = yes } }
+
 			
 			allowed = {
 					original_tag = SOV
@@ -748,7 +751,8 @@ ideas = {
 			allowed = {
 				original_tag = SOV
 			}
-			
+						on_add = { hidden_effect = { make_tank_designers_free = yes } }
+
 			research_bonus = {
 				armor = 0.15
 			}
@@ -759,6 +763,7 @@ ideas = {
 			}
 		}
 		kharkiv = {
+					on_add = { hidden_effect = { make_tank_designers_free = yes } }
 			picture = malyshev
 			allowed = { original_tag = SOV }
 			research_bonus = {	armor = 0.15	}
@@ -767,24 +772,28 @@ ideas = {
 		}
 		
 			chelyabinsk_tractor_plant = {
+						on_add = { hidden_effect = { make_tank_designers_free = yes } }
 			allowed = { original_tag = SOV }
 			research_bonus = {	armor = 0.15	}
 			traits = { cavalry_tank_manufacturer }
 			modifier = {	}
 		}
 		kirov_plant = {
+					on_add = { hidden_effect = { make_tank_designers_free = yes } }
 			allowed = { original_tag = SOV }
 			research_bonus = {	armor = 0.15	}
 			traits = { cruiser_tank_manufacturer }
 			modifier = {	}
 		}
 		krasnoye_sormovo = {
+					on_add = { hidden_effect = { make_tank_designers_free = yes } }
 			allowed = { original_tag = SOV }
 			research_bonus = {	armor = 0.15	}
 			traits = { brawler_tank_manufacturer }
 			modifier = {	}
 		}		
 		avtomobilnoe_moskovskoe = {
+					on_add = { hidden_effect = { make_tank_designers_free = yes } }
 			allowed = { original_tag = SOV }
 			research_bonus = {	armor = 0.15	}
 			traits = { light_tank_manufacturer }
@@ -792,12 +801,14 @@ ideas = {
 		}		
 		
 		factory_no_174_k_e_voroshilov = {
+					on_add = { hidden_effect = { make_tank_designers_free = yes } }
 			allowed = { original_tag = SOV }
 			research_bonus = {	armor = 0.15	}
 			traits = { mobile_heavy_tank_manufacturer }
 			modifier = {	}
 		}			
 				uralvagonazavod = {
+							on_add = { hidden_effect = { make_tank_designers_free = yes } }
 				picture = uralvagonazavod
 			allowed = { original_tag = SOV }
 			research_bonus = {	armor = 0.15	}
@@ -806,14 +817,16 @@ ideas = {
 		}	
 		
 		nizhegorodsky_avtomobilny = {
+					on_add = { hidden_effect = { make_tank_designers_free = yes } }
 			allowed = { original_tag = SOV }
-			research_bonus = {		}
-			cost = 0
+			research_bonus = {	armor = 0.15	}
+			cost = 150
 			traits = { tank_destroyer_manufacturer }
 			modifier = {	}
 		}	
 
 		okmo = {
+					on_add = { hidden_effect = { make_tank_designers_free = yes } }
 			allowed = {	original_tag = SOV	}
 			research_bonus = {	armor = 0.15	}
 			traits = { heavy_tank_manufacturer }

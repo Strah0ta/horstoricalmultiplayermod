@@ -18,14 +18,6 @@ scripted_gui = {
 			}			
 			}
 			
-			reenable_ai_click = {
-						owner = {
-							set_temp_variable = { ROOT.marks = this}
-								}
-						var:marks = {change_tag_from = SWE }
-			}
-			
-			
 			addpp_click = {
 				owner={
 					set_temp_variable = { ROOT.marks = this}
@@ -81,9 +73,7 @@ scripted_gui = {
 				else={clear_variable=mark_status
 					remove_from_array={ROOT.marked_states=THIS}}
 				set_variable={ROOT.first_marked_state=ROOT.marked_states^0}
-			}
-			
-				
+			}				
 		
 			horsttool_helpbutton_click = {		ROOT = { country_event = { id =  horsthelp.2 } }	     }
 			

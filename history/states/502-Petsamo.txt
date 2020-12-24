@@ -9,6 +9,7 @@ state={
 		owner = FIN
 		buildings = {
 			infrastructure = 3
+						air_base = 4
 			9140 = {
 				naval_base = 1
 			}

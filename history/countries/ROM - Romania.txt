@@ -69,9 +69,7 @@ create_country_leader = {
 	picture = "gfx/leaders/ROM/Portrait_Romania_Gheorghe_Tatarescu.dds"
 	expire = "1965.1.1"
 	ideology = conservatism
-	traits = {
-		#
-	}
+	traits = {	}
 }
 
 create_country_leader = {
@@ -80,9 +78,7 @@ create_country_leader = {
 	picture = "Portrait_Romania_Constantin_Parhon.dds"
 	expire = "1965.1.1"
 	ideology = leninism
-	traits = {
-		#
-	}
+	traits = {	}
 }
 
 create_country_leader = {
@@ -91,20 +87,7 @@ create_country_leader = {
 	picture = "gfx/leaders/ROM/Portrait_Romania_Armand_Calinescu.dds"
 	expire = "1965.1.1"
 	ideology = centrism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Octavian Goga"
-	desc = "POLITICS_OCTAVIAN_GOGA_DESC"
-	picture = "Portrait_Romania_Octavian_Goga.dds"
-	expire = "1965.1.1"
-	ideology = fascism_ideology
-	traits = {
-		#
-	}
+	traits = {	}
 }
 
 create_country_leader = {
@@ -113,9 +96,7 @@ create_country_leader = {
 	picture = "Portrait_Romania_Ion_Antonescu.dds"
 	expire = "1965.1.1"
 	ideology = fascism_ideology
-	traits = {
-		#
-	}
+	traits = {	}
 }
 
 create_navy_leader = {

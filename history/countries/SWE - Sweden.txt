@@ -52,6 +52,7 @@ set_technology = {
 	strategic_bomber1 = 1 
 	advanced_light_tank = 1
 	early_fighter = 1
+	super_heavy_tank = 1
 }
 
 set_politics = {

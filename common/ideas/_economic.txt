@@ -6,7 +6,7 @@ ideas = {
 			allowed = {	always = no	}
 			removal_cost = -1
 			modifier = {
-				consumer_goods_factor = 0.65
+				consumer_goods_factor = 0.60
 				production_speed_industrial_complex_factor = -1.1
 				production_speed_arms_factory_factor = -1.1				
 				conversion_cost_civ_to_mil_factor = 0.5

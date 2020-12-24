@@ -202,5 +202,3 @@ create_navy_leader = {
 			rear_1_custom_slot = ship_depth_charge_1
 		}
 	}
-
-anti_cross_faction_trade_axis = yes 

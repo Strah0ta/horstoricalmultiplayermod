@@ -24,7 +24,6 @@ set_variable = {
     var = min_fuel
     value = 0.800
 }
-anti_cross_faction_trade_axis = yes
 create_intelligence_agency = yes
 	add_ideas = {
 		armyandnavy_idea

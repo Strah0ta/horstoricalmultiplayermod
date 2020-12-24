@@ -10,7 +10,6 @@ set_variable = {
 set_rule = { can_be_spymaster = no }
 create_intelligence_agency = yes
 add_ideas = armyandnavy_idea
-anti_cross_faction_trade_axis = yes
 
 # Starting tech
 set_technology = {

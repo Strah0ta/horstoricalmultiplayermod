@@ -797,7 +797,7 @@ ideas = {
 		designer = yes
 	
 		osaka_army_arsenal = {
-			
+					on_add = { hidden_effect = { make_tank_designers_free = yes } }	
 			allowed = {
 			OR = { 	original_tag = JAP original_tag = MAN  }
 			}

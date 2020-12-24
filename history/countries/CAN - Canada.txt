@@ -54,7 +54,6 @@ set_technology = {
 
 add_equipment_to_stockpile = { type = infantry_equipment_1 amount = 2700 }
 
-anti_cross_faction_trade_axis = yes
 
 	set_cosmetic_tag = CAN_ALY
 	add_ideas = CAN_great_depression_1

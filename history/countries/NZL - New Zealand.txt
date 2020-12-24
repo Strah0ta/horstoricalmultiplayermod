@@ -5,7 +5,6 @@ set_war_support = 0.3
 set_research_slots = 3
 set_rule = { can_be_spymaster = no }
 country_event = { id = tfv_new_zealand.7 days = 1518 }
-anti_cross_faction_trade_axis = yes
 set_variable = {
     var = min_fuel
     value = 0.800

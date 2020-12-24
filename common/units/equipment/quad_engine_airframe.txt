@@ -32,7 +32,6 @@ equipments = {
 		
 		build_cost_ic = 592
 		resources = {
-			#oil = 1
 			aluminium = 3
 			rubber = 2
 		}
@@ -54,7 +53,7 @@ equipments = {
 		air_agility = 5
 		air_attack = 50
 		air_defence = 16
-		air_bombing = 555
+		air_bombing = 350
 	}
 	strat_bomber_equipment_2 = {
 		year = 1940
@@ -69,7 +68,6 @@ equipments = {
 		air_bombing = 400
 		build_cost_ic = 630
 				resources = {
-			#oil = 1
 			aluminium = 4
 			rubber = 2
 		}
@@ -86,8 +84,7 @@ equipments = {
 		air_defence = 20
 		air_bombing = 450
 		build_cost_ic = 705
-				resources = {
-			#oil = 1
+		resources = {
 			aluminium = 5
 			rubber = 2
 		}

@@ -65,13 +65,8 @@ set_technology = {
 		early_ship_hull_heavy = 1
 		basic_ship_hull_heavy = 1
 		mtg_transport = 1
-armored_car1 = 1	
-		
+armored_car1 = 1		
 }
-add_relation_modifier = {
-    target = GER
-    modifier = stahlpakt4
-} 
 add_relation_modifier = {
     target = SPR
     modifier = stahlpakt
@@ -293,4 +288,3 @@ create_country_leader = {
 		}
 	}
 
-anti_cross_faction_trade_allies = yes 

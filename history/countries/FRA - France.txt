@@ -12,7 +12,6 @@ add_research_slot = 1
 }
 add_to_tech_sharing_group = commonwealth_research
 country_event = { id = DOD_yugoslavia.20 days = 759 }
-anti_cross_faction_trade_axis = yes
 create_intelligence_agency = yes
 set_variable = {
     var = min_fuel

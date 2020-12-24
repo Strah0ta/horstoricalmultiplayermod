@@ -1121,7 +1121,7 @@ ideas = {
 	
 		# TECHNOLOGY
 		renault_fra = {
-		
+					on_add = { hidden_effect = { make_tank_designers_free = yes } }
 			picture = renault
 						
 			allowed = {
@@ -1140,7 +1140,7 @@ ideas = {
 			allowed = {
 				normally_played_allies = yes 
 			}
-						
+				on_add = { hidden_effect = { make_tank_designers_free = yes } }					
 			research_bonus = {
 				armor = 0.15
 			}
@@ -1152,7 +1152,7 @@ ideas = {
 			allowed = {
 				normally_played_allies = yes 
 			}
-						
+					on_add = { hidden_effect = { make_tank_designers_free = yes } }				
 			research_bonus = {
 				armor = 0.15
 			}
@@ -1167,7 +1167,7 @@ ideas = {
 			allowed = {
 				normally_played_allies = yes 
 			}
-						
+						on_add = { hidden_effect = { make_tank_designers_free = yes } }			
 			research_bonus = {
 				armor = 0.15
 			}
@@ -1181,7 +1181,7 @@ ideas = {
 			available = {
 				has_completed_focus = FRA_army_reform
 			}
-						
+						on_add = { hidden_effect = { make_tank_designers_free = yes } }			
 			allowed = {
 				original_tag = FRA
 			}
@@ -1197,12 +1197,13 @@ ideas = {
 			allowed = {	normally_played_allies = yes	}
 			research_bonus = {	armor = 0.15	}
 			traits = { infantry_tank_manufacturer }
+						on_add = { hidden_effect = { make_tank_designers_free = yes } }
 		}
 
 		FRA_APX = {
 			picture = FRA_atelier_puteaux
 			
-
+			on_add = { hidden_effect = { make_tank_designers_free = yes } }
 			available = {
 				
 			}

@@ -1159,7 +1159,71 @@ country_event = {
 		554 = { remove_province_modifier = { province = { all_provinces  = yes } static_modifiers = { syria_modifier } } }
    }
    }
+   
+          country_event = {	
+   id = italy.3523
+   title = "Italy Declares War on the Allies!"
+   desc = "From a balcony in Rome, Italy, Mussolini gave a speech to the people of Rome and Italian news media about war against Great Britain and France."
+   picture = GFX_news_event_italian_tank_desert
+
+ is_triggered_only = yes
+   
+   
+      option = {
+   name = "The War expands."
+		ALB = { give_resource_rights = { target = ITA state = 291 }}
+   }
+   }
+   
+                country_event = {	
+   id = italy.3524
+   title = "Italy Declares War on the Allies!"
+   desc = "From a balcony in Rome, Italy, Mussolini gave a speech to the people of Rome and Italian news media about war against Great Britain and France."
+   picture = GFX_news_event_italian_tank_desert
+
+ is_triggered_only = yes
+   
+   
+      option = {
+   name = "The War expands."
+		if = { limit = { EFR = { NOT = { has_country_flag = EFR_torch_declared }  } } country_event = { id = italy.3525 } country_event = { id = italy.3524 days = 30 }     }
+   }
+   }
+   
+   
+             country_event = {	
+   id = italy.3525
+   title = "Italy Declares War on the Allies!"
+   desc = "From a balcony in Rome, Italy, Mussolini gave a speech to the people of Rome and Italian news media about war against Great Britain and France."
+   picture = GFX_news_event_italian_tank_desert
+
+ is_triggered_only = yes
+   
+   
+      option = {
+   name = "The War expands."
+		if = { limit = { EFR = { NOT = { has_country_flag = EFR_torch_declared } owns_state = 26 554 = { is_demilitarized_zone = no } } }  EFR = { every_state = { limit = { NOT = {state = 26 } is_owned_by = EFR } set_demilitarized_zone = yes  }    } }
+   }
+   }
+   
+   
 			
+	       country_event = {	
+   id = italy.5009
+   title = "Italy Declares War on the Allies!"
+   desc = "From a balcony in Rome, Italy, Mussolini gave a speech to the people of Rome and Italian news media about war against Great Britain and France."
+   picture = GFX_news_event_italian_tank_desert
+
+ is_triggered_only = yes
+   
+   
+      option = {
+   name = "The War expands."
+		BUL = { give_resource_rights = { target = ITA state = 184 }}
+		BUL = { give_resource_rights = { target = ITA state = 486 }}
+
+   }
+   }
 			
           country_event = {
    id = italy.674

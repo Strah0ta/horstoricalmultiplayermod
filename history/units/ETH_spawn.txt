@@ -1,0 +1,471 @@
+﻿division_template = {
+	name = "Divisione Coloniale"
+	division_names_group = ITA_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		infantry = { x = 3 y = 0 }		
+	}
+	priority = 2
+	support = { engineer = { x = 0 y = 0 } anti_air = { x = 0 y = 1 } artillery = { x = 0 y = 2 }   }
+}
+
+units = {
+	##### Imperial Army #####
+		division = { # "Divisione Coloniale"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 5010
+		division_template = "Divisione Coloniale"			# Elite emperor's guard
+		start_experience_factor = 0.3
+	}
+	division = { # "Divisione Coloniale"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 5010
+		division_template = "Divisione Coloniale"			# Elite emperor's guard
+		start_experience_factor = 0.3
+	}	
+	division = { # "Divisione Coloniale"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 5010
+		division_template = "Divisione Coloniale"			# Elite emperor's guard
+		start_experience_factor = 0.3
+	}
+	division = { # "Divisione Coloniale"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 5010
+		division_template = "Divisione Coloniale"			# Elite emperor's guard
+		start_experience_factor = 0.3
+	}		
+
+		division = { # "Divisione Coloniale"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 5010
+		division_template = "Divisione Coloniale"			# Elite emperor's guard
+		start_experience_factor = 0.3
+	}
+
+	
+	division = { # "Divisione Coloniale"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 5010
+		division_template = "Divisione Coloniale"			# Elite emperor's guard
+		start_experience_factor = 0.3
+	}	
+	division = { # "Divisione Coloniale"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 5010
+		division_template = "Divisione Coloniale"			# Elite emperor's guard
+		start_experience_factor = 0.3
+	}
+	division = { # "Divisione Coloniale"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 5010
+		division_template = "Divisione Coloniale"			# Elite emperor's guard
+		start_experience_factor = 0.3
+	}	
+	
+	
+		division = { # "Divisione Coloniale"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 5010
+		division_template = "Divisione Coloniale"			# Elite emperor's guard
+		start_experience_factor = 0.3
+	}
+	division = { # "Divisione Coloniale"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 5010
+		division_template = "Divisione Coloniale"			# Elite emperor's guard
+		start_experience_factor = 0.3
+	}	
+	division = { # "Divisione Coloniale"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 5010
+		division_template = "Divisione Coloniale"			# Elite emperor's guard
+		start_experience_factor = 0.3
+	}
+	division = { # "Divisione Coloniale"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 5010
+		division_template = "Divisione Coloniale"			# Elite emperor's guard
+		start_experience_factor = 0.3
+	}		
+
+		division = { # "Divisione Coloniale"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 5010
+		division_template = "Divisione Coloniale"			# Elite emperor's guard
+		start_experience_factor = 0.3
+	}
+	division = { # "Divisione Coloniale"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 5010
+		division_template = "Divisione Coloniale"			# Elite emperor's guard
+		start_experience_factor = 0.3
+	}	
+	division = { # "Divisione Coloniale"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 5010
+		division_template = "Divisione Coloniale"			# Elite emperor's guard
+		start_experience_factor = 0.3
+	}
+	division = { # "Divisione Coloniale"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 5010
+		division_template = "Divisione Coloniale"			# Elite emperor's guard
+		start_experience_factor = 0.3
+	}		
+		division = { # "Divisione Coloniale"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 5010
+		division_template = "Divisione Coloniale"			# Elite emperor's guard
+		start_experience_factor = 0.3
+	}
+	division = { # "Divisione Coloniale"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 5010
+		division_template = "Divisione Coloniale"			# Elite emperor's guard
+		start_experience_factor = 0.3
+	}	
+	division = { # "Divisione Coloniale"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 5010
+		division_template = "Divisione Coloniale"			# Elite emperor's guard
+		start_experience_factor = 0.3
+	}
+	division = { # "Divisione Coloniale"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 5010
+		division_template = "Divisione Coloniale"			# Elite emperor's guard
+		start_experience_factor = 0.3
+	}		
+
+		division = { # "Divisione Coloniale"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 5010
+		division_template = "Divisione Coloniale"			# Elite emperor's guard
+		start_experience_factor = 0.3
+	}
+	division = { # "Divisione Coloniale"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 5010
+		division_template = "Divisione Coloniale"			# Elite emperor's guard
+		start_experience_factor = 0.3
+	}	
+	division = { # "Divisione Coloniale"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 5010
+		division_template = "Divisione Coloniale"			# Elite emperor's guard
+		start_experience_factor = 0.3
+	}
+	division = { # "Divisione Coloniale"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 5010
+		division_template = "Divisione Coloniale"			# Elite emperor's guard
+		start_experience_factor = 0.3
+	}	
+	
+	
+		division = { # "Divisione Coloniale"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 5010
+		division_template = "Divisione Coloniale"			# Elite emperor's guard
+		start_experience_factor = 0.3
+	}
+	division = { # "Divisione Coloniale"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 5010
+		division_template = "Divisione Coloniale"			# Elite emperor's guard
+		start_experience_factor = 0.3
+	}	
+	division = { # "Divisione Coloniale"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 5010
+		division_template = "Divisione Coloniale"			# Elite emperor's guard
+		start_experience_factor = 0.3
+	}
+	division = { # "Divisione Coloniale"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 5010
+		division_template = "Divisione Coloniale"			# Elite emperor's guard
+		start_experience_factor = 0.3
+	}		
+
+		division = { # "Divisione Coloniale"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 5010
+		division_template = "Divisione Coloniale"			# Elite emperor's guard
+		start_experience_factor = 0.3
+	}
+	division = { # "Divisione Coloniale"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 5010
+		division_template = "Divisione Coloniale"			# Elite emperor's guard
+		start_experience_factor = 0.3
+	}	
+	division = { # "Divisione Coloniale"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 5010
+		division_template = "Divisione Coloniale"			# Elite emperor's guard
+		start_experience_factor = 0.3
+	}
+	division = { # "Divisione Coloniale"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 5010
+		division_template = "Divisione Coloniale"			# Elite emperor's guard
+		start_experience_factor = 0.3
+	}	
+	
+	
+	division = { # "Divisione Coloniale"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 5010
+		division_template = "Divisione Coloniale"			# Elite emperor's guard
+		start_experience_factor = 0.3
+	}
+	division = { # "Divisione Coloniale"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 5010
+		division_template = "Divisione Coloniale"			# Elite emperor's guard
+		start_experience_factor = 0.3
+	}	
+	division = { # "Divisione Coloniale"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 5010
+		division_template = "Divisione Coloniale"			# Elite emperor's guard
+		start_experience_factor = 0.3
+	}
+	division = { # "Divisione Coloniale"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 5010
+		division_template = "Divisione Coloniale"			# Elite emperor's guard
+		start_experience_factor = 0.3
+	}		
+
+		division = { # "Divisione Coloniale"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 5010
+		division_template = "Divisione Coloniale"			# Elite emperor's guard
+		start_experience_factor = 0.3
+	}
+	division = { # "Divisione Coloniale"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 5010
+		division_template = "Divisione Coloniale"			# Elite emperor's guard
+		start_experience_factor = 0.3
+	}	
+	division = { # "Divisione Coloniale"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 5010
+		division_template = "Divisione Coloniale"			# Elite emperor's guard
+		start_experience_factor = 0.3
+	}
+	division = { # "Divisione Coloniale"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 5010
+		division_template = "Divisione Coloniale"			# Elite emperor's guard
+		start_experience_factor = 0.3
+	}	
+	
+	
+		division = { # "Divisione Coloniale"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 5010
+		division_template = "Divisione Coloniale"			# Elite emperor's guard
+		start_experience_factor = 0.3
+	}
+	division = { # "Divisione Coloniale"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 5010
+		division_template = "Divisione Coloniale"			# Elite emperor's guard
+		start_experience_factor = 0.3
+	}	
+	division = { # "Divisione Coloniale"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 5010
+		division_template = "Divisione Coloniale"			# Elite emperor's guard
+		start_experience_factor = 0.3
+	}
+	division = { # "Divisione Coloniale"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 5010
+		division_template = "Divisione Coloniale"			# Elite emperor's guard
+		start_experience_factor = 0.3
+	}		
+
+		division = { # "Divisione Coloniale"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 5010
+		division_template = "Divisione Coloniale"			# Elite emperor's guard
+		start_experience_factor = 0.3
+	}
+	division = { # "Divisione Coloniale"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 5010
+		division_template = "Divisione Coloniale"			# Elite emperor's guard
+		start_experience_factor = 0.3
+	}	
+	division = { # "Divisione Coloniale"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 5010
+		division_template = "Divisione Coloniale"			# Elite emperor's guard
+		start_experience_factor = 0.3
+	}
+	division = { # "Divisione Coloniale"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 5010
+		division_template = "Divisione Coloniale"			# Elite emperor's guard
+		start_experience_factor = 0.3
+	}	
+}

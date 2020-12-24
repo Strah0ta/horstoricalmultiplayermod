@@ -2,7 +2,6 @@
 
 oob = "USA_1936"
 set_naval_oob = "USA_1936_naval_mtg"
-anti_cross_faction_trade_axis = yes
 create_intelligence_agency = yes
 set_rule = { can_be_spymaster = no }
  country_event = { id = panay_incident.2  days = 983 } 

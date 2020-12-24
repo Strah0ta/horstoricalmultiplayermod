@@ -82,4 +82,3 @@ create_country_leader = {
 		lion_of_verdun		
 	}
 }
-anti_cross_faction_trade_allies = yes 

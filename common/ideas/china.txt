@@ -1,38 +1,13 @@
 ideas = {
 	country = {
-		german_advisors = {
-		
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				NOT = {
-					has_government = communism
-				}
-			}
-			available = { date < 1941.1.1 }
-			removal_cost = -1
-			modifier = { conscription_factor = -1 consumer_goods_factor = 1 min_export = -1 }
-
-		}
 			CHI_illegal_regime = {
-
 			picture = generic_purge
-		
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = no			
-			}
-
+			allowed = {	always = no }
+			allowed_civil_war = {	always = no	}
 			removal_cost = -1
-			
 			modifier = {
-				stability_factor = -0.5
-				war_support_factor = -0.65
+				stability_factor = -0.3
+				war_support_factor = -0.3
 				surrender_limit = -0.20
 			}
 		}

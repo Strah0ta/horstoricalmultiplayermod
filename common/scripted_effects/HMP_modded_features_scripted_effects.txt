@@ -25,9 +25,19 @@ if = { limit = { date > 1939.12.30 } add_to_variable = { var = FRA_legitimacy va
 #IEA_generals_reform_focus = {
 
 
-
-
 #}
+
+add_operative_slot = {
+if = { limit = { NOT = { has_idea = operative_slot_added_1 }} add_ideas = operative_slot_added_1 }
+ else_if = { limit = { NOT = { has_idea = operative_slot_added_2 }} add_ideas = operative_slot_added_2 }
+ else_if = { limit = { NOT = { has_idea = operative_slot_added_3 }} add_ideas = operative_slot_added_3 }
+ else_if = { limit = { NOT = { has_idea = operative_slot_added_4 }} add_ideas = operative_slot_added_4 }
+  else = {  add_ideas = operative_slot_added_5 }
+}
+
+make_tank_designers_free = {
+	if = { limit = { NOT = { has_country_flag = nation_picked_tank_designer }} 	ROOT = { add_ideas = free_tank_designer }	}
+}
 
 FRA_legitimacy_casualties_counter = {
 	set_temp_variable = { AXIScasualtiesk = 0 }
@@ -354,7 +364,7 @@ ENG_call_all_allies_against_ROOT = {
 	for_each_scope_loop = {
 	    array = ENG.allies
 		if = {
-			limit = { NOT = { OR = { original_tag = USA AND = { original_tag = FRA date < 1940.12.1 } } } }
+			limit = { NOT = { original_tag = USA  } }
 			add_to_war = {
 				targeted_alliance = ENG
 				enemy = ROOT
@@ -1252,6 +1262,10 @@ add_opinion_modifier = {
     modifier = anti_cross_faction_trade
 }
 add_opinion_modifier = {
+    target = ETH
+    modifier = anti_cross_faction_trade
+}
+add_opinion_modifier = {
     target = ITA
     modifier = anti_cross_faction_trade
 }
@@ -1354,7 +1368,7 @@ ETH = { anti_cross_faction_trade_allies = yes}
 ALB = { anti_cross_faction_trade_allies = yes}
 BUL = { anti_cross_faction_trade_allies = yes}
 ROM = { anti_cross_faction_trade_allies = yes}
-if = { limit = { country_exists = EFR } EFR = { anti_cross_faction_trade_allies = yes}}
+EFR = { anti_cross_faction_trade_allies = yes}
 SPR = { anti_cross_faction_trade_allies = yes}
 }
 
@@ -1443,6 +1457,7 @@ HMP_script_balkans = {
 			103 = { set_compliance = 100 }  			102 = { set_compliance = 100 }  			105 = { set_compliance = 40 }  
 			add_threat = 20
 			if = { limit = { BUL = { is_ai = yes } country_exists = BUL } ITA = { annex_country = { target = BUL transfer_troops = yes }} every_state = { limit = { is_core_of = BUL }  set_compliance = 100 }   }
+			hidden_effect = { if = { limit = { AND = { NOT = { has_start_date > 1936.1.2 }} BUL = { is_ai = no }  } SWE = { country_event = { id = italy.5009 days = 1}}} }
 		}
 
 	HMP_script_china = {	
@@ -2668,8 +2683,8 @@ create_corps_commander = {
 	name = "Konstantin Rokossovsky"
 		picture = "Portrait_Soviet_Konstantin_Rokossovsky.dds"
 	traits = {  panzer_leader panzer_expert expert_improviser ranger trait_cautious brilliant_strategist trickster  urban_assault_specialist }
-	skill = 9
-	attack_skill = 9
+	skill = 8
+	attack_skill = 6
 	defense_skill = 6
 	planning_skill = 5
 	logistics_skill = 8
@@ -2678,8 +2693,8 @@ create_corps_commander = {
 	name = "Aleksandr Vasilevsky"
 		picture = "Portrait_Soviet_Aleksandr_Vasilevsky.dds"
 	traits = {  panzer_leader panzer_expert expert_improviser ranger trait_cautious brilliant_strategist trickster  urban_assault_specialist }
-	skill = 9
-	attack_skill = 9
+	skill = 8
+	attack_skill = 6
 	defense_skill = 6
 	planning_skill = 5
 	logistics_skill = 8
@@ -2688,8 +2703,8 @@ create_corps_commander = {
 	name = "Ivan Chernyakhovsky"
 		picture = "Portrait_Soviet_Ivan_Chernyakhovsky.dds"
 	traits = {  panzer_leader panzer_expert expert_improviser ranger trait_cautious brilliant_strategist trickster  urban_assault_specialist }
-	skill = 9
-	attack_skill = 9
+	skill = 8
+	attack_skill = 6
 	defense_skill = 6
 	planning_skill = 5
 	logistics_skill = 8
@@ -2699,8 +2714,8 @@ create_corps_commander = {
 	name = "Dmitry Lelyushenko"
 		picture = "Portrait_Soviet_Dmitri_Danilovich_Lelyushenko.dds"
 	traits = {  panzer_leader panzer_expert expert_improviser ranger trait_cautious brilliant_strategist trickster  urban_assault_specialist }
-	skill = 9
-	attack_skill = 9
+	skill = 8
+	attack_skill = 6
 	defense_skill = 6
 	planning_skill = 5
 	logistics_skill = 8
@@ -2712,40 +2727,40 @@ create_corps_commander = {
 	name = "Ivan Konev"
 		picture = "Portrait_Soviet_Ivan_Konev.dds"
 	traits = { panzer_leader harsh_leader ranger trait_engineer scavenger panzer_expert expert_improviser trickster }
-	skill = 9
-	attack_skill = 9
+	skill = 8
+	attack_skill = 6
 	defense_skill = 5
-	planning_skill = 5
+	planning_skill = 7
 	logistics_skill = 7
 }
 create_corps_commander = {
 	name = "Vasily Chuikov"
 		picture = "Portrait_Soviet_Vasily_Chuikov.dds"
 	traits = { panzer_leader harsh_leader ranger trait_engineer scavenger panzer_expert expert_improviser trickster }
-	skill = 9
-	attack_skill = 9
+	skill = 8
+	attack_skill = 6
 	defense_skill = 5
-	planning_skill = 5
+	planning_skill = 7
 	logistics_skill = 7
 }
 create_corps_commander = {
 	name = "Yakov Cherevichenko"
 		picture = "Portrait_Soviet_Yakov_Cherevichenko.dds"
 	traits = { panzer_leader harsh_leader ranger trait_engineer scavenger panzer_expert expert_improviser trickster }
-	skill = 9
-	attack_skill = 9
+	skill = 8
+	attack_skill = 6
 	defense_skill = 5
-	planning_skill = 5
+	planning_skill = 7
 	logistics_skill = 7
 }
 create_corps_commander = {
 	name = "Andrey Yeryomenko"
 		picture = "Portrait_Soviet_Andrey_Yeryomenko.dds"
 	traits = { panzer_leader harsh_leader ranger trait_engineer scavenger panzer_expert expert_improviser trickster }
-	skill = 9
-	attack_skill = 9
+	skill = 8
+	attack_skill = 6
 	defense_skill = 5
-	planning_skill = 5
+	planning_skill = 7
 	logistics_skill = 7
 }
 
@@ -2755,8 +2770,8 @@ create_corps_commander = {
 	name = "Semyon Timoshenko"
 		picture = "Portrait_Soviet_Semyon_Timoshenko.dds"
 	traits = { panzer_leader hill_fighter trait_mountaineer panzer_expert expert_improviser trickster guerilla_fighter }
-	skill = 9
-	attack_skill = 10
+	skill = 8
+	attack_skill = 7
 	defense_skill = 5
 	planning_skill = 8
 	logistics_skill = 5
@@ -2765,18 +2780,18 @@ create_corps_commander = {
 	name = "Vasily Kuznetsov"
 		picture = "Portrait_Soviet_Vasily_Kuznetsov.dds"
 	traits = { commando skirmisher ranger panzer_leader panzer_expert ambusher swamp_fox  }
-	skill = 9
-	attack_skill = 9
+	skill = 8
+	attack_skill = 5
 	defense_skill = 5
-	planning_skill = 5
+	planning_skill = 6
 	logistics_skill = 9
 }
 create_corps_commander = {
 	name = "Alexander Gorbatov"
 		picture = "Portrait_Soviet_Alexander_Gorbatov.dds"
 	traits = {  panzer_leader panzer_expert ambusher desert_fox trait_mountaineer trait_engineer scavenger }
-	skill = 9
-	attack_skill = 10
+	skill = 6
+	attack_skill = 7
 	defense_skill = 3
 	planning_skill = 6
 	logistics_skill = 9
@@ -2804,14 +2819,14 @@ create_field_marshal = {
 	logistics_skill = 10
 }
 create_corps_commander = {
-	name = "Nikolai Vatutin"
-		picture = "Portrait_Soviet_Nikolai_Fyodorovich_Vatutin.dds"
-	traits = { organizer commando fake_skilled_staffer_sov trait_reckless bearer_of_artillery infantry_leader  ranger infantry_expert  trickster expert_improviser  trait_engineer }
-		skill = 8
+    name = "Andrey Vlasov"
+    picture = "Portrait_Soviet_Andrey_Vlasov.dds"
+	traits = { organizer commando trait_reckless bearer_of_artillery infantry_leader  ranger infantry_expert  trickster expert_improviser  trait_engineer }
+	skill = 8
 	attack_skill = 5
 	defense_skill = 5
-	planning_skill = 5
-	logistics_skill = 10
+	planning_skill = 7
+	logistics_skill = 8
 }
 		}
 }
@@ -3100,7 +3115,16 @@ create_corps_commander = {
 	logistics_skill = 7
 }
 
-
+create_corps_commander = {  #East Africa
+    name = "William Platt"
+    picture = "Portrait_Britain_William_Platt.dds"
+    traits = { panzer_leader panzer_expert jungle_rat trait_engineer trickster }
+    skill = 7
+    attack_skill = 7
+    defense_skill = 3
+    planning_skill = 6
+    logistics_skill = 6
+}
 create_corps_commander = {
 	name = "Archibald Wavell" # Aristocrat
 	picture = "Portrait_Britain_Archibald_Wavell.dds"
@@ -3493,10 +3517,12 @@ create_corps_commander = {
 ########ON ACTIONS##########
 
 HMP_startup_on_actions = {
+anti_cross_faction_trade_all = yes 
 	SOV = { add_ideas = SOV_motorized_focus }
 	118 = { add_state_modifier = { modifier = { max_dig_in = 30 } }  } 
 	if = {	limit = { has_game_rule = { rule = horst_manchukuo	option = HORST_ENABLE_MOD_MANCHUKUO	} }	MAN = { load_focus_tree = manchukuomod_focus } 	}
 	JAP  = { give_resource_rights = { receiver = GER state = 494 }	}
+	ROM  = { give_resource_rights = { receiver = ITA state = 46 }	}
 	if = { limit = { MAN = { is_ai = yes } country_exists = MAN } JAP = { country_event = { id = japan.148 }}}
 	if = { limit = { NZL = { is_ai = yes } country_exists = NZL } AST = { country_event = { id = japan.758 }}}
 	if = { limit = { SAF = { is_ai = yes } country_exists = SAF } ENG = { country_event = { id = japan.678 }}}
@@ -3915,6 +3941,7 @@ release = DEN
 }
 ENG = { add_to_faction = BEL add_to_faction = DEN add_to_faction = GRE }
 GER = {
+set_cosmetic_tag = GER_DEM
 	 create_country_leader = {
 	 name = "Franz von Papen"
 	 #desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC"
@@ -4026,7 +4053,6 @@ democratic_russia = {
 	remove_state_core = 44
 	transfer_state = 291 set_capital = 291 add_state_core = 291
 	load_focus_tree = iraq_focus_tree  
-	#give_resource_rights = { receiver = ROM state = 494 }
 	load_oob = "ITA_IRQ_Spawn"  
 	add_research_slot = 4
 		291 = { add_extra_state_shared_building_slots = 12 add_building_construction = { type = industrial_complex level = 6 instant_build = yes } add_building_construction = { type = arms_factory level = 6 instant_build = yes } }
@@ -4036,6 +4062,7 @@ democratic_russia = {
 		elections_allowed  = no
 	}
 	add_to_war = {	targeted_alliance = GER	enemy = ENG	}
+	#SWE = {  country_event = { id = italy.3523 days = 3    } } #Iraq resource rights
 	}
 	
 	iraq_gbp_doctrine = {
@@ -4218,7 +4245,7 @@ GER = { transfer_state = 331 #Dutch Central Cordillera
 
 horstorical_multiplayer_vichy_france = {
  GER = { add_to_faction = EFR }
-if = { limit = { ITA = { has_war = no }} ITA = { add_timed_idea = { idea = france_has_capped days = 30 } } ITA = { country_event = { id = italy.674 days = 30 }} }
+if = { limit = { ITA = { has_war = no }} ITA = { add_timed_idea = { idea = france_has_capped days = 45 } } ITA = { country_event = { id = italy.674 days = 45 }} }
 FRA = {  FRA_legitimacy_week_counter = yes  FRA_legitimacy_casualties_counter = yes }
 ITA = { transfer_state = 313 
 313 = { set_compliance = 60 }
@@ -4406,6 +4433,7 @@ load_oob = "EFR_spawn"
 33 = { set_demilitarized_zone = yes }
 32 = { set_demilitarized_zone = yes }
 20 = { set_demilitarized_zone = yes }
+507 = { set_demilitarized_zone = yes }
 
 
 
@@ -4448,6 +4476,9 @@ remove_ideas = FRA_full_employment
 			transfer_state = 343 
 			 transfer_state = 356  
 			}
+	
+	hidden_effect = { SWE = { country_event = { id = italy.3524 days = 30 }}}
+			
 }
 
 
@@ -4506,6 +4537,21 @@ move_rubber_from_indies_to_congo = {
 				add_resource = { state = 295 type = rubber amount = 0 }
 			}
 	}
+}
+
+finish_french_colony_focuses = { 
+if = { limit = { FRA = { controls_state = 539 } }
+if = { limit = { NOT = { FRA = { controls_state = 277 }}} FRA = { transfer_state = 277}  }
+if = { limit = { NOT = { FRA = { controls_state = 556 }}} FRA = { transfer_state = 556}  }
+if = { limit = { NOT = { FRA = { controls_state = 445 }}} FRA = { transfer_state = 445}  }
+if = { limit = { NOT = { FRA = { controls_state = 280 }}} FRA = { transfer_state = 280}  }
+if = { limit = { NOT = { FRA = { controls_state = 538 }}} FRA = { transfer_state = 538}  }
+if = { limit = { NOT = { FRA = { controls_state = 295 }}} FRA = { transfer_state = 295}  }
+if = { limit = { NOT = { FRA = { controls_state = 543 }}} FRA = { transfer_state = 543}  }
+}
+if = { limit = { ENG = { controls_state = 291 controls_state = 454 } }
+if = { limit = { NOT = { FRA = { controls_state = 554 }}} FRA = { transfer_state = 554 }  }
+}
 }
 
 copy_norwegian_inf_equipment_research = {

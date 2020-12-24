@@ -1,6 +1,8 @@
 ﻿capital = 271
 
 oob = "ETH_1936"
+create_intelligence_agency = yes
+set_rule = { can_be_spymaster = no }
 
 # Starting tech
 set_technology = {
@@ -48,5 +50,3 @@ create_country_leader = {
 	ideology = nazism
 	traits = {	duke_addis	}
 }
-
-anti_cross_faction_trade_allies = yes 

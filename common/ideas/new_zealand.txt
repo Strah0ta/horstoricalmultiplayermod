@@ -530,7 +530,7 @@ ideas = {
 		NZL_nz_railways = {
 
 			picture = generic_tank_manufacturer_1
-			
+			on_add = { hidden_effect = { make_tank_designers_free = yes } }			
 			allowed = {
 				original_TAG = NZL
 				has_dlc = "Together for Victory"

@@ -819,48 +819,57 @@ ideas = {
 		
 		krupp_tank = {
 			picture = krupp
+			on_add = { hidden_effect = { make_tank_designers_free = yes } }
 			allowed = { OR = { 	the_axis = yes the_geacps = yes }  }
 			research_bonus = {	armor = 0.15	}
 			traits = { mbt_manufacturer }
 		}		
 		nibelungenwerke = {
+					on_add = { hidden_effect = { make_tank_designers_free = yes } }
 			allowed = { OR = { 	the_axis = yes the_geacps = yes }  }
 			research_bonus = {	armor = 0.15	}
 			traits = { mass_tank_manufactuer  }
 		}	
 		daimler_benz = {
+					on_add = { hidden_effect = { make_tank_designers_free = yes } }
 			allowed = { OR = { 	the_axis = yes the_geacps = yes }  }
 			research_bonus = {	armor = 0.15	}
 			traits = { blitzkrieg_tank_manufacturer  }
 		}	
 		vomag = {
+					on_add = { hidden_effect = { make_tank_designers_free = yes } }
 			allowed = { OR = { 	the_axis = yes the_geacps = yes }  }
 			research_bonus = {	armor = 0.15	}
 			traits = { cavalry_tank_manufacturer  }
 		}	
 		alkett = {
+					on_add = { hidden_effect = { make_tank_designers_free = yes } }
 			allowed = { OR = { 	the_axis = yes the_geacps = yes }  }
 			research_bonus = {	armor = 0.15	}
 			traits = { brawler_tank_manufacturer  }
 		}	
 		GER_ckd  = {
+					on_add = { hidden_effect = { make_tank_designers_free = yes } }
 			allowed = { OR = { 	the_axis = yes the_geacps = yes }  }
 			research_bonus = {	armor = 0.15	}
 			traits = {   light_tank_manufacturer }
 		}	
 		miag  = {
+					on_add = { hidden_effect = { make_tank_designers_free = yes } }
 			allowed = { OR = { 	the_axis = yes the_geacps = yes }  }
 			research_bonus = {	armor = 0.15	}
 			traits = { mobile_heavy_tank_manufacturer  }
 		}	
 			
 		porsche = {
+					on_add = { hidden_effect = { make_tank_designers_free = yes } }
 			allowed = { OR = { 	the_axis = yes the_geacps = yes }  }
 			research_bonus = { armor = 0.15	}
 			traits = { heavy_tank_manufacturer }
 		}
 		
 		henschel = {
+					on_add = { hidden_effect = { make_tank_designers_free = yes } }
 			allowed = { OR = { 	the_axis = yes tag = JAP }  }
 			research_bonus = {	armor = 0.15	}
 			traits = { fast_tank_manufacturer }
@@ -869,7 +878,7 @@ ideas = {
 		GER_MAN = {
 
 			picture = GER_MAN
-			
+						on_add = { hidden_effect = { make_tank_designers_free = yes } }
 			allowed = {	the_axis = yes }
 
 			research_bonus = {

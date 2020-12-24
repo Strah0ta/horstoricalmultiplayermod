@@ -23,6 +23,9 @@ NDefines.NMilitary.PROMOTE_LEADER_CP_COST = 500					-- changed as all generals/F
 NDefines.NMilitary.LAND_EQUIPMENT_BASE_COST = 10					-- VANILLA 10 Cost in XP to upgrade a piece of equipment one level is base + ( total levels * ramp )
 NDefines.NMilitary.LAND_EQUIPMENT_RAMP_COST = 0		 				-- VANILLA 5
 
+
+NDefines.NMilitary.COMMANDER_LEVEL_UP_STAT_COUNT = 0				-- num stats gained on level up
+
 ------PARATROOPER REWORK SO THEY DONT LOSE EQUIPMENT-------
 NDefines.NMilitary.PARACHUTE_FAILED_EQUIPMENT_DIV = 0		   -- When the transport plane was shot down, we drop unit with almost NONE equipment
 NDefines.NMilitary.PARACHUTE_FAILED_MANPOWER_DIV = 0	   -- When the transport plane was shot down, we drop unit with almost NONE manpower
@@ -36,7 +39,7 @@ NDefines.NMilitary.PARACHUTE_DISRUPTED_AA_PENALTY = 0            -- How much the
 
 
 NDefines.NAir.EFFICIENCY_REGION_CHANGE_PENALTY_FACTOR = 1				-- Penalty applied for changing region
-NDefines.NAir.EFFICIENCY_REGION_CHANGE_DAILY_GAIN_CAS = 0.12			-- How much efficiency to regain per day. Gain applied hourly.
+NDefines.NAir.EFFICIENCY_REGION_CHANGE_DAILY_GAIN_CAS = 1			-- How much efficiency to regain per day. Gain applied hourly.
 NDefines.NAir.EFFICIENCY_REGION_CHANGE_DAILY_GAIN_NAVAL_BOMBER = 0.12		-- How much efficiency to regain per day. Gain applied hourly.
 NDefines.NAir.EFFICIENCY_REGION_CHANGE_DAILY_GAIN_TACTICAL_BOMBER = 0.024	-- How much efficiency to regain per day. Gain applied hourly.
 NDefines.NAir.EFFICIENCY_REGION_CHANGE_DAILY_GAIN_FIGHTER = 100		-- How much efficiency to regain per day. Gain applied hourly.
@@ -92,6 +95,7 @@ NDefines.NCountry.GIE_WARSCORE_GAIN_LEGITIMACY_FACTOR = 2                --Facto
 NDefines.NCountry.GIE_HOST_CIC_FROM_LEGITIMACY_MAX = 0 					--Host will receive from 0 to this value in CIC.
 NDefines.NCountry.GIE_HOST_MIC_FROM_LEGITIMACY_MAX = 0					--Host will receive from 0 to this value in MIC.
 NDefines.NCountry.AIR_SUPPLY_CONVERSION_SCALE = 0.2	-- TRANSPORTS DOUBLED IN IC Conversion scale for planes to air supply
+NDefines.NCountry.MAX_HEROES_BEING_KILLED_WAR_SUPPORT_IMPACT = -0.6				-- WAS -0.3 Max total penalty from war heroes manpower lost
 
 ---------------------------------------------------------------
 ------------------HORST RESISTANCE CHANGES---------------------
@@ -129,7 +133,7 @@ NDefines.NNavy.ANTI_AIR_MULT_ON_INCOMING_AIR_DAMAGE = 0.4 -- multiplier for dama
 NDefines.NNavy.MAX_ANTI_AIR_REDUCTION_EFFECT_ON_INCOMING_AIR_DAMAGE = 0.75 --vanilla 0.5 cap is very hard to reach but otherwhise traits and advisors could become useless
 NDefines.NNavy.NAVAL_COMBAT_AIR_CARRIER_TARGET_SCORE = 25 -- VANILLA 200 LW 50 otherwise carriers always die
 NDefines.NNavy.ANTI_AIR_TARGETING = 0.9 --vanilla value just as reference
-NDefines.NNavy.ANTI_AIR_TARGETTING_TO_CHANCE = 1 --Vanilla 0.2 (ANTI_AIR_TARGETING+.5*(ANTI_AIR_TARGETING-AIR_AGILITY_TO_NAVAL_STRIKE_AGILITY*agility))*ANTI_AIR_TARGETTING_TO_CHANCE)=hitchance
+NDefines.NNavy.ANTI_AIR_TARGETTING_TO_CHANCE = 0.6 --Vanilla 0.2 (ANTI_AIR_TARGETING+.5*(ANTI_AIR_TARGETING-AIR_AGILITY_TO_NAVAL_STRIKE_AGILITY*agility))*ANTI_AIR_TARGETTING_TO_CHANCE)=hitchance
 NDefines.NNavy.AIR_AGILITY_TO_NAVAL_STRIKE_AGILITY = 0.03 --Vanilla 0.01 so with the other defines its 48% for tac2 and 0.33% for nav2 
 NDefines.NNavy.ANTI_AIR_ATTACK_TO_AMOUNT = 0.003 --     Balancing value to convert equipment stat anti_air_attack to the random % value of airplanes being hit. So 20 ship aa can kill 10%*randomvalue between 0 and 1.
 NDefines.NNavy.NAVALBASE_REPAIR_MULT = 0.1 --vanilla 0.05 repairing a battleship took 5 months after one strike

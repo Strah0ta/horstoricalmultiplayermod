@@ -10,7 +10,7 @@ state={
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 5
-
+			air_base = 4
 			#Mannerheim Line
 			9100 = {
 				bunker = 2

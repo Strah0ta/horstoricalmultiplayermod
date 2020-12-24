@@ -1205,7 +1205,7 @@ add_equipment_production = {
 					instant_build = yes
 				}
 		}
-		
+		every_unit_leader = { limit = { OR = {  has_nationality = CAN has_nationality = FRA }  } add_skill_level = 2 add_attack = 3 add_planning = 3  }
 create_field_marshal = {
 	name = "Bernard Montgomery" # Aristocrat
 	id = 999996

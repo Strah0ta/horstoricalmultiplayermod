@@ -215,7 +215,7 @@ ideas = {
 		pietro_badoglio = {	
 			allowed = {	original_tag = ITA }
 			
-			traits = { army_chief_offensive_2 }
+			traits = { army_chief_ground_support }
 		}
 		
 		ugo_cavallero = {
@@ -255,7 +255,7 @@ ideas = {
 	air_chief = {
 		italo_balbo = {
 			allowed = {	original_tag = ITA	}
-			traits = { air_tactical_bombing_2 }
+			traits = { air_chief_ground_support_2 }
 		}
 	}	
 	
@@ -269,19 +269,19 @@ ideas = {
 		vittorio_ambrosio = {
 			ledger = army
 			allowed = {	original_tag = ITA	}	
-			traits = { army_armored_3 }
+			traits = { army_armored_2 }
 		}
 		
 		alfredo_guzzoni = {
 			ledger = army
 			allowed = {	original_tag = ITA	}
-			traits = { army_infantry_3 }
+			traits = { army_infantry_2 }
 		}	
 		
 		ettore_muti = {
 			ledger = air
 			allowed = {	original_tag = ITA	}
-			traits = { air_tactical_bombing_2 }
+			traits = { air_chief_ground_support_2 }
 		}
 		
 		alberto_da_zara = {
@@ -309,11 +309,13 @@ ideas = {
 	tank_manufacturer = {
 		designer = yes 
 		fiat = {
+					on_add = { hidden_effect = { make_tank_designers_free = yes } }
 			allowed = { OR = { 	the_axis = yes the_geacps = yes }  }
 			cost = 150 
 			traits = { infantry_tank_manufacturer }
 		}
 				ansaldo = {
+							on_add = { hidden_effect = { make_tank_designers_free = yes } }
 			allowed = { OR = { 	the_axis = yes the_geacps = yes }  }
 			cost = 150 
 			traits = { cruiser_tank_manufacturer }

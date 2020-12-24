@@ -220,7 +220,8 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				production_speed_dockyard_factor = 0.1
+				production_speed_dockyard_factor = 0.25
+				industrial_capacity_dockyard = 0.1
 			}
 		}
 
@@ -801,7 +802,8 @@ ideas = {
 				original_tag = USA
 			}			
 
-			
+						on_add = { hidden_effect = { make_tank_designers_free = yes } }
+
 			research_bonus = {
 				armor = 0.15
 			}
@@ -817,6 +819,7 @@ ideas = {
 			
 			allowed = { normally_played_allies = yes	}
 			
+			on_add = { hidden_effect = { make_tank_designers_free = yes } }
 
 			
 			research_bonus = {
@@ -834,7 +837,8 @@ ideas = {
 			allowed = {
 				normally_played_allies = yes
 			}
-			
+				on_add = { hidden_effect = { make_tank_designers_free = yes } }
+		
 			research_bonus = {
 				armor = 0.15
 			}
@@ -855,10 +859,11 @@ ideas = {
 			allowed = {
 				normally_played_allies = yes
 			}
+						on_add = { hidden_effect = { make_tank_designers_free = yes } }
+
 			available = {	}
-			research_bonus = {
-			}
-			cost = 0
+			research_bonus = { armor = 0.15	}
+			cost = 150
 			traits = { tank_destroyer_manufacturer }
 			
 			equipment_bonus = {
@@ -877,6 +882,7 @@ ideas = {
 				original_tag = USA
 			}
 			
+			on_add = { hidden_effect = { make_tank_designers_free = yes } }
 
 			
 			research_bonus = {

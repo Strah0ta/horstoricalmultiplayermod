@@ -91,7 +91,7 @@ on_actions = {
 					limit = {
 						FROM = { tag = SOV }
 						FROM.FROM = { is_core_of = SOV }
-						SOV = { surrender_progress	> 0.30 }					
+						SOV = { surrender_progress	> 0.22 }					
 						NOT = { SOV = { has_country_flag = order270_set }}
 					}
 					SOV = { 
@@ -141,7 +141,7 @@ on_actions = {
 					NOT = { NOR = { has_country_flag = france_is_kill }}
 				}
 				SWE = { country_event = { id = usa.1003 days = 2  } }
-					if = { limit = { NOR = {is_ai = yes }} ENG = { annex_country = { target = NOR } 110 = {add_building_construction = { type = arms_factory level = 20 instant_build = yes } add_building_construction = { type = industrial_complex level = 8 instant_build = yes } add_extra_state_shared_building_slots = 28 }  }    }
+					if = { limit = { NOR = {is_ai = yes }} ENG = { annex_country = { target = NOR } 323 = {add_building_construction = { type = arms_factory level = 20 instant_build = yes } add_building_construction = { type = industrial_complex level = 8 instant_build = yes } add_extra_state_shared_building_slots = 28 }  }    }
 				    if = { limit = { NOR = {is_ai = no }} 
 						NOR = { set_country_flag = france_is_kill  } NOR =  {  set_capital = 323  } 
 						if = { limit = { NOR = {  is_in_faction = no }} 
@@ -158,7 +158,7 @@ on_actions = {
 					limit = {
 						FROM = { tag = SOV }
 						FROM.FROM = { is_core_of = SOV }
-						SOV = { surrender_progress	> 0.41 }
+						SOV = { surrender_progress	> 0.34 }
 						NOT = { SOV = { has_country_flag = order227_set }}
 					}
 					SOV = { 

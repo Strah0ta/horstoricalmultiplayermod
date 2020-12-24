@@ -6,6 +6,7 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
+set_rule = { can_be_spymaster = no }
 set_research_slots = 0
 set_war_support = 0
 set_popularities = { neutrality = 100 }
@@ -40,5 +41,3 @@ create_country_leader = {
 	ideology = fascism_ideology
 	traits = {	anti_british_revolutionary	}
 }
-
-anti_cross_faction_trade_allies = yes 

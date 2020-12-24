@@ -153,12 +153,12 @@ add_to_faction = BUL
 set_faction_spymaster = yes	
 	set_autonomy = {
 		target = ROM
-		autonomous_state = autonomy_satellite
+		autonomous_state = autonomy_reichskommissariat
 		freedom_level = 0.4
 	}
 		set_autonomy = {
 		target = BUL
-		autonomous_state = autonomy_satellite
+		autonomous_state = autonomy_reichskommissariat
 		freedom_level = 0.4
 	}
 	set_autonomy = {
@@ -411,5 +411,3 @@ add_namespace = {
 		upgrades = {
 		}
 	}	
-
-anti_cross_faction_trade_allies = yes 

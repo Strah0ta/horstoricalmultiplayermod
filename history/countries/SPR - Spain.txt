@@ -69,4 +69,3 @@ set_stability = 0.5
 		traits = {	}
 	}
 
-anti_cross_faction_trade_allies = yes 

@@ -82,7 +82,6 @@ country_event = { id =  italy.852 days = 2879 } #nov 43
 news_event = { id = mtg_news.778 days = 3245 } #nov 44 
 country_event = { id =  italy.852 days = 3245 } #nov 44
 ########################################################
-anti_cross_faction_trade_axis = yes
 
 add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 16000 }
 add_equipment_to_stockpile = { type = infantry_equipment_1 amount = 87500 }
