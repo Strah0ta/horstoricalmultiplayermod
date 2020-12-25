@@ -536,7 +536,6 @@ leader_traits = {
 		extra_paratrooper_supply_grace = 240
 		paratrooper_count_per_plane = 1.0
 		paradrop_organization_factor = 2.0
-		paratrooper_aa_defense = 0.5
 		}	
 		trait_type = assignable_trait
 		parent = commando	

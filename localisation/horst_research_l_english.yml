@@ -15,6 +15,8 @@
  ETH_heavy_fighter_equipment_1_short:0 "Ro.57"
  ETH_heavy_fighter_equipment_2:0 "IMAM Ro.58"
  jungletroops:0"Jungle Specialists I"
+ upgrade_spy_SD:0 "Security Service"
+ upgrade_spyresistancetraining:0 "Special Operations Executive"
  jungletroop:0 "Jungle Specialists"
  jungletroops_desc:0"Jungle Specialists are trained to sustain the harsh conditions of the Jungle Warfare and to cope with the frequent lack of supplies."
  jungletroops2:0"Jungle Specialists II"

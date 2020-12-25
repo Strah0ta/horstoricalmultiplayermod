@@ -145,6 +145,22 @@ intelligence_agency = {
 }
 
 intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_ita
+	names = { "Servizio Informazioni Militare" }
+	default = { tag = ETH }
+	available = { always = yes }
+}
+
+
+intelligence_agency = {
+	picture = GFX_intelligence_agency_logo_fra_vichy
+	names = { "Deuxième Bureau" }
+	default = { tag = EFR }
+	available = { always = yes }
+}
+
+
+intelligence_agency = {
 	
 	picture = GFX_intelligence_agency_logo_generic_1
 	names = { "Rooke" }

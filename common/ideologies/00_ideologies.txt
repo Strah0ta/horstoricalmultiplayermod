@@ -1,19 +1,11 @@
 ideologies = {
 	
 	democratic = {
-	
 		types = {
-			
-			conservatism = {
-			}
-		
-			liberalism = {
-			}
-		
-			socialism = {
-			}
+			conservatism = {	}
+			liberalism = {	}
+			socialism = {	}
 		}
-		
 		dynamic_faction_names = {
 			"FACTION_NAME_DEMOCRATIC_1"
 			"FACTION_NAME_DEMOCRATIC_2"
@@ -37,10 +29,9 @@ ideologies = {
 		faction_impact_on_world_tension = 0.1
 		
 		modifiers = {
-			lend_lease_tension = 0.80
-			civilian_intel_to_others = 20
+			civilian_intel_to_others = 15
 			army_intel_to_others = 5
-			navy_intel_to_others = 20
+			navy_intel_to_others = 15
 			airforce_intel_to_others = 5
 		}
 		
@@ -51,21 +42,11 @@ ideologies = {
 	communism = {
 		
 		types = {
-		
-			marxism = {
-			}
-			
-			leninism = {
-			}
-			
-			stalinism = {
-			}
-			
-			anti_revisionism = {
-			}
-			
-			anarchist_communism = {
-			}
+			marxism = {	}
+			leninism = { }
+			stalinism = {	}
+			anti_revisionism = {	}
+			anarchist_communism = {	}
 		}
 		
 		dynamic_faction_names = {
@@ -86,36 +67,24 @@ ideologies = {
 			can_send_volunteers = no
 		}
 		
-		can_collaborate = yes
+		can_collaborate = no
 		
 		modifiers = {
-			civilian_intel_to_others = 10.0
-			army_intel_to_others = 7.5
-			navy_intel_to_others = 12.5
-			airforce_intel_to_others = 7.5
+			civilian_intel_to_others = 5.0
+			navy_intel_to_others = 5
 		}
 		
-		faction_modifiers = {
-			
-		}
+		faction_modifiers = {	}
 
 	}
 
 	fascism = {
 	
 		types = {
-		
-			nazism = {
-			}
-			
-			fascism_ideology = {
-			}
-			
-			falangism = {
-			}
-			
-			rexism = {
-			}
+			nazism = {	}
+			fascism_ideology = {	}
+			falangism = {	}
+			rexism = {	}
 		}
 		
 		dynamic_faction_names = {
@@ -137,13 +106,11 @@ ideologies = {
 			can_puppet = yes
 		}
 		
-		can_collaborate = yes
+		can_collaborate = no
 		
 		modifiers = {
-			civilian_intel_to_others = 15.0
-			army_intel_to_others = 10.0
-			navy_intel_to_others = 10.0
-			airforce_intel_to_others = 10.0
+			civilian_intel_to_others = 10.0
+			navy_intel_to_others = 5.0
 		}
 
 		ai_fascist = yes # uses the fascist AI behaviour
@@ -152,18 +119,10 @@ ideologies = {
 	neutrality = {
 	
 		types = {
-		
-			despotism  = {
-			}
-			
-			oligarchism  = {
-			}
-			
-			moderatism = {
-			}
-			
-			centrism = {
-			}
+			despotism  = { }
+			oligarchism  = {	}
+			moderatism = {	}
+			centrism = { }
 		}
 
 		dynamic_faction_names = {
@@ -176,7 +135,6 @@ ideologies = {
 		
 		color = { 124 124 124 }
 		
-		
 		war_impact_on_world_tension = 0.25		#no major danger
 		faction_impact_on_world_tension = 0.1
 		
@@ -187,19 +145,17 @@ ideologies = {
 		}
 		
 		modifiers = {
-			lend_lease_tension = 0.8
 			drift_defence_factor = -0.3	
-			civilian_intel_to_others = 20
-			army_intel_to_others = 10
-			navy_intel_to_others = 20
-			airforce_intel_to_others = 10
+			civilian_intel_to_others = 12.5
+			army_intel_to_others = 5.0
+			navy_intel_to_others = 7.5
+			airforce_intel_to_others = 5.0
 		}
 		
-		faction_modifiers = {
-		}
+		faction_modifiers = {	}
 
 		can_be_boosted = no
-		can_collaborate = yes
+		can_collaborate = no
 
 		ai_neutral = yes # 
 	}

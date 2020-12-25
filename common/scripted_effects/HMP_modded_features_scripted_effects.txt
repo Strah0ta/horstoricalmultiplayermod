@@ -1699,28 +1699,28 @@ create_corps_commander = {
 create_corps_commander = {           #CAV EXPERT
     name = "Maximilian von Weichs"
     picture = "Portrait_Germany_Maximilian_von_Weichs.dds"
-    traits = { cavalry_leader  cavalry_expert } 
-    skill = 4
-    attack_skill = 4
-    defense_skill = 2
-    planning_skill = 3
-    logistics_skill = 4
+    traits = { cavalry_leader cavalry_expert ambusher trickster expert_improviser skilled_staffer } 
+    skill = 8 
+	attack_skill = 7
+    defense_skill = 5
+    planning_skill = 5
+    logistics_skill = 8
 }
 create_corps_commander = {          #COMBINED ARMS EXPERT + PANZER LEADER ? 
     name = "Paul Hausser"
     picture = "Portrait_Germany_Paul_Hausser.dds"
-    traits = {  cavalry_leader panzer_leader combined_arms_expert  }
-    skill = 4
-    attack_skill = 3
-    defense_skill = 3
-    planning_skill = 4
-    logistics_skill = 3
+    traits = {  cavalry_leader panzer_leader combined_arms_expert trait_engineer trickster commando camouflage_expert  }
+    skill = 8 
+	attack_skill = 7
+    defense_skill = 5
+    planning_skill = 5
+    logistics_skill = 8
 }
 
 create_field_marshal = {
     name = "Albert Kesselring"
     picture = "Portrait_Germany_Albert_Kesselring.dds"
-    traits = { organizer thorough_planner brilliant_strategist aggressive_assaulter inspirational_leader trait_cautious infantry_leader infantry_expert}
+    traits = { organizer thorough_planner brilliant_strategist aggressive_assaulter inspirational_leader trait_cautious infantry_leader commando paratrooper 	infantry_expert}
 	skill = 8  
 	attack_skill = 7
     defense_skill = 7
@@ -1907,8 +1907,8 @@ create_corps_commander = {
 }
 JAP = { 
 create_corps_commander = {
-	name = "Tomoyuki Yamashita"
-	picture = "Portrait_Japan_Tomoyuki_Yamashita.dds"
+    name = "Hitoshi Imamura"
+    picture = "Portrait_Japan_Hitoshi_Imamura.dds"
 	traits = {	aggressive_assaulter trickster infantry_expert fortress_buster invader_ii  expert_improviser trait_engineer brilliant_strategist ranger commando naval_invader }
 	skill = 8
 	attack_skill = 5
@@ -1916,10 +1916,9 @@ create_corps_commander = {
 	planning_skill = 9
 	logistics_skill = 8
 }
-
 create_field_marshal = {
-	name = "Hisaichi Terauchi"
-	picture = "Portrait_Japan_Hisaichi_Terauchi.dds"
+	name = "Tomoyuki Yamashita"
+	picture = "Portrait_Japan_Tomoyuki_Yamashita.dds"
 	traits = {  organizer thorough_planner logistics_wizard infantry_leader infantry_expert scavenger  expert_improviser organisational_leader inspirational_leader  JAP_samurai_lineage trait_engineer commando hill_fighter jungle_rat urban_assault_specialist trait_mountaineer trickster naval_invader  }
 	skill = 7
 	attack_skill = 4
@@ -1950,7 +1949,7 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "Shizuichi Tanaka"
-		picture = "Portrait_Japan_Shizuichi_Tanaka.dds"
+	picture = "Portrait_Japan_Shizuichi_Tanaka.dds"
 	traits = { trickster expert_improviser infantry_leader infantry_expert trait_engineer scavenger hill_fighter commando  naval_invader invader_ii urban_assault_specialist }
 	skill = 8
 	attack_skill = 5
@@ -1974,7 +1973,7 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "Seishiro Itagaki"
-		picture = "Portrait_Japan_Seishiro_Itagaki.dds"
+	picture = "Portrait_Japan_Seishiro_Itagaki.dds"
 	traits = { JAP_samurai_lineage inflexible_strategist infantry_leader ambusher unyielding_defender  fake_skilled_staffer  }
 	skill = 7
 	attack_skill = 6
@@ -1982,6 +1981,18 @@ create_corps_commander = {
 	planning_skill = 4
 	logistics_skill = 7
 }
+
+create_corps_commander = {
+    name = "Takashi Sakai"
+    picture = "Portrait_Japan_Takashi_Sakai.dds"
+    traits = { organizer trait_engineer trait_cautious infantry_leader commando paratrooper 	infantry_expert}
+	skill = 7  
+	attack_skill = 5
+    defense_skill = 6
+    planning_skill = 7
+    logistics_skill = 4
+}
+
 create_corps_commander = {
 	name = "Keisuke Fujie"
 		picture = "Portrait_Japan_Keisuke_Fujie.dds"
@@ -1991,6 +2002,48 @@ create_corps_commander = {
 	defense_skill = 5
 	planning_skill = 5
 	logistics_skill = 5
+}
+
+create_corps_commander = {
+    name = "Otozo Yamada"
+       picture = "Portrait_Japan_Otozo_Yamada.dds"
+	traits = { cavalry_leader cavalry_expert ambusher trickster expert_improviser skilled_staffer } 
+    skill = 7 
+	attack_skill = 7
+    defense_skill = 5
+    planning_skill = 5
+    logistics_skill = 5
+}
+create_corps_commander = {          #COMBINED ARMS EXPERT + PANZER LEADER ? 
+    name = "Jo Iimura"
+    picture = "Portrait_Japan_Jo_Iimura.dds"
+    traits = {  cavalry_leader panzer_leader combined_arms_expert trait_engineer trickster commando camouflage_expert  }
+    skill = 7 
+	attack_skill = 7
+    defense_skill = 5
+    planning_skill = 5
+    logistics_skill = 5
+}
+
+create_field_marshal = {
+    name = "Harukichi Hyakutake"
+    picture = "Portrait_Japan_Harukichi_Hyakutake.dds"
+    traits = { organizer winter_specialist logistics_wizard infantry_leader inflexible_strategist unyielding_defender inspirational_leader organisational_leader }
+	skill = 7
+	attack_skill = 4
+	defense_skill = 7
+	planning_skill = 5
+	logistics_skill = 6
+}
+create_corps_commander = {
+    name = "Yasuji Okamura"
+    picture = "Portrait_Japan_Yasuji_Okamura.dds"
+	traits = { trait_reckless winter_specialist trait_engineer scavenger panzer_leader panzer_expert ambusher }
+	skill = 7
+    attack_skill = 6
+    defense_skill = 5
+    planning_skill = 6
+    logistics_skill = 5
 }
 
 create_navy_leader = {

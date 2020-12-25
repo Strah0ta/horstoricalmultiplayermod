@@ -156,10 +156,11 @@ NDefines.NTechnology.LICENSE_PRODUCTION_TECH_BONUS = 0	-- WAS 0.2 | LICENSES ARE
 NDefines.NCountry.INTEL_FROM_ALLIANCE_FACTOR = 0.6
 NDefines.NOperatives.AGENCY_CREATION_DAYS = 0						-- Number of days needed to create an intelligence agency
 NDefines.NOperatives.AGENCY_CREATION_FACTORIES = 0
-NDefines.NOperatives.AGENCY_UPGRADE_DAYS = 100						-- Number of days needed to upgrade an intelligence agency
+NDefines.NOperatives.AGENCY_UPGRADE_DAYS = 70						-- Number of days needed to upgrade an intelligence agency
 NDefines.NOperatives.BECOME_SPYMASTER_PP_COST = 0					-- Number of political power used to become Spy Master
 NDefines.NOperatives.BECOME_SPYMASTER_MIN_UPGRADES = 0			-- Number of agency upgrades you need before becoming Spy Master						-- Number of days needed to upgrade an intelligence agency
 NDefines.NOperatives.AGENCY_UPGRADE_PER_OPERATIVE_SLOT = 1
+NDefines.NOperatives.MAX_RECRUITED_OPERATIVES = 99
 NDefines.NOperatives.BUILD_INTEL_NETWORK_DAILY_XP_GAIN = 3
 NDefines.NOperatives.QUIET_INTEL_NETWORK_DAILY_XP_GAIN = 1
 NDefines.NOperatives.COUNTER_INTELLIGENCE_DAILY_XP_GAIN = 1.5
@@ -172,6 +173,11 @@ NDefines.NOperatives.INTEL_NETWORK_MIN_STRENGTH_TO_TARGET = 1
 NDefines.NOperatives.AGENCY_DEFENSE_EFFECT_ON_HOSTILE_ACTION_COST = 0.1
 NDefines.NIntel.DYNAMIC_INTEL_SOURCE_EVENT_MAXIMUMS = { 200, 200, 200, 200 } --Intel from events was 40
 NDefines.NIntel.DYNAMIC_INTEL_SOURCE_EVENT_ABSOLUTE_MAXIMUMS = { 200, 200, 200, 200 } --Intel from events was 50
+NDefines.NIntel.INTEL_NETWORK_MAX_CIVILIAN_INTEL = 25.0 -- increased by 5 from vanilla
+NDefines.NIntel.INTEL_NETWORK_MAX_ARMY_INTEL = 25.0     -- increased by 5 from vanilla
+NDefines.NIntel.INTEL_NETWORK_MAX_NAVY_INTEL = 25.0		-- vanilla, for reference
+NDefines.NIntel.INTEL_NETWORK_MAX_AIRFORCE_INTEL = 25.0 -- increased by 10 from vanilla
+
 NDefines.NOperatives.OPERATIVE_SLOTS_FROM_FACTION_MEMBERS_FOR_SPY_MASTER = {   --Not from HFU, I added this in myself 
         0,     0, -- 0 operative for [0, 10)
         0,      0, -- 0.25 operative for [10, 50)

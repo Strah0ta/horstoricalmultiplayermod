@@ -13,7 +13,7 @@ branch_intelligence = {
 			civilian_factory_use = 0
 			ai_license_acceptance = -1001
 		}
-		
+				
 		level = {
 			modifier = {
 				civilian_intel_factor = 0.25
@@ -34,7 +34,7 @@ branch_intelligence = {
 			civilian_factory_use = 0
 			ai_license_acceptance = -1001
 		}
-		
+				
 		level = {
 			modifier = {
 				army_intel_factor = 0.25
@@ -56,7 +56,7 @@ branch_intelligence = {
 			civilian_factory_use = 0
 			ai_license_acceptance = -1001
 		}
-		
+
 		level = {
 			modifier = {
 				navy_intel_factor = 0.25
@@ -89,6 +89,80 @@ branch_intelligence = {
 		}
 		
 	}
+	
+		upgrade_all_department = {
+	
+		picture = GFX_agency_form_department
+		frame = GFX_upgrade_frame_airforce
+		sound = Spy_Agency_Intel_Upgrades_Confirm
+
+		modifiers_during_progress = {
+			civilian_factory_use = 0
+			ai_license_acceptance = -1001
+		}
+		available = { 
+			has_done_agency_upgrade = upgrade_economy_civilian
+			has_done_agency_upgrade = upgrade_army_department
+			has_done_agency_upgrade = upgrade_naval_department
+			has_done_agency_upgrade = upgrade_airforce_department
+		}
+		level = {
+			modifier = {
+				airforce_intel_factor = 0.05
+				navy_intel_factor = 0.05
+				army_intel_factor = 0.05
+				civilian_intel_factor = 0.05
+			}
+						complete_effect = {
+				hidden_effect = {activate_mission = spy_agency_upgrade}
+			}
+		}
+		level = {
+			modifier = {
+				airforce_intel_factor = 0.05
+				navy_intel_factor = 0.05
+				army_intel_factor = 0.05
+				civilian_intel_factor = 0.05
+			}
+						complete_effect = {
+				hidden_effect = {activate_mission = spy_agency_upgrade}
+			}
+		}		
+			level = {
+			modifier = {
+				airforce_intel_factor = 0.05
+				navy_intel_factor = 0.05
+				army_intel_factor = 0.05
+				civilian_intel_factor = 0.05
+			}
+						complete_effect = {
+				hidden_effect = {activate_mission = spy_agency_upgrade}
+			}
+		}	
+		level = {
+			modifier = {
+				airforce_intel_factor = 0.05
+				navy_intel_factor = 0.05
+				army_intel_factor = 0.05
+				civilian_intel_factor = 0.05
+			}
+						complete_effect = {
+				hidden_effect = {activate_mission = spy_agency_upgrade}
+			}
+		}		
+			level = {
+			modifier = {
+				airforce_intel_factor = 0.05
+				navy_intel_factor = 0.05
+				army_intel_factor = 0.05
+				civilian_intel_factor = 0.05
+			}
+						complete_effect = {
+				hidden_effect = {activate_mission = spy_agency_upgrade}
+			}
+		}	
+	}
+	
 }
 
 branch_defense = {
@@ -172,10 +246,117 @@ branch_defense = {
 		}
 	}
 	
+	    upgrade_spy_SD = {
+
+        picture = GFX_agency_psychological_warfare
+        sound = Spy_Agency_Defense_Upgrades_Confirm
+		visible = { tag = GER }
+        available = {
+            has_war_with = SOV 
+        }
+
+        modifiers_during_progress = {
+            civilian_factory_use = 0
+        }
+
+        level = {
+            modifier = {
+                resistance_damage_to_garrison = -0.03
+				enemy_operative_detection_chance_over_occupied_tag = 1 # offset detection chance by +1%
+				operative_slot = 1
+            }
+									complete_effect = {
+				hidden_effect = {activate_mission = spy_agency_upgrade}
+			}	
+        }
+        level = {
+            modifier = {
+                 resistance_damage_to_garrison = -0.03
+				 enemy_operative_detection_chance_over_occupied_tag = 1
+            }
+									complete_effect = {
+				hidden_effect = {activate_mission = spy_agency_upgrade}
+			}	
+        }
+        level = {
+            modifier = {
+                 resistance_damage_to_garrison = -0.03
+				 enemy_operative_detection_chance_over_occupied_tag = 1
+            }
+						complete_effect = {
+				hidden_effect = {activate_mission = spy_agency_upgrade}
+			}	
+        }	
+        level = {
+            modifier = {
+                 resistance_damage_to_garrison = -0.03
+				 enemy_operative_detection_chance_over_occupied_tag = 1
+				 operative_slot = 1
+            }
+						complete_effect = {
+				hidden_effect = {activate_mission = spy_agency_upgrade}
+			}	
+        }	
+        level = {
+            modifier = {
+                 resistance_damage_to_garrison = -0.03
+				 enemy_operative_detection_chance_over_occupied_tag = 1
+            }
+						complete_effect = {
+				hidden_effect = {activate_mission = spy_agency_upgrade}
+			}	
+        }	
+        level = {
+            modifier = {
+                 resistance_damage_to_garrison = -0.03
+				 enemy_operative_detection_chance_over_occupied_tag = 1
+            }
+						complete_effect = {
+				hidden_effect = {activate_mission = spy_agency_upgrade}
+			}	
+        }	
+        level = {
+            modifier = {
+                 resistance_damage_to_garrison = -0.03
+				 enemy_operative_detection_chance_over_occupied_tag = 1
+				 operative_slot = 1
+            }
+						complete_effect = {
+				hidden_effect = {activate_mission = spy_agency_upgrade}
+			}	
+        }	
+        level = {
+            modifier = {
+                 resistance_damage_to_garrison = -0.03
+				 enemy_operative_detection_chance_over_occupied_tag = 1
+            }
+						complete_effect = {
+				hidden_effect = {activate_mission = spy_agency_upgrade}
+			}	
+        }	
+        level = {
+            modifier = {
+                 resistance_damage_to_garrison = -0.03
+				 enemy_operative_detection_chance_over_occupied_tag = 1
+            }
+						complete_effect = {
+				hidden_effect = {activate_mission = spy_agency_upgrade}
+			}	
+        }	
+        level = {
+            modifier = {
+                 resistance_damage_to_garrison = -0.03
+				 enemy_operative_detection_chance_over_occupied_tag = 1
+            }
+						complete_effect = {
+				hidden_effect = {activate_mission = spy_agency_upgrade}
+			}	
+        }		
+    }
+	
 }
 
 branch_operation = {
-	
 	upgrade_blueprint_stealing = {
 	
 		picture = GFX_agency_steal_blueprints
@@ -257,6 +438,77 @@ branch_operation = {
 			complete_effect = {	hidden_effect = {activate_mission = spy_agency_upgrade} }
 		}
 	}
+	
+	upgrade_spyresistancetraining= {
+        picture = GFX_agency_diplomatic_training
+        sound = Spy_Agency_Defense_Upgrades_Confirm
+        available = {
+            FRA = { NOT = { owns_state = 16 }}
+        }
+		visible = { tag = ENG }
+        modifiers_during_progress = {
+			civilian_factory_use = 0
+			ai_license_acceptance = -1001
+        }
+
+        level = {
+            modifier = {
+                boost_resistance_factor = 0.1 target_sabotage_factor = 0.1
+            }
+        }
+        level = {
+            modifier = {
+                boost_resistance_factor = 0.1 target_sabotage_factor = 0.1
+            }
+        }
+        level = {
+            modifier = {
+                boost_resistance_factor = 0.1 target_sabotage_factor = 0.1
+				operative_slot = 1
+            }
+        }
+        level = {
+            modifier = {
+                boost_resistance_factor = 0.1 target_sabotage_factor = 0.1
+            }
+        }
+        level = {
+            modifier = {
+                boost_resistance_factor = 0.1 target_sabotage_factor = 0.1
+            }
+        }
+        level = {
+            modifier = {
+                boost_resistance_factor = 0.1 target_sabotage_factor = 0.1
+				operative_slot = 1
+            }
+        }
+        level = {
+            modifier = {
+                boost_resistance_factor = 0.1 target_sabotage_factor = 0.1
+            }
+        }
+        level = {
+            modifier = {
+                boost_resistance_factor = 0.1 target_sabotage_factor = 0.1
+            }
+        }
+        level = {
+            modifier = {
+                boost_resistance_factor = 0.1 target_sabotage_factor = 0.1
+				operative_slot = 1
+            }
+        }
+        level = {
+            modifier = {
+                boost_resistance_factor = 0.1 target_sabotage_factor = 0.1
+            }
+        }		
+								complete_effect = {
+				hidden_effect = {activate_mission = spy_agency_upgrade}
+			}
+		
+    }
 }
 
 branch_operative = {
