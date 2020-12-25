@@ -15,7 +15,7 @@ equipment_modules = {
 		
 		add_stats = {
 			lg_attack = 1
-			build_cost_ic = 90	
+			build_cost_ic = 70	
 		}
 		multiply_stats = {
 			naval_speed = -0.01
@@ -39,7 +39,7 @@ equipment_modules = {
 		
 		add_stats = {
 			lg_attack = 1.5
-			build_cost_ic = 120
+			build_cost_ic = 90
 			
 		}
 		multiply_stats = {
@@ -56,7 +56,7 @@ equipment_modules = {
 		
 		can_convert_from = {
 			module = ship_light_battery_1
-			convert_cost_ic = 45 #conversion cost from that specific module
+			convert_cost_ic = 25 #conversion cost from that specific module
 		}
 		critical_parts = { damaged_light_guns }
 	}
@@ -68,7 +68,7 @@ equipment_modules = {
 		
 		add_stats = {
 			lg_attack = 2
-			build_cost_ic = 150			
+			build_cost_ic = 110			
 		}
 		
 		add_average_stats = {
@@ -79,12 +79,12 @@ equipment_modules = {
 		}
 		can_convert_from = {
 			module_category = ship_light_battery
-			convert_cost_ic = 75
+			convert_cost_ic = 55
 		}
 		
 		can_convert_from = {
 			module= ship_light_battery_2
-			convert_cost_ic = 45
+			convert_cost_ic = 35
 		}
 		critical_parts = { damaged_light_guns }
 	}
@@ -96,7 +96,7 @@ equipment_modules = {
 		
 		add_stats = {
 			lg_attack = 3.0
-			build_cost_ic = 175	
+			build_cost_ic = 130	
 		}
 
 		multiply_stats = {
@@ -108,12 +108,12 @@ equipment_modules = {
 		
 		can_convert_from = {
 			module_category = ship_light_battery
-			convert_cost_ic = 190
+			convert_cost_ic = 100
 		}
 			
 		can_convert_from = {
 			module = ship_light_battery_3
-			convert_cost_ic = 120
+			convert_cost_ic = 90
 		}
 		critical_parts = { damaged_light_guns }
 	}
@@ -125,7 +125,7 @@ equipment_modules = {
 		add_stats = {
 			lg_attack = 2.5
 			anti_air_attack = 2 
-			build_cost_ic = 250
+			build_cost_ic = 200
 		}
 		multiply_stats = {
 			naval_speed = -0.02
@@ -530,7 +530,7 @@ equipment_modules = {
 		
 		add_stats = {
 			lg_attack = 3
-			build_cost_ic = 180
+			build_cost_ic = 150
 		}
 		
 		multiply_stats = {
@@ -538,12 +538,12 @@ equipment_modules = {
 		}
 
 		add_average_stats = {
-			lg_armor_piercing = 5.5
+			lg_armor_piercing = 1
 		}
 		
 		can_convert_from = {
 			module_category = ship_secondaries
-			convert_cost_ic = 100
+			convert_cost_ic = 80
 		}
 		critical_parts = { damaged_secondaries }
 	}
@@ -555,19 +555,19 @@ equipment_modules = {
 
 		add_stats = {
 			lg_attack = 4
-			build_cost_ic = 240
+			build_cost_ic = 200
 		}
 		multiply_stats = {
 			naval_speed = -0.02
 		}
 		
 		add_average_stats = {
-			lg_armor_piercing = 7
+			lg_armor_piercing = 2
 		}
 		
 		can_convert_from = {
 			module_category = ship_secondaries
-			convert_cost_ic = 120
+			convert_cost_ic = 110
 		}
 		critical_parts = { damaged_secondaries }
 	}
@@ -579,7 +579,7 @@ equipment_modules = {
 		add_stats = {
 			lg_attack = 4.5
 			anti_air_attack = 2
-			build_cost_ic = 290
+			build_cost_ic = 250
 		}
 
 		multiply_stats = {
@@ -587,12 +587,12 @@ equipment_modules = {
 		}
 		
 		add_average_stats = {
-			lg_armor_piercing = 8
+			lg_armor_piercing = 2
 		}
 		
 		can_convert_from = {
 			module_category = ship_secondaries
-			convert_cost_ic = 150
+			convert_cost_ic = 140
 		}
 		critical_parts = { damaged_secondaries }
 	}
@@ -809,7 +809,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_sonar
 		
 		add_stats = {
-			build_cost_ic = 80
+			build_cost_ic = 50
 			surface_detection = 5
 		}
 	}
@@ -818,14 +818,14 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_sonar
 		
 		add_stats = {
-			build_cost_ic = 110
+			build_cost_ic = 70
 			surface_detection = 7
 			sub_detection = 2
 		}
 		
 		can_convert_from = {
 			module = ship_radar_1
-			convert_cost_ic = 30
+			convert_cost_ic = 20
 		}
 	}
 	ship_radar_3 = {
@@ -840,7 +840,7 @@ equipment_modules = {
 		add_stats = {
 			surface_detection = 12
 			sub_detection = 6
-			build_cost_ic = 140
+			build_cost_ic = 90
 		}
 		can_convert_from = {
 			module = ship_radar_2
@@ -848,7 +848,7 @@ equipment_modules = {
 		}
 		can_convert_from = {
 			module_category = ship_radar
-			convert_cost_ic = 60
+			convert_cost_ic = 40
 		}
 	}
 	ship_radar_4 = {
@@ -862,17 +862,17 @@ equipment_modules = {
 		}
 		add_stats = {
 			
-			build_cost_ic = 170
+			build_cost_ic = 110
 			surface_detection = 18
 			sub_detection = 14
 		}
 		can_convert_from = {
 			module = ship_radar_3
-			convert_cost_ic = 30
+			convert_cost_ic = 20
 		}
 		can_convert_from = {
 			module_category = ship_radar
-			convert_cost_ic = 90
+			convert_cost_ic = 60
 		}
 	}
 
@@ -1432,7 +1432,7 @@ equipment_modules = {
 		
 		add_stats = {
 			torpedo_attack = 18
-			build_cost_ic = 90
+			build_cost_ic = 70
 		}
 		multiply_stats = {
 			naval_speed = -0.01			
@@ -1448,7 +1448,7 @@ equipment_modules = {
 
 		add_stats = {
 			torpedo_attack = 27
-			build_cost_ic = 120
+			build_cost_ic = 90
 		}
 		multiply_stats = {
 			naval_speed = -0.01		
@@ -1458,7 +1458,7 @@ equipment_modules = {
 
 		can_convert_from = {
 			module_category = ship_torpedo
-			convert_cost_ic = 60
+			convert_cost_ic = 30
 		}
 		critical_parts = { damaged_torpedoes }
 	}
@@ -1471,7 +1471,7 @@ equipment_modules = {
 
 		add_stats = {
 			torpedo_attack = 36
-			build_cost_ic = 150
+			build_cost_ic = 110
 		}
 		multiply_stats = {
 			naval_speed = -0.01			
@@ -1480,7 +1480,7 @@ equipment_modules = {
 
 		can_convert_from = {
 			module_category = ship_torpedo
-			convert_cost_ic = 60
+			convert_cost_ic = 40
 		}
 		critical_parts = { damaged_torpedoes }
 	}
@@ -1493,7 +1493,7 @@ equipment_modules = {
 
 		add_stats = {
 			torpedo_attack = 45
-			build_cost_ic = 180
+			build_cost_ic = 130
 		}
 		multiply_stats = {
 			naval_speed = -0.01			
@@ -1502,7 +1502,7 @@ equipment_modules = {
 
 		can_convert_from = {
 			module_category = ship_torpedo
-			convert_cost_ic = 60
+			convert_cost_ic = 50
 		}
 		critical_parts = { damaged_torpedoes }
 	}
@@ -1585,12 +1585,12 @@ equipment_modules = {
 		
 		add_stats = {
 			sub_attack = 8
-			build_cost_ic = 90
+			build_cost_ic = 30
 		}
 
 		can_convert_from = {
 			module_category = ship_depth_charge
-			convert_cost_ic = 60
+			convert_cost_ic = 10
 		}
 
 		multiply_stats = {
@@ -1605,12 +1605,12 @@ equipment_modules = {
 		
 		add_stats = {
 			sub_attack = 12
-			build_cost_ic = 120
+			build_cost_ic = 50
 		}
 
 		can_convert_from = {
 			module_category = ship_depth_charge
-			convert_cost_ic = 90
+			convert_cost_ic = 25
 		}
 
 		multiply_stats = {
@@ -1625,12 +1625,12 @@ equipment_modules = {
 		
 		add_stats = {
 			sub_attack = 16
-			build_cost_ic = 150
+			build_cost_ic = 70
 		}
 
 		can_convert_from = {
 			module_category = ship_depth_charge
-			convert_cost_ic = 120
+			convert_cost_ic = 40
 		}
 
 		multiply_stats = {
@@ -1645,12 +1645,12 @@ equipment_modules = {
 		
 		add_stats = {
 			sub_attack = 20
-			build_cost_ic = 180
+			build_cost_ic = 90
 		}
 
 		can_convert_from = {
 			module_category = ship_depth_charge
-			convert_cost_ic = 150
+			convert_cost_ic = 50
 		}
 
 		multiply_stats = {
@@ -1709,7 +1709,7 @@ equipment_modules = {
 		add_stats = {
 			surface_detection = 7
 			sub_detection = 2.5
-			build_cost_ic = 150
+			build_cost_ic = 100
 		}
 		multiply_stats = {
 			naval_speed = -0.01
@@ -1722,11 +1722,11 @@ equipment_modules = {
 		add_stats = {
 			surface_detection = 10
 			sub_detection = 3.5
-			build_cost_ic = 170
+			build_cost_ic = 120
 		}
 		can_convert_from = {
 			module_category = ship_airplane_launcher
-			convert_cost_ic = 80
+			convert_cost_ic = 50
 		}
 		multiply_stats = {
 			naval_speed = -0.01
@@ -1786,7 +1786,7 @@ equipment_modules = {
 		
 		add_stats = {
 			sub_detection = 4
-			build_cost_ic = 40
+			build_cost_ic = 20
 		}
 	}
 
@@ -1797,11 +1797,11 @@ equipment_modules = {
 		
 		add_stats = {
 			sub_detection = 7.0
-			build_cost_ic = 60
+			build_cost_ic = 30
 		}
 		can_convert_from = {
 			module_category = ship_sonar
-			convert_cost_ic = 25
+			convert_cost_ic = 10
 		}
 	}
  ##  ###  #   #  ##  ###       ##  ##  #  # ### #   # ###  ## 

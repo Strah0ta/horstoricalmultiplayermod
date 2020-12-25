@@ -1740,11 +1740,6 @@ create_field_marshal = {
 }
 	
 
-}		
-
-		
-
-
 	create_operative_leader = {
 		name = "Otto Skorzeny"
 		GFX = GFX_portrait_otto_skorenzy
