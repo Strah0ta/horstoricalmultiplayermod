@@ -288,7 +288,7 @@ leader_traits = {
 
 	trait_engineer = { 
 		type = corps_commander
-		modifier = {	fort = {  attack = 0.1  }	}		
+		modifier = {	fort = {  attack = 0.15  }	}		
 		gui_row = 4
 	}
 
@@ -482,7 +482,7 @@ leader_traits = {
 	fortress_buster = {
 		type = corps_commander
 		modifier = {
-			fort = { attack = 0.15 }
+			fort = { attack = 0.1 }
 			fortification_damage = 0.5
 			fortification_collateral_chance = 0.5
 		}

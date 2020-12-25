@@ -40,14 +40,14 @@ equipments = {
 				required = no
 				allowed_module_categories = { ship_secondaries }
 			}
-			
+			fixed_ship_armor_slot = {
+				required = no
+				allowed_module_categories = { ship_carrier_armor }	
+			}			
 			front_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
-					ship_anti_air
 					ship_deck_space
-					ship_carrier_armor
-					ship_secondaries
 				}
 			}
 		}
@@ -65,6 +65,7 @@ equipments = {
 			fixed_ship_engine_slot = carrier_ship_engine_1
 			fixed_ship_secondaries_slot = empty
 			front_1_custom_slot = empty
+			fixed_ship_armor_slot = empty
 		}
 		
 		lg_armor_piercing = 0
@@ -114,11 +115,33 @@ equipments = {
 		priority = 1000
 			can_license = no
  	
-		module_slots = inherit
-
+		module_slots = {
+			fixed_ship_deck_slot_1 = inherit
+			fixed_ship_deck_slot_2 = inherit
+			fixed_ship_anti_air_slot = inherit
+			fixed_ship_radar_slot = inherit
+			fixed_ship_engine_slot = inherit
+			fixed_ship_secondaries_slot = inherit
+			fixed_ship_armor_slot = inherit
+			front_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_deck_space
+				}
+			}
+			rear_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_anti_air
+					ship_secondaries
+					ship_carrier_armor
+				}
+				}
+		}
 		default_modules = {
 			fixed_ship_engine_slot = carrier_ship_engine_2
 		}
+		
 	}
 
 	ship_hull_carrier_2 = {
@@ -134,19 +157,32 @@ equipments = {
 			fixed_ship_radar_slot = inherit
 			fixed_ship_engine_slot = inherit
 			fixed_ship_secondaries_slot = inherit
+			fixed_ship_armor_slot = inherit
 			front_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
-					ship_anti_air
 					ship_deck_space
-					ship_carrier_armor
 				}
 			}
 			mid_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
-					ship_secondaries
 					ship_deck_space
+				}
+			}
+			rear_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_anti_air
+					ship_secondaries
+					ship_carrier_armor
+				}
+				}
+			rear_2_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_anti_air
+					ship_secondaries
 					ship_carrier_armor
 				}
 			}
@@ -184,6 +220,7 @@ equipments = {
 			fixed_ship_radar_slot = inherit
 			fixed_ship_engine_slot = inherit
 			fixed_ship_secondaries_slot = inherit
+			fixed_ship_armor_slot = inherit
 			front_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
@@ -195,16 +232,28 @@ equipments = {
 			mid_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
-					ship_secondaries
 					ship_deck_space
-					ship_carrier_armor
 				}
 			}
 			mid_2_custom_slot = {
 				required = no
 				allowed_module_categories = {
-					ship_secondaries
 					ship_deck_space
+				}
+			}
+			rear_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_anti_air
+					ship_secondaries
+					ship_carrier_armor
+				}
+				}
+			rear_2_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_anti_air
+					ship_secondaries
 					ship_carrier_armor
 				}
 			}
@@ -242,6 +291,7 @@ equipments = {
 			fixed_ship_deck_slot_2 = inherit
 			fixed_ship_anti_air_slot = inherit
 			fixed_ship_radar_slot = inherit
+			fixed_ship_armor_slot = inherit
 			fixed_ship_engine_slot = {
 				required = yes
 				allowed_module_categories = { heavy_ship_engine carrier_ship_engine }
@@ -288,6 +338,7 @@ equipments = {
 			fixed_ship_deck_slot_2 = inherit
 			fixed_ship_anti_air_slot = inherit
 			fixed_ship_radar_slot = inherit
+			fixed_ship_armor_slot = inherit
 			fixed_ship_engine_slot = {
 				required = yes
 				allowed_module_categories = { cruiser_ship_engine carrier_ship_engine }

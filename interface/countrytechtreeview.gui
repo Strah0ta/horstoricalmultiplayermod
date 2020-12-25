@@ -151,7 +151,7 @@ guiTypes = {
 				
 								instantTextBoxType = {
 					name = "infantry_subtitle_jager"
-					position = { x = 40 y = 1350 }
+					position = { x = 40 y = 1330 }
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}

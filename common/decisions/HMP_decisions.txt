@@ -2199,9 +2199,9 @@ AST = {
 		GER_plane_hun = {
 	allowed = {	 original_tag = ITA	} 
 		icon = generic_naval
-		fire_only_once = yes
+		fire_only_once = no
 		available = {    }
-		complete_effect = {	activate_mission = GER_plane_LL1 }		
+		complete_effect = {	if = { limit = { NOT = { has_country_flag = ITA_send_plane } } activate_mission = GER_plane_LL1 set_country_flag = ITA_send_plane} if = { limit = { has_country_flag = ITA_send_plane} clr_country_flag = ITA_send_plane } }		
 }
 		GER_plane_LL1 = {
 		allowed = { original_tag = ITA	}  
@@ -2215,7 +2215,7 @@ AST = {
 		activation = { always = no	}
 		
 		timeout_effect = {
-		GER_all_plane_LL = yes	
+		if = { limit =  { has_country_flag = ITA_send_plane }  GER_all_plane_LL = yes	 }
 		activate_mission = GER_plane_LL2		
 		}
 		complete_effect = {	
@@ -2233,7 +2233,7 @@ AST = {
 		activation = { always = no	}
 		
 		timeout_effect = {
-		GER_all_plane_LL = yes	
+		if = { limit =  { has_country_flag = ITA_send_plane }  GER_all_plane_LL = yes	 }
 		activate_mission = GER_plane_LL1		
 		}
 		complete_effect = {	

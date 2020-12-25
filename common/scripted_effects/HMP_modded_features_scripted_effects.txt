@@ -1194,52 +1194,6 @@ USA_calc_stars = {
 	}
 }
 
-USA_set_president_effect = {
-	if = {
-		limit = {
-			has_country_leader = { ruling_only = yes name = "Alf Landon" }
-		}
-		create_country_leader = {
-			name = "Alf Landon"
-			desc = "POLITICS_ALF_LANDON_DESC"
-			picture = "portrait_USA_alf_landon.dds"
-			expire = "1965.1.1"
-			ideology = oligarchism
-			traits = {
-			}
-		}
-	}
-	if = {
-		limit = {
-			has_country_leader = { ruling_only = yes name = "Wendell Wilkie" }
-		}
-		create_country_leader = {
-			name = "Wendell Wilkie"
-			desc = "POLITICS_WENDELL_WILKIE_DESC"
-			picture = "Portrait_USA_Wendell_Willkie.dds"
-			expire = "1965.1.1"
-			ideology = oligarchism
-			traits = {
-				
-			}
-		}
-	}
-	if = {
-		limit = {
-			has_country_leader = { ruling_only = yes name = "Thomas E. Dewey" }
-		}
-		create_country_leader = {
-			name = "Thomas E. Dewey"
-			desc = "POLITICS_THOMAS_DEWEY_DESC"
-			picture = "portrait_USA_thomas_dewey.dds"
-			expire = "1965.1.1"
-			ideology = oligarchism
-			traits = {
-				
-			}
-		}
-	}
-}
 USA_all_plane_LL = {
 	send_equipment = { equipment = fighter_equipment amount = 10000 target = ENG }
 	send_equipment = { equipment = CAS_equipment amount = 10000 target = ENG }
@@ -1878,11 +1832,11 @@ create_field_marshal = {
     name = "Rodolfo Graziani"
     picture = "portrait_italy_radolfo_graziani.dds"
     traits = { organizer panzer_leader panzer_expert thorough_planner logistics_wizard trait_engineer desert_fox trait_mountaineer hill_fighter offensive_doctrine trait_cautious }
-    skill = 7
-    attack_skill = 5
+    skill = 8
+    attack_skill = 8
     defense_skill = 4
     planning_skill = 7
-    logistics_skill = 5
+    logistics_skill = 6
 }
 create_corps_commander = { #AFRIKACORPS GENERAL
     name = "Giovanni Messe"
