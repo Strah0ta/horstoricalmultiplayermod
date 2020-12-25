@@ -178,83 +178,83 @@ leader_skills = {
 
 	### Operative ###
 	1 = {
-		cost = 100
-		type = operative
-		modifier = {
-					intel_network_gain = 0.05
-		}
-	}
+        cost = 100
+        type = operative
+        modifier = {
+             intel_network_gain = 0.05
+        }
+    }
 
-	2 = {
-		cost = 300
-		type = operative
-		modifier = {
-			intel_network_gain = 0.1
-			intelligence_agency_defense = 0.1
-			operation_outcome = 0.03
-		}
-	}
-	3 = {
-		cost = 700
-		type = operative
-		modifier = {
-			intel_network_gain = 0.2
-			intelligence_agency_defense = 0.2
-			operation_outcome = 0.06
-		}
-	}
-	4 = {
-		cost = 1300
-		type = operative
-		modifier = {
-			intel_network_gain = 0.3
-			intelligence_agency_defense = 0.3
-			operation_outcome = 0.09
-		}
-	}
-	5 = {
-		cost = 2100
-		type = operative
-		modifier = {
-			intel_network_gain = 0.4
-			intelligence_agency_defense = 0.4
-			operation_outcome = 0.12
-		}
-	}
-	6 = {
-		cost = 3100
-		type = operative
-		modifier = {
-			intel_network_gain = 0.5
-			intelligence_agency_defense = 0.5
-			operation_outcome = 0.15
-		}
-	}
-	7 = {
-		cost = 4300
-		type = operative
-		modifier = {
-			intel_network_gain = 0.6
-			intelligence_agency_defense = 0.6
-			operation_outcome = 0.18
-		}
-	}
-	8 = {
-		cost = 5700
-		type = operative
-		modifier = {
-			intel_network_gain = 0.7
-			intelligence_agency_defense = 0.7
-			operation_outcome = 0.21
-		}
-	}
-	9 = {
-		cost = 7300
-		type = operative
-		modifier = {
-			intel_network_gain = 0.8
-			intelligence_agency_defense = 0.8
-			operation_outcome = 0.24
-		}
-	}
+    2 = {
+        cost = 250
+        type = operative
+        modifier = {
+            intel_network_gain = 0.1
+            intelligence_agency_defense = 0.1
+            operation_outcome = 0.03
+        }
+    }
+    3 = {
+        cost = 600
+        type = operative
+        modifier = {
+            intel_network_gain = 0.2
+            intelligence_agency_defense = 0.2
+            operation_outcome = 0.06
+        }
+    }
+    4 = {
+        cost = 1100
+        type = operative
+        modifier = {
+            intel_network_gain = 0.3
+            intelligence_agency_defense = 0.3
+            operation_outcome = 0.09
+        }
+    }
+    5 = {
+        cost = 1750
+        type = operative
+        modifier = {
+            intel_network_gain = 0.4
+            intelligence_agency_defense = 0.4
+            operation_outcome = 0.12
+        }
+    }
+    6 = {
+        cost = 2600
+        type = operative
+        modifier = {
+            intel_network_gain = 0.5
+            intelligence_agency_defense = 0.5
+            operation_outcome = 0.15
+        }
+    }
+    7 = {
+        cost = 3600
+        type = operative
+        modifier = {
+            intel_network_gain = 0.6
+            intelligence_agency_defense = 0.6
+            operation_outcome = 0.18
+        }
+    }
+    8 = {
+        cost = 4750
+        type = operative
+        modifier = {
+            intel_network_gain = 0.7
+            intelligence_agency_defense = 0.7
+            operation_outcome = 0.21
+        }
+    }
+    9 = {
+        cost = 6100
+        type = operative
+        modifier = {
+            intel_network_gain = 0.8
+            intelligence_agency_defense = 0.8
+            operation_outcome = 0.24
+        }
+    }
 }

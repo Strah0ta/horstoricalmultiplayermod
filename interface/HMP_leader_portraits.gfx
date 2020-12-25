@@ -17,6 +17,12 @@ spriteTypes = {
 	}	
 		
 	spriteType = {
+		name = "GFX_trait_operative_triple_agent"
+		texturefile = "gfx/interface/traits/trait_operative_double_agent.dds"
+	}
+
+		
+	spriteType = {
 		name = "GFX_portrait_norway_ruge"
 		texturefile = "gfx/leaders/NOR/portrait_norway_ruge.dds"		
 	}	

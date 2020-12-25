@@ -1694,6 +1694,57 @@ create_corps_commander = {
     planning_skill = 6
     logistics_skill = 6
 }
+
+
+create_corps_commander = {           #CAV EXPERT
+    name = "Maximilian von Weichs"
+    picture = "Portrait_Germany_Maximilian_von_Weichs.dds"
+    traits = { cavalry_leader  cavalry_expert } 
+    skill = 4
+    attack_skill = 4
+    defense_skill = 2
+    planning_skill = 3
+    logistics_skill = 4
+}
+create_corps_commander = {          #COMBINED ARMS EXPERT + PANZER LEADER ? 
+    name = "Paul Hausser"
+    picture = "Portrait_Germany_Paul_Hausser.dds"
+    traits = {  cavalry_leader panzer_leader combined_arms_expert  }
+    skill = 4
+    attack_skill = 3
+    defense_skill = 3
+    planning_skill = 4
+    logistics_skill = 3
+}
+
+create_field_marshal = {
+    name = "Albert Kesselring"
+    picture = "Portrait_Germany_Albert_Kesselring.dds"
+    traits = { organizer thorough_planner brilliant_strategist aggressive_assaulter inspirational_leader trait_cautious infantry_leader infantry_expert}
+	skill = 8  
+	attack_skill = 7
+    defense_skill = 7
+    planning_skill = 7
+    logistics_skill = 4
+}
+		
+create_field_marshal = {
+    name = "Wilhelm List"
+    picture = "Portrait_Germany_Wilhelm_List.dds"
+    traits = { organizer winter_specialist logistics_wizard infantry_leader inflexible_strategist unyielding_defender inspirational_leader organisational_leader }
+	skill = 8  
+	attack_skill = 4
+	defense_skill = 9
+	planning_skill = 3
+	logistics_skill = 9
+}
+	
+
+}		
+
+		
+
+
 	create_operative_leader = {
 		name = "Otto Skorzeny"
 		GFX = GFX_portrait_otto_skorenzy

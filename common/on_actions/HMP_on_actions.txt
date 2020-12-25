@@ -42,7 +42,7 @@ on_actions = {
 	on_subject_autonomy_level_change = {
 		effect = {
 			if = {
-				limit = {	tag = RAJ	has_autonomy_state = autonomy_dominion	}
+				limit = { tag = RAJ	has_autonomy_state = autonomy_dominion	}
 				create_country_leader = {
 					name = "Archibald Wavell"
 					picture = "Portrait_Raj_Archibald_Wavell.dds"
@@ -251,9 +251,9 @@ on_actions = {
 				news_event = news.118
 				set_global_flag = fall_of_pearl_harbor
 			}	
-									if = {
+			if = {
 				limit = {
-					 original_tag = SOV
+					original_tag = SOV
 					FROM = { original_tag = GER }
 					FROM.FROM = { state = 64 }
 					NOT = { has_global_flag = fall_of_berlin_sov }
@@ -261,7 +261,6 @@ on_actions = {
 				news_event = news.140
 				set_global_flag = fall_of_berlin_sov
 			}			
-
 		}
 	}
 
@@ -269,11 +268,11 @@ on_actions = {
 		effect = {
             set_temp_variable = {
                 var = capture_chance
-                value = 90
+                value = 95
             }
             set_temp_variable = {
                 var = kill_chance
-                value = 10
+                value = 5
             }			
             random_list = {
 				temp_var:capture_chance = {
@@ -302,7 +301,8 @@ on_actions = {
 										airforce_intel = 25
 									}
 								}
-								} else = {
+								} 
+								else = {
 								ROOT = {
 									add_intel = {
 										target = PREV.FROM
@@ -351,7 +351,7 @@ on_actions = {
 			# ROOT   the country the operative was performing its mission in
 			# FROM   the country the operative is operating for
 			random_list = {
-				90 = { #regular
+				92 = { #regular
 					operative_leader_event = {
 						id = lar_operative_event.1
 						set_from_from = ROOT
@@ -363,15 +363,19 @@ on_actions = {
 						set_from = FROM
 					}
 				}
-				10 = { #operative turned
+				8 = { #operative turned
 					modifier = {
 						has_trait = operative_tough
 						factor = 0 #tough operatives never get turned
 					}
 					modifier = {
 						has_trait = operative_double_agent
-						factor = 0 #no tripple agents please
+						factor = 0.3 #no triple agents please
 					}
+					modifier = {
+						has_trait = operative_triple_agent
+						factor = 0 #no triple agents please
+					}				
 					turn_operative = { turned_by = ROOT }
 					# ensure the operative has the nationality of the country he is coming from
 					add_nationality = FROM

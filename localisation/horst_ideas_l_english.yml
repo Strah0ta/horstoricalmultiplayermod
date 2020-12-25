@@ -15,6 +15,8 @@
  mbt_manufacturer:0 "Main Battle Tank Designer"
  kharkiv:0 "Kharkiv Diesel Factory"
  naval_ship:0 "Ship"
+ operative_triple_agent:0 "Triple Agent"
+ operative_triple_agent_desc:0 "This Operative has been turned from the enemy into our service."
  somua_tank:0 "SOMUA"
  miag:0 "MIAG"
  army_chief_ground_support:0 "Air Support (Genius)"

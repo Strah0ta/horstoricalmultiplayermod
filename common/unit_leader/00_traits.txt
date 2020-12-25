@@ -76,22 +76,12 @@ leader_traits = {
 		defense_skill = 1
 		logistics_skill = 1
 	}
-	
-	politically_connected = { 
-		type = { land navy }
-		trait_type = personality_trait	
-	}
 
 	war_hero = { 
 		type = { land navy }
 		trait_type = personality_trait
 	}
 	
-	career_officer = { 
-		type = land
-		trait_type = personality_trait
-	}
-
 	trait_cautious = { 
 		type = land
 		trait_type = personality_trait		
@@ -106,11 +96,6 @@ leader_traits = {
 		modifier = {
 			planning_speed = 0.20
 		}
-	}
-
-	media_personality = { 
-		type = land
-		trait_type = personality_trait			
 	}
 
 	harsh_leader = { 
@@ -1063,94 +1048,24 @@ leader_traits = {
 ##################################
 # status traits
 ##################################
-
-	sick = { 
-		type = all
-		trait_type = status_trait		
-		non_shared_modifier = {
-			skill_bonus_factor = -0.5
-			cannot_use_abilities = 1
-		}
-	}
-
-	wounded = { 
-		type = all
-		trait_type = status_trait
-		
-		non_shared_modifier = {
-			skill_bonus_factor = -0.5
-			cannot_use_abilities = 1
-		}
-	}
-	
-	disgruntled = { 
-		type = all
-		trait_type = status_trait
-		
-		attack_skill = -2
-		defense_skill = -2
-		logistics_skill = -2
-		planning_skill = -2
-	}
-	
-	demoted = { 
-		type = all
-		trait_type = status_trait
-		
-		attack_skill = -1
-		defense_skill = -1
-		logistics_skill = -1
-		planning_skill = -1
-	}
 	
 	substance_abuser = { 
 		type = all
 		trait_type = status_trait
 	}
-	
-	substance_addict = { 
-		type = all
-		trait_type = status_trait
-		allowed = {
-			has_trait = substance_abuser
-		}
-		attack_skill = -2
-		defense_skill = -2
-		logistics_skill = -2
-		planning_skill = -2
-	}
 
-	hidden_sympathies = {
-		type = all
-		trait_type = status_trait
-	}
-	
-	recently_promoted = {
-		type = all
-		trait_type = status_trait
-		
-		attack_skill = -1
-		defense_skill = -1
-		logistics_skill = -1
-		planning_skill = -1
-	}
-
-	##################################
-	# Special trait for exiled leaders
-	##################################
+##################################
+# Special trait for exiled leaders
+##################################
 
 	exiled_leader = {
 		type = land
 		trait_type = exile
-		gain_xp = {
-			always = no # not gainable
-		}
+		gain_xp = {	always = no	}
 		
 		modifier = {
-			exiled_divisions_attack_factor = 0.1
-			own_exiled_divisions_attack_factor = 0.05 
-			exiled_divisions_defense_factor = 0.1
-			own_exiled_divisions_defense_factor = 0.05			
+			own_exiled_divisions_attack_factor = 0.15 
+			own_exiled_divisions_defense_factor = 0.15			
 		}
 		new_commander_weight = {
 			factor = 0
@@ -1283,7 +1198,20 @@ leader_traits = {
 			# something good
 		}
 	}
+	
+	operative_triple_agent = {
+		type = operative
+		trait_type = personality_trait
 
+		new_commander_weight = {
+			factor = 0 # only from events
+		}
+
+		modifier = {
+			# something good
+		}
+	}
+	
 	operative_tough = {
 		type = operative
 		trait_type = personality_trait

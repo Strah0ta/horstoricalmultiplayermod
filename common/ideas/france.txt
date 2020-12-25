@@ -6,11 +6,8 @@ ideas = {
 			picture = generic_disjointed_gov
 			name = FRA_surrender
 			allowed = {	always = no }
-
-			allowed_civil_war = {	always = no				}
-
+			allowed_civil_war = { always = no }
 			removal_cost = -1
-			
 			modifier = {
 				surrender_limit = -0.60
 			}
@@ -1034,59 +1031,33 @@ ideas = {
 		
 		rene_prioux = {
 			ledger = army
-			
-			
-			allowed = {
-				original_tag = FRA
-			}
-			
+			allowed = {	original_tag = FRA	}
+			available = { NOT = { owns_state = 16 }}
 			traits = { army_infantry_2 }
-
 		}
 		
 		charles_huntziger = {
 			ledger = army
-			
-			
-			allowed = {
-				original_tag = FRA
-			}
-			
-
-			
+			allowed = {	original_tag = FRA	}
 			traits = { army_armored_2 }
 		}
 		
 		philippe_leclerc = {
 			ledger = army
-			
-			
 			allowed = {	original_tag = FRA	}
-			available = { NOT = { owns_state = 16 }}
-
+			#available = { NOT = { owns_state = 16 }}
 			traits = { army_commando_2 }
-
 		}	
 
 		jean_francois_jannekeyn = {
 			ledger = air
-			
-			
-			allowed = {
-				original_tag = FRA
-			}
-			
+			allowed = {	original_tag = FRA	}
 			traits = { air_tactical_bombing_2 }
 		}	
 		
 		jean_de_laborde = {
 			ledger = navy
-			
-			
-			allowed = {
-				original_tag = FRA
-			}
-			
+			allowed = {	original_tag = FRA	}
 			traits = { navy_capital_ship_1 }
 		}
 		
