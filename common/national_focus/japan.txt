@@ -613,8 +613,8 @@ hidden_effect = {		set_technology = { naval_bomber2 = 1 }
 		completion_reward = {
 			add_tech_bonus = {
 				name = JAP_small_arms_modernization
-				bonus = 1.0
-				uses = 3
+				bonus = 1.25
+				uses = 2
 				category = infantry_weapons	
 			}
 		}

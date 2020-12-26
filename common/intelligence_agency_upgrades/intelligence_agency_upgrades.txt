@@ -455,58 +455,83 @@ branch_operation = {
             modifier = {
                 boost_resistance_factor = 0.1 target_sabotage_factor = 0.1
             }
-        }
-        level = {
-            modifier = {
-                boost_resistance_factor = 0.1 target_sabotage_factor = 0.1
-            }
-        }
-        level = {
-            modifier = {
-                boost_resistance_factor = 0.1 target_sabotage_factor = 0.1
-				operative_slot = 1
-            }
-        }
-        level = {
-            modifier = {
-                boost_resistance_factor = 0.1 target_sabotage_factor = 0.1
-            }
-        }
-        level = {
-            modifier = {
-                boost_resistance_factor = 0.1 target_sabotage_factor = 0.1
-            }
-        }
-        level = {
-            modifier = {
-                boost_resistance_factor = 0.1 target_sabotage_factor = 0.1
-				operative_slot = 1
-            }
-        }
-        level = {
-            modifier = {
-                boost_resistance_factor = 0.1 target_sabotage_factor = 0.1
-            }
-        }
-        level = {
-            modifier = {
-                boost_resistance_factor = 0.1 target_sabotage_factor = 0.1
-            }
-        }
-        level = {
-            modifier = {
-                boost_resistance_factor = 0.1 target_sabotage_factor = 0.1
-				operative_slot = 1
-            }
-        }
-        level = {
-            modifier = {
-                boost_resistance_factor = 0.1 target_sabotage_factor = 0.1
-            }
-        }		
-								complete_effect = {
+											complete_effect = {
 				hidden_effect = {activate_mission = spy_agency_upgrade}
 			}
+        }
+        level = {
+            modifier = {
+                boost_resistance_factor = 0.1 target_sabotage_factor = 0.1
+            }
+											complete_effect = {
+				hidden_effect = {activate_mission = spy_agency_upgrade}
+			}
+        }
+        level = {
+            modifier = {
+                boost_resistance_factor = 0.1 target_sabotage_factor = 0.1
+				operative_slot = 1
+            }
+											complete_effect = {
+				hidden_effect = {activate_mission = spy_agency_upgrade}
+			}
+        }
+        level = {
+            modifier = {
+                boost_resistance_factor = 0.1 target_sabotage_factor = 0.1
+            }
+											complete_effect = {
+				hidden_effect = {activate_mission = spy_agency_upgrade}
+			}
+        }
+        level = {
+            modifier = {
+                boost_resistance_factor = 0.1 target_sabotage_factor = 0.1
+            }
+        }
+        level = {
+            modifier = {
+                boost_resistance_factor = 0.1 target_sabotage_factor = 0.1
+				operative_slot = 1
+            }
+											complete_effect = {
+				hidden_effect = {activate_mission = spy_agency_upgrade}
+			}
+        }
+        level = {
+            modifier = {
+                boost_resistance_factor = 0.1 target_sabotage_factor = 0.1
+            }
+											complete_effect = {
+				hidden_effect = {activate_mission = spy_agency_upgrade}
+			}
+        }
+        level = {
+            modifier = {
+                boost_resistance_factor = 0.1 target_sabotage_factor = 0.1
+            }
+											complete_effect = {
+				hidden_effect = {activate_mission = spy_agency_upgrade}
+			}
+        }
+        level = {
+            modifier = {
+                boost_resistance_factor = 0.1 target_sabotage_factor = 0.1
+				operative_slot = 1
+            }
+											complete_effect = {
+				hidden_effect = {activate_mission = spy_agency_upgrade}
+			}
+        }
+        level = {
+            modifier = {
+                boost_resistance_factor = 0.1 target_sabotage_factor = 0.1
+            }
+											complete_effect = {
+				hidden_effect = {activate_mission = spy_agency_upgrade}
+			}
+        }		
+
 		
     }
 }

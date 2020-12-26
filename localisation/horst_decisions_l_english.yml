@@ -13,6 +13,7 @@
  HMP_rules:0 "Horstorical Multiplayer Standard Ruleset"
  HMP_rules_desc:0 "The event details the rules for both start dates in Horstorical Multiplayer. Note your server may have additional rules that must be followed or may change rules detailed in this event."
  GER_fall_rot:0 "§gFall§! §RRot (France)§!"
+ GER_plane_hun2:0 "Disable/Enable Plane LL"
  barbarossa_mission_horst_tt:0 "Bringing the §RSoviets§! to the brink of collapse will greatly boost our morale in the struggle against the international Bolshevist conspiracy opposing us!\n\n§COur Stability will increase by 10% and War Support by 20%!§!"
  barbarossa_mission_horst_sov_tt:0 "If we lose §YMoscow§!, §YLeningrad§!, and §YStalingrad§!, then the §Rfascist dogs§! will gain a new vigor in maintaining their offensive against our great Socialist motherland!"
  prepare_husky:0 "Prepare Operation Husky"
