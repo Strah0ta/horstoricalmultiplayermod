@@ -530,7 +530,7 @@ equipment_modules = {
 		
 		add_stats = {
 			lg_attack = 3
-			build_cost_ic = 150
+			build_cost_ic = 90
 		}
 		
 		multiply_stats = {
@@ -543,7 +543,7 @@ equipment_modules = {
 		
 		can_convert_from = {
 			module_category = ship_secondaries
-			convert_cost_ic = 80
+			convert_cost_ic = 40
 		}
 		critical_parts = { damaged_secondaries }
 	}
@@ -555,7 +555,7 @@ equipment_modules = {
 
 		add_stats = {
 			lg_attack = 4
-			build_cost_ic = 200
+			build_cost_ic = 120
 		}
 		multiply_stats = {
 			naval_speed = -0.02
@@ -567,7 +567,7 @@ equipment_modules = {
 		
 		can_convert_from = {
 			module_category = ship_secondaries
-			convert_cost_ic = 110
+			convert_cost_ic = 60
 		}
 		critical_parts = { damaged_secondaries }
 	}
@@ -579,7 +579,7 @@ equipment_modules = {
 		add_stats = {
 			lg_attack = 4.5
 			anti_air_attack = 2
-			build_cost_ic = 250
+			build_cost_ic = 160
 		}
 
 		multiply_stats = {
@@ -592,7 +592,7 @@ equipment_modules = {
 		
 		can_convert_from = {
 			module_category = ship_secondaries
-			convert_cost_ic = 140
+			convert_cost_ic = 90
 		}
 		critical_parts = { damaged_secondaries }
 	}
@@ -1605,12 +1605,12 @@ equipment_modules = {
 		
 		add_stats = {
 			sub_attack = 12
-			build_cost_ic = 50
+			build_cost_ic = 45
 		}
 
 		can_convert_from = {
 			module_category = ship_depth_charge
-			convert_cost_ic = 25
+			convert_cost_ic = 20
 		}
 
 		multiply_stats = {
@@ -1625,12 +1625,12 @@ equipment_modules = {
 		
 		add_stats = {
 			sub_attack = 16
-			build_cost_ic = 70
+			build_cost_ic = 60
 		}
 
 		can_convert_from = {
 			module_category = ship_depth_charge
-			convert_cost_ic = 40
+			convert_cost_ic = 30
 		}
 
 		multiply_stats = {
@@ -1645,12 +1645,12 @@ equipment_modules = {
 		
 		add_stats = {
 			sub_attack = 20
-			build_cost_ic = 90
+			build_cost_ic = 75
 		}
 
 		can_convert_from = {
 			module_category = ship_depth_charge
-			convert_cost_ic = 50
+			convert_cost_ic = 40
 		}
 
 		multiply_stats = {
@@ -1762,8 +1762,6 @@ equipment_modules = {
 
 	ship_extra_fuel_tank = {
 		category = ship_extra_fuel_tank
-		
-		
 		add_stats = {
 			naval_range = 1000
 		}
