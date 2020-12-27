@@ -3,7 +3,7 @@ sub_units = {
 	light_sp_artillery_brigade = {
 		sprite = light_armor
 		map_icon_category = armored
-		priority = 1811
+		priority = 1211
 		ai_priority = 100
 		active = yes
 		
@@ -64,7 +64,7 @@ sub_units = {
 	medium_sp_artillery_brigade = {
 		sprite = medium_armor
 		map_icon_category = armored
-		priority = 1812
+		priority = 1212
 		ai_priority = 100
 		active = yes
 		
@@ -127,7 +127,7 @@ sub_units = {
 	heavy_sp_artillery_brigade = {
 		sprite = heavy_armor
 		map_icon_category = armored
-		priority = 1813
+		priority = 1213
 		ai_priority = 100
 		active = yes
 		training_time = 90
@@ -191,7 +191,7 @@ sub_units = {
 	super_heavy_sp_artillery_brigade = {
 		sprite = heavy_armor
 		map_icon_category = armored
-		priority = 1814
+		priority = 1214
 		ai_priority = 100
 		active = yes
 		
@@ -256,7 +256,7 @@ sub_units = {
 	modern_sp_artillery_brigade = {
 		sprite = medium_armor
 		map_icon_category = armored
-		priority = 1816
+		priority = 1216
 		ai_priority = 100
 		active = yes
 		

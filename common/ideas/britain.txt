@@ -1054,10 +1054,8 @@ ideas = {
 		
 		yarrow_shipbuilders = {
 			
-			allowed = {
-				original_TAG = ENG
-			}
-						
+			allowed = {	OR = { original_TAG = ENG   original_TAG = USA  }	}
+			cost = 50	
 			research_bonus = {
 				naval_equipment = 0.15
 			}

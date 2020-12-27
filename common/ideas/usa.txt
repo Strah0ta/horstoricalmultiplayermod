@@ -920,7 +920,7 @@ ideas = {
 			
 			
 			allowed = {
-				original_tag = USA
+				OR = { original_TAG = ENG   original_TAG = USA  }
 			}
 			
 

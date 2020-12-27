@@ -2012,7 +2012,26 @@ create_corps_commander = {
 	planning_skill = 5
 	logistics_skill = 5
 }
-
+create_field_marshal = {
+    name = "Shigeru Honjo"
+        picture = "Portrait_Japan_Shigeru_Honjo.dds"
+	traits = { cavalry_leader cavalry_expert old_guard thorough_planner logistics_wizard inspirational_leader organizer } 
+    skill = 7
+	attack_skill = 7
+    defense_skill = 5
+    planning_skill = 6
+    logistics_skill = 6
+}
+create_field_marshal = {
+    name = "Masatane Kanda"
+        picture = "Portrait_Japan_Masatane_Kanda.dds"
+		traits = { trait_cautious cavalry_leader combined_arms_expert thorough_planner offensive_doctrine logistics_wizard organisational_leader organizer } 
+    skill = 7
+	attack_skill = 6
+    defense_skill = 5
+    planning_skill = 6
+    logistics_skill = 7
+}
 create_corps_commander = {
     name = "Otozo Yamada"
        picture = "Portrait_Japan_Otozo_Yamada.dds"
@@ -2054,6 +2073,91 @@ create_corps_commander = {
     planning_skill = 6
     logistics_skill = 5
 }
+
+create_corps_commander = {
+    name = "Hatazo Adachi"
+        picture = "Portrait_Japan_Hatazo_Adachi.dds"
+	traits = { JAP_samurai_lineage trait_reckless desert_fox trait_mountaineer trait_engineer  panzer_leader panzer_expert  }
+	skill = 7
+    attack_skill = 6
+    defense_skill = 5
+    planning_skill = 6
+    logistics_skill = 5
+}
+
+
+create_corps_commander = {
+    name = "Sadao Araki"
+    picture = "Portrait_Japan_Sadao_Araki.dds"
+	traits = { JAP_samurai_lineage  naval_invader naval_liason invader_ii  panzer_leader panzer_expert  }
+	skill = 7
+    attack_skill = 3
+    defense_skill = 5
+    planning_skill = 10
+    logistics_skill = 4
+}
+
+
+
+
+create_corps_commander = {
+    name = "Kiichiro Higuchi"
+        picture = "Portrait_Japan_Kiichiro_Higuchi.dds"
+	traits = { trait_cautious desert_fox trait_mountaineer trickster expert_improviser  infantry_leader infantry_expert  }
+	skill = 7
+    attack_skill = 6
+    defense_skill = 5
+    planning_skill = 6
+    logistics_skill = 5
+}
+
+
+create_corps_commander = {
+    name = "Yoshijiro Umezu"
+        picture = "Portrait_Japan_Yoshijiro_Umezu.dds"
+	traits = { trait_cautious commando skirmisher bearer_of_artillery panzer_leader panzer_expert trickster }
+	skill = 7
+    attack_skill = 6
+    defense_skill = 5
+    planning_skill = 4
+    logistics_skill = 7
+}
+
+create_field_marshal = { 
+    name = "Kenkichi Ueda"
+        picture = "Portrait_Japan_Kenkichi_Ueda.dds"
+	traits = { organizer logistics_wizard thorough_planner trait_reckless  old_guard bearer_of_artillery infantry_leader infantry_expert commando defensive_doctrine organisational_leader   }
+	skill = 7
+    attack_skill = 5
+    defense_skill = 4
+    planning_skill = 7
+    logistics_skill = 6
+}
+
+create_corps_Commander = { 
+    name = "Iwane Matsui"
+        picture = "Portrait_Japan_Iwane_Matsui.dds"
+	traits = { organizer trait_reckless  old_guard bearer_of_artillery infantry_leader trait_mountaineer jungle_rat infantry_expert  trickster expert_improviser   }
+	skill = 7
+    attack_skill = 5
+    defense_skill = 4
+    planning_skill = 7
+    logistics_skill = 6
+}
+
+create_corps_Commander = { #DONE
+    name = "Kuniaki Koiso"
+    picture = "Portrait_Japan_Kuniaki_Koiso.dds"
+	traits = { organizer JAP_samurai_lineage old_guard bearer_of_artillery infantry_leader  ranger urban_assault_specialist infantry_expert fortress_buster  trait_engineer }
+	skill = 7
+    attack_skill = 6
+    defense_skill = 4
+    planning_skill = 6
+    logistics_skill = 6
+}
+
+
+
 
 create_navy_leader = {
 	name = "Isoroku Yamamoto"
@@ -2666,7 +2770,7 @@ SOV = {
 	   create_field_marshal = {
 		name = "Boris Shaposhnikov"
         picture = "Portrait_Soviet_Boris_Shaposhnikov.dds"
-		traits = {  infantry_leader skilled_staffer expert_delegator organizer logistics_wizard  }
+		traits = {  infantry_leader skilled_staffer commando expert_delegator organizer logistics_wizard  }
 		skill = 8
     attack_skill = 5
     defense_skill = 5
@@ -2869,33 +2973,92 @@ create_corps_commander = {
 	planning_skill = 6
 	logistics_skill = 9
 }
-
+create_corps_commander = {
+    name = "Max Reyter"
+    picture = "Portrait_Soviet_Max_Andreyevich.dds"
+	traits = {  desert_fox  trickster expert_improviser  infantry_leader infantry_expert guerilla_fighter  }
+	skill = 8
+    attack_skill = 5
+    defense_skill = 8
+    planning_skill = 4
+    logistics_skill = 8
+}
 create_corps_commander = {
     name = "Kirill Moskalenko"
     picture = "Portrait_Soviet_Kirill_Moskalenko.dds"
 	traits = { trickster guerilla_fighter ambusher panzer_leader panzer_expert trait_mountaineer bearer_of_artillery  }
 	skill = 8
     attack_skill = 10
-    defense_skill = 5
-    planning_skill = 2
-    logistics_skill = 8
+    defense_skill = 6
+    planning_skill = 6
+    logistics_skill = 3
 }
 
 create_field_marshal = {
 	name = "Semyon Budyonny"
 		picture = "Portrait_Soviet_Semyon_Budyonny.dds"
-	traits = {  old_guard commando bearer_of_artillery infantry_leader ranger infantry_expert organizer  }
+	traits = {  old_guard commando bearer_of_artillery defensive_doctrine infantry_leader logistics_wizard organizer  }
+		skill = 8
+	attack_skill = 7
+	defense_skill = 5
+	planning_skill = 7
+	logistics_skill = 6
+}
+
+create_corps_commander = {
+    name = "Rodion Malinovsky"
+    picture = "Portrait_Soviet_Rodion_Malinovsky.dds"
+    traits = { old_guard commando bearer_of_artillery infantry_leader infantry_expert organizer  }
 		skill = 8
 	attack_skill = 5
 	defense_skill = 5
 	planning_skill = 5
 	logistics_skill = 10
 }
-
+create_corps_commander = {
+    name = "Andrei Grechko"
+    picture = "Portrait_Soviet_Andrei_Antonovich_Grechko.dds"
+	traits = { naval_invader naval_liason invader_ii  panzer_leader panzer_expert  }
+	skill = 8
+    attack_skill = 4
+    defense_skill = 5
+    planning_skill = 10
+    logistics_skill = 6
+}
 create_corps_commander = {
     name = "Leonid Govorov"
     picture = "Portrait_Soviet_Leonid_Govorov.dds"
 	traits = { cavalry_leader cavalry_expert ambusher trickster expert_improviser skilled_staffer } 
+    skill = 8
+	attack_skill = 7
+    defense_skill = 5
+    planning_skill = 8
+    logistics_skill = 7
+}
+create_field_marshal = {
+    name = "Nikandr Chibisov"
+    picture = "Portrait_Soviet_Nikandr_Yevlampyevich_Chibisov.dds"
+	traits = { cavalry_leader cavalry_expert thorough_planner logistics_wizard inspirational_leader organizer } 
+    skill = 8
+	attack_skill = 7
+    defense_skill = 5
+    planning_skill = 8
+    logistics_skill = 7
+}
+create_field_marshal = {
+    name = "Filipp Golikov"
+    picture = "Portrait_Soviet_Filipp_Golikov.dds"
+	traits = { cavalry_leader cavalry_expert ambusher defensive_doctrine logistics_wizard organisational_leader organizer } 
+    skill = 8
+	attack_skill = 7
+    defense_skill = 5
+    planning_skill = 8
+    logistics_skill = 7
+}
+create_field_marshal = {
+    name = "Maksim Purkayev"
+    picture = "Portrait_Soviet_Maksim_Purkayev.dds"
+	traits = { cavalry_leader combined_arms_expert thorough_planner offensive_doctrine logistics_wizard organisational_leader organizer } 
     skill = 8
 	attack_skill = 7
     defense_skill = 5
@@ -2927,7 +3090,7 @@ create_corps_commander = {
     name = "Kuzma Galitsky"
     picture = "Portrait_Soviet_Kuzma_Galitsky.dds"
 	traits = { infantry_leader infantry_expert ranger naval_liason  naval_invader trickster guerilla_fighter }
-	skill = 7
+	skill = 8
 	attack_skill = 5
 	defense_skill = 5
 	planning_skill = 8
@@ -3241,6 +3404,17 @@ create_corps_commander = {
 	logistics_skill = 6
 }
 
+create_field_marshal = {
+    name = "Thomas Jacomb Hutton"
+    picture = "Portrait_Britain_Thomas_Jacomb_Hutton.dds"
+	traits = {  old_guard commando bearer_of_artillery defensive_doctrine infantry_leader logistics_wizard organizer  }
+	skill = 7
+	attack_skill = 7
+	defense_skill = 5
+	planning_skill = 5
+	logistics_skill = 5
+}
+
 create_corps_commander = {  #East Africa
     name = "William Platt"
     picture = "Portrait_Britain_William_Platt.dds"
@@ -3294,7 +3468,16 @@ create_corps_commander = {
 	planning_skill = 5
 	logistics_skill = 6
 }
-
+create_corps_commander = {
+ name = "John Vereker Lord Gort" # Aristocrat
+    picture = "Portrait_Britain_John_Vereker.dds"
+	traits = {   trait_cautious naval_invader naval_liason invader_ii  panzer_leader panzer_expert  }
+	skill = 7
+    attack_skill = 3
+    defense_skill = 5
+    planning_skill = 10
+    logistics_skill = 4
+}
 create_corps_commander = {
     name = "Jock Campbell"
     picture = "Portrait_Britain_Jock_Campbell.dds"
@@ -3353,6 +3536,17 @@ create_field_marshal = {
 	logistics_skill = 7
 }
 
+create_field_marshal = {
+    name = "Leslie McNair"
+    picture = "Portrait_USA_Lesley_McNair.dds"
+	traits = {  old_guard panzer_leader panzer_expert trickster thorough_planner  }
+	skill = 7
+	attack_skill = 6
+	defense_skill = 3
+	planning_skill = 6
+	logistics_skill = 7
+}
+
 create_corps_commander = {
 	name = "Lucian Truscott"
 	picture = "Portrait_USA_Lucian_Truscott.dds"
@@ -3385,6 +3579,27 @@ create_field_marshal = {
     planning_skill = 4
     logistics_skill = 6
 }
+
+create_corps_commander = {
+    name = "Geoffrey Keyes"
+    picture = "Portrait_USA_Geoffrey_Keyes.dds"
+	traits = {   naval_invader naval_liason invader_ii  panzer_leader panzer_expert  }
+	skill = 7
+    attack_skill = 3
+    defense_skill = 5
+    planning_skill = 10
+    logistics_skill = 4
+}
+create_field_marshal = {
+    name = "Jonathan Wainwright"
+    picture = "Portrait_USA_Jonathan_Wainwright.dds"
+	traits = { cavalry_leader combined_arms_expert thorough_planner offensive_doctrine logistics_wizard organisational_leader organizer } 
+    skill = 7
+	attack_skill = 6
+    defense_skill = 5
+    planning_skill = 6
+    logistics_skill = 7
+}
 create_corps_commander = {  
     name = "Russell Hartle"
     picture = "Portrait_USA_Russell_P_Hartle.dds"
@@ -3416,7 +3631,36 @@ create_corps_commander = {
 	planning_skill = 5
 	logistics_skill = 6
 }
-
+create_corps_commander = {
+    name = "Leonard Gerow"
+    picture = "Portrait_USA_Leonard_T_Gerow.dds"
+	traits = {  desert_fox  trickster expert_improviser  infantry_leader infantry_expert guerilla_fighter  }
+	skill = 7
+    attack_skill = 5
+    defense_skill = 8
+    planning_skill = 4
+    logistics_skill = 5
+}
+create_field_marshal = {
+    name = "Oscar Griswold"
+    picture = "Portrait_USA_Oscar_Griswold.dds"
+	traits = {  old_guard commando bearer_of_artillery defensive_doctrine infantry_leader logistics_wizard organizer  }
+	skill = 7
+	attack_skill = 7
+	defense_skill = 5
+	planning_skill = 5
+	logistics_skill = 5
+}
+create_field_marshal = {
+    name = "J. Lawton Collins"
+    picture = "Portrait_USA_Lawton_Collins.dds"
+	traits = { cavalry_leader cavalry_expert trickster thorough_planner logistics_wizard inspirational_leader organizer } 
+    skill = 7
+	attack_skill = 7
+    defense_skill = 5
+    planning_skill = 6
+    logistics_skill = 6
+}
 create_corps_commander = {
     name = "Clarence Huebner"
     picture = "Portrait_USA_Clarence_Huebner.dds"
