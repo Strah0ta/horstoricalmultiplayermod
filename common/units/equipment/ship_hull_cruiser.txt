@@ -360,9 +360,9 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					ship_torpedo
-					ship_anti_air
 				}
 			}
+			front_2_custom_slot = front_1_custom_slot
 			mid_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
@@ -371,19 +371,13 @@ equipments = {
 				}
 			}
 			mid_2_custom_slot = mid_1_custom_slot
-			rear_1_custom_slot = {
-				required = no
-				allowed_module_categories = {
-					ship_mine_layer
-					ship_anti_air
-					ship_airplane_launcher
-					ship_torpedo
-				}
-			}
+			mid_3_custom_slot = mid_1_custom_slot
+			rear_1_custom_slot = mid_1_custom_slot
 			rear_2_custom_slot = {
 				required = no
 				allowed_module_categories = {
 					ship_anti_air
+					ship_airplane_launcher
 					ship_depth_charge
 				}
 			}

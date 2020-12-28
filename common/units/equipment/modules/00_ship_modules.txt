@@ -533,9 +533,6 @@ equipment_modules = {
 			build_cost_ic = 90
 		}
 		
-		multiply_stats = {
-			naval_speed = -0.02
-		}
 
 		add_average_stats = {
 			lg_armor_piercing = 1
@@ -556,9 +553,6 @@ equipment_modules = {
 		add_stats = {
 			lg_attack = 4
 			build_cost_ic = 120
-		}
-		multiply_stats = {
-			naval_speed = -0.02
 		}
 		
 		add_average_stats = {
@@ -583,7 +577,7 @@ equipment_modules = {
 		}
 
 		multiply_stats = {
-			naval_speed = -0.03
+			naval_speed = -0.01
 		}
 		
 		add_average_stats = {
