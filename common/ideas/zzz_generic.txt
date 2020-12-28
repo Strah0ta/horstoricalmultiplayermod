@@ -20,6 +20,11 @@ ideas = {
 			removal_cost = -1 
 			modifier = { tank_manufacturer_cost_factor = -1 }
 		}
+		free_naval_designer = {
+			allowed = { always = no }
+			removal_cost = -1 
+			modifier = { naval_manufacturer_cost_factor = -1 }
+		}		
 		operative_slot_added_1 = {
 			allowed = { always = no }
 			removal_cost = -1 
@@ -374,6 +379,7 @@ ideas = {
 								idea = head_of_intelligence 
 								limit = 1
 								ignore = generic_head_of_intelligence
+								ignore = gestapo
 							}
 							# ignore if the other one is already taken
 							has_idea_with_trait = head_of_intelligence

@@ -1211,7 +1211,7 @@ equipment_modules = {
 		add_stats = {
 			naval_speed = 7
 			fuel_consumption = 5
-			build_cost_ic = 1800
+			build_cost_ic = 1200
 		}
 		
 		multiply_stats = {
@@ -1234,7 +1234,7 @@ equipment_modules = {
 		add_stats = {
 			naval_speed = 10
 			fuel_consumption = 6.25
-			build_cost_ic = 2200
+			build_cost_ic = 1500
 		}
 		
 		multiply_stats = {
@@ -1262,7 +1262,7 @@ equipment_modules = {
 		add_stats = {
 			naval_speed = 11
 			fuel_consumption = 7.5
-			build_cost_ic = 2600
+			build_cost_ic = 1800
 		}
 		
 		multiply_stats = {
@@ -1290,7 +1290,7 @@ equipment_modules = {
 		add_stats = {
 			naval_speed = 12
 			fuel_consumption = 8.75
-			build_cost_ic = 3000
+			build_cost_ic = 2100
 		}
 		
 		multiply_stats = {
@@ -1813,7 +1813,7 @@ equipment_modules = {
 		gfx = ship_armor_thick_1
 		
 		multiply_stats = {
-			build_cost_ic = 0.15
+			build_cost_ic = 0.05
 			naval_speed = -0.2
 			max_strength = 0.05
 		}
@@ -1830,6 +1830,7 @@ equipment_modules = {
 		gfx = ship_armor_1
 		
 		multiply_stats = {
+			build_cost_ic = -0.1
 			naval_speed = -0.1
 			max_strength = 0.05
 		}
@@ -1846,7 +1847,7 @@ equipment_modules = {
 		gfx = ship_armor_thick_2
 		
 		multiply_stats = {
-			build_cost_ic = 0.15
+			build_cost_ic = 0.05
 			naval_speed = -0.2
 			max_strength = 0.1
 		}
@@ -1863,6 +1864,7 @@ equipment_modules = {
 		gfx = ship_armor_2
 		
 		multiply_stats = {
+			build_cost_ic = -0.1
 			naval_speed = -0.1
 			max_strength = 0.1
 		}
@@ -1878,7 +1880,7 @@ equipment_modules = {
 		gfx = ship_armor_thick_3
 		
 		multiply_stats = {
-			build_cost_ic = 0.15
+			build_cost_ic = 0.05
 			naval_speed = -0.2
 			max_strength = 0.15
 		}
@@ -1895,6 +1897,7 @@ equipment_modules = {
 		gfx = ship_armor_3
 		
 		multiply_stats = {
+			build_cost_ic = -0.1
 			naval_speed = -0.1
 			max_strength = 0.15
 		}
@@ -1911,7 +1914,7 @@ equipment_modules = {
 		gfx = ship_armor_thick_3
 		
 		multiply_stats = {
-			build_cost_ic = 0.2
+			build_cost_ic = 0.1
 			naval_speed = -0.25
 			max_strength = 0.1
 		}
@@ -1928,7 +1931,7 @@ equipment_modules = {
 		gfx = ship_armor_thin_1
 		
 		multiply_stats = {
-			build_cost_ic = 0.06
+			build_cost_ic = 0.4 
 			naval_speed = -0.05
 		}
 		dismantle_cost_ic = 2500
@@ -1942,7 +1945,7 @@ equipment_modules = {
 		gfx = ship_armor_thin_2
 		
 		multiply_stats = {
-			build_cost_ic = 0.09
+			build_cost_ic = 0.06
 			naval_speed = -0.075
 			max_strength = 0.05
 		}
@@ -1957,7 +1960,7 @@ equipment_modules = {
 		gfx = ship_armor_thin_3
 		
 		multiply_stats = {
-			build_cost_ic = 0.12
+			build_cost_ic = 0.08
 			naval_speed = -0.1
 			max_strength = 0.1
 		}
@@ -1972,7 +1975,7 @@ equipment_modules = {
 		gfx = ship_armor_thin_4
 		
 		multiply_stats = {
-			build_cost_ic = 0.15
+			build_cost_ic = 0.10
 			naval_speed = -0.125
 			max_strength = 0.15
 		}

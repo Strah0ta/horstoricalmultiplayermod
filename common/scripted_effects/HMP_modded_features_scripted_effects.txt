@@ -36,8 +36,12 @@ if = { limit = { NOT = { has_idea = operative_slot_added_1 }} add_ideas = operat
 }
 
 make_tank_designers_free = {
-	if = { limit = { NOT = { has_country_flag = nation_picked_tank_designer }} 	ROOT = { add_ideas = free_tank_designer }	}
+	if = { limit = { NOT = { has_country_flag = nation_picked_tank_designer }} 	ROOT = { add_ideas = free_tank_designer set_country_flag = nation_picked_tank_designer }	}
 }
+make_naval_designers_free = {
+	if = { limit = { NOT = { has_country_flag = nation_picked_naval_designer }} 	ROOT = { add_ideas = free_naval_designer set_country_flag = nation_picked_naval_designer }	}
+}
+
 
 FRA_legitimacy_casualties_counter = {
 	set_temp_variable = { AXIScasualtiesk = 0 }

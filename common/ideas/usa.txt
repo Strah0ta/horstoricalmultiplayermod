@@ -904,7 +904,8 @@ ideas = {
 	available = {
 
 			}
-			
+								on_add = { hidden_effect = { make_naval_designers_free = yes } }
+		
 			research_bonus = {
 				naval_equipment = 0.15
 			}
@@ -928,7 +929,8 @@ ideas = {
 			research_bonus = {
 				naval_equipment = 0.15
 			}
-			
+									on_add = { hidden_effect = { make_naval_designers_free = yes } }
+	
 			traits = { raiding_fleet_naval_manufacturer }
 						cost = 50
 
@@ -944,7 +946,8 @@ ideas = {
 			}
 			
 
-			
+								on_add = { hidden_effect = { make_naval_designers_free = yes } }
+		
 			research_bonus = {
 				naval_equipment = 0.15
 			}
@@ -962,7 +965,8 @@ ideas = {
 			allowed = {
 				original_tag = USA
 			}
-			
+									on_add = { hidden_effect = { make_naval_designers_free = yes } }
+	
 
 			
 			research_bonus = {

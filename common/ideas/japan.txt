@@ -591,7 +591,8 @@ ideas = {
 			research_bonus = {
 				naval_equipment = 0.15
 			}
-			
+											on_add = { hidden_effect = { make_naval_designers_free = yes } }
+
 			traits = { battlefleet_designer } # built Yamato
 
 		}
@@ -608,6 +609,7 @@ ideas = {
 			
 			traits = { pacific_fleet_naval_manufacturer } #built best CVs
 			cost = 50
+								on_add = { hidden_effect = { make_naval_designers_free = yes } }
 
 			equipment_bonus = {
 				# 
@@ -624,6 +626,7 @@ ideas = {
 				naval_equipment = 0.15
 			}
 						cost = 50
+								on_add = { hidden_effect = { make_naval_designers_free = yes } }
 
 			traits = { convoy_escort_naval_manufacturer } #destroyer R&D
 
@@ -641,7 +644,8 @@ ideas = {
 			available = {
 
 			}
-			
+										on_add = { hidden_effect = { make_naval_designers_free = yes } }
+	
 			research_bonus = {
 				naval_equipment = 0.15
 			}
