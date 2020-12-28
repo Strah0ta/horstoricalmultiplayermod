@@ -830,10 +830,12 @@ leader_traits = {
 			capital_ship = {
 				armor_value = 0.15 
 				hg_attack = 0.15
+				naval_speed = 0.15
 			}
 			screen_ship = {
-				torpedo_attack = 0.25
-				sub_detection = -0.25
+				torpedo_attack = 0.2
+				naval_speed = 0.2
+				sub_detection = -0.2
 			}
 		}
 	}
