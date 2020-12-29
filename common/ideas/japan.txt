@@ -122,7 +122,6 @@ ideas = {
 			modifier = {
 				war_support_factor = 0.2
 				mobilization_laws_cost_factor = -0.25
-				research_speed_factor = -0.05
 			}
 		}
 		
@@ -225,7 +224,7 @@ ideas = {
 
 			picture = jap_supremacy_of_technology
 			
-			modifier = { research_speed_factor = 0.2 }
+			modifier = { research_speed_factor = 0.25 }
 		}
 
 		JAP_superior_will = {
