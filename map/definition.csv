@@ -1048,7 +1048,7 @@
 1047;5;39;145;land;true;urban;6
 1048;5;39;190;land;false;plains;1
 1049;5;39;248;sea;false;ocean;0
-1050;5;40;232;sea;false;ocean;0
+1050;5;40;232;sea;true;ocean;0
 1051;5;42;5;land;true;hills;6
 1052;5;42;155;land;true;plains;6
 1053;5;42;210;land;false;plains;6

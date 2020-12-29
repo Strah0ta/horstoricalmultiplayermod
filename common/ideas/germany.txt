@@ -28,7 +28,7 @@ ideas = {
 			allowed_civil_war = {	always = yes	}
 			picture = generic_fascism_drift_2
 			modifier = {
-				consumer_goods_factor = -0.18
+				consumer_goods_factor = -0.11
 			}
 		}
 			GER_totaler_krieg_idea2 = {
@@ -885,7 +885,7 @@ ideas = {
 			allowed = {
 				OR = { original_tag = GER original_tag = ITA } 
 			}
-			on_add = { hidden_effect = { make_tank_designers_free = yes } }
+			on_add = { hidden_effect = { make_naval_designers_free = yes } }
 			research_bonus = {
 				naval_equipment = 0.15
 			}
@@ -905,7 +905,7 @@ ideas = {
 			allowed = {
 				OR = { original_tag = GER original_tag = ITA } 
 			}
-			on_add = { hidden_effect = { make_tank_designers_free = yes } }
+			on_add = { hidden_effect = { make_naval_designers_free = yes } }
 			research_bonus = {
 				naval_equipment = 0.15
 			}

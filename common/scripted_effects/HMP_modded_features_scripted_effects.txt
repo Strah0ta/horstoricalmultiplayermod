@@ -61,11 +61,11 @@ HMP_ger_total_mob_1 = yes
 HMP_ger_total_mob_1 = yes 
 HMP_ger_total_mob_1 = yes 
 HMP_ger_total_mob_1 = yes 
-HMP_ger_total_mob_1 = yes 
-HMP_ger_total_mob_1 = yes 
-HMP_ger_total_mob_1 = yes 
-HMP_ger_total_mob_1 = yes 
-HMP_ger_total_mob_1 = yes 
+#HMP_ger_total_mob_1 = yes 
+#HMP_ger_total_mob_1 = yes 
+#HMP_ger_total_mob_1 = yes 
+#HMP_ger_total_mob_1 = yes 
+#HMP_ger_total_mob_1 = yes 
 }
 
 tp_divs_out_of_france = { every_state = { limit = { is_core_of = FRA } teleport_armies = {limit = { original_tag = FRA } to_state = 5139 } } }
