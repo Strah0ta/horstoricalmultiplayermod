@@ -777,6 +777,7 @@ ideas = {
 			allowed = {	original_tag = GER	}
 			available = {	has_government = fascism	}
 			traits = { reichs_prop }
+			cost = 100
 		}
 		
 		rudolf_hess = {
