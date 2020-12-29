@@ -1439,6 +1439,8 @@ SOV = { transfer_state = 147 add_state_core = 147 transfer_state = 146 add_state
 HMP_script_spain = {
 	JAP = { army_experience = 400 }
 	SOV = { army_experience = 300 }	
+	ENG = { add_ideas = partial_economic_mobilisation add_war_support = 0.1  add_political_power = -250 }
+	RAJ = { add_ideas = partial_economic_mobilisation add_war_support = 0.1  add_political_power = -250 }
 	SPR = { add_ideas = SPR_cg_debuff add_threat = 3 }	
 }
 
@@ -4916,11 +4918,19 @@ transfer_state = 510
 ###CENTRAL AFRICA - BELGIAN CONGO###
 if = { limit = { FRA = { check_variable = { FRA_legitimacy 	> 59 } } }
 FRA = { 
+complete_national_focus = FRA_continue_the_fight
 			transfer_state = 295 
 			transfer_state = 280 
 			transfer_state = 538 
 			}
 }
+if = { limit = { FRA = { check_variable = { FRA_legitimacy 	> 79 } } }
+	FRA = {  complete_national_focus = FRA_refus_absurde complete_national_focus = FRA_appeal_to_the_french_nation	}
+}
+if = { limit = { FRA = { check_variable = { FRA_legitimacy 	> 99 } } }
+	FRA = {  complete_national_focus = FRA_national_council_of_the_resistance complete_national_focus = FRA_appeal_to_overseas_territories	}
+}
+
 recalc_vichy_france_legitimacy = yes 
 delete_unit_template_and_units = { division_template = "Division Légère de Cavalerie" }
 delete_unit_template_and_units = { division_template = "Divisions Légères Mécaniques" }

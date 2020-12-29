@@ -2170,7 +2170,7 @@ AST = {
 					transfer_troops = yes 
 				}	
                 set_cosmetic_tag = NZL_AUSTRALIA		
-			AST = {
+			AST = {  
 				remove_state_core = 178
 				remove_state_core = 519
 				remove_state_core = 522
@@ -2188,14 +2188,6 @@ AST = {
 		}
 	}
 	
-			fp_attache = {
-				icon = generic_form_nation
-				cost = 100
-				allowed = {  OR = { tag = GER tag = ENG tag = FRA tag = USA tag = CAN tag = SAF tag = RAJ tag = NOR tag = MAN } }
-				available = { command_power > 49.99 date < 1939.9.1 }			
-				fire_only_once = yes	
-				complete_effect  = {	add_ideas = fp_attache_idea 	}
-		}	
 		GER_plane_hun = {
 	allowed = {	 original_tag = ITA	} 
 		icon = generic_naval
@@ -3483,15 +3475,12 @@ lar_local_recruitment = {
 							exists = yes
 							has_capitulated = yes
 							NOT = { tag = ROOT }
-							normally_played_country = yes
 						}
 					}
 					AND = {
 						is_capital = yes
 						CONTROLLER = {
-							NOT = {
-								tag = ROOT
-							}
+							NOT = { OR = { is_in_faction_with = ROOT tag = ROOT tag = AUS tag = CZE tag = POL tag = CHI tag = LAT tag = SWE tag = PER tag = DEN tag = HOL tag = BEL tag = GRE tag = YUG }}
 						}
 					}
 				}

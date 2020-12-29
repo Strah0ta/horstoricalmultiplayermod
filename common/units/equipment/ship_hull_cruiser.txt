@@ -69,7 +69,11 @@ equipments = {
 			category = ship_anti_air
 			count < 4
 		}		
-		
+			module_count_limit = {
+			category = ship_secondaries
+			count < 3
+		}		
+			
 		module_count_limit = {
 			category = ship_radar
 			count < 2

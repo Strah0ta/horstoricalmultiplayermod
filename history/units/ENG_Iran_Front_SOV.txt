@@ -13,122 +13,122 @@
 
 units = { 
 	division= {	
-		location = 12333
+		location = 2000
 		division_template = "Countenance Infantry"
 		start_experience_factor = 0.3
 	}
 		division= {	
-		location = 12333
+		location = 2000
 		division_template = "Countenance Infantry"
 		start_experience_factor = 0.3
 	}
 		division= {	
-		location = 12333
+		location = 2000
 		division_template = "Countenance Infantry"
 		start_experience_factor = 0.3
 	}
 		division= {	
-		location = 12333
+		location = 2000
 		division_template = "Countenance Infantry"
 		start_experience_factor = 0.3
 	}
 		division= {	
-		location = 12333
+		location = 4580
 		division_template = "Countenance Infantry"
 		start_experience_factor = 0.3
 	}
 		division= {	
-		location = 12333
+		location = 4580
 		division_template = "Countenance Infantry"
 		start_experience_factor = 0.3
 	}
 		division= {	
-		location = 12333
+		location = 4580
 		division_template = "Countenance Infantry"
 		start_experience_factor = 0.3
 	}
 		division= {	
-		location = 12333
+		location = 4580
 		division_template = "Countenance Infantry"
 		start_experience_factor = 0.3
 	}
 		division= {	
-		location = 12333
+		location = 7602
 		division_template = "Countenance Infantry"
 		start_experience_factor = 0.3
 	}
 		division= {	
-		location = 12333
+		location = 7602
 		division_template = "Countenance Infantry"
 		start_experience_factor = 0.3
 	}
 		division= {	
-		location = 12333
+		location = 7602
 		division_template = "Countenance Infantry"
 		start_experience_factor = 0.3
 	}
 		division= {	
-		location = 12333
+		location = 7602
 		division_template = "Countenance Infantry"
 		start_experience_factor = 0.3
 	}
 		division= {	
-		location = 12333
+		location = 10351
 		division_template = "Countenance Infantry"
 		start_experience_factor = 0.3
 	}
 		division= {	
-		location = 12333
+		location = 10351
 		division_template = "Countenance Infantry"
 		start_experience_factor = 0.3
 	}
 		division= {	
-		location = 12333
+		location = 10351
 		division_template = "Countenance Infantry"
 		start_experience_factor = 0.3
 	}
 		division= {	
-		location = 12333
+		location = 10351
 		division_template = "Countenance Infantry"
 		start_experience_factor = 0.3
 	}
 		division= {	
-		location = 12333
+		location = 1521
 		division_template = "Countenance Infantry"
 		start_experience_factor = 0.3
 	}
 		division= {	
-		location = 12333
+		location = 1521
 		division_template = "Countenance Infantry"
 		start_experience_factor = 0.3
 	}
 		division= {	
-		location = 12333
+		location = 1521
 		division_template = "Countenance Infantry"
 		start_experience_factor = 0.3
 	}
 		division= {	
-		location = 12333
+		location = 1521
 		division_template = "Countenance Infantry"
 		start_experience_factor = 0.3
 	}
 		division= {	
-		location = 12333
+		location = 7491
 		division_template = "Countenance Infantry"
 		start_experience_factor = 0.3
 	}
 		division= {	
-		location = 12333
+		location = 7491
 		division_template = "Countenance Infantry"
 		start_experience_factor = 0.3
 	}
 		division= {	
-		location = 12333
+		location = 7491
 		division_template = "Countenance Infantry"
 		start_experience_factor = 0.3
 	}
 		division= {	
-		location = 12333
+		location = 7491
 		division_template = "Countenance Infantry"
 		start_experience_factor = 0.3
 	}

@@ -816,7 +816,7 @@ transfer_state = 38
 				not = { has_dlc = "Man the Guns" }
 			}
 		}
-		cost = 10
+		cost = 5
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -833,7 +833,7 @@ transfer_state = 38
 		y = 1
 		prerequisite = { focus = USA_war_department }
 		relative_position_id = USA_war_department
-		cost = 10
+		cost = 5
 
 		available = {
 			if = {
@@ -868,7 +868,7 @@ transfer_state = 38
 				add_political_power = 150
 			}
 			
-				set_war_support = 0.1
+				set_war_support = 0.2
 				
 			if = {
 				limit = {

@@ -130,15 +130,13 @@
 3314;6336;sea;2752;2885;1578;2890;1581;;Afsluitdijk
 
 
-1822;5014;impassable;-1;-1;-1;-1;-1;; IRAN 
-1822;6826;impassable;-1;-1;-1;-1;-1;; IRAN 
-1822;4943;impassable;-1;-1;-1;-1;-1;; IRAN 
-12861;4943;impassable;-1;-1;-1;-1;-1;; IRAN 
-2071;4943;impassable;-1;-1;-1;-1;-1;; IRAN 
-2071;9816;impassable;-1;-1;-1;-1;-1;; IRAN 
-2071;10523;impassable;-1;-1;-1;-1;-1;; IRAN 
-4553;10523;impassable;-1;-1;-1;-1;-1;; IRAN 
-4553;7969;impassable;-1;-1;-1;-1;-1;; IRAN 
+1822;7604;impassable;-1;-1;-1;-1;-1;; IRAN 
+4553;4609;impassable;-1;-1;-1;-1;-1;; IRAN 
+4553;4901;impassable;-1;-1;-1;-1;-1;; IRAN 
+4553;12793;impassable;-1;-1;-1;-1;-1;; IRAN 
+2071;12793;impassable;-1;-1;-1;-1;-1;; IRAN 
+12861;12793;impassable;-1;-1;-1;-1;-1;; IRAN 
+12861;1896;impassable;-1;-1;-1;-1;-1;; IRAN 
 4609;7969;impassable;-1;-1;-1;-1;-1;; IRAN 
 4637;7969;impassable;-1;-1;-1;-1;-1;; IRAN 
 4580;7969;impassable;-1;-1;-1;-1;-1;; IRAN 
