@@ -19,301 +19,397 @@
 }
 	units = {
 		division = {
-		start_equipment_factor = 0.01 start_experience_factor = 0.4
+		start_equipment_factor = 0.1 start_experience_factor = 0.4
 		name = "AI AT Spawn In"
 		location = 165
 		division_template = "AI AT Spawn In"
 		 	}
 		division = {
-		start_equipment_factor = 0.01 start_experience_factor = 0.4
+		start_equipment_factor = 0.1 start_experience_factor = 0.4
 		name = "AI AT Spawn In"
 		location = 165
 		division_template = "AI AT Spawn In"
 		 	}
 		division = {
-		start_equipment_factor = 0.01 start_experience_factor = 0.4
+		start_equipment_factor = 0.1 start_experience_factor = 0.4
 		name = "AI AT Spawn In"
 		location = 165
 		division_template = "AI AT Spawn In"
 		 	}
 		division = {
-		start_equipment_factor = 0.01 start_experience_factor = 0.4
+		start_equipment_factor = 0.1 start_experience_factor = 0.4
 		name = "AI AT Spawn In"
 		location = 165
 		division_template = "AI AT Spawn In"
 		 	}
 		division = {
-		start_equipment_factor = 0.01 start_experience_factor = 0.4
+		start_equipment_factor = 0.1 start_experience_factor = 0.4
 		name = "AI AT Spawn In"
 		location = 165
 		division_template = "AI AT Spawn In"
 		 	}
 		division = {
-		start_equipment_factor = 0.01 start_experience_factor = 0.4
+		start_equipment_factor = 0.1 start_experience_factor = 0.4
 		name = "AI AT Spawn In"
 		location = 165
 		division_template = "AI AT Spawn In"
 		 	}
 		division = {
-		start_equipment_factor = 0.01 start_experience_factor = 0.4
+		start_equipment_factor = 0.1 start_experience_factor = 0.4
 		name = "AI AT Spawn In"
 		location = 165
 		division_template = "AI AT Spawn In"
 		 	}
 		division = {
-		start_equipment_factor = 0.01 start_experience_factor = 0.4
+		start_equipment_factor = 0.1 start_experience_factor = 0.4
 		name = "AI AT Spawn In"
 		location = 165
 		division_template = "AI AT Spawn In"
 		 	}
 		division = {
-		start_equipment_factor = 0.01 start_experience_factor = 0.4
+		start_equipment_factor = 0.1 start_experience_factor = 0.4
+		name = "AI AT Spawn In"
+		location = 165
+		division_template = "AI AT Spawn In"
+		 	}
+					division = {
+		start_equipment_factor = 0.1 start_experience_factor = 0.4
 		name = "AI AT Spawn In"
 		location = 165
 		division_template = "AI AT Spawn In"
 		 	}
 		division = {
-		start_equipment_factor = 0.01 start_experience_factor = 0.4
+		start_equipment_factor = 0.1 start_experience_factor = 0.4
 		name = "AI AT Spawn In"
 		location = 165
 		division_template = "AI AT Spawn In"
 		 	}
 		division = {
-		start_equipment_factor = 0.01 start_experience_factor = 0.4
+		start_equipment_factor = 0.1 start_experience_factor = 0.4
 		name = "AI AT Spawn In"
 		location = 165
 		division_template = "AI AT Spawn In"
 		 	}
 		division = {
-		start_equipment_factor = 0.01 start_experience_factor = 0.4
+		start_equipment_factor = 0.1 start_experience_factor = 0.4
 		name = "AI AT Spawn In"
 		location = 165
 		division_template = "AI AT Spawn In"
 		 	}
 		division = {
-		start_equipment_factor = 0.01 start_experience_factor = 0.4
+		start_equipment_factor = 0.1 start_experience_factor = 0.4
 		name = "AI AT Spawn In"
 		location = 165
 		division_template = "AI AT Spawn In"
 		 	}
 		division = {
-		start_equipment_factor = 0.01 start_experience_factor = 0.4
+		start_equipment_factor = 0.1 start_experience_factor = 0.4
 		name = "AI AT Spawn In"
 		location = 165
 		division_template = "AI AT Spawn In"
 		 	}
 		division = {
-		start_equipment_factor = 0.01 start_experience_factor = 0.4
+		start_equipment_factor = 0.1 start_experience_factor = 0.4
 		name = "AI AT Spawn In"
 		location = 165
 		division_template = "AI AT Spawn In"
 		 	}
 		division = {
-		start_equipment_factor = 0.01 start_experience_factor = 0.4
+		start_equipment_factor = 0.1 start_experience_factor = 0.4
+		name = "AI AT Spawn In"
+		location = 165
+		division_template = "AI AT Spawn In"
+		 	}
+					division = {
+		start_equipment_factor = 0.1 start_experience_factor = 0.4
 		name = "AI AT Spawn In"
 		location = 165
 		division_template = "AI AT Spawn In"
 		 	}
 		division = {
-		start_equipment_factor = 0.01 start_experience_factor = 0.4
+		start_equipment_factor = 0.1 start_experience_factor = 0.4
 		name = "AI AT Spawn In"
 		location = 165
 		division_template = "AI AT Spawn In"
 		 	}
 		division = {
-		start_equipment_factor = 0.01 start_experience_factor = 0.4
+		start_equipment_factor = 0.1 start_experience_factor = 0.4
 		name = "AI AT Spawn In"
 		location = 165
 		division_template = "AI AT Spawn In"
 		 	}
 		division = {
-		start_equipment_factor = 0.01 start_experience_factor = 0.4
+		start_equipment_factor = 0.1 start_experience_factor = 0.4
 		name = "AI AT Spawn In"
 		location = 165
 		division_template = "AI AT Spawn In"
 		 	}
 		division = {
-		start_equipment_factor = 0.01 start_experience_factor = 0.4
+		start_equipment_factor = 0.1 start_experience_factor = 0.4
 		name = "AI AT Spawn In"
 		location = 165
 		division_template = "AI AT Spawn In"
 		 	}
 		division = {
-		start_equipment_factor = 0.01 start_experience_factor = 0.4
+		start_equipment_factor = 0.1 start_experience_factor = 0.4
 		name = "AI AT Spawn In"
 		location = 165
 		division_template = "AI AT Spawn In"
 		 	}
 		division = {
-		start_equipment_factor = 0.01 start_experience_factor = 0.4
+		start_equipment_factor = 0.1 start_experience_factor = 0.4
+		name = "AI AT Spawn In"
+		location = 165
+		division_template = "AI AT Spawn In"
+		 	}
+		division = {
+		start_equipment_factor = 0.1 start_experience_factor = 0.4
+		name = "AI AT Spawn In"
+		location = 165
+		division_template = "AI AT Spawn In"
+		 	}
+		division = {
+		start_equipment_factor = 0.1 start_experience_factor = 0.4
+		name = "AI AT Spawn In"
+		location = 165
+		division_template = "AI AT Spawn In"
+		 	}
+		division = {
+		start_equipment_factor = 0.1 start_experience_factor = 0.4
+		name = "AI AT Spawn In"
+		location = 165
+		division_template = "AI AT Spawn In"
+		 	}
+		division = {
+		start_equipment_factor = 0.1 start_experience_factor = 0.4
+		name = "AI AT Spawn In"
+		location = 165
+		division_template = "AI AT Spawn In"
+		 	}
+		division = {
+		start_equipment_factor = 0.1 start_experience_factor = 0.4
+		name = "AI AT Spawn In"
+		location = 165
+		division_template = "AI AT Spawn In"
+		 	}
+		division = {
+		start_equipment_factor = 0.1 start_experience_factor = 0.4
+		name = "AI AT Spawn In"
+		location = 165
+		division_template = "AI AT Spawn In"
+		 	}
+		division = {
+		start_equipment_factor = 0.1 start_experience_factor = 0.4
+		name = "AI AT Spawn In"
+		location = 165
+		division_template = "AI AT Spawn In"
+		 	}
+		division = {
+		start_equipment_factor = 0.1 start_experience_factor = 0.4
+		name = "AI AT Spawn In"
+		location = 165
+		division_template = "AI AT Spawn In"
+		 	}
+		division = {
+		start_equipment_factor = 0.1 start_experience_factor = 0.4
+		name = "AI AT Spawn In"
+		location = 165
+		division_template = "AI AT Spawn In"
+		 	}
+		division = {
+		start_equipment_factor = 0.1 start_experience_factor = 0.4
+		name = "AI AT Spawn In"
+		location = 165
+		division_template = "AI AT Spawn In"
+		 	}
+		division = {
+		start_equipment_factor = 0.1 start_experience_factor = 0.4
+		name = "AI AT Spawn In"
+		location = 165
+		division_template = "AI AT Spawn In"
+		 	}
+		division = {
+		start_equipment_factor = 0.1 start_experience_factor = 0.4
+		name = "AI AT Spawn In"
+		location = 165
+		division_template = "AI AT Spawn In"
+		 	}
+		division = {
+		start_equipment_factor = 0.1 start_experience_factor = 0.4
+		name = "AI AT Spawn In"
+		location = 165
+		division_template = "AI AT Spawn In"
+		 	}
+		division = {
+		start_equipment_factor = 0.1 start_experience_factor = 0.4
 		name = "AI AT Spawn In"
 		location = 165
 		division_template = "AI AT Spawn In"
 	}
 		division = {
-		start_equipment_factor = 0.01 start_experience_factor = 0.4
+		start_equipment_factor = 0.1 start_experience_factor = 0.4
 		name = "AI AT Spawn In"
 		location = 165
 		division_template = "AI AT Spawn In"
 		 	}
 		division = {
-		start_equipment_factor = 0.01 start_experience_factor = 0.4
+		start_equipment_factor = 0.1 start_experience_factor = 0.4
 		name = "AI AT Spawn In"
 		location = 165
 		division_template = "AI AT Spawn In"
 		 	}
 		division = {
-		start_equipment_factor = 0.01 start_experience_factor = 0.4
+		start_equipment_factor = 0.1 start_experience_factor = 0.4
 		name = "AI AT Spawn In"
 		location = 165
 		division_template = "AI AT Spawn In"
 		 	}
 		division = {
-		start_equipment_factor = 0.01 start_experience_factor = 0.4
+		start_equipment_factor = 0.1 start_experience_factor = 0.4
 		name = "AI AT Spawn In"
 		location = 165
 		division_template = "AI AT Spawn In"
 		 	}
 		division = {
-		start_equipment_factor = 0.01 start_experience_factor = 0.4
+		start_equipment_factor = 0.1 start_experience_factor = 0.4
 		name = "AI AT Spawn In"
 		location = 165
 		division_template = "AI AT Spawn In"
 		 	}
 		division = {
-		start_equipment_factor = 0.01 start_experience_factor = 0.4
+		start_equipment_factor = 0.1 start_experience_factor = 0.4
 		name = "AI AT Spawn In"
 		location = 165
 		division_template = "AI AT Spawn In"
 		 	}
 		division = {
-		start_equipment_factor = 0.01 start_experience_factor = 0.4
+		start_equipment_factor = 0.1 start_experience_factor = 0.4
 		name = "AI AT Spawn In"
 		location = 165
 		division_template = "AI AT Spawn In"
 		 	}
 		division = {
-		start_equipment_factor = 0.01 start_experience_factor = 0.4
+		start_equipment_factor = 0.1 start_experience_factor = 0.4
 		name = "AI AT Spawn In"
 		location = 165
 		division_template = "AI AT Spawn In"
 		 	}
 		division = {
-		start_equipment_factor = 0.01 start_experience_factor = 0.4
+		start_equipment_factor = 0.1 start_experience_factor = 0.4
 		name = "AI AT Spawn In"
 		location = 165
 		division_template = "AI AT Spawn In"
 		 	}
 		division = {
-		start_equipment_factor = 0.01 start_experience_factor = 0.4
+		start_equipment_factor = 0.1 start_experience_factor = 0.4
 		name = "AI AT Spawn In"
 		location = 165
 		division_template = "AI AT Spawn In"
 		 	}
 		division = {
-		start_equipment_factor = 0.01 start_experience_factor = 0.4
+		start_equipment_factor = 0.1 start_experience_factor = 0.4
 		name = "AI AT Spawn In"
 		location = 165
 		division_template = "AI AT Spawn In"
 		 	}
 		division = {
-		start_equipment_factor = 0.01 start_experience_factor = 0.4
+		start_equipment_factor = 0.1 start_experience_factor = 0.4
 		name = "AI AT Spawn In"
 		location = 165
 		division_template = "AI AT Spawn In"
 		 	}
 		division = {
-		start_equipment_factor = 0.01 start_experience_factor = 0.4
+		start_equipment_factor = 0.1 start_experience_factor = 0.4
 		name = "AI AT Spawn In"
 		location = 165
 		division_template = "AI AT Spawn In"
 		 	}
 		division = {
-		start_equipment_factor = 0.01 start_experience_factor = 0.4
+		start_equipment_factor = 0.1 start_experience_factor = 0.4
 		name = "AI AT Spawn In"
 		location = 165
 		division_template = "AI AT Spawn In"
 		 	}
 		division = {
-		start_equipment_factor = 0.01 start_experience_factor = 0.4
+		start_equipment_factor = 0.1 start_experience_factor = 0.4
 		name = "AI AT Spawn In"
 		location = 165
 		division_template = "AI AT Spawn In"
 		 	}
 		division = {
-		start_equipment_factor = 0.01 start_experience_factor = 0.4
+		start_equipment_factor = 0.1 start_experience_factor = 0.4
 		name = "AI AT Spawn In"
 		location = 165
 		division_template = "AI AT Spawn In"
 		 	}
 		division = {
-		start_equipment_factor = 0.01 start_experience_factor = 0.4
+		start_equipment_factor = 0.1 start_experience_factor = 0.4
 		name = "AI AT Spawn In"
 		location = 165
 		division_template = "AI AT Spawn In"
 		 	}
 		division = {
-		start_equipment_factor = 0.01 start_experience_factor = 0.4
+		start_equipment_factor = 0.1 start_experience_factor = 0.4
 		name = "AI AT Spawn In"
 		location = 165
 		division_template = "AI AT Spawn In"
 		 	}
 		division = {
-		start_equipment_factor = 0.01 start_experience_factor = 0.4
+		start_equipment_factor = 0.1 start_experience_factor = 0.4
 		name = "AI AT Spawn In"
 		location = 165
 		division_template = "AI AT Spawn In"
 		 	}
 		division = {
-		start_equipment_factor = 0.01 start_experience_factor = 0.4
+		start_equipment_factor = 0.1 start_experience_factor = 0.4
 		name = "AI AT Spawn In"
 		location = 165
 		division_template = "AI AT Spawn In"
 		 	}
 		division = {
-		start_equipment_factor = 0.01 start_experience_factor = 0.4
+		start_equipment_factor = 0.1 start_experience_factor = 0.4
 		name = "AI AT Spawn In"
 		location = 165
 		division_template = "AI AT Spawn In"
 		 	}
 		division = {
-		start_equipment_factor = 0.01 start_experience_factor = 0.4
+		start_equipment_factor = 0.1 start_experience_factor = 0.4
 		name = "AI AT Spawn In"
 		location = 165
 		division_template = "AI AT Spawn In"
 		 	}
 		division = {
-		start_equipment_factor = 0.01 start_experience_factor = 0.4
+		start_equipment_factor = 0.1 start_experience_factor = 0.4
 		name = "AI AT Spawn In"
 		location = 165
 		division_template = "AI AT Spawn In"
 		 	}
 		division = {
-		start_equipment_factor = 0.01 start_experience_factor = 0.4
+		start_equipment_factor = 0.1 start_experience_factor = 0.4
 		name = "AI AT Spawn In"
 		location = 165
 		division_template = "AI AT Spawn In"
 		 	}
 		division = {
-		start_equipment_factor = 0.01 start_experience_factor = 0.4
+		start_equipment_factor = 0.1 start_experience_factor = 0.4
 		name = "AI AT Spawn In"
 		location = 165
 		division_template = "AI AT Spawn In"
 		 	}
 		division = {
-		start_equipment_factor = 0.01 start_experience_factor = 0.4
+		start_equipment_factor = 0.1 start_experience_factor = 0.4
 		name = "AI AT Spawn In"
 		location = 165
 		division_template = "AI AT Spawn In"
 		 	}
 		division = {
-		start_equipment_factor = 0.01 start_experience_factor = 0.4
+		start_equipment_factor = 0.1 start_experience_factor = 0.4
 		name = "AI AT Spawn In"
 		location = 165
 		division_template = "AI AT Spawn In"
 		 	}
 		division = {
-		start_equipment_factor = 0.01 start_experience_factor = 0.4
+		start_equipment_factor = 0.1 start_experience_factor = 0.4
 		name = "AI AT Spawn In"
 		location = 165
 		division_template = "AI AT Spawn In"

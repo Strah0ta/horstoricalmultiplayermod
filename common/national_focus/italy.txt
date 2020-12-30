@@ -973,7 +973,7 @@ date > 1941.6.1
 			 country_event = { id = italy.1 }
 			transfer_state = 44
 					add_state_claim = 44
-			add_named_threat = { threat = 2 name = ITA_albania_war_goal }
+			add_named_threat = { threat = 1 name = ITA_albania_war_goal }
 			44 = { set_compliance = 80 }
 		}
 	} 
@@ -1006,7 +1006,7 @@ date > 1941.6.1
 								instant_build = yes
 							}
 						}							
-			add_threat = 7
+			add_threat = 8
 		}
 	}
 

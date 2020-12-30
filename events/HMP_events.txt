@@ -1187,7 +1187,7 @@ country_event = {
    
       option = {
    name = "The War expands."
-		if = { limit = { EFR = { NOT = { has_country_flag = EFR_torch_declared }  } } country_event = { id = italy.3525 } country_event = { id = italy.3524 days = 30 }     }
+		if = { limit = { EFR = { NOT = { has_country_flag = EFR_torch_declared }  } } country_event = { id = italy.3525 } country_event = { id = italy.3524 days = 20 }     }
    }
    }
    
