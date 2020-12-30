@@ -21,6 +21,7 @@ owner = ENG
 add_core_of=SWE
 buildings = {
 infrastructure = 5
+air_base = 8
 12002 = { naval_base = 5 }
 }
 }

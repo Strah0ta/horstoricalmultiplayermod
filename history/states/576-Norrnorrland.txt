@@ -4,8 +4,8 @@ name="Sweden"
 manpower = 1
 resources={
 tungsten=25
-steel= 137
-chromium = 60
+steel= 87
+chromium = 40
 aluminium = 52
 }
 impassable = yes

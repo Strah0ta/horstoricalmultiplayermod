@@ -15,7 +15,7 @@
 	}
 
 	
-	default = no
+	default = no 
 	focus = {
 		id = FRA_devalue_the_franc
 		icon = GFX_focus_fra_devalue_the_franc
@@ -1186,6 +1186,14 @@ recalc_vichy_france_legitimacy = yes
 		available_if_capitulated = yes
 		search_filters = { FOCUS_FILTER_MANPOWER }
 		completion_reward = {
+		556 = { add_state_modifier = { modifier = { local_manpower = 0.75 } } } 
+		445 = { add_state_modifier = { modifier = { local_manpower = 0.75 } } } 
+		277 = { add_state_modifier = { modifier = { local_manpower = 0.75 } } } 
+		510 = { add_state_modifier = { modifier = { local_manpower = 0.75 } } } 
+		538 = { add_state_modifier = { modifier = { local_manpower = 0.75 } } } 
+		280 = { add_state_modifier = { modifier = { local_manpower = 0.75 } } } 
+		295 = { add_state_modifier = { modifier = { local_manpower = 0.75 } } } 
+
 			add_ideas = { FRA_colonial_recruitment }
 		}
 	}

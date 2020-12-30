@@ -215,6 +215,12 @@ destroy_ships = { type = submarine count = all }
 }
 
 
+#resistance_support_low
+#resistance_support_moderate
+#resistance_support_high 
+#resistance_support_max
+
+
 SPR_relocate_civ = {
     SPR = {
 	     random_owned_controlled_state={

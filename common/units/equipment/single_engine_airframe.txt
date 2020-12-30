@@ -318,7 +318,7 @@ equipments = {
 		air_range = 1800
 		maximum_speed = 777.6
 		air_agility = 92
-		air_attack = 46 #was 38.4 increased by 20%
+		air_attack = 51 #was 38.4 increased by 20%
 		air_defence = 14	
 		
 		build_cost_ic = 84
@@ -347,7 +347,7 @@ equipments = {
 		air_attack = 43.2
 		air_defence = 15
 		
-		build_cost_ic = 80
+		build_cost_ic = 84
 		resources = {
 			aluminium = 5
 			rubber = 1
@@ -372,7 +372,7 @@ equipments = {
 		air_attack = 48
 		air_defence = 18
 
-		build_cost_ic = 85.3
+		build_cost_ic = 86
 		resources = {
 			aluminium = 6
 			rubber = 1
@@ -464,7 +464,7 @@ equipments = {
 		maximum_speed =	631.8
 		air_agility = 90
 		air_attack = 32.4
-		air_defence = 19 
+		air_defence = 20
 		
 		build_cost_ic = 78
 		resources = {
