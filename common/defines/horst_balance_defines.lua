@@ -37,6 +37,7 @@ NDefines.NMilitary.PARACHUTE_PENALTY_RANDOMNESS = 0			   -- Random factor for st
 NDefines.NMilitary.PARACHUTE_DISRUPTED_AA_PENALTY = 0            -- How much the Air defence in the state (from AA buildings level * air_defence) is scaled to affect overall disruption (equipment,manpower,str).
 -----------------------------------------------------------
 
+NDefines.NBuildings.RADAR_INTEL_EFFECT = 160			-- Province covered by radar increases intel by 10 (where 255 is max). Province may be covered by multiple radars, then the value sums up.
 
 NDefines.NAir.EFFICIENCY_REGION_CHANGE_PENALTY_FACTOR = 1				-- Penalty applied for changing region
 NDefines.NAir.EFFICIENCY_REGION_CHANGE_DAILY_GAIN_CAS = 1			-- How much efficiency to regain per day. Gain applied hourly.

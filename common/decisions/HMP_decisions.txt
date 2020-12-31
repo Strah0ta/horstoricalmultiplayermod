@@ -576,8 +576,8 @@ every_country = {
 		visible = {	NOT = { FRA = { owns_state = 16 }}  check_variable = { FRA.FRA_legitimacy < 100 }	}
 		cost = 50
 		complete_effect = {
-		custom_effect_tooltip = "French Legitimacy will increase by 10"
-			add_to_variable =  { var = FRA.FRA_legitimacy value = 10 }
+		custom_effect_tooltip = "French Legitimacy will increase by 10 or by 20 in No Asia"
+			add_to_variable =  { var = FRA.FRA_legitimacy value = 10 }  if = { limit = { has_start_date > 1936.01.02 }  add_to_variable =  { var = FRA.FRA_legitimacy value = 10 }   }
 		}
 	}
 		joint_training_exercise = {
@@ -1402,8 +1402,6 @@ hidden_effect = {
 		complete_effect = {
 		random_unit_leader = {
                 limit = { has_id = 983 }
-				add_unit_leader_trait = fleet_protector
-				add_unit_leader_trait = destroyer_leader
 				add_unit_leader_trait = green_water_expert
 				add_unit_leader_trait = concealment_expert
             }
@@ -1886,7 +1884,8 @@ create_corps_commander = {
         cost = 100
         fire_only_once = yes     
         days_remove = -1
-        modifier = {   research_speed_factor = 0.05   stability_factor = -0.05   }
+        modifier = {   research_speed_factor = 0.05    } 
+		complete_effect = { add_stability = -0.05 }
     }
     give_refuge_ita = {
     	icon = generic_research
@@ -1894,7 +1893,8 @@ create_corps_commander = {
         cost = 100
         fire_only_once = yes
         days_remove = -1
-        modifier = {   research_speed_factor = 0.05    stability_factor = -0.05   }
+        modifier = {   research_speed_factor = 0.05   }
+		complete_effect = { add_stability = -0.05 }
     }
 
     anti_fascist_raids = {

@@ -803,6 +803,7 @@ focus_tree = {
 		available_if_capitulated = yes
 		
 		completion_reward = {		
+							 if = { limit = { NOT = { has_idea = macchi }} ITA = {add_ideas = macchi add_political_power = -50  } }
 					if = { limit = { NOT = { has_idea = messerschmitt }} add_ideas = messerschmitt add_political_power = -50  }
 			set_technology = { fighter2 = 1 } 	set_technology = { heavy_fighter2 = 1 }
 	add_equipment_production = {
@@ -886,7 +887,7 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = GER_long_range_escorts
-				bonus = 3.0
+				bonus = 2
 				uses = 1
 				category = cat_heavy_fighter
 			}
@@ -1024,6 +1025,7 @@ focus_tree = {
 		completion_reward = { 
 			add_ideas = GER_air_innovations_2_idea
 					if = { limit = { NOT = { has_idea = messerschmitt }} add_ideas = messerschmitt add_political_power = -50  }
+							 if = { limit = { NOT = { has_idea = macchi }} ITA = {add_ideas = macchi add_political_power = -50  } }
 			set_technology = { fighter3 = 1 } set_technology = { heavy_fighter3 = 1 } 
 			# Balance research bonus to next tech among radio, radio_detection, decimetric_radar, improved_decimetric_radar, centimetric_radar, improved_centimetric_radar, advanced_centimetric_radar
 			add_tech_bonus = {

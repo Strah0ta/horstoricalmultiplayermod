@@ -714,6 +714,7 @@ leader_traits = {
 		type = navy
 		sub_unit_modifiers = {
 			destroyer = {
+				naval_visibility = -0.1
 				naval_damage_factor = 0.1
 				naval_torpedo_hit_chance_factor = 0.1
 			}

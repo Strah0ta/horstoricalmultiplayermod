@@ -128,11 +128,10 @@ hidden = yes
 		name =  horsthelp.2.a	
 		every_country = {
 			limit = {is_in_faction_with = GER}
-				if = { limit = { country_exists = JAP } JAP = { share_intel_with_allies=yes } }
-				if = { limit = { country_exists = MAN } MAN = { share_intel_with_allies=yes } }
-				if = { limit = { country_exists = EFR } EFR = { share_intel_with_allies=yes } }
-				 FIN = { share_intel_with_allies=yes } 
-				
+			if = { limit = { country_exists = JAP } JAP = { share_intel_with_allies=yes } }
+			if = { limit = { country_exists = MAN } MAN = { share_intel_with_allies=yes } }
+			FIN = { share_intel_with_allies=yes } 
+			NOR = { share_intel_with_allies=yes } 
 			}
 		every_country = {
 			limit = {is_in_faction_with = ENG}
