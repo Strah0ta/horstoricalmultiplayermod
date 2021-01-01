@@ -21,8 +21,7 @@ state={
 			air_base = 4
 		}
 		add_core_of = POL
-				add_extra_state_shared_building_slots = 1
-	}
+		}
 
 	provinces={
 		402 467 524 3482 3544 6511 9400 11492 12562 

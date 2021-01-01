@@ -17,8 +17,8 @@ foreign_civilian_oversight = {
 	default_law = yes
 	starting_law = yes
 	state_modifier = {
-		resistance_target 				= -0.15
-		compliance_gain 			= 0.005
+		resistance_target 	= -0.15
+		compliance_gain 	= 0.03 
 	}	
 }
 secret_police_oversight = {
@@ -27,10 +27,8 @@ secret_police_oversight = {
 		available = { NOT = { tag = EFR }}
 	state_modifier = {
 		resistance_target 				= -0.25
-		compliance_gain 				=  -0.045
-		resistance_damage_to_garrison 	= -0.25
 		enemy_operative_detection_chance_over_occupied_tag = 1 # offset detection chance by +1%
-		enemy_intel_network_gain_factor_over_occupied_tag = -0.25 # -25% scaled by the number of occupied states and the ratio of the network covering those occupied states
+		enemy_intel_network_gain_factor_over_occupied_tag = -0.35 # -25% scaled by the number of occupied states and the ratio of the network covering those occupied states
 	}
 }
 military_governor_occupation = {
@@ -39,23 +37,7 @@ military_governor_occupation = {
 		available = { NOT = { tag = EFR }}
 	state_modifier = {
 		resistance_target 			= -0.35
-		compliance_gain 			= -0.045
+		compliance_gain 			= -0.025
 		local_manpower 				= 0.08
-	}
-}
-harsh_quotas_occupation = {
-	icon = 9
-	sound_effect = "Martial_Law_Interface_Harsh_Quotas_Occupation"	
-			available = { NOT = { tag = EFR }}
-	state_modifier = {
-		resistance_target 				= -0.4
-		compliance_gain 				= -0.12	
-		required_garrison_factor 		= 0.3
-		resistance_damage_to_garrison 	= 0.50		
-		local_factories 				= 0.35
-		repair_speed_infrastructure_factor 	= 0.5
-		repair_speed_arms_factory_factor = 0.5
-		repair_speed_industrial_complex_factor = 0.5
-		custom_modifier_tooltip = "factory_sabotage_decrease_tooltip"
 	}
 }

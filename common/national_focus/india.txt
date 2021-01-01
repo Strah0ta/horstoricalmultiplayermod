@@ -1150,7 +1150,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = RAJ_ishapore_arsenal
 
-		cost = 5
+		cost = 10
 
 		available = {
 		has_autonomy_state = autonomy_dominion		
@@ -1162,42 +1162,17 @@ focus_tree = {
 
 		completion_reward = {
 			438 = {
-				add_extra_state_shared_building_slots = 2
+				add_extra_state_shared_building_slots = 11
 				add_building_construction = {
 					type = arms_factory
-					level = 2
+					level = 5
 					instant_build = yes
 				}
-			}
-		}
-	}
-
-	focus = {
-		id = RAJ_british_rail_investors
-		icon = GFX_goal_generic_construct_civ_factory
-		prerequisite = { focus = RAJ_strengthen_ties_with_british_investors }
-		x = -1
-		y = 2
-		relative_position_id = RAJ_ishapore_arsenal
-
-		cost = 10
-
-		available = {
-			has_autonomy_state = autonomy_dominion	
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			438 = {
-				add_extra_state_shared_building_slots = 6
 				add_building_construction = {
 					type = industrial_complex
 					level = 6
 					instant_build = yes
-				}
+				}			
 			}
 		}
 	}
@@ -1222,12 +1197,7 @@ focus_tree = {
 
 		completion_reward = {
 						438 = {
-				add_extra_state_shared_building_slots = 3
-				add_building_construction = {
-					type = arms_factory
-					level = 3
-					instant_build = yes
-				}
+
 			}
 		}
 	}

@@ -21,12 +21,8 @@ ideas = {
 					}
 				}
 			}
-			
 			removal_cost = -1
-			
 			traits = { popular_figurehead }
-			
-
 		}
 
 		ENG_king_edward = {

@@ -262,7 +262,7 @@ instant_effect = {
 			type = gw_armored_car_equipment
 			creator = "GER" 
 		}
-		requested_factories = 15
+		requested_factories = 2
 		progress = 0.4
 		efficiency = 50
 	}
@@ -290,7 +290,7 @@ instant_effect = {
 			type = motorized_equipment_1
 			creator = "GER" 
 		}
-		requested_factories = 8
+		requested_factories = 10
 		progress = 0.4
 		efficiency = 50
 	}

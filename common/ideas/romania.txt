@@ -673,7 +673,7 @@ ideas = {
 			
 			picture = generic_air_europe_3
 			
-			traits = { air_strategic_bombing_2 }
+			traits = { air_strategic_bombing_2  }
 
 		}
 	}

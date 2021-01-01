@@ -111,7 +111,7 @@ ideas = {
 			picture = generic_production_bonus
 			modifier = {
 				production_speed_buildings_factor = 0.25
-				consumer_goods_factor = -0.02
+				consumer_goods_factor = -0.05
 			}
 		}
 	

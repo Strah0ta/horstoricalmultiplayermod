@@ -10,31 +10,14 @@ scripted_gui = {
 			}
 		}	
 		effects = {
-		
 			observer_click = {
-			owner = {
-				set_temp_variable = { ROOT.marks = this}
-				DDR = {change_tag_from =var:marks}	
-			}			
+				owner = { set_temp_variable = { ROOT.marks = this}	DDR = {change_tag_from =var:marks}	}			
 			}
 			
 			addpp_click = {
 				owner={
 					set_temp_variable = { ROOT.marks = this}
-					
-					var:marks = {
-						add_political_power = 50
-						news_event = { id = news.4002 }
-					}
-				}
-			}
-		
-			whitepeace_click  = {owner={
-				set_temp_variable = { ROOT.marks = this}
-				var:marks = {
-					declare_war_on = { target = SWE }
-           				 every_enemy_country = { white_peace = PREV }
-					}
+					var:marks = { add_political_power = 50 news_event = { id = news.4002 } }
 				}
 			}
 		
@@ -50,18 +33,20 @@ scripted_gui = {
 			
 			add_cheat_click = {
 				set_variable = { ROOT.taker = this}
-				var:taker = {owner={set_variable={Root.target_country = this}
-				if={limit={check_variable={Root.selected_cheat=1}} generic_bonus_1 = yes }
-				if={limit={check_variable={Root.selected_cheat=2}} generic_bonus_3 = yes }
-				if={limit={check_variable={Root.selected_cheat=3}} generic_bonus_2y = yes }
-				if={limit={check_variable={Root.selected_cheat=4}} generic_bonus_999 = yes }
-				 }}
+				var:taker = {
+				owner={set_variable={Root.target_country = this}
+					if={limit={check_variable={Root.selected_cheat=1}} generic_bonus_1 = yes }
+					if={limit={check_variable={Root.selected_cheat=2}} generic_bonus_3 = yes }
+					if={limit={check_variable={Root.selected_cheat=3}} generic_bonus_2y = yes }
+					if={limit={check_variable={Root.selected_cheat=4}} generic_bonus_999 = yes }
+					}
+				}
 				GER={
 					set_variable={this.target_country=Root.target_country}
 					set_variable={this.selected_cheat=Root.selected_cheat}
 					news_event={id=horsttool.1}
-					}
-				clear_variable =ROOT.taker
+				}
+				clear_variable = ROOT.taker
 			}
 			
 			toogle_mark_click = {
@@ -75,25 +60,20 @@ scripted_gui = {
 				set_variable={ROOT.first_marked_state=ROOT.marked_states^0}
 			}				
 		
-			horsttool_helpbutton_click = {		ROOT = { country_event = { id =  horsthelp.2 } }	     }
-			
-			####Thrasy you put everything in here that happens when you click the button. Look at others for examples -milky
-			cheat1_click={if={limit={Root={has_country_flag=cheating}} set_variable={Root.selected_cheat=1} ROOT={clr_country_flag=cheating}} else={ROOT={set_country_flag=cheating}}	}
-			cheat2_click={set_variable={Root.selected_cheat=2} ROOT={clr_country_flag=cheating}}
-			cheat3_click={set_variable={Root.selected_cheat=3} ROOT={clr_country_flag=cheating}}
-			cheat4_click={set_variable={Root.selected_cheat=4} ROOT={clr_country_flag=cheating}}
-		}
-			properties = {
-			toogle_mark={
-				frame = mark_status
+			horsttool_helpbutton_click = { ROOT = { country_event = { id =  horsthelp.2 } } }
+				####Thrasy you put everything in here that happens when you click the button. Look at others for examples -milky
+				cheat1_click={if={limit={Root={has_country_flag=cheating}} set_variable={Root.selected_cheat=1} ROOT={clr_country_flag=cheating}} else={ROOT={set_country_flag=cheating}}	}
+				cheat2_click={set_variable={Root.selected_cheat=2} ROOT={clr_country_flag=cheating}}
+				cheat3_click={set_variable={Root.selected_cheat=3} ROOT={clr_country_flag=cheating}}
+				cheat4_click={set_variable={Root.selected_cheat=4} ROOT={clr_country_flag=cheating}}
 			}
-		}
+			properties = {
+				toogle_mark={ frame = mark_status }
+			}
 		
 		triggers = {
 			observer_click_enabled = {owner = { is_ai=no}	}	
 			observer_visible = {	}		
-			whitepeace_enabled = {	}			
-			whitepeace_visible = {		}
 			add_cheat_click_enabled = {check_variable={Root.selected_cheat>0}}
 			cheat1_visible={}
 			cheat1_text_visible={}

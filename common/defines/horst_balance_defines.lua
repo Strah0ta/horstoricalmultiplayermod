@@ -6,6 +6,10 @@ NDefines.NMilitary.LAND_AIR_COMBAT_ORG_DAMAGE_MODIFIER = 0.096  -- vanilla 0.04 
 NDefines.NMilitary.MAX_DIVISION_SUPPORT_HEIGHT = 6
 NDefines.NMilitary.MAX_DIVISION_BRIGADE_HEIGHT = 6		-- Max height of regiments in division designer	
 -------------------------------------------------------------------------------------------------------------------------------------------
+
+--NDefines.NMilitary.ARMOR_VS_AVERAGE = 0			                -- SamDavies asked me to test this   how to weight in highest armor & pen vs the division average
+
+
 NDefines.NMilitary.ANTI_AIR_ATTACK_TO_AMOUNT = 0.0015 				-- WAS 0.005 | Lowered because vanilla CAS shootdown rates are too high and IC inefficient, but I don't want to buff CAS or air in any other way either ~Thrasymachus | Balancing value to convert equipment stat anti_air_attack to the random % value of airplanes being hit.
 NDefines.NMilitary.EXPERIENCE_COMBAT_FACTOR = 0.1       -- WAS 0.25 | Turns out that no Russian volunteers to Spain leads to at least 15 veteran +75% heavy tanks at barb every game that kill nearly every Russia player in less than 3 months. Just wait until Germany players manage to get 30 vet heavies by using minors more
 NDefines.NMilitary.MAX_NAVY_EXPERIENCE = 0             -- WAS 500
@@ -83,9 +87,9 @@ NDefines.NProduction.CAPITULATE_STOCKPILES_RATIO = 0.01 -- How much equipment fr
 NDefines.NProduction.CAPITULATE_FUEL_RATIO = 1 -- How much fuel will be transferred on capitulation
 
 ---------------------------------------------------------------
-NDefines.NCountry.LOCAL_MANPOWER_ACCESSIBLE_NON_CORE_FACTOR = 0.2  -- vanilla 0.02, changed due to resistance changes, allies would get 100% compliance and 20% non-core pop with the old define anyways, so this changes nothing    accessible recruitable factor base
 NDefines.NCountry.REINFORCEMENT_MANPOWER_DELIVERY_SPEED = 30.0	-- vanilla 10 Modifier for army manpower reinforcement delivery speed (travel time)
-NDefines.NCountry.EQUIPMENT_UPGRADE_CHUNK_MAX_SIZE = 1000			-- vanilla 10  Maximum chunk size of equipment upgrade distribution per update.
+NDefines.NCountry.REINFORCEMENT_MANPOWER_CHUNK = 0.2            -- vanilla 0.1
+NDefines.NCountry.EQUIPMENT_UPGRADE_CHUNK_MAX_SIZE = 100			-- vanilla 10  Maximum chunk size of equipment upgrade distribution per update.
 NDefines.NCountry.REINFORCEMENT_EQUIPMENT_DELIVERY_SPEED = 0.7      -- vanilla 0.3 
 NDefines.NCountry.UNCAPITULATE_LEVEL = 1                       -- VANILLA 0.1 if we reclaim this much and our capital we reset capitulate status
 NDefines.NCountry.SPECIAL_FORCES_CAP_MIN = 4200						-- up from 24 | You can have a minimum of this many special forces battalions, regardless of the number of non-special forces battalions you have, this can also be modified by a country modifier
@@ -109,12 +113,12 @@ NDefines.NResistance.MANPOWER_BUFFER_TO_NOT_GIVE_MAJOR = 0 -- To determine how m
 NDefines.NResistance.MAX_GARRISON_RATIO_WE_AGREE_TO_SUPPORT = 0	-- The part of the manpower needed by the foreign garrison, that AI will agree to support with our manpower. If negative number, AI will not take into consideration the need, and just calculate how much they can give.
 NDefines.NResistance.GARRISON_LOG_MAX_MONTHS = 3            -- WAS 12 
 NDefines.NResistance.COMPLIANCE_DECAY_AT_MAX_COMPLIANCE = -0.08 -- as compliance increases, it gets a decay rate depending on its value. compliance should stabilize at some value until its growth changes
-NDefines.NResistance.COMPLIANCE_GROWTH_BASE = 0.08 -- base compliance grow
+NDefines.NResistance.COMPLIANCE_GROWTH_BASE = 0.12 -- base compliance grow
 NDefines.NResistance.RESISTANCE_TARGET_MODIFIER_OCCUPIED_IS_EXILE_MIN = 0   -- WAS 2, REMOVED TO SUPPORT MORE INTERSTING UK DECISIONS | min & max resistance target modifier resistance target modifier for exile countries. interpolated using legitimacy
 NDefines.NResistance.RESISTANCE_TARGET_MODIFIER_OCCUPIED_IS_EXILE_MAX = 0	-- WAS 20, REMOVED TO SUPPORT MORE INTERSTING UK DECISIONS |
 NDefines.NResistance.RESISTANCE_TARGET_BASE = 50							-- WAS 35, INCREASED AS RESISTANCE FROM GiE WAS REMOVED | base resistance target percentage
 NDefines.NResistance.INITIAL_HISTORY_COMPLIANCE = 100
-NDefines.NResistance.SUPPRESSION_NEEDED_BY_RESISTANCE_POINT = 1.1  -- VANILLA 0.75
+NDefines.NResistance.SUPPRESSION_NEEDED_BY_RESISTANCE_POINT = 0.1  -- VANILLA 0.75
 NDefines.NResistance.GARRISON_EQUIPMENT_LOST_BY_ATTACK = 0.04 	-- VANILLA 0.02 Ratio of equipment lost by garrison at each attack on garrison (this number will be reduced by the hardness of garrison template)
 NDefines.NResistance.GARRISON_MANPOWER_LOST_BY_ATTACK = 0.036 	-- VANILLA 0.018 Ratio of manpower lost by garrison at each attack on garrison (this number will be reduced by the hardness of garrison template)
 NDefines.NResistance.SUPPRESSION_NEEDED_LOWER_CAP = 1	-- VANILLA 10 -- if resistance is lower than this value then we always act as though it is at the define for the purpose of suppresion requirements

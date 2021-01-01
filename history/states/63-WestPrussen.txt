@@ -11,11 +11,6 @@ state={
 	state_category = city
 
 	history={
-					1936.1.2 = { 
-				buildings = {
-			industrial_complex = 4 
-			}
-		}
 		owner = GER
 		victory_points = {
 			6282 5
@@ -25,8 +20,8 @@ state={
 		}
 		buildings = {
 			infrastructure = 6
-			industrial_complex = 5
-			arms_factory = 3 
+			industrial_complex = 3
+			arms_factory = 1 
 			11372 = {
 				naval_base = 1
 			}

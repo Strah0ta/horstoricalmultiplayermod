@@ -329,10 +329,6 @@ focus_tree = {
 				remove_idea = JAP_zaibatsus
 				add_idea = JAP_guide_the_zaibatsus
 			}
-			every_state = { 
-			limit = { is_core_of = JAP}
-			add_state_modifier = { modifier = { local_building_slots_factor = 0.1  } }
-			}
 		}
 	}
 

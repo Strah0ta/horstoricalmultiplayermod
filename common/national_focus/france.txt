@@ -804,8 +804,8 @@
 	focus = {
 		id = FRA_appeal_to_the_french_nation
 		icon = GFX_goal_generic_propaganda
-		x = 15
-		y = 5
+		x = 16
+		y = 3
 		offset = {
 			x = 0
 			y = 0
@@ -1186,15 +1186,13 @@ recalc_vichy_france_legitimacy = yes
 		available_if_capitulated = yes
 		search_filters = { FOCUS_FILTER_MANPOWER }
 		completion_reward = {
-		556 = { add_state_modifier = { modifier = { local_manpower = 0.75 } } } 
-		445 = { add_state_modifier = { modifier = { local_manpower = 0.75 } } } 
-		277 = { add_state_modifier = { modifier = { local_manpower = 0.75 } } } 
-		510 = { add_state_modifier = { modifier = { local_manpower = 0.75 } } } 
-		538 = { add_state_modifier = { modifier = { local_manpower = 0.75 } } } 
-		280 = { add_state_modifier = { modifier = { local_manpower = 0.75 } } } 
-		295 = { add_state_modifier = { modifier = { local_manpower = 0.75 } } } 
-
-			add_ideas = { FRA_colonial_recruitment }
+			556 = { add_state_modifier = { modifier = { local_manpower = 0.90 } } } 
+			445 = { add_state_modifier = { modifier = { local_manpower = 0.90 } } } 
+			277 = { add_state_modifier = { modifier = { local_manpower = 0.90 } } } 
+			510 = { add_state_modifier = { modifier = { local_manpower = 0.90 } } } 
+			538 = { add_state_modifier = { modifier = { local_manpower = 0.90 } } } 
+			280 = { add_state_modifier = { modifier = { local_manpower = 0.90 } } } 
+			295 = { add_state_modifier = { modifier = { local_manpower = 0.90 } } } 
 		}
 	}
 	focus = {
@@ -1223,53 +1221,13 @@ recalc_vichy_france_legitimacy = yes
 	}
 
 	focus = {
-		id = FRA_refus_absurde
-		icon = GFX_goal_generic_demand_territory
-		x = 12
-		y = 5
-
-		cost = 5
-
-		available = { check_variable = {  FRA_legitimacy > 40  }  
-					custom_trigger_tooltip = {
-					tooltip = "Has at least 40 legitimacy"
-					check_variable = { FRA_legitimacy > 40 }
-				}
-		}
-
-
-		available_if_capitulated = yes
-		completion_reward = {
-			remove_ideas = FRA_defeatism 
-		}
-	}
-	
-	focus = {
-		id = FRA_national_council_of_the_resistance
-		icon = GFX_focus_focus_fra_national_resistance_council
-		x = 1
-		y = 1
-
-		prerequisite = { 	focus = FRA_refus_absurde }
-		relative_position_id = FRA_refus_absurde
-		
-		cost = 5
-
-	
-		available_if_capitulated = yes
-
-		completion_reward = {
-				add_ideas = FRA_national_council_of_the_resistance
-		}
-	}
-	focus = {
 		id = FRA_national_uprising
 		icon = GFX_goal_generic_dangerous_deal
-		x = -1
+		x = 0
 		y = 1
 
-		prerequisite = { 	focus = FRA_refus_absurde	}
-		relative_position_id = FRA_refus_absurde
+		prerequisite = { 	focus = FRA_form_the_provisional_government_of_the_republic	}
+		relative_position_id = FRA_form_the_provisional_government_of_the_republic
 		
 		cost = 5
 

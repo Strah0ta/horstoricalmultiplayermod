@@ -6,7 +6,7 @@
 						infantry = { x = 0 y = 2 } infantry = { x = 1 y = 2 } infantry = { x = 2 y = 2 }
 						infantry = { x = 0 y = 3 }
 					}
-					support = { engineer = { x = 0 y = 0 } anti_air = { x = 0 y = 1 } artillery = { x = 0 y = 2 }  rocket_artillery = { x = 0 y = 3 } anti_tank = { x = 0 y = 4 } logistics_company = { x = 0 y = 5 }  }
+					support = { engineer = { x = 0 y = 0 } anti_air = { x = 0 y = 1 } artillery = { x = 0 y = 2 }  anti_tank = { x = 0 y = 3 } logistics_company = { x = 0 y = 4 }  }
 				}
 				
 			division_template = {
@@ -23,12 +23,12 @@
 						division_template = {
 					name = "Gibraltar/Cyprus Garrison"
 					regiments = {
-						mountaineers = { x = 0 y = 0 } mountaineers = { x = 1 y = 0 } rocket_artillery_brigade = { x = 2 y = 0 }
-						mountaineers = { x = 0 y = 1 } mountaineers = { x = 1 y = 1 } rocket_artillery_brigade = { x = 2 y = 1 }
+						mountaineers = { x = 0 y = 0 } mountaineers = { x = 1 y = 0 } artillery_brigade = { x = 2 y = 0 }
+						mountaineers = { x = 0 y = 1 } mountaineers = { x = 1 y = 1 } artillery_brigade = { x = 2 y = 1 }
 						mountaineers = { x = 0 y = 2 } mountaineers = { x = 1 y = 2 }
 						mountaineers = { x = 0 y = 3 }
 					}
-					support = {  anti_air = { x = 0 y = 0 } artillery = { x = 0 y = 1 } engineer = { x = 0 y = 2 } rocket_artillery = { x = 0 y = 3 }  anti_tank = { x = 0 y = 4 }  logistics_company = { x = 0 y = 5 }              }
+					support = {  anti_air = { x = 0 y = 0 } artillery = { x = 0 y = 1 } engineer = { x = 0 y = 2 }  anti_tank = { x = 0 y = 3 }  logistics_company = { x = 0 y = 4 }              }
 				}
 					
 	division_template = {
@@ -70,11 +70,11 @@
 				division_names_group = ENG_INF_01
 
 				regiments = {
-						infantry = { x = 0 y = 0 } infantry = { x = 1 y = 0 } infantry = { x = 2 y = 0 } rocket_artillery_brigade = { x = 3 y = 0 }
-						infantry = { x = 0 y = 1 } infantry = { x = 1 y = 1 } infantry = { x = 2 y = 1 } rocket_artillery_brigade = { x = 3 y = 1 }
+						infantry = { x = 0 y = 0 } infantry = { x = 1 y = 0 } infantry = { x = 2 y = 0 } artillery_brigade = { x = 3 y = 0 }
+						infantry = { x = 0 y = 1 } infantry = { x = 1 y = 1 } infantry = { x = 2 y = 1 } artillery_brigade = { x = 3 y = 1 }
 						anti_tank_brigade = { x = 0 y = 2 }  anti_tank_brigade = { x = 1 y = 2 }  								
 				}
-			support = { engineer = { x = 0 y = 0 } anti_air = { x = 0 y = 1 } artillery = { x = 0 y = 2 }  rocket_artillery = { x = 0 y = 3 } anti_tank = { x = 0 y = 4 } logistics_company = { x = 0 y = 5 }  }
+			support = { engineer = { x = 0 y = 0 } anti_air = { x = 0 y = 1 } artillery = { x = 0 y = 2 }  anti_tank = { x = 0 y = 3 } logistics_company = { x = 0 y = 4 }  }
 		}				
 
 
@@ -105,7 +105,6 @@ units = {
 		start_experience_factor = 0.3
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_2 = { owner = "ENG" } }
-		force_equipment_variants = { rocket_artillery_equipment_1 = { owner = "ENG" } }
 		}
 		division= {	
 		location = 10795
@@ -113,7 +112,6 @@ units = {
 		start_experience_factor = 0.3
 		force_equipment_variants = { 	infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_2 = { owner = "ENG" } }
-		force_equipment_variants = { rocket_artillery_equipment_1 = { owner = "ENG" } }
 		}		
 		division= {	
 		location = 10795
@@ -121,7 +119,6 @@ units = {
 		start_experience_factor = 0.3
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_2 = { owner = "ENG" } }
-		force_equipment_variants = { rocket_artillery_equipment_1 = { owner = "ENG" } }
 		}		
 			division= {	
 		location = 10795
@@ -129,7 +126,6 @@ units = {
 		start_experience_factor = 0.3
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_2 = { owner = "ENG" } }
-		force_equipment_variants = { rocket_artillery_equipment_1 = { owner = "ENG" } }
 		}	
 			division= {	
 		location = 10795
@@ -137,7 +133,6 @@ units = {
 		start_experience_factor = 0.3
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_2 = { owner = "ENG" } }
-		force_equipment_variants = { rocket_artillery_equipment_1 = { owner = "ENG" } }
 		}	
 			division= {	
 		location = 10795
@@ -145,7 +140,6 @@ units = {
 		start_experience_factor = 0.3
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_2 = { owner = "ENG" } }
-		force_equipment_variants = { rocket_artillery_equipment_1 = { owner = "ENG" } }
 		}	
 			division= {	
 		location = 10795
@@ -153,7 +147,6 @@ units = {
 		start_experience_factor = 0.3
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_2 = { owner = "ENG" } }
-		force_equipment_variants = { rocket_artillery_equipment_1 = { owner = "ENG" } }
 		}	
 			division= {	
 		location = 10795
@@ -161,7 +154,6 @@ units = {
 		start_experience_factor = 0.3
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_2 = { owner = "ENG" } }
-		force_equipment_variants = { rocket_artillery_equipment_1 = { owner = "ENG" } }
 		}	
 			division= {	
 		location = 10795
@@ -169,7 +161,6 @@ units = {
 		start_experience_factor = 0.3
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_2 = { owner = "ENG" } }
-		force_equipment_variants = { rocket_artillery_equipment_1 = { owner = "ENG" } }
 		}	
 			division= {	
 		location = 10795
@@ -177,7 +168,6 @@ units = {
 		start_experience_factor = 0.3
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_2 = { owner = "ENG" } }
-		force_equipment_variants = { rocket_artillery_equipment_1 = { owner = "ENG" } }
 		}	
 			division= {	
 		location = 10795
@@ -185,7 +175,6 @@ units = {
 		start_experience_factor = 0.3
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_2 = { owner = "ENG" } }
-		force_equipment_variants = { rocket_artillery_equipment_1 = { owner = "ENG" } }
 		}	
 			division= {	
 		location = 10795
@@ -193,7 +182,6 @@ units = {
 		start_experience_factor = 0.3
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_2 = { owner = "ENG" } }
-		force_equipment_variants = { rocket_artillery_equipment_1 = { owner = "ENG" } }
 		}			
 			division= {	
 		location = 10795
@@ -201,7 +189,6 @@ units = {
 		start_experience_factor = 0.3
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_2 = { owner = "ENG" } }
-		force_equipment_variants = { rocket_artillery_equipment_1 = { owner = "ENG" } }
 		}		
 			division= {	
 		location = 10795
@@ -209,7 +196,6 @@ units = {
 		start_experience_factor = 0.3
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_2 = { owner = "ENG" } }
-		force_equipment_variants = { rocket_artillery_equipment_1 = { owner = "ENG" } }
 		
 	}		
 			division= {	
@@ -218,7 +204,6 @@ units = {
 		start_experience_factor = 0.3
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_2 = { owner = "ENG" } }
-		force_equipment_variants = { rocket_artillery_equipment_1 = { owner = "ENG" } }
 		}		
 			division= {	
 		location = 10795
@@ -226,7 +211,6 @@ units = {
 		start_experience_factor = 0.3
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_2 = { owner = "ENG" } }
-		force_equipment_variants = { rocket_artillery_equipment_1 = { owner = "ENG" } }
 		}		
 			division= {	
 		location = 10795
@@ -234,7 +218,6 @@ units = {
 		start_experience_factor = 0.3
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_2 = { owner = "ENG" } }
-		force_equipment_variants = { rocket_artillery_equipment_1 = { owner = "ENG" } }
 		}		
 			division= {	
 		location = 10795
@@ -242,7 +225,6 @@ units = {
 		start_experience_factor = 0.3
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_2 = { owner = "ENG" } }
-		force_equipment_variants = { rocket_artillery_equipment_1 = { owner = "ENG" } }
 		}		
 			division= {	
 		location = 10795
@@ -250,7 +232,6 @@ units = {
 		start_experience_factor = 0.3
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_2 = { owner = "ENG" } }
-		force_equipment_variants = { rocket_artillery_equipment_1 = { owner = "ENG" } }
 		}		
 			division= {	
 		location = 10795
@@ -258,7 +239,6 @@ units = {
 		start_experience_factor = 0.3
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_2 = { owner = "ENG" } }
-		force_equipment_variants = { rocket_artillery_equipment_1 = { owner = "ENG" } }
 		}		
 			division= {	
 		location = 10795
@@ -266,7 +246,6 @@ units = {
 		start_experience_factor = 0.3
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_2 = { owner = "ENG" } }
-		force_equipment_variants = { rocket_artillery_equipment_1 = { owner = "ENG" } }
 		}		
 			division= {	
 		location = 10795
@@ -274,7 +253,6 @@ units = {
 		start_experience_factor = 0.3
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_2 = { owner = "ENG" } }
-		force_equipment_variants = { rocket_artillery_equipment_1 = { owner = "ENG" } }
 		}		
 			division= {	
 		location = 10795
@@ -282,7 +260,6 @@ units = {
 		start_experience_factor = 0.3
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_2 = { owner = "ENG" } }
-		force_equipment_variants = { rocket_artillery_equipment_1 = { owner = "ENG" } }
 		}		
 			division= {	
 		location = 10795
@@ -290,7 +267,6 @@ units = {
 		start_experience_factor = 0.3
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_2 = { owner = "ENG" } }
-		force_equipment_variants = { rocket_artillery_equipment_1 = { owner = "ENG" } }
 		}		
 			division= {	
 		location = 10795
@@ -298,7 +274,6 @@ units = {
 		start_experience_factor = 0.3
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_2 = { owner = "ENG" } }
-		force_equipment_variants = { rocket_artillery_equipment_1 = { owner = "ENG" } }
 		}		
 			division= {	
 		location = 10795
@@ -306,7 +281,6 @@ units = {
 		start_experience_factor = 0.3
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_2 = { owner = "ENG" } }
-		force_equipment_variants = { rocket_artillery_equipment_1 = { owner = "ENG" } }
 		}		
 			division= {	
 		location = 10795
@@ -314,7 +288,6 @@ units = {
 		start_experience_factor = 0.3
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_2 = { owner = "ENG" } }
-		force_equipment_variants = { rocket_artillery_equipment_1 = { owner = "ENG" } }
 		}		
 			division= {	
 		location = 10795
@@ -322,7 +295,6 @@ units = {
 		start_experience_factor = 0.3
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_2 = { owner = "ENG" } }
-		force_equipment_variants = { rocket_artillery_equipment_1 = { owner = "ENG" } }
 		
 	}		
 			division= {	
@@ -331,7 +303,6 @@ units = {
 		start_experience_factor = 0.3
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_2 = { owner = "ENG" } }
-		force_equipment_variants = { rocket_artillery_equipment_1 = { owner = "ENG" } }
 		}		
 			division= {	
 		location = 10795
@@ -339,12 +310,13 @@ units = {
 		start_experience_factor = 0.3
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_2 = { owner = "ENG" } }
-		force_equipment_variants = { rocket_artillery_equipment_1 = { owner = "ENG" } }
 		}		
 			division= {	
 		location = 10795
 		division_template = "King's African Rifles"
 		start_experience_factor = 0.3
+				force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_2 = { owner = "ENG" } }
 	}		
 			division= {	
 		location = 10795
@@ -352,7 +324,6 @@ units = {
 		start_experience_factor = 0.3
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_2 = { owner = "ENG" } }
-		force_equipment_variants = { rocket_artillery_equipment_1 = { owner = "ENG" } }
 		}		
 		division= {	
 		location = 4135
@@ -360,7 +331,6 @@ units = {
 		start_experience_factor = 0.3
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_2 = { owner = "ENG" } }
-		force_equipment_variants = { rocket_artillery_equipment_1 = { owner = "ENG" } }
 		}	
 		division= {	
 		location = 4135
@@ -368,7 +338,6 @@ units = {
 		start_experience_factor = 0.3
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_2 = { owner = "ENG" } }
-		force_equipment_variants = { rocket_artillery_equipment_1 = { owner = "ENG" } }
 		}			
 		division= {	
 		location = 4135
@@ -376,7 +345,6 @@ units = {
 		start_experience_factor = 0.3
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_2 = { owner = "ENG" } }
-		force_equipment_variants = { rocket_artillery_equipment_1 = { owner = "ENG" } }
 		}			
 		division= {	
 		location = 4135
@@ -384,7 +352,6 @@ units = {
 		start_experience_factor = 0.3
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_2 = { owner = "ENG" } }
-		force_equipment_variants = { rocket_artillery_equipment_1 = { owner = "ENG" } }
 		}	
 		division= {	
 		location = 4135
@@ -392,7 +359,6 @@ units = {
 		start_experience_factor = 0.3
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_2 = { owner = "ENG" } }
-		force_equipment_variants = { rocket_artillery_equipment_1 = { owner = "ENG" } }
 		}	
 		division= {	
 		location = 4135
@@ -400,7 +366,6 @@ units = {
 		start_experience_factor = 0.3
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_2 = { owner = "ENG" } }
-		force_equipment_variants = { rocket_artillery_equipment_1 = { owner = "ENG" } }
 		}	
 		division= {	
 		location = 4135
@@ -408,7 +373,6 @@ units = {
 		start_experience_factor = 0.3
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_2 = { owner = "ENG" } }
-		force_equipment_variants = { rocket_artillery_equipment_1 = { owner = "ENG" } }
 		}	
 		division= {	
 		location = 4135
@@ -416,7 +380,6 @@ units = {
 		start_experience_factor = 0.3
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_2 = { owner = "ENG" } }
-		force_equipment_variants = { rocket_artillery_equipment_1 = { owner = "ENG" } }
 		}	
 		division= {	
 		location = 4135
@@ -424,7 +387,6 @@ units = {
 		start_experience_factor = 0.3
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_2 = { owner = "ENG" } }
-		force_equipment_variants = { rocket_artillery_equipment_1 = { owner = "ENG" } }
 		}	
 		division= {	
 		location = 4135
@@ -432,7 +394,6 @@ units = {
 		start_experience_factor = 0.3
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_2 = { owner = "ENG" } }
-		force_equipment_variants = { rocket_artillery_equipment_1 = { owner = "ENG" } }
 		}	
 		
 		
@@ -442,7 +403,6 @@ units = {
 		start_experience_factor = 0.3
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_2 = { owner = "ENG" } }
-		force_equipment_variants = { rocket_artillery_equipment_1 = { owner = "ENG" } }
 		}	
 		division= {	
 		location = 7193
@@ -450,7 +410,6 @@ units = {
 		start_experience_factor = 0.3
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_2 = { owner = "ENG" } }
-		force_equipment_variants = { rocket_artillery_equipment_1 = { owner = "ENG" } }
 		}	
 		division= {	
 		location = 7193
@@ -458,7 +417,6 @@ units = {
 		start_experience_factor = 0.3
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_2 = { owner = "ENG" } }
-		force_equipment_variants = { rocket_artillery_equipment_1 = { owner = "ENG" } }
 		}	
 		division= {	
 		location = 7193
@@ -466,19 +424,14 @@ units = {
 		start_experience_factor = 0.3
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_2 = { owner = "ENG" } }
-		force_equipment_variants = { rocket_artillery_equipment_1 = { owner = "ENG" } }
 		}	
-		
-		
-		
-				
+						
 			division= {	
 		location = 11984
 		division_template = "Gibraltar/Cyprus Garrison"
 		start_experience_factor = 0.3
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_2 = { owner = "ENG" } }
-		force_equipment_variants = { rocket_artillery_equipment_1 = { owner = "ENG" } }
 		}	
 		division= {	
 		location = 11984
@@ -486,7 +439,6 @@ units = {
 		start_experience_factor = 0.3
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_2 = { owner = "ENG" } }
-		force_equipment_variants = { rocket_artillery_equipment_1 = { owner = "ENG" } }
 		}	
 		division= {	
 		location = 11984
@@ -494,7 +446,6 @@ units = {
 		start_experience_factor = 0.3
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_2 = { owner = "ENG" } }
-		force_equipment_variants = { rocket_artillery_equipment_1 = { owner = "ENG" } }
 		}	
 		division= {	
 		location = 11984
@@ -502,7 +453,6 @@ units = {
 		start_experience_factor = 0.3
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_2 = { owner = "ENG" } }
-		force_equipment_variants = { rocket_artillery_equipment_1 = { owner = "ENG" } }
 		}	
 			
 		

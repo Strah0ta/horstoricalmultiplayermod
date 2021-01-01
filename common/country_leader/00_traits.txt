@@ -1095,18 +1095,45 @@ leader_traits = {
 		sprite = 8
 		army_armor_attack_factor = 0.05
 	    army_armor_defence_factor = 0.05
+		cavalry_attack_factor = 0.05
+		cavalry_defence_factor = 0.05
+		motorized_attack_factor = 0.05
+		motorized_defence_factor = 0.05
+		mechanized_attack_factor = 0.05
+		mechanized_defence_factor = 0.05
 	}
 	
 	army_armored_2 = { # +8 armor efficiency
 		sprite = 8
 		army_armor_attack_factor = 0.1
 	    army_armor_defence_factor = 0.1
+		cavalry_attack_factor = 0.1
+		cavalry_defence_factor = 0.1
+		motorized_attack_factor = 0.1
+		motorized_defence_factor = 0.1
+		mechanized_attack_factor = 0.1
+		mechanized_defence_factor = 0.1
 	}
 	
 	army_armored_3 = { # +12 armor efficiency
 		sprite = 8
+		cavalry_attack_factor = 0.15
+		cavalry_defence_factor = 0.15
+		motorized_attack_factor = 0.15
+		motorized_defence_factor = 0.15
+		mechanized_attack_factor = 0.15
+		mechanized_defence_factor = 0.15
 		army_armor_attack_factor = 0.15
 	    army_armor_defence_factor = 0.15
+	}
+	
+	test_stuff = {
+			sprite = 8
+		modifier_army_sub_unit_paratrooper_attack_factor = 1  
+		modifier_army_sub_unit_paratrooper_speed_factor = 1 
+			modifier_army_sub_unit_paratrooper_breakthrough_factor = 1 
+	modifier_army_sub_unit_paratrooper_supply_consumption_factor = 1 
+
 	}
 	
 	

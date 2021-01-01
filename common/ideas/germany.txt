@@ -206,6 +206,7 @@ ideas = {
 			modifier = {
 				army_org_Factor = 0.05
 				army_attack_factor = 0.05
+				conscription_factor = -0.2
 				planning_speed = 0.25
 				operative_slot = 4 
 			}
@@ -333,10 +334,10 @@ ideas = {
 			modifier = {
 				min_export = -0.35
 				conversion_cost_mil_to_civ_factor= 0.2 
-				production_speed_arms_factory_factor = 0.85
+				production_speed_arms_factory_factor = 0.3
 				production_speed_dockyard_factor = 0.1
 				production_speed_industrial_complex_factor = 0.1
-				production_speed_synthetic_refinery_factor = 0.6
+				production_speed_synthetic_refinery_factor = 0.3
 			}
 		}
 
@@ -435,8 +436,7 @@ ideas = {
 
 			picture = generic_acquire_tanks
 
-			modifier = { air_cas_present_factor = 0.2 no_supply_grace =  60 production_speed_infrastructure_factor = 0.5 }
-			equipment_bonus = { CAS_equipment = {	air_ground_attack = 0.3    instant = yes	}	}
+			modifier = { army_attack_factor = 0.1 breakthrough_factor = 0.1 no_supply_grace =  60 production_speed_infrastructure_factor = 0.5 }
 		}
 				GER_blau = {
 			allowed = {
@@ -717,7 +717,7 @@ ideas = {
 
 			modifier = {
 				consumer_goods_factor = -0.1
-				production_speed_buildings_factor = 0.2
+				production_speed_buildings_factor = 0.5
 				political_power_cost = 0.3
 			}
 		}

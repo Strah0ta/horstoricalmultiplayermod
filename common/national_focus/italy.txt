@@ -972,9 +972,7 @@ date > 1941.6.1
 		completion_reward = {
 			 country_event = { id = italy.1 }
 			transfer_state = 44
-					add_state_claim = 44
 			add_named_threat = { threat = 1 name = ITA_albania_war_goal }
-			44 = { set_compliance = 80 }
 		}
 	} 
 

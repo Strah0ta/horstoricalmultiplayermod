@@ -399,7 +399,7 @@ ideas = {
 		VIC_guest_workers = {
 			picture = generic_exploit_mines
 			allowed = {	original_tag = GER 	}
-			available = { NOT = { GER = { has_war_with = SOV }}}
+			available = { date < 1941.6.1 }
 			allowed_civil_war = {	always = yes	}
 			removal_cost = -1
 			modifier = {
@@ -578,44 +578,6 @@ ideas = {
 			}
 		}
 
-		FRA_defeatism = {
-			picture = generic_army_problems
-			allowed = {
-				original_tag = FRA 
-				always = no
-			}
-
-			allowed_civil_war = {
-				has_government = democratic
-			}
-
-			removal_cost = -1
-			
-			modifier = {
-				resistance_growth_on_our_occupied_states  = -0.25
-				resistance_damage_to_garrison_on_our_occupied_states = -0.25
-				resistance_decay_on_our_occupied_states = 0.25
-				
-			}
-		}
-		FRA_national_council_of_the_resistance = {
-			picture = FRA_national_resistance_council
-			allowed = {
-				original_tag = FRA 
-				always = no
-			}
-
-			allowed_civil_war = {
-				has_government = democratic
-			}
-
-			removal_cost = -1
-			
-			modifier = {
-				compliance_growth_on_our_occupied_states = -0.25
-				resistance_growth_on_our_occupied_states  = 0.4
-			}
-		}
 		FRA_national_uprising = {
 			picture = generic_intel_bonus
 			allowed = {

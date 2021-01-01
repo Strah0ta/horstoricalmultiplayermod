@@ -84,7 +84,7 @@ ideas = {
 			ledger = army
 			picture = generic_army_europe_3
 			allowed = {	original_tag = ETH	}	
-			traits = { army_cavalry_2 }
+			traits = { army_cavalry_1 }
 		}
 		ETH_vittorio_ambrosio = {
 			ledger = army

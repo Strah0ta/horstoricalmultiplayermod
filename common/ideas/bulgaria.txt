@@ -1232,7 +1232,7 @@ ideas = {
 				original_tag = BUL
 			}
 			
-			traits = { army_cavalry_3 }
+			traits = { army_cavalry_1 }
 		}
 		
 		

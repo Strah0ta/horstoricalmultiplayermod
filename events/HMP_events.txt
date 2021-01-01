@@ -612,7 +612,6 @@ country_event = {
 
 add_namespace = lar_spain 
 
-# Election of 1936 - La Resistance Edition
 country_event = {
 	id = lar_spain.1
 	title = spain.9.t
@@ -625,7 +624,6 @@ country_event = {
 	}
 }
 
-# Spanish Civil War - La Resistance Edition
 country_event = {
 	id = lar_spain.2
 	title = lar_spain.2.t
@@ -640,7 +638,6 @@ country_event = {
 }
 }
 
-# Spanish Civil War - La Resistance Edition
 country_event = {
 	id = lar_spain.3
 	title = lar_spain.3.t
@@ -1186,7 +1183,7 @@ country_event = {
    
       option = {
    name = "The War expands."
-		if = { limit = { EFR = { NOT = { has_country_flag = EFR_torch_declared }  } } country_event = { id = italy.3525 } country_event = { id = italy.3524 days = 20 }     }
+		if = { limit = { EFR = { NOT = { has_country_flag = EFR_torch_declared }  } } country_event = { id = italy.3525 } country_event = { id = italy.3524 days = 10 }     }
    }
    }
    
@@ -1620,7 +1617,7 @@ country_event = {
 country_event = {
    id = japan.148
    title = "Manchukuo is AI controlled"
-   desc = "Do you wish to annex Manchukuo? Full compliance will be given, including all starting factories. In addition to this you will be given (10) 100% research bonuses for air doctrine, excavation technology, and Medium 1 tanks."
+   desc = "Do you wish to annex Manchukuo? In addition to this you will be given (10) 100% research bonuses for excavation technology, land doctrine, and Medium 1 tanks."
    picture = GFX_report_event_japan_startup
    fire_only_once = yes
 is_triggered_only = yes
@@ -1646,10 +1643,7 @@ is_triggered_only = yes
 			496 = {	add_resource = {  type = steel amount = 12}	} 
 			496 = {	add_resource = {  type = steel amount = 16} }
 			328 = {	add_resource = {  type = aluminium amount = 16}	}
-			
 			annex_country = { target = MAN transfer_troops = yes }
-			496 = { set_compliance = 100 } 	328 = { set_compliance = 100 }	505 = { set_compliance = 100 } 3 = { set_compliance = 100 }	451 = { set_compliance = 100 } 	504 = { set_compliance = 100 }
-			446 = { set_compliance = 100 }	112 = { set_compliance = 100 }  
    		add_tech_bonus = {
 			name = "Integrate Manchukuo"
 			bonus = 1.0
@@ -1713,6 +1707,7 @@ country_event = {
    picture = GFX_report_event_japan_startup
    fire_only_once = yes
 is_triggered_only = yes
+immediate = { hidden_effect = { anti_cross_faction_trade_all = yes  }}
      option = {
    name = "Yes, Bulgaria won't be played"
    country_event = { id = japan.639 }

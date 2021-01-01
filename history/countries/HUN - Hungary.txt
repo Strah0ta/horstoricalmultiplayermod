@@ -120,5 +120,3 @@ create_country_leader = {
 	ideology = stalinism
 	traits = {	}
 }
-
-anti_cross_faction_trade_allies = yes 
