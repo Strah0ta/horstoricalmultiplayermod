@@ -20,7 +20,7 @@ spriteTypes = {
 		name = "GFX_bomber_harris"
 		texturefile = "gfx/interface/goals/bomber_harris.dds"
 	}
-	
+
 	SpriteType = { 
 		name = "GFX_goal_ita_badoglio"
 		texturefile = "gfx/interface/goals/goal_ita_badoglio.dds"

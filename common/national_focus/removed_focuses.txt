@@ -1,9 +1,7 @@
 focus_tree = {
 	id = removed_focuses
 	
-	country = {
-		factor = 0
-	}
+	country = {		factor = 0	}
 	
 		focus = {
 		id = SOV_women_pilots
@@ -11,11 +9,6 @@ focus_tree = {
 		x = 1
 		y = 1
 		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
 		completion_reward = {
 		}
 	}
@@ -26,11 +19,6 @@ focus_tree = {
 		x = 1
 		y = 1
 		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
 		completion_reward = {
 		}
 	}
@@ -40,11 +28,6 @@ focus_tree = {
 		x = 1
 		y = 1
 		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
 		completion_reward = {
 		}
 	}
@@ -56,11 +39,6 @@ focus_tree = {
 		y = 1
 		cost = 10
 
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
 		completion_reward = {
 		}
 	}
@@ -71,11 +49,6 @@ focus_tree = {
 		x = 1
 		y = 1
 		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
 		completion_reward = {
 		}
 	}
@@ -88,14 +61,6 @@ focus_tree = {
 		y = 1
 		cost = 10
 
-		allow_branch = {
-			has_dlc = "Man the Guns"
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
 		completion_reward = {
 		}
 	}
@@ -105,10 +70,6 @@ focus_tree = {
 		x = -4
 		y = 3
 		cost = 10
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
 		completion_reward = {
 		}
 	}

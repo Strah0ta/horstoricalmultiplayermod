@@ -160,7 +160,7 @@ operation_infiltrate_civilian = { ### 1 1/35
 		random_list = {
 			33 = {
 				ROOT = {
-					add_political_power = 25
+					add_political_power = 10
 					add_intel = {
 						target = FROM
 						civilian_intel = 10
@@ -569,6 +569,7 @@ operation_infiltrate_armed_forces_army = { ### 4 1/55
 						target = FROM
 						army_intel = 10
 					}
+					army_experience = 5
 				}
 			}
 			67 = {

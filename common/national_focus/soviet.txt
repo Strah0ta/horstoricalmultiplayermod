@@ -150,6 +150,14 @@ focus_tree = {
 			technology = improved_medium_tank
 			technology = improved_heavy_tank
 		}
+					add_tech_bonus = {
+				name = armor_bonus
+				bonus = 0.5
+				uses = 1
+				technology = advanced_medium_tank
+				technology = advanced_heavy_tank
+				technology = super_heavy_tank
+			}
 		add_tech_bonus = {
 			name = "Artillery Modernization"
 			bonus = 1
@@ -868,14 +876,6 @@ focus_tree = {
 				hidden_effect = { set_technology = { armored_car_at_upgrade = 1 }	}
 
 			army_experience = 20
-			add_tech_bonus = {
-				name = armor_bonus
-				bonus = 1.0
-				uses = 1
-				technology = advanced_medium_tank
-				technology = advanced_heavy_tank
-				technology = super_heavy_tank
-			}
 			add_tech_bonus = {
 				name = "Lessons of War"
 				bonus = 1.0

@@ -366,23 +366,7 @@ ideas = {
 	political_advisor = {
 		generic_head_of_intelligence = {
 			allowed = { has_dlc = "La Resistance"}
-			visible = {
-				OR = {
-					has_idea = generic_head_of_intelligence
-					NOT = {
-						OR = {
-							has_allowed_idea_with_traits = { 
-								idea = head_of_intelligence 
-								limit = 1
-								ignore = generic_head_of_intelligence
-							}
-							has_idea_with_trait = head_of_intelligence 
-							has_idea_with_trait = gestapo
-						}
-					}
-				}
-			}
-			available = { has_intelligence_agency = yes	}
+			available = { AND = { has_intelligence_agency = yes	OR = { tag = FRA tag = FIN tag = ETH tag = EFR tag = ALB tag = MAN tag = AST tag = RAJ tag = NZL tag = NOR tag = ROM tag = HUN tag = SPR tag = SAF tag = CAN }    } }
 			traits = { head_of_intelligence }
 		}
 	}
