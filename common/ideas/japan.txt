@@ -263,8 +263,8 @@ ideas = {
 			picture = generic_naval_manufacturer_1
 			
 			modifier = {
-			special_forces_attack_factor = 0.1 
-			special_forces_defence_factor = 0.1
+				special_forces_attack_factor = 0.1 
+				special_forces_defence_factor = 0.1
 			}
 		}
 
@@ -460,7 +460,11 @@ ideas = {
 			traits = { air_chief_night_operations_1 }
 			
 		}
-		
+		mitsuo_fuchida = {
+			ledger = air
+			allowed = {	original_tag = JAP }
+			traits = { air_tactical_bombing_2 }
+		}
 		korechika_anami = {
 			
 			
@@ -509,21 +513,12 @@ ideas = {
 			traits = { army_concealment_2 }
 		}	
 		
-		mitsuo_fuchida = {
-			ledger = air
-			allowed = {	original_tag = JAP }
-			traits = { air_tactical_bombing_2 }
-		}
-		
 		nishizo_tsukahara = {
 			ledger = navy
-			
 			
 			allowed = {
 				original_tag = JAP
 			}
-			
-
 			
 			traits = { air_naval_strike_1 }
 		}	

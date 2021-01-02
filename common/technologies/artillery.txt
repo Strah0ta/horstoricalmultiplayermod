@@ -439,11 +439,7 @@ technologies = {
 			artillery
 		}
 	}
-			anti_air_ger = { #somehow 1.9 broke bombing, doesnt seem to work
-		tech_air_damage_factor = 5
-		research_cost = 1
-		start_year = 1939
-	}
+
 	antiair1 = {
 	camelry_aa = {
 			air_attack = 0.1

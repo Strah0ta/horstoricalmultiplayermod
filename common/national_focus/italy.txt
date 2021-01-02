@@ -675,10 +675,7 @@ date > 1941.6.1
 		y = 1
 		relative_position_id = ITA_army_primacy
 		cost = 5
-		available = { date > 1937.1.1 }
-
 		completion_reward = {
-			set_technology = { fighter2 = 1} set_technology = { heavy_fighter2 = 1 }
 			add_tech_bonus = {
 				name = air_doc_bonus
 				bonus = 1.0
@@ -817,12 +814,9 @@ date > 1941.6.1
 		y = 1
 		relative_position_id = ITA_bomber_effort
 		cost = 5
-		available = { date > 1940.11.1 }
-
 		available_if_capitulated = yes
 
 		completion_reward = {
-			set_technology = { fighter3 = 1 } set_technology = { heavy_fighter3 = 1 }
 			add_tech_bonus = {
 				name = air_doc_bonus
 				bonus = 1.0

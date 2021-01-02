@@ -251,12 +251,6 @@ focus_tree = {
 				technology = flexible_line
 				technology = streamlined_line
 				technology = assembly_line_production
-				technology = concentrated_industry3
-				technology = concentrated_industry4
-				technology = concentrated_industry5
-				technology = dispersed_industry3
-				technology = dispersed_industry4
-				technology = dispersed_industry5
 			}
 		}
 	}

@@ -293,12 +293,6 @@ focus_tree = {
 				technology = flexible_line
 				technology = assembly_line_production
 				technology = streamlined_line
-				technology = concentrated_industry3
-				technology = concentrated_industry4
-				technology = concentrated_industry5
-				technology = dispersed_industry3
-				technology = dispersed_industry4
-				technology = dispersed_industry5	
 				}
 		}
 	}
@@ -922,7 +916,7 @@ add_equipment_production = {
 			551 = {
 				set_building_level = {
 					type = air_base
-					level = 52
+					level = 48
 					instant_build = yes
 				}			
 			}	

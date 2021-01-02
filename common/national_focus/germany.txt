@@ -30,12 +30,6 @@ focus_tree = {
 				technology = flexible_line
 				technology = assembly_line_production
 				technology = streamlined_line
-				technology = concentrated_industry3
-				technology = concentrated_industry4
-				technology = concentrated_industry5
-				technology = dispersed_industry3
-				technology = dispersed_industry4
-				technology = dispersed_industry5
 				}
 			custom_effect_tooltip = available_political_advisor
 			show_ideas_tooltip = hjalmar_schacht
@@ -798,9 +792,9 @@ focus_tree = {
 		available_if_capitulated = yes
 		
 		completion_reward = {		
-							 if = { limit = { NOT = { has_idea = macchi }} ITA = {add_ideas = macchi add_political_power = -50  } }
-					if = { limit = { NOT = { has_idea = messerschmitt }} add_ideas = messerschmitt add_political_power = -50  }
-			set_technology = { fighter2 = 1 } 	set_technology = { heavy_fighter2 = 1 }
+		 if = { limit = { NOT = { has_idea = macchi }} ITA = {add_ideas = macchi add_political_power = -50  set_technology = { fighter2 = 1} set_technology = { heavy_fighter2 = 1 } } }
+		if = { limit = { NOT = { has_idea = messerschmitt }} add_ideas = messerschmitt add_political_power = -50  }
+		set_technology = { fighter2 = 1 } 	set_technology = { heavy_fighter2 = 1 }
 	add_equipment_production = {
 		equipment = {
 			type = fighter_equipment_2
@@ -1019,8 +1013,8 @@ focus_tree = {
 
 		completion_reward = { 
 			add_ideas = GER_air_innovations_2_idea
-					if = { limit = { NOT = { has_idea = messerschmitt }} add_ideas = messerschmitt add_political_power = -50  }
-							 if = { limit = { NOT = { has_idea = macchi }} ITA = {add_ideas = macchi add_political_power = -50  } }
+			if = { limit = { NOT = { has_idea = messerschmitt }} add_ideas = messerschmitt add_political_power = -50  }
+			if = { limit = { NOT = { has_idea = macchi }} ITA = {add_ideas = macchi add_political_power = -50  } ITA = { set_technology = { fighter3 = 1 } set_technology = { heavy_fighter3 = 1 } } }
 			set_technology = { fighter3 = 1 } set_technology = { heavy_fighter3 = 1 } 
 			# Balance research bonus to next tech among radio, radio_detection, decimetric_radar, improved_decimetric_radar, centimetric_radar, improved_centimetric_radar, advanced_centimetric_radar
 			add_tech_bonus = {
@@ -1029,10 +1023,6 @@ focus_tree = {
 				uses = 1
 				category = radar_tech
 			}
-			if = {
-				limit = {
-					NOT = { has_war_with = SOV }
-				}
 				SOV = {
 					country_event = { id = germany.78 days = 1 }
 					add_ideas = GER_air_innovations_2_idea
@@ -1043,7 +1033,6 @@ focus_tree = {
 				category = radar_tech
 			}	
 				}
-			}
 				56 = {
 				set_building_level = {
 					type = air_base

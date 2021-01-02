@@ -128,7 +128,7 @@ HMP_ll_soviets_fighter = { #worth 20x
 			custom_effect_tooltip = HMP_ll_remove_fighter		
 			custom_effect_tooltip = soviets_fighter_shipments_tt
 			hidden_effect = {send_equipment = { equipment = fighter_equipment amount = 675 target = SWE old_prioritised = yes }}
-			SOV = { add_equipment_to_stockpile = { equipment = sov_fighter_equipment_2 amount = 1200 } }   
+			SOV = { add_equipment_to_stockpile = { type = sov_fighter_equipment_2 amount = 1200 producer = SOV } }   
 		}
 	}
 HMP_ll_soviets_ht = { #worth 10x 
@@ -166,7 +166,7 @@ HMP_ll_soviets_amtrac = { #worth 1x
 		complete_effect  = {
 						custom_effect_tooltip = HMP_ll_remove_amtrac
 				custom_effect_tooltip = soviets_1_shipments_tt
-				hidden_effect = {send_equipment = { equipment = amphibious_mechanized_equipment_1 amount = 250 target = SWE old_prioritised = yes }}
+				hidden_effect = {send_equipment = { type = amphibious_mechanized_equipment_1 amount = 250 target = SWE old_prioritised = yes }}
 			SOV = { add_to_variable = {  var = SOV_barb_ll_token   value = 1 } add_to_variable = {  var = SOV_barb_ll_token2   value = 1 }}						
 		}
 	}
