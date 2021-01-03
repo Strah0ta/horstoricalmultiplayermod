@@ -16,7 +16,7 @@ set_variable = {
     value = 0.800
 }
 set_variable = { var = FRA_legitimacy value = 0 }			
-
+anti_cross_faction_trade_axis = yes
 # Starting tech
 set_technology = {
 	infantry_weapons = 1

@@ -20,7 +20,8 @@ set_politics = {
 		communism = 0
 		neutrality = 40
 	}
-	
+	anti_cross_faction_trade_allies = yes
+
  country_event = { id = lar_spain.2 days = 199 } 
 	
 set_research_slots = 3

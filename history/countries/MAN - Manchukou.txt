@@ -24,6 +24,7 @@ create_intelligence_agency = yes
 
 set_research_slots = 3
 set_rule = { can_be_spymaster = no }
+anti_cross_faction_trade_allies = yes
 
 add_ideas = {
 	MAN_south_manchuria_railway_company

@@ -32,6 +32,7 @@ set_politics = {
 set_popularities = {
 	fascism = 100
 }
+anti_cross_faction_trade_allies = yes
 
 create_country_leader = {
 	name = "Haile Selassie"

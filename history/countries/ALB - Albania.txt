@@ -23,6 +23,7 @@ create_country_leader = {
 	ideology = despotism
 	traits = { }
 }
+anti_cross_faction_trade_allies = yes
 
 create_country_leader = {
 	name = "Enver Hoxha"

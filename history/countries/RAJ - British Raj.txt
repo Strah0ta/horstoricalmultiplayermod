@@ -48,6 +48,7 @@ set_popularities = {
 	communism = 1
 	neutrality = 80
 }
+anti_cross_faction_trade_axis = yes
 
 create_country_leader = {
 	name = "Lord Linlithgow"

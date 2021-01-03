@@ -5,7 +5,7 @@ set_naval_oob = "USA_1936_naval_mtg"
 create_intelligence_agency = yes
 set_rule = { can_be_spymaster = no }
  country_event = { id = panay_incident.2  days = 983 } 
-
+anti_cross_faction_trade_axis = yes
 set_variable = {
     var = min_fuel
     value = 0.800
@@ -31,6 +31,7 @@ USA_recalc_congress_icon_frames = yes
 	country_event = { id = usa.7 days = 1767 }	
 	country_event = { id = usa.9 days = 3227 }	
 	country_event = { id = usa.60 days = 30 }
+anti_cross_faction_trade_axis = yes
 
 # Starting tech
 set_technology = {

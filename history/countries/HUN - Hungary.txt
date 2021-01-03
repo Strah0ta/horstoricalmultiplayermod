@@ -53,6 +53,7 @@ if = {
 		HUN_treaty_of_triannon
 	}
 }
+anti_cross_faction_trade_allies = yes
 
 set_politics = {
 	ruling_party = neutrality

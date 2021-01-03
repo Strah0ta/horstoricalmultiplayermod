@@ -21,6 +21,7 @@ set_variable = {
 set_rule = { can_be_spymaster = no }
 create_intelligence_agency = yes
 country_event = { id = DOD_yugoslavia.20 days = 759 }
+anti_cross_faction_trade_allies = yes
 
 # Starting tech
 set_technology = {

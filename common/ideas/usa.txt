@@ -498,7 +498,7 @@ ideas = {
 			}
 		}
 		air_war_plans_division_focus2 = {
-			
+			picture = air_war_plans_division_focus
 			allowed = {
 				always = no
 			}

@@ -50,6 +50,7 @@ set_variable = {
     value = 0.800
 }
 set_rule = { can_be_spymaster = no }
+anti_cross_faction_trade_axis = yes
 
 add_equipment_to_stockpile = { type = infantry_equipment_1 amount = 1700 }
 

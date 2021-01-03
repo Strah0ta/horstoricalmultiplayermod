@@ -33,6 +33,7 @@ create_faction = "Greater East-Asian Co-Prosperity Sphere"
 add_to_faction = JAP
 add_to_faction = MAN
 set_faction_spymaster = yes	
+anti_cross_faction_trade_allies = yes
 
 set_technology = {
 	scout_plane1 = 1

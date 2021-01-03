@@ -1274,7 +1274,7 @@ guiTypes = {
 		
 		containerWindowType = {
 			name = "declare_war"
-			position = { x = -263333 y = -266}	
+			position = { x = -263 y = -266}	
 			size = { width = 527 height = 532 }
 			moveable = yes
 			click_to_front = yes
@@ -1466,7 +1466,7 @@ guiTypes = {
 		
 		containerWindowType = {
 			name = "add_wargoal"
-			position = { x = -26333 y = -266}	
+			position = { x = -263 y = -266}	
 			size = { width = 527 height = 532 }
 			moveable = yes
 			click_to_front = yes
@@ -1739,8 +1739,8 @@ guiTypes = {
 		
 		containerWindowType = {
 			name = "generate_wargoal"
-			position = { x = -26333 y = -266}	
-			size = { width = 0 height = 0 }
+			position = { x = -263 y = -266}	
+			size = { width = 527 height = 532 }
 			moveable = yes
 			fade_time = 20000			
 			click_to_front = yes
@@ -1803,7 +1803,7 @@ guiTypes = {
 			
 			containerWindowType = {
 				name = "wargoals"
-				position = { x = 33315 y = 333220 }	
+				position = { x = 15 y = 220 }	
 				size = { width = 250 height = 240 }
 				margin = { top = 13 left = 13 bottom = 15 right = 25}					
 				verticalScrollbar = "right_vertical_slider"
@@ -1910,7 +1910,7 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "guarantee"
-			position = { x = -33263 y = -33157}	
+			position = { x = -263 y = -157}	
 			size = { width = 527 height = 360 }
 			moveable = yes
 			click_to_front = yes
@@ -2504,7 +2504,7 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "boost_party_popularity"
-			position = { x = 33263 y = 33181}	
+			position = { x = -263 y = -181}	
 			size = { width = 527 height = 362 }
 			moveable = yes
 			click_to_front = yes
@@ -2582,7 +2582,7 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "create_faction"
-			position = { x = 33263 y = 33357}	
+			position = { x = -263 y = -157}	
 			size = { width = 527 height = 315 }
 			moveable = yes
 			click_to_front = yes

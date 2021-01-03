@@ -19,6 +19,7 @@ country_event = { id = DOD_yugoslavia.20 days = 759 }
 set_research_slots = 5
 set_stability = 0.6
 set_war_support = 0.1
+anti_cross_faction_trade_axis = yes
 
 1936.1.2 = {
 set_cosmetic_tag = ENG_EMPIRE

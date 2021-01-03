@@ -1,5 +1,6 @@
 ﻿capital = 301
 oob = "EFR_1936"
+anti_cross_faction_trade_allies = yes
 
 set_stability = 0.3
 set_war_support = 0.4

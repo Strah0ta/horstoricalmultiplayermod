@@ -15,6 +15,7 @@ add_ideas = armyandnavy_idea
 
 add_timed_idea = { idea = GER_mefo_bills_1 days = 730 }
 country_event = { id = DOD_yugoslavia.20 days = 759 }
+anti_cross_faction_trade_allies = yes
 
 set_variable = { germany_war_exhaustion_stability_factor = 0 }			
 set_variable = { germany_war_exhaustion_war_support_factor = 0 }			

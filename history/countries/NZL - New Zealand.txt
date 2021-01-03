@@ -32,6 +32,7 @@ set_technology = {
 }
 
 add_equipment_to_stockpile = { type = infantry_equipment_1 amount = 500 }
+anti_cross_faction_trade_axis = yes
 
 create_intelligence_agency = yes
 add_ideas = SAF_the_commonwealth

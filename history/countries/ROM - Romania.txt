@@ -44,6 +44,7 @@ add_equipment_to_stockpile = { type = infantry_equipment_1 amount = 11000 }
 add_equipment_to_stockpile = { type = support_equipment_1 amount = 300 }
 add_equipment_to_stockpile = { type = motorized_equipment_1 amount = 100 }
 add_equipment_to_stockpile = { type = artillery_equipment_1 amount = 100 }
+anti_cross_faction_trade_allies = yes
 
 add_ideas = ROM_king_carol_ii_hedonist
 add_ideas = armyandnavy_idea

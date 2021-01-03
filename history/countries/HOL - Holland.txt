@@ -29,7 +29,6 @@ infantry_weapons = 1
 dispersed_industry = 1 
 }
 set_convoys = 150
-set_stability = 0.75				
 
 create_country_leader = {
 	name = "Hendrikus Colijn"
@@ -37,7 +36,5 @@ create_country_leader = {
 	picture = "GFX_portrait_holland_hendrikus_colijn"
 	expire = "1965.1.1"
 	ideology = conservatism
-	traits = {
-
-	}
+	traits = {	}
 }

@@ -17,6 +17,7 @@ add_relation_modifier = {
     target = GER
     modifier = stahlpakt
 } 
+anti_cross_faction_trade_axis = yes
 
 add_to_tech_sharing_group = axis_research 
 create_intelligence_agency = yes 

@@ -1314,28 +1314,6 @@ add_opinion_modifier = {
 }
 }
 
-anti_cross_faction_trade_all = {
-ENG = { anti_cross_faction_trade_axis = yes}
-FRA = { anti_cross_faction_trade_axis = yes}
-USA = { anti_cross_faction_trade_axis = yes}
-CAN = { anti_cross_faction_trade_axis = yes}
-AST = { anti_cross_faction_trade_axis = yes}
-NZL = { anti_cross_faction_trade_axis = yes}
-SAF = { anti_cross_faction_trade_axis = yes}
-NOR = { anti_cross_faction_trade_axis = yes}
-
-GER = { anti_cross_faction_trade_allies = yes}
-ITA = { anti_cross_faction_trade_allies = yes}
-FIN = { anti_cross_faction_trade_allies = yes}
-HUN = { anti_cross_faction_trade_allies = yes}
-ETH = { anti_cross_faction_trade_allies = yes}
-ALB = { anti_cross_faction_trade_allies = yes}
-BUL = { anti_cross_faction_trade_allies = yes}
-ROM = { anti_cross_faction_trade_allies = yes}
-EFR = { anti_cross_faction_trade_allies = yes}
-SPR = { anti_cross_faction_trade_allies = yes}
-}
-
 recalc_vichy_france_legitimacy = {
 EFR = { set_variable = { vichy_legitimacy_mechanic_stability_factor = -0.1 } }
 if = { limit = { EFR = { controls_state = 510 } } EFR = { add_to_variable={vichy_legitimacy_mechanic_stability_factor=0.15}  }  }#MIDDLE CONGO
@@ -2452,10 +2430,10 @@ create_corps_commander = {
 	name = "Erik Heinrichs"
 	portrait_path = "gfx/leaders/FIN/Erik_Heinrichs.tga"
 	traits = {  ranger trickster commando infantry_leader ambusher scavenger guerilla_fighter skilled_staffer }
-	skill = 6
+	skill = 7
     attack_skill = 3
-    defense_skill = 5
-    planning_skill = 2
+    defense_skill = 7
+    planning_skill = 3
     logistics_skill = 9
 }
 }
@@ -2990,10 +2968,10 @@ create_corps_commander = {
     picture = "Portrait_Soviet_Kirill_Moskalenko.dds"
 	traits = { trickster guerilla_fighter ambusher panzer_leader panzer_expert trait_mountaineer bearer_of_artillery  }
 	skill = 8
-    attack_skill = 10
+    attack_skill = 7
     defense_skill = 6
     planning_skill = 6
-    logistics_skill = 3
+    logistics_skill = 6
 }
 
 create_field_marshal = {
