@@ -7,9 +7,7 @@ add_ideas = fra_legit_idea
 set_research_slots = 3
 set_stability = 0.5
 set_war_support = 0.1
-1936.1.2 = {
-add_research_slot = 1 
-}
+1936.1.2 = { add_research_slot = 1 }
 add_to_tech_sharing_group = commonwealth_research
 country_event = { id = DOD_yugoslavia.20 days = 759 }
 create_intelligence_agency = yes
@@ -77,9 +75,6 @@ add_equipment_to_stockpile = { type = artillery_equipment_1 amount = 3000 }
 add_equipment_to_stockpile = { type = anti_air_equipment_1 amount = 2000 }
 
 
-
-
-
 set_convoys = 300
 
 set_politics = {
@@ -113,53 +108,6 @@ create_country_leader = {
 	traits = {	}
 }
 
-create_navy_leader = {
-	name = "François Darlan"
-		picture = "Portrait_France_Francois_Darlan.dds"
-	traits = { spotter blockade_runner bold concealment_expert superior_tactician }
-	skill = 3
-	attack_skill = 2
-	defense_skill = 2
-	maneuvering_skill = 3
-	coordination_skill = 3
-}
-	create_operative_leader = {
-		name = "Jeannie Rousseau"
-		GFX = GFX_portrait_jennie_rousseau
-		traits = { operative_linguist }
-		bypass_recruitment = no
-		available_to_spy_master = yes
-		female = yes
-		nationalities = { FRA }
-	}
-
-	create_operative_leader = {
-		name = "Odette Samson"
-		GFX = GFX_portrait_odette_samson
-		traits = { operative_tough }
-		bypass_recruitment = no
-		available_to_spy_master = yes
-		female = yes
-		nationalities = { FRA }
-	}
-
-	create_operative_leader = {
-		name = "René Joyeuse"
-		GFX = GFX_portrait_rene_joyeuse
-		traits = { operative_infiltrator }
-		bypass_recruitment = no
-		available_to_spy_master = yes
-		nationalities = { FRA }
-	}
-
-	create_operative_leader = {
-		name = "Gilbert Renault"
-		GFX = GFX_portrait_gilbert_renault
-		traits = { }
-		bypass_recruitment = no
-		available_to_spy_master = yes
-		nationalities = { FRA }
-	}
 	create_equipment_variant = {
 		name = "Saphir Class"				
 		type = ship_hull_submarine_1

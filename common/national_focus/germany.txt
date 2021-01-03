@@ -874,12 +874,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_tech_bonus = {
-				name = GER_long_range_escorts
-				bonus = 2
-				uses = 1
-				category = cat_heavy_fighter
-			}
+			add_ideas = air_war_plans_division_focus2
 		}
 	}
 	

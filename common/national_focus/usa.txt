@@ -1244,12 +1244,7 @@ transfer_state = 38
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_tech_bonus = {
-				name = USA_escort_fighters
-				bonus = 3.0
-				uses = 1
-				technology = heavy_fighter3
-			}
+			add_ideas = air_war_plans_division_focus2
 		}
 	}
 	focus = {
