@@ -581,7 +581,7 @@ add_equipment_production = {
 		relative_position_id = air_rearmament_focus
 		cost = 5
 		available_if_capitulated = yes
-		available = { date > 1939.11.1 }
+		available = { date > 1940.4.1 }
 		completion_reward = {
 			add_ideas = british_fighter_discount
 			USA = { add_ideas = british_fighter_discount }
@@ -916,7 +916,7 @@ add_equipment_production = {
 			551 = {
 				set_building_level = {
 					type = air_base
-					level = 48
+					level = 52
 					instant_build = yes
 				}			
 			}	
