@@ -570,6 +570,7 @@ ideas = {
 					build_cost_ic = -0.15 instant = yes
 				}			
 			}
+			modifier = { naval_retreat_speed = 0.5 }
 		}		
 		
 			GER_stuka = {

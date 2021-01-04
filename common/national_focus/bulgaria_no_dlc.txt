@@ -282,7 +282,7 @@ focus_tree = {
 			custom_effect_tooltip = available_designer
 			show_ideas_tooltip = vmz_sopot
 			add_tech_bonus = {
-				bonus = 1
+				bonus = 0.5
 				uses = 3
 				category = artillery
 			}
@@ -304,7 +304,7 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = infantry_weapons_bonus
-				bonus = 1
+				bonus = 0.5
 				uses = 2
 				category = infantry_weapons
 			}

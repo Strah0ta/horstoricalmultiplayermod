@@ -329,7 +329,7 @@ add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 100000 }
 		completion_reward = {
 			add_tech_bonus = {
 				name = infantry_artillery_bonus
-				bonus = 1.0
+				bonus = 0.5
 				uses = 1
 				category = infantry_weapons
 			}
@@ -350,7 +350,7 @@ add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 100000 }
 		completion_reward = {
 			add_tech_bonus = {
 				name = infantry_artillery_bonus
-				bonus = 1.0
+				bonus = 0.5
 				uses = 1
 				category = infantry_weapons
 			}
@@ -372,7 +372,7 @@ add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 100000 }
 		completion_reward = {
 			add_tech_bonus = {
 				name = infantry_artillery_bonus
-				ahead_reduction = 2
+				bonus = 0.5
 				uses = 1
 				category = infantry_weapons
 			}
@@ -391,7 +391,7 @@ add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 100000 }
 		completion_reward = {
 			add_tech_bonus = {
 				name = infantry_artillery_bonus
-				bonus = 1.0
+				bonus = 0.5
 				uses = 1
 				category = artillery
 			}
@@ -412,7 +412,7 @@ add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 100000 }
 		completion_reward = {
 			add_tech_bonus = {
 				name = infantry_artillery_bonus
-				bonus = 1.0
+				bonus = 0.5
 				uses = 1
 				category = artillery
 			}
@@ -434,7 +434,7 @@ add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 100000 }
 		completion_reward = {
 			add_tech_bonus = {
 				name = infantry_artillery_bonus
-				ahead_reduction = 2
+				bonus = 0.5
 				uses = 1
 				category = artillery 
 			}

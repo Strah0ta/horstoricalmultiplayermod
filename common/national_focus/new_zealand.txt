@@ -588,7 +588,7 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = NZL_charlton_automatic_rifle
-				bonus = 1.0
+				bonus = 0.5
 				uses = 3
 				category = infantry_weapons
 			}
@@ -608,10 +608,6 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = yes
-
-		complete_tooltip = {
-
-		}
 
 		completion_reward = {
 			add_ideas = NZL_bob_semple_tank
@@ -723,7 +719,7 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = NZL_artillery_focus
-				bonus = 1.00
+				bonus = 0.5
 				uses = 3
 				category = artillery
 			}

@@ -28,6 +28,7 @@ guiTypes = {
 			name = "console_edit"
 			textureFile = "gfx\\interface\\small_tiles_dialog.dds"
 			font = "Arial12"
+			only_numbers = yes
 			borderSize = { x=4 y=4 }	
 			size = { x=500 y=40 }
 			text = " "

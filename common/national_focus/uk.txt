@@ -407,21 +407,15 @@ focus_tree = {
 			}
 			add_tech_bonus = {
 				name = UK_secret_focus
-				bonus = 1.0
-				uses = 2
-				category = rocketry
-			}
-			add_tech_bonus = {
-				name = UK_secret_focus
-				bonus = 1.0
+				bonus = 0.5
 				uses = 2
 				technology = rocket_artillery
 				technology = rocket_artillery2
 			}				
 			add_tech_bonus = {
 				name = UK_secret_focus
-				bonus = 1.0
-				ahead_reduction = 2 
+				bonus = 0.5
+				ahead_reduction = 0.5
 				uses = 2
 				technology = rocket_artillery3
 				technology = rocket_artillery4

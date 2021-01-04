@@ -626,7 +626,7 @@
 	focus = {
 		id = FRA_naval_rearmament
 		icon = GFX_goal_generic_construct_naval_dockyard
-		x = 19
+		x = 17
 		y = 0
 		cost = 5
 
@@ -634,88 +634,23 @@
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 
 		completion_reward = {
-			add_offsite_building = { type = dockyard level = 3 }
-		}
-	}
-
-	focus = {
-		id = FRA_colonial_naval_bases
-		icon = GFX_goal_generic_build_navy
-	 	prerequisite = { focus = FRA_naval_rearmament }
-		x = -2
-		y = 1
-		relative_position_id = FRA_naval_rearmament
-		cost = 5
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			459 = {
-					add_building_construction = {
-						type = naval_base
-						level = 3
-						province = 1145
-						instant_build = yes
-					}
-			}
-			556 = {
-					add_building_construction = {
-						type = naval_base
-						level = 3
-						province = 4948
-						instant_build = yes
-					}
-			}
-			286 = {
-					add_building_construction = {
-						type = naval_base
-						level = 3
-						province = 4401
-						instant_build = yes
-					}
+			add_offsite_building = { type = dockyard level = 5 }
+						add_tech_bonus = {
+				name = FRA_naval_doctrine
+				bonus = 1.0
+				uses = 2
+				category = naval_doctrine
 			}
 		}
 	}
 
-	focus = {
-		id = FRA_develop_colonial_dockyards
-		icon = GFX_goal_generic_construct_naval_dockyard
-	 	prerequisite = { focus = FRA_colonial_naval_bases }
-		x = 0
-		y = 1
-		relative_position_id = FRA_colonial_naval_bases
-		cost = 5
-
-		available_if_capitulated = yes
-		search_filters = { FOCUS_FILTER_INDUSTRY }
-		completion_reward = {
-					add_offsite_building = { type = dockyard level = 4 }
-		}
-	}
-
-	focus = {
-		id = FRA_the_old_school
-		icon = GFX_focus_generic_navy_battleship2
-	 	prerequisite = { focus = FRA_naval_rearmament }
-
-		x = 0
-		y = 1
-		relative_position_id = FRA_naval_rearmament
-		cost = 5
-
-		available_if_capitulated = yes
-		search_filters = { FOCUS_FILTER_INDUSTRY }
-		completion_reward = {
-					add_offsite_building = { type = dockyard level = 2 }
-		}
-	}
 
 	focus = {
 		id = FRA_the_young_school
 		icon = GFX_goal_generic_navy_cruiser
 	 	prerequisite = { focus = FRA_naval_rearmament }
 
-		x = 3
+		x = 0
 		y = 1
 		relative_position_id = FRA_naval_rearmament
 		cost = 5
@@ -724,22 +659,13 @@
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
 			add_ideas = FRA_the_young_school
-		}
-	}
-
-	focus = {
-		id = FRA_undersea_combat
-		icon = GFX_goal_generic_navy_submarine
-	 	prerequisite = { focus = FRA_the_young_school }
-		x = -1
-		y = 1
-		relative_position_id = FRA_the_young_school
-		cost = 5
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_tech_bonus = {
+						add_tech_bonus = {
+				name = FRA_surface_combat
+				bonus = 2.0
+				uses = 1
+				category = dd_tech
+			}
+						add_tech_bonus = {
 				name = FRA_undersea_combat
 				bonus = 1.0
 				uses = 2
@@ -748,52 +674,6 @@
 		}
 	}
 
-	focus = {
-		id = FRA_surface_combat
-		icon = GFX_focus_generic_destroyer
-	 	prerequisite = { focus = FRA_the_young_school }
-		x = 1
-		y = 1
-		relative_position_id = FRA_the_young_school
-		cost = 5
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_tech_bonus = {
-				name = FRA_surface_combat
-				bonus = 2.0
-				uses = 1
-				category = dd_tech
-			}
-		}
-	}
-
-
-	focus = {
-		id = FRA_naval_doctrine
-		icon = GFX_goal_generic_navy_doctrines_tactics
-	 	prerequisite = { 
-	 		focus = FRA_the_old_school
-	 	}
-		x = 0
-		y = 1
-		relative_position_id = FRA_the_old_school
-		cost = 5
-		search_filters = { FOCUS_FILTER_RESEARCH }
-		available_if_capitulated = yes
-
-		completion_reward = {
-
-			add_tech_bonus = {
-				name = FRA_naval_doctrine
-				bonus = 1.0
-				uses = 2
-				category = naval_doctrine
-			}
-		}
-	}
-	
 
 	focus = {
 		id = FRA_appeal_to_the_french_nation
@@ -1128,16 +1008,12 @@ recalc_vichy_france_legitimacy = yes
 		relative_position_id = FRA_army_reform
 		
 		available = { 			NOT = { owns_state = 16 } }
-
-
 		available_if_capitulated = yes
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
-			add_offsite_building = {
-				type = arms_factory
-				level = 8
-			}
-	}
+			add_offsite_building = { type = arms_factory  level = 8	}
+			add_offsite_building = { type = dockyard level = 4 }
+		}
 	}
 	focus = {
 		id = FRA_the_free_french_navy

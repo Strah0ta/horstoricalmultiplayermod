@@ -414,7 +414,7 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = SPA_equipment_modernization
-				bonus = 1.0
+				bonus = 0.5
 				uses = 2
 				category = infantry_weapons
 			}
@@ -437,7 +437,7 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = SPA_artillery_modernization
-				bonus = 1.0
+				bonus = 0.5
 				uses = 2
 				category = artillery
 			}
@@ -826,13 +826,13 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = SPA_the_corpo_truppe_volontarie
-				bonus = 1.0
+				bonus = 0.5
 				uses = 1
 				category = infantry_weapons
 			}
 			add_tech_bonus = {
 				name = SPA_the_corpo_truppe_volontarie
-				bonus = 1.0
+				bonus = 0.5
 				uses = 2
 				category = artillery
 			}

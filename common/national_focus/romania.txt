@@ -555,7 +555,7 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = ROM_the_zb_53
-				bonus = 1.0
+				bonus = 0.5
 				uses = 2
 				category = infantry_weapons
 			}
@@ -614,7 +614,7 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = ROM_artillery_modernization
-				bonus = 1.0
+				bonus = 0.5
 				uses = 2
 				category = artillery
 			}

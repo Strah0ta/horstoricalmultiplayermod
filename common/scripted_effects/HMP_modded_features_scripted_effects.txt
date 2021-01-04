@@ -1536,9 +1536,9 @@ create_corps_commander = {
     picture = "Portrait_Germany_Georg_von_Reinhardt.dds"
 	traits = { trickster guerilla_fighter ambusher trait_cautious panzer_leader panzer_expert bearer_of_artillery  }
 	skill = 7
-    attack_skill = 10
+    attack_skill = 8
     defense_skill = 4
-    planning_skill = 2
+    planning_skill = 4
     logistics_skill = 6
 }
 
@@ -2419,9 +2419,9 @@ create_field_marshal = {
 	name = "Carl Gustaf Emil Mannerheim"
 	picture = "portrait_fin_carl_mannerheim.dds"
 	traits = { organizer logistics_wizard inflexible_strategist trait_cautious unyielding_defender inspirational_leader expert_improviser defensive_doctrine trickster  }
-	skill = 7
-	attack_skill = 4
-	defense_skill = 7
+	skill = 8
+	attack_skill = 5
+	defense_skill = 9
 	planning_skill = 3
 	logistics_skill = 8
 }
@@ -2430,9 +2430,9 @@ create_corps_commander = {
 	name = "Erik Heinrichs"
 	portrait_path = "gfx/leaders/FIN/Erik_Heinrichs.tga"
 	traits = {  ranger trickster commando infantry_leader ambusher scavenger guerilla_fighter skilled_staffer }
-	skill = 7
-    attack_skill = 3
-    defense_skill = 7
+	skill = 8
+    attack_skill = 4
+    defense_skill = 9
     planning_skill = 3
     logistics_skill = 9
 }
@@ -3263,7 +3263,6 @@ create_navy_leader = {
 
 create_navy_leader = {
 	name = "Charles Forbes"
-	id = 990
 		picture = "Portrait_Britain_Charles_Forbes.dds"
 	traits = { fly_swatter cruiser_captain fleet_protector destroyer_leader hunter_killer search_pattern_expert  arctic_water_expert    }
 	skill = 4
@@ -3276,7 +3275,6 @@ create_navy_leader = {
 
 create_navy_leader = {
 	name = "Henry Harwood" # Aristocrat
-	id = 984
 		picture = "Portrait_Britain_Henry_Harwood.dds"
 	traits = { fly_swatter cruiser_captain fleet_protector destroyer_leader hunter_killer search_pattern_expert  arctic_water_expert    }
 	skill = 4
@@ -3288,7 +3286,6 @@ create_navy_leader = {
 
 create_navy_leader = {
 	name = "Algernon Willis"
-	id = 991
 		picture = "Portrait_Britain_Algernon_Willis.dds"
 	traits = { spotter blockade_runner smoke_screen_expert concealment_expert }
 	skill = 3
@@ -4045,6 +4042,7 @@ HMP_startup_on_actions = {
 	118 = { add_state_modifier = { modifier = { max_dig_in = 30 } }  } 
 	if = {	limit = { has_game_rule = { rule = horst_manchukuo	option = HORST_ENABLE_MOD_MANCHUKUO	} }	MAN = { load_focus_tree = manchukuomod_focus } 	}
 	JAP  = { give_resource_rights = { receiver = GER state = 494 }	}
+	MAN  = { give_resource_rights = { receiver = JAP state = 3 } }	MAN  = { give_resource_rights = { receiver = JAP state = 328 }	} MAN  = { give_resource_rights = { receiver = JAP state = 496 }	}
 	ROM  = { give_resource_rights = { receiver = ITA state = 46 }	}
 	if = { limit = { MAN = { is_ai = yes } country_exists = MAN } JAP = { country_event = { id = japan.148 }}}
 	if = { limit = { NZL = { is_ai = yes } country_exists = NZL } AST = { country_event = { id = japan.758 }}}

@@ -524,7 +524,7 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = SAF_improve_the_three_oh_three
-				bonus = 1.0
+				bonus = 0.5
 				uses = 2
 				category = infantry_weapons
 			}
@@ -590,7 +590,7 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = SAF_expand_the_south_african_artillery
-				bonus = 1.0
+				bonus = 0.5
 				uses = 2
 				category = artillery
 			}
@@ -630,7 +630,7 @@ focus_tree = {
 		completion_reward = {			
 			add_tech_bonus = {
 				name = SAF_equipment_effort
-				bonus = 1.0
+				bonus = 0.5
 				uses = 2
 				category = infantry_weapons
 				category = artillery

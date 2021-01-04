@@ -7,6 +7,7 @@ country = {
 	modifier = {
 	acclimatization_cold_climate_gain_factor = 1000
 	training_time_factor = -0.5
+	consumer_goods_factor = -0.08 
 	}
 	
 	}

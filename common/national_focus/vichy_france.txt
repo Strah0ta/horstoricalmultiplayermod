@@ -47,7 +47,7 @@
 		completion_reward = {
 			add_tech_bonus = {
 				name = infantry_artillery_bonus
-				bonus = 1.0
+				bonus = 0.5
 				uses = 1
 				category = infantry_weapons
 				category = artillery
@@ -122,7 +122,7 @@
 		completion_reward = {
 			add_tech_bonus = {
 				name = infantry_artillery_bonus
-				bonus = 1.0
+				bonus = 0.5
 				uses = 1
 				category = infantry_weapons
 				category = artillery
@@ -197,7 +197,7 @@
 		completion_reward = {
 			add_tech_bonus = {
 				name = infantry_artillery_bonus
-				ahead_reduction = 2
+				bonus = 0.5
 				uses = 1
 				category = infantry_weapons
 				category = artillery
@@ -361,7 +361,6 @@
 				bonus = 1.0
 				uses = 4
 				category = electronics
-				category = rocketry
 			}
 		}
 	}
@@ -372,12 +371,8 @@
 		x = 7
 		y = 0
 		cost = 10
-
 		available_if_capitulated = yes
-
-				available = { NOT = { FRA = { has_capitulated = yes }}}
-
-		
+		available = { NOT = { FRA = { has_capitulated = yes }}}
 		completion_reward = {
 			add_political_power = 120
 		}

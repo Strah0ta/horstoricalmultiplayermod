@@ -3403,7 +3403,7 @@ SOV_great_patriotic_war = {
 		allowed = {	original_tag = SOV }
 		icon = generic_naval
 		available = { date > 1950.1.1 }
-		days_mission_timeout = 5
+		days_mission_timeout = 4
 		fire_only_once = no
 		is_good = yes
 		activation = { always = no }
@@ -3442,7 +3442,7 @@ SOV_great_patriotic_war = {
 		allowed = {original_tag=SOV	}
 		icon = generic_naval
 		available = { date > 1950.1.1 }
-		days_mission_timeout = 5
+		days_mission_timeout = 4
 		fire_only_once = no
 		is_good = yes
 		activation = {	always=no}

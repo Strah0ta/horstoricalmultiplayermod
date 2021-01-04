@@ -145,7 +145,7 @@
 		completion_reward = {
 			add_tech_bonus = {
 				name = AST_specialize_equipment
-				bonus = 1.0
+				bonus = 0.5
 				uses = 2
 				category = infantry_weapons
 				category = artillery
@@ -210,7 +210,7 @@
 		completion_reward = {
 			add_tech_bonus = {
 				name = AST_fund_owen_gun_research
-				bonus = 1.01
+				bonus = 0.51
 				uses = 2
 				category = infantry_weapons
 			}

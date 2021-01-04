@@ -3,23 +3,23 @@ DIPLOMACY_LEND_LEASE_ENABLE_TRIGGER = {
 	if = { limit = {FROM = { tag = NOR   } }  NOR = { has_country_flag = france_is_kill }  } 
 	if = { limit = {ROOT = { OR = { tag = JAP tag = MAN  } } }	NOT = { FROM = { the_axis = yes  } } }
 	if = { limit = {ROOT = { the_axis = yes  } } 	NOT = { FROM = { OR = { tag = MAN tag = JAP } } } }
-	NOT = { ROOT = { OR = { tag = SOV tag = FIN tag = EFR tag = ETH } } } #LL potentially breaks many of these nations in balance
-	NOT = { FROM = { OR = { tag = SOV tag = FIN tag = EFR tag = ETH } } } #LL potentially breaks many of these nations in balance
+	NOT = { ROOT = { OR = { tag = SOV  AND = { original_tag = FIN SOV = { controls_state = 195 }   } tag = EFR tag = ETH } } } #LL potentially breaks many of these nations in balance
+	NOT = { FROM = { OR = { tag = SOV  AND = { original_tag = FIN SOV = { controls_state = 195 }   } tag = EFR tag = ETH } } } #LL potentially breaks many of these nations in balance
 }
 DIPLOMACY_WAR_ENABLE_TRIGGER = {always = no	}
 DIPLOMACY_INCOMING_LEND_LEASE_ENABLE_TRIGGER = {	
 	if = { limit = {ROOT = { normally_played_allies = yes} } 		NOT = { FROM = { OR = { tag = ENG tag = USA    } } } } #done to avoid minor players crashing coops/mains in MP
 	if = { limit = {ROOT = { the_axis = yes} } 		NOT = { FROM = { OR = {  tag = GER tag = ITA } } }  }
 	if = { limit = {ROOT = { tag = MAN } } 		NOT = { FROM = { tag = JAP  } } } 
-	NOT = { ROOT = { OR = { tag = SOV tag = FIN tag = EFR tag = ETH } } }
-	NOT = { FROM = { OR = {  tag = SOV  tag = FIN tag = EFR tag = ETH} } }
+	NOT = { ROOT = { OR = { tag = SOV  AND = { original_tag = FIN SOV = { controls_state = 195 }   } tag = EFR tag = ETH } } }
+	NOT = { FROM = { OR = {  tag = SOV   AND = { original_tag = FIN SOV = { controls_state = 195 }   } tag = EFR tag = ETH} } }
 	if = { limit = {ROOT = { tag = FRA   } }  			FRA = { has_country_flag = france_is_kill }  } 
 	if = { limit = {ROOT = { tag = NOR   } }  			 NOR = { has_country_flag = france_is_kill }  } 
 	if = { limit = {FROM = { OR = { tag = JAP tag = MAN  } } }			NOT = { ROOT = { the_axis = yes  } } }
 	if = { limit = {FROM = { the_axis = yes  } } 	NOT = { ROOT = { OR = { tag = MAN tag = JAP } } } }
 }
 DIPLOMACY_SEND_EXP_FORCE_ENABLE_TRIGGER = {
-	NOT = { FROM = { OR = {  original_tag = EFR original_tag = ETH original_tag = FIN } } }
+	NOT = { FROM = { OR = {  original_tag = EFR original_tag = ETH  AND = { original_tag = FIN SOV = { controls_state = 195 }   } } } }
 	NOT = { FROM = { OR = {  has_tech = grand_battle_plan_mp has_tech = operational_concentration has_tech = grand_mechanized_offensive tag = EFR tag = ETH} } }
 }
 DIPLOMACY_GENERATE_WARGOAL_ENABLE_TRIGGER = { always = no }
@@ -35,11 +35,11 @@ DIPLOMACY_REQUEST_ACCESS_TO_LICENCE_PRODUCTION_ENABLE_TRIGGER = {
 	if = { limit = {   ROOT = { original_tag = MAN  }  }  FROM = { OR = { original_tag = JAP  original_tag = GER } } }
 }
 DIPLOMACY_RETURN_EXP_FORCE_ENABLE_TRIGGER = {
-    NOT = { ROOT = { OR = { original_tag = EFR original_tag = ETH original_tag = FIN }} }
-	NOT = { FROM = { OR = { original_tag = EFR original_tag = ETH  original_tag = FIN }} }
+    NOT = { ROOT = { OR = { original_tag = EFR original_tag = ETH  AND = { original_tag = FIN SOV = { controls_state = 195 }   } }} }
+	NOT = { FROM = { OR = { original_tag = EFR original_tag = ETH   AND = { original_tag = FIN SOV = { controls_state = 195 }   } }} }
 }
 DIPLOMACY_REQUEST_EXP_FORCE_ENABLE_TRIGGER = {
 	NOT = { date < 1939.9.1 }
-    NOT = { ROOT = { OR = { original_tag = EFR original_tag = ETH original_tag = FIN  has_tech = grand_battle_plan_mp has_tech = operational_concentration has_tech = grand_mechanized_offensive }} }
+    NOT = { ROOT = { OR = { original_tag = EFR original_tag = ETH AND = { original_tag = FIN SOV = { controls_state = 195 }   }  has_tech = grand_battle_plan_mp has_tech = operational_concentration has_tech = grand_mechanized_offensive }} }
 	NOT = { FROM = { OR = { original_tag = EFR original_tag = ETH original_tag = FIN  has_tech = grand_battle_plan_mp has_tech = operational_concentration has_tech = grand_mechanized_offensive }} }
 }

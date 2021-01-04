@@ -60,13 +60,13 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = infantry_artillery_bonus
-				bonus = 1.0
+				bonus = 0.5
 				uses = 1
 				category = infantry_weapons
 			}
 			add_tech_bonus = {
 				name = infantry_artillery_bonus
-				bonus = 1.0
+				bonus = 0.5
 				uses = 1
 				category = artillery
 			}			
@@ -110,13 +110,13 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = infantry_artillery_bonus
-				bonus = 1.0
+				bonus = 0.5
 				uses = 1
 				category = infantry_weapons
 			}
 			add_tech_bonus = {
 				name = infantry_artillery_bonus
-				bonus = 1.0
+				bonus = 0.5
 				uses = 1
 				category = artillery
 			}		
@@ -181,13 +181,13 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = infantry_artillery_bonus
-				ahead_reduction = 2
+				bonus = 0.5
 				uses = 1
 				category = infantry_weapons
 			}
 					add_tech_bonus = {
 				name = infantry_artillery_bonus
-				ahead_reduction = 2
+				bonus = 0.5
 				uses = 1
 				category = artillery
 			}
@@ -604,7 +604,7 @@ focus_tree = {
 				}	
 				add_tech_bonus = {
 					name = infantry_artillery_bonus 
-					bonus = 1.0
+					bonus = 0.5
 					uses = 1
 					category = infantry_weapons
 					category = artillery

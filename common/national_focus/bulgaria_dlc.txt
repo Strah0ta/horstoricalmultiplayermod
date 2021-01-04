@@ -1,11 +1,3 @@
-### search_filters = {FOCUS_FILTER_POLITICAL}
-### search_filters = {FOCUS_FILTER_RESEARCH}
-### search_filters = {FOCUS_FILTER_INDUSTRY}
-### search_filters = {FOCUS_FILTER_STABILITY}
-### search_filters = {FOCUS_FILTER_WAR_SUPPORT}
-### search_filters = {FOCUS_FILTER_MANPOWER}
-### search_filters = {FOCUS_FILTER_ANNEXATION}
-### search_filters = {FOCUS_FILTER_INTERNAL_AFFAIRS}
 
 focus_tree = {
 	id = bulgarian_dlc_focus #modified vanilla tree, will be loaded if the host uses DLC, is being synced with the modded tree vaguely in terms of power level
@@ -385,7 +377,7 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = BUL_reorganize_the_military_industry
-			    bonus = 1.0
+			    bonus = 0.5
 			    uses = 2
 			    category = infantry_weapons
 				category = artillery
@@ -521,7 +513,7 @@ focus_tree = {
 			}
 			add_tech_bonus = {
 				name = BUL_found_dvf_sopot
-			    bonus = 1.0
+			    bonus = 0.5
 			    uses = 2
 				category = artillery
 			}
@@ -549,7 +541,7 @@ focus_tree = {
 			}
 			add_tech_bonus = {
 				name = BUL_darzhavna_voenna_fabrika
-			    bonus = 1.0
+			    bonus = 0.5
 			    uses = 2
 				category = infantry_weapons
 				category = support_tech
@@ -866,7 +858,7 @@ focus_tree = {
 			}
 			add_tech_bonus = {
 				name = BUL_improve_coastal_defenses
-			    bonus = 1.0
+			    bonus = 0.5
 			    uses = 2
 				category = artillery
 			}
