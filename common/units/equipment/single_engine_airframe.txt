@@ -158,7 +158,7 @@ equipments = {
 		
 		build_cost_ic = 66
 		resources = {
-			aluminium = 2
+			aluminium = 1
 			rubber = 1
 		}
 		
@@ -198,7 +198,7 @@ equipments = {
 		build_cost_ic = 39 #vanilla 26 
 		resources = {
 			#oil = 1
-			aluminium = 2
+			aluminium = 1
 			rubber = 1
 		}
 		
@@ -246,7 +246,7 @@ equipments = {
 		build_cost_ic = 72
 		resources = {
 			#oil = 1
-			aluminium = 3
+			aluminium = 2
 			rubber = 1
 		}
 
@@ -273,7 +273,7 @@ equipments = {
 		build_cost_ic = 78
 		resources = {
 			#oil = 2
-			aluminium = 3
+			aluminium = 5
 			rubber = 1
 		}
 
@@ -323,7 +323,7 @@ equipments = {
 		
 		build_cost_ic = 84
 		resources = {
-			aluminium = 4
+			aluminium = 3
 			rubber = 1
 		}
 
@@ -349,7 +349,7 @@ equipments = {
 		
 		build_cost_ic = 84
 		resources = {
-			aluminium = 5
+			aluminium = 4
 			rubber = 1
 		}
 		
@@ -374,7 +374,7 @@ equipments = {
 
 		build_cost_ic = 86
 		resources = {
-			aluminium = 6
+			aluminium = 5
 			rubber = 1
 		}
 			manpower = 80
@@ -515,7 +515,7 @@ equipments = {
 		build_cost_ic = 72
 		resources = {
 			#oil = 1
-			aluminium = 3
+			aluminium = 1
 			rubber = 1
 		}
 		
@@ -542,7 +542,7 @@ equipments = {
 		build_cost_ic = 78
 		resources = {
 			#oil = 2
-			aluminium = 3
+			aluminium = 1
 			rubber = 1
 		}		
 
@@ -585,8 +585,7 @@ equipments = {
 		
 		build_cost_ic = 42
 		resources = {
-			#oil = 1
-			aluminium = 3
+			aluminium = 1
 			rubber = 1
 		}
 		
@@ -610,8 +609,7 @@ equipments = {
 	
 		build_cost_ic = 45
 		resources = {
-			#oil = 2
-			aluminium = 3
+			aluminium = 1
 			rubber = 1
 		}	
 	}

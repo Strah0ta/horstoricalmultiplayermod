@@ -1191,32 +1191,6 @@
 	}
 
 	focus = {
-		id = AST_rationing_and_recycling
-		icon = GFX_goal_generic_trade
-		prerequisite = { focus = AST_invest_in_victory }
-		x = 0
-		y = 3
-		relative_position_id = AST_establish_advisory_war_council
-
-		cost = 10
-
-		completion_reward = {
-			521 = {
-				add_resource = {
-					type = aluminium
-					amount = 32
-				}
-			}
-			517 = {
-				add_resource = {
-					type = oil
-					amount = 12
-				}
-			}
-		}
-	}
-
-	focus = {
 		id = AST_classify_aliens
 		icon = GFX_goal_generic_defence
 		prerequisite = { focus = AST_citizen_military_forces }

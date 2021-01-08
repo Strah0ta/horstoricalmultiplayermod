@@ -5,11 +5,6 @@ state={
 	manpower = 1854481
 	
 	state_category = town
-	
-	resources={
-		aluminium=74 # was: 20
-	}
-
 
 	history={
 					1936.1.2 = {

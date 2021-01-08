@@ -910,7 +910,7 @@ add_equipment_production = {
 			551 = {
 				set_building_level = {
 					type = air_base
-					level = 52
+					level = 56
 					instant_build = yes
 				}			
 			}	
