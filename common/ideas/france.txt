@@ -229,8 +229,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				#production_factory_max_efficiency_factor = 0.1
-				production_factory_efficiency_gain_factor = 0.4
+				production_factory_efficiency_gain_factor = 0.25
 			}
 			research_bonus = { industry = 0.05}
 		}
@@ -284,6 +283,7 @@ ideas = {
 			
 			modifier = {
 				conscription = 0.1
+				consumer_goods_factor = -0.1
 				min_export = -1	
 			}
 		}
