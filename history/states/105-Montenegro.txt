@@ -1,9 +1,6 @@
 state={
 	id=105
 	name="STATE_105"
-		resources={
- 		aluminium=40.000
-	}
 	history={
 		victory_points = {
 			9809 3
@@ -11,10 +8,9 @@ state={
 		owner = YUG
 		buildings = {
 			infrastructure = 3
-			dockyard = 5
+			dockyard = 3
 			9809 = {
 				naval_base = 1
-
 			}
 
 		}

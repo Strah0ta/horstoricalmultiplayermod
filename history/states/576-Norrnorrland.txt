@@ -6,7 +6,6 @@ resources={
 tungsten=25
 steel= 87
 chromium = 40
-aluminium = 52
 }
 impassable = yes
 state_category = wasteland

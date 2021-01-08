@@ -2,7 +2,6 @@ state={
 	id=160
 	name="STATE_160"
 	resources={
-		aluminium=11 # was: 18.000
 		steel = 58
 	}
 	

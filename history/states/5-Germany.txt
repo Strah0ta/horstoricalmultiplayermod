@@ -9,16 +9,13 @@ state={
 		victory_points = {
 			6375 3
 		}
-		#victory_points = {
-		#	11386 1
-		#}
 		owner = GER
 		controller = GER
 		
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 3
-			fuel_silo = 3
+			fuel_silo = 2
 		}
 		add_core_of = GER
 	}

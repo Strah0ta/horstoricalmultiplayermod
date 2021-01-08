@@ -24,7 +24,7 @@ state={
 			arms_factory = 2
 			air_base = 4
 		}
-				1936.1.2 = { 
+		1936.1.2 = { 
 				buildings = {
 			infrastructure = 6
 			arms_factory = 0
