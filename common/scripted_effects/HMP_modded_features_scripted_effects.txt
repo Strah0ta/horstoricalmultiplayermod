@@ -307,10 +307,8 @@ ENG = {
 				120 = { add_resource = { type = steel amount = 95 }  } 
 				122 = { add_resource = { type = steel amount = 68	}  }
 				338 = {	add_resource = { type = steel amount = 68	}  	}			
-				521 = { add_resource = { type = aluminium amount = 32 } }
 			284 = {
 				add_resource = {	type = steel	amount = 20	}
-				add_resource = {	type = oil	amount = 5	}
 				add_building_construction = {
 					type = infrastructure
 					level = 2
@@ -324,15 +322,12 @@ ENG = {
 					instant_build = yes
 				}
 					}	
- 		122 = { add_resource = { type = aluminium amount = 138	} }
-		119 = { add_resource = { type = aluminium amount = 162	} }					
  }
  FRA = {495 = {	add_resource = { type = steel amount = 94 } } }
  CAN = { 
  		276 = {	add_resource = { type = steel amount = 86 } } 
 		473 = { add_resource = { type = steel amount = 73	} } 
-		466 = {	add_resource = { type = aluminium amount = 98 } } 
-		465 = { add_resource = { type = aluminium amount = 94 }	} 				
+		466 = {	add_resource = { type = aluminium amount = 40 } } 
 		540 = { add_resource = { type = steel amount = 22 } add_resource = { type = tungsten	amount = 50	}	}
 		} 
 }
@@ -1385,14 +1380,13 @@ generic_bonus_999 = {
 
 HMP_script_balkans = {
 			GER = { 	transfer_state = 303 transfer_state = 414 transfer_state = 109 transfer_state = 104 transfer_state = 107 transfer_state = 108 	}
-			BUL = {   transfer_state = 184   transfer_state = 486 transfer_state = 293    transfer_state = 106   }
+			BUL = {   transfer_state = 184   transfer_state = 293    transfer_state = 106   }
 			if = { limit = { has_start_date > 1936.1.2 } GER = {  
-			transfer_state = 486
 			transfer_state = 293 transfer_state = 184 transfer_state = 106
 			transfer_state = 211 transfer_state = 212 transfer_state = 48
 			}    }
 			HUN = { transfer_state = 514 transfer_state = 45   }
-			transfer_state = 102 transfer_state = 103 transfer_state = 105 
+			transfer_state = 102 transfer_state = 103 transfer_state = 105 transfer_state = 486
 			transfer_state = 185 transfer_state = 47 transfer_state = 187 transfer_state = 182 transfer_state = 186
 			add_threat = 20
 			if = { limit = { BUL = { is_ai = yes } country_exists = BUL } ITA = { annex_country = { target = BUL transfer_troops = yes }}   }

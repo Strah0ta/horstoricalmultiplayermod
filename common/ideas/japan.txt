@@ -576,10 +576,6 @@ ideas = {
 				original_tag = JAP
 			}
 
-			available = {
-				has_completed_focus = JAP_supremacy_of_the_battlefleet
-			}
-
 			cost = 50
 						
 			research_bonus = {

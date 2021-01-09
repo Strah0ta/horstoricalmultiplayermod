@@ -4,7 +4,7 @@ name="STATE_687"
 manpower = 309000
 state_category = wasteland
 resources={
-aluminium=70
+aluminium=60
 }
 history={
 owner = ENG
@@ -13,7 +13,7 @@ victory_points = {
 4982 1
 }
 buildings = {
-infrastructure = 6
+infrastructure = 8
 4982 = {
 naval_base = 1
 }

@@ -28,9 +28,13 @@ state={
 		}
 		add_core_of = NZL
 		add_core_of = AST 
-		1936.1.2 = {
+				1936.1.2 = {
 			owner = ENG
 			add_core_of = ENG
+						buildings = {
+				industrial_complex = 0
+				arms_factory = 0
+			}
 		}
 	}
 	provinces={
