@@ -12,7 +12,7 @@ resources={	aluminium= 30  }
 		buildings = {
 			infrastructure = 8
 			air_base = 4
-			industrial_complex = 5
+			industrial_complex = 3
 			arms_factory = 2
 			dockyard = 4
 			9998 = {

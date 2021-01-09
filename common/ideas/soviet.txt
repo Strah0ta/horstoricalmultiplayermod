@@ -37,7 +37,7 @@ ideas = {
 			allowed_civil_war = {has_government = communism	}
 			picture = generic_production_bonus
 			modifier = {
-				consumer_goods_factor = -0.05 
+				consumer_goods_factor = -0.1 
 				stability_factor = 0.10
 				war_support_factor = 0.10 
 				supply_consumption_factor = -0.075
@@ -49,7 +49,7 @@ ideas = {
 			allowed_civil_war = {has_government = communism	}
 			picture = generic_manpower_bonus
 			modifier = {
-				consumer_goods_factor = -0.05 
+				consumer_goods_factor = -0.1 
 				stability_factor = 0.10
 				war_support_factor = 0.10 
 				supply_consumption_factor = -0.075
@@ -110,8 +110,7 @@ ideas = {
 			allowed_civil_war = { has_government = communism }
 			picture = generic_production_bonus
 			modifier = {
-				production_speed_buildings_factor = 0.25
-				consumer_goods_factor = -0.05
+				production_speed_buildings_factor = 0.1
 			}
 		}
 	
@@ -169,7 +168,7 @@ ideas = {
 			picture = generic_research_bonus
 			
 			modifier = {
-				research_speed_factor = 0.25
+				research_speed_factor = 0.1
 				}
 		}
 
@@ -239,6 +238,8 @@ ideas = {
 			}
 			
 			modifier = {
+				production_speed_buildings_factor = 0.15
+				research_speed_factor = 0.15
 				industrial_capacity_factory = 0.1
 				operative_slot = 2 
 				air_intercept_efficiency = -1

@@ -119,7 +119,7 @@ HMP_ll_soviets_rarty = { #worth 1x
 		}
 	}
 HMP_ll_soviets_fighter = { #worth 20x 
-		allowed = {  normally_played_allies = yes } 
+		allowed = {  always = no } 
 		available = { has_equipment = {  fighter_equipment > 675 }SOV = { has_war_with = GER }}
 		icon = generic_form_nation
 		cost = 0

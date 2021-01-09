@@ -4,7 +4,7 @@ state={
 	name="STATE_289"
 	manpower = 12422400
 	
-	state_category = pastoral
+	state_category = wasteland
 	
 	resources={
 		rubber=28 
@@ -14,7 +14,6 @@ state={
 		owner = JAP
 		buildings = {
 			infrastructure = 10
-			industrial_complex = 1
 			air_base = 12
 			7408 = {
 				naval_base = 10

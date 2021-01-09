@@ -4,7 +4,7 @@ name="STATE_687"
 manpower = 309000
 state_category = wasteland
 resources={
-aluminium=98
+aluminium=70
 }
 history={
 owner = ENG
