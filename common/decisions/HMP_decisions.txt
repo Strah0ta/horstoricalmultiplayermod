@@ -1096,9 +1096,7 @@ GER_desert_flower_dec = {
 						controls_state = 291
 					}
 				} }
-	modifier = {civilian_factory_use = 4	}
 	fire_only_once = yes
-	days_remove = 150
 	complete_effect = {
 			if = { limit = { AND = { NOT = {EFR = { has_country_flag = EFR_torch_declared}} EFR = {owns_state = 26 }} } EFR = { every_owned_state = {  set_demilitarized_zone = yes } 26 = { set_demilitarized_zone = no  } } } 
 		if = { limit = { EFR = { owns_state = 554 }} FRA = { transfer_state = 554 } ITA = { set_state_controller = 554 } country_event = { id = germany.378 } 554 = { set_demilitarized_zone = no }}
@@ -1107,8 +1105,43 @@ GER_desert_flower_dec = {
 					level = 10
 					instant_build = yes
 				}		} 
-				}
+				activate_mission = GER_desert_flower_mission1
+				} 
 			}
+			
+		
+GER_desert_flower_mission1 = {
+	icon = generic_operation
+	allowed = { tag = GER }
+	available = {	ENG = { controls_state = 291 }	} 
+			days_mission_timeout = 30
+		fire_only_once = no
+		is_good = yes
+		activation = { always = no }
+		timeout_effect = { 
+		custom_effect_tooltip "We will improve our fuel gained from refineries by 10%"
+			add_to_variable = {   var = germany_war_fuel_gain_factor_from_states value = 0.1  }
+			activate_mission = GER_desert_flower_mission2
+			
+		}
+	complete_effect = {		}
+			}		
+GER_desert_flower_mission2 = {
+	icon = generic_operation
+	allowed = { tag = GER }
+	available = {	ENG = { controls_state = 291 }	} 
+		days_mission_timeout = 30
+		fire_only_once = no
+		is_good = yes
+		activation = { always = no }
+		timeout_effect = { 
+				custom_effect_tooltip "We will improve our fuel gained from refineries by 10%"
+			add_to_variable = {   var = germany_war_fuel_gain_factor_from_states value = 0.1  }
+			activate_mission = GER_desert_flower_mission1
+		}
+		complete_effect = { 	}
+			}				
+			
 			
 	GER_around_iraq = {
 	icon = generic_operation

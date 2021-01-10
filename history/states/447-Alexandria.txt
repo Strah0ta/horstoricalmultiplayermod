@@ -3,6 +3,7 @@ id=447
 name="Lower Egypt"
 manpower = 10445835
 state_category = wasteland
+resources = { oil = 10 }
 history={
 owner = ENG
 add_core_of=SWE

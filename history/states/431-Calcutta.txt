@@ -23,7 +23,6 @@ victory_points = {
 				1936.1.2 = {
 			owner = ENG
 						buildings = {
-				industrial_complex = 0
 				arms_factory = 0
 			}
 		}

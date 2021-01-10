@@ -471,12 +471,11 @@ focus_tree = {
 			add_tech_bonus = {
 				name = GER_autarky
 				bonus = 3.0
-				uses = 5
+				uses = 4 
 				technology = excavation1
 				technology = excavation2
 				technology = excavation3
 				technology = excavation4
-				technology = excavation5
 			}
 			swap_ideas = {
 			remove_idea = GER_autarky_idea
@@ -648,7 +647,7 @@ focus_tree = {
 			custom_effect_tooltip = GER_autobahn_tt
 			every_state = { 
 			limit = { is_core_of = GER}
-			add_state_modifier = { modifier = { local_building_slots_factor = 0.2	  } }
+			add_state_modifier = { modifier = { local_building_slots_factor = 0.1	  } }
 			}
 			hidden_effect = {
 				64 = {
@@ -709,7 +708,7 @@ focus_tree = {
 			add_ideas = GER_grosraumwirtschaft
 				every_state = { 
 			limit = { is_core_of = GER}
-			add_state_modifier = { modifier = { local_building_slots_factor = 0.2  } }
+			add_state_modifier = { modifier = { local_building_slots_factor = 0.1  } }
 			}
 		}
 	}

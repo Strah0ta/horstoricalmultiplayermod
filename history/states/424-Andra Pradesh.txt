@@ -1,6 +1,6 @@
 state={
 id=424
-name="STATE_424"
+name="Egyptian Desert"
 manpower = 1
 state_category = wasteland
 

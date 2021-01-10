@@ -214,13 +214,6 @@ destroy_ships = { type = submarine count = all }
 }
 }
 
-
-#resistance_support_low
-#resistance_support_moderate
-#resistance_support_high 
-#resistance_support_max
-
-
 SPR_relocate_civ = {
     SPR = {
 	     random_owned_controlled_state={
@@ -327,7 +320,7 @@ ENG = {
  CAN = { 
  		276 = {	add_resource = { type = steel amount = 86 } } 
 		473 = { add_resource = { type = steel amount = 73	} } 
-		466 = {	add_resource = { type = aluminium amount = 40 } } 
+		466 = {	add_resource = { type = aluminium amount = 20 } } 
 		540 = { add_resource = { type = steel amount = 22 } add_resource = { type = tungsten	amount = 50	}	}
 		} 
 }
@@ -4041,7 +4034,6 @@ HMP_startup_on_actions = {
 	if = {	limit = { has_game_rule = { rule = horst_manchukuo	option = HORST_ENABLE_MOD_MANCHUKUO	} }	MAN = { load_focus_tree = manchukuomod_focus } 	}
 	JAP  = { give_resource_rights = { receiver = GER state = 494 }	}
 	MAN  = { give_resource_rights = { receiver = JAP state = 3 } }	MAN  = { give_resource_rights = { receiver = JAP state = 328 }	} MAN  = { give_resource_rights = { receiver = JAP state = 496 }	}
-	ROM  = { give_resource_rights = { receiver = ITA state = 46 }	}
 	if = { limit = { MAN = { is_ai = yes } country_exists = MAN } JAP = { country_event = { id = japan.148 }}}
 	if = { limit = { NZL = { is_ai = yes } country_exists = NZL } AST = { country_event = { id = japan.758 }}}
 	if = { limit = { SAF = { is_ai = yes } country_exists = SAF } ENG = { country_event = { id = japan.678 }}}
@@ -4168,7 +4160,7 @@ HFU_fuel_startup_effect = {
 				every_country = {
 					limit = {
 						NOT={tag=GER}
-						is_in_faction_with = GER
+						OR = { is_in_faction_with = GER  tag = EFR tag = ALB   }
 						disabled_ai_production = yes 
 						NOT = { is_in_array = { GER.faction_members_array = THIS.id } }			
 					}

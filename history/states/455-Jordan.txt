@@ -3,6 +3,7 @@ id=455
 name="STATE_455"
 manpower = 932000
 state_category = wasteland
+resources = { oil = 10 }
 history={
 owner = ENG
 add_core_of=SWE

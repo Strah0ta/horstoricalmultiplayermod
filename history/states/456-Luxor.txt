@@ -4,6 +4,7 @@ id=456
 name="Upper Egypt"
 manpower = 4253010
 state_category = wasteland
+resources = { oil = 10 }
 history = {
 victory_points = {
 11999 50

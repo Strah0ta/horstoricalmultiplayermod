@@ -70,19 +70,19 @@ armored_car1 = 1
 }
 add_relation_modifier = {
     target = SPR
-    modifier = stahlpakt
+    modifier = stahlpakt_ITA
 } 
 add_relation_modifier = {
     target = ROM
-    modifier = stahlpakt
+    modifier = stahlpakt_ITA
 }
 add_relation_modifier = {
     target = BUL
-    modifier = stahlpakt
+    modifier = stahlpakt_ITA
 }
 add_relation_modifier = {
     target = HUN
-    modifier = stahlpakt
+    modifier = stahlpakt_ITA
 }
 add_opinion_modifier = {
     target = EFR

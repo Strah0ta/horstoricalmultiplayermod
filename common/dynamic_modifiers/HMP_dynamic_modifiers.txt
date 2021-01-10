@@ -7,9 +7,9 @@ GER_war_exhaustion = {
 	icon = "GFX_idea_generic_fascism_drift_2"
 				stability_factor = germany_war_exhaustion_stability_factor
 				war_support_factor = germany_war_exhaustion_war_support_factor
-				political_power_gain = germany_war_exhaustion_political_gain
 				army_core_attack_factor = germany_war_army_core_attack_factor
 				army_core_defence_factor = germany_war_army_core_defence_factor
+				fuel_gain_factor_from_states = germany_war_fuel_gain_factor_from_states
 		}
 
 sabotaged_resources = {

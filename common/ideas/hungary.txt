@@ -235,7 +235,21 @@ ideas = {
 			traits = { army_armored_2 }
 
 		}
-	
+			HUN_jeno_ratz = {
+			ledger = army
+
+			picture = generic_army_europe_1
+
+			allowed = {
+				original_tag = HUN
+			}
+			
+			traits = { army_commando_1 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
 		HUN_dezso_laszlo = {
 			ledger = army
 			

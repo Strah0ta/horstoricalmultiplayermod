@@ -6,7 +6,7 @@ manpower = 5559340
 state_category = metropolis
 
 resources={
-rubber = 74
+rubber = 54
 chromium = 8
 
 }

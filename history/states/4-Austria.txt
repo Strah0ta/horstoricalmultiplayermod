@@ -17,7 +17,7 @@ state={
 		buildings = {
 			infrastructure = 9
 			arms_factory = 5
-			industrial_complex = 5
+			industrial_complex = 8
 			air_base = 4
 		}
 		add_core_of = AUS
