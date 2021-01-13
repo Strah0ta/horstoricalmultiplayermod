@@ -318,9 +318,10 @@ ENG = {
  }
  FRA = {495 = {	add_resource = { type = steel amount = 94 } } }
  CAN = { 
+ 
  		276 = {	add_resource = { type = steel amount = 86 } } 
 		473 = { add_resource = { type = steel amount = 73	} } 
-		466 = {	add_resource = { type = aluminium amount = 20 } } 
+		276 = {	add_resource = { type = aluminium amount = 170 } } 
 		540 = { add_resource = { type = steel amount = 22 } add_resource = { type = tungsten	amount = 50	}	}
 		} 
 }

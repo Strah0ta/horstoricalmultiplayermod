@@ -2761,6 +2761,7 @@ country_event = {
 
 	option = {
 		name = "For a Free Europe!"
+		hidden_effect = { SOV = { complete_national_focus = SOV_man_of_steel }}
 		add_stability = -0.5
 				declare_war_on = {
 				target = SOV

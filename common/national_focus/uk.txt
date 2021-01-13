@@ -43,7 +43,10 @@ focus_tree = {
 				USA = {    
 		if = { limit = { NOT = { has_idea = north_american_aviation }} add_ideas = north_american_aviation add_political_power = -50  }
 		set_technology = { heavy_fighter3 = 1 }
-		set_technology = { fighter3 = 1 }		
+		set_technology = { fighter3 = 1 }	
+					add_equipment_to_stockpile = { type = fighter_equipment_2 amount = 2000  }
+					add_equipment_to_stockpile = { type = fighter_equipment_3 amount = 400  }
+		
 		}
 		add_tech_bonus = {
 			name = tizard_mission_focus

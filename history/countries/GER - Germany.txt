@@ -166,7 +166,7 @@ set_faction_spymaster = yes
 	}
 	set_autonomy = {
 		target = HUN
-		autonomous_state = autonomy_satellite
+		autonomous_state = autonomy_reichskommissariat
 		freedom_level = 0.4
 	}
 	set_autonomy = {
