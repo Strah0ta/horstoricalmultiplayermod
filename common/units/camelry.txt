@@ -61,8 +61,8 @@ sub_units = {
 			movement = 0.4									
 		}
 		desert = { 
-			attack = 0.25
-			defence = 0.25
+			attack = 0.2
+			defence = 0.2
 			movement = 0.4
 		}
 		jungle = {
@@ -150,7 +150,7 @@ sub_units = {
 		}
 		desert = { 
 			attack = 0.2
-			defence = 0.15
+			defence = 0.2
 			movement = 0.4
 		}
 		jungle = {
@@ -240,8 +240,8 @@ sub_units = {
 			movement = 0.4									
 		}
 		desert = { 
-			attack = 0.25
-			defence = 0.25
+			attack = 0.2
+			defence = 0.2
 			movement = 0.4
 		}
 		jungle = {
@@ -329,8 +329,8 @@ sub_units = {
 			movement = 0.4									
 		}
 		desert = { 
-			attack = 0.25
-			defence = 0.25
+			attack = 0.2
+			defence = 0.2
 			movement = 0.4
 		}
 		jungle = {
@@ -417,8 +417,8 @@ sub_units = {
 			movement = 0.4									
 		}
 		desert = { 
-			attack = 0.25
-			defence = 0.25
+			attack = 0.2
+			defence = 0.2
 			movement = 0.4
 		}
 		jungle = {

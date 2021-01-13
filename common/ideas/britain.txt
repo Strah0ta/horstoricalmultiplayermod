@@ -160,7 +160,7 @@ ideas = {
 			removal_cost = -1
 						
 			modifier = {
-				consumer_goods_factor = 0.15
+				consumer_goods_factor = 0.05
 			}
 		}		
 		
@@ -954,16 +954,12 @@ ideas = {
 			traits = { army_regrouping_2 }
 		}
 		
-		claude_auchinleck = {
+		claude_auchinleck = {	
 			ledger = army
-			
 			allowed = {
 				original_tag = ENG
 			}
-			
-
-			
-			traits = { army_logistics_2 }
+			traits = { army_armored_2 }
 		}
 		
 		kenneth_anderson = {

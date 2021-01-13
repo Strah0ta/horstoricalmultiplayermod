@@ -10,6 +10,7 @@
  ETH_CAS_equipment_3:0 "Breda Ba.201"
  ETH_CAS_equipment_3_short:0 "Ba.201"
  ETH_heavy_fighter_equipment_1:0 "IMAM Ro.57"
+ OTRANTO_STRAIT:0 "Otranto Strait"
  HORST_DISABLE_DEBUG:0 "Horst Debug Mod (Off)"
  HORST_ENABLE_DEBUG:0 "Horst Debug Mod (On)"
  ETH_heavy_fighter_equipment_1_short:0 "Ro.57"

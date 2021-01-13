@@ -73,6 +73,7 @@ NDefines.NAir.ACE_DEATH_CHANCE_PLANES_MULT = 0		-- The more airplanes was lost i
 NDefines.NAir.ACE_EARN_CHANCE_BASE = 0				-- Base chance % for ace pilot to be created. Happens only when successfully kill airplane/ship or damage the buildings.
 NDefines.NAir.ACE_EARN_CHANCE_PLANES_MULT = 0				-- The more airplanes the wing shots the higher chance of earning Ace.
 NDefines.NAir.AIR_WING_MAX_STATS_BOMBING = 1000
+NDefines.NAir.AIR_WING_MAX_STATS_SPEED = 30000
 NDefines.NAir.COMBAT_DAMAGE_SCALE = 0.085			-- Vanilla 0,10
 ------------------------------------------------------------------------------------------------
 NDefines.NAir.AA_INDUSTRY_AIR_DAMAGE_FACTOR = -0.18				-- vanilla 0.12 | changed because all three AA techs that boost state AA have had their damage reduction bonuses moved to the building
@@ -131,7 +132,7 @@ NDefines.NResistance.MAXIMUM_GARRISON_HARDNESS_WHEN_ATTACKED = 0.99 -- VANILLA 0
 NDefines.NResistance.COMPLIANCE_FACTOR_ON_STATE_CONTROLLER_CHANGE = -1    -- VANILLA -0.5  compliance factor that applies when the state controller changes (in between allies, compliance is zeroed if it is taken by original country)
 ---------------------------------------------------------------
 
---LENNARDS AA REWORK FOR HORST--
+--LENNARDS AA REWORK FOR HORST (Adjusted by Thrasymachus)--
 NDefines.NNavy.SHIP_TO_FLEET_ANTI_AIR_RATIO = 0.1 --vanilla was 0.2 makes it more worth it to put aa on cruisers/dds(fleet aa seems to be calculated like armor/piercing in land combat: highest+average)
 NDefines.NNavy.ANTI_AIR_POW_ON_INCOMING_AIR_DAMAGE = 0.1 -- vanilla 0.2 the lower the less effective to stack aa. makes one aa module more worth it compared to no module
 NDefines.NNavy.ANTI_AIR_MULT_ON_INCOMING_AIR_DAMAGE = 0.4 -- multiplier for damage reduction in my opinion lower damage combined with more consistent lower plane losses is better than the vanilla gamble reduction=(ship_anti_air + fleet_anti_air * SHIP_TO_FLEET_ANTI_AIR_RATIO )^ANTI_AIR_POW_ON_INCOMING_AIR_DAMAGE ) * ANTI_AIR_MULT_ON_INCOMING_AIR_DAMAGE)
@@ -143,6 +144,8 @@ NDefines.NNavy.AIR_AGILITY_TO_NAVAL_STRIKE_AGILITY = 0.03 --Vanilla 0.01 so with
 NDefines.NNavy.ANTI_AIR_ATTACK_TO_AMOUNT = 0.002 --     Balancing value to convert equipment stat anti_air_attack to the random % value of airplanes being hit. So 20 ship aa can kill 10%*randomvalue between 0 and 1.
 NDefines.NNavy.NAVALBASE_REPAIR_MULT = 0.1 --vanilla 0.05 repairing a battleship took 5 months after one strike
 --
+NDefines.NNavy.CONVOY_EFFICIENCY_LOSS_MODIFIER = 0.25   --  WAS 1.25, reduced so players have more time to deal with it | How much efficiency drops when losing convoys. If modifier is 0.5, then losing 100% of convoys in short period, the efficiency will drop by 50%.
+NDefines.NNavy.CONVOY_EFFICIENCY_MIN_VALUE = 0.2		-- WAS 0.05, reduced to lower the value of flickering supply to reset supply calculations  | To avoid complete 0% efficiency, set the lower limit.
 
 NDefines.NNavy.SUPREMACY_PER_SHIP_BASE = 0                        -- WAS 100 | reduced to relatively nerf subs in terms of naval supremacy, as most of their supremacy comes from a base value of 100
 NDefines.NNavy.SUPREMACY_PER_SHIP_PER_MANPOWER = 0						-- WAS 0.0005 supremacy of a ship is calculated using its IC, manpower and a base define

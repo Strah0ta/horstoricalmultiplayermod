@@ -749,8 +749,6 @@ focus_tree = {
 		y = 1
 		relative_position_id = GER_autobahn
 		cost = 10
-
-		bypass = { has_completed_focus = GER_plan_z }
 		
 		completion_reward = {
 			58 = {
@@ -1793,14 +1791,6 @@ focus = {
 				uses = 1
 				category = dd_tech
 			}
-			56 = {
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = dockyard
-					level = 1
-					instant_build = yes
-				}
-			}
 						62 = {
 				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
@@ -1833,10 +1823,10 @@ focus = {
 				category = ca_tech
 			}
 			61 = {
-				add_extra_state_shared_building_slots = 2
+				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 					type = dockyard
-					level = 2
+					level = 1
 					instant_build = yes
 				}
 			}
@@ -1856,13 +1846,12 @@ focus = {
 		mutually_exclusive = { focus = GER_u_boat_effort }
 		available = { NOT = { has_completed_focus = GER_german_war_economy }}
 		completion_reward = {
-					custom_effect_tooltip = plan_zzz_tt
 
 	every_state = { limit = {  is_core_of = GER is_coastal = yes   }		
-				add_extra_state_shared_building_slots = 3
+				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = dockyard
-					level = 3
+					level = 2
 					instant_build = yes
 				}
 			  }		
@@ -2068,10 +2057,10 @@ focus = {
 
 		completion_reward = {
 			58 = {
-				add_extra_state_shared_building_slots = 1
+				add_extra_state_shared_building_slots = 3
 				add_building_construction = {
 					type = dockyard
-					level = 1
+					level = 3
 					instant_build = yes
 				}
 			}

@@ -44,6 +44,7 @@ sub_units = {
 		}
 		mountain = 	{
 		    attack = -0.1
+			defence = -0.05
 		}
 		jungle = {
 		    attack = -0.3
@@ -107,18 +108,21 @@ sub_units = {
 		    attack = -0.3
 			movement = -0.4
 		}
-		hills = 	{
+		hills =	 {
 		    attack = -0.1
 		}
 		mountain = 	{
 		    attack = -0.2
+			defence = -0.2
 		}
 		jungle = {
 		    attack = -0.4
+			defence = -0.15
 			movement = -0.4
 		}
 		marsh = {
 		    attack = -0.1 
+			defence = -0.05
 			movement = -0.1
 		}
 		urban = {
@@ -180,13 +184,16 @@ sub_units = {
 		}
 		mountain = 	{
 		    attack = -0.3
+			defence = -0.35
 		}
 		jungle = {
 		    attack = -0.6
+			defence = -0.35
 			movement = -0.4
 		}
 		marsh = {
 		    attack = -0.4 
+			defence = -0.3
 			movement = -0.2
 		}
 		urban = {
@@ -247,13 +254,16 @@ sub_units = {
 		}
 		mountain = 	{
 		    attack = -0.4
+			defence = -0.5
 		}
 		jungle = {
 		    attack = -0.7
+			defence = -0.5
 			movement = -0.4
 		}
 		marsh = {
 		    attack = -0.5 
+			defence = -0.45
 			movement = -0.2
 		}
 		urban = {
@@ -315,13 +325,16 @@ sub_units = {
 		}
 		mountain = 	{
 		    attack = -0.2
+			defence = -0.4
 		}
 		jungle = {
 		    attack = -0.4
+			defence = -0.35
 			movement = -0.4
 		}
 		marsh = {
 		    attack = -0.1 
+			defence = -0.25
 			movement = -0.1
 		}
 		urban = {

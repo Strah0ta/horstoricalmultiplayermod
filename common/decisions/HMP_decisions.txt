@@ -703,7 +703,7 @@ every_country = {
 	}
 
 	operations = {
-		khalkin_gol = {
+	khalkin_gol = {
 		icon = border_war
 		allowed = {	original_tag = JAP	}
 		available = {	date > 1939.5.11		}
@@ -718,120 +718,14 @@ every_country = {
 			}
 			country_event = { id = japan_border_conflict.3 days = 0 }
 			SOV = { country_event = { id = japan_border_conflict.3 days = 0 }
-		add_tech_bonus = {
-			name = sov_jap_border_conflict_won
-			category = land_doctrine
-			bonus = 1.0
-		}
-			}
-			
-			
-		}
-	}
-	blow_suez_canal = {
-		icon = GFX_decision_generic_ignite_civil_war
-		allowed = {
-			has_dlc = "Waking the Tiger"
-		}
-			allowed = { 
-	OR = {	
-		tag = ITA
-		tag = ENG
-		}
-		}
-		
-		
-		available = {
-			controls_state = 447
-			controls_state = 453
-			OR = {
-				NOT = {
-					owns_state = 447
-					owns_state = 453
-				}
-				any_country = {
-					has_war_with = ROOT
-					OR = {
-						controls_state = 452
-						controls_state = 447
-						controls_state = 456
-						controls_state = 454
-						controls_state = 455
-					}
-				}
-			}
-		}
-	
-		visible = {
-			has_war = yes
-			NOT = { has_global_flag = SUEZ_CANAL_BLOCKED }
-			any_state = {
-				is_controlled_by = ROOT
-				OR = {
-					region = 28
-					region = 128
-				}
-			}
-		}
-	
-		fire_only_once = no
-	
-		days_remove = 30
-	
-		cost = 75
-	
-		modifier = {
-			civilian_factory_use = 5
-		}
-
-		complete_effect = {
-			hidden_effect = {
-				if = {
-					limit = {
-						NOT = {
-							owns_state = 447
-							owns_state = 453
-						}
-					}
-					random_country = {
-						limit = {
-							owns_state = 447
-							owns_state = 453
-						}
-						country_event = { id = generic.12 days = 1 }
-					}
-				}
-			}
-		}
-	
-		remove_effect = {
-			if = {
-				limit = {
-					OR = {
-						has_full_control_of_state = 447
-						has_full_control_of_state = 453
-					}
-				}
-				set_country_flag = blew_up_suez
-				set_global_flag = SUEZ_CANAL_BLOCKED
-				country_event = { id = wtt_news.40 hours = 6}
-			}
-			effect_tooltip = {
-				if = {
-					limit = {
-						ENG = {
-							owns_state = 447
-							owns_state = 453
-						}
-					}
-					add_war_support = -0.05
-					add_stability = -0.05
+				add_tech_bonus = {
+					name = sov_jap_border_conflict_won
+					category = land_doctrine
+					bonus = 1.0
 				}
 			}
 		}
 	}
-	
-				
 			
 	GER_do_anschluss = { 
 	icon = generic_operation
@@ -1099,7 +993,8 @@ GER_desert_flower_dec = {
 	fire_only_once = yes
 	complete_effect = {
 			if = { limit = { AND = { NOT = {EFR = { has_country_flag = EFR_torch_declared}} EFR = {owns_state = 26 }} } EFR = { every_owned_state = {  set_demilitarized_zone = yes } 26 = { set_demilitarized_zone = no  } } } 
-		if = { limit = { EFR = { owns_state = 554 }} FRA = { transfer_state = 554 } ITA = { set_state_controller = 554 } country_event = { id = germany.378 } 554 = { set_demilitarized_zone = no }}
+		if = { limit = { FRA = { owns_state = 539 }EFR = { owns_state = 554 }} FRA = { transfer_state = 554 } ITA = { set_state_controller = 554 } country_event = { id = germany.378 } 554 = { set_demilitarized_zone = no }}
+		if = { limit = { ENG = { owns_state = 539 }EFR = { owns_state = 554 }} ENG = { transfer_state = 554 } ITA = { set_state_controller = 554 } country_event = { id = germany.378 } 554 = { set_demilitarized_zone = no }}
 		291 = { set_building_level = {
 					type = infrastructure
 					level = 10
@@ -1345,7 +1240,15 @@ hidden_effect = {
 		}
 		complete_effect = { set_global_flag = GER_heavy_water_production_underway	} 	
 		}
-
+		GER_failed_africa = {
+			allowed = {	original_tag = GER 	}
+			icon = GFX_decision_oil
+			available = { has_war = yes	}
+			cost = 0
+			complete_effect = { add_timed_idea = { idea = GER_no_fuel_idea days = 365 }  }
+		}	
+		
+	
     FRA_annex_saf = {
 		icon = generic_operation
 		allowed = {	original_tag = CAN	}

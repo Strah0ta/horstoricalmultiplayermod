@@ -31,6 +31,16 @@ ideas = {
 				consumer_goods_factor = -0.11
 			}
 		}
+		GER_no_fuel_idea = {
+			removal_cost = -1
+			allowed = {	always = no	}
+			allowed_civil_war = {	always = yes	}
+			picture = generic_refining_concern_1
+			modifier = {
+				fuel_gain_factor_from_states = 2.4 
+				industrial_capacity_factory = -0.15
+			}
+		}
 			GER_totaler_krieg_idea2 = {
 			removal_cost = -1
 			allowed = {	always = no	}	

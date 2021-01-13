@@ -251,19 +251,52 @@ adjacency_rule
 	required_provinces = { 12049 1155 4073 9947 10758 12801 }
 
 	is_disabled = {
-		OR = {
-			has_global_flag = SUEZ_CANAL_BLOCKED
-			has_country_flag = SUEZ_CANAL_BLOCKED_FOR_COUNTRY
 		AND = { 
 		tag = USA
 		date < 1941.1.1 
 		}
-		}
-		tooltip = disable_canal_tt
 	}
 		
 	icon = 12049
 	offset = { 1 0 -6 }
+}
+adjacency_rule
+{
+	name = "OTRANTO_STRAIT"
+
+	contested =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	enemy =
+	{
+		army = no
+		navy = no
+		submarine = yes
+		trade = no
+	}
+	friend =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	neutral =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	
+	required_provinces = { 6979 11767 }
+		
+	icon = 5864
+	offset = { 5 0 9}
 }
 adjacency_rule
 {

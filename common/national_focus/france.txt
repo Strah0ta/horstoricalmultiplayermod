@@ -970,10 +970,6 @@ recalc_vichy_france_legitimacy = yes
 		icon = GFX_goal_tripartite_pact
 		x = 0
 		y = 1
-		offset = {
-			x = 0
-			y = 0
-		}
 		prerequisite = { 
 			focus = FRA_form_the_national_committee
 		}
@@ -982,6 +978,7 @@ recalc_vichy_france_legitimacy = yes
 		cost = 10
 
 		available = {
+				EFR = { has_country_flag = EFR_torch_declared }
 				check_variable = {  FRA_legitimacy > 99  }
 								custom_trigger_tooltip = {
 					tooltip = "Has 100 legitimacy"
@@ -1099,7 +1096,7 @@ recalc_vichy_france_legitimacy = yes
 		prerequisite = { 	focus = FRA_form_the_provisional_government_of_the_republic	}
 		relative_position_id = FRA_form_the_provisional_government_of_the_republic
 		
-		cost = 5
+		cost = 1
 
 		available_if_capitulated = yes
 		completion_reward = {
