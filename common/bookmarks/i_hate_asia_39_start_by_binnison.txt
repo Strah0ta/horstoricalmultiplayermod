@@ -1,6 +1,6 @@
 bookmarks = {
 	bookmark = {
-		name = "The War in the West - 1939"
+		name = "The War in the West - 1939 [WiP UNFINISHED]"
 		desc = "I_HATE_ASIA_DESC"
 		date = 1939.6.14.12
 		picture = "GFX_select_date_1939"

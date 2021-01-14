@@ -3,7 +3,6 @@ state={
 	name="STATE_195"
 	manpower = 3750158
 	state_category = metropolis
-	resources={	aluminium= 24 }
 	history={
 		owner = SOV
 		victory_points = {3151 51}

@@ -5,6 +5,7 @@ state={
 	manpower = 2275377
 	
 	state_category = city
+	resources = { steel = 44 }
 
 	history={
 		owner = AUS

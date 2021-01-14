@@ -125,31 +125,6 @@ focus_tree = {
 	}
 
 	focus = {
-		id = HUN_joint_aluminum_mining_company
-		icon = GFX_goal_generic_construction2
-		prerequisite = { focus = HUN_trade_deal_with_germany }
-		x = 1
-		y = 2
-		relative_position_id = HUN_renounce_the_treaty_of_trianon
-
-		cost = 5
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			43 = {
-				add_resource = {
-					type = aluminium
-					amount = 16
-				}
-			}
-		}
-	}
-
-
-	focus = {
 		id = HUN_reaffirm_territorial_claims
 		icon = GFX_goal_generic_forceful_treaty
 		prerequisite = { focus = HUN_renounce_the_treaty_of_trianon }
@@ -233,7 +208,7 @@ focus_tree = {
 	focus = {
 		id = HUN_industrial_revitalization
 		icon = GFX_goal_generic_construction
-		x = 6
+		x = 5
 		y = 0
 
 		cost = 10
@@ -424,7 +399,7 @@ focus_tree = {
 				}
 				add_resource = {
 					type = steel
-					amount = 50
+					amount = 40
 				}	
 			}
 		}
@@ -453,8 +428,8 @@ focus_tree = {
 					instant_build = yes
 				}
 				add_resource = {
-					type = aluminium
-					amount = 16
+					type = steel
+					amount = 20
 				}
 			}
 		}
@@ -541,7 +516,7 @@ focus_tree = {
 		
 		available = { NOT = { has_idea = HUN_treaty_of_triannon }}
 
-		x = 13
+		x = 12
 		y = 0
 
 		cost = 5
@@ -567,7 +542,7 @@ focus_tree = {
 		id = HUN_army_maneuvers
 		icon = GFX_goal_generic_army_doctrines
 		prerequisite = { focus = HUN_war_games }
-		x = 0
+		x = 1
 		y = 1
 		relative_position_id = HUN_war_games
 
@@ -600,10 +575,10 @@ focus_tree = {
 	focus = {
 		id = HUN_establish_the_air_force
 		icon = GFX_goal_generic_build_airforce
-		prerequisite = { focus = HUN_army_maneuvers }
-		x = 0
+		prerequisite = { focus = HUN_war_games }
+		x = -1
 		y = 1
-		relative_position_id = HUN_army_maneuvers
+		relative_position_id = HUN_war_games
 
 		cost = 5
 

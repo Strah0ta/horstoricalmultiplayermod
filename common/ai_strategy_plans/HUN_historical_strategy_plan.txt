@@ -19,7 +19,6 @@ HUN_historical_plan = {
 	HUN_support_urbanization
 	HUN_institute_for_industrial_techniques
 	HUN_announce_the_gyor_program #early 38
-	HUN_joint_aluminum_mining_company
 	HUN_domestic_arms_industry
 	HUN_aeronautic_technology_institute
 	HUN_boost_hungarian_aviation_industry

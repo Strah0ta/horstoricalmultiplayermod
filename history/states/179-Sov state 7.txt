@@ -6,7 +6,7 @@ state={
 	
 	state_category = city
 resources={
-		aluminium = 122 
+		aluminium = 50
 	}
 	history={
 		owner = SOV

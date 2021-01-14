@@ -27,32 +27,11 @@ set_variable = {
     var = min_fuel
     value = 0.800
 }
-add_relation_modifier = {
-    target = GER
-    modifier = stahlpakt3
-} 
-add_relation_modifier = {
-    target = ITA
-    modifier = stahlpakt
-} 
-add_relation_modifier = {
-    target = SPR
-    modifier = stahlpakt
-} 
-add_relation_modifier = {
-    target = ROM
-    modifier = stahlpakt
-} 
 set_rule = { can_be_spymaster = no }
-if = {
-	limit = {
-		has_dlc = "Death or Dishonor"
-	}
 	add_ideas = {
 		disarmed_nation
 		HUN_treaty_of_triannon
 	}
-}
 anti_cross_faction_trade_allies = yes
 
 set_politics = {

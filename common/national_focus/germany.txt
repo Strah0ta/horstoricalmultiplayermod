@@ -477,6 +477,17 @@ focus_tree = {
 				technology = excavation3
 				technology = excavation4
 			}
+			ITA = {
+			add_tech_bonus = {
+				name = GER_autarky
+				bonus = 3.0
+				uses = 4 
+				technology = excavation1
+				technology = excavation2
+				technology = excavation3
+				technology = excavation4
+			}
+			}
 			swap_ideas = {
 			remove_idea = GER_autarky_idea
 			add_idea = GER_autarky_idea2

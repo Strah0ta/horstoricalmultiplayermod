@@ -12,10 +12,6 @@ set_variable = {
     var = min_fuel
     value = 0.800
 }
-add_relation_modifier = {
-    target = GER
-    modifier = stahlpakt3
-} 
 # Starting tech
 set_technology = {
 	tech_support = 1		
