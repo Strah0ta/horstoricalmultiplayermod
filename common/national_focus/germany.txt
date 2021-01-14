@@ -645,10 +645,6 @@ focus_tree = {
 		
 		completion_reward = {
 			custom_effect_tooltip = GER_autobahn_tt
-			every_state = { 
-			limit = { is_core_of = GER}
-			add_state_modifier = { modifier = { local_building_slots_factor = 0.1	  } }
-			}
 			hidden_effect = {
 				64 = {
 					if = {
@@ -1844,9 +1840,7 @@ focus = {
 
 		available_if_capitulated = yes
 		mutually_exclusive = { focus = GER_u_boat_effort }
-		available = { NOT = { has_completed_focus = GER_german_war_economy }}
 		completion_reward = {
-
 	every_state = { limit = {  is_core_of = GER is_coastal = yes   }		
 				add_extra_state_shared_building_slots = 2
 				add_building_construction = {

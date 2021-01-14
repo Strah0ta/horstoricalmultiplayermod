@@ -111,7 +111,7 @@
 
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
-				add_offsite_building = { type = arms_factory level = 12 }
+				add_offsite_building = { type = arms_factory level = 8 }
 		}
 	}
 
@@ -213,7 +213,7 @@
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
 		army_experience = 65
-			add_offsite_building = { type = arms_factory level = 8 }
+			add_offsite_building = { type = arms_factory level = 4 }
 			add_ideas = extensive_conscription
 			add_ideas = low_economic_mobilisation
 		}
@@ -1004,11 +1004,11 @@ recalc_vichy_france_legitimacy = yes
 		}
 		relative_position_id = FRA_army_reform
 		
-		available = { 			NOT = { owns_state = 16 } }
+		available = { NOT = { owns_state = 16 } }
 		available_if_capitulated = yes
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
-			add_offsite_building = { type = arms_factory  level = 8	}
+			add_offsite_building = { type = arms_factory  level = 4	}
 			add_offsite_building = { type = dockyard level = 4 }
 		}
 	}

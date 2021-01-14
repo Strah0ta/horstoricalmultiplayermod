@@ -291,15 +291,36 @@ SPR_relocate_mil = yes
 }
 
 HMP_no_asia_country_changes = {
+			ENG = { 
+				add_relation_modifier = {
+					target = FRA
+					modifier = stahlpakt_noasia
+				}
+			}
+				ENG = { 
+				add_relation_modifier = {
+					target = CAN
+					modifier = stahlpakt5
+				}
+			}		
+			ENG = { 
+				add_relation_modifier = {
+					target = CAN
+					modifier = stahlpakt_noasia
+				}
+			}
+			ENG = { 
+				add_relation_modifier = {
+					target = NOR
+					modifier = stahlpakt_noasia
+				}
+			}
 SWE  = { give_resource_rights = { receiver = GER state = 494 }	}
 SAF  = { give_resource_rights = { receiver = ENG state = 487 }	}
 SWE = { country_event = { id = wtt_japan.109  days = 730  }  country_event = { id = wtt_japan.119  days = 1350  }    }
 ENG = { 
 				352 = { add_resource = { type = oil	amount = 500 } }  #400 added from USA
-				132 = { add_resource = { type = steel amount = 68 } }
-				120 = { add_resource = { type = steel amount = 95 }  } 
-				122 = { add_resource = { type = steel amount = 68	}  }
-				338 = {	add_resource = { type = steel amount = 68	}  	}			
+				126 = {	add_resource = { type = aluminium amount = 115 } } 
 			284 = {
 				add_resource = {	type = steel	amount = 20	}
 				add_building_construction = {
@@ -321,7 +342,6 @@ ENG = {
  
  		276 = {	add_resource = { type = steel amount = 86 } } 
 		473 = { add_resource = { type = steel amount = 73	} } 
-		276 = {	add_resource = { type = aluminium amount = 170 } } 
 		540 = { add_resource = { type = steel amount = 22 } add_resource = { type = tungsten	amount = 50	}	}
 		} 
 }

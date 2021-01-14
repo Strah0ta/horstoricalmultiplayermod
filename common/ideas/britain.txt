@@ -123,8 +123,7 @@ ideas = {
 			removal_cost = -1
 						
 			modifier = {
-				#global_building_slots_factor = 1 
-				#production_speed_industrial_complex_factor = 0.05
+				min_export = -1 
 			}
 		}	
 			ENG_no_asia_idea2 = {
@@ -142,6 +141,9 @@ ideas = {
 			}
 			
 			removal_cost = -1
+						modifier = {
+				min_export = -1 
+			}
 		}
 			ENG_no_asia_idea3 = {
 		
@@ -161,6 +163,7 @@ ideas = {
 						
 			modifier = {
 				consumer_goods_factor = 0.05
+				min_export = -1 
 			}
 		}		
 		

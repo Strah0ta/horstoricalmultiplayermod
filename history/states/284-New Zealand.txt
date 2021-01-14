@@ -33,6 +33,7 @@ state={
 			owner = ENG
 			add_core_of = ENG
 						buildings = {
+						dockyard = 0
 				arms_factory = 0
 			}
 		}

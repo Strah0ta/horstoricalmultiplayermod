@@ -14,7 +14,7 @@ state={
 
 	history={
 			1936.1.2 = {
-							buildings = { industrial_complex = 7 }
+							buildings = { industrial_complex = 0 }
 			owner = ENG
 			add_core_of = ENG
 		}		

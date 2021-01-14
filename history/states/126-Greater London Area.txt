@@ -4,7 +4,7 @@ state={
 	manpower=9824296
 	
 	state_category = megalopolis
-	resources = { 		aluminium = 150 }
+	resources = { aluminium = 100 }
 	history={
 		owner = ENG
 		victory_points = {

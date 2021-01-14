@@ -458,6 +458,15 @@ asiapakt = {
 	}
 	trade_cost_for_target_factor = -0.8
 	}	
+	
+	stahlpakt_noasia = {
+	valid_relation_trigger = {
+		FROM = {
+			NOT = { has_war_with = ROOT }
+		}
+	}
+	extra_trade_to_target_factor = 1.0	
+	}		
 	stahlpakt6 = {
 	valid_relation_trigger = {
 		FROM = {

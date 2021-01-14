@@ -9,6 +9,7 @@ state={
 	history={
 			1936.1.2 = {
 						buildings = {
+						dockyard = 0
 				industrial_complex = 2
 			}
 			owner = ENG
