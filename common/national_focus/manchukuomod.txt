@@ -60,22 +60,6 @@ focus_tree = {
 		}
 	}
 	
-
-	focus = {
-		id = MAN_law_universityx
-		icon = GFX_focus_research
-		prerequisite = { focus = MAN_obediencex  }
-		x = -3
-		y = 1
-		relative_position_id = MAN_obediencex
-
-		cost = 5
-
-		completion_reward = {
-			add_research_slot = 1
-		}
-	}
-	
 	focus = {
 		id = MAN_hoankyokux
 		icon = GFX_goal_generic_intelligence_exchange

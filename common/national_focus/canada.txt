@@ -291,23 +291,6 @@ focus_tree = {
 	}
 
 	focus = {
-		id = CAN_fund_the_national_research_council
-		icon = GFX_focus_research
-		prerequisite = { focus = CAN_department_of_munitions_and_supply focus = CAN_national_resources_mobilization_act }
-		x = -1
-		y = 2
-		relative_position_id = CAN_defence_of_canada_regulations
-
-		cost = 10
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_research_slot = 1
-		}
-	}
-
-	focus = {
 		id = CAN_mine_the_shield
 		icon = GFX_goal_generic_construction2
 		prerequisite = { focus = CAN_national_resources_mobilization_act   }
@@ -451,7 +434,7 @@ focus_tree = {
 	focus = {
 		id = CAN_polymer_corporation
 		icon = GFX_goal_generic_oil_refinery
-		prerequisite = { focus = CAN_victory_aircraft_limited focus = CAN_fund_the_national_research_council }
+		prerequisite = { focus = CAN_victory_aircraft_limited }
 		x = -1
 		y = 4
 		relative_position_id = CAN_defence_of_canada_regulations

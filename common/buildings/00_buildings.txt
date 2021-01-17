@@ -22,6 +22,7 @@ buildings = {
 		shares_slots = yes
 		value = 8
 		infrastructure_construction_effect = yes
+		damage_factor = 7
 	}
 
 	industrial_complex = {
@@ -34,6 +35,7 @@ buildings = {
 		shares_slots = yes
 		value = 5
 		infrastructure_construction_effect = yes
+		damage_factor = 7
 	}
 
 	air_base = {
@@ -43,7 +45,7 @@ buildings = {
 		air_base = yes
 		max_level = 80
 		value = 1
-		damage_factor = 0.1
+		damage_factor = 0.05
 	}
 
 	naval_base = {
@@ -56,7 +58,7 @@ buildings = {
 		is_port = yes
 		icon_frame = 6
 		max_level = 20
-		damage_factor = 0.5
+		damage_factor = 0.2
 		value = 1
 	}
 
@@ -71,6 +73,7 @@ buildings = {
 		land_fort = 1
 		max_level = 10
 		value = 1
+		damage_factor = 2
 	}
 
 	coastal_bunker = {
@@ -85,6 +88,7 @@ buildings = {
 		naval_fort = 1
 		max_level = 10
 		value = 1
+		damage_factor = 2
 	}
 
 	dockyard = {
@@ -98,13 +102,14 @@ buildings = {
 		max_level = 99
 		shares_slots = yes
 		value = 5
+		damage_factor = 7
 		infrastructure_construction_effect = yes
 	}
 
 	
 	anti_air_building = {
 		show_on_map = 3
-		base_cost = 5000
+		base_cost = 2000
 		icon_frame = 9
 		anti_air = yes
 		disabled_in_dmz = yes
@@ -126,7 +131,7 @@ buildings = {
 		infrastructure_construction_effect = yes
 		show_modifier = yes
 		fuel_gain_from_states = 0.6	#per hour
-		damage_factor = 0.1
+		damage_factor = 0.05
 	}
 
 	fuel_silo = {

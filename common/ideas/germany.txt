@@ -9,16 +9,16 @@ ideas = {
 			modifier = {	air_fuel_consumption_factor = -0.5 	}
 			equipment_bonus = {
 				motorized_equipment = {
-					max_strength = 5 instant = yes
+					max_strength = 4 instant = yes
 				}
 				mechanized_equipment = {
-					max_strength = 6  instant = yes
+					max_strength = 5 instant = yes
 				}
 				amphibious_mechanized_equipment = {
-					max_strength = 6  instant = yes
+					max_strength = 5 instant = yes
 				}
 				armor = {
-					max_strength = 3 instant = yes
+					max_strength = 2.5 instant = yes
 				}
 			}
 		}
@@ -321,8 +321,11 @@ ideas = {
 			picture = generic_exploit_mines
 
 			modifier = {
-				min_export = -0.35
-				conversion_cost_mil_to_civ_factor = 0.2
+				min_export = -0.1
+				production_speed_buildings_factor = 0.1
+				research_speed_factor = 0.1
+				industrial_capacity_factory = 0.1
+				industrial_capacity_dockyard = 0.1
 				}
 		}
 		
@@ -342,9 +345,11 @@ ideas = {
 			picture = generic_exploit_mines
 
 			modifier = {
-				min_export = -0.35
-				conversion_cost_mil_to_civ_factor= 0.2 
-				production_speed_buildings_factor = 0.1
+				min_export = -0.1
+				production_speed_buildings_factor = 0.2
+				research_speed_factor = 0.1
+				industrial_capacity_factory = 0.1
+				industrial_capacity_dockyard = 0.1
 			}
 		}
 
@@ -443,7 +448,7 @@ ideas = {
 
 			picture = generic_acquire_tanks
 
-			modifier = { army_attack_factor = 0.1 breakthrough_factor = 0.1 no_supply_grace =  60 production_speed_infrastructure_factor = 0.5 }
+			modifier = { army_attack_factor = 0.05 breakthrough_factor = 0.1 no_supply_grace =  60 production_speed_infrastructure_factor = 0.5 }
 		}
 				GER_blau = {
 			allowed = {
@@ -462,10 +467,9 @@ ideas = {
 			
 			targeted_modifier = {
 				tag = SOV
-				attack_bonus_against = 0.05
-				defense_bonus_against = 0.05
+				attack_bonus_against = 0.1
 			}
-			modifier = { air_cas_present_factor = 0.2 production_speed_infrastructure_factor = 0.5   }
+			modifier = { production_speed_infrastructure_factor = 0.5   }
 
 		}		
 		GER_barbarossa_zit = {
@@ -485,8 +489,7 @@ ideas = {
 
 			targeted_modifier = {
 				tag = SOV
-				attack_bonus_against = 0.1
-				defense_bonus_against = 0.1
+				attack_bonus_against = 0.15
 			}
 			
 			modifier = { production_speed_infrastructure_factor = 0.5      }
@@ -546,7 +549,7 @@ ideas = {
 
 			equipment_bonus = {
 				submarine = {
-					build_cost_ic = -0.15 instant = yes
+					build_cost_ic = -0.1 instant = yes
 				}
 			}
 		}
@@ -702,7 +705,7 @@ ideas = {
 			picture = ger_mefo_bills
 
 			modifier = {
-				consumer_goods_factor = -0.1
+				consumer_goods_factor = -0.05
 				political_power_cost = 0.3
 			}
 		}
@@ -724,7 +727,7 @@ ideas = {
 			picture = ger_mefo_bills
 
 			modifier = {
-				consumer_goods_factor = -0.1
+				consumer_goods_factor = -0.05
 				production_speed_buildings_factor = 0.25
 				political_power_cost = 0.3
 			}

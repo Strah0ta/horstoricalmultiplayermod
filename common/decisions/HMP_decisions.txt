@@ -1,176 +1,3 @@
-HMP_ll_soviets_send = {
-HMP_ll_soviets_guns = { #worth 1x 
-		allowed = {  normally_played_allies = yes } 
-		available = { has_equipment = {  infantry_equipment > 5000 }SOV = { has_war_with = GER }}
-		icon = generic_form_nation
-		cost = 0
-		fire_only_once = no
-
-		complete_effect  = { 
-			custom_effect_tooltip = HMP_ll_remove_guns
-			custom_effect_tooltip =  soviets_1_shipments_tt
-			hidden_effect = { send_equipment = { equipment = infantry_equipment amount = 5000 target = SWE old_prioritised = yes  } }
-			SOV = { add_to_variable = {  var = SOV_barb_ll_token   value = 1 } add_to_variable = {  var = SOV_barb_ll_token2   value = 1 } }						
-		}
-	}
-	HMP_ll_soviets_guns_large = { #worth 20x 
-		allowed = {  normally_played_allies = yes } 
-		available = { has_equipment = {  infantry_equipment > 100000 }SOV = { has_war_with = GER }}
-		icon = generic_form_nation
-		cost = 0
-		fire_only_once = no
-		complete_effect  = {
-									custom_effect_tooltip = HMP_ll_remove_more_guns
-				custom_effect_tooltip =  soviets_20_shipments_tt
-			hidden_effect = { send_equipment = { equipment = infantry_equipment amount = 100000 target = SWE old_prioritised = yes } }
-			SOV = { add_to_variable = {  var = SOV_barb_ll_token   value = 20 } add_to_variable = {  var = SOV_barb_ll_token2   value = 20 } }						
-		}
-	}
-HMP_ll_soviets_aa = { #worth 1x 
-		allowed = {  normally_played_allies = yes } 
-		available = { has_equipment = {  anti_air_equipment > 600 }SOV = { has_war_with = GER }}
-		icon = generic_form_nation
-		cost = 0
-		fire_only_once = no
-		complete_effect  = {
-								custom_effect_tooltip = HMP_ll_remove_aa		
-				custom_effect_tooltip =  soviets_1_shipments_tt
-				hidden_effect = {send_equipment = { equipment = anti_air_equipment amount = 600 target = SWE old_prioritised = yes }}
-			SOV = { add_to_variable = {  var = SOV_barb_ll_token   value = 1 } add_to_variable = {  var = SOV_barb_ll_token2   value = 1 } }					
-		}
-	}
-HMP_ll_soviets_support = { #worth 1x 
-		allowed = {  normally_played_allies = yes } 
-		available = { has_equipment = {  support_equipment > 1000 } SOV = { has_war_with = GER }}
-		icon = generic_form_nation
-		cost = 0
-		fire_only_once = no
-		complete_effect  = {
-								custom_effect_tooltip = HMP_ll_remove_support	
-				custom_effect_tooltip =  soviets_1_shipments_tt
-				hidden_effect = {send_equipment = { equipment = support_equipment amount = 1000 target = SWE old_prioritised = yes }}
-			SOV = { add_to_variable = {  var = SOV_barb_ll_token   value = 1 } add_to_variable = {  var = SOV_barb_ll_token2   value = 1 }}						
-		}
-	}
-HMP_ll_soviets_motorized = { #worth 1x 
-		allowed = {  normally_played_allies = yes } 
-		available = { has_equipment = {  motorized_equipment > 1250 }SOV = { has_war_with = GER }}
-		icon = generic_form_nation
-		cost = 0
-		fire_only_once = no
-		complete_effect  = {
-								custom_effect_tooltip = HMP_ll_remove_mot		
-				custom_effect_tooltip =  soviets_1_shipments_tt
-				hidden_effect = {send_equipment = { equipment = motorized_equipment amount = 1250 target = SWE old_prioritised = yes } }
-			SOV = { add_to_variable = {  var = SOV_barb_ll_token   value = 1 } add_to_variable = {  var = SOV_barb_ll_token2   value = 1 }}					
-		}
-	}
-HMP_ll_soviets_at = { #worth 1x 
-		allowed = {  normally_played_allies = yes } 
-		available = { has_equipment = {  anti_tank_equipment > 500 }SOV = { has_war_with = GER }}
-		icon = generic_form_nation
-		cost = 0
-		fire_only_once = no
-		complete_effect  = {
-								custom_effect_tooltip = HMP_ll_remove_at	
-				custom_effect_tooltip =  soviets_1_shipments_tt
-				hidden_effect = {send_equipment = { equipment = anti_tank_equipment amount = 500 target = SWE old_prioritised = yes }}
-			SOV = { add_to_variable = {  var = SOV_barb_ll_token   value = 1 } add_to_variable = {  var = SOV_barb_ll_token2   value = 1 }}					
-		}
-	}
-HMP_ll_soviets_arty = { #worth 1x 
-		allowed = {  normally_played_allies = yes } 
-		available = { has_equipment = {  artillery_equipment > 550 }SOV = { has_war_with = GER }}
-		icon = generic_form_nation
-		cost = 0
-		fire_only_once = no
-		complete_effect  = {
-									custom_effect_tooltip = HMP_ll_remove_arty	
-						custom_effect_tooltip =  soviets_1_shipments_tt
-				hidden_effect = {send_equipment = { equipment = artillery_equipment amount = 550 target = SWE old_prioritised = yes }}
-			SOV = { add_to_variable = {  var = SOV_barb_ll_token   value = 1 } add_to_variable = {  var = SOV_barb_ll_token2   value = 1 }}					
-		}
-	}	
-HMP_ll_soviets_rarty = { #worth 1x 
-		allowed = {  normally_played_allies = yes } 
-		available = { has_equipment = {  rocket_artillery_equipment > 600 }SOV = { has_war_with = GER }}
-		icon = generic_form_nation
-		cost = 0
-		fire_only_once = no
-		complete_effect  = {
-								custom_effect_tooltip = HMP_ll_remove_rarty		
-						custom_effect_tooltip =  soviets_1_shipments_tt
-				hidden_effect = {send_equipment = { equipment = rocket_artillery_equipment amount = 600 target = SWE old_prioritised = yes }}
-			SOV = { add_to_variable = {  var = SOV_barb_ll_token   value = 1 } add_to_variable = {  var = SOV_barb_ll_token2   value = 1 }}					
-		}
-	}	
-
-	HMP_ll_soviets_mech = { #worth 1x 
-		allowed = {  normally_played_allies = yes } 
-		available = { has_equipment = {  mechanized_equipment > 310 }SOV = { has_war_with = GER }}
-		icon = generic_form_nation
-		cost = 0
-		fire_only_once = no
-		complete_effect  = {
-								custom_effect_tooltip = HMP_ll_remove_mech	
-				custom_effect_tooltip =  soviets_1_shipments_tt
-			hidden_effect = {	send_equipment = { equipment = mechanized_equipment amount = 310 target = SWE old_prioritised = yes }}
-			SOV = { add_to_variable = {  var = SOV_barb_ll_token   value = 1 } add_to_variable = {  var = SOV_barb_ll_token2   value = 1 }}			
-		}
-	}
-HMP_ll_soviets_fighter = { #worth 20x 
-		allowed = {  always = no } 
-		available = { has_equipment = {  fighter_equipment > 675 }SOV = { has_war_with = GER }}
-		icon = generic_form_nation
-		cost = 0
-		fire_only_once = no
-		complete_effect  = {
-			custom_effect_tooltip = HMP_ll_remove_fighter		
-			custom_effect_tooltip = soviets_fighter_shipments_tt
-			hidden_effect = {send_equipment = { equipment = fighter_equipment amount = 675 target = SWE old_prioritised = yes }}
-			SOV = { add_equipment_to_stockpile = { type = sov_fighter_equipment_2 amount = 1200 producer = SOV } }   
-		}
-	}
-HMP_ll_soviets_ht = { #worth 10x 
-		allowed = {  normally_played_allies = yes } 
-		available = { has_equipment = {  heavy_tank_equipment > 1282 }SOV = { has_war_with = GER }}
-		icon = generic_form_nation
-		cost = 0
-		fire_only_once = no
-		complete_effect  = {
-								custom_effect_tooltip = HMP_ll_remove_ht		
-		custom_effect_tooltip = soviets_10_shipments_tt
-				hidden_effect = {send_equipment = { equipment = heavy_tank_equipment amount = 1282 target = SWE old_prioritised = yes }}
-			SOV = { add_to_variable = {  var = SOV_barb_ll_token   value = 10 } add_to_variable = {  var = SOV_barb_ll_token2   value = 10 }}						
-		}
-	}
-HMP_ll_soviets_mt = { #worth 10x 
-		allowed = {  normally_played_allies = yes } 
-		available = { has_equipment = {  medium_tank_equipment > 2000 } SOV = { has_war_with = GER }}
-		icon = generic_form_nation
-		cost = 0
-		fire_only_once = no
-		complete_effect  = {
-								custom_effect_tooltip = HMP_ll_remove_mt
-				custom_effect_tooltip = soviets_10_shipments_tt
-				hidden_effect = {send_equipment = { equipment = medium_tank_equipment amount = 2000 target = SWE old_prioritised = yes }}
-			SOV = { add_to_variable = {  var = SOV_barb_ll_token   value = 10 } add_to_variable = {  var = SOV_barb_ll_token2   value = 10 }}						
-		}
-	}
-HMP_ll_soviets_amtrac = { #worth 1x 
-		allowed = {  normally_played_allies = yes } 
-		available = { has_equipment = {  amphibious_mechanized_equipment_1 > 250 }SOV = { has_war_with = GER }}
-		icon = generic_form_nation
-		cost = 0
-		fire_only_once = no
-		complete_effect  = {
-						custom_effect_tooltip = HMP_ll_remove_amtrac
-				custom_effect_tooltip = soviets_1_shipments_tt
-				hidden_effect = {send_equipment = { type = amphibious_mechanized_equipment_1 amount = 250 target = SWE old_prioritised = yes }}
-			SOV = { add_to_variable = {  var = SOV_barb_ll_token   value = 1 } add_to_variable = {  var = SOV_barb_ll_token2   value = 1 }}						
-		}
-	}
-}
 HMP_ll_soviets_receive = {
 HMP_ll_soviets_receive_more_guns = {
 allowed = {  original_tag = SOV } 
@@ -180,7 +7,7 @@ available = {  check_variable = { var = SOV_barb_ll_token  value = 20  compare =
 		fire_only_once = no
 				days_remove = 60
 		complete_effect  = {
-		add_equipment_to_stockpile = {  type = infantry_equipment_1 amount = 100000 producer = USA }			
+		add_equipment_to_stockpile = {  type = infantry_equipment_1 amount = 40000 producer = USA }			
 		SOV = { add_to_variable = {  var = SOV_barb_ll_token   value = -20 } }						
 		}
 }
@@ -192,7 +19,7 @@ available = {  check_variable = { var = SOV_barb_ll_token  value = 50  compare =
 		days_remove = 180
 		fire_only_once = no
 		complete_effect  = {
-		add_equipment_to_stockpile = {  type = infantry_equipment_1 amount = 250000 producer = USA }			
+		add_equipment_to_stockpile = {  type = infantry_equipment_1 amount = 100000 producer = USA }			
 		SOV = { add_to_variable = {  var = SOV_barb_ll_token   value = -50 } }						
 		}
 }
@@ -207,7 +34,7 @@ available = {  check_variable = { var = SOV_barb_ll_token  value = 10  compare =
 		days_remove = 60
 		fire_only_once = no
 		complete_effect  = {
-		add_equipment_to_stockpile = {  type = support_equipment_1 amount = 6250 producer = USA }			
+		add_equipment_to_stockpile = {  type = support_equipment_1 amount = 2500 producer = USA }			
 		SOV = { add_to_variable = {  var = SOV_barb_ll_token   value = -10 } }						
 		}
 }
@@ -220,14 +47,14 @@ available = {  check_variable = { var = SOV_barb_ll_token  value = 10  compare =
 		days_remove = 60
 		fire_only_once = no
 		complete_effect  = {
-		if = { limit = { USA = { has_tech = antiair2 }}   add_equipment_to_stockpile = {  type = anti_air_equipment_2 amount = 5000 producer = USA }    }
-		else_if = { limit = { ENG = { has_tech = antiair2 }}   add_equipment_to_stockpile = {  type = anti_air_equipment_2 amount = 5000 producer = ENG }    }
-		else_if = { limit = { CAN = { has_tech = antiair2 }}   add_equipment_to_stockpile = {  type = anti_air_equipment_2 amount = 5000 producer = CAN }    }
-		else_if = { limit = { AST = { has_tech = antiair2 }}   add_equipment_to_stockpile = {  type = anti_air_equipment_2 amount = 5000 producer = AST }    }
-		else_if = { limit = { RAJ = { has_tech = antiair2 }}   add_equipment_to_stockpile = {  type = anti_air_equipment_2 amount = 5000 producer = RAJ }    }
-		else_if = { limit = { SAF = { has_tech = antiair2 }}   add_equipment_to_stockpile = {  type = anti_air_equipment_2 amount = 5000 producer = SAF }    }
-		else_if = { limit = { NZL = { has_tech = antiair2 }}   add_equipment_to_stockpile = {  type = anti_air_equipment_2 amount = 5000 producer = NZL }    }
-		else = { add_equipment_to_stockpile = {  type = anti_air_equipment_2 amount = 5000 producer = SWE }    }	
+		if = { limit = { USA = { has_tech = antiair2 }}   add_equipment_to_stockpile = {  type = anti_air_equipment_2 amount = 2000 producer = USA }    }
+		else_if = { limit = { ENG = { has_tech = antiair2 }}   add_equipment_to_stockpile = {  type = anti_air_equipment_2 amount = 2000 producer = ENG }    }
+		else_if = { limit = { CAN = { has_tech = antiair2 }}   add_equipment_to_stockpile = {  type = anti_air_equipment_2 amount = 2000 producer = CAN }    }
+		else_if = { limit = { AST = { has_tech = antiair2 }}   add_equipment_to_stockpile = {  type = anti_air_equipment_2 amount = 2000 producer = AST }    }
+		else_if = { limit = { RAJ = { has_tech = antiair2 }}   add_equipment_to_stockpile = {  type = anti_air_equipment_2 amount = 2000 producer = RAJ }    }
+		else_if = { limit = { SAF = { has_tech = antiair2 }}   add_equipment_to_stockpile = {  type = anti_air_equipment_2 amount = 2000 producer = SAF }    }
+		else_if = { limit = { NZL = { has_tech = antiair2 }}   add_equipment_to_stockpile = {  type = anti_air_equipment_2 amount = 2000 producer = NZL }    }
+		else = { add_equipment_to_stockpile = {  type = anti_air_equipment_2 amount = 2000 producer = SWE }    }	
 		SOV = { add_to_variable = {  var = SOV_barb_ll_token   value = -10 } }						
 		}
 }
@@ -240,14 +67,14 @@ available = {  check_variable = { var = SOV_barb_ll_token  value = 10  compare =
 		fire_only_once = no
 		days_remove = 60
 		complete_effect  = {
-				if = { limit = { USA = { has_tech = antitank2 }}   add_equipment_to_stockpile = {  type = anti_tank_equipment_2 amount = 5000 producer = USA }    }
-		else_if = { limit = { ENG = { has_tech = antitank2 }}   add_equipment_to_stockpile = {  type = anti_tank_equipment_2 amount = 5000 producer = ENG }    }
-		else_if = { limit = { CAN = { has_tech = antitank2 }}   add_equipment_to_stockpile = {  type = anti_tank_equipment_2 amount = 5000 producer = CAN }    }
-		else_if = { limit = { AST = { has_tech = antitank2 }}   add_equipment_to_stockpile = {  type = anti_tank_equipment_2 amount = 5000 producer = AST }    }
-		else_if = { limit = { RAJ = { has_tech = antitank2 }}   add_equipment_to_stockpile = {  type = anti_tank_equipment_2 amount = 5000 producer = RAJ }    }
-		else_if = { limit = { SAF = { has_tech = antitank2 }}   add_equipment_to_stockpile = {  type = anti_tank_equipment_2 amount = 5000 producer = SAF }    }
-		else_if = { limit = { NZL = { has_tech = antitank2 }}   add_equipment_to_stockpile = {  type = anti_tank_equipment_2 amount = 5000 producer = NZL }    }
-		else = { add_equipment_to_stockpile = {  type = anti_tank_equipment_2 amount = 5000 producer = SWE }    }
+				if = { limit = { USA = { has_tech = antitank2 }}   add_equipment_to_stockpile = {  type = anti_tank_equipment_2 amount = 2000 producer = USA }    }
+		else_if = { limit = { ENG = { has_tech = antitank2 }}   add_equipment_to_stockpile = {  type = anti_tank_equipment_2 amount = 2000 producer = ENG }    }
+		else_if = { limit = { CAN = { has_tech = antitank2 }}   add_equipment_to_stockpile = {  type = anti_tank_equipment_2 amount = 2000 producer = CAN }    }
+		else_if = { limit = { AST = { has_tech = antitank2 }}   add_equipment_to_stockpile = {  type = anti_tank_equipment_2 amount = 2000 producer = AST }    }
+		else_if = { limit = { RAJ = { has_tech = antitank2 }}   add_equipment_to_stockpile = {  type = anti_tank_equipment_2 amount = 2000 producer = RAJ }    }
+		else_if = { limit = { SAF = { has_tech = antitank2 }}   add_equipment_to_stockpile = {  type = anti_tank_equipment_2 amount = 2000 producer = SAF }    }
+		else_if = { limit = { NZL = { has_tech = antitank2 }}   add_equipment_to_stockpile = {  type = anti_tank_equipment_2 amount = 2000 producer = NZL }    }
+		else = { add_equipment_to_stockpile = {  type = anti_tank_equipment_2 amount = 2000 producer = SWE }    }
 		SOV = { add_to_variable = {  var = SOV_barb_ll_token   value = -10 } }						
 		}
 	}
@@ -260,14 +87,14 @@ available = {  check_variable = { var = SOV_barb_ll_token  value = 10  compare =
 		days_remove = 60
 		fire_only_once = no
 		complete_effect  = {
-								if = { limit = { USA = { has_tech = artillery1 }}   add_equipment_to_stockpile = {  type = artillery_equipment_2 amount = 6250 producer = USA }    }
-		else_if = { limit = { ENG = { has_tech = artillery1 }}   add_equipment_to_stockpile = {  type = artillery_equipment_2 amount = 6250 producer = ENG }    }
-		else_if = { limit = { CAN = { has_tech = artillery1 }}   add_equipment_to_stockpile = {  type = artillery_equipment_2 amount = 6250 producer = CAN }    }
-		else_if = { limit = { AST = { has_tech = artillery1 }}   add_equipment_to_stockpile = {  type = artillery_equipment_2 amount = 6250 producer = AST }    }
-		else_if = { limit = { RAJ = { has_tech = artillery1 }}   add_equipment_to_stockpile = {  type = artillery_equipment_2 amount = 6250 producer = RAJ }    }
-		else_if = { limit = { SAF = { has_tech = artillery1 }}   add_equipment_to_stockpile = {  type = artillery_equipment_2 amount = 6250 producer = SAF }    }
-		else_if = { limit = { NZL = { has_tech = artillery1 }}   add_equipment_to_stockpile = {  type = artillery_equipment_2 amount = 6250 producer = NZL }    }
-		else = { add_equipment_to_stockpile = {  type = artillery_equipment_2 amount = 6250 producer = SWE }    }
+								if = { limit = { USA = { has_tech = artillery1 }}   add_equipment_to_stockpile = {  type = artillery_equipment_2 amount = 2500 producer = USA }    }
+		else_if = { limit = { ENG = { has_tech = artillery1 }}   add_equipment_to_stockpile = {  type = artillery_equipment_2 amount = 2500 producer = ENG }    }
+		else_if = { limit = { CAN = { has_tech = artillery1 }}   add_equipment_to_stockpile = {  type = artillery_equipment_2 amount = 2500 producer = CAN }    }
+		else_if = { limit = { AST = { has_tech = artillery1 }}   add_equipment_to_stockpile = {  type = artillery_equipment_2 amount = 2500 producer = AST }    }
+		else_if = { limit = { RAJ = { has_tech = artillery1 }}   add_equipment_to_stockpile = {  type = artillery_equipment_2 amount = 2500 producer = RAJ }    }
+		else_if = { limit = { SAF = { has_tech = artillery1 }}   add_equipment_to_stockpile = {  type = artillery_equipment_2 amount = 2500 producer = SAF }    }
+		else_if = { limit = { NZL = { has_tech = artillery1 }}   add_equipment_to_stockpile = {  type = artillery_equipment_2 amount = 2500 producer = NZL }    }
+		else = { add_equipment_to_stockpile = {  type = artillery_equipment_2 amount = 2500 producer = SWE }    }
 		SOV = { add_to_variable = {  var = SOV_barb_ll_token   value = -10 } }						
 		}
 	}	
@@ -280,14 +107,14 @@ available = {  check_variable = { var = SOV_barb_ll_token  value = 10  compare =
 		days_remove = 60
 		fire_only_once = no
 		complete_effect  = {
-		if = { limit = { USA = { has_tech = rocket_artillery }}   add_equipment_to_stockpile = {  type = rocket_artillery_equipment_1 amount = 6250 producer = USA }    }
-		else_if = { limit = { ENG = { has_tech = rocket_artillery }}   add_equipment_to_stockpile = {  type = rocket_artillery_equipment_1 amount = 6250 producer = ENG }  }
-		else_if = { limit = { CAN = { has_tech = rocket_artillery }}   add_equipment_to_stockpile = {  type = rocket_artillery_equipment_1 amount = 6250 producer = CAN }  }
-		else_if = { limit = { AST = { has_tech = rocket_artillery }}   add_equipment_to_stockpile = {  type = rocket_artillery_equipment_1 amount = 6250 producer = AST }  }
-		else_if = { limit = { RAJ = { has_tech = rocket_artillery }}   add_equipment_to_stockpile = {  type = rocket_artillery_equipment_1 amount = 6250 producer = RAJ }  }
-		else_if = { limit = { SAF = { has_tech = rocket_artillery }}   add_equipment_to_stockpile = {  type = rocket_artillery_equipment_1 amount = 6250 producer = SAF }  }
-		else_if = { limit = { NZL = { has_tech = rocket_artillery }}   add_equipment_to_stockpile = {  type = rocket_artillery_equipment_1 amount = 6250 producer = NZL }  }
-		else = { add_equipment_to_stockpile = {  type = rocket_artillery_equipment_1 amount = 6250 producer = SWE }    }
+		if = { limit = { USA = { has_tech = rocket_artillery }}   add_equipment_to_stockpile = {  type = rocket_artillery_equipment_1 amount = 2500 producer = USA }    }
+		else_if = { limit = { ENG = { has_tech = rocket_artillery }}   add_equipment_to_stockpile = {  type = rocket_artillery_equipment_1 amount = 2500 producer = ENG }  }
+		else_if = { limit = { CAN = { has_tech = rocket_artillery }}   add_equipment_to_stockpile = {  type = rocket_artillery_equipment_1 amount = 2500 producer = CAN }  }
+		else_if = { limit = { AST = { has_tech = rocket_artillery }}   add_equipment_to_stockpile = {  type = rocket_artillery_equipment_1 amount = 2500 producer = AST }  }
+		else_if = { limit = { RAJ = { has_tech = rocket_artillery }}   add_equipment_to_stockpile = {  type = rocket_artillery_equipment_1 amount = 2500 producer = RAJ }  }
+		else_if = { limit = { SAF = { has_tech = rocket_artillery }}   add_equipment_to_stockpile = {  type = rocket_artillery_equipment_1 amount = 2500 producer = SAF }  }
+		else_if = { limit = { NZL = { has_tech = rocket_artillery }}   add_equipment_to_stockpile = {  type = rocket_artillery_equipment_1 amount = 2500 producer = NZL }  }
+		else = { add_equipment_to_stockpile = {  type = rocket_artillery_equipment_1 amount = 2500 producer = SWE }    }
 		SOV = { add_to_variable = {  var = SOV_barb_ll_token   value = -10 } }						
 		}
 	}	
@@ -313,14 +140,14 @@ available = {  check_variable = { var = SOV_barb_ll_token  value = 10  compare =
 		days_remove = 60
 		fire_only_once = no
 		complete_effect  = {
-		if = { limit = { USA = { has_tech = motorized_rocket_unit }}   add_equipment_to_stockpile = {  type = motorized_rocket_equipment_1 amount = 2080 producer = USA }    }
-		else_if = { limit = { ENG = { has_tech = motorized_rocket_unit }}   add_equipment_to_stockpile = {  type = motorized_rocket_equipment_1 amount = 2080 producer = ENG }    }
-		else_if = { limit = { CAN = { has_tech = motorized_rocket_unit }}   add_equipment_to_stockpile = {  type = motorized_rocket_equipment_1 amount = 2080 producer = CAN }    }
-		else_if = { limit = { AST = { has_tech = motorized_rocket_unit }}   add_equipment_to_stockpile = {  type = motorized_rocket_equipment_1 amount = 2080 producer = AST }    }
-		else_if = { limit = { RAJ = { has_tech = motorized_rocket_unit }}   add_equipment_to_stockpile = {  type = motorized_rocket_equipment_1 amount = 2080 producer = RAJ }    }
-		else_if = { limit = { SAF = { has_tech = motorized_rocket_unit }}   add_equipment_to_stockpile = {  type = motorized_rocket_equipment_1 amount = 2080 producer = SAF }    }
-		else_if = { limit = { NZL = { has_tech = motorized_rocket_unit }}   add_equipment_to_stockpile = {  type = motorized_rocket_equipment_1 amount = 2080 producer = NZL }    }
-		else = { add_equipment_to_stockpile = {  type = motorized_rocket_equipment_1 amount = 2080 producer = SWE }    }
+		if = { limit = { USA = { has_tech = motorized_rocket_unit }}   add_equipment_to_stockpile = {  type = motorized_rocket_equipment_1 amount = 832 producer = USA }    }
+		else_if = { limit = { ENG = { has_tech = motorized_rocket_unit }}   add_equipment_to_stockpile = {  type = motorized_rocket_equipment_1 amount = 832 producer = ENG }    }
+		else_if = { limit = { CAN = { has_tech = motorized_rocket_unit }}   add_equipment_to_stockpile = {  type = motorized_rocket_equipment_1 amount = 832 producer = CAN }    }
+		else_if = { limit = { AST = { has_tech = motorized_rocket_unit }}   add_equipment_to_stockpile = {  type = motorized_rocket_equipment_1 amount = 832 producer = AST }    }
+		else_if = { limit = { RAJ = { has_tech = motorized_rocket_unit }}   add_equipment_to_stockpile = {  type = motorized_rocket_equipment_1 amount = 832 producer = RAJ }    }
+		else_if = { limit = { SAF = { has_tech = motorized_rocket_unit }}   add_equipment_to_stockpile = {  type = motorized_rocket_equipment_1 amount = 832 producer = SAF }    }
+		else_if = { limit = { NZL = { has_tech = motorized_rocket_unit }}   add_equipment_to_stockpile = {  type = motorized_rocket_equipment_1 amount = 832 producer = NZL }    }
+		else = { add_equipment_to_stockpile = {  type = motorized_rocket_equipment_1 amount = 832 producer = SWE }    }
 		SOV = { add_to_variable = {  var = SOV_barb_ll_token   value = -10 } }						
 		}
 	}
@@ -332,14 +159,14 @@ available = {  check_variable = { var = SOV_barb_ll_token  value = 10  compare =
 		days_remove = 120
 		fire_only_once = no
 		complete_effect  = {
-			if = { limit = { USA = { has_tech = mechanised_infantry }}   add_equipment_to_stockpile = {  type = mechanized_equipment_1 amount = 3100 producer = USA }    }
-		else_if = { limit = { ENG = { has_tech = mechanised_infantry }}   add_equipment_to_stockpile = {  type = mechanized_equipment_1 amount = 3100 producer = ENG }    }
-		else_if = { limit = { CAN = { has_tech = mechanised_infantry }}   add_equipment_to_stockpile = {  type = mechanized_equipment_1 amount = 3100 producer = CAN }    }
-		else_if = { limit = { AST = { has_tech = mechanised_infantry }}   add_equipment_to_stockpile = {  type = mechanized_equipment_1 amount = 3100 producer = AST }    }
-		else_if = { limit = { RAJ = { has_tech = mechanised_infantry }}   add_equipment_to_stockpile = {  type = mechanized_equipment_1 amount = 3100 producer = RAJ }    }
-		else_if = { limit = { SAF = { has_tech = mechanised_infantry }}   add_equipment_to_stockpile = {  type = mechanized_equipment_1 amount = 3100 producer = SAF }    }
-		else_if = { limit = { NZL = { has_tech = mechanised_infantry }}   add_equipment_to_stockpile = {  type = mechanized_equipment_1 amount = 3100 producer = NZL }    }
-		else = { add_equipment_to_stockpile = {  type = mechanized_equipment_1 amount = 3100 producer = SWE }    }
+			if = { limit = { USA = { has_tech = mechanised_infantry }}   add_equipment_to_stockpile = {  type = mechanized_equipment_1 amount = 1240 producer = USA }    }
+		else_if = { limit = { ENG = { has_tech = mechanised_infantry }}   add_equipment_to_stockpile = {  type = mechanized_equipment_1 amount = 1240 producer = ENG }    }
+		else_if = { limit = { CAN = { has_tech = mechanised_infantry }}   add_equipment_to_stockpile = {  type = mechanized_equipment_1 amount = 1240 producer = CAN }    }
+		else_if = { limit = { AST = { has_tech = mechanised_infantry }}   add_equipment_to_stockpile = {  type = mechanized_equipment_1 amount = 1240 producer = AST }    }
+		else_if = { limit = { RAJ = { has_tech = mechanised_infantry }}   add_equipment_to_stockpile = {  type = mechanized_equipment_1 amount = 1240 producer = RAJ }    }
+		else_if = { limit = { SAF = { has_tech = mechanised_infantry }}   add_equipment_to_stockpile = {  type = mechanized_equipment_1 amount = 1240 producer = SAF }    }
+		else_if = { limit = { NZL = { has_tech = mechanised_infantry }}   add_equipment_to_stockpile = {  type = mechanized_equipment_1 amount = 1240 producer = NZL }    }
+		else = { add_equipment_to_stockpile = {  type = mechanized_equipment_1 amount = 1240 producer = SWE }    }
 		SOV = { add_to_variable = {  var = SOV_barb_ll_token   value = -10 } }						
 		}
 	}
@@ -352,14 +179,14 @@ available = {  check_variable = { var = SOV_barb_ll_token  value = 10  compare =
 		days_remove = 120
 		fire_only_once = no
 		complete_effect  = {
-		if = { limit = { USA = { has_tech = amphibious_mechanized_infantry }}   add_equipment_to_stockpile = {  type = amphibious_mechanized_equipment_1 amount = 2500 producer = USA }    }
-		else_if = { limit = { ENG = { has_tech = amphibious_mechanized_infantry }}   add_equipment_to_stockpile = {  type = amphibious_mechanized_equipment_1 amount = 2500 producer = ENG }    }
-		else_if = { limit = { CAN = { has_tech = amphibious_mechanized_infantry }}   add_equipment_to_stockpile = {  type = amphibious_mechanized_equipment_1 amount = 2500 producer = CAN }    }
-		else_if = { limit = { AST = { has_tech = amphibious_mechanized_infantry }}   add_equipment_to_stockpile = {  type = amphibious_mechanized_equipment_1 amount = 2500 producer = AST }    }
-		else_if = { limit = { RAJ = { has_tech = amphibious_mechanized_infantry }}   add_equipment_to_stockpile = {  type = amphibious_mechanized_equipment_1 amount = 2500 producer = RAJ }    }
-		else_if = { limit = { SAF = { has_tech = amphibious_mechanized_infantry }}   add_equipment_to_stockpile = {  type = amphibious_mechanized_equipment_1 amount = 2500 producer = SAF }    }
-		else_if = { limit = { NZL = { has_tech = amphibious_mechanized_infantry }}   add_equipment_to_stockpile = {  type = amphibious_mechanized_equipment_1 amount = 2500 producer = NZL }    }
-		else = { add_equipment_to_stockpile = {  type = amphibious_mechanized_equipment_1 amount = 2500 producer = SWE }    }
+		if = { limit = { USA = { has_tech = amphibious_mechanized_infantry }}   add_equipment_to_stockpile = {  type = amphibious_mechanized_equipment_1 amount = 1000 producer = USA }    }
+		else_if = { limit = { ENG = { has_tech = amphibious_mechanized_infantry }}   add_equipment_to_stockpile = {  type = amphibious_mechanized_equipment_1 amount = 1000 producer = ENG }    }
+		else_if = { limit = { CAN = { has_tech = amphibious_mechanized_infantry }}   add_equipment_to_stockpile = {  type = amphibious_mechanized_equipment_1 amount = 1000 producer = CAN }    }
+		else_if = { limit = { AST = { has_tech = amphibious_mechanized_infantry }}   add_equipment_to_stockpile = {  type = amphibious_mechanized_equipment_1 amount = 1000 producer = AST }    }
+		else_if = { limit = { RAJ = { has_tech = amphibious_mechanized_infantry }}   add_equipment_to_stockpile = {  type = amphibious_mechanized_equipment_1 amount = 1000 producer = RAJ }    }
+		else_if = { limit = { SAF = { has_tech = amphibious_mechanized_infantry }}   add_equipment_to_stockpile = {  type = amphibious_mechanized_equipment_1 amount = 1000 producer = SAF }    }
+		else_if = { limit = { NZL = { has_tech = amphibious_mechanized_infantry }}   add_equipment_to_stockpile = {  type = amphibious_mechanized_equipment_1 amount = 1000 producer = NZL }    }
+		else = { add_equipment_to_stockpile = {  type = amphibious_mechanized_equipment_1 amount = 1000 producer = SWE }    }
 		SOV = { add_to_variable = {  var = SOV_barb_ll_token   value = -10 } }						
 		}
 	}	
@@ -372,15 +199,15 @@ available = { check_variable = { var = SOV_barb_ll_token  value = 10  compare = 
 		fire_only_once = no
 		days_remove = 180
 		complete_effect  = {
-			if = { limit = { USA = { has_tech = advanced_light_tank }}   add_equipment_to_stockpile = {  type = light_tank_equipment_3 amount = 2500 producer = USA }    }
-		else_if = { limit = { ENG = { has_tech = advanced_light_tank }}   add_equipment_to_stockpile = {  type = light_tank_equipment_3 amount = 2500 producer = ENG }    }
-		else_if = { limit = { FRA = { has_tech = advanced_light_tank }}   add_equipment_to_stockpile = {  type = heavy_tank_equipment_3 amount = 2500 producer = FRA }    }
-		else_if = { limit = { CAN = { has_tech = advanced_light_tank }}   add_equipment_to_stockpile = {  type = light_tank_equipment_3 amount = 2500 producer = CAN }    }
-		else_if = { limit = { AST = { has_tech = advanced_light_tank }}   add_equipment_to_stockpile = {  type = light_tank_equipment_3 amount = 2500 producer = AST }    }
-		else_if = { limit = { RAJ = { has_tech = advanced_light_tank }}   add_equipment_to_stockpile = {  type = light_tank_equipment_3 amount = 2500 producer = RAJ }    }
-		else_if = { limit = { SAF = { has_tech = advanced_light_tank }}   add_equipment_to_stockpile = {  type = light_tank_equipment_3 amount = 2500 producer = SAF }    }
-		else_if = { limit = { NZL = { has_tech = advanced_light_tank }}   add_equipment_to_stockpile = {  type = light_tank_equipment_3 amount = 2500 producer = NZL }    }
-		else = { add_equipment_to_stockpile = {  type = light_tank_equipment_3 amount = 2500 producer = SWE }    }
+			if = { limit = { USA = { has_tech = advanced_light_tank }}   add_equipment_to_stockpile = {  type = light_tank_equipment_3 amount = 1000 producer = USA }    }
+		else_if = { limit = { ENG = { has_tech = advanced_light_tank }}   add_equipment_to_stockpile = {  type = light_tank_equipment_3 amount = 1000 producer = ENG }    }
+		else_if = { limit = { FRA = { has_tech = advanced_light_tank }}   add_equipment_to_stockpile = {  type = heavy_tank_equipment_3 amount = 1000 producer = FRA }    }
+		else_if = { limit = { CAN = { has_tech = advanced_light_tank }}   add_equipment_to_stockpile = {  type = light_tank_equipment_3 amount = 1000 producer = CAN }    }
+		else_if = { limit = { AST = { has_tech = advanced_light_tank }}   add_equipment_to_stockpile = {  type = light_tank_equipment_3 amount = 1000 producer = AST }    }
+		else_if = { limit = { RAJ = { has_tech = advanced_light_tank }}   add_equipment_to_stockpile = {  type = light_tank_equipment_3 amount = 1000 producer = RAJ }    }
+		else_if = { limit = { SAF = { has_tech = advanced_light_tank }}   add_equipment_to_stockpile = {  type = light_tank_equipment_3 amount = 1000 producer = SAF }    }
+		else_if = { limit = { NZL = { has_tech = advanced_light_tank }}   add_equipment_to_stockpile = {  type = light_tank_equipment_3 amount = 1000 producer = NZL }    }
+		else = { add_equipment_to_stockpile = {  type = light_tank_equipment_3 amount = 1000 producer = SWE }    }
 		SOV = { add_to_variable = {  var = SOV_barb_ll_token   value = -10 } }						
 		}
 	}
@@ -393,15 +220,15 @@ available = { check_variable = { var = SOV_barb_ll_token  value = 10  compare = 
 		fire_only_once = no
 
 		complete_effect  = {
-			if = { limit = { USA = { has_tech = advanced_medium_tank }}   add_equipment_to_stockpile = {  type = medium_tank_equipment_3 amount = 1785 producer = USA }    }
-		else_if = { limit = { ENG = { has_tech = advanced_medium_tank }}   add_equipment_to_stockpile = {  type = medium_tank_equipment_3 amount = 1785 producer = ENG }    }
-		else_if = { limit = { FRA = { has_tech = advanced_medium_tank }}   add_equipment_to_stockpile = {  type = medium_tank_equipment_3 amount = 1785 producer = FRA }    }
-		else_if = { limit = { CAN = { has_tech = advanced_medium_tank }}   add_equipment_to_stockpile = {  type = medium_tank_equipment_3 amount = 1785 producer = CAN }    }
-		else_if = { limit = { AST = { has_tech = advanced_medium_tank }}   add_equipment_to_stockpile = {  type = medium_tank_equipment_3 amount = 1785 producer = AST }    }
-		else_if = { limit = { RAJ = { has_tech = advanced_medium_tank }}   add_equipment_to_stockpile = {  type = medium_tank_equipment_3 amount = 1785 producer = RAJ }    }
-		else_if = { limit = { SAF = { has_tech = advanced_medium_tank }}   add_equipment_to_stockpile = {  type = medium_tank_equipment_3 amount = 1785 producer = SAF }    }
-		else_if = { limit = { NZL = { has_tech = advanced_medium_tank }}   add_equipment_to_stockpile = {  type = medium_tank_equipment_3 amount = 1785 producer = NZL }    }
-		else = { add_equipment_to_stockpile = {  type = medium_tank_equipment_3 amount = 1785 producer = SWE }    }
+			if = { limit = { USA = { has_tech = advanced_medium_tank }}   add_equipment_to_stockpile = {  type = medium_tank_equipment_3 amount = 714 producer = USA }    }
+		else_if = { limit = { ENG = { has_tech = advanced_medium_tank }}   add_equipment_to_stockpile = {  type = medium_tank_equipment_3 amount = 714 producer = ENG }    }
+		else_if = { limit = { FRA = { has_tech = advanced_medium_tank }}   add_equipment_to_stockpile = {  type = medium_tank_equipment_3 amount = 714 producer = FRA }    }
+		else_if = { limit = { CAN = { has_tech = advanced_medium_tank }}   add_equipment_to_stockpile = {  type = medium_tank_equipment_3 amount = 714 producer = CAN }    }
+		else_if = { limit = { AST = { has_tech = advanced_medium_tank }}   add_equipment_to_stockpile = {  type = medium_tank_equipment_3 amount = 714 producer = AST }    }
+		else_if = { limit = { RAJ = { has_tech = advanced_medium_tank }}   add_equipment_to_stockpile = {  type = medium_tank_equipment_3 amount = 714 producer = RAJ }    }
+		else_if = { limit = { SAF = { has_tech = advanced_medium_tank }}   add_equipment_to_stockpile = {  type = medium_tank_equipment_3 amount = 714 producer = SAF }    }
+		else_if = { limit = { NZL = { has_tech = advanced_medium_tank }}   add_equipment_to_stockpile = {  type = medium_tank_equipment_3 amount = 714 producer = NZL }    }
+		else = { add_equipment_to_stockpile = {  type = medium_tank_equipment_3 amount = 714 producer = SWE }    }
 		SOV = { add_to_variable = {  var = SOV_barb_ll_token   value = -10 } }						
 		}
 	}
@@ -413,15 +240,15 @@ available = { check_variable = { var = SOV_barb_ll_token  value = 10  compare = 
 		fire_only_once = no
 		days_remove = 180
 		complete_effect  = {
-			if = { limit = { USA = { has_tech = advanced_heavy_tank }}   add_equipment_to_stockpile = {  type = heavy_tank_equipment_3 amount = 1136 producer = USA }    }
-			else_if = { limit = { ENG = { has_tech = advanced_heavy_tank }}   add_equipment_to_stockpile = {  type = heavy_tank_equipment_3 amount = 1136 producer = ENG }    }
-			else_if = { limit = { FRA = { has_tech = advanced_heavy_tank }}   add_equipment_to_stockpile = {  type = heavy_tank_equipment_3 amount = 1136 producer = FRA }    }
-			else_if = { limit = { CAN = { has_tech = advanced_heavy_tank }}   add_equipment_to_stockpile = {  type = heavy_tank_equipment_3 amount = 1136 producer = CAN }    }
-			else_if = { limit = { AST = { has_tech = advanced_heavy_tank }}   add_equipment_to_stockpile = {  type = heavy_tank_equipment_3 amount = 1136 producer = AST }    }
-			else_if = { limit = { RAJ = { has_tech = advanced_heavy_tank }}   add_equipment_to_stockpile = {  type = heavy_tank_equipment_3 amount = 1136 producer = RAJ }    }
-			else_if = { limit = { SAF = { has_tech = advanced_heavy_tank }}   add_equipment_to_stockpile = {  type = heavy_tank_equipment_3 amount = 1136 producer = SAF }    }
-			else_if = { limit = { NZL = { has_tech = advanced_heavy_tank }}   add_equipment_to_stockpile = {  type = heavy_tank_equipment_3 amount = 1136 producer = NZL }    }
-			else = { add_equipment_to_stockpile = {  type = heavy_tank_equipment_3 amount = 1136 producer = SWE }    }
+			if = { limit = { USA = { has_tech = advanced_heavy_tank }}   add_equipment_to_stockpile = {  type = heavy_tank_equipment_3 amount = 454 producer = USA }    }
+			else_if = { limit = { ENG = { has_tech = advanced_heavy_tank }}   add_equipment_to_stockpile = {  type = heavy_tank_equipment_3 amount = 454 producer = ENG }    }
+			else_if = { limit = { FRA = { has_tech = advanced_heavy_tank }}   add_equipment_to_stockpile = {  type = heavy_tank_equipment_3 amount = 454 producer = FRA }    }
+			else_if = { limit = { CAN = { has_tech = advanced_heavy_tank }}   add_equipment_to_stockpile = {  type = heavy_tank_equipment_3 amount = 454 producer = CAN }    }
+			else_if = { limit = { AST = { has_tech = advanced_heavy_tank }}   add_equipment_to_stockpile = {  type = heavy_tank_equipment_3 amount = 454 producer = AST }    }
+			else_if = { limit = { RAJ = { has_tech = advanced_heavy_tank }}   add_equipment_to_stockpile = {  type = heavy_tank_equipment_3 amount = 454 producer = RAJ }    }
+			else_if = { limit = { SAF = { has_tech = advanced_heavy_tank }}   add_equipment_to_stockpile = {  type = heavy_tank_equipment_3 amount = 454 producer = SAF }    }
+			else_if = { limit = { NZL = { has_tech = advanced_heavy_tank }}   add_equipment_to_stockpile = {  type = heavy_tank_equipment_3 amount = 454 producer = NZL }    }
+			else = { add_equipment_to_stockpile = {  type = heavy_tank_equipment_3 amount = 454 producer = SWE }    }
 			SOV = { add_to_variable = {  var = SOV_barb_ll_token   value = -10 } }						
 		}
 	}
@@ -433,15 +260,15 @@ available = { check_variable = { var = SOV_barb_ll_token  value = 10  compare = 
 		fire_only_once = no
 		days_remove = 180
 		complete_effect  = {
-			if = { limit = { USA = { has_tech = super_heavy_tank }}   add_equipment_to_stockpile = {  type = super_heavy_tank_equipment_1 amount = 588 producer = USA }    }
-			else_if = { limit = { ENG = { has_tech = super_heavy_tank }}   add_equipment_to_stockpile = {  type = super_heavy_tank_equipment_1 amount = 588 producer = ENG }    }
-			else_if = { limit = { FRA = { has_tech = super_heavy_tank }}   add_equipment_to_stockpile = {  type = super_heavy_tank_equipment_1 amount = 588 producer = FRA }    }
-			else_if = { limit = { CAN = { has_tech = super_heavy_tank }}   add_equipment_to_stockpile = {  type = super_heavy_tank_equipment_1 amount = 588 producer = CAN }    }
-			else_if = { limit = { AST = { has_tech = super_heavy_tank }}   add_equipment_to_stockpile = {  type = super_heavy_tank_equipment_1 amount = 588 producer = AST }    }
-			else_if = { limit = { RAJ = { has_tech = super_heavy_tank }}   add_equipment_to_stockpile = {  type = super_heavy_tank_equipment_1 amount = 588 producer = RAJ }    }
-			else_if = { limit = { SAF = { has_tech = super_heavy_tank }}   add_equipment_to_stockpile = {  type = super_heavy_tank_equipment_1 amount = 588 producer = SAF }    }
-			else_if = { limit = { NZL = { has_tech = super_heavy_tank }}   add_equipment_to_stockpile = {  type = super_heavy_tank_equipment_1 amount = 588 producer = NZL }    }
-			else = { add_equipment_to_stockpile = {  type = super_heavy_tank_equipment_1 amount = 588 producer = SWE }    }
+			if = { limit = { USA = { has_tech = super_heavy_tank }}   add_equipment_to_stockpile = {  type = super_heavy_tank_equipment_1 amount = 235 producer = USA }    }
+			else_if = { limit = { ENG = { has_tech = super_heavy_tank }}   add_equipment_to_stockpile = {  type = super_heavy_tank_equipment_1 amount = 235 producer = ENG }    }
+			else_if = { limit = { FRA = { has_tech = super_heavy_tank }}   add_equipment_to_stockpile = {  type = super_heavy_tank_equipment_1 amount = 235 producer = FRA }    }
+			else_if = { limit = { CAN = { has_tech = super_heavy_tank }}   add_equipment_to_stockpile = {  type = super_heavy_tank_equipment_1 amount = 235 producer = CAN }    }
+			else_if = { limit = { AST = { has_tech = super_heavy_tank }}   add_equipment_to_stockpile = {  type = super_heavy_tank_equipment_1 amount = 235 producer = AST }    }
+			else_if = { limit = { RAJ = { has_tech = super_heavy_tank }}   add_equipment_to_stockpile = {  type = super_heavy_tank_equipment_1 amount = 235 producer = RAJ }    }
+			else_if = { limit = { SAF = { has_tech = super_heavy_tank }}   add_equipment_to_stockpile = {  type = super_heavy_tank_equipment_1 amount = 235 producer = SAF }    }
+			else_if = { limit = { NZL = { has_tech = super_heavy_tank }}   add_equipment_to_stockpile = {  type = super_heavy_tank_equipment_1 amount = 235 producer = NZL }    }
+			else = { add_equipment_to_stockpile = {  type = super_heavy_tank_equipment_1 amount = 235 producer = SWE }    }
 			SOV = { add_to_variable = {  var = SOV_barb_ll_token   value = -10 } }						
 		}
 	}
@@ -455,7 +282,7 @@ available = { check_variable = { var = SOV_barb_ll_token  value = 10  compare = 
 		days_remove = 60
 		visible = { SOV = { has_completed_focus = SOV_aviation_cult} }
 		complete_effect  = {
-			add_equipment_to_stockpile = {  type = sov_fighter_equipment_2 amount = 1115 producer = SOV }    
+			add_equipment_to_stockpile = {  type = sov_fighter_equipment_2 amount = 446 producer = SOV }    
 			SOV = { add_to_variable = {  var = SOV_barb_ll_token   value = -20 } }						
 		}
 	}
@@ -615,91 +442,49 @@ every_country = {
 		}
 	}
 
-    war_bonds = {
-    	icon = generic_industry
-    	allowed = { normally_played_country = yes	}
-        available = {
-            OR = {
-                AND = {
-                NOT = {  has_government = fascism }
-				has_war_support > 0.79
-				}
-                AND = {
-                    has_government = fascism
-                    OR = {
-                        has_war_support > 0.89
-                        surrender_progress > 0
-                    }
-                }
-            }
-			NOT = { has_idea = zzz_war_bonds }
-        }
-        visible = {
-            has_war = yes
-			NOT = { has_completed_focus = GER_jag }
-        }
-
-        fire_only_once = no
-
-		days_remove = 180
-
-		cost = GER_war_bonds_var?50
-		modifier = {	}
-		remove_effect = {	}
-		complete_effect = {
-			ROOT = { add_timed_idea = { idea = zzz_war_bonds days = 180 } }
-			if = {
-				limit = {
-					check_variable = {
-						var = GER_war_bonds_var
-						value = 50
-						compare = less_than
-					}
-				}
-				set_variable = {
-					var = GER_war_bonds_var
-					value = 50
-				}
-			}
-			add_to_variable = {
-				var = GER_war_bonds_var
-				value = 25
-			}
-			if = {
-				limit = {
-					check_variable = {
-						var = GER_war_bonds_var
-						value = 100
-						compare = greater_than_or_equals
-					}
-					check_variable = {
-						var = GER_war_bonds_war_support_var
-						value = -0.025
-						compare = greater_than
-					}
-				}
-				set_variable = {
-					var = GER_war_bonds_war_support_var
-					value = -0.025
-				}
-			}
-			if = {
-				limit = {
-					check_variable = {
-						var = GER_war_bonds_war_support_var
-						value = -0.025
-						compare = less_than_or_equals
-					}
-				}
-				add_to_variable = {
-					var = GER_war_bonds_war_support_var
-					value = -0.025
-				}
-				add_war_support = GER_war_bonds_war_support_var
-			}
+	war_bonds_cancel = {
+		icon = generic_industry
+		allowed = {
+			normally_played_country =yes
 		}
-
-    }
+		available = {
+			has_war = yes
+		}
+		visible = {
+			has_decision = war_bonds
+		}
+		fire_only_once = no
+		cost = 0
+		complete_effect = {
+			remove_decision = war_bonds
+		}
+	}
+	
+	war_bonds = {
+		icon = generic_industry
+		allowed = {
+			normally_played_country =yes
+		}
+		available = {
+			has_war = yes
+		}
+		visible = {
+		}
+		fire_only_once = no
+		days_remove = -1
+		cost = 0
+		modifier = {
+			political_power_gain = -0.5
+			industrial_capacity_dockyard = 0.1
+			industrial_capacity_factory = 0.1
+			war_support_weekly = -0.0040
+		}
+		remove_effect = {
+		}
+		complete_effect = {
+		}
+	}
+	
 	}
 
 	operations = {
@@ -769,6 +554,7 @@ every_country = {
 				country_event = { id = germany.110 days = 3 }   
 				 }
 			hidden_effect = { if = { limit = { ETH = { is_ai = yes }} ETH = {  load_oob = "ETH_spawn"  } } }
+			hidden_effect = { every_country = { limit = {  has_war = yes } activate_decision = war_bonds  } }
 		}
 	}
 	
@@ -953,6 +739,7 @@ every_country = {
 				if = { limit = { country_exists = ALB }	ALB = { add_to_war = { targeted_alliance = GER enemy = SOV } }} 
 				if = { limit = { AND = { NOT = {EFR = { has_country_flag = EFR_torch_declared}} EFR = {owns_state = 26 }} } EFR = { add_to_war = { targeted_alliance = GER enemy = SOV } every_owned_state = {  set_demilitarized_zone = yes } 26 = { set_demilitarized_zone = no  } } } 
 			} 
+			hidden_effect = { every_country = { limit = { original_tag = SOV } activate_decision = war_bonds  } }
 			}	
 			}
 			}
@@ -1177,6 +964,7 @@ hidden_effect = {
 				complete_effect = { GER = { transfer_state =  187 transfer_state = 182 }
 				ITA = { add_to_war = { targeted_alliance = GER	enemy = ENG	} } ETH = { add_to_war = { targeted_alliance = GER	enemy = ENG	} } news_event = { id = news.3998 }  
 				hidden_effect = { if = { limit = { AND = { EFR = {owns_state = 26} NOT = {EFR = { has_country_flag = EFR_torch_declared}} } }	EFR = { every_owned_state = {  set_demilitarized_zone = yes } 26 = { set_demilitarized_zone = no  } } } }
+				hidden_effect = { every_country = { limit = {  OR = { original_tag = ITA original_tag = ETH } } activate_decision = war_bonds  } }
 				}
 			}
 			USA_join_the_war = { 
@@ -1350,7 +1138,7 @@ hidden_effect = {
         available = {	GER = { has_war_with = SOV } }
 
 		complete_effect = {
-		custom_effect_tooltip = "We will deploy an army of 24 mountaineer divisions in India and recruit three new commanders."
+		custom_effect_tooltip = "We will deploy an army of 24 mountaineer divisions in India (unequipped) and recruit three new commanders."
 		hidden_effect = { delete_unit_template_and_units  = { division_template = "Countenance Infantry"} load_oob = "ENG_Iran_Front" SOV = {  delete_unit_template_and_units  = { division_template = "Countenance Infantry"} load_oob = "ENG_Iran_Front_SOV"   }}
 				SOV = { country_event = { id = iran.2 } transfer_state = 266 266 = { add_core_of = SOV } transfer_state = 419 419 = { add_core_of = SOV }	}
 				 country_event = { id = iran.3 }
@@ -1486,23 +1274,23 @@ create_corps_commander = {
 		}
 			deploy_egypt = {   
 	    icon = generic_civil_support 
-        allowed = {  always = no    }
+        allowed = {  original_tag = ENG    }
         cost = 0
         fire_only_once = yes
-        available = {  has_tech = improved_infantry_weapons 	}
-		complete_effect = {
+		complete_effect = { 
 			hidden_effect = { set_technology = { antitank2 = 1 popup = no } delete_unit_template_and_units  = {  division_template = "Egyptian Camel Corps"} delete_unit_template_and_units  = { division_template = "Egyptian Mountaineer Corps"}  	load_oob = "ENG_EGY"  }
-				custom_effect_tooltip = "We will deploy our army in Egypt."
+				custom_effect_tooltip = "We will deploy our army in Egypt (unequipped)."
 			}	
 		}
 
 		deploy_atlantic_africa_gar = {   
 			icon = generic_civil_support 
 			allowed = {   original_tag = ENG    }
+			available = { date > 1938.1.1 }
 			cost = 0
 			fire_only_once = yes
 			complete_effect = {
-				hidden_effect = {  delete_unit_template_and_units  = { division_template = "Atlantic Colonial Garrison"}   delete_unit_template_and_units  = { division_template = "African/Arabian Colonial Garrison"}   delete_unit_template_and_units  = { division_template = "Gibraltar/Cyprus Garrison"}   delete_unit_template_and_units  = { division_template = "Light Armor Division"}   delete_unit_template_and_units  = { division_template = "King's African Rifles"} 
+				hidden_effect = { set_technology = { antitank2 = 1 popup = no }  delete_unit_template_and_units  = { division_template = "Atlantic Colonial Garrison"}   delete_unit_template_and_units  = { division_template = "African/Arabian Colonial Garrison"}   delete_unit_template_and_units  = { division_template = "Gibraltar/Cyprus Garrison"}   delete_unit_template_and_units  = { division_template = "Light Armor Division"}   delete_unit_template_and_units  = { division_template = "King's African Rifles"} 
 				load_oob = "ENG_ATL_Front_GAR" }
 				custom_effect_tooltip = "We will deploy our garrisons and defense forces across the world."
 			}	
@@ -3529,6 +3317,7 @@ political_actions = {
 			stability_weekly = 0.005
 			consumer_goods_factor = 0.05
 			industrial_capacity_factory = -0.1
+			industrial_capacity_dockyard = -0.1
 		}
 
 		days_remove = 180
@@ -3568,49 +3357,12 @@ political_actions = {
 		icon = GFX_decision_onmap_recruit_operative
 		allowed = { normally_played_country = yes }
 		fire_only_once = no
-		cost = 750
+		cost = 500
 		complete_effect = {	
 		custom_effect_tooltip = "We will hire an additional agent for our Intelligence Agency"
 			hidden_effect = { add_operative_slot = yes }
 		}
 		}
-	rebuild_suez_canal = {
-		icon = GFX_decision_generic_special_project
-
-	allowed = { OR = { tag = ITA tag = ENG 	}	}
-		
-		available = {
-			controls_state = 447
-			controls_state = 453
-			num_of_civilian_factories > 10
-		}
-	
-		visible = {
-			has_global_flag = SUEZ_CANAL_BLOCKED
-		}
-	
-		fire_only_once = no
-	
-		days_remove = 365
-	
-		cost = 120
-	
-		modifier = {
-			civilian_factory_use = 10
-		}
-	
-		remove_effect = {
-			if = {
-				limit = {
-					has_full_control_of_state = 447
-					has_full_control_of_state = 453
-				}
-				set_country_flag = rebuilt_suez
-				clr_global_flag = SUEZ_CANAL_BLOCKED
-				country_event = { id = wtt_news.42 hours = 6}
-			}
-		}
-	}
 
 	infrastructure_building_slot = {
 
@@ -3761,7 +3513,22 @@ political_actions = {
 		}
 
     }
-	
+	HMP_ll_soviets_send = {
+HMP_ll_soviets_guns = { #worth 1x 
+		allowed = {  OR = { tag = ENG tag = USA } } 
+		available = { always = no }
+		icon = generic_form_nation
+		cost = 0
+		fire_only_once = no
+
+		complete_effect  = { 
+			custom_effect_tooltip = HMP_ll_remove_guns
+			custom_effect_tooltip =  soviets_1_shipments_tt
+			hidden_effect = { send_equipment = { equipment = infantry_equipment amount = 5000 target = SWE old_prioritised = yes  } }
+			SOV = { add_to_variable = {  var = SOV_barb_ll_token   value = 1 } add_to_variable = {  var = SOV_barb_ll_token2   value = 1 } }						
+		}
+	}
+}
 	debug_shit = {
 	
 	}

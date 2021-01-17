@@ -25,257 +25,172 @@ units = {
 		location = 5081
 		division_template = "Egyptian Mountaineer Corps"
 		start_experience_factor = 0.3
-		force_equipment_variants = { infantry_equipment_2 = { owner = "ENG" } }
-		force_equipment_variants = { artillery_equipment_2 = { owner = "ENG" } }
-		force_equipment_variants = { rocket_artillery_equipment_1 = { owner = "ENG" } }
-		force_equipment_variants = { anti_tank_equipment_2 = { owner = "ENG" } }
+		start_equipment_factor = 0.01
 		}	
 		division= {	
 		location = 5081
 		division_template = "Egyptian Mountaineer Corps"
 		start_experience_factor = 0.3
-		force_equipment_variants = { infantry_equipment_2 = { owner = "ENG" } }
-		force_equipment_variants = { artillery_equipment_2 = { owner = "ENG" } }
-		force_equipment_variants = { rocket_artillery_equipment_1 = { owner = "ENG" } }
-		force_equipment_variants = { anti_tank_equipment_2 = { owner = "ENG" } }
+		start_equipment_factor = 0.01
 		}		
 		division= {	
 		location = 5081
 		division_template = "Egyptian Mountaineer Corps"
 		start_experience_factor = 0.3
-		force_equipment_variants = { infantry_equipment_2 = { owner = "ENG" } }
-		force_equipment_variants = { artillery_equipment_2 = { owner = "ENG" } }
-		force_equipment_variants = { rocket_artillery_equipment_1 = { owner = "ENG" } }
-		force_equipment_variants = { anti_tank_equipment_2 = { owner = "ENG" } }
+		start_equipment_factor = 0.01
 		}		
 			division= {	
 		location = 5081
 		division_template = "Egyptian Mountaineer Corps"
 		start_experience_factor = 0.3
-		force_equipment_variants = { infantry_equipment_2 = { owner = "ENG" } }
-		force_equipment_variants = { artillery_equipment_2 = { owner = "ENG" } }
-		force_equipment_variants = { rocket_artillery_equipment_1 = { owner = "ENG" } }
-		force_equipment_variants = { anti_tank_equipment_2 = { owner = "ENG" } }
+		start_equipment_factor = 0.01
 		}		
 		division= {	
 		location = 5081
 		division_template = "Egyptian Mountaineer Corps"
 		start_experience_factor = 0.3
-		force_equipment_variants = { infantry_equipment_2 = { owner = "ENG" } }
-		force_equipment_variants = { artillery_equipment_2 = { owner = "ENG" } }
-		force_equipment_variants = { rocket_artillery_equipment_1 = { owner = "ENG" } }
-		force_equipment_variants = { anti_tank_equipment_2 = { owner = "ENG" } }
+		start_equipment_factor = 0.01
 		}	
 			division= {	
 		location = 5081
 		division_template = "Egyptian Mountaineer Corps"
 		start_experience_factor = 0.3
-		force_equipment_variants = { infantry_equipment_2 = { owner = "ENG" } }
-		force_equipment_variants = { artillery_equipment_2 = { owner = "ENG" } }
-		force_equipment_variants = { rocket_artillery_equipment_1 = { owner = "ENG" } }
-		force_equipment_variants = { anti_tank_equipment_2 = { owner = "ENG" } }
+		start_equipment_factor = 0.01
 		}		
 			division= {	
 		location = 7117
 		division_template = "Egyptian Mountaineer Corps"
 		start_experience_factor = 0.3
-		force_equipment_variants = { infantry_equipment_2 = { owner = "ENG" } }
-		force_equipment_variants = { artillery_equipment_2 = { owner = "ENG" } }
-		force_equipment_variants = { rocket_artillery_equipment_1 = { owner = "ENG" } }
-		force_equipment_variants = { anti_tank_equipment_2 = { owner = "ENG" } }
-		
+		start_equipment_factor = 0.01	
 	}		
 			division= {	
 		location = 7117
 		division_template = "Egyptian Mountaineer Corps"
 		start_experience_factor = 0.3
-		force_equipment_variants = { infantry_equipment_2 = { owner = "ENG" } }
-		force_equipment_variants = { artillery_equipment_2 = { owner = "ENG" } }
-		force_equipment_variants = { rocket_artillery_equipment_1 = { owner = "ENG" } }
-		force_equipment_variants = { anti_tank_equipment_2 = { owner = "ENG" } }
+		start_equipment_factor = 0.01
 		}		
 			division= {	
 		location = 7117
 		division_template = "Egyptian Mountaineer Corps"
 		start_experience_factor = 0.3
-		force_equipment_variants = { infantry_equipment_2 = { owner = "ENG" } }
-		force_equipment_variants = { artillery_equipment_2 = { owner = "ENG" } }
-		force_equipment_variants = { rocket_artillery_equipment_1 = { owner = "ENG" } }
-		force_equipment_variants = { anti_tank_equipment_2 = { owner = "ENG" } }
+		start_equipment_factor = 0.01
 		}		
 			division= {	
 		location = 7117
 		division_template = "Egyptian Mountaineer Corps"
 		start_experience_factor = 0.3
-		force_equipment_variants = { infantry_equipment_2 = { owner = "ENG" } }
-		force_equipment_variants = { artillery_equipment_2 = { owner = "ENG" } }
-		force_equipment_variants = { rocket_artillery_equipment_1 = { owner = "ENG" } }
-		force_equipment_variants = { anti_tank_equipment_2 = { owner = "ENG" } }
+		start_equipment_factor = 0.01
 		}		
 			division= {	
 		location = 7117
 		division_template = "Egyptian Mountaineer Corps"
 		start_experience_factor = 0.3
-		force_equipment_variants = { infantry_equipment_2 = { owner = "ENG" } }
-		force_equipment_variants = { artillery_equipment_2 = { owner = "ENG" } }
-		force_equipment_variants = { rocket_artillery_equipment_1 = { owner = "ENG" } }
-		force_equipment_variants = { anti_tank_equipment_2 = { owner = "ENG" } }
+		start_equipment_factor = 0.01
 		}		
 			division= {	
 		location = 7117
 		division_template = "Egyptian Mountaineer Corps"
 		start_experience_factor = 0.3
-		force_equipment_variants = { infantry_equipment_2 = { owner = "ENG" } }
-		force_equipment_variants = { artillery_equipment_2 = { owner = "ENG" } }
-		force_equipment_variants = { rocket_artillery_equipment_1 = { owner = "ENG" } }
-		force_equipment_variants = { anti_tank_equipment_2 = { owner = "ENG" } }
+		start_equipment_factor = 0.01
 		}		
 			division= {	
 		location = 12870
 		division_template = "Egyptian Camel Corps"
 		start_experience_factor = 0.3
-		force_equipment_variants = { infantry_equipment_2 = { owner = "ENG" } }
-		force_equipment_variants = { artillery_equipment_2 = { owner = "ENG" } }
-		force_equipment_variants = { rocket_artillery_equipment_1 = { owner = "ENG" } }
-		force_equipment_variants = { anti_tank_equipment_2 = { owner = "ENG" } }
+		start_equipment_factor = 0.01
 		}		
 			division= {	
 		location = 12870
 		division_template = "Egyptian Camel Corps"
 		start_experience_factor = 0.3
-		force_equipment_variants = { infantry_equipment_2 = { owner = "ENG" } }
-		force_equipment_variants = { artillery_equipment_2 = { owner = "ENG" } }
-		force_equipment_variants = { rocket_artillery_equipment_1 = { owner = "ENG" } }
-		force_equipment_variants = { anti_tank_equipment_2 = { owner = "ENG" } }
+		start_equipment_factor = 0.01
 		}		
 			division= {	
 		location = 12870
 		division_template = "Egyptian Camel Corps"
 		start_experience_factor = 0.3
-		force_equipment_variants = { infantry_equipment_2 = { owner = "ENG" } }
-		force_equipment_variants = { artillery_equipment_2 = { owner = "ENG" } }
-		force_equipment_variants = { rocket_artillery_equipment_1 = { owner = "ENG" } }
-		force_equipment_variants = { anti_tank_equipment_2 = { owner = "ENG" } }
+		start_equipment_factor = 0.01
 		}		
 			division= {	
 		location = 12870
 		division_template = "Egyptian Camel Corps"
 		start_experience_factor = 0.3
-		force_equipment_variants = { infantry_equipment_2 = { owner = "ENG" } }
-		force_equipment_variants = { artillery_equipment_2 = { owner = "ENG" } }
-		force_equipment_variants = { rocket_artillery_equipment_1 = { owner = "ENG" } }
-		force_equipment_variants = { anti_tank_equipment_2 = { owner = "ENG" } }
+		start_equipment_factor = 0.01
 		}		
 	
 					division= {	
 		location = 8004
 		division_template = "Egyptian Camel Corps"
 		start_experience_factor = 0.3
-		force_equipment_variants = { infantry_equipment_2 = { owner = "ENG" } }
-		force_equipment_variants = { artillery_equipment_2 = { owner = "ENG" } }
-		force_equipment_variants = { rocket_artillery_equipment_1 = { owner = "ENG" } }
-		force_equipment_variants = { anti_tank_equipment_2 = { owner = "ENG" } }
+		start_equipment_factor = 0.01
 		}	
 
 			division= {	
 		location = 2068
 		division_template = "Egyptian Camel Corps"
 		start_experience_factor = 0.3
-		force_equipment_variants = { infantry_equipment_2 = { owner = "ENG" } }
-		force_equipment_variants = { artillery_equipment_2 = { owner = "ENG" } }
-		force_equipment_variants = { rocket_artillery_equipment_1 = { owner = "ENG" } }
-		force_equipment_variants = { anti_tank_equipment_2 = { owner = "ENG" } }
+		start_equipment_factor = 0.01
 		}		
 			division= {	
 		location = 2068
 		division_template = "Egyptian Camel Corps"
 		start_experience_factor = 0.3
-		force_equipment_variants = { infantry_equipment_2 = { owner = "ENG" } }
-		force_equipment_variants = { artillery_equipment_2 = { owner = "ENG" } }
-		force_equipment_variants = { rocket_artillery_equipment_1 = { owner = "ENG" } }
-		force_equipment_variants = { anti_tank_equipment_2 = { owner = "ENG" } }
+		start_equipment_factor = 0.01
 		}		
 			division= {	
 		location = 2068
 		division_template = "Egyptian Camel Corps"
 		start_experience_factor = 0.3
-		force_equipment_variants = { infantry_equipment_2 = { owner = "ENG" } }
-		force_equipment_variants = { artillery_equipment_2 = { owner = "ENG" } }
-		force_equipment_variants = { rocket_artillery_equipment_1 = { owner = "ENG" } }
-		force_equipment_variants = { anti_tank_equipment_2 = { owner = "ENG" } }
+		start_equipment_factor = 0.01
 		}		
 	
 					division= {	
 		location = 2068
 		division_template = "Egyptian Camel Corps"
 		start_experience_factor = 0.3
-		force_equipment_variants = { infantry_equipment_2 = { owner = "ENG" } }
-		force_equipment_variants = { artillery_equipment_2 = { owner = "ENG" } }
-		force_equipment_variants = { rocket_artillery_equipment_1 = { owner = "ENG" } }
-		force_equipment_variants = { anti_tank_equipment_2 = { owner = "ENG" } }
+		start_equipment_factor = 0.01
 		}	
 		
 			division= {	
 		location = 8004
 		division_template = "Egyptian Camel Corps"
 		start_experience_factor = 0.3
-		force_equipment_variants = { infantry_equipment_2 = { owner = "ENG" } }
-		force_equipment_variants = { artillery_equipment_2 = { owner = "ENG" } }
-		force_equipment_variants = { rocket_artillery_equipment_1 = { owner = "ENG" } }
-		force_equipment_variants = { anti_tank_equipment_2 = { owner = "ENG" } }
+		start_equipment_factor = 0.01
 		}		
 			division= {	
 		location = 8004
 		division_template = "Egyptian Camel Corps"
 		start_experience_factor = 0.3
-		force_equipment_variants = { infantry_equipment_2 = { owner = "ENG" } }
-		force_equipment_variants = { artillery_equipment_2 = { owner = "ENG" } }
-		force_equipment_variants = { rocket_artillery_equipment_1 = { owner = "ENG" } }
-		force_equipment_variants = { anti_tank_equipment_2 = { owner = "ENG" } }
+		start_equipment_factor = 0.01
 	}		
 			division= {	
 		location = 8004
 		division_template = "Egyptian Camel Corps"
 		start_experience_factor = 0.3
-		force_equipment_variants = { infantry_equipment_2 = { owner = "ENG" } }
-		force_equipment_variants = { artillery_equipment_2 = { owner = "ENG" } }
-		force_equipment_variants = { rocket_artillery_equipment_1 = { owner = "ENG" } }
-		force_equipment_variants = { anti_tank_equipment_2 = { owner = "ENG" } }
+		start_equipment_factor = 0.01
 		}		
 				division= {	
 		location = 12022
 		division_template = "Egyptian Camel Corps"
 		start_experience_factor = 0.3
-		force_equipment_variants = { infantry_equipment_2 = { owner = "ENG" } }
-		force_equipment_variants = { artillery_equipment_2 = { owner = "ENG" } }
-		force_equipment_variants = { rocket_artillery_equipment_1 = { owner = "ENG" } }
-		force_equipment_variants = { anti_tank_equipment_2 = { owner = "ENG" } }
+		start_equipment_factor = 0.01
 		}		
 			division= {	
 		location = 12022
 		division_template = "Egyptian Camel Corps"
 		start_experience_factor = 0.3
-		force_equipment_variants = { infantry_equipment_2 = { owner = "ENG" } }
-		force_equipment_variants = { artillery_equipment_2 = { owner = "ENG" } }
-		force_equipment_variants = { rocket_artillery_equipment_1 = { owner = "ENG" } }
-		force_equipment_variants = { anti_tank_equipment_2 = { owner = "ENG" } }
+		start_equipment_factor = 0.01
 		}		
 			division= {	
 		location = 12022
 		division_template = "Egyptian Camel Corps"
 		start_experience_factor = 0.3
-		force_equipment_variants = { infantry_equipment_2 = { owner = "ENG" } }
-		force_equipment_variants = { artillery_equipment_2 = { owner = "ENG" } }
-		force_equipment_variants = { rocket_artillery_equipment_1 = { owner = "ENG" } }
-		force_equipment_variants = { anti_tank_equipment_2 = { owner = "ENG" } }
+		start_equipment_factor = 0.01
 		}		
 			division= {	
 		location = 12022
 		division_template = "Egyptian Camel Corps"
 		start_experience_factor = 0.3
-		force_equipment_variants = { infantry_equipment_2 = { owner = "ENG" } }
-		force_equipment_variants = { artillery_equipment_2 = { owner = "ENG" } }
-		force_equipment_variants = { rocket_artillery_equipment_1 = { owner = "ENG" } }
-		force_equipment_variants = { anti_tank_equipment_2 = { owner = "ENG" } }
+		start_equipment_factor = 0.01
 		}		
 	}

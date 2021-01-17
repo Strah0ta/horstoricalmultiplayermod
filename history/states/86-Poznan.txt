@@ -4,7 +4,7 @@ state={
 	manpower = 2106500
 	
 	
-	state_category = city
+	state_category = rural
 	history={
 		owner = POL
 		victory_points = {
@@ -12,7 +12,7 @@ state={
 		}
 		buildings = {
 			infrastructure = 6
-						arms_factory = 3
+			arms_factory = 2
 			industrial_complex = 1
 			11232 = {
 				bunker = 1

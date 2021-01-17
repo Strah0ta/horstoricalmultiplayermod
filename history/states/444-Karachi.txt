@@ -16,8 +16,11 @@ buildings = {
 air_base = 4
 infrastructure = 2
 }
-				1936.1.2 = {
+			1936.1.2 = {
 			owner = ENG
+			buildings = {
+infrastructure = 6
+}
 		}
 }
 provinces={

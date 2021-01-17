@@ -90,7 +90,6 @@ add_equipment_to_stockpile = { type = nav_bomber_equipment_1 amount = 124 }
 add_equipment_to_stockpile = { type = transport_plane_equipment_1 amount = 2 }
 
 ###Added to deal with air in France###
-add_equipment_to_stockpile = { type = fighter_equipment_1 amount = 300 }
 add_equipment_to_stockpile = { type = CAS_equipment_1 amount = 400 }
 
 
@@ -212,8 +211,8 @@ add_ideas = {
 	sour_loser
 	general_staff
 	limited_conscription
+	limited_exports
 	partial_economic_mobilisation
-	GER_mefo_bills_ended
 	GER_autarky_idea
 }
 

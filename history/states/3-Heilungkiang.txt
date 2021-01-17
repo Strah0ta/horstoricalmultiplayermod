@@ -4,7 +4,7 @@ state={
 
 	
 		resources={
-		oil = 66 #2 moved from Xikang | 3 moved from South Sakhalin | 20 moved from decisions/focuses | 33 moved from Venezuela 
+		oil = 86 #2 moved from Xikang | 3 moved from South Sakhalin | 20 moved from decisions/focuses | 33 moved from Venezuela 
 	}
 	
 	history={

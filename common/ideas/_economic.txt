@@ -140,7 +140,7 @@ ideas = {
 				navy_intel_to_others = 20.0
 			}		
 			cancel_if_invalid = no
-			available = { NOT =  { tag = SOV } NOT = { tag = JAP }}
+			available = { NOT =  { tag = SOV } NOT =  { tag = GER } NOT = { tag = JAP }}
 		}
 		
 		export_focus = {		
@@ -158,7 +158,7 @@ ideas = {
 			}			
 			default = yes			
 			cancel_if_invalid = no
-			available = { NOT =  { tag = SOV } 		NOT = { tag = JAP }}
+			available = { NOT =  { tag = SOV } 	NOT =  { tag = GER }	NOT = { tag = JAP }}
 		}
 		
 		limited_exports = {
@@ -175,7 +175,6 @@ ideas = {
 					}
 				}
 				NOT = { tag = SOV }
-				NOT = { tag = GER }
 			}
 		
 			cost = 150

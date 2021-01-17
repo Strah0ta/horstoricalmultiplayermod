@@ -16,8 +16,11 @@ industrial_complex = 1
 naval_base = 4
 }
 }
-				1936.1.2 = {
+			1936.1.2 = {
 			owner = ENG
+			buildings = {
+infrastructure = 6
+}
 		}
 }
 provinces={

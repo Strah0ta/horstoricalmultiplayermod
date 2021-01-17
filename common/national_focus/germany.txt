@@ -567,7 +567,12 @@ focus_tree = {
 		cost = 10
 
 		completion_reward = {
-
+					add_tech_bonus = {
+				name = GER_coal_liquidization
+				bonus = 3.0
+				uses = 2
+				category = synth_resources
+			}
 			54 = {
 				add_extra_state_shared_building_slots = 3
 				add_building_construction = {
@@ -614,12 +619,6 @@ focus_tree = {
 		cost = 10
 
 		completion_reward = {
-					add_tech_bonus = {
-				name = GER_coal_liquidization
-				bonus = 3.0
-				uses = 2
-				category = synth_resources
-			}
         	modify_building_resources = {
         	   building = synthetic_refinery
         	   resource = rubber
@@ -713,10 +712,6 @@ focus_tree = {
 
 		completion_reward = {
 			add_ideas = GER_grosraumwirtschaft
-				every_state = { 
-			limit = { is_core_of = GER}
-			add_state_modifier = { modifier = { local_building_slots_factor = 0.1  } }
-			}
 		}
 	}
 

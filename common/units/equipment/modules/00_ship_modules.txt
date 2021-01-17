@@ -15,7 +15,7 @@ equipment_modules = {
 		
 		add_stats = {
 			lg_attack = 1
-			build_cost_ic = 70	
+			build_cost_ic = 40
 		}
 		multiply_stats = {
 			naval_speed = -0.01
@@ -39,7 +39,7 @@ equipment_modules = {
 		
 		add_stats = {
 			lg_attack = 1.5
-			build_cost_ic = 90
+			build_cost_ic = 60
 			
 		}
 		multiply_stats = {
@@ -68,7 +68,7 @@ equipment_modules = {
 		
 		add_stats = {
 			lg_attack = 2
-			build_cost_ic = 110			
+			build_cost_ic = 80			
 		}
 		
 		add_average_stats = {
@@ -96,7 +96,7 @@ equipment_modules = {
 		
 		add_stats = {
 			lg_attack = 3.0
-			build_cost_ic = 130	
+			build_cost_ic = 120	
 		}
 
 		multiply_stats = {
@@ -125,7 +125,7 @@ equipment_modules = {
 		add_stats = {
 			lg_attack = 2.5
 			anti_air_attack = 2 
-			build_cost_ic = 200
+			build_cost_ic = 160
 		}
 		multiply_stats = {
 			naval_speed = -0.02
@@ -1738,7 +1738,7 @@ equipment_modules = {
 
 		add_equipment_type = capital_ship
 		add_stats = {
-			carrier_size = 25
+			carrier_size = 20
 			build_cost_ic = 2000
 		}
 		manpower = 500 #outside the add_stats section for code reasons

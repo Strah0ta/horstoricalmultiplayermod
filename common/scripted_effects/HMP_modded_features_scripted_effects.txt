@@ -339,7 +339,6 @@ ENG = {
  }
  FRA = {495 = {	add_resource = { type = steel amount = 94 } } }
  CAN = { 
- 
  		276 = {	add_resource = { type = steel amount = 86 } } 
 		473 = { add_resource = { type = steel amount = 73	} } 
 		540 = { add_resource = { type = steel amount = 22 } add_resource = { type = tungsten	amount = 50	}	}
@@ -3188,76 +3187,76 @@ create_field_marshal = {
 	name = "Louis Franchet D'Espèrey"
 	picture = "Portrait_NFA_Louis_Franchet_Esperey.tga"
 	traits = { organizer logistics_wizard camouflage_expert commando old_guard brilliant_strategist infantry_leader ambusher trickster guerilla_fighter  }
-	skill = 6
-	attack_skill = 4
+	skill = 7
+	attack_skill = 5
 	defense_skill = 6
-	planning_skill = 4
-	logistics_skill = 5
+	planning_skill = 5
+	logistics_skill = 6
 }
 
 create_field_marshal = {
 	name = "Jean de Lattre de Tassigny"
 	picture = "Portrait_France_Jean_de_Lattre_de_Tassigny.dds"
 	traits = {  trickster organizer logistics_wizard expert_improviser brilliant_strategist desert_fox aggressive_assaulter panzer_leader panzer_expert trait_engineer fortress_buster }
-	skill = 6
+	skill = 7
 	attack_skill = 6
 	defense_skill = 6
-	planning_skill = 2
-	logistics_skill = 5
+	planning_skill = 4
+	logistics_skill = 6
 }
 create_corps_commander = {
 	name = "Antoine-Marie-Benoît Besson"
 	picture = "Portrait_France_Generic_land_2.dds"
 	traits = { inflexible_strategist commando camouflage_expert cavalry_leader combined_arms_expert ambusher trickster guerilla_fighter urban_assault_specialist  }
-	skill = 6
-	attack_skill = 3
+	skill = 7
+	attack_skill = 5
 	defense_skill = 7
-	planning_skill = 3
+	planning_skill = 4
 	logistics_skill = 6
 }
 create_field_marshal = {
 	name = "Alphonse Juin"
 	picture = "Portrait_France_Alphonse_Juin.dds"
 	traits = { trait_cautious organizer logistics_wizard infantry_leader infantry_expert commando thorough_planner paratrooper skirmisher }
-	skill = 6
+	skill = 7
 	attack_skill = 7
-	defense_skill = 4
-	planning_skill = 4
-	logistics_skill = 4
+	defense_skill = 5
+	planning_skill = 5
+	logistics_skill = 5
 }
 
 
 create_field_marshal = {
 	name = "Charles De Gaulle"
 	picture = "Portrait_France_Charles_De_Gaulle.dds"
-	traits = {  harsh_leader trickster logistics_wizard panzer_leader desert_fox  panzer_expert expert_improviser  }
-	skill = 6
-	attack_skill = 5
-	defense_skill = 3
-	planning_skill = 6
-	logistics_skill = 5
+	traits = {  harsh_leader trickster commando camouflage_expert logistics_wizard panzer_leader desert_fox  panzer_expert expert_improviser  }
+	skill = 8
+	attack_skill = 6
+	defense_skill = 4
+	planning_skill = 9
+	logistics_skill = 6
 }
 
 create_corps_commander = {
 	name = "Philippe Leclerc"
 	picture = "portrait_france_philippe_leclerc.dds"
 	traits = {  trait_reckless infantry_leader ambusher trickster expert_improviser desert_fox commando camouflage_expert fake_skilled_staffer }
-	skill = 6
+	skill = 7
 	attack_skill = 6
-	defense_skill = 4
-	planning_skill = 3
-	logistics_skill = 6
+	defense_skill = 5
+	planning_skill = 4
+	logistics_skill = 7
 }	
 
 create_corps_commander = {
 	name = "Henri Giraud"
 	picture = "portrait_france_henri_giraud.dds"
 	traits = {  trickster trait_cautious infantry_leader infantry_expert ambusher trait_engineer scavenger trait_mountaineer fake_skilled_staffer }
-	skill = 6
+	skill = 7
 	attack_skill = 6
-	defense_skill = 4
-	planning_skill = 3
-	logistics_skill = 6
+	defense_skill = 5
+	planning_skill = 4
+	logistics_skill = 7
 }
 }
 ENG = {
@@ -4356,9 +4355,16 @@ HFU_fuel_startup_effect = {
 		
 soviet_lend_lease_mechanic_calc = {
 	if = { limit = { OR = { AND = { USA = { controls_state = 416 } SOV = { controls_state = 408 } } has_start_date > 1936.1.2 }  } SOV = { add_to_variable = {  var = SOV_barb_ll_token value = 1 }  add_to_variable = { var = SOV_barb_ll_token2 value = 1 } } }
-	if = { limit = { AND = { OR = { ENG = { controls_state = 412 }SOV = { controls_state = 412 }  }SOV = { controls_state = 229 } }  }   SOV = { add_to_variable = {  var = SOV_barb_ll_token   value = 5 } add_to_variable = {  var = SOV_barb_ll_token2   value = 5 } } }
-	if = { limit = { SOV = { controls_state = 213 } } 	SOV = { add_to_variable = {  var = SOV_barb_ll_token2 value = 1 } add_to_variable = {  var = SOV_barb_ll_token value = 1 }   } } 
-	if = { limit = { AND = {  ENG = { controls_state = 118 } ENG = { controls_state = 116 } SOV = { controls_state = 137 } } }  SOV = { add_to_variable = {  var = SOV_barb_ll_token   value = 1 } add_to_variable = {  var = SOV_barb_ll_token2   value = 1 } } }
+	if = { limit = { AND = { OR = { ENG = { controls_state = 412 }SOV = { controls_state = 412 } }SOV = { controls_state = 229 } } } SOV = { add_to_variable = { var = SOV_barb_ll_token value = 10 } add_to_variable = {  var = SOV_barb_ll_token2   value = 10 } } }
+	if = { limit = { SOV = { controls_state = 213 } } 	SOV = { add_to_variable = {  var = SOV_barb_ll_token2 value = 3 } add_to_variable = {  var = SOV_barb_ll_token value = 3 }   } } 
+	if = { limit = { AND = {  ENG = { controls_state = 116 } SOV = { controls_state = 137 } } }  SOV = { add_to_variable = {  var = SOV_barb_ll_token   value = 1 } add_to_variable = {  var = SOV_barb_ll_token2   value = 1 } } }
+	if = { limit = { NOT = { JAP = { controls_state = 526 } has_start_date > 1936.1.2 } } SOV = { add_to_variable = {  var = SOV_barb_ll_token value = 1 }  add_to_variable = { var = SOV_barb_ll_token2 value = 1 } } }
+	if = { limit = { NOT = { JAP = { controls_state = 560 } has_start_date > 1936.1.2 } } SOV = { add_to_variable = {  var = SOV_barb_ll_token value = 1 }  add_to_variable = { var = SOV_barb_ll_token2 value = 1 } } }
+	if = { limit = { NOT = { JAP = { controls_state = 488 } has_start_date > 1936.1.2 } } SOV = { add_to_variable = {  var = SOV_barb_ll_token value = 1 }  add_to_variable = { var = SOV_barb_ll_token2 value = 1 } } }
+	if = { limit = { NOT = { JAP = { controls_state = 180 } has_start_date > 1936.1.2 } } SOV = { add_to_variable = {  var = SOV_barb_ll_token value = 1 }  add_to_variable = { var = SOV_barb_ll_token2 value = 1 } } }
+	if = { limit = { ENG = { controls_state = 336 }  } SOV = { add_to_variable = {  var = SOV_barb_ll_token value = 1 }  add_to_variable = { var = SOV_barb_ll_token2 value = 1 } } }
+	if = { limit = { NOT = { has_start_date > 1936.1.2 } ENG = { controls_state = 326 } } SOV = { add_to_variable = {  var = SOV_barb_ll_token value = 1 }  add_to_variable = { var = SOV_barb_ll_token2 value = 1 } } }
+	if = { limit = { NOT = { JAP = { controls_state = 409 } has_start_date > 1936.1.2 } } SOV = { add_to_variable = {  var = SOV_barb_ll_token value = 1 }  add_to_variable = { var = SOV_barb_ll_token2 value = 1 } } }
 }	
 				
 		fascism_has_been_defeated = {

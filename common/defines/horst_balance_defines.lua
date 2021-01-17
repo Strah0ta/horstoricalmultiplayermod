@@ -30,6 +30,10 @@ NDefines.NMilitary.LAND_EQUIPMENT_RAMP_COST = 0		 				-- VANILLA 5
 
 NDefines.NMilitary.COMMANDER_LEVEL_UP_STAT_COUNT = 0				-- num stats gained on level up
 
+
+NDefines.NMilitary.ORG_LOSS_FACTOR_ON_CONQUER = 0.25            -- vanilla is 0.2, GDU-like change (0.25 in GDU)
+
+
 ------PARATROOPER REWORK SO THEY DONT LOSE EQUIPMENT-------
 NDefines.NMilitary.PARACHUTE_FAILED_EQUIPMENT_DIV = 0		   -- When the transport plane was shot down, we drop unit with almost NONE equipment
 NDefines.NMilitary.PARACHUTE_FAILED_MANPOWER_DIV = 0	   -- When the transport plane was shot down, we drop unit with almost NONE manpower
@@ -42,7 +46,7 @@ NDefines.NMilitary.PARACHUTE_DISRUPTED_AA_PENALTY = 0            -- How much the
 -----------------------------------------------------------
 
 NDefines.NBuildings.RADAR_INTEL_EFFECT = 160			-- Province covered by radar increases intel by 10 (where 255 is max). Province may be covered by multiple radars, then the value sums up.
-
+COMBAT_DAMAGE_SCALE_CARRIER = 7.5                   -- same as above but used inside naval combat for carrier battles
 NDefines.NAir.EFFICIENCY_REGION_CHANGE_PENALTY_FACTOR = 1				-- Penalty applied for changing region
 NDefines.NAir.EFFICIENCY_REGION_CHANGE_DAILY_GAIN_CAS = 1			-- How much efficiency to regain per day. Gain applied hourly.
 NDefines.NAir.EFFICIENCY_REGION_CHANGE_DAILY_GAIN_NAVAL_BOMBER = 0.12		-- How much efficiency to regain per day. Gain applied hourly.
@@ -108,32 +112,7 @@ NDefines.NCountry.AIR_SUPPLY_CONVERSION_SCALE = 0.2	-- TRANSPORTS DOUBLED IN IC 
 NDefines.NCountry.MAX_HEROES_BEING_KILLED_WAR_SUPPORT_IMPACT = -0.6				-- WAS -0.3 Max total penalty from war heroes manpower lost
 
 ---------------------------------------------------------------
-------------------HORST RESISTANCE CHANGES---------------------
---DESIGNED TO PUNISH AXIS FOR OCCUPYING TOO MUCH OF THE WORLD--
---NDefines.NResistance.RESISTANCE_RATIO_DIFF_TO_SPREAD = 0.5  -- resistance diff between two neighbour states will spread by this ratio ( from highest resistance states to lower ones and it will only spread once to a state)
-
-NDefines.NResistance.FOREIGN_MANPOWER_MIN_THRESHOLD = 0		 -- The minimum number of Manpower that AI will accept to give at once, in order to avoid many weird little transfer.
-NDefines.NResistance.MANPOWER_BUFFER_TO_NOT_GIVE_MINOR = 0 -- To determine how much AI can give as foreign manpower, we calculate how much manpower we use, and add this buffer. The result is what we want to keep, for minor countries. So higher this number is, lower we will give Manpower.
-NDefines.NResistance.MANPOWER_BUFFER_TO_NOT_GIVE_MAJOR = 0 -- To determine how much AI can give as foreign manpower, we calculate how much manpower we use, and add this buffer. The result is what we want to keep, for major countries. So higher this number is, lower we will give Manpower.
-NDefines.NResistance.MAX_GARRISON_RATIO_WE_AGREE_TO_SUPPORT = 0	-- The part of the manpower needed by the foreign garrison, that AI will agree to support with our manpower. If negative number, AI will not take into consideration the need, and just calculate how much they can give.
-NDefines.NResistance.GARRISON_LOG_MAX_MONTHS = 3            -- WAS 12 
-NDefines.NResistance.COMPLIANCE_DECAY_AT_MAX_COMPLIANCE = -0.08 -- as compliance increases, it gets a decay rate depending on its value. compliance should stabilize at some value until its growth changes
-NDefines.NResistance.COMPLIANCE_GROWTH_BASE = 0.12 -- base compliance grow
-NDefines.NResistance.RESISTANCE_TARGET_MODIFIER_OCCUPIED_IS_EXILE_MIN = 0   -- WAS 2, REMOVED TO SUPPORT MORE INTERSTING UK DECISIONS | min & max resistance target modifier resistance target modifier for exile countries. interpolated using legitimacy
-NDefines.NResistance.RESISTANCE_TARGET_MODIFIER_OCCUPIED_IS_EXILE_MAX = 0	-- WAS 20, REMOVED TO SUPPORT MORE INTERSTING UK DECISIONS |
-NDefines.NResistance.RESISTANCE_TARGET_BASE = 50							-- WAS 35, INCREASED AS RESISTANCE FROM GiE WAS REMOVED | base resistance target percentage
-NDefines.NResistance.INITIAL_HISTORY_COMPLIANCE = 100
-NDefines.NResistance.SUPPRESSION_NEEDED_BY_RESISTANCE_POINT = 0.1  -- VANILLA 0.75
-NDefines.NResistance.GARRISON_EQUIPMENT_LOST_BY_ATTACK = 0.04 	-- VANILLA 0.02 Ratio of equipment lost by garrison at each attack on garrison (this number will be reduced by the hardness of garrison template)
-NDefines.NResistance.GARRISON_MANPOWER_LOST_BY_ATTACK = 0.036 	-- VANILLA 0.018 Ratio of manpower lost by garrison at each attack on garrison (this number will be reduced by the hardness of garrison template)
-NDefines.NResistance.SUPPRESSION_NEEDED_LOWER_CAP = 1	-- VANILLA 10 -- if resistance is lower than this value then we always act as though it is at the define for the purpose of suppresion requirements
-NDefines.NResistance.SUPPRESSION_NEEDED_UPPER_CAP = 100 -- VANILLA 50
-NDefines.NResistance.GARRISON_MANPOWER_MIN_DELIVERY_SPEED = 100	-- Minimum base delivery speed if the chunk can't be calculated.
-NDefines.NResistance.GARRISON_MANPOWER_REINFORCEMENT_SPEED = 100 -- Modifier for garrison manpower reinforcement.  This value is the maximum to be delivered which is then modified by distance
-NDefines.NResistance.GARRISON_EQUIPMENT_DELIVERY_SPEED = 100	-- Modifier for garrison equipment reinforcement speed
-NDefines.NResistance.STATE_COMPLIANCE_DECAY_FOR_LOST_STATES = 0.01 -- VANILLA 0.05 daily compliance decay for the states you lost control of
-NDefines.NResistance.MAXIMUM_GARRISON_HARDNESS_WHEN_ATTACKED = 0.99 -- VANILLA 0.9, you can only get max 0.98 by using superheavies which are very IC intensive, so this limitation seems unreasonable -Thrasymachus
-NDefines.NResistance.COMPLIANCE_FACTOR_ON_STATE_CONTROLLER_CHANGE = -1    -- VANILLA -0.5  compliance factor that applies when the state controller changes (in between allies, compliance is zeroed if it is taken by original country)
+NDefines.NResistance.GARRISON_LOG_MAX_MONTHS = 0       
 ---------------------------------------------------------------
 
 --LENNARDS AA REWORK FOR HORST (Adjusted by Thrasymachus)--
@@ -184,6 +163,7 @@ NDefines.NOperatives.INTEL_NETWORK_MIN_VP_TO_TARGET = 0
 NDefines.NOperatives.INTEL_NETWORK_MIN_STRENGTH_TO_TARGET = 1
 NDefines.NOperatives.AGENCY_DEFENSE_EFFECT_ON_HOSTILE_ACTION_COST = 0.1
 NDefines.NIntel.ARMY_MIN_INTEL_RATIO_NEEDED_FOR_DISPLAYING_FAKE_ENEMY_INTEL_IN_LEDGER = 1
+NDefines.NIntel.ARMY_INTEL_COMBAT_BONUS_MAX_BONUS = 0 -- max combat bonus that will apply when intel is high enough
 NDefines.NIntel.ARMY_MIN_INTEL_RATIO_NEEDED_FOR_REVEALING_FAKE_ENEMY_INTEL = 1
 NDefines.NIntel.DYNAMIC_INTEL_SOURCE_EVENT_MAXIMUMS = { 200, 200, 200, 200 } --Intel from events was 40
 NDefines.NIntel.DYNAMIC_INTEL_SOURCE_EVENT_ABSOLUTE_MAXIMUMS = { 200, 200, 200, 200 } --Intel from events was 50

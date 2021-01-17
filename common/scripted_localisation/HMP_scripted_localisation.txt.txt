@@ -49,13 +49,13 @@ defined_text = { # Country
 	name = GetSovSupplyRouteVladivostok
 	text = {
 		trigger = {
-		 AND = {  OR = { AND = { USA = { controls_state = 463 } SOV = { controls_state = 408 } } has_start_date > 1936.1.2 } SOV = { has_war_with = GER } }
+		  OR = { AND = { USA = { controls_state = 463 } SOV = { controls_state = 408 } } has_start_date > 1936.1.2 } 
 		}
 		localization_key = GetSovSupplyRouteVladivostokSecure
 	}
 	text = {
 		trigger = {	
-		  NOT = { AND = { OR = { AND = { USA = { controls_state = 463 } SOV = { controls_state = 408 } } has_start_date > 1936.1.2 } SOV = { has_war_with = GER } } }
+		  NOT = { OR = { AND = { USA = { controls_state = 463 } SOV = { controls_state = 408 } } has_start_date > 1936.1.2 } }
 		}
 		localization_key = GetSovSupplyRouteVladivostokInsecure
 	}
@@ -64,23 +64,128 @@ defined_text = { # Country
 	name = GetSovSupplyRouteMalta
 	text = {
 		trigger = {
-		  AND = { ENG = { controls_state = 116 } SOV = { has_war_with = GER } }
+			ENG = { controls_state = 116 }  
 		}
 		localization_key = GetSovSupplyRouteMaltaSecure
 	}
 	text = {
 		trigger = {	
-		  NOT = {  AND = { ENG = { controls_state = 116 } SOV = { has_war_with = GER } } }
+		  NOT = {  ENG = { controls_state = 116 }  }
 		}
 		localization_key = GetSovSupplyRouteMaltaInsecure
 	}
 }
 
+defined_text = { # Country
+	name = GetObjOkinawa
+	text = {
+		trigger = {
+			NOT = { JAP = { controls_state = 526 } has_start_date > 1936.1.2 } 
+		}
+		localization_key = GetOkinawaSecure
+	}
+	text = {
+		trigger = {	
+			JAP = { controls_state = 526 } NOT = {  has_start_date > 1936.1.2 } 
+		}
+		localization_key = GetOkinawaInsecure
+	}
+}
 
+defined_text = { # Country
+	name = GetObjIwoJima
+	text = {
+		trigger = {
+			NOT = { JAP = { controls_state = 560 } has_start_date > 1936.1.2 } 
+		}
+		localization_key = GetIwoJimaSecure
+	}
+	text = {
+		trigger = {	
+			JAP = { controls_state = 560 } NOT = {  has_start_date > 1936.1.2 } 
+		}
+		localization_key = GetIwoJimaInsecure
+	}
+}
 
+defined_text = { # Country
+	name = GetObjMarcusIsland
+	text = {
+		trigger = {
+			NOT = { JAP = { controls_state = 180 } has_start_date > 1936.1.2 } 
+		}
+		localization_key = GetMarcusIslandSecure
+	}
+	text = {
+		trigger = {	
+			JAP = { controls_state = 180 } NOT = {  has_start_date > 1936.1.2 } 
+		}
+		localization_key = GetMarcusIslandInsecure
+	}
+}
 
+defined_text = { # Country
+	name = GetObjPalau
+	text = {
+		trigger = {
+			NOT = { JAP = { controls_state = 488 } has_start_date > 1936.1.2 } 
+		}
+		localization_key = GetPalauSecure
+	}
+	text = {
+		trigger = {	
+			JAP = { controls_state = 488 } NOT = {  has_start_date > 1936.1.2 } 
+		}
+		localization_key = GetPalauInsecure
+	}
+}
 
+defined_text = { # Country
+	name = GetObjSingapore
+	text = {
+		trigger = {
+		   ENG = { controls_state = 336 } 
+		}
+		localization_key = GetSingaporeSecure
+	}
+	text = {
+		trigger = {	
+		  NOT = {  ENG = { controls_state = 336 } } 
+		}
+		localization_key = GetSingaporeInsecure
+	}
+}
+defined_text = { # Country
+	name = GetObjHongKong
+	text = {
+		trigger = {
+		    NOT = { has_start_date > 1936.1.2 } ENG = { controls_state = 326 } 
+		}
+		localization_key = GetHongKongSecure
+	}
+	text = {
+		trigger = {	
+		  NOT = { has_start_date > 1936.1.2 ENG = { controls_state = 326 }  }  
+		}
+		localization_key = GetHongKongInsecure
+	}
+}
 
+defined_text = { # Country
+	name = GetObjSaipan
+	text = {
+		trigger = {
+			NOT = { JAP = { controls_state = 409 } has_start_date > 1936.1.2 } 
+		}
+		localization_key = GetSaipanSecure
+	}
+	text = {
+		trigger = {	
+			JAP = { controls_state = 409 } NOT = {  has_start_date > 1936.1.2 } 
+		}
+		localization_key = GetSaipanInsecure
+	}
+}
 
 defined_text = { # Country
 	name = GetResearchYear

@@ -24,7 +24,7 @@ set_politics = {
 
  country_event = { id = lar_spain.2 days = 199 } 
 	
-set_research_slots = 3
+set_research_slots = 4
 set_technology = {
 	gwtank = 1
 	basic_light_tank = 1

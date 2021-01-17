@@ -145,28 +145,6 @@ focus_tree = {
 		}
 	}
 
-
-	focus = {
-		id = SPA_utilize_the_intellectuals
-		available = {
-		}
-		bypass = {
-		}
-		prerequisite = { focus = SPA_consolidate_the_north  }
-		
-		icon = GFX_focus_research
-		x = 3
-		y = 1
-		relative_position_id = SPA_consolidate_the_north
-		cost = 10
-
-		available_if_capitulated = yes
-		search_filters = {FOCUS_FILTER_RESEARCH}
-		completion_reward = {
-			add_research_slot = 1
-		}
-	}
-
 	focus = {
 		id = SPA_banish_the_party_leaders
 

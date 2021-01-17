@@ -216,7 +216,7 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-
+		available = { is_ai = no }
 		completion_reward = {
 			add_tech_bonus = {
 				name = HUN_industrial_revitalization
@@ -462,30 +462,11 @@ focus_tree = {
 	}
 
 	focus = {
-		id = HUN_aeronautic_technology_institute
-		icon = GFX_focus_research
+		id = HUN_boost_hungarian_aviation_industry
+		icon = GFX_goal_generic_construct_mil_factory
 		prerequisite = { focus = HUN_domestic_arms_industry }
 		x = 0
 		y = 1
-		relative_position_id = HUN_domestic_arms_industry
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			add_research_slot = 1
-		}
-	}
-
-	focus = {
-		id = HUN_boost_hungarian_aviation_industry
-		icon = GFX_goal_generic_construct_mil_factory
-		prerequisite = { focus = HUN_aeronautic_technology_institute }
-		x = 0
-		y = 2
 		relative_position_id = HUN_domestic_arms_industry
 
 		cost = 5
@@ -514,7 +495,7 @@ focus_tree = {
 		id = HUN_war_games
 		icon = GFX_goal_poland_goal
 		
-		available = { NOT = { has_idea = HUN_treaty_of_triannon }}
+		available = { NOT = { has_idea = HUN_treaty_of_triannon } is_ai = no }
 
 		x = 12
 		y = 0

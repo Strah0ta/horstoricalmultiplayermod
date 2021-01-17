@@ -190,7 +190,7 @@ ideas = {
 			removal_cost = -1
 			allowed_civil_war = {	always = yes		}
 			picture = generic_goods_red_bonus	
-			modifier = {	consumer_goods_factor = -0.07	}
+			modifier = { consumer_goods_factor = -0.05 }
 		}
 		
 		ENG_colonial_elite = {
