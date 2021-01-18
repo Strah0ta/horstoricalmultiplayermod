@@ -37,7 +37,7 @@ sub_units = {
 		#soft_attack = 0.5
 
 		suppression = 2
-
+		desert = { movement = -0.2 }
 		forest = {
 		    attack = -0.2
 			movement = -0.4
@@ -103,7 +103,7 @@ sub_units = {
 		#soft_attack = 0.5
 
 		suppression = 2
-
+		desert = { movement = -0.2 }
 		forest = {
 		    attack = -0.3
 			movement = -0.4
@@ -174,7 +174,7 @@ sub_units = {
 		#soft_attack = 0.5
 
 		suppression = 2
-
+		desert = { movement = -0.2 }
 		forest = {
 		    attack = -0.40
 			movement = -0.40
@@ -244,7 +244,7 @@ sub_units = {
 		#soft_attack = 0.5
 
 		suppression = 2
-
+		desert = { movement = -0.2 }
 		forest = {
 		    attack = -0.5
 			movement = -0.4
@@ -315,7 +315,7 @@ sub_units = {
 		#soft_attack = 0.5
 
 		suppression = 2
-
+		desert = { movement = -0.2 }
 		forest = {
 		    attack = -0.3
 			movement = -0.4

@@ -18,6 +18,7 @@ state = {
 			11659 1 
 		}
 		add_core_of = HUN
+			1936.1.2 = { industrial_complex = 0 arms_factory = 0   }
 	}
 
 	provinces={

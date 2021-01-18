@@ -21,7 +21,7 @@ sub_units = {
 			category_army
 		}
 
-
+		desert = { movement = -0.2 }
 		forest = {
 		    attack = -0.40
 			movement = -0.40
