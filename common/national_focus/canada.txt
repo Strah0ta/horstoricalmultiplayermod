@@ -1033,14 +1033,11 @@ focus_tree = {
 
 
 		completion_reward = {
-			hidden_effect = { set_technology = { excavation2 = 1 excavation1 = 1  } }
-			custom_effect_tooltip = "This focus will research Excavation 1 and Excavation 2 for us."
 			add_tech_bonus = {
 				name = CAN_supply_the_empire
 				bonus = 1.0
-				uses = 2
-				technology = excavation4
-				technology = excavation5
+				uses = 3
+				category = excavation_tech
 			}
 		}
 	}

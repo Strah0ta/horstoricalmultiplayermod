@@ -260,7 +260,6 @@ focus_tree = {
 		
 		completion_reward = {
 			custom_effect_tooltip = shadow_scheme_focus_tt
-			add_ideas = wartime_industry_focus	
 					if = { limit = { has_start_date > 1936.1.2 }
 			add_tech_bonus = {
 				name = AST_royal_australian_artillery

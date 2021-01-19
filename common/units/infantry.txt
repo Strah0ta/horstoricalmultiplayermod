@@ -351,7 +351,7 @@ jungletroop = {
 		combat_width = 2
 		
 		#Size Definitions
-		max_strength = 16
+		max_strength = 17
 		max_organisation = 60
 		default_morale = 0.30
 		manpower = 1200
@@ -424,7 +424,7 @@ jungletroop = {
 		hard_attack = 4.0
 		
 		#Size Definitions
-		max_strength = 22
+		max_strength = 23
 		max_organisation = 60
 		default_morale = 0.3
 		manpower = 1200
