@@ -5,7 +5,7 @@ ideas = {
 			allowed = {	always = no 	}
 			allowed_civil_war = {	NOT = {	has_government = democratic	}	}
 			picture = generic_manpower_bonus
-			modifier = { conscription = 0.01	}
+			modifier = { conscription = 0.04			}
 		}
 		winter_offensive_sov = {
 			removal_cost = -1
@@ -28,7 +28,14 @@ ideas = {
 			allowed = {	original_tag = SOV	always = no }
 			allowed_civil_war = {	always = yes	}
 			removal_cost = -1
-			equipment_bonus = {	motorized_equipment = {	build_cost_ic = -0.25 instant = yes	} }
+			equipment_bonus = {
+			motorized_equipment = {	build_cost_ic = -0.8 instant = yes	} 
+			infantry_equipment = {	build_cost_ic = -0.8 instant = yes	}
+			support_equipment = {	build_cost_ic = -0.8 instant = yes	}
+			anti_air_equipment = {	build_cost_ic = -0.8 instant = yes	}
+			artillery_equipment = {	build_cost_ic = -0.8 instant = yes	}
+			anti_tank_equipment = {	build_cost_ic = -0.8 instant = yes	}
+			}
 		}
 	
 		great_patriotic_war_idea = {	
@@ -66,7 +73,7 @@ ideas = {
 			modifier = {
              	army_speed_factor = 0.1
 				army_org_factor = -0.25
-				max_dig_in = -10
+				max_dig_in = -5
 			}
 		}
 		SOV_270 = { 
@@ -173,24 +180,6 @@ ideas = {
 				}
 		}
 
-		socialist_science_focus = {
-			removal_cost = -1
-			
-			allowed = {
-				always = no # Added via focus
-			}
-
-			allowed_civil_war = {
-				has_government = communism
-			}
-
-			picture = generic_manpower_bonus
-			
-			modifier = {
-				conscription = 0.03
-			}
-		}
-
 		peoples_commissariat_focus = {
 			allowed = {
 				always = no
@@ -240,11 +229,10 @@ ideas = {
 			
 			modifier = {
 				production_speed_buildings_factor = 0.15
-				consumer_goods_factor = -0.02
+				consumer_goods_factor = -0.11
 				research_speed_factor = 0.15
 				industrial_capacity_factory = 0.1
 				operative_slot = 2 
-				air_intercept_efficiency = -1
 			}
 		}
 

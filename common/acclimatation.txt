@@ -50,7 +50,7 @@ cold_climate = {
 		weather_ground_snow_medium = 0.01
 		weather_ground_snow_high = 0.01
 	}
-	weather_modifiers_reduction_factor = 1
+	weather_modifiers_reduction_factor = 0.5
 	change_camo_when ={	snow }
 }
 

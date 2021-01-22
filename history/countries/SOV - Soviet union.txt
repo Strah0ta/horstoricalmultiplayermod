@@ -93,13 +93,13 @@ add_equipment_to_stockpile = { type = artillery_equipment_1 amount = 850 }
 #The Baltic States
 add_equipment_to_stockpile = { type = infantry_equipment_1 amount = 40000 }
 #################NON-VANILLA STARTING EQUIPMENT#####################
-add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 1600000 } #Added on top of the vanilla starting equipment in order to encourage a defense in depth -Thrasymachus
-add_equipment_to_stockpile = { type = anti_air_equipment_1 amount = 12000 }
+##add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 1600000 } #Added on top of the vanilla starting equipment in order to encourage a defense in depth -Thrasymachus
+#add_equipment_to_stockpile = { type = anti_air_equipment_1 amount = 12000 }
 
 ####Below is added to deal with a Finland front mainly###
 add_equipment_to_stockpile = { type = artillery_equipment_1 amount = 5000 }
 add_equipment_to_stockpile = { type = infantry_equipment_1 amount = 100000 }
-add_equipment_to_stockpile = { type = anti_tank_equipment_1 amount = 6000 } #in case of LT Fin/Bul
+add_equipment_to_stockpile = { type = anti_tank_equipment_1 amount = 4000 } #in case of LT Fin/Bul
 
  
 set_convoys = 50

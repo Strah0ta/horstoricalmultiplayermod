@@ -29,14 +29,14 @@ sub_units = {
 		training_time = 120
 
 		need = {
-			anti_air_equipment = 20
+			anti_air_equipment = 16
 		}
 
 		can_be_parachuted = yes
 		
 		#Size Definitions
 		max_strength = 0.2
-		max_organisation = 0
+		max_organisation = 20
 		default_morale = 0.1
 		manpower = 300
 		weight = 0.1

@@ -2313,19 +2313,7 @@ guiTypes = {
 					maxHeight = 62
 					format = left
 					Orientation = "UPPER_LEFT"
-				}
-						instantTextBoxType = {
-					name = "land_doctrine_subtitle_gbp_mp2" 
-					position = { x = 1080 y = 510  }
-					textureFile = ""
-					font = "hoi_36header"
-					borderSize = { x = 0 y = 0}
-					text = "GBP_MP_TITLE"
-					maxWidth = 600
-					maxHeight = 62
-					format = left
-					Orientation = "UPPER_LEFT"
-				}
+				} 
 			iconType = {
 				name ="mob_warfare_bg"
 				spriteType = "GFX_mob_warfare_bg"
@@ -2492,7 +2480,7 @@ guiTypes = {
 			
 			instantTextBoxType = {
 				name = "mob_warfare_subtitle3"
-				position = { x = 110 y = 919 }
+				position = { x = 110 y = 1029 } 
 				textureFile = ""
 				font = "hoi_22tech"
 				borderSize = {x = 0 y = 4}
@@ -2506,7 +2494,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "mob_warfare_subtitle4"
-				position = { x = 360 y = 919 }
+				position = { x = 360 y = 1029 }  
 				textureFile = ""
 				font = "hoi_22tech"
 				borderSize = {x = 0 y = 4}
@@ -2548,7 +2536,7 @@ guiTypes = {
 			
 			instantTextBoxType = {
 				name = "sup_firepower_subtitle3"
-				position = { x = 600 y = 795 }
+				position = { x = 600 y = 915 } 
 				textureFile = ""
 				font = "hoi_22tech"
 				borderSize = {x = 0 y = 4}
@@ -2562,7 +2550,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "sup_firepower_subtitle4"
-				position = { x = 840 y = 795 }
+				position = { x = 840 y = 915 }
 				textureFile = ""
 				font = "hoi_22tech"
 				borderSize = {x = 0 y = 4}

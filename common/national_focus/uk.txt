@@ -879,7 +879,6 @@ add_equipment_production = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			army_experience = 100
 			add_ideas = ENG_service_overseas_idea
 		}
 	}

@@ -1197,7 +1197,7 @@ ideas = {
 				original_tag = GER
 			}
 						
-			traits = { army_chief_offensive_2 }
+			traits = { army_chief_offensive_1 }
 		}
 	
 		walther_von_brauchitsch = {

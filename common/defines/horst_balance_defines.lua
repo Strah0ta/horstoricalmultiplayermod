@@ -8,6 +8,7 @@ NDefines.NMilitary.MAX_DIVISION_BRIGADE_HEIGHT = 6		-- Max height of regiments i
 -------------------------------------------------------------------------------------------------------------------------------------------
 
 --NDefines.NMilitary.ARMOR_VS_AVERAGE = 0			                -- SamDavies asked me to test this   how to weight in highest armor & pen vs the division average
+NDefines.NMilitary.AIR_SUPPORT_BASE = 0.25                        -- CAS bonus factor for air support moddifier for land unit in combat
 
 
 NDefines.NMilitary.ANTI_AIR_ATTACK_TO_AMOUNT = 0.0015 				-- WAS 0.005 | Lowered because vanilla CAS shootdown rates are too high and IC inefficient, but I don't want to buff CAS or air in any other way either ~Thrasymachus | Balancing value to convert equipment stat anti_air_attack to the random % value of airplanes being hit.
@@ -78,11 +79,13 @@ NDefines.NAir.ACE_EARN_CHANCE_BASE = 0				-- Base chance % for ace pilot to be c
 NDefines.NAir.ACE_EARN_CHANCE_PLANES_MULT = 0				-- The more airplanes the wing shots the higher chance of earning Ace.
 NDefines.NAir.AIR_WING_MAX_STATS_BOMBING = 1000
 
+NDefines.NAir.COMBAT_MULTIPLANE_CAP = 2  
+NDefines.NAir.COMBAT_DAMAGE_SCALE = 0.05				-- Vanilla 0,10
 
 NDefines.NAir.AIR_WING_MAX_STATS_SPEED = 30000
 NDefines.NAir.DISRUPTION_FACTOR = 4  -- (4 -> 7) with decent radar coverage equal amounts of fighters vs naval bombers will disrupt almost all naval bombers if not escorted, with low detection very few bombers are intercepted still
 NDefines.NAir.ESCORT_FACTOR = 7 -- (2 -> 7) to make sure that escorted planes are still capable of bombing, with equal escorts/interceptors most of bombers get through Keep in mind that these values will also affect how cas/tac/strat bombers work, they make escorting planes much more important (which imo is 100% fine)
-NDefines.NAir.COMBAT_DAMAGE_SCALE = 0.085			-- Vanilla 0,10
+
 ------------------------------------------------------------------------------------------------
 NDefines.NAir.AA_INDUSTRY_AIR_DAMAGE_FACTOR = -0.18				-- vanilla 0.12 | changed because all three AA techs that boost state AA have had their damage reduction bonuses moved to the building
 NDefines.NAir.DISRUPTION_FACTOR_CARRIER = 1.0                                     -- 30 in vanilla, but  it used to be 1, reverting back to 1.8 so bad carriers are just bad insteadof useless

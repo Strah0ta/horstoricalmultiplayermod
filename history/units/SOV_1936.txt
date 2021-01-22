@@ -119,7 +119,7 @@ instant_effect = {
 			type = infantry_equipment_1
 			creator = "SOV"
 		}
-		requested_factories = 0
+		requested_factories = 32
 		progress = 0.1
 		efficiency = 50
 	}
@@ -129,7 +129,7 @@ instant_effect = {
 			type = support_equipment_1
 			creator = "SOV" 
 		}
-		requested_factories = 2
+		requested_factories = 5
 		progress = 0.3
 		efficiency = 50
 	}
@@ -139,7 +139,7 @@ instant_effect = {
 			type = artillery_equipment_1
 			creator = "SOV" 
 		}
-		requested_factories = 0
+		requested_factories = 1
 		progress = 0.3
 		efficiency = 50
 	}
@@ -159,7 +159,7 @@ instant_effect = {
 			type = motorized_equipment_1
 			creator = "SOV" 
 		}
-		requested_factories = 23
+		requested_factories = 5
 		progress = 0.4
 		efficiency = 50
 	}
@@ -177,7 +177,7 @@ instant_effect = {
 			type = anti_air_equipment_1
 			creator = "SOV" 
 		}
-		requested_factories = 2
+		requested_factories = 5
 		progress = 0.4
 		efficiency = 50
 	}
@@ -214,7 +214,7 @@ instant_effect = {
 			type = light_tank_artillery_equipment_2
 			creator = "SOV" 
 		}
-		requested_factories = 1
+		requested_factories = 0
 		progress = 0.4
 		efficiency = 50
 	}

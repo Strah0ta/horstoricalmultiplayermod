@@ -5,16 +5,6 @@ upgrades = {
 		armor_value = 0.05
 		maximum_speed = -0.04
 	}
-	tank_engine_upgrade = {
-		max_level = 5
-		cost = land
-		maximum_speed = 0.04
-	}	
-	tank_reliability_upgrade = {
-		max_level = 5
-		cost = land
-		reliability = 0.08
-	}
 }
 
 

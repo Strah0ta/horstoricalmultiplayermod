@@ -198,7 +198,6 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			army_experience = 10
 				220 = {
 					add_extra_state_shared_building_slots = 4
 					add_building_construction = {
@@ -327,20 +326,6 @@ focus_tree = {
 
 		completion_reward = {
 			add_ideas = konstantin_rokossovsky 
-		}
-	}
-	
-	focus = {
-		id = SOV_socialist_science
-		icon = GFX_focus_SOV_socialist_science
-		prerequisite = { focus = SOV_positive_heroism }
-		x = 0
-		y = 1
-		relative_position_id = SOV_positive_heroism
-		cost = 10
-
-		completion_reward = {
-			add_ideas = socialist_science_focus
 		}
 	}
 
@@ -727,7 +712,9 @@ focus_tree = {
 		available = { SOV =  {has_war_with = GER }}
 
 		completion_reward = {
-				give_resource_rights = { receiver = USA state = 179 }	
+			if = { limit = { USA = { owns_state = 373 }}	give_resource_rights = { receiver = USA state = 179 } 	}
+						if = { limit = { SWE = { owns_state = 373 }}	give_resource_rights = { receiver = ENG state = 179 } 	}
+
 		}
 	}
 	
@@ -801,7 +788,6 @@ focus_tree = {
 				uses = 1
 				category = land_doctrine
 			}
-			army_experience = 20
 		}
 	}
 
@@ -874,8 +860,6 @@ focus_tree = {
 		custom_effect_tooltip = lessons_tt
 		custom_effect_tooltip = army_inno_3_tt
 				hidden_effect = { set_technology = { armored_car_at_upgrade = 1 }	}
-
-			army_experience = 20
 			add_tech_bonus = {
 				name = "Lessons of War"
 				bonus = 1.0

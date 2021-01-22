@@ -938,8 +938,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			# Balance research bonus for 2 techs under land_doctrine
-			army_experience = 300	
+			army_experience = 100
 			add_tech_bonus = {
 				name = land_doc_bonus
 				bonus = 1.0
@@ -1070,16 +1069,13 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			# Balance research bonus to 2 techs in land_doctrine
-			army_experience = 20
 			add_tech_bonus = {
 				name = land_doc_bonus
 				bonus = 1.0
 				uses = 2
 				category = land_doctrine
 			}
-
-					add_tech_bonus = {
+			add_tech_bonus = {
 				bonus = 3.0
 				uses = 1
 				name = mech_army_bonus
@@ -1519,7 +1515,6 @@ add_tech_bonus = {
 			# if = { limit = { has_idea = joseph_goebbels } add_political_power = 120 }
 			add_political_power = 120
 			add_war_support = 0.1 
-			army_experience = 5
 			add_named_threat = { threat = 5 name = GER_rhineland 
 
 		}	

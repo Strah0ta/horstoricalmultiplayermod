@@ -14,14 +14,12 @@ equipments = {
 		interface_category = interface_category_armor
 		
 		upgrades = {
-			tank_reliability_upgrade
-			tank_engine_upgrade
 			tank_armor_upgrade
 		}
 		
 		#Misc Abilities
-		maximum_speed = 4
-		reliability = 0.6
+		maximum_speed = 5
+		reliability = 0.8
 
 		#Defensive Abilities
 		defense = 10

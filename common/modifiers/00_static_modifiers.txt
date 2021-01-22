@@ -51,27 +51,27 @@ weather_very_hot = { # on Province
 weather_extreme_hot = { # on Province
 	heat_attrition = 0.2
 	local_org_regain = -0.1
-	supply_consumption_factor = 0.5
+	supply_consumption_factor = 0.25
 	army_attack_factor = -0.1
 }
 
 weather_snow = { # on Region 
 	winter_attrition = 0.0
-	army_attack_factor = -0.05	
+	army_attack_factor = -0.15
 }
 weather_blizzard = { # on Region 
 	winter_attrition = 0.1
-	army_attack_factor = -0.1
+	army_attack_factor = -0.2
 }
 
 weather_extreme_cold = { # on Province
-	winter_attrition = 0.2
-	army_attack_factor = -0.15
+	winter_attrition = 0.1
+	army_attack_factor = -0.25
 }
 
 weather_very_cold = { # on Province
-	winter_attrition = 0.1
-	army_attack_factor = -0.1
+	winter_attrition = 0.05
+	army_attack_factor = -0.2
 }
 
 rasputitsa = { 
