@@ -196,8 +196,6 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-					hidden_effect = {  set_technology = { large_front_operations = 1 large_front_operations = 1 peoples_army = 1 popup = no } }
-			custom_effect_tooltip = "We will research Large Front Operations and People's Army, allowing us to research both sides of Mass Assault!"
 
 		}
 	}

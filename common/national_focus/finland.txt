@@ -226,7 +226,7 @@ focus_tree = {
 		icon = GFX_goal_generic_special_forces
 		prerequisite = { focus = fin_special_forces }
 
-		x = 1
+		x = 0
 		y = 1
 		relative_position_id = fin_special_forces
 		cost = 10
@@ -238,23 +238,6 @@ focus_tree = {
 			custom_effect_tooltip = "We will develop our military doctrine with Motti Tactics, making it easier to defend forests."
 		}
 	}
-	
-		focus = {  
-		id = fin_shocktroops
-		icon = GFX_goal_generic_special_forces
-		prerequisite = { focus = fin_special_forces }
-		x = -1
-		y = 1
-		relative_position_id = fin_special_forces
-		cost = 10
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			set_technology = {   shocktroops = 1}
-		}
-	}
-	
 	
 		focus = {
 		id = fin_armor_effort

@@ -832,7 +832,7 @@ GER_desert_flower_mission2 = {
 	fire_only_once = yes
 	visible = {  EFR = { controls_state = 554  }    }
 	complete_effect = {
-		FRA = { transfer_state = 554 } 
+	if = { limit = { country_exists = FRA }FRA = { transfer_state = 554 } }	else = { ENG = { transfer_state = 554 }}
 		country_event = { id = germany.378 } 
 		554 = { set_demilitarized_zone = no add_province_modifier = { province = { all_provinces  = yes } static_modifiers = { syria_modifier } } }
 		hidden_effect = {if = { limit = { ENG = { controls_province = 1544 }} ENG = { load_oob = "ENG_SYR_Front_GAR" } SWE ={ country_event = { id = italy.3999 days = 30 }}  custom_effect_tooltip "The Allies will have 1 month to prepare defenses in Syria!"  }   }

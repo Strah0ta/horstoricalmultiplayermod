@@ -20,7 +20,7 @@ DIPLOMACY_INCOMING_LEND_LEASE_ENABLE_TRIGGER = {
 }
 DIPLOMACY_SEND_EXP_FORCE_ENABLE_TRIGGER = {
 	NOT = { FROM = { OR = {  AND = { original_tag = EFR  EFR = { is_in_faction = yes NOT = { has_country_flag = EFR_torch_declared}  }  } original_tag = ETH  AND = { original_tag = FIN SOV = { controls_state = 195 }   } } } }
-	NOT = { FROM = { OR = {  has_tech = grand_battle_plan_mp has_tech = operational_concentration has_tech = grand_mechanized_offensive tag = EFR tag = ETH} } }
+	NOT = { FROM = { OR = {  has_tech = grand_battle_plan_mp has_tech = operational_concentration tag = EFR tag = ETH} } }
 }
 DIPLOMACY_GENERATE_WARGOAL_ENABLE_TRIGGER = { always = no }
 DIPLOMACY_SEND_VOLUNTEERS_ENABLE_TRIGGER  = { always = no }
@@ -40,6 +40,6 @@ DIPLOMACY_RETURN_EXP_FORCE_ENABLE_TRIGGER = {
 }
 DIPLOMACY_REQUEST_EXP_FORCE_ENABLE_TRIGGER = {
 	NOT = { date < 1939.9.1 }
-    NOT = { ROOT = { OR = { AND = { original_tag = EFR  EFR = { is_in_faction = yes NOT = { has_country_flag = EFR_torch_declared}  }  } original_tag = ETH AND = { original_tag = FIN SOV = { controls_state = 195 }   }  has_tech = grand_battle_plan_mp has_tech = operational_concentration has_tech = grand_mechanized_offensive }} }
-	NOT = { FROM = { OR = { AND = { original_tag = EFR  EFR = { is_in_faction = yes NOT = { has_country_flag = EFR_torch_declared}  }  } original_tag = ETH original_tag = FIN  has_tech = grand_battle_plan_mp has_tech = operational_concentration has_tech = grand_mechanized_offensive }} }
+    NOT = { ROOT = { OR = { AND = { original_tag = EFR  EFR = { is_in_faction = yes NOT = { has_country_flag = EFR_torch_declared}  }  } original_tag = ETH AND = { original_tag = FIN SOV = { controls_state = 195 }   }  has_tech = grand_battle_plan_mp has_tech = operational_concentration  }} }
+	NOT = { FROM = { OR = { AND = { original_tag = EFR  EFR = { is_in_faction = yes NOT = { has_country_flag = EFR_torch_declared}  }  } original_tag = ETH original_tag = FIN  has_tech = grand_battle_plan_mp has_tech = operational_concentration }} }
 }

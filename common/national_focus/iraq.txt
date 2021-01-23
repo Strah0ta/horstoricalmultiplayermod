@@ -87,7 +87,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			set_technology = { shocktroops = 1 }
+			#
 		}
 	}
 					focus = {

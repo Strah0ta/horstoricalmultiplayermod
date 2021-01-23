@@ -671,7 +671,7 @@ ideas = {
 
 			modifier = {
 				army_morale_factor = 0.1
-				army_defence_factor = -0.1
+				army_defence_factor = -0.075
 			}
 		}		
 
@@ -1139,41 +1139,11 @@ ideas = {
 			}
 			
 			research_bonus = {
-				land_doctrine = 0.10
+				land_doctrine = 0.25
 			}
 			
 			
-			traits = { blitzkrieg_theorist }
-		}
-		
-		manstein = {
-			ledger = army
-			
-			allowed = {
-				original_tag = GER
-			}
-			
-			cost = 250
-			
-			research_bonus = {
-				cat_mobile_warfare = 0.15
-			}
-			
-
-			traits = { mobile_warfare_expert }
-		}
-		
-		ernst_udet = {
-			ledger = air
-			allowed = {
-				original_tag = GER
-			}
-			
-			research_bonus = {
-				air_doctrine = 0.10
-			}
-			
-			traits = { dive_bomber }
+			traits = { blitzkrieg_theorist dive_bomber }
 		}
 	}	
 		

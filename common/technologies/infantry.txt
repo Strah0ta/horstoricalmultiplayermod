@@ -36,18 +36,6 @@ technologies = {
 			level = 0
 			}
 	}
-	
-		shocktroops = {
-		allow = { always = no }
-		enable_subunits = { shocktroop	}
-
-		research_cost = 1000
-		start_year = 1936
-
-		categories = {
-			infantry_tech
-		}
-	}
 
 	infantry_weapons = {
 
@@ -1135,10 +1123,6 @@ technologies = {
 			defense = 0.03
 			breakthrough = 0.03
 		}
-		shocktroop = {
-			defense = 0.03
-			breakthrough = 0.03
-		}
 		motorized = {
 			defense = 0.05
 			breakthrough = 0.05
@@ -1200,10 +1184,6 @@ technologies = {
 			breakthrough = 0.03
 			}
 				jaeger = {
-			defense = 0.03
-			breakthrough = 0.03
-		}
-		shocktroop = {
 			defense = 0.03
 			breakthrough = 0.03
 		}
@@ -1271,10 +1251,6 @@ technologies = {
 			defense = 0.03
 			breakthrough = 0.03
 		}
-		shocktroop = {
-			defense = 0.03
-			breakthrough = 0.03
-		}
 		motorized = {
 			defense = 0.05
 			breakthrough = 0.05
@@ -1336,10 +1312,6 @@ technologies = {
 			breakthrough = 0.03
 			}
 				jaeger = {
-			defense = 0.03
-			breakthrough = 0.03
-		}
-		shocktroop = {
 			defense = 0.03
 			breakthrough = 0.03
 		}
