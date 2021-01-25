@@ -1,10 +1,5 @@
 upgrades = {
-	tank_armor_upgrade = {
-		max_level = 5
-		cost = land
-		armor_value = 0.05
-		maximum_speed = -0.04
-	}
+
 }
 
 

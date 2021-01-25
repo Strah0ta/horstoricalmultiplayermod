@@ -258,7 +258,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 2.5
+		research_cost = 2
 		
 		folder = {
 			name = electronics_folder
@@ -275,7 +275,7 @@ technologies = {
 	computing_machine = {
 
 		# small boost to research speed
-		research_speed_factor = 0.05
+		research_speed_factor = 0.06
 			enable_equipment_modules = { 
 			ship_fire_control_system_2
 		}
@@ -285,7 +285,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2.5
+		research_cost = 2
 		start_year = 1938
 		
 		folder = {
@@ -313,7 +313,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2.5
+		research_cost = 2
 		start_year = 1940
 		
 		folder = {
@@ -332,10 +332,10 @@ technologies = {
 	advanced_computing_machine = {
 
 		# small boost to research speed
-		research_speed_factor = 0.08
+		research_speed_factor = 0.10
 		
 
-		research_cost = 2.5
+		research_cost = 2
 		start_year = 1942
 		
 		folder = {

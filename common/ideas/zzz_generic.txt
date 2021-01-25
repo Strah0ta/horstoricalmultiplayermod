@@ -15,6 +15,24 @@ ideas = {
 			modifier = { industrial_capacity_dockyard = 0.2 }
 		}
 		
+		mw_mot = {
+			allowed = { always = no }
+			removal_cost = -1 
+			available = { has_tech = mobile_warfare   }
+			equipment_bonus = {	motorized_equipment = {	maximum_speed = 0.1 instant = yes  }	amphibious_mechanized_equipment = {	maximum_speed = 0.1  } mechanized_equipment = {	maximum_speed = 0.1  }}
+		}	
+		mw_inf = {
+			allowed = { always = no }
+			removal_cost = -1 
+			available = { has_tech = mobile_warfare  }
+			equipment_bonus = {	infantry_equipment = {	maximum_speed = 0.5 instant = yes }	}
+		}	
+		mw_tank = {
+			allowed = { always = no }
+			removal_cost = -1 
+			available = { has_tech = mobile_warfare  }
+			equipment_bonus = {	armor = {	maximum_speed = 0.1  instant = yes }	}
+		}			
 		free_tank_designer = {
 			allowed = { always = no }
 			removal_cost = -1 

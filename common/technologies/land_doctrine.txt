@@ -12,7 +12,12 @@ technologies = {
 			leads_to_tech = delay 
 			research_cost_coeff = 1
 		}
-		
+		category_light_infantry = {
+			maximum_speed = 0.5
+		}
+		category_line_artillery = {
+			maximum_speed = 0.5
+		}		
 		category_all_armor = {
 			breakthrough = 0.20
 		}
@@ -86,7 +91,6 @@ technologies = {
 		category_all_armor = {
 			maximum_speed = 0.1
 		}
-		
 	
 		enable_tactic = tactic_elastic_defense
 		
@@ -123,6 +127,7 @@ technologies = {
 		xor={
 			armored_spearhead
 		}
+
 		motorized = {
 			maximum_speed = 0.1
 			default_morale = 0.2
@@ -1392,7 +1397,7 @@ technologies = {
 		#reduced pocketed combat penalty and/or reduces the out of supply penalty or increases time before moving to worse penalty
 		no_supply_grace = 48 # more hours before supply penalty changes
 		out_of_supply_factor = -0.40
-		pocket_penalty  = -0.1		
+		pocket_penalty  = -0.2		
 		path = {
 			leads_to_tech = defence_in_depth
 			research_cost_coeff = 1
