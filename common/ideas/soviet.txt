@@ -996,29 +996,6 @@ ideas = {
 	}
 	
 	theorist = {	
-		mikhail_tukhachevsky = {
-			ledger = army
-			
-			
-			allowed = {
-				original_tag = SOV
-
-			}
-			available = 
-			{
-				NOT = { has_country_flag = purge_1_group_a }
-			}
-			
-			cost = 250
-			
-			research_bonus = {
-				cat_mass_assault = 0.15
-			}
-			
-			# PURGED
-			traits = { mass_assault_expert }
-		}
-		
 		boris_shaposhnikov = {
 			ledger = army
 			
@@ -1030,7 +1007,7 @@ ideas = {
 
 			
 			research_bonus = {
-				land_doctrine = 0.10
+				land_doctrine = 0.25
 			}
 			
 			traits = { military_theorist }

@@ -150,32 +150,22 @@ annex_bulgaria_effect = {
 48 = { remove_building = {type = industrial_complex level = 5 } remove_building = {type = arms_factory level =2 } }
 211 = { remove_building = {type = industrial_complex level = 2 }  }
 212 = { remove_building = {type = industrial_complex level = 1 } remove_building = {type = arms_factory level =3 } }
-46 = { 
- add_extra_state_shared_building_slots = 4
+if = {  limit = { has_start_date > 1936.01.02 }                 
+      64 = { 
+ add_extra_state_shared_building_slots = 2
 add_building_construction = {
 type = industrial_complex
-level = 2
+level = 1
 instant_build = yes
 }
 add_building_construction = {
 type = arms_factory 
-level = 2
+level = 1
 instant_build = yes
 }
    }
-   43 = { 
- add_extra_state_shared_building_slots = 4
-add_building_construction = {
-type = industrial_complex
-level = 2
-instant_build = yes
-}
-add_building_construction = {
-type = arms_factory 
-level = 2
-instant_build = yes
-}
-   }
+    }
+ if = { limit = { NOT = {  has_start_date > 1936.01.02 }  }      
       41 = { 
  add_extra_state_shared_building_slots = 5
 add_building_construction = {
@@ -189,7 +179,87 @@ level = 1
 instant_build = yes
 }
    }
+ }
+46 = { 
+ add_extra_state_shared_building_slots = 4
+add_building_construction = {
+type = industrial_complex
+level = 2
+instant_build = yes
 }
+add_building_construction = {
+type = arms_factory 
+level = 2
+instant_build = yes
+}
+   }
+   2 = { 
+ add_extra_state_shared_building_slots = 4
+add_building_construction = {
+type = industrial_complex
+level = 2
+instant_build = yes
+}
+add_building_construction = {
+type = arms_factory 
+level = 2
+instant_build = yes
+}
+   }
+
+}
+
+
+
+annex_hungary_effect = { 
+43 = { remove_building = {type = industrial_complex level = 4 } remove_building = {type = arms_factory level =4 } }
+154 = { remove_building = {type = industrial_complex level = 3 }  remove_building = {type = arms_factory level = 1 }  }
+155 = { remove_building = {type = industrial_complex level = 3 } remove_building = {type = arms_factory level = 1 } }
+      46 = { 
+	  add_resource = { type = steel amount = 20 }
+ add_extra_state_shared_building_slots = 4
+add_building_construction = {
+type = industrial_complex
+level = 2
+instant_build = yes
+}
+add_building_construction = {
+type = arms_factory 
+level = 2
+instant_build = yes
+}
+   }
+      64 = { 
+	  	  add_resource = { type = steel amount = 20 }
+ add_extra_state_shared_building_slots = 3
+add_building_construction = {
+type = industrial_complex
+level = 1
+instant_build = yes
+}
+add_building_construction = {
+type = arms_factory 
+level = 2
+instant_build = yes
+}
+   }
+      2 = { 
+	  	  add_resource = { type = steel amount = 20 }
+ add_extra_state_shared_building_slots = 5
+add_building_construction = {
+type = industrial_complex
+level = 3
+instant_build = yes
+}
+add_building_construction = {
+type = arms_factory 
+level = 2
+instant_build = yes
+}
+   }   
+   
+ }
+
 
 HMP_sov_civ_to_mill2 = { 
 random_owned_controlled_state = { 	limit = {  is_core_of = SOV industrial_complex > 0 } 
@@ -1392,18 +1462,14 @@ generic_bonus_999 = {
 
 
 HMP_script_balkans = {
-			GER = { 	transfer_state = 303 transfer_state = 414 transfer_state = 109 transfer_state = 104 transfer_state = 107 transfer_state = 108 	}
-			BUL = {   transfer_state = 184   transfer_state = 293    transfer_state = 106   }
-			if = { limit = { has_start_date > 1936.1.2 } GER = {  
-			transfer_state = 293 transfer_state = 184 transfer_state = 106
-			transfer_state = 211 transfer_state = 212 transfer_state = 48
-			}    }
+			GER = { transfer_state = 303 transfer_state = 414 transfer_state = 109 transfer_state = 104 transfer_state = 107 transfer_state = 108 	}
+			BUL = {  transfer_state = 184   transfer_state = 293    transfer_state = 106   }
 			HUN = { transfer_state = 514 transfer_state = 45   }
 			transfer_state = 102 transfer_state = 103 transfer_state = 105 transfer_state = 486
 			transfer_state = 185 transfer_state = 47 transfer_state = 187 transfer_state = 182 transfer_state = 186
 			add_threat = 20
 			if = { limit = { BUL = { is_ai = yes } country_exists = BUL } ITA = { annex_country = { target = BUL transfer_troops = yes }}   }
-			hidden_effect = { if = { limit = { AND = { NOT = { has_start_date > 1936.1.2 }} BUL = { is_ai = no }  } SWE = { country_event = { id = italy.5009 days = 1}}} }
+			hidden_effect = { if = { limit = { BUL = { is_ai = no }  } SWE = { country_event = { id = italy.5009 days = 1}}} }
 		}
 
 	HMP_script_china = {	
@@ -1422,10 +1488,8 @@ FIN = { add_ideas = war_economy }
 SOV = { transfer_state = 147 add_state_core = 147 transfer_state = 146 add_state_core = 146 add_timed_idea = { idea = SPR_seized_spanish_gold_reserves days = 365 } }
 }
 HMP_script_spain = {
-	JAP = { army_experience = 400 }
-	SOV = { army_experience = 100 }	
-	ENG = { add_ideas = partial_economic_mobilisation add_war_support = 0.1  add_political_power = -250 }
-	RAJ = { add_ideas = partial_economic_mobilisation add_war_support = 0.1  add_political_power = -250 }
+	ENG = { add_ideas = partial_economic_mobilisation add_war_support = 0.1  add_political_power = -150 }
+	RAJ = { add_ideas = partial_economic_mobilisation add_war_support = 0.1  add_political_power = -150 }
 	SPR = { add_ideas = SPR_cg_debuff add_threat = 3 }	
 }
 
@@ -1891,7 +1955,7 @@ create_field_marshal = {
 create_corps_commander = { #AFRIKACORPS GENERAL
     name = "Giovanni Messe"
     picture = "Portrait_Italy_Giovanni_Messe.dds"
-	traits = { trickster panzer_leader panzer_expert fortress_buster expert_improviser offensive_doctrine camouflage_expert desert_fox trait_mountaineer hill_fighter trait_engineer }
+	traits = { trickster panzer_leader panzer_expert fortress_buster expert_improviser offensive_doctrine desert_fox trait_mountaineer hill_fighter trait_engineer }
     skill = 7
     attack_skill = 5
     defense_skill = 4
@@ -4070,7 +4134,8 @@ HMP_startup_on_actions = {
 	if = { limit = { MAN = { is_ai = yes } country_exists = MAN } JAP = { country_event = { id = japan.148 }}}
 	if = { limit = { NZL = { is_ai = yes } country_exists = NZL } AST = { country_event = { id = japan.758 }}}
 	if = { limit = { SAF = { is_ai = yes } country_exists = SAF } ENG = { country_event = { id = japan.678 }}}
-	if = { limit = { BUL = { is_ai = yes } NOT = { has_start_date > 1936.01.02  } } GER = { country_event = { id = japan.638  days = 1}}   }
+	if = { limit = { HUN = { is_ai = yes } } GER = { country_event = { id = japan.668  days = 1}}   }
+	if = { limit = { BUL = { is_ai = yes } } GER = { country_event = { id = japan.638  days = 1}}   }
 	if = { limit = { has_start_date > 1936.01.02 }  HMP_no_asia = yes  }
 	HMP_script_generals = yes 
 	make_asia_go_faster = yes	

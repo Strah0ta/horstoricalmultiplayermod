@@ -500,7 +500,6 @@ focus_tree = {
 
 
 		completion_reward = {
-			army_experience = 10
 			add_tech_bonus = {
 				name = SAF_special_service_battalion
 				bonus = 1.0
@@ -566,7 +565,6 @@ focus_tree = {
 		cost = 5
 
 		completion_reward = {
-			army_experience = 10
 			add_tech_bonus = {
 				name = SAF__south_african_military_college
 				bonus = 1.0

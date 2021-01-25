@@ -12,7 +12,6 @@ focus_tree = {
 		cost = 5
 		completion_reward = {
 			remove_ideas = MAN_banditry
-			army_experience = 30
 		}
 	}
 	
@@ -42,7 +41,6 @@ focus_tree = {
 
 		cost = 5
 		completion_reward = {
-			army_experience = 30
 		}
 	}
 
@@ -1225,7 +1223,7 @@ add_building_construction = {
 		
 
 		completion_reward = {
-		army_experience = 50
+		add_tech_bonus = { uses = 1 bonus = 1 category = land_doctrine }
 		}
 	}
 	

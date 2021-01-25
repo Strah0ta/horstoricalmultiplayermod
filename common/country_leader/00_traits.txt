@@ -550,27 +550,27 @@ leader_traits = {
 
 	military_theorist = {
 		sprite = 14
-		experience_gain_army = 0.25
+		#experience_gain_army = 0.25
 	}
 	
 	mobile_warfare_expert = { 
 		sprite = 14
-		experience_gain_army = 0.25
+		#experience_gain_army = 0.25
 	}
 	
 	superior_firepower_expert = {
 		sprite = 14
-		experience_gain_army = 0.25
+		#experience_gain_army = 0.25
 	}
 	
 	grand_battle_plan_expert = {
 		sprite = 14
-		experience_gain_army = 0.25
+		#experience_gain_army = 0.25
 	}
 	
 	mass_assault_expert = {
 		sprite = 14
-		experience_gain_army = 0.25
+		#experience_gain_army = 0.25
 	}
 	
 	air_warfare_theorist = {

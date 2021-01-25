@@ -108,11 +108,8 @@ ideas = {
 			removal_cost = -1
 
 			research_bonus = {
-				land_doctrine = 0.05
-			}
-			research_bonus = {
-				air_doctrine = 0.05
-			}				
+				land_doctrine = 0.25
+			}			
 		}
 	}
 		
@@ -425,7 +422,7 @@ ideas = {
 			ledger = army
 			allowed = { original_tag = ITA	}
 			cost = 150
-			research_bonus = { land_doctrine = 0.15 }
+			research_bonus = { land_doctrine = 0.25 }
 			traits = {  blitzkrieg_theorist }
 		}
 		amedeo_mecozzi = {

@@ -229,7 +229,8 @@ bookmarks = {
 				MAN_develop_aluminum_sources
 				MAN_the_two_emperors		}
 		}
-	
+			"BUL"={	minor = yes	history = "BULGARIA_GATHERING_STORM_DESC"	ideology = neutrality focuses = { 	}}
+
 		"SPR"={	minor = yes	history = "SPAIN_GATHERING_STORM_DESC"	ideology = democratic focuses = { SPA_caudillo_of_spain	}}
 		"EFR"={
 			minor = yes

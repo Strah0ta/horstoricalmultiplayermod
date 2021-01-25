@@ -1,5 +1,6 @@
 ﻿l_english:
   SOV_PLANE_STUFF_TT:0 "\n§CWe will research 1940 (Homeland) Fighters with equivalent statistics to 1940 Fighters§!"
+  SOV_PLANE_STUFF2_TT:0 "\n§CWe will research 1944 (Homeland) Fighters with equivalent statistics to 1944 Fighters§!" 
   UK_PLANE_STUFF_TT:0 "§CThe USA and the UK will research 1944 Strategic Bombers§!"
   ###BULGARIA###
   BUL_exercise_direct_power:0 "Assuming Direct Control"
@@ -480,7 +481,7 @@
  ENG_no_asia_idea3:0 "The War"
  ENG_no_asia_idea3_desc:0 "…we shall fight on the beaches, we shall fight on the landing grounds, we shall fight in the fields and in the streets, we shall fight in the hills; we shall never surrender… -Winston Churchill"
  I_HATE_ASIA_NAME:0 "The War in the West"
- I_HATE_ASIA_DESC:0 "World War Two, without the war in the Far East.\nAllies/Comintern: UK, France, Canada, and the Soviet Union.\nAxis: Germany, Italy, and Romania.\nIf you have extra players you can play the following: Finland, Vichy France, Norway, and Italian East Africa."
+ I_HATE_ASIA_DESC:0 "World War Two, without the war in the Far East.\nAllies/Comintern: UK, France, Canada, Norway (optional) and the Soviet Union.\nAxis: Germany, Italy, Romania, Hungary (optional), Finland (optional), Vichy France (optional), Italian East Africa (optional), and Bulgaria (optional).\nIf you have extra players you can play the following: Finland, Vichy France, and Italian East Africa."
  ENG_overlord_states:0 "Operation Overlord"
  ENG_overlord_states_desc:0 "Europe is a fortress so we must carefully plan our assault upon it."
  NZL_bob_semple_tank_tt:0 "Enables production of the §HBob Semple§"

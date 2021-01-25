@@ -197,7 +197,7 @@ guiTypes = {
 			maxWidth = 57
 			maxHeight = 24
 			fixedsize = yes
-		}
+		} 
 		
 		iconType ={
 			name ="experience_value_bg"
@@ -209,13 +209,13 @@ guiTypes = {
 		iconType = {
 			name ="experience_icon"
 			spriteType = "GFX_army_experience"
-			position = { x= 762 y=11 }
+			position = { x= 76332 y=11 }
 			Orientation = "UPPER_LEFT"
 		}
 		
 		instantTextBoxType = {
 			name ="experience_value"
-			position = { x=777 y=9 }
+			position = { x=77337 y=339 } 
 			font = "hoi_18mbs"
 			text = "999"
 			format = center

@@ -3,7 +3,7 @@ id=576
 name="Sweden"
 manpower = 1
 resources={
-tungsten=55
+tungsten=85
 chromium = 85
 }
 impassable = yes

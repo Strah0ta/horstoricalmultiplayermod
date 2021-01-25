@@ -33,7 +33,6 @@ focus_tree = {
 
 		completion_reward = {
 			remove_ideas = MAN_banditry
-			army_experience = 30
 		}
 	}
 
@@ -50,8 +49,13 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			army_experience = 30
-							}
+			add_tech_bonus = {
+				name = "Army Modernization"
+				bonus = 1.0
+				uses = 1
+				category = land_doctrine
+			}
+		}
 	}
 
 	focus = {

@@ -569,7 +569,6 @@ operation_infiltrate_armed_forces_army = { ### 4 1/55
 						target = FROM
 						army_intel = 10
 					}
-					army_experience = 5
 				}
 			}
 			67 = {

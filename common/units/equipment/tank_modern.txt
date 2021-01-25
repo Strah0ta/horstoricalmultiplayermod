@@ -185,7 +185,7 @@ equipments = {
 		interface_category = interface_category_armor
 		
 		upgrades = {
-			tank_engine_upgrade
+			
 		}
 
 		#Misc Abilities

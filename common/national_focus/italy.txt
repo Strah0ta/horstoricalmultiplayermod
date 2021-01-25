@@ -472,7 +472,6 @@ date > 1941.6.1
 		available_if_capitulated = yes
 
 		completion_reward = {
-		army_experience = 50
 			156 = {
 				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
@@ -496,6 +495,12 @@ date > 1941.6.1
 				uses = 2
 				category = land_doctrine
 			}
+			add_tech_bonus = {
+				name = "Army Primacy"
+				bonus = 1.0
+				uses = 1
+				technology = improved_infantry_weapons
+			}			
 		}
 	}
 
@@ -529,7 +534,6 @@ date > 1941.6.1
 		available_if_capitulated = yes
 
 		completion_reward = {
-			army_experience = 50
 			add_tech_bonus = {
 				name = special_bonus
 				bonus = 1.0
@@ -564,7 +568,6 @@ date > 1941.6.1
 		available_if_capitulated = yes
 
 		completion_reward = {
-			army_experience = 5
 			add_tech_bonus = {
 				name = special_bonus
 				bonus = 1.0
@@ -605,7 +608,6 @@ date > 1941.6.1
 		available_if_capitulated = yes
 
 		completion_reward = {
-			army_experience = 5
 			add_tech_bonus = {
 				name = armor_bonus
 				bonus = 1.0
@@ -1108,41 +1110,22 @@ date > 1941.6.1
 		cost = 5
 
 		completion_reward = {
-			HMP_script_balkans = yes
+			HMP_script_balkans	= yes
 		}
 	}
 	
 	
-		focus = {
-		id = ITA_sword_of_islam		
-		prerequisite = { focus = ITA_balkan_war_goal focus = ITA_italia_irredenta } 
-		
-		icon = GFX_goal_generic_secret_weapon
-		x = -1 
-		y = 1 
-
-		relative_position_id = ITA_balkan_war_goal
-		cost = 5
-
-		completion_reward = { 
-		custom_effect_tooltip = "We will lower resistance in Libya by 20%"
-			448 = { remove_resistance_target = 20 } 
-			449 = { remove_resistance_target = 20 }  
-			579 = { remove_resistance_target = 20 }  
-			450 = { remove_resistance_target  = 20 } 
-		}
-	}
 			focus = {
 		id = ITA_align_iraq
 		available = {  NOT = { ENG = {  controls_state = 291} } }
 		
-		prerequisite = { focus = ITA_sword_of_islam }
+		prerequisite = { focus = ITA_balkan_war_goal }
 		
 		icon = GFX_focus_ita_irq
 		x = 0
 		y = 1
 
-		relative_position_id = ITA_sword_of_islam
+		relative_position_id = ITA_balkan_war_goal
 		cost = 1
 
 		completion_reward = {

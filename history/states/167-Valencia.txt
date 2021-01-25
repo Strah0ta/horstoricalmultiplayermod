@@ -6,11 +6,7 @@ state={
 	
 	state_category = large_town
 
-	history={
-			1936.1.2 = {
-			owner = SWE
-			add_core_of = SWE
-			}		
+	history={	
 		owner = SPR
 		victory_points = {
 			6906 10

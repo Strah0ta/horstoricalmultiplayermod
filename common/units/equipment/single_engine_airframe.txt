@@ -80,6 +80,10 @@ equipments = {
 		manpower = 40
 		fuel_consumption = 0.1
 	}
+	
+	
+	
+	
 	cv_fighter_equipment = {
 		year = 1933
 
@@ -302,7 +306,31 @@ equipments = {
 		naval_strike_attack = 8
 		naval_strike_targetting = 10
 	}
+		sov_fighter_equipment_3 = {
+		year = 1940
 
+		archetype = sov_fighter_equipment
+		carrier_capable = yes
+		parent = fighter_equipment_3
+		priority = 10
+		can_license = no 
+		air_range = 1800
+		maximum_speed = 777.6
+		air_agility = 92
+		air_attack = 51 #was 38.4 increased by 20%
+		air_defence = 14		
+
+		build_cost_ic = 95
+		resources = {
+			aluminium = 3
+			rubber = 1
+		}
+
+		naval_strike_attack = 8
+		naval_strike_targetting = 10
+	}
+
+	
 	
 	# Advanced Fighter
 	fighter_equipment_3 = {

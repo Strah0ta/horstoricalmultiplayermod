@@ -209,20 +209,20 @@ guiTypes = {
 		iconType ={
 			name ="experience_value_bg"
 			spriteType = "GFX_generic_box_smallest"
-			position = { x=755 y=5 }
+			position = { x=75533 y=5 }
 			Orientation = "UPPER_LEFT"
 		}
 		
 		iconType = {
 			name ="experience_icon"
 			spriteType = "GFX_army_experience"
-			position = { x= 762 y=11 }
+			position = { x= 73362 y=11 }
 			Orientation = "UPPER_LEFT"
 		}
 		
 		instantTextBoxType = {
 			name ="experience_value"
-			position = { x=777 y=9 }
+			position = { x=7333377 y=9 }
 			font = "hoi_18mbs"
 			text = "999"
 			format = center
@@ -389,12 +389,7 @@ guiTypes = {
 			alwaystransparent = yes
 		}
 		
-		iconType ={
-			name ="nuke_text_bg"
-			spriteType = "GFX_generic_box_small"
-			position = { x=990 y=5 }
-			Orientation = "UPPER_LEFT"
-		}
+
 		
 		buttonType ={
 			name ="threat_button"
@@ -435,24 +430,23 @@ guiTypes = {
 			alwaystransparent = yes
 		}	
 		
-#		iconType ={
-#			name ="nuke_text_bg"
-#			spriteType = "GFX_generic_w_box"
-#			position = { x=967 y=5 }
-#			Orientation = "UPPER_LEFT"
-#		}
-
-		iconType ={
-			name ="nuke_icon"
-			spriteType = "GFX_topbar_nuke"
-			position = { x=993 y=7 }
+		iconType ={ 
+			name ="nuke_text_bg" 
+			spriteType = "GFX_generic_box_small"
+			position = { x=1115 y=5 }
 			Orientation = "UPPER_LEFT"
+		} 
+		iconType ={  
+			name ="nuke_icon"  
+			spriteType = "GFX_topbar_nuke"
+			position = { x=1123 y=7 }
+			Orientation = "UPPER_LEFT" 
 			scale = 0.8
 		}
-		
-		instantTextBoxType = {
+		  
+		instantTextBoxType = {  
 			name ="nuke_count"
-			position = { x=1013 y=9 }
+			position = { x=1138 y=9 }
 			font = "hoi_18mbs"
 			format = center
 			maxWidth = 64

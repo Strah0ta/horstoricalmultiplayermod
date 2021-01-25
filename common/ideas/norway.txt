@@ -161,7 +161,7 @@ country = {
 			ledger = army
 			picture = generic_army_europe_2
 			allowed = {  original_tag = NOR	}
-			research_bonus = { land_doctrine = 0.10	}
+			research_bonus = { land_doctrine = 0.25	}
 			traits = { military_theorist }
 		}
 	}

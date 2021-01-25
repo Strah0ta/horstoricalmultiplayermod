@@ -6,14 +6,9 @@ set_variable = {
     var = min_fuel
     value = 0.800
 }
-set_rule = { 
-	can_be_spymaster = no
-	can_send_volunteers = no
-}
+set_rule = { 	can_be_spymaster = no	can_send_volunteers = no }
  create_intelligence_agency = yes
-set_politics = {
-	ruling_party = neutrality
-}
+set_politics = {	ruling_party = neutrality }
 	set_popularities = {
 		democratic = 0
 		fascism = 60

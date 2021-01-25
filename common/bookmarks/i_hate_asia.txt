@@ -114,6 +114,8 @@ bookmarks = {
 			}
 		}
 				"NOR"={
+							minor = yes
+
 			#history = "ROM_GATHERING_STORM_DESC"
 			ideology = democratic
 			ideas = {
@@ -122,6 +124,8 @@ bookmarks = {
 			}
 		}	
 		"ROM"={
+					minor = yes
+
 			history = "ROM_GATHERING_STORM_DESC"
 			ideology = neutrality
 			ideas = {
@@ -132,7 +136,22 @@ bookmarks = {
 				ROM_institute_royal_dictatorship
 				ROM_preserve_greater_romania
 			}
-		}		
+		}	
+		"HUN"={
+			minor = yes
+			history = "HUN_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+				HUN_treaty_of_triannon
+			}
+			focuses = {
+				HUN_strengthen_fascists
+				HUN_demand_southern_slovakia
+				HUN_renounce_the_treaty_of_trianon
+			}
+		}
+			"BUL"={	minor = yes	history = "BULGARIA_GATHERING_STORM_DESC"	ideology = neutrality focuses = { 	}}
+		
 				"ETH"={
 							minor = yes
 			#history = "ROM_GATHERING_STORM_DESC"

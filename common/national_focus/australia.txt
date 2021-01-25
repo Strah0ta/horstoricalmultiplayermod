@@ -29,7 +29,6 @@
 
 
 		completion_reward = {
-			army_experience = 5
 			add_tech_bonus = {
 				name = AST_additional_militia_training
 				bonus = 1.0
@@ -73,7 +72,6 @@
 
 
 		completion_reward = {
-			army_experience = 5
 			add_tech_bonus = {
 				name = AST_promote_reservists
 				bonus = 1.0
@@ -116,7 +114,6 @@
 
 
 		completion_reward = {
-			army_experience = 5
 			add_tech_bonus = {
 				name = AST_hmas_assault
 				bonus = 1.0
@@ -285,7 +282,6 @@
 
 
 		completion_reward = {
-			army_experience = 5
 			add_tech_bonus = {
 				name = AST_introduce_unconventional_warfare
 				bonus = 1.0

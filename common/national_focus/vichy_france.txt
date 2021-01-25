@@ -23,7 +23,6 @@
 		available = { NOT = { FRA = { has_capitulated = yes }} is_ai = no }
 		
 		completion_reward = {
-			army_experience = 5
 			add_tech_bonus = {
 				name = land_doc_bonus
 				bonus = 1.0
@@ -94,7 +93,6 @@
 
 		
 		completion_reward = {
-			army_experience = 5
 			add_tech_bonus = {
 				name = land_doc_bonus
 				bonus = 1.0
@@ -169,7 +167,6 @@
 
 		
 		completion_reward = {
-			army_experience = 5
 			add_tech_bonus = {
 				name = land_doc_bonus
 				bonus = 1.0

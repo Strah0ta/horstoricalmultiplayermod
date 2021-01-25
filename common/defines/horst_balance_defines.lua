@@ -28,6 +28,10 @@ NDefines.NMilitary.PROMOTE_LEADER_CP_COST = 500					-- changed as all generals/F
 NDefines.NMilitary.LAND_EQUIPMENT_BASE_COST = 10					-- VANILLA 10 Cost in XP to upgrade a piece of equipment one level is base + ( total levels * ramp )
 NDefines.NMilitary.LAND_EQUIPMENT_RAMP_COST = 0		 				-- VANILLA 5
 
+NDefines.NMilitary.FIELD_EXPERIENCE_SCALE = 0
+NDefines.NMilitary.FIELD_EXPERIENCE_MAX_PER_DAY = 0				-- Most xp you can gain per day
+NDefines.NMilitary.EXPEDITIONARY_FIELD_EXPERIENCE_SCALE = 0		-- reduction factor in Xp from expeditionary forces
+NDefines.NMilitary.LEND_LEASE_FIELD_EXPERIENCE_SCALE = 0		-- Experience scale for lend leased equipment used in combat.
 
 NDefines.NMilitary.COMMANDER_LEVEL_UP_STAT_COUNT = 0				-- num stats gained on level up
 
@@ -113,7 +117,7 @@ NDefines.NCountry.GIE_HOST_CIC_FROM_LEGITIMACY_MAX = 0 					--Host will receive 
 NDefines.NCountry.GIE_HOST_MIC_FROM_LEGITIMACY_MAX = 0					--Host will receive from 0 to this value in MIC.
 NDefines.NCountry.AIR_SUPPLY_CONVERSION_SCALE = 0.2	-- TRANSPORTS DOUBLED IN IC Conversion scale for planes to air supply
 NDefines.NCountry.MAX_HEROES_BEING_KILLED_WAR_SUPPORT_IMPACT = -0.6				-- WAS -0.3 Max total penalty from war heroes manpower lost
-
+NDefines.NCountry.ATTACHE_XP_SHARE = 0
 ---------------------------------------------------------------
 NDefines.NResistance.GARRISON_LOG_MAX_MONTHS = 0       
 ---------------------------------------------------------------

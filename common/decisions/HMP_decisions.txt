@@ -407,19 +407,6 @@ every_country = {
 			add_to_variable =  { var = FRA.FRA_legitimacy value = 10 }  if = { limit = { has_start_date > 1936.01.02 }  add_to_variable =  { var = FRA.FRA_legitimacy value = 10 }   }
 		}
 	}
-		joint_training_exercise = {
-		icon = eng_blackshirt_march
-		cost = 100
-		allowed = {	original_tag = ENG 	}
-		custom_cost_text = custom_cost_joint_training_exercise
-		visible = {	NOT = { FRA = { owns_state = 16 }}	}
-		days_remove = 120		
-		complete_effect = {
-			army_experience = 50
-			FRA = {	army_experience = 50	}
-			NOR  = { army_experience = 50 }
-		}
-		}
 		emergency_factory_conversion_defensive = {
 		icon = generic_industry
 		allowed = { normally_played_country = yes 	}
@@ -519,7 +506,6 @@ every_country = {
 	cost = 0		
 	fire_only_once = yes
 	complete_effect = {
-		army_experience = 10
 		add_political_power = 75
 		add_war_support = 0.1
 		add_stability = 0.05
@@ -883,7 +869,7 @@ hidden_effect = {
     GER_annex_hungary = {
 		icon = generic_operation
 		allowed = {	original_tag = GER	}
-		available = { HUN = {  is_ai = yes  } date > 1941.5.1	}		
+		available = { HUN = {  is_ai = yes  } date > 1938.5.1	}		
 				visible = { country_exists = HUN  }
 
 		cost = 0		

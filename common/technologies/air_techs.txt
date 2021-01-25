@@ -148,7 +148,12 @@ technologies = {
 		research_cost = 1
 		start_year = 1940
 	}
-	
+		sov_fighter3 = {
+		allow = { always = no }
+		enable_equipments = {	sov_fighter_equipment_3	}
+		research_cost = 1
+		start_year = 1940
+	}	
 	cv_fighter2 = {
 
 		enable_equipments = {

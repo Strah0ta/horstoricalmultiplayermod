@@ -200,7 +200,7 @@ industrial_capacity_dockyard = -2
 			picture = SPA_jose_enrique_varela
 			
 			research_bonus = {
-				land_doctrine = 0.1
+				land_doctrine = 0.25
 			}
 			
 			traits = { military_theorist }

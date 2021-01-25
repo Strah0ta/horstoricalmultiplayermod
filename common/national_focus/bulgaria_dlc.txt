@@ -612,7 +612,6 @@ focus_tree = {
 		
 		search_filters = {FOCUS_FILTER_RESEARCH}
 		completion_reward = {
-			army_experience = 15
 			add_tech_bonus = {
 				name = BUL_vasil_levsky_national_military_university
 			    bonus = 1
@@ -660,7 +659,6 @@ focus_tree = {
 		
 		search_filters = {FOCUS_FILTER_RESEARCH}
 		completion_reward = {
-			army_experience = 15
 			add_tech_bonus = {
 				name = BUL_national_military_academy
 			    bonus = 1.0
@@ -999,7 +997,6 @@ focus_tree = {
 		
 		search_filters = {FOCUS_FILTER_RESEARCH}
 		completion_reward = {
-			army_experience = 15
 			add_tech_bonus = {
 				name = BUL_strike_from_the_seas
 			    bonus = 1.0

@@ -728,7 +728,6 @@ focus_tree = {
 		available = { NOT = { country_exists = CZE } NOT = { country_exists = YUG }  }
 		
 		completion_reward = {
-			if = { limit = { has_start_date > 1936.1.2 } 	annex_country = { target = HUN } 	}
 			if = { limit = { NOT = { has_start_date > 1936.1.2 } }	HUN = { 	set_cosmetic_tag = HUN_REICH	}	} 	
 			ROM = {	set_cosmetic_tag = ROM_REICH 					} 				
 			60 = {
@@ -938,11 +937,10 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			army_experience = 100
 			add_tech_bonus = {
 				name = land_doc_bonus
 				bonus = 1.0
-				uses = 2
+				uses = 3
 				category = land_doctrine
 			}
 			custom_effect_tooltip = available_chief_of_army
@@ -1072,7 +1070,7 @@ focus_tree = {
 			add_tech_bonus = {
 				name = land_doc_bonus
 				bonus = 1.0
-				uses = 2
+				uses = 3
 				category = land_doctrine
 			}
 			add_tech_bonus = {
@@ -2212,47 +2210,14 @@ create_corps_commander = {
 			every_state = { limit = { atlantikwall_states = yes }
 				set_building_level = {
 						type = coastal_bunker
-						level = 5
+						level = 6
 						province = {
 							all_provinces = yes
 							limit_to_coastal = yes
-							level < 5
+							level < 6
 						}
 					}
 				}		
-			144 = { 
-				set_building_level = {
-						type = coastal_bunker
-						level = 2
-						province = {
-							all_provinces = yes
-							limit_to_coastal = yes
-							level < 2
-						}
-					}
-				}
-				142 = { 
-				set_building_level = {
-						type = coastal_bunker
-						level = 2
-						province = {
-							all_provinces = yes
-							limit_to_coastal = yes
-							level < 1
-						}
-					}
-				}		
-						143 = { 
-				set_building_level = {
-						type = coastal_bunker
-						level = 2
-						province = {
-							all_provinces = yes
-							limit_to_coastal = yes
-							level < 1
-						}
-					}
-				}
 		}
 	}
 	}

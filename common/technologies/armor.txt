@@ -11,6 +11,10 @@ technologies = {
 		heavy_armor = { max_strength = 2.5 }	
 	}
 	
+	#GER_henschel_tech = {
+	#	allow = { always = no }
+	#	on_research_complete = {  GER = { add_ideas = henschel } }
+	#}
 	
 	blitzkrieg_off = {
 		motorized = { max_strength = -4 }
@@ -173,7 +177,6 @@ technologies = {
 			improved_light_td
 			improved_light_art
 			improved_light_spaa 
-			amphibious_tank 
 		}
 
 		
@@ -240,7 +243,7 @@ technologies = {
 		}
 		
 		research_cost = 0.05
-		start_year = 1934
+		start_year = 1941
 
 		categories = {
 			armor
@@ -255,7 +258,7 @@ technologies = {
 		}
 		
 		research_cost = 0.05
-		start_year = 1939
+		start_year = 1943
 		
 		categories = {
 			armor
@@ -353,7 +356,6 @@ technologies = {
 			basic_medium_td
 			basic_medium_art
 			basic_medium_spaa
-			amphibious_tank_2
 		}
 		
 		categories = {
@@ -450,6 +452,7 @@ technologies = {
 			improved_medium_td
 			improved_medium_art
 			improved_medium_spaa
+			amphibious_tank 
 		}
 		
 		categories = {
@@ -534,6 +537,7 @@ technologies = {
 			advanced_medium_td
 			advanced_medium_art
 			advanced_medium_spaa
+			amphibious_tank_2
 		}
 		
 

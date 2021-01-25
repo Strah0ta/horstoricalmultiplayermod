@@ -5,10 +5,6 @@ state={
 	resources = {	steel = 55 	}
 	
 	history={
-				1936.1.2 = {
-			owner = SWE
-			add_core_of = SWE
-			}	
 		owner = SPR
 		victory_points = {
 			3938 30 

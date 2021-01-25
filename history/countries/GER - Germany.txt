@@ -27,6 +27,7 @@ set_variable = { germany_war_fuel_gain_factor_from_states = 0 }
 set_technology = {
 	#basic_machine_tools = 1
 	scout_plane1 = 1
+	#GER_henschel_tech = 1 
 	infantry_weapons = 1
 	infantry_weapons1 = 1
 	tech_recon = 1
@@ -106,26 +107,6 @@ add_equipment_to_stockpile = { type = infantry_equipment_1 amount = 100000 }
 
 
 set_country_flag=fuel_system_enabled
-1936.1.2 = {
-remove_from_faction = SPR
-	set_autonomy = {
-		target = SPR
-		autonomy_state = autonomy_free
-	}
-remove_from_faction = HUN
-	set_autonomy = {
-		target = HUN
-		autonomy_state = autonomy_free
-	}
-remove_from_faction = BUL
-	set_autonomy = {
-		target = BUL
-		autonomy_state = autonomy_free
-	}
-	
-add_research_slot = 1 
-}
-
 	set_naval_oob = "GER_1936_naval_mtg"
 
 set_research_slots = 5
@@ -187,6 +168,10 @@ add_relation_modifier = {
     target = ROM
     modifier = stahlpakt
 }
+add_relation_modifier = {
+    target = ITA
+    modifier = stahlpakt_ITA
+} 
 add_relation_modifier = {
     target = SPR
     modifier = stahlpakt

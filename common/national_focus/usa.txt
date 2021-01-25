@@ -238,7 +238,6 @@ focus_tree = {
 		cost = 5
 
 		completion_reward = {
-			army_experience = 50
 			362 = {
 				add_extra_state_shared_building_slots = 6
 				add_building_construction = {
@@ -921,7 +920,6 @@ transfer_state = 38
 		available_if_capitulated = no
 
 		completion_reward = {
-			army_experience = 50
 			add_tech_bonus = {
 				name = USA_louisiana_maneuvers
 				bonus = 1.0
