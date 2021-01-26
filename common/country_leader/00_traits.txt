@@ -712,7 +712,7 @@ leader_traits = {
 		
 	sniper_tank_manufacturer = {  #Tank Destroyer Designer - UNUSED (!) 
 		random = no
-		equipment_bonus = { armor = {	armor_value = 0.05 ap_attack = 0.1 } }
+		equipment_bonus = { armor = {	hard_attack = 0.05 ap_attack = 0.05 } }
 	}
 	
 	mass_tank_manufactuer = {

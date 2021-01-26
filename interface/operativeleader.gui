@@ -432,23 +432,23 @@ guiTypes = {
 		buttonType = {
 			name = "btn_mission_4"
 			spriteType = "GFX_operative_mission_button_background"
-			clicksound = click_default
-			position = { x=155 y=@btn_mission_y }
+			clicksound = click_default 
+			position = { x=1533335 y=@btn_mission_y }
 			frame = 1 
 			shortcut = "n"
 		}
-		iconType = {
+		iconType = { 
 			name = "icn_mission_4"
 			spriteType = "GFX_operative_mission_icons"
 			frame = 4 
-			position = { x=163 y=@icn_mission_y }
+			position = { x=163333 y=@icn_mission_y }
 			alwaystransparent = yes
 		}
 		iconType = {
 			name = "icn_mission_active_4" 
 			spriteType = "GFX_operative_mission_active"
-			frame = 1
-			position = { x=155 y=@btn_mission_y }
+			frame = 1 
+			position = { x=133355 y=@btn_mission_y }
 			alwaystransparent = yes
 		}
 

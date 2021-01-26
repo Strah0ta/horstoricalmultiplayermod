@@ -33,12 +33,3 @@ token_navy = {
 	intel_source = navy
 	intel_gain = 10
 }
-
-token_resistance_contacts = {
-	name = OPERATION_TOKEN_INFILTRATED_RESISTANCE_CONTACTS
-	desc = OPERATION_TOKEN_INFILTRATED_RESISTANCE_CONTACTS_DESC
-	icon = GFX_contact_resistance_bg
-	text_icon = GFX_text_contact_resistance_token
-	intel_source = army
-	intel_gain = 5
-}
