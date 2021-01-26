@@ -92,7 +92,7 @@ NDefines.NAir.ESCORT_FACTOR = 7 -- (2 -> 7) to make sure that escorted planes ar
 
 ------------------------------------------------------------------------------------------------
 NDefines.NAir.AA_INDUSTRY_AIR_DAMAGE_FACTOR = -0.18				-- vanilla 0.12 | changed because all three AA techs that boost state AA have had their damage reduction bonuses moved to the building
-NDefines.NAir.DISRUPTION_FACTOR_CARRIER = 1.0                                     -- 30 in vanilla, but  it used to be 1, reverting back to 1.8 so bad carriers are just bad insteadof useless
+NDefines.NAir.DISRUPTION_FACTOR_CARRIER = 0.5                                     -- 30 in vanilla, but  it used to be 1, reverting back to 1.8 so bad carriers are just bad insteadof useless - LOWERED TO 0.5
 NDefines.NAir.AIR_WING_COUNTRY_XP_FROM_TRAINING_FACTOR = 0 					--Factor on country Air XP gained from wing training
 ------------------------------------------------------------------------------------------------
 NDefines.NProduction.BASE_LICENSE_IC_COST = 0 -- Was 1, reduced to counter early game boosting, particularly cancerous Germany builds that force Bulgarias to build a battleship in the black sea for "shore bombardment" via license and imported steel from Germany

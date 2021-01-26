@@ -422,7 +422,7 @@ ideas = {
 			ledger = army
 			allowed = { original_tag = ITA	}
 			cost = 150
-			research_bonus = { land_doctrine = 0.25 }
+			research_bonus = { 	land_doctrine = 0.35 }
 			traits = {  blitzkrieg_theorist dive_bomber }
 		}
 		gaetano_crocco = {

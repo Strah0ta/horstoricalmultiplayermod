@@ -1354,7 +1354,7 @@ ideas = {
 			cost = 150
 			
 			research_bonus = {
-				cat_grand_battle_plan = 0.15 land_doctrine = 0.25
+				cat_grand_battle_plan = 0.15 land_doctrine = 0.35
 			}
 			
 			traits = { grand_battle_plan_expert }

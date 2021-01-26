@@ -1289,10 +1289,11 @@ ideas = {
 			cost = 0
 						
 			research_bonus = {
-				land_doctrine = 0.25
+				land_doctrine = 0.35
+				cat_mobile_warfare = 0.15
 			}
 			
-			traits = { blitzkrieg_theorist }
+			traits = { blitzkrieg_theorist mobile_warfare_expert }
 		}
 		
 		henri_giraud = {
@@ -1303,7 +1304,7 @@ ideas = {
 			}
 						
 			research_bonus = {
-				land_doctrine = 0.25
+				land_doctrine = 0.35
 			}
 			traits = { military_theorist }
 		}

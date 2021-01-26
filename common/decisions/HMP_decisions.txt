@@ -703,7 +703,7 @@ every_country = {
 			if = { limit = { country_exists = HUN }	HUN = { add_to_war = { targeted_alliance = GER enemy = SOV } } }
 			if = { limit = { country_exists = ROM }	ROM = { add_to_war = { targeted_alliance = GER enemy = SOV } }	}
 			if = { limit = { country_exists = BUL }	BUL = { add_to_war = { targeted_alliance = GER enemy = SOV } } }
-			if = { limit = { country_exists = SPR }	SPR = { add_to_war = { targeted_alliance = GER enemy = SOV } } }
+			if = { limit = { country_exists = SPR is_in_faction_with = GER }	SPR = { add_to_war = { targeted_alliance = GER enemy = SOV } } }
 			FIN = { 			declare_war_on = {
 				target = SOV 
 				type = annex_everything
@@ -869,9 +869,8 @@ hidden_effect = {
     GER_annex_hungary = {
 		icon = generic_operation
 		allowed = {	original_tag = GER	}
-		available = { HUN = {  is_ai = yes  } date > 1938.5.1	}		
-				visible = { country_exists = HUN  }
-
+		available = { HUN = { is_ai = yes } has_completed_focus = GER_end_of_czechoslovakia	}		
+		visible = { country_exists = HUN  }
 		cost = 0		
 		fire_only_once = yes
 		complete_effect = {

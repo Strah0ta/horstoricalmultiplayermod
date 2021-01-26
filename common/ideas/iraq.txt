@@ -87,7 +87,7 @@ country = {
 		ALB_henri_giraud = {
 			ledger = army
 			allowed = {	original_tag = ALB }
-			research_bonus = {	land_doctrine = 0.25	}
+			research_bonus = {	land_doctrine = 0.35	}
 			traits = { military_theorist }
 		}
 		

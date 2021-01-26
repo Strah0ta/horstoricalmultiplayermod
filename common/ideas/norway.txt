@@ -110,7 +110,6 @@ country = {
 	army_core_attack_factor = 0.10
 	army_core_defence_factor = 0.10
 	amphibious_invasion = 0.2
-	out_of_supply_factor = -0.25
 	}
 	
 	}
@@ -161,7 +160,7 @@ country = {
 			ledger = army
 			picture = generic_army_europe_2
 			allowed = {  original_tag = NOR	}
-			research_bonus = { land_doctrine = 0.25	}
+			research_bonus = { land_doctrine = 0.35 }
 			traits = { military_theorist }
 		}
 	}

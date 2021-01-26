@@ -1579,7 +1579,7 @@ equipment_modules = {
 		
 		add_stats = {
 			sub_attack = 8
-			build_cost_ic = 30
+			build_cost_ic = 20
 		}
 
 		can_convert_from = {
@@ -1599,12 +1599,12 @@ equipment_modules = {
 		
 		add_stats = {
 			sub_attack = 12
-			build_cost_ic = 45
+			build_cost_ic = 30
 		}
 
 		can_convert_from = {
 			module_category = ship_depth_charge
-			convert_cost_ic = 20
+			convert_cost_ic = 15
 		}
 
 		multiply_stats = {
@@ -1619,12 +1619,12 @@ equipment_modules = {
 		
 		add_stats = {
 			sub_attack = 16
-			build_cost_ic = 60
+			build_cost_ic = 40
 		}
 
 		can_convert_from = {
 			module_category = ship_depth_charge
-			convert_cost_ic = 30
+			convert_cost_ic = 20
 		}
 
 		multiply_stats = {
@@ -1639,12 +1639,12 @@ equipment_modules = {
 		
 		add_stats = {
 			sub_attack = 20
-			build_cost_ic = 75
+			build_cost_ic = 50
 		}
 
 		can_convert_from = {
 			module_category = ship_depth_charge
-			convert_cost_ic = 40
+			convert_cost_ic = 30
 		}
 
 		multiply_stats = {
@@ -1825,7 +1825,6 @@ equipment_modules = {
 		
 		multiply_stats = {
 			build_cost_ic = -0.1
-			naval_speed = -0.1
 			max_strength = 0.05
 		}
 
@@ -1859,7 +1858,6 @@ equipment_modules = {
 		
 		multiply_stats = {
 			build_cost_ic = -0.1
-			naval_speed = -0.1
 			max_strength = 0.1
 		}
 
@@ -1892,7 +1890,6 @@ equipment_modules = {
 		
 		multiply_stats = {
 			build_cost_ic = -0.1
-			naval_speed = -0.1
 			max_strength = 0.15
 		}
 

@@ -118,7 +118,6 @@ ideas = {
 			modifier = {
 				experience_gain_navy_unit_factor = 10
 				training_time_factor = -0.45
-				out_of_supply_factor = 1
 			}
 		}
 	war_plan_silver = {
