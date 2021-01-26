@@ -423,14 +423,7 @@ ideas = {
 			allowed = { original_tag = ITA	}
 			cost = 150
 			research_bonus = { land_doctrine = 0.25 }
-			traits = {  blitzkrieg_theorist }
-		}
-		amedeo_mecozzi = {
-			ledger = air
-			allowed = {	original_tag = ITA	}
-			cost = 250
-			research_bonus = {	air_doctrine = 0.15  }
-			traits = { dive_bomber }
+			traits = {  blitzkrieg_theorist dive_bomber }
 		}
 		gaetano_crocco = {
 			ledger = air

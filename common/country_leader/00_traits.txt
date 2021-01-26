@@ -32,7 +32,6 @@ leader_traits = {
 	
 	lion_of_verdun = {
 	random = no
-		experience_gain_army = 0.05
 		training_time_army_factor = -0.5
 		mobilization_speed = 1
 		production_lack_of_resource_penalty_factor = -1
@@ -550,27 +549,22 @@ leader_traits = {
 
 	military_theorist = {
 		sprite = 14
-		#experience_gain_army = 0.25
 	}
 	
 	mobile_warfare_expert = { 
 		sprite = 14
-		#experience_gain_army = 0.25
 	}
 	
 	superior_firepower_expert = {
 		sprite = 14
-		#experience_gain_army = 0.25
 	}
 	
 	grand_battle_plan_expert = {
 		sprite = 14
-		#experience_gain_army = 0.25
 	}
 	
 	mass_assault_expert = {
 		sprite = 14
-		#experience_gain_army = 0.25
 	}
 	
 	air_warfare_theorist = {
@@ -623,8 +617,6 @@ leader_traits = {
 				maximum_speed = 0.10
 			}
 		}
-				experience_gain_army = 0.25
-
 	}
 
 	aircraft_manufacturer = {
@@ -990,7 +982,6 @@ leader_traits = {
 	
 	army_chief_old_guard = { # Rate at which field experience is gained decreases by 10%
 		sprite = 5 # Should not need sprite, should mostly be secondary
-		experience_gain_army_factor = -0.1
 		political_power_factor = 0.1
 	}
 	
@@ -1015,17 +1006,14 @@ leader_traits = {
 
 	army_chief_reform_1 = { # Rate at which field experience is gained increases by 5%
 		sprite = 5
-		experience_gain_army_factor = 0.05
 	}
 	
 	army_chief_reform_2 = { # Rate at which field experience is gained increases by 10%
 		sprite = 5
-		experience_gain_army_factor = 0.1
 	}
 	
 	army_chief_reform_3 = { # Rate at which field experience is gained increases by 15%
 		sprite = 5
-		experience_gain_army_factor = 0.15
 	}
 	
 	
@@ -1311,7 +1299,6 @@ leader_traits = {
 	
 	air_chief_old_guard = {
 		sprite = 1
-		experience_gain_air_factor = -0.1
 		political_power_factor = 0.1
 	}
 	
@@ -1536,7 +1523,6 @@ leader_traits = {
 	
 	navy_chief_old_guard = {
 		sprite = 3
-		experience_gain_navy_factor = -0.1
 		political_power_factor = 0.1
 	}
 	

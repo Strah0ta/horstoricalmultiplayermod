@@ -813,29 +813,16 @@ ideas = {
 				original_tag = JAP
 			}
 			
-			cost = 250
+			cost = 150
 						
 			research_bonus = {
 				cat_grand_battle_plan = 0.15
+				land_doctrine = 0.25
 			}
 			
 			traits = { grand_battle_plan_expert }
 		}
 		
-		hisaichi_terauchi = {
-			ledger = army
-						
-			allowed = {
-				original_tag = JAP
-			}
-						
-			research_bonus = {
-				land_doctrine = 0.25
-			}
-			
-			traits = { military_theorist }
-		}
-	
 		yoshio_nishina = {
 			ledger = army
 			

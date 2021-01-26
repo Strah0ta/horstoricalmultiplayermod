@@ -1089,15 +1089,15 @@ ideas = {
 		omar_bradley = {
 			ledger = army	
 			allowed = {	original_tag = USA	}	
-			cost = 250
-			research_bonus = {	cat_superior_firepower = 0.15	}		
+			cost = 150
+			research_bonus = {	cat_superior_firepower = 0.15 land_doctrine = 0.25	}		
 			traits = { superior_firepower_expert }
 		}
 		george_patton = {
 			ledger = army
 			allowed = { original_tag = USA	}	
-			cost = 250
-			research_bonus = {	cat_mobile_warfare = 0.15	}	
+			cost = 150
+			research_bonus = {	cat_mobile_warfare = 0.15 land_doctrine = 0.25	}	
 			traits = { mobile_warfare_expert }
 		}
 		

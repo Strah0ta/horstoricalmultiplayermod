@@ -660,8 +660,6 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				experience_gain_air = 0.05
-				experience_gain_air_factor = 0.1
 			}
 		}
 
@@ -688,8 +686,6 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				experience_gain_air = 0.05
-				experience_gain_air_factor = 0.1
 			}
 		}
 
@@ -1355,34 +1351,15 @@ ideas = {
 			available = {
 			}
 			
-			cost = 250
+			cost = 150
 			
 			research_bonus = {
-				cat_grand_battle_plan = 0.15
+				cat_grand_battle_plan = 0.15 land_doctrine = 0.25
 			}
 			
 			traits = { grand_battle_plan_expert }
 		}
 		
-		harold_alexander = {
-			ledger = army
-			
-			allowed = {
-				original_tag = ENG
-			}
-			
-			available = {
-
-			}
-			
-			research_bonus = {
-				land_doctrine = 0.25
-			}
-			
-			traits = { military_theorist }
-		}
-		
-			
 		james_chadwick = {
 			ledger = army
 			

@@ -1007,7 +1007,7 @@ ideas = {
 
 			
 			research_bonus = {
-				land_doctrine = 0.25
+				land_doctrine = 0.25 cat_mass_assult = 0.15
 			}
 			
 			traits = { military_theorist }
