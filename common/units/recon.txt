@@ -50,8 +50,8 @@ sub_units = {
 		}
 
 		need = {
-			infantry_equipment = 40
-			support_equipment = 10
+			infantry_equipment = 20
+			support_equipment = 5
 		}
 
 		forest = {
@@ -108,7 +108,7 @@ sub_units = {
 	
 		#Size Definitions
 		max_strength 		= 2
-		max_organisation 	= 20
+		max_organisation 	= 40
 		default_morale 		= 0.3
 		manpower 			= 500
 		training_time 		= 60
@@ -192,7 +192,7 @@ sub_units = {
 	
 		#Size Definitions
 		max_strength = 2
-		max_organisation = 20
+		max_organisation = 40
 		default_morale = 0.3
 		manpower = 250
 		training_time = 60
@@ -272,7 +272,7 @@ sub_units = {
 	
 		#Size Definitions
 		max_strength = 2
-		max_organisation = 20
+		max_organisation = 40
 		default_morale = 0.3
 		manpower = 500
 		training_time = 60
@@ -350,7 +350,7 @@ sub_units = {
 	
 		#Size Definitions
 		max_strength = 2
-		max_organisation = 20
+		max_organisation = 40
 		default_morale = 0.3
 		manpower = 250
 		training_time = 60

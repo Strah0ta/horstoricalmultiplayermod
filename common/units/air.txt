@@ -15,14 +15,6 @@ sub_units = {
 		need = { sov_fighter_equipment = 1 }
 		categories = { category_fighter }
 	}
-	scout_plane = {
-		sprite = light_plane
-		priority = 1
-		active = yes
-		type = { scout_plane }
-		need = { scout_plane_equipment = 1 }
-		categories = { category_scout_plane }
-	}
 
 	cv_fighter = {
 		sprite = light_plane
@@ -50,7 +42,15 @@ sub_units = {
 		need = { CAS_equipment = 1 }
 		categories = { category_cas }
 	}
-	
+		scout_plane = {
+		sprite = light_plane
+		priority = 3
+		active = yes
+		type = { scout_plane }
+		need = { scout_plane_equipment = 1 }
+		categories = { category_scout_plane }
+	}
+
 	nav_bomber = {
 		sprite = light_plane
 		priority = 3

@@ -366,25 +366,24 @@ HMP_no_asia_country_changes = {
 					target = FRA
 					modifier = stahlpakt_noasia
 				}
-			}
-				ENG = { 
 				add_relation_modifier = {
 					target = CAN
 					modifier = stahlpakt5
 				}
-			}		
-			ENG = { 
 				add_relation_modifier = {
 					target = CAN
 					modifier = stahlpakt_noasia
 				}
-			}
-			ENG = { 
 				add_relation_modifier = {
 					target = NOR
 					modifier = stahlpakt_noasia
 				}
+					add_relation_modifier = {
+					target = SOV
+					modifier = stahlpakt_noasia
+				}			
 			}
+			
 SWE  = { give_resource_rights = { receiver = GER state = 494 }	}
 SAF  = { give_resource_rights = { receiver = ENG state = 487 }	}
 SWE = { country_event = { id = wtt_japan.109  days = 730  }  country_event = { id = wtt_japan.119  days = 1350  }    }
@@ -4687,6 +4686,9 @@ democratic_russia = {
 	prepared_defense = 1
 	grand_assault = 1
 	armored_operations = 1
+	c3i_theory = 1 
+	branch_interoperation = 1 
+	assault_breakthrough = 1
 	night_assault_tactics = 1
 	}
 	}
@@ -4699,7 +4701,10 @@ democratic_russia = {
 	defence_in_depth = 1
 	peoples_army = 1
 	human_wave_offensive = 1
-	
+	breakthrough_priority = 1
+	operational_concentration = 1
+	deep_operations = 1
+	mechanized_wave = 1
 	}
 	}
 	}
@@ -4707,8 +4712,11 @@ democratic_russia = {
 			hidden_effect = { 
 				set_technology = { popup = no
 	superior_firepower = 1
+	concentrated_fire_plans = 1
 	sup_delay = 1 
 	mobile_defence = 1
+	dispersed_support = 1
+	tactical_control = 1
 	regimental_combat_teams = 1
 	sup_mechanized_offensive = 1
 	forward_observers = 1

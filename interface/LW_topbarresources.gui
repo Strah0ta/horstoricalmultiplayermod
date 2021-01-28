@@ -37,7 +37,7 @@ guiTypes = {
 		   
 		instantTextboxType = {
 			name = "aluminium_value"
-			position = { x = 761 y = 4 }#x = 995
+			position = { x = 766 y = 4 }#x = 995 
 			textureFile = ""
 			font = "hoi_18mbs"
 			borderSize = {x = 0 y = 0}

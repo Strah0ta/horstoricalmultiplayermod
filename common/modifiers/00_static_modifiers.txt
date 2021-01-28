@@ -409,6 +409,16 @@ stahlpakt2 = {
 
 	trade_cost_for_target_factor = -0.6	
 	}
+			stahlpakt_ITA2 = {
+	valid_relation_trigger = {
+		FROM = {
+			NOT = { has_war_with = ROOT }
+		}
+	}
+
+	trade_cost_for_target_factor = -0.9
+			extra_trade_to_target_factor = 1.0
+	}
 		stahlpakt_ITA = {
 	valid_relation_trigger = {
 		FROM = {

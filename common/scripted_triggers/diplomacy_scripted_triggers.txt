@@ -41,5 +41,5 @@ DIPLOMACY_RETURN_EXP_FORCE_ENABLE_TRIGGER = {
 DIPLOMACY_REQUEST_EXP_FORCE_ENABLE_TRIGGER = {
 	NOT = { date < 1939.9.1 }
     NOT = { ROOT = { OR = { AND = { original_tag = EFR  EFR = { is_in_faction = yes NOT = { has_country_flag = EFR_torch_declared}  }  } original_tag = ETH AND = { original_tag = FIN SOV = { controls_state = 195 }   }  has_tech = grand_battle_plan_mp has_tech = operational_concentration  }} }
-	NOT = { FROM = { OR = { AND = { original_tag = EFR  EFR = { is_in_faction = yes NOT = { has_country_flag = EFR_torch_declared}  }  } original_tag = ETH original_tag = FIN  has_tech = grand_battle_plan_mp has_tech = operational_concentration }} }
+	#NOT = { FROM = { OR = { AND = { original_tag = EFR  EFR = { is_in_faction = yes NOT = { has_country_flag = EFR_torch_declared}  }  } original_tag = ETH original_tag = FIN  has_tech = grand_battle_plan_mp has_tech = operational_concentration }} }
 }

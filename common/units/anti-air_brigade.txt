@@ -33,10 +33,10 @@ sub_units = {
 		training_time = 60
 		weight = 0.5
 		
-		supply_consumption = 0.1
+		supply_consumption = 0.04
 
 		need = {
-			anti_air_equipment = 20
+			anti_air_equipment = 16
 		}
 
 		forest = {

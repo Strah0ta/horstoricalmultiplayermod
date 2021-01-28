@@ -16,15 +16,13 @@ infrastructure = 5
 air_base = 4
 10062 = {
 naval_base = 6
-coastal_bunker = 1
+coastal_bunker = 5
+bunker = 5
 }
+7108 = { bunker = 5 }
 }
-				1936.1.2 = {
-			owner = SWE
-			add_core_of = SWE
-		}
 }
 provinces={
-10062
+10062 7108
 }
 }

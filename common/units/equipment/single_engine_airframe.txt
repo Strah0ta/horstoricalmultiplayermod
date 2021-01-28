@@ -307,11 +307,11 @@ equipments = {
 		naval_strike_targetting = 10
 	}
 		sov_fighter_equipment_3 = {
-		year = 1940
+		year = 1944
 
 		archetype = sov_fighter_equipment
 		carrier_capable = yes
-		parent = fighter_equipment_3
+		parent = sov_fighter_equipment_2
 		priority = 10
 		can_license = no 
 		air_range = 1800

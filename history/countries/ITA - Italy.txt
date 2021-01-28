@@ -9,6 +9,7 @@ add_ideas = {
 	limited_conscription
 	partial_economic_mobilisation
 	armyandnavy_idea
+	GER_autarky_idea_ita
 }
 set_fuel_ratio = 1
 

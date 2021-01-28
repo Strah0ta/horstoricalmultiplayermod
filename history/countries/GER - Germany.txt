@@ -161,16 +161,12 @@ set_faction_spymaster = yes
 	}	
 	
 add_relation_modifier = {
-    target = ITA
-    modifier = stahlpakt
-}
-add_relation_modifier = {
     target = ROM
     modifier = stahlpakt
 }
 add_relation_modifier = {
     target = ITA
-    modifier = stahlpakt_ITA
+    modifier = stahlpakt_ITA2
 } 
 add_relation_modifier = {
     target = SPR
