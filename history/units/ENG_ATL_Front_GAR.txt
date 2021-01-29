@@ -111,61 +111,117 @@ units = {
 		division_template = "Light Armor Division"
 		start_experience_factor = 0.3
 	}		
-		division= {	
+			division= {	
 		location = 10795
 		division_template = "King's African Rifles"
 		start_experience_factor = 0.3
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
-		force_equipment_variants = { artillery_equipment_2 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		}
 		division= {	
 		location = 10795
 		division_template = "King's African Rifles"
 		start_experience_factor = 0.3
 		force_equipment_variants = { 	infantry_equipment_1 = { owner = "ENG" } }
-		force_equipment_variants = { artillery_equipment_2 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		}		
 		division= {	
 		location = 10795
 		division_template = "King's African Rifles"
 		start_experience_factor = 0.3
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
-		force_equipment_variants = { artillery_equipment_2 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		}		
 			division= {	
 		location = 10795
 		division_template = "King's African Rifles"
 		start_experience_factor = 0.3
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
-		force_equipment_variants = { artillery_equipment_2 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		}	
 			division= {	
 		location = 10795
 		division_template = "King's African Rifles"
 		start_experience_factor = 0.3
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
-		force_equipment_variants = { artillery_equipment_2 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		}
 		division= {	
 		location = 10795
 		division_template = "King's African Rifles"
 		start_experience_factor = 0.3
 		force_equipment_variants = { 	infantry_equipment_1 = { owner = "ENG" } }
-		force_equipment_variants = { artillery_equipment_2 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		}		
 		division= {	
 		location = 10795
 		division_template = "King's African Rifles"
 		start_experience_factor = 0.3
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
-		force_equipment_variants = { artillery_equipment_2 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		}		
 			division= {	
 		location = 10795
 		division_template = "King's African Rifles"
 		start_experience_factor = 0.3
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
-		force_equipment_variants = { artillery_equipment_2 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
+		}	
+		division= {	
+		location = 10795
+		division_template = "King's African Rifles"
+		start_experience_factor = 0.3
+		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
+		}
+		division= {	
+		location = 10795
+		division_template = "King's African Rifles"
+		start_experience_factor = 0.3
+		force_equipment_variants = { 	infantry_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
+		}		
+		division= {	
+		location = 10795
+		division_template = "King's African Rifles"
+		start_experience_factor = 0.3
+		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
+		}		
+			division= {	
+		location = 10795
+		division_template = "King's African Rifles"
+		start_experience_factor = 0.3
+		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
+		}	
+			division= {	
+		location = 10795
+		division_template = "King's African Rifles"
+		start_experience_factor = 0.3
+		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
+		}
+		division= {	
+		location = 10795
+		division_template = "King's African Rifles"
+		start_experience_factor = 0.3
+		force_equipment_variants = { 	infantry_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
+		}		
+		division= {	
+		location = 10795
+		division_template = "King's African Rifles"
+		start_experience_factor = 0.3
+		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
+		}		
+			division= {	
+		location = 10795
+		division_template = "King's African Rifles"
+		start_experience_factor = 0.3
+		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		}	
 		
 		division= {	
@@ -173,98 +229,98 @@ units = {
 		division_template = "King's African Rifles"
 		start_experience_factor = 0.3
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
-		force_equipment_variants = { artillery_equipment_2 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		}
 		division= {	
 		location = 10795
 		division_template = "King's African Rifles"
 		start_experience_factor = 0.3
 		force_equipment_variants = { 	infantry_equipment_1 = { owner = "ENG" } }
-		force_equipment_variants = { artillery_equipment_2 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		}		
 		division= {	
 		location = 10795
 		division_template = "King's African Rifles"
 		start_experience_factor = 0.3
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
-		force_equipment_variants = { artillery_equipment_2 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		}		
 			division= {	
 		location = 10795
 		division_template = "King's African Rifles"
 		start_experience_factor = 0.3
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
-		force_equipment_variants = { artillery_equipment_2 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		}	
 			division= {	
 		location = 10795
 		division_template = "King's African Rifles"
 		start_experience_factor = 0.3
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
-		force_equipment_variants = { artillery_equipment_2 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		}	
 			division= {	
 		location = 10795
 		division_template = "King's African Rifles"
 		start_experience_factor = 0.3
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
-		force_equipment_variants = { artillery_equipment_2 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		}	
 			division= {	
 		location = 10795
 		division_template = "King's African Rifles"
 		start_experience_factor = 0.3
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
-		force_equipment_variants = { artillery_equipment_2 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		}	
 			division= {	
 		location = 10795
 		division_template = "King's African Rifles"
 		start_experience_factor = 0.3
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
-		force_equipment_variants = { artillery_equipment_2 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		}	
 			division= {	
 		location = 10795
 		division_template = "King's African Rifles"
 		start_experience_factor = 0.3
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
-		force_equipment_variants = { artillery_equipment_2 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		}	
 			division= {	
 		location = 10795
 		division_template = "King's African Rifles"
 		start_experience_factor = 0.3
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
-		force_equipment_variants = { artillery_equipment_2 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		}	
 			division= {	
 		location = 10795
 		division_template = "King's African Rifles"
 		start_experience_factor = 0.3
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
-		force_equipment_variants = { artillery_equipment_2 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		}	
 			division= {	
 		location = 10795
 		division_template = "King's African Rifles"
 		start_experience_factor = 0.3
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
-		force_equipment_variants = { artillery_equipment_2 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		}			
 			division= {	
 		location = 10795
 		division_template = "King's African Rifles"
 		start_experience_factor = 0.3
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
-		force_equipment_variants = { artillery_equipment_2 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		}		
 			division= {	
 		location = 10795
 		division_template = "King's African Rifles"
 		start_experience_factor = 0.3
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
-		force_equipment_variants = { artillery_equipment_2 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		
 	}		
 			division= {	
@@ -272,98 +328,98 @@ units = {
 		division_template = "King's African Rifles"
 		start_experience_factor = 0.3
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
-		force_equipment_variants = { artillery_equipment_2 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		}		
 			division= {	
 		location = 10795
 		division_template = "King's African Rifles"
 		start_experience_factor = 0.3
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
-		force_equipment_variants = { artillery_equipment_2 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		}		
 			division= {	
 		location = 10795
 		division_template = "King's African Rifles"
 		start_experience_factor = 0.3
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
-		force_equipment_variants = { artillery_equipment_2 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		}		
 			division= {	
 		location = 10795
 		division_template = "King's African Rifles"
 		start_experience_factor = 0.3
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
-		force_equipment_variants = { artillery_equipment_2 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		}		
 			division= {	
 		location = 10795
 		division_template = "King's African Rifles"
 		start_experience_factor = 0.3
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
-		force_equipment_variants = { artillery_equipment_2 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		}		
 			division= {	
 		location = 10795
 		division_template = "King's African Rifles"
 		start_experience_factor = 0.3
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
-		force_equipment_variants = { artillery_equipment_2 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		}		
 			division= {	
 		location = 10795
 		division_template = "King's African Rifles"
 		start_experience_factor = 0.3
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
-		force_equipment_variants = { artillery_equipment_2 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		}		
 			division= {	
 		location = 10795
 		division_template = "King's African Rifles"
 		start_experience_factor = 0.3
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
-		force_equipment_variants = { artillery_equipment_2 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		}		
 			division= {	
 		location = 10795
 		division_template = "King's African Rifles"
 		start_experience_factor = 0.3
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
-		force_equipment_variants = { artillery_equipment_2 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		}		
 			division= {	
 		location = 10795
 		division_template = "King's African Rifles"
 		start_experience_factor = 0.3
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
-		force_equipment_variants = { artillery_equipment_2 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		}		
 			division= {	
 		location = 10795
 		division_template = "King's African Rifles"
 		start_experience_factor = 0.3
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
-		force_equipment_variants = { artillery_equipment_2 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		}		
 			division= {	
 		location = 10795
 		division_template = "King's African Rifles"
 		start_experience_factor = 0.3
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
-		force_equipment_variants = { artillery_equipment_2 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		}		
 			division= {	
 		location = 10795
 		division_template = "King's African Rifles"
 		start_experience_factor = 0.3
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
-		force_equipment_variants = { artillery_equipment_2 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		}		
 			division= {	
 		location = 10795
 		division_template = "King's African Rifles"
 		start_experience_factor = 0.3
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
-		force_equipment_variants = { artillery_equipment_2 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		
 	}		
 			division= {	
@@ -371,98 +427,98 @@ units = {
 		division_template = "King's African Rifles"
 		start_experience_factor = 0.3
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
-		force_equipment_variants = { artillery_equipment_2 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		}		
 			division= {	
 		location = 10795
 		division_template = "King's African Rifles"
 		start_experience_factor = 0.3
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
-		force_equipment_variants = { artillery_equipment_2 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		}		
 			division= {	
 		location = 10795
 		division_template = "King's African Rifles"
 		start_experience_factor = 0.3
 				force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
-		force_equipment_variants = { artillery_equipment_2 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 	}		
 			division= {	
 		location = 10795
 		division_template = "King's African Rifles"
 		start_experience_factor = 0.3
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
-		force_equipment_variants = { artillery_equipment_2 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		}		
 		division= {	
 		location = 4135
 		division_template = "Gibraltar/Cyprus Garrison"
 		start_experience_factor = 0.3
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
-		force_equipment_variants = { artillery_equipment_2 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		}	
 		division= {	
 		location = 4135
 		division_template = "Gibraltar/Cyprus Garrison"
 		start_experience_factor = 0.3
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
-		force_equipment_variants = { artillery_equipment_2 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		}			
 		division= {	
 		location = 4135
 		division_template = "Gibraltar/Cyprus Garrison"
 		start_experience_factor = 0.3
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
-		force_equipment_variants = { artillery_equipment_2 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		}			
 		division= {	
 		location = 4135
 		division_template = "Gibraltar/Cyprus Garrison"
 		start_experience_factor = 0.3
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
-		force_equipment_variants = { artillery_equipment_2 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		}	
 		division= {	
 		location = 4135
 		division_template = "Gibraltar/Cyprus Garrison"
 		start_experience_factor = 0.3
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
-		force_equipment_variants = { artillery_equipment_2 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		}	
 		division= {	
 		location = 4135
 		division_template = "Gibraltar/Cyprus Garrison"
 		start_experience_factor = 0.3
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
-		force_equipment_variants = { artillery_equipment_2 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		}	
 		division= {	
 		location = 4135
 		division_template = "Gibraltar/Cyprus Garrison"
 		start_experience_factor = 0.3
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
-		force_equipment_variants = { artillery_equipment_2 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		}	
 		division= {	
 		location = 4135
 		division_template = "Gibraltar/Cyprus Garrison"
 		start_experience_factor = 0.3
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
-		force_equipment_variants = { artillery_equipment_2 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		}	
 		division= {	
 		location = 4135
 		division_template = "Gibraltar/Cyprus Garrison"
 		start_experience_factor = 0.3
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
-		force_equipment_variants = { artillery_equipment_2 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		}	
 		division= {	
 		location = 4135
 		division_template = "Gibraltar/Cyprus Garrison"
 		start_experience_factor = 0.3
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
-		force_equipment_variants = { artillery_equipment_2 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		}	
 		
 		
@@ -471,28 +527,28 @@ units = {
 		division_template = "Gibraltar/Cyprus Garrison"
 		start_experience_factor = 0.3
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
-		force_equipment_variants = { artillery_equipment_2 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		}	
 		division= {	
 		location = 7193
 		division_template = "Gibraltar/Cyprus Garrison"
 		start_experience_factor = 0.3
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
-		force_equipment_variants = { artillery_equipment_2 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		}	
 		division= {	
 		location = 7193
 		division_template = "Gibraltar/Cyprus Garrison"
 		start_experience_factor = 0.3
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
-		force_equipment_variants = { artillery_equipment_2 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		}	
 		division= {	
 		location = 7193
 		division_template = "Gibraltar/Cyprus Garrison"
 		start_experience_factor = 0.3
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
-		force_equipment_variants = { artillery_equipment_2 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		}	
 						
 			division= {	
@@ -500,28 +556,28 @@ units = {
 		division_template = "Gibraltar/Cyprus Garrison"
 		start_experience_factor = 0.3
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
-		force_equipment_variants = { artillery_equipment_2 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		}	
 		division= {	
 		location = 11984
 		division_template = "Gibraltar/Cyprus Garrison"
 		start_experience_factor = 0.3
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
-		force_equipment_variants = { artillery_equipment_2 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		}	
 		division= {	
 		location = 11984
 		division_template = "Gibraltar/Cyprus Garrison"
 		start_experience_factor = 0.3
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
-		force_equipment_variants = { artillery_equipment_2 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		}	
 		division= {	
 		location = 11984
 		division_template = "Gibraltar/Cyprus Garrison"
 		start_experience_factor = 0.3
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
-		force_equipment_variants = { artillery_equipment_2 = { owner = "ENG" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		}	
 			
 		

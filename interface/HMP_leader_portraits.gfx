@@ -15,6 +15,10 @@ spriteTypes = {
 		name = "GFX_Portrait_IRQ_Kamil_Shabib"
 		texturefile = "gfx/leaders/ALB/Portrait_IRQ_Kamil_Shabib.tga"		
 	}	
+		spriteType = {
+		name = "GFX_Portrait_SOV_Ahmdiyy_Cbraylov"
+		texturefile = "gfx/leaders/ALB/hmdiyy_Cbraylov.dds"		
+	}	
 		
 	spriteType = {
 		name = "GFX_trait_operative_triple_agent"

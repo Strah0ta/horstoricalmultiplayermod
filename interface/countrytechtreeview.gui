@@ -15,7 +15,7 @@ guiTypes = {
 			font = "hoi_33"
 			borderSize = { x = 0 y = 0}
 			maxWidth = 200
-			maxHeight = 62 
+			maxHeight = 62  
 			format = left
 			Orientation = "UPPER_LEFT"
 		}	
@@ -2578,7 +2578,7 @@ guiTypes = {
 			
 			instantTextBoxType = {
 				name = "mob_warfare_subtitle3"
-				position = { x = 110 y = 1029 } 
+				position = { x = 110 y = 929 }  
 				textureFile = ""
 				font = "hoi_22tech"
 				borderSize = {x = 0 y = 4}
@@ -2591,8 +2591,8 @@ guiTypes = {
 			}
 
 			instantTextBoxType = {
-				name = "mob_warfare_subtitle4"
-				position = { x = 360 y = 1029 }  
+				name = "mob_warfare_subtitle4" 
+				position = { x = 360 y = 929 }  
 				textureFile = ""
 				font = "hoi_22tech"
 				borderSize = {x = 0 y = 4}

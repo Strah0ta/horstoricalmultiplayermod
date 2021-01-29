@@ -2914,7 +2914,7 @@ create_field_marshal = {
 			
 create_field_marshal = {
 	name = "Georgy Zhukov"
-	picture = "Portrait_Soviet_Gregory_Zhukov.dds"
+	picture = "GFX_Portrait_SOV_Ahmdiyy_Cbraylov.dds"
 	traits = { adaptable offensive_doctrine brilliant_strategist thorough_planner aggressive_assaulter organisational_leader organizer commando logistics_wizard panzer_leader panzer_expert expert_improviser ranger trickster  expert_delegator  }
 	skill = 8
 	attack_skill = 6
@@ -3163,6 +3163,17 @@ create_corps_commander = {
 	planning_skill = 8
 	logistics_skill = 7
 }
+create_corps_commander = {
+    name = "Ahmadiyya Jabrailov"
+    picture = "hmdiyy_Cbraylov.dds"
+	traits = { infantry_leader infantry_expert trickster guerilla_fighter commando camouflage_expert trait_reckless urban_assault_specialist }
+	skill = 7
+	attack_skill = 6
+	defense_skill = 4
+	planning_skill = 4
+	logistics_skill = 8
+}
+
 
 create_corps_commander = {
     name = "Andrey Vlasov"

@@ -735,12 +735,12 @@ leader_traits = {
 		
 	brawler_tank_manufacturer = { 
 		random = no
-		equipment_bonus = {	armor = { reliability = 0.1	armor_value = 0.05	}	}
+		equipment_bonus = {	armor = { breakthrough = 0.1	armor_value = 0.05	}	}
 	}		
 	
 	mobile_heavy_tank_manufacturer	 = { 
 		random = no
-		equipment_bonus = {	armor = {	armor_value = 0.05	maximum_speed = 0.05 reliability = 0.05	}	}
+		equipment_bonus = {	armor = {	armor_value = 0.05	maximum_speed = 0.05 breakthrough = 0.05	}	}
 	}	
 	
 	light_tank_manufacturer	 = { 
@@ -750,7 +750,7 @@ leader_traits = {
 	
 	tank_destroyer_manufacturer = { 
 		random = no
-		equipment_bonus = {	armor = { ap_attack = 0.20 }	}
+		equipment_bonus = {	armor = { ap_attack = 0.15 }	}
 	}
 	
 	blitzkrieg_tank_manufacturer = {   
