@@ -1291,14 +1291,14 @@ country_event = {
    id = italy.852 #winter planning
    title = "Winter Counter-Offensive"
    desc = "The STAVKA has ordered us to go on a counter-offensive against the Fascists!"
-   picture = GFX_report_event_german_italian_pact
+   picture = GFX_report_event_soviet_soldiers_tank
 
    fire_only_once = no
  is_triggered_only = yes
-   	#hidden = yes
 
    
       option = {
+	  name = "Vpred!"
 			SOV = { add_timed_idea = { idea = winter_offensive_sov days = 90 }}
 	  }
    }     

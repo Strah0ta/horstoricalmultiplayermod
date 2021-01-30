@@ -748,9 +748,9 @@ leader_traits = {
 		equipment_bonus = {	armor = { reliability = 0.05 maximum_speed = 0.1 }	}
 	}	
 	
-	tank_destroyer_manufacturer = { 
+	tank_destroyer_manufacturer = {  
 		random = no
-		equipment_bonus = {	armor = { ap_attack = 0.15 }	}
+		equipment_bonus = {	armor = { ap_attack = 0.20 }	}
 	}
 	
 	blitzkrieg_tank_manufacturer = {   

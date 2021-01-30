@@ -334,7 +334,7 @@ technologies = {
 		conscription = 0.02
 		category_line_artillery = {
 			default_morale = 0.2
-			soft_attack = 0.1
+			soft_attack = 0.2
 		}
 		path = {
 			leads_to_tech = werwolf_guerillas 
@@ -473,7 +473,7 @@ technologies = {
 	dispersed_support = { # Branch is focused on support units as part of the regular brigades
 		
 		category_line_artillery = {
-			soft_attack = 0.1
+			soft_attack = 0.2
 		}
 		
 		path = {
@@ -1105,7 +1105,7 @@ technologies = {
 		}
 		category_line_artillery = {
 			default_morale = 0.2
-			soft_attack = 0.1
+			soft_attack = 0.2
 		}
 
 		doctrine = yes	
@@ -1338,8 +1338,13 @@ technologies = {
 		path = {
 			leads_to_tech = guerilla_warfare
 			research_cost_coeff = 1
+		} 
+		infantry = {
+			need = {infantry_equipment= -10}
 		}
-
+		on_research_complete = {
+			custom_effect_tooltip = human_wave_offensive_guns_tt
+		}
 		doctrine = yes	
 		research_cost = 4.5
 		

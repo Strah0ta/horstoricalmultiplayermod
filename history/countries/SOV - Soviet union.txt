@@ -155,54 +155,6 @@ add_namespace = {
 	type = unit_leader
 }
 
-create_navy_leader = {
-	name = "Filipp Oktyabrskiy"
-	picture = "Portrait_Soviet_Filipp_Oktyabrsky.dds"
-	traits = { ironside green_water_expert arctic_water_expert spotter concealment_expert big_guns_expert}
-	skill = 3
-	attack_skill = 4
-	defense_skill = 4
-	maneuvering_skill = 1
-	coordination_skill = 1
-}
-
-create_navy_leader = {
-	name = "Arseniy Golovko"
-	picture = "Portrait_Soviet_Arseniy_Golovko.dds"
-	traits = { arctic_water_expert spotter concealment_expert seawolf fleet_protector }
-	skill = 3
-	attack_skill = 4
-	defense_skill = 3
-	maneuvering_skill = 1
-	coordination_skill = 2
-	}
-	
-	create_operative_leader = {
-		name = "Alexander Radó"
-		GFX = GFX_portrait_alexander_rado
-		traits = {  }
-		bypass_recruitment = no
-		available_to_spy_master = yes
-		nationalities = { SOV HUN }
-	}
-
-	create_operative_leader = {
-		name = "Kim Philby"
-		GFX = GFX_portrait_kim_philby
-		traits = { operative_double_agent operative_infiltrator }
-		bypass_recruitment = no
-		available_to_spy_master = yes
-		nationalities = { SOV ENG }
-	}
-	create_operative_leader = {
-		name = "Richard Sorge"
-		GFX = GFX_portrait_richard_sorge
-		traits = {  }
-		bypass_recruitment = no
-		available_to_spy_master = yes
-		nationalities = { SOV GER }
-	}
-
 	create_equipment_variant = {
 		name = "Series I Debakrist"			# represents Debakrist, B class, L-55 sub
 		type = ship_hull_submarine_1
