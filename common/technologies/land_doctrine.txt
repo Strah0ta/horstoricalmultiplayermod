@@ -713,8 +713,8 @@ technologies = {
 
 	shock_and_awe = {
 		category_line_artillery = {
-			soft_attack = 0.15
-			default_morale = 0.2
+			soft_attack = 0.20
+			default_morale = 0.20
 		}
 				
 		doctrine = yes	

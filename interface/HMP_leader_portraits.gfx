@@ -19,7 +19,10 @@ spriteTypes = {
 		name = "GFX_Portrait_SOV_Ahmdiyy_Cbraylov"
 		texturefile = "gfx/leaders/ALB/hmdiyy_Cbraylov.dds"		
 	}	
-		
+			spriteType = {
+		name = "GFX_AST_victor_crutchley"
+		textureFile = "gfx//leaders//ENG//Portrait_Australia_Victor_Crutchley.dds"
+	}
 	spriteType = {
 		name = "GFX_trait_operative_triple_agent"
 		texturefile = "gfx/interface/traits/trait_operative_double_agent.dds"

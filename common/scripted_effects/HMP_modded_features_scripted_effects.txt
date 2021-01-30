@@ -2914,7 +2914,7 @@ create_field_marshal = {
 			
 create_field_marshal = {
 	name = "Georgy Zhukov"
-	picture = "GFX_Portrait_SOV_Ahmdiyy_Cbraylov.dds"
+	picture = "Portrait_Soviet_Gregory_Zhukov.dds"
 	traits = { adaptable offensive_doctrine brilliant_strategist thorough_planner aggressive_assaulter organisational_leader organizer commando logistics_wizard panzer_leader panzer_expert expert_improviser ranger trickster  expert_delegator  }
 	skill = 8
 	attack_skill = 6

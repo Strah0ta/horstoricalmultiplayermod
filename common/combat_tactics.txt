@@ -706,6 +706,7 @@ tactic_guerrilla_tactics = { #People's army defender tactic. also for German vol
 	trigger = {
 		is_attacker = no
 		phase = no
+		hardness < 0.2
 		OR = {
 			skill > 2
 			has_trait = trickster
@@ -715,7 +716,7 @@ tactic_guerrilla_tactics = { #People's army defender tactic. also for German vol
 	active = no
 	
 	base =  { 
-	factor = 4
+	factor = 3
 		modifier = {
 			factor = 2
 			is_fighting_in_terrain = plains 

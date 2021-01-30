@@ -102,8 +102,8 @@ create_navy_leader = {
 }
 
 create_navy_leader = {
-	name = "Nelson Mello"
-	portrait_path = "gfx/leaders/BRA/Nelson_Mello.tga"
+	name = "Victor Crutchley"
+	gfx = "GFX_AST_victor_crutchley"
 	traits = { ironside fleet_protector destroyer_leader ground_pounder superior_tactician concealment_expert }
 	skill = 4
 	attack_skill = 3
