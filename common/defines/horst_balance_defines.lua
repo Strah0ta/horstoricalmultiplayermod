@@ -10,7 +10,8 @@ NDefines.NMilitary.MAX_DIVISION_BRIGADE_HEIGHT = 6		-- Max height of regiments i
 NDefines.NMilitary.AIR_SUPPORT_BASE = 0.25                        -- vanilla 0.25 CAS bonus factor for air support moddifier for land unit in combat
 
 NDefines.NMilitary.EXPERIENCE_LOSS_FACTOR = 0.80                 -- percentage of experienced solders who die when manpower is removed
-
+NDefines.NMilitary.RIVER_CROSSING_PENALTY = -0.2                 -- small river crossing
+NDefines.NMilitary.RIVER_CROSSING_PENALTY_LARGE = -0.5           -- large river crossing
 NDefines.NMilitary.ANTI_AIR_ATTACK_TO_AMOUNT = 0.0015 				-- WAS 0.005 | Lowered because vanilla CAS shootdown rates are too high and IC inefficient, but I don't want to buff CAS or air in any other way either ~Thrasymachus | Balancing value to convert equipment stat anti_air_attack to the random % value of airplanes being hit.
 NDefines.NMilitary.EXPERIENCE_COMBAT_FACTOR = 0.1       -- WAS 0.25 | Turns out that no Russian volunteers to Spain leads to at least 15 veteran +75% heavy tanks at barb every game that kill nearly every Russia player in less than 3 months. Just wait until Germany players manage to get 30 vet heavies by using minors more
 NDefines.NMilitary.MAX_NAVY_EXPERIENCE = 0             -- WAS 500
@@ -51,7 +52,6 @@ NDefines.NMilitary.PARACHUTE_DISRUPTED_AA_PENALTY = 0            -- How much the
 -----------------------------------------------------------
 
 NDefines.NBuildings.RADAR_INTEL_EFFECT = 160			-- Province covered by radar increases intel by 10 (where 255 is max). Province may be covered by multiple radars, then the value sums up.
-COMBAT_DAMAGE_SCALE_CARRIER = 7.5                   -- same as above but used inside naval combat for carrier battles
 NDefines.NAir.EFFICIENCY_REGION_CHANGE_PENALTY_FACTOR = 1				-- Penalty applied for changing region
 NDefines.NAir.EFFICIENCY_REGION_CHANGE_DAILY_GAIN_CAS = 1			-- How much efficiency to regain per day. Gain applied hourly.
 NDefines.NAir.EFFICIENCY_REGION_CHANGE_DAILY_GAIN_NAVAL_BOMBER = 0.12		-- How much efficiency to regain per day. Gain applied hourly.
@@ -85,6 +85,8 @@ NDefines.NAir.AIR_WING_MAX_STATS_BOMBING = 1000
 
 NDefines.NAir.COMBAT_MULTIPLANE_CAP = 2  
 NDefines.NAir.COMBAT_DAMAGE_SCALE = 0.05				-- Vanilla 0,10
+NDefines.NAir.COMBAT_DAMAGE_SCALE_CARRIER = 3                 -- same as above but used inside naval combat for carrier battles
+NDefines.NAir.NAVAL_STRIKE_CARRIER_MULTIPLIER = 6.25              -- vanilla 5 damage bonus when planes are in naval combat where their carrier is present (and can thus sortie faster and more effectively)
 
 NDefines.NAir.AIR_WING_MAX_STATS_SPEED = 30000
 NDefines.NAir.DISRUPTION_FACTOR = 4  -- (4 -> 7) with decent radar coverage equal amounts of fighters vs naval bombers will disrupt almost all naval bombers if not escorted, with low detection very few bombers are intercepted still
