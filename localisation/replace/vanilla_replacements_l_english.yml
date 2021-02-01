@@ -46,7 +46,7 @@
  EFR_democratic_party:0 "Parti Radical"
  infrastructure_desc:0 "This building provides the state with improvement of infrastructure. It increases your supply power in strategic regions, increases your divisions' speed, and increases natural resources extracted from a state."
  EFR_fascism_party:0 "Mouvement Franciste"
- expert_improviser_movement_bonus_on_land:0 "Movement Bonus On Land: §G+10.0%§! \n\n§YRiver§! \nAttack:  §G+6.6%§!"
+ expert_improviser_movement_bonus_on_land:0 "Movement Bonus On Land: §G+10.0%§!"
  armored_car_recon:0 "Armored Car Recon Company"
  GER_rocketry_focus:0 "Vengeance Weapons"
  OPERATIVE_FORCED_INTO_HIDING:0 "§RForced into hiding§!"

@@ -710,7 +710,7 @@ leader_traits = {
 	}
 	
 		
-	sniper_tank_manufacturer = {  #Tank Destroyer Designer - UNUSED (!) 
+	sniper_tank_manufacturer = {  #Tank Destroyer Designer - UNUSED (!)  replaced by TD designer, rework ?
 		random = no
 		equipment_bonus = { armor = {	hard_attack = 0.05 ap_attack = 0.05 } }
 	}
@@ -750,7 +750,7 @@ leader_traits = {
 	
 	tank_destroyer_manufacturer = {  
 		random = no
-		equipment_bonus = {	armor = { ap_attack = 0.20 }	}
+		equipment_bonus = {	armor = { hard_attack = 0.05 ap_attack = 0.10 }	}
 	}
 	
 	blitzkrieg_tank_manufacturer = {   

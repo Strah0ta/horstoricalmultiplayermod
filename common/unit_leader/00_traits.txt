@@ -60,7 +60,14 @@ leader_traits = {
 		trait_type = personality_trait	
 		modifier = { max_dig_in = 1	}		
 	}
-	
+		JAP_samurai_lineage = { 
+		type = all
+		trait_type = personality_trait
+		gain_xp = {	always = no }
+		allowed = {	FROM = {	tag = JAP	}	}
+		modifier = {	}
+		new_commander_weight = {	factor = 0	}
+	}
 	
 	brilliant_strategist = { 
 		type = land
@@ -573,7 +580,6 @@ leader_traits = {
 	expert_improviser = { 
 		type = corps_commander
 		modifier = {
-			river = { attack = 0.066 }
 			desert = {	movement = 0.1	}
 			hills = {	movement = 0.1	}
 			forest = {	movement = 0.1 }
