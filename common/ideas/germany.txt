@@ -215,7 +215,6 @@ ideas = {
 			
 			modifier = {
 				army_org_Factor = 0.05
-				army_attack_factor = 0.05
 				conscription_factor = -0.2
 				planning_speed = 0.25
 				operative_slot = 4 
@@ -1180,7 +1179,7 @@ ideas = {
 				original_tag = GER
 			}
 						
-			traits = { army_chief_offensive_1 }
+			traits = { army_chief_offensive_2 }
 		}
 	
 		walther_von_brauchitsch = {

@@ -14,7 +14,7 @@ add_core_of=SWE
 			10127 1
 		}
 		victory_points = {
-			7011 170
+			7011 160
 		}
 		victory_points = {
 			1068 3
@@ -24,6 +24,9 @@ add_core_of=SWE
 		}
 		victory_points = {
 			7117 1
+		}
+		victory_points = {
+			12764 1
 		}
 		victory_points = {
 			4913 1
