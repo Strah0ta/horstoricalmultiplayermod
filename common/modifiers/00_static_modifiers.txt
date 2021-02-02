@@ -416,8 +416,8 @@ stahlpakt2 = {
 		}
 	}
 
-	trade_cost_for_target_factor = -0.9
-			extra_trade_to_target_factor = 1.0
+			trade_cost_for_target_factor = -0.8
+			#extra_trade_to_target_factor = 0.1
 	}
 		stahlpakt_ITA = {
 	valid_relation_trigger = {

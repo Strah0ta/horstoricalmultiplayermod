@@ -5,7 +5,7 @@ ideas = {
 			allowed = {	always = no	}
 			removal_cost = -1
 			picture = generic_acquire_tanks
-			available = { date < 1940.4.1  }
+			available = { date < 1940.8.1  }
 			modifier = {	air_fuel_consumption_factor = -0.5 	}
 			equipment_bonus = {
 				motorized_equipment = {
@@ -709,7 +709,7 @@ ideas = {
 				has_government = fascism
 			}
 			
-			available = { date < 1939.1.1 }
+			available = { date < 1938.1.1 }
 			
 
 			removal_cost = -1

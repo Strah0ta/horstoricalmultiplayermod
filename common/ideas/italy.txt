@@ -43,6 +43,23 @@ ideas = {
 			operative_slot = 2
 			}
 		}
+		ITA_motorized_focus = {
+			picture = FRA_motorized_focus
+			allowed = {	original_tag = ITA	always = no }
+			allowed_civil_war = {	always = yes	}
+			removal_cost = -1
+			equipment_bonus = {
+			motorized_equipment = {	build_cost_ic = -0.5 instant = yes	} 
+			infantry_equipment = { build_cost_ic = -0.5 instant = yes	}
+			support_equipment = { build_cost_ic = -0.5 instant = yes	}
+			anti_air_equipment = { build_cost_ic = -0.5 instant = yes	}
+			artillery_equipment = {	build_cost_ic = -0.5 instant = yes	}
+			anti_tank_equipment = {	build_cost_ic = -0.5 instant = yes	}
+			fighter_equipment = {	build_cost_ic = -0.5 instant = yes	}
+			CAS_equipment = {	build_cost_ic = -0.6 instant = yes	}
+			scout_plane_equipment = {	build_cost_ic = -0.8 instant = yes	}
+			}
+		}
 		black_shirts =  {
 			picture = generic_manpower_bonus
 			

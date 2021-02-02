@@ -256,7 +256,7 @@ country_event = {
 
 	option = {
 		name = poland.100.a
-		GER = { add_ideas = GER_mefo_bills_2 }
+		GER = { add_ideas = GER_mefo_bills_2 } ITA = { add_ideas = GER_mefo_bills_2 }
 	}
 }
 

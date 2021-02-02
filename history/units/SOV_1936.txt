@@ -119,11 +119,20 @@ instant_effect = {
 			type = infantry_equipment_1
 			creator = "SOV"
 		}
-		requested_factories = 32
+		requested_factories = 31
 		progress = 0.1
 		efficiency = 50
 	}
+		add_equipment_production = { 
+			equipment = { 
+				type = infantry_equipment_0
+				creator = "SOV" 
+			} 
 
+			requested_factories = 1
+			progress = 0.1 
+			efficiency = 50 
+		} 
 	add_equipment_production = {
 		equipment = {
 			type = support_equipment_1

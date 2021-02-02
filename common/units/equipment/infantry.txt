@@ -75,7 +75,7 @@ equipments = {
 		ap_attack = 4
 		air_attack = 0
 
-		build_cost_ic = 0.4
+		build_cost_ic = 0.35
 	}
 
 	# Improved weapons  ~1939
