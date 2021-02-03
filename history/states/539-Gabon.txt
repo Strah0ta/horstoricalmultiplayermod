@@ -8,12 +8,13 @@ add_core_of=SWE
 victory_points = { 5139 10}
 buildings = {
 infrastructure = 3
+industrial_complex = 2
 5139 = { 
 naval_base = 15
  }
  fuel_silo = 10
 }
-add_extra_state_shared_building_slots = 10
+add_extra_state_shared_building_slots = 12
 }
 provinces={ 5139 8207 10948 13210 }
 manpower=409752

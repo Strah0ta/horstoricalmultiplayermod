@@ -94,6 +94,7 @@ ideas = {
 			modifier = {
 				experience_gain_navy_unit_factor = 10
 				training_time_factor = -0.45
+												attrition = -1
 			}
 		}	
 			armyandnavy_idea = { 
@@ -107,6 +108,7 @@ ideas = {
 			modifier = {
 				experience_gain_navy_unit_factor = 10
 				training_time_factor = -0.45
+												attrition = -1
 			}
 		}
 		armyandnavy_idea_efr = {						
@@ -118,6 +120,7 @@ ideas = {
 			modifier = {
 				experience_gain_navy_unit_factor = 10
 				training_time_factor = -0.45
+								attrition = -1
 			}
 		}
 	war_plan_silver = {

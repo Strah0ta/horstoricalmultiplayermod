@@ -368,10 +368,6 @@ HMP_no_asia_country_changes = {
 				}
 				add_relation_modifier = {
 					target = CAN
-					modifier = stahlpakt5
-				}
-				add_relation_modifier = {
-					target = CAN
 					modifier = stahlpakt_noasia
 				}
 				add_relation_modifier = {

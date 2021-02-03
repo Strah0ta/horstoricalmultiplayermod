@@ -10,6 +10,7 @@ add_ideas = {
 	partial_economic_mobilisation
 	armyandnavy_idea
 	GER_autarky_idea_ita
+	black_shirts
 }
 add_timed_idea = { idea = GER_mefo_bills_1 days = 730 }
 add_timed_idea = { idea = ITA_motorized_focus days = 730 }
@@ -145,7 +146,7 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = fascism_ideology
 	traits = {
-		
+		dictator
 	}
 }
 

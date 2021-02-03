@@ -409,7 +409,7 @@ every_country = {
 	}
 		emergency_factory_conversion_defensive = {
 		icon = generic_industry
-		allowed = { normally_played_country = yes 	}
+		allowed = { AND = { normally_played_country = yes NOT = { tag = FRA } } }
 
 		available = {
 			num_of_civilian_factories > 5 #Change this if amount of factories change
@@ -965,7 +965,7 @@ hidden_effect = {
 			
 	GER_dday = { 
 	 	available = {   
-			GER = { has_full_control_of_state = 19 has_full_control_of_state = 6 has_full_control_of_state = 7 has_full_control_of_state = 35 has_full_control_of_state = 142  has_full_control_of_state = 23 has_full_control_of_state = 30 has_full_control_of_state = 14 has_full_control_of_state = 15 has_full_control_of_state = 29 has_full_control_of_state = 99  } 
+			GER = {  has_full_control_of_state = 110  has_full_control_of_state = 16 } 
 			has_manpower > 2307200
 				}
 				allowed = {	original_tag = ITA }

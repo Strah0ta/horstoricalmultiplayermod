@@ -1401,7 +1401,7 @@ technologies = {
 	armored_car_at_upgrade = {
 
 		enable_equipments = {
-			armored_car_at_equipment_1
+			armored_car_at_equipment
 		}
 
 		research_cost = 1
