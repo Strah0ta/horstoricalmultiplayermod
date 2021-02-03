@@ -648,10 +648,11 @@ date > 1941.6.1
 			add_tech_bonus = {
 				name = naval_doc_bonus
 				bonus = 1.0
-				uses = 2
+				uses = 6
 				category = naval_doctrine
 			}
 			add_ideas = crda
+			add_ideas = crda_refit
 		}
 	}
 
