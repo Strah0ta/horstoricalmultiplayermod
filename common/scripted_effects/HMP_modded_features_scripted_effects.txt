@@ -1517,8 +1517,8 @@ create_navy_leader = {
 	maneuvering_skill = 4
 	coordination_skill = 4
 }
-create_corps_commander = { #for Africa
-	name = "Erwin Rommel"
+create_corps_commander = { #for Africa 
+	name = "Erwin Rommel" #Point Value: 21
 	picture = "Portrait_Germany_Erwin_Rommel.dds"
 	traits = { organizer trickster expert_improviser  panzer_leader panzer_expert desert_fox hill_fighter urban_assault_specialist  }
 	skill = 7
@@ -1528,7 +1528,7 @@ create_corps_commander = { #for Africa
     logistics_skill = 6
 }
 create_corps_commander = {  #for fighting in Italy
-    name = "Hasso von Manteuffel"
+    name = "Hasso von Manteuffel" #Point Value: 19
         picture = "Portrait_Germany_Hasso_von_Manteuffel.dds"
     traits = { organizer trickster expert_improviser brilliant_strategist panzer_leader hill_fighter panzer_expert trait_mountaineer }
     skill = 6
@@ -1538,7 +1538,7 @@ create_corps_commander = {  #for fighting in Italy
     logistics_skill = 6
 }
 create_corps_commander = { #for France/Forts
-	name = "Erich von Manstein"
+	name = "Erich von Manstein" #Point Value: 22
 	picture = "Portrait_Germany_Erich_von_Manstein.dds"
 	traits = { organizer trickster expert_improviser panzer_leader panzer_expert brilliant_strategist ranger trait_engineer fortress_buster }
 	skill = 6
@@ -1548,7 +1548,7 @@ create_corps_commander = { #for France/Forts
     logistics_skill = 5
 }
 create_corps_commander = { #for Barbarossa
-	name = "Heinz Guderian"
+	name = "Heinz Guderian" #Point Value: 17
 	picture = "Portrait_Germany_Heinz_Guderian.dds"
 	traits = { organizer trickster expert_improviser brilliant_strategist panzer_leader panzer_expert ranger  }
 	skill = 7
@@ -1558,7 +1558,7 @@ create_corps_commander = { #for Barbarossa
     logistics_skill = 6
 }
 create_corps_commander = {
-	name = "Ewald von Kleist"
+	name = "Ewald von Kleist" #Point Value: 17
 	picture = "Portrait_Germany_Ewald_von_Kleist.dds"
 	traits = { organizer trickster expert_improviser brilliant_strategist panzer_leader panzer_expert ranger  }
 	skill = 7
@@ -1567,8 +1567,8 @@ create_corps_commander = {
     planning_skill = 6
     logistics_skill = 6
 }
-create_corps_commander = {
-	name = "Sepp Dietrich"
+create_corps_commander = { 
+	name = "Sepp Dietrich" #Point Value: 17
 	picture = "Portrait_Germany_Josef_Dietrich.dds"
 	traits = { organizer trickster expert_improviser brilliant_strategist panzer_leader panzer_expert ranger  }
 	skill = 7
@@ -1578,7 +1578,7 @@ create_corps_commander = {
     logistics_skill = 6
 }
 create_corps_commander = {
-	name = "Hermann Hoth"
+	name = "Hermann Hoth" #Point Value: 17
 	picture = "Portrait_Germany_Herman_Hoth.dds"
 	traits = { organizer trickster expert_improviser brilliant_strategist panzer_leader panzer_expert ranger  }
 	skill = 7
@@ -1590,7 +1590,7 @@ create_corps_commander = {
 
 
 create_corps_commander = {
-    name = "Walter Krüger"
+    name = "Walter Krüger" #Point Value: 18
     picture = "Portrait_Germany_Walter_Kruger.dds"
 	traits = { organizer trickster expert_improviser trait_reckless panzer_leader panzer_expert ranger urban_assault_specialist  }
 	skill = 7
@@ -1601,7 +1601,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-    name = "Georg-Hans Reinhardt"
+    name = "Georg-Hans Reinhardt" #Point Value: 19
     picture = "Portrait_Germany_Georg_von_Reinhardt.dds"
 	traits = { trickster guerilla_fighter ambusher trait_cautious panzer_leader panzer_expert bearer_of_artillery  }
 	skill = 6
@@ -1614,7 +1614,7 @@ create_corps_commander = {
 
 
 create_corps_commander = { #for quality inf
-	name = "Kurt Student" 
+	name = "Kurt Student" #Point Value: 22
 	picture = "Portrait_Germany_Kurt_Student.dds"
 	traits = { trait_reckless trait_mountaineer hill_fighter commando camouflage_expert trickster expert_improviser infantry_leader  infantry_expert }
 	skill = 7
@@ -1624,7 +1624,7 @@ create_corps_commander = { #for quality inf
     logistics_skill = 6
 }
 create_field_marshal = {
-	name = "Friedrich Paulus"
+	name = "Friedrich Paulus" #Point Value: 15.5
 	picture = "Portrait_Germany_Friedrich_Paulus.dds"
 	traits = { commando infantry_leader ambusher urban_assault_specialist organizer defensive_doctrine logistics_wizard trait_cautious  }
 	skill = 7
@@ -1634,8 +1634,8 @@ create_field_marshal = {
 	logistics_skill = 9
 }
 
-	create_field_marshal = {
-    name = "Wilhelm Keitel"
+	create_field_marshal = { 
+    name = "Wilhelm Keitel" #Point Value: 13
         picture = "Portrait_Germany_Wilhelm_Keitel.dds"
     traits = {  organizer fast_planner harsh_leader infantry_leader infantry_expert offensive_doctrine inspirational_leader organisational_leader skilled_staffer expert_delegator }
 	skill = 7  
@@ -1647,7 +1647,7 @@ create_field_marshal = {
 		
 #######Three copies of offensive mass infantry 
 		create_corps_commander = {
-	name = "Fedor von Bock"
+	name = "Fedor von Bock" #Point Value: 21
 	picture = "Portrait_Germany_Fedor_von_Bock.dds"
 	traits = { harsh_leader infantry_leader infantry_expert fake_skilled_staffer trickster expert_improviser adaptable }
 	skill = 7
@@ -1658,7 +1658,7 @@ create_field_marshal = {
 }
 
 create_corps_commander = {
-	name = "Georg von Küchler"
+	name = "Georg von Küchler" #Point Value: 21
 	picture = "Portrait_Germany_Georg_von_Kuchler.dds"
 	traits = { harsh_leader infantry_leader infantry_expert fake_skilled_staffer trickster expert_improviser adaptable }
 	skill = 6
@@ -1669,7 +1669,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Alfred Jodl"
+	name = "Alfred Jodl" #Point Value: 21
 	picture = "Portrait_Germany_Alfred_Jodl.dds"
 	traits = { harsh_leader infantry_leader infantry_expert fake_skilled_staffer trickster expert_improviser  adaptable }
 	skill = 6
@@ -1679,7 +1679,7 @@ create_corps_commander = {
     logistics_skill = 5
 }     
 create_corps_commander = {
-    name = "Johannes Blaskowitz"
+    name = "Johannes Blaskowitz" #Point Value: 17
     picture = "Portrait_Germany_Johannes_Blaskowitz.dds"
 	traits = { organizer bearer_of_artillery infantry_leader urban_assault_specialist ranger infantry_expert trickster  }
 	skill = 6
@@ -1691,7 +1691,7 @@ create_corps_commander = {
 ################
 ###############Three copies of defensive mass infantry 
 create_corps_commander = {
-	name = "Erwin von Witzleben"
+	name = "Erwin von Witzleben" #Point Value: 15
 	picture = "Portrait_Germany_Erwin_von_Witzleben.dds"
 	traits = { old_guard  infantry_leader ambusher fake_skilled_staffer trickster  guerilla_fighter }
 	skill = 6
@@ -1701,7 +1701,7 @@ create_corps_commander = {
     logistics_skill = 4
 }
 create_corps_commander = {
-	name = "Gerd von Rundstedt"
+	name = "Gerd von Rundstedt" #Point Value: 15
 	picture = "Portrait_Germany_Gerd_von_Rundstedt.dds"
 	traits = { old_guard  infantry_leader ambusher fake_skilled_staffer trickster guerilla_fighter }
 	skill = 6
@@ -1712,7 +1712,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Wilhelm Ritter von Leeb"
+	name = "Wilhelm Ritter von Leeb" #Point Value: 15
 	picture = "Portrait_Germany_Wilhelm_Ritter_von_Leeb.dds"
 	traits = { old_guard  infantry_leader ambusher fake_skilled_staffer trickster guerilla_fighter }
 	skill = 6
@@ -1724,7 +1724,7 @@ create_corps_commander = {
 ###########################
 #####
 create_field_marshal = {          #tank FM
-    name = "Günther von Kluge"
+    name = "Günther von Kluge" #Point Value: 23
     picture = "Portrait_Germany_Gunther_von_Kluge.dds"
     traits = { organizer offensive_doctrine logistics_wizard inspirational_leader trickster expert_improviser panzer_leader panzer_expert fast_planner thorough_planner urban_assault_specialist  }
     skill = 8
@@ -1734,7 +1734,7 @@ create_field_marshal = {          #tank FM
     logistics_skill = 7
 		}
 create_corps_commander = {
-	name = "Ernst-Eberhard Hell"
+	name = "Ernst-Eberhard Hell" #Point Value: 19
 	picture = "Portrait_Germany_Ernst-Eberhard_Hell.dds"
 	traits = { winter_specialist trait_engineer scavenger panzer_leader panzer_expert ambusher }
 	skill = 7
@@ -1746,7 +1746,7 @@ create_corps_commander = {
 
 
 create_corps_commander = {           #CAV EXPERT
-    name = "Maximilian von Weichs"
+    name = "Maximilian von Weichs" #Point Value: 12
     picture = "Portrait_Germany_Maximilian_von_Weichs.dds"
     traits = { cavalry_leader cavalry_expert ambusher trickster expert_improviser skilled_staffer } 
     skill = 7
@@ -1756,7 +1756,7 @@ create_corps_commander = {           #CAV EXPERT
     logistics_skill = 8
 }
 create_corps_commander = {          #COMBINED ARMS EXPERT + PANZER LEADER ? 
-    name = "Paul Hausser"
+    name = "Paul Hausser" #Point Value: 19
     picture = "Portrait_Germany_Paul_Hausser.dds"
     traits = {  cavalry_leader panzer_leader combined_arms_expert trait_engineer trickster commando camouflage_expert  }
     skill = 7 
@@ -1767,7 +1767,7 @@ create_corps_commander = {          #COMBINED ARMS EXPERT + PANZER LEADER ?
 }
 
 create_field_marshal = {
-    name = "Albert Kesselring"
+    name = "Albert Kesselring" #Point Value: 16.5
     picture = "Portrait_Germany_Albert_Kesselring.dds"
     traits = { organizer thorough_planner brilliant_strategist aggressive_assaulter inspirational_leader trait_cautious infantry_leader commando paratrooper 	infantry_expert}
 	skill = 7  
@@ -1778,7 +1778,7 @@ create_field_marshal = {
 }
 		
 create_field_marshal = {
-    name = "Wilhelm List"
+    name = "Wilhelm List" #Point Value: 12
     picture = "Portrait_Germany_Wilhelm_List.dds"
     traits = { organizer winter_specialist logistics_wizard infantry_leader inflexible_strategist unyielding_defender inspirational_leader organisational_leader }
 	skill = 7  
@@ -1814,7 +1814,7 @@ create_field_marshal = {
 		available_to_spy_master = yes
 		nationalities = { GER }
 	}
-
+# End of Germany
 	}
 ALB = {
 create_field_marshal = {
