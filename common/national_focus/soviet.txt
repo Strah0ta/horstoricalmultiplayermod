@@ -348,8 +348,8 @@ focus_tree = {
 		icon = GFX_focus_SOV_aviation_cult
 		x = 10
 		y = 0
-		cost = 5
-
+		cost = 1
+		available = { date > 1938.1.1 }
 		completion_reward = {
 			add_tech_bonus = {
 				name = "Aviation Cult"
