@@ -1494,6 +1494,33 @@ HMP_SOV_generals = yes
 HMP_ALLIED_generals = yes
 }
 
+####################################GENERAL TRAIT BALANCING###############################
+###Most general traits have a value of 1-5. The value can be modified/ignored depending on 
+###if it is a FM trait on a commander leading an army or a general trait on a commander 
+###leading an army group. FM traits = 0 on generals, general traits = 0.5x value on FMs.
+###
+###Generals are balanced around 20 points whereas Field Marshalls are around 16 points.
+###Exceptions can be made circumstantially, which is commented below in such a case.
+###
+###                 VALUES - FULL ON GEN/HALF ON FM 	
+###OLD GUARD = 1				BRILLIANT STRATEGIST = 1 	INFLEXIBLE STRATEGIST = 1	
+###WINTER ATTRITION = 1	 		NAVAL INVADER = 1			GUERRILLA FIGHTER = 1
+###INVADER 2 = 1	 			NAVAL LIAISON = 1			SKILLED STAFFER = 1
+###CAV EXPERT = 1				FAKE STAFFER = 2 			FAKE STAFFER SOV = 4
+###PARATROOPER = 2				CAMO EXPERT = 2				BEARER OF ARTILLERY = 2
+###COMMANDO = 2					SCAVENGER = 2				CAV LEADER = 2
+###ANY TERRAIN = 2				ENGINEER = 2				COMBINED ARMS EXPERT = 2
+###PANZER EXPERT = 3			INFANTRY LEADER = 3			FORTRESS BUSTER = 3		
+###TRICKSTER = 3				IMPROV EXPERT = 3			AMBUSHER = 5			
+###PANZER LEADER = 5			INFANTRY EXPERT = 5			ADAPTABLE = 5			
+###
+###				   VALUES - FULL ON FM; ZERO ON GEN
+###EXPERT DELEGATOR = 1			ORGANIZER = 1				ORGANIZATIONAL LEADER = 1	
+###OFFENSIVE DOCTRINE = 2		INSPIRATIONAL LEADER = 2	FAST PLANNER = 2
+###UNYIELDING DEFENDER = 3		AGGRESSIVE ASSAULTER = 3	THOROUGH PLANNER = 4		
+###LOGISTICS WIZARD = 4			DEFENSIVE DOCTRINE = 5
+#########################################################################################
+
 HMP_AXIS_generals = {
 GER = { 
 create_navy_leader = {
