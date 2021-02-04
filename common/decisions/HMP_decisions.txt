@@ -827,7 +827,11 @@ GER_desert_flower_mission2 = {
 		hidden_effect ={ SWE ={ country_event = { id = italy.3999 days = 30 }}  }
 				}
 			}		
-	
+	SOV_spawn = { #Jesse
+		allowed = { tag = SOV }
+		visible = { is_debug = yes  }
+		complete_effect = {load_oob = "SOV_SPAWN"}
+	}
 GER_case_anton = {
 	icon = generic_prepare_civil_war		
 	allowed = { OR = { tag = EFR tag = GER tag = ENG }}				
