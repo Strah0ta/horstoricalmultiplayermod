@@ -355,14 +355,8 @@ focus_tree = {
 		prerequisite = { focus = USA_arsenal_of_democracy }
 		available = {
 		OR = {
-		OR = { 
-			has_war_support > 0.3
-			AND = { 
+			threat > 0.1
 			date > 1938.1.1
-			has_war_support > 0.25			
-			}
-			}
-			is_ai = yes
 			}
 		}
 		continue_if_invalid = yes

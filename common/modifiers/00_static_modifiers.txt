@@ -456,7 +456,8 @@ asiapakt = {
 			NOT = { has_war_with = ROOT }
 		}
 	}
-	extra_trade_to_target_factor = 1.0
+	extra_trade_to_target_factor = 1.0	
+		trade_cost_for_target_factor = -0.6
 }
 	
 	stahlpakt5 = {

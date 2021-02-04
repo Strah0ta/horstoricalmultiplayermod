@@ -30,7 +30,7 @@ country = {
 	picture = generic_disjointed_gov
 	modifier = {
 	surrender_limit = 1
-	industrial_capacity_dockyard = -0.80
+	industrial_capacity_dockyard = -1.20
 	conversion_cost_civ_to_mil_factor = 3.0
 		}
 	}
@@ -42,6 +42,7 @@ country = {
 	max_dig_in = -12
 	army_attack_factor = -0.8
 	army_defence_factor = -0.8
+	army_org_factor = -0.6
 	max_command_power = -80
 	command_power_gain_mult = -0.8
 	production_speed_naval_base_factor = -1.2

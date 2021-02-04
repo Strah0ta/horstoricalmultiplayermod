@@ -26,7 +26,6 @@ focus_tree = {
 				name = GER_four_year_plan
 				bonus = 1.0
 				uses = 2
-				technology = advanced_machine_tools
 				technology = flexible_line
 				technology = assembly_line_production
 				technology = streamlined_line
