@@ -13,26 +13,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = { industrial_capacity_dockyard = 0.2 }
-		}
-		
-		mw_mot = {
-			allowed = { always = no }
-			removal_cost = -1 
-			available = { has_tech = mobile_warfare   }
-			equipment_bonus = {	motorized_equipment = {	maximum_speed = 0.1 instant = yes  }	amphibious_mechanized_equipment = {	maximum_speed = 0.1  } mechanized_equipment = {	maximum_speed = 0.1  }}
-		}	
-		mw_inf = {
-			allowed = { always = no }
-			removal_cost = -1 
-			available = { has_tech = mobile_warfare  }
-			equipment_bonus = {	infantry_equipment = {	maximum_speed = 0.5 instant = yes }	}
-		}	
-		mw_tank = {
-			allowed = { always = no }
-			removal_cost = -1 
-			available = { has_tech = mobile_warfare  }
-			equipment_bonus = {	armor = {	maximum_speed = 0.1  instant = yes }	}
-		}			
+		}		
 		free_tank_designer = {
 			allowed = { always = no }
 			removal_cost = -1 
@@ -140,24 +121,6 @@ ideas = {
 			defense_bonus_against = 0.1
 		}
 	}
-	
-	fp_attache_idea = {
-	
-		allowed = {	NOT = {  date > 1939.9.1 }	}
-			available = {	NOT = {  date > 1939.9.1 }	}
-
-			allowed_civil_war = {
-				always = yes
-			}
-			
-			removal_cost = -1
-
-			picture = generic_infantry_bonus
-			
-		
-			modifier = {	war_support_factor = 0.1	}
-	}
-	
 		war_plan_black = {
 	allowed = {
 				always = yes
@@ -210,17 +173,6 @@ ideas = {
 		}
 	}
 	
-	zzz_war_bonds = {
-		allowed = {	always = yes	}
-		allowed_civil_war = { always = yes	}
-			available = { NOT = { AND = { tag = GER GER = { has_completed_focus = GER_jag }}}}
-			removal_cost = -1
-
-			picture = generic_goods_red_bonus
-			
-			modifier = {	consumer_goods_factor = -0.05		}
-	}
-	
 		special_forces = {
 			allowed = {
 				always = no
@@ -235,8 +187,8 @@ ideas = {
 			picture = FRA_scw_intervention_nationalists_focus
 			
 			modifier = {
-			special_forces_attack_factor = 0.05 
-			special_forces_defence_factor = 0.05
+				special_forces_attack_factor = 0.05 
+				special_forces_defence_factor = 0.05
 			}
 		}
 	
@@ -386,7 +338,7 @@ ideas = {
 	political_advisor = {
 		generic_head_of_intelligence = {
 			allowed = { has_dlc = "La Resistance"}
-			available = { AND = { has_intelligence_agency = yes	OR = { tag = FRA tag = FIN tag = ETH tag = EFR tag = ALB tag = MAN tag = AST tag = RAJ tag = NZL tag = NOR tag = ROM tag = HUN tag = SPR tag = SAF tag = CAN }    } }
+			visible = { AND = { has_intelligence_agency = yes	OR = { tag = FRA tag = FIN tag = ETH tag = EFR tag = ALB tag = MAN tag = AST tag = RAJ tag = NZL tag = NOR tag = ROM tag = HUN tag = SPR tag = SAF tag = CAN }    } }
 			traits = { head_of_intelligence }
 		}
 	}

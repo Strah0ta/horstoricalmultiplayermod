@@ -424,7 +424,7 @@
 	
 		division = {	
 			start_equipment_factor = 0.01 start_experience_factor = 0.3
-			location = 215
+			location = 3479
 			division_template = "Narodnaya Strelkovaya Diviziya"
 			force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
 		}	
@@ -436,19 +436,19 @@
 		}	
 		division = {	
 			start_equipment_factor = 0.01 start_experience_factor = 0.3
-			location = 11285
+			location = 6530
 			division_template = "Narodnaya Strelkovaya Diviziya"
 			force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
 		}	
 		division = {	
 			start_equipment_factor = 0.01 start_experience_factor = 0.3
-			location = 304
+			location = 501
 			division_template = "Narodnaya Strelkovaya Diviziya"
 			force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
 		}	
 		division = {	
 			start_equipment_factor = 0.01 start_experience_factor = 0.3
-			location = 535
+			location = 3508
 			division_template = "Narodnaya Strelkovaya Diviziya"
 			force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
 		}	
@@ -484,7 +484,7 @@
 		}	
 		division = {	
 			start_equipment_factor = 0.01 start_experience_factor = 0.3
-			location = 535
+			location = 3508
 			division_template = "Narodnaya Strelkovaya Diviziya"
 			force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
 		}	
@@ -510,7 +510,7 @@
 		}	
 		division = {	
 			start_equipment_factor = 0.01 start_experience_factor = 0.3
-			location = 3556
+			location = 6481
 			division_template = "Narodnaya Strelkovaya Diviziya"
 			force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
 		}	
@@ -593,7 +593,7 @@
 			
 		division = {	
 			start_equipment_factor = 0.01 start_experience_factor = 0.3
-			location = 6232
+			location = 9098
 			division_template = "Narodnaya Strelkovaya Diviziya"
 			force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
 		}	
@@ -605,7 +605,7 @@
 		}	
 		division = {	
 			start_equipment_factor = 0.01 start_experience_factor = 0.3
-			location = 11313
+			location = 6225
 			division_template = "Narodnaya Strelkovaya Diviziya"
 			force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
 		}	
@@ -637,7 +637,7 @@
 
 		division = {	
 			start_equipment_factor = 0.01 start_experience_factor = 0.3
-			location = 6520
+			location = 6578
 			division_template = "Narodnaya Strelkovaya Diviziya"
 			force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
 		}	
@@ -649,7 +649,7 @@
 		}	
 		division = {	
 			start_equipment_factor = 0.01 start_experience_factor = 0.3
-			location = 6556
+			location = 11397
 			division_template = "Narodnaya Strelkovaya Diviziya"
 			force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
 		}	
@@ -667,7 +667,7 @@
 		}	
 		division = {	
 			start_equipment_factor = 0.01 start_experience_factor = 0.3
-			location = 6579
+			location = 3531
 			division_template = "Narodnaya Strelkovaya Diviziya"
 			force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
 		}	
@@ -724,7 +724,7 @@
 	
 		division = {	
 			start_equipment_factor = 0.01 start_experience_factor = 0.3
-			location = 9493
+			location = 3492
 			division_template = "Narodnaya Strelkovaya Diviziya"
 			force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
 		}	
@@ -736,7 +736,7 @@
 		}	
 		division = {	
 			start_equipment_factor = 0.01 start_experience_factor = 0.3
-			location = 9554
+			location = 11461
 			division_template = "Narodnaya Strelkovaya Diviziya"
 			force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
 		}	
@@ -748,13 +748,13 @@
 		}	
 		division = {	
 			start_equipment_factor = 0.01 start_experience_factor = 0.3
-			location = 9554
+			location = 11461
 			division_template = "Narodnaya Strelkovaya Diviziya"
 			force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
 		}	
 		division = {	
 			start_equipment_factor = 0.01 start_experience_factor = 0.3
-			location = 11453
+			location = 8
 			division_template = "Narodnaya Strelkovaya Diviziya"
 			force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
 		}	
@@ -767,7 +767,7 @@
 		}	
 		division = {	
 			start_equipment_factor = 0.01 start_experience_factor = 0.3
-			location = 6520
+			location = 6578
 			division_template = "Narodnaya Strelkovaya Diviziya"
 			force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
 		}	
@@ -792,13 +792,13 @@
 		}	
 		division = {	
 			start_equipment_factor = 0.01 start_experience_factor = 0.3
-			location = 11453
+			location = 320
 			division_template = "Narodnaya Strelkovaya Diviziya"
 			force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
 		}	
 		division = {	
 			start_equipment_factor = 0.01 start_experience_factor = 0.3
-			location = 6232
+			location = 3089
 			division_template = "Narodnaya Strelkovaya Diviziya"
 			force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
 		}	
@@ -817,7 +817,7 @@
 		}	
 		division = {	
 			start_equipment_factor = 0.01 start_experience_factor = 0.3
-			location = 9493
+			location = 3492
 			division_template = "Narodnaya Strelkovaya Diviziya"
 			force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
 		}	
@@ -892,7 +892,7 @@
 		}	
 		division = {	
 			start_equipment_factor = 0.01 start_experience_factor = 0.3
-			location = 6556
+			location = 11397
 			division_template = "Narodnaya Strelkovaya Diviziya"
 			force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
 		}	
@@ -911,7 +911,7 @@
 
 		division = {	
 			start_equipment_factor = 0.01 start_experience_factor = 0.3
-			location = 215
+			location = 3479
 			division_template = "Narodnaya Strelkovaya Diviziya"
 			force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
 		}		
@@ -965,7 +965,7 @@
 		}		
 		division = {	
 			start_equipment_factor = 0.01 start_experience_factor = 0.3
-			location = 6579
+			location = 3531
 			division_template = "Narodnaya Strelkovaya Diviziya"
 			force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
 		}		
@@ -1136,7 +1136,7 @@
 		}	
 		division = {	
 			start_equipment_factor = 0.01 start_experience_factor = 0.3
-			location = 11391
+			location = 502
 			division_template = "Narodnaya Strelkovaya Diviziya"
 			force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
 		}	
@@ -1244,13 +1244,13 @@
 		}	
 		division = {	
 			start_equipment_factor = 0.01 start_experience_factor = 0.3
-			location = 304
+			location = 501
 			division_template = "Narodnaya Strelkovaya Diviziya"
 			force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
 		}	
 		division = {	
 			start_equipment_factor = 0.01 start_experience_factor = 0.3
-			location = 9295
+			location = 502
 			division_template = "Narodnaya Strelkovaya Diviziya"
 			force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
 		}	
@@ -1363,7 +1363,7 @@
 		}		
 		division = {	
 			start_equipment_factor = 0.01 start_experience_factor = 0.3
-			location = 3556
+			location = 6481
 			division_template = "Narodnaya Strelkovaya Diviziya"
 			force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
 		}	
@@ -1516,14 +1516,14 @@
 		}	
 		division = {	
 			start_equipment_factor = 0.01 start_experience_factor = 0.3
-			location = 11285
+			location = 6530
 			division_template = "Narodnaya Strelkovaya Diviziya"
 			force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
 		}	
 
 		division = {	
 			start_equipment_factor = 0.01 start_experience_factor = 0.3
-			location = 11313
+			location = 9242
 			division_template = "Narodnaya Strelkovaya Diviziya"
 			force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
 		}	
@@ -1682,7 +1682,7 @@
 		}
 		division = {	
 			start_equipment_factor = 0.01 start_experience_factor = 0.3
-			location = 3074
+			location = 11072
 			division_template = "Narodnaya Strelkovaya Diviziya"
 			force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
 		}
@@ -1706,7 +1706,7 @@
 		}
 		division = {	
 			start_equipment_factor = 0.01 start_experience_factor = 0.3
-			location = 6381
+			location = 9395
 			division_template = "Narodnaya Strelkovaya Diviziya"
 			force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
 		}
@@ -1736,13 +1736,13 @@
 		}
 		division = {	
 			start_equipment_factor = 0.01 start_experience_factor = 0.3
-			location = 9079
+			location = 9330
 			division_template = "Narodnaya Strelkovaya Diviziya"
 			force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
 		}
 		division = {	
 			start_equipment_factor = 0.01 start_experience_factor = 0.3
-			location = 11057
+			location = 11248
 			division_template = "Narodnaya Strelkovaya Diviziya"
 			force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
 		}
@@ -1772,7 +1772,7 @@
 		}
 		division = {	
 			start_equipment_factor = 0.01 start_experience_factor = 0.3
-			location = 308
+			location = 9395
 			division_template = "Narodnaya Strelkovaya Diviziya"
 			force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
 		}
@@ -1796,7 +1796,7 @@
 		}
 		division = {	
 			start_equipment_factor = 0.01 start_experience_factor = 0.3
-			location = 9221
+			location = 11248
 			division_template = "Narodnaya Strelkovaya Diviziya"
 			force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
 		}
@@ -2300,7 +2300,7 @@
 		}
 		division = {	
 			start_equipment_factor = 0.01 start_experience_factor = 0.3
-			location = 6099
+			location = 9330
 			division_template = "Narodnaya Strelkovaya Diviziya"
 			force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
 		}

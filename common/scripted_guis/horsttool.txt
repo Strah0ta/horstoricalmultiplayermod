@@ -101,7 +101,7 @@ scripted_gui = {
 			observer_visible = {	}		
 			add_cheat_click_enabled = {check_variable={Root.selected_cheat>0}}
 			cheat1_visible={}
-						annex_country_click_enabled = {	check_variable = { ROOT.marked_states^num > 0 }	}
+			annex_country_click_enabled = {	check_variable = { ROOT.marked_states^num > 0 }	}
 			cheat1_text_visible={}
 			cheat2_visible={ROOT={has_country_flag=cheating}}
 			cheat3_visible={ROOT={has_country_flag=cheating}}
