@@ -7,7 +7,7 @@ available = {  check_variable = { var = SOV_barb_ll_token  value = 20  compare =
 		fire_only_once = no
 				days_remove = 60
 		complete_effect  = {
-		add_equipment_to_stockpile = {  type = infantry_equipment_1 amount = 40000 producer = USA }			
+		add_equipment_to_stockpile = {  type = infantry_equipment_1 amount = 57000 producer = USA }			
 		SOV = { add_to_variable = {  var = SOV_barb_ll_token   value = -20 } }						
 		}
 }
@@ -19,7 +19,7 @@ available = {  check_variable = { var = SOV_barb_ll_token  value = 50  compare =
 		days_remove = 180
 		fire_only_once = no
 		complete_effect  = {
-		add_equipment_to_stockpile = {  type = infantry_equipment_1 amount = 100000 producer = USA }			
+		add_equipment_to_stockpile = {  type = infantry_equipment_1 amount = 143000 producer = USA }			
 		SOV = { add_to_variable = {  var = SOV_barb_ll_token   value = -50 } }						
 		}
 }
@@ -2290,7 +2290,7 @@ HMP_templates = {
 						heavy_armor = { x = 0 y = 0 } heavy_armor = { x = 1 y = 0 } heavy_armor = { x = 2 y = 0 } motorized = { x = 3 y = 0 }	motorized = { x = 4 y = 0 }
 						heavy_armor = { x = 0 y = 1 } heavy_armor = { x = 1 y = 1 } heavy_armor = { x = 2 y = 1 } motorized = { x = 3 y = 1 }	motorized = { x = 4 y = 1 }
 						heavy_armor = { x = 0 y = 2 } heavy_armor = { x = 1 y = 2 } heavy_armor = { x = 2 y = 2 } motorized = { x = 3 y = 2 }	motorized = { x = 4 y = 2 }
-						heavy_armor = { x = 0 y = 3 } heavy_armor_sp_anti_air_brigade = { x = 1 y = 3 } heavy_sp_anti_air_brigade = { x = 2 y = 3 } motorized = { x = 3 y = 3 }	motorized = { x = 4 y = 3 }
+						heavy_armor = { x = 0 y = 3 } heavy_sp_anti_air_brigade = { x = 1 y = 3 } heavy_sp_anti_air_brigade = { x = 2 y = 3 } motorized = { x = 3 y = 3 }	motorized = { x = 4 y = 3 }
 																																					motorized = { x = 4 y = 4 }
 						}											
 					support = { engineer = { x = 0 y = 0 } mot_recon = { x = 0 y = 1 } logistics_company = { x = 0 y = 2 } maintenance_company = { x = 0 y = 3 }  }
@@ -3178,7 +3178,7 @@ SOV_great_patriotic_war = {
 		SOV_spawn = { 
 		icon = GFX_decision_generic_army_support
 		allowed = { tag = SOV }
-		visible = { is_debug = yes  }
+		available = { date > 1940.1.1 date < 1941.6.1 }
 		complete_effect = { custom_effect_tooltip = "We will deploy 570 empty 2w divisions which can be trained to our desired template." hidden_effect = { load_oob = "SOV_Belarus_Deployment"} }
 	}
 }

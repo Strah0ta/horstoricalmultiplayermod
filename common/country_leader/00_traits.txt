@@ -35,6 +35,7 @@ leader_traits = {
 		training_time_army_factor = -0.5
 		mobilization_speed = 1
 		production_lack_of_resource_penalty_factor = -1
+		air_mission_efficiency = -1
 	}
 		stalin_barb_leader_trait = {
 	random = no
@@ -293,7 +294,7 @@ leader_traits = {
 		air_chief_cost_factor = -0.75
 		army_chief_cost_factor = -0.75
 		navy_chief_cost_factor = -0.75
-		conscription = 0.1
+		conscription = 0.15
 	}
 	
 	nationalist_symbol = {
@@ -1003,6 +1004,7 @@ leader_traits = {
 		sprite = 5
 		training_time_army_factor = -0.9
 		attrition = -1
+		mobilization_speed = 3
 	}	
 
 	army_chief_reform_1 = { # Rate at which field experience is gained increases by 5%

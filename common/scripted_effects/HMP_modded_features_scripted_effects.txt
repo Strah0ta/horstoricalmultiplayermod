@@ -3351,16 +3351,29 @@ create_field_marshal = {
 	logistics_skill = 6
 }
 
-create_field_marshal = {
+create_corps_commander = {
 	name = "Jean de Lattre de Tassigny"
 	picture = "Portrait_France_Jean_de_Lattre_de_Tassigny.dds"
-	traits = {  trickster organizer logistics_wizard expert_improviser brilliant_strategist desert_fox aggressive_assaulter panzer_leader panzer_expert trait_engineer fortress_buster }
+	traits = {   trickster commando camouflage_expert panzer_leader desert_fox  panzer_expert expert_improviser  }
 	skill = 6
 	attack_skill = 4
 	defense_skill = 5
 	planning_skill = 4
 	logistics_skill = 6
 }
+
+create_field_marshal = {
+	name = "Charles De Gaulle"
+	picture = "Portrait_France_Charles_De_Gaulle.dds"
+		traits = { harsh_leader trickster organizer logistics_wizard expert_improviser brilliant_strategist desert_fox aggressive_assaulter panzer_leader panzer_expert trait_engineer fortress_buster }
+	skill = 7
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 9
+	logistics_skill = 6
+}
+
+
 create_corps_commander = {
 	name = "Antoine-Marie-Benoît Besson"
 	picture = "Portrait_France_Generic_land_2.dds"
@@ -3383,16 +3396,6 @@ create_field_marshal = {
 }
 
 
-create_field_marshal = {
-	name = "Charles De Gaulle"
-	picture = "Portrait_France_Charles_De_Gaulle.dds"
-	traits = {  harsh_leader trickster commando camouflage_expert logistics_wizard panzer_leader desert_fox  panzer_expert expert_improviser  }
-	skill = 7
-	attack_skill = 4
-	defense_skill = 3
-	planning_skill = 9
-	logistics_skill = 6
-}
 
 create_corps_commander = {
 	name = "Philippe Leclerc"

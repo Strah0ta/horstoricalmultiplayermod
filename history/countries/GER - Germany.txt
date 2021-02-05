@@ -154,11 +154,11 @@ set_faction_spymaster = yes
 		autonomous_state = autonomy_reichskommissariat
 		freedom_level = 0.2
 	}
-	set_autonomy = {
-		target = ITA
-		autonomous_state = autonomy_satellite
-		freedom_level = 0.2
-	}	
+	#set_autonomy = {
+	#	target = ITA
+	#	autonomous_state = autonomy_satellite
+	#	freedom_level = 0.2
+	#}	
 	
 add_relation_modifier = {
     target = ROM

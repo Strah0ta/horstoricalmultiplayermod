@@ -89,13 +89,13 @@ equipments = {
 
 		archetype = tac_bomber_equipment
 		priority = 105
-				can_license = no
+		can_license = no
 
 		air_range = 2100
-		maximum_speed = 275   
+		maximum_speed = 275    
 		air_agility = 16
 		air_attack = 5
-		air_defence = 12
+		air_defence = 8
 		air_bombing = 53 #vanilla 10 QUADRUPLED bc production was QUADRUPLED; ALL PLANES ARE PREUPGRADED TO LEVEL 5 AS OF 1.9.3; increased by 20% to account for a removed doctrine tech as of 1.10.3
 		air_ground_attack = 6.6	
 		naval_strike_attack = 8
@@ -115,7 +115,7 @@ equipments = {
 		maximum_speed = 473
 		air_agility = 20
 		air_attack = 8
-		air_defence = 14
+		air_defence = 10
 		air_bombing = 64
 		air_ground_attack = 15
 		
@@ -141,7 +141,7 @@ equipments = {
 		maximum_speed = 484
 		air_agility =25
 		air_attack = 13
-		air_defence = 16
+		air_defence = 12
 		air_bombing = 74
 		air_ground_attack = 20
 		
@@ -167,7 +167,7 @@ equipments = {
 		maximum_speed = 528
 		air_agility = 30
 		air_attack = 20
-		air_defence = 18
+		air_defence = 14
 		air_bombing = 84
 		air_ground_attack = 25
 		
