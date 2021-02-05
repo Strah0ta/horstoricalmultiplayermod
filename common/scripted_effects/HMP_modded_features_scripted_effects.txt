@@ -2856,18 +2856,90 @@ create_field_marshal = {
 HMP_SOV_generals = {
 SOV = {   
 	   create_field_marshal = {
-		name = "Boris Shaposhnikov"
+		name = "Boris Shaposhnikov" #Point Value: 12.5 #2/5/21 +Improv. Expert +Organisational Leader +Inspirational Leader
         picture = "Portrait_Soviet_Boris_Shaposhnikov.dds"
-		traits = {  infantry_leader skilled_staffer commando expert_delegator organizer logistics_wizard  }
+		traits = {  infantry_leader	commando expert_delegator organizer organisational_leader inspirational_leader logistics_wizard expert_improviser  }
 		skill = 7
     attack_skill = 3
     defense_skill = 4
     planning_skill = 5
     logistics_skill = 10
 			}		
+			create_field_marshal = {
+	name = "Kliment Voroshilov" #Point Value: 16.5 #2/5/21 -Inspirational Leader -Organizer
+		picture = "Portrait_Soviet_Kliment_Voroshilov.dds" 
+	traits = { old_guard expert_delegator inflexible_strategist infantry_leader defensive_doctrine ambusher unyielding_defender  }
+	skill = 7
+	attack_skill = 6
+	defense_skill = 6
+	planning_skill = 5
+	logistics_skill = 5
+}
+	
+	
+create_field_marshal = {
+    name = "Grigory Kulik" #Point Value: 16 #2/5/21 -Thorough Planner +Organisational Leader
+    picture = "Portrait_Soviet_Grigory_Kulik.dds"
+	traits = { old_guard inflexible_strategist organizer organisational_leader infantry_leader defensive_doctrine commando skirmisher inspirational_leader unyielding_defender  }
+	skill = 7
+	attack_skill = 6
+	defense_skill = 6
+	planning_skill = 5
+	logistics_skill = 5
+}
 			
+create_field_marshal = {
+	name = "Georgy Zhukov"
+	picture = "Portrait_Soviet_Gregory_Zhukov.dds" #Point Value: 25 -Organizer -Organisational Leader
+	traits = { adaptable offensive_doctrine brilliant_strategist thorough_planner aggressive_assaulter commando logistics_wizard panzer_leader panzer_expert expert_improviser ranger trickster  expert_delegator  }
+	skill = 8
+	attack_skill = 6
+	defense_skill = 5
+	planning_skill = 4
+	logistics_skill = 10
+}		
+create_field_marshal = {
+    name = "Nikandr Chibisov"
+    picture = "Portrait_Soviet_Nikandr_Yevlampyevich_Chibisov.dds"
+	traits = { cavalry_leader cavalry_expert thorough_planner logistics_wizard inspirational_leader organizer } 
+    skill = 7
+	attack_skill = 5
+    defense_skill = 4
+    planning_skill = 8
+    logistics_skill = 7
+}
+create_field_marshal = {
+    name = "Filipp Golikov"
+    picture = "Portrait_Soviet_Filipp_Golikov.dds"
+	traits = { cavalry_leader cavalry_expert ambusher defensive_doctrine logistics_wizard organisational_leader organizer } 
+    skill = 7
+	attack_skill = 5
+    defense_skill = 4
+    planning_skill = 8
+    logistics_skill = 7
+}
+create_field_marshal = {
+    name = "Maksim Purkayev"
+    picture = "Portrait_Soviet_Maksim_Purkayev.dds"
+	traits = { cavalry_leader combined_arms_expert thorough_planner offensive_doctrine logistics_wizard organisational_leader organizer } 
+    skill = 7
+	attack_skill = 5
+    defense_skill = 4
+    planning_skill = 8
+    logistics_skill = 7
+}
+create_field_marshal = {
+	name = "Semyon Budyonny"
+		picture = "Portrait_Soviet_Semyon_Budyonny.dds"
+	traits = {  old_guard commando bearer_of_artillery defensive_doctrine infantry_leader logistics_wizard organizer  }
+		skill = 7
+	attack_skill = 5
+	defense_skill = 4
+	planning_skill = 7
+	logistics_skill = 6
+}
 	create_corps_commander = {
-	name = "Nikolai Vatutin"
+	name = "Nikolai Vatutin" #Point Value: 8
 		picture = "Portrait_Soviet_Nikolai_Fyodorovich_Vatutin.dds"
 	traits = { infantry_leader fake_skilled_staffer_sov organizer trait_reckless }
 		skill = 7
@@ -2878,7 +2950,7 @@ SOV = {
 }		
 
 create_corps_commander = {
-	name = "Kirill Meretskov"
+	name = "Kirill Meretskov" #Point Value: 8
 		picture = "Portrait_Soviet_Kirill_Meretskov.dds"
 	traits = { infantry_leader fake_skilled_staffer_sov organizer trait_reckless }
 		skill = 7
@@ -2889,7 +2961,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Ivan Fedyuninsky"
+	name = "Ivan Fedyuninsky" #Point Value: 8
 		picture = "Portrait_Soviet_Ivan_Fedyuninsky.dds"
 	traits = { infantry_leader skilled_staffer ambusher trait_engineer scavenger trickster guerilla_fighter trait_mountaineer hill_fighter  }
 	skill = 7
@@ -2909,43 +2981,9 @@ create_corps_commander = {
 	planning_skill = 4
 	logistics_skill = 8	
 }
-	
-		create_field_marshal = {
-	name = "Kliment Voroshilov"
-		picture = "Portrait_Soviet_Kliment_Voroshilov.dds"
-	traits = { old_guard skilled_staffer expert_delegator inflexible_strategist organizer infantry_leader defensive_doctrine ambusher inspirational_leader unyielding_defender  }
-	skill = 7
-	attack_skill = 6
-	defense_skill = 6
-	planning_skill = 5
-	logistics_skill = 5
-}
-	
-	
-create_field_marshal = {
-    name = "Grigory Kulik"
-    picture = "Portrait_Soviet_Grigory_Kulik.dds"
-	traits = { old_guard inflexible_strategist organizer thorough_planner infantry_leader defensive_doctrine commando skirmisher inspirational_leader unyielding_defender  }
-	skill = 7
-	attack_skill = 6
-	defense_skill = 6
-	planning_skill = 5
-	logistics_skill = 5
-}
-			
-create_field_marshal = {
-	name = "Georgy Zhukov"
-	picture = "Portrait_Soviet_Gregory_Zhukov.dds"
-	traits = { adaptable offensive_doctrine brilliant_strategist thorough_planner aggressive_assaulter organisational_leader organizer commando logistics_wizard panzer_leader panzer_expert expert_improviser ranger trickster  expert_delegator  }
-	skill = 8
-	attack_skill = 6
-	defense_skill = 5
-	planning_skill = 4
-	logistics_skill = 10
-}
 
 create_corps_commander = {
-	name = "Konstantin Rokossovsky"
+	name = "Konstantin Rokossovsky" #Point Value: 19
 		picture = "Portrait_Soviet_Konstantin_Rokossovsky.dds"
 	traits = {  panzer_leader panzer_expert expert_improviser ranger trait_cautious brilliant_strategist trickster  urban_assault_specialist }
 	skill = 7
@@ -2955,7 +2993,7 @@ create_corps_commander = {
 	logistics_skill = 8
 }		
 create_corps_commander = {
-	name = "Aleksandr Vasilevsky"
+	name = "Aleksandr Vasilevsky" #Point Value: 19
 		picture = "Portrait_Soviet_Aleksandr_Vasilevsky.dds"
 	traits = {  panzer_leader panzer_expert expert_improviser ranger trait_cautious brilliant_strategist trickster  urban_assault_specialist }
 	skill = 7
@@ -2965,7 +3003,7 @@ create_corps_commander = {
 	logistics_skill = 8
 }
 create_corps_commander = {
-	name = "Ivan Chernyakhovsky"
+	name = "Ivan Chernyakhovsky" #Point Value: 19
 		picture = "Portrait_Soviet_Ivan_Chernyakhovsky.dds"
 	traits = {  panzer_leader panzer_expert expert_improviser ranger trait_cautious brilliant_strategist trickster  urban_assault_specialist }
 	skill = 7
@@ -2976,7 +3014,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Dmitry Lelyushenko"
+	name = "Dmitry Lelyushenko" #Point Value: 19
 		picture = "Portrait_Soviet_Dmitri_Danilovich_Lelyushenko.dds"
 	traits = {  panzer_leader panzer_expert expert_improviser ranger trait_cautious brilliant_strategist trickster  urban_assault_specialist }
 	skill = 7
@@ -2989,7 +3027,7 @@ create_corps_commander = {
 
 
 create_corps_commander = {
-	name = "Ivan Konev"
+	name = "Ivan Konev" #Point Value: 21
 		picture = "Portrait_Soviet_Ivan_Konev.dds"
 	traits = { panzer_leader harsh_leader ranger trait_engineer scavenger panzer_expert expert_improviser trickster }
 	skill = 7
@@ -2999,7 +3037,7 @@ create_corps_commander = {
 	logistics_skill = 7
 }
 create_corps_commander = {
-	name = "Vasily Chuikov"
+	name = "Vasily Chuikov" #Point Value: 21
 		picture = "Portrait_Soviet_Vasily_Chuikov.dds"
 	traits = { panzer_leader harsh_leader ranger trait_engineer scavenger panzer_expert expert_improviser trickster }
 	skill = 7
@@ -3009,7 +3047,7 @@ create_corps_commander = {
 	logistics_skill = 7
 }
 create_corps_commander = {
-	name = "Yakov Cherevichenko"
+	name = "Yakov Cherevichenko" #Point Value: 21
 		picture = "Portrait_Soviet_Yakov_Cherevichenko.dds"
 	traits = { panzer_leader harsh_leader ranger trait_engineer scavenger panzer_expert expert_improviser trickster }
 	skill = 7
@@ -3019,7 +3057,7 @@ create_corps_commander = {
 	logistics_skill = 7
 }
 create_corps_commander = {
-	name = "Andrey Yeryomenko"
+	name = "Andrey Yeryomenko" #Point Value: 21
 		picture = "Portrait_Soviet_Andrey_Yeryomenko.dds"
 	traits = { panzer_leader harsh_leader ranger trait_engineer scavenger panzer_expert expert_improviser trickster }
 	skill = 7
@@ -3082,17 +3120,6 @@ create_corps_commander = {
     logistics_skill = 6
 }
 
-create_field_marshal = {
-	name = "Semyon Budyonny"
-		picture = "Portrait_Soviet_Semyon_Budyonny.dds"
-	traits = {  old_guard commando bearer_of_artillery defensive_doctrine infantry_leader logistics_wizard organizer  }
-		skill = 7
-	attack_skill = 5
-	defense_skill = 4
-	planning_skill = 7
-	logistics_skill = 6
-}
-
 create_corps_commander = {
     name = "Rodion Malinovsky"
     picture = "Portrait_Soviet_Rodion_Malinovsky.dds"
@@ -3123,36 +3150,7 @@ create_corps_commander = {
     planning_skill = 8
     logistics_skill = 7
 }
-create_field_marshal = {
-    name = "Nikandr Chibisov"
-    picture = "Portrait_Soviet_Nikandr_Yevlampyevich_Chibisov.dds"
-	traits = { cavalry_leader cavalry_expert thorough_planner logistics_wizard inspirational_leader organizer } 
-    skill = 7
-	attack_skill = 5
-    defense_skill = 4
-    planning_skill = 8
-    logistics_skill = 7
-}
-create_field_marshal = {
-    name = "Filipp Golikov"
-    picture = "Portrait_Soviet_Filipp_Golikov.dds"
-	traits = { cavalry_leader cavalry_expert ambusher defensive_doctrine logistics_wizard organisational_leader organizer } 
-    skill = 7
-	attack_skill = 5
-    defense_skill = 4
-    planning_skill = 8
-    logistics_skill = 7
-}
-create_field_marshal = {
-    name = "Maksim Purkayev"
-    picture = "Portrait_Soviet_Maksim_Purkayev.dds"
-	traits = { cavalry_leader combined_arms_expert thorough_planner offensive_doctrine logistics_wizard organisational_leader organizer } 
-    skill = 7
-	attack_skill = 5
-    defense_skill = 4
-    planning_skill = 8
-    logistics_skill = 7
-}
+
 create_corps_commander = {          #COMBINED ARMS EXPERT + PANZER LEADER ? 
     name = "Issa Pliyev"
     picture = "Portrait_Soviet_Issa_Pliyev.dds"
