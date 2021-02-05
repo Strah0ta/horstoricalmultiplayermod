@@ -827,11 +827,7 @@ GER_desert_flower_mission2 = {
 		hidden_effect ={ SWE ={ country_event = { id = italy.3999 days = 30 }}  }
 				}
 			}		
-	SOV_spawn = { #Jesse
-		allowed = { tag = SOV }
-		visible = { is_debug = yes  }
-		complete_effect = {load_oob = "SOV_Belarus_Deployment"}
-	}
+
 	SOV_spawn2 = { #Jesse
 		allowed = { tag = SOV }
 		visible = { is_debug = yes  }
@@ -3178,6 +3174,12 @@ SOV_great_patriotic_war = {
 		complete_effect = {
 		
 		}
+	}
+		SOV_spawn = { 
+		icon = GFX_decision_generic_army_support
+		allowed = { tag = SOV }
+		visible = { is_debug = yes  }
+		complete_effect = { custom_effect_tooltip = "We will deploy 570 empty 2w divisions which can be trained to our desired template." hidden_effect = { load_oob = "SOV_Belarus_Deployment"} }
 	}
 }
 

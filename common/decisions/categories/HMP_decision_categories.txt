@@ -13,7 +13,7 @@ visible = { has_game_rule = { rule = horst_debug option = HORST_ENABLE_DEBUG }}
 SOV_great_patriotic_war = {
 	icon = patriotic
 	allowed = {	original_tag = SOV	}
-	visible = {	has_war = yes	}
+	#visible = {	has_war = yes	}
 }
 spy_agency = {
 	icon = generic_propaganda

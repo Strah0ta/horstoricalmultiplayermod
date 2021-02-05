@@ -1002,6 +1002,7 @@ leader_traits = {
 	army_chief_drill_sov = { # Decreases training time for ground units
 		sprite = 5
 		training_time_army_factor = -0.9
+		attrition = -1
 	}	
 
 	army_chief_reform_1 = { # Rate at which field experience is gained increases by 5%
