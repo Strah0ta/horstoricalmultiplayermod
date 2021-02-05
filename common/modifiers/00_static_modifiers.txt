@@ -362,19 +362,6 @@ root_out_resistance_mission_modifier = {
 	resistance_target = -0.1
 }
 
-resistance_support_low = {
-	resistance_target = 0.02
-}
-resistance_support_moderate = {
-	resistance_target = 0.06
-}
-resistance_support_high = {
-	resistance_target = 0.012
-}
-resistance_support_max = {
-	resistance_target = 0.20
-}
-
 # modifiers active when an operative has the nationality of the nation it is performing a mission in.
 operative_nationality_mission = {
 	intel_network_gain_factor = 0.3

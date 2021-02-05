@@ -72,6 +72,11 @@ set_technology = {
 		mtg_transport = 1
 armored_car1 = 1		
 }
+
+add_relation_modifier = {
+    target = GER
+    modifier = stahlpakt4
+} 
 add_relation_modifier = {
     target = SPR
     modifier = stahlpakt_ITA

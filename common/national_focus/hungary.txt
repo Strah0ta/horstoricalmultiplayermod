@@ -223,9 +223,6 @@ focus_tree = {
 				bonus = 1.0
 				uses = 1
 				technology = advanced_machine_tools
-				technology = flexible_line
-				technology = streamlined_line
-				technology = assembly_line_production
 			}
 		}
 	}
@@ -362,7 +359,6 @@ focus_tree = {
 				name = HUN_announce_the_gyor_program
 				bonus = 1.0
 				uses = 2
-				technology = advanced_machine_tools
 				technology = flexible_line
 				technology = assembly_line_production
 				technology = streamlined_line
