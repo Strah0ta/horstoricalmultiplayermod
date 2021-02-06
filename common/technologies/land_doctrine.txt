@@ -590,15 +590,15 @@ technologies = {
 		}
 			motorized = {
 			max_organisation = 10
-			default_morale = 0.05			
+			default_morale = 0.15
 		}
 		mechanized = {
 		max_organisation = 10
-			default_morale = 0.05	
+			default_morale = 0.15	
 			}
 		amphibious_mechanized = {
 		max_organisation = 10
-			default_morale = 0.05	
+			default_morale = 0.15	
 			}
 			
 		enable_tactic = tactic_blitz
