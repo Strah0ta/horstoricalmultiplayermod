@@ -2603,7 +2603,7 @@ create_field_marshal = {
 }
 SPR = {
 	create_field_marshal = {
-		name = "Francisco Franco"
+		name = "Francisco Franco" 
 		gfx = "GFX_portrait_spain_francisco_franco"
 		traits = { organisational_leader logistics_wizard brilliant_strategist trait_engineer organizer panzer_leader fast_planner expert_improviser desert_fox ranger trickster aggressive_assaulter   }
 		skill = 7
