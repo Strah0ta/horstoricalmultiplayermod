@@ -338,23 +338,36 @@ spy_agency = {
 
 
 propaganda_effortsx = {
-		war_propaganda = {
+	
+			war_propaganda = {
 		icon = generic_prepare_civil_war
 		allowed = {	normally_played_country = yes 	}		
 		available = {
-				NOT = { has_country_flag = war_propaganda_campaign_running }
 				threat > 0.1
 			}
 		fire_only_once = no
-		days_remove = 90
-		cost = 100
-		modifier = {	war_support_weekly = 0.01	}
+		days_remove = -1
+		cost = 0
+		modifier = {	war_support_weekly = 0.01 political_power_gain = -1	}
 		complete_effect = {
-				custom_effect_tooltip = "Gives 12.85% War Support in total. Decision will be available again in 90 days."
-			set_country_flag = war_propaganda_campaign_running
 		}
 		remove_effect = {
-			clr_country_flag = war_propaganda_campaign_running
+		}
+	}
+		war_propaganda_cancel = {
+		icon = generic_industry
+		allowed = {
+			normally_played_country =yes
+		}
+		available = {
+		}
+		visible = {
+			has_decision = war_propaganda
+		}
+		fire_only_once = no
+		cost = 0
+		complete_effect = {
+			remove_decision = war_propaganda
 		}
 	}
 	USA_execute_war_plan_silver = {
@@ -471,7 +484,6 @@ every_country = {
 		complete_effect = {
 		}
 	}
-	
 	}
 
 	operations = {

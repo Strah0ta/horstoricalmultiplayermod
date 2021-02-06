@@ -1843,9 +1843,9 @@ create_corps_commander = {          #COMBINED ARMS EXPERT + PANZER LEADER ?
 	}
 ALB = {
 create_field_marshal = {
-    name = "Kamil Shabib" #Point Value: 18.5
+    name = "Kamil Shabib" #Point Value: 16 #2/6/21 -Ambusher
     portrait_path =  "gfx/leaders/ALB/Portrait_IRQ_Kamil_Shabib.tga"		
-	traits = { defensive_doctrine organizer logistics_wizard infantry_leader panzer_leader ambusher inspirational_leader organisational_leader  }
+	traits = { defensive_doctrine organizer logistics_wizard infantry_leader panzer_leader inspirational_leader organisational_leader  }
 	skill = 6
 	attack_skill = 2
 	defense_skill = 5
@@ -1854,9 +1854,9 @@ create_field_marshal = {
 }
 
 create_corps_commander = { 
-    name = "Fahmi Said" #Point Value: 23
+    name = "Fahmi Said" #Point Value: 20 #2/6/21 -Camo. Expert -Hill Fighter +Organizer
     picture = "Portrait_Fahmi_Said.dds"
-	traits = {  panzer_leader panzer_expert ambusher camouflage_expert desert_fox trait_mountaineer hill_fighter skirmisher }
+	traits = {  panzer_leader panzer_expert ambusher desert_fox trait_mountaineer organizer skirmisher }
     skill = 7
     attack_skill = 5
     defense_skill = 4
@@ -1864,9 +1864,9 @@ create_corps_commander = {
     logistics_skill = 7
 }
 create_corps_commander = {
-	name = "Salah al-Din al-Sabbagh" #Point Value: 21
+	name = "Salah al-Din al-Sabbagh" #Point Value: 20 #2/6/21 -Hill Fighter -Camo. Expert +Commando +Organizer
 	picture = "Portrait_Salah_al_Din_al_Sabbagh.dds"
-	traits = { hill_fighter trait_mountaineer infantry_leader trait_engineer desert_fox trickster infantry_expert camouflage_expert }
+	traits = { organizer trait_mountaineer infantry_leader trait_engineer desert_fox trickster infantry_expert commando }
 	skill = 6
 	attack_skill = 5
 	defense_skill = 4
@@ -1874,9 +1874,9 @@ create_corps_commander = {
 	logistics_skill = 6
 }
 create_corps_commander = {
-	name = "Mahmud Salman" #Point Value: 22
+	name = "Mahmud Salman" #Point Value: 20 #2/6/21 -Omprov. Expert +Organizer
 	picture = "Portrait_Mahmud_Salman.dds"
-	traits = {  infantry_leader trait_engineer trickster expert_improviser commando paratrooper camouflage_expert infantry_expert  }
+	traits = {  infantry_leader trait_engineer trickster guerilla_fighter commando paratrooper camouflage_expert infantry_expert  }
 	skill = 7
 	attack_skill = 6
 	defense_skill = 4
