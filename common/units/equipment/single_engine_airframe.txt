@@ -148,7 +148,7 @@ equipments = {
 
 		upgrades = { }
 
-		air_superiority = 2
+		air_superiority = 1
 		reliability = 0.8
 		
 		# Air vs Ground
@@ -158,7 +158,7 @@ equipments = {
 		naval_strike_attack = 3
 		naval_strike_targetting = 10
 		
-		build_cost_ic = 66
+		build_cost_ic = 33
 		resources = {
 			aluminium = 1
 			rubber = 1
@@ -514,7 +514,7 @@ equipments = {
 		air_range = 1050
 		maximum_speed = 27429 
 		air_agility = 35
-		air_attack = 6
+		air_attack = 2
 		air_defence = 14
 		air_ground_attack = 15
 
@@ -534,11 +534,11 @@ equipments = {
 		air_range = 1500
 		maximum_speed = 27495
 		air_agility = 39
-		air_attack = 9
+		air_attack = 4
 		air_defence = 16
 		air_ground_attack = 17.5
 		
-		build_cost_ic = 72
+		build_cost_ic = 36
 		resources = {
 			#oil = 1
 			aluminium = 1
@@ -561,11 +561,11 @@ equipments = {
 		air_range = 1800
 		maximum_speed = 27605
 		air_agility = 44
-		air_attack = 12
+		air_attack = 6
 		air_defence = 20
 		air_ground_attack = 20
 		
-		build_cost_ic = 78
+		build_cost_ic = 39
 		resources = {
 			#oil = 2
 			aluminium = 1

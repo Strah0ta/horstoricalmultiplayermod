@@ -3027,9 +3027,9 @@ create_corps_commander = {
 
 
 create_corps_commander = {
-	name = "Ivan Konev" #Point Value: 21
+	name = "Ivan Konev" #Point Value: 20 #2/6/21 -Scavenger +Camo. Expert
 		picture = "Portrait_Soviet_Ivan_Konev.dds"
-	traits = { panzer_leader harsh_leader ranger trait_engineer scavenger panzer_expert expert_improviser trickster }
+	traits = { panzer_leader harsh_leader ranger trait_engineer camouflage_expert panzer_expert expert_improviser trickster }
 	skill = 7
 	attack_skill = 4
 	defense_skill = 4
@@ -3037,9 +3037,9 @@ create_corps_commander = {
 	logistics_skill = 7
 }
 create_corps_commander = {
-	name = "Vasily Chuikov" #Point Value: 21
+	name = "Vasily Chuikov" #Point Value: 20 #2/6/21 -Scavenger +Camo. Expert
 		picture = "Portrait_Soviet_Vasily_Chuikov.dds"
-	traits = { panzer_leader harsh_leader ranger trait_engineer scavenger panzer_expert expert_improviser trickster }
+	traits = { panzer_leader harsh_leader ranger trait_engineer camouflage_expert panzer_expert expert_improviser trickster }
 	skill = 7
 	attack_skill = 4
 	defense_skill = 4
@@ -3047,9 +3047,9 @@ create_corps_commander = {
 	logistics_skill = 7
 }
 create_corps_commander = {
-	name = "Yakov Cherevichenko" #Point Value: 21
+	name = "Yakov Cherevichenko" #Point Value: 20 #2/6/21 -Scavenger +Camo. Expert
 		picture = "Portrait_Soviet_Yakov_Cherevichenko.dds"
-	traits = { panzer_leader harsh_leader ranger trait_engineer scavenger panzer_expert expert_improviser trickster }
+	traits = { panzer_leader harsh_leader ranger trait_engineer camouflage_expert panzer_expert expert_improviser trickster }
 	skill = 7
 	attack_skill = 4
 	defense_skill = 4
@@ -3057,9 +3057,9 @@ create_corps_commander = {
 	logistics_skill = 7
 }
 create_corps_commander = {
-	name = "Andrey Yeryomenko" #Point Value: 21
+	name = "Andrey Yeryomenko" #Point Value: 20 #2/6/21 -Scavenger +Camo. Expert
 		picture = "Portrait_Soviet_Andrey_Yeryomenko.dds"
-	traits = { panzer_leader harsh_leader ranger trait_engineer scavenger panzer_expert expert_improviser trickster }
+	traits = { panzer_leader harsh_leader ranger trait_engineer camouflage_expert panzer_expert expert_improviser trickster }
 	skill = 7
 	attack_skill = 4
 	defense_skill = 4
@@ -3258,7 +3258,7 @@ create_navy_leader = {
 HMP_ALLIED_generals = {
 NOR = { 
 create_corps_commander = {
-	name = "Carl Gustav Fleischer"
+	name = "Carl Gustav Fleischer" 
 	portrait_path = "gfx/leaders/NOR/portrait_norway_carl_gustav_flesicher.tga"
 	traits = {  trickster expert_improviser hill_fighter naval_invader naval_liason invader_ii trait_mountaineer infantry_leader infantry_expert  }
 	skill = 5

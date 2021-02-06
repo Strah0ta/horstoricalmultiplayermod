@@ -326,7 +326,7 @@ equipments = {
 
 		}
 
-		air_superiority = 0
+		air_superiority = 0.1
 		reliability = 0.8
 
 		naval_strike_attack = 0
@@ -350,7 +350,7 @@ equipments = {
 		air_agility = 31.2
 		air_attack = 0
 		air_defence = 16.2	
-		build_cost_ic = 50
+		build_cost_ic = 22
 		naval_strike_attack = 0
 		naval_strike_targetting = 0
 	}
@@ -366,7 +366,7 @@ equipments = {
 		air_agility = 37.5
 		air_attack = 0
 		air_defence = 18.7
-		build_cost_ic = 50
+		build_cost_ic = 22
 		resources = {		
 			aluminium = 1
 			rubber = 1
