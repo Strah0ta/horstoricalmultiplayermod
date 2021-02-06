@@ -1697,9 +1697,9 @@ create_field_marshal = {
 	name = "Fedor von Bock" #Point Value: 20 #2/4/21 -Fake Skilled Staffer +Skilled Staffer
 	picture = "Portrait_Germany_Fedor_von_Bock.dds"
 	traits = { harsh_leader infantry_leader infantry_expert skilled_staffer trickster expert_improviser adaptable }
-	skill = 7
-    attack_skill = 7
-    defense_skill = 4
+	skill = 6
+    attack_skill = 5
+    defense_skill = 3
     planning_skill = 6
     logistics_skill = 5
 }
