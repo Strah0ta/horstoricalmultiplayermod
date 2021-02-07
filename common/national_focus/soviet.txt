@@ -757,12 +757,10 @@ focus_tree = {
 
 		select_effect = {
 			country_event = { id = soviet.24 days = 1 }
-			set_country_flag = SOV_purge_started
 		}
 		completion_reward = {
 		add_political_power = 120
 		country_event = { id = soviet.53 }
-			
 				add_timed_idea = {
 					idea = officers_purged
 					days = 1460
