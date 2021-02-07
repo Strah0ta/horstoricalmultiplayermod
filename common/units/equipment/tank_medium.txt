@@ -197,7 +197,7 @@ equipments = {
 		armor_value = 50
 
 		#Offensive Abilities
-		soft_attack = 59
+		soft_attack = 62.4
 		hard_attack = 1.5
 		
 		build_cost_ic = 13
@@ -230,7 +230,7 @@ equipments = {
 		armor_value = 58
 
 		#Offensive Abilities
-		soft_attack = 70
+		soft_attack = 80.1
 		hard_attack = 2
 		
 		build_cost_ic = 14
