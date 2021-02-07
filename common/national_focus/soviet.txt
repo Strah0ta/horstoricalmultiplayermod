@@ -745,7 +745,7 @@ focus_tree = {
 		}	
 		
 	focus = {
-		id = SOV_great_purge
+		id = SOV_great_purge_NEW
 		icon = GFX_focus_SOV_purge
 		available = {
 			date > 1937.6.1 
@@ -780,10 +780,10 @@ focus_tree = {
 	focus = {
 		id = SOV_military_reorganization
 		icon = GFX_goal_generic_army_doctrines
-		prerequisite = { focus = SOV_great_purge }
+		prerequisite = { focus = SOV_great_purge_NEW }
 		x = -1
 		y = 1
-		relative_position_id = SOV_great_purge
+		relative_position_id = SOV_great_purge_NEW
 		cost = 10
 
 		available_if_capitulated = yes
@@ -816,10 +816,10 @@ focus_tree = {
 	focus = {
 		id = SOV_nkvd_primacy
 		icon = GFX_goal_generic_military_deal
-		prerequisite = { focus = SOV_great_purge }
+		prerequisite = { focus = SOV_great_purge_NEW }
 		x = 1
 		y = 1
-		relative_position_id = SOV_great_purge
+		relative_position_id = SOV_great_purge_NEW
 		cost = 10
 		
 		available_if_capitulated = yes
