@@ -1202,6 +1202,7 @@ create_corps_commander = {
 		visible = { NOT = { EFR = { has_completed_focus = VIC_join_axis }}}
 		
 		complete_effect = {
+			load_oob = "ENG_EFR"
 		GER = { remove_from_faction = EFR }
 		EFR = { set_country_flag = EFR_torch_declared diplomatic_relation = { country = GER relation = military_access	active = yes	} diplomatic_relation = { country = ITA relation = military_access	active = yes	} diplomatic_relation = { country = ROM relation = military_access	active = yes	} diplomatic_relation = { country = BUL relation = military_access	active = yes	} diplomatic_relation = { country = HUN relation = military_access	active = yes	} if = { limit= {country_exists = ALB }diplomatic_relation = { country = ALB relation = military_access	active = yes	}}}
 				USA = { country_event = { id = usa.996  days = 0 } 
@@ -1279,9 +1280,11 @@ create_corps_commander = {
 			deploy_egypt = {   
 	    icon = generic_civil_support 
         allowed = {  original_tag = ENG    }
+		available = { has_manpower > 552000 }
         cost = 0
         fire_only_once = yes
 		complete_effect = { 
+		add_manpower = -552000
 			hidden_effect = {  load_oob = "ENG_EGY"  }
 				custom_effect_tooltip = "We will deploy our army in Egypt (unequipped)."
 			}	

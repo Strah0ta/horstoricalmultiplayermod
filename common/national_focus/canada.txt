@@ -485,6 +485,7 @@ focus_tree = {
 
 		completion_reward = {
 			add_ideas = CAN_send_in_the_zombies
+			add_ideas = extensive_conscription
 		}
 	}
 

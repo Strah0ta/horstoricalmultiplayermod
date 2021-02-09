@@ -1,0 +1,303 @@
+﻿division_template = {
+	name = "Torch Mountaineer Corps"
+	division_names_group = ENG_INF_01
+	regiments = {
+		mountaineers = { x = 0 y = 0 } mountaineers = { x = 1 y = 0 } mountaineers = { x = 2 y = 0 } anti_tank_brigade = { x = 3 y = 0 }
+		mountaineers = { x = 0 y = 1 } mountaineers = { x = 1 y = 1 } mountaineers = { x = 2 y = 1 } anti_tank_brigade = { x = 3 y = 1 }
+		mountaineers = { x = 0 y = 2 } mountaineers = { x = 1 y = 2 } mountaineers = { x = 2 y = 2 } 								
+	}
+			support = { engineer = { x = 0 y = 0 } anti_air = { x = 0 y = 1 } artillery = { x = 0 y = 2 }  rocket_artillery = { x = 0 y = 3 } anti_tank = { x = 0 y = 4 } logistics_company = { x = 0 y = 5 }  }
+}	
+
+units = { 
+			division= {	
+		location = 4135
+		division_template = "Torch Mountaineer Corps"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.01
+		}
+			division= {	
+		location = 4135
+		division_template = "Torch Mountaineer Corps"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.01
+		}
+				division= {	
+		location = 4135
+		division_template = "Torch Mountaineer Corps"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.01
+		}
+			division= {	
+		location = 4135
+		division_template = "Torch Mountaineer Corps"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.01
+		}	
+			division= {	
+		location = 4135
+		division_template = "Torch Mountaineer Corps"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.01
+		}
+			division= {	
+		location = 4135
+		division_template = "Torch Mountaineer Corps"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.01
+		}
+				division= {	
+		location = 4135
+		division_template = "Torch Mountaineer Corps"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.01
+		}
+			division= {	
+		location = 4135
+		division_template = "Torch Mountaineer Corps"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.01
+		}			
+					division= {	
+		location = 4135
+		division_template = "Torch Mountaineer Corps"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.01
+		}
+			division= {	
+		location = 4135
+		division_template = "Torch Mountaineer Corps"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.01
+		}
+				division= {	
+		location = 4135
+		division_template = "Torch Mountaineer Corps"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.01
+		}
+			division= {	
+		location = 4135
+		division_template = "Torch Mountaineer Corps"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.01
+		}	
+			division= {	
+		location = 4135
+		division_template = "Torch Mountaineer Corps"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.01
+		}
+			division= {	
+		location = 4135
+		division_template = "Torch Mountaineer Corps"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.01
+		}
+				division= {	
+		location = 4135
+		division_template = "Torch Mountaineer Corps"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.01
+		}
+			division= {	
+		location = 4135
+		division_template = "Torch Mountaineer Corps"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.01
+		}	
+				division= {	
+		location = 4135
+		division_template = "Torch Mountaineer Corps"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.01
+		}
+			division= {	
+		location = 4135
+		division_template = "Torch Mountaineer Corps"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.01
+		}
+				division= {	
+		location = 4135
+		division_template = "Torch Mountaineer Corps"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.01
+		}
+			division= {	
+		location = 4135
+		division_template = "Torch Mountaineer Corps"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.01
+		}	
+			division= {	
+		location = 4135
+		division_template = "Torch Mountaineer Corps"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.01
+		}
+			division= {	
+		location = 4135
+		division_template = "Torch Mountaineer Corps"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.01
+		}
+				division= {	
+		location = 4135
+		division_template = "Torch Mountaineer Corps"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.01
+		}
+			division= {	
+		location = 4135
+		division_template = "Torch Mountaineer Corps"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.01
+		}			
+					division= {	
+		location = 4135
+		division_template = "Torch Mountaineer Corps"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.01
+		}
+			division= {	
+		location = 4135
+		division_template = "Torch Mountaineer Corps"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.01
+		}
+				division= {	
+		location = 4135
+		division_template = "Torch Mountaineer Corps"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.01
+		}
+			division= {	
+		location = 4135
+		division_template = "Torch Mountaineer Corps"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.01
+		}	
+			division= {	
+		location = 4135
+		division_template = "Torch Mountaineer Corps"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.01
+		}
+			division= {	
+		location = 4135
+		division_template = "Torch Mountaineer Corps"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.01
+		}
+				division= {	
+		location = 4135
+		division_template = "Torch Mountaineer Corps"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.01
+		}
+			division= {	
+		location = 4135
+		division_template = "Torch Mountaineer Corps"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.01
+		}		
+				division= {	
+		location = 4135
+		division_template = "Torch Mountaineer Corps"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.01
+		}
+			division= {	
+		location = 4135
+		division_template = "Torch Mountaineer Corps"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.01
+		}
+				division= {	
+		location = 4135
+		division_template = "Torch Mountaineer Corps"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.01
+		}
+			division= {	
+		location = 4135
+		division_template = "Torch Mountaineer Corps"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.01
+		}	
+			division= {	
+		location = 4135
+		division_template = "Torch Mountaineer Corps"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.01
+		}
+			division= {	
+		location = 4135
+		division_template = "Torch Mountaineer Corps"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.01
+		}
+				division= {	
+		location = 4135
+		division_template = "Torch Mountaineer Corps"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.01
+		}
+			division= {	
+		location = 4135
+		division_template = "Torch Mountaineer Corps"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.01
+		}			
+					division= {	
+		location = 4135
+		division_template = "Torch Mountaineer Corps"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.01
+		}
+			division= {	
+		location = 4135
+		division_template = "Torch Mountaineer Corps"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.01
+		}
+				division= {	
+		location = 4135
+		division_template = "Torch Mountaineer Corps"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.01
+		}
+			division= {	
+		location = 4135
+		division_template = "Torch Mountaineer Corps"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.01
+		}	
+			division= {	
+		location = 4135
+		division_template = "Torch Mountaineer Corps"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.01
+		}
+			division= {	
+		location = 4135
+		division_template = "Torch Mountaineer Corps"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.01
+		}
+				division= {	
+		location = 4135
+		division_template = "Torch Mountaineer Corps"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.01
+		}
+			division= {	
+		location = 4135
+		division_template = "Torch Mountaineer Corps"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.01
+		}		
+		
+		
+	}
