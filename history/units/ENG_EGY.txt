@@ -21,18 +21,7 @@ division_template = {
 }	
 
 units = { 
-		division= {	
-		location = 5081
-		division_template = "Egyptian Mountaineer Corps"
-		start_experience_factor = 0.3
-		start_equipment_factor = 0.01
-		}	
-		division= {	
-		location = 5081
-		division_template = "Egyptian Mountaineer Corps"
-		start_experience_factor = 0.3
-		start_equipment_factor = 0.01
-		}		
+
 		division= {	
 		location = 5081
 		division_template = "Egyptian Mountaineer Corps"
@@ -57,18 +46,7 @@ units = {
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.01
 		}		
-			division= {	
-		location = 7117
-		division_template = "Egyptian Mountaineer Corps"
-		start_experience_factor = 0.3
-		start_equipment_factor = 0.01	
-	}		
-			division= {	
-		location = 7117
-		division_template = "Egyptian Mountaineer Corps"
-		start_experience_factor = 0.3
-		start_equipment_factor = 0.01
-		}		
+	
 			division= {	
 		location = 7117
 		division_template = "Egyptian Mountaineer Corps"
@@ -192,5 +170,148 @@ units = {
 		division_template = "Egyptian Camel Corps"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.01
+		}	
+
+
+			division= {	
+		location = 1071
+		division_template = "Egyptian Camel Corps"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.01
 		}		
+			division= {	
+		location = 1071
+		division_template = "Egyptian Camel Corps"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.01
+		}		
+			division= {	
+		location = 1071
+		division_template = "Egyptian Camel Corps"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.01
+		}		
+	
+					division= {	
+		location = 1071
+		division_template = "Egyptian Camel Corps"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.01
+		}	
+
+
+
+			division= {	
+		location = 12099
+		division_template = "Egyptian Camel Corps"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.01
+		}		
+			division= {	
+		location = 12099
+		division_template = "Egyptian Camel Corps"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.01
+		}		
+			division= {	
+		location = 12099
+		division_template = "Egyptian Camel Corps"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.01
+		}		
+	
+					division= {	
+		location = 12099
+		division_template = "Egyptian Camel Corps"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.01
+		}	
+
+
+		division= {	
+		location = 10900
+		division_template = "Egyptian Mountaineer Corps"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.01
+		}	
+		division= {	
+		location = 10900
+		division_template = "Egyptian Mountaineer Corps"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.01
+		}		
+		division= {	
+		location = 10900
+		division_template = "Egyptian Mountaineer Corps"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.01
+		}		
+			division= {	
+		location = 10900
+		division_template = "Egyptian Mountaineer Corps"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.01
+		}		
+		division= {	
+		location = 10900
+		division_template = "Egyptian Mountaineer Corps"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.01
+		}	
+			division= {	
+		location = 10900
+		division_template = "Egyptian Mountaineer Corps"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.01
+		}	
+
+		division= {	
+		location = 10127
+		division_template = "Egyptian Mountaineer Corps"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.01
+		}	
+		division= {	
+		location = 10127
+		division_template = "Egyptian Mountaineer Corps"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.01
+		}		
+		division= {	
+		location = 10127
+		division_template = "Egyptian Mountaineer Corps"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.01
+		}		
+			division= {	
+		location = 10127
+		division_template = "Egyptian Mountaineer Corps"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.01
+		}		
+
+			division= {	
+		location = 1143
+		division_template = "Egyptian Mountaineer Corps"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.01
+		}	
+		division= {	
+		location = 1143
+		division_template = "Egyptian Mountaineer Corps"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.01
+		}		
+		division= {	
+		location = 1143
+		division_template = "Egyptian Mountaineer Corps"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.01
+		}		
+			division= {	
+		location = 1143
+		division_template = "Egyptian Mountaineer Corps"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.01
+		}	
 	}

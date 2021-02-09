@@ -713,7 +713,7 @@ ideas = {
 			
 			allowed = {	original_tag = USA	}
 	
-			traits = { army_logistics_2 }
+			traits = { army_armored_2 }
 
 		}
 		

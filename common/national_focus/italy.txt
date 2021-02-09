@@ -591,10 +591,16 @@ date > 1941.6.1
 		x = 1
 		y = 2
 		relative_position_id = ITA_modernized_army
-		cost = 10
+		cost = 5
 		available_if_capitulated = yes
 
 		completion_reward = {
+			add_tech_bonus = {
+				name = armor_bonus
+				bonus = 1.0
+				uses = 1
+				technology = basic_medium_tank
+			}	
 			add_tech_bonus = {
 				name = armor_bonus
 				bonus = 1.0
