@@ -4146,25 +4146,25 @@ create_corps_commander = {
 	logistics_skill = 8
 }
 create_field_marshal = {
-	name = "Percival John Montague"
+	name = "Percival John Montague" # point value: 14
 	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
-	traits = { defensive_doctrine organisational_leader organizer thorough_planner logistics_wizard infantry_leader ambusher naval_invader naval_liason }
+	traits = { defensive_doctrine organisational_leader logistics_wizard infantry_leader ambusher }
 	skill = 6
-    attack_skill = 1
+    attack_skill = 2
     defense_skill = 5
     planning_skill = 3
     logistics_skill = 9
 }
 
 create_field_marshal = { #TO-DO
-	name = "Harry Crerar"
+	name = "Harry Crerar" # point value: 14
 	picture = "Portrait_CAN_Harry_Crerar.tga"
-	traits = {  infantry_leader brilliant_strategist naval_invader}
-	skill = 5
-		attack_skill = 5
+	traits = {  infantry_leader brilliant_strategist naval_invader aggressive_assaulter infantry_expert Organizer logistics_wizard trait_mountaineer naval_liason}
+	skill = 6
+		attack_skill = 6
 		defense_skill = 4
 		planning_skill = 4
-		logistics_skill = 2
+		logistics_skill = 5
 }
 create_corps_commander = {
 	name = "Thomas Victor Anderson"
