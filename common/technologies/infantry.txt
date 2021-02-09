@@ -668,7 +668,6 @@ technologies = {
 	
 	
 	camelry_tech = {
-		allow = {  camelry_nations = yes }		
 		enable_subunits = {
 			camelry
 		}
