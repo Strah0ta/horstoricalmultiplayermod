@@ -4156,7 +4156,16 @@ create_field_marshal = {
     logistics_skill = 9
 }
 
-
+create_field_marshal = { #TO-DO
+	name = "Harry Crerar"
+	picture = "Portrait_CAN_Harry_Crerar.tga"
+	traits = {  infantry_leader brilliant_strategist naval_invader}
+	skill = 5
+		attack_skill = 5
+		defense_skill = 4
+		planning_skill = 4
+		logistics_skill = 2
+}
 create_corps_commander = {
 	name = "Thomas Victor Anderson"
 	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"

@@ -28,7 +28,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/traits/trait_operative_double_agent.dds"
 	}
 
-		
+	spriteType = {
+		name = "GFX_Portrait_CAN_Harry_Crerar"
+		texturefile = "gfx/leaders/CAN/Portrait_CAN_Harry_Crerar.tga"		
+	}	
+			
 	spriteType = {
 		name = "GFX_portrait_norway_ruge"
 		texturefile = "gfx/leaders/NOR/portrait_norway_ruge.dds"		
