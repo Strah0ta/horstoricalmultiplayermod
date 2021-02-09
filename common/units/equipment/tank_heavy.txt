@@ -190,7 +190,7 @@ equipments = {
 		visual_level = 1
 
 		#Misc Abilities
-		maximum_speed = 6.6
+		maximum_speed = 6.5
 
 		#Defensive Abilities
 		defense = 6
@@ -223,7 +223,7 @@ equipments = {
 		visual_level = 2
 
 		#Misc Abilities
-		maximum_speed = 6.6
+		maximum_speed = 7.5
 
 		#Defensive Abilities
 		defense = 7
@@ -312,7 +312,7 @@ equipments = {
 		visual_level = 1
 
 		#Misc Abilities
-		maximum_speed = 6.6
+		maximum_speed = 6.5
 
 		#Defensive Abilities
 		defense = 6
@@ -347,7 +347,7 @@ equipments = {
 		visual_level = 2
 		
 		#Misc Abilities
-		maximum_speed = 6.6
+		maximum_speed = 7.5
 
 		#Defensive Abilities
 		defense = 7
@@ -438,7 +438,7 @@ equipments = {
 		visual_level = 1
 
 		#Misc Abilities
-		maximum_speed = 7
+		maximum_speed = 6.5
 
 		#Defensive Abilities
 		defense = 3
@@ -473,7 +473,7 @@ equipments = {
 		visual_level = 2
 		
 		#Misc Abilities
-		maximum_speed = 7
+		maximum_speed = 7.5
 		reliability = 0.8
 
 		

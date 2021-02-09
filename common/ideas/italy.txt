@@ -435,7 +435,7 @@ ideas = {
 			on_add = { hidden_effect = { make_naval_designers_free = yes } }
 	
 			available = {
-			has_completed_focus = ITA_mare_nostrum
+				ITA = { has_completed_focus = ITA_mare_nostrum }
 			}
 							cost = 50
 			research_bonus = {

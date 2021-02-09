@@ -189,7 +189,7 @@ equipments = {
 		}
 
 		#Misc Abilities
-		maximum_speed = 9.8
+		maximum_speed = 10
 
 		#Defensive Abilities
 		defense = 6
@@ -313,7 +313,7 @@ equipments = {
 		}
 
 		#Misc Abilities
-		maximum_speed = 9.8
+		maximum_speed = 10
 
 		#Defensive Abilities
 		defense = 6

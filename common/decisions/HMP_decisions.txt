@@ -777,9 +777,10 @@ GER_desert_flower_dec = {
 				} }
 	fire_only_once = yes
 	complete_effect = {
-			if = { limit = { AND = { NOT = {EFR = { has_country_flag = EFR_torch_declared}} EFR = {owns_state = 26 }} } EFR = { every_owned_state = {  set_demilitarized_zone = yes } 26 = { set_demilitarized_zone = no  } } } 
-		if = { limit = { FRA = { owns_state = 539 }EFR = { owns_state = 554 }} FRA = { transfer_state = 554 } ITA = { set_state_controller = 554 } country_event = { id = germany.378 } 554 = { set_demilitarized_zone = no }}
-		if = { limit = { ENG = { owns_state = 539 }EFR = { owns_state = 554 }} ENG = { transfer_state = 554 } ITA = { set_state_controller = 554 } country_event = { id = germany.378 } 554 = { set_demilitarized_zone = no }}
+		ITA = { transfer_state = 554 } 554 = { set_demilitarized_zone = no } country_event = { id = germany.378 }
+		if = { limit = { NOT = { ALB = { owns_state = 291 }}} 		ITA = { transfer_state = 291 } }
+		if = { limit = { AND = { NOT = {EFR = { has_country_flag = EFR_torch_declared}} EFR = {owns_state = 26 }} } EFR = { every_owned_state = {  set_demilitarized_zone = yes } 26 = { set_demilitarized_zone = no  } } } 
+
 		291 = { set_building_level = {
 					type = infrastructure
 					level = 10
@@ -975,7 +976,7 @@ hidden_effect = {
 				allowed = {	original_tag = USA }
 				fire_only_once = yes
 				cost = 0	
-				complete_effect = { USA = { add_to_war = { targeted_alliance = ENG	enemy = GER	} } add_ideas = war_economy activate_decision = war_bonds add_political_power = -200 
+				complete_effect = { USA = { add_to_war = { targeted_alliance = ENG	enemy = GER	} } add_ideas = war_economy activate_decision = war_bonds add_political_power = -150 
 				hidden_effect = { if = { limit = { EFR = {owns_state = 26 } NOT = {EFR ={ has_country_flag = EFR_torch_declared }} }EFR = { every_owned_state = {  set_demilitarized_zone = yes } 26 = { set_demilitarized_zone = no  }  } } }
 				}
 			}		
