@@ -240,22 +240,8 @@ ideas = {
 		pietro_badoglio = {	
 			allowed = {	original_tag = ITA }
 			
-			traits = { army_chief_offensive_2 }
+			traits = { army_chief_offensive_3 }
 		}
-		
-		ugo_cavallero = {
-			allowed = {
-				original_tag = ITA
-			}	
-			traits = { army_chief_maneuver_2 }
-		}
-		
-		emilio_de_bono = {
-			allowed = {
-				original_tag = ITA
-			}
-			traits = { army_chief_defensive_2 }
-		}	
 	}
 	navy_chief = {
 		domenico_cavagnari = {		
@@ -280,7 +266,7 @@ ideas = {
 	air_chief = {
 		italo_balbo = {
 			allowed = {	original_tag = ITA	}
-			traits = { air_chief_ground_support_2 }
+			traits = { air_chief_ground_support_3 }
 		}
 	}	
 	
@@ -290,7 +276,19 @@ ideas = {
 			allowed = {	original_tag = ITA	}					
 			traits = { army_regrouping_2 }
 		}
+				ugo_cavallero = {
+			allowed = {
+				original_tag = ITA
+			}	
+			traits = { army_chief_maneuver_2 }
+		}
 		
+		emilio_de_bono = {
+			allowed = {
+				original_tag = ITA
+			}
+			traits = { army_chief_defensive_2 }
+		}	
 		vittorio_ambrosio = {
 			ledger = army
 			allowed = {	original_tag = ITA	}	
@@ -303,11 +301,11 @@ ideas = {
 			traits = { army_infantry_3 }
 		}	
 		
-		ettore_muti = {
-			ledger = air
-			allowed = {	original_tag = ITA	}
-			traits = { air_chief_ground_support_2 }
-		}
+		#ettore_muti = {
+		#	ledger = air
+		#	allowed = {	original_tag = ITA	}
+		#	traits = { air_chief_ground_support_2 }
+		#}
 		
 		alberto_da_zara = {
 			ledger = navy
