@@ -76,42 +76,7 @@ guiTypes = {
 					format = left
 					Orientation = "UPPER_LEFT"
 				}
-				instantTextBoxType = {
-					name = "infantry_subtitle_specialists1"
-					position = { x = 40 y = 1120 }
-					textureFile = ""
-					font = "hoi_36header"
-					borderSize = { x = 0 y = 0}
-					text = "INFANTRY_TITLE_WEAPONS33"
-					maxWidth = 600
-					maxHeight = 62
-					format = left
-					Orientation = "UPPER_LEFT"
-				}
-				instantTextBoxType = {
-					name = "infantry_subtitle_specialists2"
-					position = { x = 40 y = 1015 }
-					textureFile = ""
-					font = "hoi_36header"
-					borderSize = { x = 0 y = 0}
-					text = "INFANTRY_TITLE_WEAPONS33"
-					maxWidth = 600
-					maxHeight = 62
-					format = left
-					Orientation = "UPPER_LEFT"
-				}
-				instantTextBoxType = {
-					name = "infantry_subtitle_specialists3"
-					position = { x = 40 y = 910 }
-					textureFile = ""
-					font = "hoi_36header"
-					borderSize = { x = 0 y = 0}
-					text = "INFANTRY_TITLE_WEAPONS33"
-					maxWidth = 600
-					maxHeight = 62
-					format = left
-					Orientation = "UPPER_LEFT"
-				}				
+ 			
 				instantTextBoxType = {
 					name = "infantry_subtitle_specialists"
 					position = { x = 40 y = 840 }
@@ -124,32 +89,7 @@ guiTypes = {
 					format = left
 					Orientation = "UPPER_LEFT"
 				}
-				instantTextBoxType = {
-					name = "infantry_subtitle_camelry"
-					position = { x = 40 y = 1200 }
-					textureFile = ""
-					font = "hoi_36header"
-					borderSize = { x = 0 y = 0}
-					text = "INFANTRY_TITLE_CAMELRY"
-					maxWidth = 600
-					maxHeight = 62
-					format = left
-					Orientation = "UPPER_LEFT"
-				} 
-				
-								instantTextBoxType = {
-					name = "infantry_subtitle_jager"
-					position = { x = 40 y = 1330 }
-					textureFile = ""
-					font = "hoi_36header"
-					borderSize = { x = 0 y = 0}
-					text = "INFANTRY_TITLE_JAGER"
-					maxWidth = 600
-					maxHeight = 62
-					format = left
-					Orientation = "UPPER_LEFT"
-				}
-				
+
 				
 				instantTextBoxType = {
 					name = "infantry_subtitle_motorized"

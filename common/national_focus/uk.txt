@@ -847,13 +847,9 @@ add_equipment_production = {
 		}
 	}
 
-
-	### EMPIRE ###
-
 	focus = {
 		id = uk_empire_focus 
-
-		icon = GFX_focus_eng_imperial_federation
+		icon = GFX_focus_ENG_imp_conference
 		x = 16
 		y = 0
 
@@ -1054,7 +1050,7 @@ add_equipment_production = {
 		id = ENG_imperial_conference
 		prerequisite = { focus = uk_colonial_focus }
 
-		icon = GFX_focus_ENG_imp_conference
+		icon = GFX_focus_eng_imperial_federation
 
 		x = 1
 		y = 1

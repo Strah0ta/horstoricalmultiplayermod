@@ -1545,9 +1545,9 @@ create_navy_leader = {
 	coordination_skill = 4
 }
 create_corps_commander = { #for Africa 
-	name = "Erwin Rommel" #Point Value: 20      #2/4/21 -Organizer
+	name = "Erwin Rommel" #Point Value: 20     #2/10/21 +Engineer -Improv Expert.
 	picture = "Portrait_Germany_Erwin_Rommel.dds"
-	traits = {  trickster expert_improviser  panzer_leader panzer_expert desert_fox hill_fighter urban_assault_specialist  }
+	traits = {  trickster trait_engineer organizer  panzer_leader panzer_expert desert_fox hill_fighter urban_assault_specialist  }
 	skill = 7
     attack_skill = 6
     defense_skill = 3

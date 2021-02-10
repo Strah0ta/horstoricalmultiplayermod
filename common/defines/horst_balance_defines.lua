@@ -41,6 +41,7 @@ NDefines.NMilitary.ORG_LOSS_FACTOR_ON_CONQUER = 0.25            -- vanilla is 0.
 
 
 ------PARATROOPER REWORK SO THEY DONT LOSE EQUIPMENT-------
+NDefines.NCountry.PARADROP_AIR_SUPERIORITY_RATIO = 0.9			-- Min ratio of air superiority for paradropping
 NDefines.NMilitary.PARACHUTE_FAILED_EQUIPMENT_DIV = 0		   -- When the transport plane was shot down, we drop unit with almost NONE equipment
 NDefines.NMilitary.PARACHUTE_FAILED_MANPOWER_DIV = 0	   -- When the transport plane was shot down, we drop unit with almost NONE manpower
 NDefines.NMilitary.PARACHUTE_FAILED_STR_DIV = 0			   -- When the transport plane was shot down, we drop unit with almost NONE strenght

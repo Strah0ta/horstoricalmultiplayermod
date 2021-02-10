@@ -311,7 +311,21 @@ ideas = {
 			
 			traits = { army_commando_2 }
 		}
-		
+				NZL_h_d_mcgregor = {
+			ledger = air
+
+			picture = generic_air_europe_3
+			
+			allowed = {
+				original_tag = NZL
+			}
+			
+			traits = { test_stuff2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
 		NZL_trevor_handley = {
 			ledger = army
 

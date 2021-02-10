@@ -169,25 +169,6 @@ ideas = {
 			}
 		}
 
-		ROM_acquire_modern_tanks = {
-
-			picture = generic_acquire_tanks
-
-			removal_cost = -1
-			
-			allowed = {
-				original_tag = ROM
-			}
-
-			allowed_civil_war = {
-
-			}
-			
-			modifier = {
-				license_armor_purchase_cost = -0.75
-			}
-		}
-
 		ROM_reserve_divisions = {
 
 			picture = generic_reserve_divisions
@@ -461,7 +442,7 @@ ideas = {
 			
 			picture = generic_air_europe_3
 			
-			traits = { air_strategic_bombing_2  }
+			traits = { test_stuff2  }
 
 		}
 	}
@@ -474,7 +455,7 @@ ideas = {
 					on_add = { hidden_effect = { make_tank_designers_free = yes } }
 			picture = generic_tank_manufacturer_3
 			cost = 150
-			allowed = {	the_axis = yes }
+			allowed = {	OR = { the_axis = yes tag = MAN tag = JAP } }
 			research_bonus = { armor = 0.15  }
 			traits = { tank_destroyer_manufacturer  }
 			equipment_bonus = {  }

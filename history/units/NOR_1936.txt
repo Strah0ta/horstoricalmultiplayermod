@@ -75,4 +75,24 @@ instant_effect = {
 		progress = 0.54
 		efficiency = 100
 	}
+			add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+			creator = "NOR"
+		}
+		requested_factories = 1
+		progress = 0.54
+		efficiency = 100
+	}
+			add_equipment_production = {
+		equipment = {
+			type = motorized_equipment_1
+			creator = "NOR"
+		}
+		requested_factories = 1
+		progress = 0.54
+		efficiency = 100
+	}
+	
+	
 }

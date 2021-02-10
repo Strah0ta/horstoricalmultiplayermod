@@ -1271,7 +1271,19 @@ ideas = {
 				}
 			
 			traits = { army_armored_3 }
-		}
+		
+		}	
+				
+		kurt_student = {
+			ledger = air
+
+			
+			allowed = {
+				original_tag = GER
+			}
+			
+			traits = { test_stuff }
+		}	
 		
 		gerd_von_rundstedt = {
 			ledger = army

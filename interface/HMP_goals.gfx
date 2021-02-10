@@ -396,7 +396,7 @@ SpriteType = {
 	
 SpriteType = { 
 		name = "GFX_focus_ENG_air_rearm"
-		texturefile = "gfx/interface/goals/focus_ENG_air_rearm.dds"
+		texturefile = "gfx/interface/goals/focus_ENG_air_rearm.tga"
 	}
 	
 	SpriteType = { 

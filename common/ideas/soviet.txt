@@ -622,6 +622,11 @@ ideas = {
 			traits = { winter_fox }
 		}
 		
+		pavel_zhigarev = {
+			ledger = air
+			allowed = {	original_tag = SOV }
+			traits = { test_stuff1 }
+		}		
 		aleksandr_vasilevsky = {
 			ledger = army
 

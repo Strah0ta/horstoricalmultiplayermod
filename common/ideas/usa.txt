@@ -138,7 +138,8 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-			special_forces_training_time_factor = -0.5
+				special_forces_training_time_factor = -0.5
+				modifier_army_sub_unit_paratrooper_defence_factor = 0.15
 			}
 		}
 		USA_womens_armed_service_integration_act = {
