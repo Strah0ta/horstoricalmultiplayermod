@@ -1508,6 +1508,18 @@ leader_traits = {
 		navy_screen_defence_factor = 0.15
 	}
 	
+		navy_chief_decisive_battle_ITA = {
+		sprite = 3
+		navy_capital_ship_attack_factor = 0.20
+		navy_capital_ship_defence_factor = 0.20
+		navy_screen_attack_factor = 0.15
+		navy_screen_defence_factor = 0.15
+		convoy_raiding_efficiency_factor = 0.15
+		navy_anti_air_attack_factor = 0.15
+		navy_submarine_detection_factor = 0.15
+	}
+	
+	
 	
 	navy_chief_commerce_raiding_1 = {
 		sprite = 3

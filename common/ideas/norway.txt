@@ -180,7 +180,7 @@ country = {
 			ledger = army
 			picture = generic_army_europe_2
 			allowed = {	original_tag = NOR }
-			traits = { army_armored_1 }
+			traits = { army_armored_2 }
 		}
 
 		NOR_birger_ljungberg = {

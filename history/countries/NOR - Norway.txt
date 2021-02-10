@@ -2,7 +2,7 @@
 
 oob = "NOR_1936"
 set_rule = { can_join_factions = no }
-set_research_slots = 3
+set_research_slots = 4
 set_rule = { can_be_spymaster = no }
 add_ideas = {
 	limited_conscription
