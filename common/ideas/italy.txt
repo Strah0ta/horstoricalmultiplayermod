@@ -240,7 +240,7 @@ ideas = {
 		pietro_badoglio = {	
 			allowed = {	original_tag = ITA }
 			
-			traits = { army_chief_ground_support }
+			traits = { army_chief_offensive_2 }
 		}
 		
 		ugo_cavallero = {
@@ -294,13 +294,13 @@ ideas = {
 		vittorio_ambrosio = {
 			ledger = army
 			allowed = {	original_tag = ITA	}	
-			traits = { army_armored_2 }
+			traits = { army_armored_3 }
 		}
 		
 		alfredo_guzzoni = {
 			ledger = army
 			allowed = {	original_tag = ITA	}
-			traits = { army_infantry_2 }
+			traits = { army_infantry_3 }
 		}	
 		
 		ettore_muti = {
