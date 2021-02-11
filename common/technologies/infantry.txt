@@ -943,7 +943,18 @@ technologies = {
 				movement = 0.1
 			}
 		}
-
+		jaeger = {
+			jungle = {
+				attack = 0.05
+				movement = 0.1
+			}
+		}
+		camelry = {
+		jungle = {
+				attack = 0.05
+				movement = 0.1
+			}
+		}
 		paratrooper = {
 			jungle = {
 				attack = 0.05

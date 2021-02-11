@@ -82,6 +82,7 @@ ideas = {
 			
 			modifier = {
 				conscription = 0.075
+				winter_attrition_factor = 0.5
 			}		
 		
 		}
@@ -244,18 +245,6 @@ ideas = {
 		}
 	}
 	navy_chief = {
-		domenico_cavagnari = {		
-			allowed = {
-				original_tag = ITA
-			}	
-			traits = { navy_chief_commerce_raiding_2 }
-		}
-		
-		arturo_riccardi = {
-		allowed = {		original_tag = ITA	}
-			traits = { navy_chief_naval_aviation_2 }
-		}
-		
 		carlo_bergamini = {
 			allowed = {
 				original_tag = ITA

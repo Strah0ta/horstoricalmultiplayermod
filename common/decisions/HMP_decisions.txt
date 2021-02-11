@@ -841,11 +841,11 @@ GER_desert_flower_mission2 = {
 				}
 			}		
 
-	SOV_spawn2 = { #Jesse
-		allowed = { tag = SOV }
-		visible = { is_debug = yes  }
-		complete_effect = {load_oob = "SOV_Gorki_Deployment"}
-	}	
+	#SOV_spawn2 = { 
+	#	allowed = { tag = SOV }
+	#	visible = { is_debug = yes  }
+	#	complete_effect = {load_oob = "SOV_Gorki_Deployment"}
+	#}	
 GER_case_anton = {
 	icon = generic_prepare_civil_war		
 	allowed = { OR = { tag = EFR tag = GER tag = ENG }}				

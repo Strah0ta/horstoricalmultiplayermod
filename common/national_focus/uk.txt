@@ -63,6 +63,7 @@ focus_tree = {
 		}
 			
 			}
+			if = { limit = { SWE = { owns_state = 282 }} every_country ={ limit = { is_in_faction_with = ENG } add_ideas = japan_no_asia } }
 		}
 	}
 	focus = {
