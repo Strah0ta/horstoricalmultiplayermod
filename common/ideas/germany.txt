@@ -26,7 +26,7 @@ ideas = {
 			allowed = {	always = yes	}
 			removal_cost = -1
 			picture = generic_air_payment
-			equipment_bonus = {	fighter_equipment = { build_cost_ic = -0.2 instant = yes	}	}
+			equipment_bonus = {	fighter_equipment = { build_cost_ic = -0.2 instant = yes	} heavy_fighter_equipment = { build_cost_ic = -0.2 instant = yes	} CAS_equipment = { build_cost_ic = -0.2 instant = yes	}	}
 			modifier = { industrial_capacity_factory = -0.25 }
 		}
 		GER_totaler_krieg_idea = {
