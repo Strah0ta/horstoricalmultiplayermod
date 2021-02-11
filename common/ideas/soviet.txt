@@ -79,6 +79,15 @@ ideas = {
 				max_dig_in = -5
 			}
 		}
+		red_airforce_resurgent = {
+			allowed = { always = no 	}
+			picture = generic_air_bonus
+			available = { }
+			allowed_civil_war = {	has_government = communism	}	
+			equipment_bonus = {
+				sov_fighter_equipment = { air_defence = 0.2 }
+			}
+		}
 		SOV_270 = { 
 			allowed = { always = no 	}
 			picture = generic_manpower_bonus

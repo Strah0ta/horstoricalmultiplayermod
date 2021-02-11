@@ -1558,21 +1558,21 @@ create_corps_commander = {  #for fighting in Italy
     name = "Hasso von Manteuffel" #Point Value: 20  #2/4/21 -Organizer +Urban Assault Spec.
         picture = "Portrait_Germany_Hasso_von_Manteuffel.dds"
     traits = { trickster expert_improviser brilliant_strategist panzer_leader hill_fighter trait_mountaineer urban_assault_specialist panzer_expert  }
-    skill = 6
+    skill = 7
    attack_skill = 5
-    defense_skill = 3
-    planning_skill = 4
+    defense_skill = 5
+    planning_skill = 6
     logistics_skill = 6
 }
 create_corps_commander = { #for France/Forts
 	name = "Erich von Manstein" #Point Value: 21  #2/4/21 -Organizer 
 	picture = "Portrait_Germany_Erich_von_Manstein.dds"
 	traits = {  trickster panzer_leader panzer_expert brilliant_strategist ranger trait_engineer fortress_buster }
-	skill = 6
+	skill = 7
     attack_skill = 5
     defense_skill = 4
-    planning_skill = 5
-    logistics_skill = 5
+    planning_skill = 6
+    logistics_skill = 7
 }
 create_corps_commander = { #for Barbarossa
 	name = "Heinz Guderian" #Point Value: 20   #2/4/21 +Engineer
@@ -2490,7 +2490,7 @@ create_field_marshal = {
 }
 
 create_corps_commander = {
-	name = "Ioan Mihail Racovita" #Point Value: 29 
+	name = "Ioan Mihail Racovita" #Point Value: 29  
 	gfx = GFX_Portrait_romania_ioan_mihail_racovita #NERF THIS
 	traits = { hill_fighter trait_mountaineer infantry_leader trait_engineer urban_assault_specialist trickster expert_improviser infantry_expert fortress_buster naval_invader invader_ii }
 	skill = 7
@@ -2983,9 +2983,9 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Konstantin Rokossovsky" #Point Value: 19
+	name = "Konstantin Rokossovsky" #Point Value: 20 #2/11/21 +Organizer
 		picture = "Portrait_Soviet_Konstantin_Rokossovsky.dds"
-	traits = {  panzer_leader panzer_expert expert_improviser ranger trait_cautious brilliant_strategist trickster  urban_assault_specialist }
+	traits = {  organizer panzer_leader panzer_expert expert_improviser ranger trait_cautious brilliant_strategist trickster  urban_assault_specialist }
 	skill = 7
 	attack_skill = 4
 	defense_skill = 5
@@ -2993,9 +2993,9 @@ create_corps_commander = {
 	logistics_skill = 8
 }		
 create_corps_commander = {
-	name = "Aleksandr Vasilevsky" #Point Value: 19
+	name = "Aleksandr Vasilevsky" #Point Value: 20 #2/11/21 +Organizer
 		picture = "Portrait_Soviet_Aleksandr_Vasilevsky.dds"
-	traits = {  panzer_leader panzer_expert expert_improviser ranger trait_cautious brilliant_strategist trickster  urban_assault_specialist }
+	traits = {  organizer panzer_leader panzer_expert expert_improviser ranger trait_cautious brilliant_strategist trickster  urban_assault_specialist }
 	skill = 7
 	attack_skill = 4
 	defense_skill = 5
@@ -3003,9 +3003,9 @@ create_corps_commander = {
 	logistics_skill = 8
 }
 create_corps_commander = {
-	name = "Ivan Chernyakhovsky" #Point Value: 19
+	name = "Ivan Chernyakhovsky" #Point Value: 20 #2/11/21 +Organizer
 		picture = "Portrait_Soviet_Ivan_Chernyakhovsky.dds"
-	traits = {  panzer_leader panzer_expert expert_improviser ranger trait_cautious brilliant_strategist trickster  urban_assault_specialist }
+	traits = {  organizerpanzer_leader panzer_expert expert_improviser ranger trait_cautious brilliant_strategist trickster  urban_assault_specialist }
 	skill = 7
 	attack_skill = 4
 	defense_skill = 5
@@ -3014,9 +3014,9 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Dmitry Lelyushenko" #Point Value: 19
+	name = "Dmitry Lelyushenko" #Point Value: 20 #2/11/21 +Organizer
 		picture = "Portrait_Soviet_Dmitri_Danilovich_Lelyushenko.dds"
-	traits = {  panzer_leader panzer_expert expert_improviser ranger trait_cautious brilliant_strategist trickster  urban_assault_specialist }
+	traits = {  organizer panzer_leader panzer_expert expert_improviser ranger trait_cautious brilliant_strategist trickster  urban_assault_specialist }
 	skill = 7
 	attack_skill = 4
 	defense_skill = 5
