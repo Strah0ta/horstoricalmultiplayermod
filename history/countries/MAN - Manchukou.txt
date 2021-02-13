@@ -34,6 +34,7 @@ add_ideas = {
 	MAN_banditry
 	armyandnavy_idea
 	MAN_low_legitimacy_5
+	low_economic_mobilisation
 } 
 add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 8000 }
 

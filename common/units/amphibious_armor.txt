@@ -41,6 +41,7 @@ sub_units = {
 		}
 		mountain = 	{
 		    attack = -0.1
+			defence = -0.30
 		}
 		plains = {
 			attack = -0.1
@@ -49,6 +50,7 @@ sub_units = {
 		jungle = {
 		    attack = -0.3
 			movement = -0.4
+			defence = -0.50
 		}
 		urban = {
 			attack = -0.4
@@ -56,6 +58,7 @@ sub_units = {
 		}
 		marsh = {
 			attack = 0.3
+			defence = -0.15
 		}
 		river = {
 			attack = 0.4

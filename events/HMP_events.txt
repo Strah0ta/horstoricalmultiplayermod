@@ -282,7 +282,7 @@ country_event = {
 
 	option = {
 		name = poland.100.a
-		GER = { add_ideas = GER_mefo_bills_2 } ITA = { add_ideas = GER_mefo_bills_2 }
+		GER = { add_ideas = GER_mefo_bills_2 } ITA = { add_ideas = GER_mefo_bills_2 } SPR = { add_ideas = GER_mefo_bills_2 }
 	}
 }
 
@@ -1668,13 +1668,6 @@ is_triggered_only = yes
 			496 = {	add_resource = {  type = steel amount = 16} }
 			328 = {	add_resource = {  type = aluminium amount = 16}	}
 			annex_country = { target = MAN transfer_troops = yes }
-   		add_tech_bonus = {
-			name = "Integrate Manchukuo"
-			bonus = 1.0
-			uses = 10
-			category = land_doctrine
-			category = excavation_tech
-		}
 			add_tech_bonus = {
 			name = "Integrate Manchukuo"
 			bonus = 3.0

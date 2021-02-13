@@ -23,7 +23,7 @@ equipments = {
 		#Defensive Abilities
 		defense = 10
 		breakthrough = 74
-		hardness = 0.99
+		hardness = 0.995
 		armor_value = 160
 
 		#Offensive Abilities
@@ -35,7 +35,7 @@ equipments = {
 		#Space taken in convoy
 		lend_lease_cost = 7 #was 15 
 		
-		build_cost_ic = 42.5 #was 100 note: number required for 1 batallion was doubled
+		build_cost_ic = 28.5.5#was 100 note: number required for 1 batallion was doubled
 		resources = {
 			#oil = 2
 			steel = 3
@@ -80,7 +80,7 @@ equipments = {
 		#Defensive Abilities
 		defense = 7
 		breakthrough = 3.5
-		hardness = 0.9
+		hardness = 0.95
 		armor_value = 100
 
 		#Offensive Abilities
@@ -89,7 +89,7 @@ equipments = {
 		ap_attack = 9
 		air_attack = 0
 		
-		build_cost_ic = 42.5 #was 100 note: number required for 1 battalion was doubled
+		build_cost_ic = 28.5#was 100 note: number required for 1 battalion was doubled
 		resources = {
 			#oil = 2
 			steel = 3
@@ -136,7 +136,7 @@ equipments = {
 		#Defensive Abilities
 		defense = 7
 		breakthrough = 1.8
-		hardness = 0.99
+		hardness = 0.995
 		armor_value = 145
 
 		#Offensive Abilities
@@ -145,7 +145,7 @@ equipments = {
 		ap_attack = 214
 		air_attack = 0
 		
-		build_cost_ic = 42.5 #was 100 note: number required for 1 battalion was doubled
+		build_cost_ic = 28.5#was 100 note: number required for 1 battalion was doubled
 		resources = {
 			#oil = 2
 			steel = 3
@@ -192,7 +192,7 @@ equipments = {
 		#Defensive Abilities
 		defense = 3.5
 		breakthrough = 3.5
-		hardness = 0.9
+		hardness = 0.95
 		armor_value = 100
 
 		#Offensive Abilities
@@ -201,7 +201,7 @@ equipments = {
 		ap_attack = 98
 		air_attack = 80
 		
-		build_cost_ic = 42.5 #was 100 note: number required for 1 battalion was doubled
+		build_cost_ic = 28.5#was 100 note: number required for 1 battalion was doubled
 		resources = {
 			#oil = 2
 			steel = 3

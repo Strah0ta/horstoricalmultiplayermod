@@ -167,15 +167,15 @@ instant_build = yes
     }
  if = { limit = { NOT = {  has_start_date > 1936.01.02 }  }      
       41 = { 
- add_extra_state_shared_building_slots = 5
+ add_extra_state_shared_building_slots = 6
 add_building_construction = {
 type = industrial_complex
-level = 4
+level = 3
 instant_build = yes
 }
 add_building_construction = {
 type = arms_factory 
-level = 1
+level = 3
 instant_build = yes
 }
    }
@@ -193,20 +193,6 @@ level = 2
 instant_build = yes
 }
    }
-   2 = { 
- add_extra_state_shared_building_slots = 4
-add_building_construction = {
-type = industrial_complex
-level = 2
-instant_build = yes
-}
-add_building_construction = {
-type = arms_factory 
-level = 2
-instant_build = yes
-}
-   }
-
 }
 
 
@@ -231,21 +217,7 @@ instant_build = yes
    }
       64 = { 
 	  	  add_resource = { type = steel amount = 20 }
- add_extra_state_shared_building_slots = 3
-add_building_construction = {
-type = industrial_complex
-level = 1
-instant_build = yes
-}
-add_building_construction = {
-type = arms_factory 
-level = 2
-instant_build = yes
-}
-   }
-      2 = { 
-	  	  add_resource = { type = steel amount = 20 }
- add_extra_state_shared_building_slots = 5
+ add_extra_state_shared_building_slots = 7
 add_building_construction = {
 type = industrial_complex
 level = 3
@@ -253,11 +225,11 @@ instant_build = yes
 }
 add_building_construction = {
 type = arms_factory 
-level = 2
+level = 4
 instant_build = yes
 }
-   }   
-   
+   }
+
  }
 
 
@@ -1485,7 +1457,7 @@ SOV = { transfer_state = 147 add_state_core = 147 transfer_state = 146 add_state
 HMP_script_spain = {
 	ENG = { add_ideas = partial_economic_mobilisation add_war_support = 0.1  add_political_power = -150 }
 	RAJ = { add_ideas = partial_economic_mobilisation add_war_support = 0.1  add_political_power = -150 }
-	SPR = { add_ideas = SPR_cg_debuff add_threat = 3 }	
+	SPR = { add_threat = 3 }	
 }
 
 HMP_script_generals = {   #most generals and admirals are here so it is easy for me to parse through leaders without going through 20 files -Thrasymachus
@@ -3032,9 +3004,9 @@ create_corps_commander = {
 	traits = { panzer_leader harsh_leader ranger trait_engineer camouflage_expert panzer_expert expert_improviser trickster }
 	skill = 7
 	attack_skill = 4
-	defense_skill = 4
+	defense_skill = 3
 	planning_skill = 5
-	logistics_skill = 9
+	logistics_skill = 10
 }
 create_corps_commander = {
 	name = "Vasily Chuikov" #Point Value: 20 #2/6/21 -Scavenger +Camo. Expert
@@ -3042,9 +3014,9 @@ create_corps_commander = {
 	traits = { panzer_leader harsh_leader ranger trait_engineer camouflage_expert panzer_expert expert_improviser trickster }
 	skill = 7
 	attack_skill = 4
-	defense_skill = 4
+	defense_skill = 3
 	planning_skill = 5
-	logistics_skill = 9
+	logistics_skill = 10
 }
 create_corps_commander = {
 	name = "Yakov Cherevichenko" #Point Value: 20 #2/6/21 -Scavenger +Camo. Expert
@@ -3052,9 +3024,9 @@ create_corps_commander = {
 	traits = { panzer_leader harsh_leader ranger trait_engineer camouflage_expert panzer_expert expert_improviser trickster }
 	skill = 7
 	attack_skill = 4
-	defense_skill = 4
+	defense_skill = 3
 	planning_skill = 5
-	logistics_skill = 9
+	logistics_skill = 10
 }
 create_corps_commander = {
 	name = "Andrey Yeryomenko" #Point Value: 20 #2/6/21 -Scavenger +Camo. Expert
@@ -3062,9 +3034,9 @@ create_corps_commander = {
 	traits = { panzer_leader harsh_leader ranger trait_engineer camouflage_expert panzer_expert expert_improviser trickster }
 	skill = 7
 	attack_skill = 4
-	defense_skill = 4
+	defense_skill = 3
 	planning_skill = 5
-	logistics_skill = 9
+	logistics_skill = 10
 }
 
 

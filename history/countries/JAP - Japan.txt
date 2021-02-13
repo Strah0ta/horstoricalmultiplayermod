@@ -25,6 +25,12 @@ add_tech_bonus = {
 	category = radar_tech
 	category = air_doctrine
 }
+	add_tech_bonus = {
+				name = "Lessons from China"
+				bonus = 1.0
+				uses = 6
+				category = land_doctrine
+			}
 create_intelligence_agency = yes
 add_ideas = armyandnavy_idea
 add_relation_modifier = { target = MAN modifier = asiapakt } 

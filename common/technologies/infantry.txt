@@ -282,11 +282,11 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1.5
-		start_year = 1942
+		research_cost = 1
+		start_year = 1941
 		folder = {
 			name = infantry_folder
-			position = { x = 2 y = @1942 }
+			position = { x = 2 y = @1941 }
 		}
 		
 		categories = {
@@ -302,7 +302,7 @@ technologies = {
 			ap_attack = 1
 		}
 		
-		research_cost = 1.5
+		research_cost = 1
 		start_year = 1943
 		folder = {
 			name = infantry_folder

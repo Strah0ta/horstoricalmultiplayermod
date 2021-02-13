@@ -73,6 +73,14 @@ guiTypes = {
 			scale = 0.70
 		}
 		buttonType = {
+			name = "annex_country" 
+			position = {x=370 y=190}	
+			spriteType = "GFX_global_diplorequest_icons"
+            		frame = 2
+			pdx_tooltip = "ANNEX_COUNTRY"
+			pdx_tooltip_delayed = "ANNEX_COUNTRY_DELAYED"
+		}
+		buttonType = {
 			name = "addpp"	
 			position = {x=168 y=192}
 			spriteType = "GFX_horst_addpp"

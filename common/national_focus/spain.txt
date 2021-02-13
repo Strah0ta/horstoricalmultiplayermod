@@ -483,13 +483,13 @@ focus_tree = {
 	
 	focus = {
 		id = SPA_national_recovery
-		available = {	date > 1939.1.1 	}
-		
+		available = {	date > 1938.5.1 	}
+		prerequisite = { focus = SPA_dictator_for_life }
 		icon = GFX_goal_generic_consumer_goods
-		x = 18
-		y = 0
-		cost = 5
-
+		x = 0
+		y = 1
+		cost = 10
+		relative_position_id = SPA_dictator_for_life
 		available_if_capitulated = yes
 		search_filters = {FOCUS_FILTER_INDUSTRY}
 
@@ -514,7 +514,7 @@ focus_tree = {
 		x = -2
 		y = 1
 		relative_position_id = SPA_national_recovery
-		cost = 5
+		cost = 10
 
 		available_if_capitulated = yes
 		search_filters = {FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH}
@@ -523,8 +523,7 @@ focus_tree = {
 						add_tech_bonus = {
 				name = SPA_fascist_economic_aid
 				bonus = 1.0
-				uses = 1
-				technology = advanced_machine_tools
+				uses = 2
 				technology = flexible_line
 				technology = assembly_line_production
 				technology = streamlined_line
@@ -543,7 +542,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = SPA_fascist_economic_aid
-		cost = 5
+		cost = 10
 
 		available_if_capitulated = yes
 		search_filters = {FOCUS_FILTER_INDUSTRY}
@@ -583,71 +582,6 @@ focus_tree = {
 	}
 
 	focus = {
-		id = SPA_improve_cross_country_railways
-
-		prerequisite = { focus = SPA_fascist_economic_aid focus = SPA_spanish_austerity }
-		
-		icon = GFX_goal_generic_construct_infrastructure
-		x = 2
-		y = 1
-		relative_position_id = SPA_fascist_economic_aid
-		cost = 5
-
-		available_if_capitulated = yes
-		search_filters = {FOCUS_FILTER_INDUSTRY}
-		completion_reward = {
-			every_owned_state = {
-				limit = {
-					is_controlled_by = ROOT
-					is_core_of = ROOT
-					NOT = {
-						state = 165
-						state = 176
-						state = 41
-					}
-				}
-				add_building_construction = {
-					type = infrastructure
-					level = 1
-					instant_build = yes
-				}
-			}
-			
-			 165 = { add_extra_state_shared_building_slots = 3 }
-			 171 = { add_extra_state_shared_building_slots = 3 }
-			 167 = { add_extra_state_shared_building_slots = 3 }
-
-		}
-	}
-
-	focus = {
-		id = SPA_support_the_war_industry
-
-		prerequisite = { focus = SPA_facilitate_pyrenees_freight_transports }
-		prerequisite = { focus = SPA_improve_cross_country_railways }
-		
-		icon = GFX_goal_generic_construct_civ_factory
-		x = 1
-		y = 1
-		relative_position_id = SPA_facilitate_pyrenees_freight_transports
-		cost = 5
-
-		available_if_capitulated = yes
-
-		search_filters = {FOCUS_FILTER_INDUSTRY}
-		completion_reward = {
-			171 = {
-				add_extra_state_shared_building_slots = 3
-				add_building_construction = {
-					type = arms_factory
-					level = 3
-					instant_build = yes
-				}
-			}
-		}
-	}
-
-	focus = {
 		id = SPA_the_duty_to_work
 
 		prerequisite = { focus = SPA_national_recovery }
@@ -656,36 +590,12 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = SPA_national_recovery
-		cost = 5
+		cost = 10
 
 		available_if_capitulated = yes
 		search_filters = {FOCUS_FILTER_INDUSTRY}
 		completion_reward = {
 			add_ideas = SPA_the_duty_to_work
-					165 = { 		
-							add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = arms_factory
-					level = 1
-					instant_build = yes
-				}
-				}
-		174 = { 		
-			add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = arms_factory
-					level = 1
-					instant_build = yes
-				}
-		}
-				167 = { 		
-			add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = arms_factory
-					level = 1
-					instant_build = yes
-				}
-		}
 		}
 	}
 
@@ -718,47 +628,21 @@ focus_tree = {
 	}
 
 	focus = {
-		id = SPA_expand_the_axis_gold_trade
-		available = {
-		}
-		bypass = {
-		}
+		id = SPA_support_the_war_industry
+
 		prerequisite = { focus = SPA_spanish_austerity }
 		
-		icon = GFX_focus_usa_reestablish_the_gold_standard
+		icon = GFX_goal_generic_construct_civ_factory
 		x = 0
 		y = 1
 		relative_position_id = SPA_spanish_austerity
-		cost = 5
+		cost = 10
 
 		available_if_capitulated = yes
 
-		completion_reward = {
-			add_ideas = SPA_expand_the_axis_gold_trade
-		}
-	}
-
-	focus = {
-		id = SPA_ensure_agricultural_self_sufficiency
-		prerequisite = { focus = SPA_expand_the_axis_gold_trade }
-		prerequisite = { focus = SPA_improve_cross_country_railways }
-		icon = GFX_goal_generic_construct_civ_factory
-		x = -1
-		y = 1
-		relative_position_id = SPA_expand_the_axis_gold_trade
-		cost = 5
-		available_if_capitulated = yes
 		search_filters = {FOCUS_FILTER_INDUSTRY}
 		completion_reward = {
-			41 = {				
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = industrial_complex
-					level = 1
-					instant_build = yes
-				}
-			}
-			174 = {
+			171 = {
 				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = arms_factory

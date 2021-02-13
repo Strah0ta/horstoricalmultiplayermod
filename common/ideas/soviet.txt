@@ -97,7 +97,6 @@ ideas = {
 				army_core_defence_factor = 0.05
 				max_dig_in = -2
 				training_time_army_factor = -0.9
-				supply_consumption_factor = -0.05
 				production_speed_infrastructure_factor = 1.5
 			}
 		}
@@ -111,7 +110,6 @@ ideas = {
 				army_core_defence_factor = 0.1
 				army_core_attack_factor = 0.05				
 				training_time_army_factor = -0.9
-				supply_consumption_factor = -0.05
 				production_speed_infrastructure_factor = 3
 			}
 		}	

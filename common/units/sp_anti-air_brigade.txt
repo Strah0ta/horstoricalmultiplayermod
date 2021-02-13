@@ -230,7 +230,7 @@ sub_units = {
 		combat_width = 1
 
 		need = {
-			super_heavy_tank_aa_equipment = 8 #was 4, but IC was halved
+			super_heavy_tank_aa_equipment = 10 #was 4, but IC was halved
 		}
 		manpower = 500
 		max_organisation = 0
