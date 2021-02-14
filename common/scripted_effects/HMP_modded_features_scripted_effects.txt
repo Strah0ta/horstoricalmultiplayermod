@@ -4507,7 +4507,7 @@ soviet_lend_lease_mechanic_calc = {
 	if = { limit = { NOT = { JAP = { controls_state = 560 } has_start_date > 1936.1.2 } } SOV = { add_to_variable = {  var = SOV_barb_ll_token value = 1 }  add_to_variable = { var = SOV_barb_ll_token2 value = 1 } } }
 	if = { limit = { NOT = { JAP = { controls_state = 488 } has_start_date > 1936.1.2 } } SOV = { add_to_variable = {  var = SOV_barb_ll_token value = 1 }  add_to_variable = { var = SOV_barb_ll_token2 value = 1 } } }
 	if = { limit = { NOT = { JAP = { controls_state = 180 } has_start_date > 1936.1.2 } } SOV = { add_to_variable = {  var = SOV_barb_ll_token value = 1 }  add_to_variable = { var = SOV_barb_ll_token2 value = 1 } } }
-	if = { limit = { ENG = { controls_state = 336 } NOT = { has_start_date > 1936.1.2  } SOV = { add_to_variable = {  var = SOV_barb_ll_token value = 1 }  add_to_variable = { var = SOV_barb_ll_token2 value = 1 } } }
+	if = { limit = { ENG = { controls_state = 336 } NOT = { has_start_date > 1936.1.2 }  } SOV = { add_to_variable = {  var = SOV_barb_ll_token value = 1 }  add_to_variable = { var = SOV_barb_ll_token2 value = 1 } } }
 	if = { limit = { NOT = { has_start_date > 1936.1.2 } ENG = { controls_state = 326 } } SOV = { add_to_variable = {  var = SOV_barb_ll_token value = 1 }  add_to_variable = { var = SOV_barb_ll_token2 value = 1 } } }
 	if = { limit = { NOT = { JAP = { controls_state = 409 } has_start_date > 1936.1.2 } } SOV = { add_to_variable = {  var = SOV_barb_ll_token value = 1 }  add_to_variable = { var = SOV_barb_ll_token2 value = 1 } } }
 }	
