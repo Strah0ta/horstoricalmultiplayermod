@@ -144,13 +144,13 @@ defined_text = { # Country
 	name = GetObjSingapore
 	text = {
 		trigger = {
-		   ENG = { controls_state = 336 } 
+		   ENG = { controls_state = 336 } NOT = { has_start_date > 1936.1.2 }
 		}
 		localization_key = GetSingaporeSecure
 	}
 	text = {
 		trigger = {	
-		  NOT = {  ENG = { controls_state = 336 } } 
+		OR = {  NOT = {  ENG = { controls_state = 336 } }   NOT = {  has_start_date > 1936.1.2 } }
 		}
 		localization_key = GetSingaporeInsecure
 	}

@@ -289,10 +289,12 @@ ideas = {
 			equipment_bonus = {
 				fighter_equipment = {
 					air_defence = -0.2
+					air_attack = -0.1
 					instant = yes
 				}
 				heavy_fighter_equipment = {
 					air_defence = -0.2
+					air_attack = -0.1
 					instant = yes
 				}					
 			}
