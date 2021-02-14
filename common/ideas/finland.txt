@@ -147,7 +147,7 @@ ideas = {
 			
 			picture = generic_army_europe_1
 			
-			traits = { army_regrouping_1 }
+			traits = { army_commando_2 }
 			
 
 		}

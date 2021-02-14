@@ -100,7 +100,7 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
-			hidden_effect = { set_technology = { synth_oil_experiments = 1 fuel_refining2 = 1 fuel_refining3 = 1 fuel_refining4 = 1 popup = no } }
+			hidden_effect = { set_technology = { synth_oil_experiments = 1 fuel_refining2 = 1 fuel_refining3 = 1 fuel_refining4 = 1 fuel_refining5 = 1  popup = no } }
 			custom_effect_tooltip = "We will research modern fuel refining methods"
 		}
 	}
