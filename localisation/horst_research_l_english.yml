@@ -10,6 +10,7 @@
  ETH_CAS_equipment_3:0 "Breda Ba.201"
  modifier_army_sub_unit_paratrooper_defence_factor:0 "Paratrooper Defense"
  ETH_CAS_equipment_3_short:0 "Ba.201"
+ mot_rocket_artillery:0 "Support Mot. Rocket Artillery"
  test_stuff:0 "Paratrooper (Genius)"
  test_stuff1:0 "Paratrooper (Specialist)"
  test_stuff2:0 "Paratrooper (Expert)"
