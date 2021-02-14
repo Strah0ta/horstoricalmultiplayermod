@@ -17,7 +17,7 @@ focus_tree = {
 		icon = GFX_supremacy_of_will
 		x = 7
 		y = 0
-		cost = 10
+		cost = 1
 
 		available_if_capitulated = yes
 

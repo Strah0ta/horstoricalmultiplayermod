@@ -5009,11 +5009,20 @@ add_equipment_to_stockpile = {
     producer = EFR
 }
 add_equipment_to_stockpile = {
-    type = infantry_equipment_0
-    amount = 60000
+    type = infantry_equipment_1
+    amount = 40000
     producer = EFR
 }
-
+add_equipment_to_stockpile = {
+    type = artillery_equipment_1
+    amount = 4000
+    producer = EFR
+}
+add_equipment_to_stockpile = {
+    type = anti_tank_equipment_1
+    amount = 2000
+    producer = EFR
+}
 add_equipment_to_stockpile = {
     type = motorized_equipment_1
     amount = 5000
@@ -5163,7 +5172,7 @@ remove_ideas = FRA_full_employment
 }
 
 
-move_rubber_from_indies_to_congo = { 
+move_rubber_from_indies_to_congo = {  #UNUSED
 	if = { limit = { FRA = { controls_state = 539}}
 		if = { limit = { ENG = { controls_state = 539}}
 				add_resource = { state = 539 type = rubber amount = 0 }

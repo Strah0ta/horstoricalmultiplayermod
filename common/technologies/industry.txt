@@ -656,9 +656,6 @@ technologies = {
 		
 		production_speed_buildings_factor = 0.10
 		industry_repair_factor = 0.10
-		repair_speed_air_base_factor = -0.10	
-		production_speed_air_base_factor = -0.10 
-
 		path = {
 			leads_to_tech = construction2
 			research_cost_coeff = 1
@@ -708,8 +705,6 @@ technologies = {
 
 		production_speed_buildings_factor = 0.10
 		industry_repair_factor = 0.10
-		repair_speed_air_base_factor = -0.10	
-		production_speed_air_base_factor = -0.10 
 	
 	path = {
 			leads_to_tech = construction3 
@@ -762,8 +757,6 @@ technologies = {
 
 		production_speed_buildings_factor = 0.10
 		industry_repair_factor = 0.10
-				repair_speed_air_base_factor = -0.10	
-		production_speed_air_base_factor = -0.10 
 
 		path = {
 			leads_to_tech = construction4 
@@ -817,8 +810,6 @@ technologies = {
 
 		production_speed_buildings_factor = 0.10
 		industry_repair_factor = 0.10
-				repair_speed_air_base_factor = -0.10	
-		production_speed_air_base_factor = -0.10 
 
 		path = {
 			leads_to_tech = construction5 
@@ -869,9 +860,7 @@ technologies = {
 	construction5 = {
 
 		production_speed_buildings_factor = 0.10
-		industry_repair_factor = 0.10
-				repair_speed_air_base_factor = -0.10	
-		production_speed_air_base_factor = -0.10 
+		industry_repair_factor = 0.10 
 
 		path = {
 			leads_to_tech = excavation5
