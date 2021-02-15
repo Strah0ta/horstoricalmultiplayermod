@@ -2023,7 +2023,7 @@ early_ship_hull_carrier = {
 
 		amphibious_invasion = 0.25
 		amphibious_invasion_defence = 0.5
-		naval_invasion_capacity = 100
+		naval_invasion_capacity = 200
 
 		research_cost = 1
 		start_year = 1944

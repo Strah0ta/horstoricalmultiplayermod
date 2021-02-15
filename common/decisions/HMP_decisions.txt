@@ -703,6 +703,7 @@ every_country = {
 			}
 			GER = { activate_mission = GER_barbarossa_mission }  SOV = { activate_mission = GER_barbarossa_mission } 
 						hidden_effect = { 
+						ITA = { transfer_state = 32 transfer_state = 21 }
 			country_event = { id = news.153 days = 1 }
 			ENG = { diplomatic_relation = { country = SOV  relation = docking_rights   active = yes } }	
 			SOV = { country_event = { id = soviet.501 days = 630 } } 
@@ -855,7 +856,7 @@ GER_case_anton = {
 		NOT = { EFR = { controls_state = 460 } }   
 		NOT = { EFR = { controls_state = 22 } } 
 		NOT = { EFR = { controls_state = 31 } }
-		NOT = { EFR = { controls_state = 21 } }
+		AND = { NOT = { EFR = { controls_state = 21 } } date < 1941.6.20 }
 			}
 		}	
 		activation = { AND = { EFR = { has_war_with = ENG has_country_flag = EFR_torch_declared  } NOT = { EFR = { has_completed_focus = VIC_join_axis }} NOT = { OR = { is_puppet_of = GER is_in_faction_with = GER     }}        }     }

@@ -14,7 +14,7 @@ state={
 			infrastructure = 4
 			industrial_complex = 2
 			fuel_silo = 1
-			air_base = 1
+			air_base = 4
 			7661 = { naval_base = 5 }
 		}
 		add_core_of = SOV
