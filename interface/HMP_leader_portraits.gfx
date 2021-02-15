@@ -63,6 +63,10 @@ spriteTypes = {
 		texturefile = "gfx/leaders/SAF/Portrait_SouthAfrica_Jan_Smuts.dds"		
 	}
 	spriteType = {
+        name = "GFX_Portrait_Dan_Pienaar"
+        texturefile = "gfx/leaders/SAF/Portrait_SAF_Dan_Pienaar.tga"        
+	} 
+	spriteType = {
 		name = "GFX_Portrait_USA_George_S_Patton"
 		texturefile = "gfx/leaders/ENG/Portrait_USA_George_S_Patton.dds"		
 	}
