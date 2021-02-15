@@ -45,7 +45,6 @@ ideas = {
 				army_attack_factor = 0.3 army_defence_factor = 0.3
  			}
 		}
-army_attack_factor = 0.3 army_defence_factor = 0.3
 		fin_continuation_war = {
 		
 			allowed = {
