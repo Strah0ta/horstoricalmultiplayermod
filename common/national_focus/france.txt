@@ -1101,6 +1101,7 @@ recalc_vichy_france_legitimacy = yes
 		completion_reward = {
 			add_timed_idea = { idea = FRA_national_uprising days = 90 }
 						custom_effect_tooltip = FRA_french_forces_of_the_interior_tt
+						hidden_effect = { 
 			delete_unit_template_and_units = {
     division_template = "FFI Demi-Brigade"
 }
@@ -1145,5 +1146,6 @@ recalc_vichy_france_legitimacy = yes
 				set_state_flag = FRA_core_state_liberated
 			}
 		}
+	}
 	}
 }
