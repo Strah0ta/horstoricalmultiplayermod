@@ -13,6 +13,7 @@
  free_naval_designer:0 "Free Naval Designer Switching"
  free_tank_designer:0 "Free Tank Designer Switching"
  krupp_tank:0 "Krupp Arms Works"
+ fin_sisu_ai:0 "AI Finland"
  anti_strat_meme:0 "Pre-Building Bomber Efficiency Ban Spirit"
  anti_strat_meme_desc:0 "This is to prevent building full efficiency on bombers before Danzig as bombers are balanced around a slower build up of efficiency gain. This is removed by Germany's 'Fall Weiss and Fall Rot' decision."
  red_airforce_resurgent:0 "Red Airforce Resurgent"

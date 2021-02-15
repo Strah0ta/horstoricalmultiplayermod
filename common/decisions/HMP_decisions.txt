@@ -682,7 +682,7 @@ every_country = {
 		available = { 	date > 1941.6.21	}	
 		cost = 0		
 		complete_effect = {
-			FIN = { country_event = { id = italy.604 days = 1 }}
+			FIN = { country_event = { id = italy.604 days = 1 } if = { limit = { is_ai = yes } add_ideas = fin_sisu_ai }}
 			add_ideas = GER_barbarossa 	
 			hidden_effect={  
 					if = { limit = { country_exists = ROM } ROM = {add_ideas = GER_barbarossa } }
@@ -1036,6 +1036,7 @@ hidden_effect = {
 			allowed = {	original_tag = GER 	}
 			icon = GFX_decision_oil
 			available = { has_war = yes	}
+					fire_only_once = yes
 			cost = 0
 			complete_effect = { add_timed_idea = { idea = GER_no_fuel_idea days = 365 }  }
 		}	
@@ -1149,10 +1150,10 @@ hidden_effect = {
         fire_only_once = yes
 
         available = {	GER = { has_war_with = SOV } }
-
+  
 		complete_effect = {
 		custom_effect_tooltip = "We will deploy an army of 24 mountaineer divisions in India (unequipped) and recruit three new commanders."
-		hidden_effect = { delete_unit_template_and_units  = { division_template = "Countenance Infantry"} load_oob = "ENG_Iran_Front" SOV = {  delete_unit_template_and_units  = { division_template = "Countenance Infantry"} load_oob = "ENG_Iran_Front_SOV"   }}
+		hidden_effect = { delete_unit_template_and_units  = { division_template = "Countenance Infantry"} load_oob = "ENG_Iran_Front" SOV = {  delete_unit_template_and_units  = { division_template = "Countenance Infantry"} load_oob = "ENG_Iran_Front_SOV"   } ITA = { axis_iran_positioning = yes }}
 				SOV = { country_event = { id = iran.2 } transfer_state = 266 266 = { add_core_of = SOV } transfer_state = 419 419 = { add_core_of = SOV }	}
 				 country_event = { id = iran.3 }
 				 	ENG = { transfer_state = 412 transfer_state = 413 transfer_state = 421  } 
@@ -1937,6 +1938,13 @@ AST = {
 		available = {    }
 		complete_effect = {	 activate_mission = GER_plane_LL1 set_country_flag = ITA_send_plane } 	
 } 
+		GER_plane_to_ita = { 
+		allowed = {	 original_tag = GER	} 
+		icon = GFX_decision_generic_air
+		available = {    }
+		complete_effect = {	 send_equipment = { equipment = fighter_equipment amount = 400 target = ITA } send_equipment = { equipment = CAS_equipment amount = 20 target = ITA }
+		 } 	
+		} 
 
 		GER_plane_hun2 = {
 	allowed = {	 original_tag = ITA	} 

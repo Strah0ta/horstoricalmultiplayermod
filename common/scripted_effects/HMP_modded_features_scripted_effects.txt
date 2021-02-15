@@ -6,7 +6,7 @@ GER_all_plane_LL = {
 	send_equipment = { equipment = heavy_fighter_equipment amount = 10000 target = GER }
 }
 
-
+axis_iran_positioning = {  set_province_controller = 10837 set_province_controller = 7969 set_province_controller = 10922 set_province_controller = 1982 set_province_controller = 5067  set_province_controller = 2026 set_province_controller = 4928 set_province_controller = 8117   set_province_controller = 12832 set_province_controller = 10797  }
 FRA_legitimacy_week_counter = {
 if = { limit = { date > 1939.9.10 } add_to_variable = { var = FRA_legitimacy value = 5 } }
 if = { limit = { date > 1939.9.20 } add_to_variable = { var = FRA_legitimacy value = 5 } }
@@ -2530,9 +2530,9 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Iván Hindy" #Point Value: 21 #2/6/21 -Ambusher -Organizer
+	name = "Iván Hindy" #Point Value: 20 #2/6/21 -Ambusher -Organizer #2/14/21 -Trickster +Ranger
 	gfx = GFX_Portrait_hungary_ivan_hindy
-	traits = {  urban_assault_specialist panzer_leader panzer_expert trickster expert_improviser scavenger trait_engineer swamp_fox }
+	traits = {  urban_assault_specialist panzer_leader panzer_expert expert_improviser ranger scavenger trait_engineer swamp_fox }
 	skill = 6
 	attack_skill = 5
 	defense_skill = 4

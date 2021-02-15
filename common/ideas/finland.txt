@@ -32,6 +32,20 @@ ideas = {
  			}
 		}
 		
+				fin_sisu_ai = {
+			
+			allowed = {
+				always = no
+			}
+			available = { is_ai = yes }
+			picture = sisu
+			removal_cost = -1
+			
+			modifier = {
+				army_attack_factor = 0.3 army_defence_factor = 0.3
+ 			}
+		}
+army_attack_factor = 0.3 army_defence_factor = 0.3
 		fin_continuation_war = {
 		
 			allowed = {

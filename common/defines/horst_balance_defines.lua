@@ -83,7 +83,7 @@ NDefines.NAir.ACE_DEATH_CHANCE_PLANES_MULT = 0		-- The more airplanes was lost i
 NDefines.NAir.ACE_EARN_CHANCE_BASE = 0				-- Base chance % for ace pilot to be created. Happens only when successfully kill airplane/ship or damage the buildings.
 NDefines.NAir.ACE_EARN_CHANCE_PLANES_MULT = 0				-- The more airplanes the wing shots the higher chance of earning Ace.
 NDefines.NAir.AIR_WING_MAX_STATS_BOMBING = 1000
-
+NDefines.NAir.AIR_WING_BOMB_DAMAGE_FACTOR = 2              -- Vanilla 2
 NDefines.NAir.COMBAT_MULTIPLANE_CAP = 2  
 NDefines.NAir.COMBAT_DAMAGE_SCALE = 0.047				-- Vanilla 0,10
 NDefines.NAir.COMBAT_DAMAGE_SCALE_CARRIER = 3                 -- same as above but used inside naval combat for carrier battles
