@@ -875,6 +875,12 @@ hidden_effect = {		set_technology = { naval_bomber2 = 1 }
 		cost = 5
 		
 		completion_reward = {
+			add_tech_bonus = {
+				name = JAP_carrier_warfare_experiments
+				bonus = 1.0
+				uses = 1
+				category = cv_tech	
+			}
 		529 = { 
 			add_extra_state_shared_building_slots = 2
 										add_building_construction = {

@@ -9,24 +9,6 @@ ideas = {
 	    modifier = { consumer_goods_factor = 0.3 weekly_manpower = -4000 stability_factor = -0.3} 
 	}	
 
-	SPR_no_navy = {
-			allowed = {always = yes	}
-			allowed_civil_war = {	always = yes	}
-			removal_cost = -1
-			picture = generic_navy_bonus
-			modifier = { industrial_capacity_dockyard = -2 }
-		}
-		SPR_no_navy2 = {
-			allowed = {	always = yes	}
-			allowed_civil_war = { always = yes	}
-			available = { has_war = no }
-			removal_cost = -1
-			picture = generic_navy_bonus
-			modifier = {
-			industrial_capacity_dockyard = -2
-			air_range_factor = -1
-			}
-		}
 		SPA_foreign_training_staff = {
 			picture = german_advisors
 			allowed = {	original_tag = SPR	}
@@ -94,7 +76,6 @@ ideas = {
 			modifier = {
 				stability_weekly = 0.002
 				min_export = -1		
-industrial_capacity_dockyard = -2			
 			}
 		}
 
@@ -107,7 +88,6 @@ industrial_capacity_dockyard = -2
 				stability_weekly = 0.002
 				production_speed_infrastructure_factor = 0.1
 				min_export = -1
-				industrial_capacity_dockyard = -2			
 			}
 		}
 

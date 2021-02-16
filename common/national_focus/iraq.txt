@@ -164,14 +164,14 @@ focus_tree = {
 		relative_position_id = IRQ_revolution
 		prerequisite = { focus = IRQ_revolution }
 		available_if_capitulated = yes
-		available =  {controls_state = 554} 
+		available =  { ITA = { controls_state = 554} }
 
 		completion_reward = {
 			554 = {
-			add_extra_state_shared_building_slots = 5
+			add_extra_state_shared_building_slots = 4
 		add_building_construction = {
 					type = arms_factory
-					level = 4
+					level = 3
 					instant_build = yes
 				}
 					add_building_construction = {

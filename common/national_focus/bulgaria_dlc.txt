@@ -144,14 +144,6 @@ focus_tree = {
 		
 		search_filters = {FOCUS_FILTER_INDUSTRY}
 		completion_reward = {
-			48 = {
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = {
-					type = industrial_complex
-					level = 2
-					instant_build = yes
-				}
-			}
 			swap_ideas = {
 				remove_idea = BUL_national_industry_02
 				add_idea = BUL_national_industry_03
@@ -395,7 +387,6 @@ focus_tree = {
 		x = 0
 		y = 1
 		cost = 10
-		mutually_exclusive = { focus = BUL_foreign_aircraft_designers }
 
 		search_filters = {FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH}
 		completion_reward = {
@@ -410,87 +401,12 @@ focus_tree = {
 			add_tech_bonus = {
 				name = BUL_darzhavna_aeroplanna_rabotilnitsa
 			    bonus = 1.0
-			    uses = 1
+			    uses = 2
 				category = naval_bomber
 			}
 		}
 	}
 
-	focus = {
-		id = BUL_darzhavna_samoletna_fabrika
-
-		prerequisite = { focus = BUL_darzhavna_aeroplanna_rabotilnitsa }
-		icon = GFX_goal_expand_the_luftwaffe
-		relative_position_id = BUL_darzhavna_aeroplanna_rabotilnitsa
-		x = 0
-		y = 1
-		cost = 10
-		
-		search_filters = {FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH}
-		completion_reward = {
-			48 = {
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = arms_factory
-					level = 1
-					instant_build = yes
-				}
-			}
-			add_tech_bonus = {
-				name = BUL_darzhavna_samoletna_fabrika
-			    bonus = 1.0
-			    uses = 1
-				category = naval_bomber
-			}
-		}
-	}
-
-	focus = {
-		id = BUL_foreign_aircraft_designers
-
-		prerequisite = { focus = BUL_reorganize_the_military_industry }
-		icon = GFX_goal_generic_air_fighter2
-		relative_position_id = BUL_darzhavna_aeroplanna_rabotilnitsa
-		x = 2
-		y = 0
-		cost = 10
-		mutually_exclusive = { focus = BUL_darzhavna_aeroplanna_rabotilnitsa }
-		
-		search_filters = {FOCUS_FILTER_INDUSTRY}
-		completion_reward = {
-			48 = {
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = {
-					type = arms_factory
-					level = 2
-					instant_build = yes
-				}
-			}
-		}
-	}
-
-	focus = {
-		id = BUL_kaproni_bulgarski
-
-		prerequisite = { focus = BUL_darzhavna_samoletna_fabrika }
-		icon = GFX_goal_generic_air_bomber
-		relative_position_id = BUL_darzhavna_samoletna_fabrika
-		x = 0
-		y = 1
-		cost = 5
-
-		search_filters = {FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH}
-		completion_reward = {
-			212 = {
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = arms_factory
-					level = 1
-					instant_build = yes
-				}
-			}
-		}
-	}
 	focus = {
 		id = BUL_found_dvf_sopot
 
@@ -504,10 +420,10 @@ focus_tree = {
 		search_filters = {FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH}
 		completion_reward = {
 			212 = {
-				add_extra_state_shared_building_slots = 2
+				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 					type = arms_factory
-					level = 2
+					level = 1
 					instant_build = yes
 				}
 			}
@@ -531,14 +447,6 @@ focus_tree = {
 		
 		search_filters = {FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH}
 		completion_reward = {
-			212 = {
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = {
-					type = arms_factory
-					level = 2
-					instant_build = yes
-				}
-			}
 			add_tech_bonus = {
 				name = BUL_darzhavna_voenna_fabrika
 			    bonus = 0.5

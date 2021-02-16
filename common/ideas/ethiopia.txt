@@ -1,25 +1,25 @@
 ideas = {
 		country = {
 				ETH_superior_tactics_ma2_idea = {		
-			picture = generic_fighter_production_diverted
+			picture = FRA_matignon_agreements
 			allowed = {	always = no	}
 			removal_cost = -1
 			modifier = { conscription = 0.05	}  
 		}		
 				ETH_superior_firepower_mw2_idea = {		
-			picture = generic_fighter_production_diverted
+			picture = FRA_motorized_focus
 			allowed = {	always = no	}
 			removal_cost = -1
-			equipment_bonus = { motorized_equipment = { hardness = 0.33 instant = yes }   }
+			equipment_bonus = { motorized_equipment = { hardness = 0.25 instant = yes }   }
 		}		
 				ETH_superior_firepower_sf2_idea = {		
-			picture = generic_fighter_production_diverted
+			picture = FRA_scw_intervention_nationalists_focus
 			allowed = {	always = no	} 
 			removal_cost = -1 
 			modifier = { army_attack_factor = 0.1	}
 		}		
 				ETH_superior_tactics_gbp2_idea = {		
-			picture = generic_fighter_production_diverted
+			picture = ast_all_in
 			allowed = {	always = no	}
 			removal_cost = -1 
 			modifier = { max_command_power = 400 dig_in_speed_factor = 1	}
