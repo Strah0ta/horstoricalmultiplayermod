@@ -57,7 +57,7 @@ equipments = {
 		visual_level = 1
 		defense = 0	
 		hard_attack = 22
-		ap_attack = 98
+		ap_attack = 103
 		
 		build_cost_ic = 5
 		resources = {
@@ -75,7 +75,7 @@ equipments = {
 		visual_level = 2
 		defense = 0	
 		hard_attack = 30
-		ap_attack = 108
+		ap_attack = 123
 		
 		build_cost_ic = 6
 		resources = {

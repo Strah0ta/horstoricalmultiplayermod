@@ -1,7 +1,7 @@
 ---------------------CHANGES TO SUPPORT 3 SPEED MICRO (SEE TERRAIN MOVEMENT COST CHANGES, THEY 2X HIGHER THAN VANILLA)---------------------
 NDefines.NMilitary.LAND_COMBAT_STR_DAMAGE_MODIFIER = 0.06       -- vanilla 0.05 | global damage modifier... but some equipment is returned at end of battles see : EQUIPMENT_COMBAT_LOSS_FACTOR
 NDefines.NMilitary.LAND_COMBAT_ORG_DAMAGE_MODIFIER = 0.04        -- vanilla 0.05 | global damage modifier
-NDefines.NMilitary.LAND_AIR_COMBAT_STR_DAMAGE_MODIFIER = 0.144  -- vanilla 0.04 | WAS 288 on 1/30/21    Was 0.048 until Oct. 27, now its triple as ground attack is 1/6th of what it was so it doesnt look scary to people that havent realized that Horst has vanilla CAS damage ticks |air global damage modifier
+NDefines.NMilitary.LAND_AIR_COMBAT_STR_DAMAGE_MODIFIER = 0.115  -- vanilla 0.04 | WAS 288 on 1/30/21    Was 0.048 until Oct. 27, now its triple as ground attack is 1/6th of what it was so it doesnt look scary to people that havent realized that Horst has vanilla CAS damage ticks |air global damage modifier
 NDefines.NMilitary.LAND_AIR_COMBAT_ORG_DAMAGE_MODIFIER = 0.144  -- vanilla 0.04 | Was 0.032 until Oct. 27, now its 6x as ground attack is 1/6th of what it was so it doesnt look scary to people that havent realized that Horst has vanilla CAS damage ticks | global damage modifier
 -------------------------------------------------------------------------------------------------------------------------------------------
 NDefines.NMilitary.MAX_DIVISION_SUPPORT_HEIGHT = 6
@@ -83,9 +83,9 @@ NDefines.NAir.ACE_DEATH_CHANCE_PLANES_MULT = 0		-- The more airplanes was lost i
 NDefines.NAir.ACE_EARN_CHANCE_BASE = 0				-- Base chance % for ace pilot to be created. Happens only when successfully kill airplane/ship or damage the buildings.
 NDefines.NAir.ACE_EARN_CHANCE_PLANES_MULT = 0				-- The more airplanes the wing shots the higher chance of earning Ace.
 NDefines.NAir.AIR_WING_MAX_STATS_BOMBING = 1000
-NDefines.NAir.AIR_WING_BOMB_DAMAGE_FACTOR = 2              -- Vanilla 2
-NDefines.NAir.COMBAT_MULTIPLANE_CAP = 2  
-NDefines.NAir.COMBAT_DAMAGE_SCALE = 0.047				-- Vanilla 0,10
+--NDefines.NAir.AIR_WING_BOMB_DAMAGE_FACTOR = 2              -- Vanilla 2
+NDefines.NAir.COMBAT_MULTIPLANE_CAP = 1.8  
+NDefines.NAir.COMBAT_DAMAGE_SCALE = 0.045				-- Vanilla 0,10
 NDefines.NAir.COMBAT_DAMAGE_SCALE_CARRIER = 3                 -- same as above but used inside naval combat for carrier battles
 NDefines.NAir.NAVAL_STRIKE_CARRIER_MULTIPLIER = 6.25              -- vanilla 5 damage bonus when planes are in naval combat where their carrier is present (and can thus sortie faster and more effectively)
 

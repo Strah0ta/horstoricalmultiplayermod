@@ -1,3 +1,17 @@
+-- Disabling useless librariers make game go brr? - Mastoid
+_G["debug"] = nil
+_G["math"] = nil
+_G["coroutine"] = nil
+
+package.loaded["debug"] = nil
+package.loaded["math"] = nil
+package.loaded["coroutine"] = nil
+
+debug = nil
+math = nil
+coroutine = nil
+
+
 NDefines.NGame.LAG_DAYS_FOR_LOWER_SPEED = 720
 NDefines.NGame.LAG_DAYS_FOR_PAUSE = 30    							-- 
 NDefines.NGame.COMBAT_LOG_MAX_MONTHS = 12 							-- WAS 48 | drastically cuts down on save file sizes after WW2 starts and well into barbarossa

@@ -52,7 +52,7 @@
 		completion_reward = {
 			add_tech_bonus = {
 				name = AST_royal_australian_artillery
-				bonus = 1.01
+				bonus = 0.51
 				uses = 5
 				category = cat_anti_tank
 			}

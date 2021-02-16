@@ -320,7 +320,7 @@ equipments = {
 		air_attack = 51 #was 38.4 increased by 20%
 		air_defence = 14		
 
-		build_cost_ic = 84
+		build_cost_ic = 92
 		resources = {
 			aluminium = 2
 			rubber = 1

@@ -6,7 +6,7 @@ GER_all_plane_LL = {
 	send_equipment = { equipment = heavy_fighter_equipment amount = 10000 target = GER }
 }
 
-axis_iran_positioning = {  set_province_controller = 10837 set_province_controller = 7969 set_province_controller = 10922 set_province_controller = 1982 set_province_controller = 5067  set_province_controller = 2026 set_province_controller = 4928 set_province_controller = 8117   set_province_controller = 12832 set_province_controller = 10797  }
+axis_iran_positioning = { set_province_controller = 4553 set_province_controller = 2071 set_province_controller = 12861 set_province_controller = 1822 set_province_controller = 10837 set_province_controller = 7969 set_province_controller = 10922 set_province_controller = 1982 set_province_controller = 5067  set_province_controller = 2026 set_province_controller = 4928 set_province_controller = 8117   set_province_controller = 12832 set_province_controller = 10797  }
 FRA_legitimacy_week_counter = {
 if = { limit = { date > 1939.9.10 } add_to_variable = { var = FRA_legitimacy value = 5 } }
 if = { limit = { date > 1939.9.20 } add_to_variable = { var = FRA_legitimacy value = 5 } }
@@ -1889,6 +1889,27 @@ create_field_marshal = { #general FM
     planning_skill = 6
     logistics_skill = 6
 }
+
+create_field_marshal = {
+    name = "Rodolfo Graziani" #Point Value: 16.5 #2/4/21 -Organizer -Panzer Expert
+    picture = "portrait_italy_radolfo_graziani.dds" 
+    traits = {  panzer_leader  thorough_planner logistics_wizard trait_engineer trait_mountaineer desert_fox hill_fighter offensive_doctrine trait_cautious }
+    skill = 7
+    attack_skill = 6
+    defense_skill = 2
+    planning_skill = 7
+    logistics_skill = 6
+}
+create_field_marshal = {
+	name = "Emilio De Bono" #Point Value: 16 #2/4/21 -Organizer -Inspirational Later #2/16/21 -Ambusher +Infantry Expert
+	picture = "portrait_italy_emilio_de_bono.dds" 
+	traits = { defensive_doctrine logistics_wizard old_guard infantry_leader organisational_leader infantry_expert  guerilla_fighter camouflage_expert trait_cautious }
+	skill = 6
+	attack_skill = 3
+	defense_skill = 6
+	planning_skill = 2
+	logistics_skill = 8
+}
 create_corps_commander = {
     name = "Sebastiano Visconti Prasca" #Point value: 20 #2/4/21 -Guerilla Fighter
     picture = "Portrait_Italy_Sebastiano_Visconti_Prasca.dds" 
@@ -1921,27 +1942,6 @@ create_corps_commander = { #Infantry general Africa
     attack_skill = 6
     defense_skill = 3
     planning_skill = 4
-    logistics_skill = 6
-}
-create_field_marshal = {
-	name = "Emilio De Bono" #Point Value: 16 #2/4/21 -Organizer -Inspirational Later
-	picture = "portrait_italy_emilio_de_bono.dds" 
-	traits = { defensive_doctrine logistics_wizard old_guard infantry_leader ambusher organisational_leader guerilla_fighter camouflage_expert trait_cautious }
-	skill = 6
-	attack_skill = 3
-	defense_skill = 6
-	planning_skill = 2
-	logistics_skill = 8
-}
-
-create_field_marshal = {
-    name = "Rodolfo Graziani" #Point Value: 16.5 #2/4/21 -Organizer -Panzer Expert
-    picture = "portrait_italy_radolfo_graziani.dds" 
-    traits = {  panzer_leader  thorough_planner logistics_wizard trait_engineer trait_mountaineer desert_fox hill_fighter offensive_doctrine trait_cautious }
-    skill = 7
-    attack_skill = 6
-    defense_skill = 2
-    planning_skill = 7
     logistics_skill = 6
 }
 create_corps_commander = { #AFRIKACORPS GENERAL
@@ -2838,26 +2838,35 @@ SOV = {
     logistics_skill = 10
 			}		
 			create_field_marshal = {
-	name = "Kliment Voroshilov" #Point Value: 16.5 #2/5/21 -Inspirational Leader -Organizer
+	name = "Kliment Voroshilov" #Point Value: 15.5 #2/5/21 -Inspirational Leader -Organizer #2/16/21 -Expert Delegator
 		picture = "Portrait_Soviet_Kliment_Voroshilov.dds" 
-	traits = { old_guard expert_delegator inflexible_strategist infantry_leader defensive_doctrine ambusher unyielding_defender  }
+	traits = { old_guard  inflexible_strategist infantry_leader defensive_doctrine ambusher unyielding_defender  }
 	skill = 7
-	attack_skill = 6
-	defense_skill = 6
-	planning_skill = 5
-	logistics_skill = 5
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 8
+	logistics_skill = 9
 }
 	
-	
+	create_field_marshal = {
+	name = "Semyon Budyonny" #Point Value: 15
+		picture = "Portrait_Soviet_Semyon_Budyonny.dds"
+	traits = {  old_guard commando bearer_of_artillery defensive_doctrine infantry_leader logistics_wizard organizer  }
+		skill = 7
+	attack_skill = 3
+	defense_skill = 4
+	planning_skill = 9
+	logistics_skill = 6
+}
 create_field_marshal = {
     name = "Grigory Kulik" #Point Value: 16 #2/5/21 -Thorough Planner +Organisational Leader
     picture = "Portrait_Soviet_Grigory_Kulik.dds"
 	traits = { old_guard inflexible_strategist organizer organisational_leader infantry_leader defensive_doctrine commando skirmisher inspirational_leader unyielding_defender  }
 	skill = 7
-	attack_skill = 6
-	defense_skill = 6
-	planning_skill = 5
-	logistics_skill = 5
+	attack_skill = 4
+	defense_skill = 2
+	planning_skill = 10
+	logistics_skill = 6
 }
 	create_field_marshal = {
 	name = "Ivan Konev" #Point Value: 20.5 
@@ -2890,7 +2899,7 @@ create_field_marshal = {
     planning_skill = 8
     logistics_skill = 7
 }
-create_field_marshal = {
+create_field_marshal = { 
     name = "Filipp Golikov"
     picture = "Portrait_Soviet_Filipp_Golikov.dds"
 	traits = { cavalry_leader cavalry_expert ambusher defensive_doctrine logistics_wizard organisational_leader organizer } 
@@ -2909,16 +2918,6 @@ create_field_marshal = {
     defense_skill = 4
     planning_skill = 8
     logistics_skill = 7
-}
-create_field_marshal = {
-	name = "Semyon Budyonny"
-		picture = "Portrait_Soviet_Semyon_Budyonny.dds"
-	traits = {  old_guard commando bearer_of_artillery defensive_doctrine infantry_leader logistics_wizard organizer  }
-		skill = 7
-	attack_skill = 5
-	defense_skill = 4
-	planning_skill = 7
-	logistics_skill = 6
 }
 	create_corps_commander = {
 	name = "Nikolai Vatutin" #Point Value: 8
