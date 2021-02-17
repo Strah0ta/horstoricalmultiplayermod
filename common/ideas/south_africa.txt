@@ -63,26 +63,6 @@ ideas = {
 			}
 		}
 
-		SAF_ossewabrandwag_fascism = {
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				 has_government = fascism
-			}
-
-			removal_cost = -1
-
-			picture = saf_ossewabrandwag_fascism
-
-			modifier = {
-				fascism_drift = 0.01
-				resistance_damage_to_garrison = -0.1 
-				foreign_subversive_activites = -0.4
-			}
-		}
-
 		SAF_the_commonwealth = {
 		
 		picture = stiff_upper_lip

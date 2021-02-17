@@ -242,7 +242,6 @@ ideas = {
 			modifier = {
 				army_core_defence_factor = 0.25
 				army_core_attack_factor = 0.25
-				resistance_target_on_our_occupied_states = 0.5
 			}
 		}
 
@@ -411,7 +410,6 @@ ideas = {
 
 			modifier = {
 				operation_infiltrate_outcome = 0.25
-				boost_resistance_factor = 0.25
 			}
 		}
 
@@ -430,7 +428,6 @@ ideas = {
 
 			modifier = {
 				operation_infiltrate_outcome = 0.25
-				boost_resistance_factor = 0.25
 				civilian_intel_factor = 0.25
 				army_intel_factor = 0.25
 				airforce_intel_factor = 0.25
@@ -596,8 +593,6 @@ ideas = {
 				operative_slot = 3 
 								army_core_defence_factor = 0.25
 				army_core_attack_factor = 0.25
-				resistance_target_on_our_occupied_states = 0.5
-
 				}
 		}
 	}

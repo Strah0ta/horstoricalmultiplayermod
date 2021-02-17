@@ -882,7 +882,7 @@
 		cost = 5
 
 		available = {
-			date > 1943.6.1 
+			date > 1942.11.21
 			NOT = { EFR = {has_country_flag = EFR_torch_declared } }
 		}
 
@@ -890,7 +890,36 @@
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+		news_event = { id = news.4033 }
 			EFR = { set_technology = { mtg_transport = 1} set_country_flag = EFR_torch_declared every_owned_state = { set_demilitarized_zone = no }	}
+			hidden_effect = { 461 = { add_building_construction  = { type = naval_base level = 15 province = 7069 instant_build = yes }}
+459 = { add_building_construction  = { type = naval_base level = 15 province = 7132 instant_build = yes }}
+459 = { add_building_construction  = { type = naval_base level = 15 province = 1145 instant_build = yes }}
+			USA = { country_event = { id = usa.996 days = 0 }
+							create_field_marshal = {
+	name = "Geoffrey Keyes"
+	picture = "Portrait_USA_Geoffrey_Keyes.dds"
+	traits = { organizer logistics_wizard fast_planner trait_engineer infantry_leader infantry_expert trait_mountaineer hill_fighter trickster expert_improviser }
+	skill = 8
+
+	attack_skill = 6
+	defense_skill = 5
+	planning_skill = 6
+	logistics_skill = 8
+} 
+create_corps_commander = { 
+	name = "Lloyd Fredendall"
+	picture = "Portrait_USA_Lloyd_Fredendall.dds"
+	traits = { old_guard inflexible_strategist unyielding_defender trait_engineer scavenger infantry_leader infantry_expert trait_mountaineer expert_improviser hill_fighter trickster fake_skilled_staffer  }
+	skill = 8
+
+	attack_skill = 7
+	defense_skill = 5
+	planning_skill = 4
+	logistics_skill = 9
+}
+			}
+			}
 		}	
 	}
 }

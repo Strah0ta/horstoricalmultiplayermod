@@ -180,7 +180,6 @@ ideas = {
 			
 			modifier = {
 				conscription_factor = -0.25
-				resistance_target = -0.1
 			}
 		}
 		

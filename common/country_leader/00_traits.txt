@@ -736,7 +736,7 @@ leader_traits = {
 		
 	brawler_tank_manufacturer = { 
 		random = no
-		equipment_bonus = {	armor = { breakthrough = 0.1	armor_value = 0.05	}	}
+		equipment_bonus = {	armor = { breakthrough = 0.15}	}
 	}		
 	
 	mobile_heavy_tank_manufacturer	 = { 

@@ -1037,10 +1037,26 @@ hidden_effect = {
 			allowed = {	original_tag = GER 	}
 			icon = GFX_decision_oil
 			available = { has_war = yes	}
-					fire_only_once = yes
+			days_remove = -1
+			fire_only_once = no
 			cost = 0
+			modifier = { modifier = { fuel_gain_factor_from_states = 4	industrial_capacity_factory = -0.20 } }
 			complete_effect = { add_timed_idea = { idea = GER_no_fuel_idea days = 365 }  }
+			remove_effect = { }
 		}	
+		GER_failed_africa_cancel = {
+			allowed = {	original_tag = GER 	}
+			icon = GFX_decision_oil
+			available = { has_war = yes	}
+			fire_only_once = no
+			days_remove = -1
+			cost = 0
+			visible = { has_decision = GER_failed_africa }
+			modifier = {  }
+			complete_effect = {   remove_decision = GER_failed_africa }
+			remove_effect = { }
+		}			
+		
 	GER_jaegernotprogramm = {
 		icon = generic_air
 		allowed = {	tag = GER	}
@@ -1212,7 +1228,7 @@ create_corps_commander = {
 		
 		visible = { NOT = { EFR = { has_completed_focus = VIC_join_axis }}}
 		
-		complete_effect = {
+		complete_effect = { 
 			load_oob = "ENG_EFR"
 		GER = { remove_from_faction = EFR }
 		EFR = { set_country_flag = EFR_torch_declared diplomatic_relation = { country = GER relation = military_access	active = yes	} diplomatic_relation = { country = ITA relation = military_access	active = yes	} diplomatic_relation = { country = ROM relation = military_access	active = yes	} diplomatic_relation = { country = BUL relation = military_access	active = yes	} diplomatic_relation = { country = HUN relation = military_access	active = yes	} if = { limit= {country_exists = ALB }diplomatic_relation = { country = ALB relation = military_access	active = yes	}}}

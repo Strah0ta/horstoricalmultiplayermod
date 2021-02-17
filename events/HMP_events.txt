@@ -5753,6 +5753,16 @@ country_event = {
 		is_triggered_only = yes
       option = { name = "Ok"  }
    }
+          news_event = {	
+   id = news.4033
+   title = "Vichy France Joins the Axis!"
+   desc = "Vichy France has renounced their neutrality and signed the Tripartite Pact, joining the Axis powers!"
+   picture = GFX_news_event_italian_tank_desert
+
+		major =  yes
+		is_triggered_only = yes
+      option = { name = "Ok"  }
+   }
    
 add_namespace = unitednations
 

@@ -716,7 +716,6 @@ ideas = {
 			picture = generic_wall_line
 			
 			modifier = {
-			#enemy_army_bonus_air_superiority_factor = 0.5
 				max_planning = 0.25
 				army_speed_factor = 0.1
 				production_speed_naval_base_factor = -1.2
