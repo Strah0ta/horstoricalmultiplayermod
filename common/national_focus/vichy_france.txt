@@ -622,7 +622,6 @@
 			controls_state = 539
 			controls_state = 556
 			controls_state = 543
-			controls_state = 554
 			controls_state = 461
 			has_country_flag = EFR_torch_declared
 		}

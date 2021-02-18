@@ -28,7 +28,6 @@ ideas = {
 				conscription = 0.2
 				mobilization_speed = 1.0
 				min_export = -1
-				special_forces_min = -4080
  			}
 		}
 		
