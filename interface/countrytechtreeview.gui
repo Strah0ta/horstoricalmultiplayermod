@@ -2657,7 +2657,15 @@ guiTypes = {
 					position = { x=0 y=-150 }					
 				}				
 			}
+gridboxtype = {
+				name = "mw_sum_tree"
+				position = { x=80 y=172 }
+				size = { width = 478 height = 1350 }
+				slotsize = { width=60 height= 60 }
+				format = "UP"
 
+							
+			}
 			gridboxtype = {
 				name = "superior_firepower_tree"
 				position = { x=560 y=172 }
@@ -2671,7 +2679,16 @@ guiTypes = {
 					position = { x=0 y=-150 }					
 				}									
 			}
-
+		gridboxtype = {
+				name = "sf_sum_tree"
+				position = { x=560 y=172 }
+				size = { width = 480 height = 1350 }
+				slotsize = { width=60 height= 60 }
+				format = "UP"
+				
+												
+			}
+			
 			gridboxtype = {
 				name = "trench_warfare_tree"
 				position = { x=1040 y=172 }
@@ -2686,7 +2703,16 @@ guiTypes = {
 				}					
 				
 			}
-
+			gridboxtype = {
+				name = "gbp_sum_tree"
+				position = { x=1040 y=172 }
+				size = { width = 480 height = 1350 }
+				slotsize = { width=60 height= 60 }
+				format = "UP"
+				
+				
+				
+			}
 			gridboxtype = {
 				name = "mass_assault_tree"
 				position = { x=1520 y=172 }
@@ -2699,6 +2725,15 @@ guiTypes = {
 					quadTextureSprite ="GFX_fullborder_tiled"
 					position = { x=0 y=-150 }					
 				}					
+				
+			}
+						gridboxtype = {
+				name = "ma_sum_tree"
+				position = { x=1520 y=172 }
+				size = { width = 480 height = 1350 }
+				slotsize = { width=60 height= 60 }
+				format = "UP"
+								
 				
 			}
 		}

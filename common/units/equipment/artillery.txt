@@ -31,7 +31,7 @@ equipments = {
 		#Space taken in convoy
 		lend_lease_cost = 4
 		
-		build_cost_ic = 2.5
+		build_cost_ic = 2.0
 		resources = {
 			tungsten = 1
 			steel = 2

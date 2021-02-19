@@ -368,11 +368,7 @@ technologies = {
 			land_doctrine
 			cat_mobile_warfare
 		}
-				path = {
-			leads_to_tech = mw_sum 
-			research_cost_coeff = 1
-		}
-		
+
 		folder = {
 			name = land_doctrine_folder
 			position = { x = -2 y = 16 }
@@ -711,14 +707,8 @@ technologies = {
 	
 	sf_sum = {
 		allow_branch = {is_debug = yes}
-		path = {
-			leads_to_tech = ma_sum 
-			research_cost_coeff = 1
-		}
-		path = {
-			leads_to_tech = gbp_sum 
-			research_cost_coeff = 1
-		}
+		research_cost = 117.65
+
 		category_front_line = {
              soft_attack = 0.1
             max_organisation = 5
@@ -784,7 +774,7 @@ technologies = {
 		
 		folder = {
 			name = land_doctrine_folder
-			position = { x = 8 y = 18 }
+			position = { x = 0 y = 18 }
 		}
 
 	}
@@ -849,10 +839,7 @@ enable_tactic = tactic_backhand_blow
         army_speed_factor = 0.10
         org_loss_when_moving = -0.1
 				doctrine = yes	
-						path = {
-			leads_to_tech = sf_sum 
-			research_cost_coeff = 1
-		}
+						
 		research_cost = 117.65
 		
 		categories = {
@@ -920,10 +907,11 @@ enable_tactic = tactic_breakthrough
 			cat_superior_firepower
 		}
 
-		
+			research_cost = 117.65
+	
 		folder = {
 			name = land_doctrine_folder
-			position = { x = 16 y = 18 }
+			position = { x = 0 y = 18 }
 		}
 	
 	}
@@ -945,6 +933,7 @@ enable_tactic = tactic_breakthrough
             soft_attack = 0.2
         }
 max_dig_in = 5
+		research_cost = 117.65
 
         category_light_infantry = {
             max_organisation = 5
@@ -1001,7 +990,7 @@ org_loss_when_moving = -0.7
 	
 		folder = {
 			name = land_doctrine_folder
-			position = { x = 24 y = 18 }
+			position = { x = 0 y = 18 }
 		}
 	}
 	
@@ -1020,7 +1009,7 @@ org_loss_when_moving = -0.7
 		}
 
 		doctrine = yes	
-		research_cost = 1
+		research_cost = 117.65
 		
 		categories = {
 			land_doctrine

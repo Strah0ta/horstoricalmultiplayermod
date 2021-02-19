@@ -34,6 +34,7 @@ set_technology = {
 		basic_torpedo = 1
 		basic_depth_charges = 1
 }
+add_timed_idea = { idea = GER_mefo_bills_1 days = 730 }
 
 add_equipment_to_stockpile = { type = infantry_equipment_1 amount = 11000 }
 add_equipment_to_stockpile = { type = support_equipment_1 amount = 300 }
