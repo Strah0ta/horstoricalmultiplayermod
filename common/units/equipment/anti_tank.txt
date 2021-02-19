@@ -24,7 +24,7 @@ equipments = {
 		maximum_speed = 4
 		#Offensive Abilities
 		hard_attack = 15
-		ap_attack = 96
+		ap_attack = 88
 		air_attack = 0
 
 		#Space taken in convoy
