@@ -2172,12 +2172,12 @@ create_corps_commander = {
 	traits = { trait_engineer fortress_buster infantry_leader trait_cautious fake_skilled_staffer commando camouflage_expert ambusher }
 	skill = 8
     attack_skill = 5
-    defense_skill = 5
+    defense_skill = 5 
     planning_skill = 7
     logistics_skill = 8
 }
 
-create_corps_commander = {
+create_corps_commander = { 
 	name = "Friedrich Schulz"
 	picture = "Portrait_Germany_Friedrich_Schulz.dds"
 	traits = {   infantry_leader trait_cautious fake_skilled_staffer commando camouflage_expert ambusher }
@@ -2206,6 +2206,13 @@ create_corps_commander = {
 			
 			completion_reward = {
 			every_state = { limit = { atlantikwall_states = yes }
+			add_state_modifier = { modifier = { production_speed_anti_air_building_factor  = 0.5 } }
+			add_state_modifier = { modifier = { production_speed_coastal_bunker_factor  = 0.5 } }
+				set_building_level = {
+						type = anti_air_building
+						level = 2
+						instant_build = yes
+					}
 				set_building_level = {
 						type = coastal_bunker
 						level = 6
