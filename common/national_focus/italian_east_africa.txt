@@ -104,7 +104,7 @@ focus_tree = {
 		available_if_capitulated = yes 
 
 		completion_reward = { 
-		add_equipment_to_stockpile = { producer = ITA  type = motorized_equipment amount = 5000 }
+		add_equipment_to_stockpile = { producer = ITA  type = motorized_equipment amount = 3000 }
 			add_equipment_to_stockpile = { producer = ITA  type = light_tank_equipment_1 amount = 1200 }
 			add_equipment_to_stockpile = { producer = GER  type = light_tank_equipment_2 amount = 800 }
 		}
@@ -160,8 +160,8 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_equipment_to_stockpile = { producer = ITA  type = artillery_equipment_1 amount = 2500 }	
-			add_equipment_to_stockpile = { producer = ITA  type = infantry_equipment_1 amount = 25000 }	
+			add_equipment_to_stockpile = { producer = ITA  type = artillery_equipment_1 amount = 2000 }	
+			add_equipment_to_stockpile = { producer = ITA  type = infantry_equipment_1 amount = 20000 }	
 			add_equipment_to_stockpile = { producer = ITA  type = support_equipment amount = 500 }				
 		}
 	}
@@ -239,7 +239,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 100000 }
+add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 60000 }
 		}
 	}	
 	
@@ -298,8 +298,8 @@ add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 100000 }
 		available_if_capitulated = yes
   
 		completion_reward = {
-			add_equipment_to_stockpile = { producer = ITA  type = infantry_equipment_1 amount = 40000 }	
-			add_equipment_to_stockpile = { producer = ITA  type = anti_tank_equipment_1 amount = 3000 }				
+			add_equipment_to_stockpile = { producer = ITA  type = infantry_equipment_1 amount = 30000 }	
+			add_equipment_to_stockpile = { producer = ITA  type = anti_tank_equipment_1 amount = 2000 }				
 			add_equipment_to_stockpile = { producer = ITA  type = support_equipment amount = 1000 }				
 		}
 	}	

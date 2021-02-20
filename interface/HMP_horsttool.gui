@@ -64,6 +64,14 @@ guiTypes = {
 			pdx_tooltip = "ADD_CHEAT"
 			pdx_tooltip_delayed = "ADD_CHEAT_DELAYED"
 		}
+				buttonType = {
+			name = "award_states" 
+			position = {x=250 y=190}	
+			spriteType = "GFX_global_diplorequest_icons"
+            		frame = 13
+			pdx_tooltip = "TRANSFER_STATES"
+			pdx_tooltip_delayed = "TRANSFER_STATES_DELAYED"
+		}
 		buttonType = {
 			name = "observer" 
 			position = {x=80 y=200}

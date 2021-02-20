@@ -30,7 +30,28 @@ scripted_gui = {
 					clear_array=marked_states
 				}
 			}
-			
+			award_states_click = {
+
+				owner={
+					for_each_loop={
+						array=ROOT.marked_states
+						value=state
+						transfer_state = state
+					}
+									for_each_loop={
+						array=ROOT.marked_states
+						value=state
+						var:state={add_core_of=var:taker}
+					}
+					ROOT = {
+						for_each_scope_loop={
+							array=marked_states
+							clear_variable=mark_status
+						}
+						clear_array=marked_states
+					}
+				}
+			}
 			add_cheat_click = {
 				set_variable = { ROOT.taker = this}
 				var:taker = {
@@ -108,6 +129,7 @@ scripted_gui = {
 			cheat4_visible={ROOT={has_country_flag=cheating}}
 			cheat2_text_visible={ROOT={has_country_flag=cheating}}
 			cheat3_text_visible={ROOT={has_country_flag=cheating}}
+			award_states_click_enabled = {	check_variable = { ROOT.marked_states^num > 0 }	}
 			cheat4_text_visible={ROOT={has_country_flag=cheating}}
 			clear_all_markings_click_enabled = { check_variable = { ROOT.marked_states^num > 0 } }	
 		}

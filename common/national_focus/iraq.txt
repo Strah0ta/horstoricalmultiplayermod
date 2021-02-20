@@ -225,7 +225,7 @@ focus_tree = {
 		relative_position_id = IRQ_revolution
 		prerequisite = { focus = IRQ_revolution }
 		available_if_capitulated = yes
-		available = { controls_state = 554}
+		available = { ITA = { controls_state = 554} }
 
 		completion_reward = {
 		hidden_effect = { set_cosmetic_tag = ALB_IRQSYR } custom_effect_tooltip = "We will be known as Golden Square Iraq and Syria"
