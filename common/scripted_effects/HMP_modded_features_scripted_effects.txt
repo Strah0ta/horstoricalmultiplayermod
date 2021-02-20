@@ -2875,8 +2875,8 @@ create_field_marshal = {
 	skill = 8
 	attack_skill = 6
 	defense_skill = 5
-	planning_skill = 4
-	logistics_skill = 10
+	planning_skill = 6
+	logistics_skill = 8
 }
 		
 create_field_marshal = {
@@ -3010,40 +3010,40 @@ create_corps_commander = {
     picture = "Portrait_Soviet_Georgiy_Zakharov.dds"
 	traits = { panzer_leader harsh_leader ranger trait_engineer camouflage_expert panzer_expert expert_improviser trickster }
 	skill = 7
-	attack_skill = 4
-	defense_skill = 3
-	planning_skill = 5
-	logistics_skill = 10
+	attack_skill = 5
+	defense_skill = 5
+	planning_skill = 7
+	logistics_skill = 5
 }
 create_corps_commander = {
 	name = "Vasily Chuikov" #Point Value: 20 #2/6/21 -Scavenger +Camo. Expert
 		picture = "Portrait_Soviet_Vasily_Chuikov.dds"
 	traits = { panzer_leader harsh_leader ranger trait_engineer camouflage_expert panzer_expert expert_improviser trickster }
 	skill = 7
-	attack_skill = 4
-	defense_skill = 3
-	planning_skill = 5
-	logistics_skill = 10
+	attack_skill = 5
+	defense_skill = 5
+	planning_skill = 7
+	logistics_skill = 5
 }
 create_corps_commander = {
 	name = "Yakov Cherevichenko" #Point Value: 20 #2/6/21 -Scavenger +Camo. Expert
 		picture = "Portrait_Soviet_Yakov_Cherevichenko.dds"
 	traits = { panzer_leader harsh_leader ranger trait_engineer camouflage_expert panzer_expert expert_improviser trickster }
 	skill = 7
-	attack_skill = 4
-	defense_skill = 3
-	planning_skill = 5
-	logistics_skill = 10
+	attack_skill = 5
+	defense_skill = 5
+	planning_skill = 7
+	logistics_skill = 5
 }
 create_corps_commander = {
 	name = "Andrey Yeryomenko" #Point Value: 20 #2/6/21 -Scavenger +Camo. Expert
 		picture = "Portrait_Soviet_Andrey_Yeryomenko.dds"
 	traits = { panzer_leader harsh_leader ranger trait_engineer camouflage_expert panzer_expert expert_improviser trickster }
 	skill = 7
-	attack_skill = 4
-	defense_skill = 3
-	planning_skill = 5
-	logistics_skill = 10
+	attack_skill = 5
+	defense_skill = 5
+	planning_skill = 7
+	logistics_skill = 5
 }
 
 

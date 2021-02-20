@@ -24,7 +24,7 @@ equipments = {
 
 		}
 
-		air_superiority = 2
+		air_superiority = 1
 		reliability = 0.8
 
 		# Air vs Navy - high damage / low hit chance / hard to hurt
@@ -34,7 +34,7 @@ equipments = {
 		#Space taken in convoy
 		lend_lease_cost = 20
 		
-		build_cost_ic = 140
+		build_cost_ic = 70
 		resources = {
 			#oil = 1
 			aluminium = 2
@@ -94,9 +94,9 @@ equipments = {
 		air_range = 2100
 		maximum_speed = 275    
 		air_agility = 16
-		air_attack = 5
+		air_attack = 2
 		air_defence = 8
-		air_bombing = 53 #vanilla 10 QUADRUPLED bc production was QUADRUPLED; ALL PLANES ARE PREUPGRADED TO LEVEL 5 AS OF 1.9.3; increased by 20% to account for a removed doctrine tech as of 1.10.3
+		air_bombing = 27 #vanilla 10 QUADRUPLED bc production was QUADRUPLED; ALL PLANES ARE PREUPGRADED TO LEVEL 5 AS OF 1.9.3; increased by 20% to account for a removed doctrine tech as of 1.10.3
 		air_ground_attack = 6.6	
 		naval_strike_attack = 8
 		naval_strike_targetting = 7.5
@@ -114,12 +114,12 @@ equipments = {
 		air_range = 3600
 		maximum_speed = 473
 		air_agility = 20
-		air_attack = 8
+		air_attack = 4
 		air_defence = 10
-		air_bombing = 64
+		air_bombing = 32
 		air_ground_attack = 15
 		
-		build_cost_ic = 148
+		build_cost_ic = 74
 		resources = {
 			#oil = 1
 			aluminium = 3
@@ -140,12 +140,12 @@ equipments = {
 		air_range = 3750
 		maximum_speed = 484
 		air_agility =25
-		air_attack = 13
+		air_attack = 6
 		air_defence = 12
-		air_bombing = 74
+		air_bombing = 37
 		air_ground_attack = 20
 		
-		build_cost_ic = 156
+		build_cost_ic = 78
 		resources = {
 			#oil = 1
 			aluminium = 4
@@ -166,12 +166,12 @@ equipments = {
 		air_range = 4500
 		maximum_speed = 528
 		air_agility = 30
-		air_attack = 20
+		air_attack = 10
 		air_defence = 14
-		air_bombing = 84
+		air_bombing = 42
 		air_ground_attack = 25
 		
-		build_cost_ic = 164
+		build_cost_ic = 82
 		resources = {
 			aluminium = 5
 			rubber = 1
