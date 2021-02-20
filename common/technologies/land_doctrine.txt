@@ -1009,7 +1009,7 @@ org_loss_when_moving = -0.7
 		}
 
 		doctrine = yes	
-		research_cost = 117.65
+		research_cost = 1
 		
 		categories = {
 			land_doctrine
