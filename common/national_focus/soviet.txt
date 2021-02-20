@@ -61,6 +61,13 @@ focus_tree = {
 			bonus = 3.0
 			technology = mechanised_infantry3
 			}
+			   252 = {
+   	set_building_level = {
+					type = air_base
+					level = 80
+					instant_build = yes
+				}
+   }			
 		}
 	}
 	
