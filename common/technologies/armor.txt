@@ -11,11 +11,6 @@ technologies = {
 		heavy_armor = { max_strength = 2.5 }	
 	}
 	
-	#GER_henschel_tech = {
-	#	allow = { always = no }
-	#	on_research_complete = {  GER = { add_ideas = henschel } }
-	#}
-	
 	blitzkrieg_off = {
 		motorized = { max_strength = -4 }
 		mechanized = { max_strength = -5 }
@@ -279,6 +274,11 @@ technologies = {
 			name = armour_folder
 			position = { x = -4 y = 8 }
 		}
+			
+		path = {
+			leads_to_tech = advanced_light_tank2
+			research_cost_coeff = 1
+		}
 		
 		sub_technologies = {
 			advanced_light_td
@@ -290,7 +290,30 @@ technologies = {
 			cat_light_armor
 		}
 	}
-	
+		advanced_light_tank2 = { #Leopard
+
+		enable_equipments = {
+			light_tank_equipment_4 
+		}	
+		
+		research_cost = 2
+		start_year = 1943
+		
+		folder = {
+			name = armour_folder
+			position = { x = -4 y = 10 }
+		}
+		
+		sub_technologies = {
+			advanced_light2_td
+			advanced_light2_art
+			advanced_light2_spaa
+		}
+		categories = {
+			armor
+			cat_light_armor
+		}
+	}
 	advanced_light_td = {
 
 		enable_equipments = {
@@ -326,13 +349,53 @@ technologies = {
 		}
 	
 		research_cost = 0.05
-		start_year = 1941
+		start_year = 1943
+		
+		categories = {
+			armor
+		}
+	}
+	advanced_light2_td = {
+
+		enable_equipments = {
+			light_tank_destroyer_equipment_4
+		}
+	
+		research_cost = 0.05
+		start_year = 1943
+
+		categories = {
+			armor
+		}
+	}
+	
+	advanced_light2_art = {
+
+		enable_equipments = {
+			light_tank_artillery_equipment_4
+		}
+	
+		research_cost = 0.05
+		start_year = 1943
 		
 		categories = {
 			armor
 		}
 	}
 	
+	advanced_light2_spaa = {
+
+		enable_equipments = {
+			light_tank_aa_equipment_4
+		}
+	
+		research_cost = 0.05
+		start_year = 1943
+		
+		categories = {
+			armor
+		}
+	}
 	basic_medium_tank = { #Panzer III
 
 		enable_equipments = {
