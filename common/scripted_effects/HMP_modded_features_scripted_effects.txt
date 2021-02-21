@@ -61,11 +61,6 @@ HMP_ger_total_mob_1 = yes
 HMP_ger_total_mob_1 = yes 
 HMP_ger_total_mob_1 = yes 
 HMP_ger_total_mob_1 = yes 
-#HMP_ger_total_mob_1 = yes 
-#HMP_ger_total_mob_1 = yes 
-#HMP_ger_total_mob_1 = yes 
-#HMP_ger_total_mob_1 = yes 
-#HMP_ger_total_mob_1 = yes 
 }
 
 tp_divs_out_of_france = { every_state = { limit = { OR = { is_core_of = FRA vichy_state = yes }} teleport_armies = {limit = { original_tag = FRA } to_state = 5139 } } }
@@ -1891,9 +1886,9 @@ create_field_marshal = { #general FM
 }
 
 create_field_marshal = {
-    name = "Rodolfo Graziani" #Point Value: 16.5 #2/4/21 -Organizer -Panzer Expert
+    name = "Rodolfo Graziani" #Point Value: 17 #2/4/21 -Organizer -Panzer Expert #2/21/21 -Offensive Doctrine +Fortress Buster
     picture = "portrait_italy_radolfo_graziani.dds" 
-    traits = {  panzer_leader  thorough_planner logistics_wizard trait_engineer trait_mountaineer desert_fox hill_fighter offensive_doctrine trait_cautious }
+    traits = {  panzer_leader  thorough_planner logistics_wizard trait_engineer trait_mountaineer desert_fox hill_fighter fortress_buster trait_cautious }
     skill = 7
     attack_skill = 6
     defense_skill = 2

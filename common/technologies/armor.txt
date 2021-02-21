@@ -274,9 +274,13 @@ technologies = {
 			name = armour_folder
 			position = { x = -4 y = 8 }
 		}
-		on_research_complete = {
-            add_tech_bonus = { bonus = 1.0 uses = 1	technology = advanced_light_tank2 }
-        }
+		on_research_complete = {          
+		add_tech_bonus = {
+		bonus = 1.0
+		uses = 1	
+		technology = advanced_light_tank2
+		}
+		}
 
 		path = {
 			leads_to_tech = advanced_light_tank2
@@ -574,10 +578,10 @@ technologies = {
 			add_tech_bonus = {
 				name = "Heavy III to Medium III Bonus"
 				bonus = 3.0
-				uses = 1
+				uses = 2
 				technology = advanced_heavy_tank
+				technology = advanced_light_tank2
 			}
-            add_tech_bonus = { bonus = 3.0 uses = 1	technology = advanced_light_tank2 }
 		}
 		enable_equipments = {
 			medium_tank_equipment_3 
@@ -926,11 +930,11 @@ technologies = {
 			add_tech_bonus = {
 				name = "Heavy III to Medium III Bonus"
 				bonus = 3.0
-				uses = 1
+				uses = 2
 				technology = advanced_medium_tank
+				technology = advanced_light_tank2
 			}
-			            add_tech_bonus = { bonus = 3.0 uses = 1	technology = advanced_light_tank2 }
-		}
+			}
 		enable_equipments = {
 			heavy_tank_equipment_3 
 		}
@@ -1014,7 +1018,13 @@ technologies = {
 			super_heavy_tank_equipment_1
 		}
 		
-		on_research_complete = {             add_tech_bonus = { bonus = 3.0 uses = 1	technology = advanced_light_tank2 } }
+		on_research_complete = {          
+		add_tech_bonus = {
+		bonus = 3.0
+		uses = 1	
+		technology = advanced_light_tank2
+		}
+		}
 	
 		research_cost = 2
 		start_year = 1943

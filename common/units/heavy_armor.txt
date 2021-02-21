@@ -20,6 +20,7 @@ sub_units = {
 			category_all_armor
 			category_army
 		}
+		soft_attack = 0.2
 
 		desert = { movement = -0.2 }
 		forest = {

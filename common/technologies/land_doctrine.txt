@@ -330,8 +330,7 @@ technologies = {
 	}
 	
 	volkssturm = {
-		
-		conscription = 0.02
+		conscription = 0.01
 		category_line_artillery = {
 			default_morale = 0.2
 			soft_attack = 0.2
@@ -706,7 +705,7 @@ technologies = {
 	}
 	
 	sf_sum = {
-		allow_branch = {is_debug = yes}
+		allow = { tag = SWE }
 		research_cost = 117.65
 
 		category_front_line = {
@@ -780,7 +779,7 @@ technologies = {
 	}
 	
 		mw_sum = {
-		allow_branch = {is_debug = yes}
+		allow = { tag = SWE }
 	category_all_armor = {
       default_morale = 0.4
             max_organisation = 12
@@ -822,7 +821,7 @@ category_all_infantry = {
             max_organisation = 40
             default_morale = 0.2
         }
-		conscription = 0.02
+		conscription = 0.01
         category_line_artillery = {
             default_morale = 0.2
             soft_attack = 0.2
@@ -856,7 +855,7 @@ enable_tactic = tactic_backhand_blow
 	}
 	
 	gbp_sum = {
-			allow_branch = {is_debug = yes}
+			allow = { tag = SWE }
 	max_dig_in = 10
         dig_in_speed_factor = 0.25 #25% bonus
 max_planning = 0.25
@@ -917,7 +916,7 @@ enable_tactic = tactic_breakthrough
 	}
 	
 	ma_sum =  {
-				allow_branch = {is_debug = yes}
+				allow = { tag = SWE }
 
 	minimum_training_level = -0.1
         out_of_supply_factor = -0.40
@@ -970,7 +969,7 @@ attrition = -0.1 #take 10% less attrition losses
         infantry = {
             default_morale = 0.30
         }
-conscription = 0.02
+conscription = 0.01
         infantry = {
             need = {infantry_equipment= -10}
         }
@@ -1591,7 +1590,7 @@ org_loss_when_moving = -0.7
 
 	human_wave_offensive = {
 
-		conscription = 0.02
+		conscription = 0.01
 
 		land_reinforce_rate = 0.1
 		

@@ -20,6 +20,7 @@ sub_units = {
 		}		
 
 		combat_width = 3
+		soft_attack = 0.2
 
 		need = {
 			light_tank_artillery_equipment = 30
