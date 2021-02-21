@@ -274,7 +274,10 @@ technologies = {
 			name = armour_folder
 			position = { x = -4 y = 8 }
 		}
-			
+		on_research_complete = {
+            add_tech_bonus = { bonus = 1.0 uses = 1	technology = advanced_light_tank2 }
+        }
+
 		path = {
 			leads_to_tech = advanced_light_tank2
 			research_cost_coeff = 1
@@ -349,7 +352,7 @@ technologies = {
 		}
 	
 		research_cost = 0.05
-		start_year = 1943
+		start_year = 1943	
 		
 		categories = {
 			armor
@@ -574,6 +577,7 @@ technologies = {
 				uses = 1
 				technology = advanced_heavy_tank
 			}
+            add_tech_bonus = { bonus = 3.0 uses = 1	technology = advanced_light_tank2 }
 		}
 		enable_equipments = {
 			medium_tank_equipment_3 
@@ -925,6 +929,7 @@ technologies = {
 				uses = 1
 				technology = advanced_medium_tank
 			}
+			            add_tech_bonus = { bonus = 3.0 uses = 1	technology = advanced_light_tank2 }
 		}
 		enable_equipments = {
 			heavy_tank_equipment_3 
@@ -1008,6 +1013,8 @@ technologies = {
 		enable_equipments = {
 			super_heavy_tank_equipment_1
 		}
+		
+		on_research_complete = {             add_tech_bonus = { bonus = 3.0 uses = 1	technology = advanced_light_tank2 } }
 	
 		research_cost = 2
 		start_year = 1943
