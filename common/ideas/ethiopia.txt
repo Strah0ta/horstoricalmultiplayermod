@@ -10,7 +10,7 @@ ideas = {
 			picture = FRA_motorized_focus
 			allowed = {	always = no	}
 			removal_cost = -1
-			equipment_bonus = { motorized_equipment = { hardness = 0.25 instant = yes }   }
+			equipment_bonus = { motorized_equipment = { hardness = 0.1 instant = yes }   }
 		}		
 				ETH_superior_firepower_sf2_idea = {		
 			picture = FRA_scw_intervention_nationalists_focus
