@@ -333,7 +333,7 @@ technologies = {
 		conscription = 0.01
 		category_line_artillery = {
 			default_morale = 0.2
-			soft_attack = 0.2
+			soft_attack = 0.25
 		}
 		path = {
 			leads_to_tech = werwolf_guerillas 
@@ -470,7 +470,7 @@ technologies = {
 	dispersed_support = { # Branch is focused on support units as part of the regular brigades
 		
 		category_line_artillery = {
-			soft_attack = 0.2
+			soft_attack = 0.25
 		}
 		
 		path = {
@@ -682,7 +682,7 @@ technologies = {
 
 	shock_and_awe = {
 		category_line_artillery = {
-			soft_attack = 0.20
+			soft_attack = 0.25
 			default_morale = 0.20
 		}
 					category_all_armor = {
@@ -720,7 +720,7 @@ technologies = {
             defense = 0.10
         }
             category_line_artillery = {
-            soft_attack = 0.4
+            soft_attack = 0.5
             default_morale = 0.20
         }
 		land_reinforce_rate = 0.04
@@ -824,7 +824,7 @@ category_all_infantry = {
 		conscription = 0.01
         category_line_artillery = {
             default_morale = 0.2
-            soft_attack = 0.2
+            soft_attack = 0.25
         }
 enable_tactic = tactic_delay
 enable_tactic = tactic_elastic_defense
@@ -929,7 +929,7 @@ enable_tactic = tactic_breakthrough
         }
         category_line_artillery = {
             default_morale = 0.2
-            soft_attack = 0.2
+            soft_attack = 0.25
         }
 max_dig_in = 5
 		research_cost = 117.65
@@ -1364,7 +1364,7 @@ org_loss_when_moving = -0.7
 		}
 		category_line_artillery = {
 			default_morale = 0.2
-			soft_attack = 0.2
+			soft_attack = 0.25
 		}
 
 		doctrine = yes	
