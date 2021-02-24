@@ -9,16 +9,8 @@ GER_war_exhaustion = {
 				war_support_factor = germany_war_exhaustion_war_support_factor
 				army_core_attack_factor = germany_war_army_core_attack_factor
 				army_core_defence_factor = germany_war_army_core_defence_factor
-				fuel_gain_factor_from_states = germany_war_fuel_gain_factor_from_states
 		}
-
-sabotaged_resources = {
-	remove_trigger = { 	has_resistance = no	}
-	icon = GFX_modifiers_sabotaged_resource
-	temporary_state_resource_oil = sabotaged_oil
-	temporary_state_resource_aluminium = sabotaged_aluminium
-	temporary_state_resource_rubber = sabotaged_rubber
-	temporary_state_resource_tungsten = sabotaged_tungsten
-	temporary_state_resource_steel = sabotaged_steel
-	temporary_state_resource_chromium = sabotaged_chromium
-}
+		GER_fuel_mechanic = {
+			icon = "GFX_idea_ig_faben"
+			fuel_gain_factor_from_states = germany_war_fuel_gain_factor_from_states		
+		}

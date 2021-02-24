@@ -84,11 +84,6 @@ technologies = {
 		modifier = {
 			naval_strike_targetting_factor = 0.1
 		}
-		path = {
-			leads_to_tech = escort_carriers
-			research_cost_coeff = 1
-		}
-		
 		research_cost = 1
 
 		doctrine = yes	
@@ -99,7 +94,7 @@ technologies = {
 		
 		folder = {
 			name = naval_doctrine_folder
-			position = { x = 2 y = 3 }
+			position = { x = 0 y = 3 }
 		}
 		
 	}
@@ -178,7 +173,7 @@ technologies = {
 			sub_detection = 0.15
 		}
 		
-				light_cruiser = {
+		light_cruiser = {
 			max_organisation = 15
 			sub_detection = 0.15
 		}
@@ -200,7 +195,7 @@ technologies = {
 		
 		folder = {
 			name = naval_doctrine_folder
-			position = { x = 0 y = 3 }
+			position = { x = 2 y = 3 }
 		}
 		
 	}
@@ -212,6 +207,9 @@ technologies = {
 		destroyer = {
 			max_organisation = 30
 			sub_detection = 0.15
+		}
+		carrier = {
+			sub_detection = 0.5
 		}
 		convoy_escort_efficiency = 0.25
 		#####
@@ -235,36 +233,9 @@ technologies = {
 		
 		folder = {
 			name = naval_doctrine_folder
-			position = { x = 0 y = 6 }
-		}
-
-	}
-	
-	escort_carriers = {
-		#Small carriers/converted merchant ships sail with convoys for increased defense against subs and raiders
-
-		# EFFECT #############
-		carrier = {
-			sub_detection = 0.5
-		}
-		####
-		
-		path = {
-			leads_to_tech = grand_battlefleet
-			research_cost_coeff = 1
-		}
-		
-		doctrine = yes	
-		research_cost = 1
-		
-		categories = {
-			naval_doctrine
-		}
-		
-		folder = {
-			name = naval_doctrine_folder
 			position = { x = 2 y = 6 }
 		}
+
 	}
 	
 	trade_interdiction = {
@@ -310,6 +281,7 @@ technologies = {
 		submarine = {
 			max_organisation = 15
 			convoy_raiding_coordination = 0.15
+			surface_detection = 0.2	
 		}
 		naval_torpedo_reveal_chance_factor = -0.20
 		#######
@@ -328,7 +300,7 @@ technologies = {
 		
 		folder = {
 			name = naval_doctrine_folder
-			position = { x = 2 y = 3 }
+			position = { x = 0 y = 3 }
 		}
 		}
 	
@@ -339,6 +311,7 @@ technologies = {
 		submarine = {
 			max_organisation = 15
 			convoy_raiding_coordination = 0.15
+			surface_detection = 0.2	
 		}
 		navy_submarine_attack_factor = 0.1
 		#######
@@ -356,7 +329,7 @@ technologies = {
 		
 		folder = {
 			name = naval_doctrine_folder
-			position = { x = 2 y = 6 }
+			position = { x = 0 y = 6 }
 		}
 	}
 	
@@ -367,7 +340,7 @@ technologies = {
 		submarine = {
 			max_organisation = 20
 			convoy_raiding_coordination = 0.2
-			surface_detection = 0.05
+			surface_detection = 0.15
 			max_strength = 0.2			
 		}
 
@@ -381,64 +354,32 @@ technologies = {
 		
 		folder = {
 			name = naval_doctrine_folder
-			position = { x = 2 y = 9 }
+			position = { x = 0 y = 9 }
 		}
 
 	}
 	
-	combined_operations_raiding = {
-		# EFFECT ##############
 
-
-		submarine = {
-			surface_detection = 0.5	
-		}
-
-		light_cruiser = {
-			surface_detection = 0.4		
-		}
-
-		heavy_cruiser = {
-			surface_detection = 0.3
-		}	
-
-		battle_cruiser = {
-			surface_detection = 0.3
-		}
-		
-		battleship = {
-			surface_detection = 0.25
-		}
-			
-		destroyer = {
-			surface_detection = 0.25
-		}	
-		
-		doctrine = yes	
-		research_cost = 1
-		
-		categories = {
-			naval_doctrine
-		}
-
-		folder = {
-			name = naval_doctrine_folder
-			position = { x = -1 y = 6 }
-		}
-	}
 	
 	raider_patrols = {
 		#Surface raiding Branch + some boosts for Battleships
 		
 		# EFFECT ##############		
+				destroyer = {
+			surface_detection = 0.25
+			convoy_raiding_coordination = 0.5
+		}	
+		
 		light_cruiser = {
 			surface_visibility = -0.10
 			convoy_raiding_coordination = 0.5
+			surface_detection = 0.4		
 		}
 
 		heavy_cruiser = {
 			surface_visibility = -0.10
 			convoy_raiding_coordination = 0.5
+			surface_detection = 0.3
 		}
 		#######
 
@@ -456,7 +397,7 @@ technologies = {
 		
 		folder = {
 			name = naval_doctrine_folder
-			position = { x = 0 y = 3 }
+			position = { x = 2 y = 3 }
 		}
 		
 	}
@@ -468,11 +409,13 @@ technologies = {
 		battle_cruiser = {
 			surface_visibility = -0.20
 			convoy_raiding_coordination = 0.5
+			surface_detection = 0.3
 		}
 
 		battleship = {
 			surface_visibility = -0.25
 			convoy_raiding_coordination = 0.5
+			surface_detection = 0.25
 		}
 
 		#######

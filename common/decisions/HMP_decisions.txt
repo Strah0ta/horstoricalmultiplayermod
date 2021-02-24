@@ -782,7 +782,7 @@ GER_desert_flower_dec = {
 		ITA = { transfer_state = 554 } 554 = { set_demilitarized_zone = no } country_event = { id = germany.378 }
 		if = { limit = { NOT = { ALB = { owns_state = 291 }}} 		ITA = { transfer_state = 291 } }
 		if = { limit = { AND = { NOT = {EFR = { has_country_flag = EFR_torch_declared}} EFR = {owns_state = 26 }} } EFR = { every_owned_state = {  set_demilitarized_zone = yes } 26 = { set_demilitarized_zone = no  } } } 
-
+		add_dynamic_modifier  = { modifier =  GER_fuel_mechanic }
 		291 = { set_building_level = {
 					type = infrastructure
 					level = 10
