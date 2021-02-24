@@ -12,6 +12,7 @@ add_ideas = {
 	armyandnavy_idea
 	BUL_second_national_catastrophe
 }
+add_ideas = manpower_early
  add_timed_idea = { idea = GER_mefo_bills_1 days = 730 }
 
 add_relation_modifier = {

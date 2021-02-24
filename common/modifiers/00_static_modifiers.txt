@@ -436,6 +436,10 @@ stahlpakt2 = {
 
 	}
 	
+	railroad_speed = {
+		army_speed_factor_for_controller = 0.1 
+	}
+	
 asiapakt = {
 	valid_relation_trigger = {
 		FROM = {

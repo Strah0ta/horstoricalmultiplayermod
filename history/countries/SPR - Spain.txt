@@ -2,6 +2,7 @@
 oob = "SPR_1936"
 add_to_tech_sharing_group = axis_research 
 add_ideas = armyandnavy_idea
+add_ideas = manpower_early
 set_variable = {
     var = min_fuel
     value = 0.800

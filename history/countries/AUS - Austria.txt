@@ -4,6 +4,7 @@ country_lock_all_division_template = yes
 
 set_convoys = 5
 add_ideas = ai_imiter
+
 set_technology = {
 concentrated_industry = 1
 dispersed_industry = 1 

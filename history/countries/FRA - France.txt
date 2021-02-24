@@ -3,6 +3,7 @@ oob = "FRA_1936"
 set_naval_oob = "FRA_1936_naval_mtg"
 set_rule = { can_be_spymaster = no }
 add_ideas = armyandnavy_idea
+add_ideas = manpower_early
 add_ideas = fra_legit_idea
 set_research_slots = 3
 set_stability = 0.5

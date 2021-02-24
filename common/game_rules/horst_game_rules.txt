@@ -29,7 +29,21 @@ horst_manchukuo = {
 		desc = "Clicking this option will give Manchukuo a powerful new focus tree that was created by Thrasymachus"	
 	}
 }
-
+HORST_SEALION = {
+	name = "Sealion Rules"
+	group = "HORST_GROUPKEY"					
+	icon = "GFX_decision_hol_draw_up_staff_plans"			
+	default = {	
+		name = "HORST_SEALION_OFF"
+		text = "Default Rule on Sealion"
+		desc = "Clicking this option will keep the rule in the base Horst ruleset on Sealion"	
+	}
+	option = {	
+		name = "HORST_SEALION_ON" 
+		text = "Variant Rule on Sealion"
+		desc = "Clicking this option will override the rule in the Horst ruleset on Sealion. The UK gets more early production and less entrenchment on Gibraltar."	
+	}
+}
 horst_host_country = {
 	name = "Select Host (TEST IN SP FIRST!!!)"
 	group = "HORST_GROUPKEY"

@@ -126,6 +126,8 @@ add_ideas = {
 	home_of_revolution
 	kliment_voroshilov
 	closed_economy
+	manpower_early
+
 }
 
 create_country_leader = {

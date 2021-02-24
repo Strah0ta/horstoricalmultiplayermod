@@ -706,7 +706,6 @@ technologies = {
 	
 	sf_sum = {
 		allow = { tag = SWE }
-		research_cost = 117.65
 
 		category_front_line = {
              soft_attack = 0.1
@@ -763,7 +762,7 @@ technologies = {
 
 				doctrine = yes	
 				
-		research_cost = 1
+		research_cost = 117.65
 		
 		categories = {
 			land_doctrine

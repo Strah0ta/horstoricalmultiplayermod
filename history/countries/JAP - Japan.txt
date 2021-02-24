@@ -8,6 +8,8 @@ set_variable = {
     var = min_fuel
     value = 0.800
 }
+add_ideas = manpower_early
+
 add_ideas = {
 	state_shintoism
 	limited_exports

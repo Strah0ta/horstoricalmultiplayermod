@@ -4,6 +4,7 @@ set_research_slots = 4
 set_stability = 0.7
 set_war_support = 0.6
 add_ideas = armyandnavy_idea
+add_ideas = manpower_early
 add_timed_idea = { idea = GER_mefo_bills_1 days = 730 }
 add_to_tech_sharing_group = axis_research 
 add_opinion_modifier = { target = EFR modifier = anti_cross_faction_trade }

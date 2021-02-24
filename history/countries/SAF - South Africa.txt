@@ -39,6 +39,7 @@ set_technology = {
 
 	add_ideas = SAF_ossewabrandwag
 	add_ideas = SAF_history_of_segregation
+	add_ideas = manpower_early
 	add_ideas = SAF_the_commonwealth
 	add_to_tech_sharing_group = commonwealth_research
 add_equipment_to_stockpile = { type = infantry_equipment_1 amount = 3200 }

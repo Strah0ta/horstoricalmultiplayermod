@@ -17,6 +17,8 @@ set_technology = {
 	basic_heavy_tank = 1
 	interwar_antiair = 1
 }
+add_ideas = manpower_early
+
 set_variable = {
     var = min_fuel
     value = 0.800

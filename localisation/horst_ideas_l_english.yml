@@ -19,6 +19,8 @@
  anti_strat_meme_desc:0 "This is to prevent building full efficiency on bombers before Danzig as bombers are balanced around a slower build up of efficiency gain. This is removed by Germany's 'Fall Weiss and Fall Rot' decision."
  red_airforce_resurgent:0 "Red Airforce Resurgent"
  JAP_thrasymachus_modding:0 ""
+ manpower_early:0 "Temporary Manpower Raiser (Disappears at Danzig)"
+ manpower_early_desc:0 "This is removed by Extensive Conscription or Danzig or War. This is so you can set up your divisions early on in the game so it is easier to be ready for Danzig."
  japan_no_asia:0 "The War in the Pacific"
  navy_chief_decisive_battle_ITA:0 "Mare Nostrum Doctrine"
  crda_refit:0 "Cantieri Riuniti dell'Adriatico"

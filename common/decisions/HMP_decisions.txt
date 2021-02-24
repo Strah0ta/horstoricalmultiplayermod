@@ -1232,6 +1232,7 @@ create_corps_commander = {
 		complete_effect = { 
 			load_oob = "ENG_EFR"
 		GER = { remove_from_faction = EFR }
+		hidden_effect = { if = { limit = { EFR = { is_ai = yes }}} ITA = { load_oob = "ITA_TORCH_Spawn"} }
 		EFR = { set_country_flag = EFR_torch_declared diplomatic_relation = { country = GER relation = military_access	active = yes	} diplomatic_relation = { country = ITA relation = military_access	active = yes	} diplomatic_relation = { country = ROM relation = military_access	active = yes	} diplomatic_relation = { country = BUL relation = military_access	active = yes	} diplomatic_relation = { country = HUN relation = military_access	active = yes	} if = { limit= {country_exists = ALB }diplomatic_relation = { country = ALB relation = military_access	active = yes	}}}
 				USA = { country_event = { id = usa.996  days = 0 } 
 				create_field_marshal = {
@@ -1963,7 +1964,13 @@ AST = {
 		complete_effect = {	 send_equipment = { equipment = fighter_equipment amount = 400 target = ITA } send_equipment = { equipment = CAS_equipment amount = 20 target = ITA }
 		 } 	
 		} 
-
+		ENG_plane_to_usa = { 
+		allowed = {	 original_tag = ENG	} 
+		icon = GFX_decision_generic_air
+		available = {    }
+		complete_effect = {	 send_equipment = { equipment = fighter_equipment amount = 400 target = USA } send_equipment = { equipment = CAS_equipment amount = 20 target = USA }
+		 } 	
+		} 
 		GER_plane_hun2 = {
 	allowed = {	 original_tag = ITA	} 
 		icon = generic_naval

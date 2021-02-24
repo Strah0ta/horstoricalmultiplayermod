@@ -103,6 +103,7 @@ add_ideas = {
 	free_trade
 	home_of_the_free
 	armyandnavy_idea_usa
+	manpower_early
 }
 
 create_country_leader = {
