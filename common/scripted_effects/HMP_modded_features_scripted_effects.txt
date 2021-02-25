@@ -2848,22 +2848,22 @@ create_field_marshal = {
 	name = "Ivan Konev" #Point Value: 20.5 
 		picture = "Portrait_Soviet_Ivan_Konev.dds"
 	traits = { logistics_wizard adaptable thorough_planner panzer_leader harsh_leader ranger trait_engineer camouflage_expert panzer_expert expert_improviser }
-	skill = 8
+	skill = 7
 	attack_skill = 6
 	defense_skill = 5
 	planning_skill = 6
-	logistics_skill = 8
+	logistics_skill = 5
 }
 		
 create_field_marshal = {
 	name = "Georgy Zhukov"
 	picture = "Portrait_Soviet_Gregory_Zhukov.dds" #Point Value: 20.5 -Organizer -Organisational Leader -Commando #2/15/21 -Offensive Doctrine -Expert Delegator -Improv. Expert
 	traits = { adaptable brilliant_strategist thorough_planner aggressive_assaulter logistics_wizard panzer_leader panzer_expert ranger trickster   }
-	skill = 8
+	skill = 7
 	attack_skill = 6
 	defense_skill = 5
 	planning_skill = 4
-	logistics_skill = 10
+	logistics_skill = 7
 }		
 create_field_marshal = {
     name = "Nikandr Chibisov"
