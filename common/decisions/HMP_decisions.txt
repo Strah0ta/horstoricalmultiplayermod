@@ -1222,7 +1222,7 @@ create_corps_commander = {
         available = {
 			OR = { 
 			NOT = { ITA = { controls_state = 448 controls_state = 450 }   }
-			date > 1942.3.1  
+			date > 1941.12.1  
 			AND = { controls_state = 447 date > 1941.6.1 }
 			}
 		}
@@ -2793,11 +2793,17 @@ USA_congress_small_supporta = yes
 			}
 		}
 	}
-	USA_plane_eng = {
+	USA_plane_eng = { 
 		allowed = {	original_tag = USA } 
 		icon = generic_naval
 		fire_only_once = yes
-		complete_effect = { activate_mission = USA_plane_LL1	}		
+		complete_effect = { activate_mission = USA_plane_LL1 set_country_flag = USA_send_plane	}		
+	}
+		USA_plane_eng2 = {
+		allowed = {	original_tag = USA } 
+		icon = generic_naval
+		fire_only_once = no
+		complete_effect = {  if = { limit = { NOT = { has_country_flag = USA_send_plane  }  }  set_country_flag = USA_send_plane }   if = { limit = { has_country_flag = USA_send_plane  } clr_country_flag = USA_send_plane } 	}		
 	}
 	USA_plane_LL1 = {
 		allowed = {	original_tag = USA }	
@@ -2808,7 +2814,7 @@ USA_congress_small_supporta = yes
 		is_good = yes
 		activation = { always = no	}
 		timeout_effect = {
-		USA_all_plane_LL = yes	
+			if = { limit =  { has_country_flag = USA_send_plane } USA_all_plane_LL = yes	}
 		activate_mission = USA_plane_LL2		
 		}
 		complete_effect = {	
@@ -2823,7 +2829,7 @@ USA_congress_small_supporta = yes
 		is_good = yes
 		activation = { always = no	}
 		timeout_effect = {
-		USA_all_plane_LL = yes	
+				if = { limit =  { has_country_flag = USA_send_plane }  USA_all_plane_LL = yes	}
 		activate_mission = USA_plane_LL1		
 		}
 		complete_effect = {	

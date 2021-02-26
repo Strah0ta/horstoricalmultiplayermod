@@ -3305,9 +3305,9 @@ create_field_marshal = {
 }
 
 create_corps_commander = {
-	name = "Jean de Lattre de Tassigny" #Point Value: 18 #2/6/21 -Camo Expert +Organizer +Naval Invader #2/12/21 -Commando
+	name = "Jean de Lattre de Tassigny" #Point Value: 18 #2/6/21 -Camo Expert +Organizer +Naval Invader #2/12/21 -Commando  #2/26/21  -Organizer -Naval Invader +Skirmisher
 	picture = "Portrait_France_Jean_de_Lattre_de_Tassigny.dds"
-	traits = {   trickster organizer naval_invader panzer_leader desert_fox  panzer_expert expert_improviser  }
+	traits = {   trickster skirmisher panzer_leader desert_fox  panzer_expert expert_improviser  }
 	skill = 6
 	attack_skill = 4
 	defense_skill = 5
@@ -3316,7 +3316,7 @@ create_corps_commander = {
 }
 
 create_field_marshal = {
-	name = "Charles De Gaulle" #Point Value: 14 #2/6/21 -Improv Expert -Organizer #2/12/21 -Engineer
+	name = "Charles De Gaulle" #Point Value: 14 #2/6/21 -Improv Expert -Organizer #2/12/21 -Engineer 
 	picture = "Portrait_France_Charles_De_Gaulle.dds"
 		traits = { harsh_leader trickster logistics_wizard brilliant_strategist desert_fox aggressive_assaulter panzer_leader panzer_expert fortress_buster }
 	skill = 7
