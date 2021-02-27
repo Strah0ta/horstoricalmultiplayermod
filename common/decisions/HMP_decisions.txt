@@ -2803,7 +2803,7 @@ USA_congress_small_supporta = yes
 		allowed = {	original_tag = USA } 
 		icon = generic_naval
 		fire_only_once = no
-		complete_effect = {  if = { limit = { NOT = { has_country_flag = USA_send_plane  }  }  set_country_flag = USA_send_plane }   if = { limit = { has_country_flag = USA_send_plane  } clr_country_flag = USA_send_plane } 	}		
+		complete_effect = {  if = { limit = { NOT = { has_country_flag = USA_send_plane  }  }  set_country_flag = USA_send_plane }   else = { clr_country_flag = USA_send_plane } 	}		
 	}
 	USA_plane_LL1 = {
 		allowed = {	original_tag = USA }	
