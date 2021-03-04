@@ -344,7 +344,7 @@ ideas = {
 				has_dlc = "La Resistance"
 				original_tag = SPR
 			}
-			traits = { army_logistics_2 }
+			traits = { army_commando_2 }
 		}
 		SPA_miguel_cabanellas = { # Carlist
 			ledger = army

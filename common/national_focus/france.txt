@@ -309,7 +309,6 @@
 				uses = 1
 				technology = improved_medium_tank				
 				technology = advanced_light_tank
-				technology = improved_light_tank
 			}
 		}
 	}

@@ -24,35 +24,15 @@ if = { limit = { date > 1939.12.30 } add_to_variable = { var = FRA_legitimacy va
 
 #IEA_generals_reform_focus = {
 
-
 #}
 
-add_operative_slot = {
-if = { limit = { NOT = { has_idea = operative_slot_added_1 }} add_ideas = operative_slot_added_1 }
- else_if = { limit = { NOT = { has_idea = operative_slot_added_2 }} add_ideas = operative_slot_added_2 }
- else_if = { limit = { NOT = { has_idea = operative_slot_added_3 }} add_ideas = operative_slot_added_3 }
- else_if = { limit = { NOT = { has_idea = operative_slot_added_4 }} add_ideas = operative_slot_added_4 }
-  else = {  add_ideas = operative_slot_added_5 }
-}
+add_operative_slot = { if = { limit = { NOT = { has_idea = operative_slot_added_1 }} add_ideas = operative_slot_added_1 } else_if = { limit = { NOT = { has_idea = operative_slot_added_2 }} add_ideas = operative_slot_added_2 } else_if = { limit = { NOT = { has_idea = operative_slot_added_3 }} add_ideas = operative_slot_added_3 } else_if = { limit = { NOT = { has_idea = operative_slot_added_4 }} add_ideas = operative_slot_added_4 }   else = {  add_ideas = operative_slot_added_5 } }
 
-make_tank_designers_free = {
-	if = { limit = { NOT = { has_country_flag = nation_picked_tank_designer }} 	ROOT = { add_ideas = free_tank_designer set_country_flag = nation_picked_tank_designer }	}
-}
-make_naval_designers_free = {
-	if = { limit = { NOT = { has_country_flag = nation_picked_naval_designer }} 	ROOT = { add_ideas = free_naval_designer set_country_flag = nation_picked_naval_designer }	}
-}
+make_tank_designers_free = { if = { limit = { NOT = { has_country_flag = nation_picked_tank_designer }} 	ROOT = { add_ideas = free_tank_designer set_country_flag = nation_picked_tank_designer }	} }
 
+make_naval_designers_free = { if = { limit = { NOT = { has_country_flag = nation_picked_naval_designer }} 	ROOT = { add_ideas = free_naval_designer set_country_flag = nation_picked_naval_designer }	} }
 
-FRA_legitimacy_casualties_counter = {
-	set_temp_variable = { AXIScasualtiesk = 0 }
-	add_to_temp_variable = { AXIScasualtiesk = ROM.casualties_k }
-	add_to_temp_variable = { AXIScasualtiesk = BUL.casualties_k }
-	add_to_temp_variable = { AXIScasualtiesk = HUN.casualties_k }
-	add_to_temp_variable = { AXIScasualtiesk = SPR.casualties_k }
-	add_to_temp_variable = { AXIScasualtiesk = GER.casualties_k }	
-	divide_temp_variable  = { AXIScasualtiesk  = 5  }
-	add_to_variable = { var = FRA_legitimacy value = AXIScasualtiesk }
-}
+FRA_legitimacy_casualties_counter = {	set_temp_variable = { AXIScasualtiesk = 0 } add_to_temp_variable = { AXIScasualtiesk = ROM.casualties_k } add_to_temp_variable = { AXIScasualtiesk = BUL.casualties_k }	add_to_temp_variable = { AXIScasualtiesk = HUN.casualties_k } add_to_temp_variable = { AXIScasualtiesk = SPR.casualties_k } add_to_temp_variable = { AXIScasualtiesk = GER.casualties_k }	 divide_temp_variable  = { AXIScasualtiesk  = 5  } add_to_variable = { var = FRA_legitimacy value = AXIScasualtiesk } }
 
 HMP_ger_total_mob = { #converts 110 civs to 110 mills instantly for Germany as part of the Totaler Krieg focus
 HMP_ger_total_mob_1 = yes  
@@ -67,60 +47,10 @@ tp_divs_out_of_france = { every_state = { limit = { OR = { is_core_of = FRA vich
 
 tp_divs_out_of_norway = { every_state = { limit = { is_core_of = NOR } teleport_armies = {limit = { original_tag = NOR } to_state = 3311 } } }
 
-ENG_fortify_the_empire_level_up = {
-	if = {
-		limit = {	has_idea = ENG_fortify_the_empire_4	}
-		swap_ideas = {
-			remove_idea = ENG_fortify_the_empire_4
-			add_idea = ENG_fortify_the_empire_5
-		}
-	}
-	else_if = {
-		limit = {	has_idea = ENG_fortify_the_empire_3	}
-		swap_ideas = {
-			remove_idea = ENG_fortify_the_empire_3
-			add_idea = ENG_fortify_the_empire_4
-		}
-	}
-	else_if = {
-		limit = {	has_idea = ENG_fortify_the_empire_2	}
-		swap_ideas = {
-			remove_idea = ENG_fortify_the_empire_2
-			add_idea = ENG_fortify_the_empire_3
-		}
-	}
-		else_if = {
-		limit = {	has_idea = ENG_fortify_the_empire_1	}
-		swap_ideas = {
-			remove_idea = ENG_fortify_the_empire_1
-			add_idea = ENG_fortify_the_empire_2
-		}
-	}
-}
-baltic_cores = {
-add_equipment_to_stockpile = { type = infantry_equipment_1 amount = 40000 producer = SWE }
-add_equipment_to_stockpile = { type = artillery_equipment_2 amount = 3000 producer = SWE }
-add_equipment_to_stockpile = { type = support_equipment_1 amount = 3000 producer = SWE }
-add_equipment_to_stockpile = { type = anti_tank_equipment_2 amount = 6000 producer = SWE }
-load_oob = "FIN_spawn"
-}
+baltic_cores = { add_equipment_to_stockpile = { type = infantry_equipment_1 amount = 40000 producer = SWE } add_equipment_to_stockpile = { type = artillery_equipment_2 amount = 3000 producer = SWE } add_equipment_to_stockpile = { type = support_equipment_1 amount = 3000 producer = SWE } add_equipment_to_stockpile = { type = anti_tank_equipment_2 amount = 6000 producer = SWE } load_oob = "FIN_spawn" }
 share_intel_with_allies={
-		add_intel = {
-                        target = PREV
-                        civilian_intel = 200
-                        army_intel = 200
-                        navy_intel = 200
-                        airforce_intel = 200
-                    }
-		PREV = {
-                    add_intel = {
-                        target = PREV
-                        civilian_intel = 200
-                        army_intel = 200
-                        navy_intel = 200
-                        airforce_intel = 200
-                    }
-                }
+		add_intel = {   target = PREV civilian_intel = 200  army_intel = 200  navy_intel = 200  airforce_intel = 200  }
+		PREV = {  add_intel = {  target = PREV civilian_intel = 200  army_intel = 200  navy_intel = 200 airforce_intel = 200  }  }
 }
 HMP_ger_total_mob_1 = { 
 HMP_ger_total_mob_2 = yes

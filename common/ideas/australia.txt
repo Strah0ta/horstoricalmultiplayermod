@@ -413,7 +413,7 @@ high_command = {
 		}
 		cost = 100
 		available = {	has_completed_focus = AST_sentinel_tank_project	}
-		traits = { army_armored_2 }
+		traits = { army_armored_3 }
 	}
 }
 	# MILITARY

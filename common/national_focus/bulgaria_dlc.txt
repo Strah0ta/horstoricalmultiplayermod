@@ -117,10 +117,10 @@ focus_tree = {
 	focus = {
 		id = BUL_expand_sofia_university
 
-		prerequisite = {  focus = BUL_invigorate_national_industry }
+		prerequisite = {  focus = BUL_acquire_modern_tools }
 		icon = GFX_focus_research
-		relative_position_id = BUL_invigorate_national_industry
-		x = -1
+		relative_position_id = BUL_acquire_modern_tools
+		x = 6
 		y = 1
 		cost = 10
 

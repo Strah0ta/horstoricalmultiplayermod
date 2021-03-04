@@ -25,6 +25,7 @@ focus_tree = {
 
 		completion_reward = {
 			add_political_power = 120
+						add_research_slot = 1
 		}
 	}
 	
@@ -73,7 +74,6 @@ focus_tree = {
 		available = { date > 1938.7.1 }
 
 		completion_reward = {
-			add_research_slot = 1
 			swap_ideas = {
 				add_idea = BUL_salonika_agreement_idea
 				remove_idea = BUL_second_national_catastrophe
@@ -546,21 +546,6 @@ focus_tree = {
 		}
 	}
 	
-	focus = {
-		id = BUL_bulgarian_research_committee
-		icon = GFX_focus_research
-		prerequisite = { focus = BUL_research_treaty_with_italy }
-		x = 0
-		y = 1
-		relative_position_id = BUL_research_treaty_with_italy
-		cost = 5
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_research_slot = 1
-		}
-	}
 
 
 
@@ -568,10 +553,10 @@ focus_tree = {
 		id = BUL_skywalkers
 		icon = GFX_focus_generic_paratrooper
 		
-		prerequisite = {   focus = BUL_bulgarian_research_committee		}
+		prerequisite = {   focus = BUL_research_treaty_with_italy		}
 		x = 0
 		y = 1
-		relative_position_id = BUL_bulgarian_research_committee
+		relative_position_id = BUL_research_treaty_with_italy
 		cost = 5
 
 		available_if_capitulated = yes
