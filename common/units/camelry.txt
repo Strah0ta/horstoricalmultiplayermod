@@ -110,7 +110,7 @@ sub_units = {
 		combat_width = 1
 
 		manpower = 500
-		need = { anti_air_equipment = 30 }
+		need = { anti_air_equipment = 24 }
 		
 		max_strength = 0.6
 		max_organisation = 0
@@ -192,7 +192,7 @@ sub_units = {
 		
 		manpower = 500
 		need = {
-			artillery_equipment = 36
+			artillery_equipment = 24
 		}
 		
 		max_strength = 0.6
@@ -276,7 +276,7 @@ sub_units = {
 	
 		manpower = 500
 		need = {
-			rocket_artillery_equipment = 36
+			rocket_artillery_equipment = 24
 		}
 		
 		max_strength = 0.6
@@ -359,7 +359,7 @@ sub_units = {
 		combat_width = 1		
 
 		manpower = 500
-		need = { anti_tank_equipment = 24 }
+		need = { anti_tank_equipment = 18 }
 		
 		max_strength = 0.6
 		max_organisation = 0
