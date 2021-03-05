@@ -667,7 +667,7 @@ focus_tree = {
 				uses = 2
 				technology = advanced_light_tank
 				technology = improved_medium_tank
-				technology = advanced_medium_tank
+				category = cat_1943_tanks				
 				}
 		}
 	}

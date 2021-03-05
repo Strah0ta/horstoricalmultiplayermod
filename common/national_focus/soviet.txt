@@ -154,17 +154,13 @@ add_ideas = red_airforce_resurgent
 			name = armor_bonus
 			bonus = 1.0
 			uses = 2
-			technology = basic_medium_tank
-			technology = improved_medium_tank
-			technology = improved_heavy_tank
+				category = cat_1941_tanks
 		}
 					add_tech_bonus = {
 				name = armor_bonus
 				bonus = 0.40
 				uses = 1
-				technology = advanced_medium_tank
-				technology = advanced_heavy_tank
-				technology = super_heavy_tank
+				category = cat_1943_tanks	
 			}
 		add_tech_bonus = {
 			name = "Artillery Modernization"
@@ -178,12 +174,6 @@ add_ideas = red_airforce_resurgent
 			uses = 1
 			technology = improved_infantry_weapons
 		}		
-		add_tech_bonus = {
-			name = armor_bonus
-			bonus = 1.0
-			uses = 1
-			technology = advanced_light_tank
-		}	
 				add_tech_bonus = {
 			name = "Mechanized Experiments"
 			bonus = 0.8

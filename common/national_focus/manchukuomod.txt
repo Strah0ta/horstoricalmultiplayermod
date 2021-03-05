@@ -1404,18 +1404,13 @@ add_building_construction = {
 			bonus = 1.0
 			ahead_reduction = 1
 			uses = 1
-			technology = advanced_light_tank
-			technology = improved_medium_tank
-			technology = improved_heavy_tank
-			technology = amphibious_tank_2	
+				category = cat_1941_tanks
 		}
 			add_tech_bonus = {
 			bonus = 1.0
 			ahead_reduction = 0.5
 			uses = 1
-			technology = advanced_medium_tank
-			technology = advanced_heavy_tank
-			technology = super_heavy_tank
+				category = cat_1943_tanks
 		}	
 		}
 	}

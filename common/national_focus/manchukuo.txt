@@ -689,8 +689,10 @@ focus =  {
 			name = CHI_chinese_panzers
 			bonus = 1.0
 			uses = 3
-			category = armor
-		}
+			technology = basic_medium_tank
+				category = cat_1941_tanks
+				category = cat_1943_tanks	
+				}
 	}
 }
 

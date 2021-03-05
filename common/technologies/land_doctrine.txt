@@ -862,6 +862,10 @@ category_all_infantry = {
             defense = 0.10
             max_organisation = 20
         }
+				category_line_artillery = {
+			default_morale = 0.2
+			soft_attack = 0.25
+		}
 category_army = {
             breakthrough = 0.30
             soft_attack = 0.05
@@ -925,6 +929,7 @@ enable_tactic = tactic_breakthrough
         }
         infantry = {
             combat_width = -0.4
+			defense = -0.05
         }
         category_line_artillery = {
             default_morale = 0.2
@@ -1134,7 +1139,10 @@ org_loss_when_moving = -0.7
 		amphibious_mechanized = {
 			max_organisation = 10
 		}
-		
+				category_line_artillery = {
+			default_morale = 0.2
+			soft_attack = 0.25
+		}
 			enable_tactic = tactic_overwhelming_fire
 	
 		path = {

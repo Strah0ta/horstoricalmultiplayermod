@@ -144,8 +144,8 @@ equipments = {
 		
 		build_cost_ic = 10 
 		resources = {
-			#oil = 2
-			steel = 4
+			steel = 3
+			tungsten = 1
 		}
 	}
 	

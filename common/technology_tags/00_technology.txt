@@ -74,6 +74,8 @@ technology_categories = {
 	naval_minelaying
 	cat_scout_plane
 	camelry
+	cat_1941_tanks
+	cat_1943_tanks
 }
 
 technology_folders = {

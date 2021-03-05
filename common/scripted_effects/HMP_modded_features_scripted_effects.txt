@@ -167,19 +167,55 @@ random_owned_controlled_state = { limit = { OR = { state = 572 state = 179 state
 }
 
 HMP_no_asia = {
-HMP_no_asia_navy_balance = yes
-HMP_no_asia_country_changes = yes
+			ENG = { 
+				add_relation_modifier = {
+					target = FRA
+					modifier = stahlpakt_noasia
+				}
+				add_relation_modifier = {
+					target = CAN
+					modifier = stahlpakt_noasia
+				}
+				add_relation_modifier = {
+					target = NOR
+					modifier = stahlpakt_noasia
+				}
+					add_relation_modifier = {
+					target = SOV
+					modifier = stahlpakt_noasia
+				}			
+			}
+			
+SWE  = { give_resource_rights = { receiver = GER state = 494 }	}
+SAF  = { give_resource_rights = { receiver = ENG state = 487 }	}
+SWE = { country_event = { id = wtt_japan.109  days = 730  }  country_event = { id = wtt_japan.119  days = 1350  }    }
+ENG = { 
+				352 = { add_resource = { type = oil	amount = 500 } }  #400 added from USA
+				126 = {	add_resource = { type = aluminium amount = 115 } } 
+			284 = {
+				add_resource = {	type = steel	amount = 20	}
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+					}
+			300 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+					}	
+ }
+ FRA = {495 = {	add_resource = { type = steel amount = 94 } } }
+ CAN = { 
+ 		276 = {	add_resource = { type = steel amount = 86 } } 
+		473 = { add_resource = { type = steel amount = 73	} } 
+		540 = { add_resource = { type = steel amount = 22 } add_resource = { type = tungsten	amount = 50	}	}
+		} 
 }
 
-HMP_no_asia_navy_balance = {
-USA = { 
-destroy_ships = { type = destroyer count = all }
-destroy_ships = { type = light_cruiser count = all }
-destroy_ships = { type = carrier  count = all }
-destroy_ships = { type = battleship count = all }
-destroy_ships = { type = submarine count = all }
-}
-}
 
 SPR_relocate_civ = {
     SPR = {
@@ -257,56 +293,6 @@ SPR_relocate_mil = yes
 SPR_relocate_mil = yes
 }
 
-HMP_no_asia_country_changes = {
-			ENG = { 
-				add_relation_modifier = {
-					target = FRA
-					modifier = stahlpakt_noasia
-				}
-				add_relation_modifier = {
-					target = CAN
-					modifier = stahlpakt_noasia
-				}
-				add_relation_modifier = {
-					target = NOR
-					modifier = stahlpakt_noasia
-				}
-					add_relation_modifier = {
-					target = SOV
-					modifier = stahlpakt_noasia
-				}			
-			}
-			
-SWE  = { give_resource_rights = { receiver = GER state = 494 }	}
-SAF  = { give_resource_rights = { receiver = ENG state = 487 }	}
-SWE = { country_event = { id = wtt_japan.109  days = 730  }  country_event = { id = wtt_japan.119  days = 1350  }    }
-ENG = { 
-				352 = { add_resource = { type = oil	amount = 500 } }  #400 added from USA
-				126 = {	add_resource = { type = aluminium amount = 115 } } 
-			284 = {
-				add_resource = {	type = steel	amount = 20	}
-				add_building_construction = {
-					type = infrastructure
-					level = 2
-					instant_build = yes
-				}
-					}
-			300 = {
-				add_building_construction = {
-					type = infrastructure
-					level = 2
-					instant_build = yes
-				}
-					}	
- }
- FRA = {495 = {	add_resource = { type = steel amount = 94 } } }
- CAN = { 
- 		276 = {	add_resource = { type = steel amount = 86 } } 
-		473 = { add_resource = { type = steel amount = 73	} } 
-		540 = { add_resource = { type = steel amount = 22 } add_resource = { type = tungsten	amount = 50	}	}
-		} 
-}
-	
 HMP_anti_resource_exploit_effect = { 
 if = { limit = {  has_built = { type = infrastructure  value > 9 } } set_building_level = {  type = infrastructure  level = 6 instant_build = yes }  }  
 }
@@ -1346,8 +1332,9 @@ HMP_script_balkans = {
 		}
 
 	HMP_script_china = {	
-			every_state = { limit = { is_core_of = CHI NOT = { state = 498 }} JAP = {	transfer_state = PREV	} }
-			SWE = { transfer_state = 498 } JAP = { transfer_state = 498 }
+			if = { limit = { JAP = { has_country_flag = MAN_GETS_CHINA }}  every_state = { limit = { is_core_of = CHI NOT = { state = 498 }} MAN = {	transfer_state = PREV	} } 	SWE = { transfer_state = 498 } MAN = { transfer_state = 498 }    }
+			else = {  every_state = { limit = { is_core_of = CHI NOT = { state = 498 }} JAP = {	transfer_state = PREV	} } SWE = { transfer_state = 498 } JAP = { transfer_state = 498 }    }
+		
 			USA = { add_war_support = 0.15 } 
 			}
 			HMP_script_china_no_asia = {

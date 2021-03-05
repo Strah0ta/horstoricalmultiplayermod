@@ -1,7 +1,7 @@
 technologies = {
 	
 	early_fighter = {
-		allow = { NOT = { disabled_ai_production = yes tag =SPR }  }
+		allow = { NOT = { disabled_ai_production = yes tag = EFR tag =SPR }  }
 
 			enable_building = {
 			building = naval_base

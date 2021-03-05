@@ -699,11 +699,8 @@ focus_tree = {
 				name = SAF_armor_effort
 				bonus = 1.0
 				uses = 2
-				technology = improved_medium_tank
-				technology = improved_heavy_tank
-				technology = advanced_medium_tank
-				technology = advanced_heavy_tank
-				technology = super_heavy_tank				
+				category = cat_1941_tanks
+				category = cat_1943_tanks			
 			}
 		}
 	}

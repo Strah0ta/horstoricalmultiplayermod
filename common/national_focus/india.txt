@@ -556,8 +556,8 @@ focus_tree = {
 				name = RAJ_indian_armor
 				bonus = 1.0
 				uses = 2
-				technology = improved_medium_tank
-				technology = advanced_medium_tank
+				category = cat_1941_tanks
+				category = cat_1943_tanks	
 			}
 		}
 	}

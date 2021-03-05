@@ -655,9 +655,7 @@ focus_tree = {
 				ahead_reduction = 1
 				bonus = 1
 				uses = 1
-				technology = advanced_heavy_tank
-				technology = advanced_medium_tank
-				technology = super_heavy_tank
+				category = cat_1943_tanks	
 			}
 		}
 	}
@@ -700,9 +698,7 @@ focus_tree = {
 				name = HUN_armored_warfare
 				bonus = 1.0
 				uses = 1
-				technology = improved_medium_tank
-				technology = improved_heavy_tank
-				technology = advanced_light_tank
+				category = cat_1941_tanks
 			}
 		}
 	}

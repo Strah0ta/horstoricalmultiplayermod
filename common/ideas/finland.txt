@@ -150,6 +150,17 @@ ideas = {
 			traits = { army_regrouping_3 }
 			
 		}
+				FIN_valio_porvari = {
+			ledger = army
+			allowed = {	original_tag = FIN	}
+			
+			picture = generic_army_europe_2
+			traits = { army_infantry_1 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
 		FIN_lauri_tiainen = {
 			ledger = army		
 			

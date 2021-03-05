@@ -669,7 +669,8 @@ hidden_effect = {		set_technology = { naval_bomber2 = 1 }
 				name = JAP_armored_divisions
 				bonus = 1.0
 				uses = 2
-				category = armor	
+				category = cat_1941_tanks
+				category = cat_1943_tanks	
 			}
 		}
 	}

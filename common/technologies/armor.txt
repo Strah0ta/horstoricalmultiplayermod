@@ -267,7 +267,7 @@ technologies = {
 			light_tank_equipment_3 
 		}	
 		
-		research_cost = 2
+		research_cost = 2.25
 		start_year = 1941
 		
 		folder = {
@@ -295,6 +295,7 @@ technologies = {
 		categories = {
 			armor
 			cat_light_armor
+			cat_1941_tanks
 		}
 	}
 		advanced_light_tank2 = { #Leopard
@@ -319,6 +320,7 @@ technologies = {
 		categories = {
 			armor
 			cat_light_armor
+			 cat_1943_tanks
 		}
 	}
 	advanced_light_td = {
@@ -528,6 +530,7 @@ technologies = {
 		categories = {
 			armor
 			cat_medium_armor
+			cat_1941_tanks
 		}
 	}
 	
@@ -615,6 +618,7 @@ technologies = {
 		categories = {
 			armor
 			cat_medium_armor
+			cat_1943_tanks
 		}
 	}
 	
@@ -879,6 +883,7 @@ technologies = {
 		categories = {
 			armor
 			cat_heavy_armor
+			cat_1941_tanks
 		}
 	}
 	
@@ -965,6 +970,7 @@ technologies = {
 		categories = {
 			armor
 			cat_heavy_armor
+			cat_1943_tanks
 		}
 	}
 	
@@ -1042,6 +1048,7 @@ technologies = {
 		categories = {
 			armor
 			cat_heavy_armor
+			cat_1943_tanks
 		}
 	}
 	

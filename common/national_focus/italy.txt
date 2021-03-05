@@ -605,8 +605,9 @@ date > 1941.6.1
 				name = armor_bonus
 				bonus = 1.0
 				uses = 2
-				category = armor
-			}
+				category = cat_1941_tanks
+				category = cat_1943_tanks	
+				}
 		}
 	}
 

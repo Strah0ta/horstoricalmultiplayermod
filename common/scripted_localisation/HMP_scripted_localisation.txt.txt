@@ -16,6 +16,22 @@ defined_text = { # Country
 
 
 defined_text = { # Country
+	name = GetMANChina
+	text = {
+		trigger = {
+		  JAP = { has_country_flag = MAN_GETS_CHINA } 
+		}
+		localization_key = GetMANChinaNO
+	}
+	text = {
+		trigger = {	
+		 NOT = { JAP = { has_country_flag = MAN_GETS_CHINA } }
+		}
+		localization_key = GetMANChinaYES
+	}
+}
+
+defined_text = { # Country
 	name = GetSovSupplyRouteIran
 	text = {
 		trigger = {

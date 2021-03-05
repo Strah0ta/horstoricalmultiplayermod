@@ -157,11 +157,8 @@ focus_tree = {
 				name = armor_bonus
 				bonus = 1.0
 				uses = 2
-				technology = improved_medium_tank
-				technology = improved_heavy_tank
-				technology = advanced_heavy_tank
-				technology = advanced_medium_tank
-				technology = super_heavy_tank			
+				category = cat_1941_tanks
+				category = cat_1943_tanks			
 				}
 		}
 	}
@@ -264,7 +261,7 @@ focus_tree = {
 					if = { limit = { has_start_date > 1936.1.2 }
 			add_tech_bonus = {
 				name = AST_royal_australian_artillery
-				bonus = 1.0
+				bonus = 2.5
 				uses = 4
 				technology = antitank2
 				technology = antitank3

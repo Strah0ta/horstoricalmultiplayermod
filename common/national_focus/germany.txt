@@ -968,17 +968,9 @@ focus_tree = {
 			name = GER_soviet_treaty
 			bonus = 1.0
 			uses = 2
-			technology = improved_medium_tank
-			technology = improved_heavy_tank
-			technology = advanced_medium_tank
-			technology = advanced_heavy_tank
+				category = cat_1941_tanks
+				category = cat_1943_tanks
 		}
-					add_tech_bonus = {
-				bonus = 1.0
-				uses = 1
-				name = mech_army_bonus
-				technology = advanced_light_tank
-			}
 			add_tech_bonus = {
 				name = mech_army_bonus
 				bonus = 1.0
@@ -2206,8 +2198,6 @@ create_corps_commander = {
 			
 			completion_reward = {
 			every_state = { limit = { atlantikwall_states = yes }
-			add_state_modifier = { modifier = { production_speed_anti_air_building_factor  = 0.25 } }
-			add_state_modifier = { modifier = { production_speed_coastal_bunker_factor  = 0.25 } }
 				set_building_level = {
 						type = anti_air_building
 						level = 2

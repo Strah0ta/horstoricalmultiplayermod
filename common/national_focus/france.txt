@@ -307,8 +307,7 @@
 				name = FRA_light_medium_armor
 				bonus = 2
 				uses = 1
-				technology = improved_medium_tank				
-				technology = advanced_light_tank
+				category = cat_1941_tanks
 			}
 		}
 	}
@@ -379,9 +378,7 @@
 				name = FRA_army_reform
 				bonus = 1.0
 				uses = 1
-				technology = advanced_medium_tank
-				technology = advanced_heavy_tank
-				technology = super_heavy_tank
+				category = cat_1943_tanks
 			}
 			custom_effect_tooltip = available_designer
 			show_ideas_tooltip = FRA_AMX

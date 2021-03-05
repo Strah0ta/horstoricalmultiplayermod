@@ -1019,8 +1019,9 @@ transfer_state = 38
 				name = USA_tank_experiments
 				uses = 2
 				bonus = 1.0
-				category = armor
-			}
+				category = cat_1941_tanks
+				category = cat_1943_tanks	
+				}
 		}
 	}
 	focus = {

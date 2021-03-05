@@ -221,8 +221,9 @@
 				name = armor_bonus
 				bonus = 2	
 				uses = 1
-				category = armor
-			}
+				category = cat_1941_tanks
+				category = cat_1943_tanks	
+				}
 		}
 	}
 

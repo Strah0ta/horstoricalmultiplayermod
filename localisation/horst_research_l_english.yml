@@ -42,7 +42,8 @@
  MW_DOCTRINE_CON_DESC:0 "                             CONS\n                            -Weak Division Attack\n                                -Weak Reconaissance                \n" 
  SF_DOCTRINE_PRO_DESC:0 "                               PROS\n                         +High Division Attack\n                              +High Support Company            Soft Attack"
  SF_DOCTRINE_CON_DESC:0 "                               CONS\n                                -Weak Recovery Rate\n                       -Weak Tank Org\n                                -Weak Breakthrough"   
- 
+ cat_1941_tanks:0 "1941 Tank Models"
+ cat_1943_tanks:0 "1943 Tank Models"
  advanced_light_tank2:0 "1943 Light Tanks"
  
  ##LIGHT TANK STUFF##
