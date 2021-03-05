@@ -128,9 +128,6 @@ equipments = {
 		priority = 10
 		visual_level = 2
 		is_convertable = yes
-				can_convert_from = { 
-			light_tank_equipment_3
-		}
 		#Misc Abilities
 		maximum_speed = 15
 
@@ -140,8 +137,8 @@ equipments = {
 		armor_value = 30
 
 		#Offensive Abilities
-		soft_attack = 25.3
-		hard_attack = 13.5
+		soft_attack = 27.3
+		hard_attack = 18.5
 		ap_attack = 82.5
 		air_attack = 0	
 		

@@ -1360,6 +1360,7 @@ org_loss_when_moving = -0.7
 		}
 		infantry = {
 			combat_width = -0.4
+			defense = -0.05
 		}
 		category_line_artillery = {
 			default_morale = 0.2
@@ -1598,7 +1599,7 @@ org_loss_when_moving = -0.7
 			research_cost_coeff = 1
 		} 
 		infantry = {
-			need = {infantry_equipment= -10}
+			need = {infantry_equipment= -13}
 		}
 		on_research_complete = {
 			custom_effect_tooltip = human_wave_offensive_guns_tt
