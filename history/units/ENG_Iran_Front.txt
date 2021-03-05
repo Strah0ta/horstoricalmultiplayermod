@@ -156,7 +156,151 @@ units = {
 		start_equipment_factor = 0.01
 	}
 
-	
+	division= {	
+		location = 3456
+		division_template = "Countenance Infantry"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.01
+	}
+		division= {	
+		location = 3456
+		division_template = "Countenance Infantry"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.01
+	}
+		division= {	
+		location = 3456
+		division_template = "Countenance Infantry"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.01
+	}
+		division= {	
+		location = 3456
+		division_template = "Countenance Infantry"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.01
+	}
+		division= {	
+		location = 3456
+		division_template = "Countenance Infantry"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.01
+	}
+		division= {	
+		location = 3456
+		division_template = "Countenance Infantry"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.01
+	}
+		division= {	
+		location = 3456
+		division_template = "Countenance Infantry"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.01
+	}
+		division= {	
+		location = 3456
+		division_template = "Countenance Infantry"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.01
+	}
+		division= {	
+		location = 3456
+		division_template = "Countenance Infantry"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.01
+	}
+		division= {	
+		location = 3456
+		division_template = "Countenance Infantry"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.01
+	}
+		division= {	
+		location = 3456
+		division_template = "Countenance Infantry"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.01
+	}
+		division= {	
+		location = 3456
+		division_template = "Countenance Infantry"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.01
+	}
+		division= {	
+		location = 3456
+		division_template = "Countenance Infantry"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.01
+	}
+		division= {	
+		location = 3456
+		division_template = "Countenance Infantry"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.01
+	}
+		division= {	
+		location = 3456
+		division_template = "Countenance Infantry"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.01
+	}
+		division= {	
+		location = 3456
+		division_template = "Countenance Infantry"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.01
+	}
+		division= {	
+		location = 3456
+		division_template = "Countenance Infantry"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.01
+	}
+		division= {	
+		location = 3456
+		division_template = "Countenance Infantry"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.01
+	}
+		division= {	
+		location = 3456
+		division_template = "Countenance Infantry"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.01
+	}
+		division= {	
+		location = 3456
+		division_template = "Countenance Infantry"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.01
+	}
+		division= {	
+		location = 3456
+		division_template = "Countenance Infantry"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.01
+	}
+		division= {	
+		location = 3456
+		division_template = "Countenance Infantry"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.01
+	}
+		division= {	
+		location = 3456
+		division_template = "Countenance Infantry"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.01
+	}
+		division= {	
+		location = 3456
+		division_template = "Countenance Infantry"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.01
+	}
+
 	
 	
 	
