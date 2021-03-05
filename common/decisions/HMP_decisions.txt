@@ -11,7 +11,7 @@ available = {  check_variable = { var = SOV_barb_ll_token  value = 20  compare =
 		SOV = { add_to_variable = {  var = SOV_barb_ll_token   value = -20 } }						
 		}
 }
-HMP_ll_soviets_receive_more_guns2 = {
+HMP_ll_soviets_receive_more_guns2 = { 
 allowed = {  original_tag = SOV } 
 available = {  check_variable = { var = SOV_barb_ll_token  value = 50  compare = greater_than_or_equals} has_war_with = GER OR = { date > 1941.11.22  ENG = { controls_state = 412 }  } 			custom_trigger_tooltip = {	tooltip = SOV_secure_tt	suppy_route_secure = yes}  }      
 		icon = generic_form_nation
@@ -127,7 +127,7 @@ available = {  check_variable = { var = SOV_barb_ll_token  value = 10  compare =
 		days_remove = 60
 		fire_only_once = no
 		complete_effect  = {
-		add_equipment_to_stockpile = {  type = motorized_equipment_1 amount = 12500 producer = USA }			
+		add_equipment_to_stockpile = {  type = motorized_equipment_1 amount = 5000 producer = USA }			
 		SOV = { add_to_variable = {  var = SOV_barb_ll_token   value = -10 } }						
 		}
 	}
@@ -696,7 +696,7 @@ every_country = {
 			FIN = { country_event = { id = italy.604 days = 1 } if = { limit = { is_ai = yes } add_ideas = fin_sisu_ai }}
 			add_ideas = GER_barbarossa 	
 			hidden_effect={  
-			if ={ limit = { SOV = {  has_deployed_air_force_size { size < 3000 type = fighter }  has_equipment = { sov_fighter_equipment_2 < 3000 }    }    } ENG = { every_owned_state = { limit = { is_core_of = ENG } set_building_level = { type = air_base level = 8 instant_build = yes }  }  } }
+			if ={ limit = { SOV = {  has_deployed_air_force_size { size < 3000 type = fighter }  has_equipment = { sov_fighter_equipment_2 < 3000 }    }    } ENG = { remove_ideas = japan_no_asia every_owned_state = { limit = { is_core_of = ENG } set_building_level = { type = air_base level = 8 instant_build = yes }  }  } }
 					if = { limit = { country_exists = ROM } ROM = {add_ideas = GER_barbarossa } }
 					if = { limit = { country_exists = HUN } HUN = {	add_ideas = GER_barbarossa } }
 				ITA = {	add_ideas = GER_barbarossa }
@@ -793,7 +793,7 @@ GER_desert_flower_dec = {
 		ITA = { transfer_state = 554 } 554 = { set_demilitarized_zone = no } country_event = { id = germany.378 }
 		if = { limit = { NOT = { ALB = { owns_state = 291 }}} 		ITA = { transfer_state = 291 } }
 		if = { limit = { AND = { NOT = {EFR = { has_country_flag = EFR_torch_declared}} EFR = {owns_state = 26 }} } EFR = { every_owned_state = {  set_demilitarized_zone = yes } 26 = { set_demilitarized_zone = no  } } } 
-		add_dynamic_modifier  = { modifier =  GER_fuel_mechanic }
+		every_country = { limit = { is_in_faction_with = GER } add_dynamic_modifier  = { modifier =  GER_fuel_mechanic }}
 		291 = { set_building_level = {
 					type = infrastructure
 					level = 10
