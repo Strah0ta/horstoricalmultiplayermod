@@ -10,7 +10,7 @@ country_event = { id =  poland.122 days = 2729 }
 country_event = { id =  tfv_new_zealand.734 days = 	3 } #removes starting eff 
 country_event = { id =  tfv_new_zealand.733 days = 2517 }
 country_event = { id =  lar_spain.3 days = 199 }
-country_event = { id =  italy.632 days = 1671  } #africa tank HP germany
+country_event = { id =  italy.632 days = 1766  } #africa tank HP germany
 country_lock_all_division_template = yes
 country_event = { id = DOD_yugoslavia.21 days = 759  }	 
 news_event = { id = news.9990 days = 2364 }

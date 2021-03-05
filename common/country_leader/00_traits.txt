@@ -842,6 +842,7 @@ leader_traits = {
 			capital_ship = {
 				armor_value = 0.15 
 				hg_attack = 0.15
+				naval_speed = 0.075
 			}
 			screen_ship = {
 				torpedo_attack = 0.1 surface_visibility = -0.1 naval_speed = 0.1 

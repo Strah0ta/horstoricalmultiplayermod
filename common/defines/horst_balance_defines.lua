@@ -88,6 +88,7 @@ NDefines.NAir.COMBAT_MULTIPLANE_CAP = 1.8
 NDefines.NAir.COMBAT_DAMAGE_SCALE = 0.044				-- Vanilla 0,10
 NDefines.NAir.COMBAT_DAMAGE_SCALE_CARRIER = 3                 -- same as above but used inside naval combat for carrier battles
 NDefines.NAir.NAVAL_STRIKE_CARRIER_MULTIPLIER = 6.25              -- vanilla 5 damage bonus when planes are in naval combat where their carrier is present (and can thus sortie faster and more effectively)
+NDefines.NAir.SUPPLY_NEED_FACTOR = 0							-- multiplies supply usage
 
 NDefines.NAir.AIR_WING_MAX_STATS_SPEED = 30000
 NDefines.NAir.DISRUPTION_FACTOR = 4  -- (4 -> 7) with decent radar coverage equal amounts of fighters vs naval bombers will disrupt almost all naval bombers if not escorted, with low detection very few bombers are intercepted still

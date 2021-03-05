@@ -59,7 +59,7 @@ sub_units = {
 		desert = { 
 			attack = 0.2
 			defence = 0.2
-			movement = 0.3
+			movement = 0.25
 		}
 		jungle = {
 			attack = -0.2

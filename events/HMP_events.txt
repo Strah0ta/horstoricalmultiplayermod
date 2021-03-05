@@ -1129,7 +1129,7 @@ country_event = {
 
       option = {
    name = italy.602.a
-		   every_country = { limit = { is_in_faction_with = GER } add_ideas = GER_the_blitzkrieg set_technology = { blitzkrieg_off = 1 popup = no } }
+		   every_country = { limit = { is_in_faction_with = GER } remove_ideas = GER_the_blitzkrieg set_technology = { blitzkrieg_off = 1 popup = no } }
    }
    } 
  
