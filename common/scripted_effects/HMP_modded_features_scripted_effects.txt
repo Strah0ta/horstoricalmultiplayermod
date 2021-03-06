@@ -4118,12 +4118,9 @@ HMP_capitulations_on_actions = {
 			if = {
 			limit = { ROOT = { original_tag = SOV }  GER = { has_government = fascism } }
 			every_country = { limit = { is_in_faction_with = GER} white_peace = SOV }
-			FIN =  {  transfer_state = 146 transfer_state = 147 transfer_state = 214 transfer_state = 213 transfer_state = 215 transfer_state = 216 }
-			if = { limit = { NOT = { has_start_date > 1936.1.2 } country_exists = JAP }JAP = { transfer_state = 408  transfer_state = 409  transfer_state = 298   transfer_state = 406  } }
-			if = { limit = { country_exists = ROM }ROM = { transfer_state = 287 transfer_state = 78 transfer_state = 80  } }
-			if = { limit = { NOT = {country_exists = ROM } }ITA = { transfer_state = 287 transfer_state = 78 transfer_state = 80  } }
+			SOV = { white_peace = GER white_peace = ETH white_peace = ALB white_peace = FIN white_peace = ITA white_peace = SPR white_peace = BUL white_peace = HUN white_peace = EFR white_peace = ROM   }
 			news_event = { id = mtg_news.788 days = 1 } 
-			SWE = { country_event = { id = mtg_netherlands.343 days = 0    }}
+			SWE = { country_event = { id = mtg_netherlands.343 days = 1    }}
 			}
 
 			if = { limit = { ROOT = { original_tag = SOV }  GER = { has_government = neutrality } } democratic_russia = yes  }
