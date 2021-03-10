@@ -37,8 +37,8 @@ sub_units = {
 		supply_consumption = 0.16
 
 		# Support nerfs to combat abilities
-		defense = -0.4
-		breakthrough = -0.4
+		defense = -0.6
+		breakthrough = -0.6
 		soft_attack = -0.4
 		hard_attack = -0.4
 
@@ -83,8 +83,8 @@ sub_units = {
 		supply_consumption = 0.16
 
 		# Support nerfs to combat abilities
-		defense = -0.5
-		breakthrough = -0.5
+		defense = -0.6
+		breakthrough = -0.6
 		soft_attack = -0.5
 		hard_attack = -0.5
 		can_be_parachuted = yes
