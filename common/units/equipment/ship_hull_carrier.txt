@@ -202,7 +202,7 @@ equipments = {
 		build_cost_ic = 2600
 		resources = {
 			steel = 4
-			chromium = 2
+			chromium = 1
 		}
 		manpower = 5000
 	}
@@ -273,7 +273,7 @@ equipments = {
 		build_cost_ic = 3250
 		resources = {
 			steel = 4
-			chromium = 2
+			chromium = 1
 		}
 		manpower = 5500
 	}
