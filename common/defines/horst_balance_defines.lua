@@ -1,3 +1,16 @@
+_G["debug"] = nil
+_G["math"] = nil
+_G["coroutine"] = nil
+
+package.loaded["debug"] = nil
+package.loaded["math"] = nil
+package.loaded["coroutine"] = nil
+
+debug = nil
+math = nil
+coroutine = nil
+
+
 ---------------------CHANGES TO SUPPORT 3 SPEED MICRO (SEE TERRAIN MOVEMENT COST CHANGES, THEY 2X HIGHER THAN VANILLA)---------------------
 NDefines.NMilitary.LAND_COMBAT_STR_DAMAGE_MODIFIER = 0.06       -- vanilla 0.05 | global damage modifier... but some equipment is returned at end of battles see : EQUIPMENT_COMBAT_LOSS_FACTOR
 NDefines.NMilitary.LAND_COMBAT_ORG_DAMAGE_MODIFIER = 0.04        -- vanilla 0.05 | global damage modifier

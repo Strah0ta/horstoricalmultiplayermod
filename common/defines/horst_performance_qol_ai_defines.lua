@@ -1,3 +1,16 @@
+
+_G["debug"] = nil
+_G["math"] = nil
+_G["coroutine"] = nil
+
+package.loaded["debug"] = nil
+package.loaded["math"] = nil
+package.loaded["coroutine"] = nil
+
+debug = nil
+math = nil
+coroutine = nil
+
 NDefines.NAI.MAX_REQUEST_EXPEDITIONARIES_ARMY_RATIO = 1				-- AI will not accept expeditionary requests if its expeditions are above this ratio
 NDefines.NAI.CASUALTY_RATIO_TO_PULL_EXPEDITIONARIES_BACK = 1			-- AI will pull expeditioniries back if its casualties is aboce this ratio compared to their total deployed manpower
 NDefines.NAI.CASUALTY_RATIO_TO_NOT_SEND_EXPEDITIONARIES = 1			-- AI will not send expeditioniries if its casualties is aboce this ratio compared to their total deployed manpower

@@ -696,7 +696,7 @@ every_country = {
 			FIN = { country_event = { id = italy.604 days = 1 } if = { limit = { is_ai = yes } add_ideas = fin_sisu_ai }}
 			add_ideas = GER_barbarossa 	
 			hidden_effect={  
-			if ={ limit = { SOV = {  has_deployed_air_force_size { size < 3000 type = fighter }  has_equipment = { sov_fighter_equipment_2 < 3000 }    }    } ENG = { remove_ideas = japan_no_asia every_owned_state = { limit = { is_core_of = ENG } set_building_level = { type = air_base level = 8 instant_build = yes }  }  } }
+			if ={ limit = { SOV = {   has_deployed_air_force_size { size < 3000 type = fighter }has_equipment = { sov_fighter_equipment_2 < 3000 }    }    } ENG = { remove_ideas = japan_no_asia every_owned_state = { limit = { is_core_of = ENG } set_building_level = { type = air_base level = 8 instant_build = yes }  }  } }
 					if = { limit = { country_exists = ROM } ROM = {add_ideas = GER_barbarossa } }
 					if = { limit = { country_exists = HUN } HUN = {	add_ideas = GER_barbarossa } }
 				ITA = {	add_ideas = GER_barbarossa }

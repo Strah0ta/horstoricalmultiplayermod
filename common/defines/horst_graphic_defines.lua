@@ -1,3 +1,16 @@
+
+_G["debug"] = nil
+_G["math"] = nil
+_G["coroutine"] = nil
+
+package.loaded["debug"] = nil
+package.loaded["math"] = nil
+package.loaded["coroutine"] = nil
+
+debug = nil
+math = nil
+coroutine = nil
+
 NDefines.NGraphics.COUNTRY_COLOR_SATURATION_MODIFIER = 0.75 -- Vanilla 0.6   HFU 0.9
 NDefines.NGraphics.COUNTRY_COLOR_BRIGHTNESS_MODIFIER = 0.85 -- Vanilla 0.8   HFU 0.9
 
