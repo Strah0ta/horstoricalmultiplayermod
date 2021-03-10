@@ -298,6 +298,7 @@ equipment_modules = {
 			hg_attack = 8.0
 			build_cost_ic = 750
 			surface_visibility = 1
+			max_strength = 40 
 		}
 		multiply_stats = {
 			naval_speed = -0.04
@@ -305,7 +306,6 @@ equipment_modules = {
 		add_average_stats = {
 			hg_armor_piercing = 22
 			surface_visibility = 2.5
-			max_strength = 40
 		}
 		can_convert_from = {
 			module_category = ship_light_battery
@@ -326,7 +326,8 @@ equipment_modules = {
 		add_stats = {
 			hg_attack = 9.0
 			build_cost_ic = 800
-			surface_visibility = 1			
+			surface_visibility = 1	
+			max_strength = 40 
 		}
 		multiply_stats = {
 			naval_speed = -0.06
@@ -334,7 +335,6 @@ equipment_modules = {
 		add_average_stats = {
 			hg_armor_piercing = 25
 			surface_visibility = 2.5
-			max_strength = 40
 		}
 
 	
@@ -358,6 +358,7 @@ equipment_modules = {
 			hg_attack = 10.0
 			build_cost_ic = 825
 			surface_visibility = 1
+			max_strength = 40 
 		}
 		multiply_stats = {
 			naval_speed = -0.07
@@ -365,7 +366,6 @@ equipment_modules = {
 		add_average_stats = {
 			hg_armor_piercing = 29
 			surface_visibility = 2.5
-			max_strength = 40
 		}
 	
 		can_convert_from = {
@@ -387,7 +387,8 @@ equipment_modules = {
 		add_stats = {
 			hg_attack = 11.0
 			build_cost_ic = 900
-			surface_visibility = 1			
+			surface_visibility = 1	
+			max_strength = 40 			
 		}
 		multiply_stats = {
 			naval_speed = -0.08
@@ -395,7 +396,6 @@ equipment_modules = {
 		add_average_stats = {
 			hg_armor_piercing = 34
 			surface_visibility = 2.5
-				max_strength = 40
 		}
 
 		can_convert_from = {
@@ -1809,7 +1809,7 @@ equipment_modules = {
 		multiply_stats = {
 			build_cost_ic = 0.05
 			naval_speed = -0.2
-			max_strength = 0.05
+			max_strength = 0.2
 		}
 
 		add_stats = {
@@ -1842,7 +1842,7 @@ equipment_modules = {
 		multiply_stats = {
 			build_cost_ic = 0.05
 			naval_speed = -0.2
-			max_strength = 0.1
+			max_strength = 0.25
 		}
 
 		add_stats = {
@@ -1874,7 +1874,7 @@ equipment_modules = {
 		multiply_stats = {
 			build_cost_ic = 0.05
 			naval_speed = -0.2
-			max_strength = 0.15
+			max_strength = 0.30
 		}
 
 		add_stats = {
