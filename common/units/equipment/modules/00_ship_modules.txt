@@ -15,7 +15,7 @@ equipment_modules = {
 		
 		add_stats = {
 			lg_attack = 1
-			build_cost_ic = 40
+			build_cost_ic = 30
 		}
 		multiply_stats = {
 			naval_speed = -0.01
@@ -39,7 +39,7 @@ equipment_modules = {
 		
 		add_stats = {
 			lg_attack = 1.5
-			build_cost_ic = 60
+			build_cost_ic = 45
 			
 		}
 		multiply_stats = {
@@ -68,7 +68,7 @@ equipment_modules = {
 		
 		add_stats = {
 			lg_attack = 2
-			build_cost_ic = 80			
+			build_cost_ic = 60			
 		}
 		
 		add_average_stats = {
@@ -96,7 +96,7 @@ equipment_modules = {
 		
 		add_stats = {
 			lg_attack = 3.0
-			build_cost_ic = 120	
+			build_cost_ic = 90	
 		}
 
 		multiply_stats = {
@@ -125,7 +125,7 @@ equipment_modules = {
 		add_stats = {
 			lg_attack = 2.5
 			anti_air_attack = 2 
-			build_cost_ic = 160
+			build_cost_ic = 140
 		}
 		multiply_stats = {
 			naval_speed = -0.02
@@ -1426,7 +1426,7 @@ equipment_modules = {
 		
 		add_stats = {
 			torpedo_attack = 18
-			build_cost_ic = 70
+			build_cost_ic = 54
 		}
 		multiply_stats = {
 			naval_speed = -0.01			
@@ -1442,7 +1442,7 @@ equipment_modules = {
 
 		add_stats = {
 			torpedo_attack = 27
-			build_cost_ic = 90
+			build_cost_ic = 81
 		}
 		multiply_stats = {
 			naval_speed = -0.01		
@@ -1465,7 +1465,7 @@ equipment_modules = {
 
 		add_stats = {
 			torpedo_attack = 36
-			build_cost_ic = 110
+			build_cost_ic = 108
 		}
 		multiply_stats = {
 			naval_speed = -0.01			
@@ -1487,7 +1487,7 @@ equipment_modules = {
 
 		add_stats = {
 			torpedo_attack = 45
-			build_cost_ic = 130
+			build_cost_ic = 135
 		}
 		multiply_stats = {
 			naval_speed = -0.01			
@@ -1508,7 +1508,7 @@ equipment_modules = {
 		
 		add_stats = {
 			torpedo_attack = 14
-			build_cost_ic = 80
+			build_cost_ic = 77
 		}
 		
 		critical_parts = { damaged_torpedoes }
@@ -1522,7 +1522,7 @@ equipment_modules = {
 
 		add_stats = {
 			torpedo_attack = 18
-			build_cost_ic = 100
+			build_cost_ic = 99
 		}
 		
 		can_convert_from = {
@@ -1540,7 +1540,7 @@ equipment_modules = {
 
 		add_stats = {
 			torpedo_attack = 22
-			build_cost_ic = 120
+			build_cost_ic = 121
 		}
 		can_convert_from = {
 			module_category = ship_torpedo_sub
@@ -1557,7 +1557,7 @@ equipment_modules = {
 
 		add_stats = {
 			torpedo_attack = 28
-			build_cost_ic = 140
+			build_cost_ic = 154
 		}
 		can_convert_from = {
 			module_category = ship_torpedo_sub
@@ -1588,7 +1588,7 @@ equipment_modules = {
 		}
 
 		multiply_stats = {
-			naval_speed = -0.02
+			naval_speed = -0.01
 		}
 	}
 
@@ -1608,7 +1608,7 @@ equipment_modules = {
 		}
 
 		multiply_stats = {
-			naval_speed = -0.02
+			naval_speed = -0.01
 		}
 	}
 
@@ -1628,7 +1628,7 @@ equipment_modules = {
 		}
 
 		multiply_stats = {
-			naval_speed = -0.02
+			naval_speed = -0.01
 		}
 	}
 
@@ -1648,7 +1648,7 @@ equipment_modules = {
 		}
 
 		multiply_stats = {
-			naval_speed = -0.02
+			naval_speed = -0.01
 		}
 	}
 
