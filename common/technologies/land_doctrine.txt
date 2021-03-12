@@ -895,6 +895,7 @@ category_light_infantry = {
 		supply_consumption_factor = -0.05
 		out_of_supply_factor = -0.4
 		attrition = -0.50
+		army_fuel_capacity_factor = 1
 		no_supply_grace = 96
         enable_tactic = tactic_infantry_charge
 land_night_attack = 0.25 
@@ -1307,6 +1308,7 @@ org_loss_when_moving = -0.7
 		out_of_supply_factor = -0.4
 		attrition = -0.50
 		no_supply_grace = 96
+		army_fuel_capacity_factor = 1
 		doctrine = yes	
 		research_cost = 4.5
 		
