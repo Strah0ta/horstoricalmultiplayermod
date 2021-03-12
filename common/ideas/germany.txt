@@ -1264,7 +1264,21 @@ ideas = {
 			traits = { army_armored_3 }
 		
 		}	
-				
+						
+		werner_von_fritsch = {
+			ledger = army
+
+			
+			allowed = {
+				original_tag = GER
+			}
+			
+			traits = { army_commando_2 }
+			
+			ai_will_do = {
+				factor = 1.5
+			}
+		}
 		kurt_student = {
 			ledger = air
 

@@ -11,13 +11,13 @@ add_core_of=SWE
 			4076 50
 		}
 		victory_points = {
-			10127 1
+			10127 5
 		}
 		victory_points = {
-			7011 80
+			7011 50
 		}
 		victory_points = {
-			8077 50
+			8077 40
 		}		
 		
 		victory_points = {
@@ -27,13 +27,13 @@ add_core_of=SWE
 			1143 20
 		}
 		victory_points = {
-			7117 1
+			7117 5
 		}
 		victory_points = {
-			12764 1
+			12764 5
 		}
 		victory_points = {
-			4913 1
+			4913 5
 		}
 		victory_points = {
 			12049 15
@@ -45,10 +45,10 @@ add_core_of=SWE
 			4073 15
 		}
 		victory_points = {
-12082 1
+12082 50
 }
 victory_points = {
-10900 1
+10900 5
 }
 
 buildings = {

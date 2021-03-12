@@ -912,15 +912,7 @@ ideas = {
 			traits = { army_chief_defensive_2 }
 		}
 		
-		alan_brooke = {
-			
-			allowed = {
-				original_tag = ENG
-			}
-			
-			traits = { army_chief_maneuver_3 }
 
-		}		
 	}
 	navy_chief = {
 
@@ -981,7 +973,7 @@ ideas = {
 			allowed = {
 				original_tag = ENG
 			}
-			traits = { army_armored_2 }
+			traits = { army_armored_3 }
 		}
 		
 		kenneth_anderson = {
@@ -995,7 +987,15 @@ ideas = {
 			
 			traits = { army_infantry_2 }
 		}
-		
+		alan_brooke = {
+			ledger = army
+			allowed = {
+				original_tag = ENG
+			}
+			
+			traits = { army_chief_maneuver_1 }
+
+		}		
 		frederick_bowhill = {
 			ledger = navy
 			

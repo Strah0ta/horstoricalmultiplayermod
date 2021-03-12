@@ -12,5 +12,6 @@ GER_war_exhaustion = {
 		}
 		GER_fuel_mechanic = {
 			icon = "GFX_idea_ig_faben"
-			fuel_gain_factor_from_states = GER.germany_war_fuel_gain_factor_from_states		
+			fuel_gain_factor_from_states = GER.germany_war_fuel_gain_factor_from_states	
+			production_speed_synthetic_refinery_factor = GER.germany_war_synth_construction_speed
 		}
