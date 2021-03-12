@@ -11,6 +11,7 @@ add_ideas = {
 	armyandnavy_idea
 }
 add_ideas = manpower_early
+	add_to_tech_sharing_group = commonwealth_research
 
 set_stability = 0.9
 set_war_support = 0

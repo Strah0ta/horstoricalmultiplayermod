@@ -892,10 +892,10 @@ category_light_infantry = {
             max_organisation = 10
             breakthrough = 0.1
         }
-        supply_consumption_factor = -0.10
-        out_of_supply_factor = -0.3
-        attrition = -0.30
-        no_supply_grace = 48
+		supply_consumption_factor = -0.05
+		out_of_supply_factor = -0.4
+		attrition = -0.50
+		no_supply_grace = 96
         enable_tactic = tactic_infantry_charge
 land_night_attack = 0.25 
         enable_tactic = tactic_blitz
@@ -1303,10 +1303,10 @@ org_loss_when_moving = -0.7
 	}
 	
 	infiltration_in_depth = {
-		supply_consumption_factor = -0.10
-		out_of_supply_factor = -0.3
-		attrition = -0.30
-		no_supply_grace = 48
+		supply_consumption_factor = -0.05
+		out_of_supply_factor = -0.4
+		attrition = -0.50
+		no_supply_grace = 96
 		doctrine = yes	
 		research_cost = 4.5
 		

@@ -753,6 +753,17 @@ ideas = {
 				}
 			}
 		}
+		
+		ENG_operation_compass = {
+					picture =  eng_the_sun_never_sets
+					available = { ENG = { controls_province = 3996 }}
+			modifier = {
+				army_speed_factor = 0.1
+				heat_attrition_factor = -1
+				terrain_penalty_reduction = 0.1
+			}
+	
+		}
 
 		ENG_expand_the_repair_yards = {
 

@@ -45,7 +45,7 @@
  cat_1941_tanks:0 "1941 Tank Models"
  cat_1943_tanks:0 "1943 Tank Models"
  advanced_light_tank2:0 "1943 Light Tanks"
- 
+ DO_BOTH_SIDES_TT:0 "<== RESEARCH BOTH ==>"
  ##LIGHT TANK STUFF##
  AST_light_tank_equipment_4:0 "Coventator Local Pattern"
  AST_light_tank_equipment_4_short:0 "Coventator LP"

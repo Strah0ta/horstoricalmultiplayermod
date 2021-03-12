@@ -1137,7 +1137,26 @@ add_equipment_production = {
 
 
 	### DEMOCRATIC BRANCH - STEADY AS SHE GOES ###
-
+	focus = {
+		id = ENG_compass
+		available = {
+			controls_state = 447
+			date > 1940.1.1
+			NOT = { date > 1941.1.1 }
+		}
+		continue_if_invalid = yes
+		icon = GFX_focus_chi_british_cooperation
+		x = 3
+		y = 0
+		cost = 0.2
+		ai_will_do = {
+			factor = 10
+		}
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		completion_reward = {
+			every_country = { limit = { is_in_faction_with = ENG NOT = { tag = USA }}   add_ideas = ENG_operation_compass }
+		}
+	}
 	focus = {
 		id = ENG_steady_as_she_goes
 		icon = GFX_focus_ENG_steady
@@ -1154,9 +1173,9 @@ add_equipment_production = {
 		icon = GFX_focus_ENG_steady
 		x = 8
 		y = 0
-		cost = 0
-		allow_branch = { has_start_date > 1936.1.2  } 
-			available = { 	date > 1943.3.1 	}
+		cost = 0.2
+		#allow_branch = {   } 
+			available = { has_start_date > 1936.1.2	date > 1943.3.1 	}
 		completion_reward = {
 		CAN = { transfer_state = 38 }
 		add_to_faction = CAN

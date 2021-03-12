@@ -478,7 +478,8 @@ tactic_backhand_blow = { #counters breakthrough
 	}
 	
 	active = no
-	
+	#countered_by = tactic_planned_attack #might add this in the future if GBP needs offensive buffs 
+
 	base =  { factor = 4 }
 	picture = backhand_blow
 	
