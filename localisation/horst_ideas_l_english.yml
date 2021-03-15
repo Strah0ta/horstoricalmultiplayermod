@@ -5,6 +5,8 @@
  BUL_second_national_catastrophe:0 "Treaty of Neuilly-sur-Seine"
  BUL_second_national_catastrophe_desc:0 "The effects of the Great War hit us hard - we have been forced to demilitarise our southern provinces, we can not produce any equipment, and we can certainly not import any."
  BUL_revisionism:0 "Bulgarian Revisionism"
+ protected_by_papua:0 "Protected by Papau"
+ protected_by_papua_desc:0 "§RIf we lose control of Papau we will be vulernable to invasion§!"
  winter_offensive_sov:0 "Winter Offensive"
  BUL_revisionism_desc:0 "The loss of our territories during the Great War has angered the Bulgarian people, and they're more likely to join the military to aid in the reconquest of said lands."
  BUL_secret_rearmament:0 "Secret Rearmament"

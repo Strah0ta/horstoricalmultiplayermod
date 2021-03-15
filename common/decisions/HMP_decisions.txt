@@ -473,7 +473,7 @@ every_country = {
 		fire_only_once = no
 		days_remove = -1
 		cost = 0
-		modifier = {
+		modifier = {	
 			political_power_gain = -0.5
 			industrial_capacity_dockyard = 0.1
 			industrial_capacity_factory = 0.1
@@ -1272,7 +1272,7 @@ create_corps_commander = {
 	logistics_skill = 9
 }
 				}
-				EFR = { set_technology = { mtg_transport = 1 } } 
+				EFR = { set_technology = { mtg_transport = 1 } set_technology = { early_fighter = 1 } } 
 				EFR = { every_owned_state = { set_demilitarized_zone = no }}
 				GER =  { activate_mission = GER_case_anton }
 				news_event = { id = news.4001 }

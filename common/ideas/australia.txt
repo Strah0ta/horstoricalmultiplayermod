@@ -18,6 +18,11 @@ ideas = {
 		
 		}
 		
+		protected_by_papua = { 
+				picture = generic_fortify_the_borders
+			available = { OR = { NZL = { controls_state = 523 } AST = { controls_state = 523 }  }}
+			modifier = { army_core_defence_factor = 1.5 army_core_attack_factor = 1.5 }
+		}
 	
 		AST_great_depression_1 = {
 

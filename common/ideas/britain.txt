@@ -760,7 +760,8 @@ ideas = {
 			modifier = {
 				army_speed_factor = 0.1
 				heat_attrition_factor = -1
-				terrain_penalty_reduction = 0.1
+				terrain_penalty_reduction = 0.15
+				planning_speed = 0.5 
 			}
 	
 		}
