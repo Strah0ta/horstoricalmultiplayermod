@@ -56,11 +56,11 @@ weather_extreme_hot = { # on Province
 
 weather_snow = { # on Region 
 	winter_attrition = 0.0
-	army_attack_factor = -0.15
+	army_attack_factor = -0.1
 }
 weather_blizzard = { # on Region 
 	winter_attrition = 0.1
-	army_attack_factor = -0.2
+	army_attack_factor = -0.15
 }
 
 weather_extreme_cold = { # on Province
@@ -75,8 +75,8 @@ weather_very_cold = { # on Province
 
 rasputitsa = { 
 	army_speed_factor = -0.2
-	army_armor_speed_factor = -0.2	
-	army_attack_factor = -0.2
+	army_armor_speed_factor = -0.1	
+	army_attack_factor = -0.15
 	attrition = 0.1
 }
 weather_ground_snow_medium = { }
@@ -434,10 +434,6 @@ stahlpakt2 = {
 	trade_cost_for_target_factor = -0.9
 	extra_trade_to_target_factor = 1.0
 
-	}
-	
-	railroad_speed = {
-		army_speed_factor_for_controller = 0.1 
 	}
 	
 asiapakt = {

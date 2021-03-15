@@ -27,7 +27,7 @@ DIPLOMACY_INCOMING_LEND_LEASE_ENABLE_TRIGGER = {
 }
 DIPLOMACY_SEND_EXP_FORCE_ENABLE_TRIGGER = {
 	NOT = { FROM = { OR = {  AND = { original_tag = EFR  EFR = { is_in_faction = yes NOT = { has_country_flag = EFR_torch_declared}  }  } original_tag = ETH  AND = { original_tag = FIN SOV = { controls_state = 195 }   } } } }
-	NOT = { FROM = { OR = {  has_tech = grand_battle_plan_mp  tag = EFR tag = ETH} } }
+	OR = { NOT = { FROM = { OR = {  tag = EFR tag = ETH} } } NOT = { FROM = { has_tech = grand_battle_plan_mp } AND = { NOT = { ROOT = { has_tech = grand_battle_plan_mp }}}}    }
 	NOT = { ROOT = { tag = ETH }}
 }
 DIPLOMACY_GENERATE_WARGOAL_ENABLE_TRIGGER = { always = no }

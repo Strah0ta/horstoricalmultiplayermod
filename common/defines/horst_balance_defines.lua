@@ -1,16 +1,3 @@
-_G["debug"] = nil
-_G["math"] = nil
-_G["coroutine"] = nil
-
-package.loaded["debug"] = nil
-package.loaded["math"] = nil
-package.loaded["coroutine"] = nil
-
-debug = nil
-math = nil
-coroutine = nil
-
-
 ---------------------CHANGES TO SUPPORT 3 SPEED MICRO (SEE TERRAIN MOVEMENT COST CHANGES, THEY 2X HIGHER THAN VANILLA)---------------------
 NDefines.NMilitary.LAND_COMBAT_STR_DAMAGE_MODIFIER = 0.06       -- vanilla 0.05 | global damage modifier... but some equipment is returned at end of battles see : EQUIPMENT_COMBAT_LOSS_FACTOR
 NDefines.NMilitary.LAND_COMBAT_ORG_DAMAGE_MODIFIER = 0.04        -- vanilla 0.05 | global damage modifier
@@ -22,7 +9,7 @@ NDefines.NMilitary.MAX_DIVISION_BRIGADE_HEIGHT = 6		-- Max height of regiments i
 
 NDefines.NMilitary.AIR_SUPPORT_BASE = 0.25                        -- vanilla 0.25 CAS bonus factor for air support moddifier for land unit in combat
 
-NDefines.NMilitary.EXPERIENCE_LOSS_FACTOR = 0.02                 -- percentage of experienced solders who die when manpower is removed
+NDefines.NMilitary.EXPERIENCE_LOSS_FACTOR = 0.01                 -- percentage of experienced solders who die when manpower is removed
 NDefines.NMilitary.RIVER_CROSSING_PENALTY = -0.25                 -- small river crossing
 NDefines.NMilitary.RIVER_CROSSING_PENALTY_LARGE = -0.325           -- large river crossing
 NDefines.NMilitary.ANTI_AIR_ATTACK_TO_AMOUNT = 0.0015 				-- WAS 0.005 | Lowered because vanilla CAS shootdown rates are too high and IC inefficient, but I don't want to buff CAS or air in any other way either ~Thrasymachus | Balancing value to convert equipment stat anti_air_attack to the random % value of airplanes being hit.
