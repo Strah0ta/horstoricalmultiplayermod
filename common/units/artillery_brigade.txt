@@ -28,7 +28,7 @@ sub_units = {
 		}
 		
 		max_strength = 10
-		max_organisation = 0
+		max_organisation = 5
 		default_morale = 0.1
 		training_time = 60
 		weight = 0.5
@@ -100,7 +100,7 @@ sub_units = {
 		}
 		
 		max_strength = 15
-		max_organisation = 0
+		max_organisation = 5
 		default_morale = 0.1
 		training_time = 60
 		weight = 0.5
@@ -170,7 +170,7 @@ sub_units = {
 		}
 		
 		manpower = 500
-		max_organisation = 0
+		max_organisation = 5
 		default_morale = 0.1
 		max_strength = 10
 		training_time = 60
@@ -243,7 +243,7 @@ sub_units = {
 		}
 		
 		manpower = 500
-		max_organisation = 0
+		max_organisation = 5
 		default_morale = 0.1
 		max_strength = 15
 		training_time = 60
@@ -317,7 +317,7 @@ sub_units = {
 		}
 		
 		manpower = 500
-		max_organisation = 0
+		max_organisation = 5
 		default_morale = 0.1
 		max_strength = 15
 		training_time = 60
