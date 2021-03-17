@@ -37,7 +37,6 @@ equipments = {
 		
 		build_cost_ic = 28.5.5#was 100 note: number required for 1 batallion was doubled
 		resources = {
-			#oil = 2
 			steel = 3
 			chromium = 4
 		}
@@ -91,7 +90,6 @@ equipments = {
 		
 		build_cost_ic = 28.5#was 100 note: number required for 1 battalion was doubled
 		resources = {
-			#oil = 2
 			steel = 3
 			chromium = 4
 		}
@@ -147,7 +145,6 @@ equipments = {
 		
 		build_cost_ic = 28.5#was 100 note: number required for 1 battalion was doubled
 		resources = {
-			#oil = 2
 			steel = 3
 			chromium = 4
 		}
@@ -203,7 +200,6 @@ equipments = {
 		
 		build_cost_ic = 28.5#was 100 note: number required for 1 battalion was doubled
 		resources = {
-			#oil = 2
 			steel = 3
 			chromium = 4
 		}

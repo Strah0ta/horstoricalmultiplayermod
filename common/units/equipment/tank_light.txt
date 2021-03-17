@@ -38,7 +38,6 @@ equipments = {
 		
 		build_cost_ic = 8
 		resources = {
-			#oil = 1
 			steel = 2
 		}
 
@@ -115,7 +114,6 @@ equipments = {
 		
 		build_cost_ic = 9
 		resources = {
-			#oil = 1
 			steel = 3
 		}
 	}
@@ -173,8 +171,8 @@ equipments = {
 		
 		build_cost_ic = 11 
 		resources = {
-			tungsten = 1 
 			steel = 4
+			tungsten = 1 
 		}
 	}
 	
@@ -216,7 +214,6 @@ equipments = {
 		
 		build_cost_ic = 8
 		resources = {
-			#oil = 1
 			steel = 2
 			tungsten= 1
 		}
@@ -267,7 +264,6 @@ equipments = {
 		build_cost_ic = 9
 		resources = {
 			steel = 3
-			#oil = 1
 			tungsten= 1
 		}
 	}
@@ -300,7 +296,6 @@ equipments = {
 		build_cost_ic = 10
 		resources = {
 			steel = 4
-			#oil = 2
 			tungsten = 1
 		}
 	}
@@ -373,7 +368,6 @@ equipments = {
 		
 		build_cost_ic = 8
 		resources = {
-			#oil = 1
 			steel = 2
 			tungsten = 2
 		}
@@ -426,9 +420,8 @@ equipments = {
 		
 		build_cost_ic = 9
 		resources = {
-			#oil = 1
 			steel = 3
-			tungsten = 2
+			tungsten = 1
 		}
 	}
 
@@ -460,9 +453,8 @@ equipments = {
 		
 		build_cost_ic = 10
 		resources = {
-			#oil = 2
-			steel = 4
-			tungsten = 2
+			steel = 3
+			tungsten = 1
 		}
 	}
 	light_tank_destroyer_equipment_4 = {
@@ -493,9 +485,8 @@ equipments = {
 		
 		build_cost_ic = 11
 		resources = {
-			#oil = 2
 			steel = 4
-			tungsten = 2
+			tungsten = 1
 		}
 	}
 
