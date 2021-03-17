@@ -208,6 +208,7 @@ ideas = {
 			
 			modifier = {
 				conversion_cost_civ_to_mil_factor= -0.2			
+				min_export = -1
 			}
 		}
 
@@ -266,7 +267,6 @@ ideas = {
 			picture = ast_classify_aliens
 
 			modifier = {
-				
 				foreign_subversive_activites = -0.25
 			}
 		}
