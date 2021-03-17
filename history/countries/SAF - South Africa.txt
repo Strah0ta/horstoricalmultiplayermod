@@ -11,6 +11,7 @@ set_rule = { can_be_spymaster = no }
 create_intelligence_agency = yes
 add_ideas = armyandnavy_idea
 anti_cross_faction_trade_axis = yes
+add_equipment_to_stockpile = { type = motorized_equipment_1 amount = 300 }
 
 # Starting tech
 set_technology = {

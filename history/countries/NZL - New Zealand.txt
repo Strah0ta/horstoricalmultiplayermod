@@ -33,6 +33,7 @@ set_technology = {
 		basic_depth_charges = 1
 		mtg_transport = 1	
 }
+add_equipment_to_stockpile = { type = motorized_equipment_1 amount = 1000 }
 
 add_equipment_to_stockpile = { type = infantry_equipment_1 amount = 500 }
 anti_cross_faction_trade_axis = yes
