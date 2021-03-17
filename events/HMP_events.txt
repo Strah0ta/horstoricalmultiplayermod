@@ -654,6 +654,19 @@ country_event = {
 		option = { # Armistice!
 		name = france.14.a
 		ENG = { country_event = britain.9 }
+		#horstorical_multiplayer_vichy_france = yes 
+	}
+}
+country_event = {
+	id = france.15
+	title = france.14.t
+	desc = france.14.d
+	picture = GFX_report_event_german_parade_paris
+	
+	is_triggered_only = yes
+
+		option = { # Armistice!
+		name = france.14.a
 		horstorical_multiplayer_vichy_france = yes 
 	}
 }

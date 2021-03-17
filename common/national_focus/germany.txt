@@ -871,6 +871,7 @@ focus_tree = {
 
 		completion_reward = {
 			add_ideas = air_war_plans_division_focus2
+			ITA = { add_ideas = air_war_plans_division_focus2 }
 		}
 	}
 	

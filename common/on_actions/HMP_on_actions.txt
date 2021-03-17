@@ -107,6 +107,7 @@ on_actions = {
 					}
 
 					tp_divs_out_of_france = yes 
+					SWE = { country_event = { id = france.15 days = 1 }}
 					FRA = { 
 						set_country_flag = france_is_kill  
 						add_state_core = 539 set_capital = 539 

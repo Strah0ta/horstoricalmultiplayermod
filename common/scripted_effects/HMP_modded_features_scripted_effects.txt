@@ -7,6 +7,7 @@ GER_all_plane_LL = {
 }
 
 axis_iran_positioning = { set_province_controller = 4553 set_province_controller = 2071 set_province_controller = 12861 set_province_controller = 1822 set_province_controller = 10837 set_province_controller = 7969 set_province_controller = 10922 set_province_controller = 1982 set_province_controller = 5067  set_province_controller = 2026 set_province_controller = 4928 set_province_controller = 8117   set_province_controller = 12832 set_province_controller = 10797  }
+
 FRA_legitimacy_week_counter = {
 if = { limit = { date > 1939.9.10 } add_to_variable = { var = FRA_legitimacy value = 5 } }
 if = { limit = { date > 1939.9.20 } add_to_variable = { var = FRA_legitimacy value = 5 } }
@@ -1088,9 +1089,8 @@ USA_flip_support = {
 	USA_recalc_congress_icon_frames = yes
 }
 
-USA_recalc_congress_icon_frames = {
-	
-	set_temp_variable = { senators_temp = senators_support }
+USA_recalc_congress_icon_frames = { 
+set_temp_variable = { senators_temp = senators_support }
 	divide_temp_variable = { senators_temp = senators_total }
 	multiply_temp_variable = { senators_temp = 21 }
 	if = {
@@ -2037,7 +2037,6 @@ create_corps_commander = {
     logistics_skill = 5
 }
 
-
 create_corps_commander = {
     name = "Sadao Araki" #Point Value: 11
     picture = "Portrait_Japan_Sadao_Araki.dds"
@@ -2049,9 +2048,6 @@ create_corps_commander = {
     logistics_skill = 4
 }
 
-
-
-
 create_corps_commander = {
     name = "Kiichiro Higuchi" #Point Value: 18
         picture = "Portrait_Japan_Kiichiro_Higuchi.dds"
@@ -2062,7 +2058,6 @@ create_corps_commander = {
     planning_skill = 6
     logistics_skill = 5
 }
-
 
 create_corps_commander = {
     name = "Yoshijiro Umezu" #Point Value: 17
@@ -5064,64 +5059,6 @@ remove_ideas = FRA_full_employment
 	
 	hidden_effect = { SWE = { country_event = { id = italy.3524 days = 30 }}}
 			
-}
-
-
-move_rubber_from_indies_to_congo = {  #UNUSED
-	if = { limit = { FRA = { controls_state = 539}}
-		if = { limit = { ENG = { controls_state = 539}}
-				add_resource = { state = 539 type = rubber amount = 0 }
-				add_resource = { state = 280 type = rubber amount = 0 }
-			}
-		if = { limit = { ENG = { controls_state = 321}}
-				add_resource = { state = 321 type = rubber amount = 0 }
-				add_resource = { state = 280 type = rubber amount = 0 }
-			}
-		if = { limit = { ENG = { controls_state = 335}}
-				add_resource = { state = 335 type = rubber amount = 0 }
-				add_resource = { state = 280 type = rubber amount = 0 }
-			}
-		if = { limit = { ENG = { controls_state = 333}}
-				add_resource = { state = 333 type = rubber amount = 0 }
-				add_resource = { state = 538 type = rubber amount = 0 }
-			}
-		if = { limit = { ENG = { controls_state = 334}}
-				add_resource = { state = 334 type = rubber amount = 0 }
-				add_resource = { state = 538 type = rubber amount = 0 }
-			}
-			if = { limit = { ENG = { controls_state = 575}}
-				add_resource = { state = 575 type = rubber amount = 0 }
-				add_resource = { state = 538 type = rubber amount = 0 }
-			}
-			if = { limit = { ENG = { controls_state = 342}}
-				add_resource = { state = 342 type = rubber amount = 0 }
-				add_resource = { state = 538 type = rubber amount = 0 }
-			}
-					if = { limit = { ENG = { controls_state = 562}}
-				add_resource = { state = 562 type = rubber amount = 0 }
-				add_resource = { state = 295 type = rubber amount = 0 }
-			}
-			if = { limit = { ENG = { controls_state = 327}}
-				add_resource = { state = 327 type = rubber amount = 0 }
-				add_resource = { state = 295 type = rubber amount = 0 }
-			}
-						if = { limit = { ENG = { controls_state = 516}}
-				add_resource = { state = 516 type = rubber amount = 0 }
-				add_resource = { state = 295 type = rubber amount = 0 }
-			}
-						if = { limit = { ENG = { controls_state = 523}}
-				add_resource = { state = 523 type = rubber amount = 0 }
-				add_resource = { state = 295 type = rubber amount = 0 }
-			}
-						if = { limit = { ENG = { controls_state = 312}}
-				add_resource = { state = 312 type = rubber amount = 0 }
-				add_resource = { state = 295 type = rubber amount = 0 }
-			}
-									if = { limit = { ENG = { controls_state = 317}}
-				add_resource = { state = 317 type = rubber amount = 0 }
-				add_resource = { state = 295 type = rubber amount = 0 }
-			}
-	}
 }
 
 finish_french_colony_focuses = { 

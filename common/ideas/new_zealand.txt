@@ -55,8 +55,7 @@ ideas = {
 			picture = generic_production_bonus
 			
 			modifier = {
-				army_core_defence_factor = 0.25
-				army_core_attack_factor = 0.25
+			mobilization_speed = 1
 				army_org_factor = 0.02
 			}
 

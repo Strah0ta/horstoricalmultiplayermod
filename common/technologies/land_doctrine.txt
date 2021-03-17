@@ -1339,7 +1339,10 @@ org_loss_when_moving = -0.7
 		category_army = {
 			default_morale = 0.2
 		}
-				
+		infantry = {
+			combat_width = -0.4
+			defense = -0.05
+		}		
 		doctrine = yes	
 		research_cost = 1
 		
@@ -1367,10 +1370,6 @@ org_loss_when_moving = -0.7
 		}
 		category_support_battalions = {
 			defense = 0.5
-		}
-		infantry = {
-			combat_width = -0.4
-			defense = -0.05
 		}
 		category_line_artillery = {
 			default_morale = 0.2
