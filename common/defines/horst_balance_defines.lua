@@ -8,6 +8,7 @@ NDefines.NMilitary.MAX_DIVISION_SUPPORT_HEIGHT = 6
 NDefines.NMilitary.MAX_DIVISION_BRIGADE_HEIGHT = 6		-- Max height of regiments in division designer	
 
 NDefines.NMilitary.AIR_SUPPORT_BASE = 0.25                        -- vanilla 0.25 CAS bonus factor for air support moddifier for land unit in combat
+NDefines.NMilitary.UNIT_DIGIN_CAP = 3                           -- how "deep" you can dig you can dig in until hitting max bonus
 
 NDefines.NMilitary.EXPERIENCE_LOSS_FACTOR = 0.01                 -- percentage of experienced solders who die when manpower is removed
 NDefines.NMilitary.RIVER_CROSSING_PENALTY = -0.25                 -- small river crossing
