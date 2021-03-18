@@ -4844,50 +4844,14 @@ if = { limit = { NOT = { has_tech = basic_medium_tank }} set_technology = { basi
 if = { limit = { NOT = { has_tech = basic_heavy_tank }} set_technology = { basic_heavy_tank = 1 } set_technology = { basic_heavy_spaa = 1 } }
 set_technology = { improved_light_spaa = 1 }
 
-create_equipment_variant = { 
-    name = "Renault AMC 35" 
-    type = medium_tank_equipment_1 
-    upgrades = { 
-	  tank_armor_upgrade = 5
-	  tank_engine_upgrade = 3
-	  tank_reliability_upgrade = 6
-    }
-}
-create_equipment_variant = { 
-    name = "Somua S35" 
-    type = medium_tank_equipment_2
-    upgrades = { 
-	  tank_armor_upgrade = 4
-	  tank_engine_upgrade = 4
-	  tank_reliability_upgrade = 5
-    }
-}
-create_equipment_variant = { 
-    name = "Char B1 ter" 
-    type = heavy_tank_equipment_1 
-    upgrades = { 
-	  tank_armor_upgrade = 18
-	  tank_engine_upgrade = 5
-	  tank_reliability_upgrade = 20
-    }
-}
-create_equipment_variant = { 
-    name = "1936 FCM" 
-    type = light_tank_equipment_2 
-    upgrades = { 
-	  tank_armor_upgrade = 3
-	  tank_engine_upgrade = 7
-	  tank_reliability_upgrade = 5
-    }
-}
 add_equipment_to_stockpile = {
     type = medium_tank_equipment_1
-    amount = 1300
+    amount = 1000
     producer = EFR
 }
 add_equipment_to_stockpile = {
     type = medium_tank_equipment_2
-    amount = 300
+    amount = 500
     producer = EFR
 }
 add_equipment_to_stockpile = {
@@ -4925,7 +4889,11 @@ add_equipment_to_stockpile = {
     amount = 1500
     producer = EFR
 }
-
+add_equipment_to_stockpile = {
+    type = support_equipment_1
+    amount = 1000
+    producer = EFR
+}
 ###SOUTHERN FRANCE###
 transfer_state = 26
 add_state_core = 26
