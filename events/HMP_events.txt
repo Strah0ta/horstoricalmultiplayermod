@@ -108,6 +108,23 @@ country_event = {
 		}
 	}
 }
+
+country_event = {
+	id = tfv_new_zealand.711
+	title = tfv_new_zealand.7.t
+	desc = tfv_new_zealand.7.desc
+	picture = GFX_report_event_generic_funeral
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes 
+	
+	option = {
+			NZL  = { give_resource_rights = { receiver = ENG state = 523 } give_resource_rights = { receiver = ENG state = 312 }	}
+	}
+}
+
+
 country_event = {
 	id = tfv_new_zealand.733
 	title = tfv_new_zealand.7.t

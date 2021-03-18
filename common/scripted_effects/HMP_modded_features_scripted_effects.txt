@@ -4090,6 +4090,8 @@ HMP_startup_on_actions = {
 	if = {	limit = { has_game_rule = { rule = horst_manchukuo	option = HORST_ENABLE_MOD_MANCHUKUO	} }	MAN = { load_focus_tree = manchukuomod_focus } 	}
 	JAP  = { give_resource_rights = { receiver = GER state = 494 }	}
 	MAN  = { give_resource_rights = { receiver = JAP state = 3 } }	MAN  = { give_resource_rights = { receiver = JAP state = 328 }	} MAN  = { give_resource_rights = { receiver = JAP state = 496 }	}
+	AST  = { give_resource_rights = { receiver = ENG state = 523 } give_resource_rights = { receiver = ENG state = 312 }	}
+	RAJ  = { give_resource_rights = { receiver = ENG state = 423 }	}
 	if = { limit = { MAN = { is_ai = yes } country_exists = MAN } JAP = { country_event = { id = japan.148 }}}
 	if = { limit = { NZL = { is_ai = yes } country_exists = NZL } AST = { country_event = { id = japan.758 }}}
 	if = { limit = { SAF = { is_ai = yes } country_exists = SAF } ENG = { country_event = { id = japan.678 }}}

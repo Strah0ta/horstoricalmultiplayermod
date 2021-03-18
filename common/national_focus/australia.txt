@@ -1062,10 +1062,6 @@
 
 		cost = 5
 
-		available = {
-			has_war = yes
-		}
-
 		completion_reward = {
 			add_ideas = AST_invest_in_victory
 		}
@@ -1152,12 +1148,7 @@
 		y = 3
 		relative_position_id = AST_establish_advisory_war_council
 
-		cost = 10
-		
-		available = {
-			has_war = yes
-		}
-
+		cost = 5
 
 		completion_reward = {
 			swap_ideas = {
