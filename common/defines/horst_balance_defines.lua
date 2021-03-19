@@ -17,7 +17,7 @@ NDefines.NMilitary.ANTI_AIR_ATTACK_TO_AMOUNT = 0.0015 				-- WAS 0.005 | Lowered
 NDefines.NMilitary.EXPERIENCE_COMBAT_FACTOR = 0.1       -- WAS 0.25 | Turns out that no Russian volunteers to Spain leads to at least 15 veteran +75% heavy tanks at barb every game that kill nearly every Russia player in less than 3 months. Just wait until Germany players manage to get 30 vet heavies by using minors more
 NDefines.NMilitary.MAX_NAVY_EXPERIENCE = 0             -- WAS 500
 NDefines.NMilitary.MAX_AIR_EXPERIENCE = 0			   -- WAS 500
---NDefines.NMilitary.MAX_ARMY_EXPERIENCE = 500		   -- WAS 500
+NDefines.NMilitary.MAX_ARMY_EXPERIENCE = 0		   -- WAS 500
 NDefines.NMilitary.RIVER_CROSSING_SPEED_PENALTY = -0.2	           -- vanilla 0.25; Speed Penalty is 15% with vanilla makeshift bridges;small river crossing
 NDefines.NMilitary.RIVER_CROSSING_SPEED_PENALTY_LARGE = -0.4     -- vanilla 0.5; Speed Penalty is 30% with vanilla makeshift bridges; large river crossing
 NDefines.NMilitary.UNIT_LEADER_TRAIT_SLOT_PER_LEVEL = { 			-- ALL TRAITS ARE PREASSIGNED BC OF EXPLOITS - num extra traits on each level
@@ -26,21 +26,17 @@ NDefines.NMilitary.UNIT_LEADER_TRAIT_SLOT_PER_LEVEL = { 			-- ALL TRAITS ARE PRE
 		0, -- navy general
 		0, -- operative
 	}
-NDefines.NMilitary.PROMOTE_LEADER_CP_COST = 501					-- changed as all generals/FMs are pre-done and not meant to be changed - cost of promoting a leader
-NDefines.NMilitary.LAND_EQUIPMENT_BASE_COST = 10					-- VANILLA 10 Cost in XP to upgrade a piece of equipment one level is base + ( total levels * ramp )
+NDefines.NMilitary.PROMOTE_LEADER_CP_COST = 500					-- changed as all generals/FMs are pre-done and not meant to be changed - cost of promoting a leader
+NDefines.NMilitary.LAND_EQUIPMENT_BASE_COST = 0					-- VANILLA 10 Cost in XP to upgrade a piece of equipment one level is base + ( total levels * ramp )
 NDefines.NMilitary.LAND_EQUIPMENT_RAMP_COST = 0		 				-- VANILLA 5
-
 NDefines.NMilitary.FIELD_EXPERIENCE_SCALE = 0
 NDefines.NMilitary.FIELD_EXPERIENCE_MAX_PER_DAY = 0				-- Most xp you can gain per day
 NDefines.NMilitary.EXPEDITIONARY_FIELD_EXPERIENCE_SCALE = 0		-- reduction factor in Xp from expeditionary forces
 NDefines.NMilitary.LEND_LEASE_FIELD_EXPERIENCE_SCALE = 0		-- Experience scale for lend leased equipment used in combat.
 
 NDefines.NMilitary.COMMANDER_LEVEL_UP_STAT_COUNT = 0				-- num stats gained on level up
-
-
+NDefines.NMilitary.LAND_AIR_COMBAT_MAX_PLANES_PER_ENEMY_WIDTH = 0.5  -- WAS 3, reduced to 0.5 so less CAS is needed in battles
 NDefines.NMilitary.ORG_LOSS_FACTOR_ON_CONQUER = 0.25            -- vanilla is 0.2, GDU-like change (0.25 in GDU)
-
-
 ------PARATROOPER REWORK SO THEY DONT LOSE EQUIPMENT-------
 NDefines.NCountry.PARADROP_AIR_SUPERIORITY_RATIO = 0.9			-- Min ratio of air superiority for paradropping
 NDefines.NMilitary.PARACHUTE_FAILED_EQUIPMENT_DIV = 0		   -- When the transport plane was shot down, we drop unit with almost NONE equipment
@@ -89,9 +85,9 @@ NDefines.NAir.COMBAT_MULTIPLANE_CAP = 1.8
 NDefines.NAir.COMBAT_DAMAGE_SCALE = 0.044				-- Vanilla 0,10
 NDefines.NAir.COMBAT_DAMAGE_SCALE_CARRIER = 3                 -- same as above but used inside naval combat for carrier battles
 NDefines.NAir.NAVAL_STRIKE_CARRIER_MULTIPLIER = 6.25              -- vanilla 5 damage bonus when planes are in naval combat where their carrier is present (and can thus sortie faster and more effectively)
-NDefines.NAir.SUPPLY_NEED_FACTOR = 0							-- multiplies supply usage
+NDefines.NAir.SUPPLY_NEED_FACTOR = 0							-- multiplies supply usage; removed so presence of air doesn't change supply values on the ground 
 
-NDefines.NAir.AIR_WING_MAX_STATS_SPEED = 30000
+NDefines.NAir.AIR_WING_MAX_STATS_SPEED = 30000                  -- Done so CAS does not get intercepted EXCEPT when there are insufficient scorts (combined with below defines)
 NDefines.NAir.DISRUPTION_FACTOR = 4  -- (4 -> 7) with decent radar coverage equal amounts of fighters vs naval bombers will disrupt almost all naval bombers if not escorted, with low detection very few bombers are intercepted still
 NDefines.NAir.ESCORT_FACTOR = 7 -- (2 -> 7) to make sure that escorted planes are still capable of bombing, with equal escorts/interceptors most of bombers get through Keep in mind that these values will also affect how cas/tac/strat bombers work, they make escorting planes much more important (which imo is 100% fine)
 
@@ -123,9 +119,9 @@ NDefines.NCountry.GIE_HOST_CIC_FROM_LEGITIMACY_MAX = 0 					--Host will receive 
 NDefines.NCountry.GIE_HOST_MIC_FROM_LEGITIMACY_MAX = 0					--Host will receive from 0 to this value in MIC.
 NDefines.NCountry.AIR_SUPPLY_CONVERSION_SCALE = 0.2	-- TRANSPORTS DOUBLED IN IC Conversion scale for planes to air supply
 NDefines.NCountry.MAX_HEROES_BEING_KILLED_WAR_SUPPORT_IMPACT = -0.6				-- WAS -0.3 Max total penalty from war heroes manpower lost
-NDefines.NCountry.ATTACHE_XP_SHARE = 0
+NDefines.NCountry.ATTACHE_XP_SHARE = 0                               -- All XP is removed in Horst 
 ---------------------------------------------------------------
-NDefines.NResistance.GARRISON_LOG_MAX_MONTHS = 0       
+NDefines.NResistance.GARRISON_LOG_MAX_MONTHS = 0                     
 ---------------------------------------------------------------
 
 --LENNARDS AA REWORK FOR HORST (Adjusted by Thrasymachus)--

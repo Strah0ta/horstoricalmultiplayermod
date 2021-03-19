@@ -157,7 +157,7 @@ create_country_leader = {
 
 		### Battleship Variants	
 		create_equipment_variant = {
-			name = "Nagato Class"
+			name = "Kongo Class"
 			name_group = JAP_BB_HISTORICAL
 			type = ship_hull_heavy_1
 			parent_version = 0
