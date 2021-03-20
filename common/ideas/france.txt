@@ -13,7 +13,14 @@ ideas = {
 			}
         }
 		
-		
+		FRA_no_allies = {
+			picture = generic_disjointed_gov
+			name = FRA_surrender
+			allowed = {	always = no }
+			allowed_civil_war = { always = no }
+			removal_cost = -1
+			targeted_modifier = { attack_bonus_against_cores = -0.5 tag = GER }
+        }
 	
 		EFR_work_service = {
 			picture = generic_production_bonus

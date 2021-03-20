@@ -1,5 +1,5 @@
-NDefines.NGame.LAG_DAYS_FOR_LOWER_SPEED = 720
-NDefines.NGame.LAG_DAYS_FOR_PAUSE = 30    							-- 
+NDefines.NGame.LAG_DAYS_FOR_LOWER_SPEED = 480
+NDefines.NGame.LAG_DAYS_FOR_PAUSE = 20    							-- 
 NDefines.NGame.COMBAT_LOG_MAX_MONTHS = 12				-- WAS 48 | drastically cuts down on save file sizes after WW2 starts and well into barbarossa
 NDefines.NGame.MESSAGE_TIMEOUT_DAYS = 14					     	 -- WAS 60 	| less messages lying around at the top of your screen
 NDefines.NGame.GAME_SPEED_SECONDS = { 600.0 , 0.5, 0.2, 0.04, 0.0 } -- SPEED 4 IS 0.1 IN VANILLA  game speeds for each level. Must be 5 entries with last one 0 for unbound 

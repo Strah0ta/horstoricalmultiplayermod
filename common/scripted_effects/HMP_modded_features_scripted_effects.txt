@@ -2027,9 +2027,9 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-    name = "Hatazo Adachi" #Point Value: 14
+    name = "Hatazo Adachi" #Point Value: 16 #3/19/21 +Hill Fighter
         picture = "Portrait_Japan_Hatazo_Adachi.dds"
-	traits = { JAP_samurai_lineage trait_reckless desert_fox trait_mountaineer trait_engineer  panzer_leader panzer_expert  }
+	traits = { JAP_samurai_lineage trait_reckless desert_fox trait_mountaineer hill_fighter trait_engineer  panzer_leader panzer_expert  }
 	skill = 6
     attack_skill = 4
     defense_skill = 4
@@ -2190,9 +2190,9 @@ create_corps_commander = {
 	GFX = "GFX_portrait_man_aisin_gioro_xiqia"
 	traits = { panzer_leader panzer_expert trickster expert_improviser  trait_engineer trait_mountaineer fortress_buster }
 	skill = 7
-	attack_skill = 7
-	defense_skill = 3
-	planning_skill = 4
+	attack_skill = 3
+	defense_skill = 4
+	planning_skill = 7
 	logistics_skill = 7
 }
 
@@ -2211,7 +2211,7 @@ create_corps_commander = {
 }
 BUL = {
 create_navy_leader = {
-    name = "Atanas Shalapatov"
+    name = "Atanas Shalapatov" 
     gfx = GFX_portrait_bul_atanas_shalapatov
 	traits = {  concealment_expert superior_tactician fleet_protector air_controller ground_pounder fly_swatter  green_water_expert spotter ironside big_guns_expert }
 	skill = 5
@@ -2244,9 +2244,9 @@ create_corps_Commander = { #DONE
 }
 
     create_field_marshal = { #DLC
-        name = "Georgi Markov" #Point Value: 13.5
+        name = "Georgi Markov" #Point Value: 16.5 #3/19/21 +Adaptable +Cav Expert
         gfx = GFX_portrait_bul_georgi_markov
-	traits = { old_guard cavalry_leader ranger combined_arms_expert offensive_doctrine trickster expert_improviser inspirational_leader organizer fast_planner }
+	traits = { old_guard cavalry_leader cavalry_expert ranger combined_arms_expert offensive_doctrine trickster expert_improviser inspirational_leader organizer fast_planner adaptable }
 	skill = 7
 	attack_skill = 4
 	defense_skill = 6
@@ -2255,9 +2255,9 @@ create_corps_Commander = { #DONE
     }
 
 create_corps_Commander = { #DONE
-    name = "Ivan Markov" #Point Value: 8
+    name = "Ivan Markov" #Point Value: 14 #3/19/21 +Adaptable +Cav Expert 
     gfx = GFX_portrait_bul_ivan_markov
-    traits = { cavalry_leader combined_arms_expert trait_reckless trait_engineer scavenger }
+    traits = { cavalry_leader combined_arms_expert trait_reckless trait_engineer scavenger cavalry_expert adaptable }
 	skill = 7
 	attack_skill = 4
 	defense_skill = 6
@@ -2349,9 +2349,9 @@ create_field_marshal = {
 }
 
 create_corps_commander = {
-	name = "Ioan Mihail Racovita" #Point Value: 29  
-	gfx = GFX_Portrait_romania_ioan_mihail_racovita #NERF THIS
-	traits = { hill_fighter trait_mountaineer infantry_leader trait_engineer urban_assault_specialist trickster expert_improviser infantry_expert fortress_buster naval_invader invader_ii }
+	name = "Ioan Mihail Racovita" #Point Value: 23 -Improv Expert -Trickster
+	gfx = GFX_Portrait_romania_ioan_mihail_racovita
+	traits = { hill_fighter trait_mountaineer infantry_leader trait_engineer urban_assault_specialist infantry_expert fortress_buster naval_invader invader_ii }
 	skill = 7
 	attack_skill = 5
 	defense_skill = 4
@@ -3124,7 +3124,7 @@ create_navy_leader = {
 HMP_ALLIED_generals = {
 NOR = { 
 create_corps_commander = {
-	name = "Carl Gustav Fleischer" 
+	name = "Carl Gustav Fleischer"  #Point Value: 21
 	portrait_path = "gfx/leaders/NOR/portrait_norway_carl_gustav_flesicher.tga"
 	traits = {  trickster expert_improviser hill_fighter naval_invader naval_liason invader_ii trait_mountaineer infantry_leader infantry_expert  }
 	skill = 5
@@ -3134,7 +3134,7 @@ create_corps_commander = {
 	logistics_skill = 6
 }
 create_corps_commander = {
-	name = "Otto Ruge"
+	name = "Otto Ruge" #Point Value: 22 
 	portrait_path = "gfx/leaders/NOR/portrait_norway_ruge.dds"
 	traits = {  trickster bearer_of_artillery expert_improviser guerilla_fighter trait_engineer fortress_buster infantry_leader infantry_expert  }
 	skill = 5
@@ -3144,9 +3144,9 @@ create_corps_commander = {
 	logistics_skill = 4
 }
 create_corps_commander = {
-	name = "Kristian Laake"
+	name = "Kristian Laake" #Point Value: 20 #20/3/21 -Camo Expert -Commando
 	portrait_path = "gfx/leaders/NOR/portrait_norway_Kristian_Laake.dds"
-	traits = {  organizer trickster expert_improviser adaptable panzer_leader panzer_expert commando camouflage_expert }
+	traits = {  organizer trickster expert_improviser adaptable panzer_leader panzer_expert }
 	skill = 5
 	attack_skill = 3
 	defense_skill = 3
@@ -3204,10 +3204,10 @@ create_navy_leader = {
 		available_to_spy_master = yes
 		nationalities = { FRA }
 	}
-create_field_marshal = {
+create_field_marshal = { #Point Value: 14.5 #20/3/21 +Aggressive Assualter -Ambusher -Guerilla Fighter
 	name = "Louis Franchet D'Espèrey"
 	picture = "Portrait_NFA_Louis_Franchet_Esperey.tga"
-	traits = { organizer logistics_wizard camouflage_expert commando old_guard brilliant_strategist infantry_leader ambusher trickster guerilla_fighter  }
+	traits = { organizer logistics_wizard camouflage_expert commando old_guard brilliant_strategist aggressive_assaulter infantry_leader trickster   }
 	skill = 6
 	attack_skill = 3
 	defense_skill = 5
@@ -3239,9 +3239,9 @@ create_field_marshal = {
 
 
 create_corps_commander = {
-	name = "Antoine-Marie-Benoît Besson"
+	name = "Antoine-Marie-Benoît Besson" #Point Value: 18 #3/20/21 +Cavalry Expert -Commando
 	picture = "Portrait_France_Generic_land_2.dds"
-	traits = { inflexible_strategist commando camouflage_expert cavalry_leader combined_arms_expert ambusher trickster guerilla_fighter urban_assault_specialist  }
+	traits = { inflexible_strategist  camouflage_expert cavalry_leader cavalry_expert combined_arms_expert ambusher trickster guerilla_fighter urban_assault_specialist  }
 	skill = 6
 	attack_skill = 4
 	defense_skill = 6
@@ -3249,9 +3249,9 @@ create_corps_commander = {
 	logistics_skill = 6
 }
 create_field_marshal = {
-	name = "Alphonse Juin"
+	name = "Alphonse Juin" #Point Value: 15 #3/20/21 -Organizer -Commando
 	picture = "Portrait_France_Alphonse_Juin.dds"
-	traits = { trait_cautious organizer logistics_wizard infantry_leader infantry_expert commando thorough_planner paratrooper skirmisher }
+	traits = { trait_cautious logistics_wizard infantry_leader infantry_expert thorough_planner paratrooper skirmisher }
 	skill = 6
 	attack_skill = 5
 	defense_skill = 4
@@ -3262,9 +3262,9 @@ create_field_marshal = {
 
 
 create_corps_commander = {
-	name = "Philippe Leclerc"
+	name = "Philippe Leclerc" #Point Value: 17 #3/20/21 -Improv Expert. -Commando
 	picture = "portrait_france_philippe_leclerc.dds"
-	traits = {  trait_reckless infantry_leader ambusher trickster expert_improviser desert_fox commando camouflage_expert fake_skilled_staffer }
+	traits = {  trait_reckless infantry_leader ambusher trickster desert_fox camouflage_expert fake_skilled_staffer }
 	skill = 6
 	attack_skill = 4
 	defense_skill = 4
@@ -3273,9 +3273,9 @@ create_corps_commander = {
 }	
 
 create_corps_commander = {
-	name = "Henri Giraud"
+	name = "Henri Giraud" #Point Value: 18 #3/20/21 -Trickster -Infantry Expert +Hill Fighter
 	picture = "portrait_france_henri_giraud.dds"
-	traits = {  trickster trait_cautious infantry_leader infantry_expert ambusher trait_engineer scavenger trait_mountaineer fake_skilled_staffer }
+	traits = {   trait_cautious infantry_leader ambusher trait_engineer scavenger trait_mountaineer hill_fighter fake_skilled_staffer }
 	skill = 6
 	attack_skill = 4
 	defense_skill = 4
@@ -3367,9 +3367,9 @@ create_navy_leader = {
 		nationalities = { ENG GER YUG }
 	}
 create_field_marshal = {
-	name = "Alan Brooke" # Aristocrat
+	name = "Alan Brooke" # Aristocrat #Point Value: 15 #3/20/21 -Thorough Planner
 	picture = "Portrait_Britain_Alan_Brooke.dds"
-	traits = { organizer thorough_planner logistics_wizard defensive_doctrine infantry_leader infantry_expert trait_cautious adaptable }
+	traits = { organizer  logistics_wizard defensive_doctrine infantry_leader infantry_expert trait_cautious adaptable }
 	skill = 6
 	attack_skill = 3
 	defense_skill = 5
@@ -3378,25 +3378,24 @@ create_field_marshal = {
 }
 
 create_field_marshal = {
-	name = "Claude Auchinleck"
+    name = "Thomas Jacomb Hutton"
+    picture = "Portrait_Britain_Thomas_Jacomb_Hutton.dds"
+	traits = {  old_guard commando bearer_of_artillery defensive_doctrine infantry_leader logistics_wizard organizer  }
+	skill = 6
+	attack_skill = 5
+	defense_skill = 4
+	planning_skill = 5
+	logistics_skill = 5
+}
+create_field_marshal = {  
+	name = "Claude Auchinleck" #Point Value: 16 #3/20/21 -Paratrooper -Scavenger -Commando -Camo. Expert +Thorough Planner
 	picture = "Portrait_Britain_Claude_Auchinleck.dds"
-	traits = { inflexible_strategist unyielding_defender infantry_leader infantry_expert trait_engineer scavenger fortress_buster commando camouflage_expert paratrooper }
+	traits = { inflexible_strategist unyielding_defender infantry_leader infantry_expert trait_engineer fortress_buster }
 	skill = 6
 	attack_skill = 2
 	defense_skill = 5
 	planning_skill = 5
 	logistics_skill = 7
-}
-
-create_corps_commander = {
-	name = "Neil Ritchie"
-	picture = "Portrait_Britain_Neil_Ritchie.dds"
-	traits = { inflexible_strategist unyielding_defender infantry_leader ambusher fake_skilled_staffer   }
-	skill = 6
-	attack_skill = 2
-	defense_skill = 4
-	planning_skill = 5
-	logistics_skill = 8
 }
 
 create_field_marshal = {
@@ -3409,7 +3408,16 @@ create_field_marshal = {
 	planning_skill = 5
 	logistics_skill = 5
 }
-
+create_field_marshal = {
+    name = "Arthur Percival"
+        picture = "Portrait_Britain_Arthur_Percival.dds"
+	traits = { trickster  organizer organisational_leader inspirational_leader logistics_wizard  bearer_of_artillery panzer_leader panzer_expert    }
+	skill = 6
+    attack_skill = 5
+    defense_skill = 4
+    planning_skill = 4
+    logistics_skill = 6
+}
 create_field_marshal = { 
 	name = "Alan Cunningham"
 	picture = "Portrait_Britain_Alan_Cunningham.dds"
@@ -3417,6 +3425,16 @@ create_field_marshal = {
 	skill = 6
 	attack_skill = 3
 	defense_skill = 3 
+	planning_skill = 5
+	logistics_skill = 8
+}
+create_corps_commander = {
+	name = "Neil Ritchie"
+	picture = "Portrait_Britain_Neil_Ritchie.dds"
+	traits = { inflexible_strategist unyielding_defender infantry_leader ambusher fake_skilled_staffer paratrooper   }
+	skill = 6
+	attack_skill = 2
+	defense_skill = 4
 	planning_skill = 5
 	logistics_skill = 8
 }
@@ -3461,17 +3479,6 @@ create_corps_commander = {
 	defense_skill = 4
 	planning_skill = 5
 	logistics_skill = 6
-}
-
-create_field_marshal = {
-    name = "Thomas Jacomb Hutton"
-    picture = "Portrait_Britain_Thomas_Jacomb_Hutton.dds"
-	traits = {  old_guard commando bearer_of_artillery defensive_doctrine infantry_leader logistics_wizard organizer  }
-	skill = 6
-	attack_skill = 5
-	defense_skill = 4
-	planning_skill = 5
-	logistics_skill = 5
 }
 
 create_corps_commander = {  #East Africa
@@ -3548,16 +3555,6 @@ create_corps_commander = {
     logistics_skill = 6
 }
 
-create_field_marshal = {
-    name = "Arthur Percival"
-        picture = "Portrait_Britain_Arthur_Percival.dds"
-	traits = { trickster  organizer organisational_leader inspirational_leader logistics_wizard  bearer_of_artillery panzer_leader panzer_expert    }
-	skill = 6
-    attack_skill = 5
-    defense_skill = 4
-    planning_skill = 4
-    logistics_skill = 6
-}
 create_corps_commander = {
 	name = "Archibald Wavell" # Aristocrat
 	picture = "Portrait_Britain_Archibald_Wavell.dds"
@@ -3742,7 +3739,7 @@ create_corps_commander = {          #COMBINED ARMS EXPERT + PANZER LEADER ?
 }
 
 create_corps_commander = {
-    name = "Joseph Stilwell"
+    name = "Joseph Stilwell" 
     picture = "Portrait_USA_Joseph_Stilwell.dds"
 	traits = { infantry_leader harsh_leader infantry_expert jungle_rat  naval_invader invader_ii trickster expert_improviser guerilla_fighter }
 	skill = 6
