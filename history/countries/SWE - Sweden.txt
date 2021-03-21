@@ -30,8 +30,9 @@ country_event = { id = lar_spain.953 days = 1186 }
 country_event = { id = germany.975 days = 210 }	#tank treaty event
 country_event = { id = soviet.902 days = 2465  }	#resurgent red air force event - adds leader trait which lower CAS damage 
 
+country_event = { id = soviet.501 days = 2729 }  #RESURGENT RED ARMY FOCUS
 
- country_event = { id = panay_incident.12  days = 983 } 
+country_event = { id = panay_incident.12  days = 983 } 
 
 set_convoys = 0
 set_technology = {

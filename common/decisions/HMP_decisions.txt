@@ -717,8 +717,6 @@ every_country = {
 						ITA = { transfer_state = 32 transfer_state = 21 }
 			country_event = { id = news.153 days = 1 }
 			ENG = { diplomatic_relation = { country = SOV  relation = docking_rights   active = yes } }	
-			SOV = { country_event = { id = soviet.501 days = 630 } } 
-			SWE = { country_event = { id = soviet.501 days = 630 } } 
 			SOV = { country_event = { id = soviet.503 days = 0  } }
 			SOV = { add_ideas = tot_economic_mobilisation complete_national_focus = SOV_great_patriotic_war_foc }
 			SOV = { activate_mission = SOV_relocation  }   
@@ -939,7 +937,7 @@ hidden_effect = {
 		available = { SPR = {  is_ai = yes } date > 1940.5.1	}	
 		visible =  { country_exists = SPR } 
 		cost = 0		
-		fire_only_once = yes
+		fire_only_once = yes 
 		complete_effect = {
 
 			   hidden_effect {
