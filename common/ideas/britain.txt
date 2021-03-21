@@ -279,6 +279,28 @@ ideas = {
 				}
 			}
 		}
+		
+		
+		
+		NO_TRADE = {
+			
+			allowed = {
+				always = no
+			}
+			
+			allowed_civil_war = {
+				NOT = {
+					has_government = communism
+				}
+			}
+
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+			modifier = { min_export = -1 production_lack_of_resource_penalty_factor = -1 }
+		}
+		
+		
 				japan_no_asia = {
 			
 			allowed = {	always = no }

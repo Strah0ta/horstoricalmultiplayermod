@@ -12,6 +12,8 @@
  BUL_secret_rearmament:0 "Secret Rearmament"
  BUL_satisfied_macedonians:0 "Satisfied the Macedonians"
  arsenal_ad:0 "Arsenal AD"
+ NO_TRADE:0 "Trade Boosting Disabled"
+ NO_TRADE_desc:0 "This is to eliminate early game boosting and the need to police it."
  free_naval_designer:0 "Free Naval Designer Switching"
  free_tank_designer:0 "Free Tank Designer Switching"
  krupp_tank:0 "Krupp Arms Works"

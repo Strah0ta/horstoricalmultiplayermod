@@ -3413,9 +3413,9 @@ create_field_marshal = {
 }
 
 create_field_marshal = {
-    name = "Thomas Jacomb Hutton"
+    name = "Thomas Jacomb Hutton" #Point Value: 15 #3/20/21 -Commando +Infantry Expert
     picture = "Portrait_Britain_Thomas_Jacomb_Hutton.dds"
-	traits = {  old_guard commando bearer_of_artillery defensive_doctrine infantry_leader logistics_wizard organizer  }
+	traits = {  old_guard bearer_of_artillery defensive_doctrine infantry_leader infantry_expert logistics_wizard organizer  }
 	skill = 6
 	attack_skill = 5
 	defense_skill = 4
@@ -3423,9 +3423,9 @@ create_field_marshal = {
 	logistics_skill = 5
 }
 create_field_marshal = {  
-	name = "Claude Auchinleck" #Point Value: 16 #3/20/21 -Paratrooper -Scavenger -Commando -Camo. Expert +Thorough Planner
+	name = "Claude Auchinleck" #Point Value: 14.5 #3/20/21 -Paratrooper -Scavenger -Commando -Camo. Expert +Thorough Planner -Fortress Buster
 	picture = "Portrait_Britain_Claude_Auchinleck.dds"
-	traits = { inflexible_strategist unyielding_defender infantry_leader infantry_expert trait_engineer fortress_buster }
+	traits = { inflexible_strategist unyielding_defender infantry_leader infantry_expert trait_engineer }
 	skill = 6
 	attack_skill = 2
 	defense_skill = 5
@@ -3434,9 +3434,9 @@ create_field_marshal = {
 }
 
 create_field_marshal = {
-	name = "William Gott"
+	name = "William Gott" #Point Value: 15 #3/20/21 -Organizer -Panzer Expert
 	picture = "Portrait_Britain_William_Gott.dds"
-	traits = { panzer_leader panzer_expert desert_fox inflexible_strategist unyielding_defender organizer thorough_planner logistics_wizard }
+	traits = { panzer_leader desert_fox inflexible_strategist unyielding_defender thorough_planner logistics_wizard }
 	skill = 6
 	attack_skill = 5
 	defense_skill = 4
@@ -3444,7 +3444,7 @@ create_field_marshal = {
 	logistics_skill = 5
 }
 create_field_marshal = {
-    name = "Arthur Percival"
+    name = "Arthur Percival" #Point Value: 14
         picture = "Portrait_Britain_Arthur_Percival.dds"
 	traits = { trickster  organizer organisational_leader inspirational_leader logistics_wizard  bearer_of_artillery panzer_leader panzer_expert    }
 	skill = 6
@@ -4116,6 +4116,7 @@ create_corps_commander = {
 
 HMP_startup_on_actions = {
 	every_country = { add_ideas = qol_start_eff } #adds starting eff
+	every_country = { add_timed_idea = { idea = NO_TRADE days = 730 } }
 	SOV = { add_timed_idea = { days = 820 idea = SOV_motorized_focus } }
 	ITA = { add_timed_idea = { idea = ITA_motorized_focus days = 365 } }
 	if = { limit = { NOT = { has_game_rule = { rule = HORST_SEALION option = HORST_SEALION_ON }}}  118 = { add_state_modifier = { modifier = { max_dig_in = 30 } }  }  }
