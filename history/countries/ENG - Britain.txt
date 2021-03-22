@@ -16,7 +16,7 @@ country_event = { id = britain.22 days = 514 }
 country_event = { id = britain.16 days = 21 }
 country_event = { id = mtg_britain.1 days = 119 }
 country_event = { id = DOD_yugoslavia.20 days = 759 }
-
+add_timed_idea = { idea = NO_TRADE days = 730 }
 set_research_slots = 5
 set_stability = 0.6
 set_war_support = 0.1

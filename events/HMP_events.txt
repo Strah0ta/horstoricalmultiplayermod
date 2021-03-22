@@ -323,6 +323,47 @@ country_event = {
 
 	option = {
 		name = poland.100.a
+		JAP = { add_relation_modifier = { target = MAN modifier = asiapakt } }
+		GER = { add_relation_modifier = {
+    target = ROM
+    modifier = stahlpakt
+}
+add_relation_modifier = {
+    target = ITA
+    modifier = stahlpakt_ITA2
+} 
+add_relation_modifier = {
+    target = SPR
+    modifier = stahlpakt
+}
+add_relation_modifier = {
+    target = BUL
+    modifier = stahlpakt
+}
+add_relation_modifier = {
+    target = HUN
+    modifier = stahlpakt
+} }
+ITA = { add_relation_modifier = {
+    target = GER
+    modifier = stahlpakt4
+} 
+add_relation_modifier = {
+    target = SPR
+    modifier = stahlpakt_ITA
+} 
+add_relation_modifier = {
+    target = ROM
+    modifier = stahlpakt_ITA
+}
+add_relation_modifier = {
+    target = BUL
+    modifier = stahlpakt_ITA
+}
+add_relation_modifier = {
+    target = HUN
+    modifier = stahlpakt_ITA
+} }
 		GER = { add_ideas = GER_mefo_bills_2 } ROM = { add_ideas = GER_mefo_bills_2 } HUN = { add_ideas = GER_mefo_bills_2 } ITA = { add_ideas = GER_mefo_bills_2 } BUL = { add_ideas = GER_mefo_bills_2 } SPR = { add_ideas = GER_mefo_bills_2 }
 	}
 }

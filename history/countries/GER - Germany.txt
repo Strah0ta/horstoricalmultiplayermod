@@ -13,7 +13,7 @@ add_to_tech_sharing_group = axis_research
 create_intelligence_agency = yes
 
 add_ideas = armyandnavy_idea
-
+add_timed_idea = { idea = NO_TRADE days = 730 }
 add_timed_idea = { idea = GER_mefo_bills_1 days = 730 }
 country_event = { id = DOD_yugoslavia.20 days = 759 }
 anti_cross_faction_trade_allies = yes
@@ -161,32 +161,7 @@ set_faction_spymaster = yes
 		autonomous_state = autonomy_reichskommissariat
 		freedom_level = 0.2
 	}
-	#set_autonomy = {
-	#	target = ITA
-	#	autonomous_state = autonomy_satellite
-	#	freedom_level = 0.2
-	#}	
 	
-add_relation_modifier = {
-    target = ROM
-    modifier = stahlpakt
-}
-add_relation_modifier = {
-    target = ITA
-    modifier = stahlpakt_ITA2
-} 
-add_relation_modifier = {
-    target = SPR
-    modifier = stahlpakt
-}
-add_relation_modifier = {
-    target = BUL
-    modifier = stahlpakt
-}
-add_relation_modifier = {
-    target = HUN
-    modifier = stahlpakt
-}
 add_opinion_modifier = {
     target = EFR
     modifier = anti_cross_faction_trade

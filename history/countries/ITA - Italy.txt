@@ -16,7 +16,7 @@ add_ideas = {
 }
 add_timed_idea = { idea = GER_mefo_bills_1 days = 730 }
 set_fuel_ratio = 1
-
+add_timed_idea = { idea = NO_TRADE days = 730 }
 add_to_tech_sharing_group = axis_research 
 
 set_variable = {
@@ -75,26 +75,6 @@ set_technology = {
 armored_car1 = 1		
 }
 
-add_relation_modifier = {
-    target = GER
-    modifier = stahlpakt4
-} 
-add_relation_modifier = {
-    target = SPR
-    modifier = stahlpakt_ITA
-} 
-add_relation_modifier = {
-    target = ROM
-    modifier = stahlpakt_ITA
-}
-add_relation_modifier = {
-    target = BUL
-    modifier = stahlpakt_ITA
-}
-add_relation_modifier = {
-    target = HUN
-    modifier = stahlpakt_ITA
-}
 add_opinion_modifier = {
     target = EFR
     modifier = anti_cross_faction_trade
