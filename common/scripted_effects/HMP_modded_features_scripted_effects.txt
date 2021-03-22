@@ -3423,9 +3423,9 @@ create_field_marshal = {
 	logistics_skill = 5
 }
 create_field_marshal = {  
-	name = "Claude Auchinleck" #Point Value: 14.5 #3/20/21 -Paratrooper -Scavenger -Commando -Camo. Expert +Thorough Planner -Fortress Buster
+	name = "Claude Auchinleck" #Point Value: 14 #3/20/21 -Paratrooper -Scavenger -Commando -Camo. Expert +Thorough Planner -Fortress Buster
 	picture = "Portrait_Britain_Claude_Auchinleck.dds"
-	traits = { inflexible_strategist unyielding_defender infantry_leader infantry_expert trait_engineer }
+	traits = { inflexible_strategist unyielding_defender thorough_planner infantry_leader infantry_expert trait_engineer }
 	skill = 6
 	attack_skill = 2
 	defense_skill = 5
@@ -3464,15 +3464,15 @@ create_field_marshal = {
 	planning_skill = 5
 	logistics_skill = 8
 }
-create_corps_commander = {
-	name = "Miles Dempsey"
+create_field_marshal = {
+	name = "Miles Dempsey" #Point Value: 14.5
 	picture = "Portrait_Britain_Miles_Dempsey.dds"
-	traits = { brilliant_strategist infantry_leader aggressive_assaulter infantry_expert trait_mountaineer hill_fighter }
+	traits = { brilliant_strategist infantry_leader aggressive_assaulter infantry_expert trait_mountaineer hill_fighter thorough_planner }
 	skill = 6
-	attack_skill = 3
+	attack_skill = 6
 	defense_skill = 4
-	planning_skill = 5
-	logistics_skill = 7
+	planning_skill = 6
+	logistics_skill = 3
 }
 create_corps_commander = {
 	name = "Neil Ritchie"
@@ -3486,9 +3486,9 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "William Slim" 
+	name = "William Slim"  #Point value: 18 +Mountaineer
 	picture = "Portrait_Britain_William_Slim.dds"
-	traits = { jungle_rat trickster infantry_expert expert_improviser infantry_leader }
+	traits = { trait_mountaineer jungle_rat trickster infantry_expert expert_improviser infantry_leader }
 	skill = 6
 	attack_skill = 3
 	defense_skill = 3
@@ -3496,9 +3496,9 @@ create_corps_commander = {
 	logistics_skill = 8
 }
 create_corps_commander = {
-	name = "Richard O'Connor" #Point Value: 18 #3/20/21 +Fake Skilled Staffer +Guerille Fighter
+	name = "Richard O'Connor" #Point Value: 18 #3/20/21 +Fake Skilled Staffer +Guerille Fighter #3/22/21 -Camo Expert +Engineer
 	picture = "Portrait_Britain_Richard_OConnor.dds"
-	traits = { desert_fox fake_skilled_staffer guerilla_fighter infantry_leader ambusher commando camouflage_expert }
+	traits = { desert_fox fake_skilled_staffer guerilla_fighter infantry_leader ambusher commando trait_engineer }
 	skill = 6
 	attack_skill = 2
 	defense_skill = 3
@@ -3519,9 +3519,9 @@ create_corps_commander = {
 }
 
 create_corps_commander = {  #East Africa
-    name = "William Platt"
+    name = "William Platt" #Point VAlue: 18 #3/22/21 +Mountaineer +Organizer
     picture = "Portrait_Britain_William_Platt.dds"
-    traits = { panzer_leader panzer_expert jungle_rat trait_engineer trickster }
+    traits = { organizer panzer_leader panzer_expert trait_mountaineer jungle_rat trait_engineer trickster }
     skill = 6
     attack_skill = 5
     defense_skill = 2
@@ -3530,9 +3530,9 @@ create_corps_commander = {  #East Africa
 }
 
 create_corps_commander = {  
-    name = "Merton Beckwith-Smith"
+    name = "Merton Beckwith-Smith" #Point Value: 18 #3/22/21 +Swamp Fox
         picture = "Portrait_Britain_Merton_Beckwith_Smith.dds"
-	traits = { infantry_leader urban_assault_specialist commando paratrooper ambusher  trickster  }
+	traits = { infantry_leader urban_assault_specialist commando paratrooper ambusher  trickster swamp_fox  }
 	skill = 6
 	attack_skill = 3
 	defense_skill = 3
@@ -3541,9 +3541,9 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-    name = "Henry Pownall"
+    name = "Henry Pownall" #Point value: 18 #3/22/21 -Trickster -Improv. Expert -Skilled Staffer +Hill Fighter +Mountaineer +Desert Fox +Urban Assault Specialist +Fake Skilled Staffer +Guerilla FIghter
     picture = "Portrait_Britain_Henry_Pownall.dds"
-	traits = { cavalry_leader cavalry_expert ambusher trickster expert_improviser skilled_staffer } 
+	traits = { cavalry_leader cavalry_expert guerilla_fighter hill_fighter trait_mountaineer desert_fox urban_assault_specialist ambusher fake_skilled_staffer } 
     skill = 6
 	attack_skill = 5
     defense_skill = 4
@@ -3593,12 +3593,12 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Archibald Wavell" # Aristocrat
+	name = "Archibald Wavell" #Point Value: 19           Aristocrat
 	picture = "Portrait_Britain_Archibald_Wavell.dds"
-	traits = { infantry_leader panzer_leader panzer_expert infantry_expert fortress_buster	desert_fox commando trait_engineer trait_engineer fortress_buster skirmisher }
+	traits = {  panzer_leader panzer_expert	desert_fox commando trait_engineer fortress_buster skirmisher }
 	skill = 6
-	attack_skill = 2
-	defense_skill = 5
+	attack_skill = 3
+	defense_skill = 4
 	planning_skill = 5
 	logistics_skill = 7
 }
