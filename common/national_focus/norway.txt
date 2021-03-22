@@ -375,7 +375,7 @@ focus_tree = {
 		add_war_support = 0.2
 			add_ideas = NOR_training
 			remove_ideas = nor_bad_debuffs2
-	
+			load_oob = "NOR_EMPTY"
 		}
 		}
 		

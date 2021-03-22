@@ -1,3 +1,225 @@
+support_commonwealth = {
+	commonwealth_guns_visible = {
+		icon = generic_form_nation
+		cost = 0
+		fire_only_once = no
+		complete_effect  = {
+		if = { limit = { NOT =  { has_country_flag = visible_guns }}  set_country_flag = visible_guns  }
+		else = { clr_country_flag = visible_guns }
+	}
+	}
+		commonwealth_guns = {
+		icon = generic_form_nation
+		available = { has_equipment = { infantry_equipment > 5000 } }
+		   target_trigger = { 
+               FROM = {
+                    OR = { is_in_faction_with = ENG  }
+					NOT = { OR = { tag = USA AND = { tag = FRA FRA = { owns_state = 16 }} }}
+               }
+          }
+		 		 visible = { has_country_flag =  visible_guns }
+
+
+		cost = 0
+		fire_only_once = no
+		complete_effect  = {
+			send_equipment = {
+    equipment = infantry_equipment
+    amount = 5000
+    target = FROM
+}
+	}
+	}
+
+	commonwealth_arty_visible = {
+		icon = generic_form_nation
+		cost = 0
+		fire_only_once = no
+		complete_effect  = {
+		if = { limit = { NOT =  { has_country_flag = visible_arty }}  set_country_flag = visible_arty  }
+		else = { clr_country_flag = visible_arty }
+	}
+	}
+		commonwealth_arty = {
+		icon = generic_form_nation
+		available = { has_equipment = { artillery_equipment > 750 } }
+		   target_trigger = { 
+               FROM = {
+                    OR = { is_in_faction_with = ENG  }
+					NOT = { OR = { tag = USA AND = { tag = FRA FRA = { owns_state = 16 }} }}
+               }
+          }
+		 		 visible = { has_country_flag =  visible_arty }
+
+
+		cost = 0
+		fire_only_once = no
+		complete_effect  = {
+			send_equipment = {
+    equipment = artillery_equipment
+    amount = 750
+    target = FROM
+}
+	}
+	}
+	commonwealth_rarty_visible = {
+		icon = generic_form_nation
+		cost = 0
+		fire_only_once = no
+		complete_effect  = {
+		if = { limit = { NOT =  { has_country_flag = visible_rarty }}  set_country_flag = visible_rarty  }
+		else = { clr_country_flag = visible_rarty }
+	}
+	}
+
+		commonwealth_rarty = {
+		icon = generic_form_nation
+		available = { has_equipment = { rocket_artillery_equipment > 150 } }
+		   target_trigger = { 
+               FROM = {
+                    OR = { is_in_faction_with = ENG  }
+					NOT = { OR = { tag = USA AND = { tag = FRA FRA = { owns_state = 16 }} }}
+               }
+          }
+		 		 visible = { has_country_flag =  visible_rarty }
+
+
+		cost = 0
+		fire_only_once = no
+		complete_effect  = {
+			send_equipment = {
+    equipment = rocket_artillery_equipment
+    amount = 150
+    target = FROM
+}
+	}
+	}
+	commonwealth_aa_visible = {
+		icon = generic_form_nation
+		cost = 0
+		fire_only_once = no
+		complete_effect  = {
+		if = { limit = { NOT =  { has_country_flag = visible_aa }}  set_country_flag = visible_aa  }
+		else = { clr_country_flag = visible_aa }
+	}
+	}
+	commonwealth_aa = {
+		icon = generic_form_nation
+		available = { has_equipment = { anti_air_equipment > 400 } }
+		   target_trigger = { 
+               FROM = {
+                    OR = { is_in_faction_with = ENG  }
+					NOT = { OR = { tag = USA AND = { tag = FRA FRA = { owns_state = 16 }} }}
+               }
+          }
+		 		 visible = { has_country_flag =  visible_aa }
+
+
+		cost = 0
+		fire_only_once = no
+		complete_effect  = {
+			send_equipment = {
+    equipment = anti_air_equipment
+    amount = 400
+    target = FROM
+}
+	}
+	}
+	commonwealth_at_visible = {
+		icon = generic_form_nation
+		cost = 0
+		fire_only_once = no
+		complete_effect  = {
+		if = { limit = { NOT =  { has_country_flag = visible_at }}  set_country_flag = visible_at  }
+		else = { clr_country_flag = visible_at }
+	}
+	}
+	commonwealth_at = {
+		icon = generic_form_nation
+		available = { has_equipment = { anti_tank_equipment > 1000 } }
+		   target_trigger = { 
+               FROM = {
+                    OR = { is_in_faction_with = ENG  }
+					NOT = { OR = { tag = USA AND = { tag = FRA FRA = { owns_state = 16 }} }}
+               }
+          }
+		 visible = { has_country_flag =  visible_at }
+
+		cost = 0
+		fire_only_once = no
+		complete_effect  = {
+			send_equipment = {
+    equipment = anti_tank_equipment
+    amount = 1000
+    target = FROM
+}
+	}
+	}
+	commonwealth_moto_visible = {
+		icon = generic_form_nation
+		cost = 0
+		fire_only_once = no
+		complete_effect  = {
+		if = { limit = { NOT =  { has_country_flag = visible_moto }}  set_country_flag = visible_moto  }
+		else = { clr_country_flag = visible_moto }
+	}
+	}
+	commonwealth_moto = {
+		icon = generic_form_nation
+		available = { has_equipment = { motorized_equipment > 500 } }
+		   target_trigger = { 
+               FROM = {
+                    OR = { is_in_faction_with = ENG  }
+					NOT = { OR = { tag = USA AND = { tag = FRA FRA = { owns_state = 16 }} }}
+               }
+          }
+		 		 visible = { has_country_flag =  visible_moto }
+
+
+		cost = 0
+		fire_only_once = no
+		complete_effect  = {
+			send_equipment = {
+    equipment = motorized_equipment
+    amount = 500
+    target = FROM
+}
+	}
+	}
+
+	commonwealth_supp_visible = {
+		icon = generic_form_nation
+		cost = 0
+		fire_only_once = no
+		complete_effect  = {
+		if = { limit = { NOT =  { has_country_flag = visible_supp }}  set_country_flag = visible_supp  }
+		else = { clr_country_flag = visible_supp }
+	}
+	}
+	commonwealth_supp = {
+		icon = generic_form_nation
+		available = { has_equipment = { support_equipment > 800 } }
+		   target_trigger = { 
+               FROM = {
+                    OR = { is_in_faction_with = ENG  }
+					NOT = { OR = { tag = USA AND = { tag = FRA FRA = { owns_state = 16 }} }}
+               }
+          }
+		 		 visible = { has_country_flag =  visible_supp }
+
+
+		cost = 0
+		fire_only_once = no
+		complete_effect  = {
+			send_equipment = {
+    equipment = support_equipment
+    amount = 800
+    target = FROM
+}
+	}
+	}
+}
+
 HMP_ll_soviets_receive = {
 HMP_ll_soviets_receive_more_guns = {
 allowed = {  original_tag = SOV } 
@@ -486,6 +708,17 @@ every_country = {
 	}
 
 	operations = {
+	NOR_sudoku = {
+		icon = border_war
+		allowed = {	original_tag = NOR	}
+		available = { has_war = no	date < 1939.12.30	date > 1939.9.30	}
+		fire_only_once = yes
+		cost = 0
+		complete_effect = {
+			GER = { activate_decision = GER_weserbung_operation2 load_oob = "GER_NOR_SPAWN" }
+		}	
+	}
+
 	khalkin_gol = {
 		icon = border_war
 		allowed = {	original_tag = JAP	}

@@ -14,6 +14,90 @@ defined_text = { # Country
 	}
 }
 
+defined_text = { # Country
+	name = GetCWGuns
+	text = {
+		trigger = { has_country_flag = visible_guns }
+		localization_key = GetCWGunsVisible
+	}
+	text = {
+		trigger = {	 NOT = { has_country_flag = visible_guns }	}
+		localization_key = GetCWGunsNotVisible
+	}
+}
+
+defined_text = { # Country
+	name = GetCWSupp
+	text = {
+		trigger = { has_country_flag = visible_supp }
+		localization_key = GetCWSuppVisible
+	}
+	text = {
+		trigger = {	 NOT = { has_country_flag = visible_supp }	}
+		localization_key = GetCWSuppNotVisible
+	}
+}
+
+defined_text = { # Country
+	name = GetCWArty
+	text = {
+		trigger = { has_country_flag = visible_arty }
+		localization_key = GetCWArtyVisible
+	}
+	text = {
+		trigger = {	 NOT = { has_country_flag = visible_arty }	}
+		localization_key = GetCWArtyNotVisible
+	}
+}
+
+
+defined_text = { # Country
+	name = GetCWRarty
+	text = {
+		trigger = { has_country_flag = visible_rarty }
+		localization_key = GetCWRartyVisible
+	}
+	text = {
+		trigger = {	 NOT = { has_country_flag = visible_rarty }	}
+		localization_key = GetCWRartyNotVisible
+	}
+}
+
+defined_text = { # Country
+	name = GetCWAA
+	text = {
+		trigger = { has_country_flag = visible_aa }
+		localization_key = GetCWAAVisible
+	}
+	text = {
+		trigger = {	 NOT = { has_country_flag = visible_aa }	}
+		localization_key = GetCWAANotVisible
+	}
+}
+
+defined_text = { # Country
+	name = GetCWAT
+	text = {
+		trigger = { has_country_flag = visible_at }
+		localization_key = GetCWATVisible
+	}
+	text = {
+		trigger = {	 NOT = { has_country_flag = visible_at }	}
+		localization_key = GetCWATNotVisible
+	}
+}
+
+defined_text = { # Country
+	name = GetCWMoto
+	text = {
+		trigger = { has_country_flag = visible_moto }
+		localization_key = GetCWMotoVisible
+	}
+	text = {
+		trigger = {	 NOT = { has_country_flag = visible_moto }	}
+		localization_key = GetCWMotoNotVisible
+	}
+}
 
 defined_text = { # Country
 	name = GetMANChina

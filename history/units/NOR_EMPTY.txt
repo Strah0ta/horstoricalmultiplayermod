@@ -1,0 +1,95 @@
+﻿	division_template = {
+
+		name = "Infantry"
+		regiments = {
+			infantry = { x = 0 y = 0 }
+			infantry = { x = 1 y = 0 }
+			infantry = { x = 2 y = 0 }
+			infantry = { x = 3 y = 0 }
+			infantry = { x = 4 y = 0 }
+			infantry = { x = 0 y = 1 }
+			infantry = { x = 1 y = 1 }
+			infantry = { x = 2 y = 1 }
+			infantry = { x = 3 y = 1 }
+			infantry = { x = 4 y = 1 }
+		}
+		#support = {
+		#engineer = { x = 0 y = 0 }
+		#}
+	}
+
+	units = {
+			division = {	
+			start_equipment_factor = 0.001 start_experience_factor = 0.3
+			location = 11999
+			division_template = "Infantry"
+			force_equipment_variants = { infantry_equipment_0 = { owner = "NOR" } }
+		}
+				division = {	
+			start_equipment_factor = 0.001 start_experience_factor = 0.3
+			location = 11999
+			division_template = "Infantry"
+			force_equipment_variants = { infantry_equipment_0 = { owner = "NOR" } }
+		}
+			division = {	
+			start_equipment_factor = 0.001 start_experience_factor = 0.3
+			location = 11999
+			division_template = "Infantry"
+			force_equipment_variants = { infantry_equipment_0 = { owner = "NOR" } }
+		}
+			division = {	
+			start_equipment_factor = 0.001 start_experience_factor = 0.3
+			location = 11999
+			division_template = "Infantry"
+			force_equipment_variants = { infantry_equipment_0 = { owner = "NOR" } }
+		}
+			division = {	
+			start_equipment_factor = 0.001 start_experience_factor = 0.3
+			location = 11999
+			division_template = "Infantry"
+			force_equipment_variants = { infantry_equipment_0 = { owner = "NOR" } }
+		}
+			division = {	
+			start_equipment_factor = 0.001 start_experience_factor = 0.3
+			location = 11999
+			division_template = "Infantry"
+			force_equipment_variants = { infantry_equipment_0 = { owner = "NOR" } }
+		}
+			division = {	
+			start_equipment_factor = 0.001 start_experience_factor = 0.3
+			location = 11999
+			division_template = "Infantry"
+			force_equipment_variants = { infantry_equipment_0 = { owner = "NOR" } }
+		}
+			division = {	
+			start_equipment_factor = 0.001 start_experience_factor = 0.3
+			location = 11999
+			division_template = "Infantry"
+			force_equipment_variants = { infantry_equipment_0 = { owner = "NOR" } }
+		}	
+			division = {	
+			start_equipment_factor = 0.001 start_experience_factor = 0.3
+			location = 11999
+			division_template = "Infantry"
+			force_equipment_variants = { infantry_equipment_0 = { owner = "NOR" } }
+		}
+			division = {	
+			start_equipment_factor = 0.001 start_experience_factor = 0.3
+			location = 11999
+			division_template = "Infantry"
+			force_equipment_variants = { infantry_equipment_0 = { owner = "NOR" } }
+		}
+			division = {	
+			start_equipment_factor = 0.001 start_experience_factor = 0.3
+			location = 11999
+			division_template = "Infantry"
+			force_equipment_variants = { infantry_equipment_0 = { owner = "NOR" } }
+		}
+			division = {	
+			start_equipment_factor = 0.001 start_experience_factor = 0.3
+			location = 11999
+			division_template = "Infantry"
+			force_equipment_variants = { infantry_equipment_0 = { owner = "NOR" } }
+		}				
+	}
+	

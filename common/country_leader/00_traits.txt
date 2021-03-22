@@ -1202,14 +1202,14 @@ leader_traits = {
 		sprite = 5
 		special_forces_attack_factor = 0.15
 	    special_forces_defence_factor = 0.15
-		army_artillery_defence_factor = 0.075
+		army_artillery_defence_factor = 0.01
 	}
 	
 	army_commando_3 = { # +12 paratrooper/marine/mountain efficiency
 		sprite = 5
 		special_forces_attack_factor = 0.2
 	    special_forces_defence_factor = 0.2
-		army_artillery_defence_factor = 0.1
+		army_artillery_defence_factor = 0.15
 	}
 	
 	

@@ -10,6 +10,11 @@ allowed = { always = yes }
 visible = { has_game_rule = { rule = horst_debug option = HORST_ENABLE_DEBUG }}
 }
 
+support_commonwealth = {
+icon = generic_propaganda
+allowed = { OR = { tag = ENG tag = USA }}
+}
+
 SOV_great_patriotic_war = {
 	icon = patriotic
 	allowed = {	original_tag = SOV	}

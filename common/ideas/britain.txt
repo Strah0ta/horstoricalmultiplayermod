@@ -777,13 +777,14 @@ ideas = {
 		}
 		
 		ENG_operation_compass = {
-					picture =  eng_the_sun_never_sets
-					available = { ENG = { controls_province = 3996 }}
+			picture =  eng_the_sun_never_sets
+			available = { AND = { ENG = { controls_province = 3996 }} NOT = { date > 1941.6.22 }   }
 			modifier = {
 				army_speed_factor = 0.1
 				heat_attrition_factor = -1
-				terrain_penalty_reduction = 0.15
+				terrain_penalty_reduction = 0.2
 				planning_speed = 0.5 
+				army_defence_factor = 0.1
 			}
 	
 		}
