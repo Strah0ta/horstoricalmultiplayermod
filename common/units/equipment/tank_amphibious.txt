@@ -25,7 +25,7 @@ equipments = {
 		defense = 7
 		hardness = 0.95
 		breakthrough = 51
-		armor_value = 85
+		armor_value = 95
 
 		#Offensive Abilities
 		soft_attack = 21.1    #Med 2 is 28.2  - 75% stats
@@ -74,7 +74,7 @@ equipments = {
 		#Defensive Abilities
 		defense = 9
 		breakthrough = 66
-		armor_value = 95
+		armor_value = 105
 
 		#Offensive Abilities
 		soft_attack = 27.6  #med 3 is 36.8 - 75% stats
