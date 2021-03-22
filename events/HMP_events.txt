@@ -1382,6 +1382,23 @@ country_event = {
 			SOV = { add_timed_idea = { idea = winter_offensive_sov days = 90 }}
 	  }
    }     
+   
+                country_event = {
+   id = italy.857 #winter planning
+   title = "OPERATION SEALION HAS BEEN ALLOWED AT ALL TIMES"
+   desc = "The host has used a custom game rule to allow for Sealion! The UK has more production of early game equipment and no entrenchment bonuses in Gibraltar!"
+   picture = GFX_report_event_soviet_soldiers_tank
+
+   fire_only_once = no
+ is_triggered_only = yes
+
+   
+      option = {
+	  name = "ALTA"
+			
+	  }
+   }     
+   
 add_namespace = mtg_news
 news_event = {
 	id = mtg_news.776

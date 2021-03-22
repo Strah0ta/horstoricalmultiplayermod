@@ -421,7 +421,7 @@ focus_tree = {
 				}						
 			}
 		if = { limit = { NOT = { owns_state = 110 }} set_cosmetic_tag = FREE_NORWAY  }
-			add_manpower = 750000
+			add_manpower = 630000
 
 				add_equipment_to_stockpile = {
 							type = convoy_1

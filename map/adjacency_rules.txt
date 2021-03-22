@@ -115,8 +115,8 @@ adjacency_rule
 	friend =
 	{
 		army = yes
-		navy = no
-		submarine = no
+		navy = yes
+		submarine = yes
 		trade = yes
 	}
 	neutral =
@@ -127,12 +127,9 @@ adjacency_rule
 		trade = no
 	}
 	
-	required_provinces = { 149 70 }
-	is_disabled = {
-		NOT = {
-			tag=SOV
-		}
-	}
+	required_provinces = { 149 3151 2017 }
+	icon = 3151 
+	offset = { 0 0 0}
 }
 
 #Spain Strait2
