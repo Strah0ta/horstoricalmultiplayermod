@@ -3423,16 +3423,25 @@ create_field_marshal = {
 	logistics_skill = 5
 }
 create_field_marshal = {  
-	name = "Claude Auchinleck" #Point Value: 14 #3/20/21 -Paratrooper -Scavenger -Commando -Camo. Expert +Thorough Planner -Fortress Buster
+	name = "Claude Auchinleck" #Point Value: 14 #3/20/21 -Paratrooper -Scavenger -Commando -Camo. Expert +Thorough Planner -Fortress Buster #3/22/21 +Logistics Wizard -Thorough planner -Engineer +Fortress Buster +Mountineer
 	picture = "Portrait_Britain_Claude_Auchinleck.dds"
-	traits = { inflexible_strategist unyielding_defender thorough_planner infantry_leader infantry_expert trait_engineer }
+	traits = { logistics_wizard inflexible_strategist unyielding_defender infantry_leader infantry_expert fortress_buster trait_mountaineer }
 	skill = 6
-	attack_skill = 2
-	defense_skill = 5
+	attack_skill = 5
+	defense_skill = 4
 	planning_skill = 5
-	logistics_skill = 7
+	logistics_skill = 5
 }
-
+create_field_marshal = {
+	name = "Miles Dempsey" #Point Value: 14.5
+	picture = "Portrait_Britain_Miles_Dempsey.dds"
+	traits = { brilliant_strategist infantry_leader aggressive_assaulter infantry_expert trait_mountaineer hill_fighter thorough_planner }
+	skill = 6
+	attack_skill = 6
+	defense_skill = 4
+	planning_skill = 6
+	logistics_skill = 3
+}
 create_field_marshal = {
 	name = "William Gott" #Point Value: 15 #3/20/21 -Organizer -Panzer Expert
 	picture = "Portrait_Britain_William_Gott.dds"
@@ -3464,23 +3473,14 @@ create_field_marshal = {
 	planning_skill = 5
 	logistics_skill = 8
 }
-create_field_marshal = {
-	name = "Miles Dempsey" #Point Value: 14.5
-	picture = "Portrait_Britain_Miles_Dempsey.dds"
-	traits = { brilliant_strategist infantry_leader aggressive_assaulter infantry_expert trait_mountaineer hill_fighter thorough_planner }
-	skill = 6
-	attack_skill = 6
-	defense_skill = 4
-	planning_skill = 6
-	logistics_skill = 3
-}
+
 create_corps_commander = {
-	name = "Neil Ritchie"
+	name = "Neil Ritchie" #Point Value: 18 #3/22/21 -Unyielding Defender +Guerilla Fighter -Paratrooper +Desert Fox +Mountaineer +Hill Fighter
 	picture = "Portrait_Britain_Neil_Ritchie.dds"
-	traits = { inflexible_strategist unyielding_defender infantry_leader ambusher fake_skilled_staffer paratrooper   }
+	traits = { inflexible_strategist infantry_leader ambusher guerilla_fighter fake_skilled_staffer desert_fox trait_mountaineer hill_fighter    }
 	skill = 6
-	attack_skill = 2
-	defense_skill = 4
+	attack_skill = 1
+	defense_skill = 5
 	planning_skill = 5
 	logistics_skill = 8
 }
@@ -3500,17 +3500,17 @@ create_corps_commander = {
 	picture = "Portrait_Britain_Richard_OConnor.dds"
 	traits = { desert_fox fake_skilled_staffer guerilla_fighter infantry_leader ambusher commando trait_engineer }
 	skill = 6
-	attack_skill = 2
+	attack_skill = 6
 	defense_skill = 3
-	planning_skill = 7
+	planning_skill = 3
 	logistics_skill = 7
 }
 
 
 create_corps_commander = {
-    name = "Henry Wilson"
+    name = "Henry Wilson" #Point Value: 18 #3/22/21 -Organizer
     picture = "Portrait_Britain_Henry_Maitland_Wilson.dds"
-	traits = { old_guard organizer bearer_of_artillery infantry_leader urban_assault_specialist ranger infantry_expert trickster  }
+	traits = { old_guard bearer_of_artillery infantry_leader urban_assault_specialist ranger infantry_expert trickster  }
 	skill = 6
 	attack_skill = 4
 	defense_skill = 4
@@ -3562,16 +3562,16 @@ create_corps_commander = {          #COMBINED ARMS EXPERT + PANZER LEADER ?
 }
 
 create_corps_commander = {
-    name = "Jackie Smyth"
+    name = "Jackie Smyth" #Point Value: 18 #3/22/21 -Trickster -Guerilla Fighter +Ranger
     picture = "Portrait_Britain_John_Jackie_Smyth.dds"
-	traits = { infantry_leader old_guard infantry_expert trait_mountaineer  naval_invader invader_ii trickster expert_improviser guerilla_fighter }
+	traits = { infantry_leader old_guard infantry_expert trait_mountaineer  naval_invader invader_ii expert_improviser ranger }
 	skill = 6
 	attack_skill = 4
 	defense_skill = 4
 	planning_skill = 5
 	logistics_skill = 6
 }
-create_corps_commander = {
+create_corps_commander = { #Point Value: 11
  name = "John Vereker Lord Gort" # Aristocrat
     picture = "Portrait_Britain_John_Vereker.dds"
 	traits = {   trait_cautious naval_invader naval_liason invader_ii  panzer_leader panzer_expert  }
