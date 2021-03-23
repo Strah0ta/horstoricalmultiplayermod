@@ -1141,7 +1141,7 @@ add_equipment_production = {
 		id = ENG_compass
 		available = {
 			controls_state = 447
-			date > 1940.1.1
+			NOT = { FRA = { owns_state = 16 }}
 			NOT = { date > 1941.1.1 }
 		}
 		continue_if_invalid = yes

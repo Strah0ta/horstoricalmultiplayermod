@@ -513,7 +513,7 @@ date > 1941.6.1
 		completion_reward = {
 			add_tech_bonus = {
 				name = arty_bonus
-				bonus = 1.0
+				bonus = 1.01
 				uses = 4
 				category = cat_anti_tank
 			}
@@ -1035,25 +1035,19 @@ date > 1941.6.1
 		completion_reward = {
 				add_tech_bonus = {
 					name = synth_bonus
-					bonus = 1.0
+					bonus = 3.0
 					uses = 5
 					category = synth_resources
 				}
-				add_tech_bonus = {
-					name = armor_bonus
-					bonus = 1.0
-					uses = 2
-					category = armor
-				}
 				GER = { 
 						add_tech_bonus = {
-			bonus = 1.0
-			uses = 1
+			bonus = 3.0
+			uses = 2
 			category = mountaineers_tech
 		}
 		add_tech_bonus = {
-			bonus = 1.0
-			uses = 2
+			bonus = 3.0
+			uses = 3
 			category = naval_doctrine
 		}
 		}
