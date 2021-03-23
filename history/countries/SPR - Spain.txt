@@ -18,6 +18,7 @@ set_politics = {	ruling_party = neutrality }
 		neutrality = 40
 	}
 	anti_cross_faction_trade_allies = yes
+add_timed_idea = { idea = NO_TRADE days = 730 }
 
  country_event = { id = lar_spain.2 days = 199 } 
 	

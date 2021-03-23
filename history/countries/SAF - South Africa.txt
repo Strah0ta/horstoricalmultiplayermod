@@ -12,6 +12,7 @@ create_intelligence_agency = yes
 add_ideas = armyandnavy_idea
 anti_cross_faction_trade_axis = yes
 add_equipment_to_stockpile = { type = motorized_equipment_1 amount = 300 }
+add_timed_idea = { idea = NO_TRADE days = 730 }
 
 # Starting tech
 set_technology = {

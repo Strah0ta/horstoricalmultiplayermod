@@ -8,6 +8,8 @@ add_ideas = manpower_early
 add_ideas = protected_by_papua
 	add_to_tech_sharing_group = commonwealth_research
 }
+add_timed_idea = { idea = NO_TRADE days = 730 }
+
 oob = "AST_1936"
 set_stability = 0.8
 set_war_support = 0.3

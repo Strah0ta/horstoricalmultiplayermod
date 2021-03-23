@@ -17,6 +17,9 @@ technologies = {
 		mot_anti_tank_brigade = {
 			ap_attack = 0.4
 		}
+		mech_at = {
+			ap_attack = 0.4
+		}
 		
 		path = {
 			leads_to_tech = interwar_artillery 
@@ -120,7 +123,9 @@ technologies = {
 		mot_artillery_brigade = {
 			soft_attack = 0.1
 		}
-		
+				mech_arty = {
+			soft_attack = 0.1
+		}
 		path = {
 			leads_to_tech = artillery3
 			research_cost_coeff = 1
@@ -157,6 +162,9 @@ technologies = {
 			soft_attack = 0.1
 		}
 				camelry_arty = {
+			soft_attack = 0.1
+		}
+						mech_arty = {
 			soft_attack = 0.1
 		}
 		path = {
@@ -215,6 +223,9 @@ technologies = {
 			soft_attack = 0.1
 		}
 				camelry_arty = {
+			soft_attack = 0.1
+		}
+						mech_arty = {
 			soft_attack = 0.1
 		}
 		research_cost = 1
@@ -327,7 +338,9 @@ technologies = {
 		motorized_rocket_brigade = {
 			soft_attack = 0.15
 		}
-		
+		mech_rarty = {
+			soft_attack = 0.15
+		}
 		path = {
 			leads_to_tech = rocket_artillery3
 			research_cost_coeff = 1
@@ -363,7 +376,9 @@ technologies = {
 		motorized_rocket_brigade = {
 			soft_attack = 0.15
 		}
-
+		mech_rarty = {
+			soft_attack = 0.15
+		}
 		path = {
 			leads_to_tech = rocket_artillery4
 			research_cost_coeff = 1
@@ -645,7 +660,9 @@ technologies = {
 		mot_anti_tank_brigade = {
 			hard_attack = 0.1
 		}
-		
+				mech_at = {
+			hard_attack = 0.1
+		}
 		path = {
 			leads_to_tech = antitank2
 			research_cost_coeff = 1
@@ -705,7 +722,9 @@ technologies = {
 		mot_anti_tank_brigade = {
 			hard_attack = 0.1
 		}
-		
+						mech_at = {
+			hard_attack = 0.1
+		}
 		path = {
 			leads_to_tech = antitank4
 			research_cost_coeff = 1
@@ -739,7 +758,9 @@ technologies = {
 		mot_anti_tank_brigade = {
 			hard_attack = 0.1
 		}
-	
+					mech_at = {
+			hard_attack = 0.1
+		}
 		path = {
 			leads_to_tech = antitank5
 			research_cost_coeff = 1

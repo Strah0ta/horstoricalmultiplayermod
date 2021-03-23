@@ -118,7 +118,16 @@ technologies = {
 		}
 		mech_anti_air = {
 			maximum_speed = 0.1
-		}		
+		}	
+		mech_arty = {
+			maximum_speed = 0.1
+		}	
+		mech_rarty = {
+			maximum_speed = 0.1
+		}	
+		mech_at = {
+			maximum_speed = 0.1
+		}			
 		amphibious_mechanized = {
 			maximum_speed = 0.1
 		}
@@ -807,6 +816,15 @@ motorized = {
         mech_anti_air = {
             maximum_speed = 0.1
         }
+				mech_arty = {
+			maximum_speed = 0.1
+		}	
+		mech_rarty = {
+			maximum_speed = 0.1
+		}	
+		mech_at = {
+			maximum_speed = 0.1
+		}	
         amphibious_mechanized = {
             maximum_speed = 0.1
         }
