@@ -9,6 +9,7 @@
  GER_dday_inf:0 "D-Day Infantry"
  war_bonds_cancel:0 "Cancel War Bonds"
  man_china:0 "[GetMANChina]"
+ sov_spawn_tt:0 "We have not used this decision more than twice"
  commonwealth_guns:0 "Send 5000 Infantry Equipment to [FROM.GetName]"
  commonwealth_supp:0 "Send 800 Support Equipment to [FROM.GetName]"
  commonwealth_aa:0 "Send 400 Anti-Air Equipment to [FROM.GetName]"

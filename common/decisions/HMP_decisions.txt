@@ -17,9 +17,7 @@ support_commonwealth = {
 					NOT = { OR = { tag = USA AND = { tag = FRA FRA = { owns_state = 16 }} }}
                }
           }
-		 		 visible = { has_country_flag =  visible_guns }
-
-
+		 visible = { has_country_flag =  visible_guns }
 		cost = 0
 		fire_only_once = no
 		complete_effect  = {
@@ -1084,11 +1082,6 @@ GER_desert_flower_mission2 = {
 				}
 			}		
 
-	#SOV_spawn2 = { 
-	#	allowed = { tag = SOV }
-	#	visible = { is_debug = yes  }
-	#	complete_effect = {load_oob = "SOV_Gorki_Deployment"}
-	#}	
 GER_case_anton = {
 	icon = generic_prepare_civil_war		
 	allowed = { OR = { tag = EFR tag = GER tag = ENG }}				
@@ -3484,9 +3477,10 @@ SOV_great_patriotic_war = {
 	}
 		SOV_spawn = { 
 		icon = GFX_decision_generic_army_support
-		allowed = { tag = SOV }
-		available = { date > 1940.1.1 date < 1941.6.1 }
-		complete_effect = { custom_effect_tooltip = "We will deploy 570 empty 2w divisions which can be trained to our desired template." hidden_effect = { load_oob = "SOV_Belarus_Deployment"} }
+		allowed = { tag = SOV } 
+		visible = {  NOT =  { check_variable = { spawn_count_sov > 2}  }  }
+		available = { date < 1941.6.1 custom_trigger_tooltip = { tooltip = sov_spawn_tt	} }
+		complete_effect = { custom_effect_tooltip = "We will deploy 570 empty 2w divisions which can be trained to our desired template." hidden_effect = { add_to_variable = {	var = spawn_count_sov	value = 1 }  add_manpower = -570000 load_oob = "SOV_Belarus_Deployment"} }
 	}
 }
 

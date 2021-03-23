@@ -230,6 +230,8 @@
  lombardy: "Gauleiter of Lombardy"
  scientist:0 "Scientist"
  fake_commando:0 "Commando"
+ defensive_posture:0 "Defensive Posture"
+ defensive_posture_desc:0 "High command has ordered us to take defensive positions and focus on repelling attacks instead of making offensives using our limited supplies and manpower.\n\n§RIf the Axis take Khartoum this national spirit will be removed.§!"
  fake_infantry_leader:0 "Infantry Leader"
  fake_skilled_staffer:0 "Skilled Staffer" 
  fake_skilled_staffer_desc:1 "§LSurrounded by some of the best staff, this leader is able to organize and manage a larger number of units.§!"
