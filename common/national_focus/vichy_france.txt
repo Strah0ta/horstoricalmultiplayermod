@@ -649,9 +649,9 @@
 		add_state_core = 16
 		transfer_state = 27
 		add_state_core = 27
-		transfer_state = 785 
-		add_state_core = 785
-		GER = {  add_state_core = 17  add_state_core = 18 add_state_core = 29  add_state_core = 783 transfer_state = 783 }
+		transfer_state = 267 
+		add_state_core = 267
+		GER = {  add_state_core = 17  add_state_core = 18 add_state_core = 29  add_state_core = 507 transfer_state = 507  }
 		 set_capital = 16
 
 			remove_ideas = VIC_produce_aircraft_parts
