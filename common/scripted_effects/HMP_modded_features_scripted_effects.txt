@@ -1895,7 +1895,16 @@ create_field_marshal = {          #tank FM
     planning_skill = 9
     logistics_skill = 6
 		}
-
+create_field_marshal = { 
+    name = "Kenkichi Ueda" #Point Value: 16 #2/11/21 -Organizer -Thorough Planner Leader
+        picture = "Portrait_Japan_Kenkichi_Ueda.dds"
+	traits = { logistics_wizard organisational_leader trait_reckless  old_guard bearer_of_artillery infantry_leader infantry_expert commando defensive_doctrine   }
+	skill = 6
+    attack_skill = 3
+    defense_skill = 3
+    planning_skill = 7
+    logistics_skill = 6
+}
 create_field_marshal = {
     name = "Harukichi Hyakutake" #Point Value: 13.5
     picture = "Portrait_Japan_Harukichi_Hyakutake.dds"
@@ -1925,6 +1934,16 @@ create_field_marshal = {
 	defense_skill = 1
 	planning_skill = 10
 	logistics_skill = 6
+}
+create_field_marshal = {
+	name = "Seishiro Itagaki" #Point Value: 16 #3/20/21 -Fake Skilled Staffer  Sov +Defensive octrine +Logistics Wizard -Ambuhser +Infantry Expert #3/24/21 +Guerilla Fighter
+	picture = "Portrait_Japan_Seishiro_Itagaki.dds"
+	traits = { JAP_samurai_lineage guerilla_fighter defensive_doctrine logistics_wizard inflexible_strategist unyielding_defender infantry_leader infantry_expert   }
+	skill = 6
+	attack_skill = 4
+	defense_skill = 4
+	planning_skill = 4
+	logistics_skill = 7
 }
 create_corps_commander = {
 	name = "Shunroku Hata" #Point Value: 20 #2/11/21 +Organizer
@@ -1969,28 +1988,17 @@ create_corps_commander = {
 	planning_skill = 7
 	logistics_skill = 5
 }
-
 create_corps_commander = {
-	name = "Seishiro Itagaki" #Point Value: 15.5 #3/20/21 -Fake Skilled Staffer +Fake Skilled Staffer Sov +Defensive octrine +Logistics Wizard -Ambuhser +Infantry Expert
-	picture = "Portrait_Japan_Seishiro_Itagaki.dds"
-	traits = { JAP_samurai_lineage defensive_doctrine logistics_wizard inflexible_strategist unyielding_defender infantry_leader infantry_expert   }
+	name = "Keisuke Fujie" #Point Value: 20      #3/24/21  +Bearer of Artillery -Fortress Buster +Scavenger +Guerilla Fighter
+		picture = "Portrait_Japan_Keisuke_Fujie.dds"
+	traits = { trait_engineer guerilla_fighter scavenger bearer_of_artillery infantry_leader trickster ambusher  fake_skilled_staffer  } 
 	skill = 6
-	attack_skill = 4
+	attack_skill = 5
 	defense_skill = 4
-	planning_skill = 4
-	logistics_skill = 7
+	planning_skill = 5
+	logistics_skill = 5
 }
 
-create_corps_commander = {
-	name = "Seishiro Itagaki" #Point Value: 15.5 #3/20/21 -Fake Skilled Staffer +Fake Skilled Staffer Sov +Defensive octrine +Logistics Wizard -Ambuhser +Infantry Expert
-	picture = "Portrait_Japan_Seishiro_Itagaki.dds"
-	traits = { JAP_samurai_lineage defensive_doctrine logistics_wizard inflexible_strategist unyielding_defender infantry_leader infantry_expert   }
-	skill = 6
-	attack_skill = 4
-	defense_skill = 4
-	planning_skill = 4
-	logistics_skill = 7
-}
 create_corps_commander = {
     name = "Masaharu Homma" #Point Value: 20
      picture = "Portrait_Japan_Masaharu_Homma.dds"
@@ -2004,38 +2012,6 @@ create_corps_commander = {
 
 
 create_corps_commander = {
-    name = "Hitoshi Imamura" #Point Value: 20 #2/11/21 -Aggressive Assaulter -Trickster
-    picture = "Portrait_Japan_Hitoshi_Imamura.dds"
-	traits = { infantry_expert fortress_buster invader_ii  expert_improviser trait_engineer brilliant_strategist ranger commando naval_invader }
-	skill = 6
-	attack_skill = 3
-	defense_skill = 2
-	planning_skill = 9 
-	logistics_skill = 5
-}
-create_corps_commander = {
-    name = "Takashi Sakai" #Point Value: 14
-    picture = "Portrait_Japan_Takashi_Sakai.dds"
-    traits = { organizer trait_engineer trait_cautious infantry_leader commando paratrooper 	infantry_expert}
-	skill = 6
-	attack_skill = 3
-    defense_skill = 5
-    planning_skill = 7
-    logistics_skill = 4
-}
-
-create_corps_commander = {
-	name = "Keisuke Fujie" #Point Value: 18
-		picture = "Portrait_Japan_Keisuke_Fujie.dds"
-	traits = { trait_engineer fortress_buster  infantry_leader trickster ambusher  fake_skilled_staffer  } 
-	skill = 6
-	attack_skill = 5
-	defense_skill = 4
-	planning_skill = 5
-	logistics_skill = 5
-}
-
-create_corps_commander = {
     name = "Otozo Yamada" #Point Value: 19 #3/20/21 -Skilled Staffer +Skilled Staffer Sov +Guerilla Fighter
        picture = "Portrait_Japan_Otozo_Yamada.dds"
 	traits = { cavalry_leader cavalry_expert ambusher guerilla_fighter trickster expert_improviser fake_skilled_staffer_sov } 
@@ -2045,7 +2021,30 @@ create_corps_commander = {
     planning_skill = 5
     logistics_skill = 5
 }
-create_corps_commander = {          #COMBINED ARMS EXPERT + PANZER LEADER ? 
+create_corps_commander = {
+    name = "Hitoshi Imamura" #Point Value: 20 #2/11/21 -Aggressive Assaulter -Trickster
+    picture = "Portrait_Japan_Hitoshi_Imamura.dds"
+	traits = { infantry_expert fortress_buster invader_ii  expert_improviser trait_engineer brilliant_strategist ranger commando naval_invader }
+	skill = 6
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 8
+	logistics_skill = 5
+}
+create_corps_commander = {
+    name = "Takashi Sakai" #Point Value: 20 #3/24/21 +Fortress Buster +Guerilla Fighter +Urban Assault Specialist
+    picture = "Portrait_Japan_Takashi_Sakai.dds"
+    traits = { organizer trait_engineer fortress_buster trait_cautious infantry_leader commando paratrooper urban_assault_specialist guerilla_fighter	infantry_expert}
+	skill = 6
+	attack_skill = 3
+    defense_skill = 5
+    planning_skill = 7
+    logistics_skill = 4
+}
+
+
+
+create_corps_commander = {        
     name = "Jo Iimura" #Point Value: 16
     picture = "Portrait_Japan_Jo_Iimura.dds"
     traits = {  cavalry_leader panzer_leader combined_arms_expert trait_engineer trickster commando camouflage_expert  }
@@ -2053,6 +2052,28 @@ create_corps_commander = {          #COMBINED ARMS EXPERT + PANZER LEADER ?
 	attack_skill = 2
     defense_skill = 4
     planning_skill = 7
+    logistics_skill = 6
+}
+
+create_corps_Commander = { 
+name = "Rikichi Ando"  #Point Value: 20 
+picture = "Portrait_Japan_Rikichi_Ando.dds"
+	traits = { organizer  bearer_of_artillery cavalry_expert cavalry_expert trait_mountaineer desert_fox combined_arms_expert swamp_fox  trickster hill_fighter guerilla_fighter   }
+	skill = 6
+    attack_skill = 3
+    defense_skill = 3
+    planning_skill = 7
+    logistics_skill = 6
+}
+
+create_corps_Commander = { 
+ name = "Naruhiko Higashikuni" #Point Value: 20 
+ picture = "Portrait_Japan_Naruhiko_Higashikuni.dds"
+	traits = { organizer  bearer_of_artillery cavalry_expert cavalry_expert trait_mountaineer combined_arms_expert  trickster hill_fighter ambusher   }
+	skill = 6
+    attack_skill = 4
+    defense_skill = 3
+    planning_skill = 6
     logistics_skill = 6
 }
 
@@ -2111,17 +2132,6 @@ create_corps_commander = {
     logistics_skill = 7
 }
 
-create_field_marshal = { 
-    name = "Kenkichi Ueda" #Point Value: 16 #2/11/21 -Organizer -Thorough Planner Leader
-        picture = "Portrait_Japan_Kenkichi_Ueda.dds"
-	traits = { logistics_wizard organisational_leader trait_reckless  old_guard bearer_of_artillery infantry_leader infantry_expert commando defensive_doctrine   }
-	skill = 6
-    attack_skill = 3
-    defense_skill = 3
-    planning_skill = 7
-    logistics_skill = 6
-}
-
 create_corps_Commander = { 
     name = "Iwane Matsui" #Point Value: 20 #2/11/21 -Organizer
         picture = "Portrait_Japan_Iwane_Matsui.dds"
@@ -2145,37 +2155,16 @@ create_corps_Commander = {
 }
 
 create_corps_Commander = { 
-    name = "Akira Muto" #TO-DO
+    name = "Akira Muto"  #Point Value: 20 
 picture = "Portrait_Japan_Akira_Muto.dds"
-	traits = {  }
+	traits = {  bearer_of_artillery infantry_leader trait_mountaineer desert_fox infantry_expert  trickster hill_fighter guerilla_fighter   }
 	skill = 6
-    attack_skill = 4
+    attack_skill = 3
     defense_skill = 3
-    planning_skill = 6
+    planning_skill = 7
     logistics_skill = 6
 }
 
-create_corps_Commander = { 
-name = "Rikichi Ando"  #TO-DO
-picture = "Portrait_Japan_Rikichi_Ando.dds"
-	traits = {  }
-	skill = 6
-    attack_skill = 4
-    defense_skill = 3
-    planning_skill = 6
-    logistics_skill = 6
-}
-
-create_corps_Commander = { 
- name = "Naruhiko Higashikuni" #TO-DO
- picture = "Portrait_Japan_Naruhiko_Higashikuni.dds"
-	traits = { JAP_samurai_lineage  }
-	skill = 6
-    attack_skill = 4
-    defense_skill = 3
-    planning_skill = 6
-    logistics_skill = 6
-}
 
 
 create_navy_leader = {

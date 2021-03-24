@@ -2734,7 +2734,6 @@ USA_congress_small_supporta = yes
 	USA_pay_farm_subsidies = {
 		icon = ger_mefo_bills
 		available = {
-			has_government = democratic
 			OR = {
 				check_variable = { senators_support < senators_total }
 				check_variable = { representatives_support < representatives_total }
@@ -2752,7 +2751,6 @@ USA_congress_small_supporta = yes
 	USA_amend_the_budget = {
 		icon = ger_mefo_bills
 		available = {	congress_medium_support_trigger = yes	}
-		visible = {has_government = democratic }
 		cost = 25
 		days_remove = 90
 		days_re_enable = 275
@@ -2766,7 +2764,6 @@ USA_congress_small_supporta = yes
 		available = {
 			congress_medium_support_trigger = yes
 		}
-		visible = {has_government = democratic }
 		cost = 25
 		days_remove = 90
 		days_re_enable = 0
