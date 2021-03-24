@@ -746,7 +746,7 @@ leader_traits = {
 	
 	light_tank_manufacturer	 = { 
 		random = no
-		equipment_bonus = {	armor = { defense = -1 soft_attack = 0.15 }	}
+		equipment_bonus = {	armor = { defense = -0.5 soft_attack = 0.15 }	}
 	}	
 	
 	tank_destroyer_manufacturer = {  
@@ -756,7 +756,7 @@ leader_traits = {
 	
 	blitzkrieg_tank_manufacturer = {   
 		random = no
-		equipment_bonus = {	armor = {	maximum_speed = 0.15  }	}
+		equipment_bonus = {	armor = {	maximum_speed = 0.20  }	}
 	}	
 
 	fast_tank_manufacturer = {
