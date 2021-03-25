@@ -1950,10 +1950,10 @@ create_corps_commander = {
 	picture = "Portrait_Japan_Shunroku_Hata.dds"
 	traits = { organizer trickster expert_improviser JAP_samurai_lineage trait_engineer fortress_buster panzer_leader panzer_expert }
 	skill = 6
-	attack_skill = 1
+	attack_skill = 6
 	defense_skill = 2
-	planning_skill = 9
-	logistics_skill = 6
+	planning_skill = 5
+	logistics_skill = 5
 }
 
 create_corps_commander = {
@@ -2044,7 +2044,7 @@ create_corps_commander = {
 
 
 
-create_corps_commander = {        
+create_corps_commander = {        #TO-DO
     name = "Jo Iimura" #Point Value: 16
     picture = "Portrait_Japan_Jo_Iimura.dds"
     traits = {  cavalry_leader panzer_leader combined_arms_expert trait_engineer trickster commando camouflage_expert  }
@@ -2078,9 +2078,9 @@ create_corps_Commander = {
 }
 
 create_corps_commander = {
-    name = "Yasuji Okamura" #Point Value: 18
+    name = "Yasuji Okamura" #Point Value: 20 #A Japanese tank general with Ranger and Winter Specialist? Too bad Japan will never Barb...right?
     picture = "Portrait_Japan_Yasuji_Okamura.dds"
-	traits = { trait_reckless winter_specialist trait_engineer scavenger panzer_leader panzer_expert ambusher }
+	traits = { trait_reckless winter_specialist ranger trait_engineer scavenger panzer_leader panzer_expert ambusher }
 	skill = 6
     attack_skill = 4
     defense_skill = 4
@@ -2089,9 +2089,9 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-    name = "Hatazo Adachi" #Point Value: 16 #3/19/21 +Hill Fighter
+    name = "Hatazo Adachi" #Point Value: 20 #3/19/21 +Hill Fighter #3/24/21 +Trickster +Organizer
         picture = "Portrait_Japan_Hatazo_Adachi.dds"
-	traits = { JAP_samurai_lineage trait_reckless desert_fox trait_mountaineer hill_fighter trait_engineer  panzer_leader panzer_expert  }
+	traits = { JAP_samurai_lineage trait_reckless desert_fox trait_mountaineer hill_fighter organizer trickster trait_engineer  panzer_leader panzer_expert  }
 	skill = 6
     attack_skill = 4
     defense_skill = 4
