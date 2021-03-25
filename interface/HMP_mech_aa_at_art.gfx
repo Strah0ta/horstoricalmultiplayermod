@@ -120,7 +120,7 @@ spriteTypes = {
    }
          spriteType = { 
      name = "GFX_unit_heavy_tank_destroyer_sup_icon_medium"				
-     textureFile = "gfx/interface/counters/divisions_large/support_unit_heavy_at_sup_icon.dds" 
+     textureFile = "gfx/interface/counters/divisions_large/support_unit_heavy_armor_at_sup_icon.dds" 
      noOfFrames = 2
    }
                spriteType = { 
