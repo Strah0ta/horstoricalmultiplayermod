@@ -2032,7 +2032,7 @@ create_corps_commander = {
 
 
 
-create_corps_commander = {        #TO-DO
+create_corps_commander = { 
     name = "Jo Iimura" #Point Value: 20 #3/25/21 +Cav Expert -Panzer Leader -Panzer Expert +Adaptable +Naval INvader
     picture = "Portrait_Japan_Jo_Iimura.dds"
     traits = {  cavalry_leader 	cavalry_expert combined_arms_expert naval_invader adaptable trait_engineer trickster commando camouflage_expert  }
@@ -3348,26 +3348,26 @@ create_corps_commander = {
 	planning_skill = 4
 	logistics_skill = 7
 }
-create_corps_commander = { #TO-DO
-	name = "Marie-Pierre Koenig" #Point Value: 
+create_corps_commander = { 
+	name = "Marie-Pierre Koenig" #Point Value: 18
 	GFX = GFX_portrait_fra_marie_pierre_koenig
-	traits = {  }
+	traits = { jungle_rat  cavalry_leader cavalry_expert combined_arms_expert adaptable trickster guerilla_fighter urban_assault_specialist  }
 	skill = 6
 	attack_skill = 4
-	defense_skill = 4
+	defense_skill = 6
 	planning_skill = 4
-	logistics_skill = 7
+	logistics_skill = 6
 }
-create_corps_commander = { #TO-DO
-	name = "Georges Catroux" #Point Value: 
+create_corps_commander = { 
+	name = "Georges Catroux" #Point Value: 18
 	GFX = GFX_portrait_fra_georges_catroux
-	traits = {  }
+	traits = {  trait_reckless infantry_leader infantry_expert trickster jungle_rat trait_mountaineer organizer fake_skilled_staffer }
 	skill = 6
 	attack_skill = 4
 	defense_skill = 4
 	planning_skill = 4
 	logistics_skill = 7
-}
+}	
 
 }
 ENG = {
@@ -3657,7 +3657,7 @@ create_corps_commander = {
 
 }
 
-USA = { #TO-DO
+USA = {
 
 create_field_marshal = {
 	name = "Courtney Hodges" #Point Value: 15
@@ -3690,9 +3690,9 @@ create_field_marshal = {
     logistics_skill = 5
 }
 create_field_marshal = {
-    name = "Leslie McNair" #Point Value: 11 #TO-DO
+    name = "Leslie McNair" #Point Value: 14 #3/25/21 -Trickster +Organizer +Logisitics Wizard
     picture = "Portrait_USA_Lesley_McNair.dds"
-	traits = {  old_guard panzer_leader panzer_expert trickster thorough_planner  }
+	traits = {  old_guard panzer_leader panzer_expert logistics_wizard organizer thorough_planner  }
 	skill = 6
 	attack_skill = 4
 	defense_skill = 2
@@ -3722,7 +3722,7 @@ create_field_marshal = {
 }
 
 create_field_marshal = {
-    name = "Walter Krueger" #Point Value: 
+    name = "Walter Krueger" #Point Value: 13.5 
     picture = "Portrait_USA_Walter_Krueger.dds"
 	traits = { trickster brilliant_strategist aggressive_assaulter organizer  offensive_doctrine inspirational_leader bearer_of_artillery panzer_leader panzer_expert    }
 	skill = 6
@@ -3733,9 +3733,9 @@ create_field_marshal = {
 }
 
 create_corps_commander = {
-	name = "Maurice Rose" #Point Value: 
+	name = "Maurice Rose" #Point Value: 18 #3/25/21 +Jungle Rat +Mountaineer +Ranger +Organizer
 	picture = "Portrait_USA_Maurice_Rose.dds"
-	traits = { panzer_leader panzer_expert trait_reckless brilliant_strategist aggressive_assaulter urban_assault_specialist }
+	traits = { panzer_leader organizer panzer_expert trait_reckless brilliant_strategist urban_assault_specialist ranger jungle_rat trait_mountaineer }
 	skill = 6
 	attack_skill = 4
 	defense_skill = 3
@@ -3753,9 +3753,9 @@ create_corps_commander = {
     logistics_skill = 4
 }
 create_corps_commander = {
-	name = "Lucian Truscott" #Point Value: 
+	name = "Lucian Truscott" #Point Value: 18 #3/25/21 +Organizer +Infantry Epert
 	picture = "Portrait_USA_Lucian_Truscott.dds"
-	traits = { skilled_staffer trait_engineer fortress_buster expert_improviser infantry_leader  }
+	traits = { skilled_staffer trait_engineer fortress_buster expert_improviser infantry_leader infantry_expert organizer  }
 	skill = 6
 	attack_skill = 5
 	defense_skill = 3
@@ -3764,9 +3764,9 @@ create_corps_commander = {
 }
 
 create_corps_commander = {  
-    name = "Russell Hartle" #Point Value: 
+    name = "Russell Hartle" #Point Value: 18 #3/25/21 +Skirmisher
     picture = "Portrait_USA_Russell_P_Hartle.dds"
-	traits = { infantry_leader urban_assault_specialist commando paratrooper infantry_expert  trickster guerilla_fighter }
+	traits = { infantry_leader urban_assault_specialist skirmisher commando paratrooper infantry_expert  trickster guerilla_fighter }
 	skill = 6
 	attack_skill = 3
 	defense_skill = 3
@@ -3785,7 +3785,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-    name = "William Simpson" #Point Value: 
+    name = "William Simpson" #Point Value: 18
     picture = "Portrait_USA_William_Hood_Simpson.dds"
 	traits = { organizer bearer_of_artillery infantry_leader urban_assault_specialist ranger infantry_expert trickster  }
 	skill = 6
@@ -3795,29 +3795,29 @@ create_corps_commander = {
 	logistics_skill = 6
 }
 create_corps_commander = {
-    name = "Leonard Gerow" #Point Value: 
+    name = "Leonard Gerow" #Point Value: 18
     picture = "Portrait_USA_Leonard_T_Gerow.dds"
-	traits = {  desert_fox  trickster expert_improviser  infantry_leader infantry_expert guerilla_fighter  }
+	traits = {  desert_fox  trickster expert_improviser  infantry_leader infantry_expert guerilla_fighter organizer }
 	skill = 6
     attack_skill = 3
     defense_skill = 7
     planning_skill = 4
     logistics_skill = 5
 }
-		create_corps_commander = { #TO-DO
-				name = "Alexander Vandegrift" #Point Value: 
-				gfx = GFX_portrait_usa_alexander_vandegrift
-				skill = 3
-				attack_skill = 3
-				defense_skill = 1
-				planning_skill = 3
-				logistics_skill = 3
-				traits = { naval_invader }
-			}
+create_corps_commander = { #TO-DO
+	name = "Alexander Vandegrift" #Point Value: 
+	gfx = GFX_portrait_usa_alexander_vandegrift
+    skill = 6
+	attack_skill = 5
+    defense_skill = 4
+    planning_skill = 5
+    logistics_skill = 5
+	traits = { naval_invader }
+}
 create_corps_commander = {
-    name = "Clarence Huebner" #Point Value: 
+    name = "Clarence Huebner" #Point Value: 18 #3/25/21 -Trickster +Jungle Rat +Guerilla Fighter +Combined Arms Expert
     picture = "Portrait_USA_Clarence_Huebner.dds"
-	traits = { old_guard harsh_leader cavalry_leader cavalry_expert ambusher trickster expert_improviser } 
+	traits = { old_guard harsh_leader cavalry_leader cavalry_expert combined_arms_expert ambusher trickster guerilla_fighter jungle_rat } 
     skill = 6
 	attack_skill = 5
     defense_skill = 4
