@@ -383,7 +383,7 @@ sub_units = {
 		need = {
 			light_tank_destroyer_equipment = 16
 		}
-		manpower = 500
+		manpower = 350
 		max_organisation = 0
 		default_morale = 0.3
 		max_strength = 0
@@ -432,7 +432,7 @@ sub_units = {
 		need = {
 			medium_tank_destroyer_equipment = 16
 		}
-		manpower = 500
+		manpower = 350
 		max_organisation = 0
 		default_morale = 0.3
 		max_strength = 0
@@ -488,7 +488,7 @@ sub_units = {
 		need = {
 			heavy_tank_destroyer_equipment = 16
 		}
-		manpower = 500
+		manpower = 350
 		max_organisation = 0
 		default_morale = 0.3
 		max_strength = 0
@@ -535,7 +535,7 @@ sub_units = {
 		need = {
 			super_heavy_tank_destroyer_equipment = 16
 		}
-		manpower = 500
+		manpower = 350
 		max_organisation = 0
 		default_morale = 0.3
 		max_strength = 0
@@ -579,7 +579,7 @@ sub_units = {
 		combat_width = 0
 
 		need = {	modern_tank_destroyer_equipment = 16	}
-		manpower = 500
+		manpower = 350
 		max_organisation = 0
 		default_morale = 0.3
 		max_strength = 0

@@ -80,8 +80,62 @@ spriteTypes = {
    }
    
    
+    #support spg 
    
+         spriteType = { 
+     name = "GFX_unit_light_sp_artillery_icon_medium"				
+     textureFile = "gfx/interface/counters/divisions_large/support_unit_light_tank_artillery_support_icon.dds" 
+     noOfFrames = 2
+   }   
+            spriteType = { #MECH AT
+     name = "GFX_unit_medium_sp_artillery_icon_medium"				
+     textureFile = "gfx/interface/counters/divisions_large/support_unit_medium_tank_artillery_support_icon.dds" 
+     noOfFrames = 2
+   }
+         spriteType = {
+     name = "GFX_unit_heavy_sp_artillery_icon_medium"				
+     textureFile = "gfx/interface/counters/divisions_large/support_unit_heavy_armor_artillery_support_icon.dds" 
+     noOfFrames = 2
+   }
    
+              spriteType = {
+     name = "GFX_unit_super_heavy_sp_artillery_icon_medium"				
+     textureFile = "gfx/interface/counters/divisions_large/support_unit_super_heavy_armor_artillery_support_icon.dds" 
+     noOfFrames = 2
+   } 
+                  spriteType = {
+     name = "GFX_unit_modern_sp_artillery_icon_medium"				
+     textureFile = "gfx/interface/counters/divisions_large/support_unit_modern_armor_artillery_support_icon.dds" 
+     noOfFrames = 2
+   }
+         spriteType = { 
+     name = "GFX_unit_light_tank_destroyer_sup_icon_medium"				
+     textureFile = "gfx/interface/counters/divisions_large/support_unit_light_tank_at_sup_icon.dds" 
+     noOfFrames = 2
+   }   
+         spriteType = { 
+     name = "GFX_unit_medium_tank_destroyer_sup_icon_medium"				
+     textureFile = "gfx/interface/counters/divisions_large/support_unit_medium_tank_at_sup_icon.dds" 
+     noOfFrames = 2
+   }
+         spriteType = { 
+     name = "GFX_unit_heavy_tank_destroyer_sup_icon_medium"				
+     textureFile = "gfx/interface/counters/divisions_large/support_unit_heavy_at_sup_icon.dds" 
+     noOfFrames = 2
+   }
+               spriteType = { 
+     name = "GFX_unit_super_heavy_tank_destroyer_sup_icon_medium"				
+     textureFile = "gfx/interface/counters/divisions_large/support_unit_super_heavy_armor_at_sup_icon.dds" 
+     noOfFrames = 2
+   }
+            spriteType = { 
+     name = "GFX_unit_modern_tank_destroyer_sup_icon_medium"				
+     textureFile = "gfx/interface/counters/divisions_large/support_unit_modern_armor_at_sup_icon.dds" 
+     noOfFrames = 2
+   }
+
+   
+
    
    
    ###AT ARMORED CAR#####   -Should only refer to the Paradox's DLC path, avoiding any issues
@@ -89,20 +143,17 @@ spriteTypes = {
       spriteType = { 
      name = "GFX_unit_at_armored_car_icon_medium"				
      textureFile = "gfx/interface/counters/divisions_large/unit_armored_car_icon.dds" 
-	# legacy_lazy_load = no
      noOfFrames = 2
    }
    spriteType = { 
      name = "GFX_unit_at_armored_car_icon_medium_white"						
      textureFile = "gfx/interface/counters/divisions_small/onmap_unit_armored_car_icon.dds" 
-	 #legacy_lazy_load = no
      noOfFrames = 2
    }
 
          spriteType = { 
      name = "GFX_unit_armored_car_at_recon_icon_medium"				
      textureFile = "gfx/interface/counters/divisions_large/support_unit_armored_car_recon_icon.dds" 
-	# legacy_lazy_load = no
      noOfFrames = 2
    }
 	SpriteType = {
