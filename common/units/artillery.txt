@@ -69,7 +69,6 @@ sub_units = {
 		}		
 		same_support_type = rocket_artillery
 		combat_width = 0
-			fuel_consumption = -0.4
 
 		need = {
 			motorized_rocket_equipment = 16
@@ -86,7 +85,7 @@ sub_units = {
 		training_time = 60
 		weight = 0.5
 
-		supply_consumption = 0.20
+		supply_consumption = 0.20	
 		
 		amphibious = {
 			attack = -0.05
@@ -158,7 +157,6 @@ sub_units = {
 		}
 
 		group = support
-			fuel_consumption = -0.2
 
 		categories = {
 			category_army
@@ -207,7 +205,6 @@ sub_units = {
 			category_all_armor
 		}
 		combat_width = 0
-			fuel_consumption = -0.2
 
 		need = {
 			medium_tank_artillery_equipment = 30
@@ -251,7 +248,6 @@ sub_units = {
 			category_army
 			category_all_armor
 		}
-			fuel_consumption = -0.2
 
 		combat_width = 0
 
@@ -291,7 +287,6 @@ sub_units = {
 		}
 		same_support_type = artillery
 		group = support
-			fuel_consumption = -0.2
 
 		categories = {
 			category_army
@@ -344,7 +339,6 @@ sub_units = {
 			category_army
 			category_all_armor
 		}
-fuel_consumption = -0.2
 		combat_width = 0
 
 		need = {

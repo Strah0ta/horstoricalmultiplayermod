@@ -389,7 +389,6 @@ sub_units = {
 		max_strength = 0
 		training_time = 90
 		weight = 1
-		fuel_consumption = -0.5
 		supply_consumption = 0.11
 		soft_attack = -0.5
 		hard_attack = -0.5
@@ -443,7 +442,6 @@ sub_units = {
 		hard_attack = -0.5
 		breakthrough = -0.5
 		defense = -0.5
-				fuel_consumption = -0.5
 		armor_value = -0.5
 		same_support_type = anti_tank
 		suppression = 1.5
@@ -483,7 +481,6 @@ sub_units = {
 		same_support_type = anti_tank
 		can_be_parachuted = no
 		combat_width = 0
-		fuel_consumption = -0.5
 
 		need = {
 			heavy_tank_destroyer_equipment = 16
@@ -528,7 +525,6 @@ sub_units = {
 			category_army
 						category_support_battalions
 		}
-		fuel_consumption = -0.5
 
 		combat_width = 0
 
@@ -567,7 +563,6 @@ sub_units = {
 		armor_value = -0.5
 		same_support_type = anti_tank	
 		group = support
-			fuel_consumption = -0.5
 		
 		categories = {
 			category_front_line
