@@ -280,6 +280,7 @@ sub_units = {
 			support
 			artillery
 		}
+		same_support_type = artillery
 
 		group = support
 

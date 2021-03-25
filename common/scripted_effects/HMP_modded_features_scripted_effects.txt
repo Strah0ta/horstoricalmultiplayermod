@@ -1321,9 +1321,9 @@ generic_bonus_999 = {
 
 HMP_script_balkans = {
 			GER = { transfer_state = 303 transfer_state = 414 transfer_state = 109 transfer_state = 104 transfer_state = 107 transfer_state = 108 	}
-			BUL = {  transfer_state = 184   transfer_state = 293    transfer_state = 106   }
+			BUL = {  transfer_state = 184   transfer_state = 293    transfer_state = 106  transfer_state = 486 }
 			HUN = { transfer_state = 514 transfer_state = 45   }
-			transfer_state = 102 transfer_state = 103 transfer_state = 105 transfer_state = 486
+			transfer_state = 102 transfer_state = 103 transfer_state = 105 
 			transfer_state = 185 transfer_state = 47 transfer_state = 187 transfer_state = 182 transfer_state = 186
 			add_threat = 20
 			if = { limit = { BUL = { is_ai = yes } country_exists = BUL } ITA = { annex_country = { target = BUL transfer_troops = yes }}   }

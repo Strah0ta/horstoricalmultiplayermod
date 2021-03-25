@@ -3,11 +3,8 @@ state={
 	name="STATE_731"
 	manpower=1155700
 	
-	state_category = town
+	state_category = rural
 
-	resources={
-		aluminium= 100
-	}
 	
 	history={
 		owner = GRE
@@ -15,7 +12,7 @@ state={
 			11818 5 
 		}
 		buildings = {
-			infrastructure = 10
+			infrastructure = 6
 			air_base = 2
 			11818 = {
 				naval_base = 3
