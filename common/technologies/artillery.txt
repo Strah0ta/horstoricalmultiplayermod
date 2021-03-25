@@ -338,6 +338,9 @@ technologies = {
 		motorized_rocket_brigade = {
 			soft_attack = 0.15
 		}
+		motorized_rocket_sup = {
+			soft_attack = 0.15
+		}
 		mech_rarty = {
 			soft_attack = 0.15
 		}
@@ -373,6 +376,9 @@ technologies = {
 		mot_rocket_artillery_brigade = {
 			soft_attack = 0.15
 		}
+				motorized_rocket_sup = {
+			soft_attack = 0.15
+		}
 		motorized_rocket_brigade = {
 			soft_attack = 0.15
 		}
@@ -406,7 +412,9 @@ technologies = {
 		motorized_rocket_brigade = {
 			soft_attack = 0.3
 		}
-
+		motorized_rocket_sup = {
+			soft_attack = 0.3
+		}
 		research_cost = 1
 
 		start_year = 1943

@@ -23,9 +23,7 @@
  heavy_sp_artillery:0 "Support Heavy SP Artillery"
  super_heavy_sp_artillery:0 "Support Super Heavy SP Artillery"
  modern_sp_artillery:0 "Support Modern SP Artillery"
-
-
- mot_rocket_artillery:0 "Support Mot. Rocket Artillery"
+ motorized_rocket_sup:0 "Support Motorized Rocket Artillery"
  test_stuff:0 "Paratrooper (Genius)"
  USA_plane_eng2:0 "Disable/Enable Automatic Plane Lend-Lease"
  test_stuff1:0 "Paratrooper (Specialist)"

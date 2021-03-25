@@ -60,6 +60,27 @@ spriteTypes = {
    
    
    
+      spriteType = { #MECH RARTY
+     name = "GFX_unit_motorized_rocket_sup_icon_medium"				
+     textureFile = "gfx/interface/counters/divisions_large/unit_mot_rocket_art_icon.dds" 
+	# legacy_lazy_load = no
+     noOfFrames = 2
+   }
+   spriteType = { 
+     name = "GFX_unit_motorized_rocket_sup_icon_medium_white"						
+     textureFile = "gfx/interface/counters/divisions_small/onmap_unit_mot_rocket_artillery_icon.dds" 
+	 #legacy_lazy_load = no
+     noOfFrames = 2
+   }
+   spriteType = { 
+     name = "GFX_unit_motorized_rocket_sup_icon_small"						
+		texturefile = "gfx/texticons/unit_mech_rarty_icon_small.tga"
+	 legacy_lazy_load = no
+     noOfFrames = 2
+   }
+   
+   
+   
       spriteType = { #MECH AT
      name = "GFX_unit_mech_at_icon_medium"				
      textureFile = "gfx/interface/counters/divisions_large/unit_mech_at_icon.dds" 

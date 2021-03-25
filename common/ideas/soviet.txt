@@ -90,7 +90,7 @@ ideas = {
 			removal_cost = -1
 			modifier = {
              	army_speed_factor = 0.1
-				army_org_factor = -0.20
+				army_org_factor = -0.15
 			}
 		}
 		red_airforce_resurgent = {
