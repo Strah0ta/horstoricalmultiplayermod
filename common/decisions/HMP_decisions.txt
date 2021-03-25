@@ -1161,7 +1161,7 @@ hidden_effect = {
 	    GER_annex_spr = {
 		icon = generic_operation
 		allowed = {	original_tag = GER	}
-		available = { SPR = {  is_ai = yes } date > 1940.5.1	}	
+		available = { SPR = {  is_ai = yes } date > 1938.5.1	}	
 		visible =  { country_exists = SPR } 
 		cost = 0		
 		fire_only_once = yes 
@@ -1307,7 +1307,7 @@ hidden_effect = {
     FRA_annex_saf = {
 		icon = generic_operation
 		allowed = {	original_tag = CAN	}
-		available = {	SAF = { 	is_ai = yes 	}	date > 1941.1.1	}
+		available = {	SAF = { 	is_ai = yes 	}	date > 1937.1.1	}
 		visible = { NOT = {  has_start_date > 1936.01.02    } }
 		cost = 0					
 		fire_only_once = yes
@@ -1594,7 +1594,7 @@ create_corps_commander = {
 		}
 			
 		available = {
-			date > 1940.7.1
+			date > 1938.7.1
 			OR = {
 			AND = { 
 			country_exists = AST
@@ -1655,7 +1655,7 @@ create_corps_commander = {
 		allowed = {	original_tag = ENG	}
 			
 		available = {
-			date > 1941.1.1
+			date > 1940.1.1
 			RAJ = { is_ai = yes }
 		}
 		visible = { country_exists = RAJ }
@@ -1724,7 +1724,7 @@ create_corps_commander = {
 			CAN = { 
 				is_ai = yes 
 			}
-			date > 1940.7.1
+			date > 1939.7.1
 		}
 		cost = 0
 		fire_only_once = yes
@@ -1742,7 +1742,7 @@ create_corps_commander = {
 	 ENG_annex_norway = {
 		icon = generic_operation
 		allowed = {	original_tag = ENG	}
-		available = {	date > 1941.1.1 NOR = { 	is_ai = yes 	NOT = { owns_state = 110 } 	}	}
+		available = {	date > 1940.1.1 NOR = { 	is_ai = yes 	NOT = { owns_state = 110 } 	}	}
 		cost = 0
 		visible = {	country_exists = NOR	}
 		fire_only_once = yes
@@ -1976,7 +1976,7 @@ create_corps_commander = {
 		allowed = {	original_tag = ITA	}
 		available = {
 			ROM = {  is_ai = yes }
-			date > 1940.5.1
+			date > 1938.5.1
 		}		
 		cost = 0	
 		fire_only_once = yes
@@ -2019,7 +2019,7 @@ create_corps_commander = {
 	}
 	ITA_annex_bul = {
 	icon = generic_operation
-			available = {	BUL = { is_ai = yes }	date > 1940.6.1 	}
+			available = {	BUL = { is_ai = yes }	date > 1938.6.1 	}
 			visible = { NOT = {  has_start_date > 1936.01.02    } country_exists = BUL }
 			allowed = {	tag = ITA	}
 			fire_only_once = yes
@@ -2119,14 +2119,14 @@ allowed = { original_tag = SAF }
 	AST_annex_nzl = {
 		icon = generic_operation
 			allowed = {	tag = AST	}
-			available = {	NZL = { is_ai = yes } date > 1939.9.1	}
+			available = {	NZL = { is_ai = yes } date > 1937.9.1	}
 			fire_only_once = yes
 			cost = 0
 			visible = { country_exists = NZL }
 			complete_effect = {
 					
 			NZL = { 
-			if = { limit = { date < 1941.1.1 }  set_equipment_fraction = 0.5  }
+			if = { limit = { date < 1938.1.1 }  set_equipment_fraction = 0.5  }
 			   every_unit_leader = { set_nationality = AST    }
 				transfer_navy = {	target = AST	}
 				remove_state_core = 300   remove_state_core = 284
@@ -2140,7 +2140,7 @@ allowed = { original_tag = SAF }
 		allowed = {	original_tag = NZL	}
 		available = {
 			AST = { is_ai = yes }
-			date > 1940.7.1
+			date > 1938.7.1
 		}	
 		cost = 0
 			
@@ -3570,7 +3570,7 @@ political_actions = {
 		allowed = { tag = JAP}
 		available = {
 			MAN = { is_ai = yes }
-			date > 1939.9.1 
+			date > 1938.9.1 
 		}
 		fire_only_once = yes
 		cost = 0
