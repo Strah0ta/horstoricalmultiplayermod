@@ -163,8 +163,7 @@ focus_tree = {
 		cost = 5
 		relative_position_id = IRQ_revolution
 		prerequisite = { focus = IRQ_revolution }
-		available_if_capitulated = yes
-		available =  { ITA = { controls_state = 554} }
+		available =  { OR = { controls_state = 554 ITA = { controls_state = 554 }} }
 
 		completion_reward = {
 			554 = {

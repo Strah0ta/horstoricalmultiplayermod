@@ -114,17 +114,12 @@ add_ideas = {
 }
 
 add_equipment_to_stockpile = { type = light_tank_equipment_1 amount = 200 }
-add_equipment_to_stockpile = { type = support_equipment_1 amount = 250 }
+add_equipment_to_stockpile = { type = support_equipment_1 amount = 260 }
+add_equipment_to_stockpile = { type = infantry_equipment_1 amount = 10600 }
 add_equipment_to_stockpile = { type = artillery_equipment_1 amount = 100 }
 add_equipment_to_stockpile = { type = CAS_equipment_1 amount = 670 }
 add_equipment_to_stockpile = { type = tac_bomber_equipment_0 amount = 180 }
 add_equipment_to_stockpile = { type = nav_bomber_equipment_1 amount = 138 }
-
-#The following was added to stockpile so the UK can sufficiently garrison outside the Mediterranean
-add_equipment_to_stockpile = { type = support_equipment_1 amount = 1000 }
-add_equipment_to_stockpile = { type = motorized_equipment_1 amount = 1400 }
-add_equipment_to_stockpile = { type = artillery_equipment_1 amount = 2100 }
-
 
 set_convoys = 800
 	set_autonomy = {

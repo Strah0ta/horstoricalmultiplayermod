@@ -84,7 +84,7 @@ units = {
 	division= {	
 		location = 10748
 		division_template = "Light Armor Division"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.3 
 	}
 	division= {	
 		location = 10748
@@ -94,7 +94,7 @@ units = {
 	division= {	
 		location = 10748
 		division_template = "Light Armor Division"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.3 
 	}	
 	division= {	
 		location = 10748
@@ -104,7 +104,7 @@ units = {
 	division= {	
 		location = 10748
 		division_template = "Light Armor Division"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.3 
 	}	
 	division= {	
 		location = 10748
@@ -114,112 +114,112 @@ units = {
 			division= {	
 		location = 10795
 		division_template = "King's African Rifles"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.3 start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		}
 		division= {	
 		location = 10795
 		division_template = "King's African Rifles"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.3 start_equipment_factor = 0.01
 		force_equipment_variants = { 	infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		}		
 		division= {	
 		location = 10795
 		division_template = "King's African Rifles"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.3 start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		}		
 			division= {	
 		location = 10795
 		division_template = "King's African Rifles"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.3 start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		}	
 			division= {	
 		location = 10795
 		division_template = "King's African Rifles"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.3 start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		}
 		division= {	
 		location = 10795
 		division_template = "King's African Rifles"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.3 start_equipment_factor = 0.01
 		force_equipment_variants = { 	infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		}		
 		division= {	
 		location = 10795
 		division_template = "King's African Rifles"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.3 start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		}		
 			division= {	
 		location = 10795
 		division_template = "King's African Rifles"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.3 start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		}	
 		division= {	
 		location = 10795
 		division_template = "King's African Rifles"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.3 start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		}
 		division= {	
 		location = 10795
 		division_template = "King's African Rifles"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.3 start_equipment_factor = 0.01
 		force_equipment_variants = { 	infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		}		
 		division= {	
 		location = 10795
 		division_template = "King's African Rifles"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.3 start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		}		
 			division= {	
 		location = 10795
 		division_template = "King's African Rifles"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.3 start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		}	
 			division= {	
 		location = 10795
 		division_template = "King's African Rifles"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.3 start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		}
 		division= {	
 		location = 10795
 		division_template = "King's African Rifles"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.3 start_equipment_factor = 0.01
 		force_equipment_variants = { 	infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		}		
 		division= {	
 		location = 10795
 		division_template = "King's African Rifles"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.3 start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		}		
 			division= {	
 		location = 10795
 		division_template = "King's African Rifles"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.3 start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		}	
@@ -227,98 +227,98 @@ units = {
 		division= {	
 		location = 10795
 		division_template = "King's African Rifles"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.3 start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		}
 		division= {	
 		location = 10795
 		division_template = "King's African Rifles"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.3 start_equipment_factor = 0.01
 		force_equipment_variants = { 	infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		}		
 		division= {	
 		location = 10795
 		division_template = "King's African Rifles"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.3 start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		}		
 			division= {	
 		location = 10795
 		division_template = "King's African Rifles"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.3 start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		}	
 			division= {	
 		location = 10795
 		division_template = "King's African Rifles"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.3 start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		}	
 			division= {	
 		location = 10795
 		division_template = "King's African Rifles"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.3 start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		}	
 			division= {	
 		location = 10795
 		division_template = "King's African Rifles"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.3 start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		}	
 			division= {	
 		location = 10795
 		division_template = "King's African Rifles"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.3 start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		}	
 			division= {	
 		location = 10795
 		division_template = "King's African Rifles"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.3 start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		}	
 			division= {	
 		location = 10795
 		division_template = "King's African Rifles"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.3 start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		}	
 			division= {	
 		location = 10795
 		division_template = "King's African Rifles"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.3 start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		}	
 			division= {	
 		location = 10795
 		division_template = "King's African Rifles"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.3 start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		}			
 			division= {	
 		location = 10795
 		division_template = "King's African Rifles"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.3 start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		}		
 			division= {	
 		location = 10795
 		division_template = "King's African Rifles"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.3 start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		
@@ -326,98 +326,98 @@ units = {
 			division= {	
 		location = 10795
 		division_template = "King's African Rifles"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.3 start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		}		
 			division= {	
 		location = 10795
 		division_template = "King's African Rifles"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.3 start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		}		
 			division= {	
 		location = 10795
 		division_template = "King's African Rifles"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.3 start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		}		
 			division= {	
 		location = 10795
 		division_template = "King's African Rifles"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.3 start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		}		
 			division= {	
 		location = 10795
 		division_template = "King's African Rifles"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.3 start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		}		
 			division= {	
 		location = 10795
 		division_template = "King's African Rifles"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.3 start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		}		
 			division= {	
 		location = 10795
 		division_template = "King's African Rifles"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.3 start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		}		
 			division= {	
 		location = 10795
 		division_template = "King's African Rifles"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.3 start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		}		
 			division= {	
 		location = 10795
 		division_template = "King's African Rifles"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.3 start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		}		
 			division= {	
 		location = 10795
 		division_template = "King's African Rifles"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.3 start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		}		
 			division= {	
 		location = 10795
 		division_template = "King's African Rifles"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.3 start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		}		
 			division= {	
 		location = 10795
 		division_template = "King's African Rifles"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.3 start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		}		
 			division= {	
 		location = 10795
 		division_template = "King's African Rifles"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.3 start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		}		
 			division= {	
 		location = 10795
 		division_template = "King's African Rifles"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.3 start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		
@@ -425,98 +425,98 @@ units = {
 			division= {	
 		location = 10795
 		division_template = "King's African Rifles"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.3 start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		}		
 			division= {	
 		location = 10795
 		division_template = "King's African Rifles"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.3 start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		}		
 			division= {	
 		location = 10795
 		division_template = "King's African Rifles"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.3 start_equipment_factor = 0.01
 				force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 	}		
 			division= {	
 		location = 10795
 		division_template = "King's African Rifles"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.3 start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		}		
 		division= {	
 		location = 4135
 		division_template = "Gibraltar/Cyprus Garrison"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.3 start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		}	
 		division= {	
 		location = 4135
 		division_template = "Gibraltar/Cyprus Garrison"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.3 start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		}			
 		division= {	
 		location = 4135
 		division_template = "Gibraltar/Cyprus Garrison"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.3 start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		}			
 		division= {	
 		location = 4135
 		division_template = "Gibraltar/Cyprus Garrison"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.3 start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		}	
 		division= {	
 		location = 4135
 		division_template = "Gibraltar/Cyprus Garrison"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.3 start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		}	
 		division= {	
 		location = 4135
 		division_template = "Gibraltar/Cyprus Garrison"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.3 start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		}	
 		division= {	
 		location = 4135
 		division_template = "Gibraltar/Cyprus Garrison"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.3 start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		}	
 		division= {	
 		location = 4135
 		division_template = "Gibraltar/Cyprus Garrison"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.3 start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		}	
 		division= {	
 		location = 4135
 		division_template = "Gibraltar/Cyprus Garrison"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.3 start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		}	
 		division= {	
 		location = 4135
 		division_template = "Gibraltar/Cyprus Garrison"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.3 start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		}	
@@ -525,28 +525,28 @@ units = {
 			division= {	
 		location = 7193
 		division_template = "Gibraltar/Cyprus Garrison"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.3 start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		}	
 		division= {	
 		location = 7193
 		division_template = "Gibraltar/Cyprus Garrison"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.3 start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		}	
 		division= {	
 		location = 7193
 		division_template = "Gibraltar/Cyprus Garrison"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.3 start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		}	
 		division= {	
 		location = 7193
 		division_template = "Gibraltar/Cyprus Garrison"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.3 start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		}	
@@ -554,28 +554,28 @@ units = {
 			division= {	
 		location = 11984
 		division_template = "Gibraltar/Cyprus Garrison"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.3 start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		}	
 		division= {	
 		location = 11984
 		division_template = "Gibraltar/Cyprus Garrison"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.3 start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		}	
 		division= {	
 		location = 11984
 		division_template = "Gibraltar/Cyprus Garrison"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.3 start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		}	
 		division= {	
 		location = 11984
 		division_template = "Gibraltar/Cyprus Garrison"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.3 start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		}	
@@ -584,7 +584,7 @@ units = {
 			division= {	
 		location = 5074
 		division_template = "Atlantic Colonial Garrison"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.3 start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
@@ -592,7 +592,7 @@ units = {
 			division= {	
 		location = 5074
 		division_template = "Atlantic Colonial Garrison"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.3 start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
@@ -600,7 +600,7 @@ units = {
 				division= {	
 		location = 10760
 		division_template = "Atlantic Colonial Garrison"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.3 start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
@@ -608,7 +608,7 @@ units = {
 					division= {	
 		location = 10760
 		division_template = "Atlantic Colonial Garrison"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.3 start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
@@ -616,7 +616,7 @@ units = {
 	division= {	
 			location = 7960
 		division_template = "Atlantic Colonial Garrison"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.3 start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
@@ -624,7 +624,7 @@ units = {
 				division= {	
 		location = 7960
 		division_template = "Atlantic Colonial Garrison"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.3 start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
@@ -632,7 +632,7 @@ units = {
 					division= {	
 		location = 7960
 		division_template = "Atlantic Colonial Garrison"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.3 start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
@@ -640,7 +640,7 @@ units = {
 					division= {	
 		location = 7960
 			division_template = "Atlantic Colonial Garrison"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.3 start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
@@ -649,7 +649,7 @@ units = {
 					division= {	
 		location = 8000
 		division_template = "Atlantic Colonial Garrison"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.3 start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
@@ -657,7 +657,7 @@ units = {
 							division= {	
 		location = 2188
 		division_template = "Atlantic Colonial Garrison"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.3 start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
@@ -666,7 +666,7 @@ units = {
 							division= {	
 		location = 8051
 		division_template = "Atlantic Colonial Garrison"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.3 start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
@@ -674,7 +674,7 @@ units = {
 					division= {	
 		location = 8051
 		division_template = "Atlantic Colonial Garrison"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.3 start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
@@ -683,7 +683,7 @@ units = {
 								division= {	
 		location = 8051
 		division_template = "Atlantic Colonial Garrison"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.3 start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
@@ -691,7 +691,7 @@ units = {
 					division= {	
 		location = 8051
 		division_template = "Atlantic Colonial Garrison"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.3 start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
@@ -700,7 +700,7 @@ units = {
 								division= {	
 		location = 12299
 		division_template = "Atlantic Colonial Garrison"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.3 start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
@@ -708,7 +708,7 @@ units = {
 					division= {	
 		location = 10297
 		division_template = "Atlantic Colonial Garrison"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.3 start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
@@ -717,7 +717,7 @@ units = {
 								division= {	
 		location = 7329
 		division_template = "Atlantic Colonial Garrison"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.3 start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
@@ -725,7 +725,7 @@ units = {
 					division= {	
 		location = 13072
 		division_template = "Atlantic Colonial Garrison"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.3 start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
@@ -734,7 +734,7 @@ units = {
 								division= {	
 		location = 13002
 		division_template = "Atlantic Colonial Garrison"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.3 start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
@@ -742,7 +742,7 @@ units = {
 					division= {	
 		location = 13005
 		division_template = "Atlantic Colonial Garrison"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.3 start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
@@ -751,7 +751,7 @@ units = {
 								division= {	
 		location = 13019
 		division_template = "Atlantic Colonial Garrison"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.3 start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
@@ -759,7 +759,7 @@ units = {
 					division= {	
 		location = 13018
 		division_template = "Atlantic Colonial Garrison"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.3 start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
@@ -768,7 +768,7 @@ units = {
 									division= {	
 		location = 10201
 		division_template = "Atlantic Colonial Garrison"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.3 start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
@@ -776,7 +776,7 @@ units = {
 					division= {	
 		location = 7260
 		division_template = "Atlantic Colonial Garrison"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.3 start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
@@ -785,7 +785,7 @@ units = {
 								division= {	
 		location = 4967
 		division_template = "Atlantic Colonial Garrison"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.3 start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
@@ -793,7 +793,7 @@ units = {
 					division= {	
 		location = 12725
 		division_template = "Atlantic Colonial Garrison"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.3 start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
@@ -802,7 +802,7 @@ units = {
 					division= {	
 		location = 2196
 		division_template = "Atlantic Colonial Garrison"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.3 start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
@@ -811,7 +811,7 @@ units = {
 					division= {	
 		location = 5210
 		division_template = "Atlantic Colonial Garrison"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.3 start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
@@ -819,7 +819,7 @@ units = {
 			division= {	
 		location = 1751
 		division_template = "Atlantic Colonial Garrison"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.3 start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
@@ -827,7 +827,7 @@ units = {
 			division= {	
 		location = 1751
 		division_template = "Atlantic Colonial Garrison"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.3 start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
@@ -835,7 +835,7 @@ units = {
 			division= {	
 		location = 1751
 		division_template = "Atlantic Colonial Garrison"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.3 start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
@@ -843,7 +843,7 @@ units = {
 			division= {	
 		location = 1751
 		division_template = "Atlantic Colonial Garrison"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.3 start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
@@ -851,7 +851,7 @@ units = {
 				division= {	
 		location = 3691
 		division_template = "Atlantic Colonial Garrison"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.3 start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
@@ -859,7 +859,7 @@ units = {
 				division= {	
 		location = 12251
 		division_template = "Atlantic Colonial Garrison"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.3 start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
@@ -867,7 +867,7 @@ units = {
 					division= {	
 		location = 13003
 		division_template = "Atlantic Colonial Garrison"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.3 start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
@@ -875,7 +875,7 @@ units = {
 					division= {	
 		location = 13003
 		division_template = "Atlantic Colonial Garrison"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.3 start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
@@ -884,7 +884,7 @@ units = {
 					division= {	
 		location = 12503
 		division_template = "Atlantic Colonial Garrison"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.3 start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
@@ -892,7 +892,7 @@ units = {
 					division= {	
 		location = 12674
 		division_template = "Atlantic Colonial Garrison"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.3 start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
@@ -900,7 +900,7 @@ units = {
 						division= {	
 		location = 12689
 		division_template = "Atlantic Colonial Garrison"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.3 start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
@@ -909,7 +909,7 @@ units = {
 					division= {	
 		location = 4861
 		division_template = "Atlantic Colonial Garrison"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.3 start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
@@ -918,7 +918,7 @@ units = {
 								division= {	
 		location = 12885
 		division_template = "Atlantic Colonial Garrison"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.3 start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
@@ -926,7 +926,7 @@ units = {
 					division= {	
 		location = 12885
 		division_template = "Atlantic Colonial Garrison"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.3 start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
@@ -937,7 +937,7 @@ units = {
 								division= {	
 		location = 12828
 		division_template = "Atlantic Colonial Garrison"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.3 start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
@@ -945,7 +945,7 @@ units = {
 					division= {	
 		location = 12828
 		division_template = "Atlantic Colonial Garrison"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.3 start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
@@ -956,7 +956,7 @@ units = {
 								division= {	
 		location = 4982
 		division_template = "Atlantic Colonial Garrison"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.3 start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
@@ -964,7 +964,7 @@ units = {
 					division= {	
 		location = 4982
 		division_template = "Atlantic Colonial Garrison"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.3 start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
@@ -973,7 +973,7 @@ units = {
 									division= {	
 		location = 10862
 		division_template = "Atlantic Colonial Garrison"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.3 start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
@@ -981,7 +981,7 @@ units = {
 					division= {	
 		location = 2050
 		division_template = "Atlantic Colonial Garrison"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.3 start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
@@ -990,7 +990,7 @@ units = {
 								division= {	
 		location = 5139
 		division_template = "Atlantic Colonial Garrison"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.3 start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
@@ -998,7 +998,7 @@ units = {
 					division= {	
 		location = 13014
 		division_template = "Atlantic Colonial Garrison"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.3 start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
@@ -1008,7 +1008,7 @@ units = {
 					division= {	
 		location = 10906
 		division_template = "Atlantic Colonial Garrison"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.3 start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
@@ -1017,7 +1017,7 @@ units = {
 					division= {	
 		location = 12716
 		division_template = "Atlantic Colonial Garrison"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.3 start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
@@ -1026,7 +1026,7 @@ units = {
 					division= {	
 		location = 12512	
 		division_template = "Atlantic Colonial Garrison"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.3 start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
@@ -1035,7 +1035,7 @@ units = {
 									division= {	
 		location = 12149
 		division_template = "Atlantic Colonial Garrison"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.3 start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
@@ -1043,7 +1043,7 @@ units = {
 					division= {	
 		location = 7361
 		division_template = "Atlantic Colonial Garrison"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.3 start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
@@ -1052,7 +1052,7 @@ units = {
 					division= {	
 		location = 9377
 		division_template = "Atlantic Colonial Garrison"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.3 start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
@@ -1062,7 +1062,7 @@ units = {
 		division= {	
 		location = 2038
 		division_template = "Atlantic Colonial Garrison"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.3 start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
@@ -1070,7 +1070,7 @@ units = {
 					division= {	
 		location = 13016
 		division_template = "Atlantic Colonial Garrison"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.3 start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
@@ -1080,7 +1080,7 @@ units = {
 					division= {	
 		location = 13009
 		division_template = "Atlantic Colonial Garrison"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.3 start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
@@ -1089,7 +1089,7 @@ units = {
 					division= {	
 		location = 1440
 		division_template = "Atlantic Colonial Garrison"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.3 start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
@@ -1098,7 +1098,7 @@ units = {
 					division= {	
 		location = 12304
 		division_template = "Atlantic Colonial Garrison"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.3 start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
@@ -1107,7 +1107,7 @@ units = {
 					division= {	
 		location = 1513
 		division_template = "Atlantic Colonial Garrison"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.3 start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
@@ -1117,7 +1117,7 @@ units = {
 													division= {	
 		location = 13017
 		division_template = "Atlantic Colonial Garrison"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.3 start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
@@ -1125,7 +1125,7 @@ units = {
 					division= {	
 		location = 2077
 		division_template = "Atlantic Colonial Garrison"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.3 start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
@@ -1134,7 +1134,7 @@ units = {
 												division= {	
 		location = 13013
 		division_template = "Atlantic Colonial Garrison"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.3 start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
@@ -1142,7 +1142,7 @@ units = {
 					division= {	
 		location = 4989
 		division_template = "Atlantic Colonial Garrison"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.3 start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
@@ -1152,7 +1152,7 @@ units = {
 					division= {	
 		location = 10254
 		division_template = "Atlantic Colonial Garrison"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.3 start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
@@ -1161,7 +1161,7 @@ units = {
 	division= {	
 		location = 4285
 		division_template = "Atlantic Colonial Garrison"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.3 start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
@@ -1169,7 +1169,7 @@ units = {
 					division= {	
 		location = 153
 		division_template = "Atlantic Colonial Garrison"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.3 start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
@@ -1178,7 +1178,7 @@ units = {
 					division= {	
 		location = 13010
 		division_template = "Atlantic Colonial Garrison"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.3 start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
@@ -1189,7 +1189,7 @@ units = {
 			division= {	
 		location = 12505
 		division_template = "Atlantic Colonial Garrison"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.3 start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
@@ -1198,7 +1198,7 @@ units = {
 					division= {	
 		location = 373
 		division_template = "Atlantic Colonial Garrison"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.3 start_equipment_factor = 0.01
 		force_equipment_variants = { infantry_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { artillery_equipment_1 = { owner = "ENG" } }
 		force_equipment_variants = { anti_air_equipment_1 = { owner = "ENG" } }
