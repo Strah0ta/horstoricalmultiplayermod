@@ -42,7 +42,7 @@ ideas = {
 			light_tank_artillery_equipment = {	build_cost_ic = -0.8 instant = yes	}			
 			}
 		}
-			ENG_motorized_focus = {
+			ENG_motorized_focus = { 
 			picture = FRA_motorized_focus
 			allowed = {	original_tag = ENG }
 			allowed_civil_war = {	always = yes	}
