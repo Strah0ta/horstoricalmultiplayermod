@@ -13,6 +13,18 @@
  naval_do_all_title_tt:0 "DOCTRINES ARE NOT EXCLUSIVE"
  modifier_army_sub_unit_paratrooper_defence_factor:0 "Paratrooper Defense"
  ETH_CAS_equipment_3_short:0 "Ba.201"
+ modern_tank_destroyer_sup:0 "Support Modern Tank Destroyer"
+ super_heavy_tank_destroyer_sup:0 "Support Super Heavy Tank Destroyer"
+ haevy_tank_destroyer_sup:0 "Support Heavy Tank Destroyer"
+ medium_tank_destroyer_sup:0 "Support Medium Tank Destroyer"
+ light_tank_destroyer_sup:0 "Support Light Tank Destroyer"
+ light_sp_artillery:0 "Support Light SP Artillery"
+ medium_sp_artillery:0 "Support Medium SP Artillery"	
+ heavy_sp_artillery:0 "Support Heavy SP Artillery"
+ super_heavy_sp_artillery:0 "Support Super Heavy SP Artillery"
+ modern_sp_artillery:0 "Support Modern SP Artillery"
+
+
  mot_rocket_artillery:0 "Support Mot. Rocket Artillery"
  test_stuff:0 "Paratrooper (Genius)"
  USA_plane_eng2:0 "Disable/Enable Automatic Plane Lend-Lease"

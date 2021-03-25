@@ -21,6 +21,7 @@ sub_units = {
 			category_army
 		}
 
+		same_support_type = anti_tank
 
 		combat_width = 0
 
@@ -30,7 +31,7 @@ sub_units = {
 		manpower = 300
 		max_organisation = 20
 		default_morale = 0.1
-		max_strength = 0.2
+		max_strength = 0
 		training_time = 120
 		weight = 0.1
 
