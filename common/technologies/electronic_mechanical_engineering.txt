@@ -405,6 +405,7 @@ technologies = {
 		motorized_rocket_brigade = {
 			soft_attack = 0.05
 		}
+		motorized_rocket_sup = { soft_attack = 0.05	}
 		mech_rarty = { soft_attack = 0.05 }
 		path = {
 			leads_to_tech = improved_rocket_engines 
@@ -458,6 +459,7 @@ technologies = {
 		motorized_rocket_brigade = {
 			soft_attack = 0.05
 		}
+				motorized_rocket_sup = { soft_attack = 0.05	}
 				mech_rarty = { soft_attack = 0.05 }
 
 		path = {
@@ -503,6 +505,7 @@ technologies = {
 		motorized_rocket_brigade = {
 			soft_attack = 0.05
 		}
+				motorized_rocket_sup = { soft_attack = 0.05	}
 				mech_rarty = { soft_attack = 0.05 }
 
 		research_cost = 1.5
