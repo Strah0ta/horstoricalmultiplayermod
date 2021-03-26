@@ -196,17 +196,6 @@ ideas = {
 			traits = { navy_chief_maneuver_2 }
 		}
 
-		EFR_jean_marie_abrial = {
-			
-			picture = generic_navy_europe_1
-			
-			allowed = {
-				original_tag = EFR
-				
-			}
-			
-			traits = { navy_anti_submarine_2 }
-		}
 	}
 
 	high_command = {
@@ -226,7 +215,16 @@ ideas = {
 			
 			traits = { army_infantry_2 }
 		}
-	
+			EFR_jean_marie_abrial = {
+			
+			picture = generic_navy_europe_1
+			
+			allowed = {
+				original_tag = EFR
+				
+			}
+				traits = { army_chief_organizational_3 }
+		}		}
 		EFR_jean_de_laborde = {
 			ledger = army
 			
@@ -239,7 +237,7 @@ ideas = {
 			
 
 			
-			traits = { army_chief_organizational_3 }
+			traits = { army_commando_2 }
 		}
 
 		EFR_marcel_bruno_gensoul = {
