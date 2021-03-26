@@ -1,7 +1,7 @@
 ideas = {
 country = { 
 				irq_militarism = {		
-			picture = generic_fighter_production_diverted
+			picture = generic_manpower_bonus
 			allowed = {	always = no	}
 			removal_cost = -1
 			modifier = { conscription = 0.1	}  
