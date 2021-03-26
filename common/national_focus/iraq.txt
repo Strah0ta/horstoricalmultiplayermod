@@ -87,7 +87,12 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			#
+				add_tech_bonus = {
+				name = "Form the Republican Guard"
+				bonus = 3.0
+				uses = 1
+				technology = tech_mountaineers3
+			} 
 		}
 	}
 					focus = {
