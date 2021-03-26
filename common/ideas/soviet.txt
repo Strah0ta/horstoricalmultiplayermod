@@ -58,6 +58,22 @@ ideas = {
 			scout_plane_equipment = {	build_cost_ic = -0.85 instant = yes	}
 			}
 		}
+					ENG_motorized_focus2 = { 
+			picture = FRA_motorized_focus
+			allowed = {	original_tag = ENG }
+			allowed_civil_war = {	always = yes	}
+			removal_cost = -1
+			equipment_bonus = {
+			motorized_equipment = {	build_cost_ic = -0.05 instant = yes	} 
+			infantry_equipment = { build_cost_ic = -0.05 instant = yes	}
+			support_equipment = { build_cost_ic = -0.05 instant = yes	}
+			anti_air_equipment = { build_cost_ic = -0.05 instant = yes	}
+			artillery_equipment = {	build_cost_ic = -0.05 instant = yes	}
+			anti_tank_equipment = {	build_cost_ic = -0.05 instant = yes	}
+			CAS_equipment = {	build_cost_ic = -0.05 instant = yes	} 
+			scout_plane_equipment = {	build_cost_ic = -0.05 instant = yes	}
+			}
+		}
 		great_patriotic_war_idea = {	
 			removal_cost = -1	
 			allowed = {	always = no	}
