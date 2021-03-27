@@ -149,7 +149,7 @@ country_event = {
 	
 	is_triggered_only = yes 
 	
-	option = { every_country = {remove_ideas = qol_start_eff }	}
+	option = { every_country = {remove_ideas = qol_start_eff }	SOV = {remove_ideas = qol_start_eff_sov } }
 }
 
 add_namespace = horsthelp

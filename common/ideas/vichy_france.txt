@@ -216,7 +216,8 @@ ideas = {
 			traits = { army_infantry_2 }
 		}
 			EFR_jean_marie_abrial = {
-			
+						ledger = army
+
 			picture = generic_navy_europe_1
 			
 			allowed = {
@@ -224,7 +225,7 @@ ideas = {
 				
 			}
 				traits = { army_chief_organizational_3 }
-		}		}
+		}		
 		EFR_jean_de_laborde = {
 			ledger = army
 			
