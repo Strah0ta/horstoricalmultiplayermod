@@ -133,7 +133,7 @@ focus_tree = {
 				uses = 1
 				category = motorized_equipment
 			}
-						add_tech_bonus = {
+			add_tech_bonus = {
 				name = armor_bonus
 				bonus = 1.0
 				ahead_reduction = 2
@@ -150,17 +150,30 @@ focus_tree = {
 		y = 1
 		relative_position_id = ENG_motorized_focus
 		cost = 5
-		
+		available = { date > 1938.2.1 }
 		available_if_capitulated = yes
 
 		completion_reward = {
 			add_tech_bonus = {
 				name = armor_bonus
 				bonus = 1.0
-				uses = 2
-				category = cat_1941_tanks
-				category = cat_1943_tanks			
-				}
+				ahead_reduction = 3
+				uses = 1
+				technology = improved_medium_tank
+			}
+				add_tech_bonus = {
+				name = armor_bonus
+				bonus = 0.5
+				ahead_reduction = 3
+				uses = 1
+				technology = improved_heavy_tank
+			}		
+			add_tech_bonus = {
+				name = armor_bonus
+				bonus = 1.0
+				uses = 1
+				category = cat_1943_tanks
+			}			
 		}
 	}
 	
