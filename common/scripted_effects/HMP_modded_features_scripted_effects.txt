@@ -3500,9 +3500,9 @@ create_field_marshal = {
 	picture = "Portrait_Britain_William_Gott.dds"
 	traits = { panzer_leader desert_fox inflexible_strategist unyielding_defender thorough_planner logistics_wizard }
 	skill = 6
-	attack_skill = 5
+	attack_skill = 6
 	defense_skill = 4
-	planning_skill = 5
+	planning_skill = 4
 	logistics_skill = 5
 }
 create_field_marshal = {
@@ -3648,14 +3648,13 @@ create_corps_commander = {
 create_corps_commander = {
 	name = "Archibald Wavell" #Point Value: 19           Aristocrat
 	picture = "Portrait_Britain_Archibald_Wavell.dds"
-	traits = {  panzer_leader panzer_expert	desert_fox commando trait_engineer fortress_buster skirmisher }
+	traits = {  brilliant_strategist panzer_leader panzer_expert	desert_fox commando trait_engineer fortress_buster skirmisher }
 	skill = 6
-	attack_skill = 3
+	attack_skill = 4
 	defense_skill = 4
 	planning_skill = 5
-	logistics_skill = 7
+	logistics_skill = 6
 }
-
 }
 
 USA = {
