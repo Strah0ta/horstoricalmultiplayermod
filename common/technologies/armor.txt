@@ -280,6 +280,12 @@ technologies = {
 		uses = 1	
 		technology = advanced_light_tank2
 		}
+		add_tech_bonus = {
+			name = "1941 Tank Variety Bonus"
+			bonus = 3.0
+			uses = 1
+			category = cat_1941_tanks
+		}
 		}
 
 		path = {
@@ -303,7 +309,10 @@ technologies = {
 		enable_equipments = {
 			light_tank_equipment_4 
 		}	
-		
+		path = {
+			leads_to_tech = advanced_medium_tank
+			research_cost_coeff = 1
+		}
 		research_cost = 2
 		start_year = 1943
 		
@@ -493,10 +502,10 @@ technologies = {
 	improved_medium_tank = { #Panzer IV
 		on_research_complete = {
 			add_tech_bonus = {
-				name = "Medium II to Heavy II Bonus"
+				name = "1941 Tank Variety Bonus"
 				bonus = 3.0
 				uses = 1
-				technology = improved_heavy_tank
+				category = cat_1941_tanks
 			}
 		}
 		enable_equipments = {
@@ -579,11 +588,10 @@ technologies = {
 	advanced_medium_tank = { #Panther
 			on_research_complete = {
 			add_tech_bonus = {
-				name = "Heavy III to Medium III Bonus"
+				name = "1943 Tank Variety Bonus"
 				bonus = 3.0
-				uses = 2
-				technology = advanced_heavy_tank
-				technology = advanced_light_tank2
+				uses = 1
+				category = cat_1943_tanks
 			}
 		}
 		enable_equipments = {
@@ -598,7 +606,10 @@ technologies = {
 			leads_to_tech = advanced_heavy_tank 
 			research_cost_coeff = 1
 		}
-		
+				path = {
+			leads_to_tech = advanced_light_tank2
+			research_cost_coeff = 1
+		}
 		research_cost = 2
 		start_year = 1943
 		
@@ -843,10 +854,10 @@ technologies = {
 	improved_heavy_tank = { #Tiger
 	on_research_complete = { 
 			add_tech_bonus = {
-				name = "Heavy II to Medium II Bonus"
+				name = "1941 Tank Variety Bonus"
 				bonus = 3.0
 				uses = 1
-				technology = improved_medium_tank
+				category = cat_1941_tanks
 			}
 			}
 		enable_equipments = {
@@ -933,17 +944,19 @@ technologies = {
 	advanced_heavy_tank = { #King Tiger
 			on_research_complete = {
 			add_tech_bonus = {
-				name = "Heavy III to Medium III Bonus"
+				name = "1943 Tank Variety Bonus"
 				bonus = 3.0
-				uses = 2
-				technology = advanced_medium_tank
-				technology = advanced_light_tank2
+				uses = 1
+				category = cat_1943_tanks
 			}
 			}
 		enable_equipments = {
 			heavy_tank_equipment_3 
 		}
-		
+				path = {
+			leads_to_tech = super_heavy_tank 
+			research_cost_coeff = 1
+		}
 		path = {
 			leads_to_tech = main_battle_tank 
 			research_cost_coeff = 1
@@ -1025,13 +1038,18 @@ technologies = {
 		}
 		
 		on_research_complete = {          
-		add_tech_bonus = {
-		bonus = 3.0
-		uses = 1	
-		technology = advanced_light_tank2
-		}
+			add_tech_bonus = {
+				name = "1943 Tank Variety Bonus"
+				bonus = 3.0
+				uses = 1
+				category = cat_1943_tanks
+			}
 		}
 	
+		path = {
+			leads_to_tech = advanced_heavy_tank 
+			research_cost_coeff = 1
+		}
 		research_cost = 2
 		start_year = 1943
 		folder = {
