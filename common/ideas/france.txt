@@ -785,9 +785,9 @@ ideas = {
 			removal_cost = -1
 
 			equipment_bonus = {
-				motorized_equipment = {
-					build_cost_ic = -0.1 instant = yes
-				}
+				motorized_equipment = {	build_cost_ic = -0.1 instant = yes }
+				mechanized_equipment = {	build_cost_ic = -0.1 instant = yes }
+				amphibious_mechanized_equipment = {	build_cost_ic = -0.1 instant = yes }
 			}
 		}
 
@@ -1001,7 +1001,6 @@ ideas = {
 		rene_prioux = {
 			ledger = army
 			allowed = {	original_tag = FRA	}
-			available = { NOT = { owns_state = 16 }}
 			traits = { army_infantry_2 }
 		}
 		

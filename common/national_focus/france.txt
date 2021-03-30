@@ -233,14 +233,14 @@
 			add_tech_bonus = {
 				name = FRA_methodical_battle
 				category = land_doctrine
-				uses = 2
+				uses = 1
 				bonus = 1
 			}
 			add_tech_bonus = {
 				name = FRA_heavy_armor_focus
 				bonus = 2
 				uses = 1
-				technology = improved_heavy_tank
+				category = cat_1941_tanks
 			}
 		}
 	}
@@ -277,10 +277,17 @@
 		completion_reward = {
 			add_tech_bonus = {
 				name = FRA_artillery_focus
-				bonus = 1.0
-				uses = 1
+				bonus = 0.75
+				uses = 6
 				category = artillery
 			}
+			add_tech_bonus = {
+				name = FRA_artillery_focus
+				bonus = 0.75
+				uses = 4
+				category = infantry_weapons
+			}	
+			
 						add_ideas = { special_forces }
 				add_tech_bonus = {
 				name = FRA_fusiliers_marine
@@ -303,6 +310,12 @@
 		prerequisite = { focus = FRA_begin_rearmament }
 
 		completion_reward = {
+					add_tech_bonus = {
+				name = FRA_methodical_battle
+				category = land_doctrine
+				uses = 1
+				bonus = 1
+			}
 						add_tech_bonus = {
 				name = FRA_light_medium_armor
 				bonus = 2
