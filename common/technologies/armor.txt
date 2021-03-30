@@ -953,10 +953,7 @@ technologies = {
 		enable_equipments = {
 			heavy_tank_equipment_3 
 		}
-				path = {
-			leads_to_tech = super_heavy_tank 
-			research_cost_coeff = 1
-		}
+
 		path = {
 			leads_to_tech = main_battle_tank 
 			research_cost_coeff = 1

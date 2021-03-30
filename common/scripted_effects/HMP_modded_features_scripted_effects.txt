@@ -1363,7 +1363,8 @@ HMP_ALLIED_generals = yes
 ###if it is a FM trait on a commander leading an army or a general trait on a commander 
 ###leading an army group. FM traits = 0 on generals, general traits = 0.5x value on FMs.
 ###
-###Generals are balanced around 20 points whereas Field Marshalls are around 15 points.
+###Generals are balanced around 20 points whereas Field Marshals are around 16 points for 
+###Axis/GEACPS/Soviets and 18 points for Allied generals and 14 points for allied Field Marshals
 ###Exceptions can be made circumstantially, which is commented below in such a case.
 ###
 ###                 VALUES - FULL ON GEN/HALF ON FM 	
@@ -3592,10 +3593,10 @@ create_corps_commander = {
 	logistics_skill = 7
 }
 
-create_corps_commander = {
-    name = "Henry Pownall" #Point value: 18 #3/22/21 -Trickster -Improv. Expert -Skilled Staffer +Hill Fighter +Mountaineer +Desert Fox +Urban Assault Specialist +Fake Skilled Staffer +Guerilla FIghter
+create_field_marshal = {
+    name = "Henry Pownall" #Point value: 14.5 #3/22/21 -Trickster -Improv. Expert -Skilled Staffer +Hill Fighter +Mountaineer +Desert Fox +Urban Assault Specialist +Fake Skilled Staffer +Guerilla FIghter #3/30/21 Now a FM, +Bearer of Artillery +Defensive Doctrine +Logistics Wizard -Ambusher -Hill Fighter -Mountaineer +Guerilla Fighter
     picture = "Portrait_Britain_Henry_Pownall.dds"
-	traits = { cavalry_leader cavalry_expert guerilla_fighter hill_fighter trait_mountaineer desert_fox urban_assault_specialist ambusher fake_skilled_staffer } 
+	traits = { cavalry_leader cavalry_expert desert_fox urban_assault_specialist logistics_wizard defensive_doctrine bearer_of_artillery } 
     skill = 6
 	attack_skill = 5
     defense_skill = 4
@@ -3605,7 +3606,7 @@ create_corps_commander = {
 create_corps_commander = {          
     name = "Brian Horrocks" #Point Value: 18
     picture = "Portrait_Britain_Brian_Horrocks.dds"
-    traits = {  cavalry_leader 	cavalry_expert combined_arms_expert naval_invader adaptable trickster commando camouflage_expert  }
+    traits = {  cavalry_leader 	cavalry_expert combined_arms_expert naval_invader adaptable trickster commando bearer_of_artillery  }
     skill = 6
 	attack_skill = 2
     defense_skill = 4
