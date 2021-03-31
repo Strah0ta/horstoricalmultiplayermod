@@ -393,7 +393,6 @@ tactic_ambush = { #counters shock
 		phase = no
 		OR = {
 			skill_advantage > 1
-			skill > 2
 			has_trait = trickster
 		}
 	}
@@ -414,7 +413,6 @@ tactic_blitz = {
 		hardness > 0.5
 		phase = no
 		OR = {
-			skill > 2
 			has_trait = panzer_leader
 			skill_advantage > 1
 		}
@@ -447,10 +445,6 @@ tactic_elastic_defense = { #counters blitz
 	trigger = {
 		is_attacker = no
 		phase = no
-		OR = {
-			has_trait = defensive_doctrine
-			skill > 2
-		}
 	}
 	
 	active = no
@@ -468,13 +462,6 @@ tactic_backhand_blow = { #counters breakthrough
 	trigger = {
 		is_attacker = no
 		phase = no
-		OR = {
-			skill > 4
-			AND = {
-				has_trait = defensive_doctrine
-				skill > 3
-			}
-		}
 	}
 	
 	active = no
@@ -494,13 +481,6 @@ tactic_seize_bridge = {
 		is_attacker = yes
 		has_combat_modifier = river_crossing
 		phase = no
-		OR = {
-			skill > 3
-			AND = {
-				has_trait = offensive_doctrine
-				skill > 2
-			}
-		}
 	}
 	
 	base =  { factor = 2 }
@@ -532,7 +512,6 @@ tactic_attacker_sb_skillful_defence = {
 	trigger = {
 		is_attacker = yes
 		phase = seize_bridge
-		skill > 4
 	}
 	
 	base =  { factor = 4 }
@@ -557,31 +536,11 @@ tactic_defender_sb_assault = {
 	combat_width = -0.25
 	defender = -0.05
 }
-tactic_defender_sb_reckless_assault = { 
-	is_attacker = no
-	trigger = {
-		is_attacker = no
-		phase = seize_bridge
-		skill < 3
-	}
-	
-	base =  { factor = 4 }
-	picture = defender_sb_reckless_assault
-	display_phase = seize_bridge
-
-	combat_width = -0.25
-	attacker = 0.25
-	defender = -0.1
-}
 tactic_defender_sb_retake_bridge = { 
 	is_attacker = no
 	trigger = {
 		is_attacker = no
 		phase = seize_bridge
-		OR = {
-			skill > 2
-			has_trait = trickster
-		}
 	}
 	
 	countered_by = tactic_attacker_sb_skillful_defence
@@ -602,10 +561,6 @@ tactic_hold_bridge = {
 		has_combat_modifier = river_crossing
 		is_attacker = no
 		phase = no
-		OR = {
-			skill > 2
-			has_trait = defensive_doctrine
-		}
 	}
 	
 	base =  { factor = 2 }
@@ -637,7 +592,6 @@ tactic_attacker_hb_rush = {
 	trigger = {
 		is_attacker = yes
 		phase = hold_bridge
-		skill > 4
 	}
 	
 	base =  { factor = 4 }
@@ -666,31 +620,11 @@ tactic_attacker_hb_storm = {
 	attacker = 0.2
 	defender = 0.05
 }
-tactic_defender_hb_hold = { 
-	is_attacker = no
-	trigger = {
-		is_attacker = no
-		phase = hold_bridge
-		skill < 3
-	}
-	
-	base =  { factor = 2 }
-	picture = defender_hb_hold
-	display_phase = hold_bridge
-
-	combat_width = -0.25
-	attacker = 0.2
-	defender = -0.1
-}
 tactic_defender_hb_skillful_defence = { 
 	is_attacker = no
 	trigger = {
 		is_attacker = no
 		phase = hold_bridge
-		OR = {
-			skill > 2
-			has_trait = trickster
-		}
 	}
 	
 	base =  { factor = 2 }
@@ -708,10 +642,6 @@ tactic_guerrilla_tactics = { #People's army defender tactic. also for German vol
 		is_attacker = no
 		phase = no
 		hardness < 0.2
-		OR = {
-			skill > 2
-			has_trait = trickster
-		}
 	}
 	
 	active = no

@@ -769,7 +769,7 @@ technologies = {
         enable_tactic = tactic_delay
         enable_tactic = tactic_barrage
 
-				doctrine = yes	
+		doctrine = yes	
 				
 		research_cost = 117.65
 		
@@ -843,12 +843,12 @@ category_all_infantry = {
             default_morale = 0.2
             soft_attack = 0.25
         }
-enable_tactic = tactic_delay
-enable_tactic = tactic_elastic_defense
-enable_tactic = tactic_breakthrough
-enable_tactic = tactic_blitz
-enable_tactic = tactic_overwhelming_fire
-enable_tactic = tactic_backhand_blow
+		enable_tactic = tactic_delay
+		enable_tactic = tactic_elastic_defense
+		enable_tactic = tactic_breakthrough
+		enable_tactic = tactic_blitz
+		enable_tactic = tactic_overwhelming_fire
+		enable_tactic = tactic_backhand_blow
         enable_tactic = tactic_guerrilla_tactics
 
         planning_speed = 0.7
@@ -910,6 +910,8 @@ category_light_infantry = {
             max_organisation = 10
             breakthrough = 0.1
         }
+				doctrine = yes	
+
 		supply_consumption_factor = -0.05
 		out_of_supply_factor = -0.4
 		attrition = -0.50
@@ -949,6 +951,8 @@ enable_tactic = tactic_breakthrough
         infantry = {
             combat_width = -0.4
 			defense = -0.05
+			            need = {infantry_equipment= -10}
+			 default_morale = 0.30
         }
         category_line_artillery = {
             default_morale = 0.2
@@ -989,13 +993,9 @@ mechanized = {
             default_morale = 0.1
         }
 attrition = -0.1 #take 10% less attrition losses
-        infantry = {
-            default_morale = 0.30
-        }
+				doctrine = yes	
+
 conscription = 0.01
-        infantry = {
-            need = {infantry_equipment= -10}
-        }
         on_research_complete = {
             custom_effect_tooltip = human_wave_offensive_guns_tt
         }
