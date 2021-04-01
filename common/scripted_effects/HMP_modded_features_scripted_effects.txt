@@ -3034,9 +3034,9 @@ create_corps_commander = {
     logistics_skill = 6
 }
 	create_corps_commander = {
-	name = "Nikolai Vatutin" #Point Value: 20 #3/20/21 +Cavalry Leader  +Combined Arms Expert +Cavalry Expert +Panzer leader +Panzer Expert #3/25/21 +Infantry Expert -Cav Leader -Combined Arms Expert -Cav Expert #3/31/21 +Guerilla Fighter +Commando -Panzer Expert
+	name = "Nikolai Vatutin" #Point Value: 20 #3/20/21 +Cavalry Leader  +Combined Arms Expert +Cavalry Expert +Panzer leader +Panzer Expert #3/25/21 +Infantry Expert -Cav Leader -Combined Arms Expert -Cav Expert #3/31/21 +Guerilla Fighter +Improv Expert +Commando +Trickster -Organizer -Panzer Expert -Panzer Leader
 		picture = "Portrait_Soviet_Nikolai_Fyodorovich_Vatutin.dds"
-	traits = { infantry_leader guerilla_fighter commando infantry_expert panzer_leader fake_skilled_staffer_sov organizer trait_reckless }
+	traits = { infantry_leader trickster guerilla_fighter commando infantry_expert expert_improviser fake_skilled_staffer_sov trait_reckless }
 		skill = 7
     attack_skill = 3
     defense_skill = 4
@@ -3045,9 +3045,9 @@ create_corps_commander = {
 }		
 
 create_corps_commander = {
-	name = "Kirill Meretskov" #Point Value: 20 #3/20/21 +Cavalry Leader  +Combined Arms Expert +Cavalry Expert +Panzer leader +Panzer Expert #3/25/21 +Infantry Expert  -Cav Leader -Combined Arms Expert -Cav Expert #3/31/21 +Guerilla Fighter +Commando -Panzer Expert
+	name = "Kirill Meretskov" #Point Value: 20 #3/20/21 +Cavalry Leader  +Combined Arms Expert +Cavalry Expert +Panzer leader +Panzer Expert #3/25/21 +Infantry Expert  -Cav Leader -Combined Arms Expert -Cav Expert #3/31/21 +Guerilla Fighter +Improv Expert +Commando +Trickster -Organizer -Panzer Expert -Panzer Leader
 		picture = "Portrait_Soviet_Kirill_Meretskov.dds"
-	traits = { infantry_leader guerilla_fighter commando infantry_expert panzer_leader fake_skilled_staffer_sov organizer trait_reckless }
+	traits = { infantry_leader  trickster guerilla_fighter commando infantry_expert expert_improviser fake_skilled_staffer_sov trait_reckless }
 		skill = 7
     attack_skill = 3
     defense_skill = 4
