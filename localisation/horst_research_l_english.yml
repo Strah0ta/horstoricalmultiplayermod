@@ -30,6 +30,13 @@
  heavy_tank_destroyer_sup:0 "Support Heavy Tank Destroyer"
  medium_tank_destroyer_sup:0 "Support Medium Tank Destroyer"
  light_tank_destroyer_sup:0 "Support Light Tank Destroyer"
+ 
+  modern_tank_destroyer_sup_gun:0 "Support Modern Assault Gun"
+ super_heavy_tank_destroyer_sup_gun:0 "Support Super Heavy Assault Gun"
+ heavy_tank_destroyer_sup_gun:0 "Support Heavy Assault Gun"
+ medium_tank_destroyer_sup_gun:0 "Support Medium Assault Gun"
+ light_tank_destroyer_sup_gun:0 "Support Light Assault Gun"
+ 
  light_sp_artillery:0 "Support Light SP Artillery"
  medium_sp_artillery:0 "Support Medium SP Artillery"	
  heavy_sp_artillery:0 "Support Heavy SP Artillery"
