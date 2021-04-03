@@ -16,6 +16,7 @@ sub_units = {
 			infantry
 			support
 		}
+		same_support_type = anti_air
 
 		group = support
 

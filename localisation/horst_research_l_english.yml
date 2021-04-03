@@ -71,6 +71,12 @@
  cat_1943_tanks:0 "1943 Tank Models"
  advanced_light_tank2:0 "1943 Light Tanks"
  DO_BOTH_SIDES_TT:0 "<== RESEARCH BOTH ==>"
+ light_tank_antiair:0 "Support Light SPAA"
+ medium_tank_antiair:0 "Support Medium SPAA"
+ heavy_tank_antiair:0 "Support Heavy SPAA"
+ super_heavy_tank_antiair:0 "Support Super Heavy SPAA"
+ modern_tank_antiair:0 "Support Modern SPAA"
+
  ##LIGHT TANK STUFF##
  AST_light_tank_equipment_4:0 "Coventator Local Pattern"
  AST_light_tank_equipment_4_short:0 "Coventator LP"

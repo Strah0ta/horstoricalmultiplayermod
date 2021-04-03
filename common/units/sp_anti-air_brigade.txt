@@ -162,7 +162,7 @@ sub_units = {
 		combat_width = 1
 
 		need = {
-			heavy_tank_aa_equipment = 10
+			heavy_tank_aa_equipment = 12
 		}
 		manpower = 500
 		max_organisation = 0
@@ -231,7 +231,7 @@ sub_units = {
 		combat_width = 1
 
 		need = {
-			super_heavy_tank_aa_equipment = 10 #was 4, but IC was halved
+			super_heavy_tank_aa_equipment = 12 #was 4, but IC was halved
 		}
 		manpower = 500
 		max_organisation = 0
@@ -350,4 +350,230 @@ sub_units = {
 			attack = -0.7
 		}
 	}
+	
+	#####SUPPORT AA######
+	light_tank_antiair = {
+		sprite = light_armor
+		map_icon_category = armored
+		priority = 0
+		ai_priority = 100
+		active = yes
+		type = {
+			armor
+			anti_air
+			support
+		}
+		can_be_parachuted = no
+		affects_speed = yes
+		group = support
+		
+		categories = {
+			category_all_armor
+			category_army
+			category_support_battalions
+		}
+		same_support_type = anti_air
+
+		combat_width = 0
+		need = {
+			light_tank_aa_equipment = 8
+		}
+		manpower = 250
+		max_organisation = 0
+		default_morale = 0.1
+		max_strength = 2.6
+		training_time = 90
+		weight = 1
+		soft_attack = -0.5
+		hard_attack = -0.5
+		breakthrough = -0.5
+		defense = -0.5
+		armor_value = -0.5
+		air_attack = -0.5
+		supply_consumption = 0.1
+	}
+	
+	medium_tank_antiair = {
+		sprite = medium_armor
+		map_icon_category = armored
+		priority = 0
+		ai_priority = 100
+		active = yes
+				can_be_parachuted = no
+		affects_speed = yes
+		type = {
+			armor
+			anti_air
+			support
+		}
+		
+		group = support
+				same_support_type = anti_air
+
+		categories = {
+			category_all_armor
+			category_army
+			category_support_battalions
+		}
+		soft_attack = -0.5
+		hard_attack = -0.5
+		breakthrough = -0.5
+		defense = -0.5
+		armor_value = -0.5
+		air_attack = -0.5
+		combat_width = 0
+
+		need = {
+			medium_tank_aa_equipment = 8
+		}
+		manpower = 250
+		max_organisation = 0
+		default_morale = 0.1
+		max_strength = 2.6
+		training_time = 90
+		weight = 1.25
+		supply_consumption = 0.1
+	}
+	
+	heavy_armor_antiair = {
+		sprite = heavy_armor
+		map_icon_category = armored
+		priority = 0
+		ai_priority = 100
+		active = yes
+		training_time = 90
+				can_be_parachuted = no
+		affects_speed = yes
+		type = {
+			armor
+			anti_air
+			support
+		}
+		
+		group = support
+				same_support_type = anti_air
+
+		categories = {
+			category_all_armor
+			category_army
+			category_support_battalions
+		}
+		soft_attack = -0.5
+		hard_attack = -0.5
+		breakthrough = -0.5
+		defense = -0.5
+		armor_value = -0.5
+		air_attack = -0.5
+		combat_width = 0
+
+		need = {
+			heavy_tank_aa_equipment = 8
+		}
+		manpower = 250
+		max_organisation = 0
+		default_morale = 0.1
+		max_strength = 2.6
+		weight = 1.5
+		supply_consumption = 0.1
+	}
+	
+	super_heavy_armor_antiair = {
+		sprite = heavy_armor
+		map_icon_category = armored
+		priority = 0
+		ai_priority = 100
+		active = yes
+		type = {
+			armor
+			anti_air
+			support
+		}
+				can_be_parachuted = no
+		affects_speed = yes
+		group = support
+				same_support_type = anti_air
+
+		categories = {
+			category_all_armor
+			category_army
+			category_support_battalions
+		}
+		soft_attack = -0.5
+		hard_attack = -0.5
+		breakthrough = -0.5
+		defense = -0.5
+		armor_value = -0.5
+		air_attack = -0.5
+		combat_width = 0
+
+		need = {
+			super_heavy_tank_aa_equipment = 8 #was 4, but IC was halved
+		}
+		manpower = 500
+		max_organisation = 0
+		default_morale = 0.1
+		max_strength = 2.6
+		training_time = 90
+		weight = 1.75
+		supply_consumption = 0.1
+	}
+	
+	modern_armor_antiair = {
+		sprite = medium_armor
+		map_icon_category = armored
+		priority = 0
+		ai_priority = 100
+		active = yes
+				can_be_parachuted = no
+		affects_speed = yes
+		type = {
+			armor
+			anti_air
+			support
+		}
+				same_support_type = anti_air
+
+		group = support
+		
+		categories = {
+			category_all_armor
+			category_army
+			category_support_battalions
+		}
+		soft_attack = -0.5
+		hard_attack = -0.5
+		breakthrough = -0.5
+		defense = -0.5
+		armor_value = -0.5
+		air_attack = -0.5
+		combat_width = 0
+
+		need = {
+			modern_tank_aa_equipment = 8
+		}
+		manpower = 250
+		max_organisation = 0
+		default_morale = 0.1
+		max_strength = 0
+		training_time = 90
+		weight = 1.5
+		supply_consumption = 0.1
+
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 }
