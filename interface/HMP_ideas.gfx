@@ -1173,31 +1173,6 @@ spriteTypes = {
 		name = "GFX_idea_vauxhall2"
 		texturefile = "gfx/interface/ideas/idea_vauxhall2.dds"
 	}	
-	SpriteType = {
-	    name = "GFX_idea_USA_subs_picture"
-	    texturefile = "gfx/interface/goals/goal_generic_navy_submarine.dds"			
-	}
-	spriteType = {
-		name = "GFX_idea_SOV_industry_upgrades"
-		texturefile = "gfx/interface/ideas/idea_SOV_industry_buff.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_SOV_industry_upgrades_final"
-		texturefile = "gfx/interface/ideas/idea_SOV_industry_buff2.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_SOV_military_upgrades"
-		texturefile = "gfx/interface/ideas/idea_SOV_red_army.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_SOV_military_upgrades_final"
-		texturefile = "gfx/interface/ideas/idea_SOV_red_army.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_SOV_guncost_picture"
-		texturefile = "gfx/interface/ideas/idea_SOV_guncost.dds"
-	}
-
 
 
 }

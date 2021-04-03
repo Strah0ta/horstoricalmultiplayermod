@@ -1,6 +1,45 @@
-
-
 spriteTypes = {
+	###OLD AT ARMORED CAR STUFF
+   spriteType = { name = "GFX_unit_at_armored_car_icon_medium"  textureFile = "gfx/interface/counters/divisions_large/unit_armored_car_icon.dds" noOfFrames = 2 }
+   spriteType = { name = "GFX_unit_at_armored_car_icon_medium_white" textureFile = "gfx/interface/counters/divisions_small/onmap_unit_armored_car_icon.dds"  noOfFrames = 2  }
+   spriteType = { name = "GFX_unit_armored_car_at_recon_icon_medium"	 textureFile = "gfx/interface/counters/divisions_large/support_unit_armored_car_recon_icon.dds"  noOfFrames = 2 }
+   ###SIX SUPPORT COMPANIES
+   spriteType = { name = "GFX_ssc_div_subunit_item_bg" textureFile = "gfx//interface//ssc_div_subunit_item_bg.dds" }
+   spriteType = { name = "GFX_ssc_division_designer_popup_bg" textureFile = "gfx//interface//ssc_division_designer_popup_bg.dds" }	
+
+   ###MECH AA
+   spriteType = {  name = "GFX_unit_mech_anti_air_icon_medium" textureFile = "gfx/interface/counters/divisions_large/mech_anti_air_icon.dds" noOfFrames = 2 }
+   spriteType = {  name = "GFX_unit_mech_anti_air_icon_medium_white"	 textureFile = "gfx/interface/counters/divisions_small/onmap_unit_mech_anti_air_icon.dds"  noOfFrames = 2 }  
+   spriteType = {  name = "GFX_unit_mech_anti_air_icon_small"	 texturefile = "gfx/texticons/unit_mech_anti_air_icon_small.tga" legacy_lazy_load = no noOfFrames = 2  }
+   ###MECH ARTY
+   spriteType = {  name = "GFX_unit_mech_arty_icon_medium"  textureFile = "gfx/interface/counters/divisions_large/unit_mech_arty_icon.dds"    noOfFrames = 2 } 
+   spriteType = {  name = "GFX_unit_mech_arty_icon_medium_white" textureFile = "gfx/interface/counters/divisions_small/onmap_unit_mech_arty_icon.dds"  noOfFrames = 2 } 
+   spriteType = {  name = "GFX_unit_mech_arty_icon_small"	texturefile = "gfx/texticons/unit_mech_arty_icon_small.tga" legacy_lazy_load = no noOfFrames = 2 } 
+   ###MECH RARTY 
+   spriteType = { name = "GFX_unit_mech_rarty_icon_medium" textureFile = "gfx/interface/counters/divisions_large/unit_mech_rarty_icon.dds"   noOfFrames = 2  } 
+   spriteType = { name = "GFX_unit_mech_rarty_icon_medium_white" textureFile = "gfx/interface/counters/divisions_small/onmap_unit_mech_rarty_icon.dds" noOfFrames = 2 }
+   spriteType = { name = "GFX_unit_mech_rarty_icon_small" texturefile = "gfx/texticons/unit_mech_rarty_icon_small.tga" legacy_lazy_load = no  noOfFrames = 2 } 
+   ###SUPPORT KATYUSHA
+   spriteType = {  name = "GFX_unit_motorized_rocket_sup_icon_medium"	textureFile = "gfx/interface/counters/divisions_large/unit_motorized_rocket_brigade_icon.dds" noOfFrames = 2 }
+   spriteType = {  name = "GFX_unit_motorized_rocket_sup_icon_medium_white"	 textureFile = "gfx/interface/counters/divisions_small/onmap_unit_motorized_rocket_brigade_icon.dds"  noOfFrames = 2 } 
+   spriteType = {  name = "GFX_unit_motorized_rocket_sup_icon_small"	texturefile = "gfx/texticons/unit_mech_rarty_icon_small.tga" legacy_lazy_load = no noOfFrames = 2  } 
+   ###MECH AT
+   spriteType = { name = "GFX_unit_mech_at_icon_medium"	 textureFile = "gfx/interface/counters/divisions_large/unit_mech_at_icon.dds"  noOfFrames = 2 } 
+   spriteType = { name = "GFX_unit_mech_at_icon_medium_white"	 textureFile = "gfx/interface/counters/divisions_small/onmap_unit_mech_at_icon.dds"   noOfFrames = 2 }
+   spriteType = { name = "GFX_unit_mech_at_icon_small" texturefile = "gfx/texticons/unit_mech_at_icon_small.tga" legacy_lazy_load = no noOfFrames = 2 } 
+   ######SUPPORT SPG#######
+   spriteType = { name = "GFX_unit_light_sp_artillery_icon_medium"	  textureFile = "gfx/interface/counters/divisions_large/support_unit_light_tank_artillery_support_icon.dds"   noOfFrames = 2  } #SUPPORT LSPG   
+   spriteType = { name = "GFX_unit_medium_sp_artillery_icon_medium"	  textureFile = "gfx/interface/counters/divisions_large/support_unit_medium_tank_artillery_support_icon.dds"   noOfFrames = 2 } #SUPPORT MSPG  
+   spriteType = { name = "GFX_unit_heavy_sp_artillery_icon_medium"  textureFile = "gfx/interface/counters/divisions_large/support_unit_heavy_armor_artillery_support_icon.dds"   noOfFrames = 2 } #SUPPORT HSPG  
+   spriteType = { name = "GFX_unit_super_heavy_sp_artillery_icon_medium"  textureFile = "gfx/interface/counters/divisions_large/support_unit_super_heavy_armor_artillery_support_icon.dds"  noOfFrames = 2 } #SUPPORT SHSPG  
+   spriteType = { name = "GFX_unit_modern_sp_artillery_icon_medium"  textureFile = "gfx/interface/counters/divisions_large/support_unit_modern_armor_artillery_support_icon.dds"  noOfFrames = 2 } #SUPPORT MODERN SPG  
+   #####SUPPORT TD#####
+   spriteType = {  name = "GFX_unit_light_tank_destroyer_sup_icon_medium"	 textureFile = "gfx/interface/counters/divisions_large/support_unit_light_tank_at_sup_icon.dds"   noOfFrames = 2 } #SUPPORT LTD
+   spriteType = {  name = "GFX_unit_medium_tank_destroyer_sup_icon_medium"  textureFile = "gfx/interface/counters/divisions_large/support_unit_medium_tank_at_sup_icon.dds"  noOfFrames = 2  } #SUPPORT MTD
+   spriteType = {  name = "GFX_unit_heavy_tank_destroyer_sup_icon_medium" textureFile = "gfx/interface/counters/divisions_large/support_unit_heavy_armor_at_sup_icon.dds"   noOfFrames = 2 } #SUPPORT HTD
+   spriteType = {  name = "GFX_unit_super_heavy_tank_destroyer_sup_icon_medium" textureFile = "gfx/interface/counters/divisions_large/support_unit_super_heavy_armor_at_sup_icon.dds"   noOfFrames = 2  } #SUPPORT SHTD
+   spriteType = {  name = "GFX_unit_modern_tank_destroyer_sup_icon_medium"	  textureFile = "gfx/interface/counters/divisions_large/support_unit_modern_armor_at_sup_icon.dds"   noOfFrames = 2 } #SUPPORT MODERN TD
+   
 	###RANGERS JUNGLE SPECS AND ROCKET ARTY(?)###
 	spriteType = { name = "GFX_unit_jaeger_icon_medium"									textureFile = "gfx/interface/counters/divisions_large/unit_jaeger_icon.dds" noOfFrames = 2 }
 
@@ -22,6 +61,10 @@ spriteTypes = {
 	 
 	###AT ARMOR CAR###
 	spriteType = { name = "GFX_unit_armored_car_at_recon_icon_small" texturefile = "gfx/texticons/support_light_armored_recon.dds"	legacy_lazy_load = no	noOfFrames = 2	}
+	
+	###RANGERS###
+	spriteType = {	name = "GFX_nato_unit_jaeger_icon_small" texturefile = "gfx/texticons/nato_unit_jaegers_icon_small.dds" legacy_lazy_load = no }	
+	spriteType = { name = "GFX_unit_jaeger_icon_small" texturefile = "gfx/texticons/unit_jaegers_icon_small.dds" legacy_lazy_load = no noOfFrames = 2 }	
 	
 	###CUSTOM ICONS BELOW###
 	
