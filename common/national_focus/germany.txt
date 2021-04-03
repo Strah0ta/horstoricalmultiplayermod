@@ -1696,7 +1696,6 @@ focus = {
 		id = GER_demand_sudetenland
 		icon = GFX_goal_ita_munich_conference
 		prerequisite = { focus = GER_rhineland }
-		will_lead_to_war_with = FRA
 		available = { NOT = { country_exists = AUS } }
 		x = 2
 		y = 1
