@@ -1300,7 +1300,7 @@ hidden_effect = {
 		cost = 50
 		fire_only_once = yes
 		complete_effect = {
-			add_timed_idea = { idea = GER_jaegernotprogramm days = 120 }
+			add_timed_idea = { idea = GER_jaegernotprogramm days = 120 } ITA = { add_timed_idea = { idea = ITA_jaegernotprogramm days = 120 } } 
 		}
 	}
 	
