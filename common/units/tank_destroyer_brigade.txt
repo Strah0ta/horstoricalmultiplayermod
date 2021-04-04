@@ -606,7 +606,7 @@ sub_units = {
 			category_front_line
 			category_all_armor
 			category_army
-						category_support_battalions
+			category_support_battalions
 		}
 
 		combat_width = 0
@@ -624,18 +624,21 @@ sub_units = {
 		
 		soft_attack = -0.5
 		hard_attack = -0.9
-		breakthrough = 1
+		breakthrough = 2
 		defense = -0.75
 		ap_attack = -0.75
 		armor_value = -0.5
 		
 		same_support_type = anti_tank
 		amphibious = { 
-			attack = -0.05
+			attack = -0.025
+		}
+		fort = { 
+			attack = 0.05
 		}
 	}
 	
-	medium_tank_destroyer_sup_gun    = {
+	medium_tank_destroyer_sup_gun  = {
 		sprite = "medium_armor"
 		map_icon_category = armored
 		priority = 0
@@ -673,13 +676,16 @@ sub_units = {
 		supply_consumption = 0.12
 		soft_attack = -0.5
 		hard_attack = -0.9
-		breakthrough = 1
+		breakthrough = 2
 		defense = -0.75
 		ap_attack = -0.75
 		armor_value = -0.5
 		same_support_type = anti_tank
 		amphibious = { 
-			attack = -0.1
+			attack = -0.05
+		}
+		fort = { 
+			attack = 0.1
 		}
 	}
 	
@@ -708,7 +714,7 @@ sub_units = {
 		}
 		soft_attack = -0.5
 		hard_attack = -0.9
-		breakthrough = 1
+		breakthrough = 2
 		defense = -0.75
 		ap_attack = -0.75
 		armor_value = -0.5
@@ -727,7 +733,10 @@ sub_units = {
 		supply_consumption = 0.16
 
 		amphibious = { 
-			attack = -0.15
+			attack = -0.075
+		}
+		fort = { 
+			attack = 0.15
 		}
 	}
 	
@@ -746,7 +755,7 @@ sub_units = {
 		}
 		soft_attack = -0.5
 		hard_attack = -0.9
-		breakthrough = 1
+		breakthrough = 2
 		defense = -0.75
 		ap_attack = -0.75
 		armor_value = -0.5
@@ -773,7 +782,10 @@ sub_units = {
 		weight = 1.75
 		supply_consumption = 0.22
 		amphibious = { 
-			attack = -0.2
+			attack = -0.1
+		}
+		fort = { 
+			attack = 0.2
 		}
 	}
 	
@@ -792,7 +804,7 @@ sub_units = {
 		}
 		soft_attack = -0.5
 		hard_attack = -0.9
-		breakthrough = 1
+		breakthrough = 2
 		defense = -0.75
 		ap_attack = -0.75
 		armor_value = -0.5
@@ -817,7 +829,10 @@ sub_units = {
 		weight = 1.5
 		supply_consumption = 0.13
 		amphibious = { 
-			attack = -0.1
+			attack = -0.05
+		}
+		fort = { 
+			attack = 0.2
 		}
 	}
 }
