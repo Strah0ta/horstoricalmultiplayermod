@@ -875,7 +875,7 @@ category_all_infantry = {
 			allow = { tag = SWE }
 	max_dig_in = 10
         dig_in_speed_factor = 0.25 #25% bonus
-max_planning = 0.25
+max_planning = 0.3
 category_all_infantry = {
             defense = 0.10
             max_organisation = 20
@@ -1056,7 +1056,6 @@ org_loss_when_moving = -0.7
 			leads_to_tech = grand_battle_plan_mp 
 			research_cost_coeff = 1
 		}	
-		#max_planning = 0.1
 
 		doctrine = yes	
 		research_cost = 4.5
@@ -1072,7 +1071,7 @@ org_loss_when_moving = -0.7
 	}
 	
 		grand_battle_plan_mp = {		
-		max_planning = 0.25
+		max_planning = 0.3
 
 		doctrine = yes	
 		research_cost = 0.01
