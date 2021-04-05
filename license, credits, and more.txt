@@ -1,4 +1,31 @@
-###UNDER CONSTRUCTION###
+#####UNDER CONSTRUCTION#####
+
+###CREDITS AND THANKS###
+Thank you Lennard#0034 for the 'Fuel System', 'Horsttool',
+and 'Top Bar Resources' feature that were imported from 
+HFU/LW. Thanks for some of your creative and innovative 
+modding ideas, which inspired me to make changes based
+on them (doctrinal flexiblity on tanks/infantry)
+or wholly importing them (air doctrine removal, enabling
+Italy/USA to AC potentially). He and Beethoven are the only
+modders I have much respect for when it comes to modding
+a mod as a historical MP mod (withstanding larp, which I
+give respect to HoO for).
+
+Thank you Xen/Birran/XenJang/whatever discord name you use now
+(the guy that makes the gfx for HoO) for use of graphical assets.
+
+Thank you Mushrix and ~christian hussar for creating graphical
+assets for Horstorical Multiplayer.
+
+Thank you Battlehammer and anyone that has supported Horstorical
+in reuploading it.
+
+Thank you to MilkyBob. Though we had our differences, thank you
+for everything you have done to help me with the mod.
+
+Thanks to everyone who helped me along the way, including my 
+longtime hosts, who kept the mod going forward.
 
 ###LICENSE###
 Any content within this mod of which I am the creator of
@@ -7,7 +34,7 @@ may be reproduced for use in another mod provided that:
 (b) The totality of the mod is not copied without my 
 permission, but rather only specific elements from it
 
-Note: For use of the "Fuel System", "Horsttool", or 
-the resources in the top bar, please contact the mod
-creator of LW, Lennard#0034, not me, Thrasymachus.
 
+###DEDICATION###
+This mod is dedicated to my paternal grandfather, for
+everything he did for me in my life.
