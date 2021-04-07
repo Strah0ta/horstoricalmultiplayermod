@@ -17,6 +17,7 @@ sub_units = {
 			category_army
 			category_special_forces
 		}
+		initiative = 0.05
 
 		
 		combat_width = 2
@@ -108,6 +109,7 @@ sub_units = {
 		}		
 		maximum_speed = 0.6	
 		combat_width = 1
+		initiative = 0.025
 
 		manpower = 500
 		need = { anti_air_equipment = 24 }
@@ -179,6 +181,7 @@ sub_units = {
 			infantry
 			artillery
 		}
+		initiative = 0.075
 
 		group = infantry
 		
@@ -270,6 +273,7 @@ sub_units = {
 			category_line_artillery
 			category_artillery
 		}
+		initiative = 0.075
 
 		combat_width = 3
 			maximum_speed = 0.6
@@ -345,6 +349,7 @@ sub_units = {
 			infantry
 			anti_tank
 		}
+		initiative = 0.025
 
 		group = infantry
 		

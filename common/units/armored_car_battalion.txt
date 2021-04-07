@@ -35,6 +35,7 @@ sub_units = {
 
 		#WE GOOD AT SUPPRESS 
 		suppression = 2.5
+		initiative = 0.05
 
 		forest = {
 		    attack = -0.2

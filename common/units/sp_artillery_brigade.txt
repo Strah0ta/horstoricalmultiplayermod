@@ -21,7 +21,7 @@ sub_units = {
 
 		combat_width = 3
 		soft_attack = 0.2
-
+		initiative = 0.075
 		need = {
 			light_tank_artillery_equipment = 30
 		}
@@ -82,7 +82,7 @@ sub_units = {
 			category_army
 		}		
 		combat_width = 3
-
+		initiative = 0.075
 		need = {
 			medium_tank_artillery_equipment = 36
 		}
@@ -161,7 +161,7 @@ sub_units = {
 		weight = 1.5
 		supply_consumption = 0.6
 		desert = { movement = -0.2 }
-
+		initiative = 0.075
 		forest = {
 		    attack = -0.30
 			movement = -0.40
@@ -217,7 +217,7 @@ sub_units = {
 		
 
 		combat_width = 3
-
+		initiative = 0.075
 		need = {
 			super_heavy_tank_artillery_equipment = 30 #was 12, but IC was halved 
 		}
@@ -284,7 +284,7 @@ sub_units = {
 		}
 
 		combat_width = 3
-
+		initiative = 0.075
 		need = {
 			modern_tank_artillery_equipment = 40
 		}

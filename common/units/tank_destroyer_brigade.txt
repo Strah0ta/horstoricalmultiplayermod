@@ -21,7 +21,7 @@ sub_units = {
 		}
 
 		combat_width = 2
-		soft_attack = 0.2
+		initiative = 0.05
 
 		need = {
 			light_tank_destroyer_equipment = 30
@@ -80,7 +80,8 @@ sub_units = {
 		}
 		
 		group = armor
-		
+			initiative = 0.05
+	
 		categories = {
 			category_front_line
 			category_all_armor
@@ -149,6 +150,7 @@ sub_units = {
 			armor
 			anti_tank
 		}
+		initiative = 0.05
 		
 		group = armor
 		
@@ -229,6 +231,7 @@ sub_units = {
 			category_all_armor
 			category_army
 		}
+		initiative = 0.05
 
 		combat_width = 2
 
@@ -291,7 +294,8 @@ sub_units = {
 			armor
 			anti_tank
 		}
-		
+			initiative = 0.05
+	
 		group = armor
 		
 		categories = {
