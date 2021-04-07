@@ -62,7 +62,7 @@ ideas = {
 			allowed_civil_war = {	always = yes	}
 			picture = generic_fascism_drift_2
 			modifier = {
-				land_reinforce_rate = 0.25
+				land_reinforce_rate = 0.20
 				army_morale_factor = 0.1
 			}
 		}		
