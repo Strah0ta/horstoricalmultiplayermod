@@ -945,13 +945,13 @@ enable_tactic = tactic_breakthrough
 	minimum_training_level = -0.1
         out_of_supply_factor = -0.40
         pocket_penalty  = -0.2
-        category_support_battalions = {
-            defense = 0.5
-        }
+		category_support_battalions = {
+			defense = 0.25
+			breakthrough = 0.50
+		}
         infantry = {
             combat_width = -0.4
-			defense = -0.05
-			            need = {infantry_equipment= -10}
+			            need = {infantry_equipment= -13}
 			 default_morale = 0.30
         }
         category_line_artillery = {
@@ -1000,7 +1000,7 @@ conscription = 0.01
             custom_effect_tooltip = human_wave_offensive_guns_tt
         }
         enable_tactic = tactic_guerrilla_tactics
-        land_reinforce_rate = 0.22
+        land_reinforce_rate = 0.20
 enable_tactic = tactic_human_wave_tactics
 org_loss_when_moving = -0.7
         army_fuel_capacity_factor = 1
@@ -1350,8 +1350,6 @@ org_loss_when_moving = -0.7
 			leads_to_tech = pocket_defence 
 			research_cost_coeff = 1
 		}
-		
-		land_reinforce_rate = 0.02
 		minimum_training_level = -0.1		
 		category_army = {
 			default_morale = 0.2
