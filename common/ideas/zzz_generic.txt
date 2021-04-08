@@ -117,7 +117,7 @@ ideas = {
 												attrition = -1
 			}
 		}	
-			armyandnavy_idea = { 
+		armyandnavy_idea = { 
 			
 			picture = YUG_federal_defense_council
 			allowed = { always = no }
@@ -129,7 +129,7 @@ ideas = {
 				experience_gain_navy_unit_factor = 10
 				training_time_factor = -0.45
 				mobilization_speed = 1
-												attrition = -1
+				attrition = -1
 			}
 		}
 		armyandnavy_idea_efr = {						
@@ -142,7 +142,7 @@ ideas = {
 				experience_gain_navy_unit_factor = 10
 				training_time_factor = -0.45
 				mobilization_speed = 1
-								attrition = -1
+				attrition = -1
 			}
 		}
 	war_plan_silver = {

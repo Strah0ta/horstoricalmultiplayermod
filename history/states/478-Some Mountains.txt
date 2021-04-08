@@ -2,7 +2,7 @@ state={
 	id=478
 	name="STATE_588"
 	
-	state_category = town
+	state_category = metropolis
 	
 	history={
 		owner = SOV

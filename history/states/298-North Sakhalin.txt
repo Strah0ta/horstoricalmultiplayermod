@@ -2,20 +2,19 @@
 state={
 	id=298
 	name="STATE_655"
-	manpower = 94759
+	manpower = 1
 	
 	state_category = town
 	
 	history={
-		owner = SOV
-		add_core_of = SOV
+		#owner = BRA
+		#add_core_of = BRA
 		buildings = {
-			infrastructure = 3
-			air_base = 1
+		
 		}
 	}
 
 	provinces={
-		855 1742 1755 
+		 7638
 	}
 }
