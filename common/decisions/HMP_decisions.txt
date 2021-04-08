@@ -784,7 +784,7 @@ every_country = {
 		cost = 0
 		complete_effect = {		
 		
-		hidden_effect = { 	every_country = { limit = { is_in_faction_with = GER } add_ideas = GER_the_blitzkrieg set_technology = { blitzkrieg_on = 1 popup = no } }	ENG = { add_to_faction = POL }  }
+		hidden_effect = { every_country = { remove_ideas = anti_strat_meme } every_country = { limit = { is_in_faction_with = GER } add_ideas = GER_the_blitzkrieg set_technology = { blitzkrieg_on = 1 popup = no } }	ENG = { add_to_faction = POL }  }
                     declare_war_on = {
                         target = POL
                         type = annex_everything

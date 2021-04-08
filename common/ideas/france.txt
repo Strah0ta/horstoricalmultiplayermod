@@ -12,7 +12,17 @@ ideas = {
 				surrender_limit = -0.60
 			}
         }
-		
+					CHI_illegal_regime = {
+			picture = generic_purge
+			allowed = {	always = no }
+			allowed_civil_war = {	always = no	}
+			removal_cost = -1
+			modifier = {
+				stability_factor = -0.3
+				war_support_factor = -0.3
+				surrender_limit = -0.20
+			}
+		}
 		FRA_no_allies = {
 			picture = generic_disjointed_gov
 			name = FRA_surrender
