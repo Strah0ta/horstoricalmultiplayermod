@@ -122,7 +122,7 @@ ideas = {
 			picture = YUG_federal_defense_council
 			allowed = { always = no }
 			
-			available = { AND = { has_war = no is_ai = no NOT = { has_idea = kliment_voroshilov } } }
+			available = { AND = { has_war = no is_ai = no } }
 			removal_cost = -1
 	
 			modifier = {
