@@ -7,9 +7,6 @@ ideas = {
 		qol_start_eff_sov = {
 	    picture = generic_infantry_bonus   allowed = {  always = yes  }  removal_cost = -1 modifier= {   production_factory_start_efficiency_factor = 0.5        }
 	}
-	anti_strat_meme = {
-	        picture = generic_infantry_bonus allowed = {  always = yes  } removal_cost = -1  equipment_bonus = {   strat_bomber_equipment = { air_range = -1 }    tac_bomber_equipment = { air_range = -1 }         }
-	}
 
 		continuous_naval_production = {
 			allowed = {
@@ -64,6 +61,9 @@ ideas = {
 
 	# Special ones that can be applied on other countries through focus system.
 	country = {
+		anti_strat_meme = {
+	        picture = generic_infantry_bonus allowed = {  always = yes  } removal_cost = -1  equipment_bonus = {   strat_bomber_equipment = { air_range = -1 }    tac_bomber_equipment = { air_range = -1 }         }
+	}
 			en_svensk_tiger = {
 			allowed = {	always = no	}
 			allowed_civil_war = {	has_government = democratic }
@@ -74,8 +74,6 @@ ideas = {
 				consumer_goods_factor = 1.05
 				conscription_factor	= -1.0
 				min_export = -1
-				foreign_subversive_activites = -1
-				intelligence_agency_defense = 1000
 			}
 		}
 		YUG_air_payment = {		

@@ -1960,7 +1960,7 @@
 1959;9;54;145;land;false;desert;6
 1960;9;54;200;land;false;plains;5
 1961;9;57;60;land;false;desert;6
-1962;9;57;165;land;false;plains;5
+1962;9;57;165;land;false;desert;5
 1963;9;60;25;land;false;desert;7
 1964;9;60;80;land;false;plains;5
 1965;9;60;130;land;false;mountain;2
@@ -10866,7 +10866,7 @@
 10865;135;150;69;land;false;mountain;6
 10866;135;150;174;land;false;desert;6
 10867;135;153;34;land;false;plains;2
-10868;135;153;89;land;false;plains;5
+10868;135;153;89;land;false;desert;5
 10869;135;153;139;land;false;desert;5
 10870;135;156;54;land;false;desert;7
 10871;135;156;204;land;false;mountain;2
