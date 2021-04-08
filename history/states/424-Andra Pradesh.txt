@@ -5,6 +5,6 @@ manpower = 1
 state_category = wasteland
 
 provinces={
-		4994
+		4994 12807
 }
 }

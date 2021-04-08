@@ -2,6 +2,8 @@
 oob = "SOV_1936"
 set_naval_oob = "SOV_1936_naval_mtg"
 create_intelligence_agency = yes
+add_ideas = armyandnavy_idea
+
 set_variable = {
     var = min_fuel
     value = 0.800
