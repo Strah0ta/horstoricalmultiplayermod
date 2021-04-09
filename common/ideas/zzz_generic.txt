@@ -61,9 +61,7 @@ ideas = {
 
 	# Special ones that can be applied on other countries through focus system.
 	country = {
-		anti_strat_meme = {
-	        picture = generic_infantry_bonus allowed = {  always = yes  } removal_cost = -1  equipment_bonus = {   strat_bomber_equipment = { air_range = -1 }    tac_bomber_equipment = { air_range = -1 }         }
-	}
+		anti_strat_meme = {   picture = generic_infantry_bonus allowed = {  always = yes  } removal_cost = -1  equipment_bonus = {   strat_bomber_equipment = { air_range = -1 instant = yes }    tac_bomber_equipment = { air_range = -1  instant = yes }         }	}
 			en_svensk_tiger = {
 			allowed = {	always = no	}
 			allowed_civil_war = {	has_government = democratic }
