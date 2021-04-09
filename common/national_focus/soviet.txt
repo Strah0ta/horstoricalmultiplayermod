@@ -725,7 +725,7 @@ add_ideas = red_airforce_resurgent
 				state = 404
 			}
 					add_tech_bonus = {
-				bonus = 3.0
+				bonus = 10.0
 				uses = 4
 				category = synth_resources	
 			}
