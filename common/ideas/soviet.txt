@@ -20,7 +20,6 @@ ideas = {
 			allowed_civil_war = {	always = yes	}
 			modifier = {
 				consumer_goods_factor = -0.05
-				industrial_capacity_factory = 0.05
 			}
 		}
 		SOV_motorized_focus = {
@@ -272,7 +271,7 @@ ideas = {
 			
 			modifier = {
 				production_speed_buildings_factor = 0.15
-				consumer_goods_factor = -0.08
+				consumer_goods_factor = -0.07
 				research_speed_factor = 0.15
 				production_factory_max_efficiency_factor = 0.1
 				industrial_capacity_factory = 0.1
