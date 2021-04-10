@@ -685,7 +685,7 @@
 
 	focus = {
 		id = FRA_appeal_to_the_french_nation
-		icon = GFX_goal_generic_propaganda
+		icon = GFX_focus_FRA_de_gaulle
 		x = 16
 		y = 3
 		offset = {
