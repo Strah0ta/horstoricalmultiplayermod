@@ -1057,6 +1057,34 @@
 		clone = "FRA_cavalry_entity"
 		name = "BEL_cavalry_entity"
 	}
+		entity = {
+		clone = "FRA_cavalry_entity"
+		name = "EFR_cavalry_entity"
+	}
+			entity = {
+		clone = "FRA_infantry_rider_entity"
+		name = "EFR_infantry_rider_entity"
+	}
+			entity = {
+		clone = "FRA_infantry_mg_rider_entity"
+		name = "EFR_infantry_mg_rider_entity"
+	}
+			entity = {
+		clone = "FRA_camelry_entity"
+		name = "EFR_camelry_entity"
+	}
+			entity = {
+		clone = "FRA_camelry_rifle_combined_entity"
+		name = "EFR_camelry_rifle_combined_entity"
+	}
+			entity = {
+		clone = "FRA_camelry_2_entity"
+		name = "EFR_camelry_2_entity"
+	}
+			entity = {
+		clone = "FRA_camelry_mg_combined_entity"
+		name = "EFR_camelry_mg_combined_entity"
+	}
 	#################################
 	
 	
@@ -1201,10 +1229,7 @@
 #
 #
 ############
-	entity = {
-		clone = "ITA_infantry_rider_entity"
-		name = "ETH_infantry_rider_entity"
-	}
+
 	entity = {
 		name = "ITA_infantry_rider_entity"
 		pdxmesh = "ITA_infantry_rifle_mesh"
@@ -1231,9 +1256,10 @@
 		scale = 0.8			
 	}	
 		entity = {
-		clone = "ITA_infantry_mg_rider_entity"
-		name = "ETH_infantry_mg_rider_entity"
+		clone = "ITA_infantry_rider_entity"
+		name = "ETH_infantry_rider_entity"
 	}
+		
 	entity = {
 		name = "ITA_infantry_mg_rider_entity"
 		pdxmesh = "ITA_infantry_mg_mesh"
@@ -1259,10 +1285,11 @@
 		
 		scale = 0.8			
 	}
-		entity = {
-		clone = "ITA_cavalry_entity"
-		name = "ETH_cavalry_entity"
+	entity = {
+		clone = "ITA_infantry_mg_rider_entity"
+		name = "ETH_infantry_mg_rider_entity"
 	}
+
 	entity = {
 		name = "ITA_cavalry_entity"
 		pdxmesh = "infantry_cavalry_horse_frame_mesh"
@@ -1282,10 +1309,11 @@
 		
 		scale = 1.0
 	}
-	entity = {
-		clone = "ITA_cavalry_rifle_combined_entity"
-		name = "ETH_cavalry_rifle_combined_entity"
+			entity = {
+		clone = "ITA_cavalry_entity"
+		name = "ETH_cavalry_entity"
 	}
+
 	entity = {
 		name = "ITA_cavalry_rifle_combined_entity"
 		pdxmesh = "infantry_cavalry_horse_mesh"
@@ -1302,9 +1330,10 @@
 		scale = 0.65
 	}
 		entity = {
-		clone = "ITA_cavalry_2_entity"
-		name = "ETH_cavalry_2_entity"
+		clone = "ITA_cavalry_rifle_combined_entity"
+		name = "ETH_cavalry_rifle_combined_entity"
 	}
+
 	entity = {
 		name = "ITA_cavalry_2_entity"
 		pdxmesh = "infantry_cavalry_horse_frame_mesh"
@@ -1325,9 +1354,10 @@
 		scale = 1.0
 	}
 			entity = {
-		clone = "ITA_cavalry_mg_combined_entity"
-		name = "ETH_cavalry_mg_combined_entity"
+		clone = "ITA_cavalry_2_entity"
+		name = "ETH_cavalry_2_entity"
 	}
+		
 	entity = {
 		name = "ITA_cavalry_mg_combined_entity"
 		pdxmesh = "infantry_cavalry_horse_mesh"
@@ -1345,10 +1375,11 @@
 		
 		scale = 0.65
 	}
-			entity = {
-		clone = "ITA_camelry_entity"
-		name = "ETH_camelry_entity"
+		entity = {
+		clone = "ITA_cavalry_mg_combined_entity"
+		name = "ETH_cavalry_mg_combined_entity"
 	}
+			
 	entity = {
 		name = "ITA_camelry_entity"
 		pdxmesh = "infantry_cavalry_horse_frame_mesh"
@@ -1368,10 +1399,11 @@
 		
 		scale = 1.0
 	}
-				entity = {
-		clone = "ITA_camelry_rifle_combined_entity"
-		name = "ETH_camelry_rifle_combined_entity"
+	entity = {
+		clone = "ITA_camelry_entity"
+		name = "ETH_camelry_entity"
 	}
+				
 	entity = {
 		name = "ITA_camelry_rifle_combined_entity"
 		pdxmesh = "infantry_cavalry_camel_mesh"
@@ -1387,10 +1419,11 @@
 		
 		scale = 0.65
 	}
-				entity = {
-		clone = "ITA_camelry_2_entity"
-		name = "ETH_camelry_2_entity"
+	entity = {
+		clone = "ITA_camelry_rifle_combined_entity"
+		name = "ETH_camelry_rifle_combined_entity"
 	}
+				
 	entity = {
 		name = "ITA_camelry_2_entity"
 		pdxmesh = "infantry_cavalry_horse_frame_mesh"
@@ -1410,10 +1443,11 @@
 		
 		scale = 1.0
 	}
-				entity = {
-		clone = "ITA_camelry_mg_combined_entity"
-		name = "ETH_camelry_mg_combined_entity"
+	entity = {
+		clone = "ITA_camelry_2_entity"
+		name = "ETH_camelry_2_entity"
 	}
+
 	entity = {
 		name = "ITA_camelry_mg_combined_entity"
 		pdxmesh = "infantry_cavalry_camel_mesh"
@@ -1431,7 +1465,10 @@
 		
 		scale = 0.65
 	}
-	
+	entity = {
+		clone = "ITA_camelry_mg_combined_entity"
+		name = "ETH_camelry_mg_combined_entity"
+	}
 ############
 #
 #

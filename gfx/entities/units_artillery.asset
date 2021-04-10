@@ -146,7 +146,10 @@ entity = {
 	attach = { name = artillery			artillery = "artillery_gun_entity" }
 	attach = { name = infantry			infantry = "FRA_infantry_entity" }
 }
-
+entity = { 
+	clone = "FRA_artillery_entity"
+	name = "EFR_artillery_entity"
+}
 entity = {
 	name = "GER_artillery_entity"
 	pdxmesh = "frame_artillery_mesh"
@@ -167,10 +170,7 @@ entity = {
 	attach = { name = artillery			artillery = "artillery_gun_entity" }
 	attach = { name = infantry			infantry = "GER_infantry_entity" }
 }
-	entity = {
-		name = "ETH_artillery_entity"
-		clone = "ITA_artillery_entity"
-	}
+
 entity = {
 	name = "ITA_artillery_entity"
 	pdxmesh = "frame_artillery_mesh"
@@ -191,7 +191,10 @@ entity = {
 	attach = { name = artillery			artillery = "artillery_gun_entity" }
 	attach = { name = infantry			infantry = "ITA_infantry_entity" }
 }
-
+	entity = {
+		name = "ETH_artillery_entity"
+		clone = "ITA_artillery_entity"
+	}
 entity = {
 	name = "SOV_artillery_entity"
 	pdxmesh = "frame_artillery_mesh"

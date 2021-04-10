@@ -859,6 +859,19 @@ entity = {
 	clone = "FRA_infantry_3_entity"
 	name = "BEL_infantry_3_entity"
 }
+
+entity = { 
+	clone = "FRA_infantry_entity"
+	name = "EFR_infantry_entity"
+}
+entity = { 
+	clone = "FRA_infantry_2_entity"
+	name = "EFR_infantry_2_entity"
+}
+entity = { 
+	clone = "FRA_infantry_3_entity"
+	name = "EFR_infantry_3_entity"
+}
 #################################
 
 

@@ -564,14 +564,6 @@
 		scale = 0.8			
 	}
 	
-	entity = {
-		name = "ETH_motorized_entity"
-		clone = "ITA_motorized_entity"
-	}
-	entity = {
-		name = "ETH_mechanized_entity"
-		clone = "ITA_mechanized_entity"
-	}
 	
 	#################################
 	#### BELGIUM - CLONED FRANCE ####
@@ -580,7 +572,19 @@
 		name = "BEL_motorized_entity"
 		clone = "FRA_motorized_entity"
 	}
-	#################################
+		entity = {
+		name = "EFR_motorized_entity"
+		clone = "FRA_motorized_entity"
+	}
+			entity = {
+		name = "EFR_mechanized_entity"
+		clone = "FRA_mechanized_entity"
+	}
+			entity = {
+		name = "EFR_vehicle_infantry_rifle_entity"
+		clone = "FRA_vehicle_infantry_rifle_entity"
+	}
+		#################################
 
 	#######
 	# GERMANY
@@ -742,10 +746,7 @@
 		}
 		scale = 0.6			
 	}
-		entity = {
-		name = "ETH_vehicle_infantry_rifle_entity"
-		clone = "ITA_vehicle_infantry_rifle_entity"
-	}
+
 	entity = {
 		name = "ITA_vehicle_infantry_rifle_entity"
 		pdxmesh = "ITA_infantry_rifle_mesh"	
@@ -783,7 +784,10 @@
 		
 		scale = 0.8			
 	}
-	
+			entity = {
+		name = "ETH_vehicle_infantry_rifle_entity"
+		clone = "ITA_vehicle_infantry_rifle_entity"
+	}
 	entity = {
 		name = "ITA_motorized_entity"
 		pdxmesh = "motorized_frame_mesh"
@@ -800,6 +804,14 @@
 		
 		attach = { 	name = "vehicle"			vehicle = "generic_motorized_vehicle_entity" }
 		attach = { 	name = "infantry"			infantry = "ITA_vehicle_infantry_rifle_entity" }
+	}	
+	entity = {
+		name = "ETH_motorized_entity"
+		clone = "ITA_motorized_entity"
+	}
+	entity = {
+		name = "ETH_mechanized_entity"
+		clone = "ITA_mechanized_entity"
 	}
 	
 	#######
