@@ -125,6 +125,50 @@ spriteTypes = {
 		name = "GFX_portrait_fra_maurice_thorez"
 		texturefile = "gfx/leaders/FRA/portrait_fra_maurice_thorez.dds"
 	}
+	
+		
+
+	spriteType = {
+		name = "GFX_Portrait_France_Generic_land_5"
+		texturefile = "gfx/leaders/FRA/Portrait_France_Generic_land_5.dds"
+	}
+				spriteType = {
+		name = "GFX_Portrait_France_Generic_land_3"
+		texturefile = "gfx/leaders/FRA/Portrait_France_Generic_land_3.dds"
+	}
+				spriteType = {
+		name = "GFX_Portrait_France_Generic_land_1"
+		texturefile = "gfx/leaders/FRA/Portrait_France_Generic_land_1.dds"
+	}
+				spriteType = {
+		name = "GFX_Portrait_France_Alphonse_Joseph_Georges"
+		texturefile = "gfx/leaders/FRA/Portrait_France_Alphonse_Joseph_Georges.dds"
+	}
+				spriteType = {
+		name = "GFX_Portrait_France_Generic_land_2"
+		texturefile = "gfx/leaders/FRA/Portrait_France_Generic_land_2.dds"
+	}
+				spriteType = {
+		name = "GFX_Portrait_France_Maxime_Weygand"
+		texturefile = "gfx/leaders/FRA/Portrait_France_Maxime_Weygand.dds"
+	}
+				spriteType = {
+		name = "GFX_Portrait_France_Maurice_Gamelin"
+		texturefile = "gfx/leaders/FRA/Portrait_France_Maurice_Gamelin.dds"
+	}
+				spriteType = {
+		name = "GFX_portrait_france_charles_huntziger"
+		texturefile = "gfx/leaders/FRA/portrait_france_charles_huntziger.dds"
+	}
+	
+					spriteType = {
+		name = "GFX_Portrait_SouthAfrica_Jan_Smuts"
+		texturefile = "gfx/leaders/SAF/Portrait_SouthAfrica_Jan_Smuts.dds"
+	}
+					spriteType = {
+		name = "GFX_Portrait_Britain_Archibald_Wavell"
+		texturefile = "gfx/leaders/ENG/Portrait_Britain_Archibald_Wavell.dds"
+	}
 
 	SpriteType = {
 		name = "GFX_portrait_fra_leon_blum"

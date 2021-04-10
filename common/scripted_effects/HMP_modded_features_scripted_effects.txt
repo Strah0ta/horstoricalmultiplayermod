@@ -2259,7 +2259,7 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "Yoshiko Kawashima" #Point Value: 20 #2/11/21 -Fortress Buster -Naval Liaison
-	gfx = "GFX_portrait_man_yoshiko_kawashima_army"
+	portrait_path = "gfx/leaders/MAN/portrait_jap_yoshiko_kawashima.dds"
 	traits = { infantry_leader infantry_expert naval_invader trickster expert_improviser invader_ii trait_engineer  trait_mountaineer }
 	skill = 6
 	attack_skill = 3
@@ -2682,7 +2682,7 @@ create_corps_commander = {
 }
 create_field_marshal = { 
     name = "Pietro Badoglio"  #Point Value: 16.5
-    picture = "Portrait_Italy_Pietro_Badoglio.dds"
+    portrait_path = "gfx/leaders/ITA/Portrait_Italy_Pietro_Badoglio.dds" 
     traits = { defensive_doctrine old_guard inflexible_strategist organizer infantry_leader infantry_expert unyielding_defender logistics_wizard  }
     skill = 6
     attack_skill = 3
@@ -2695,7 +2695,7 @@ create_field_marshal = {
 EFR = { 
 create_field_marshal = {
 	name = "Charles Huntziger" #Point Value: 16 #3/23/21 +Logistics Wizard
-	picture = "gfx/leaders/FRA/portrait_france_charles_huntziger.dds"
+	portrait_path = "gfx/leaders/FRA/portrait_france_charles_huntziger.dds"
 	traits = { old_guard organizer logistics_wizard thorough_planner infantry_leader infantry_expert panzer_leader panzer_expert }
 	skill = 7
 	attack_skill = 7
@@ -2706,7 +2706,7 @@ create_field_marshal = {
 
 create_field_marshal = {
 	name = "Maurice Gamelin" #Point Value: 16 #3/23/21 +Logistics Wizard
-	picture = "gfx/leaders/FRA/Portrait_France_Maurice_Gamelin.dds"
+	portrait_path = "gfx/leaders/FRA/Portrait_France_Maurice_Gamelin.dds"
 	traits = { defensive_doctrine logistics_wizard organizer old_guard inflexible_strategist trait_engineer infantry_leader infantry_expert  }
 	skill = 7
 	attack_skill = 5
@@ -2717,7 +2717,7 @@ create_field_marshal = {
 
 create_field_marshal = {
 	name = "Maxime Weygand" #Point Value: 16 #3/23/21 +Logistics Wizard +Trickster
-	picture = "gfx/leaders/FRA/Portrait_France_Maxime_Weygand.dds"
+	portrait_path = "gfx/leaders/FRA/Portrait_France_Maxime_Weygand.dds"
 	traits = { defensive_doctrine trickster logistics_wizard organizer old_guard inflexible_strategist panzer_leader panzer_expert }
 	skill = 7
 	attack_skill = 7
@@ -2727,7 +2727,7 @@ create_field_marshal = {
 }
 create_field_marshal = {
 	name = "Antoine-Marie-Benoît Besson" #Point Value: 16 #3/23/21 Logistics Wizard
-	picture = "gfx/leaders/FRA/Portrait_France_Generic_land_2.dds"
+	portrait_path = "gfx/leaders/FRA/Portrait_France_Generic_land_2.dds"
 	traits = { defensive_doctrine logistics_wizard organizer old_guard inflexible_strategist trait_engineer infantry_leader ambusher }
 	skill = 7
 	attack_skill = 5
@@ -2737,7 +2737,7 @@ create_field_marshal = {
 }
 create_corps_commander = {
 	name = "Alphonse Georges" #Point Value: 20
-	picture = "gfx/leaders/FRA/Portrait_France_Alphonse_Joseph_Georges.dds"
+	portrait_path = "gfx/leaders/FRA/Portrait_France_Alphonse_Joseph_Georges.dds"
 	traits = { old_guard inflexible_strategist commando camouflage_expert cavalry_leader combined_arms_expert ambusher trickster guerilla_fighter urban_assault_specialist  }
 	skill = 7
 	attack_skill = 3
@@ -2748,7 +2748,7 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "Gaston-Henri Billotte" #Point Value: 20 #3/23/21 +Guerilla Fighter +Desert Fox +Mountaineer	+Skirmisher +Fake Skilled Staffer
-	picture = "gfx/leaders/FRA/Portrait_France_Generic_land_1.dds"
+	portrait_path = "gfx/leaders/FRA/Portrait_France_Generic_land_1.dds"
 	traits = { old_guard trait_cautious infantry_leader ambusher hill_fighter guerilla_fighter desert_fox trait_mountaineer skirmisher fake_skilled_staffer }
 	skill = 7
 	attack_skill = 4
@@ -2759,7 +2759,7 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "Henry Freydenberg" #Point Value: 20 #3/23/21 +Ranger 
-	picture = "gfx/leaders/FRA/Portrait_France_Generic_land_3.dds"
+	portrait_path = "gfx/leaders/FRA/Portrait_France_Generic_land_3.dds"
 	traits = { old_guard infantry_leader infantry_expert ranger jungle_rat trickster expert_improviser guerilla_fighter }
 	skill = 7
 	attack_skill = 9
@@ -2770,7 +2770,7 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "René Olry" #Point Value: 20      #3/23/21 +Paratrooper +Fortress Buster
-	picture = "gfx/leaders/FRA/Portrait_France_Generic_land_5.dds"
+	portrait_path = "gfx/leaders/FRA/Portrait_France_Generic_land_5.dds"
 	traits = { old_guard infantry_leader paratrooper adaptable fortress_buster infantry_expert trait_mountaineer }
 	skill = 7
 	attack_skill = 3
@@ -4154,7 +4154,7 @@ create_corps_commander = {  #Toxic
 SAF = {
 create_field_marshal = {
 	name = "Jan Smuts" #Point Value: 16 #3/23/21 -Fast Planner -Offensive Doctrine 
-	gfx = "GFX_SAF_Jan_Smuts"
+	portrait_path = "gfx/leaders/SAF/Portrait_SouthAfrica_Jan_Smuts.dds"
 	traits = { panzer_leader panzer_expert desert_fox infantry_leader infantry_expert trickster organizer logistics_wizard  defensive_doctrine  }
 	skill = 6
 	attack_skill = 5
@@ -4172,15 +4172,18 @@ create_corps_commander = {
 	planning_skill = 5
 	logistics_skill = 7
 }
+
+
+
 create_corps_commander = {
-	name = "Pierre van Ryneveld" #Point Value: 18 #3/23/21 +Mountaineer
-	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
+	name = "Dan Pienaar" #Point Value: 18 #3/23/21 +Mountaineer
+	portrait_path = "gfx/leaders/SAF/Portrait_SAF_Dan_Pienaar.tga"
 	traits = { infantry_leader infantry_expert desert_fox trait_mountaineer naval_invader invader_ii trickster guerilla_fighter }
 	skill = 6
-	attack_skill = 3
+	attack_skill = 4
 	defense_skill = 4
 	planning_skill = 5
-	logistics_skill = 7
+	logistics_skill = 6
 }
 }
 
