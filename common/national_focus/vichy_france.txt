@@ -685,7 +685,7 @@
 				create_country_leader = {
 					name = "Pierre Laval"
 					#desc = "POLITICS_ÉDOUARD_DALADIER_DESC"
-					picture = GFX_portrait_fra_pierre_laval
+					picture = "gfx/leaders/FRA/portrait_fra_pierre_laval.dds"
 					expire = "1965.1.1"
 					ideology = rexism
 					traits = {
