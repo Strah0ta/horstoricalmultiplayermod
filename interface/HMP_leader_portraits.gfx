@@ -179,7 +179,7 @@ spriteTypes = {
 		texturefile = "gfx/leaders/ALB/portrait_irq_rashid_al_gaylani.dds"
 	}
 	SpriteType = {
-		name = "GFX_Potrait_NZL_Lindsay"
-		texturefile = "gfx/leaders/NZL/Potrait_NZL_Lindsay.dds"	
+		name = "GFX_Portrait_New_Zealand_Leslie_Andrew"
+		texturefile = "gfx/leaders/NZL/Portrait_New_Zealand_Leslie_Andrew.dds"	
 	}	
 	

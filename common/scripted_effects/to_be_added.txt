@@ -10,12 +10,12 @@ create_field_marshal = {
 	logistics_skill = 5
 }
 create_corps_commander = {     #NZL#
-    name = "Lindsay Merritt Inglis" #Point Value: 20 #5/4/21 -Engineer -SCAVENGER
-    picture = "Potrait_NZL_Lindsay.dds"
+    name = "Leslie Andrew" #Point Value: 17
+    picture = "Portrait_New_Zealand_Leslie_Andrew.dds"
     traits = {  desert_fox  panzer_leader panzer_expert organizer trickster expert_improviser }
     skill = 6
     attack_skill = 5
     defense_skill = 4
     planning_skill = 5
-    logistics_skill = 5  '#ITS RDY TO UPDATE I GUESS
+    logistics_skill = 5  
 }
