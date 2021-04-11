@@ -2410,9 +2410,9 @@ create_corps_commander = {     #ROM#
     name = "Nicolae Ciuperca"  #Point Value: 19 
     picture = "Portrait_Romania_Nicolae_Ciuperca.tga"
     traits = {  desert_fox panzer_leader panzer_expert organizer trickster expert_improviser trait_engineer  }
-    skill = 6
+    skill = 7
     attack_skill = 6
-    defense_skill = 4
+    defense_skill = 6
     planning_skill = 5
     logistics_skill = 5 
 }
