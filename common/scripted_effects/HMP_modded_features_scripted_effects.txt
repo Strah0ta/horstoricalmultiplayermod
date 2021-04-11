@@ -4152,10 +4152,20 @@ create_corps_commander = {  #Toxic
 
 }
 SAF = {
+create_field_marshal = { 
+	name = "Dan Pienaar" # Point value: 14
+	portrait_path = "gfx/leaders/SAF/Portrait_SAF_Dan_Pienaar.tga"
+	traits = { brilliant_strategist infantry_leader naval_invader aggressive_assaulter infantry_expert Organizer logistics_wizard trait_mountaineer naval_liason}
+	skill = 6
+	attack_skill = 6
+	defense_skill = 3
+	planning_skill = 5
+	logistics_skill = 5
+}
 create_field_marshal = {
 	name = "Jan Smuts" #Point Value: 16 #3/23/21 -Fast Planner -Offensive Doctrine 
 	portrait_path = "gfx/leaders/SAF/Portrait_SouthAfrica_Jan_Smuts.dds"
-	traits = { panzer_leader panzer_expert desert_fox infantry_leader infantry_expert trickster organizer logistics_wizard  defensive_doctrine  }
+	traits = { panzer_leader panzer_expert desert_fox trickster organizer logistics_wizard  defensive_doctrine  }
 	skill = 6
 	attack_skill = 5
 	defense_skill = 3
@@ -4173,11 +4183,9 @@ create_corps_commander = {
 	logistics_skill = 7
 }
 
-
-
 create_corps_commander = {
-	name = "Dan Pienaar" #Point Value: 18 #3/23/21 +Mountaineer
-	portrait_path = "gfx/leaders/SAF/Portrait_SAF_Dan_Pienaar.tga"
+	name = "Christoffel Venter" #Point Value: 18 #3/23/21 +Mountaineer
+	portrait_path = "gfx/leaders/SAF/Portrait_SAF_Christoffel_Venter.tga"
 	traits = { infantry_leader infantry_expert desert_fox trait_mountaineer naval_invader invader_ii trickster guerilla_fighter }
 	skill = 6
 	attack_skill = 4

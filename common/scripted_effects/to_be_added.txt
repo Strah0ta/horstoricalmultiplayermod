@@ -1,12 +1,6 @@
 custom_generals = {
-create_field_marshal = { 
-	name = "Dan Pienaar" # Point value: 14
-	picture = "Portrait_SAF_Dan_Pienaar.tga"
-	traits = { brilliant_strategist infantry_leader naval_invader aggressive_assaulter infantry_expert Organizer logistics_wizard trait_mountaineer naval_liason}
-	skill = 6
-	attack_skill = 6
-	defense_skill = 3
-	planning_skill = 5
-	logistics_skill = 5
-}
+
+
+
+
 }
