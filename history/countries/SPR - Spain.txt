@@ -7,6 +7,7 @@ set_variable = {
     var = min_fuel
     value = 0.800
 }
+set_cosmetic_tag = SPR_fascism
 set_rule = { 	can_be_spymaster = no	can_send_volunteers = no }
  create_intelligence_agency = yes
  add_timed_idea = { idea = GER_mefo_bills_1 days = 730 }

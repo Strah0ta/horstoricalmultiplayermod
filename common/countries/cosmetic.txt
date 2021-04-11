@@ -85,12 +85,12 @@ GER_greater_german_reich = {
 }
 
 CAN_north_america_dominion = {
-	color = rgb { 160 0 0 }
+	color = rgb { 160 0 0 } 
 	color_ui = rgb { 235 0 0 }
 }
 SPR_republican_spain = {	color = rgb { 242 205 94 }	color_ui = rgb { 255 255 122 }}
 SPR_nationalist_spain = {	color = rgb { 200 100 31 }	color_ui = rgb { 245 123 38 }}
-FRA_VICHY = {	color = rgb { 80 168 181 }	color_ui = rgb {115 185 196 }}
+FRA_VICHY = {	color = rgb { 126  76  120 }	color_ui = rgb {126  76  120 }}
 
 EFR_STATE = {
    color = rgb { 57 74 228 }
