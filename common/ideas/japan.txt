@@ -506,13 +506,13 @@ ideas = {
 		hitoshi_imamura = {
 			ledger = army
 			allowed = {	original_tag = JAP	}
-			traits = { army_armored_1 }
+			traits = { army_armored_2 }
 		}
 		
 		yasuji_okamura = {
 			ledger = army
 			allowed = {	original_tag = JAP	}
-			traits = { army_infantry_2 }
+			traits = { army_infantry_3 }
 		}
 		
 		shunroku_hata = {
