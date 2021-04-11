@@ -177,5 +177,9 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_portrait_irq_rashid_al_gaylani"
 		texturefile = "gfx/leaders/ALB/portrait_irq_rashid_al_gaylani.dds"
-	}	
 	}
+	SpriteType = {
+		name = "GFX_Potrait_NZL_Lindsay"
+		texturefile = "gfx/leaders/NZL/Potrait_NZL_Lindsay.dds"	
+	}	
+	
