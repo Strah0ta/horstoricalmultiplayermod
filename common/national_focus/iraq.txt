@@ -26,7 +26,7 @@ focus_tree = {
 		add_ideas = rashid_al_gaylani  add_ideas = rashid_al_gaylani2 add_ideas = rashid_al_gaylani3
 		the_golden_coup_has_been_launched = yes 
 		set_cosmetic_tag = IRQ_fascism
-		set_cosmetic_tag = ALB_IRQ
+		#set_cosmetic_tag = ALB_IRQ
 		} 
 	}
 					focus = {
@@ -233,7 +233,6 @@ focus_tree = {
 		available =  { OR = { controls_state = 554 ITA = { controls_state = 554 }} }
 
 		completion_reward = {
-		hidden_effect = { set_cosmetic_tag = ALB_IRQSYR } custom_effect_tooltip = "We will be known as Golden Square Iraq and Syria"
 			transfer_state = 554 add_state_core = 554
 		}
 	}		
@@ -309,7 +308,7 @@ focus_tree = {
 		relative_position_id = IRQ_revolution6
 		prerequisite = {  focus = IRQ_revolution6 } prerequisite = {  focus = IRQ_revolution5 } prerequisite = {  focus = IRQ_eco4 }  prerequisite = {  focus = IRQ_army_doctrine5 }   
 		available_if_capitulated = yes
- 
+		available = { always = no}
 		completion_reward = {
 			hidden_effect = {  set_cosmetic_tag = IRQ_ASSYRIA } custom_effect_tooltip = "We will be known as Assyrian State"
 		}
