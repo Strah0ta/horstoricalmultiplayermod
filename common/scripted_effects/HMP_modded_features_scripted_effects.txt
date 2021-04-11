@@ -2407,7 +2407,7 @@ create_field_marshal = {
 }
 
 create_corps_commander = {     #ROM#
-    name = "Romania Nicolae Ciuperca"  #Point Value: 19 
+    name = "Nicolae Ciuperca"  #Point Value: 19 
     picture = "Portrait_Romania_Nicolae_Ciuperca.tga"
     traits = {  desert_fox panzer_leader panzer_expert organizer trickster expert_improviser trait_engineer  }
     skill = 6
