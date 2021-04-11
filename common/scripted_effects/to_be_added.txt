@@ -1,32 +1,6 @@
 custom_generals = {
-create_field_marshal = { 
-	name = "Dan Pienaar" # Point value: 14
-	picture = "Portrait_SAF_Dan_Pienaar.tga"
-	traits = { brilliant_strategist infantry_leader naval_invader aggressive_assaulter infantry_expert Organizer logistics_wizard trait_mountaineer naval_liason}
-	skill = 6
-	attack_skill = 6
-	defense_skill = 3
-	planning_skill = 5
-	logistics_skill = 5
-}
-create_corps_commander = {     #NZL#
-    name = "Lindsay Merritt Inglis" #Point Value: 20 #5/4/21 -Engineer -SCAVENGER
-    picture = "Potrait_NZL_Lindsay.dds"
-    traits = {  desert_fox  panzer_leader panzer_expert organizer trickster expert_improviser }
-    skill = 6
-    attack_skill = 5
-    defense_skill = 4
-    planning_skill = 5
-    logistics_skill = 5  '#ITS RDY TO UPDATE I GUESS
-}
-create_corps_commander = {     #ROM#
-    name = "Romania Nicolae Ciuperca" 
-    picture = "Portrait_Romania_Nicolae_Ciuperca.dds"
-    traits = {  desert_fox  panzer_leader panzer_expert organizer trickster expert_improviser trait_engineer logistics_wizard  }
-    skill = 6
-    attack_skill = 6
-    defense_skill = 4
-    planning_skill = 5
-    logistics_skill = 5 
-}
+
+
+
+
 }

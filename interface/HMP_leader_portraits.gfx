@@ -184,6 +184,6 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_Portrait_Romania_Nicolae_Ciuperca"
-		texturefile = "gfx/leaders/ROM/Portrait_Romania_Nicolae_Ciuperca.dds"
+		texturefile = "gfx/leaders/ROM/Portrait_Romania_Nicolae_Ciuperca.tga"
     }	
 	
