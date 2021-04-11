@@ -181,5 +181,9 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_Potrait_NZL_Lindsay"
 		texturefile = "gfx/leaders/NZL/Potrait_NZL_Lindsay.dds"	
-	}	
+	}
+	SpriteType = {
+		name = "GFX_Portrait_Romania_Nicolae_Ciuperca"
+		texturefile = "gfx/leaders/ROM/Portrait_Romania_Nicolae_Ciuperca.dds"
+    }	
 	
