@@ -3482,63 +3482,6 @@ SOV_great_patriotic_war = {
 	}
 }
 
-lar_local_recruitment = {
-	recruit_in_europe_state = {
-		icon = onmap_recruit_operative
-		allowed = { normally_played_country = yes } 
-		state_target = yes
-		target_trigger = {
-			FROM = {
-				OR = {
-					AND = {
-						has_variable = historical_capital_for_country
-						var:historical_capital_for_country = {
-							exists = yes
-							has_capitulated = yes
-							NOT = { tag = ROOT }
-						}
-					}
-					AND = {
-						is_capital = yes
-						CONTROLLER = {
-							NOT = { OR = { is_in_faction_with = ROOT tag = ROOT tag = AUS tag = CZE tag = POL tag = CHI tag = LAT tag = SWE tag = PER tag = DEN tag = HOL tag = BEL tag = GRE tag = YUG }}
-						}
-					}
-				}
-			}
-		}
-		visible = {	NOT = { has_country_flag = europe_recruitment_in_process }	}
-
-		fire_only_once = no
-		cost = 0
-
-		days_re_enable = 180
-		on_map_mode = map_and_decisions_view 
-		complete_effect = {
-			set_country_flag = { flag = europe_recruitment_in_process days = 180 value = 1 }
-			if = {
-				limit = {
-					num_of_operatives < num_operative_slots
-				}
-				custom_effect_tooltip = recruit_in_state_tt
-			}
-			else = {
-				custom_effect_tooltip = recruit_in_state_to_pool_tt
-			}
-			hidden_effect = {
-				create_operative_leader = {
-					bypass_recruitment = yes
-					nationalities = { FROM.OWNER }
-					portrait_tag_override = FROM.OWNER
-				}
-			}
-		}
-	}
-}
-
-
-
-
 political_actions = {
 
 		ETH_declare_for_alb = { 
