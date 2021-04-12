@@ -173,6 +173,8 @@ NDefines.NOperatives.OPERATION_COMPLETION_XP = 100
 NDefines.NOperatives.ON_CAPTURE_COUNTERINTELLIGENCE_OPERATIVE_XP_GAIN = 300
 NDefines.NOperatives.INTEL_NETWORK_MIN_VP_TO_TARGET = 0
 NDefines.NOperatives.INTEL_NETWORK_MIN_STRENGTH_TO_TARGET = 1
+NDefines.NOperatives.OPERATIVE_BASE_INTEL_AGENCY_DEFENSE = 0				-- Base amount of intel agency defense contributed by an operative on counter_intelligence mission
+
 NDefines.NOperatives.AGENCY_DEFENSE_EFFECT_ON_HOSTILE_ACTION_COST = 0.1
 NDefines.NIntel.ARMY_MIN_INTEL_RATIO_NEEDED_FOR_DISPLAYING_FAKE_ENEMY_INTEL_IN_LEDGER = 1
 NDefines.NIntel.ARMY_INTEL_COMBAT_BONUS_MAX_BONUS = 0 -- max combat bonus that will apply when intel is high enough

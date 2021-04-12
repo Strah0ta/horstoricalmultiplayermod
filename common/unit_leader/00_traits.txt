@@ -425,16 +425,6 @@ leader_traits = {
 		gui_row = 1
 	}
 	
-		fake_commando = { 
-			type = corps_commander
-			trait_type = personality_trait
-			corps_commander_modifier = { out_of_supply_factor = -0.25 }
-		}
-		fake_infantry_leader = { 
-			type = corps_commander
-			trait_type = personality_trait
-			corps_commander_modifier = { army_infantry_defence_factor = 0.1 }
-		}
 		fake_skilled_staffer = { 
 		type = corps_commander
 		trait_type = personality_trait
@@ -1134,7 +1124,6 @@ leader_traits = {
 		cost = 400
 		gain_xp_leader = {
 			OR = {
-				operative_leader_operation = operation_rescue_operative
 				operative_leader_operation = operation_infiltrate_civilian
 				operative_leader_operation = operation_infiltrate_armed_forces_army
 				operative_leader_operation = operation_infiltrate_armed_forces_navy
@@ -1145,18 +1134,6 @@ leader_traits = {
 		modifier = { 
 			operation_infiltrate_outcome = 0.25
 			operation_infiltrate_risk = -0.25
-		}
-	}
-
-	operative_master_interrogator = {
-		type = operative
-		trait_type = basic_trait
-
-		cost = 400
-		gain_xp_leader = {	operative_leader_mission = counter_intelligence	}
-
-		modifier = {
-			intelligence_agency_defense = 0.2
 		}
 	}
 
@@ -1188,27 +1165,6 @@ leader_traits = {
 		}
 	}
 	
-	operative_triple_agent = {
-		type = operative
-		trait_type = personality_trait
-
-		new_commander_weight = {
-			factor = 0 # only from events
-		}
-
-		modifier = {
-			# something good
-		}
-	}
-	
-	operative_tough = {
-		type = operative
-		trait_type = personality_trait
-
-		modifier = {
-			enemy_operative_intel_extraction_rate = -0.5
-		}
-	}
 
 	operative_safe_cracker = {
 		type = operative
@@ -1220,15 +1176,6 @@ leader_traits = {
 
 		modifier = {
 			operation_capture_cipher_outcome = 0.5
-		}
-	}
-
-	operative_escape_artist = {
-		type = operative
-		trait_type = basic_trait
-		modifier = {
-			operation_rescue_operative_risk = -0.1
-			operation_rescue_operative_cost = -0.1
 		}
 	}
 }
