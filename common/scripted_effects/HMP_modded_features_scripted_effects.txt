@@ -4084,9 +4084,9 @@ create_field_marshal = {
 	logistics_skill = 6
 }
 create_corps_commander = {   
-    name = "Leslie Andrew" #Point Value: 17
+    name = "Leslie Andrew" #Point Value: 18 #4/12/21 +Hill Fighter -Organizer
     picture = "Portrait_New_Zealand_Leslie_Andrew.dds"
-    traits = {  desert_fox  panzer_leader panzer_expert organizer trickster expert_improviser }
+    traits = {  desert_fox hill_fighter panzer_leader panzer_expert trickster expert_improviser }
     skill = 6
     attack_skill = 5
     defense_skill = 4
@@ -4094,9 +4094,9 @@ create_corps_commander = {
     logistics_skill = 5  
 }
 create_corps_commander = {
-	name = "William Stevens" #Point Value: 14 #3/23/21 -Engineer -SCAVENGER
+	name = "William Stevens" #Point Value: 18 #3/23/21 -Engineer -SCAVENGER #4/12/21 +Jungle Rat +Ranger
 	gfx = "GFX_NZL_william_stevens"
-	traits = { panzer_leader panzer_expert trickster expert_improviser }
+	traits = { jungle_rat ranger panzer_leader panzer_expert trickster expert_improviser }
 	skill = 6
 	attack_skill = 5
 	defense_skill = 3
