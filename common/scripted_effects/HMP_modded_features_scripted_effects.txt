@@ -4118,20 +4118,51 @@ create_corps_commander = {
 }
 }
 BRA = { 
+create_corps_commander = {
+	name = "Eurico Gaspar Dutra"
+	portrait_path = "gfx/leaders/BRA/Eurico_Gaspar_Dutra.tga"
+	traits = { ranger  }
+	skill = 6
+	attack_skill = 4
+	defense_skill = 4
+	planning_skill = 6
+	logistics_skill = 5
+	}
 
+create_corps_commander = {
+	name = "Mascarenhas de Morais"
+	portrait_path = "gfx/leaders/BRA/Mascarenhas_de_Morais.tga"
+	traits = { naval_liason infantry_leader infantry_expert trait_mountaineer jungle_rat expert_improviser swamp_fox cavalry_expert cavalry_leader   }
+	skill = 6
+	attack_skill = 4
+	defense_skill = 4
+	planning_skill = 6
+	logistics_skill = 5
+	}
+
+create_navy_leader = {
+	name = "Nelson Mello"
+	portrait_path = "gfx/leaders/BRA/Nelson_Mello.tga"
+	traits = { ironside fleet_protector destroyer_leader ground_pounder superior_tactician concealment_expert }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	maneuvering_skill = 3
+	coordination_skill = 5
+}
 create_field_marshal = { 
 	name = "Odilio Denys"
 	gfx = "GFX_portrait_BRA_Odilio_Denys"
 	traits = { organizer logistics_wizard organisational_leader offensive_doctrine fast_planner commando panzer_leader trait_engineer panzer_expert   }
 	skill = 6
-	attack_skill = 5
+	attack_skill = 4
 	defense_skill = 3
 	planning_skill = 6
 	logistics_skill = 6
 }
 create_field_marshal = {
 	name = "João Baptista de Mattos" 
-	gfx = "GFX_portrait_BRA_João_Baptista_de_Mattos
+	gfx = "GFX_portrait_BRA_João_Baptista_de_Mattos"
 	traits = { organizer logistics_wizard infantry_leader infantry_expert jungle_rat trait_mountaineer hill_fighter thorough_planner }
 	skill = 6
 	attack_skill = 4
@@ -4139,16 +4170,7 @@ create_field_marshal = {
 	planning_skill = 6
 	logistics_skill = 6
 }
-create_corps_commander = { 
-	name = "Prestes" 
-	gfx = "GFX_Portrait_BRA_Prestes"
-	traits = { naval_liason infantry_leader infantry_expert trait_mountaineer jungle_rat expert_improviser swamp_fox cavalry_expert cavalry_leader   }
-	skill = 6
-	attack_skill = 4
-	defense_skill = 4
-	planning_skill = 6
-	logistics_skill = 5
-}
+
 create_corps_commander = {
 	name = "Euclides Zenobio Da Costa" 
 	gfx = "GFX_portrait_BRA_Euclides_Zenobio_Da_Costa"
@@ -4157,7 +4179,7 @@ create_corps_commander = {
 	attack_skill = 3
 	defense_skill = 4
 	planning_skill = 6
-	logistics_skill = 5
+	logistics_skill = 6
 }
 create_corps_commander = {
 	name = "Canrobert Pereira Da Costa" 
@@ -4167,7 +4189,7 @@ create_corps_commander = {
 	attack_skill = 5
 	defense_skill = 4
 	planning_skill = 5
-	logistics_skill = 6
+	logistics_skill = 5
 }
 
 }

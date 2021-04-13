@@ -1,15 +1,19 @@
 
 state={
 	id=477
-	name="STATE_590" # Akmolinsk
-	manpower = 1
+	name="Rio Grande Do Norte" # Akmolinsk
+	manpower = 11300000
 	
-	state_category = town
+	state_category = large_city
 
 	history={
-owner = BRA
+		owner = BRA
 		add_core_of = BRA
-		
+		buildings ={ 
+			infrastructure = 4
+			industrial_complex = 3
+			air_base = 4
+		}
 	}
 
 	provinces={
