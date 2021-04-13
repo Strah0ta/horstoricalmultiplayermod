@@ -184,6 +184,32 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_Portrait_Romania_Nicolae_Ciuperca"
+<<<<<<< HEAD
 		texturefile = "gfx/leaders/ROM/Portrait_Romania_Nicolae_Ciuperca.dds"
+    }	#BRA
+	spriteType = {
+		name = "GFX_portrait_BRA_Odilio_Denys"
+		texturefile = "gfx/leaders/BRA/portrait_BRA_Odilio_Denys.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_portrait_BRA_João_Baptista_de_Mattos"
+		texturefile = "gfx/leaders/BRA/portrait_BRA_João_Baptista_de_Mattos.dds"
+	}
+	SpriteType = {
+		name = "GFX_Portrait_BRA_Prestes"
+		texturefile = "gfx/leaders/BRA/Portrait_BRA_Prestes.dds"
+	}	
+	SpriteType = {
+		name = "GFX_portrait_BRA_Euclides_Zenobio_Da_Costa"
+		texturefile = "gfx/leaders/BRA/portrait_BRA_Euclides_Zenobio_Da_Costa.dds"	
+	}
+	SpriteType = {
+		name = "GFX_portrait_BRA_Canrobert_Pereira_Da_Costa"
+		texturefile = "gfx/leaders/BRA/portrait_BRA_Canrobert_Pereira_Da_Costa.dds"	
+	}
+=======
+		texturefile = "gfx/leaders/ROM/Portrait_Romania_Nicolae_Ciuperca.tga"
     }	
+>>>>>>> c9fbb1028578e944942d05e33dd498ab2b441f5e
 	

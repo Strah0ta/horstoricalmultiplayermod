@@ -318,22 +318,22 @@ guiTypes = {
 			name = "btn_mission_3"
 			spriteType = "GFX_operative_mission_button_background"
 			clicksound = click_default
-			position = { x=5 y=@btn_mission_y }
+			position = { x=5 y=3333 }
 			frame = 1
-			shortcut = "z"
+			shortcut = ""
 		}
 		iconType = {
 			name = "icn_mission_3"
 			spriteType = "GFX_operative_mission_icons"
 			frame = 3
-			position = { x=12 y=@icn_mission_y }
+			position = { x=12 y=3333 }
 			alwaystransparent = yes
 		}
 		iconType = {
 			name = "icn_mission_active_3"
 			spriteType = "GFX_operative_mission_active"
 			frame = 1
-			position = { x=5 y=@btn_mission_y }
+			position = { x=5 y=3333 }
 			alwaystransparent = yes
 		}
 
@@ -389,7 +389,7 @@ guiTypes = {
 			clicksound = click_default
 			position = { x=155 y=333 }
 			frame = 1
-			shortcut = "v"
+			shortcut = ""
 		}
 		iconType = {
 			name = "icn_mission_5"
@@ -412,7 +412,7 @@ guiTypes = {
 			clicksound = click_default
 			position = { x=155 y=333  }
 			frame = 1
-			shortcut = "b"
+			shortcut = ""
 		}
 		iconType = {
 			name = "icn_mission_8"
@@ -435,7 +435,7 @@ guiTypes = {
 			clicksound = click_default 
 			position = { x=1533335 y=@btn_mission_y }
 			frame = 1 
-			shortcut = "n"
+			shortcut = ""
 		}
 		iconType = { 
 			name = "icn_mission_4"
@@ -458,7 +458,7 @@ guiTypes = {
 			clicksound = click_default
 			position = { x=155 y=3304 }
 			frame = 1
-			#shortcut = "m"
+			#shortcut = ""
 		}
 		iconType = {
 			name = "icn_mission_6"
@@ -481,7 +481,7 @@ guiTypes = {
 			clicksound = click_default
 			position = { x=155 y=3304 }
 			frame = 1
-			#shortcut = "d"
+			#shortcut = ""
 		}
 		iconType = {
 			name = "icn_mission_7"

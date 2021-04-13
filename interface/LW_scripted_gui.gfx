@@ -19,7 +19,7 @@ spriteTypes = {
     }
 	
 	
-		  spriteType = {
+	spriteType = {
         name = "GFX_horst_addcheat"
         texturefile = "gfx/horst_gui/horsttool/horst_addcheat.dds"
         effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
@@ -34,10 +34,4 @@ spriteTypes = {
         texturefile = "gfx/horst_gui/horsttool/horst_addpp.dds"
         effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
     }
-	 
-	SpriteType = {#where was this from again?
-		name = "GFX_pol_goal_popup_bg2"
-		textureFile = "gfx/interface/pol_goal_popup_bg2.dds"
-	}
-	
 }

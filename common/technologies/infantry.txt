@@ -1295,7 +1295,7 @@ technologies = {
 			motorized_rocket_equipment_1
 		}
 	
-		research_cost = 1.5
+		research_cost = 1
 		start_year = 1939
 		sub_tech_index = 0
 		
