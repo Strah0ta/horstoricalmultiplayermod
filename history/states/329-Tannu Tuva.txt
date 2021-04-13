@@ -2,7 +2,7 @@
 state={
 	id=329
 	name="Bahia"
-	manpower = 8413000
+	manpower = 8313000
 	
 	state_category = large_city
 

@@ -212,11 +212,20 @@
 		available_if_capitulated = yes
 
 		completion_reward = {
+					add_tech_bonus = {
+				name = armor_bonus
+				ahead_reduction = 2
+				bonus = 1.0
+				uses = 1
+				technology = basic_medium_tank
+				
+			}
 			add_tech_bonus = {
 				name = armor_bonus
 				bonus = 1.0
 				uses = 2
-				category = armor
+				category = cat_1941_tanks
+				category = cat_1943_tanks	
 			}
 		}
 	}
@@ -1302,6 +1311,9 @@
 		x = 0
 		y = 1
 		relative_position_id = infrastructure_effort_2
+				available = {
+			num_of_factories > 50
+		}
 		cost = 10
 
 		search_filters = { FOCUS_FILTER_RESEARCH } 
@@ -1312,29 +1324,6 @@
 			add_research_slot = 1
 		}
 	}
-	
-	focus = {
-		id = extra_tech_slot_2
-		icon = GFX_focus_research
-		prerequisite = { focus = extra_tech_slot }
-		available = {
-			num_of_factories > 50
-		}
-		cancel_if_invalid = no
-		continue_if_invalid = yes
-		x = 0
-		y = 1
-		relative_position_id = extra_tech_slot
-		cost = 10
-
-		search_filters = { FOCUS_FILTER_RESEARCH } 
-		
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_research_slot = 1
-		}
-	}	
 
 	focus = {
 		id = secret_weapons

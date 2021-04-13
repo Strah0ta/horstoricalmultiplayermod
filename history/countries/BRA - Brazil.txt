@@ -1,6 +1,5 @@
 ﻿capital = 500
 
-
 oob = "BRA_1936"
 add_ideas = manpower_early
 
@@ -32,7 +31,7 @@ set_technology = {
 
 set_rule = { can_be_spymaster = no }
 
-set_research_slots = 3 
+set_research_slots = 4
 
 add_equipment_to_stockpile = { type = infantry_equipment_1 amount = 2500	 }
 add_equipment_to_stockpile = { type = support_equipment_1 amount = 50 }
