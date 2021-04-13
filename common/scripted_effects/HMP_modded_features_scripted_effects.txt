@@ -2407,7 +2407,16 @@ create_field_marshal = {
 	planning_skill = 4
 	logistics_skill = 5
 }
-
+create_corps_commander = {     #ROM#
+    name = "Nicolae Ciuperca"  #Point Value: 19 
+    picture = "Portrait_Romania_Nicolae_Ciuperca.tga"
+    traits = {  desert_fox panzer_leader panzer_expert organizer trickster expert_improviser trait_engineer  }
+    skill = 7
+    attack_skill = 6
+    defense_skill = 6
+    planning_skill = 5
+    logistics_skill = 5 
+}
 create_field_marshal = {
 	name = "Ion Antonescu" #Point Value: 20 #2/6/21 -Fast Planner -Hill Fighter -Offensive Doctrine
 	picture = "Portrait_Romania_Ion_Antonescu.dds" #Panzer Leader/Expert will be freebies so 20 point FM
@@ -4066,6 +4075,16 @@ create_corps_commander = {
 
 NZL = {
 create_corps_commander = {
+    name = "Leslie Andrew" #Point Value: 18 #4/12/21 +Hill Fighter -Organizer
+    picture = "Portrait_New_Zealand_Leslie_Andrew.dds"
+    traits = {  desert_fox hill_fighter panzer_leader panzer_expert trickster expert_improviser }
+    skill = 6
+    attack_skill = 5
+    defense_skill = 4
+    planning_skill = 5
+    logistics_skill = 5  
+}
+create_corps_commander = {
 	name = "Bernard Freyberg" #Point Value: 18 #3/23/21 -Desert Fox -Guerilla Fighter +Adaptable
 	gfx = "GFX_NZL_bernard_freyberg"
 	traits = { infantry_leader infantry_expert adaptable  naval_invader invader_ii trickster }
@@ -4088,9 +4107,9 @@ create_field_marshal = {
 }
 
 create_corps_commander = {
-	name = "William Stevens" #Point Value: 14 #3/23/21 -Engineer -SCAVENGER
+	name = "William Stevens" #Point Value: 18 #3/23/21 -Engineer -SCAVENGER #4/12/21 +Jungle Rat +Ranger
 	gfx = "GFX_NZL_william_stevens"
-	traits = { panzer_leader panzer_expert trickster expert_improviser }
+	traits = { jungle_rat ranger panzer_leader panzer_expert trickster expert_improviser }
 	skill = 6
 	attack_skill = 5
 	defense_skill = 3
@@ -4098,7 +4117,60 @@ create_corps_commander = {
 	logistics_skill = 6
 }
 }
+BRA = { 
 
+create_field_marshal = { 
+	name = "Odilio Denys"
+	gfx = "GFX_portrait_BRA_Odilio_Denys"
+	traits = { organizer logistics_wizard organisational_leader offensive_doctrine fast_planner commando panzer_leader trait_engineer panzer_expert   }
+	skill = 6
+	attack_skill = 5
+	defense_skill = 3
+	planning_skill = 6
+	logistics_skill = 6
+}
+create_field_marshal = {
+	name = "João Baptista de Mattos" 
+	gfx = "GFX_portrait_BRA_João_Baptista_de_Mattos
+	traits = { organizer logistics_wizard infantry_leader infantry_expert jungle_rat trait_mountaineer hill_fighter thorough_planner }
+	skill = 6
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 6
+	logistics_skill = 6
+}
+create_corps_commander = { 
+	name = "Prestes" 
+	gfx = "GFX_Portrait_BRA_Prestes"
+	traits = { naval_liason infantry_leader infantry_expert trait_mountaineer jungle_rat expert_improviser swamp_fox cavalry_expert cavalry_leader   }
+	skill = 6
+	attack_skill = 4
+	defense_skill = 4
+	planning_skill = 6
+	logistics_skill = 5
+}
+create_corps_commander = {
+	name = "Euclides Zenobio Da Costa" 
+	gfx = "GFX_portrait_BRA_Euclides_Zenobio_Da_Costa"
+	traits = { hill_fighter desert_fox jungle_rat urban_assault_specialist infantry_leader ambusher guerilla_fighter naval_invader }
+	skill = 6
+	attack_skill = 3
+	defense_skill = 4
+	planning_skill = 6
+	logistics_skill = 5
+}
+create_corps_commander = {
+	name = "Canrobert Pereira Da Costa" 
+	gfx = "GFX_portrait_BRA_Canrobert_Pereira_Da_Costa"
+	traits = { panzer_leader trickster panzer_expert trait_engineer fortress_buster urban_assault_specialist jungle_rat logistics_wizard organizer }
+	skill = 6
+	attack_skill = 5
+	defense_skill = 4
+	planning_skill = 5
+	logistics_skill = 6
+}
+
+}
 CAN = { 
 create_field_marshal = {
 	name = "Guy Simonds" 

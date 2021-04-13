@@ -208,8 +208,4 @@ spriteTypes = {
 		name = "GFX_portrait_BRA_Canrobert_Pereira_Da_Costa"
 		texturefile = "gfx/leaders/BRA/portrait_BRA_Canrobert_Pereira_Da_Costa.dds"	
 	}
-=======
-		texturefile = "gfx/leaders/ROM/Portrait_Romania_Nicolae_Ciuperca.tga"
-    }	
->>>>>>> c9fbb1028578e944942d05e33dd498ab2b441f5e
-	
+    }		
