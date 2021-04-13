@@ -157,6 +157,7 @@ NDefines.NTechnology.LICENSE_PRODUCTION_TECH_BONUS = 0	-- WAS 0.2 | LICENSES ARE
 --------------HORST SPY AGENCY AND INTEL CHANGES---------------
 ---------------------------------------------------------------
 NDefines.NCountry.INTEL_FROM_ALLIANCE_FACTOR = 0.6
+NDefines.NOperatives.OPERATIVE_BASE_INTEL_AGENCY_DEFENSE = 0
 NDefines.NOperatives.AGENCY_CREATION_DAYS = 0						-- Number of days needed to create an intelligence agency
 NDefines.NOperatives.AGENCY_CREATION_FACTORIES = 0
 NDefines.NOperatives.AGENCY_UPGRADE_DAYS = 70						-- Number of days needed to upgrade an intelligence agency

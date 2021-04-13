@@ -184,9 +184,9 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_Portrait_Romania_Nicolae_Ciuperca"
-<<<<<<< HEAD
 		texturefile = "gfx/leaders/ROM/Portrait_Romania_Nicolae_Ciuperca.dds"
-    }	#BRA
+    }	
+	#BRA
 	spriteType = {
 		name = "GFX_portrait_BRA_Odilio_Denys"
 		texturefile = "gfx/leaders/BRA/portrait_BRA_Odilio_Denys.dds"
