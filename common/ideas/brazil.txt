@@ -25,7 +25,7 @@ ideas = {
 			}
 			
 			research_bonus = {
-				land_doctrine = 0.10
+				land_doctrine = 0.35
 			}
 			
 			traits = { military_theorist }
@@ -75,7 +75,7 @@ ideas = {
 				original_tag = BRA
 			}
 			
-			traits = { army_chief_organizational_3 }
+			traits = { army_chief_organizational_3	 }
 			
 			ai_will_do = {
 				factor = 1

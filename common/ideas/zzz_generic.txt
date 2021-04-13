@@ -377,7 +377,7 @@ ideas = {
 	political_advisor = {
 		generic_head_of_intelligence = {
 			allowed = { has_dlc = "La Resistance"}
-			visible = { AND = { has_intelligence_agency = yes	OR = { tag = FRA tag = FIN tag = ETH tag = EFR tag = ALB tag = MAN tag = AST tag = RAJ tag = NZL tag = NOR tag = ROM tag = HUN tag = SPR tag = SAF tag = CAN }    } }
+			visible = { AND = { has_intelligence_agency = yes	OR = { tag = BRA tag = FRA tag = FIN tag = ETH tag = EFR tag = ALB tag = MAN tag = AST tag = RAJ tag = NZL tag = NOR tag = ROM tag = HUN tag = SPR tag = SAF tag = CAN }    } }
 			traits = { head_of_intelligence }
 		}
 	}
@@ -397,7 +397,7 @@ ideas = {
 	
 		generic_industrial_concern = {
 			picture = generic_industrial_concern_1
-			allowed = { OR = { tag = CAN tag = SAF tag = ALB tag = RAJ tag = FIN tag = ETH  tag = NOR }	}
+			allowed = { OR = { tag = BRA tag = CAN tag = SAF tag = ALB tag = RAJ tag = FIN tag = ETH  tag = NOR }	}
 			cost = 150
 			research_bonus = { industry = 0.15	}
 			traits = { industrial_concern }
@@ -405,7 +405,7 @@ ideas = {
 
 		generic_electronics_concern = {
 			picture = generic_electronics_concern_1
-			allowed = {  OR = { tag = SAF tag = RAJ tag = ALB tag = FIN tag = ETH tag = NZL tag = ROM  tag = HUN}	}
+			allowed = {  OR = { tag = BRA tag = SAF tag = RAJ tag = ALB tag = FIN tag = ETH tag = NZL tag = ROM  tag = HUN}	}
 			cost = 150
 			research_bonus = {	electronics = 0.15	}	
 			traits = { electronics_concern }
@@ -416,14 +416,14 @@ ideas = {
 		designer = yes
 		generic_motorized_equipment_manufacturer = {	
 			picture = generic_motorized_equipment_manufacturer_3
-			allowed = {  OR = { tag = CAN tag = ALB tag = SAF tag = RAJ tag = FIN tag = ETH tag = AST   tag = HUN }	}
+			allowed = {  OR = { tag = BRA tag = CAN tag = ALB tag = SAF tag = RAJ tag = FIN tag = ETH tag = AST   tag = HUN }	}
 			cost = 150
 			research_bonus = {	motorized_equipment = 0.15	}
 			traits = { motorized_equipment_manufacturer }
 		}
 		generic_infantry_equipment_manufacturer = {
 			picture = generic_infantry_equipment_manufacturer_2
-			allowed = {  OR = { tag = SAF tag = ALB tag = FIN tag = ETH  tag = NZL   }	}			
+			allowed = {  OR = { tag = BRA tag = SAF tag = ALB tag = FIN tag = ETH  tag = NZL   }	}			
 			cost = 150
 			research_bonus = { infantry_weapons = 0.15 }
 			traits = { infantry_equipment_manufacturer }
@@ -431,7 +431,7 @@ ideas = {
 		
 		generic_artillery_manufacturer = {
 			picture = generic_artillery_manufacturer_2
-			allowed = {  OR = { tag = CAN tag = SAF tag = ALB tag = FIN tag = ETH tag = AST  tag = NZL   tag = HUN }	}			
+			allowed = {  OR = { tag = BRA tag = CAN tag = SAF tag = ALB tag = FIN tag = ETH tag = AST  tag = NZL   tag = HUN }	}			
 			cost = 150
 			research_bonus = {	artillery = 0.15	}
 			traits = { artillery_manufacturer }
