@@ -111,6 +111,7 @@ the_geacps = { OR = {  original_tag = JAP original_tag = MAN } }
 normally_played_country = {
 OR = {
 original_tag = BUL  
+original_tag = BRA
 original_tag = ALB  
 original_tag = ETH  
 original_tag = NZL	
