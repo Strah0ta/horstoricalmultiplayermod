@@ -7,12 +7,12 @@ state={
 	state_category = town
 
 	history={
-		#owner = SOV
-
-		#add_core_of = SOV
+owner = BRA
+		add_core_of = BRA
+		
 	}
 
 	provinces={
-		 12933
+		 2132 10933 5107 8179 2175 2227 2178 2164 7561 10989 5168 1446 10939 10967 12961 10345 5182 10998 1524 5153 10984 5204 5218 8143 4617 8242 10926 8184 10946 8227
 	}
 }

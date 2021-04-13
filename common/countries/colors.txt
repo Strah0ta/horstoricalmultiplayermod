@@ -8,6 +8,10 @@ ENG = {
 	color = rgb { 201 56 93 }
 	color_ui = rgb { 255 73 121 }
 }
+BRA = {
+	color = rgb { 76 145 63 }
+	color_ui = rgb { 99 189 82 }
+}
 SOV = {
 	color = rgb { 125 13 24 }
 	color_ui = rgb { 163 17 31 }

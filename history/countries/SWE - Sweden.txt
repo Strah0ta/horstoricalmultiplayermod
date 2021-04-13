@@ -16,6 +16,7 @@ country_event = { id = DOD_yugoslavia.21 days = 759  }
 news_event = { id = news.9990 days = 2364 }
 news_event = { id = news.9991 days = 2729  }
 country_event = { id = mtg_britain.2 days = 119 }
+country_event = { id = mtg_netherlands.1243 days = 801 } #ANSCHLUSS
 #SPRING MUD SEASON
 country_event = { id =  italy.800 days = 2269 } #march 42
 country_event = { id =  italy.800 days = 2634 } #march 43

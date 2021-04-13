@@ -1,9 +1,18 @@
 GER_all_plane_LL = {
+	if = { limit = { tag = ITA }
 	send_equipment = { equipment = fighter_equipment amount = 10000 target = GER }
 	send_equipment = { equipment = CAS_equipment amount = 10000 target = GER }
 	send_equipment = { equipment = nav_bomber_equipment amount = 10000 target = GER }
 	send_equipment = { equipment = tac_bomber_equipment amount = 10000 target = GER }
-	send_equipment = { equipment = heavy_fighter_equipment amount = 10000 target = GER }
+	send_equipment = { equipment = heavy_fighter_equipment amount = 10000 target = GER }	
+	}
+	if = { limit = { tag = GER }
+	send_equipment = { equipment = fighter_equipment amount = 10000 target = ITA }
+	send_equipment = { equipment = CAS_equipment amount = 10000 target = ITA }
+	send_equipment = { equipment = nav_bomber_equipment amount = 10000 target = ITA }
+	send_equipment = { equipment = tac_bomber_equipment amount = 10000 target = ITA }
+	send_equipment = { equipment = heavy_fighter_equipment amount = 10000 target = ITA }	
+	}
 }
 
 axis_iran_positioning = { set_province_controller = 4553 set_province_controller = 2071 set_province_controller = 12861 set_province_controller = 1822 set_province_controller = 10837 set_province_controller = 7969 set_province_controller = 10922 set_province_controller = 1982 set_province_controller = 5067  set_province_controller = 2026 set_province_controller = 4928 set_province_controller = 8117   set_province_controller = 12832 set_province_controller = 10797  }
@@ -1204,6 +1213,10 @@ add_opinion_modifier = {
 }
 
 anti_cross_faction_trade_allies = {
+add_opinion_modifier = {
+    target = BRA
+    modifier = anti_cross_faction_trade
+}
 add_opinion_modifier = {
     target = JAP
     modifier = anti_cross_faction_trade
@@ -4218,7 +4231,7 @@ HMP_startup_on_actions = {
 	ITA = { add_timed_idea = { idea = ITA_motorized_focus days = 365 } }
 	if = { limit = { NOT = { has_start_date > 1936.01.02 }  } ENG = { add_timed_idea = { idea = ENG_motorized_focus3 days = 446 } } }
 	if = { limit = { has_start_date > 1936.01.02 }  ENG = { add_timed_idea = { idea = ENG_motorized_focus4 days = 446 } } }
-	if = { limit = { NOT = { has_game_rule = { rule = HORST_SEALION option = HORST_SEALION_ON }}}   118 = { add_state_modifier = { modifier = { max_dig_in = 30 } }  }  }
+	if = { limit = { NOT = { has_game_rule = { rule = HORST_SEALION option = HORST_SEALION_ON }}}   118 = { add_state_modifier = { modifier = { max_dig_in = 16 } }  }  }
 	if = { limit = { has_game_rule = { rule = HORST_SEALION option = HORST_SEALION_ON }} every_country = { country_event = { id = italy.857 days = 0 }} ENG = { add_timed_idea = { idea = ENG_motorized_focus2 days = 446 }}  }	
 	if = {	limit = { has_game_rule = { rule = horst_manchukuo	option = HORST_ENABLE_MOD_MANCHUKUO	} }	MAN = { load_focus_tree = manchukuomod_focus } 	}
 	JAP  = { give_resource_rights = { receiver = GER state = 494 }	}
