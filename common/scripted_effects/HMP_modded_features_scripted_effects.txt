@@ -1710,7 +1710,7 @@ create_corps_commander = {
 	create_operative_leader = {
 		name = "Nikolaus Ritter"
 		GFX = GFX_portrait_nikolaus_ritter
-		traits = {  }
+		traits = { operative_safe_cracker }
 		bypass_recruitment = no
 		available_to_spy_master = yes
 		nationalities = { GER }
@@ -2419,16 +2419,6 @@ create_field_marshal = {
 	logistics_skill = 5
 }
 
-create_corps_commander = {     #ROM#
-    name = "Nicolae Ciuperca"  #Point Value: 19 
-    picture = "Portrait_Romania_Nicolae_Ciuperca.tga"
-    traits = {  desert_fox panzer_leader panzer_expert organizer trickster expert_improviser trait_engineer  }
-    skill = 7
-    attack_skill = 6
-    defense_skill = 6
-    planning_skill = 5
-    logistics_skill = 5 
-}
 create_corps_commander = {
 	name = "Ioan Mihail Racovita" #Point Value: 23 -Improv Expert -Trickster
 	gfx = GFX_Portrait_romania_ioan_mihail_racovita
@@ -3272,7 +3262,7 @@ create_navy_leader = {
 	create_operative_leader = {
 		name = "Odette Samson"
 		GFX = GFX_portrait_odette_samson
-		traits = {  }
+		traits = { operative_tough }
 		bypass_recruitment = no
 		available_to_spy_master = yes
 		female = yes
@@ -3443,7 +3433,7 @@ create_navy_leader = {
 	create_operative_leader = {
 		name = "Nancy Wake"
 		GFX = GFX_portrait_nancy_wake
-		traits = {  }
+		traits = { operative_escape_artist }
 		bypass_recruitment = no
 		available_to_spy_master = yes
 		female = yes
@@ -4096,20 +4086,11 @@ create_field_marshal = {
 	planning_skill = 4
 	logistics_skill = 6
 }
-create_corps_commander = {   
-    name = "Leslie Andrew" #Point Value: 18 #4/12/21 +Hill Fighter -Organizer
-    picture = "Portrait_New_Zealand_Leslie_Andrew.dds"
-    traits = {  desert_fox hill_fighter panzer_leader panzer_expert trickster expert_improviser }
-    skill = 6
-    attack_skill = 5
-    defense_skill = 4
-    planning_skill = 5
-    logistics_skill = 5  
-}
+
 create_corps_commander = {
-	name = "William Stevens" #Point Value: 18 #3/23/21 -Engineer -SCAVENGER #4/12/21 +Jungle Rat +Ranger
+	name = "William Stevens" #Point Value: 14 #3/23/21 -Engineer -SCAVENGER
 	gfx = "GFX_NZL_william_stevens"
-	traits = { jungle_rat ranger panzer_leader panzer_expert trickster expert_improviser }
+	traits = { panzer_leader panzer_expert trickster expert_improviser }
 	skill = 6
 	attack_skill = 5
 	defense_skill = 3
