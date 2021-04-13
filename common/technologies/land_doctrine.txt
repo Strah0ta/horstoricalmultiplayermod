@@ -946,7 +946,6 @@ enable_tactic = tactic_breakthrough
         out_of_supply_factor = -0.40
         pocket_penalty  = -0.2
 		category_support_battalions = {
-			defense = 0.25
 			breakthrough = 0.50
 		}
         infantry = {
@@ -1384,7 +1383,6 @@ org_loss_when_moving = -0.7
 			research_cost_coeff = 1
 		}
 		category_support_battalions = {
-			defense = 0.25
 			breakthrough = 0.50
 		}
 		category_line_artillery = {

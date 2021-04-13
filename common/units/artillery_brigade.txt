@@ -28,7 +28,7 @@ sub_units = {
 			artillery_equipment = 24
 		}
 		
-		max_strength = 10
+		max_strength = 15
 		max_organisation = 5
 		default_morale = 0.1
 		training_time = 60
@@ -248,7 +248,7 @@ sub_units = {
 		manpower = 500
 		max_organisation = 5
 		default_morale = 0.1
-		max_strength = 10
+		max_strength = 15
 		training_time = 60
 		weight = 0.5
 
