@@ -33,7 +33,10 @@ USA_recalc_congress_icon_frames = yes
 	country_event = { id = usa.9 days = 3227 }	
 	country_event = { id = usa.60 days = 30 }
 anti_cross_faction_trade_axis = yes
-
+					add_relation_modifier = {
+				target = BRA
+				modifier = stahlpakt5
+			}
 # Starting tech
 set_technology = {
 	scout_plane1 = 1
