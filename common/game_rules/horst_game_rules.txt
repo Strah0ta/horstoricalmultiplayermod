@@ -148,6 +148,11 @@ horst_host_country = {
 		text = "Italian East Africa"
 		desc = "Clicking this option will give Italian East Africa access to the Horst Tools (please test this in SP before enabling in MP) - Horst tool is transferred to Italy upon capitulation"
 	}		
+			option = {
+		name = BRA
+		text = "Brazil"
+		desc = "Clicking this option will give Brazil access to the Horst Tools (please test this in SP before enabling in MP)"
+	}		
 		option = {
 		name = EFR
 		text = "Vichy France"
@@ -156,7 +161,7 @@ horst_host_country = {
 			option = {
 		name = BUL
 		text = "Bulgaria"
-		desc = "Clicking this option will give Bulgaria access to the Horst Tools (please test this in SP before enabling in MP) - Horst tool is transferred to Germany upon capitulation"
+		desc = "Clicking this option will give Bulgaria access to the Horst Tools (please test this in SP before enabling in MP)"
 	}		
 }
 

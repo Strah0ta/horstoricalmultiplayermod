@@ -62,7 +62,6 @@
 		id = motorization_effort
 		icon = GFX_goal_generic_army_motorized
 		prerequisite = { focus = army_effort }
-		bypass = { has_tech = motorised_infantry }
 		x = 1
 		y = 1
 		relative_position_id = army_effort
@@ -75,8 +74,9 @@
 		completion_reward = {
 			add_tech_bonus = {
 				name = motorized_bonus
-				bonus = 3.0
-				technology = motorised_infantry
+				bonus = 3
+				uses = 1
+				category = motorized_equipment
 			}
 		}
 	}
