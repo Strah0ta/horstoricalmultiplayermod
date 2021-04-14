@@ -8,16 +8,19 @@ history={
 owner = ENG
 add_core_of=SWE
 		victory_points = {
-			4076 50
+			4076 25
+		}
+				victory_points = {
+			8061 25
 		}
 		victory_points = {
 			10127 5
 		}
 		victory_points = {
-			7011 50
+			7011 30
 		}
 		victory_points = {
-			8077 40
+			8077 30
 		}		
 		
 		victory_points = {
@@ -36,13 +39,13 @@ add_core_of=SWE
 			4913 5
 		}
 		victory_points = {
-			12049 15
+			12049 25
 		}
 		victory_points = {
-			3996 15
+			3996 25
 		}
 		victory_points = {
-			4073 15
+			4073 25
 		}
 		victory_points = {
 12082 50
