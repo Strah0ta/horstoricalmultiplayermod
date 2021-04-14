@@ -2,6 +2,7 @@
 
 oob = "BRA_1936"
 add_ideas = manpower_early
+add_timed_idea = { idea = NO_TRADE days = 730 }
 
 # Starting tech
 set_technology = {
