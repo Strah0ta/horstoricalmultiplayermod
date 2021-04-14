@@ -1270,7 +1270,7 @@ add_opinion_modifier = {
 recalc_vichy_france_legitimacy = {
 EFR = { set_variable = { vichy_legitimacy_mechanic_stability_factor = -0.1 } }
 if = { limit = { EFR = { controls_state = 510 } } EFR = { add_to_variable={vichy_legitimacy_mechanic_stability_factor=0.15}  }  }#MIDDLE CONGO
-if = { limit = { EFR = { controls_state = 556 } } EFR = { add_to_variable={vichy_legitimacy_mechanic_stability_factor=0.15}  }  } #FRENCH GUINEA
+if = { limit = { EFR = { controls_state = 445 } } EFR = { add_to_variable={vichy_legitimacy_mechanic_stability_factor=0.15}  }  } #FRENCH GUINEA
 if = { limit = { EFR = { controls_state = 543 } } EFR = { add_to_variable={vichy_legitimacy_mechanic_stability_factor=0.15}  }  }#MADAGASCAR
 if = { limit = { EFR = { controls_state = 554 } } EFR = { add_to_variable={vichy_legitimacy_mechanic_stability_factor=0.15}  }  }#SYRIA
 if = { limit = { EFR = { controls_state = 460 } } EFR = { add_to_variable={vichy_legitimacy_mechanic_stability_factor=0.15}  }  }#ALGERIA
@@ -5149,8 +5149,6 @@ transfer_state = 554
 }
 ###WEST AFRICA###
 if = { limit = { FRA = { check_variable = { FRA_legitimacy 	< 80 } } }
-transfer_state = 556
-556 = { set_demilitarized_zone = yes }
 transfer_state = 445
 445 = { set_demilitarized_zone = yes }
 }
@@ -5253,7 +5251,6 @@ remove_ideas = FRA_full_employment
 finish_french_colony_focuses = { 
 if = { limit = { FRA = { controls_state = 539 } }
 if = { limit = { NOT = { FRA = { controls_state = 277 }}} FRA = { transfer_state = 277}  }
-if = { limit = { NOT = { FRA = { controls_state = 556 }}} FRA = { transfer_state = 556}  }
 if = { limit = { NOT = { FRA = { controls_state = 445 }}} FRA = { transfer_state = 445}  }
 if = { limit = { NOT = { FRA = { controls_state = 280 }}} FRA = { transfer_state = 280}  }
 if = { limit = { NOT = { FRA = { controls_state = 538 }}} FRA = { transfer_state = 538}  }

@@ -1,30 +1,24 @@
 state={
 id=556
-name="French Guinea"
-manpower = 5506823
-state_category = town
+name="Danzig"
+manpower = 506823
+state_category = enclave
 history={
-owner = FRA
-add_core_of=SWE
-victory_points = {
-4927 1
-}
-victory_points = {
-4948 5
-}
-victory_points = {
-1909 1
-}
-victory_points = {
-5034 1
-}
+owner = POL
+add_core_of=POL
+set_demilitarized_zone = yes
 buildings = {
-air_base = 3
-infrastructure = 3
-industrial_complex = 3
+			362 = {
+				naval_base = 5
+			}
+			infrastructure = 6
+						arms_factory = 1
+			industrial_complex = 1
+			dockyard = 1
 }
+add_extra_state_shared_building_slots = 3
 }
 provinces={
-2012 2044 4927 5045 5101 7930 7954 8116 10788 10812 10829 10915 12751 12794 12838 5034 5077 7992 8058 10814 1909 4957 5039 8008 12802 12858 2100 4948 7972 8015 12710 12834 
+362
 }
 }

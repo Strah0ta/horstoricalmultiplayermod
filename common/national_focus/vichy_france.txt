@@ -621,7 +621,7 @@
 			is_in_faction_with = GER 
 			has_stability > 0.99
 			controls_state = 539
-			controls_state = 556
+			controls_state = 445
 			controls_state = 543
 			controls_state = 461
 			has_country_flag = EFR_torch_declared

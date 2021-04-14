@@ -321,20 +321,14 @@
 		
 		available_if_capitulated = yes
 
-
-		available = {
-			any_state = {
-				is_coastal = yes
-				is_controlled_by = ROOT
-			}
-		}
-
 		
 		completion_reward = {
+		500 = {
 				set_building_level = {
 					type = naval_base
-					province = 10980
+					province = 10980	
 					level = 20
+				}
 				}
 			if = {
 				limit = {
