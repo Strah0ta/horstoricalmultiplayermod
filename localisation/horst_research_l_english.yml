@@ -80,8 +80,8 @@
  DO_BOTH_SIDES_TT:0 "<== RESEARCH BOTH ==>"
  light_tank_antiair:0 "Support Light SPAA"
  medium_tank_antiair:0 "Support Medium SPAA"
- heavy_tank_antiair:0 "Support Heavy SPAA"
- super_heavy_tank_antiair:0 "Support Super Heavy SPAA"
+ heavy_armor_antiair:0 "Support Heavy SPAA"
+ super_heavy_armor_antiair:0 "Support Super Heavy SPAA"
  modern_tank_antiair:0 "Support Modern SPAA"
 
  ##LIGHT TANK STUFF##
