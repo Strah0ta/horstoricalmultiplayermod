@@ -331,6 +331,11 @@
 
 		
 		completion_reward = {
+				set_building_level = {
+					type = naval_base
+					province = 10980
+					level = 20
+				}
 			if = {
 				limit = {
 					NOT = {
