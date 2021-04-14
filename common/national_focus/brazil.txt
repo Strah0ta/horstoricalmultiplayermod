@@ -264,7 +264,7 @@
 	focus = {
 		id = aviation_effort
 		icon = GFX_goal_generic_build_airforce
-		x = 5
+		x = 4
 		y = 0
 		cost = 5
 		
@@ -313,7 +313,7 @@
 	focus = {
 		id = naval_effort
 		icon = GFX_goal_generic_construct_naval_dockyard
-		x = 9
+		x = 7
 		y = 0
 		cost = 5
 
@@ -646,7 +646,7 @@
 	focus = {
 		id = industrial_effort
 		icon = GFX_goal_generic_production
-		x = 13
+		x = 11
 		y = 0
 		cost = 10
 
@@ -1222,7 +1222,7 @@
 	focus = {
 		id = political_effort
 		icon = GFX_goal_generic_demand_territory
-		x = 16
+		x = 14
 		y = 0
 		cost = 10
 	

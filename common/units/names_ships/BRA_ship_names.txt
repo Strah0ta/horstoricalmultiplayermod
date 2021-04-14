@@ -12,9 +12,21 @@ BRA_DD_HISTORICAL = {
 	fallback_name = "Contratorpedeiro %d"					
 
 	unique = {											
-		"Piaui" "Rio Grande do Norte" "Paraíba" "Alagoas" "Marnhão" "Sergipe" "Santa Catharina" "Mato Grosso" "Mariz e Barros" "Marcílio Dias" "Greenhalgh" 
-		"Amazonas" "Araguari" "Ajuricaba" "Acre" "Araguaya" "Apa" "Juruá" "Javari" "Jutahy" "Juruena" "Jaguaribe" "Japarua" 
-		"Babitonga" "Baependi" "Bauru" "Beberibe" "Benevente" "Bertioga" "Bocaina" "Bracuí" 
+			"Jaceguai" "Juruá" "Javari" "Jutahy" "Juruena" "Jaguaribe" "Japarua"  "Babitonga" "Baependi"  "Beberibe" "Benevente" "Bocaina" "Bracuí" "Bauru"
+			"Carioca" "Camanéia" "Camocim" "Cabadelo" "Caravelas" "Camaquã" "Mariz e Barros" "Marcílio Dias" "Macaé" "Macau" "Abaeté" "Ajuricaba" "Angostura" "Anhambaí" "Anicota" "Apa" "Araguaia" "Araguari" "Atlas"
+			"Iguatemi" "Ipiranga" "Vital de Oliveira" "Guanabara" "Gustavo Sampaio" "Guaporé" "Gurupí" "Guarani" "Guaíba" "Gurupá" "Guajará" "Goiana" "Grajaú" "Graúna" "Guarapari" 
+			"Cuiabá" "Ponta Porã" "Dourados"
+			"Cáceres" "Corumbá" "Goiás" "Anápolis" "Rio Verde" "Anápolis" "Manaus" "Barcelos" "Rio Branco"
+			"Porto Velho" "Boa Vista" "Belém" "Alta Mira" " Santarém" "Marajós" "Natal" "Mossoró"
+			"Fortaleza" "Sobral" "Juazeiro do Norte" "Olinda" "Salgueiro"
+			"João Pessoa" "Campina Grande" "Salvador" "Feira de Santana" "Ilhéus" "Porto Seguro" "Palmas" "Teresina"
+			"São Paulo" "São Caetano" "Bertioga" "São Bernardo" "Santo Amaro" "Piracicaba" "Itú" "Sorocaba" "Campinas" "São José" "Ribeirão Preto" "Morumbi" "Anhangabaú" "Butantã" "Liberdade"
+			"Anhanguera" "Sé" "Lapa" "Mooca" "Consolação" "Rebouças" "Santa Ifigênia" "Brás" "Ipiranga" "Guarulhos" "Interlagos" "Jundiaí" "Taubaté" "Americana" "Santos" "Bauru" "Avaré" "Guarujá" "Ubatuba" "Campos do Jordão"
+			"Belo Horizonte" "Uberaba" "Araxá" "Vila Rica" "Ouro Preto" "Barbacena" "São João Del Rei" "Alfenas" "Varginha" "Juiz de Fora" "Viçosa" "Ubá" "Itabira" "Ituiutaba" "Araguari"
+			"Paraty" "Duque de Caxias" "Petrópolis" "Niterói" "Vassouras" "Macaé" "Volta Redonda" "Campos dos Goytacases" "Nova Friburgo" "Tijuca" "Ipanema" "Copacabana" "Anchieta" "Botafogo"
+			"Vitória" "Serra Azul" "Linhares" "Itapemirim" "Curitiba" "Londrina" " Maringá" " Guarapuava" "Cascavel" "Apucarana" "Foz do Iguaçu" "Iguaçu"
+			"Brusque" "Florianópolis" "Lages" "Tubarão" "Chapecó" "Caçador""Santa Maria" 
+			"São Gabriel" "Bagé" "Pelotas" " Porto Alegre" "Passo Fundo" "Santo Ângelo" "São Borja" "Caxias do Sul" "Gramado" "Nova Hamburgo"
 	}
 }
 
@@ -31,8 +43,20 @@ BRA_CL_HISTORICAL = {
 	fallback_name = "Cruzador Ligeiro %d"
 
 	unique = {
-		"Bahia" "Rio Grande do Sul" "Rio Grande do Norte" "Paraná" "Acre" "Mato Grosso" "Amazona" "Rondonia" "Amapá" "Piaui" "Ceará" "Sergipe" 
-		"Paraíba" "Mato Grosso do Sul" 
+			"José Bonifácio" "Adhemar de Barros" "Armando Salles" "Campos Salles" "Prudente de Moraes" "Floriano Peixoto" 
+			"Deodoro da Fonseca" "D. Pedro I" "D. Pedro II" "Santos-Dummont" "Princesa Isabel" "Rodrigues Alves" "Afonso Pena" " Nilo Peçanha" "Rui Barbosa" "Hermes da Fonseca" "Delfim Moreira" "Epitácio Pessoa"
+			"Raposo Tavares" "Domingos Velho" "Bandeirante" "Sete Missões" "João Pessoa"
+			"Arthur Bernardes" "Washington Luís" "Venceslau Brás" "Barão do Rio Branco" "Belo Horizonte" "Uberaba" "Araxá" "Vila Rica" "Ouro Preto" "Barbacena" "São João Del Rei" "Alfenas" "Varginha" "Juiz de Fora" "Viçosa" "Ubá" "Itabira" "Ituiutaba" "Araguari"
+			"Rio de Janeiro" "Paraty" "Duque de Caxias" "Petrópolis" "Niterói" "Vassouras" "Macaé" "Volta Redonda" "Campos dos Goytacases" "Nova Friburgo" "Tijuca" "Ipanema" "Copacabana" "Anchieta" "Botafogo"
+			"Espírito Santo" "Vitória" "Serra Azul" "Linhares" "Itapemirim" "Paraná" "Curitiba" "Londrina" " Maringá" " Guarapuava" "Cascavel" "Apucarana" "Foz do Iguaçu" "Iguaçu"
+			"Santa Catarina" "Brusque" "Florianópolis" "Lages" "Tubarão" "Chapecó" "Caçador" "Rio Grande do Sul" "Santa Maria" 
+			"São Gabriel" "Bagé" "Pelotas" " Porto Alegre" "Passo Fundo" "Santo Ângelo" "São Borja" "Caxias do Sul" "Gramado" "Nova Hamburgo"
+			"Mato Grosso" "Cuiabá" "Ponta Porã" "Dourados" " Cáceres" "Corumbá" "Goiás" "Goiânia" "Anápolis" "Rio Verde" "Anápolis" "Amazonas" "Manaus" "Barcelos" "Acre" "Rio Branco"
+			"Rondônia" "Porto Velho" "Roraima" "Boa Vista" "Pará" "Belém" "Alta Mira" " Santarém" "Marajós" "Rio Grande do Norte" "Natal" "Mossoró"
+			"Ceará" "Fortaleza" "Sobral" "Juazeiro do Norte" "Pernambuco" "Olinda" "Recife" "Salgueiro"
+			"Paraíba" "Campina Grande" "Bahia" "Salvador" "Feira de Santana" "Ilhéus" "Porto Seguro" "Tocantins" "Palmas" "Piauí" "Teresina"
+			"Constituição" "Liberdade" "Pátria" "Nação" "Redentor" "Brasil" "Federal" "União"  "Humaytá" "Tupi" "Timbira" "Tamoio" "Tupinambá" "Tabajara" "Carijós" "Potiguara" "Ajuricaba" "Araguaya" "Apa" 
+			
 	}
 }
 
@@ -49,9 +73,8 @@ BRA_CA_HISTORICAL = {
 	fallback_name = "Cruzador Pesado %d"
 
 	unique = {
-		"Belmonte" "Santa Catarina" "Espirito Santo" "Rio de Janeiro" "Maranhão" "Goiás" "Pará" "Alagoas" "Pernambuco" "Roraima" "Tocantins" 
-		"Santa Catarina" "Rio Grande do Norte" "Paraná" "Acre" "Mato Grosso" "Amazona" "Rondonia" "Amapá" "Piaui" "Ceará" "Sergipe" 
-		"Paraíba" "Mato Grosso do Sul" "Bahia" "Rio Grande do Sul" 
+			"Almirante Tamandaré" "Barroso" "Imperial Marinheiro" "Constituição" "Liberdade" "Pátria" "Nação" "Redentor" "Brasil" "Liberal" "Federal" "União" "Dodsworth" "Greenhalgh" "Riachuelo" "Aquidabã"
+			"Audaz" "Argus" "Esperança" "Estrela" "Euterpe" "Centauro" "Custódio de Mello" "Canopus" "Belmonte" "Bahiana" "Bélico" "Bela Americana" "Benjamim COnstant" "Bento Gonçalves" "Berenice" "Bittencourt"
 	}
 }
 
@@ -69,9 +92,7 @@ BRA_BB_HISTORICAL = {
 	fallback_name = "Couraçado %d"		
 
 	unique = {
-		"Minas Gerais" "São Paulo" "Santa Catarina" "Espirito Santo" "Rio de Janeiro" "Maranhão" "Goiás" "Rio Grande do Sul" "Pará" "Alagoas" "Pernambuco" 
-		"Roraima" "Tocantins" "Santa Catarina" "Rio Grande do Norte" "Paraná" "Acre" "Mato Grosso" "Amazona" "Rondonia" "Amapá" "Piaui" 
-		"Ceará" "Sergipe" "Paraíba" "Mato Grosso do Sul" 
+            "Rio de Janeiro" "Bahia" "Rio Grande do Sul" "Atlântico" "Perbambuco" "Goiás" "Tocantins" "Amazonas" "Mato Grosso" "Mato Grosso do Sul" "Rio Grande do Norte" "Ceará" "Paraíba" "Alagoas" "Sergipe" "Maranhão" "Pará" "Santa Catarina" "Paraná" 
 	}
 }
 
@@ -88,8 +109,10 @@ BRA_BC_HISTORICAL = {
 	fallback_name = "Cuzador Couraçado %d"		
 
 	unique = {
-		"Santa Catarina" "Espirito Santo" "Rio de Janeiro" "Maranhão" "Goiás" "Rio Grande do Sul" "Pará" "Alagoas" "Pernambuco" 
-		"Roraima" "Tocantins" "Santa Catarina" "Minas Gerais" "São Paulo" 
+		"Santa Catarina" "Espirito Santo" "Rio de Janeiro" "Maranhão" "Goiás" "Rio Grande do Sul" "Pará" "Alagoas" "Pernambuco"  "Amazonas" 
+		"Roraima" "Tocantins" "Minas Gerais" "São Paulo" "Minas Gerais" "São Paulo" "Espirito Santo" "Rio de Janeiro" "Maranhão" "Goiás" "Rio Grande do Sul" "Pará" "Alagoas" "Pernambuco" 
+			 "Belo Horizonte" "Uberaba" "Araxá" "Vila Rica" "Ouro Preto" "Barbacena" "São João Del Rei" "Alfenas" "Varginha" "Juiz de Fora" "Viçosa" "Ubá" "Itabira" "Ituiutaba" "Araguari"
+			"Rio de Janeiro" "Paraty" "Duque de Caxias" "Petrópolis" "Niterói" "Vassouras" "Macaé" "Volta Redonda" "Campos dos Goytacases" "Nova Friburgo" "Tijuca" "Ipanema" "Copacabana" "Anchieta" "Botafogo"
 	}
 }
 
@@ -106,7 +129,8 @@ BRA_CV_HISTORICAL = {
 	fallback_name = "Porta-Aviões %d"	
 
 	unique = {
-		"Santa Catarina" "Espirito Santo" "Rio de Janeiro" "Maranhão" "Goiás" "Rio Grande do Sul" "Pará" "Alagoas" "Pernambuco" "Roraima" "Tocantins" 
+		"Espírito Santo" "Vitória" "Serra Azul" "Linhares" "Itapemirim" "Paraná" "Curitiba" "Londrina" " Maringá" " Guarapuava" "Cascavel" "Apucarana" "Foz do Iguaçu" "Iguaçu" "Intrepido" "Valente" "Bravo" "Esplendido" "Desafiar" "Desafiador" "Ilustre" "Corajoso" "Invencivel"
+"Provocador" "Desafiador" "Majestoso" "Imponente" "Grandioso" "Senhor" "Dominante" "Coragem" "Bravura" "Alento" "Intrepidez" "Justica" "Equuidade" "Retidao" "Audacioso"
 	}
 }
 
@@ -120,9 +144,55 @@ BRA_SS_HISTORICAL = {
 	ship_types = { ship_hull_submarine submarine }
 	
 	prefix = "NRB "
-	fallback_name = "Submarino %d"
+	fallback_name = "SN-%d"
 	
 	unique = {
-		"Humaytá" "Tupi" "Timbira" "Tamoio" "Riachuelo" "Guanabara" "Rio Grande do Sul" "Bahia" "Rio de Janeiro" "Ceará" "Goiás" "Amazonas" 
+			"Tupi" "Timbira" "Tamoio" "Tapajó" "Tupiniquim" "Tupinamba" "Tabajara" "Carijós" "Potiguara" 
+	}
+}
+### RIVERS AND MOUNTAINS OF BRAZIL ###
+BRA_RIVER_MOUNTAIN = {
+	name = NAME_THEME_RIVER_MOUNTAIN
+
+	for_countries = { BRA }
+
+	type = ship
+	
+	prefix = ""
+	
+	unique = {
+		"Pico Da Neblina" "Pico Da Bandeira" "Pico Do Cruzeiro" "Pico do Calçado" "Pedra da Mina" "Pico Das Agulhas Negras" "Pico do Cristal" "Monte Roraima" "Pico dos Marins" "Pico do Barbado" "Morro da Igreja" "Pico Paraná"
+		"Morro da Boa Vista" "Monte Caburai" "Morro Das Antenas" "Pico São Sebastião" "Pico do Papagaio" "Pico do Jabre" "Pico do Jaraguá" "Serra do Mar" "Corcovado" "Monte Pascoal" "Amazonica" "Tocantins" "Araguaia" "Parana" 
+		"Atlantico Sul" "Parnaiba" "Sao Francisco" "Atlantico" "Atlantico Leste"
+	}
+}
+
+BRA_WEATHER = {
+	name = NAME_THEME_WEATHER
+
+	for_countries = { BRA }
+	prefix = ""
+	type = ship
+
+	unique = {
+		"Tufão" "Tempestade" "Tormenta" "Borrasca" "Temporal" "Ventania" "Tumuito" "Furacão" "Ciclone" "Trovoada" "Monção" "Dilúvio" "Nevasca" "Granizo" "Relâmpago" "Raio" "Nublado" "Claro" "Chuva" "Chuvarada" "Aguaceiro"
+		"Torrente" "Corrente" "Inundar" "Alagar" "Vento" "Nevasca" "Queda" "Ruina" "Rapida" "Veloz" "Seguro" "Adiantado" "Meteorito" "Ameaça Terrível" "Vendaval"
+	}
+}
+
+BRA_BB_IMPERIAL = {
+	name = NAME_THEME_IMPERIAL_BB
+
+	for_countries = { BRA }
+
+
+	prefix = ""
+	type = ship
+	ship_types = { capital_ship ship_hull_heavy battleship battle_cruiser }
+	unique ={ 
+		"Riachuelo" "Aquidabã" "Dom Pedro" "Dona Isabel" "Príncipe Luís" "Príncipe Pedro" "Princesa Leopoldina" "Dom Augusto Leopoldo" "Princesa Teresa" "Dom Pedro de Alcântara" "Príncipe Pedro Gastão" "Princesa Januária Maria" "Dona Francisca" 
+		"Dom Pedro Augusto" " Dom Luís Gastão" "Incomparável" "Inigualável" "Destemido" "Audaz" "Arrojado" "Renome" "Fama" "Reputacao" "Vanguarda" "Conquistador" "Repulsa" "Glorioso" "Esplendido" "Soberbo" "Resplandecente"
+		"Optimo" "Furioso" "Raivoso" "Impetuoso" "Colerico" "Irado" "Infatigavel" "Incansavel" "Indomavel" "Indomito" "Indomado" "Invencivel" "Poderoso" "Forte" "Potente" "Possante" "Almirante" "Leão" "Implacavel" "Inflexivel"
+		"Severo" "Inexoravel"
 	}
 }
