@@ -8,6 +8,7 @@ state={
 	history = { 
 		owner = BRA
 		add_core_of = BRA
+		1936.1.2 = {  owner = SWE  }
 				buildings ={ 
 				infrastructure = 2
 				industrial_complex = 1 

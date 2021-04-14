@@ -9,6 +9,7 @@ state={
 	history={
 		owner = BRA
 		add_core_of = BRA
+				1936.1.2 = {  owner = SWE  }
 		buildings = {
 		air_base = 4
 			infrastructure = 5
