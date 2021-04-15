@@ -1,6 +1,9 @@
 #####UNDER CONSTRUCTION#####
 
 ###CREDITS AND THANKS###
+
+Brazil/Norway skins are from "Uniform Reskin Pack" (701530809) 
+
 Thank you Lennard#0034 for the 'Fuel System', 'Horsttool',
 and 'Top Bar Resources' feature that were imported from 
 HFU/LW. Thanks for some of your creative and innovative 

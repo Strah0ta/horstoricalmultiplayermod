@@ -1,6 +1,6 @@
 state={
 id=556
-name="Danzig"
+name="Free City of Danzig"
 manpower = 506823
 state_category = enclave
 history={

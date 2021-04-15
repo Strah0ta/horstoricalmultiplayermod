@@ -9,7 +9,7 @@ state={
 			1936.1.2 = {
 			owner = ENG
 			add_core_of = ENG
-			buildings = {  dockyard = 0 }
+			buildings = {  arms_factory = 4 }
 			}		
 		owner = AST
 		buildings = {

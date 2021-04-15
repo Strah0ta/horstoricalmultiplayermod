@@ -3,7 +3,11 @@
 oob = "BRA_1936"
 add_ideas = manpower_early
 add_timed_idea = { idea = NO_TRADE days = 730 }
-
+create_intelligence_agency = yes
+set_variable = {
+    var = min_fuel
+    value = 0.800
+}
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
