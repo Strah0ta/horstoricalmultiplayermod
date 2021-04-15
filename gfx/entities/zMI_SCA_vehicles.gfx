@@ -1,0 +1,104 @@
+
+objectTypes = {	
+	
+###################################
+### MOTORIZED - OPEL BLITZ BASE ###
+###################################
+
+	pdxmesh = {
+		name = "MI_NOR_motorized_mesh"
+		file = "gfx/models/units/vehicles/NOR_motorized_01_opel.mesh"
+		
+		animation = { id = "idle"			type = "GER_motorized_01_idle_animation" }
+		animation = { id = "move"			type = "GER_motorized_01_move_animation" }
+		
+		scale = 1.1
+	}
+
+	pdxmesh = {
+		name = "MI_FIN_motorized_mesh"
+		file = "gfx/models/units/vehicles/FIN_motorized_01_opel.mesh"
+		
+		animation = { id = "idle"			type = "GER_motorized_01_idle_animation" }
+		animation = { id = "move"			type = "GER_motorized_01_move_animation" }
+		
+		scale = 1.1
+	}
+
+	pdxmesh = {
+		name = "MI_SWE_motorized_mesh"
+		file = "gfx/models/units/vehicles/SWE_motorized_01_opel.mesh"
+		
+		animation = { id = "idle"			type = "GER_motorized_01_idle_animation" }
+		animation = { id = "move"			type = "GER_motorized_01_move_animation" }
+		
+		scale = 1.1
+	}
+
+###################################
+### MECHANIZED - SDKFZ 251 BASE ###
+###################################
+
+
+	pdxmesh = {
+		name = "MI_NOR_mechanized_1_mesh"
+		file = "gfx/models/units/vehicles/NOR_mechanized_01_sdkfz251.mesh"
+		
+		animation = { id = "idle"			type = "GER_mechanized_01_idle_animation" }
+		animation = { id = "move"			type = "GER_mechanized_01_move_animation" }
+		animation = { id = "attack"			type = "GER_mechanized_01_attack_animation" }
+		
+		scale = 1.1
+	}
+
+	pdxmesh = {
+		name = "MI_FIN_mechanized_1_mesh"
+		file = "gfx/models/units/vehicles/FIN_mechanized_01_sdkfz251.mesh"
+		
+		animation = { id = "idle"			type = "GER_mechanized_01_idle_animation" }
+		animation = { id = "move"			type = "GER_mechanized_01_move_animation" }
+		animation = { id = "attack"			type = "GER_mechanized_01_attack_animation" }
+		
+		scale = 1.1
+	}
+
+	pdxmesh = {
+		name = "MI_SWE_mechanized_1_mesh"
+		file = "gfx/models/units/vehicles/SWE_mechanized_01_sdkfz251.mesh"
+		
+		animation = { id = "idle"			type = "GER_mechanized_01_idle_animation" }
+		animation = { id = "move"			type = "GER_mechanized_01_move_animation" }
+		animation = { id = "attack"			type = "GER_mechanized_01_attack_animation" }
+		
+		scale = 1.1
+	}
+	
+##############################
+### MECHANIZED - 37L Based ###
+##############################
+	
+	pdxmesh = {
+		name = "MI_NOR_mechanized_37L_mesh"
+		file = "gfx/models/units/vehicles/NOR_mechanized_01_lorraine.mesh"
+		
+		animation = { id = "idle"			type = "GER_heavy_armor_0_idle_animation" }
+		animation = { id = "move"			type = "GER_heavy_armor_0_moving_animation" }
+#		animation = { id = "attack"			type = "GER_heavy_armor_0_attack_animation" }
+		
+		scale = 1.1			
+	}	
+	
+	pdxmesh = {
+		name = "MI_NOR_mechanized_39L_mesh"
+		file = "gfx/models/units/vehicles/NOR_mechanized_02_lorraine.mesh"
+		
+		animation = { id = "idle"			type = "GER_heavy_armor_0_idle_animation" }
+		animation = { id = "move"			type = "GER_heavy_armor_0_moving_animation" }
+#		animation = { id = "attack"			type = "GER_heavy_armor_0_attack_animation" }
+		
+		scale = 1.1			
+	}	
+
+
+
+}
