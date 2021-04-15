@@ -3,6 +3,7 @@
 ###CREDITS AND THANKS###
 
 Brazil/Norway skins are from "Uniform Reskin Pack" (701530809) 
+Norway/Finland gun gfx are from "Scandinavian infantry weapons" (706846084)
 
 Thank you Lennard#0034 for the 'Fuel System', 'Horsttool',
 and 'Top Bar Resources' feature that were imported from 

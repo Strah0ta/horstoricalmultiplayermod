@@ -2,8 +2,45 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_archetype_rocket_artillery_equipment_medium"
 		texturefile = "gfx/interface/archetypes/archetype_rocket_artillery_equipment.dds"
-	}	
-	
+	}		
+	SpriteType = {
+		name = "GFX_NOR_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/NOR_infantry_equipment_0.dds"
+	}
+
+	SpriteType = {#unknown yet
+		name = "GFX_NOR_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/NOR_infantry_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_FIN_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/FIN_infantry_equipment_0.dds"
+	}
+
+	SpriteType = {#unknown yet
+		name = "GFX_FIN_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/FIN_infantry_equipment_1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_FIN_improved_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/FIN_infantry_equipment_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_FIN_advanced_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/FIN_infantry_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_NOR_improved_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/NOR_infantry_equipment_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_NOR_advanced_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/NOR_infantry_equipment_3.dds"
+	}
+
 	SpriteType = {
 		name = "GFX_BRA_infantry_weapons_medium"
 		texturefile = "gfx/interface/technologies/Brazil/BRA_infantry_equipment_0.dds"
