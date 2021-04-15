@@ -1474,6 +1474,29 @@ create_field_marshal = {
     planning_skill = 6
     logistics_skill = 7
 		}	
+create_corps_commander = {
+     name = "Hans von Luck" #Point Value: 20
+     gfx = "GFX_portrait_GER_hans_von_luck"
+	traits = { brilliant_strategist infantry_leader infantry_expert desert_fox trickster bearer_of_artillery organizer adaptable }
+	skill = 7
+    attack_skill = 5
+    defense_skill = 3
+    planning_skill = 9
+    logistics_skill = 5
+}
+create_corps_commander = { 
+     name = "Wilhelm Ritter von Thoma"  #Point Value: 20
+     gfx = "GFX_portrait_GER_wilhelm_ritter_von_thoma"
+	traits = { brilliant_strategist infantry_leader ambusher desert_fox  bearer_of_artillery  skirmisher commando hill_fighter guerilla_fighter }
+	skill = 7
+    attack_skill = 5
+    defense_skill = 3
+    planning_skill = 9
+    logistics_skill = 5
+}
+
+
+
 #######Three copies of offensive mass infantry 
 		create_corps_commander = {
 	name = "Fedor von Bock" #Point Value: 20 #2/4/21 -Fake Skilled Staffer +Skilled Staffer
