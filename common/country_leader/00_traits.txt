@@ -1196,6 +1196,7 @@ leader_traits = {
 		special_forces_attack_factor = 0.1
 	    special_forces_defence_factor = 0.1
 		army_artillery_defence_factor = 0.1
+		army_artillery_attack_factor = 0.05
 	}
 	
 	army_commando_2 = { # +8 paratrooper/marine/mountain efficiency
@@ -1203,6 +1204,7 @@ leader_traits = {
 		special_forces_attack_factor = 0.15
 	    special_forces_defence_factor = 0.15
 		army_artillery_defence_factor = 0.15
+		army_artillery_attack_factor = 0.075
 	}
 	
 	army_commando_3 = { # +12 paratrooper/marine/mountain efficiency
@@ -1210,6 +1212,7 @@ leader_traits = {
 		special_forces_attack_factor = 0.2
 	    special_forces_defence_factor = 0.2
 		army_artillery_defence_factor = 0.2
+		army_artillery_attack_factor = 0.1
 	}
 	
 	
