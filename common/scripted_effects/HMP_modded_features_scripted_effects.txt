@@ -3025,10 +3025,22 @@ create_corps_commander = {
 	planning_skill = 6
 	logistics_skill = 9
 }
+
 create_corps_commander = {
-	name = "Alexander Gorbatov" #Point Value: 20 3/20/21 -Engineer
-		picture = "Portrait_Soviet_Alexander_Gorbatov.dds"
-	traits = {  panzer_leader panzer_expert ambusher desert_fox trait_mountaineer scavenger }
+    name = "Max Reyter" #Point Value: 20 #3/20/21 +Organizer +Paratrooper
+    picture = "Portrait_Soviet_Max_Andreyevich.dds"
+	traits = {  desert_fox  trickster expert_improviser organizer  paratrooper infantry_leader infantry_expert guerilla_fighter  }
+	skill = 7
+    attack_skill = 3
+    defense_skill = 6
+    planning_skill = 4
+    logistics_skill = 8
+}
+
+create_corps_commander = {
+	name = "Hazi Aslanov" #Point Value: 20 3/20/21 -Engineer
+ picture = "portrait_sov_hazi_aslanov.dds"
+ traits = {  panzer_leader panzer_expert ambusher desert_fox trait_mountaineer scavenger }
 	skill = 7
 	attack_skill = 5
 	defense_skill = 2
@@ -3036,9 +3048,9 @@ create_corps_commander = {
 	logistics_skill = 9
 }
 create_corps_commander = {
-    name = "Max Reyter" #Point Value: 20 #3/20/21 +Organizer +Paratrooper
-    picture = "Portrait_Soviet_Max_Andreyevich.dds"
-	traits = {  desert_fox  trickster expert_improviser organizer  paratrooper infantry_leader infantry_expert guerilla_fighter  }
+    name = "Alexander Gorbatov" #Point Value: 20 
+	picture = "Portrait_Soviet_Alexander_Gorbatov.dds"
+	traits = {  desert_fox  trickster expert_improviser organizer  bearer_of_artillery infantry_leader ambusher guerilla_fighter  }
 	skill = 7
     attack_skill = 3
     defense_skill = 6
