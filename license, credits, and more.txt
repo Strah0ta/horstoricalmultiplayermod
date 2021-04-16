@@ -2,8 +2,10 @@
 
 ###CREDITS AND THANKS###
 
-Brazil/Norway skins are from "Uniform Reskin Pack" (701530809) 
+Brazil skins are from "Uniform Reskin Pack" (701530809) 
 Norway/Finland gun gfx are from "Scandinavian infantry weapons" (706846084)
+Italian portraits are from  "Italian Commanders(colored)" (1292910630) and "Italici Imperatores" (1818823699)
+Norway/Finland skins are from "-Minor Immersion Reskin: Scnandanavia- 2" (1490992080)
 
 Thank you Lennard#0034 for the 'Fuel System', 'Horsttool',
 and 'Top Bar Resources' feature that were imported from 
