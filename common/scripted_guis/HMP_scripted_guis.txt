@@ -229,6 +229,7 @@ scripted_gui = {
 								}
 								add_to_array = { ROOT.faction_members_array = THIS.id }
 							}
+							#if = { limit = { TAG = ENG } add_to_array = { ROOT.faction_members_array = SOV.id } }
 						}
 			if = {
 							limit = {
