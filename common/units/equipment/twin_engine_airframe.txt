@@ -254,7 +254,7 @@ equipments = {
 		maximum_speed = 525
 		air_agility = 25
 		air_attack = 54
-		air_defence = 13
+		air_defence = 15.6 #vanilla 13
 		
 		naval_strike_attack = 6
 		naval_strike_targetting = 6
@@ -271,7 +271,7 @@ equipments = {
 		maximum_speed = 577.5
 		air_agility = 30
 		air_attack = 69
-		air_defence = 15
+		air_defence = 18 #vanilla 15
 		
 		build_cost_ic = 78
 		resources = {
@@ -294,7 +294,7 @@ equipments = {
 		maximum_speed = 630
 		air_agility = 33
 		air_attack = 101.25 #was 81 increased by 20%
-		air_defence = 18
+		air_defence = 21.6 #18 vanilla
 		
 		build_cost_ic = 84
 		resources = {

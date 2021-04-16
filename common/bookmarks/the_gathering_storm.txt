@@ -231,7 +231,8 @@ bookmarks = {
 		}
 			"BUL"={	minor = yes	history = "BULGARIA_GATHERING_STORM_DESC"	ideology = neutrality focuses = { 	}}
 
-		"SPR"={	minor = yes	history = "SPAIN_GATHERING_STORM_DESC"	ideology = democratic focuses = { SPA_caudillo_of_spain	}}
+		"SPR"={	minor = yes	history = "SPAIN_GATHERING_STORM_DESC"	ideology = neutrality focuses = { SPA_caudillo_of_spain	}}
+				"BRA"={	minor = yes		ideology = democratic focuses = { 	}}
 		"EFR"={
 			minor = yes
 			#history = "MAN_GATHERING_STORM_DESC"
