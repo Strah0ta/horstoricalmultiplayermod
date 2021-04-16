@@ -2496,9 +2496,9 @@ create_corps_commander = {
 
 FIN = {
 create_field_marshal = {
-	name = "Carl Gustaf Emil Mannerheim" #Point Value: 17 #2/6/21 -Expert Improviser
+	name = "Carl Gustaf Emil Mannerheim" #Point Value: 15.5 #2/6/21 -Expert Improviser
 	picture = "portrait_fin_carl_mannerheim.dds"
-	traits = { organizer logistics_wizard inflexible_strategist trait_cautious unyielding_defender inspirational_leader defensive_doctrine trickster  }
+	traits = { organizer defensive_doctrine logistics_wizard inflexible_strategist trait_cautious unyielding_defender inspirational_leader  trickster  }
 	skill = 7
 	attack_skill = 3
 	defense_skill = 8
