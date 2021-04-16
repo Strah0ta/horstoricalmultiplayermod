@@ -117,7 +117,7 @@ leader_traits = {
 	bearer_of_artillery = {
 		type = corps_commander	
 		trait_type = personality_trait		
-		modifier = {	army_artillery_attack_factor = 0.15	}	
+		modifier = {	army_artillery_attack_factor = 0.1	}	
 	}
 	
 	infantry_officer = { 
