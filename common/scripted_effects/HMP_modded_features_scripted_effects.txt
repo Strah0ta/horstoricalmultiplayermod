@@ -1814,10 +1814,32 @@ create_navy_leader = {
 	maneuvering_skill = 4
 	coordination_skill = 4
 }
+
+
+create_field_marshal = {
+    name = "Pietro Badoglio" #Point Value: 16 #4/17/21 +Organizer
+    picture = "Portrait_Italy_Pietro_Badoglio.dds"
+    traits = { thorough_planner organizer brilliant_strategist aggressive_assaulter inspirational_leader trait_cautious infantry_leader commando old_guard 	infantry_expert}
+	skill = 7  
+	attack_skill = 5
+    defense_skill = 6
+    planning_skill = 7
+    logistics_skill = 4
+}
+create_field_marshal = {
+	name = "Mario Berti" #Point Value: 16
+	picture = "Portrait_Italy_Mario_Berti_01.dds"
+    traits = { thorough_planner brilliant_strategist aggressive_assaulter logistics_wizard trait_cautious infantry_leader  	infantry_expert}
+	skill = 7  
+	attack_skill = 5
+    defense_skill = 6
+    planning_skill = 7
+    logistics_skill = 4
+}
 create_field_marshal = { #general FM 
-    name = "Pietro Badoglio" #Point Value: 17 #2/4/21 -Organizer
-    picture = "Portrait_Italy_Pietro_Badoglio.dds" 
-    traits = { defensive_doctrine old_guard inflexible_strategist infantry_leader infantry_expert unyielding_defender logistics_wizard  }
+    name = "Melchiade Gabba" #Point Value: 16 
+    picture = "Portrait_Italy_Melchiade_Gabba_01.dds" 
+    traits = { thorough_planner  guerilla_fighter unyielding_defender inflexible_strategist infantry_leader infantry_expert logistics_wizard  }
     skill = 7
     attack_skill = 3
     defense_skill = 7
@@ -1836,9 +1858,20 @@ create_field_marshal = {
     logistics_skill = 6
 }
 create_field_marshal = {
-	name = "Emilio De Bono" #Point Value: 16 #2/4/21 -Organizer -Inspirational Later #2/16/21 -Ambusher +Infantry Expert
+	name = "Umberto II di Savoia" #Point Value: 16
+	picture = "Portrait_Italy_Umberto_II_di_Savoia.dds"
+	traits = { guerilla_fighter urban_assault_specialist panzer_leader panzer_expert trait_mountaineer hill_fighter logistics_wizard defensive_doctrine	  }
+	skill = 7
+	attack_skill = 5
+	defense_skill = 3
+	planning_skill = 4
+	logistics_skill = 10
+}
+
+create_field_marshal = {
+	name = "Emilio De Bono" #Point Value: 16 #2/4/21 -Organizer -Inspirational Later
 	picture = "portrait_italy_emilio_de_bono.dds" 
-	traits = { defensive_doctrine logistics_wizard old_guard infantry_leader organisational_leader infantry_expert  guerilla_fighter camouflage_expert trait_cautious }
+	traits = { defensive_doctrine logistics_wizard old_guard infantry_leader organisational_leader ambusher  guerilla_fighter camouflage_expert trait_cautious }
 	skill = 7
 	attack_skill = 5
 	defense_skill = 6
@@ -1848,7 +1881,7 @@ create_field_marshal = {
 create_corps_commander = {
     name = "Sebastiano Visconti Prasca" #Point value: 20 #2/4/21 -Guerilla Fighter
     picture = "Portrait_Italy_Sebastiano_Visconti_Prasca.dds" 
-    traits = {  old_guard fake_skilled_staffer inflexible_strategist infantry_leader ambusher scavenger skirmisher combined_arms_expert trait_engineer }
+    traits = {  old_guard fake_skilled_staffer inflexible_strategist infantry_leader ambusher scavenger skirmisher commando trait_engineer }
     skill = 7
     attack_skill = 5
     defense_skill = 7
@@ -1866,17 +1899,175 @@ create_corps_commander = {
     planning_skill = 5
     logistics_skill = 9
 }
+
+create_field_marshal = {
+	name = "Vittorio Ambrosio"
+	picture = "Portrait_Italy_Vittorio_Ambrosio.dds"  #Point Value: 16
+	traits = { brilliant_strategist cavalry_leader combined_arms_expert adaptable thorough_planner aggressive_assaulter logistics_wizard organizer } 
+    skill = 7
+	attack_skill = 5
+    defense_skill = 6
+    planning_skill = 6
+    logistics_skill = 7
+}
+
+create_field_marshal = {
+	name = "Enrico Caviglia"#Point Value: 16 
+ picture = "Portrait_Italy_Enrico_Caviglia.dds"
+	traits = { old_guard guerilla_fighter defensive_doctrine  bearer_of_artillery cavalry_expert cavalry_expert trait_mountaineer urban_assault_specialist combined_arms_expert  hill_fighter desert_fox ambusher   }
+	skill = 7
+    attack_skill = 4
+    defense_skill = 7
+    planning_skill = 6
+    logistics_skill = 6
+}
+
+create_field_marshal = {
+	name = "Italo Gariboldi"  #Point Value: 16.5
+	picture = "Portrait_Italy_Italo_Gariboldi_01.dds"
+	traits = { logistics_wizard organisational_leader  old_guard bearer_of_artillery infantry_leader infantry_expert inspirational_leader offensive_doctrine adaptable   }
+	skill = 7
+    attack_skill = 3
+    defense_skill = 6
+    planning_skill = 7
+    logistics_skill = 6
+}
+create_field_marshal = {
+	name = "Mario Caracciolo di Feroleto" #Point Value: 16
+	picture = "Portrait_Italy_Mario_Caracciolo_01.dds"
+	traits = { logistics_wizard organisational_leader trait_reckless  old_guard bearer_of_artillery infantry_leader ambusher commando defensive_doctrine   }
+	skill = 7
+    attack_skill = 3
+    defense_skill = 6
+    planning_skill = 7
+    logistics_skill = 6
+}
+create_field_marshal = {
+	name = "Alberto Pariani" #Point Value: 7
+	picture = "Portrait_Italy_Alberto_Pariani.dds" 
+	traits = { old_guard inflexible_strategist unyielding_defender panzer_leader panzer_expert  }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+
+create_field_marshal = {
+    name = "Ezio Rosi" #Point Value: 16
+        picture = "Portrait_Italy_Ezio_Rosi_01.dds"
+	traits = { trickster old_guard offensive_doctrine organisational_leader inspirational_leader logistics_wizard  bearer_of_artillery panzer_leader panzer_expert    }
+	skill = 7
+    attack_skill = 8
+    defense_skill = 4
+    planning_skill = 4
+    logistics_skill = 6
+}
+
+create_field_marshal = {
+	name = "Federico Baistrocchi"  #Point Value: 16
+	picture = "Portrait_Italy_Federico_Baistrocchi_01.dds"
+	traits = {  old_guard defensive_doctrine organisational_leader guerilla_fighter logistics_wizard  bearer_of_artillery panzer_leader panzer_expert    }
+	skill = 7
+    attack_skill = 5
+    defense_skill = 8
+    planning_skill = 3
+    logistics_skill = 6
+}
+create_field_marshal = {
+	name = "Ettore Bastico" #Point Value: 15.5 
+	picture = "Portrait_Italy_Ettore_Bastico_01.dds"
+	traits = {  defensive_doctrine logistics_wizard  inflexible_strategist unyielding_defender ambusher  trickster  }
+	skill = 7
+	attack_skill = 2
+	defense_skill = 9
+	planning_skill = 2
+	logistics_skill = 9
+}
+
+create_corps_commander = {
+		name = "Filiberto di Savoia-Genova" #Point Value: 20 
+	picture = "Portrait_Italy_Filiberto_Savoia.dds"
+	traits = { organizer  bearer_of_artillery cavalry_expert cavalry_expert trait_mountaineer combined_arms_expert  trickster hill_fighter ambusher   }
+	skill = 7
+    attack_skill = 4
+    defense_skill = 6
+    planning_skill = 6
+    logistics_skill = 6
+}
+
+create_corps_commander = {
+	name = "Renato Ricci" #Point Value: 20 
+	picture = "portrait_Italy_Renato_Ricci.dds"  
+	traits = { trait_reckless organizer  bearer_of_artillery cavalry_expert cavalry_expert trait_mountaineer desert_fox combined_arms_expert swamp_fox  trickster hill_fighter guerilla_fighter   }
+	skill = 7
+    attack_skill = 5
+    defense_skill = 4
+    planning_skill = 7
+    logistics_skill = 6
+}
+create_corps_commander = {
+	name = "Francesco Guidi" #Point Value: 20 
+	picture = "portrait_Italy_Francesco_Guidi.dds"  
+	traits = {  commando skirmisher bearer_of_artillery camouflage_expert guerilla_fighter panzer_leader panzer_expert trickster }
+	skill = 7
+    attack_skill = 4
+    defense_skill = 7
+    planning_skill = 4
+    logistics_skill = 7
+}
+create_corps_commander = {
+	name = "Achille Starace"  #Point Value: 20 
+	picture = "Portrait_Italy_Achille_Starace.dds"
+	traits = {  old_guard trait_reckless scavenger fake_skilled_staffer_sov infantry_leader expert_improviser ranger urban_assault_specialist  ambusher  }
+	skill = 7
+    attack_skill = 4
+    defense_skill = 4
+    planning_skill = 5
+    logistics_skill = 9
+}
+create_corps_commander = {
+	name = "Carlo Carini"  #Point Value: 20 
+	picture = "Portrait_Italy_Carlo_Carini_01.dds"
+	traits = {  trickster trait_engineer fake_skilled_staffer infantry_leader expert_improviser ranger urban_assault_specialist  infantry_expert  }
+	skill = 7
+    attack_skill = 4
+    defense_skill = 4
+    planning_skill = 5
+    logistics_skill = 9
+}
+
+create_corps_commander = {
+		name = "Amedeo Ademollo" #Point Value: 20
+	picture = "Portrait_Italy_Amedeo_Ademollo_01.dds"
+	traits = {  old_guard guerilla_fighter fake_skilled_staffer_sov infantry_leader commando ranger urban_assault_specialist camouflage_expert ambusher  }
+	skill = 7
+    attack_skill = 4
+    defense_skill = 4
+    planning_skill = 5
+    logistics_skill = 9
+}
 create_corps_commander = {
 	name = "Ubaldo Soddu" #Point value: 20
 	picture = "Portrait_Italy_Ubaldo_Soddu.dds" 
-    traits = {  trait_cautious fake_skilled_staffer inflexible_strategist infantry_leader ambusher scavenger guerilla_fighter skirmisher combined_arms_expert trait_engineer }
+    traits = {  trait_cautious fake_skilled_staffer inflexible_strategist infantry_leader ambusher scavenger guerilla_fighter skirmisher commando trait_engineer }
     skill = 7
     attack_skill = 5
     defense_skill = 7
     planning_skill = 5
     logistics_skill = 5
 }
-
+create_corps_commander = { #Funny Gabon campaign general
+	name = "Annibale Bergonzoli" #Point Value: 20 
+	picture = "Portrait_Italy_Annibale_Bergonzoli_01.dds" #Point Value: 20
+    traits = { trait_reckless infantry_leader infantry_expert fortress_buster bearer_of_artillery jungle_rat trait_engineer trickster }
+    skill = 7
+    attack_skill = 6
+    defense_skill = 5
+    planning_skill = 5
+    logistics_skill = 6
+}
 
 create_corps_commander = { #Infantry general Africa
     name = "Italo Balbo" #Point Value: 20 #2/4/21 -Mountainer -Liasion -Hill Fighter +Adaptable +Trickster
@@ -1888,6 +2079,7 @@ create_corps_commander = { #Infantry general Africa
     planning_skill = 5
     logistics_skill = 6
 }
+###
 create_corps_commander = { #AFRIKACORPS GENERAL
     name = "Giovanni Messe" #Point Value: 20 #2/4/21 +Organizer -Improv. Expert -Fortress Buster
     picture = "Portrait_Italy_Giovanni_Messe.dds" 
@@ -1898,6 +2090,507 @@ create_corps_commander = { #AFRIKACORPS GENERAL
     planning_skill = 6
     logistics_skill = 7
 }
+create_corps_commander = { #AFRIKACORPS GENERAL COPY
+    name = "Armando Pescatori" #Point Value: 20 
+	picture = "Portrait_Italy_Armando_Pescatori.dds"
+	traits = { trickster panzer_leader panzer_expert organizer desert_fox trait_mountaineer hill_fighter trait_engineer }
+    skill = 7
+    attack_skill = 5
+    defense_skill = 4
+    planning_skill = 6
+    logistics_skill = 7
+}
+
+create_corps_commander = { #AFRIKACORPS GENERAL
+    name = "Giuseppe Castellano" #Point Value: 20 
+	picture = "Portrait_Italy_Giuseppe_Castellano_01.dds"
+	traits = { trickster panzer_leader panzer_expert organizer desert_fox trait_mountaineer hill_fighter trait_engineer }
+    skill = 7
+    attack_skill = 5
+    defense_skill = 4
+    planning_skill = 6
+    logistics_skill = 7
+}
+###
+
+create_corps_commander = {
+	name = "Riccardo Calcagno" #Point value: 20
+	picture = "Portrait_Italy_Riccardo_Calcagno_01.dds"
+    traits = {  old_guard fake_skilled_staffer infantry_leader ambusher scavenger skirmisher commando trait_engineer }
+    skill = 7
+    attack_skill = 5
+    defense_skill = 7
+    planning_skill = 5
+    logistics_skill = 5
+}
+create_corps_commander = { #AFRIKACORPS GENERAL
+    name = "Giorgio Carlo Calvi di Bergolo" #Point Value: 20 
+    icture = "Portrait_Italy_Giorgio_Carlo_Calvi_di_Bergolo.dds"
+	traits = { camouflage_expert commando panzer_leader panzer_expert desert_fox trait_mountaineer hill_fighter trait_engineer }
+    skill = 7
+    attack_skill = 5
+    defense_skill = 4
+    planning_skill = 6
+    logistics_skill = 7
+}
+
+create_corps_commander = {
+	picture = "Portrait_Italy_Alessandro_Pirzio_Biroli.dds" #Point Value: 20
+	traits = { harsh_leader infantry_leader infantry_expert skilled_staffer trickster expert_improviser adaptable }
+	skill = 7
+    attack_skill = 5
+    defense_skill = 3
+    planning_skill = 9
+    logistics_skill = 5
+}
+create_corps_commander = {
+	name = "Giuseppe Tellera" #Point Value: 20
+	picture = "Portrait_Italy_Giuseppe_Tellera_01.dds"
+	traits = { guerilla_fighter skirmisher urban_assault_specialist panzer_leader panzer_expert ambusher swamp_fox  }
+	skill = 7
+	attack_skill = 3
+	defense_skill = 4
+	planning_skill = 6
+	logistics_skill = 9
+}
+create_corps_commander = {
+	name = "Federico Ferrari-Orsi" #point value: 20
+	picture = "Portrait_Italy_Federico_Ferrari-Orsi.dds"
+	traits = { organizer naval_invader naval_liason invader_ii trait_engineer fortress_buster trickster panzer_leader panzer_expert  }
+	skill = 7
+    attack_skill = 1
+    defense_skill = 7
+    planning_skill = 10
+    logistics_skill = 4
+}
+
+
+create_corps_commander = {
+	name = "Amedeo Guillet" #point value: 20
+	picture = "Portrait_Italy_Amedeo_Guillet_01.dds"
+	traits = { combined_arms_expert cavalry_leader cavalry_expert organizer naval_invader naval_liason invader_ii trait_engineer adaptable bearer_of_artillery  }
+	skill = 3
+    attack_skill = 1
+    defense_skill = 7
+    planning_skill = 10
+    logistics_skill = 4
+}
+
+create_corps_commander = {
+	name = "Adalberto di Savoia-Genova"
+	picture = "Portrait_Italy_Adalberto_di_Savoia.dds"
+	traits = {  }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Alfredo Agnesi"
+	picture = "Portrait_Italy_Alfredo_Agnesi_01.dds"
+	traits = {  }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Alfredo Guzzoni"
+	picture = "Portrait_Italy_Alfredo_Guzzoni_01.dds"
+	traits = {  }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 3
+	planning_skill = 1
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Angelico Carta"
+	picture = "Portrait_Italy_Angelico_Carta_01.dds"
+	traits = { trait_cautious }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+
+create_corps_commander = {
+	name = "Bruno Malaguti"
+	picture = "Portrait_Italy_Bruno_Malaguti_01.dds"
+	traits = {  }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 1
+}
+
+
+create_corps_commander = {
+	name = "Carlo Vecchiarelli"
+	picture = "Portrait_Italy_Carlo_Vecchiarelli_01.dds"
+	traits = {  infantry_officer }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Enea Navarini"
+	picture = "Portrait_Italy_Enea_Navarini.dds"
+	traits = { infantry_officer }
+	skill = 4
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Enzo Emilio Galbiati"
+	picture = "Portrait_Italy_Enzo_Emilio_Galbiati_01.dds"
+	traits = {   infantry_officer }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Enzo Marchesi"
+	picture = "Portrait_Italy_Enzo_Marchesi_01.dds"
+	traits = {  }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Francesco Antonelli"
+	picture = "Portrait_Italy_Francesco_Antonelli_01.dds"
+	traits = {  }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1.
+}
+
+create_corps_commander = {
+	name = "Francesco Argentino"
+	picture = "Portrait_Italy_Francesco_Argentino_01.dds"
+	traits = {  }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Gabriele Nasci"
+	picture = "Portrait_Italy_Gabriele_Nasci_01.dds"
+	traits = {  trait_mountaineer }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Gastone Gambara"
+	picture = "Portrait_Italy_Gastone_Gambara_01.dds"
+	traits = { infantry_officer trait_mountaineer  }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Giacomo Appiotti"
+	picture = "Portrait_Italy_Giacomo_Appiotti_01.dds"
+	traits = {  }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Giuseppe Aloia"
+	picture = "Portrait_Italy_Giuseppe_Aloia_01.dds"
+	traits = {  }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+
+create_corps_commander = {
+	name = "Lorenzo Allegretti"
+	picture = "Portrait_Italy_Lorenzo_Allegretti_01.dds"
+	traits = {  }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Mario Roatta"
+	picture = "Portrait_Italy_Mario_Roatta.dds"
+	traits = {   harsh_leader }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Mario Vercellino"
+	picture = "Portrait_Italy_Mario_Vercellino_01.dds"
+	traits = {  }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Pietro Pintor"
+	picture = "Portrait_Italy_Pietro_Pintor_01.dds"
+	traits = { infantry_officer }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 3
+	planning_skill = 1
+	logistics_skill = 2
+}
+
+
+
+create_corps_commander = {
+	name = "Ugo Adami"
+	picture = "Portrait_Italy_Ugo_Adami_01.dds"
+	traits = {  }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+
+create_corps_commander = {
+	name = "Ottorino Mezzetti"
+	picture = "Portrait_Italy_Ottorino_Mezzetti.dds"
+	traits = { }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Ugo Santovito"
+	picture = "Portrait_Italy_Santovito_Ugo.dds"
+	traits = { }
+	skill = 2	
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+
+create_corps_commander = {
+	name ="Curio Barbasetti di Prun"
+	picture = "Portrait_Italy_Curio_Barbasetti_di_Prun.dds"
+	traits = { skilled_staffer }
+	skill = 2
+    attack_skill = 1
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name ="Francesco Zingales"
+	picture = "Portrait_Italy_Francesco_Zingales.dds"
+	traits = { inflexible_strategist cavalry_officer }
+	skill = 2
+    attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Brunetto Brunetti"
+	picture = "Portrait_Italy_Brunetto_Brunetti.dds"
+	traits = {  }
+	skill = 1
+    attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+
+create_corps_commander = {
+	name = " Giuseppe De Stefanis "
+	picture = "Portrait_Italy_Giuseppe_De_Stefanis.dds"
+	traits = {  skilled_staffer }
+	skill = 4
+    attack_skill = 3
+	defense_skill = 3
+	planning_skill = 4
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = " Carlo Geloso "
+	picture = "Portrait_Italy_Carlo_Geloso.dds"
+	traits = { old_guard }
+	skill = 1
+    attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Carlo Rossi"
+	picture = "Portrait_Italy_Carlo_Rossi.dds"
+	traits = {  trait_reckless trait_mountaineer }
+	skill = 3
+    attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = " Mario Balotta"
+	picture = "Portrait_Italy_Mario_Balotta.dds"
+	traits = { brilliant_strategist }
+	skill = 2
+    attack_skill = 3
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Sebastiano Gallina"
+	picture = "Portrait_Italy_Sebastiano_Gallina.dds"
+	traits = { old_guard desert_fox }
+	skill = 2
+    attack_skill = 2
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Nino Salvatore Villa Santa"
+	picture = "portrait_Italy_Nino_Villa_Santa_Martinetti.dds"  
+	traits = {  }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Ettore Baldassarre"
+	picture = "Portrait_Italy_Ettore_Baldassarre.dds"  
+	traits = { }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Giulio Martinat"
+	picture = "portrait_Italy_Giulio_Martinat.dds"  
+	traits = { trait_mountaineer }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Cesare Maria de Vecchi"
+	picture = "portrait_Italy_Cesare_Maria_de_Vecchi.dds"  
+	traits = {  harsh_leader }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Antonio Gandin"
+	picture = "portrait_Italy_Antonio_Gandin.dds"  
+	traits = { infantry_officer  harsh_leader }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Enrico Pezzi"
+	picture = "portrait_Italy_Enrico_Pezzi.dds"  
+	traits = {  }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Giuseppe Amico"
+	picture = "portrait_Italy_Giuseppe_Amico.dds"  
+	traits = { infantry_officer }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
+}
+
 
 }
 JAP = { 
@@ -2717,7 +3410,7 @@ create_corps_commander = {
 }
 create_corps_commander = {  
 	name = "Pietro Gazzera"  #Point Value: 9
-	picture = "Portrait_Italy_Pietro_Gazzera.dds"
+	portrait_path = "gfx/leaders/ITA/Portrait_Italy_Pietro_Gazzera_01.dds"
 	traits = { infantry_leader ambusher trait_cautious inflexible_strategist }
 	skill = 6
 	attack_skill = 2
@@ -2726,9 +3419,9 @@ create_corps_commander = {
 	logistics_skill = 7
 }
 create_field_marshal = { 
-    name = "Pietro Badoglio"  #Point Value: 16.5
+    name = "Pietro Badoglio" #Point Value: 15.5 #4/10/21 -Organizer
+    traits = { thorough_planner brilliant_strategist aggressive_assaulter inspirational_leader trait_cautious infantry_leader commando old_guard 	infantry_expert}
     portrait_path = "gfx/leaders/ITA/Portrait_Italy_Pietro_Badoglio.dds" 
-    traits = { defensive_doctrine old_guard inflexible_strategist organizer infantry_leader infantry_expert unyielding_defender logistics_wizard  }
     skill = 6
     attack_skill = 3
     defense_skill = 4
