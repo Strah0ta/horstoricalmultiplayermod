@@ -93,6 +93,7 @@ leader_traits = {
 				attack_bonus_against = -0.2
 				defense_bonus_against = -0.2
 			}
+			surrender_limit = 0.05
 			min_export = -1
 					production_lack_of_resource_penalty_factor = -1
 
@@ -105,6 +106,7 @@ leader_traits = {
 				attack_bonus_against = -0.05
 				defense_bonus_against = -0.05
 			}
+			surrender_limit = 0.1
 						min_export = -1
 								production_lack_of_resource_penalty_factor = -1
 
@@ -118,6 +120,7 @@ leader_traits = {
 				attack_bonus_against = 0.10
 				defense_bonus_against = 0.10
 			}
+			surrender_limit = 0.15
 			min_export = -1
 					production_lack_of_resource_penalty_factor = -1
 	}
