@@ -308,8 +308,8 @@ entity = {
 		state = { name = "retreat"					animation = "move" 		animation_blend_time = 0.0 }
 		state = { name = "training"					animation = "attack" 		animation_blend_time = 0.0 }
 		
-		attach = { 	name = "infantry"			infantry = "IRQ_infantry_rider_0_entity" }
-		attach = { 	name = "cavalry"			cavalry = "IRQ_cavalry_0_combined_entity" }
+		attach = { 	name = "infantry"			infantry = "ALB_infantry_rider_0_entity" }
+		attach = { 	name = "cavalry"			cavalry = "ALB_cavalry_0_combined_entity" }
 		attach = { 	name = "horse"				horse = "infantry_cavalry_horse_entity" }
 		
 		scale = 1.0
@@ -326,7 +326,7 @@ entity = {
 		state = { name = "training"					animation = "cavalry_idle" 		animation_blend_time = 0.0 }
 		
 		
-		attach = { 	name = "infantry_unit"			Saddle_Node = "IRQ_infantry_rider_0_entity" }
+		attach = { 	name = "infantry_unit"			Saddle_Node = "ALB_infantry_rider_0_entity" }
 		
 		scale = 0.65
 	}
@@ -344,8 +344,8 @@ entity = {
 		state = { name = "retreat"					animation = "move" 		animation_blend_time = 0.0 }
 		state = { name = "training"					animation = "attack" 		animation_blend_time = 0.0 }
 		
-		attach = { 	name = "infantry"			infantry = "IRQ_infantry_rider_1_entity" }
-		attach = { 	name = "cavalry"			cavalry = "IRQ_cavalry_1_combined_entity" }
+		attach = { 	name = "infantry"			infantry = "ALB_infantry_rider_1_entity" }
+		attach = { 	name = "cavalry"			cavalry = "ALB_cavalry_1_combined_entity" }
 		attach = { 	name = "horse"				horse = "infantry_cavalry_horse_entity" }
 		
 		scale = 1.0
@@ -362,7 +362,7 @@ entity = {
 		state = { name = "training"					animation = "cavalry_idle" 		animation_blend_time = 0.0 }
 		
 		
-		attach = { 	name = "infantry_unit"			Saddle_Node = "IRQ_infantry_rider_1_entity" }
+		attach = { 	name = "infantry_unit"			Saddle_Node = "ALB_infantry_rider_1_entity" }
 		
 		scale = 0.65
 	}
@@ -380,8 +380,8 @@ entity = {
 		state = { name = "retreat"					animation = "move" 		animation_blend_time = 0.0 }
 		state = { name = "training"					animation = "attack" 		animation_blend_time = 0.0 }
 		
-		attach = { 	name = "infantry"			infantry = "IRQ_infantry_rider_2_entity" }
-		attach = { 	name = "cavalry"			cavalry = "IRQ_cavalry_2_combined_entity" }
+		attach = { 	name = "infantry"			infantry = "ALB_infantry_rider_2_entity" }
+		attach = { 	name = "cavalry"			cavalry = "ALB_cavalry_2_combined_entity" }
 		attach = { 	name = "horse"				horse = "infantry_cavalry_horse_entity" }
 		
 		scale = 1.0
@@ -400,7 +400,7 @@ entity = {
 		state = { name = "defend"					animation = "cavalry_idle" 		animation_blend_time = 0.0 }
 		state = { name = "support_attack"			animation = "cavalry_idle" 		animation_blend_time = 0.0 }
 		
-		attach = { 	name = "infantry_unit"			Saddle_Node = "IRQ_infantry_rider_2_entity" }
+		attach = { 	name = "infantry_unit"			Saddle_Node = "ALB_infantry_rider_2_entity" }
 		
 		scale = 0.65
 	}
@@ -418,8 +418,8 @@ entity = {
 		state = { name = "retreat"					animation = "move" 		animation_blend_time = 0.0 }
 		state = { name = "training"					animation = "attack" 		animation_blend_time = 0.0 }
 		
-		attach = { 	name = "infantry"			infantry = "IRQ_infantry_rider_3_entity" }
-		attach = { 	name = "cavalry"			cavalry = "IRQ_cavalry_3_combined_entity" }
+		attach = { 	name = "infantry"			infantry = "ALB_infantry_rider_3_entity" }
+		attach = { 	name = "cavalry"			cavalry = "ALB_cavalry_3_combined_entity" }
 		attach = { 	name = "horse"				horse = "infantry_cavalry_horse_entity" }
 		
 		scale = 1.0
@@ -438,7 +438,7 @@ entity = {
 		state = { name = "defend"					animation = "cavalry_idle" 		animation_blend_time = 0.0 }
 		state = { name = "support_attack"			animation = "cavalry_idle" 		animation_blend_time = 0.0 }
 		
-		attach = { 	name = "infantry_unit"			Saddle_Node = "IRQ_infantry_rider_3_entity" }
+		attach = { 	name = "infantry_unit"			Saddle_Node = "ALB_infantry_rider_3_entity" }
 		
 		scale = 0.65
 	}
@@ -841,8 +841,8 @@ entity = {
 		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
 		scale = 1.0
 		
-		attach = { 	name = "vehicle"			vehicle = "IRQ_motorized_vehicle_entity" }
-		attach = { 	name = "infantry"			infantry = "IRQ_vehicle_infantry_rifle_0_entity" }
+		attach = { 	name = "vehicle"			vehicle = "ALB_motorized_vehicle_entity" }
+		attach = { 	name = "infantry"			infantry = "ALB_vehicle_infantry_rifle_0_entity" }
 	}
 	
 	entity = {
@@ -859,8 +859,8 @@ entity = {
 		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
 		scale = 1.0
 		
-		attach = { 	name = "vehicle"			vehicle = "IRQ_motorized_vehicle_entity" }
-		attach = { 	name = "infantry"			infantry = "IRQ_vehicle_infantry_rifle_1_entity" }
+		attach = { 	name = "vehicle"			vehicle = "ALB_motorized_vehicle_entity" }
+		attach = { 	name = "infantry"			infantry = "ALB_vehicle_infantry_rifle_1_entity" }
 	}
 	
 	entity = {
@@ -877,8 +877,8 @@ entity = {
 		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
 		scale = 1.0
 		
-		attach = { 	name = "vehicle"			vehicle = "IRQ_motorized_vehicle_entity" }
-		attach = { 	name = "infantry"			infantry = "IRQ_vehicle_infantry_mg_2_entity" }
+		attach = { 	name = "vehicle"			vehicle = "ALB_motorized_vehicle_entity" }
+		attach = { 	name = "infantry"			infantry = "ALB_vehicle_infantry_mg_2_entity" }
 	}
 	
 	entity = {
@@ -895,8 +895,8 @@ entity = {
 		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
 		scale = 1.0
 		
-		attach = { 	name = "vehicle"			vehicle = "IRQ_motorized_vehicle_entity" }
-		attach = { 	name = "infantry"			infantry = "IRQ_vehicle_infantry_mg_3_entity" }
+		attach = { 	name = "vehicle"			vehicle = "ALB_motorized_vehicle_entity" }
+		attach = { 	name = "infantry"			infantry = "ALB_vehicle_infantry_mg_3_entity" }
 	}
 		
 	entity = {
@@ -1037,8 +1037,8 @@ entity = {
 		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
 		scale = 1.0
 		
-		attach = { 	name = "vehicle"			vehicle = "IRQ_mechanized_vehicle_0_entity" }
-		attach = { 	name = "infantry"			infantry = "IRQ_mech_vehicle_infantry_mg_1_entity" }
+		attach = { 	name = "vehicle"			vehicle = "ALB_mechanized_vehicle_0_entity" }
+		attach = { 	name = "infantry"			infantry = "ALB_mech_vehicle_infantry_mg_1_entity" }
 	}
 	
 	entity = {
@@ -1055,8 +1055,8 @@ entity = {
 		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
 		scale = 1.0
 		
-		attach = { 	name = "vehicle"			vehicle = "IRQ_mechanized_vehicle_0_entity" }
-		attach = { 	name = "infantry"			infantry = "IRQ_mech_vehicle_infantry_mg_1_entity" }
+		attach = { 	name = "vehicle"			vehicle = "ALB_mechanized_vehicle_0_entity" }
+		attach = { 	name = "infantry"			infantry = "ALB_mech_vehicle_infantry_mg_1_entity" }
 	}
 	
 	entity = {
@@ -1073,8 +1073,8 @@ entity = {
 		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
 		scale = 1.0
 		
-		attach = { 	name = "vehicle"			vehicle = "IRQ_mechanized_vehicle_1_entity" }
-		attach = { 	name = "infantry"			infantry = "IRQ_mech_vehicle_infantry_mg_2_entity" }
+		attach = { 	name = "vehicle"			vehicle = "ALB_mechanized_vehicle_1_entity" }
+		attach = { 	name = "infantry"			infantry = "ALB_mech_vehicle_infantry_mg_2_entity" }
 	}
 	
 	entity = {
@@ -1091,8 +1091,8 @@ entity = {
 		state = { name = "move"				animation = "move" 					animation_blend_time = 0.3 animation_speed = 1.0 }
 		scale = 1.0
 		
-		attach = { 	name = "vehicle"			vehicle = "IRQ_mechanized_vehicle_2_entity" }
-		attach = { 	name = "infantry"			infantry = "IRQ_mech_vehicle_infantry_mg_2_entity" }
+		attach = { 	name = "vehicle"			vehicle = "ALB_mechanized_vehicle_2_entity" }
+		attach = { 	name = "infantry"			infantry = "ALB_mech_vehicle_infantry_mg_2_entity" }
 	}
 	
 	entity = {
@@ -1309,7 +1309,7 @@ entity = {
 	
 	scale = 1.2
 	
-	attach = { name = artillery			artillery = "IRQ_artillery_gun_3_entity" }
+	attach = { name = artillery			artillery = "ALB_artillery_gun_3_entity" }
 }
 
 entity = {
@@ -1329,7 +1329,7 @@ entity = {
 	
 	scale = 1.2
 
-	attach = { name = artillery			artillery = "IRQ_artillery_gun_1_entity" }
+	attach = { name = artillery			artillery = "ALB_artillery_gun_1_entity" }
 }
 
 entity = {
@@ -1349,7 +1349,7 @@ entity = {
 	
 	scale = 1.2
 	
-	attach = { name = artillery			artillery = "IRQ_artillery_gun_2_entity" }
+	attach = { name = artillery			artillery = "ALB_artillery_gun_2_entity" }
 }
 
 entity = {
@@ -1369,7 +1369,7 @@ entity = {
 	
 	scale = 1.2
 	
-	attach = { name = artillery			artillery = "IRQ_artillery_gun_3_entity" }
+	attach = { name = artillery			artillery = "ALB_artillery_gun_3_entity" }
 }
 
 
@@ -1428,7 +1428,7 @@ entity = {
 	
 	scale = 0.9
 	
-	attach = { name = artillery			artillery = "IRQ_antitank_gun_entity" }
+	attach = { name = artillery			artillery = "ALB_antitank_gun_entity" }
 }
 
 
@@ -1843,9 +1843,9 @@ entity = {
 		state = { name = "defend" 			animation = "attack" }
 		state = { name = "training" 		animation = "attack" }
 		
-		attach = { 	name = "infantry"		infantry = "IRQ_bicycle_rider_rifle_entity" }	
-		attach = { 	name = "combined"		combined = "IRQ_bicycle_rifle_combined_entity" }	
-		attach = { 	name = "bicycle"		bike = "IRQ_bicycle_vehicle_entity" }	
+		attach = { 	name = "infantry"		infantry = "ALB_bicycle_rider_rifle_entity" }	
+		attach = { 	name = "combined"		combined = "ALB_bicycle_rifle_combined_entity" }	
+		attach = { 	name = "bicycle"		bike = "ALB_bicycle_vehicle_entity" }	
 	}
 	
 	entity = {
@@ -1860,7 +1860,7 @@ entity = {
 		state = { name = "retreat" 	animation = "retreat" chance = 10 next_state = "retreat" looping = no propagate_state = { rider = "retreat" } }
 		state = { name = "retreat" 	animation = "retreat_2" chance = 1 next_state = "retreat" looping = no propagate_state = { rider = "retreat_2" } }
 		
-		attach = { 	name = "rider"	bike_center = "IRQ_bicycle_rider_rifle_entity" }
+		attach = { 	name = "rider"	bike_center = "ALB_bicycle_rider_rifle_entity" }
 		
 		scale = 0.8
 	}
@@ -1917,9 +1917,9 @@ entity = {
 		state = { name = "defend" 			animation = "attack" }
 		state = { name = "training" 		animation = "attack" }
 		
-		attach = { 	name = "infantry"		infantry = "IRQ_bicycle_rider_mg_entity" }	
-		attach = { 	name = "combined"		combined = "IRQ_bicycle_mg_combined_entity" }	
-		attach = { 	name = "bicycle"		bike = "IRQ_bicycle_vehicle_entity" }	
+		attach = { 	name = "infantry"		infantry = "ALB_bicycle_rider_mg_entity" }	
+		attach = { 	name = "combined"		combined = "ALB_bicycle_mg_combined_entity" }	
+		attach = { 	name = "bicycle"		bike = "ALB_bicycle_vehicle_entity" }	
 	}
 	
 	entity = {
@@ -1934,7 +1934,7 @@ entity = {
 		state = { name = "retreat" 	animation = "retreat" chance = 10 next_state = "retreat" looping = no propagate_state = { rider = "retreat" } }
 		state = { name = "retreat" 	animation = "retreat_2" chance = 1 next_state = "retreat" looping = no propagate_state = { rider = "retreat_2" } }
 		
-		attach = { 	name = "rider"	bike_center = "IRQ_bicycle_rider_mg_entity" }
+		attach = { 	name = "rider"	bike_center = "ALB_bicycle_rider_mg_entity" }
 		
 		scale = 0.8
 	}
