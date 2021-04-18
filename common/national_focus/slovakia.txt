@@ -475,8 +475,8 @@
        icon = GFX_goal_generic_construct_civilian
        relative_position_id = SLO_invasion_of_poland
         prerequisite = { focus = SLO_invasion_of_poland }
-        x = -4
-        y = 2
+        x = 2
+        y = 1
         cost = 5
 
       completion_reward = {
@@ -493,32 +493,6 @@
   }
 }
 
-#Medium panzer
-  focus =  {  
-       id = SLO_medium_panzer
-       icon = GFX_GER_achtung_panzer
-       relative_position_id = SLO_prepare_production
-      prerequisite = { focus = SLO_prepare_production }
-        x = 0
-        y = 1
-        cost = 5
-
-       available = {
-       GER = { has_tech = improved_medium_tank }
-       }
-      completion_reward = {
-       set_technology = {
-       improved_medium_tank = 1
-      }
-      add_tech_bonus = {
-        name = Tonk
-        bonus = 1
-        uses = 2
-        category = armor
-      }
-      custom_effect_tooltip = SLO_medium_tt
-}
-}
 	
    #Continue production
     focus =  {  
@@ -526,8 +500,8 @@
        icon = GFX_focus_generic_combined_arms
        relative_position_id = SLO_invasion_of_poland
       prerequisite = { focus = SLO_invasion_of_poland }
-        x = -11
-        y = 2
+        x = -4
+        y = 1
         cost = 5
 
         completion_reward = {
@@ -561,8 +535,8 @@
       id = SLO_slovak_airforce
       icon = GFX_SLO_air_force
 
-       x = -18
-        y = 3
+       x = -4
+        y = 0
         cost = 5
 
         completion_reward = {
@@ -596,7 +570,7 @@
        id = SLO_german_assistance
        icon = GFX_GER_endless_offensives
        relative_position_id = SLO_light_tank_modernization
-        prerequisite = { focus = SLO_light_tank_modernization focus = SLO_medium_panzer}
+        prerequisite = { focus = SLO_light_tank_modernization }
         x = 0
         y = 1
         cost = 5
@@ -618,25 +592,13 @@
        icon = GFX_goal_generic_production2
        relative_position_id = SLO_invasion_of_poland
         prerequisite = { focus = SLO_invasion_of_poland } 
-        x = -7
-        y = 2
+        x = -1
+        y = 1
         cost = 5
-        ai_will_do = {
-           factor = 50}
-        completion_reward = { 
-        random_owned_controlled_state = {
-        add_extra_state_shared_building_slots = 3
-          add_building_construction = {
-         type = arms_factory
-        level = 3
-         instant_build = yes 
-        }   
+			completion_reward = { 
 
-  }
-        custom_effect_tooltip = SLO_motorized_tt
-
-   }
-  }   
+			}
+		}   
 #Cavalry
     focus =  {  
        id = SLO_cavalry_focus
@@ -702,8 +664,6 @@
         ai_will_do = {
            factor = 50}
         completion_reward = { 
-    custom_effect_tooltip = available_political_advisor
-    show_ideas_tooltip = SLO_rudolf_pilfousek
     add_ideas = SLO_moto_mech_idea
         }   
      } 
@@ -712,21 +672,13 @@
     focus =  {  
        id = SLO_special_forces
        icon = GFX_GER_air_innovation_2
-       relative_position_id = SLO_invasion_of_poland
-        prerequisite = { focus = SLO_invasion_of_poland  } 
-        x = 0
-        y = 1
+       relative_position_id = SLO_slovak_airforce	   
+       prerequisite = { focus = SLO_slovak_airforce} 
+        x = -1
+        y = 2
         cost = 5
 
         completion_reward = { 
-        random_owned_controlled_state = {
-        add_extra_state_shared_building_slots = 3
-          add_building_construction = {
-         type = arms_factory
-        level = 3
-         instant_build = yes 
-         }
-         } 
         set_technology = { 
         paratroopers = 1
         paratroopers2 = 1
@@ -742,10 +694,10 @@
     focus =  {  
        id = SLO_pack_arty
        icon = GFX_ROM_mountain_artillery
-       relative_position_id = SLO_special_forces 
-       prerequisite = { focus = SLO_special_forces} 
-        x = 3
-        y = 1
+       relative_position_id = SLO_infantry_focus	   
+       prerequisite = { focus = SLO_infantry_focus} 
+        x = 0
+        y = 2
         cost = 5
 
         completion_reward = {  
@@ -778,10 +730,10 @@
     focus =  {  
        id = SLO_infantry_equip
        icon = GFX_GER_new_weapons
-       relative_position_id = SLO_special_forces	
-        prerequisite = { focus = SLO_special_forces} 
-        x = -1
-        y = 1
+       relative_position_id = SLO_infantry_focus	
+        prerequisite = { focus = SLO_infantry_focus } 
+        x = 3
+        y = 2
         cost = 5
         ai_will_do = {
            factor = 12}
@@ -794,16 +746,13 @@
 
      }
 } 
-#Commando
     focus =  {  
        id = SLO_commando
        icon = GFX_focus_generic_paratrooper
-       relative_position_id = SLO_pack_arty
-      prerequisite = { focus = SLO_infantry_equip} 
-      prerequisite = { focus = SLO_expand_centre} 
-      prerequisite = { focus = SLO_pack_arty}
-        x = -2
-        y = 1
+       relative_position_id = SLO_slovak_airforce
+      prerequisite = { focus = SLO_slovak_airforce} 
+        x = 1
+        y = 2
         cost = 5
 
         completion_reward = { 
@@ -816,7 +765,7 @@
        icon = GFX_SLO_slovak_soldiers
        relative_position_id = SLO_invasion_of_poland
       prerequisite = { focus = SLO_invasion_of_poland }
-        x = 6
+        x = 5
         y = 1
         cost = 5
         ai_will_do = {
@@ -916,14 +865,14 @@
     focus =  {  
        id = SLO_soviet_war
        icon = GFX_SLO_destroy_bolshevism
-       relative_position_id = SLO_commando
-       prerequisite = { focus = SLO_commando focus = SLO_tiger_tank focus = SLO_german_assistance focus = SLO_improved_mechanization} 
+       relative_position_id = SLO_german_assistance
+       prerequisite = {  focus = SLO_german_assistance focus = SLO_improved_mechanization} 
        available = {
 			has_war_with = SOV
 		}
  
-        x = -1
-        y = 2
+        x = 1
+        y = 1
         cost = 5
         ai_will_do = {
            factor = 100}	
@@ -937,7 +886,7 @@
        icon = GFX_SLO_hejho
        relative_position_id = SLO_mobilize_slovak_army
        prerequisite = { focus = SLO_mobilize_slovak_army }  
-        x = 10
+        x = 2
         y = 1
         cost = 5
         ai_will_do = {
