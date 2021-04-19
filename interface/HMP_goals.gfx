@@ -3,11 +3,10 @@ spriteTypes = {
 
 
 
-
-
-
-
-
+	SpriteType = {
+		name = "GFX_GER_air_defence"
+		texturefile = "gfx/interface/goals/GER_air_defence.dds"
+	}
 
 	SpriteType = {
 		name = "GFX_goal_SLO_supremacy"

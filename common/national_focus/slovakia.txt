@@ -400,7 +400,7 @@
 #German assistance
     focus =  {  
        id = SLO_german_assistance
-       icon = GFX_GER_endless_offensives
+       icon = GFX_focus_chi_mission_to_germany
        relative_position_id = SLO_infantry_focus
       prerequisite = { focus = SLO_infantry_focus }
         x = 0
@@ -686,9 +686,9 @@
         }
        } 
   #AA defense
-   focus =  { 
+   focus =  {  
        id = SLO_aa_defense
-       icon = GFX_GER_air_shield
+       icon = GFX_GER_air_defence
        relative_position_id = SLO_slovak_airforce
         prerequisite = { focus = SLO_slovak_airforce}
         x = -2
