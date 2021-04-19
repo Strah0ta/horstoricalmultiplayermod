@@ -82,7 +82,7 @@ ideas = {
 		}	
 				ai_imiter = {
             allowed = {    always = no     }
-			available = { date < 1941.1.1 }
+			available = { date < 1941.1.1 is_ai = yes}
             removal_cost = -1
             picture = generic_goods_red_bonus
             modifier = {

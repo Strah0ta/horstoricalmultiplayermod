@@ -5120,6 +5120,7 @@ HMP_capitulations_on_actions = {
 			transfer_state = 90
 			transfer_state = 88 
 			transfer_state = 553
+			transfer_state = 556
 			transfer_state = 92 
 		}		
 			SWE = { transfer_state = 72 }

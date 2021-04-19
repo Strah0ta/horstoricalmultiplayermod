@@ -1,11 +1,21 @@
 state={
 	id=397
 	name="Central Slovakia"
-	manpower = 1
+	manpower = 500000
 	
 	state_category = wasteland
-
+	history = { 
+		owner = CZE
+		add_core_of = CZE
+				buildings = {
+			infrastructure = 4
+			
+		}
+		victory_points = {
+			11539 1 
+		}
+	}
 	provinces={
-		 7101
+		 11539 3537 11554 581 555
 	}
 }

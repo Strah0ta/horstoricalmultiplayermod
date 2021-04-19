@@ -82,6 +82,12 @@
 		available_if_capitulated = yes
  
       completion_reward =  {	
+      add_tech_bonus = {
+        name = mefo_tech_bonus
+        bonus = 1
+        uses = 2
+        category = industry
+        }     
 
 
     }  
@@ -136,22 +142,19 @@
            factor = 100}
         completion_reward = {
         
-        random_owned_controlled_state = {
-		    add_extra_state_shared_building_slots = 4
+        every_owned_state = {
+		    add_extra_state_shared_building_slots = 2
 		      add_building_construction = {
 			   type = industrial_complex
-				level = 4
+				level = 1
 				 instant_build = yes 
 				}
-			}
-            random_owned_controlled_state = {
-		    add_extra_state_shared_building_slots = 4
-		      add_building_construction = {
+				 add_building_construction = {
 			   type = arms_factory
-				level = 4
+				level = 1
 				 instant_build = yes 
 				 }
-		     } 
+			}   
 		 } 
 	 }	      
 
@@ -167,22 +170,13 @@
        ai_will_do = {
            factor = 16}
          completion_reward = {   
-         random_owned_controlled_state = {
+        every_owned_state = {
 		    add_extra_state_shared_building_slots = 4
 		      add_building_construction = {
 			   type = infrastructure
-				level = 2
+				level = 1
 				 instant_build = yes 
-				}
-			}
-				  
-         random_owned_controlled_state = {
-		    add_extra_state_shared_building_slots = 4
-		      add_building_construction = {
-			   type = infrastructure
-				level = 2
-				instant_build = yes 
-			}
+				}        
 		}
 	}
 }
@@ -208,12 +202,6 @@
         }
        }
 
-      add_tech_bonus = {
-        name = mefo_tech_bonus
-        bonus = 1
-        uses = 1
-        category = industry
-      }     
         } 
       } 
        focus =  {	
@@ -229,24 +217,7 @@
         add_research_slot = 1
        } 
       } 
-	  focus =  {	
-       id = SLO_propaganda_campaings
-       icon = GFX_goal_generic_propaganda
-       relative_position_id = SLO_economic_loan
-	           prerequisite = { focus = SLO_universities}
-        prerequisite = { focus = SLO_economic_loan}
-        x = 1
-        y = 1
-        cost = 5
 
-        completion_reward = {
-   
-    add_political_power = 150
-
-       } 
-      } 
-
-  
        #Bata 
        focus =  {	
        id = SLO_bata
@@ -267,13 +238,6 @@
          instant_build = yes 
         }
        }
-
-      add_tech_bonus = {
-        name = mefo_tech_bonus
-        bonus = 1
-        uses = 1
-        category = industry
-        }     
        } 
       } 
        #Universities
@@ -282,9 +246,10 @@
        focus =  { 
        id = SLO_apollo
        icon = GFX_GER_synthetic_oil_refinery
-       relative_position_id = SLO_propaganda_campaings
-        prerequisite = { focus = SLO_propaganda_campaings}
-        x = 0
+       relative_position_id = SLO_economic_loan
+	           prerequisite = { focus = SLO_universities}
+        prerequisite = { focus = SLO_economic_loan}
+        x = 1
         y = 1
         cost = 5
 
@@ -300,28 +265,7 @@
        } 
       }
 
-       focus =  { 
-       id = SLO_nehera
-       icon = GFX_focus_generic_industry_3
-       relative_position_id = SLO_bata
-         prerequisite = { focus = SLO_bata}
-        x = 0
-        y = 1
-        cost = 5
 
-        completion_reward = {
-      
-    random_owned_controlled_state = {
-        add_extra_state_shared_building_slots = 2
-          add_building_construction = {
-         type = industrial_complex
-        level = 2
-         instant_build = yes 
-        }
-        }
-        }
-       } 
-    
   #Mobilize Slovak army
     focus =  {	
        id = SLO_mobilize_slovak_army
@@ -369,7 +313,7 @@
        icon = GFX_goal_generic_construct_civilian
        relative_position_id = SLO_invasion_of_poland
         prerequisite = { focus = SLO_invasion_of_poland }
-        x = 2
+        x = 1
         y = 1
         cost = 5
 
@@ -394,7 +338,7 @@
        icon = GFX_focus_generic_combined_arms
        relative_position_id = SLO_invasion_of_poland
       prerequisite = { focus = SLO_invasion_of_poland }
-        x = -4
+        x = -3
         y = 1
         cost = 5
 
@@ -439,8 +383,8 @@
     focus =  {  
        id = SLO_light_tank_modernization
        icon = GFX_focus_generic_tank_production
-       relative_position_id = SLO_light_tank
-        prerequisite = { focus = SLO_light_tank}
+       relative_position_id = SLO_prepare_production
+        prerequisite = { focus = SLO_prepare_production}
         x = 0
         y = 1
         cost = 5
@@ -489,7 +433,9 @@
         name = support_companies
         Bonus = 1
         uses = 2
-        category = support_tech
+        category = hospital_tech 
+		category = signal_company_tech
+		category = logistics_tech
       }
       }
    }   
@@ -505,38 +451,24 @@
         y = 1
         cost = 5
         completion_reward = { 
+		        add_tech_bonus = {
+        bonus = 1.0
+        uses = 2
+        category = motorized_equipment
+      }
   }  
   }
 
-#Mechanization 
-    focus =  {  
-       id = SLO_mechanization
-       icon = GFX_GER_hanomag
-       relative_position_id = SLO_cavalry_focus
-        prerequisite = { focus = SLO_cavalry_focus }
-        x = 2
-        y = 1
-        cost = 5
-        ai_will_do = {
-           factor = 50}
-        completion_reward = { 
-      custom_effect_tooltip = available_designer
-      show_ideas_tooltip = SLO_hanomag  
-    }     
-
-  } 
   #Improved Mechanization 
     focus =  {  
        id = SLO_improved_mechanization
        icon = GFX_GER_modern_grenadiers
-       relative_position_id = SLO_mechanization
-        prerequisite = { focus = SLO_mechanization }
+       relative_position_id = SLO_motorization
          prerequisite = { focus = SLO_motorization }  
-        x = -1
+        x = 0
         y = 1
         cost = 5
-        ai_will_do = {
-           factor = 50}
+
         completion_reward = { 
     add_ideas = SLO_moto_mech_idea
         }   
@@ -851,8 +783,7 @@
         x = 1
         y = 1
         cost = 5
-        ai_will_do = {
-           factor = 16}
+
         completion_reward = {
 		add_ideas = SLO_durcanskys_ideas 
        } 
@@ -867,20 +798,10 @@
         x = 0
         y = 1
         cost = 5
-        ai_will_do = {
-           factor = 16}
-           available = {
-           casualties > 60000
-      NOT = { controls_state = 664}
-           }   
-        completion_reward = {
-        GER = { 
-       country_event = { 
-       id = slovakia.4 
-       days=1 
-       }
-     }   
 
+           available = {  casualties > 100000  NOT = { controls_state = 578}       }   
+        completion_reward = {
+			transfer_state = 73
     } 
   } 
 

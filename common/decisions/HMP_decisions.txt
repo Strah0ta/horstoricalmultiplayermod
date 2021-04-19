@@ -3708,7 +3708,7 @@ political_actions = {
 		fixed_random_seed = no
 		
 			allowed = { 
-		OR = { 
+		OR = { tag = CZE
 				tag = BUL
 			tag = EFR
 		tag = RAJ
