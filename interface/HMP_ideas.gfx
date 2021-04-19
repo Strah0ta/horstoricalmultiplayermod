@@ -8,7 +8,179 @@ spriteTypes = {
 		name = "GFX_idea_vmz_sopot"
 		texturefile = "gfx/interface/ideas/idea_vmz_sopot.dds"
 	}
-	
+	spriteType = {
+		name = "GFX_idea_SLO_durcanskys_ideas"
+		texturefile = "gfx/interface/ideas/slovakia/SLO_slovak_flag.dds"
+	}	
+	   spriteType = {
+		name = "GFX_idea_SLO_currency"
+		texturefile = "gfx/interface/ideas/slovakia/SLO_slovak_koruna.tga"
+    }
+    spriteType = {
+		name = "GFX_idea_SLO_german_occupation"
+		texturefile = "gfx/interface/ideas/ROM_corruption_in_the_army.dds"
+    }
+       spriteType = {
+		name = "GFX_idea_SLO_german_occupation_2"
+		texturefile = "gfx/interface/ideas/ROM_corruption_in_the_army.dds"
+    }
+    
+    spriteType = {
+		name = "GFX_idea_GER_slovak_workers"
+		texturefile = "gfx/interface/ideas/slovakia/SLO_slovak_workers.dds"
+	}	
+	 spriteType = {
+		name = "GFX_idea_SLO_prospering_industry_1"
+		texturefile = "gfx/interface/ideas/slovakia/SLO_slovak_industry.dds"
+	}	
+	spriteType = {
+		name = "GFX_idea_SLO_prospering_industry_2"
+		texturefile = "gfx/interface/ideas/slovakia/SLO_slovak_industry.dds"
+	}	
+	spriteType = {
+		name = "GFX_idea_SLO_prospering_industry_3"
+		texturefile = "gfx/interface/ideas/slovakia/SLO_slovak_industry.dds"
+	}	
+    spriteType = {
+		name = "GFX_idea_SLO_vojtech_tuka"
+		texturefile = "gfx/interface/ideas/slovakia/SLO_tuka_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_SLO_life_in_new_slovakia"
+		texturefile = "gfx/interface/ideas/slovakia/SLO_sanctity_of_the_mother.dds"
+	}	
+	spriteType = {
+		name = "GFX_idea_SLO_durcanskys_ideas_2"
+		texturefile = "gfx/interface/ideas/slovakia/SLO_slovak_flag.dds"
+	}	
+	spriteType = {
+		name = "GFX_idea_SLO_german_occupation_2"
+		texturefile = "gfx/interface/ideas/idea_general_staff.tga"
+    }
+	spriteType = {
+		name = "GFX_idea_SLO_jewish_codex"
+		texturefile = "gfx/interface/ideas/slovakia/SLO_deport_undesirables.dds"
+    }
+    spriteType = {
+		name = "GFX_idea_SLO_jewish_codex_2"
+		texturefile = "gfx/interface/ideas/slovakia/SLO_deport_undesirables.dds"
+    }
+   spriteType = {
+		name = "GFX_idea_SLO_jewish_codex_3"
+		texturefile = "gfx/interface/ideas/slovakia/SLO_deport_undesirables.dds"
+    }
+    spriteType = {
+		name = "GFX_idea_SLO_jewish_codex_4"
+		texturefile = "gfx/interface/ideas/slovakia/SLO_deport_undesirables.dds"
+    }
+     spriteType = {
+		name = "GFX_idea_SLO_cas_production_idea"
+		texturefile = "gfx/interface/ideas/generic_air_bonus.dds"
+    }
+    spriteType = {
+		name = "GFX_idea_SLO_fighter_production_idea"
+		texturefile = "gfx/interface/ideas/generic_air_bonus.dds"
+    }
+    spriteType = {
+		name = "GFX_idea_SLO_bomber_production_idea"
+		texturefile = "gfx/interface/ideas/generic_air_bonus.dds"
+    }
+    spriteType = {
+		name = "GFX_idea_SLO_german_favorites"
+		texturefile = "gfx/interface/ideas/german_pilot_training.dds"
+    }
+     spriteType = {
+		name = "GFX_idea_SLO_soviet_war_idea"
+		texturefile = "gfx/interface/ideas/slovakia/SLO_destroy_bolshevism.dds"
+    }
+    spriteType = {
+		name = "GFX_idea_SLO_gun_mass_production_idea"
+		texturefile = "gfx/interface/ideas/idea_MEX_politicised_army_2.dds"
+    }
+    spriteType = {
+		name = "GFX_idea_SLO_hlinka_chad_idea"
+		texturefile = "gfx/interface/ideas/slovakia/SLO_hejho.dds"
+    }
+     spriteType = {
+		name = "GFX_idea_SLO_hlinka_chad_idea_2"
+		texturefile = "gfx/interface/ideas/slovakia/SLO_hejho.dds"
+    }
+    spriteType = {
+		name = "GFX_idea_SLO_hlinka_chad_idea_3"
+		texturefile = "gfx/interface/ideas/slovakia/SLO_hejho.dds"
+    }
+    spriteType = {
+		name = "GFX_idea_SLO_hlinka_chad_idea_4"
+		texturefile = "gfx/interface/ideas/slovakia/SLO_hejho.dds"
+    }
+     spriteType = {
+		name = "GFX_idea_SLO_hlinka_chad_idea_5"
+		texturefile = "gfx/interface/ideas/slovakia/SLO_hejho.dds"
+    }
+     spriteType = {
+		name = "GFX_idea_SLO_rudolf_pilfousek"
+		texturefile = "gfx/interface/ideas/slovakia/SLO_rudolf_pilfousek_pic.dds"
+    }
+    spriteType = {
+		name = "GFX_idea_SLO_alexander_mach"
+		texturefile = "gfx/interface/ideas/slovakia/SLO_alexander_mach_pic.dds"
+    }
+     spriteType = {
+		name = "GFX_idea_SLO_juraj_mesko"
+		texturefile = "gfx/interface/ideas/slovakia/SLO_alexander_cunderlik_pic.dds"
+    }
+     spriteType = {
+		name = "GFX_idea_SLO_ferdinand_catlos"
+		texturefile = "gfx/interface/ideas/slovakia/SLO_ferdinand_catlos_pic.dds"
+    }
+    spriteType = {
+		name = "GFX_idea_SLO_rudolf_viest"
+		texturefile = "gfx/interface/ideas/slovakia/SLO_rudolf_viest_pic.dds"
+    }
+    spriteType = {
+		name = "GFX_idea_SLO_anton_pulanick"
+		texturefile = "gfx/interface/ideas/slovakia/SLO_anton_pulanich_pic.dds"
+    }
+    spriteType = {
+		name = "GFX_idea_SLO_frantisek_straka"
+		texturefile = "gfx/interface/ideas/slovakia/SLO_juraj_puskar_pic.dds"
+    }
+    spriteType = {
+		name = "GFX_idea_SLO_jozef_turanec"
+		texturefile = "gfx/interface/ideas/slovakia/SLO_jozef_turanec_pic.dds"
+    }
+    spriteType = {
+		name = "GFX_idea_SLO_julius_trnka"
+		texturefile = "gfx/interface/ideas/slovakia/SLO_julius_trnka_pic.dds"
+    }
+     spriteType = {
+		name = "GFX_idea_SLO_viliam_talsky"
+		texturefile = "gfx/interface/ideas/slovakia/SLO_viliam_talsky_pic.dds"
+    }
+    spriteType = {
+		name = "GFX_idea_SLO_augustin_malar"
+		texturefile = "gfx/interface/ideas/slovakia/SLO_augustin_malar_pic.dds"
+    }
+    spriteType = {
+		name = "GFX_idea_SLO_jan_golian"
+		texturefile = "gfx/interface/ideas/slovakia/SLO_jan_golian_pic.dds"
+    }
+     spriteType = {
+		name = "GFX_idea_SLO_karol_sidor"
+		texturefile = "gfx/interface/ideas/slovakia/SLO_karol_sidor_pic.dds"
+    }
+    spriteType = {
+		name = "GFX_idea_SLO_ferdinand_durcansky"
+		texturefile = "gfx/interface/ideas/slovakia/SLO_ferdinand_durcansky_pic.dds"
+    }
+    spriteType = {
+		name = "GFX_idea_SLO_moto_mech_idea"
+		texturefile = "gfx/interface/ideas/generic_production_bonus.dds"
+    }
+    spriteType = {
+		name = "GFX_idea_SLO_german_assistance_idea"
+		texturefile = "gfx/interface/ideas/generic_production_bonus.dds"
+    }
 	spriteType = {
 		name = "GFX_idea_nizhegorodsky_avtomobilny"
 		texturefile = "gfx/interface/ideas/idea_nizhegorodsky_avtomobilny.tga"

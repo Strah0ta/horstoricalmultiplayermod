@@ -1454,6 +1454,8 @@ create_field_marshal = {
 	planning_skill = 3
 	logistics_skill = 9
 }
+
+
 	create_field_marshal = { 
     name = "Wilhelm Keitel" #Point Value: 16 #2/4/21 -Fast Planner -Skilled Staffer -Expert Delegator +Thorough Planner +Trickster #3/23/21 +Ranger
         picture = "Portrait_Germany_Wilhelm_Keitel.dds"
@@ -1552,6 +1554,7 @@ create_corps_commander = {
     planning_skill = 6
     logistics_skill = 5
 }
+
 create_corps_commander = {
 	name = "Gerd von Rundstedt" #Point Value: 19 #2/4/21 +Swamp Fox +Urban Assault
 	picture = "Portrait_Germany_Gerd_von_Rundstedt.dds"
@@ -1748,6 +1751,117 @@ create_corps_commander = {
 	}
 # End of Germany
 	}
+	
+	CZE = { 
+		create_corps_commander = { #BOCK COPY
+	name = "Anton Pulanish" #Point Value: 20
+	picture = "Anton_Pulanish_Portrait.dds"
+	traits = { harsh_leader infantry_leader infantry_expert skilled_staffer trickster expert_improviser adaptable }
+	skill = 7
+    attack_skill = 5
+    defense_skill = 3
+    planning_skill = 9
+    logistics_skill = 5
+}
+	create_field_marshal = {  #KEITEL COPY
+    name = "Jan Golian" #Point Value: 16
+        picture = "Jan_Golian.dds"
+    traits = {  organizer thorough_planner ranger harsh_leader infantry_leader infantry_expert offensive_doctrine inspirational_leader organisational_leader trickster  }
+	skill = 7  
+	attack_skill = 4
+    defense_skill = 6
+    planning_skill = 5
+    logistics_skill = 7
+		}	
+		create_field_marshal = {   #KLUGE COPY       #tank FM
+    name = "Vojtech Luza" #Point Value: 16 
+    picture = "Portrait_Czech_Vojtech_Luza.dds"
+    traits = {  offensive_doctrine logistics_wizard trickster panzer_leader panzer_expert thorough_planner  }
+    skill = 7
+    attack_skill = 9
+    defense_skill = 3
+    planning_skill = 3
+    logistics_skill = 7
+		}	
+		create_corps_commander = { #ROMMEL COPY #for Africa 
+	name = "Rudolf Viest" #Point Value: 20  
+	picture = "Portrait_Czech_Rudolf_Viest.dds"
+	traits = {  trickster trait_engineer organizer  panzer_leader panzer_expert desert_fox hill_fighter urban_assault_specialist  }
+	skill = 7
+    attack_skill = 6
+    defense_skill = 3
+    planning_skill = 7
+    logistics_skill = 6
+}
+
+create_field_marshal = {
+	name = "Josef Nemisla" #Point Value: 16 
+	picture = "Portrait_Josef_Nemisla.dds"
+	traits = { commando guerilla_fighter infantry_leader ambusher urban_assault_specialist organizer defensive_doctrine logistics_wizard trait_cautious  }
+	skill = 7
+	attack_skill = 2
+	defense_skill = 6
+	planning_skill = 5
+	logistics_skill = 9
+}
+
+create_corps_commander = {
+	name = "Rudolf Palaticky" #Point Value: 20 
+	picture = "Portrait_Rudolf_Palaticky.tga"
+	traits = {  urban_assault_specialist panzer_leader panzer_expert expert_improviser ranger scavenger trait_engineer swamp_fox }
+	skill = 7
+	attack_skill = 5
+	defense_skill = 6
+	planning_skill = 5
+	logistics_skill = 6
+}
+
+create_corps_commander = {
+	name = "Franza Karmasin" #Point Value: 20 
+	picture = "portrait_SLO_Franza_Karmasin.dds"
+	traits = { hill_fighter trait_mountaineer infantry_leader trait_engineer urban_assault_specialist infantry_expert naval_invader invader_ii }
+	skill = 7
+	attack_skill = 5
+	defense_skill = 4
+	planning_skill = 7
+	logistics_skill = 6
+}
+
+create_corps_commander = {
+	name = "Jozef Turanec" #Point Value: 19
+	picture = "Portrait_SLO_jozef_turanec.dds"
+	traits = { old_guard  infantry_leader ambusher fake_skilled_staffer trickster swamp_fox urban_assault_specialist guerilla_fighter }
+	skill = 7
+    attack_skill = 3
+    defense_skill = 8
+    planning_skill = 6
+    logistics_skill = 5
+}
+
+create_corps_commander = {
+    name = "Augustin Malar" #Point Value: 20
+    picture = "Portrait_Slovakia_Augustin_Malar.dds"
+	traits = { trickster guerilla_fighter ambusher trait_cautious panzer_leader panzer_expert bearer_of_artillery winter_specialist }
+	skill = 7
+    attack_skill = 6
+    defense_skill = 4
+    planning_skill = 6
+    logistics_skill = 6
+}
+
+create_corps_commander = {
+		name = "Stefan Jurech" #Point Value: 20 
+	picture = "Portrait_Stefan_Jurech.tga"
+	traits = { organizer  bearer_of_artillery cavalry_expert cavalry_expert trait_mountaineer combined_arms_expert  trickster hill_fighter ambusher   }
+	skill = 7
+    attack_skill = 4
+    defense_skill = 6
+    planning_skill = 6
+    logistics_skill = 6
+}
+		
+	}
+	
 ALB = {
 create_field_marshal = {
     name = "Kamil Shabib" #Point Value: 16 #2/6/21 -Ambusher

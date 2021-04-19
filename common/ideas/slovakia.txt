@@ -193,40 +193,9 @@ ideas = {
 				factor = 1
 			}
 		}
-
-		SLO_frantisek_straka = {
-			
-			picture = CZE_juraj_puskar_pic
-			
-			allowed = {
-				original_tag = CZE
-			}
-			
-
-			
-			traits = {  }
-			
-			ai_will_do = {
-				factor = 1
-			}
-		}
 	}
 
 	navy_chief = {
-
-		SLO_jindrich_honzl = {
-			
-			picture = generic_navy_europe_3
-			
-			allowed = {
-				original_tag = CZE
-			}
-			
-
-			
-			traits = { navy_chief_maneuver_2 }
-			
-		}
 
 		
 	}
@@ -242,11 +211,8 @@ ideas = {
 			 traits = { trait_industrial_concern }
 			picture = generic_industrial_concern_1
 			modifier = {	
-				industrial_capacity_factory = 0.05
-				production_speed_buildings_factor = 0.05
-				production_factory_max_efficiency_factor = 0.05
 		   }
-         research_bonus = {industry = -0.05}
+         research_bonus = {industry = 0.15 }
         }
        }
 		
