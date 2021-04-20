@@ -1,29 +1,5 @@
 leader_traits = {
-		SLO_zatko_trait = {
-		random = no
-		sprite = 13
-		consumer_goods_factor = -0.05
-		industrial_capacity_factory = 0.15
-		political_power_cost = 0.25
-		
-		ai_will_do = {
-			factor = 0
-		}
-	}
-	SLO_karvas_trait = {
-		random = no
-		sprite = 13
-		production_factory_efficiency_gain_factor = 0.25
-		production_factory_max_efficiency_factor = 0.1
-		production_speed_arms_factory_factor = 0.25
-		
-		ai_will_do = {
-			factor = 0
-		}
-	}
-	
-	
-	
+
 	
 	dictator = {
 		random = no

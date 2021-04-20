@@ -1739,7 +1739,7 @@ focus = {
 			if = { limit = { NOT = { HUN = { controls_state = 578}}} HUN = { transfer_state = 578 }  } 
 			HUN = { transfer_state = 73 transfer_state = 76 }
 			transfer_state = 9  transfer_state = 75 
-			if = { limit = { CZE = { is_ai = no } } CZE = { set_cosmetic_tag = SLO_fascism set_politics = {
+			if = { limit = { CZE = { is_ai = no } } CZE = { remove_idea = CZE_divided_nation set_cosmetic_tag = SLO_fascism set_politics = {
 	ruling_party = fascism
         elections_allowed = no
 } 

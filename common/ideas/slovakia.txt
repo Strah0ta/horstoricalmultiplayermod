@@ -4,12 +4,37 @@ ideas = {
                 
                   
  			picture = generic_political_advisor_europe_1
-			
+			available = { has_completed_focus = SLO_president_of_slovak_republic }
 			allowed = {
 				original_tag = CZE
 			}
 			traits = { popular_figurehead }
 		}	
+
+		SLO_stefan_tiso = {
+
+			picture = generic_political_advisor_europe_3
+			
+			allowed = {
+				original_tag = CZE
+			}
+			
+			traits = { war_industrialist }
+			ai_will_do = {
+				factor = 0
+			}
+		}
+
+		SLO_jaroslav_kratochvil = {
+
+			picture = generic_political_advisor_europe_2
+			
+			allowed = {
+				original_tag = CZE
+			}
+			
+			traits = { war_industrialist }
+		}
 
 		SLO_karol_sidor = {
 
@@ -192,49 +217,6 @@ ideas = {
 			ai_will_do = {
 				factor = 1
 			}
-		}
-	}
-
-	navy_chief = {
-
-		
-	}
-    
-    #Concern 
-      industrial_concern = {
-	  
-        dynamitka_designer_2 =  {
-	allowed = {
-				original_tag = CZE
-			}
-			
-			 traits = { trait_industrial_concern }
-			picture = generic_industrial_concern_1
-			modifier = {	
-		   }
-         research_bonus = {industry = 0.15 }
-        }
-       }
-		
-	materiel_manufacturer = {
-		
-		designer = yes
-
-		SLO_hanomag = {
-		picture = hanomag
-		name = hanomag
-			
-			allowed = {
-					original_tag = CZE
-			}
-
-
-			research_bonus = {
-				motorized_equipment = 0.15
-			}
-
-			
-			traits = {  }
 		}
 	}
 

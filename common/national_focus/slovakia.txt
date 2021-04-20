@@ -142,9 +142,8 @@
        prerequisite = { focus = SLO_appoint_competent_economists }
        x = 1
        y = 1
-       cost = 5
-       ai_will_do = {
-           factor = 100}
+       cost = 10
+
         completion_reward = {
         
         every_owned_state = {
@@ -194,9 +193,7 @@
         prerequisite = { focus = SLO_currency}
         x = -1
         y = 1
-        cost = 5
-        ai_will_do = {
-           factor = 16}
+        cost = 10
         completion_reward = {
         random_owned_controlled_state = {
         add_extra_state_shared_building_slots = 2
@@ -256,7 +253,7 @@
         prerequisite = { focus = SLO_economic_loan}
         x = 1
         y = 1
-        cost = 5
+        cost = 10
 
         completion_reward = {
         70 = {
@@ -364,7 +361,6 @@
 
         completion_reward = {
         add_ideas = SLO_CKD
-
        }
   }
   #Slovak airforce
@@ -722,11 +718,9 @@
         prerequisite = { focus = SLO_zone_of_protection}
         x = -1
         y = 1
-        cost = 5
-        ai_will_do = {
-           factor = 80}
+        cost = 10
        completion_reward = {
-       add_country_leader_trait = popular_figurehead
+       add_ideas = SLO_jozef_tiso
    }   
  }   
 
@@ -753,7 +747,7 @@
 	    prerequisite = { focus = SLO_life_in_new_slovakia }
         x = -1
         y = 1
-        cost = 5
+        cost = 10
 
         completion_reward = {
 			complete_national_focus = SLO_industrial_enterprises

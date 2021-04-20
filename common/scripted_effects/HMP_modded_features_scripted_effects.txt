@@ -1163,6 +1163,10 @@ add_opinion_modifier = {
     modifier = anti_cross_faction_trade
 }
 add_opinion_modifier = {
+    target = CZE
+    modifier = anti_cross_faction_trade
+}
+add_opinion_modifier = {
     target = ALB
     modifier = anti_cross_faction_trade
 }
