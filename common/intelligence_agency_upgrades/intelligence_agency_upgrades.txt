@@ -19,7 +19,7 @@ branch_intelligence = {
 				civilian_intel_factor = 0.5
 			}
 						complete_effect = {
-				hidden_effect = {activate_mission = spy_agency_upgrade}
+			
 			}
 		}
 	}
@@ -40,7 +40,6 @@ branch_intelligence = {
 				army_intel_factor = 0.5
 			}
 						complete_effect = {
-				hidden_effect = {activate_mission = spy_agency_upgrade}
 			}
 		}
 		
@@ -62,7 +61,6 @@ branch_intelligence = {
 				navy_intel_factor = 0.5
 			}
 						complete_effect = {
-				hidden_effect = {activate_mission = spy_agency_upgrade}
 			}
 		}
 		
@@ -84,7 +82,6 @@ branch_intelligence = {
 				airforce_intel_factor = 0.5
 			}
 						complete_effect = {
-				hidden_effect = {activate_mission = spy_agency_upgrade}
 			}
 		}
 		
@@ -124,7 +121,6 @@ branch_crypto = {
 				decryption_power = 25
 			}
 						complete_effect = {
-				hidden_effect = {activate_mission = spy_agency_upgrade}
 			}
 		}
 		
@@ -150,7 +146,6 @@ branch_crypto = {
 				decryption_power = 35
 			}
 						complete_effect = {
-				hidden_effect = {activate_mission = spy_agency_upgrade}
 			}
 		}	
 	}
@@ -175,7 +170,6 @@ branch_crypto = {
 				decryption_power = 50
 			}
 						complete_effect = {
-				hidden_effect = {activate_mission = spy_agency_upgrade}
 			}
 		}
 	}
@@ -200,7 +194,6 @@ branch_crypto = {
 				crypto_strength = 1
 			}
 						complete_effect = {
-				hidden_effect = {activate_mission = spy_agency_upgrade}
 			}
 		}
 		
@@ -209,7 +202,6 @@ branch_crypto = {
 				crypto_strength = 1
 			}
 						complete_effect = {
-				hidden_effect = {activate_mission = spy_agency_upgrade}
 			}
 			
 		}
@@ -235,7 +227,6 @@ branch_crypto = {
 				crypto_strength = 2
 			}
 						complete_effect = {
-				hidden_effect = {activate_mission = spy_agency_upgrade}
 			}
 		}
 		
@@ -244,7 +235,6 @@ branch_crypto = {
 				crypto_strength = 2
 			}
 						complete_effect = {
-				hidden_effect = {activate_mission = spy_agency_upgrade}
 			}
 		}
 		
@@ -253,7 +243,6 @@ branch_crypto = {
 				crypto_strength = 2
 			}
 						complete_effect = {
-				hidden_effect = {activate_mission = spy_agency_upgrade}
 			}
 		}
 	}

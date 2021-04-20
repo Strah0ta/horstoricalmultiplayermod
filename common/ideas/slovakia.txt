@@ -288,9 +288,7 @@ ideas = {
 		  picture = GFX_SLO_slovak_industry
 		  modifier = {
 			production_factory_max_efficiency_factor = 0.05
-			consumer_goods_factor = -0.05
-			political_power_gain = 0.25
-
+			consumer_goods_factor = -0.1
 		    }
 		}
 		#Durcanskys ideas 
@@ -333,108 +331,10 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-			    weekly_manpower = 500
-				production_speed_buildings_factor = 0.1
+			    weekly_manpower = 2000
             }
 		}
-		SLO_jewish_codex = {
-		
-			picture = GFX_SLO_deport_undesirables
 
-			allowed = {
-				original_tag = CZE
-			}
-			removal_cost = -1
-
-			modifier = {
-				industrial_capacity_factory = 0.05
-
-
-		  }
-		}
-		SLO_jewish_codex_2 = {
-		
-			picture = GFX_SLO_deport_undesirables
-
-			allowed = {
-				original_tag = CZE
-			}
-			removal_cost = -1
-
-			modifier = {
-				industrial_capacity_factory = 0.05
-				production_factory_max_efficiency_factor = 0.05
-
-
-		  }
-		}
-		SLO_jewish_codex_3 = {
-		
-			picture = GFX_SLO_deport_undesirables
-
-			allowed = {
-				original_tag = CZE
-			}
-			removal_cost = -1
-
-			modifier = {
-				industrial_capacity_factory = 0.10
-				
-				production_factory_max_efficiency_factor = 0.05
-           }
-		}
-		SLO_jewish_codex_4 = {
-		
-			picture = GFX_SLO_deport_undesirables
-
-			allowed = {
-				original_tag = CZE
-			}
-			removal_cost = -1
-
-			modifier = {
-				industrial_capacity_factory = 0.10
-				production_speed_buildings_factor = 0.1
-				political_power_cost = 0.25
-			    production_factory_max_efficiency_factor = 0.05
-
-		  }
-		}
-		SLO_jewish_codex_5 = {
-		
-			picture = GFX_SLO_deport_undesirables
-
-			allowed = {
-				original_tag = CZE
-			}
-			removal_cost = -1
-
-			modifier = {
-				industrial_capacity_factory = 0.10
-				production_speed_buildings_factor = 0.1
-				political_power_cost = 0.25
-			    production_factory_max_efficiency_factor = 0.05
-			    consumer_goods_factor = -0.05
-		  }
-		}
-		SLO_jewish_codex_6 = {
-		
-			picture = GFX_SLO_deport_undesirables
-
-			allowed = {
-				original_tag = CZE
-			}
-			removal_cost = -1
-
-			modifier = {
-				industrial_capacity_factory = 0.15
-				production_speed_buildings_factor = 0.1
-				political_power_cost = 0.25
-			    production_factory_max_efficiency_factor = 0.05
-			    consumer_goods_factor = -0.05
-
-       }
-     }
      SLO_CKD = {
 		
 			picture = GER_ckd
@@ -511,24 +411,7 @@ ideas = {
 
     }
    }  
-    SLO_expand_centre_idea = {
-		
-			picture = generic_naval_manufacturer_1
 
-			allowed = {
-				original_tag = CZE
-			}
-
-			allowed = {
-				always = no # Added via focus
-			}
-			removal_cost = -1
-
-			modifier = {
-				special_forces_cap = 0.25
-			}
-
-    }
      SLO_gun_mass_production_idea = {
 		
 			picture = GFX_idea_MEX_politicised_army_2
@@ -586,144 +469,5 @@ ideas = {
 			}
 
     }    
-  SLO_hlinka_chad_idea_2 = {
-  picture = GFX_SLO_hejho
 
-			allowed = {
-				original_tag = CZE
-			}
-
-			allowed = {
-				always = no # Added via focus
-			}
-			removal_cost = -1
-		modifier = {
-				mobilization_speed = 0.2 	
-				minimum_training_level = -0.2 
-				conscription = 0.02
-				experience_loss_factor = -0.10
-			}
-
-    }  
-   SLO_hlinka_chad_idea_3 = {
-  picture = GFX_SLO_hejho
-
-			allowed = {
-				original_tag = CZE
-			}
-
-			allowed = {
-				always = no # Added via focus
-			}
-			removal_cost = -1
-		modifier = {
-				mobilization_speed = 0.2 	
-				minimum_training_level = -0.2 
-				conscription = 0.02
-				army_org_factor = 0.1
-				experience_loss_factor = -0.10
-			}
-
-    }     
-   SLO_hlinka_chad_idea_4 = {
-  picture = GFX_SLO_hejho
-
-			allowed = {
-				original_tag = CZE
-			}
-
-			allowed = {
-				always = no # Added via focus
-			}
-			removal_cost = -1
-		modifier = {
-				mobilization_speed = 0.2 	
-				minimum_training_level = -0.2 
-				conscription = 0.03
-				army_org_factor = 0.1
-				experience_loss_factor = -0.20
-			}
-
-    } 
-     SLO_hlinka_chad_idea_5 = {
-  picture = GFX_SLO_hejho
-
-			allowed = {
-				original_tag = CZE
-			}
-
-			allowed = {
-				always = no # Added via focus
-			}
-			removal_cost = -1
-		modifier = {
-				mobilization_speed = 0.2 	
-				minimum_training_level = -0.2 
-				conscription = 0.08
-				army_org_factor = 0.10
-				experience_loss_factor = -0.20
-			}
-
-    }
- SLO_martial_law_bonus_idea = {
-  picture = GFX_SLO_martial_law_idea
-
-			allowed = {
-				original_tag = CZE
-			}
-
-			allowed = {
-				always = no # Added via focus
-			}
-			removal_cost = -1
-		modifier = {
-			stability_factor = -0.1
-			production_factory_efficiency_gain_factor = 0.1
-			compliance_gain = 0.075
-			resistance_target = -0.1
-			resistance_damage_to_garrison = -0.35
-
-			}
-
-    } 
-	SLO_SS_idea = {
-  picture = GFX_idea_ROM_corruption_in_the_army
-
-			allowed = {
-				original_tag = CZE
-			}
-
-			allowed = {
-				always = no # Added via focus
-			}
-			removal_cost = -1
-		modifier = {
-			custom_modifier_tooltip = CZE_general_staff_tt
-			army_attack_factor = 0.05
-			army_org_factor = 0.1
-			army_morale_factor = 0.1
-
-			}
-
-    }
-    SLO_general_staff = {
-			
-			allowed = {
-				original_tag = CZE
-			}			
-
-			picture = general_staff
-
-			allowed_civil_war = {
-				always = yes
-			}
-			
-			removal_cost = -1
-			
-			modifier = {
-				army_org_Factor = 0.1
-				command_power_gain = 0.1
-				planning_speed = 0.15
-			}
-		} 
     }    

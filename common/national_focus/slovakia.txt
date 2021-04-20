@@ -191,33 +191,13 @@
        icon = GFX_SLO_hit_hammer_hard_for_slovakia
        relative_position_id = SLO_currency
         prerequisite = { focus = SLO_currency}
-        x = -1
+        x = 0
         y = 1
         cost = 10
         completion_reward = {
-        random_owned_controlled_state = {
-        add_extra_state_shared_building_slots = 2
-          add_building_construction = {
-         type = industrial_complex
-        level = 2
-         instant_build = yes 
-        }
-       }
+      add_timed_idea ={  idea =  SLO_prospering_industry_3 days = 730 }
 
         } 
-      } 
-       focus =  {	
-       id = SLO_universities
-       icon = GFX_focus_research
-       relative_position_id = SLO_currency
-        prerequisite = { focus = SLO_currency}
-        x = 1
-        y = 1
-        cost = 5
-
-        completion_reward = {
-        add_research_slot = 1
-       } 
       } 
 
        #Bata 
@@ -248,10 +228,9 @@
        focus =  { 
        id = SLO_apollo
        icon = GFX_goal_generic_oil_refinery
-       relative_position_id = SLO_economic_loan
-	           prerequisite = { focus = SLO_universities}
-        prerequisite = { focus = SLO_economic_loan}
-        x = 1
+       relative_position_id = SLO_industrial_enterprises
+        prerequisite = { focus = SLO_industrial_enterprises }
+        x = 0
         y = 1
         cost = 10
 
@@ -277,14 +256,6 @@
         cost = 5
         completion_reward = {
        add_ideas = extensive_conscription
-        random_owned_controlled_state = {
-		    add_extra_state_shared_building_slots = 3
-		      add_building_construction = {
-			   type = arms_factory
-				level = 3
-				 instant_build = yes 
-			 }
-           } 
        } 
        
     } 

@@ -5317,6 +5317,7 @@ HFU_fuel_startup_effect = {
 						}
 						tag = SOV
 					}
+					}
 					add_to_array = { ENG.faction_members_array = THIS.id }
 				}
 				if = {
