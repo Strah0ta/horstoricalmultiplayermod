@@ -1742,8 +1742,14 @@ focus = {
 			if = { limit = { CZE = { is_ai = no } } CZE = { set_cosmetic_tag = SLO_fascism set_politics = {
 	ruling_party = fascism
         elections_allowed = no
-} } 
-			
+} 
+} 
+		add_to_faction = CZE
+	set_autonomy = {
+		target = CZE
+		autonomous_state = autonomy_reichskommissariat
+		freedom_level = 0.4
+	}	
 			}
 			if = { limit = { CZE = { is_ai = yes } }transfer_state = 397 transfer_state = 70 SWE = { transfer_state = 71}  transfer_state = 71}
 
