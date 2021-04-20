@@ -15,7 +15,7 @@
 	focus = {
 		id = SLO_diet_of_the_slovak_land
 		icon = GFX_SLO_the_slovak_diet
-		x = 8
+		x = 12
 		y = 0
 		cost = 5
 		ai_will_do = {
@@ -31,6 +31,7 @@
         focus = {
 		id = SLO_telegram_to_berlin
 		icon = GFX_SLO_telegram_from_germany
+		available = { GER = { has_completed_focus = GER_demand_sudetenland }}
 		relative_position_id = SLO_diet_of_the_slovak_land
 		prerequisite = { focus = SLO_diet_of_the_slovak_land }
 		x = 0
@@ -73,10 +74,10 @@
        focus = {
        id = SLO_industrial_enterprises
        icon = GFX_SLO_german_control
-       x = 14
+       x = 17
        y = 0
        cost = 5
-
+		available =  { always = no }
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = yes
@@ -132,7 +133,7 @@
 	#Build Factories
 	focus = {
        id = SLO_factories
-       icon = GFX_USA_the_giant_wakes
+       icon = GFX_focus_generic_industry_3
        relative_position_id = SLO_appoint_competent_economists
        prerequisite = { focus = SLO_appoint_competent_economists }
        x = 1
@@ -161,7 +162,7 @@
 	#Build new roads	
 	focus = {
        id = SLO_infrastructure
-       icon = GFX_GOAL_infrastructure_projects
+       icon = GFX_goal_generic_construct_infrastructure
        relative_position_id = SLO_appoint_competent_economists
        prerequisite = { focus = SLO_appoint_competent_economists }
        x = -1
@@ -245,7 +246,7 @@
        #Apollo oil refinery
        focus =  { 
        id = SLO_apollo
-       icon = GFX_GER_synthetic_oil_refinery
+       icon = GFX_goal_generic_oil_refinery
        relative_position_id = SLO_economic_loan
 	           prerequisite = { focus = SLO_universities}
         prerequisite = { focus = SLO_economic_loan}
@@ -270,7 +271,7 @@
     focus =  {	
        id = SLO_mobilize_slovak_army
        icon = GFX_SLO_slovak_armed_forces
-        x = -1
+        x = 5
         y = 3
         cost = 5
         completion_reward = {
@@ -290,7 +291,7 @@
   #Invasion of Poland
     focus =  {	
        id = SLO_invasion_of_poland
-       icon = GFX_GER_danzig_or_war
+       icon = GFX_goal_generic_military_deal
        relative_position_id = SLO_mobilize_slovak_army
         prerequisite = { focus = SLO_mobilize_slovak_army}
         x = 0
@@ -367,7 +368,7 @@
       id = SLO_slovak_airforce
       icon = GFX_SLO_air_force
 
-       x = 4
+       x = 8
         y = 0
         cost = 5
 
@@ -396,25 +397,6 @@
           technology = advanced_light_tank2
         }   
 }
-}
-#German assistance
-    focus =  {  
-       id = SLO_german_assistance
-       icon = GFX_focus_chi_mission_to_germany
-       relative_position_id = SLO_infantry_focus
-      prerequisite = { focus = SLO_infantry_focus }
-        x = 0
-        y = 1
-        cost = 5
-
-        completion_reward = { 
-   add_tech_bonus = {
-        name = support_companies
-        Bonus = 1
-        uses = 2
-        category = support_tech
-      }
-  } 
 }
 
 #Cavalry
@@ -462,7 +444,7 @@
   #Improved Mechanization 
     focus =  {  
        id = SLO_improved_mechanization
-       icon = GFX_GER_modern_grenadiers
+       icon = GFX_goal_generic_army_motorized
        relative_position_id = SLO_motorization
          prerequisite = { focus = SLO_motorization }  
         x = 0
@@ -495,11 +477,23 @@
        } 
      }  
     }  
-
+    focus =  {  
+       id = SLO_infantry_focus
+       icon = GFX_SLO_slovak_soldiers
+       relative_position_id = SLO_invasion_of_poland
+      prerequisite = { focus = SLO_invasion_of_poland }
+        x = 5
+        y = 1
+        cost = 5
+        completion_reward = { 
+                add_ideas = SLO_gun_mass_production_idea
+     } 
+     } 
+	 
     #Pack arty
     focus =  {  
        id = SLO_pack_arty
-       icon = GFX_ROM_mountain_artillery
+       icon = GFX_goal_generic_army_artillery2
        relative_position_id = SLO_infantry_focus	   
        prerequisite = { focus = SLO_infantry_focus} 
         x = -1
@@ -514,8 +508,40 @@
       }
      }
 }  
+    focus =  {  
+       id = SLO_german_assistance
+       icon = GFX_focus_chi_mission_to_germany
+       relative_position_id = SLO_infantry_focus
+      prerequisite = { focus = SLO_infantry_focus }
+        x = 0
+        y = 1
+        cost = 5
 
-   #Infantry Equipment modernization
+        completion_reward = { 
+   add_tech_bonus = {
+        name = support_companies
+        Bonus = 1
+        uses = 2
+        category = support_tech
+      }
+  } 
+}
+
+    focus =  {  
+       id = SLO_commando
+       icon = GFX_focus_generic_paratrooper
+       relative_position_id = SLO_slovak_airforce
+      prerequisite = { focus = SLO_slovak_airforce} 
+        x = 1
+        y = 2
+        cost = 5
+
+        completion_reward = { 
+   add_ideas = SLO_juraj_mesko
+      }
+       }    
+ #Infantry focus
+	    #Infantry Equipment modernization
     focus =  {  
        id = SLO_infantry_equip
        icon = GFX_GER_new_weapons
@@ -535,36 +561,11 @@
 
      }
 } 
-    focus =  {  
-       id = SLO_commando
-       icon = GFX_focus_generic_paratrooper
-       relative_position_id = SLO_slovak_airforce
-      prerequisite = { focus = SLO_slovak_airforce} 
-        x = 1
-        y = 2
-        cost = 5
-
-        completion_reward = { 
-   add_ideas = SLO_juraj_mesko
-      }
-       }    
- #Infantry focus
-    focus =  {  
-       id = SLO_infantry_focus
-       icon = GFX_SLO_slovak_soldiers
-       relative_position_id = SLO_invasion_of_poland
-      prerequisite = { focus = SLO_invasion_of_poland }
-        x = 5
-        y = 1
-        cost = 5
-        completion_reward = { 
-                add_ideas = SLO_gun_mass_production_idea
-     } 
-     } 
+	 
    #Submachine guns
     focus =  {  
        id = SLO_submachine_guns
-       icon = GFX_GOAL_infantry_equipment
+       icon = GFX_GER_new_weapons
        relative_position_id = SLO_infantry_focus
       prerequisite = { focus = SLO_infantry_focus} 
         x = -2
@@ -584,7 +585,7 @@
    #Arty modernization
     focus =  {  
        id = SLO_arty_3
-       icon = GFX_GER_artillery_expansion
+       icon = GFX_goal_generic_army_artillery
        relative_position_id = SLO_infantry_focus
        prerequisite = { focus = SLO_infantry_focus}  
         x = 2
@@ -612,13 +613,13 @@
     focus =  {  
        id = SLO_soviet_war
        icon = GFX_SLO_destroy_bolshevism
-       relative_position_id = SLO_improved_mechanization
-       prerequisite = {  focus = SLO_improved_mechanization} 
+       relative_position_id = SLO_mobilize_slovak_army
+       prerequisite = {  focus = SLO_mobilize_slovak_army} 
        available = {
 			has_war_with = SOV
 		}
- 
-        x = 1
+		
+        x = -2
         y = 1
         cost = 5
         ai_will_do = {
@@ -725,7 +726,7 @@
      #Salzburger Diktat
      focus =  {	
        id = SLO_salzburger_diktat
-       icon = GFX_GER_arbeitseinsatz	
+       icon = GFX_focus_ger_reichskommisariats	
        relative_position_id = SLO_president_of_slovak_republic
         prerequisite = { focus = SLO_president_of_slovak_republic}
         x = -1

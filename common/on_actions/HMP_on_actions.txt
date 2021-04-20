@@ -42,7 +42,7 @@ on_actions = {
 				limit = { tag = RAJ	has_autonomy_state = autonomy_dominion	}
 				create_country_leader = {
 					name = "Archibald Wavell"
-					picture = "gfx/leaders/ENG/Portrait_Raj_Archibald_Wavell.dds"
+					picture = GFX_Portrait_Raj_Archibald_Wavell
 					expire = "1965.1.1"
 					ideology = centrism
 					traits = {	staunch_monarchist }

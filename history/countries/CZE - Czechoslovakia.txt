@@ -47,7 +47,13 @@ create_country_leader = {
 		#
 	}
 }
-
+					create_country_leader = {
+					name = "Josef Tiso"
+					picture =  "gfx/leaders/SLO/Portrait_Slovakia_Jozef_Tiso.dds"
+					expire = "1965.1.1"
+					ideology = nazism
+					traits = {	 }
+				}
 create_country_leader = {
 	name = "Klement Gottwald"
 	desc = "POLITICS_KLEMENT_GOTTWALD_DESC"

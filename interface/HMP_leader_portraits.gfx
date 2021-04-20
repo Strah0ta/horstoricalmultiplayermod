@@ -48,7 +48,7 @@ spriteTypes = {
 	}	
 	spriteType = {
 		name = "GFX_Portrait_Raj_Archibald_Wavell"
-		texturefile = "gfx/leaders/RAJ/Portrait_Raj_Archibald_Wavell.dds"		
+		texturefile = "gfx/leaders/ENG/Portrait_Raj_Archibald_Wavell.dds"		
 	}
 		spriteType = {
 		name = "GFX_portrait_fra_pierre_laval"

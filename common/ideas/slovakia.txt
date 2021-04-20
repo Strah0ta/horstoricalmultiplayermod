@@ -239,6 +239,26 @@ ideas = {
 	}
 
   country = {
+  		
+		CZE_divided_nation = {
+		
+			allowed = {
+				original_tag = CZE
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.4
+				consumer_goods_factor = 0.1 
+				conscription_factor = -0.8
+			}
+		}	
           #Strong currency
            SLO_currency = {
 			removal_cost = -1
