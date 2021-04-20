@@ -351,6 +351,11 @@ add_relation_modifier = {
     modifier = stahlpakt
 }
 add_relation_modifier = {
+    target = CZE
+    modifier = stahlpakt
+}
+
+add_relation_modifier = {
     target = HUN
     modifier = stahlpakt
 } }
@@ -362,6 +367,10 @@ add_relation_modifier = {
     target = SPR
     modifier = stahlpakt_ITA
 } 
+add_relation_modifier = {
+    target = CZE
+    modifier = stahlpakt
+}
 add_relation_modifier = {
     target = ROM
     modifier = stahlpakt_ITA

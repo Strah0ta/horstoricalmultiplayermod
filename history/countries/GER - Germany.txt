@@ -116,31 +116,7 @@ add_equipment_to_stockpile = { type = infantry_equipment_1 amount = 100000 }
 
 set_country_flag=fuel_system_enabled
 	set_naval_oob = "GER_1936_naval_mtg"
-add_relation_modifier = {
-    target = ITA
-    modifier = stahlpakt_ITA2
-}
-add_relation_modifier = {
-    target = ROM
-    modifier = stahlpakt
-}
-add_relation_modifier = {
-    target = SPR
-    modifier = stahlpakt
-}
-add_relation_modifier = {
-    target = BUL
-    modifier = stahlpakt
-}
-add_relation_modifier = {
-    target = HUN
-    modifier = stahlpakt
-}
 
-add_relation_modifier = {
-    target = ALB
-    modifier = stahlpakt
-}
 set_research_slots = 5
 set_convoys = 200
 set_stability = 0.75 
