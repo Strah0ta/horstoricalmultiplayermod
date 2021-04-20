@@ -57,17 +57,21 @@
 			factor = 12
 		}
 		completion_reward = {
-     add_tech_bonus = {
-        name = mefo_tech_bonus
-        bonus = 1
-        uses = 1
-        category = industry
-      }   
-			 set_politics = {
-					ruling_party = neutrality
-					elections_allowed = no
-				}
-			add_popularity = { ideology = neutrality popularity = 0.40 }	
+		
+     GER = {
+	 add_to_faction = CZE
+
+	 	set_autonomy = {
+		target = CZE
+		autonomous_state = autonomy_reichskommissariat
+		freedom_level = 0.4
+	}
+	 add_relation_modifier = {
+    target = CZE
+    modifier = stahlpakt
+} 
+}
+	set_cosmetic_tag = SLO_fascism
 	    }
 	  }
        #German control over industry
@@ -311,7 +315,7 @@
 #Prepare production for medium tank
   focus =  {  
        id = SLO_prepare_production
-       icon = GFX_goal_generic_construct_civilian
+       icon = GFX_focus_generic_army_tanks2
        relative_position_id = SLO_invasion_of_poland
         prerequisite = { focus = SLO_invasion_of_poland }
         x = 1
@@ -405,7 +409,7 @@
        icon = GFX_goal_generic_cavalry
        relative_position_id = SLO_invasion_of_poland
         prerequisite = { focus = SLO_invasion_of_poland } 
-        x = -1
+        x = 3
         y = 1
         cost = 5
         ai_will_do = {
@@ -427,9 +431,9 @@
     focus =  {  
        id = SLO_motorization
        icon = GFX_goal_generic_army_motorized
-       relative_position_id = SLO_cavalry_focus
-        prerequisite = { focus = SLO_cavalry_focus }
-        x = 0
+       relative_position_id = SLO_invasion_of_poland
+        prerequisite = { focus = SLO_invasion_of_poland } 
+        x = -1
         y = 1
         cost = 5
         completion_reward = { 
@@ -513,6 +517,8 @@
        icon = GFX_focus_chi_mission_to_germany
        relative_position_id = SLO_infantry_focus
       prerequisite = { focus = SLO_infantry_focus }
+	  	   available = { has_government = fascism }
+
         x = 0
         y = 1
         cost = 5
@@ -634,6 +640,7 @@
        icon = GFX_SLO_hejho
        relative_position_id = SLO_mobilize_slovak_army
        prerequisite = { focus = SLO_mobilize_slovak_army }  
+	   available = { has_government = fascism }
         x = 2
         y = 1
         cost = 5
@@ -713,7 +720,7 @@
        icon = GFX_SLO_president_tiso
        relative_position_id = SLO_zone_of_protection
         prerequisite = { focus = SLO_zone_of_protection}
-        x = 0
+        x = -1
         y = 1
         cost = 5
         ai_will_do = {
@@ -723,33 +730,13 @@
    }   
  }   
 
-     #Salzburger Diktat
-     focus =  {	
-       id = SLO_salzburger_diktat
-       icon = GFX_focus_ger_reichskommisariats	
-       relative_position_id = SLO_president_of_slovak_republic
-        prerequisite = { focus = SLO_president_of_slovak_republic}
-        x = -1
-        y = 1
-        cost = 5
-
-          available = {	EFR = { controls_state = 26 } 	}
-        completion_reward = {
-        add_popularity = { ideology = fascism popularity = 0.1 }
-       set_politics = {
-					ruling_party = fascism
-					elections_allowed = no
-				}
-		add_stability = -0.05		
-		}		
-}
 
        #Life in new Slovakia
        focus =  { 
        id = SLO_life_in_new_slovakia
        icon = GFX_SLO_sanctity_of_the_mother
-       relative_position_id = SLO_president_of_slovak_republic
-        prerequisite = { focus = SLO_president_of_slovak_republic}
+       relative_position_id = SLO_zone_of_protection
+        prerequisite = { focus = SLO_zone_of_protection}
         x = 1
         y = 1
         cost = 5
@@ -764,7 +751,6 @@
        icon = GFX_SLO_fate
        relative_position_id = SLO_life_in_new_slovakia
 	    prerequisite = { focus = SLO_life_in_new_slovakia }
-        prerequisite = { focus = SLO_salzburger_diktat }
         x = -1
         y = 1
         cost = 5
@@ -799,10 +785,9 @@
         x = 0
         y = 1
         cost = 5
-
-           available = {  casualties > 100000  NOT = { controls_state = 578}       }   
+		available = { GER = { has_country_flag = blau_failed	}	}		
         completion_reward = {
-			transfer_state = 73
+			add_ideas = BUL_slavic_will
     } 
   } 
 
