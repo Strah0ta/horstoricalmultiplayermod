@@ -20,9 +20,6 @@ ideas = {
 			}
 			
 			traits = { war_industrialist }
-			ai_will_do = {
-				factor = 0
-			}
 		}
 
 		SLO_jaroslav_kratochvil = {
@@ -92,10 +89,6 @@ ideas = {
 			}
 
 			traits = { army_commando_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
 		}
 
 	SLO_augustin_malar = {
@@ -107,11 +100,7 @@ ideas = {
 				original_tag = CZE
 			}
 			
-			traits = { army_armored_3 }
-			
-			ai_will_do = {
-				factor = 25
-			}
+			traits = { army_armored_2 }
 		}
 
 		SLO_viliam_talsky = {
@@ -124,10 +113,6 @@ ideas = {
 			}
 			
 		traits = { army_regrouping_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
 		}
 
 
@@ -141,10 +126,6 @@ ideas = {
 			}
 			
 			traits = { army_infantry_2 }
-			
-			ai_will_do = {
-				factor = 50
-			}
 		}
 	}
 	# MILITARY
@@ -158,13 +139,8 @@ ideas = {
 				original_tag = CZE
 			}
 			
-
-			
 			traits = { army_chief_organizational_3 }
-			
-			ai_will_do = {
-				factor = 1
-			}
+
 		}
 		
 		SLO_jan_golian = {
@@ -178,10 +154,6 @@ ideas = {
 
 			
 			traits = { army_chief_maneuver_3 }
-			
-			ai_will_do = {
-				factor = 1
-			}
 		}
 
 		SLO_rudolf_viest = {
@@ -193,10 +165,6 @@ ideas = {
 			}
 			
 			traits = { army_chief_offensive_3 }
-			
-			ai_will_do = {
-				factor = 1
-			}
 		}
 	}
 
@@ -209,14 +177,9 @@ ideas = {
 			allowed = {
 				original_tag = CZE
 			}
-			
-
-			
+					
 			traits = { air_chief_ground_support_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
+
 		}
 	}
 
@@ -237,7 +200,7 @@ ideas = {
 
 			modifier = {
 				stability_factor = -0.4
-				consumer_goods_factor = 0.1 
+				consumer_goods_factor = 0.05
 				conscription_factor = -0.8
 			}
 		}	

@@ -3,6 +3,7 @@ if = {
 	limit = {	has_dlc = "Death or Dishonor"	}
 	add_ideas = { CZE_divided_nation }
 }
+oob = "CZE_1936"
 add_timed_idea = { idea = NO_TRADE days = 730 }
 set_research_slots = 3
 set_technology = {
