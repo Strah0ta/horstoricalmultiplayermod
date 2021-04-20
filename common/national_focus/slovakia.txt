@@ -40,6 +40,7 @@
 
 		completion_reward = { 
 		        add_research_slot = 1
+							add_political_power = 150
        }
     }
     
@@ -128,7 +129,6 @@
 
       completion_reward = {
 			add_ideas = SLO_prospering_industry_1
-			add_political_power = 150
 		}
 		
 

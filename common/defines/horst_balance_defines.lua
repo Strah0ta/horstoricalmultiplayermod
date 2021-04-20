@@ -38,7 +38,7 @@ NDefines.NMilitary.COMMANDER_LEVEL_UP_STAT_COUNT = 0				-- num stats gained on l
 NDefines.NMilitary.LAND_AIR_COMBAT_MAX_PLANES_PER_ENEMY_WIDTH = 0.5  -- WAS 3, reduced to 0.5 so less CAS is needed in battles
 NDefines.NMilitary.ORG_LOSS_FACTOR_ON_CONQUER = 0.25            -- vanilla is 0.2, GDU-like change (0.25 in GDU)
 ------PARATROOPER REWORK SO THEY DONT LOSE EQUIPMENT-------
-NDefines.NCountry.PARADROP_AIR_SUPERIORITY_RATIO = 0.9			-- Min ratio of air superiority for paradropping
+NDefines.NCountry.PARADROP_AIR_SUPERIORITY_RATIO = 0.95			-- Min ratio of air superiority for paradropping
 NDefines.NMilitary.PARACHUTE_FAILED_EQUIPMENT_DIV = 0		   -- When the transport plane was shot down, we drop unit with almost NONE equipment
 NDefines.NMilitary.PARACHUTE_FAILED_MANPOWER_DIV = 0	   -- When the transport plane was shot down, we drop unit with almost NONE manpower
 NDefines.NMilitary.PARACHUTE_FAILED_STR_DIV = 0			   -- When the transport plane was shot down, we drop unit with almost NONE strenght
