@@ -334,8 +334,7 @@ country_event = {
 	option = {
 		name = poland.100.a
 		JAP = { add_relation_modifier = { target = MAN modifier = asiapakt } }
-		GER = { 
-		add_relation_modifier = {
+		GER = { add_relation_modifier = {
     target = ROM
     modifier = stahlpakt
 }

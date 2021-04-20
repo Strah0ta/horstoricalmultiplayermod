@@ -5308,17 +5308,14 @@ HFU_fuel_startup_effect = {
 			ENG = {
 				every_country = {
 					limit = {
-					OR = {
-						AND = { 
 						NOT={tag=ENG}
 						disabled_ai_production = yes 
 						 is_in_faction_with = ENG  
-						NOT = { is_in_array = { ENG.faction_members_array = THIS.id } }	
-						}
-						tag = SOV
+						NOT = { is_in_array = { ENG.faction_members_array = THIS.id } }			
 					}
 					add_to_array = { ENG.faction_members_array = THIS.id }
 				}
+				SOV = { add_to_array = { ENG.faction_members_array = THIS.id } }
 				if = {
 					limit = {
 						any_of_scopes={array=ENG.faction_members_array NOT={is_in_array={GLOBAL.fuel_countries=THIS.id}}}
