@@ -3671,6 +3671,7 @@ political_actions = {
 		tag = BRA
 		tag = NZL
 		tag = ROM
+		tag = YUG
 		tag = HUN
 		tag = SPR
 		tag = SAF
