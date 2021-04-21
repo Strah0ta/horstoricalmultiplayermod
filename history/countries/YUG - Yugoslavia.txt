@@ -42,9 +42,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Milan Stojadinović"
-	desc = "POLITICS_MILAN_STOJADINOVIC_DESC"
-	picture = "gfx/leaders/YUG/Portrait_Yugoslavia_Milan_Stojadinovic.dds"
+	name = "Ante Pavelic"
+	desc = "ANTE_PAVELIC_DESC"
+	picture = "gfx/leaders/CRO/Portrait_Croatia_Ante_Pavelic.dds"
 	expire = "1965.1.1"
 	ideology = fascism_ideology
 	traits = {

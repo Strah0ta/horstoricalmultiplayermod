@@ -6,8 +6,6 @@ state={
 
 	state_category = large_town
 
-	resources = { tungsten = 115 }
-
 	history={
 		owner = YUG
 		victory_points = {

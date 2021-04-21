@@ -3,6 +3,10 @@ spriteTypes = {
 		name = "GFX_idea_imro"
 		texturefile = "gfx/interface/ideas/idea_imro.dds"
 	}
+		spriteType = {
+		name = "GFX_idea_DAL_croatian_militias"
+		texturefile = "gfx/interface/ideas/idea_DAL_croatian_militias.dds"
+	}	
 	spriteType = {
 		name = "GFX_idea_CRO_ivan_orsanic"
 		texturefile = "gfx/interface/ideas/CRO_ivan_orsanic.dds"

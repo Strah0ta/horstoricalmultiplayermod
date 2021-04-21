@@ -26,7 +26,7 @@ focus_tree = {
 		y = 0
 
 		cost = 10
-
+		available = { is_ai = no	}
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -198,32 +198,12 @@ focus_tree = {
 
 		cost = 10
 
-		ai_will_do = {
-			factor = 80
-		}
-
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = yes
 
-		complete_tooltip = {
-
-		}
-
 		completion_reward = {
-			random_owned_controlled_state = {
-				prioritize = { 104 }
-				limit = {
-					ROOT = { has_full_control_of_state = PREV }
-				}
+			104 = {
 				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = industrial_complex
@@ -354,18 +334,65 @@ focus_tree = {
 	}
 
 
+	focus = {
+		id = CRO_integrate_orthodox_croats_focus
+		icon = GFX_goal_CRO_reconcile_croatian_orthodox
+						available = {	is_ai = no	}
+
+		x = 2
+		y = 0
+		cost = 15
+
+		available_if_capitulated = yes
+
+
+		ai_will_do = {
+			factor = 5
+		}
+
+		completion_reward = {
+			add_political_power = 250
+		}
+	}
 
 	focus = {
 		id = CRO_political_effort
-		icon = GFX_goal_generic_demand_territory
-		x = 2
-		y = 0
+		icon = GFX_focus_proclaim_greater_croatia
+		relative_position_id = CRO_integrate_orthodox_croats_focus
+		prerequisite = { focus = CRO_integrate_orthodox_croats_focus }
+						available = {	always = no	}
+
+		x = 0
+		y = 1
 		cost = 1
-		available = {	always = no	}
 		available_if_capitulated = yes
 
 		completion_reward = {
-			custom_effect_tooltip = "Croatian soldiers and officers will rise up against the yugoslavians."
+				
+
+ITA = {
+	 	set_autonomy = {
+		target = YUG
+		autonomous_state = autonomy_reichskommissariat
+		freedom_level = 0.4
+	}
+	 add_relation_modifier = {
+    target = YUG
+    modifier = stahlpakt
+} 
+
+}
+     GER = {	 add_to_faction = YUG 
+	 	 add_relation_modifier = {
+    target = YUG
+    modifier = stahlpakt
+} 
+	 }
+			Set_cosmetic_tag = CRO_fascism
+			 set_politics = {
+	ruling_party = fascism
+        elections_allowed = no
+} 
 			add_political_power = 150
 		}
 	}
@@ -381,33 +408,14 @@ focus_tree = {
 			}
 		}
 		relative_position_id = CRO_political_effort
-		x = 2
+		x = -2
 		y = 1
 		cost = 10
 
 		available_if_capitulated = yes
 
-
-		ai_will_do = {
-			factor = 5
-			modifier = {
-				factor = 2
-				any_neighbor_country = {
-					is_major = yes
-					has_government = fascism
-				}
-			}
-			modifier = {
-				factor = 0
-				AND = {
-					is_historical_focus_on = yes
-					NOT = { has_government = fascism }
-				}
-			}
-		}
-
 		completion_reward = {
-			add_ideas = nationalism
+			add_ideas = croatian_nationalism
 		}
 	}
 	focus = {
@@ -421,7 +429,7 @@ focus_tree = {
 			}
 		}
 		relative_position_id = CRO_political_effort
-		x = 0
+		x = 2
 		y = 1
 		cost = 5
 
@@ -448,15 +456,10 @@ focus_tree = {
 
 	focus = {
 		id = CRO_catholic_dominance_focus
-		icon = GFX_goal_christianity_and_state
-		prerequisite = { focus = CRO_prepare_for_war}
-		available = {
-			NOT = {
-				has_government = communism
-			}
-		}
-		relative_position_id = CRO_prepare_for_war
-		x = 2
+		icon = GFX_goal_CRO_ustasha_fanaticism
+		prerequisite = { focus = CRO_political_effort }
+		relative_position_id = CRO_political_effort
+		x = 1
 		y = 2
 		cost = 10
 
@@ -470,10 +473,11 @@ focus_tree = {
 	focus = {
 		id = CRO_integrate_muslim_croats_focus
 
-
-		relative_position_id = CRO_prepare_for_war
-		x = 3
-		y = 1
+		icon = GFX_goal_CRO_ustasha_army
+		prerequisite = { focus = CRO_political_effort }
+		relative_position_id = CRO_political_effort
+		x = -1
+		y = 2
 		cost = 10
 
 		available_if_capitulated = yes
@@ -485,51 +489,13 @@ focus_tree = {
 
 		completion_reward = {
 			add_ideas = CRO_croat_muslims_happy
-			add_state_core = 104
 			}
 		}
-	focus = {
-		id = CRO_integrate_orthodox_croats_focus
-		icon = GFX_goal_CRO_reconcile_croatian_orthodox
-		relative_position_id = CRO_prepare_for_war
-		x = 1
-		y = 3
-		cost = 10
-
-		available_if_capitulated = yes
-
-
-		ai_will_do = {
-			factor = 5
-		}
-
-		completion_reward = {
-			add_political_power = 150
-		}
-	}
-
-
-	focus = {
-		id = CRO_paramilitarism
-		icon = GFX_goal_generic_military_sphere
-		prerequisite = { focus = CRO_military_youth }
-		relative_position_id = CRO_political_effort
-		x = 3
-		y = 4
-		cost = 10
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_ideas = paramilitarism_focus
-		}
-	}
-	
 	
 	focus = {
 		id = YUG_modernize_the_air_force
 		icon = GFX_goal_generic_air_doctrine
-		x = 13
+		x = 11
 		y = 0
 
 		cost = 10
@@ -559,7 +525,7 @@ focus_tree = {
 		y = 0
 
 		cost = 5
-
+		available = { is_ai = no	 }
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
@@ -898,7 +864,7 @@ focus_tree = {
 	focus = {
 		id = YUG_expand_the_split_shipyards
 		icon = GFX_goal_generic_construct_naval_dockyard
-		x = 30
+		x = 22
 		y = 0
 
 		cost = 5

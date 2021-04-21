@@ -308,7 +308,7 @@ focus_tree = {
 		relative_position_id = IRQ_revolution6
 		prerequisite = {  focus = IRQ_revolution6 } prerequisite = {  focus = IRQ_revolution5 } prerequisite = {  focus = IRQ_eco4 }  prerequisite = {  focus = IRQ_army_doctrine5 }   
 		available_if_capitulated = yes
-		available = { always = no}
+		#available = { always = no}
 		completion_reward = {
 			hidden_effect = {  set_cosmetic_tag = IRQ_ASSYRIA } custom_effect_tooltip = "We will be known as Assyrian State"
 		}

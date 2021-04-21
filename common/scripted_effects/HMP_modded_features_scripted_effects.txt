@@ -1337,10 +1337,13 @@ generic_bonus_999 = {
 
 
 HMP_script_balkans = {
-			GER = { transfer_state = 303 transfer_state = 414 transfer_state = 109 transfer_state = 104 transfer_state = 107 transfer_state = 108 	}
+			
+			GER = { transfer_state = 303 transfer_state = 414   transfer_state = 107 transfer_state = 108 	}
 			BUL = {  transfer_state = 184   transfer_state = 293    transfer_state = 106  transfer_state = 486 }
 			HUN = { transfer_state = 514 transfer_state = 45   }
-			transfer_state = 102 transfer_state = 103 transfer_state = 105 
+			transfer_state = 102  transfer_state = 105 
+			if = { limit = { YUG = { is_ai = yes }}  transfer_state = 104  transfer_state = 103 transfer_state = 109  }
+			if = { limit = { YUG = { is_ai = no }}  YUG = { complete_national_focus = CRO_political_effort set_capital = 109  }   }			
 			transfer_state = 185 transfer_state = 47 transfer_state = 187 transfer_state = 182 transfer_state = 186
 			add_threat = 20
 			if = { limit = { BUL = { is_ai = yes } country_exists = BUL } ITA = { annex_country = { target = BUL transfer_troops = yes }}   }
@@ -1755,7 +1758,161 @@ create_corps_commander = {
 	}
 # End of Germany
 	}
+	YUG = {
+	create_field_marshal = {
+	name = "Slavko Stancer"
+	picture = "r56_portrait_CRO_slavko_stancer.dds"
+	traits = { infantry_leader organizer trait_engineer}
+	skill = 7
+	attack_skill = 6
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 3
+}
+
+
+create_corps_commander = {
+	name = "Junuz Ajanovic"
+	picture = "r56_portrait_CRO_junuz_ajanovic.dds"
+	traits = { trickster infantry_leader trait_mountaineer }
+	skill = 7
+	attack_skill = 5
+	defense_skill = 3
+	planning_skill = 4
+	logistics_skill = 6
+ }
+ 
+ create_corps_commander = {
+	name = "Rafael Boban"
+	picture = "r56_portrait_CRO_Rafael_Boban.dds"
+	traits = { naval_invader infantry_leader commando }
+	skill = 7
+	attack_skill = 6
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 4
+}
+create_corps_commander = {
+	name = "Franjo Simic"
+	picture = "r56_portrait_CRO_Franjo_Simic.dds"
+	traits = {  panzer_leader trickster trait_engineer }
+	skill = 7
+
+	attack_skill = 5
+	defense_skill = 2
+	planning_skill = 4
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Matija Canic"
+	picture = "r56_portrait_CRO_Matija_Canic.dds"
+	traits = {  panzer_leader trickster trait_engineer }
+	skill = 7
+
+	attack_skill = 5
+	defense_skill = 2
+	planning_skill = 4
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Gojko Nikolis"
+	picture = "r56_portrait_CRO_Gojko_Nikolis.dds"
+	traits = {  panzer_leader trickster trait_engineer }
+	skill = 7
+
+	attack_skill = 5
+	defense_skill = 2
+	planning_skill = 4
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Duro Jakcin"
+	picture = "r56_portrait_CRO_duro_jakcin.dds"
+	traits = {  panzer_leader trickster trait_engineer }
+	skill = 7
+
+	attack_skill = 5
+	defense_skill = 2
+	planning_skill = 4
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Andro Vrkljan"
+	picture = "r56_portrait_CRO_andro_vrkljan.dds"
+	traits = {  panzer_leader trickster trait_engineer }
+	skill = 7
+
+	attack_skill = 5
+	defense_skill = 2
+	planning_skill = 4
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Vladimir Laxa"
+	picture = "Portrait_Vladimir_Laxa.dds"
+	traits = {  panzer_leader trickster trait_engineer }
+	skill = 7
+
+	attack_skill = 5
+	defense_skill = 2
+	planning_skill = 4
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Stjepan Sarkotic"
+	picture = "Portrait_Stjepan_Sarkotic.dds"
+	traits = {  panzer_leader trickster trait_engineer }
+	skill = 7
+
+	attack_skill = 5
+	defense_skill = 2
+	planning_skill = 4
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Slavko Kvaternik"
+	picture = "Portrait_Slavko_Kvaternik.dds"
+	traits = {  panzer_leader trickster trait_engineer }
+	skill = 7
+
+	attack_skill = 5
+	defense_skill = 2
+	planning_skill = 4
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Jure Francetic"
+	picture = "Portrait_Jure_Francetic.dds"
+	traits = {  panzer_leader trickster trait_engineer }
+	skill = 7
+
+	attack_skill = 5
+	defense_skill = 2
+	planning_skill = 4
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Ivan Babic"
+	picture = "Portrait_Ivan_Babic.dds"
+	traits = {  panzer_leader trickster trait_engineer }
+	skill = 7
+
+	attack_skill = 5
+	defense_skill = 2
+	planning_skill = 4
+	logistics_skill = 3
+}
 	
+	}
 	CZE = { 
 		create_corps_commander = { #BOCK COPY
 	name = "Anton Pulanish" #Point Value: 20
