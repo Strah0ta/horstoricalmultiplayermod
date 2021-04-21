@@ -7,15 +7,7 @@ spriteTypes = {
 		name = "GFX_GER_air_defence"
 		texturefile = "gfx/interface/goals/GER_air_defence.dds"
 	}
-
-	SpriteType = {
-		name = "GFX_goal_SLO_supremacy"
-		texturefile = "gfx/interface/goals/slo/r56_goal_SLO_supremacy.dds"
-	}
-	SpriteType = {
-		name = "GFX_goal_SLO_hlinka_mladez"
-		texturefile = "gfx/interface/goals/slo/r56_goal_SLO_hlinka_mladez.dds"
-	}
+	
 	SpriteType = {
 		name = "GFX_goal_SLO_air_force"
 		texturefile = "gfx/interface/goals/slo/r56_goal_SLO_air_force.dds"
@@ -125,10 +117,7 @@ SpriteType = {
 		name = "GFX_SLO_sanctity_of_the_mother"
 		texturefile = "gfx/interface/goals/slovakia/SLO_sanctity_of_the_mother.dds"	
    } 	
-    SpriteType = {
-		name = "GFX_SLO_deport_undesirables"
-		texturefile = "gfx/interface/goals/slovakia/SLO_deport_undesirables.dds"	
-   } 	
+
     SpriteType = {
   		name = "GFX_SLO_hit_hammer_hard_for_slovakia"
 		texturefile = "gfx/interface/goals/slovakia/SLO_hit_hammer_hard_for_slovakia.dds"	
@@ -153,18 +142,6 @@ SpriteType = {
   		name = "GFX_SLO_destroy_bolshevism"
 		texturefile = "gfx/interface/goals/slovakia/SLO_destroy_bolshevism.dds"	
   } 	
-    SpriteType = {
-  		name = "GFX_SLO_men_in_black"
-		texturefile = "gfx/interface/goals/slo/SLO_men_in_black.dds"	
-  }
-    SpriteType = {
-  		name = "GFX_SLO_martial"
-		texturefile = "gfx/interface/goals/slo/SLO_martial.dds"	
-  }
-     SpriteType = {
-  		name = "GFX_SLO_blessed_leader"
-		texturefile = "gfx/interface/goals/slo/SLO_blessed_leader.dds"	
-  }
    SpriteType = {
   		name = "GFX_SLO_hejho"
 		texturefile = "gfx/interface/goals/slovakia/SLO_hejho.dds"	

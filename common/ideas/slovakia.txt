@@ -288,7 +288,7 @@ ideas = {
 		  picture = GFX_SLO_slovak_industry
 		  modifier = {
 			production_factory_max_efficiency_factor = 0.05
-			consumer_goods_factor = -0.1
+			consumer_goods_factor = -0.15
 		    }
 		}
 		#Durcanskys ideas 
