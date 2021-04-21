@@ -3,7 +3,99 @@ spriteTypes = {
 		name = "GFX_idea_imro"
 		texturefile = "gfx/interface/ideas/idea_imro.dds"
 	}
-
+	spriteType = {
+		name = "GFX_idea_CRO_ivan_orsanic"
+		texturefile = "gfx/interface/ideas/CRO_ivan_orsanic.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_CRO_milan_budak"
+		texturefile = "gfx/interface/ideas/CRO_milan_budak.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_CRO_ivan_subasic"
+		texturefile = "gfx/interface/ideas/CRO_ivan_subasic.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_CRO_vladimir_laxa"
+		texturefile = "gfx/interface/ideas/CRO_vladimir_laxa.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_CRO_friedrich_navratil"
+		texturefile = "gfx/interface/ideas/CRO_miroslav_navrati.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_CRO_slavko_stancer"
+		texturefile = "gfx/interface/ideas/CRO_slavko_stancer.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_CRO_alojzije_stepinac"
+		texturefile = "gfx/interface/ideas/CRO_alojzije_stepinac.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_CRO_andrija_hebrang"
+		texturefile = "gfx/interface/ideas/CRO_andrija_hebrang.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_CRO_vladimir_nazor"
+		texturefile = "gfx/interface/ideas/CRO_vladimir_nazor.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_CRO_bozidar_magovac"
+		texturefile = "gfx/interface/ideas/CRO_bozidar_magovac.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_CRO_august_kosutic"
+		texturefile = "gfx/interface/ideas/CRO_august_kosutic.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_tradeback_is_cancer"
+		texturefile = "gfx/interface/ideas/idea_cancer.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_CRO_mladen_lorkovic"
+		texturefile = "gfx/interface/ideas/CRO_mladen_lorkovic.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_CRO_ante_vokic"
+		texturefile = "gfx/interface/ideas/CRO_ante_vokic.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_CRO_vladko_macek"
+		texturefile = "gfx/interface/ideas/CRO_vladko_macek.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_CRO_slavko_kvaternik"
+		texturefile = "gfx/interface/ideas/CRO_slavko_kvaternik.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_CRO_vladimir_kren"
+		texturefile = "gfx/interface/ideas/CRO_vladimir_kren.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_CRO_djuro_jakcin"
+		texturefile = "gfx/interface/ideas/CRO_djuro_jakcin.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_CRO_djuro_jakcin2"
+		texturefile = "gfx/interface/ideas/CRO_djuro_jakcin.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_CRO_vilko_begic"
+		texturefile = "gfx/interface/ideas/CRO_vilko_begic.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_CRO_vjekoslav_vrancic"
+		texturefile = "gfx/interface/ideas/CRO_vjekoslav_vrancic.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_CRO_fedor_dragojlov"
+		texturefile = "gfx/interface/ideas/CRO_fedor_dragojlov.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_CRO_tomislav_II"
+		texturefile = "gfx/interface/ideas/CRO_tomislav_II.dds"
+	}
 	spriteType = {
 		name = "GFX_idea_vmz_sopot"
 		texturefile = "gfx/interface/ideas/idea_vmz_sopot.dds"
