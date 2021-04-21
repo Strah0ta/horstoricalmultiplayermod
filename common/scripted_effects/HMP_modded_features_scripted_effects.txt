@@ -1762,12 +1762,12 @@ create_corps_commander = {
 	create_field_marshal = {
 	name = "Slavko Stancer"
 	picture = "r56_portrait_CRO_slavko_stancer.dds"
-	traits = { infantry_leader organizer trait_engineer}
+	traits = { infantry_leader organizer trait_engineer 	}
 	skill = 7
-	attack_skill = 6
-	defense_skill = 3
-	planning_skill = 2
-	logistics_skill = 3
+	attack_skill = 5
+	defense_skill = 5
+	planning_skill = 7
+	logistics_skill = 5
 }
 
 
@@ -1776,10 +1776,10 @@ create_corps_commander = {
 	picture = "r56_portrait_CRO_junuz_ajanovic.dds"
 	traits = { trickster infantry_leader trait_mountaineer }
 	skill = 7
-	attack_skill = 5
-	defense_skill = 3
-	planning_skill = 4
-	logistics_skill = 6
+	attack_skill = 6
+	defense_skill = 6
+	planning_skill = 5
+	logistics_skill = 5
  }
  
  create_corps_commander = {
@@ -1787,10 +1787,10 @@ create_corps_commander = {
 	picture = "r56_portrait_CRO_Rafael_Boban.dds"
 	traits = { naval_invader infantry_leader commando }
 	skill = 7
-	attack_skill = 6
-	defense_skill = 2
-	planning_skill = 3
-	logistics_skill = 4
+	attack_skill = 5
+	defense_skill = 1
+	planning_skill = 10
+	logistics_skill = 6
 }
 create_corps_commander = {
 	name = "Franjo Simic"
@@ -1799,9 +1799,9 @@ create_corps_commander = {
 	skill = 7
 
 	attack_skill = 5
-	defense_skill = 2
-	planning_skill = 4
-	logistics_skill = 3
+	defense_skill = 10
+	planning_skill = 1
+	logistics_skill = 6
 }
 
 create_corps_commander = {
@@ -1811,9 +1811,9 @@ create_corps_commander = {
 	skill = 7
 
 	attack_skill = 5
-	defense_skill = 2
-	planning_skill = 4
-	logistics_skill = 3
+	defense_skill = 4
+	planning_skill = 8
+	logistics_skill = 5
 }
 
 create_corps_commander = {
@@ -1823,9 +1823,9 @@ create_corps_commander = {
 	skill = 7
 
 	attack_skill = 5
-	defense_skill = 2
+	defense_skill = 8
 	planning_skill = 4
-	logistics_skill = 3
+	logistics_skill = 5
 }
 
 create_corps_commander = {
@@ -1834,10 +1834,10 @@ create_corps_commander = {
 	traits = {  panzer_leader trickster trait_engineer }
 	skill = 7
 
-	attack_skill = 5
-	defense_skill = 2
+	attack_skill = 8
+	defense_skill = 5
 	planning_skill = 4
-	logistics_skill = 3
+	logistics_skill = 5
 }
 
 create_corps_commander = {
@@ -1847,9 +1847,9 @@ create_corps_commander = {
 	skill = 7
 
 	attack_skill = 5
-	defense_skill = 2
-	planning_skill = 4
-	logistics_skill = 3
+	defense_skill = 6
+	planning_skill = 7
+	logistics_skill = 4
 }
 
 create_corps_commander = {
@@ -1858,10 +1858,10 @@ create_corps_commander = {
 	traits = {  panzer_leader trickster trait_engineer }
 	skill = 7
 
-	attack_skill = 5
-	defense_skill = 2
-	planning_skill = 4
-	logistics_skill = 3
+	attack_skill = 6
+	defense_skill = 5
+	planning_skill = 2
+	logistics_skill = 9
 }
 
 create_corps_commander = {
@@ -1870,10 +1870,10 @@ create_corps_commander = {
 	traits = {  panzer_leader trickster trait_engineer }
 	skill = 7
 
-	attack_skill = 5
-	defense_skill = 2
-	planning_skill = 4
-	logistics_skill = 3
+	attack_skill = 4
+	defense_skill = 7
+	planning_skill = 7
+	logistics_skill = 4
 }
 
 create_corps_commander = {
@@ -1882,10 +1882,10 @@ create_corps_commander = {
 	traits = {  panzer_leader trickster trait_engineer }
 	skill = 7
 
-	attack_skill = 5
-	defense_skill = 2
+	attack_skill = 8
+	defense_skill = 4
 	planning_skill = 4
-	logistics_skill = 3
+	logistics_skill = 6
 }
 
 create_corps_commander = {
@@ -1894,10 +1894,10 @@ create_corps_commander = {
 	traits = {  panzer_leader trickster trait_engineer }
 	skill = 7
 
-	attack_skill = 5
-	defense_skill = 2
-	planning_skill = 4
-	logistics_skill = 3
+	attack_skill = 6
+	defense_skill = 4
+	planning_skill = 6
+	logistics_skill = 6
 }
 
 create_corps_commander = {
@@ -1907,9 +1907,9 @@ create_corps_commander = {
 	skill = 7
 
 	attack_skill = 5
-	defense_skill = 2
-	planning_skill = 4
-	logistics_skill = 3
+	defense_skill = 5
+	planning_skill = 6
+	logistics_skill = 6
 }
 	
 	}
