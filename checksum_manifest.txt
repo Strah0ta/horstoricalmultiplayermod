@@ -43,3 +43,9 @@ directory
 name = interface/console
 sub_directories = no
 file_extension = .gui
+
+directory
+name = gfx/FX
+sub_directories = no
+file_extension = .fxh
+

@@ -6,8 +6,6 @@ state={
 
 	state_category = large_town
 
-	resources = { tungsten = 115 }
-
 	history={
 		owner = YUG
 		victory_points = {
@@ -27,8 +25,6 @@ state={
 		}
 		buildings = {
 			infrastructure = 8
-			arms_factory = 2
-			industrial_complex = 8
 			3924 = {
 				naval_base = 3
 			}

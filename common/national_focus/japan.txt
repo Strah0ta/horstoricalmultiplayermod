@@ -313,6 +313,15 @@ hidden_effect = { every_country = { limit = {  OR = { original_tag = JAP origina
 		cost = 10
 
 		completion_reward = {
+					add_tech_bonus = {
+				name = "Guide the Zaibatsus"
+				bonus = 0.5
+				uses = 3
+				technology = advanced_machine_tools
+				technology = flexible_line
+				technology = assembly_line_production
+				technology = streamlined_line
+				}
 			532 = {
 				add_extra_state_shared_building_slots = 2
 				add_building_construction = {

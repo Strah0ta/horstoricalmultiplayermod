@@ -9,12 +9,10 @@ state={
 	history={
 		owner = YUG
 		buildings = {
-			infrastructure = 6
-			arms_factory = 2
-			industrial_complex = 4
+			infrastructure = 6	
 		}
 		victory_points = {
-			11581 3 
+			11581 10
 		}
 		add_core_of = YUG
 	}

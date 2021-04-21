@@ -1,13 +1,20 @@
 ﻿capital = 107
-set_research_slots = 0
+set_research_slots = 4
 add_ideas = ai_imiter 
-country_lock_all_division_template = yes
-
-set_convoys = 10
+set_convoys = 100
 set_technology = {
-concentrated_industry = 1
-dispersed_industry = 1 
-}
+	tech_support = 1		
+	tech_engineers = 1
+	tech_mountaineers = 1
+	early_fighter = 1
+	gwtank = 1
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	interwar_antitank = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	superior_firepower = 1
+	}
 set_politics = {
 	ruling_party = neutrality
 	last_election = "1935.5.3"
@@ -35,9 +42,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Milan Stojadinović"
-	desc = "POLITICS_MILAN_STOJADINOVIC_DESC"
-	picture = "gfx/leaders/YUG/Portrait_Yugoslavia_Milan_Stojadinovic.dds"
+	name = "Ante Pavelic"
+	desc = "ANTE_PAVELIC_DESC"
+	picture = "gfx/leaders/CRO/Portrait_Croatia_Ante_Pavelic.dds"
 	expire = "1965.1.1"
 	ideology = fascism_ideology
 	traits = {

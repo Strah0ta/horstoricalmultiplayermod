@@ -299,8 +299,8 @@ ideas = {
 				breakthrough_factor = 0.30
 				invasion_preparation = -0.5 
 				amphibious_invasion_defence = 1 
-				army_defence_factor = 0.1
-				army_attack_factor = 0.1
+				army_defence_factor = 0.05
+				army_attack_factor = 0.05
 				extra_marine_supply_grace = 168
 			}
 		}

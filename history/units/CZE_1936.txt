@@ -1,0 +1,86 @@
+﻿division_template = {
+	name = "Pěší divize"					# Infantry Division
+	division_names_group = CZE_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+}
+
+units = {
+	# directly subordinate
+	division = {
+		name = "1. jezdecká brigáda"
+		location = 11542  # Prague
+		division_template = "Pěší divize"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+}
+
+### Starting Production ###
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "CZE"
+		}
+		requested_factories = 12
+		progress = 0.18
+		efficiency = 100
+	}
+		add_equipment_production = {
+		equipment = {
+			type = motorized_equipment_1
+			creator = "CZE"
+		}
+		requested_factories = 3
+		progress = 0.18
+		efficiency = 100
+	}
+		add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+			creator = "CZE"
+		}
+		requested_factories = 3
+		progress = 0.18
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "CZE"
+		}
+		requested_factories = 3
+		progress = 0.48
+		efficiency = 100
+	}
+		add_equipment_production = {
+		equipment = {
+			type = anti_air_equipment_1
+			creator = "CZE"
+		}
+		requested_factories = 1
+		progress = 0.48
+		efficiency = 100
+	}
+	
+	add_equipment_production = {
+		equipment = {
+			type = light_tank_equipment_2
+			creator = "CZE"
+		}
+		requested_factories = 1
+		progress = 0.48
+		efficiency = 100
+	}
+}

@@ -38,7 +38,7 @@ NDefines.NMilitary.COMMANDER_LEVEL_UP_STAT_COUNT = 0				-- num stats gained on l
 NDefines.NMilitary.LAND_AIR_COMBAT_MAX_PLANES_PER_ENEMY_WIDTH = 0.5  -- WAS 3, reduced to 0.5 so less CAS is needed in battles
 NDefines.NMilitary.ORG_LOSS_FACTOR_ON_CONQUER = 0.25            -- vanilla is 0.2, GDU-like change (0.25 in GDU)
 ------PARATROOPER REWORK SO THEY DONT LOSE EQUIPMENT-------
-NDefines.NCountry.PARADROP_AIR_SUPERIORITY_RATIO = 0.9			-- Min ratio of air superiority for paradropping
+NDefines.NCountry.PARADROP_AIR_SUPERIORITY_RATIO = 0.95			-- Min ratio of air superiority for paradropping
 NDefines.NMilitary.PARACHUTE_FAILED_EQUIPMENT_DIV = 0		   -- When the transport plane was shot down, we drop unit with almost NONE equipment
 NDefines.NMilitary.PARACHUTE_FAILED_MANPOWER_DIV = 0	   -- When the transport plane was shot down, we drop unit with almost NONE manpower
 NDefines.NMilitary.PARACHUTE_FAILED_STR_DIV = 0			   -- When the transport plane was shot down, we drop unit with almost NONE strenght
@@ -157,6 +157,7 @@ NDefines.NTechnology.LICENSE_PRODUCTION_TECH_BONUS = 0	-- WAS 0.2 | LICENSES ARE
 --------------HORST SPY AGENCY AND INTEL CHANGES---------------
 ---------------------------------------------------------------
 NDefines.NCountry.INTEL_FROM_ALLIANCE_FACTOR = 0.6
+NDefines.NOperatives.OPERATIVE_BASE_INTEL_AGENCY_DEFENSE = 0
 NDefines.NOperatives.AGENCY_CREATION_DAYS = 0						-- Number of days needed to create an intelligence agency
 NDefines.NOperatives.AGENCY_CREATION_FACTORIES = 0
 NDefines.NOperatives.AGENCY_UPGRADE_DAYS = 70						-- Number of days needed to upgrade an intelligence agency

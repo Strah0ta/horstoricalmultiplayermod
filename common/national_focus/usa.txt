@@ -830,8 +830,8 @@ transfer_state = 38
 		available_if_capitulated = no
 
 		completion_reward = {
-		add_equipment_to_stockpile = { type = infantry_equipment_1 amount = 50000 }
-		add_equipment_to_stockpile = {	type = support_equipment_1	amount = 1500	}
+		add_equipment_to_stockpile = { type = infantry_equipment_1 amount = 25000 }
+		add_equipment_to_stockpile = {	type = support_equipment_1	amount = 500	}
 
 			if = {
 				limit = {

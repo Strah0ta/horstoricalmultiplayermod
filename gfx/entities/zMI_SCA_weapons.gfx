@@ -1,0 +1,218 @@
+#####################
+### ANTI AIRCRAFT ###
+#####################
+	
+
+objectTypes = {	
+	pdxmesh = {
+		name = "building_anti_air_building"
+		file = "gfx/models/buildings/SWE_aagun_01.mesh"
+		
+		animation = { id = "idle"  			type = "88aagun_idle_animation" }
+		animation = { id = "combat_idle"  	type = "88aagun_combat_idle_animation" }
+		animation = { id = "attack"  		type = "88aagun_attack_animation" }
+		
+		scale = 0.18
+	}
+}
+
+
+#################
+### ARTILLERY ###
+#################
+
+### SWEDEN ###
+
+objectTypes = {		
+	pdxmesh = {
+		name = "SWE_unit_artillery_1_mesh"
+		file = "gfx/models/buildings/SWE_artillery_01.mesh"
+		
+		animation = { id = "idle"  			type = "artillery_idle_animation" }
+		animation = { id = "move"  			type = "artillery_moving_animation" }
+		animation = { id = "attack"  		type = "artillery_attack_animation" }
+	}
+}
+		
+objectTypes = {		
+		pdxmesh = {
+		name = "SWE_unit_artillery_2_mesh"
+		file = "gfx/models/buildings/SWE_artillery_02.mesh"
+		
+		animation = { id = "idle"  			type = "artillery_idle_animation" }
+		animation = { id = "move"  			type = "artillery_moving_animation" }
+		animation = { id = "attack"  		type = "artillery_attack_animation" }
+	}
+}
+		
+objectTypes = {		
+	pdxmesh = {
+		name = "SWE_unit_artillery_3_mesh"
+		file = "gfx/models/buildings/SWE_artillery_03.mesh"
+		
+		animation = { id = "idle"  			type = "artillery_idle_animation" }
+		animation = { id = "move"  			type = "artillery_moving_animation" }
+		animation = { id = "attack"  		type = "artillery_attack_animation" }
+	}
+}
+	
+### FINLAND ###
+
+objectTypes = {		
+	pdxmesh = {
+		name = "FIN_unit_artillery_1_mesh"
+		file = "gfx/models/buildings/FIN_artillery_01.mesh"
+		
+		animation = { id = "idle"  			type = "artillery_idle_animation" }
+		animation = { id = "move"  			type = "artillery_moving_animation" }
+		animation = { id = "attack"  		type = "artillery_attack_animation" }
+	}
+}
+		
+objectTypes = {		
+		pdxmesh = {
+		name = "FIN_unit_artillery_2_mesh"
+		file = "gfx/models/buildings/FIN_artillery_02.mesh"
+		
+		animation = { id = "idle"  			type = "artillery_idle_animation" }
+		animation = { id = "move"  			type = "artillery_moving_animation" }
+		animation = { id = "attack"  		type = "artillery_attack_animation" }
+	}
+}
+		
+objectTypes = {		
+	pdxmesh = {
+		name = "FIN_unit_artillery_3_mesh"
+		file = "gfx/models/buildings/FIN_artillery_03.mesh"
+		
+		animation = { id = "idle"  			type = "artillery_idle_animation" }
+		animation = { id = "move"  			type = "artillery_moving_animation" }
+		animation = { id = "attack"  		type = "artillery_attack_animation" }
+	}
+}
+	
+### LATVIA ###
+
+objectTypes = {		
+	pdxmesh = {
+		name = "LAT_unit_artillery_1_mesh"
+		file = "gfx/models/buildings/NOR_artillery_01.mesh"
+		
+		animation = { id = "idle"  			type = "artillery_idle_animation" }
+		animation = { id = "move"  			type = "artillery_moving_animation" }
+		animation = { id = "attack"  		type = "artillery_attack_animation" }
+	}
+}
+	
+### NORWAY ###
+
+objectTypes = {		
+	pdxmesh = {
+		name = "NOR_unit_artillery_1_mesh"
+		file = "gfx/models/buildings/NOR_artillery_01.mesh"
+		
+		animation = { id = "idle"  			type = "artillery_idle_animation" }
+		animation = { id = "move"  			type = "artillery_moving_animation" }
+		animation = { id = "attack"  		type = "artillery_attack_animation" }
+	}
+}
+
+###########################
+### ANTI TANK ARTILLERY ###
+###########################
+
+objectTypes = {		
+	pdxmesh = {
+		name = "FIN_unit_antitank_mesh"
+		file = "gfx/models/buildings/FIN_antitank_01.mesh"
+		
+		animation = { id = "idle"  			type = "artillery_idle_animation" }
+		animation = { id = "move"  			type = "artillery_moving_animation" }
+		animation = { id = "attack"  		type = "artillery_attack_animation" }
+	}
+}
+
+objectTypes = {		
+	pdxmesh = {
+		name = "SWE_unit_antitank_mesh"
+		file = "gfx/models/buildings/SWE_antitank_01.mesh"
+		
+		animation = { id = "idle"  			type = "artillery_idle_animation" }
+		animation = { id = "move"  			type = "artillery_moving_animation" }
+		animation = { id = "attack"  		type = "artillery_attack_animation" }
+	}
+}
+
+
+
+##################
+### SMALL ARMS ###
+##################
+
+###############
+### ESTONIA ###
+###############
+
+objectTypes = {	
+	pdxmesh = {
+		name = "EST_infantry_weapon_mg_M23_mesh"
+		file = "gfx/models/units/weapon_EST_mg_M23.mesh"
+	}
+}
+
+###############
+### FINLAND ###
+###############
+
+objectTypes = {	
+	pdxmesh = {
+		name = "FIN_infantry_weapon_rifle_M1927_mesh"
+		file = "gfx/models/units/weapon_FIN_rifle_M91-27.mesh"
+	}
+}
+
+objectTypes = {	
+	pdxmesh = {
+		name = "FIN_infantry_weapon_mg_M1931_mesh"
+		file = "gfx/models/units/weapon_FIN_mg_M31.mesh"
+	}
+}
+
+objectTypes = {	
+	pdxmesh = {
+		name = "FIN_infantry_weapon_rifle_M1891_mesh"
+		file = "gfx/models/units/weapon_FIN_rifle_M91-30.mesh"
+	}
+}
+
+###############
+### SWEDISH ###
+###############
+
+objectTypes = {	
+	pdxmesh = {
+		name = "SWE_infantry_weapon_rifle_M96_mesh"
+		file = "gfx/models/units/weapon_SWE_rifle_M96.mesh"
+	}
+}
+
+objectTypes = {	
+	pdxmesh = {
+		name = "SWE_infantry_weapon_rifle_M38_mesh"
+		file = "gfx/models/units/weapon_SWE_rifle_M38.mesh"
+	}
+}
+
+objectTypes = {	
+	pdxmesh = {
+		name = "SWE_infantry_weapon_rifle_M42_mesh"
+		file = "gfx/models/units/weapon_SWE_rifle_M42.mesh"
+	}
+}
+
+objectTypes = {	
+	pdxmesh = {
+		name = "SWE_infantry_weapon_mg_M1931_mesh"
+		file = "gfx/models/units/weapon_SWE_mg_M31.mesh"
+	}
+}

@@ -1,8 +1,30 @@
 ﻿capital = 9
-
-set_research_slots = 0
-add_ideas = ai_imiter 
-country_lock_all_division_template = yes
+if = {
+	limit = {	has_dlc = "Death or Dishonor"	}
+	add_ideas = { CZE_divided_nation }
+}
+oob = "CZE_1936"
+add_timed_idea = { idea = NO_TRADE days = 730 }
+country_event ={ id = italy.668 days = 1 }
+set_research_slots = 4
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	motorised_infantry = 1
+	tech_support = 1
+	tech_recon = 1
+	tech_mountaineers = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	gwtank = 1
+	basic_light_tank = 1
+	improved_light_tank = 1
+	interwar_antiair = 1
+	early_fighter = 1
+	early_bomber = 1
+	CAS1 = 1
+	fuel_silos = 1
+}
 
 set_politics = {
 	ruling_party = democratic
@@ -16,7 +38,10 @@ set_popularities = {
 	fascism = 5
 	communism = 10
 }
-
+set_variable = {
+    var = min_fuel
+    value = 0.800
+}
 create_country_leader = {
 	name = "Edvard Beneš"
 	desc = "POLITICS_EDVARD_BENES_DESC"
@@ -27,7 +52,13 @@ create_country_leader = {
 		#
 	}
 }
-
+					create_country_leader = {
+					name = "Jozef Tiso"
+					picture =  "gfx/leaders/SLO/Portrait_Slovakia_Jozef_Tiso.dds"
+					expire = "1965.1.1"
+					ideology = nazism
+					traits = {	anti_communist_crusader }
+				}
 create_country_leader = {
 	name = "Klement Gottwald"
 	desc = "POLITICS_KLEMENT_GOTTWALD_DESC"

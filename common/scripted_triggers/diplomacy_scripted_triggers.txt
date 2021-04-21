@@ -9,7 +9,7 @@ DIPLOMACY_LEND_LEASE_ENABLE_TRIGGER = {
 }
 DIPLOMACY_WAR_ENABLE_TRIGGER = {always = no }
 DIPLOMACY_GIVESTATECONTROL_ENABLE_TRIGGER = { NOT = { FROM = { tag = FIN } } }
-DIPLOMACY_ASKSTATECONTROL_ENABLE_TRIGGER = { NOT = { ROOT = { tag = FIN } } }
+DIPLOMACY_ASKSTATECONTROL_ENABLE_TRIGGER = { always = no }
 DIPLOMACY_SEND_ATTACHE_ENABLE_TRIGGER = { 
 	if = { limit = { ROOT = { OR = { normally_played_allies = yes tag = SOV }}} NOT = { FROM = { OR = { the_axis = yes tag = JAP tag = MAN }}}  }
 	if = { limit = { ROOT = { OR = { the_axis = yes tag = JAP tag = MAN }}} NOT = { FROM = { OR = { normally_played_allies = yes tag = SOV }}}  }

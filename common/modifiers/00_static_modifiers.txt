@@ -375,76 +375,12 @@ operative_nationality_operation = {
 }
 
 
-stahlpakt2 = {
-	valid_relation_trigger = {
-		FROM = {
-			NOT = { has_war_with = ROOT }
-		}
-	}
-
-	trade_cost_for_target_factor = -0.8
-		extra_trade_to_target_factor = 1.0
-
-	}
-	stahlpakt = {
-	valid_relation_trigger = {
-		FROM = {
-			NOT = { has_war_with = ROOT }
-		}
-	}
-
-	trade_cost_for_target_factor = -0.6	
-	}
-			stahlpakt_ITA2 = {
-	valid_relation_trigger = {
-		FROM = {
-			NOT = { has_war_with = ROOT }
-		}
-	}
-
-			trade_cost_for_target_factor = -0.8
-			#extra_trade_to_target_factor = 0.1
-	}
-		stahlpakt_ITA = {
-	valid_relation_trigger = {
-		FROM = {
-			NOT = { has_war_with = ROOT }
-		}
-	}
-
-	trade_cost_for_target_factor = -0.6	
-			extra_trade_to_target_factor = 1.0
-	}
-	stahlpakt3 = {
-	valid_relation_trigger = {
-		FROM = {
-			NOT = { has_war_with = ROOT }
-		}
-	}
-
-	trade_cost_for_target_factor = -0.8	
-	}
-	stahlpakt4 = {
-	valid_relation_trigger = {
-		FROM = {
-			NOT = { has_war_with = ROOT }
-		}
-	}
-
-	trade_cost_for_target_factor = -0.9
-	extra_trade_to_target_factor = 1.0
-
-	}
-	
-asiapakt = {
-	valid_relation_trigger = {
-		FROM = {
-			NOT = { has_war_with = ROOT }
-		}
-	}
-	extra_trade_to_target_factor = 1.0	
-		trade_cost_for_target_factor = -0.6
-}
+stahlpakt2 = {	trade_cost_for_target_factor = -0.8		extra_trade_to_target_factor = 1.0	}
+	stahlpakt = {	trade_cost_for_target_factor = -0.6		}
+	stahlpakt_ITA2 = {	trade_cost_for_target_factor = -0.8	}
+		stahlpakt_ITA = {	trade_cost_for_target_factor = -0.6	extra_trade_to_target_factor = 1.0 }
+	stahlpakt4 = {trade_cost_for_target_factor = -0.9 extra_trade_to_target_factor = 1.0	}
+asiapakt = {	extra_trade_to_target_factor = 1.0		trade_cost_for_target_factor = -0.6 }
 	
 	stahlpakt5 = {
 	valid_relation_trigger = {

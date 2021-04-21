@@ -1034,7 +1034,7 @@ ideas = {
 		krupp = {
 			
 			allowed = {
-				original_tag = GER
+				OR = { tag = GER tag = CZE }
 			}
 			
 			research_bonus = {
@@ -1047,8 +1047,8 @@ ideas = {
 
 		siemens = {
 			
-			allowed = {
-				original_tag = GER
+		allowed = {
+				OR = { tag = GER tag = CZE }
 			}
 			
 			research_bonus = {
@@ -1065,8 +1065,8 @@ ideas = {
 		
 		rheinmetall = {
 			
-			allowed = {
-				original_tag = GER
+		allowed = {
+				OR = { tag = GER tag = CZE }
 			}
 			
 			research_bonus = {
@@ -1082,9 +1082,8 @@ ideas = {
 		
 		mauser = {
 
-			
-			allowed = {
-				original_tag = GER
+		allowed = {
+				OR = { tag = GER tag = CZE }
 			}
 			
 			research_bonus = {
@@ -1099,10 +1098,9 @@ ideas = {
 		
 		opel = {
 			
-			allowed = {
-				original_tag = GER
+		allowed = {
+				OR = { tag = GER tag = CZE }
 			}
-			
 			research_bonus = {
 				motorized_equipment = 0.15
 			}

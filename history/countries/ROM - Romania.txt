@@ -11,6 +11,8 @@ set_variable = {
     var = min_fuel
     value = 0.800
 }
+add_timed_idea = { idea = NO_TRADE days = 730 }
+
 add_ideas = manpower_early
 # Starting tech
 set_technology = {

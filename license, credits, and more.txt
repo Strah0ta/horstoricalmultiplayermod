@@ -1,6 +1,17 @@
 #####UNDER CONSTRUCTION#####
 
 ###CREDITS AND THANKS###
+(list is in progress)
+Brazil skins are from "Uniform Reskin Pack" (701530809) 
+Norway/Finland gun gfx are from "Scandinavian infantry weapons" (706846084)
+Italian portraits are from  "Italian Commanders(colored)" (1292910630) and "Italici Imperatores" (1818823699)
+Norway/Finland skins are from "-Minor Immersion Reskin: Scnandanavia- 2" (1490992080)
+Iraq skins are from "-Minor Immersion Reskin: Middle East & Africa-" (1531808386)
+The "No DLC" Bulgaria focus tree is based off the "Mila Rodino Bulgaria" (946730201) focus tree 
+The Slovakia focus tree is based off the "Director's Cut" (2229176045) Slovakia focus tree 
+
+Thank you to the above mods for explicit or implicit permission granted for use of assets.
+
 Thank you Lennard#0034 for the 'Fuel System', 'Horsttool',
 and 'Top Bar Resources' feature that were imported from 
 HFU/LW. Thanks for some of your creative and innovative 
@@ -17,6 +28,8 @@ Thank you Xen/Birran/XenJang/whatever discord name you use now
 
 Thank you Mushrix and ~christian hussar for creating graphical
 assets for Horstorical Multiplayer.
+
+Thank you to Sadek from Sadek mod, for modding assistance.
 
 Thank you Battlehammer and anyone that has supported Horstorical
 in reuploading it.

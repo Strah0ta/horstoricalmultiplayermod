@@ -1,0 +1,473 @@
+ideas = {
+	political_advisor = {
+	SLO_jozef_tiso = {
+                
+                  
+ 			picture = generic_political_advisor_europe_1
+			available = { has_completed_focus = SLO_president_of_slovak_republic }
+			allowed = {
+				original_tag = CZE
+			}
+			traits = { popular_figurehead }
+		}	
+
+		SLO_stefan_tiso = {
+
+			picture = generic_political_advisor_europe_3
+			
+			allowed = {
+				original_tag = CZE
+			}
+			
+			traits = { war_industrialist }
+		}
+
+		SLO_jaroslav_kratochvil = {
+
+			picture = generic_political_advisor_europe_2
+			
+			allowed = {
+				original_tag = CZE
+			}
+			
+			traits = { war_industrialist }
+		}
+
+		SLO_karol_sidor = {
+
+			picture = CZE_karol_sidor_pic
+			
+			allowed = {
+				original_tag = CZE
+			}
+			
+			traits = { silent_workhorse }
+		}
+               
+		
+		SLO_peter_zatko = {
+		available = { has_completed_focus = SLO_appoint_competent_economists }
+		picture = generic_political_advisor_europe_4
+
+          allowed = {
+				original_tag = CZE
+			}
+			cost = 150
+		traits = { economist }
+
+		}
+	}	
+
+	theorist = {
+
+		SLO_emil_lendvay = {
+			ledger = army
+					
+			picture = generic_army_europe_6
+
+			allowed = {
+				original_tag = CZE
+			}
+			
+			research_bonus = {
+				land_doctrine = 0.35
+			}
+			
+			traits = { military_theorist }
+		}
+
+	}
+
+	high_command = {
+	SLO_juraj_mesko = {
+			ledger = army
+
+			picture = CZE_alexander_cunderlik_pic
+
+			allowed = {
+				original_tag = CZE
+			}
+
+			traits = { army_commando_2 }
+		}
+
+	SLO_augustin_malar = {
+			ledger = army
+
+			picture = CZE_augustin_malar_pic
+
+			allowed = {
+				original_tag = CZE
+			}
+			
+			traits = { army_armored_2 }
+		}
+
+		SLO_viliam_talsky = {
+			ledger = army
+
+			picture = CZE_viliam_talsky_pic
+			
+			allowed = {
+				original_tag = CZE
+			}
+			
+		traits = { army_regrouping_2 }
+		}
+
+
+		SLO_alexander_mach = {
+			ledger = army
+
+			picture = CZE_alexander_mach_pic
+			
+			allowed = {
+				original_tag = CZE
+			}
+			
+			traits = { army_infantry_2 }
+		}
+	}
+	# MILITARY
+	army_chief = {
+
+		SLO_ferdinand_catlos = {
+			
+			picture = CZE_ferdinand_catlos_pic
+			
+			allowed = {
+				original_tag = CZE
+			}
+			
+			traits = { army_chief_organizational_3 }
+
+		}
+		
+		SLO_jan_golian = {
+			
+			picture = CZE_jan_golian_pic
+			
+			allowed = {
+				original_tag = CZE
+			}
+			
+
+			
+			traits = { army_chief_maneuver_3 }
+		}
+
+		SLO_rudolf_viest = {
+			
+			picture = CZE_rudolf_viest_pic
+			
+			allowed = {
+				original_tag = CZE
+			}
+			
+			traits = { army_chief_offensive_3 }
+		}
+	}
+
+	air_chief = {
+
+		SLO_anton_pulanick = {
+			
+			picture = CZE_anton_pulanich_pic
+			
+			allowed = {
+				original_tag = CZE
+			}
+					
+			traits = { air_chief_ground_support_2 }
+
+		}
+	}
+
+  country = {
+  		
+		CZE_divided_nation = {
+		
+			allowed = {
+				original_tag = CZE
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.4
+				consumer_goods_factor = 0.05
+				conscription_factor = -0.8
+			}
+		}	
+          #Strong currency
+           SLO_currency = {
+			removal_cost = -1
+			
+			allowed = {
+				always = no # Added via focus
+			}
+
+			 picture = CZE_slovak_koruna 
+			
+			modifier = {
+		stability_weekly = 0.001
+		consumer_goods_factor = -0.05
+
+	   }
+		
+	}
+        #German occupation
+		SLO_german_occupation = {
+		 removal_cost = -1 
+
+		  allowed = {
+		   	always = no # Added via focus	
+		   	}
+
+		   	picture = GFX_idea_ROM_corruption_in_the_army
+
+			modifier = {
+			industrial_capacity_factory = -0.10
+			
+		    }
+		}
+		 #German occupation 2
+		SLO_german_occupation_2 = {
+		 removal_cost = -1 
+
+		  allowed = {
+		   	always = no # Added via focus	
+		   	}
+
+		   	picture = GFX_idea_ROM_corruption_in_the_army
+
+			modifier = {
+			industrial_capacity_factory = -0.15
+			
+		    }
+		}
+		
+		#Prospering industry 1
+		SLO_prospering_industry_1 = {
+		removal_cost = -1 
+
+		  allowed = {
+		   	always = no # Added via focus	
+		   	}
+		  picture = GFX_SLO_slovak_industry
+		  modifier = {
+			consumer_goods_factor = -0.05
+			
+		    }
+		}
+	   #Prospering industry 2 
+		SLO_prospering_industry_2 = {
+		removal_cost = -1 
+
+		  allowed = {
+		   	always = no # Added via focus	
+		   	}
+		  picture = GFX_SLO_slovak_industry
+		  modifier = {
+			production_factory_max_efficiency_factor = 0.05
+			consumer_goods_factor = -0.05
+		    }
+		}	
+	  #Prospering industry 3
+		SLO_prospering_industry_3 = {
+		removal_cost = -1 
+
+		  allowed = {
+		   	always = no # Added via focus	
+		   	}
+		  picture = GFX_SLO_slovak_industry
+		  modifier = {
+			production_factory_max_efficiency_factor = 0.05
+			consumer_goods_factor = -0.15
+		    }
+		}
+		#Durcanskys ideas 
+		SLO_durcanskys_ideas = {
+		
+			picture = GFX_SLO_durcanskys_ideas
+
+			allowed = {
+				original_tag = CZE
+			}
+			removal_cost = -1
+
+			modifier = {
+				research_speed_factor = 0.1
+			}
+		}	
+		#Durcanskys ideas 2
+		SLO_durcanskys_ideas_2 = {
+		
+			picture = GFX_SLO_durcanskys_ideas
+
+			allowed = {
+				original_tag = CZE
+			}
+			removal_cost = -1
+
+			modifier = {
+				research_speed_factor = 0.15
+				autonomy_gain = 0.3 
+			}
+		}	
+		
+		SLO_life_in_new_slovakia = {
+		
+			picture = GFX_SLO_durcanskys_ideas
+
+			allowed = {
+				original_tag = CZE
+			}
+			removal_cost = -1
+
+			modifier = {
+			    weekly_manpower = 2000
+            }
+		}
+
+     SLO_CKD = {
+		
+			picture = GER_ckd
+
+			allowed = {
+				original_tag = CZE
+			}
+
+			allowed = {
+				always = no # Added via focus
+			}
+			removal_cost = -1
+
+			equipment_bonus = {
+				light_tank_equipment = {
+					build_cost_ic = -0.05 instant = yes
+				}
+    }
+   }  
+     SLO_german_assistance_idea = {
+		
+			picture = GFX_idea_generic_production_bonus
+
+			allowed = {
+				original_tag = CZE
+			}
+
+			allowed = {
+				always = no # Added via focus
+			}
+			removal_cost = -1
+
+			equipment_bonus = {
+				medium_tank_equipment = {
+					build_cost_ic = -0.1 instant = yes
+				}
+				heavy_tank_equipment = {
+					build_cost_ic = -0.1 instant = yes
+				}
+				light_tank_equipment = {
+					build_cost_ic = -0.1 instant = yes
+				}
+				super_heavy_tank_equipment = {
+					build_cost_ic = -0.1 instant = yes
+				}
+
+    }
+   }  
+      SLO_moto_mech_idea = {
+		
+			picture = GFX_idea_generic_production_bonus
+
+			allowed = {
+				original_tag = CZE
+			}
+
+			allowed = {
+				always = no # Added via focus
+			}
+			removal_cost = -1
+
+			equipment_bonus = {
+			 motorized_equipment = {
+					build_cost_ic = -0.1 instant = yes
+				}
+						amphibious_mechanized_equipment = {
+					build_cost_ic = -0.1 instant = yes
+				}
+		
+				mechanized_equipment = {
+					build_cost_ic = -0.1 instant = yes
+				}
+
+
+    }
+   }  
+
+     SLO_gun_mass_production_idea = {
+		
+			picture = GFX_idea_MEX_politicised_army_2
+
+			allowed = {
+				original_tag = CZE
+			}
+
+			allowed = {
+				always = no # Added via focus
+			}
+			removal_cost = -1
+			equipment_bonus = {
+			 infantry_equipment = {
+					build_cost_ic = -0.1 instant = yes
+				}
+
+
+    }  
+
+  }
+  SLO_soviet_war_idea = {
+  picture = GFX_SLO_destroy_bolshevism
+
+			allowed = {
+				original_tag = CZE
+			}
+
+			allowed = {
+				always = no # Added via focus
+			}
+			removal_cost = -1
+		targeted_modifier = {
+				tag = SOV
+				attack_bonus_against = 0.1
+				defense_bonus_against = -0.1
+			}
+
+    }  
+    SLO_hlinka_chad_idea = {
+  picture = GFX_SLO_hejho
+
+			allowed = {
+				original_tag = CZE
+			}
+
+			allowed = {
+				always = no # Added via focus
+			}
+			removal_cost = -1
+		modifier = {
+				conscription_factor = 1
+				army_org_factor = 0.10
+				experience_loss_factor = -0.20
+			}
+
+    }    
+
+    }    

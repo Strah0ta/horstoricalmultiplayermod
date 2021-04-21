@@ -7,15 +7,13 @@ state={
 		buildings = {
 			infrastructure = 6
 			air_base = 4
-			arms_factory = 9
-			industrial_complex = 2
+			arms_factory = 11
+			industrial_complex = 6
 		}
 		victory_points = {
 			11586 15 
 		}
 		add_core_of = YUG
-
-
 	}
 
 	provinces={
