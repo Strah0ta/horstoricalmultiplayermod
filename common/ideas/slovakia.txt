@@ -262,7 +262,7 @@ ideas = {
 		  picture = GFX_SLO_slovak_industry
 		  modifier = {
 			consumer_goods_factor = -0.05
-			
+			min_export = -1
 		    }
 		}
 	   #Prospering industry 2 

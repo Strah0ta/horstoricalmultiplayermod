@@ -1759,10 +1759,10 @@ create_corps_commander = {
 # End of Germany
 	}
 	YUG = {
-	create_field_marshal = {
+	create_corps_commander = {
 	name = "Slavko Stancer"
 	picture = "r56_portrait_CRO_slavko_stancer.dds"
-	traits = { infantry_leader organizer trait_engineer 	}
+    traits = { trickster expert_improviser brilliant_strategist panzer_leader hill_fighter trait_mountaineer urban_assault_specialist panzer_expert  }
 	skill = 7
 	attack_skill = 5
 	defense_skill = 5
@@ -1774,7 +1774,7 @@ create_corps_commander = {
 create_corps_commander = {
 	name = "Junuz Ajanovic"
 	picture = "r56_portrait_CRO_junuz_ajanovic.dds"
-	traits = { trickster infantry_leader trait_mountaineer }
+	traits = { jungle_rat ranger commando trickster expert_improviser infantry_leader  infantry_expert }
 	skill = 7
 	attack_skill = 6
 	defense_skill = 6
@@ -1785,19 +1785,18 @@ create_corps_commander = {
  create_corps_commander = {
 	name = "Rafael Boban"
 	picture = "r56_portrait_CRO_Rafael_Boban.dds"
-	traits = { naval_invader infantry_leader commando }
+	traits = { trickster guerilla_fighter winter_specialist trait_engineer panzer_leader panzer_expert ambusher }
 	skill = 7
 	attack_skill = 5
 	defense_skill = 1
 	planning_skill = 10
 	logistics_skill = 6
 }
-create_corps_commander = {
-	name = "Franjo Simic"
+create_field_marshal = {
+	name = "Franjo Simic" #Point Value: 20 
 	picture = "r56_portrait_CRO_Franjo_Simic.dds"
-	traits = {  panzer_leader trickster trait_engineer }
+	traits = { infantry_leader urban_assault_specialist ranger infantry_expert logistics_wizard thorough_planner organizer  trait_engineer }
 	skill = 7
-
 	attack_skill = 5
 	defense_skill = 10
 	planning_skill = 1
@@ -1807,7 +1806,7 @@ create_corps_commander = {
 create_corps_commander = {
 	name = "Matija Canic"
 	picture = "r56_portrait_CRO_Matija_Canic.dds"
-	traits = {  panzer_leader trickster trait_engineer }
+	traits = {  trickster trait_engineer organizer  panzer_leader panzer_expert desert_fox hill_fighter urban_assault_specialist  }
 	skill = 7
 
 	attack_skill = 5
@@ -1819,7 +1818,7 @@ create_corps_commander = {
 create_corps_commander = {
 	name = "Gojko Nikolis"
 	picture = "r56_portrait_CRO_Gojko_Nikolis.dds"
-	traits = {  panzer_leader trickster trait_engineer }
+	traits = { hill_fighter trait_mountaineer infantry_leader trait_engineer urban_assault_specialist infantry_expert fortress_buster naval_invader invader_ii }
 	skill = 7
 
 	attack_skill = 5
@@ -1853,18 +1852,6 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Vladimir Laxa"
-	picture = "Portrait_Vladimir_Laxa.dds"
-	traits = {  panzer_leader trickster trait_engineer }
-	skill = 7
-
-	attack_skill = 6
-	defense_skill = 5
-	planning_skill = 2
-	logistics_skill = 9
-}
-
-create_corps_commander = {
 	name = "Stjepan Sarkotic"
 	picture = "Portrait_Stjepan_Sarkotic.dds"
 	traits = {  panzer_leader trickster trait_engineer }
@@ -1888,10 +1875,10 @@ create_corps_commander = {
 	logistics_skill = 6
 }
 
-create_corps_commander = {
+create_field_marshal = {
 	name = "Jure Francetic"
 	picture = "Portrait_Jure_Francetic.dds"
-	traits = {  panzer_leader trickster trait_engineer }
+    traits = {  panzer_leader  thorough_planner logistics_wizard trait_engineer trait_mountaineer desert_fox hill_fighter fortress_buster trait_cautious }
 	skill = 7
 
 	attack_skill = 6
@@ -1900,10 +1887,10 @@ create_corps_commander = {
 	logistics_skill = 6
 }
 
-create_corps_commander = {
+create_field_marshal = {
 	name = "Ivan Babic"
 	picture = "Portrait_Ivan_Babic.dds"
-	traits = {  panzer_leader trickster trait_engineer }
+	traits = { old_guard guerilla_fighter defensive_doctrine  bearer_of_artillery cavalry_expert cavalry_expert trait_mountaineer urban_assault_specialist combined_arms_expert  hill_fighter desert_fox ambusher   }
 	skill = 7
 
 	attack_skill = 5
