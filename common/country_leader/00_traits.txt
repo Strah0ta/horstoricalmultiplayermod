@@ -1,17 +1,21 @@
 leader_traits = {
-
-	defeatist = {
-			random = no
-		war_support_factor = -1
-
-	
-	}
 	dictator = {
 		random = no
 		political_power_factor = 0.25
 		
 	}
-	
+		strict_austerity_adherent = {
+		random = no
+		stability_factor = -0.15
+		economy_cost_factor = 0.5
+		consumer_goods_factor = -0.2
+		production_speed_buildings_factor = 0.25
+	}
+	defeatism = {
+		random = no
+		war_support_factor = -0.5
+		surrender_limit = -0.25
+	}
 	fra_legit_trait = {
 		random = no
 	}
@@ -98,9 +102,7 @@ leader_traits = {
 	adventurous_daredevil = {
 		random = no
 		sprite = 13
-
-		war_support_factor = 0.05
-		political_power_factor = 0.05
+		weekly_manpower = 2000
 		army_morale_factor = 0.1
 	}
 	

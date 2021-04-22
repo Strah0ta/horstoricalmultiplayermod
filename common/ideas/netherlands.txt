@@ -39,26 +39,6 @@ ideas = {
 			}
 		}
 
-		HOL_expand_the_colonial_army = {
-
-			picture = hol_expand_the_colonial_army
-			
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-			
-			removal_cost = -1
-						
-			modifier = {
-				training_time_factor = -0.1
-				non_core_manpower = 0.02
-			}
-		}
-
 		HOL_prepare_for_our_return = {
 
 			picture = eng_preparing_the_second_front
@@ -228,10 +208,20 @@ ideas = {
 			removal_cost = -1
 						
 			modifier = {
-				industrial_capacity_dockyard = 0.50
+				industrial_capacity_dockyard = 0.25
 			}
 		}
-
+		HOL_public_works = {
+			picture = generic_production_bonus
+			name = HOL_continue_the_public_works
+			allowed = {
+				original_tag = ITA
+			}
+			removal_cost = -1
+			modifier = {
+				production_speed_industrial_complex_factor = 0.50
+			}
+		}
 		HOL_gateway_to_europe = {
 
 			picture = hol_gateway_to_europe
@@ -463,7 +453,7 @@ ideas = {
 
 			modifier = {
 				democratic_drift = 0.05
-				stability_weekly = 0.001
+				stability_weekly = 0.002
 			}
 		}
 
@@ -482,7 +472,7 @@ ideas = {
 			removal_cost = -1
 						
 			modifier = {
-				weekly_manpower = 2000
+				weekly_manpower = 1000
 			}
 		}
 
@@ -542,7 +532,7 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				industrial_capacity_dockyard = 1
+				industrial_capacity_dockyard = 0.5
 			}
 		}
 
@@ -1215,10 +1205,6 @@ ideas = {
 			
 			picture = HOL_daf
 
-			available = {
-				has_completed_focus = HOL_daf
-			}
-
 			allowed = {
 				tag = HOL
 				has_dlc = "Man the Guns"
@@ -1238,10 +1224,6 @@ ideas = {
 		artillerie_inrichtingen = {
 			
 			picture = artillerie_inrichtingen
-
-			available = {
-				has_completed_focus = HOL_expand_the_artillerieinrichtingen
-			}
 			
 			allowed = {
 				original_tag = HOL
@@ -1293,10 +1275,6 @@ ideas = {
 	
 		HOL_royal_dutch_shell = {
 
-			available = {
-				has_completed_focus = HOL_expand_curacao_oil_refineries
-			}
-			
 			allowed = {
 				original_tag = HOL
 				has_dlc = "Man the Guns"

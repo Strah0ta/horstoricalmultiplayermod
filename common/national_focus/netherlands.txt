@@ -46,12 +46,7 @@ focus_tree = {
 
 		completion_reward = {
 				352 = { add_extra_state_shared_building_slots = 3 }
-			add_tech_bonus = {
-				name = HOL_continue_the_public_works
-				bonus = 1.0
-				uses = 1
-				category = industry
-			}
+			add_timed_idea = { idea = HOL_public_works days = 365 }
 		}
 	}
 
@@ -210,19 +205,11 @@ focus_tree = {
 		}
 	}
 
-#   # ### #   ### ###  ##  ###  #   #     ### ###  ### ### 
-## ##  #  #    #   #  #  # #  #  # #       #  #  # #   #   
-# # #  #  #    #   #  #### ###    #        #  ###  ##  ##  
-#   #  #  #    #   #  #  # #  #   #        #  #  # #   #   
-#   # ### ### ###  #  #  # #  #   #        #  #  # ### ### 
-
 	focus = {
 		id = HOL_overturn_military_budget_cuts
-		prerequisite = { focus = HOL_abandon_the_gold_standard }
 		icon = GFX_goal_generic_army_doctrines
 		x = 10
 		y = 0
-		relative_position_id = HOL_abandon_the_gold_standard
 		cost = 10
 		available = {
 			is_ai = no
@@ -233,14 +220,6 @@ focus_tree = {
 			add_war_support = 0.1
 		}
 	}
-
-
- ##  ###  #   # #   #     ### ###  ### ### 
-#  # #  # ## ##  # #       #  #  # #   #   
-#### ###  # # #   #        #  ###  ##  ##  
-#  # #  # #   #   #        #  #  # #   #   
-#  # #  # #   #   #        #  #  # ### ### 
-
 
 	focus = {
 		id = HOL_appoint_new_supreme_commander
@@ -262,14 +241,14 @@ focus_tree = {
 			}
 			custom_effect_tooltip = HOL_appoint_new_supreme_commander_tt
 				create_field_marshal = {
-					name = "Henri Winkelman"
+					name = "Henri Winkelman" #Point Value: 16
 					gfx = "GFX_portrait_hol_henri_winkelman"
-					traits = { defensive_doctrine trait_cautious unyielding_defender }
-					skill = 4
+					traits = { defensive_doctrine infantry_leader ambusher logistics_wizard guerilla_fighter trait_cautious unyielding_defender inflexible_strategist }
+					skill = 6
 					attack_skill = 2
-					defense_skill = 4
-					planning_skill = 4
-					logistics_skill = 3
+					defense_skill = 8
+					planning_skill = 3
+					logistics_skill = 6
 				}
 		}
 	}
@@ -679,22 +658,20 @@ focus_tree = {
 #     ##  ### ###  #  ###  ##  #  # ###      #  #  # ### ### 
 
 
+
 	focus = {
 		id = HOL_gateway_to_europe
-		prerequisite = { focus = HOL_form_new_government }
 		icon = GFX_focus_hol_gateway_to_europe
 		x = 18
 		y = 0
-		relative_position_id = HOL_form_new_government
 		cost = 10
 
 		available_if_capitulated = yes
 		search_filters = {FOCUS_FILTER_POLITICAL}
 		completion_reward = {
-			add_political_power = 120
+			add_political_power = 150
 		}
 	}
-
 
 	focus = {
 		id = HOL_oranje_boven
@@ -704,7 +681,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = HOL_gateway_to_europe
 		cost = 10
-
+		available = { NOT = { owns_state = 7 }}
 		available_if_capitulated = yes
 		search_filters = {FOCUS_FILTER_POLITICAL}
 		completion_reward = {
@@ -761,16 +738,16 @@ focus_tree = {
 		x = -1
 		y = 2
 		relative_position_id = HOL_the_only_man_in_the_dutch_government
-		cost = 50
+		cost = 10
 		mutually_exclusive = { focus = HOL_liberation }
 		available_if_capitulated = yes
 
 		completion_reward = {
 			352 ={ 
-					add_extra_state_shared_building_slots = 16
+					add_extra_state_shared_building_slots = 12
 					add_building_construction = {
 							type = dockyard
-							level = 16
+							level = 12
 							instant_build = yes
 					}
 				}
@@ -832,7 +809,6 @@ focus_tree = {
 		available_if_capitulated = yes
 		search_filters = {FOCUS_FILTER_STABILITY FOCUS_FILTER_POLITICAL}
 		completion_reward = {
-			add_stability = 0.05
 			add_timed_idea = { idea = HOL_unity_through_democracy	 days = 1095 }
 		}
 	}

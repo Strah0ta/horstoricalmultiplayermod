@@ -400,7 +400,7 @@ country_event = {
 		POL = { load_oob  = "POL_spawn" }
 		DEN = { load_oob  = "DEN_spawn"  }
 		BEL = { load_oob  = "BEL_spawn" }
-		HOL = { load_oob  = "HOL_spawn"  }	
+		if = { limit = { HOL = {is_ai = yes }}  HOL = { load_oob  = "HOL_spawn"  }	  }
 	}
 }
 country_event = {
