@@ -1,6 +1,11 @@
 leader_traits = {
 
+	defeatist = {
+			random = no
+		war_support_factor = -1
+
 	
+	}
 	dictator = {
 		random = no
 		political_power_factor = 0.25
@@ -17,10 +22,31 @@ leader_traits = {
 		neutrality_drift = 0.05
 		political_power_factor = 0.1
 	}
-	
+		little_churchill = {
+		random = no
+		political_power_factor = 0.3
+	}
+
 	caudillo_1 = {
 		random = no
 		high_command_cost_factor = -0.15
+	}
+	wilhelmina = {
+		random = no
+		stability_factor = 0.15
+	}
+
+	disdain_for_politicians_1 = {
+		random = no
+		communism_drift = -0.05
+		fascism_drift = -0.05
+		democratic_drift = -0.05
+	}
+
+	queen_of_the_people = {
+		random = no
+		army_core_attack_factor = 0.05
+		army_core_defence_factor = 0.05
 	}
 
 	caudillo_2 = {

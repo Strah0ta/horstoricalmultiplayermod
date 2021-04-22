@@ -170,7 +170,6 @@ ideas = {
 		}
 
 		HOL_light_tanks_for_the_colonies = {
-		
 			picture = generic_production_bonus
 
 			allowed = {
@@ -229,7 +228,7 @@ ideas = {
 			removal_cost = -1
 						
 			modifier = {
-				industrial_capacity_dockyard = 0.1
+				industrial_capacity_dockyard = 0.50
 			}
 		}
 
@@ -395,7 +394,24 @@ ideas = {
 				neutrality_drift = 0.1
 			}
 		}
+		HOL_expand_the_colonial_army = {
 
+			picture = hol_expand_the_colonial_army
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+						
+			modifier = {
+				weekly_manpower = 2000
+			}
+		}
 		HOL_oranje_boven_2 = {
 
 			name = HOL_oranje_boven
@@ -404,26 +420,13 @@ ideas = {
 
 			allowed = {
 				always = no
-			}
-
-			available = {
-				OR = {
-					has_government = neutrality
-					NOT = { has_completed_focus = HOL_the_only_man_in_the_dutch_government }
-				}
-			}
-
-			allowed_civil_war = {
-				has_government = neutrality
-			}
+			}	
 
 			removal_cost = -1
 
 			modifier = {
 				neutrality_drift = 0.2
-				resistance_growth_on_our_occupied_states = 0.25
-				army_core_defence_factor = 0.1
-				army_core_attack_factor = 0.1
+				war_support_factor = 0.3
 			}
 		}
 
@@ -454,38 +457,32 @@ ideas = {
 				always = no
 			}
 
-			allowed_civil_war = {
-				has_government = democratic
-			}
+			available = {	has_government = democratic	}
 
 			removal_cost = -1
 
 			modifier = {
-				fascism_drift = -0.02
-				communism_drift = -0.02
 				democratic_drift = 0.05
 				stability_weekly = 0.001
 			}
 		}
 
 		HOL_de_vaarplicht = {
-
-			picture = hol_de_vaarplicht
-
 			name = HOL_de_vaarplicht_idea
-
+			picture = hol_expand_the_colonial_army
+			
 			allowed = {
 				always = no
 			}
 
 			allowed_civil_war = {
-				has_government = neutrality
+				always = yes
 			}
-
+			
 			removal_cost = -1
-
+						
 			modifier = {
-				conscription = 0.025
+				weekly_manpower = 2000
 			}
 		}
 
@@ -545,7 +542,7 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				industrial_capacity_dockyard = 0.1
+				industrial_capacity_dockyard = 1
 			}
 		}
 
@@ -605,7 +602,6 @@ ideas = {
 			removal_cost = -1
 						
 			modifier = {
-				production_speed_bunker_factor = 0.1
 				max_dig_in = 10
 				army_core_defence_factor = 0.1
 			}

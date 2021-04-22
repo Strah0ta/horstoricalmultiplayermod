@@ -24,38 +24,6 @@ focus_tree = {
 	continuous_focus_position = { x = 50 y = 1500 }
 
 
-	focus = {
-		id = HOL_liberation
-		available = {
-			has_full_control_of_state = 7
-			has_full_control_of_state = 35
-			has_full_control_of_state = 36
-		}
-		icon = GFX_focus_hol_liberation
-		x = 0
-		y = 1
-		cost = 10
-
-		available_if_capitulated = yes
-		search_filters = {FOCUS_FILTER_STABILITY FOCUS_FILTER_WAR_SUPPORT FOCUS_FILTER_MANPOWER FOCUS_FILTER_INDUSTRY}
-		completion_reward = {
-			set_capital = 7
-			add_stability = 0.1
-			add_war_support = 0.05
-			add_manpower = 150000
-			add_equipment_to_stockpile = {
-			    type = infantry_equipment
-			    amount = 10000
-			    producer = HOL
-			}
-			add_equipment_to_stockpile = {
-			    type = support_equipment
-			    amount = 500
-			    producer = HOL
-			}
-			add_ideas = HOL_liberation
-		}
-	}
 
 #   #  ##  ### #  # #    ##  #  # ###      ### #  # ###  #  #  ## ### ###  #   #     ### ###  ### ### 
 ## ## #  #  #  ## # #   #  # ## # #  #      #  ## # #  # #  # #    #  #  #  # #       #  #  # #   #   
@@ -68,13 +36,16 @@ focus_tree = {
 
 		icon = GFX_goal_generic_construction
 		x = 2
-		y = 1
+		y = 0
 		cost = 10
-
+		available = {
+			is_ai = no
+		}
 		available_if_capitulated = yes
 		search_filters = {FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY}
 
 		completion_reward = {
+				352 = { add_extra_state_shared_building_slots = 3 }
 			add_tech_bonus = {
 				name = HOL_continue_the_public_works
 				bonus = 1.0
@@ -96,6 +67,7 @@ focus_tree = {
 		available_if_capitulated = yes
 		search_filters = {FOCUS_FILTER_RESEARCH}
 		completion_reward = {
+						352 = { add_extra_state_shared_building_slots = 3 }
 			add_tech_bonus = {
 				name = HOL_philips_focus
 				bonus = 1.0
@@ -124,15 +96,10 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
+						352 = { add_extra_state_shared_building_slots = 3 }
 			add_research_slot = 1
 		}
 	}
-
-### #  # ###     ### #  # ### ###  ### ###  ### ### ###     #   #  ##  ###  # #  ## 
- #  #  # #         # #  #  #  #  # #   #  #   # #   #       #   # #  # #  # # # #   
- #  #### ##       #  #  #  #  #  # ##  ###   #  ##  ##      # # # #  # ###  ##   #  
- #  #  # #       #   #  #  #  #  # #   #  # #   #   #       # # # #  # #  # # #   # 
- #  #  # ###     ###  ##  ### ###  ### #  # ### ### ###      # #   ##  #  # # # ##  
 
  	focus = {
 		id = HOL_the_zuiderzee_works
@@ -146,6 +113,7 @@ focus_tree = {
 		available_if_capitulated = yes
 		search_filters = {FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY}
 		completion_reward = {
+						352 = { add_extra_state_shared_building_slots = 3 }
 			add_tech_bonus = {
 				name = HOL_the_zuiderzee_works
 				bonus = 1.0
@@ -169,6 +137,7 @@ focus_tree = {
 		available_if_capitulated = yes
 		search_filters = {FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY}
 		completion_reward = {
+						352 = { add_extra_state_shared_building_slots = 3 }
 			add_tech_bonus = {
 				name = HOL_develop_the_randstad
 				bonus = 1.0
@@ -191,6 +160,7 @@ focus_tree = {
 		available_if_capitulated = yes
 		search_filters = {FOCUS_FILTER_INDUSTRY}
 		completion_reward = {
+						352 = { add_extra_state_shared_building_slots = 3 }
 			add_ideas = HOL_friesland_agricultural_impetus
 		}
 	}
@@ -207,6 +177,7 @@ focus_tree = {
 		available_if_capitulated = yes
 		search_filters = {FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY}
 		completion_reward = {
+						352 = { add_extra_state_shared_building_slots = 3 }
 			add_tech_bonus = {
 				name = HOL_domestic_vehicle_designs
 				bonus = 1.0
@@ -234,6 +205,7 @@ focus_tree = {
 		available_if_capitulated = yes
 		search_filters = {FOCUS_FILTER_RESEARCH}
 		completion_reward = {
+						352 = { add_extra_state_shared_building_slots = 3 }
 			add_research_slot = 1
 		}
 	}
@@ -248,15 +220,16 @@ focus_tree = {
 		id = HOL_overturn_military_budget_cuts
 		prerequisite = { focus = HOL_abandon_the_gold_standard }
 		icon = GFX_goal_generic_army_doctrines
-		x = 9
-		y = 1
+		x = 10
+		y = 0
 		relative_position_id = HOL_abandon_the_gold_standard
 		cost = 10
-
+		available = {
+			is_ai = no
+		}
 		available_if_capitulated = yes
 		search_filters = {FOCUS_FILTER_WAR_SUPPORT}
 		completion_reward = {
-			army_experience = 5
 			add_war_support = 0.1
 		}
 	}
@@ -273,7 +246,7 @@ focus_tree = {
 		id = HOL_appoint_new_supreme_commander
 		prerequisite = { focus = HOL_overturn_military_budget_cuts }
 		icon = GFX_focus_generic_military_mission
-		x = -1
+		x = -2
 		y = 1
 		relative_position_id = HOL_overturn_military_budget_cuts
 		cost = 10
@@ -281,7 +254,6 @@ focus_tree = {
 		available_if_capitulated = yes
 		search_filters = {FOCUS_FILTER_RESEARCH}
 		completion_reward = {
-			army_experience = 10
 			add_tech_bonus = {
 				name = HOL_appoint_new_supreme_commander
 				bonus = 1.0
@@ -289,7 +261,6 @@ focus_tree = {
 				category = land_doctrine
 			}
 			custom_effect_tooltip = HOL_appoint_new_supreme_commander_tt
-			hidden_effect = {
 				create_field_marshal = {
 					name = "Henri Winkelman"
 					gfx = "GFX_portrait_hol_henri_winkelman"
@@ -300,7 +271,6 @@ focus_tree = {
 					planning_skill = 4
 					logistics_skill = 3
 				}
-			}
 		}
 	}
 
@@ -327,13 +297,13 @@ focus_tree = {
 			add_tech_bonus = {
 				name = HOL_modernize_our_infantry_equipment
 				bonus = 0.5
-				uses = 1
+				uses = 4
 				category = infantry_weapons
 			}
 			add_tech_bonus = {
 				name = HOL_modernize_our_infantry_equipment
 				bonus = 0.5
-				uses = 1
+				uses = 4
 				category = artillery
 			}
 		}
@@ -372,13 +342,6 @@ focus_tree = {
 		icon = GFX_goal_generic_army_tanks
 		x = -1
 		y = 1
-		offset = {
-			x = -1
-			y = 0
-			trigger = {
-				NOT = { has_dlc = "Death or Dishonor" }
-			}
-		}
 		relative_position_id = HOL_modernize_our_infantry_equipment
 		cost = 10
 
@@ -396,7 +359,7 @@ focus_tree = {
 					add_tech_bonus = {
 						name = HOL_light_tanks_for_the_colonies
 						bonus = 1.0
-						uses = 1
+						uses = 3
 						category = cat_light_armor
 					}
 					custom_effect_tooltip = HOL_light_tanks_for_the_colonies_2tt
@@ -413,7 +376,7 @@ focus_tree = {
 				add_tech_bonus = {
 					name = HOL_light_tanks_for_the_colonies
 					bonus = 1.0
-					uses = 1
+					uses = 3
 					category = cat_light_armor
 				}
 			}
@@ -439,20 +402,19 @@ focus_tree = {
 		icon = GFX_goal_generic_intelligence_exchange
 		x = 1
 		y = 1
-		offset = {
-			x = -1
-			y = 0
-			trigger = {
-				NOT = { has_dlc = "Death or Dishonor" }
-			}
-		}
 		relative_position_id = HOL_modernize_our_infantry_equipment
 		cost = 10
 
 		available_if_capitulated = yes
 
 		completion_reward = {
-			#
+						add_tech_bonus = {
+				name = HOL_lessons_from_the_last_war
+				bonus = 3.0
+				uses = 1
+				category = land_doctrine
+			}
+
 		}	
 	}
 
@@ -488,8 +450,8 @@ focus_tree = {
 				effect_tooltip = {
 					add_tech_bonus = {
 						name = HOL_anti_tank_guns_for_the_continent
-						bonus = 1.0
-						uses = 1
+						bonus = 0.51
+						uses = 4
 						category = cat_anti_tank
 					}
 					custom_effect_tooltip = HOL_light_tanks_for_the_colonies_2tt
@@ -505,8 +467,8 @@ focus_tree = {
 				}
 				add_tech_bonus = {
 					name = HOL_anti_tank_guns_for_the_continent
-					bonus = 1.0
-					uses = 1
+					bonus = 0.51
+					uses = 4
 					category = cat_anti_tank
 				}
 			}
@@ -531,7 +493,6 @@ focus_tree = {
 		available_if_capitulated = yes
 		search_filters = {FOCUS_FILTER_RESEARCH}
 		completion_reward = {
-			army_experience = 25
 			add_tech_bonus = {
 				name = HOL_lessons_from_the_last_war
 				bonus = 1.0
@@ -550,11 +511,11 @@ focus_tree = {
 
 	focus = {
 		id = HOL_aviatic_aspirations
-		prerequisite = { focus = HOL_lessons_from_the_last_war }
+		prerequisite = { focus = HOL_overturn_military_budget_cuts }
 		icon = GFX_goal_generic_build_airforce
-		x = 1
+		x = 0
 		y = 1
-		relative_position_id = HOL_lessons_from_the_last_war
+		relative_position_id = HOL_overturn_military_budget_cuts
 		cost = 10
 
 		available_if_capitulated = yes
@@ -579,8 +540,8 @@ focus_tree = {
 		id = HOL_cornerstone_of_colonial_defense
 		prerequisite = { focus = HOL_overturn_military_budget_cuts }
 		icon = GFX_goal_generic_navy_doctrines_tactics
-		x = 4
-		y = 2
+		x = 2	
+		y = 1
 		relative_position_id = HOL_overturn_military_budget_cuts
 		cost = 10
 
@@ -717,40 +678,13 @@ focus_tree = {
 #    #  # #    #   #   #  #  # #  # #        #  #  # #   #   
 #     ##  ### ###  #  ###  ##  #  # ###      #  #  # ### ### 
 
-	focus = {
-		id = HOL_form_new_government
-		bypass = {
-			has_capitulated = yes
-		}
-		icon = GFX_goal_generic_improve_relations
-		x = 16
-		y = 0
-		relative_position_id = HOL_abandon_the_gold_standard
-		cost = 10
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-				set_party_name = { ideology = democratic long_name = HOL_CHU_party_long name = HOL_CHU_party }
-				create_country_leader = {
-					name = "Dirk Jan de Geer"
-					desc = "POLITICS_DIRK_JAN_DE_GEER_DESC"
-					picture = "Portrait_Netherlands_Dirk_Jan_de_Geer.dds"
-					expire = "1965.1.1"
-					ideology = conservatism
-					traits = {
-						defeatist
-					}
-				}
-		}
-	}
 
 	focus = {
 		id = HOL_gateway_to_europe
 		prerequisite = { focus = HOL_form_new_government }
 		icon = GFX_focus_hol_gateway_to_europe
-		x = 0
-		y = 1
+		x = 18
+		y = 0
 		relative_position_id = HOL_form_new_government
 		cost = 10
 
@@ -766,60 +700,15 @@ focus_tree = {
 		id = HOL_oranje_boven
 		prerequisite = { focus = HOL_gateway_to_europe }
 		icon = GFX_focus_hol_oranje_boven
-		x = 2
-		y = 2
+		x = -2
+		y = 1
 		relative_position_id = HOL_gateway_to_europe
 		cost = 10
 
 		available_if_capitulated = yes
 		search_filters = {FOCUS_FILTER_POLITICAL}
 		completion_reward = {
-			add_ideas = HOL_oranje_boven_1
-		}
-	}
-
-	focus = {
-		id = HOL_symbol_of_resistance
-		prerequisite = { focus = HOL_oranje_boven }
-		icon = GFX_focus_generic_support_the_left_right
-		x = -1
-		y = 1
-		relative_position_id = HOL_oranje_boven
-		cost = 10
-
-		available_if_capitulated = yes
-		search_filters = {FOCUS_FILTER_POLITICAL}
-		completion_reward = {
-			swap_ideas = {
-				remove_idea = HOL_oranje_boven_1
-				add_idea = HOL_oranje_boven_2
-			}
-		}
-	}
-
-	focus = {
-		id = HOL_replace_the_defeatist_government
-		prerequisite = { focus = HOL_oranje_boven focus = HOL_unity_through_democracy }
-		available = {
-			has_war = yes
-		}
-		bypass = {
-			has_government = neutrality
-		}
-		icon = GFX_goal_generic_political_pressure
-		x = 1
-		y = 1
-		relative_position_id = HOL_oranje_boven
-		cost = 10
-
-		available_if_capitulated = yes
-		search_filters = {FOCUS_FILTER_POLITICAL FOCUS_FILTER_WAR_SUPPORT}
-
-		completion_reward = {
-				add_popularity = {
-				    ideology = democratic
-				    popularity = -0.05
-				}
+				add_ideas = HOL_oranje_boven_2
 				retire_country_leader = yes
 				create_country_leader = {
 					name = "Pieter Sjoerds Gerbrandy"
@@ -830,19 +719,19 @@ focus_tree = {
 					traits = {
 						little_churchill
 					}
-				}
+				}			
 		}
 	}
 
+
 	focus = {
 		id = HOL_the_only_man_in_the_dutch_government
-		prerequisite = { focus = HOL_symbol_of_resistance }
-		prerequisite = { focus = HOL_replace_the_defeatist_government }
+		prerequisite = { focus = HOL_oranje_boven }
 		icon = GFX_focus_hol_the_only_man_in_the_dutch_government
-		x = 1
+		x = 0
 		y = 1
-		relative_position_id = HOL_symbol_of_resistance
-		cost = 10
+		relative_position_id = HOL_oranje_boven
+		cost = 50
 
 		available_if_capitulated = yes
 		search_filters = {FOCUS_FILTER_STABILITY FOCUS_FILTER_POLITICAL FOCUS_FILTER_WAR_SUPPORT}
@@ -866,75 +755,63 @@ focus_tree = {
 	}
 
 	focus = {
-		id = HOL_de_vernieuwing
+		id = HOL_the_fourth_ally
 		prerequisite = { focus = HOL_the_only_man_in_the_dutch_government }
-		icon = GFX_goal_generic_demand_territory
+		icon = GFX_focus_hol_the_fourth_ally
 		x = -1
-		y = 1
-		relative_position_id = HOL_the_only_man_in_the_dutch_government
-		cost = 10
-
-		available_if_capitulated = yes
-		search_filters = {FOCUS_FILTER_POLITICAL}
-		completion_reward = {
-			add_political_power = 200
-		}
-	}
-
-	focus = {
-		id = HOL_depillarization
-		prerequisite = { focus = HOL_the_only_man_in_the_dutch_government }
-		icon = GFX_goal_generic_national_unity
-		x = 1
-		y = 1
-		relative_position_id = HOL_the_only_man_in_the_dutch_government
-		cost = 10
-
-		available_if_capitulated = yes
-		search_filters = {FOCUS_FILTER_STABILITY FOCUS_FILTER_MANPOWER}
-		completion_reward = {
-			add_stability = 0.1
-			add_ideas = HOL_depillarization
-		}
-	}
-
-	focus = {
-		id = HOL_a_new_dutch_unity
-		prerequisite = { focus = HOL_de_vernieuwing }
-		prerequisite = { focus = HOL_depillarization }
-		icon = GFX_goal_anschluss
-		x = 1
-		y = 1
-		relative_position_id = HOL_de_vernieuwing
-		cost = 10
-
-		available_if_capitulated = yes
-		search_filters = {FOCUS_FILTER_WAR_SUPPORT FOCUS_FILTER_STABILITY}
-		completion_reward = {
-			add_war_support = 0.15
-			add_stability = 0.05
-		}
-	}
-
-	focus = {
-		id = HOL_royal_arms_purchases
-		available = {
-			
-		}
-		prerequisite = { focus = HOL_de_vernieuwing }
-		icon = GFX_goal_generic_construct_mil_factory
-		x = 0
 		y = 2
-		relative_position_id = HOL_de_vernieuwing
-		cost = 10
-
+		relative_position_id = HOL_the_only_man_in_the_dutch_government
+		cost = 50
+		mutually_exclusive = { focus = HOL_liberation }
 		available_if_capitulated = yes
-		search_filters = {FOCUS_FILTER_INDUSTRY}
+
 		completion_reward = {
-			add_offsite_building = { type = arms_factory level = 3 }
+			352 ={ 
+					add_extra_state_shared_building_slots = 16
+					add_building_construction = {
+							type = dockyard
+							level = 16
+							instant_build = yes
+					}
+				}
+			add_ideas = HOL_the_fourth_ally
 		}
 	}
 
+	focus = {
+		id = HOL_liberation
+		icon = GFX_focus_hol_liberation
+		x = 1
+		y = 2
+		cost = 50
+				prerequisite = { focus = HOL_the_only_man_in_the_dutch_government }
+
+				relative_position_id = HOL_the_only_man_in_the_dutch_government
+
+		mutually_exclusive = { focus = HOL_the_fourth_ally }
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_STABILITY FOCUS_FILTER_WAR_SUPPORT FOCUS_FILTER_MANPOWER FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+			add_ideas = HOL_liberation
+		}
+	}
+	focus = {
+		id = HOL_lessons_from_the_low_countries
+		prerequisite = { focus = HOL_the_only_man_in_the_dutch_government }
+		icon = GFX_goal_generic_construct_military
+		x = 0
+		y = 1
+		relative_position_id = HOL_the_only_man_in_the_dutch_government
+
+		cost = 50
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = HOL_lessons_from_the_low_countries
+		}
+	}
 
 
 ###  ### #   #  ##   ##  ###   ##  ### ###  ##  
@@ -944,11 +821,11 @@ focus_tree = {
 ###  ### #   #  ##   ##  #  # #  #  #  ###  ##  
 
 	focus = {
-		id = HOL_unity_through_democracy
+		id = HOL_go_with_britain
 		prerequisite = { focus = HOL_gateway_to_europe }
 		icon = GFX_goal_support_democracy
-		x = 7
-		y = 2
+		x = 2
+		y = 1
 		relative_position_id = HOL_gateway_to_europe
 		cost = 10
 
@@ -956,9 +833,7 @@ focus_tree = {
 		search_filters = {FOCUS_FILTER_STABILITY FOCUS_FILTER_POLITICAL}
 		completion_reward = {
 			add_stability = 0.05
-			add_timed_idea = { idea = HOL_unity_through_democracy days = 1095 }
-			custom_effect_tooltip = available_political_advisor
-			show_ideas_tooltip = HOL_willem_schermerhorn
+			add_timed_idea = { idea = HOL_unity_through_democracy	 days = 1095 }
 		}
 	}
 
@@ -969,30 +844,14 @@ focus_tree = {
  ##   ##       # #  ###  #  #  #     ###  #  # ###  #  #  # ### #  # 
 
 
-	focus = {
-		id = HOL_go_with_britain
-		prerequisite = { focus = HOL_oranje_boven focus = HOL_unity_through_democracy }
-		mutually_exclusive = { focus = HOL_lead_the_minor_democracies }
-		icon = GFX_focus_chi_british_cooperation
-		x = 3
-		y = 1
-		relative_position_id = HOL_oranje_boven
-		cost = 10
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-		}
-	}
 
 	focus = {
 		id = HOL_de_vaarplicht
-		prerequisite = { focus = HOL_replace_the_defeatist_government }
-		prerequisite = { focus = HOL_go_with_britain }
+		prerequisite = { focus = HOL_go_with_britain  }
 		icon = GFX_goal_generic_propaganda
 		x = 1
 		y = 1
-		relative_position_id = HOL_replace_the_defeatist_government
+		relative_position_id = HOL_go_with_britain
 		cost = 10
 
 		available_if_capitulated = yes
@@ -1009,7 +868,7 @@ focus_tree = {
 		x = 0
 		y = 2
 		relative_position_id = HOL_de_vaarplicht
-		cost = 10
+		cost = 5
 
 		available_if_capitulated = yes
 		search_filters = {FOCUS_FILTER_POLITICAL}
@@ -1022,7 +881,7 @@ focus_tree = {
 		id = HOL_the_singapore_conferences
 		prerequisite = { focus = HOL_go_with_britain }
 		icon = GFX_goal_generic_navy_doctrines_tactics
-		x = 1
+		x = -1
 		y = 1
 		relative_position_id = HOL_go_with_britain
 		cost = 10
@@ -1044,11 +903,11 @@ focus_tree = {
 		available = {
 			has_war = yes
 		}
-		prerequisite = { focus = HOL_de_vaarplicht focus = HOL_the_singapore_conferences }
+		prerequisite = { focus = HOL_the_singapore_conferences }
 		icon = GFX_goal_generic_navy_submarine
-		x = 1
+		x = -1
 		y = 1
-		relative_position_id = HOL_de_vaarplicht
+		relative_position_id = HOL_the_singapore_conferences
 		cost = 10
 
 		available_if_capitulated = yes
@@ -1099,12 +958,11 @@ focus_tree = {
 		available = {
 			has_war = yes
 		}
-		prerequisite = { focus = HOL_request_allied_favors }
-		prerequisite = { focus = HOL_american_west_indies_protectorate }
+		prerequisite = { focus = HOL_the_singapore_conferences }
 		icon = GFX_focus_generic_military_academy
-		x = 1
-		y = 1
-		relative_position_id = HOL_request_allied_favors
+		x = 0
+		y = 2
+		relative_position_id = HOL_the_singapore_conferences
 		cost = 10
 
 		available_if_capitulated = yes
@@ -1115,37 +973,5 @@ focus_tree = {
 	}
 
 
-	focus = {
-		id = HOL_responsibility_for_our_own_defense
-		prerequisite = { focus = HOL_unity_through_democracy }
-		icon = GFX_goal_generic_build_tank
-		x = 1
-		y = 1
-		relative_position_id = HOL_unity_through_democracy
-		cost = 10
-
-		available_if_capitulated = yes
-		search_filters = {FOCUS_FILTER_WAR_SUPPORT FOCUS_FILTER_MANPOWER FOCUS_FILTER_INDUSTRY}
-		completion_reward = {
-			add_war_support = 0.05
-			add_ideas = HOL_responsibility_for_our_own_defense
-		}
-	}
-
-	focus = {
-		id = HOL_lessons_from_the_low_countries
-		prerequisite = { focus = HOL_unity_through_democracy }
-		icon = GFX_goal_generic_construct_military
-		x = 3
-		y = 1
-		relative_position_id = HOL_unity_through_democracy
-		cost = 10
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_ideas = HOL_lessons_from_the_low_countries
-		}
-	}
 
 }

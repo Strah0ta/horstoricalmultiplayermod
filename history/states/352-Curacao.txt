@@ -2,12 +2,12 @@ state={
 id=352
 name="STATE_695"
 manpower = 76299
-state_category = rural
+state_category = city
 resources={
 oil=113
 }
 history={
-owner = ENG
+owner = HOL
 add_core_of=SWE
 victory_points = {
 153 1
