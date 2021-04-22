@@ -53,27 +53,11 @@ focus_tree = {
 		y = 1
 		relative_position_id = YUG_industrialization_program
 
-		cost = 10
-
-		ai_will_do = {
-			factor = 70
-		}
-
-		available = {
-
-		}
-
-		bypass = {
-
-		}
+		cost = 5
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = yes
-
-		complete_tooltip = {
-
-		}
 
 		completion_reward = {
 			add_ideas = YUG_idea_expanded_mining_industry
@@ -116,7 +100,6 @@ focus_tree = {
 		id = YUG_develop_civilian_industry
 		icon = GFX_goal_generic_construct_civ_factory
 		prerequisite = { focus = YUG_expand_the_mining_industry }
-		mutually_exclusive = { focus = YUG_develop_serbian_artillery }
 		x = -1
 		y = 1
 		relative_position_id = YUG_expand_the_mining_industry
@@ -130,10 +113,10 @@ focus_tree = {
 
 		completion_reward = {
 			103 = {
-				add_extra_state_shared_building_slots = 3
+				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = industrial_complex
-					level = 3
+					level = 2
 					instant_build = yes
 				}
 			}
@@ -178,7 +161,7 @@ focus_tree = {
 				limit = {
 					OR = { state = 103 state = 109 state = 104}
 				}
-				add_extra_state_shared_building_slots = 5
+				add_extra_state_shared_building_slots = 3
 				add_building_construction = {
 					type = infrastructure
 					level = 1
@@ -196,7 +179,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = YUG_yugoslavian_rail_network
 
-		cost = 10
+		cost = 5
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -204,10 +187,10 @@ focus_tree = {
 
 		completion_reward = {
 			104 = {
-				add_extra_state_shared_building_slots = 2
+				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 					type = industrial_complex
-					level = 2
+					level = 1
 					instant_build = yes
 				}
 			}
@@ -269,7 +252,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = YUG_bosnian_poverty_system
 
-		cost = 10
+		cost = 5
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -296,7 +279,7 @@ focus_tree = {
 		y = 2
 		relative_position_id = YUG_bosnian_poverty_system
 
-		cost = 10
+		cost = 5
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -415,38 +398,20 @@ ITA = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_ideas = croatian_nationalism
+			add_ideas = CRO_war_production
 		}
 	}
 	focus = {
 		id = CRO_a_king_for_our_people_focus
 		icon = GFX_focus_YUG_banovina_of_croatia #icon = GFX_goal_tripartite_pact
 		prerequisite = { focus = CRO_political_effort }
-		available = {
-			OR = {
-				has_government = fascism
-				has_government = neutrality
-			}
-		}
+
 		relative_position_id = CRO_political_effort
 		x = 2
 		y = 1
 		cost = 5
 
 		available_if_capitulated = yes
-
-
-		ai_will_do = {
-			factor = 6
-			modifier = {
-				factor = 0
-				ITA = {
-					NOT = {
-						has_government = fascism
-					}
-				}
-			}
-		}
 
 		completion_reward = {
 			add_ideas = CRO_tomislav_II
@@ -461,12 +426,15 @@ ITA = {
 		relative_position_id = CRO_political_effort
 		x = 1
 		y = 2
-		cost = 10
+		cost = 5
 
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_ideas = CRO_catholic_dominance
+			add_popularity = {
+    ideology = fascism
+    popularity = 0.5
+}
 		}
 	}
 
@@ -478,7 +446,7 @@ ITA = {
 		relative_position_id = CRO_political_effort
 		x = -1
 		y = 2
-		cost = 10
+		cost = 5
 
 		available_if_capitulated = yes
 

@@ -886,6 +886,7 @@ every_country = {
 			if = { limit = { country_exists = HUN }	HUN = { add_to_war = { targeted_alliance = GER enemy = SOV } } }
 			if = { limit = { country_exists = CZE }	CZE = { add_to_war = { targeted_alliance = GER enemy = SOV } } }
 			if = { limit = { country_exists = ROM }	ROM = { add_to_war = { targeted_alliance = GER enemy = SOV } }	}
+			if = { limit = { country_exists = YUG }	YUG = { add_to_war = { targeted_alliance = GER enemy = SOV } } }
 			if = { limit = { country_exists = BUL }	BUL = { add_to_war = { targeted_alliance = GER enemy = SOV } } }
 			if = { limit = { country_exists = SPR is_in_faction_with = GER }	SPR = { add_to_war = { targeted_alliance = GER enemy = SOV } } }
 			FIN = { 			declare_war_on = {

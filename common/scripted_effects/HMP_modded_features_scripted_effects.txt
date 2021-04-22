@@ -1834,7 +1834,7 @@ create_corps_commander = {
 create_corps_commander = {
 	name = "Duro Jakcin"
 	picture = "r56_portrait_CRO_duro_jakcin.dds"
-	traits = {  panzer_leader trickster trait_engineer }
+	traits = { organizer  bearer_of_artillery cavalry_expert cavalry_expert trait_mountaineer combined_arms_expert  trickster hill_fighter ambusher   }
 	skill = 7
 
 	attack_skill = 8
@@ -1843,10 +1843,10 @@ create_corps_commander = {
 	logistics_skill = 5
 }
 
-create_corps_commander = {
+create_field_marshal = {
 	name = "Andro Vrkljan"
 	picture = "r56_portrait_CRO_andro_vrkljan.dds"
-	traits = {  panzer_leader trickster trait_engineer }
+    traits = {  offensive_doctrine logistics_wizard trickster panzer_leader panzer_expert thorough_planner  }
 	skill = 7
 
 	attack_skill = 5
@@ -1858,7 +1858,7 @@ create_corps_commander = {
 create_corps_commander = {
 	name = "Stjepan Sarkotic"
 	picture = "Portrait_Stjepan_Sarkotic.dds"
-	traits = {  panzer_leader trickster trait_engineer }
+	traits = { infantry_leader desert_fox trait_mountaineer hill_fighter ambusher commando skirmisher guerilla_fighter paratrooper }
 	skill = 7
 
 	attack_skill = 4
@@ -1867,10 +1867,10 @@ create_corps_commander = {
 	logistics_skill = 4
 }
 
-create_corps_commander = {
+create_field_marshal = {
 	name = "Slavko Kvaternik"
 	picture = "Portrait_Slavko_Kvaternik.dds"
-	traits = {  panzer_leader trickster trait_engineer }
+	traits = { commando guerilla_fighter infantry_leader ambusher urban_assault_specialist organizer defensive_doctrine logistics_wizard trait_cautious  }
 	skill = 7
 
 	attack_skill = 8

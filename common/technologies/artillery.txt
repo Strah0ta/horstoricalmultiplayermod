@@ -65,7 +65,9 @@ technologies = {
 		mot_artillery_brigade = {
 			soft_attack = 0.1
 		}
-		
+			mech_arty = {
+			soft_attack = 0.1
+		}
 		path = {
 			leads_to_tech = artillery1
 			research_cost_coeff = 1
