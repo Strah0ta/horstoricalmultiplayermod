@@ -498,20 +498,14 @@ country_event = {
 	picture = GFX_report_event_polish_tanks_01
 	
 	is_triggered_only = yes
-
+	hidden = yes
 	immediate = {
 
-	
-				add_opinion_modifier = {
-    target = GER
-    modifier = anti_cross_faction_trade
-}
+	add_opinion_modifier = {  target = GER    modifier = anti_cross_faction_trade}
 	}
 	
 	option = {
-		name = poland.100.a
-
-		
+		name = poland.100.a	
 	}
 }
 

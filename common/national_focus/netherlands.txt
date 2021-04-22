@@ -88,7 +88,7 @@ focus_tree = {
 		id = HOL_philips_focus
 		prerequisite = { focus = HOL_continue_the_public_works }
 		icon = GFX_focus_hol_philips
-		x = 1
+		x = 0
 		y = 1
 		relative_position_id = HOL_continue_the_public_works
 		cost = 10
@@ -114,11 +114,11 @@ focus_tree = {
 
 	focus = {
 		id = HOL_expand_RD_facilities
-		prerequisite = { focus = HOL_philips_focus }
+		prerequisite = { focus = HOL_continue_the_public_works }
 		icon = GFX_focus_research
-		x = 0
-		y = 1
-		relative_position_id = HOL_philips_focus
+		x = 1
+		y = 2
+		relative_position_id = HOL_continue_the_public_works
 		cost = 10
 
 		available_if_capitulated = yes
@@ -136,11 +136,11 @@ focus_tree = {
 
  	focus = {
 		id = HOL_the_zuiderzee_works
-		prerequisite = { focus = HOL_expand_RD_facilities }
+		prerequisite = { focus = HOL_continue_the_public_works }
 		icon = GFX_focus_hol_the_zuiderzee_works
 		x = -1
-		y = 1
-		relative_position_id = HOL_expand_RD_facilities
+		y = 2
+		relative_position_id = HOL_continue_the_public_works	
 		cost = 30
 
 		available_if_capitulated = yes
@@ -158,11 +158,8 @@ focus_tree = {
 
 	focus = {
 		id = HOL_develop_the_randstad
-		available = {
-			has_full_control_of_state = 7
-		}
+
 		prerequisite = { focus = HOL_the_zuiderzee_works }
-		mutually_exclusive = { focus = HOL_develop_the_zandstad }
 		icon = GFX_goal_generic_construct_civ_factory
 		x = -1
 		y = 1
@@ -184,11 +181,11 @@ focus_tree = {
 
 	focus = {
 		id = HOL_friesland_agricultural_impetus
-		prerequisite = { focus = HOL_develop_the_randstad }
+		prerequisite = { focus = HOL_the_zuiderzee_works  focus = HOL_expand_RD_facilities }
 		icon = GFX_goal_generic_consumer_goods
-		x = 0
+		x = 1
 		y = 1
-		relative_position_id = HOL_develop_the_randstad
+		relative_position_id = HOL_the_zuiderzee_works
 		cost = 10
 
 		available_if_capitulated = yes
@@ -222,16 +219,16 @@ focus_tree = {
 
 	focus = {
 		id = HOL_domestic_innovation
-		prerequisite = { focus = HOL_domestic_vehicle_designs }
+		prerequisite = { focus = HOL_expand_RD_facilities }
 		available = {
-			num_of_factories > 20
+			NOT = { owns_state = 7 }
 		}
 		cancel_if_invalid = no
 		continue_if_invalid = yes
 		icon = GFX_focus_research
-		x = -1
+		x = 1
 		y = 1
-		relative_position_id = HOL_domestic_vehicle_designs
+		relative_position_id = HOL_expand_RD_facilities
 		cost = 10
 
 		available_if_capitulated = yes
@@ -251,7 +248,7 @@ focus_tree = {
 		id = HOL_overturn_military_budget_cuts
 		prerequisite = { focus = HOL_abandon_the_gold_standard }
 		icon = GFX_goal_generic_army_doctrines
-		x = 12
+		x = 9
 		y = 1
 		relative_position_id = HOL_abandon_the_gold_standard
 		cost = 10
@@ -582,7 +579,7 @@ focus_tree = {
 		id = HOL_cornerstone_of_colonial_defense
 		prerequisite = { focus = HOL_overturn_military_budget_cuts }
 		icon = GFX_goal_generic_navy_doctrines_tactics
-		x = 8
+		x = 4
 		y = 2
 		relative_position_id = HOL_overturn_military_budget_cuts
 		cost = 10
@@ -726,7 +723,7 @@ focus_tree = {
 			has_capitulated = yes
 		}
 		icon = GFX_goal_generic_improve_relations
-		x = 27
+		x = 16
 		y = 0
 		relative_position_id = HOL_abandon_the_gold_standard
 		cost = 10
@@ -764,62 +761,14 @@ focus_tree = {
 		}
 	}
 
-	focus = {
-		id = HOL_maintain_trade_neutrality
-		prerequisite = { focus = HOL_gateway_to_europe }
-
-		icon = GFX_goal_generic_positive_trade_relations
-		cancel_if_invalid = no
-		x = 0
-		y = 1
-		relative_position_id = HOL_gateway_to_europe
-		cost = 5
-
-		available_if_capitulated = yes
-		search_filters = {FOCUS_FILTER_POLITICAL}
-
-		completion_reward = {
-
-		}
-	}
-
-	focus = {
-		id = HOL_cave_to_the_british
-		prerequisite = { focus = HOL_gateway_to_europe }
-
-		icon = GFX_goal_generic_trade
-		cancel_if_invalid = no
-		x = 4
-		y = 1
-		relative_position_id = HOL_gateway_to_europe
-		cost = 5
-
-		available_if_capitulated = yes
-
-		search_filters = {FOCUS_FILTER_POLITICAL}
-
-		completion_reward = {
-
-		}
-	}
-
-#   #  ##  #  #  ##  ###   ##  #  # ###  ## #   #    #  # ### #  # ### ###   ##  #   ### ### #   # 
-## ## #  # ## # #  # #  # #  # #  #  #  #   ## ##    ## # #   #  #  #  #  # #  # #    #   #   # #  
-# # # #  # # ## #### ###  #    ####  #   #  # # # ## # ## ##  #  #  #  ###  #### #    #   #    #   
-#   # #  # #  # #  # #  # #  # #  #  #    # #   #    #  # #   #  #  #  #  # #  # #    #   #    #   
-#   #  ##  #  # #  # #  #  ##  #  # ### ##  #   #    #  # ###  ##   #  #  # #  # ### ###  #    #   
 
 	focus = {
 		id = HOL_oranje_boven
-		available = {
-			NOT = { has_completed_focus = HOL_curtail_colonial_autonomy }
-		}
-		prerequisite = { focus = HOL_maintain_trade_neutrality }
-		mutually_exclusive = { focus = HOL_legacy_of_the_de_zeven_provincien_mutiny }
+		prerequisite = { focus = HOL_gateway_to_europe }
 		icon = GFX_focus_hol_oranje_boven
 		x = 2
-		y = 1
-		relative_position_id = HOL_maintain_trade_neutrality
+		y = 2
+		relative_position_id = HOL_gateway_to_europe
 		cost = 10
 
 		available_if_capitulated = yes
@@ -887,10 +836,6 @@ focus_tree = {
 
 	focus = {
 		id = HOL_the_only_man_in_the_dutch_government
-		available = {
-			neutrality > 0.45
-			NOT = { has_completed_focus = HOL_curtail_colonial_autonomy }
-		}
 		prerequisite = { focus = HOL_symbol_of_resistance }
 		prerequisite = { focus = HOL_replace_the_defeatist_government }
 		icon = GFX_focus_hol_the_only_man_in_the_dutch_government
@@ -1000,11 +945,11 @@ focus_tree = {
 
 	focus = {
 		id = HOL_unity_through_democracy
-		prerequisite = { focus = HOL_cave_to_the_british }
+		prerequisite = { focus = HOL_gateway_to_europe }
 		icon = GFX_goal_support_democracy
-		x = 3
-		y = 1
-		relative_position_id = HOL_cave_to_the_british
+		x = 7
+		y = 2
+		relative_position_id = HOL_gateway_to_europe
 		cost = 10
 
 		available_if_capitulated = yes
@@ -1076,13 +1021,6 @@ focus_tree = {
 	focus = {
 		id = HOL_the_singapore_conferences
 		prerequisite = { focus = HOL_go_with_britain }
-		available = {
-			has_completed_focus = HOL_unity_through_democracy
-		}
-		bypass = {
-			has_war_with = JAP
-			NOT = { has_completed_focus = HOL_oranje_boven }
-		}
 		icon = GFX_goal_generic_navy_doctrines_tactics
 		x = 1
 		y = 1
@@ -1177,42 +1115,13 @@ focus_tree = {
 	}
 
 
-#   ###  ##  ###      ### #  # ###     #   # ### #  #  ##  ###      ###  ### #   #  ##   ##  ###   ##   ##  ### ###  ## 
-#   #   #  # #  #      #  #  # #       ## ##  #  ## # #  # #  #     #  # #   ## ## #  # #  # #  # #  # #  #  #  #   #   
-#   ##  #### #  #      #  #### ##      # # #  #  # ## #  # ###      #  # ##  # # # #  # #    ###  #### #     #  ##   #  
-#   #   #  # #  #      #  #  # #       #   #  #  #  # #  # #  #     #  # #   #   # #  # #  # #  # #  # #  #  #  #     # 
-### ### #  # ###       #  #  # ###     #   # ### #  #  ##  #  #     ###  ### #   #  ##   ##  #  # #  #  ##  ### ### ##  
-
-	focus = {
-		id = HOL_lead_the_minor_democracies
-		available = {
-			has_war = no
-			is_in_faction = no
-		}
-		prerequisite = { focus = HOL_unity_through_democracy }
-		mutually_exclusive = { focus = HOL_go_with_britain }
-		icon = GFX_goal_generic_demand_territory
-		x = 2
-		y = 1
-		relative_position_id = HOL_unity_through_democracy
-		cost = 10
-
-		available_if_capitulated = yes
-		search_filters = {FOCUS_FILTER_POLITICAL}
-		completion_reward = {
-			add_political_power = 120
-			remove_ideas = HOL_aloof_neutrality
-		}
-	}
-
-
 	focus = {
 		id = HOL_responsibility_for_our_own_defense
-		prerequisite = { focus = HOL_lead_the_minor_democracies }
+		prerequisite = { focus = HOL_unity_through_democracy }
 		icon = GFX_goal_generic_build_tank
 		x = 1
 		y = 1
-		relative_position_id = HOL_lead_the_minor_democracies
+		relative_position_id = HOL_unity_through_democracy
 		cost = 10
 
 		available_if_capitulated = yes
@@ -1225,11 +1134,11 @@ focus_tree = {
 
 	focus = {
 		id = HOL_lessons_from_the_low_countries
-		prerequisite = { focus = HOL_responsibility_for_our_own_defense }
+		prerequisite = { focus = HOL_unity_through_democracy }
 		icon = GFX_goal_generic_construct_military
-		x = 1
+		x = 3
 		y = 1
-		relative_position_id = HOL_responsibility_for_our_own_defense
+		relative_position_id = HOL_unity_through_democracy
 		cost = 10
 
 		available_if_capitulated = yes
