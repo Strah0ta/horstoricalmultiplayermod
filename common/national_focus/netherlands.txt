@@ -701,6 +701,7 @@ focus_tree = {
 		available_if_capitulated = yes
 		search_filters = {FOCUS_FILTER_POLITICAL}
 		completion_reward = {
+		add_manpower = 250000
 				add_ideas = HOL_oranje_boven_2
 				retire_country_leader = yes
 				create_country_leader = {
