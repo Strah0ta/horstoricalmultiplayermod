@@ -54,7 +54,7 @@ HMP_ger_total_mob_1 = yes
 }
 
 tp_divs_out_of_france = { every_state = { limit = { OR = { is_core_of = FRA vichy_state = yes }} teleport_armies = {limit = { original_tag = FRA } to_state = 5139 } } }
-
+tp_divs_out_of_holland = { every_state = { limit = { is_core_of = HOL } teleport_armies = {limit = { original_tag = HOL } to_state = 352 } } }
 tp_divs_out_of_norway = { every_state = { limit = { is_core_of = NOR } teleport_armies = {limit = { original_tag = NOR } to_state = 3311 } } }
 
 baltic_cores = { add_equipment_to_stockpile = { type = infantry_equipment_1 amount = 40000 producer = SWE } add_equipment_to_stockpile = { type = artillery_equipment_2 amount = 3000 producer = SWE } add_equipment_to_stockpile = { type = support_equipment_1 amount = 3000 producer = SWE } add_equipment_to_stockpile = { type = anti_tank_equipment_2 amount = 6000 producer = SWE } load_oob = "FIN_spawn" }
@@ -5541,12 +5541,6 @@ HMP_capitulations_on_actions = {
 			SWE = { transfer_state = 8 } GER = { transfer_state = 8 }
 
 		}
-		if =  { 
-		limit = { original_tag = HOL }
-		GER = { transfer_state = 35 transfer_state = 7 transfer_state = 36  }
-		if = { limit = { HOL = { is_ai =yes }}SWE = { transfer_state = 352 } ENG = { transfer_state = 352 } }
-		}
-		
 		if = {
 			limit = {	NOT = { original_tag = GER }	NOT = { has_government = fascism }	}
 			news_event = { id = country_capitulated.0 days = 0 }

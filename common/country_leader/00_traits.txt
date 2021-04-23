@@ -6,15 +6,16 @@ leader_traits = {
 	}
 		strict_austerity_adherent = {
 		random = no
-		stability_factor = -0.15
+		stability_factor = -0.20
 		economy_cost_factor = 0.5
-		consumer_goods_factor = -0.2
+		consumer_goods_factor = -0.15
 		production_speed_buildings_factor = 0.25
 	}
 	defeatism = {
 		random = no
 		war_support_factor = -1
-		surrender_limit = -0.25
+		stability_factor = -0.3
+		surrender_limit = 0.20
 	}
 	fra_legit_trait = {
 		random = no

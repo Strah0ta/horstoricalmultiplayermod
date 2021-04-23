@@ -8,7 +8,7 @@ oil=113
 }
 history={
 owner = HOL
-add_core_of=SWE
+add_core_of=HOL
 victory_points = {
 153 1
 }
@@ -16,7 +16,7 @@ buildings = {
 fuel_silo = 2
 infrastructure = 6
 153 = {
-naval_base = 1
+naval_base = 15
 coastal_bunker = 2
 }
 }
