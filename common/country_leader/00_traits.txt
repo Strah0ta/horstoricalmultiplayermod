@@ -13,7 +13,7 @@ leader_traits = {
 	}
 	defeatism = {
 		random = no
-		war_support_factor = -0.5
+		war_support_factor = -1
 		surrender_limit = -0.25
 	}
 	fra_legit_trait = {
@@ -102,7 +102,7 @@ leader_traits = {
 	adventurous_daredevil = {
 		random = no
 		sprite = 13
-		weekly_manpower = 2000
+		weekly_manpower = 1000
 		army_morale_factor = 0.1
 	}
 	

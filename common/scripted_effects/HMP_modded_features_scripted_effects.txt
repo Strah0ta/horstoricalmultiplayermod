@@ -1254,6 +1254,10 @@ add_opinion_modifier = {
     modifier = anti_cross_faction_trade
 }
 add_opinion_modifier = {
+    target = HOL
+    modifier = anti_cross_faction_trade
+}
+add_opinion_modifier = {
     target = RAJ
     modifier = anti_cross_faction_trade
 }
@@ -4673,35 +4677,35 @@ create_corps_commander = {
 HOL ={ 
 
 create_field_marshal = {
-	name = "Izaak Reijnders"
+	name = "Izaak Reijnders" #Point value: 14.5
 	gfx = "GFX_portrait_hol_izaak_reijnders"
-	traits = { old_guard inflexible_strategist trait_reckless }
-	skill = 2
-	attack_skill = 2
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 3
+	traits = { old_guard inflexible_strategist unyielding_defender inspirational_leader organizer logistics_wizard thorough_planner trait_reckless }
+	skill = 6
+	attack_skill = 6
+	defense_skill = 4
+	planning_skill = 6
+	logistics_skill = 3	
 }
 create_corps_commander = {
-	name = "Petrus Wilhelmus Best"
+	name = "Petrus Wilhelmus Best" #Point value: 18
 	gfx = "GFX_portrait_hol_petrus_wilhelmus_best"
-	traits = { organizer skilled_staffer }
-	skill = 3
-	attack_skill = 2
-	defense_skill = 3
-	planning_skill = 2
-	logistics_skill = 3
+	traits = {  infantry_leader ambusher skirmisher jungle_rat organizer trickster fake_skilled_staffer }
+	skill = 6
+	attack_skill = 3
+	defense_skill = 4
+	planning_skill = 6
+	logistics_skill = 6	
 }
 
 create_corps_commander = {
-	name = "Godfried van Voorst tot Voorst"
+	name = "Godfried van Voorst tot Voorst" #Point value: 18
 	gfx = "GFX_portrait_hol_godfried_van_voorst_tot_voorst"
-	traits = { brilliant_strategist  }
-	skill = 4
-	attack_skill = 3
-	defense_skill = 4
-	planning_skill = 3
-	logistics_skill = 3
+	traits = {  trickster trait_engineer brilliant_strategist  panzer_leader panzer_expert desert_fox hill_fighter   }
+	skill = 6
+    attack_skill = 5
+    defense_skill = 3
+    planning_skill = 5
+    logistics_skill = 6
 }
 
 create_navy_leader = {

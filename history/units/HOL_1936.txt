@@ -14,34 +14,14 @@
 		infantry = { x = 2 y = 2 }
 	}
 }
-division_template = {
-	name = "Koloniaal Garnizoen"		# miltia forces, lower experience and equipment
-	division_names_group = INS_GAR_01
-
-	regiments = {
-		infantry = { x = 0 y = 0 }
-		infantry = { x = 0 y = 1 }
+units = {
+		division = { 
+		location = 391 #Amsterdam
+		division_template = "Infanterie Divisie"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
 	}
-	priority = 0
-}
-
-division_template = {
-	name = "Mariniersdivisie"		# Marines
-	division_names_group = HOL_MAR_01
-
-	regiments = {
-	marine = { x = 0 y = 0 }
-		marine = { x = 0 y = 1 }
-					marine = { x = 0 y = 2 }
-						marine = { x = 1 y = 0 }
-		marine = { x = 1 y = 1 }
-					marine = { x = 1 y = 2 }
-						marine = { x = 2 y = 0 }
-		marine = { x = 2 y = 1 }
-					marine = { x = 2 y = 2 }
 	}
-	priority = 2
-}
 
 
 
@@ -56,4 +36,34 @@ instant_effect = {
 		progress = 0.58
 		efficiency = 100
 	}
+	add_equipment_production = {
+		equipment = {
+			type = anti_air_equipment_1
+			creator = "HOL"
+		}
+		requested_factories = 1
+		progress = 0.58
+		efficiency = 100
+	}
+		add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+			creator = "HOL"
+		}
+		requested_factories = 1
+		progress = 0.58
+		efficiency = 100
+	}
+		add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "HOL"
+		}
+		requested_factories = 1
+		progress = 0.58
+		efficiency = 100
+	}
+		
+	
+	
 }

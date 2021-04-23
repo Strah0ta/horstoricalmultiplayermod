@@ -140,8 +140,6 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				license_infantry_eq_cost_factor = -1
-				license_artillery_eq_cost_factor = -1
 				license_infantry_eq_tech_difference_speed_factor = 0.5
 				license_artillery_eq_tech_difference_speed_factor = 0.5
 				license_infantry_eq_production_speed_factor = 0.25
@@ -164,7 +162,6 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				license_light_tank_eq_cost_factor = -1
 				license_light_tank_eq_tech_difference_speed_factor = 0.5
 				license_light_tank_eq_production_speed_factor = 0.25
 			}
@@ -186,7 +183,6 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				license_anti_tank_eq_cost_factor = -1
 				license_anti_tank_eq_tech_difference_speed_factor = 0.5
 				license_anti_tank_eq_production_speed_factor = 0.25
 			}
@@ -472,7 +468,7 @@ ideas = {
 			removal_cost = -1
 						
 			modifier = {
-				weekly_manpower = 1000
+				weekly_manpower = 2000
 			}
 		}
 
@@ -508,9 +504,8 @@ ideas = {
 			}
 
 			modifier = {
-				max_command_power = 15
-				command_power_gain_mult = 0.05
-				planning_speed = 0.1
+				command_power_gain_mult = 0.25
+				planning_speed = 0.25
 			}
 			
 			removal_cost = -1			
@@ -904,7 +899,7 @@ ideas = {
 				original_tag = HOL
 			}
 
-			traits = { democratic_reformer }
+			traits = { silent_workhorse }
 
 		}
 
@@ -915,7 +910,7 @@ ideas = {
 			allowed = {
 				original_tag = HOL
 			}
-			
+			cost = 50
 			traits = { captain_of_industry }
 		}
 
@@ -967,11 +962,7 @@ ideas = {
 			}
 
 			available = {
-				has_capitulated = yes
-				OR = {
-					has_government = democratic
-					has_government = neutrality
-				}
+				NOT = { owns_state = 7 }
 			}
 			
 			traits = { resistance_banker }
@@ -1008,21 +999,8 @@ ideas = {
 			allowed = {
 				original_tag = HOL
 			}
-			
-			available = {
-				if = {
-					limit = {
-						has_dlc = "Man the Guns"
-					}
-					NOT = { has_completed_focus = HOL_appoint_new_supreme_commander }
-				}
-			}
-			
-			traits = { army_chief_maneuver_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
+
+			traits = { army_chief_maneuver_3 }
 		}
 
 		HOL_hein_ter_poorten = {
@@ -1034,30 +1012,21 @@ ideas = {
 			}
 			
 			traits = { army_chief_morale_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
 		}
 	}
 
 	air_chief = {
-
-			HOL_charles_douw_van_der_krap = {
-			ledger = air
-
-			picture = generic_air_europe_2
-
+		HOL_hendrik_van_oyen = {
+			
+			picture = generic_air_europe_3
+			
 			allowed = {
 				original_tag = HOL
 			}
 			
-			traits = { air_naval_strike_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
+			traits = { air_tactical_bombing_3 }
 		}
+
 
 	
 	}
@@ -1072,13 +1041,8 @@ ideas = {
 				original_tag = HOL
 			}
 			
-
-			
 			traits = { navy_chief_decisive_battle_1 }
-			
-			ai_will_do = {
-				factor = 1
-			}
+
 		}
 
 		
@@ -1089,19 +1053,26 @@ ideas = {
 			allowed = {
 				original_tag = HOL
 			}
-			
-
-			
+					
 			traits = { navy_chief_commerce_raiding_3 }
 			
-			ai_will_do = {
-				factor = 1
-			}
 		}
 	}
 
 
-	high_command = {
+	high_command = {		
+	HOL_charles_douw_van_der_krap = {
+			ledger = air
+
+			picture = generic_air_europe_2
+
+			allowed = {
+				original_tag = HOL
+			}
+			
+			traits = { air_naval_strike_3 }
+			
+		}
 
 		HOL_maarten_belzer = {
 			ledger = army
@@ -1113,10 +1084,6 @@ ideas = {
 			}
 			
 			traits = { army_commando_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
 		}
 		
 		HOL_adrianus_rudolphus_van_den_bent = {
@@ -1130,9 +1097,6 @@ ideas = {
 			
 			traits = { army_infantry_3 }
 			
-			ai_will_do = {
-				factor = 1
-			}
 		}
 
 		HOL_nico_van_straten = {
@@ -1145,10 +1109,6 @@ ideas = {
 			}
 			
 			traits = { army_armored_3 }
-			
-			ai_will_do = {
-				factor = 1
-			}
 		}		
 	}	
 

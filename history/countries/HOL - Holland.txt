@@ -1,11 +1,20 @@
 ﻿capital = 7
 set_research_slots = 3
 set_stability = 0.75
+set_rule = { can_be_spymaster = no }
+add_ideas = manpower_early
+add_ideas = armyandnavy_idea
+add_to_tech_sharing_group = commonwealth_research
+
 set_war_support = 0
 country_event = { id = poland.117 days = 1277 }
 oob = "HOL_1936"
 add_timed_idea = { idea = NO_TRADE days = 730 }
-
+create_intelligence_agency = yes
+set_variable = {
+    var = min_fuel
+    value = 0.800
+}
 if = {
 	limit = {
 		has_dlc = "Man the Guns"
@@ -30,6 +39,7 @@ set_technology = {
 	tech_recon = 1
 	gw_artillery = 1
 	interwar_antiair = 1
+	interwar_antitank = 1
 	early_fighter = 1
 	early_bomber = 1
 	fuel_silos = 1

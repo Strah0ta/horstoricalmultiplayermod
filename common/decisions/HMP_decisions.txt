@@ -3669,6 +3669,7 @@ political_actions = {
 		tag = AST
 		tag = ALB
 		tag = ETH
+		tag = HOL
 		tag = BRA
 		tag = NZL
 		tag = ROM

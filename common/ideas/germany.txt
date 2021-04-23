@@ -904,7 +904,7 @@ ideas = {
 
 			
 			allowed = {
-				OR = { original_tag = GER original_tag = ITA } 
+				OR = { original_tag = GER original_TAG = YUG original_tag = ITA } 
 			}
 			on_add = { hidden_effect = { make_naval_designers_free = yes } }
 			research_bonus = {
@@ -924,7 +924,7 @@ ideas = {
 
 			
 			allowed = {
-				OR = { original_tag = GER original_tag = ITA } 
+				OR = { original_tag = GER original_TAG = YUG original_tag = ITA } 
 			}
 			on_add = { hidden_effect = { make_naval_designers_free = yes } }
 			research_bonus = {

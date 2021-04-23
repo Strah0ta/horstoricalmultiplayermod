@@ -57,7 +57,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = HOL_continue_the_public_works
-		cost = 10
+		cost = 5
 
 		available_if_capitulated = yes
 		search_filters = {FOCUS_FILTER_RESEARCH}
@@ -103,7 +103,7 @@ focus_tree = {
 		x = -1
 		y = 2
 		relative_position_id = HOL_continue_the_public_works	
-		cost = 30
+		cost = 10
 
 		available_if_capitulated = yes
 		search_filters = {FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY}
@@ -114,7 +114,10 @@ focus_tree = {
 				bonus = 1.0
 				ahead_reduction = 2
 				uses = 2
-				category = industry
+				technology = advanced_machine_tools				
+				technology = assembly_line_production
+				technology = flexible_line
+				technology = streamlined_line
 			}
 		}
 	}
@@ -136,9 +139,12 @@ focus_tree = {
 			add_tech_bonus = {
 				name = HOL_develop_the_randstad
 				bonus = 1.0
+				ahead_reduction = 2
 				uses = 1
-				category = concentrated_industry_category
-				category = dispersed_industry_category
+				technology = concentrated_industry4
+				technology = dispersed_industry4			
+				technology = concentrated_industry5
+				technology = dispersed_industry5
 			}
 		}
 	}
@@ -150,7 +156,7 @@ focus_tree = {
 		x = 1
 		y = 1
 		relative_position_id = HOL_the_zuiderzee_works
-		cost = 10
+		cost = 5
 
 		available_if_capitulated = yes
 		search_filters = {FOCUS_FILTER_INDUSTRY}
@@ -167,7 +173,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = HOL_friesland_agricultural_impetus
-		cost = 10
+		cost = 5
 
 		available_if_capitulated = yes
 		search_filters = {FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY}
@@ -239,7 +245,6 @@ focus_tree = {
 				uses = 2
 				category = land_doctrine
 			}
-			custom_effect_tooltip = HOL_appoint_new_supreme_commander_tt
 				create_field_marshal = {
 					name = "Henri Winkelman" #Point Value: 16
 					gfx = "GFX_portrait_hol_henri_winkelman"
@@ -393,7 +398,18 @@ focus_tree = {
 				uses = 1
 				category = land_doctrine
 			}
-
+			FRA ={	add_tech_bonus = {
+				name = HOL_lessons_from_the_last_war
+				bonus = 0.5
+				uses = 1
+				category = land_doctrine
+			}	}
+		ENG ={ 	add_tech_bonus = {
+				name = HOL_lessons_from_the_last_war
+				bonus = 0.5
+				uses = 1
+				category = land_doctrine
+			} }
 		}	
 	}
 
@@ -522,7 +538,7 @@ focus_tree = {
 		x = 2	
 		y = 1
 		relative_position_id = HOL_overturn_military_budget_cuts
-		cost = 10
+		cost = 5
 
 		available_if_capitulated = yes
 		search_filters = {FOCUS_FILTER_RESEARCH}
@@ -544,7 +560,7 @@ focus_tree = {
 		x = -1
 		y = 1
 		relative_position_id = HOL_cornerstone_of_colonial_defense
-		cost = 10
+		cost = 5
 
 		available_if_capitulated = yes
 		search_filters = {FOCUS_FILTER_RESEARCH}
@@ -566,7 +582,7 @@ focus_tree = {
 		x = 1
 		y = 1
 		relative_position_id = HOL_cornerstone_of_colonial_defense
-		cost = 10
+		cost = 5
 
 		available_if_capitulated = yes
 		search_filters = {FOCUS_FILTER_RESEARCH}
@@ -590,7 +606,7 @@ focus_tree = {
 		x = -1
 		y = 1
 		relative_position_id = HOL_modernize_the_cruiser_fleet
-		cost = 10
+		cost = 5
 
 		available_if_capitulated = yes
 		search_filters = {FOCUS_FILTER_RESEARCH}
@@ -612,7 +628,7 @@ focus_tree = {
 		x = 1
 		y = 1
 		relative_position_id = HOL_modernize_the_cruiser_fleet
-		cost = 10
+		cost = 5
 
 		available_if_capitulated = yes
 		search_filters = {FOCUS_FILTER_RESEARCH}
@@ -635,7 +651,7 @@ focus_tree = {
 		x = 1
 		y = 1
 		relative_position_id = HOL_air_cover_for_the_new_fleet
-		cost = 10
+		cost = 5
 
 		available_if_capitulated = yes
 		search_filters = {FOCUS_FILTER_RESEARCH}
@@ -809,8 +825,18 @@ focus_tree = {
 		available_if_capitulated = yes
 		search_filters = {FOCUS_FILTER_STABILITY FOCUS_FILTER_POLITICAL}
 		completion_reward = {
-			add_timed_idea = { idea = HOL_unity_through_democracy	 days = 1095 }
-		}
+		ENG = { 
+					add_relation_modifier = {
+				target = HOL
+				modifier = stahlpakt5
+			}
+			}
+					USA = { 
+					add_relation_modifier = {
+				target = HOL
+				modifier = stahlpakt5
+			}
+			}		}
 	}
 
  ##   ##      #   # ### ### #  #     ###  ###  ### ###  ##  ### #  # 
@@ -829,7 +855,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = HOL_go_with_britain
 		cost = 10
-
+		available = { NOT = { country_exists = AUS }}
 		available_if_capitulated = yes
 		search_filters = {FOCUS_FILTER_MANPOWER}
 		completion_reward = {
@@ -849,7 +875,7 @@ focus_tree = {
 		available_if_capitulated = yes
 		search_filters = {FOCUS_FILTER_POLITICAL}
 		completion_reward = {
-			add_political_power = 60
+			add_political_power = 100
 		}
 	}
 
@@ -861,9 +887,9 @@ focus_tree = {
 		y = 1
 		relative_position_id = HOL_go_with_britain
 		cost = 10
-
-		available_if_capitulated = yes
-		search_filters = {FOCUS_FILTER_RESEARCH}
+		
+		available = { JAP = { has_built = { type = dockyard value > 60 }}}
+		
 		completion_reward = {
 			add_tech_bonus = {
 				name = HOL_the_singapore_conferences
@@ -884,7 +910,7 @@ focus_tree = {
 		x = -1
 		y = 1
 		relative_position_id = HOL_the_singapore_conferences
-		cost = 10
+		cost = 5
 
 		available_if_capitulated = yes
 		search_filters = {FOCUS_FILTER_RESEARCH}
@@ -919,7 +945,7 @@ focus_tree = {
 		x = 1
 		y = 1
 		relative_position_id = HOL_the_singapore_conferences
-		cost = 10
+		cost = 5
 
 		available_if_capitulated = yes
 		search_filters = {FOCUS_FILTER_RESEARCH}
@@ -939,7 +965,7 @@ focus_tree = {
 		x = 0
 		y = 2
 		relative_position_id = HOL_the_singapore_conferences
-		cost = 10
+		cost = 5
 
 		available_if_capitulated = yes
 
