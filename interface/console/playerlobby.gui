@@ -88,7 +88,7 @@ guiTypes = {
 #		show_position = { x=10% y =15% }
 #		hide_position = { x=10% y =110% }
 #		animation_type = decelerated
-#		animation_time = 1000
+#		animation_time = 000
 		size = { width = 902 height = 50% }
 		orientation = center_left
 #		orientation = upper_left		

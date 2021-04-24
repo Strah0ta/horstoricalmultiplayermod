@@ -204,7 +204,7 @@ ideas = {
 		intelligence_agency_defense = 0.5
 		subversive_activites_upkeep = -0.5
 				operative_slot = 2
-				land_reinforce_rate = 0.20	
+				land_reinforce_rate = 0.1	
 			}
 		}
 		
