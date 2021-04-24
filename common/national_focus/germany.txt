@@ -723,7 +723,7 @@ focus_tree = {
 		cost = 5
 
 		
-		available = { NOT = { country_exists = YUG }  }
+		available = { ITA = { has_completed_focus = ITA_balkan_war_goal }  }
 		
 		completion_reward = {
 			HUN = { set_cosmetic_tag = HUN_REICH }	

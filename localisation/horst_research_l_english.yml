@@ -630,7 +630,7 @@
  SOV_sov_fighter_equipment_0_short:0 "I-15"
  SOV_sov_fighter_equipment_1:0 "Polikarpov I-16"
  grand_battle_plan_mp:0 "Research for Max Planning"
- grand_battle_plan_mp_desc:0 "Research this tech to get 25% Max Planning bonus, but note that it will prevent you from getting expeditions from other nations."
+ grand_battle_plan_mp_desc:0 "Research this tech to get 30% Max Planning bonus, but note that it will prevent you from getting expeditions from other nations."
  SOV_sov_fighter_equipment_1_short:0 "I-16"
  GBP_MP_TITLE:0 "DISABLES\nEXPEDS"
  SOV_sov_fighter_equipment_2:0 "Lavochkin-Gorbunov-Gudkov LaGG-3"

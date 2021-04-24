@@ -889,7 +889,7 @@ focus_tree = {
 		relative_position_id = HOL_go_with_britain
 		cost = 10
 		
-		available = { JAP = { has_built = { type = dockyard value > 60 }}}
+		available = { date > 1939.3.1 }
 		
 		completion_reward = {
 			add_tech_bonus = {
