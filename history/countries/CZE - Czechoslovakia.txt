@@ -3,6 +3,9 @@ if = {
 	limit = {	has_dlc = "Death or Dishonor"	}
 	add_ideas = { CZE_divided_nation }
 }
+add_ideas = manpower_early
+add_ideas = armyandnavy_idea
+
 oob = "CZE_1936"
 add_timed_idea = { idea = NO_TRADE days = 730 }
 country_event ={ id = italy.668 days = 1 }

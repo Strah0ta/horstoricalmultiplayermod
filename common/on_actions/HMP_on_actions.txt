@@ -150,7 +150,15 @@ on_actions = {
 						   SWE = { give_resource_rights = { receiver = GER state = 576 } }  
 						   ENG = { remove_resource_rights = 576 }
 					}				
-
+			if = {
+				limit = {
+					FROM = { tag = HOL }
+					FROM.FROM = { state = 7 }
+				}
+				HOL = { tp_divs_out_of_holland = yes }
+						GER = { transfer_state = 35 transfer_state = 7 transfer_state = 36  }
+		if = { limit = { HOL = { is_ai =yes }}SWE = { transfer_state = 352 } ENG = { transfer_state = 352 } }
+					}	
 				if = {
 					limit = {
 						FROM = { tag = SOV }

@@ -2,13 +2,13 @@ state={
 id=352
 name="STATE_695"
 manpower = 76299
-state_category = rural
+state_category = city
 resources={
 oil=113
 }
 history={
-owner = ENG
-add_core_of=SWE
+owner = HOL
+add_core_of=HOL
 victory_points = {
 153 1
 }
@@ -16,7 +16,7 @@ buildings = {
 fuel_silo = 2
 infrastructure = 6
 153 = {
-naval_base = 1
+naval_base = 15
 coastal_bunker = 2
 }
 }

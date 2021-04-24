@@ -1,0 +1,972 @@
+﻿### search_filters = {FOCUS_FILTER_POLITICAL}
+### search_filters = {FOCUS_FILTER_RESEARCH}
+### search_filters = {FOCUS_FILTER_INDUSTRY}
+### search_filters = {FOCUS_FILTER_STABILITY}
+### search_filters = {FOCUS_FILTER_WAR_SUPPORT}
+### search_filters = {FOCUS_FILTER_MANPOWER}
+### search_filters = {FOCUS_FILTER_ANNEXATION}
+
+focus_tree = {
+	id = netherlands_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = HOL
+			has_dlc = "Man the Guns"
+		}
+	}
+	
+	default = no
+
+	continuous_focus_position = { x = 50 y = 1500 }
+
+
+
+#   #  ##  ### #  # #    ##  #  # ###      ### #  # ###  #  #  ## ### ###  #   #     ### ###  ### ### 
+## ## #  #  #  ## # #   #  # ## # #  #      #  ## # #  # #  # #    #  #  #  # #       #  #  # #   #   
+# # # ####  #  # ## #   #### # ## #  #      #  # ## #  # #  #  #   #  ###    #        #  ###  ##  ##  
+#   # #  #  #  #  # #   #  # #  # #  #      #  #  # #  # #  #   #  #  #  #   #        #  #  # #   #   
+#   # #  # ### #  # ### #  # #  # ###      ### #  # ###   ##  ##   #  #  #   #        #  #  # ### ### 
+
+	focus = {
+		id = HOL_continue_the_public_works
+
+		icon = GFX_goal_generic_construction
+		x = 2
+		y = 0
+		cost = 10
+		available = {
+			is_ai = no
+		}
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY}
+
+		completion_reward = {
+				352 = { add_extra_state_shared_building_slots = 3 }
+			add_timed_idea = { idea = HOL_public_works days = 365 }
+		}
+	}
+
+	focus = {
+		id = HOL_philips_focus
+		prerequisite = { focus = HOL_continue_the_public_works }
+		icon = GFX_focus_hol_philips
+		x = 0
+		y = 1
+		relative_position_id = HOL_continue_the_public_works
+		cost = 5
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		completion_reward = {
+						352 = { add_extra_state_shared_building_slots = 3 }
+			add_tech_bonus = {
+				name = HOL_philips_focus
+				bonus = 1.0
+				uses = 1
+				category = electronics
+			}
+			add_tech_bonus = {
+				name = HOL_philips_focus
+				bonus = 1.0
+				ahead_reduction = 2
+				uses = 1
+				category = electronics
+			}
+		}
+	}
+
+	focus = {
+		id = HOL_expand_RD_facilities
+		prerequisite = { focus = HOL_continue_the_public_works }
+		icon = GFX_focus_research
+		x = 1
+		y = 2
+		relative_position_id = HOL_continue_the_public_works
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+						352 = { add_extra_state_shared_building_slots = 3 }
+			add_research_slot = 1
+		}
+	}
+
+ 	focus = {
+		id = HOL_the_zuiderzee_works
+		prerequisite = { focus = HOL_continue_the_public_works }
+		icon = GFX_focus_hol_the_zuiderzee_works
+		x = -1
+		y = 2
+		relative_position_id = HOL_continue_the_public_works	
+		cost = 10
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+						352 = { add_extra_state_shared_building_slots = 3 }
+			add_tech_bonus = {
+				name = HOL_the_zuiderzee_works
+				bonus = 1.0
+				ahead_reduction = 2
+				uses = 2
+				technology = advanced_machine_tools				
+				technology = assembly_line_production
+				technology = flexible_line
+				technology = streamlined_line
+			}
+		}
+	}
+
+	focus = {
+		id = HOL_develop_the_randstad
+
+		prerequisite = { focus = HOL_the_zuiderzee_works }
+		icon = GFX_goal_generic_construct_civ_factory
+		x = -1
+		y = 1
+		relative_position_id = HOL_the_zuiderzee_works
+		cost = 10
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+						352 = { add_extra_state_shared_building_slots = 3 }
+			add_tech_bonus = {
+				name = HOL_develop_the_randstad
+				bonus = 1.0
+				ahead_reduction = 2
+				uses = 1
+				technology = concentrated_industry4
+				technology = dispersed_industry4			
+				technology = concentrated_industry5
+				technology = dispersed_industry5
+			}
+		}
+	}
+
+	focus = {
+		id = HOL_friesland_agricultural_impetus
+		prerequisite = { focus = HOL_the_zuiderzee_works  focus = HOL_expand_RD_facilities }
+		icon = GFX_goal_generic_consumer_goods
+		x = 1
+		y = 1
+		relative_position_id = HOL_the_zuiderzee_works
+		cost = 5
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+						352 = { add_extra_state_shared_building_slots = 3 }
+			add_ideas = HOL_friesland_agricultural_impetus
+		}
+	}
+
+	focus = {
+		id = HOL_domestic_vehicle_designs
+		prerequisite = { focus = HOL_friesland_agricultural_impetus }
+		icon = GFX_goal_generic_army_motorized
+		x = 0
+		y = 1
+		relative_position_id = HOL_friesland_agricultural_impetus
+		cost = 5
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+						352 = { add_extra_state_shared_building_slots = 3 }
+			add_tech_bonus = {
+				name = HOL_domestic_vehicle_designs
+				bonus = 1.0
+				uses = 1
+				category = motorized_equipment
+			}
+			add_ideas = HOL_domestic_vehicle_designs
+		}
+	}
+
+	focus = {
+		id = HOL_domestic_innovation
+		prerequisite = { focus = HOL_expand_RD_facilities }
+		available = {
+			NOT = { owns_state = 7 }
+		}
+		cancel_if_invalid = no
+		continue_if_invalid = yes
+		icon = GFX_focus_research
+		x = 1
+		y = 1
+		relative_position_id = HOL_expand_RD_facilities
+		cost = 10
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		completion_reward = {
+						352 = { add_extra_state_shared_building_slots = 3 }
+			add_research_slot = 1
+		}
+	}
+
+	focus = {
+		id = HOL_overturn_military_budget_cuts
+		icon = GFX_goal_generic_army_doctrines
+		x = 10
+		y = 0
+		cost = 10
+		available = {
+			is_ai = no
+		}
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_WAR_SUPPORT}
+		completion_reward = {
+			add_war_support = 0.1
+		}
+	}
+
+	focus = {
+		id = HOL_appoint_new_supreme_commander
+		prerequisite = { focus = HOL_overturn_military_budget_cuts }
+		icon = GFX_focus_generic_military_mission
+		x = -2
+		y = 1
+		relative_position_id = HOL_overturn_military_budget_cuts
+		cost = 10
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		completion_reward = {
+			add_tech_bonus = {
+				name = HOL_appoint_new_supreme_commander
+				bonus = 1.0
+				uses = 2
+				category = land_doctrine
+			}
+				create_field_marshal = {
+					name = "Henri Winkelman" #Point Value: 16
+					gfx = "GFX_portrait_hol_henri_winkelman"
+					traits = { defensive_doctrine infantry_leader ambusher logistics_wizard guerilla_fighter trait_cautious unyielding_defender inflexible_strategist }
+					skill = 6
+					attack_skill = 2
+					defense_skill = 8
+					planning_skill = 3
+					logistics_skill = 6
+				}
+		}
+	}
+
+	focus = {
+		id = HOL_modernize_our_infantry_equipment
+		prerequisite = { focus = HOL_appoint_new_supreme_commander }
+		mutually_exclusive = { focus = HOL_production_under_license }
+		icon = GFX_goal_generic_small_arms
+		x = -1
+		y = 1
+		offset = {
+			x = 1
+			y = 0
+			trigger = {
+				NOT = { has_dlc = "Death or Dishonor" }
+			}
+		}
+		relative_position_id = HOL_appoint_new_supreme_commander
+		cost = 10
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		completion_reward = {
+			add_tech_bonus = {
+				name = HOL_modernize_our_infantry_equipment
+				bonus = 0.5
+				uses = 4
+				category = infantry_weapons
+			}
+			add_tech_bonus = {
+				name = HOL_modernize_our_infantry_equipment
+				bonus = 0.5
+				uses = 4
+				category = artillery
+			}
+		}
+	}
+
+	focus = {
+		id = HOL_production_under_license
+		prerequisite = { focus = HOL_appoint_new_supreme_commander }
+		mutually_exclusive = { focus = HOL_modernize_our_infantry_equipment }
+
+		allow_branch = {
+			has_dlc = "Death or Dishonor"
+		}
+
+		available = {
+		}
+		icon = GFX_goal_generic_production
+		x = 1
+		y = 1
+		relative_position_id = HOL_appoint_new_supreme_commander
+		cost = 10
+
+		available_if_capitulated = yes
+		completion_reward = {
+			add_ideas = HOL_production_under_license
+			custom_effect_tooltip = HOL_production_under_license_tt
+		}
+	}
+
+	focus = {
+		id = HOL_light_tanks_for_the_colonies
+		allow_branch = {
+			always = yes
+		}
+		prerequisite = { focus = HOL_modernize_our_infantry_equipment focus = HOL_production_under_license }
+		icon = GFX_goal_generic_army_tanks
+		x = -1
+		y = 1
+		relative_position_id = HOL_modernize_our_infantry_equipment
+		cost = 10
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		completion_reward = {
+			if = {
+				limit = {
+					NOT = { has_completed_focus = HOL_modernize_our_infantry_equipment }
+					NOT = { has_completed_focus = HOL_production_under_license }
+					has_dlc = "Death or Dishonor"
+				}
+				custom_effect_tooltip = HOL_light_tanks_for_the_colonies_tt
+				effect_tooltip = {
+					add_tech_bonus = {
+						name = HOL_light_tanks_for_the_colonies
+						bonus = 1.0
+						uses = 3
+						category = cat_light_armor
+					}
+					custom_effect_tooltip = HOL_light_tanks_for_the_colonies_2tt
+					add_ideas = HOL_light_tanks_for_the_colonies
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						has_completed_focus = HOL_modernize_our_infantry_equipment
+						NOT = { has_dlc = "Death or Dishonor" }
+					}
+				}
+				add_tech_bonus = {
+					name = HOL_light_tanks_for_the_colonies
+					bonus = 1.0
+					uses = 3
+					category = cat_light_armor
+				}
+			}
+			if = {
+				limit = {
+					has_completed_focus = HOL_production_under_license
+				}
+				add_ideas = HOL_light_tanks_for_the_colonies
+			}
+		}
+	}
+
+	focus = {
+		id = HOL_secret_staff_talks
+		available = {
+			threat > 0.15
+			has_war = no
+		}
+		allow_branch = {
+			always = yes
+		}
+		prerequisite = { focus = HOL_modernize_our_infantry_equipment focus = HOL_production_under_license }
+		icon = GFX_goal_generic_intelligence_exchange
+		x = 1
+		y = 1
+		relative_position_id = HOL_modernize_our_infantry_equipment
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+						add_tech_bonus = {
+				name = HOL_lessons_from_the_last_war
+				bonus = 3.0
+				uses = 1
+				category = land_doctrine
+			}
+			FRA ={	add_tech_bonus = {
+				name = HOL_lessons_from_the_last_war
+				bonus = 0.5
+				uses = 1
+				category = land_doctrine
+			}	}
+		ENG ={ 	add_tech_bonus = {
+				name = HOL_lessons_from_the_last_war
+				bonus = 0.5
+				uses = 1
+				category = land_doctrine
+			} }
+		}	
+	}
+
+	focus = {
+		id = HOL_anti_tank_guns_for_the_continent
+		allow_branch = {
+			always = yes
+		}
+		prerequisite = { focus = HOL_modernize_our_infantry_equipment focus = HOL_production_under_license }
+		icon = GFX_goal_generic_army_artillery2
+		x = 3
+		y = 1
+		offset = {
+			x = -1
+			y = 0
+			trigger = {
+				NOT = { has_dlc = "Death or Dishonor" }
+			}
+		}
+		relative_position_id = HOL_modernize_our_infantry_equipment
+		cost = 10
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		completion_reward = {
+			if = {
+				limit = {
+					NOT = { has_completed_focus = HOL_modernize_our_infantry_equipment }
+					NOT = { has_completed_focus = HOL_production_under_license }
+					has_dlc = "Death or Dishonor"
+				}
+				custom_effect_tooltip = HOL_light_tanks_for_the_colonies_tt
+				effect_tooltip = {
+					add_tech_bonus = {
+						name = HOL_anti_tank_guns_for_the_continent
+						bonus = 0.51
+						uses = 4
+						category = cat_anti_tank
+					}
+					custom_effect_tooltip = HOL_light_tanks_for_the_colonies_2tt
+					add_ideas = HOL_anti_tank_guns_for_the_continent
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						has_completed_focus = HOL_modernize_our_infantry_equipment
+						NOT = { has_dlc = "Death or Dishonor" }
+					}
+				}
+				add_tech_bonus = {
+					name = HOL_anti_tank_guns_for_the_continent
+					bonus = 0.51
+					uses = 4
+					category = cat_anti_tank
+				}
+			}
+			if = {
+				limit = {
+					has_completed_focus = HOL_production_under_license
+				}
+				add_ideas = HOL_anti_tank_guns_for_the_continent
+			}
+		}
+	}
+
+	focus = {
+		id = HOL_lessons_from_the_last_war
+		prerequisite = { focus = HOL_light_tanks_for_the_colonies focus = HOL_secret_staff_talks focus = HOL_anti_tank_guns_for_the_continent }
+		icon = GFX_goal_generic_army_doctrines
+		x = 0
+		y = 1
+		relative_position_id = HOL_secret_staff_talks
+		cost = 10
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		completion_reward = {
+			add_tech_bonus = {
+				name = HOL_lessons_from_the_last_war
+				bonus = 1.0
+				uses = 2
+				category = land_doctrine
+			}
+		}
+	}
+
+ ##  ### ###      ### ###  ### ### 
+#  #  #  #  #      #  #  # #   #   
+####  #  ###       #  ###  ##  ##  
+#  #  #  #  #      #  #  # #   #   
+#  # ### #  #      #  #  # ### ### 
+
+
+	focus = {
+		id = HOL_aviatic_aspirations
+		prerequisite = { focus = HOL_overturn_military_budget_cuts }
+		icon = GFX_goal_generic_build_airforce
+		x = 0
+		y = 1
+		relative_position_id = HOL_overturn_military_budget_cuts
+		cost = 10
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+			add_tech_bonus = {
+				name = HOL_aviatic_aspirations
+				bonus = 1
+				uses = 2
+				category = air_doctrine
+			}
+		}
+	}
+
+#  #  ##  #   #  ##  #       ### ###  ### ### 
+## # #  # #   # #  # #        #  #  # #   #   
+# ## ####  # #  #### #        #  ###  ##  ##  
+#  # #  #  # #  #  # #        #  #  # #   #   
+#  # #  #   #   #  # ###      #  #  # ### ### 
+	
+	focus = {
+		id = HOL_cornerstone_of_colonial_defense
+		prerequisite = { focus = HOL_overturn_military_budget_cuts }
+		icon = GFX_goal_generic_navy_doctrines_tactics
+		x = 2	
+		y = 1
+		relative_position_id = HOL_overturn_military_budget_cuts
+		cost = 5
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		completion_reward = {
+			add_tech_bonus = {
+				name = HOL_cornerstone_of_colonial_defense
+				bonus = 1
+				uses = 3
+				category = naval_doctrine
+			}
+		}
+	}
+
+	focus = {
+		id = HOL_rely_on_submarines
+		prerequisite = { focus = HOL_cornerstone_of_colonial_defense }
+		mutually_exclusive = { focus = HOL_modernize_the_cruiser_fleet }
+		icon = GFX_goal_generic_navy_submarine
+		x = -1
+		y = 1
+		relative_position_id = HOL_cornerstone_of_colonial_defense
+		cost = 5
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		completion_reward = {
+			add_tech_bonus = {
+				name = HOL_rely_on_submarines
+				bonus = 1
+				uses = 5
+				category = ss_tech
+			}
+		}
+	}
+
+	focus = {
+		id = HOL_modernize_the_cruiser_fleet
+		prerequisite = { focus = HOL_cornerstone_of_colonial_defense }
+		mutually_exclusive = { focus = HOL_rely_on_submarines }
+		icon = GFX_focus_generic_cruiser2
+		x = 1
+		y = 1
+		relative_position_id = HOL_cornerstone_of_colonial_defense
+		cost = 5
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		completion_reward = {
+			add_tech_bonus = {
+				name = HOL_modernize_the_cruiser_fleet
+				bonus = 1
+				ahead_reduction = 1
+				uses = 2
+				category = cl_tech
+				category = ca_tech
+			}
+		}
+	}
+
+
+	focus = {
+		id = HOL_air_cover_for_the_new_fleet
+		prerequisite = { focus = HOL_modernize_the_cruiser_fleet }
+		icon = GFX_goal_generic_navy_carrier
+		x = -1
+		y = 1
+		relative_position_id = HOL_modernize_the_cruiser_fleet
+		cost = 5
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = HOL_air_cover_for_the_new_fleet
+				bonus = 1
+				uses = 2
+				category = cv_tech
+			}
+		}
+	}
+
+	focus = {
+		id = HOL_escorts_for_the_new_fleet
+		prerequisite = { focus = HOL_modernize_the_cruiser_fleet }
+		icon = GFX_focus_generic_destroyer
+		x = 1
+		y = 1
+		relative_position_id = HOL_modernize_the_cruiser_fleet
+		cost = 5
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = HOL_escorts_for_the_new_fleet
+				bonus = 1
+				ahead_reduction = 1
+				uses = 2
+				category = dd_tech
+			}
+		}
+	}
+
+	focus = {
+		id = HOL_naval_heritage
+		prerequisite = { focus = HOL_air_cover_for_the_new_fleet focus = HOL_escorts_for_the_new_fleet }
+		icon = GFX_goal_generic_build_navy
+		x = 1
+		y = 1
+		relative_position_id = HOL_air_cover_for_the_new_fleet
+		cost = 5
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = HOL_naval_heritage
+				bonus = 1
+				uses = 2
+				category = naval_doctrine
+			}
+			add_ideas = HOL_naval_heritage
+		}
+	}
+
+###   ##  #   ### ### ###  ##   ##  #       ### ###  ### ### 
+#  # #  # #    #   #   #  #  # #  # #        #  #  # #   #   
+###  #  # #    #   #   #  #    #### #        #  ###  ##  ##  
+#    #  # #    #   #   #  #  # #  # #        #  #  # #   #   
+#     ##  ### ###  #  ###  ##  #  # ###      #  #  # ### ### 
+
+
+
+	focus = {
+		id = HOL_gateway_to_europe
+		icon = GFX_focus_hol_gateway_to_europe
+		x = 18
+		y = 0
+		cost = 10
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_POLITICAL}
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+
+	focus = {
+		id = HOL_oranje_boven
+		prerequisite = { focus = HOL_gateway_to_europe }
+		icon = GFX_focus_hol_oranje_boven
+		x = -2
+		y = 1
+		relative_position_id = HOL_gateway_to_europe
+		cost = 10
+		available = { NOT = { owns_state = 7 }}
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_POLITICAL}
+		completion_reward = {
+		add_manpower = 250000
+				add_ideas = HOL_oranje_boven_2
+				retire_country_leader = yes
+				create_country_leader = {
+					name = "Pieter Sjoerds Gerbrandy"
+					desc = "POLITICS_PIETER_SJOERDS_GERBRANDY_DESC"
+					picture = "portrait_hol_pieter_sjoerds_gerbrandy.dds"
+					expire = "1965.1.1"
+					ideology = conservatism
+					traits = {
+						little_churchill
+					}
+				}			
+		}
+	}
+
+
+	focus = {
+		id = HOL_the_only_man_in_the_dutch_government
+		prerequisite = { focus = HOL_oranje_boven }
+		icon = GFX_focus_hol_the_only_man_in_the_dutch_government
+		x = 0
+		y = 1
+		relative_position_id = HOL_oranje_boven
+		cost = 50
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_STABILITY FOCUS_FILTER_POLITICAL FOCUS_FILTER_WAR_SUPPORT}
+		completion_reward = {
+			set_politics = { ruling_party = neutrality elections_allowed = no }
+			remove_ideas = HOL_wilhelmina
+			create_country_leader = {
+				name = "Wilhelmina"
+				desc = "POLITICS_WILHELMINA_DESC"
+				picture = "portrait_hol_wilhelmina.dds"
+				expire = "1965.1.1"
+				ideology = centrism
+				female = yes
+				traits = {
+					wilhelmina
+					disdain_for_politicians_1
+					queen_of_the_people
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = HOL_the_fourth_ally
+		prerequisite = { focus = HOL_the_only_man_in_the_dutch_government }
+		icon = GFX_focus_hol_the_fourth_ally
+		x = -1
+		y = 2
+		relative_position_id = HOL_the_only_man_in_the_dutch_government
+		cost = 10
+		mutually_exclusive = { focus = HOL_liberation }
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = HOL_the_fourth_ally
+		}
+	}
+
+	focus = {
+		id = HOL_liberation
+		icon = GFX_focus_hol_liberation
+		x = 1
+		y = 2
+		cost = 50
+				prerequisite = { focus = HOL_the_only_man_in_the_dutch_government }
+
+				relative_position_id = HOL_the_only_man_in_the_dutch_government
+
+		mutually_exclusive = { focus = HOL_the_fourth_ally }
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_STABILITY FOCUS_FILTER_WAR_SUPPORT FOCUS_FILTER_MANPOWER FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+			add_ideas = HOL_liberation
+		}
+	}
+	focus = {
+		id = HOL_lessons_from_the_low_countries
+		prerequisite = { focus = HOL_the_only_man_in_the_dutch_government }
+		icon = GFX_goal_generic_construct_military
+		x = 0
+		y = 1
+		relative_position_id = HOL_the_only_man_in_the_dutch_government
+
+		cost = 50
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = HOL_lessons_from_the_low_countries
+		}
+	}
+
+
+###  ### #   #  ##   ##  ###   ##  ### ###  ##  
+#  # #   ## ## #  # #  # #  # #  #  #   #  #  # 
+#  # ##  # # # #  # #    ###  ####  #   #  #    
+#  # #   #   # #  # #  # #  # #  #  #   #  #  # 
+###  ### #   #  ##   ##  #  # #  #  #  ###  ##  
+
+	focus = {
+		id = HOL_go_with_britain
+		prerequisite = { focus = HOL_gateway_to_europe }
+		icon = GFX_goal_support_democracy
+		x = 2
+		y = 1
+		relative_position_id = HOL_gateway_to_europe
+		cost = 10
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_STABILITY FOCUS_FILTER_POLITICAL}
+		completion_reward = {
+		ENG = { 
+					add_relation_modifier = {
+				target = HOL
+				modifier = stahlpakt5
+			}
+			}
+					USA = { 
+					add_relation_modifier = {
+				target = HOL
+				modifier = stahlpakt5
+			}
+			}		}
+	}
+
+ ##   ##      #   # ### ### #  #     ###  ###  ### ###  ##  ### #  # 
+#    #  #     #   #  #   #  #  #     #  # #  #  #   #  #  #  #  ## # 
+# ## #  #     # # #  #   #  ####     ###  ###   #   #  ####  #  # ## 
+#  # #  #     # # #  #   #  #  #     #  # #  #  #   #  #  #  #  #  # 
+ ##   ##       # #  ###  #  #  #     ###  #  # ###  #  #  # ### #  # 
+
+
+
+	focus = {
+		id = HOL_de_vaarplicht
+		prerequisite = { focus = HOL_go_with_britain  }
+		icon = GFX_goal_generic_propaganda
+		x = 1
+		y = 1
+		relative_position_id = HOL_go_with_britain
+		cost = 10
+		available = { NOT = { country_exists = AUS }}
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_MANPOWER}
+		completion_reward = {
+			add_ideas = HOL_de_vaarplicht
+		}
+	}
+
+	focus = {
+		id = HOL_request_allied_favors
+		prerequisite = { focus = HOL_de_vaarplicht }
+		icon = GFX_goal_generic_major_alliance
+		x = 0
+		y = 2
+		relative_position_id = HOL_de_vaarplicht
+		cost = 5
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_POLITICAL}
+		completion_reward = {
+			add_political_power = 100
+		}
+	}
+
+	focus = {
+		id = HOL_the_singapore_conferences
+		prerequisite = { focus = HOL_go_with_britain }
+		icon = GFX_goal_generic_navy_doctrines_tactics
+		x = -1
+		y = 1
+		relative_position_id = HOL_go_with_britain
+		cost = 10
+		
+		available = { date > 1939.3.1 }
+		
+		completion_reward = {
+			add_tech_bonus = {
+				name = HOL_the_singapore_conferences
+				bonus = 1.0
+				uses = 4
+				category = naval_doctrine
+			}
+		}
+	}
+
+	focus = {
+		id = HOL_ship_a_day_sinking_quotas
+		available = {
+			has_war = yes
+		}
+		prerequisite = { focus = HOL_the_singapore_conferences }
+		icon = GFX_goal_generic_navy_submarine
+		x = -1
+		y = 1
+		relative_position_id = HOL_the_singapore_conferences
+		cost = 5
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		completion_reward = {
+			add_tech_bonus = {
+				name = HOL_ship_a_day_sinking_quotas
+				bonus = 1.0
+				uses = 1
+				category = ss_tech
+			}
+			add_tech_bonus = {
+				name = HOL_ship_a_day_sinking_quotas
+				bonus = 1.0
+				uses = 1
+				category = submarine_doctrine
+			}
+			random_unit_leader = {
+				limit = {
+					has_id = 981
+				}
+				add_attack = 1
+				add_maneuver = 2
+				add_coordination = 1
+			}
+		}
+	}
+
+	focus = {
+		id = HOL_allied_technological_developments
+		prerequisite = { focus = HOL_the_singapore_conferences }
+		icon = GFX_goal_tfv_generic_tech_sharing
+		x = 1
+		y = 1
+		relative_position_id = HOL_the_singapore_conferences
+		cost = 5
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		completion_reward = {
+			add_ideas = HOL_allied_technological_developments
+		}
+	}
+
+
+	focus = {
+		id = HOL_combined_chiefs_of_staff_representation
+		available = {
+			has_war = yes
+		}
+		prerequisite = { focus = HOL_the_singapore_conferences }
+		icon = GFX_focus_generic_military_academy
+		x = 0
+		y = 2
+		relative_position_id = HOL_the_singapore_conferences
+		cost = 5
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = HOL_combined_chiefs_of_staff_representation
+		}
+	}
+
+
+
+}

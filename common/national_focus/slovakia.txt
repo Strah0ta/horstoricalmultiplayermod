@@ -70,6 +70,10 @@
     modifier = stahlpakt
 } 
 }
+ITA= { 	 add_relation_modifier = {
+    target = CZE
+    modifier = stahlpakt
+} }
 	set_cosmetic_tag = SLO_fascism
 	    }
 	  }

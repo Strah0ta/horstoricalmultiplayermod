@@ -1,17 +1,26 @@
 ﻿capital = 7
-set_research_slots = 0
+set_research_slots = 3
 set_stability = 0.75
+set_rule = { can_be_spymaster = no }
+add_ideas = manpower_early
+add_ideas = armyandnavy_idea
+add_to_tech_sharing_group = commonwealth_research
+
 set_war_support = 0
-add_ideas = ai_imiter 
-country_lock_all_division_template = yes
-
-add_equipment_to_stockpile = {
-         type = infantry_equipment_1
-         amount = 40000
-         producer = GER
-}
 country_event = { id = poland.117 days = 1277 }
-
+oob = "HOL_1936"
+add_timed_idea = { idea = NO_TRADE days = 730 }
+create_intelligence_agency = yes
+set_variable = {
+    var = min_fuel
+    value = 0.800
+}
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = { bicycle_infantry = 1 }
+}
 set_politics = {
 	ruling_party = democratic
 	last_election = "1933.4.26"
@@ -24,9 +33,30 @@ set_popularities = {
 	communism = 3
 }
 set_technology = {
-concentrated_industry = 1
-infantry_weapons = 1 
-dispersed_industry = 1 
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1		
+	tech_recon = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	interwar_antitank = 1
+	early_fighter = 1
+	early_bomber = 1
+	fuel_silos = 1
+	synth_oil_experiments = 1
+	marines = 1
+		early_ship_hull_light = 1
+		early_ship_hull_submarine = 1
+		basic_ship_hull_submarine = 1
+		early_ship_hull_cruiser = 1
+		basic_ship_hull_cruiser = 1
+		basic_battery = 1
+		basic_torpedo = 1
+		basic_depth_charges = 1
+		basic_secondary_battery = 1
+		basic_cruiser_armor_scheme = 1
+		coastal_defense_ships = 1
+		mtg_transport = 1
 }
 set_convoys = 150
 
@@ -36,5 +66,8 @@ create_country_leader = {
 	picture = "GFX_portrait_holland_hendrikus_colijn"
 	expire = "1965.1.1"
 	ideology = conservatism
-	traits = {	}
+	traits = { 
+		strict_austerity_adherent
+		defeatism 
+	}
 }

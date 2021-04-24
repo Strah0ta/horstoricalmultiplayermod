@@ -1,11 +1,17 @@
 ﻿capital = 107
 set_research_slots = 4
-add_ideas = ai_imiter 
+oob = "YUG_1936"
+add_timed_idea = { idea = NO_TRADE days = 730 }
+anti_cross_faction_trade_allies = yes 
+add_ideas = manpower_early
+add_ideas = armyandnavy_idea
+
 set_convoys = 100
 set_technology = {
 	tech_support = 1		
 	tech_engineers = 1
 	tech_mountaineers = 1
+	motorised_infantry = 1
 	early_fighter = 1
 	gwtank = 1
 	infantry_weapons = 1
@@ -27,7 +33,14 @@ set_popularities = {
 	communism = 15
 	neutrality = 60
 }
-
+if = {
+	limit = {
+		has_dlc = "Death or Dishonor"
+	}
+	add_ideas = {
+		YUG_idea_croatian_opposition
+	}
+}
 set_stability = 0.6
 
 create_country_leader = {

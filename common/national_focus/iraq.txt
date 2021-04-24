@@ -247,7 +247,7 @@ focus_tree = {
 		relative_position_id = IRQ_revolution2
 		prerequisite = { focus = IRQ_revolution2 }
 		available_if_capitulated = yes
-		available = { controls_state = 455}
+		available =  { OR = { controls_state = 455 ITA = { controls_state = 455 }} }
 
 		completion_reward = {
 			transfer_state = 455 add_state_core = 455		
@@ -263,7 +263,7 @@ focus_tree = {
 		relative_position_id = IRQ_revolution2
 		prerequisite = { focus = IRQ_revolution2 }
 		available_if_capitulated = yes
-		available = { controls_state = 454}
+		available =  { OR = { controls_state = 454 ITA = { controls_state = 454 }} }
 
 		completion_reward = {
 				transfer_state = 454 add_state_core = 454	transfer_state = 453 add_state_core = 453
@@ -279,7 +279,7 @@ focus_tree = {
 		relative_position_id = IRQ_revolution4
 		prerequisite = { focus = IRQ_revolution3 focus = IRQ_revolution4 }
 		available_if_capitulated = yes
-		available = { controls_state = 413}
+		available =  { OR = { controls_state = 413 ITA = { controls_state = 413 }} }
 
 		completion_reward = {
 			transfer_state = 413 add_state_core = 413		
@@ -294,7 +294,7 @@ focus_tree = {
 		relative_position_id = IRQ_revolution3
 		prerequisite = { focus = IRQ_revolution3 focus = IRQ_revolution4 }
 		available_if_capitulated = yes
-		available = { controls_state = 421}
+		available =  { OR = { controls_state = 421 ITA = { controls_state = 421 }} }
 		completion_reward = {
 			transfer_state = 421 add_state_core = 421		
 		}

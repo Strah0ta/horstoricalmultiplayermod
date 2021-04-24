@@ -54,7 +54,7 @@ HMP_ger_total_mob_1 = yes
 }
 
 tp_divs_out_of_france = { every_state = { limit = { OR = { is_core_of = FRA vichy_state = yes }} teleport_armies = {limit = { original_tag = FRA } to_state = 5139 } } }
-
+tp_divs_out_of_holland = { every_state = { limit = { is_core_of = HOL } teleport_armies = {limit = { original_tag = HOL } to_state = 352 } } }
 tp_divs_out_of_norway = { every_state = { limit = { is_core_of = NOR } teleport_armies = {limit = { original_tag = NOR } to_state = 3311 } } }
 
 baltic_cores = { add_equipment_to_stockpile = { type = infantry_equipment_1 amount = 40000 producer = SWE } add_equipment_to_stockpile = { type = artillery_equipment_2 amount = 3000 producer = SWE } add_equipment_to_stockpile = { type = support_equipment_1 amount = 3000 producer = SWE } add_equipment_to_stockpile = { type = anti_tank_equipment_2 amount = 6000 producer = SWE } load_oob = "FIN_spawn" }
@@ -1167,6 +1167,10 @@ add_opinion_modifier = {
     modifier = anti_cross_faction_trade
 }
 add_opinion_modifier = {
+    target = YUG
+    modifier = anti_cross_faction_trade
+}
+add_opinion_modifier = {
     target = ALB
     modifier = anti_cross_faction_trade
 }
@@ -1247,6 +1251,10 @@ add_opinion_modifier = {
 }
 add_opinion_modifier = {
     target = SAF
+    modifier = anti_cross_faction_trade
+}
+add_opinion_modifier = {
+    target = HOL
     modifier = anti_cross_faction_trade
 }
 add_opinion_modifier = {
@@ -1759,157 +1767,144 @@ create_corps_commander = {
 # End of Germany
 	}
 	YUG = {
-	create_field_marshal = {
+	create_corps_commander = {
 	name = "Slavko Stancer"
 	picture = "r56_portrait_CRO_slavko_stancer.dds"
-	traits = { infantry_leader organizer trait_engineer}
+    traits = { trickster expert_improviser brilliant_strategist panzer_leader hill_fighter trait_mountaineer urban_assault_specialist panzer_expert  }
 	skill = 7
-	attack_skill = 6
-	defense_skill = 3
-	planning_skill = 2
-	logistics_skill = 3
+	attack_skill = 5
+	defense_skill = 5
+	planning_skill = 7
+	logistics_skill = 5
 }
 
 
 create_corps_commander = {
 	name = "Junuz Ajanovic"
 	picture = "r56_portrait_CRO_junuz_ajanovic.dds"
-	traits = { trickster infantry_leader trait_mountaineer }
+	traits = { jungle_rat ranger commando trickster expert_improviser infantry_leader  infantry_expert }
 	skill = 7
-	attack_skill = 5
-	defense_skill = 3
-	planning_skill = 4
-	logistics_skill = 6
+	attack_skill = 6
+	defense_skill = 6
+	planning_skill = 5
+	logistics_skill = 5
  }
  
  create_corps_commander = {
 	name = "Rafael Boban"
 	picture = "r56_portrait_CRO_Rafael_Boban.dds"
-	traits = { naval_invader infantry_leader commando }
+	traits = { trickster guerilla_fighter winter_specialist trait_engineer panzer_leader panzer_expert ambusher }
 	skill = 7
-	attack_skill = 6
-	defense_skill = 2
-	planning_skill = 3
-	logistics_skill = 4
-}
-create_corps_commander = {
-	name = "Franjo Simic"
-	picture = "r56_portrait_CRO_Franjo_Simic.dds"
-	traits = {  panzer_leader trickster trait_engineer }
-	skill = 7
-
 	attack_skill = 5
-	defense_skill = 2
-	planning_skill = 4
-	logistics_skill = 3
+	defense_skill = 1
+	planning_skill = 10
+	logistics_skill = 6
+}
+create_field_marshal = {
+	name = "Franjo Simic" #Point Value: 20 
+	picture = "r56_portrait_CRO_Franjo_Simic.dds"
+	traits = { infantry_leader urban_assault_specialist ranger infantry_expert logistics_wizard thorough_planner organizer  trait_engineer }
+	skill = 7
+	attack_skill = 5
+	defense_skill = 10
+	planning_skill = 1
+	logistics_skill = 6
 }
 
 create_corps_commander = {
 	name = "Matija Canic"
 	picture = "r56_portrait_CRO_Matija_Canic.dds"
-	traits = {  panzer_leader trickster trait_engineer }
+	traits = {  trickster trait_engineer organizer  panzer_leader panzer_expert desert_fox hill_fighter urban_assault_specialist  }
 	skill = 7
 
 	attack_skill = 5
-	defense_skill = 2
-	planning_skill = 4
-	logistics_skill = 3
+	defense_skill = 4
+	planning_skill = 8
+	logistics_skill = 5
 }
 
 create_corps_commander = {
 	name = "Gojko Nikolis"
 	picture = "r56_portrait_CRO_Gojko_Nikolis.dds"
-	traits = {  panzer_leader trickster trait_engineer }
+	traits = { hill_fighter trait_mountaineer infantry_leader trait_engineer urban_assault_specialist infantry_expert fortress_buster naval_invader invader_ii }
 	skill = 7
 
 	attack_skill = 5
-	defense_skill = 2
+	defense_skill = 8
 	planning_skill = 4
-	logistics_skill = 3
+	logistics_skill = 5
 }
 
 create_corps_commander = {
 	name = "Duro Jakcin"
 	picture = "r56_portrait_CRO_duro_jakcin.dds"
-	traits = {  panzer_leader trickster trait_engineer }
+	traits = { organizer  bearer_of_artillery cavalry_expert cavalry_expert trait_mountaineer combined_arms_expert  trickster hill_fighter ambusher   }
 	skill = 7
 
-	attack_skill = 5
-	defense_skill = 2
+	attack_skill = 8
+	defense_skill = 5
 	planning_skill = 4
-	logistics_skill = 3
+	logistics_skill = 5
 }
 
-create_corps_commander = {
+create_field_marshal = {
 	name = "Andro Vrkljan"
 	picture = "r56_portrait_CRO_andro_vrkljan.dds"
-	traits = {  panzer_leader trickster trait_engineer }
+    traits = {  offensive_doctrine logistics_wizard trickster panzer_leader panzer_expert thorough_planner  }
 	skill = 7
 
 	attack_skill = 5
-	defense_skill = 2
-	planning_skill = 4
-	logistics_skill = 3
-}
-
-create_corps_commander = {
-	name = "Vladimir Laxa"
-	picture = "Portrait_Vladimir_Laxa.dds"
-	traits = {  panzer_leader trickster trait_engineer }
-	skill = 7
-
-	attack_skill = 5
-	defense_skill = 2
-	planning_skill = 4
-	logistics_skill = 3
+	defense_skill = 6
+	planning_skill = 7
+	logistics_skill = 4
 }
 
 create_corps_commander = {
 	name = "Stjepan Sarkotic"
 	picture = "Portrait_Stjepan_Sarkotic.dds"
-	traits = {  panzer_leader trickster trait_engineer }
+	traits = { infantry_leader desert_fox trait_mountaineer hill_fighter ambusher commando skirmisher guerilla_fighter paratrooper }
 	skill = 7
 
-	attack_skill = 5
-	defense_skill = 2
-	planning_skill = 4
-	logistics_skill = 3
+	attack_skill = 4
+	defense_skill = 7
+	planning_skill = 7
+	logistics_skill = 4
 }
 
-create_corps_commander = {
+create_field_marshal = {
 	name = "Slavko Kvaternik"
 	picture = "Portrait_Slavko_Kvaternik.dds"
-	traits = {  panzer_leader trickster trait_engineer }
+	traits = { commando guerilla_fighter infantry_leader ambusher urban_assault_specialist organizer defensive_doctrine logistics_wizard trait_cautious  }
 	skill = 7
 
-	attack_skill = 5
-	defense_skill = 2
+	attack_skill = 8
+	defense_skill = 4
 	planning_skill = 4
-	logistics_skill = 3
+	logistics_skill = 6
 }
 
-create_corps_commander = {
+create_field_marshal = {
 	name = "Jure Francetic"
 	picture = "Portrait_Jure_Francetic.dds"
-	traits = {  panzer_leader trickster trait_engineer }
+    traits = {  panzer_leader  thorough_planner logistics_wizard trait_engineer trait_mountaineer desert_fox hill_fighter fortress_buster trait_cautious }
 	skill = 7
 
-	attack_skill = 5
-	defense_skill = 2
-	planning_skill = 4
-	logistics_skill = 3
+	attack_skill = 6
+	defense_skill = 4
+	planning_skill = 6
+	logistics_skill = 6
 }
 
-create_corps_commander = {
+create_field_marshal = {
 	name = "Ivan Babic"
 	picture = "Portrait_Ivan_Babic.dds"
-	traits = {  panzer_leader trickster trait_engineer }
+	traits = { old_guard guerilla_fighter defensive_doctrine  bearer_of_artillery cavalry_expert cavalry_expert trait_mountaineer urban_assault_specialist combined_arms_expert  hill_fighter desert_fox ambusher   }
 	skill = 7
 
 	attack_skill = 5
-	defense_skill = 2
-	planning_skill = 4
-	logistics_skill = 3
+	defense_skill = 5
+	planning_skill = 6
+	logistics_skill = 6
 }
 	
 	}
@@ -4679,7 +4674,75 @@ create_corps_commander = {
 	logistics_skill = 6
 }
 }
+HOL ={ 
 
+create_field_marshal = {
+	name = "Izaak Reijnders" #Point value: 14.5
+	gfx = "GFX_portrait_hol_izaak_reijnders"
+	traits = { old_guard inflexible_strategist unyielding_defender inspirational_leader organizer logistics_wizard thorough_planner trait_reckless }
+	skill = 6
+	attack_skill = 6
+	defense_skill = 4
+	planning_skill = 6
+	logistics_skill = 3	
+}
+create_corps_commander = {
+	name = "Petrus Wilhelmus Best" #Point value: 18
+	gfx = "GFX_portrait_hol_petrus_wilhelmus_best"
+	traits = {  infantry_leader ambusher skirmisher jungle_rat organizer trickster fake_skilled_staffer }
+	skill = 6
+	attack_skill = 3
+	defense_skill = 4
+	planning_skill = 6
+	logistics_skill = 6	
+}
+
+create_corps_commander = {
+	name = "Godfried van Voorst tot Voorst" #Point value: 18
+	gfx = "GFX_portrait_hol_godfried_van_voorst_tot_voorst"
+	traits = {  trickster trait_engineer brilliant_strategist  panzer_leader panzer_expert desert_fox hill_fighter   }
+	skill = 6
+    attack_skill = 5
+    defense_skill = 3
+    planning_skill = 5
+    logistics_skill = 6
+}
+
+create_navy_leader = {
+	name = "Johannes Theodorus Furstner"
+	gfx = "GFX_portrait_hol_johannes_theodorus_furstner"
+	traits = { caustic_personality fly_swatter blockade_runner }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	maneuvering_skill = 2
+	coordination_skill = 3
+}
+
+create_navy_leader = {
+	name = "Conrad Helfrich"
+	gfx = "GFX_portrait_hol_conrad_helfrich"
+	traits = { seawolf superior_tactician bold navy_career_officer }
+	id = 981
+	skill = 4
+	attack_skill = 5
+	defense_skill = 2
+	maneuvering_skill = 3
+	coordination_skill = 2
+}
+
+create_navy_leader = {
+	name = "Karel Doorman"
+	gfx = "GFX_portrait_hol_karel_doorman"
+	traits = { fleet_protector naval_lineage bold }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	maneuvering_skill = 3
+	coordination_skill = 2
+}
+
+}
 USA = {
 
 create_field_marshal = {
@@ -5419,7 +5482,8 @@ HMP_startup_on_actions = {
 	JAP = { add_timed_idea = { days = 365 idea = SOV_motorized_focus } } MAN = { add_timed_idea = { days = 365 idea = SOV_motorized_focus } }
 	GER = { add_timed_idea = { days = 365 idea = SOV_motorized_focus } } USA = { add_timed_idea = { days = 365 idea = SOV_motorized_focus } }
 	ITA = { add_timed_idea = { idea = ITA_motorized_focus days = 365 } }
-	if = { limit = {CZE = { is_ai = yes}} CZE ={  add_ideas = ai_imiter  } }
+	if = { limit = {CZE = { is_ai = yes}} CZE ={  add_ideas = ai_imiter  } } if = { limit = {YUG = { is_ai = yes}} YUG ={  add_ideas = ai_imiter  } }
+	if = { limit = {HOL = { is_ai = yes} } HOL = { add_ideas = ai_imiter add_equipment_to_stockpile = {  type = infantry_equipment_1   amount = 40000   producer = GER } }	}
 	if = { limit = { NOT = { has_start_date > 1936.01.02 }  } ENG = { add_timed_idea = { idea = ENG_motorized_focus3 days = 446 } } }
 	if = { limit = { has_start_date > 1936.01.02 }  ENG = { add_timed_idea = { idea = ENG_motorized_focus4 days = 446 } } }
 	if = { limit = { NOT = { has_game_rule = { rule = HORST_SEALION option = HORST_SEALION_ON }}}   118 = { add_state_modifier = { modifier = { max_dig_in = 16 } }  }  }
@@ -5477,12 +5541,6 @@ HMP_capitulations_on_actions = {
 			SWE = { transfer_state = 8 } GER = { transfer_state = 8 }
 
 		}
-		if =  { 
-		limit = { original_tag = HOL }
-		GER = { transfer_state = 35 transfer_state = 7 transfer_state = 36  }
-			SWE = { transfer_state = 352 }	ENG = { transfer_state = 352 }
-		}
-		
 		if = {
 			limit = {	NOT = { original_tag = GER }	NOT = { has_government = fascism }	}
 			news_event = { id = country_capitulated.0 days = 0 }
@@ -5824,7 +5882,9 @@ set_autonomy = {  target = HUN  autonomy_state = autonomy_puppet }
 set_autonomy = {  target = ALB  autonomy_state = autonomy_puppet }
 set_autonomy = {  target = BUL  autonomy_state = autonomy_puppet }
   }
-  
+  CZE = { set_cosmetic_tag = CZE_communism }
+    YUG = { set_cosmetic_tag = YUG_communism }
+
 BUL = { transfer_state = 293 }  
 
 ENG = { 
