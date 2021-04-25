@@ -10,7 +10,7 @@ guiTypes = {
 		animation_time = 000
 		Orientation = center_down
 		clipping = no
-		fade_time = 300
+		fade_time = 1
 		fade_type = linear
 		#moveable = yes
 		
@@ -207,7 +207,7 @@ guiTypes = {
 				#animation_time = 000
 				#Orientation = center_down
 				#clipping = yes
-				fade_time = 300
+				fade_time = 1
 				fade_type = linear
 				
 				background = {
@@ -283,7 +283,7 @@ guiTypes = {
 				hide_animation_type = accelerated
 				animation_time = 000
 				clipping = no
-				fade_time = 300
+				fade_time = 1
 				fade_type = linear
 					
 					

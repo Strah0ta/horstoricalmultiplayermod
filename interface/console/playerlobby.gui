@@ -93,7 +93,7 @@ guiTypes = {
 		orientation = center_left
 #		orientation = upper_left		
 		origo = center
-		fade_time = 300
+		fade_time = 1
 		fade_type = linear
 		moveable = yes
 		

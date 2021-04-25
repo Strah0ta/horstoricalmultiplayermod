@@ -834,7 +834,7 @@ guiTypes = {
 		position = { x = 0 y = 0 }
 		size = { width = 1092 height = 90% } # uses max_window_size for clamping
 		moveable = yes
-		fade_time = 500
+		fade_time = 1
 		fade_type = linear
 		orientation = CENTER
 		origo = center

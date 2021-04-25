@@ -1322,7 +1322,7 @@ guiTypes = {
 		size = { width=535 height=58 } # The height is actually not the height since that is dynamic, the height is this value + number of entries (up to maximum size of "ships" window below)
 		orientation = center
 		moveable = yes
-		fade_time = 300
+		fade_time = 1
 		fade_type = linear
 				
 		background = {
@@ -1384,7 +1384,7 @@ guiTypes = {
 		size = { width=524 height=161 } # The height is actually not the height since that is dynamic, the height is this value + number of entries (up to maximum size of "ships" window below)
 		orientation = center
 		moveable = yes
-		fade_time = 300
+		fade_time = 1
 		fade_type = linear
 		clipping = no
 

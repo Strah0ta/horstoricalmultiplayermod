@@ -630,7 +630,7 @@ guiTypes = {
 		Orientation = UPPER_LEFT
 		moveable = yes
 		clipping = no
-		fade_time = 500
+		fade_time = 1
 		fade_type = linear
 		
 		show_sound = pop_up
@@ -795,7 +795,7 @@ guiTypes = {
 		Orientation = UPPER_LEFT
 		moveable = yes
 		clipping = no
-		fade_time = 500
+		fade_time = 1
 		fade_type = linear
 		
 		show_sound = pop_up

@@ -6,7 +6,7 @@ guiTypes = {
 		size = { width = 320 height = 415}
 		Orientation = center
 		Origo = center		
-		fade_time = 500
+		fade_time = 1
 		fade_type = linear
 		show_sound = click_expand
 		

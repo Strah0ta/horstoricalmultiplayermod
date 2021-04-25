@@ -5,7 +5,7 @@ guiTypes = {
 		size = { width =527 height=534 }
 		orientation= center
 		moveable = yes
-		fade_time = 200
+		fade_time = 1
 		fade_type = linear
 		click_to_front = yes
 		

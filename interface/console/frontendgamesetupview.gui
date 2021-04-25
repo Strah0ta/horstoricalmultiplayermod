@@ -12,7 +12,7 @@ guiTypes = {
 		position = { x= 0 y = 0 }
 		size = { width=232 height=211}
 		clipping = no
-		fade_time = 500
+		fade_time = 1
 		fade_type = linear
 
 		background = {
@@ -1178,7 +1178,7 @@ guiTypes = {
 		size = { width = 678 height = 600 }
 		Orientation = center
 		moveable = yes
-		fade_time = 500
+		fade_time = 1
 		fade_type = linear
 		clipping = no
 

@@ -323,7 +323,7 @@ guiTypes = {
 		moveable = yes
 		click_to_front = yes
 		orientation= center	
-		fade_time = 200
+		fade_time = 1
 		fade_type = linear
 		
 		background = {

@@ -203,7 +203,7 @@ guiTypes = {
 			position = { x=0 y=90 }
 			size = { width=300 height=100%% }	
 			moveable = yes
-			fade_time = 500
+			fade_time = 1
 			fade_type = linear
 			verticalScrollbar = "right_vertical_slider"
 			margin = {top=9 left=0 bottom=9 right=0}	

@@ -9,7 +9,7 @@ guiTypes = {
 		size = { width=545 height=416 }
 		moveable = yes
 		Orientation = CENTER
-		fade_time = 500
+		fade_time = 1
 		fade_type = linear
 		
 		show_sound = pop_up

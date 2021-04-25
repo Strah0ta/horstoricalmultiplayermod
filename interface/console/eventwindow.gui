@@ -143,7 +143,7 @@ guiTypes = {
 #  # #    #   # #  #  #  #   #   # #  #       #    # #  #   #  #  #    # 
  ##  #    ### #  # #  #  #  ###   #   ###     ###   #   ### #  #  #  ##  
 
-	@fade_time = 1000
+	@fade_time = 1
 	containerWindowType = {
 		name = "EventWindow_Operative"
 		position = { x=-282 y=-310 }	
@@ -289,7 +289,7 @@ guiTypes = {
 			clipping = no
 			Orientation = UPPER_LEFT
 			#fade_type = accelerated
-			#fade_time = 5000
+			#fade_time = 10
 
 			background = {
 				name = "Background"	
@@ -313,7 +313,7 @@ guiTypes = {
 			moveable = yes
 			Orientation = UPPER_LEFT
 			#fade_type = linear
-			#fade_time = 5000
+			#fade_time = 10
 
 			background = {
 				name = "Background"	

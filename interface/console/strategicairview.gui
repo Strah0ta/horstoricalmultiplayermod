@@ -463,7 +463,7 @@ guiTypes = {
 			orientation = upper_left
 			size = {width=315 height=614}
 			clipping = no
-			fade_time = 300
+			fade_time = 1
 			fade_type = linear
 
 			

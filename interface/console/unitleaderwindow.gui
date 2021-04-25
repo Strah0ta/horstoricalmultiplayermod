@@ -7,7 +7,7 @@ guiTypes = {
 		size = { width=550 height=590 }
 		orientation = center
 		moveable = yes
-		fade_time = 500
+		fade_time = 1
 		fade_type = linear
 		click_to_front = yes		
 				
@@ -186,7 +186,7 @@ guiTypes = {
 		name = "armyleaderentry"
 		size = { width=510 height=98 }
 		clipping = no
-		fade_time = 500
+		fade_time = 1
 		fade_type = linear
 				
 		background = {
@@ -532,7 +532,7 @@ guiTypes = {
 	containerWindowType = {
 		name = "navyleaderentry"
 		size = { width=510 height=98 }
-		fade_time = 500
+		fade_time = 1
 		fade_type = linear
 		clipping = no
 				
@@ -803,7 +803,7 @@ guiTypes = {
 	containerWindowType = {
 		name = "operativeleaderentry"
 		size = { width=510 height=98 }
-		fade_time = 500
+		fade_time = 1
 		fade_type = linear
 		clipping = no
 

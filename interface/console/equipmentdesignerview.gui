@@ -5,7 +5,7 @@ guiTypes = {
 		position = { x=0 y=0}
 		size = { width = 1092 height = 553 }
 		moveable = yes
-		fade_time = 500
+		fade_time = 1
 		fade_type = linear
 		orientation = CENTER
 		origo = center

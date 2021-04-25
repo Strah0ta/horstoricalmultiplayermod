@@ -206,25 +206,9 @@ focus_tree = {
 
 		cost = 10
 
-		ai_will_do = {
-			factor = 60
-		}
-
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = yes
-
-		complete_tooltip = {
-		
-		}
 
 		completion_reward = {
 			109 = {

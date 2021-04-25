@@ -1742,7 +1742,7 @@ guiTypes = {
 			position = { x = -263 y = -266}	
 			size = { width = 527 height = 532 }
 			moveable = yes
-			fade_time = 20000			
+			fade_time = 1			
 			click_to_front = yes
 			orientation= center				
 

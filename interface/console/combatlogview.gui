@@ -6,7 +6,7 @@ guiTypes = {
 		size = { width=670 height=-165 }
 		orientation= upper_right
 		moveable = yes
-		fade_time = 400
+		fade_time = 1
 		fade_type = linear
 		margin = {top=0 left=13 bottom=13 right=13}			
 		
