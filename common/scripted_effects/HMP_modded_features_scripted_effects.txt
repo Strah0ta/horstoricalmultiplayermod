@@ -5179,9 +5179,9 @@ create_corps_commander = {
 }
 
 NZL = {
-create_field_marshal = {
+create_field_marshal = { #UGUR 
 	name = "Leslie Morshead" #Point Value: 14.5 #3/23/21 -Trickster -Improv Expert -Ambusher +Jungle Rat
-	picture = "GFX_NZL_leslie_morshead"
+	portrait_path = "gfx/leaders/AST/Portrait_Australia_Leslie_Morshead.dds"
 	traits = { organizer logistics_wizard infantry_leader infantry_expert jungle_rat trait_mountaineer thorough_planner }
 	skill = 6
 	attack_skill = 2
@@ -5189,6 +5189,7 @@ create_field_marshal = {
 	planning_skill = 8
 	logistics_skill = 6
 }
+
 create_field_marshal = {
 	name = "Horace Robertson" #Point Value: 14 #3/23/21 -Organizer -Desert Fox
 	picture = "gfx/leaders/AST/Portrait_AST_horace_robertson.dds"
