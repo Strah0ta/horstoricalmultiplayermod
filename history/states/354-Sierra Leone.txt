@@ -1,23 +1,17 @@
 state={
 id=354
-name="STATE_700"
-manpower = 1768500
+name="Riyadh"
+manpower = 1
 state_category = pastoral
 history=
 {
-owner = ENG
-add_core_of=SWE
-victory_points = {
-2038 1
-}
+
+
 buildings = {
 infrastructure = 3
-2038 = {
-naval_base = 3
-}
 }
 }
 provinces={
-2038 2094
+1703 1781 1918 1923 4295 4828 4858 5080 7240 8026 8127 9966 10144 10545 10634 10903 12541 12596 12671 12724  
 }
 }
