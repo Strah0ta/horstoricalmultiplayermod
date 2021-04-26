@@ -5052,7 +5052,7 @@ create_field_marshal = {
 }
 create_corps_commander = { #NZL-GENERALS-START
     name = "Leslie Andrew" #Point Value: 18 #4/12/21 +Hill Fighter -Organizer
-    picture = "Portrait_New_Zeeland_Leslie_Andrew.dds"
+    picture = "Portrait_New_Zealand_Leslie_Andrew.dds"
     traits = {  desert_fox hill_fighter panzer_leader panzer_expert trickster expert_improviser }
     skill = 6
     attack_skill = 5
@@ -5062,7 +5062,7 @@ create_corps_commander = { #NZL-GENERALS-START
 }
 create_corps_commander = {
 	name = "Bernard Freyberg" #Point Value: 18 #3/23/21 -Desert Fox -Guerilla Fighter +Adaptable
-	portrait_path  = "gfx/leaders/NZL/Portrait_New_Zeeland_bernard_freyberg.dds"
+	portrait_path  = "gfx/leaders/NZL/Portrait_New_Zealand_bernard_freyberg.dds"
 	traits = { infantry_leader infantry_expert adaptable  naval_invader invader_ii trickster }
 	skill = 6
 	attack_skill = 4
@@ -5073,7 +5073,7 @@ create_corps_commander = {
 
 create_field_marshal = {
 	name = "Robert Row" #Point Value: 14 #3/23/21 -Organizer -Organizational Leader
-	portrait_path  = "gfx/leaders/NZL/Portrait_New_Zeeland_robert_row.dds"
+	portrait_path  = "gfx/leaders/NZL/Portrait_New_Zealand_robert_row.dds"
 	traits = {  hill_fighter panzer_leader  panzer_expert infantry_leader infantry_expert logistics_wizard inspirational_leader offensive_doctrine fast_planner  }
 	skill = 6
 	attack_skill = 4
@@ -5084,7 +5084,7 @@ create_field_marshal = {
 
 create_corps_commander = {
 	name = "William Stevens" #Point Value: 18 #3/23/21 -Engineer -SCAVENGER #4/12/21 +Jungle Rat +Ranger
-	portrait_path  = "gfx/leaders/NZL/Portrait_New_Zeeland_william_stevens.dds"
+	portrait_path  = "gfx/leaders/NZL/Portrait_New_Zealand_william_stevens.dds"
 	traits = { jungle_rat ranger panzer_leader panzer_expert trickster expert_improviser }
 	skill = 6
 	attack_skill = 5
@@ -5325,7 +5325,7 @@ create_corps_commander = {
 }
 create_corps_commander = {
     name = "Leslie Andrew" #Point Value: 18 #4/12/21 +Hill Fighter -Organizer
-    picture = "Portrait_New_Zeeland_Leslie_Andrew.dds"
+    picture = "Portrait_New_Zealand_Leslie_Andrew.dds"
     traits = {  desert_fox hill_fighter panzer_leader panzer_expert trickster expert_improviser }
     skill = 6
     attack_skill = 5
@@ -5782,7 +5782,7 @@ create_corps_commander = {  #Toxic
 }
 create_corps_commander = { #NZL-GENERALS-START
     name = "Leslie Andrew" #Point Value: 18 #4/12/21 +Hill Fighter -Organizer
-    picture = "Portrait_New_Zeeland_Leslie_Andrew.dds"
+    picture = "Portrait_New_Zealand_Leslie_Andrew.dds"
     traits = {  desert_fox hill_fighter panzer_leader panzer_expert trickster expert_improviser }
     skill = 6
     attack_skill = 5
@@ -5792,7 +5792,7 @@ create_corps_commander = { #NZL-GENERALS-START
 }
 create_corps_commander = {
 	name = "Bernard Freyberg" #Point Value: 18 #3/23/21 -Desert Fox -Guerilla Fighter +Adaptable
-	portrait_path  = "gfx/leaders/NZL/Portrait_New_Zeeland_bernard_freyberg.dds"
+	portrait_path  = "gfx/leaders/NZL/Portrait_New_Zealand_bernard_freyberg.dds"
 	traits = { infantry_leader infantry_expert adaptable  naval_invader invader_ii trickster }
 	skill = 6
 	attack_skill = 4
@@ -5803,7 +5803,7 @@ create_corps_commander = {
 
 create_field_marshal = {
 	name = "Robert Row" #Point Value: 14 #3/23/21 -Organizer -Organizational Leader
-	portrait_path  = "gfx/leaders/NZL/Portrait_New_Zeeland_robert_row.dds"
+	portrait_path  = "gfx/leaders/NZL/Portrait_New_Zealand_robert_row.dds"
 	traits = {  hill_fighter panzer_leader  panzer_expert infantry_leader infantry_expert logistics_wizard inspirational_leader offensive_doctrine fast_planner  }
 	skill = 6
 	attack_skill = 4
@@ -5814,13 +5814,13 @@ create_field_marshal = {
 
 create_corps_commander = {
 	name = "William Stevens" #Point Value: 18 #3/23/21 -Engineer -SCAVENGER #4/12/21 +Jungle Rat +Ranger
-	portrait_path  = "gfx/leaders/NZL/Portrait_New_Zeeland_william_stevens.dds"
+	portrait_path  = "gfx/leaders/NZL/Portrait_New_Zealand_william_stevens.dds"
 	traits = { jungle_rat ranger panzer_leader panzer_expert trickster expert_improviser }
 	skill = 6
 	attack_skill = 5
 	defense_skill = 3
 	planning_skill = 5
-	logistics_skill = 6 #NEW-ZEELAND-END
+	logistics_skill = 6 #NEW-Zealand-END
 }
 				create_corps_commander = {#RAJ-GENERALS-START
 					name = "Kodandera Madappa Cariappa" #Point Value: 18  #2/10/21 +Mountaineer
