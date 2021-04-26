@@ -573,9 +573,6 @@ technologies = {
 	}
 	
 	nuclear_reactor = {
-
-		# can build reactors
-		
 		start_year = 1943
 		research_cost = 5
 		
@@ -583,12 +580,10 @@ technologies = {
 			name = electronics_folder
 			position = { x = 0 y = 2 }
 		}
-
 		path = {
 			leads_to_tech = nukes 
 			research_cost_coeff = 1
-		}
-		
+		}	
 		categories = {
 			nuclear
 		}
@@ -607,8 +602,6 @@ technologies = {
 			name = electronics_folder
 			position = { x = 0 y = 6 }
 		}
-		
-		on_research_complete = { add_equipment_to_stockpile = { type = strat_bomber_equipment_1 amount = 50 producer = SWE } }
 		nuclear_production = 1
 		categories = {	nuclear	}
 	}
