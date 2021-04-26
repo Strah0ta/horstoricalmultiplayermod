@@ -1380,12 +1380,6 @@ HMP_script_spain = {
 	SPR = { add_threat = 3 }	
 }
 
-HMP_script_generals = {   #most generals and admirals are here so it is easy for me to parse through leaders without going through 20 files -Thrasymachus
-HMP_AXIS_generals = yes
-HMP_SOV_generals = yes
-HMP_ALLIED_generals = yes
-}
-
 ####################################GENERAL TRAIT BALANCING###############################
 ###Most general traits have a value of 1-5. The value can be modified/ignored depending on 
 ###if it is a FM trait on a commander leading an army or a general trait on a commander 
@@ -1414,7 +1408,7 @@ HMP_ALLIED_generals = yes
 ###	DEFENSIVE DOCTRINE = 5
 #########################################################################################
 
-HMP_AXIS_generals = {
+HMP_script_generals = { 
 GER = { 
 create_navy_leader = {
 	name = "Karl Dönitz"
@@ -3786,8 +3780,6 @@ create_corps_commander = {
 }
 
 }
-}
-HMP_SOV_generals = {
 SOV = {   
 	   create_field_marshal = {
 		name = "Boris Shaposhnikov" #Point Value: 15 #2/5/21 +Improv. Expert +Organisational Leader +Inspirational Leader +Offensive Doctrine +Organizer #4/10/21 +Ranger
@@ -4206,9 +4198,7 @@ create_navy_leader = {
 		nationalities = { SOV GER }
 	}
 
-		}
 }
-HMP_ALLIED_generals = {
 NOR = { 
 create_corps_commander = {
 	name = "Carl Gustav Fleischer"  #Point Value: 21
