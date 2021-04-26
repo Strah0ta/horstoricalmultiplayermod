@@ -5115,7 +5115,7 @@ create_field_marshal = {
 }
 create_field_marshal = {
 	name = "Charles Foulkes"
-	portrait_path  = "gfx/leaders/CAN/Potrait_Canada_Charles_Foulkes.dds"  # Point Value: 14 #3/23/21 -Organizer -Commando -Camo Expert -Organizational Leader -Inspirational Leader
+	portrait_path  = "gfx/leaders/CAN/Portrait_Canada_Charles_Foulkes.dds"  # Point Value: 14 #3/23/21 -Organizer -Commando -Camo Expert -Organizational Leader -Inspirational Leader
 	traits = { panzer_leader panzer_expert defensive_doctrine  logistics_wizard skirmisher }
 	skill = 6
 	attack_skill = 4
@@ -5126,7 +5126,7 @@ create_field_marshal = {
 
 create_corps_commander = {
 	name = "Bert Hoffmeister"  # Point Value: 18 #3/23/21 -Trickster -Organizer
-	portrait_path = "gfx/leaders/CAN/Potrait_Canada_bert_hoffmeister.dds"
+	portrait_path = "gfx/leaders/CAN/Portrait_Canada_bert_hoffmeister.dds"
 	traits = {  panzer_leader panzer_expert hill_fighter trait_engineer fortress_buster expert_improviser }
 	skill = 6
 	attack_skill = 4
@@ -5167,7 +5167,7 @@ create_field_marshal = {
 }
 create_corps_commander = {
 	name = "George Edwin Brink" #Point Value: 18 #3/23/21 +Urban Assault Specialist +Organizer
-	portrait_path  = "gfx/leaders/SAF/Potrait_South_Africa_George_Edwin_Brink.dds"
+	portrait_path  = "gfx/leaders/SAF/Portrait_South_Africa_George_Edwin_Brink.dds"
 	traits = { organizer panzer_leader panzer_expert trait_engineer scavenger urban_assault_specialist desert_fox}
 	skill = 6
 	attack_skill = 4
@@ -5387,7 +5387,7 @@ create_field_marshal = { #SAF-GENERAL-START
 }
 create_corps_commander = {
 	name = "George Edwin Brink" #Point Value: 18 #3/23/21 +Urban Assault Specialist +Organizer
-	portrait_path  = "gfx/leaders/SAF/Potrait_South_Africa_George_Edwin_Brink.dds"
+	portrait_path  = "gfx/leaders/SAF/Portrait_South_Africa_George_Edwin_Brink.dds"
 	traits = { organizer panzer_leader panzer_expert trait_engineer scavenger urban_assault_specialist desert_fox}
 	skill = 6
 	attack_skill = 4
@@ -5420,7 +5420,7 @@ create_field_marshal = { #can-start
 }
 create_field_marshal = {
 	name = "Charles Foulkes"
-	portrait_path  = "gfx/leaders/CAN/Potrait_Canada_Charles_Foulkes.dds"  # Point Value: 14 #3/23/21 -Organizer -Commando -Camo Expert -Organizational Leader -Inspirational Leader
+	portrait_path  = "gfx/leaders/CAN/Portrait_Canada_Charles_Foulkes.dds"  # Point Value: 14 #3/23/21 -Organizer -Commando -Camo Expert -Organizational Leader -Inspirational Leader
 	traits = { panzer_leader panzer_expert defensive_doctrine  logistics_wizard skirmisher }
 	skill = 6
 	attack_skill = 4
@@ -5431,7 +5431,7 @@ create_field_marshal = {
 
 create_corps_commander = {
 	name = "Bert Hoffmeister"  # Point Value: 18 #3/23/21 -Trickster -Organizer
-	portrait_path = "gfx/leaders/CAN/Potrait_Canada_bert_hoffmeister.dds"
+	portrait_path = "gfx/leaders/CAN/Portrait_Canada_bert_hoffmeister.dds"
 	traits = {  panzer_leader panzer_expert hill_fighter trait_engineer fortress_buster expert_improviser }
 	skill = 6
 	attack_skill = 4
@@ -5462,7 +5462,7 @@ create_corps_commander = {  #Toxic
 }
 				create_corps_commander = { #RAJ-GENERAL-START
 					name = "Kodandera Madappa Cariappa" #Point Value: 18  #2/10/21 +Mountaineer
-					portrait_path = "Potrait_The_RAJ_kodandera_madappa_cariappa.dds"
+					portrait_path = "Portrait_The_RAJ_kodandera_madappa_cariappa.dds"
 					traits = { infantry_leader infantry_expert adaptable hill_fighter trait_mountaineer skilled_staffer }
 					skill = 6
 					attack_skill = 3
@@ -5472,7 +5472,7 @@ create_corps_commander = {  #Toxic
 				}
 				create_corps_commander = {
 					name = "Kodandera Subayya Thimayya" #Point Value: 17 #2/10/21 +Jungle Rat
-					portrait_path = "Potrait_The_RAJ_k_s_thimayya.dds"
+					portrait_path = "Portrait_The_RAJ_k_s_thimayya.dds"
 					traits = { panzer_leader panzer_expert trait_engineer scavenger fortress_buster jungle_rat }
 					skill = 6
 					attack_skill = 4
@@ -5482,7 +5482,7 @@ create_corps_commander = {  #Toxic
 				}
 				create_field_marshal = {
 					name = "Jayanto Nath Chaudhuri" #Point Value: 16 
-					portrait_path = "Potrait_The_RAJ_j_n_chaudhuri.dds" #1 point over
+					portrait_path = "Portrait_The_RAJ_j_n_chaudhuri.dds" #1 point over
 					traits = { panzer_leader panzer_expert ambusher logistics_wizard organizer defensive_doctrine }
 					skill = 6
 					attack_skill = 5
@@ -5492,7 +5492,7 @@ create_corps_commander = {  #Toxic
 				}
 				create_corps_commander = {
 				name = "Orde Wingate" #Point Value: 17
-                                portrait_path  = "Potrait_The_RAJ_orde_wingate.dds" #1 point over
+                                portrait_path  = "Portrait_The_RAJ_orde_wingate.dds" #1 point over
 				traits = { skilled_staffer jungle_rat trait_mountaineer infantry_leader ambusher commando camouflage_expert }
 				skill = 6
 				attack_skill = 4
@@ -5503,7 +5503,7 @@ create_corps_commander = {  #Toxic
 		
 create_corps_commander = {
 	name = "Noel Beresford-Peirse" #Point Value: 18 #3/23/21 +Hill Fighter
-	portrait_path = "Potrait_The_RAJ_noel_beresford_peirse.dds"
+	portrait_path = "Portrait_The_RAJ_noel_beresford_peirse.dds"
 	traits = { trickster expert_improviser panzer_leader panzer_expert desert_fox hill_fighter }
 	skill = 6
 	attack_skill = 6
@@ -5514,7 +5514,7 @@ create_corps_commander = {
 
 create_field_marshal = {
 	name = "Frank Messervy" #Point Value: 14.5 #2/10/21 -Skilled Staffer -Organizer -Commando
-	portrait_path = "Potrait_The_RAJ_frank_messervy.dds" #0.5 points over
+	portrait_path = "Portrait_The_RAJ_frank_messervy.dds" #0.5 points over
 	traits = { logistics_wizard organisational_leader inspirational_leader defensive_doctrine infantry_leader  camouflage_expert }
 	skill = 6
 	attack_skill = 3
@@ -5525,7 +5525,7 @@ create_field_marshal = {
 
 create_corps_commander = {
 	name = "Douglas Gracey" #Point Value: 18 #3/23/21 +Swamp Fox +Urban Assault Specialist 
-	portrait_path = "Potrait_The_RAJ_douglas_gracey.dds"
+	portrait_path = "Portrait_The_RAJ_douglas_gracey.dds"
 	traits = { desert_fox urban_assault_specialist swamp_fox infantry_leader ambusher  trickster guerilla_fighter }
 	skill = 6
 	attack_skill = 3
@@ -5654,7 +5654,7 @@ create_corps_commander = {
 
 				create_corps_commander = {#RAJ-GENERALS-START
 					name = "Kodandera Madappa Cariappa" #Point Value: 18  #2/10/21 +Mountaineer
-					portrait_path = "Potrait_The_RAJ_kodandera_madappa_cariappa.dds"
+					portrait_path = "Portrait_The_RAJ_kodandera_madappa_cariappa.dds"
 					traits = { infantry_leader infantry_expert adaptable hill_fighter trait_mountaineer skilled_staffer }
 					skill = 6
 					attack_skill = 3
@@ -5664,7 +5664,7 @@ create_corps_commander = {
 				}
 				create_corps_commander = {
 					name = "Kodandera Subayya Thimayya" #Point Value: 17 #2/10/21 +Jungle Rat
-					portrait_path = "Potrait_The_RAJ_k_s_thimayya.dds"
+					portrait_path = "Portrait_The_RAJ_k_s_thimayya.dds"
 					traits = { panzer_leader panzer_expert trait_engineer scavenger fortress_buster jungle_rat }
 					skill = 6
 					attack_skill = 4
@@ -5674,7 +5674,7 @@ create_corps_commander = {
 				}
 				create_field_marshal = {
 					name = "Jayanto Nath Chaudhuri" #Point Value: 16 
-					portrait_path = "Potrait_The_RAJ_j_n_chaudhuri.dds" #1 point over
+					portrait_path = "Portrait_The_RAJ_j_n_chaudhuri.dds" #1 point over
 					traits = { panzer_leader panzer_expert ambusher logistics_wizard organizer defensive_doctrine }
 					skill = 6
 					attack_skill = 5
@@ -5684,7 +5684,7 @@ create_corps_commander = {
 				}
 				create_corps_commander = {
 				name = "Orde Wingate" #Point Value: 17
-                                portrait_path  = "Potrait_The_RAJ_orde_wingate.dds" #1 point over
+                                portrait_path  = "Portrait_The_RAJ_orde_wingate.dds" #1 point over
 				traits = { skilled_staffer jungle_rat trait_mountaineer infantry_leader ambusher commando camouflage_expert }
 				skill = 6
 				attack_skill = 4
@@ -5695,7 +5695,7 @@ create_corps_commander = {
 		
 create_corps_commander = {
 	name = "Noel Beresford-Peirse" #Point Value: 18 #3/23/21 +Hill Fighter
-	portrait_path = "Potrait_The_RAJ_noel_beresford_peirse.dds"
+	portrait_path = "Portrait_The_RAJ_noel_beresford_peirse.dds"
 	traits = { trickster expert_improviser panzer_leader panzer_expert desert_fox hill_fighter }
 	skill = 6
 	attack_skill = 6
@@ -5706,7 +5706,7 @@ create_corps_commander = {
 
 create_field_marshal = {
 	name = "Frank Messervy" #Point Value: 14.5 #2/10/21 -Skilled Staffer -Organizer -Commando
-	portrait_path = "Potrait_The_RAJ_frank_messervy.dds" #0.5 points over
+	portrait_path = "Portrait_The_RAJ_frank_messervy.dds" #0.5 points over
 	traits = { logistics_wizard organisational_leader inspirational_leader defensive_doctrine infantry_leader  camouflage_expert }
 	skill = 6
 	attack_skill = 3
@@ -5717,7 +5717,7 @@ create_field_marshal = {
 
 create_corps_commander = {
 	name = "Douglas Gracey" #Point Value: 18 #3/23/21 +Swamp Fox +Urban Assault Specialist 
-	portrait_path = "Potrait_The_RAJ_douglas_gracey.dds"
+	portrait_path = "Portrait_The_RAJ_douglas_gracey.dds"
 	traits = { desert_fox urban_assault_specialist swamp_fox infantry_leader ambusher  trickster guerilla_fighter }
 	skill = 6
 	attack_skill = 3
@@ -5737,7 +5737,7 @@ create_field_marshal = {
 }
 create_corps_commander = {
 	name = "George Edwin Brink" #Point Value: 18 #3/23/21 +Urban Assault Specialist +Organizer
-	portrait_path  = "gfx/leaders/SAF/Potrait_South_Africa_George_Edwin_Brink.dds"
+	portrait_path  = "gfx/leaders/SAF/Portrait_South_Africa_George_Edwin_Brink.dds"
 	traits = { organizer panzer_leader panzer_expert trait_engineer scavenger urban_assault_specialist desert_fox}
 	skill = 6
 	attack_skill = 4
@@ -5841,7 +5841,7 @@ create_field_marshal = { #CANADA-GENERALS-START
 }
 create_field_marshal = {
 	name = "Charles Foulkes"
-	portrait_path  = "gfx/leaders/CAN/Potrait_Canada_Charles_Foulkes.dds"  # Point Value: 14 #3/23/21 -Organizer -Commando -Camo Expert -Organizational Leader -Inspirational Leader
+	portrait_path  = "gfx/leaders/CAN/Portrait_Canada_Charles_Foulkes.dds"  # Point Value: 14 #3/23/21 -Organizer -Commando -Camo Expert -Organizational Leader -Inspirational Leader
 	traits = { panzer_leader panzer_expert defensive_doctrine  logistics_wizard skirmisher }
 	skill = 6
 	attack_skill = 4
@@ -5852,7 +5852,7 @@ create_field_marshal = {
 
 create_corps_commander = {
 	name = "Bert Hoffmeister"  # Point Value: 18 #3/23/21 -Trickster -Organizer
-	portrait_path = "gfx/leaders/CAN/Potrait_Canada_bert_hoffmeister.dds"
+	portrait_path = "gfx/leaders/CAN/Portrait_Canada_bert_hoffmeister.dds"
 	traits = {  panzer_leader panzer_expert hill_fighter trait_engineer fortress_buster expert_improviser }
 	skill = 6
 	attack_skill = 4
@@ -6066,7 +6066,7 @@ create_corps_commander = {
 }
 				create_corps_commander = {#RAJ-GENERALS-START
 					name = "Kodandera Madappa Cariappa" #Point Value: 18  #2/10/21 +Mountaineer
-					portrait_path = "Potrait_The_RAJ_kodandera_madappa_cariappa.dds"
+					portrait_path = "Portrait_The_RAJ_kodandera_madappa_cariappa.dds"
 					traits = { infantry_leader infantry_expert adaptable hill_fighter trait_mountaineer skilled_staffer }
 					skill = 6
 					attack_skill = 3
@@ -6076,7 +6076,7 @@ create_corps_commander = {
 				}
 				create_corps_commander = {
 					name = "Kodandera Subayya Thimayya" #Point Value: 17 #2/10/21 +Jungle Rat
-					portrait_path = "Potrait_The_RAJ_k_s_thimayya.dds"
+					portrait_path = "Portrait_The_RAJ_k_s_thimayya.dds"
 					traits = { panzer_leader panzer_expert trait_engineer scavenger fortress_buster jungle_rat }
 					skill = 6
 					attack_skill = 4
@@ -6086,7 +6086,7 @@ create_corps_commander = {
 				}
 				create_field_marshal = {
 					name = "Jayanto Nath Chaudhuri" #Point Value: 16 
-					portrait_path = "Potrait_The_RAJ_j_n_chaudhuri.dds" #1 point over
+					portrait_path = "Portrait_The_RAJ_j_n_chaudhuri.dds" #1 point over
 					traits = { panzer_leader panzer_expert ambusher logistics_wizard organizer defensive_doctrine }
 					skill = 6
 					attack_skill = 5
@@ -6096,7 +6096,7 @@ create_corps_commander = {
 				}
 				create_corps_commander = {
 				name = "Orde Wingate" #Point Value: 17
-                                portrait_path  = "Potrait_The_RAJ_orde_wingate.dds" #1 point over
+                                portrait_path  = "Portrait_The_RAJ_orde_wingate.dds" #1 point over
 				traits = { skilled_staffer jungle_rat trait_mountaineer infantry_leader ambusher commando camouflage_expert }
 				skill = 6
 				attack_skill = 4
@@ -6107,7 +6107,7 @@ create_corps_commander = {
 		
 create_corps_commander = {
 	name = "Noel Beresford-Peirse" #Point Value: 18 #3/23/21 +Hill Fighter
-	portrait_path = "Potrait_The_RAJ_noel_beresford_peirse.dds"
+	portrait_path = "Portrait_The_RAJ_noel_beresford_peirse.dds"
 	traits = { trickster expert_improviser panzer_leader panzer_expert desert_fox hill_fighter }
 	skill = 6
 	attack_skill = 6
@@ -6118,7 +6118,7 @@ create_corps_commander = {
 
 create_field_marshal = {
 	name = "Frank Messervy" #Point Value: 14.5 #2/10/21 -Skilled Staffer -Organizer -Commando
-	portrait_path = "Potrait_The_RAJ_frank_messervy.dds" #0.5 points over
+	portrait_path = "Portrait_The_RAJ_frank_messervy.dds" #0.5 points over
 	traits = { logistics_wizard organisational_leader inspirational_leader defensive_doctrine infantry_leader  camouflage_expert }
 	skill = 6
 	attack_skill = 3
@@ -6129,7 +6129,7 @@ create_field_marshal = {
 
 create_corps_commander = {
 	name = "Douglas Gracey" #Point Value: 18 #3/23/21 +Swamp Fox +Urban Assault Specialist 
-	portrait_path = "Potrait_The_RAJ_douglas_gracey.dds"
+	portrait_path = "Portrait_The_RAJ_douglas_gracey.dds"
 	traits = { desert_fox urban_assault_specialist swamp_fox infantry_leader ambusher  trickster guerilla_fighter }
 	skill = 6
 	attack_skill = 3
@@ -6149,7 +6149,7 @@ create_field_marshal = { #RAJ-GENERALS-START
 }
 create_corps_commander = {
 	name = "George Edwin Brink" #Point Value: 18 #3/23/21 +Urban Assault Specialist +Organizer
-	portrait_path  = "gfx/leaders/SAF/Potrait_South_Africa_George_Edwin_Brink.dds"
+	portrait_path  = "gfx/leaders/SAF/Portrait_South_Africa_George_Edwin_Brink.dds"
 	traits = { organizer panzer_leader panzer_expert trait_engineer scavenger urban_assault_specialist desert_fox}
 	skill = 6
 	attack_skill = 4
@@ -6349,7 +6349,7 @@ create_corps_commander = {
 NZL = { 
 create_field_marshal = { #CAN
 	name = "Charles Foulkes"
-	portrait_path  = "gfx/leaders/CAN/Potrait_Canada_Charles_Foulkes.dds"  # Point Value: 14 #3/23/21 -Organizer -Commando -Camo Expert -Organizational Leader -Inspirational Leader
+	portrait_path  = "gfx/leaders/CAN/Portrait_Canada_Charles_Foulkes.dds"  # Point Value: 14 #3/23/21 -Organizer -Commando -Camo Expert -Organizational Leader -Inspirational Leader
 	traits = { panzer_leader panzer_expert defensive_doctrine  logistics_wizard skirmisher }
 	skill = 6
 	attack_skill = 4
@@ -6360,7 +6360,7 @@ create_field_marshal = { #CAN
 
 create_corps_commander = {
 	name = "Bert Hoffmeister"  # Point Value: 18 #3/23/21 -Trickster -Organizer
-	portrait_path = "gfx/leaders/CAN/Potrait_Canada_bert_hoffmeister.dds"
+	portrait_path = "gfx/leaders/CAN/Portrait_Canada_bert_hoffmeister.dds"
 	traits = {  panzer_leader panzer_expert hill_fighter trait_engineer fortress_buster expert_improviser }
 	skill = 6
 	attack_skill = 4
@@ -6391,7 +6391,7 @@ create_corps_commander = {  #Toxic
 }
 				create_corps_commander = { #raj-gens-start
 					name = "Kodandera Madappa Cariappa" #Point Value: 18  #2/10/21 +Mountaineer
-					portrait_path = "Potrait_The_RAJ_kodandera_madappa_cariappa.dds"
+					portrait_path = "Portrait_The_RAJ_kodandera_madappa_cariappa.dds"
 					traits = { infantry_leader infantry_expert adaptable hill_fighter trait_mountaineer skilled_staffer }
 					skill = 6
 					attack_skill = 3
@@ -6401,7 +6401,7 @@ create_corps_commander = {  #Toxic
 				}
 				create_corps_commander = {
 					name = "Kodandera Subayya Thimayya" #Point Value: 17 #2/10/21 +Jungle Rat
-					portrait_path = "Potrait_The_RAJ_k_s_thimayya.dds"
+					portrait_path = "Portrait_The_RAJ_k_s_thimayya.dds"
 					traits = { panzer_leader panzer_expert trait_engineer scavenger fortress_buster jungle_rat }
 					skill = 6
 					attack_skill = 4
@@ -6411,7 +6411,7 @@ create_corps_commander = {  #Toxic
 				}
 				create_field_marshal = {
 					name = "Jayanto Nath Chaudhuri" #Point Value: 16 
-					portrait_path = "Potrait_The_RAJ_j_n_chaudhuri.dds" #1 point over
+					portrait_path = "Portrait_The_RAJ_j_n_chaudhuri.dds" #1 point over
 					traits = { panzer_leader panzer_expert ambusher logistics_wizard organizer defensive_doctrine }
 					skill = 6
 					attack_skill = 5
@@ -6421,7 +6421,7 @@ create_corps_commander = {  #Toxic
 				}
 				create_corps_commander = {
 				name = "Orde Wingate" #Point Value: 17
-                                portrait_path  = "Potrait_The_RAJ_orde_wingate.dds" #1 point over
+                                portrait_path  = "Portrait_The_RAJ_orde_wingate.dds" #1 point over
 				traits = { skilled_staffer jungle_rat trait_mountaineer infantry_leader ambusher commando camouflage_expert }
 				skill = 6
 				attack_skill = 4
@@ -6432,7 +6432,7 @@ create_corps_commander = {  #Toxic
 		
 create_corps_commander = {
 	name = "Noel Beresford-Peirse" #Point Value: 18 #3/23/21 +Hill Fighter
-	portrait_path = "Potrait_The_RAJ_noel_beresford_peirse.dds"
+	portrait_path = "Portrait_The_RAJ_noel_beresford_peirse.dds"
 	traits = { trickster expert_improviser panzer_leader panzer_expert desert_fox hill_fighter }
 	skill = 6
 	attack_skill = 6
@@ -6443,7 +6443,7 @@ create_corps_commander = {
 
 create_field_marshal = {
 	name = "Frank Messervy" #Point Value: 14.5 #2/10/21 -Skilled Staffer -Organizer -Commando
-	portrait_path = "Potrait_The_RAJ_frank_messervy.dds" #0.5 points over
+	portrait_path = "Portrait_The_RAJ_frank_messervy.dds" #0.5 points over
 	traits = { logistics_wizard organisational_leader inspirational_leader defensive_doctrine infantry_leader  camouflage_expert }
 	skill = 6
 	attack_skill = 3
@@ -6454,7 +6454,7 @@ create_field_marshal = {
 
 create_corps_commander = {
 	name = "Douglas Gracey" #Point Value: 18 #3/23/21 +Swamp Fox +Urban Assault Specialist 
-	portrait_path = "Potrait_The_RAJ_douglas_gracey.dds"
+	portrait_path = "Portrait_The_RAJ_douglas_gracey.dds"
 	traits = { desert_fox urban_assault_specialist swamp_fox infantry_leader ambusher  trickster guerilla_fighter }
 	skill = 6
 	attack_skill = 3
