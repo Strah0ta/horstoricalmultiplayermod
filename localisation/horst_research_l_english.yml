@@ -8,6 +8,8 @@
  ETH_CAS_equipment_2:0 "Breda Ba.88 Lince"
  ETH_CAS_equipment_2_short:0 "Ba.88 Lince"
  ETH_CAS_equipment_3:0 "Breda Ba.201"
+ PER_NEUTRAL:0 "Neutral Middle East"
+ deep_desert_desc:0 ""
  naval_do_all_title_label:0 "DOCTRINES ARE NOT EXCLUSIVE"
  naval_do_all_title_label_tt:0 "DOCTRINES ARE NOT EXCLUSIVE"
  naval_do_all_title_tt:0 "DOCTRINES ARE NOT EXCLUSIVE"
