@@ -5651,7 +5651,7 @@ create_corps_commander = {
 	planning_skill = 5
 	logistics_skill = 6
 }
-}
+
 				create_corps_commander = {#RAJ-GENERALS-START
 					name = "Kodandera Madappa Cariappa" #Point Value: 18  #2/10/21 +Mountaineer
 					portrait_path = "Potrait_The_RAJ_kodandera_madappa_cariappa.dds"
