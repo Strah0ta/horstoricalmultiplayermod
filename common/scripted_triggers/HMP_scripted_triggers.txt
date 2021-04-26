@@ -9,7 +9,7 @@ AND = { ENG = { controls_state = 116 } SOV = { controls_state = 137 } }
 
 uk_needs_help = {  
 NOT = { ENG = { 
-has_full_control_of_state = 332 has_full_control_of_state = 331 has_full_control_of_state = 345 has_full_control_of_state = 49 has_full_control_of_state = 349 has_full_control_of_state = 352 has_full_control_of_state = 309 has_full_control_of_state = 151 has_full_control_of_state = 38 has_full_control_of_state = 127 has_full_control_of_state = 123 has_full_control_of_state = 125 has_full_control_of_state = 126 has_full_control_of_state = 338 has_full_control_of_state = 119 has_full_control_of_state = 133 has_full_control_of_state = 121 has_full_control_of_state = 136  has_full_control_of_state = 311
+has_full_control_of_state = 332 has_full_control_of_state = 331 has_full_control_of_state = 345 has_full_control_of_state = 49 has_full_control_of_state = 349 has_full_control_of_state = 309 has_full_control_of_state = 151 has_full_control_of_state = 38 has_full_control_of_state = 127 has_full_control_of_state = 123 has_full_control_of_state = 125 has_full_control_of_state = 126 has_full_control_of_state = 338 has_full_control_of_state = 119 has_full_control_of_state = 133 has_full_control_of_state = 121 has_full_control_of_state = 136  has_full_control_of_state = 311
  }}
 }
 

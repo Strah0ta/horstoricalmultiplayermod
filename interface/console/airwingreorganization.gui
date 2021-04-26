@@ -143,7 +143,7 @@ guiTypes = {
 		size = { width = 964 height= 650 }
 		orientation= center
 		moveable = yes
-		fade_time = 200
+		fade_time = 1
 		fade_type = linear
 		clipping = no
 
@@ -568,7 +568,7 @@ guiTypes = {
 				show_position = { x = 60 y = -355 }
 				show_animation_type = decelerated
 				hide_animation_type = accelerated
-				animation_time = 500
+				animation_time = 000
 				size = { width=200 height=420 }	
 				verticalScrollbar = "right_vertical_slider"
 				margin = { top = 7 bottom = 7 right = 6 }

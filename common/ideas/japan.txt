@@ -296,7 +296,7 @@ ideas = {
 				army_org_factor = 0.50
 				naval_speed_factor = 0.10 
 				naval_strike_agility_factor = 0.12
-				breakthrough_factor = 0.30
+				breakthrough_factor = 0.5
 				invasion_preparation = -0.5 
 				amphibious_invasion_defence = 1 
 				army_defence_factor = 0.05
@@ -405,7 +405,7 @@ ideas = {
 		
 		kanin_kotohito = {	
 			allowed = {	original_tag = JAP	}
-			traits = { army_chief_offensive_1 }
+			traits = { army_chief_offensive_2 }
 		}
 		
 		hajime_sugiyama = {

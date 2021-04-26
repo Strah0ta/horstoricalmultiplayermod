@@ -127,6 +127,19 @@ categories =  {
 		sound_type = desert
 	}
 	
+		deep_desert = {
+		color = { 255 127 0 }
+		movement_cost = 2.0
+		attrition = 0.6
+		match_value = 8
+		units = {
+			attack = -0.6
+			defence = -0.6
+			movement = -0.6
+		}
+		sound_type = desert
+	}
+	
 	water_fjords = {
 		naval_terrain = yes
 		color = { 75 162 198 }

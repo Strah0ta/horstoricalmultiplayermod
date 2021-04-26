@@ -86,7 +86,7 @@ guiTypes = {
 		position = { x=0 y=0}	
 		size = { width = 1092 height = 553 }
 		moveable = yes
-		fade_time = 500
+		fade_time = 1
 		fade_type = linear
 		orientation = CENTER
 		origo = center
@@ -542,7 +542,7 @@ guiTypes = {
 				show_position = { x = 10 y = 25 }
 				show_animation_type = decelerated
 				hide_animation_type = accelerated
-				animation_time = 300
+				animation_time = 000
 				size = { width=230 height=260 }	
 				verticalScrollbar = "right_vertical_slider"
 				margin = { top = 7 bottom = 7 right = 6 }
@@ -611,7 +611,7 @@ guiTypes = {
 				show_position = { x = 10 y = 27 }
 				show_animation_type = decelerated
 				hide_animation_type = accelerated
-				animation_time = 300
+				animation_time = 000
 				size = { width=230 height=325 }	
 				verticalScrollbar = "right_vertical_slider"
 				margin = { top = 7 bottom = 7 right = 6 }
@@ -724,7 +724,7 @@ guiTypes = {
 			position = { x=13 y=46 }
 			size = { width=512 height=447 }
 			moveable = no
-			fade_time = 500
+			fade_time = 1
 			fade_type = linear
 			show_sound = pop_up
 
@@ -808,7 +808,7 @@ guiTypes = {
 			position = { x=13 y=47 }
 			size = { width=532 height=447 }
 			moveable = no
-			fade_time = 500
+			fade_time = 1
 			fade_type = linear
 			show_sound = pop_up
 			verticalScrollbar = "right_vertical_slider"

@@ -6,7 +6,7 @@ guiTypes = {
 		show_position = { x=-6 y =78 }
 		show_animation_type = decelerated
 		hide_animation_type = accelerated
-		animation_time = 300
+		animation_time = 000
 		size = { width=550 height=100%% }
 		
 		#hide_sound = menu_close_window
@@ -569,7 +569,7 @@ guiTypes = {
 		show_position = { x=539 y =78 }
 		show_animation_type = decelerated
 		hide_animation_type = accelerated
-		animation_time = 300
+		animation_time = 000
 		size = { width=395 height=70%% }
 		
 		background = {
@@ -582,7 +582,7 @@ guiTypes = {
 			position = { x=14 y=33}
 			show_animation_type = decelerated
 			hide_animation_type = accelerated
-			animation_time = 300
+			animation_time = 000
 			size = { width=356 height=230 }
 			
 			background = {
@@ -805,7 +805,7 @@ guiTypes = {
 		show_position = { x=539 y =78 }
 		show_animation_type = decelerated
 		hide_animation_type = accelerated
-		animation_time = 300
+		animation_time = 000
 		size = { width=395 height=70%% }
 		
 		background = {
@@ -818,7 +818,7 @@ guiTypes = {
 			position = { x=14 y=33}
 			show_animation_type = decelerated
 			hide_animation_type = accelerated
-			animation_time = 300
+			animation_time = 000
 			size = { width=356 height=260 }
 			
 			background = {

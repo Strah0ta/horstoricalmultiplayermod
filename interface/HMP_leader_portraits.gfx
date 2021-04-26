@@ -3,6 +3,11 @@ spriteTypes = {
 		name = "GFX_Portrait_Salah_al_Din_al_Sabbagh"
 		texturefile = "gfx/leaders/ALB/Portrait_Salah_al_Din_al_Sabbagh.dds"		
 	}	
+	
+	spriteType = {
+		name = "GFX_NZL_leslie_morshead"
+		texturefile = "gfx/leaders/AST/Portrait_AST_leslie_morshead.dds"		
+	}	
 	spriteType = {
 		name = "GFX_Portrait_Mahmud_Salman"
 		texturefile = "gfx/leaders/ALB/Portrait_Mahmud_Salman.dds"		

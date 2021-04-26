@@ -6,7 +6,7 @@ guiTypes = {
 		show_position = { x= -6 y = 78 }
 		show_animation_type = decelerated
 		hide_animation_type = accelerated
-		animation_time = 300
+		animation_time = 000
 		size = { width = 550 height = 100%% }
 		
 		hide_sound = menu_close_window
@@ -834,7 +834,7 @@ guiTypes = {
 		position = { x = 0 y = 0 }
 		size = { width = 1092 height = 90% } # uses max_window_size for clamping
 		moveable = yes
-		fade_time = 500
+		fade_time = 1
 		fade_type = linear
 		orientation = CENTER
 		origo = center

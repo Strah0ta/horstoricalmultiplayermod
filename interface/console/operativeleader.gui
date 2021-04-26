@@ -304,7 +304,7 @@ guiTypes = {
 		size = { width=200 height=100 } 
 		show_animation_type = decelerated
 		hide_animation_type = accelerated
-		animation_time = 120
+		animation_time = 000
 
 		background = {
 			name = "background"

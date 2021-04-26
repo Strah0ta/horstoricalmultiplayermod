@@ -49,6 +49,7 @@ ideas = {
 			allowed_civil_war = {	always = yes	}
 			removal_cost = -1
 					modifier = {
+					industrial_capacity_dockyard = 0.2 
 				refit_ic_cost = -0.1
 				refit_speed = 0.1
 				repair_speed_factor = 0.1

@@ -246,7 +246,7 @@ sub_units = {
 		}
 		
 		group = infantry
-		
+		breakthrough = 1
 		categories = {
 			category_front_line
 			category_light_infantry
@@ -504,13 +504,12 @@ sub_units = {
 		need = { infantry_equipment = 300 }
 
 		forest = {
-			attack = 0.1
+			attack = 0.2
 			defence = 0.1
 			movement = 0.1
 		}
 		jungle = {
-			attack = 0.2
-			defence = 0.05
+			attack = 0.3
 			movement = 0.1
 		}
 	}

@@ -3,7 +3,7 @@ guiTypes = {
         name = "remove_dockyard_container"
         position = { x = 190 y = 139 }
         
-        fade_time = 300
+        fade_time = 1
         fade_type = linear
         
         buttonType = {

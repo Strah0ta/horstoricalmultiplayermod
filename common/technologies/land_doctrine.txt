@@ -480,6 +480,7 @@ technologies = {
 		
 		category_line_artillery = {
 			soft_attack = 0.25
+			default_morale = 0.2
 		}
 		
 		path = {
