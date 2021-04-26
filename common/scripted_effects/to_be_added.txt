@@ -3,5 +3,323 @@ custom_generals = {
 
 
 
-
+##########################################################################################################
 }
+create_field_marshal = { #AST1 26.04.2021
+	name = "Leslie Morshead" #Point Value: 14.5 #3/23/21 -Trickster -Improv Expert -Ambusher +Jungle Rat
+	potrait_path = "gfx/leaders/AST/Portrait_Austrlia_Leslie_Morshead.dds"
+	traits = { organizer logistics_wizard infantry_leader infantry_expert jungle_rat trait_mountaineer thorough_planner }
+	skill = 6
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 8
+	logistics_skill = 6
+}
+create_field_marshal = {
+	name = "Horace Robertson" #Point Value: 14 #3/23/21 -Organizer -Desert Fox
+	potrait_path = "gfx/leaders/AST/Portrait_Austrlia_Horace_Robertson.dds"
+	traits = { logistics_wizard defensive_doctrine hill_fighter infantry_leader ambusher }
+	skill = 6
+	attack_skill = 2
+	defense_skill = 5
+	planning_skill = 6
+	logistics_skill = 6
+}
+create_field_marshal = { #Point Value: 14.5 #3/23/21 -Camo Expert +Logistics Wizard
+	name = "Thomas Blamey"
+	potrait_path = "gfx/leaders/AST/Portrait_Austrlia_Thomas_Blamey.dds"
+	traits = { organizer logistics_wizard organisational_leader offensive_doctrine fast_planner commando panzer_leader panzer_expert   }
+	skill = 6
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 5
+	logistics_skill = 7
+}
+create_corps_commander = {
+	name = "John Northcott" #Point Value:  18 #3/23/21 -Commando 
+	potrait_path = "gfx/leaders/AST/Portrait_Austrlia_John_Northcott.dds"
+	traits = { infantry_leader infantry_expert trait_mountaineer skirmisher paratrooper trait_engineer  fortress_buster }
+	skill = 6
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 8
+	logistics_skill = 5
+}
+
+create_corps_commander = {
+	name = "Henry Wynter" #Point Value: 18 #3/23/21 +Trickster
+	potrait_path = "gfx/leaders/AST/Portrait_Austrlia_Henry_Wynter.dds"
+	traits = { panzer_leader trickster panzer_expert trait_engineer fortress_buster scavenger }
+	skill = 6
+	attack_skill = 5
+	defense_skill = 4
+	planning_skill = 5
+	logistics_skill = 5
+}
+create_corps_commander = {
+	name = "Alan Vasey" #Point Value: 18 #3/23/21 +Guerilla Fighter +Urban Assault Specialist +Jungle Rat
+	potrait_path = "gfx/leaders/AST/Portrait_Austrlia_Alan_Vasey.dds"
+	traits = { hill_fighter desert_fox jungle_rat urban_assault_specialist infantry_leader ambusher guerilla_fighter naval_invader }
+	skill = 6
+	attack_skill = 2
+	defense_skill = 4
+	planning_skill = 8
+	logistics_skill = 5
+}
+create_corps_commander = { 
+	name = "Iven Mackay" #Point Value: 18 + 4 
+	potrait_path  = "gfx/leaders/AST/Portrait_Austrlia_Iven_Mackay.dds"
+	traits = { naval_liason infantry_leader infantry_expert trait_mountaineer jungle_rat expert_improviser swamp_fox cavalry_expert cavalry_leader combined_arms_expert }
+	skill = 6
+	attack_skill = 4
+	defense_skill = 4
+	planning_skill = 6
+	logistics_skill = 5
+}
+}
+#AST
+############################################################################
+#SAF = {
+create_field_marshal = {
+	name = "Jan Smuts" #Point Value: 16 #3/23/21 -Fast Planner -Offensive Doctrine 
+	portrait_path = "gfx/leaders/SAF/Portrait_South_Africa_Jan_Smuts.dds"
+	traits = { panzer_leader panzer_expert desert_fox infantry_leader infantry_expert trickster organizer logistics_wizard  defensive_doctrine  }
+	skill = 6
+	attack_skill = 5
+	defense_skill = 3
+	planning_skill = 4
+	logistics_skill = 7
+}
+create_corps_commander = {
+	name = "George Edwin Brink" #Point Value: 18 #3/23/21 +Urban Assault Specialist +Organizer
+	portrait_path  = "gfx/leaders/SAF/Potrait_South_Africa_George_Edwin_Brink.dds"
+	traits = { organizer panzer_leader panzer_expert trait_engineer scavenger urban_assault_specialist desert_fox}
+	skill = 6
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 5
+	logistics_skill = 7
+}
+
+
+
+create_corps_commander = {
+	name = "Dan Pienaar" #Point Value: 18 #3/23/21 +Mountaineer
+	portrait = Portrait_SAF_Dan_Pienaar.tga"
+	traits = { infantry_leader infantry_expert desert_fox trait_mountaineer naval_invader invader_ii trickster guerilla_fighter }
+	skill = 6
+	attack_skill = 4
+	defense_skill = 4
+	planning_skill = 5
+	logistics_skill = 6
+}
+##############################################################################################################################################
+#CAN = { 
+create_field_marshal = {
+	name = "Guy Simonds" 
+	portrait_path  = "gfx/leaders/CAN/Portrait_CAN_Guy_Simonds.tga"  # Point Value: 14 #3/23/21 +Naval Invader#not vanilla general 
+	traits = {  trickster organizer naval_invader logistics_wizard offensive_doctrine aggressive_assaulter brilliant_strategist panzer_expert panzer_leader trait_reckless }
+	skill = 6
+		attack_skill = 4
+		defense_skill = 3
+		planning_skill = 5
+		logistics_skill = 7
+}
+create_field_marshal = {
+	name = "Charles Foulkes"
+	portrait_path  = "gfx/leaders/CAN/Potrait_Canada_Charles_Foulkes.dds"  # Point Value: 14 #3/23/21 -Organizer -Commando -Camo Expert -Organizational Leader -Inspirational Leader
+	traits = { panzer_leader panzer_expert defensive_doctrine  logistics_wizard skirmisher }
+	skill = 6
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 9
+}
+
+create_corps_commander = {
+	name = "Bert Hoffmeister"  # Point Value: 18 #3/23/21 -Trickster -Organizer
+	portrait_path = gfx/leaders/CAN/Potrait_Canada_bert_hoffmeister.dds"
+	traits = {  panzer_leader panzer_expert hill_fighter trait_engineer fortress_buster expert_improviser }
+	skill = 6
+	attack_skill = 4
+	defense_skill = 2
+	planning_skill = 5
+	logistics_skill = 8
+}
+create_field_marshal = {
+	name = "Percival John Montague" # point value: 14
+	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
+	traits = { defensive_doctrine organisational_leader logistics_wizard infantry_leader ambusher }
+	skill = 6
+    attack_skill = 2
+    defense_skill = 5
+    planning_skill = 3
+    logistics_skill = 9
+}
+
+create_corps_commander = {  #Toxic
+	name = "Thomas Victor Anderson" # point value: 18 #3/23/21 +Desert Fox
+	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
+	traits = { infantry_leader infantry_expert ambusher naval_invader desert_fox naval_liason invader_ii  }
+	skill = 6
+    attack_skill = 2
+    defense_skill = 5
+    planning_skill = 4
+    logistics_skill = 8
+}
+###############################################################################################################################
+RAJ = {
+				create_corps_commander = {
+					name = "Kodandera Madappa Cariappa" #Point Value: 18  #2/10/21 +Mountaineer
+					portrait_path = "Potrait_The_RAJ_kodandera_madappa_cariappa.dds"
+					traits = { infantry_leader infantry_expert adaptable hill_fighter trait_mountaineer skilled_staffer }
+					skill = 6
+					attack_skill = 3
+					defense_skill = 3
+					planning_skill = 5
+					logistics_skill = 8
+				}
+				create_corps_commander = {
+					name = "Kodandera Subayya Thimayya" #Point Value: 17 #2/10/21 +Jungle Rat
+					portrait_path = "Potrait_The_RAJ_k_s_thimayya.dds"
+					traits = { panzer_leader panzer_expert trait_engineer scavenger fortress_buster jungle_rat }
+					skill = 6
+					attack_skill = 4
+					defense_skill = 3
+					planning_skill = 6
+					logistics_skill = 6
+				}
+				create_field_marshal = {
+					name = "Jayanto Nath Chaudhuri" #Point Value: 16 
+					portrait_path = "Potrait_The_RAJ_j_n_chaudhuri.dds" #1 point over
+					traits = { panzer_leader panzer_expert ambusher logistics_wizard organizer defensive_doctrine }
+					skill = 6
+					attack_skill = 5
+					defense_skill = 4
+					planning_skill = 5
+					logistics_skill = 5
+				}
+				create_corps_commander = {
+				name = "Orde Wingate" #Point Value: 17
+                                portrait_path  = "Potrait_The_RAJ_orde_wingate.dds" #1 point over
+				traits = { skilled_staffer jungle_rat trait_mountaineer infantry_leader ambusher commando camouflage_expert }
+				skill = 6
+				attack_skill = 4
+				defense_skill = 5
+				planning_skill = 5
+				logistics_skill = 5
+				}
+		
+create_corps_commander = {
+	name = "Noel Beresford-Peirse" #Point Value: 18 #3/23/21 +Hill Fighter
+	portrait_path = "Potrait_The_RAJ_noel_beresford_peirse.dds"
+	traits = { trickster expert_improviser panzer_leader panzer_expert desert_fox hill_fighter }
+	skill = 6
+	attack_skill = 6
+	defense_skill = 3
+	planning_skill = 5
+	logistics_skill = 5
+}
+
+create_field_marshal = {
+	name = "Frank Messervy" #Point Value: 14.5 #2/10/21 -Skilled Staffer -Organizer -Commando
+	portrait_path = "Potrait_The_RAJ_frank_messervy.dds" #0.5 points over
+	traits = { logistics_wizard organisational_leader inspirational_leader defensive_doctrine infantry_leader  camouflage_expert }
+	skill = 6
+	attack_skill = 3
+	defense_skill = 4
+	planning_skill = 4
+	logistics_skill = 8
+}
+
+create_corps_commander = {
+	name = "Douglas Gracey" #Point Value: 18 #3/23/21 +Swamp Fox +Urban Assault Specialist 
+	portrait_path = "Potrait_The_RAJ_douglas_gracey.dds"
+	traits = { desert_fox urban_assault_specialist swamp_fox infantry_leader ambusher  trickster guerilla_fighter }
+	skill = 6
+	attack_skill = 3
+	defense_skill = 7
+	planning_skill = 4
+	logistics_skill = 5
+}
+#########################################################################################################################################################################
+NZL = {
+
+########################FROM AST###########################
+create_field_marshal = {
+	name = "Leslie Morshead" #Point Value: 14.5 #3/23/21 -Trickster -Improv Expert -Ambusher +Jungle Rat
+	picture = "gfx/leaders/AST/Portrait_AST_leslie_morshead.dds"
+	traits = { organizer logistics_wizard infantry_leader infantry_expert jungle_rat trait_mountaineer thorough_planner }
+	skill = 6
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 8
+	logistics_skill = 6
+}
+create_field_marshal = {
+	name = "Horace Robertson" #Point Value: 14 #3/23/21 -Organizer -Desert Fox
+	picture = "gfx/leaders/AST/Portrait_AST_horace_robertson.dds"
+	traits = { logistics_wizard defensive_doctrine hill_fighter infantry_leader ambusher }
+	skill = 6
+	attack_skill = 2
+	defense_skill = 5
+	planning_skill = 6
+	logistics_skill = 6
+}
+create_field_marshal = { #Point Value: 14.5 #3/23/21 -Camo Expert +Logistics Wizard
+	name = "Thomas Blamey"
+	portrait_path = "gfx/leaders/AST/Portrait_AST_thomas_blamey.dds"
+	traits = { organizer logistics_wizard organisational_leader offensive_doctrine fast_planner commando panzer_leader panzer_expert   }
+	skill = 6
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 5
+	logistics_skill = 7
+}
+
+#####################FROM AST###################################################
+
+create_corps_commander = {
+    name = "Leslie Andrew" #Point Value: 18 #4/12/21 +Hill Fighter -Organizer
+    picture = "Portrait_New_Zealand_Leslie_Andrew.dds"
+    traits = {  desert_fox hill_fighter panzer_leader panzer_expert trickster expert_improviser }
+    skill = 6
+    attack_skill = 5
+    defense_skill = 4
+    planning_skill = 5
+    logistics_skill = 5  
+}
+create_corps_commander = {
+	name = "Bernard Freyberg" #Point Value: 18 #3/23/21 -Desert Fox -Guerilla Fighter +Adaptable
+	portrait_path  = "gfx/leaders/NZL/Portrait_New_Zeeland_bernard_freyberg.dds"
+	traits = { infantry_leader infantry_expert adaptable  naval_invader invader_ii trickster }
+	skill = 6
+	attack_skill = 4
+	defense_skill = 4
+	planning_skill = 5
+	logistics_skill = 6
+}
+
+create_field_marshal = {
+	name = "Robert Row" #Point Value: 14 #3/23/21 -Organizer -Organizational Leader
+	portrait_path  = "gfx/leaders/NZL/Portrait_New_Zeeland_robert_row.dds"
+	traits = {  hill_fighter panzer_leader  panzer_expert infantry_leader infantry_expert logistics_wizard inspirational_leader offensive_doctrine fast_planner  }
+	skill = 6
+	attack_skill = 4
+	defense_skill = 5
+	planning_skill = 4
+	logistics_skill = 6
+}
+
+create_corps_commander = {
+	name = "William Stevens" #Point Value: 18 #3/23/21 -Engineer -SCAVENGER #4/12/21 +Jungle Rat +Ranger
+	portrait_path  = "gfx/leaders/NZL/Portrait_New_Zeeland_william_stevens.dds"
+	traits = { jungle_rat ranger panzer_leader panzer_expert trickster expert_improviser }
+	skill = 6
+	attack_skill = 5
+	defense_skill = 3
+	planning_skill = 5
+	logistics_skill = 6
+}
+}
+
