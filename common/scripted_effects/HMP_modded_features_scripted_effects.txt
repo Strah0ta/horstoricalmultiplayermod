@@ -5257,7 +5257,7 @@ create_corps_commander = {
 	attack_skill = 4
 	defense_skill = 4
 	planning_skill = 6
-	logistics_skill = 5 #AST-GENERALS--END
+	logistics_skill = 5 
 }
 }
 AST = { 
@@ -5801,7 +5801,7 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "Henry Wynter" #Point Value: 18 #3/23/21 +Trickster
-	portrait_path = "gfx/leaders/AST/Portrait_Austrlia_Henry_Wynter.dds"
+	portrait_path = "gfx/leaders/AST/Portrait_Australia_Henry_Wynter.dds"
 	traits = { panzer_leader trickster panzer_expert trait_engineer fortress_buster scavenger }
 	skill = 6
 	attack_skill = 5
@@ -5811,7 +5811,7 @@ create_corps_commander = {
 }
 create_corps_commander = {
 	name = "Alan Vasey" #Point Value: 18 #3/23/21 +Guerilla Fighter +Urban Assault Specialist +Jungle Rat
-	portrait_path = "gfx/leaders/AST/Portrait_Austrlia_Alan_Vasey.dds"
+	portrait_path = "gfx/leaders/AST/Portrait_Australia_Alan_Vasey.dds"
 	traits = { hill_fighter desert_fox jungle_rat urban_assault_specialist infantry_leader ambusher guerilla_fighter naval_invader }
 	skill = 6
 	attack_skill = 2
@@ -5827,7 +5827,7 @@ create_corps_commander = {
 	attack_skill = 4
 	defense_skill = 4
 	planning_skill = 6
-	logistics_skill = 5 #AST-END
+	logistics_skill = 5 
 }
 create_field_marshal = { #CANADA-GENERALS-START
 	name = "Guy Simonds" 
@@ -5879,7 +5879,7 @@ create_corps_commander = {  #Toxic
     attack_skill = 2
     defense_skill = 5
     planning_skill = 4
-    logistics_skill = 8 #CANADA-GENERALS-END
+    logistics_skill = 8 
 }
 }
 
@@ -6239,7 +6239,7 @@ create_corps_commander = {
 	attack_skill = 4
 	defense_skill = 4
 	planning_skill = 6
-	logistics_skill = 5 #AST-END
+	logistics_skill = 5 
 }
 }
 SAF = {
@@ -6343,7 +6343,7 @@ create_corps_commander = {
 	attack_skill = 4
 	defense_skill = 4
 	planning_skill = 6
-	logistics_skill = 5 #AST-generals-end
+	logistics_skill = 5 
 }
 }
 NZL = { 
