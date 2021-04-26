@@ -5882,7 +5882,7 @@ create_corps_commander = {  #Toxic
     logistics_skill = 8 #CANADA-GENERALS-END
 }
 }
-}
+
 BRA = { 
 create_corps_commander = {
 	name = "Mascarenhas de Morais" #Point Value: 18
@@ -6346,6 +6346,7 @@ create_corps_commander = {
 	logistics_skill = 5 #AST-generals-end
 }
 }
+NZL = { 
 create_field_marshal = { #CAN
 	name = "Charles Foulkes"
 	portrait_path  = "gfx/leaders/CAN/Potrait_Canada_Charles_Foulkes.dds"  # Point Value: 14 #3/23/21 -Organizer -Commando -Camo Expert -Organizational Leader -Inspirational Leader
@@ -6502,6 +6503,8 @@ create_corps_commander = {
 	defense_skill = 3
 	planning_skill = 5
 	logistics_skill = 6
+}
+
 }
 
 }
