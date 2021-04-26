@@ -1682,49 +1682,6 @@ ideas = {
 		traits = { devoted_corporatist }
 	}
 
-	GRE_konstantinos_maniadakis = {
-
-		picture = generic_political_advisor_south_america_3
-		
-		allowed = {
-			original_tag = GRE
-			has_dlc = "Battle for the Bosporus"
-		}
-
-		available = {	
-			OR =  {
-				custom_trigger_tooltip = {
-					tooltip = GRE_monarchists_friendly_or_loyal
-					check_variable = { var = GRE_monarchist_loyalty value = 1 compare = greater_than_or_equals }
-				}
-				custom_trigger_tooltip = {
-					tooltip = GRE_fascists_friendly_or_loyal
-					check_variable = { var = GRE_fascist_loyalty value = 1 compare = greater_than_or_equals }
-				}
-			}
-		}
-		
-		traits = { prince_of_terror }
-	}
-
-	GRE_georgios_papandreou_bftb = {
-
-		name = GRE_georgios_papandreou
-
-		picture = gre_george_papandreou
-			
-		allowed = {
-			original_tag = GRE
-			has_dlc = "Battle for the Bosporus"
-		}
-		
-		available = {
-			has_government = democratic
-		}
-
-		traits = { resolute_social_democrat }
-	}
-
 	GRE_konstantinos_tsaldaris = {
 
 		picture = gre_konstantinos_tsaldaris
@@ -1788,24 +1745,6 @@ ideas = {
 		traits = { financial_expert }
 	}
 
-	GRE_sophoklis_venizelos = {
-
-		picture = gre_sophoklis_venizelos
-		
-		allowed = {
-			original_tag = GRE
-			has_dlc = "Battle for the Bosporus"
-		}
-
-		available = {
-			custom_trigger_tooltip = {
-				tooltip = GRE_republicans_friendly_or_loyal
-				check_variable = { var = GRE_republican_loyalty value = 1 compare = greater_than_or_equals }
-			}
-		}
-		
-		traits = { backroom_backstabber }
-	}
 
 	GRE_aristotle_onassis = {
 
@@ -1831,80 +1770,6 @@ ideas = {
 		}
 		
 		traits = { gifted_shipping_magnate }
-	}
-
-	GRE_xenophon_giosmas = {
-
-		picture = gre_xenophon_giosmas
-		
-		allowed = {
-			original_tag = GRE
-			has_dlc = "Battle for the Bosporus"
-		}
-
-		available = {
-			OR = { 
-				has_government = fascism
-				has_completed_focus = GRE_recruit_the_fascists
-			}
-		}
-		
-		traits = { national_socialist_paramilitarist }
-	}
-
-	GRE_dimitris_glinos = {
-
-		picture = gre_dimitris_glinos
-		
-		allowed = {
-			original_tag = GRE
-			has_dlc = "Battle for the Bosporus"
-		}
-
-		available = {
-			has_government = communism
-		}
-		
-		traits = { marxist_academic }
-	}					
-
-
-	GRE_dimitrios_holevas = {
-
-		picture = gre_dimitrios_holevas
-		
-		allowed = {
-			original_tag = GRE
-			has_dlc = "Battle for the Bosporus"
-		}
-		
-		available = {
-			custom_trigger_tooltip = {
-				tooltip = GRE_communists_friendly_or_loyal
-				check_variable = { var = GRE_communist_loyalty value = 1 compare = greater_than_or_equals }
-			}
-		}
-		
-		traits = { marxist_priest }
-	}
-
-	GRE_markos_vafiadis = {
-
-		picture = gre_markos_vafiadis
-		
-		allowed = {
-			original_tag = GRE
-			has_dlc = "Battle for the Bosporus"
-		}
-
-		available = {
-			custom_trigger_tooltip = {
-				tooltip = GRE_communists_friendly_or_loyal
-				check_variable = { var = GRE_communist_loyalty value = 1 compare = greater_than_or_equals }
-			}
-		}
-		
-		traits = { guerilla_warfare_expert }
 	}
 
 	GRE_father_dimistrios = {
