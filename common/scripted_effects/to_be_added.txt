@@ -7,7 +7,7 @@ custom_generals = {
 }
 create_field_marshal = { #AST1 26.04.2021
 	name = "Leslie Morshead" #Point Value: 14.5 #3/23/21 -Trickster -Improv Expert -Ambusher +Jungle Rat
-	potrait_path = "gfx/leaders/AST/Portrait_Austrlia_Leslie_Morshead.dds"
+	portrait_path = "gfx/leaders/AST/Portrait_Austrlia_Leslie_Morshead.dds"
 	traits = { organizer logistics_wizard infantry_leader infantry_expert jungle_rat trait_mountaineer thorough_planner }
 	skill = 6
 	attack_skill = 2
@@ -17,7 +17,7 @@ create_field_marshal = { #AST1 26.04.2021
 }
 create_field_marshal = {
 	name = "Horace Robertson" #Point Value: 14 #3/23/21 -Organizer -Desert Fox
-	potrait_path = "gfx/leaders/AST/Portrait_Austrlia_Horace_Robertson.dds"
+	portrait_path = "gfx/leaders/AST/Portrait_Austrlia_Horace_Robertson.dds"
 	traits = { logistics_wizard defensive_doctrine hill_fighter infantry_leader ambusher }
 	skill = 6
 	attack_skill = 2
@@ -27,7 +27,7 @@ create_field_marshal = {
 }
 create_field_marshal = { #Point Value: 14.5 #3/23/21 -Camo Expert +Logistics Wizard
 	name = "Thomas Blamey"
-	potrait_path = "gfx/leaders/AST/Portrait_Austrlia_Thomas_Blamey.dds"
+	portrait_path = "gfx/leaders/AST/Portrait_Austrlia_Thomas_Blamey.dds"
 	traits = { organizer logistics_wizard organisational_leader offensive_doctrine fast_planner commando panzer_leader panzer_expert   }
 	skill = 6
 	attack_skill = 4
@@ -37,7 +37,7 @@ create_field_marshal = { #Point Value: 14.5 #3/23/21 -Camo Expert +Logistics Wiz
 }
 create_corps_commander = {
 	name = "John Northcott" #Point Value:  18 #3/23/21 -Commando 
-	potrait_path = "gfx/leaders/AST/Portrait_Austrlia_John_Northcott.dds"
+	portrait_path = "gfx/leaders/AST/Portrait_Austrlia_John_Northcott.dds"
 	traits = { infantry_leader infantry_expert trait_mountaineer skirmisher paratrooper trait_engineer  fortress_buster }
 	skill = 6
 	attack_skill = 3
@@ -48,7 +48,7 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "Henry Wynter" #Point Value: 18 #3/23/21 +Trickster
-	potrait_path = "gfx/leaders/AST/Portrait_Austrlia_Henry_Wynter.dds"
+	portrait_path = "gfx/leaders/AST/Portrait_Austrlia_Henry_Wynter.dds"
 	traits = { panzer_leader trickster panzer_expert trait_engineer fortress_buster scavenger }
 	skill = 6
 	attack_skill = 5
@@ -58,7 +58,7 @@ create_corps_commander = {
 }
 create_corps_commander = {
 	name = "Alan Vasey" #Point Value: 18 #3/23/21 +Guerilla Fighter +Urban Assault Specialist +Jungle Rat
-	potrait_path = "gfx/leaders/AST/Portrait_Austrlia_Alan_Vasey.dds"
+	portrait_path = "gfx/leaders/AST/Portrait_Austrlia_Alan_Vasey.dds"
 	traits = { hill_fighter desert_fox jungle_rat urban_assault_specialist infantry_leader ambusher guerilla_fighter naval_invader }
 	skill = 6
 	attack_skill = 2
@@ -68,7 +68,7 @@ create_corps_commander = {
 }
 create_corps_commander = { 
 	name = "Iven Mackay" #Point Value: 18 + 4 
-	potrait_path  = "gfx/leaders/AST/Portrait_Austrlia_Iven_Mackay.dds"
+	portrait_path  = "gfx/leaders/AST/Portrait_Austrlia_Iven_Mackay.dds"
 	traits = { naval_liason infantry_leader infantry_expert trait_mountaineer jungle_rat expert_improviser swamp_fox cavalry_expert cavalry_leader combined_arms_expert }
 	skill = 6
 	attack_skill = 4
