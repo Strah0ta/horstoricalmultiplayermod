@@ -5157,7 +5157,7 @@ create_corps_commander = {  #Toxic
 }
 create_field_marshal = {
 	name = "Jan Smuts" #Point Value: 16 #3/23/21 -Fast Planner -Offensive Doctrine 
-	portrait_path = "gfx/leaders/SAF/Portrait_South_Africa_Jan_Smuts.dds"
+	portrait_path = "gfx/leaders/SAF/Portrait_SouthAfrica_Jan_Smuts.dds"
 	traits = { panzer_leader panzer_expert desert_fox infantry_leader infantry_expert trickster organizer logistics_wizard  defensive_doctrine  }
 	skill = 6
 	attack_skill = 5
@@ -5167,7 +5167,7 @@ create_field_marshal = {
 }
 create_corps_commander = {
 	name = "George Edwin Brink" #Point Value: 18 #3/23/21 +Urban Assault Specialist +Organizer
-	portrait_path  = "gfx/leaders/SAF/Portrait_South_Africa_George_Edwin_Brink.dds"
+	portrait_path  = "gfx/leaders/SAF/Portrait_SouthAfrica_George_Edwin_Brink.dds"
 	traits = { organizer panzer_leader panzer_expert trait_engineer scavenger urban_assault_specialist desert_fox}
 	skill = 6
 	attack_skill = 4
@@ -5377,7 +5377,7 @@ create_corps_commander = {
 }
 create_field_marshal = { #SAF-GENERAL-START
 	name = "Jan Smuts" #Point Value: 16 #3/23/21 -Fast Planner -Offensive Doctrine 
-	portrait_path = "gfx/leaders/SAF/Portrait_South_Africa_Jan_Smuts.dds"
+	portrait_path = "gfx/leaders/SAF/Portrait_SouthAfrica_Jan_Smuts.dds"
 	traits = { panzer_leader panzer_expert desert_fox infantry_leader infantry_expert trickster organizer logistics_wizard  defensive_doctrine  }
 	skill = 6
 	attack_skill = 5
@@ -5387,7 +5387,7 @@ create_field_marshal = { #SAF-GENERAL-START
 }
 create_corps_commander = {
 	name = "George Edwin Brink" #Point Value: 18 #3/23/21 +Urban Assault Specialist +Organizer
-	portrait_path  = "gfx/leaders/SAF/Portrait_South_Africa_George_Edwin_Brink.dds"
+	portrait_path  = "gfx/leaders/SAF/Portrait_SouthAfrica_George_Edwin_Brink.dds"
 	traits = { organizer panzer_leader panzer_expert trait_engineer scavenger urban_assault_specialist desert_fox}
 	skill = 6
 	attack_skill = 4
@@ -5727,7 +5727,7 @@ create_corps_commander = {
 }
 create_field_marshal = { 
 	name = "Jan Smuts" #Point Value: 16 #3/23/21 -Fast Planner -Offensive Doctrine 
-	portrait_path = "gfx/leaders/SAF/Portrait_South_Africa_Jan_Smuts.dds"
+	portrait_path = "gfx/leaders/SAF/Portrait_SouthAfrica_Jan_Smuts.dds"
 	traits = { panzer_leader panzer_expert desert_fox infantry_leader infantry_expert trickster organizer logistics_wizard  defensive_doctrine  }
 	skill = 6
 	attack_skill = 5
@@ -5737,7 +5737,7 @@ create_field_marshal = {
 }
 create_corps_commander = {
 	name = "George Edwin Brink" #Point Value: 18 #3/23/21 +Urban Assault Specialist +Organizer
-	portrait_path  = "gfx/leaders/SAF/Portrait_South_Africa_George_Edwin_Brink.dds"
+	portrait_path  = "gfx/leaders/SAF/Portrait_SouthAfrica_George_Edwin_Brink.dds"
 	traits = { organizer panzer_leader panzer_expert trait_engineer scavenger urban_assault_specialist desert_fox}
 	skill = 6
 	attack_skill = 4
@@ -6139,7 +6139,7 @@ create_corps_commander = {
 }
 create_field_marshal = { #RAJ-GENERALS-START
 	name = "Jan Smuts" #Point Value: 16 #3/23/21 -Fast Planner -Offensive Doctrine 
-	portrait_path = "gfx/leaders/SAF/Portrait_South_Africa_Jan_Smuts.dds"
+	portrait_path = "gfx/leaders/SAF/Portrait_SouthAfrica_Jan_Smuts.dds"
 	traits = { panzer_leader panzer_expert desert_fox infantry_leader infantry_expert trickster organizer logistics_wizard  defensive_doctrine  }
 	skill = 6
 	attack_skill = 5
@@ -6149,7 +6149,7 @@ create_field_marshal = { #RAJ-GENERALS-START
 }
 create_corps_commander = {
 	name = "George Edwin Brink" #Point Value: 18 #3/23/21 +Urban Assault Specialist +Organizer
-	portrait_path  = "gfx/leaders/SAF/Portrait_South_Africa_George_Edwin_Brink.dds"
+	portrait_path  = "gfx/leaders/SAF/Portrait_SouthAfrica_George_Edwin_Brink.dds"
 	traits = { organizer panzer_leader panzer_expert trait_engineer scavenger urban_assault_specialist desert_fox}
 	skill = 6
 	attack_skill = 4
