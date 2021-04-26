@@ -5431,7 +5431,7 @@ create_field_marshal = {
 
 create_corps_commander = {
 	name = "Bert Hoffmeister"  # Point Value: 18 #3/23/21 -Trickster -Organizer
-	portrait_path = gfx/leaders/CAN/Potrait_Canada_bert_hoffmeister.dds"
+	portrait_path = "gfx/leaders/CAN/Potrait_Canada_bert_hoffmeister.dds"
 	traits = {  panzer_leader panzer_expert hill_fighter trait_engineer fortress_buster expert_improviser }
 	skill = 6
 	attack_skill = 4
@@ -5852,7 +5852,7 @@ create_field_marshal = {
 
 create_corps_commander = {
 	name = "Bert Hoffmeister"  # Point Value: 18 #3/23/21 -Trickster -Organizer
-	portrait_path = gfx/leaders/CAN/Potrait_Canada_bert_hoffmeister.dds"
+	portrait_path = "gfx/leaders/CAN/Potrait_Canada_bert_hoffmeister.dds"
 	traits = {  panzer_leader panzer_expert hill_fighter trait_engineer fortress_buster expert_improviser }
 	skill = 6
 	attack_skill = 4
