@@ -1229,13 +1229,6 @@ ideas = {
 				
 			allowed = {
 				original_tag = GRE
-				NOT = {
-					OR = { 
-						has_government = communism
-						has_government = fascism 
-						has_government = democratic 
-					}
-				}
 			}
 
 			allowed_civil_war = {
@@ -1249,13 +1242,6 @@ ideas = {
 			modifier = {
 				stability_factor = 0.05
 				drift_defence_factor = 0.5
-				generate_wargoal_tension = 1.00
-				join_faction_tension = 1.00
-				lend_lease_tension = 0.50
-				send_volunteers_tension = 0.50
-				guarantee_tension = 1.0
-				ai_badass_factor = 0.01    # Will receive 1% of the threat from others
-				ai_get_ally_desire_factor = -100				
 			}
 		}
 
@@ -1263,13 +1249,7 @@ ideas = {
 				
 			allowed = {
 				original_tag = GRE
-				NOT = {
-					OR = { 
-						has_government = communism
-						has_government = fascism 
-						has_government = democratic 
-					}
-				}
+
 			}
 
 			allowed_civil_war = {
@@ -1283,13 +1263,6 @@ ideas = {
 			modifier = {
 				stability_factor = 0.1
 				drift_defence_factor = 0.5
-				generate_wargoal_tension = 0.85
-				join_faction_tension = 1.00
-				lend_lease_tension = 0.25
-				send_volunteers_tension = 0.25
-				guarantee_tension = 1.0
-				ai_badass_factor = 0.01    # Will receive 1% of the threat from others
-				ai_get_ally_desire_factor = -100				
 			}
 		}
 
@@ -1297,13 +1270,6 @@ ideas = {
 				
 			allowed = {
 				original_tag = GRE
-				NOT = {
-					OR = { 
-						has_government = communism
-						has_government = fascism 
-						has_government = democratic 
-					}
-				}
 			}
 
 			allowed_civil_war = {
@@ -1317,12 +1283,7 @@ ideas = {
 			modifier = {
 				stability_factor = 0.15
 				consumer_goods_factor = -0.05
-				drift_defence_factor = 0.75
-				generate_wargoal_tension = 0.75
-				join_faction_tension = 0.75
-				guarantee_tension = 1.0
-				ai_badass_factor = 0.01    # Will receive 1% of the threat from others
-				ai_get_ally_desire_factor = -100				
+				drift_defence_factor = 0.75		
 			}
 		}
 
@@ -1330,13 +1291,6 @@ ideas = {
 				
 			allowed = {
 				original_tag = GRE
-				NOT = {
-					OR = { 
-						has_government = communism
-						has_government = fascism 
-						has_government = democratic 
-					}
-				}
 			}
 
 			allowed_civil_war = {
@@ -1351,12 +1305,7 @@ ideas = {
 				war_support_factor = 0.1				
 				stability_factor = 0.15	
 				consumer_goods_factor = -0.05
-				drift_defence_factor = 0.75
-				generate_wargoal_tension = 0.5
-				join_faction_tension = 0.5
-				guarantee_tension = 1.0
-				ai_badass_factor = 0.01    # Will receive 1% of the threat from others
-				ai_get_ally_desire_factor = -100				
+				drift_defence_factor = 0.75			
 			}
 		}
 
@@ -1364,13 +1313,6 @@ ideas = {
 				
 			allowed = {
 				original_tag = GRE
-				NOT = {
-					OR = { 
-						has_government = communism
-						has_government = fascism 
-						has_government = democratic 
-					}
-				}
 			}
 
 			allowed_civil_war = {
@@ -1386,12 +1328,7 @@ ideas = {
 				stability_factor = 0.15	
 				consumer_goods_factor = -0.05
 				army_core_defence_factor = 0.1
-				drift_defence_factor = 0.75
-				generate_wargoal_tension = 0.25
-				join_faction_tension = 0.5
-				guarantee_tension = 1.0
-				ai_badass_factor = 0.01    # Will receive 1% of the threat from others
-				ai_get_ally_desire_factor = -100				
+				drift_defence_factor = 0.75			
 			}
 		}
 
@@ -1402,12 +1339,6 @@ ideas = {
 				has_country_leader = { 
 					name = "Ioannis Metaxas"
 					ruling_only = yes
-				}
-				NOT = {
-					OR = { 
-						has_government = communism
-						has_government = democratic 
-					}
 				}
 			}
 
@@ -1437,12 +1368,6 @@ ideas = {
 				has_country_leader = { 
 					name = "Ioannis Metaxas"
 					ruling_only = yes
-				}
-				NOT = {
-					OR = { 
-						has_government = communism
-						has_government = democratic 
-					}
 				}
 			}
 
@@ -1503,175 +1428,6 @@ ideas = {
 				war_support_factor = 0.15
 				political_power_factor	= 0.15
 				non_core_manpower = 0.1			
-			}
-		}
-		
-		GRE_socialist_economy_spirit = {
-				
-			allowed = {
-				original_tag = GRE
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			picture = home_of_revolution
-				
-			removal_cost = -1
-				
-			modifier = {			
-				communism_drift = 0.05
-				production_speed_industrial_complex_factor = 0.05		
-			}
-		}	
-
-		GRE_socialist_economy_2 = {
-				
-			allowed = {
-				original_tag = GRE
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			picture = home_of_revolution
-				
-			removal_cost = -1
-				
-			modifier = {			
-				communism_drift = 0.05
-				political_power_factor = 0.05
-				production_speed_industrial_complex_factor = 0.05		
-			}
-		}
-
-		GRE_socialist_economy_3 = {
-				
-			allowed = {
-				original_tag = GRE
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			picture = home_of_revolution
-				
-			removal_cost = -1
-				
-			modifier = {			
-				communism_drift = 0.05
-				war_support_factor = 0.1
-				production_speed_infrastructure_factor = 0.05
-				production_speed_industrial_complex_factor = 0.05		
-			}
-		}
-
-		GRE_socialist_economy_4 = {
-				
-			allowed = {
-				original_tag = GRE
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			picture = home_of_revolution
-				
-			removal_cost = -1
-				
-			modifier = {
-				communism_drift = 0.1
-				political_power_factor = 0.05
-				production_speed_infrastructure_factor = 0.1
-				production_speed_industrial_complex_factor = 0.1		
-			}
-		}
-
-		GRE_cooperative_trade_unions = {
-				
-			allowed = {
-				original_tag = GRE
-			}
-
-			allowed_civil_war = {
-				always = no
-			}
-
-			picture = SOV_scientist_defect
-				
-			removal_cost = -1
-				
-			modifier = {		
-				production_factory_efficiency_gain_factor = 0.1		
-			}
-		}		
-
-		GRE_red_militias_spirit = {
-				
-			allowed = {
-				original_tag = GRE
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			picture = smersh
-				
-			removal_cost = -1
-				
-			modifier = {		
-				communism_drift = 0.1	
-				political_power_factor = 0.05
-				conscription = 0.02		
-			}
-		}	
-
-		GRE_red_militias_2 = {
-				
-			allowed = {
-				original_tag = GRE
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			picture = smersh
-				
-			removal_cost = -1
-				
-			modifier = {	
-				communism_drift = 0.1	
-				political_power_factor = 0.05
-				conscription = 0.02
-				army_morale_factor = 0.08		
-			}
-		}
-
-		GRE_red_militias_3 = {
-				
-			allowed = {
-				original_tag = GRE
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			picture = smersh
-				
-			removal_cost = -1
-				
-			modifier = {
-				communism_drift = 0.1
-				political_power_factor = 0.05
-				conscription = 0.03
-				army_org_factor = 0.04	
 			}
 		}
 
