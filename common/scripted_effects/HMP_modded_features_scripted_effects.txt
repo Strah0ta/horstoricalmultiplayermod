@@ -5103,7 +5103,7 @@ create_corps_commander = {
 	planning_skill = 4
 	logistics_skill = 5
 }
-create_field_marshal = { CANADA-GENERALS-START
+create_field_marshal = { 
 	name = "Guy Simonds" 
 	portrait_path  = "gfx/leaders/CAN/Portrait_CAN_Guy_Simonds.tga"  # Point Value: 14 #3/23/21 +Naval Invader#not vanilla general 
 	traits = {  trickster organizer naval_invader logistics_wizard offensive_doctrine aggressive_assaulter brilliant_strategist panzer_expert panzer_leader trait_reckless }
@@ -5126,7 +5126,7 @@ create_field_marshal = {
 
 create_corps_commander = {
 	name = "Bert Hoffmeister"  # Point Value: 18 #3/23/21 -Trickster -Organizer
-	portrait_path = gfx/leaders/CAN/Potrait_Canada_bert_hoffmeister.dds"
+	portrait_path = "gfx/leaders/CAN/Potrait_Canada_bert_hoffmeister.dds"
 	traits = {  panzer_leader panzer_expert hill_fighter trait_engineer fortress_buster expert_improviser }
 	skill = 6
 	attack_skill = 4
@@ -5155,7 +5155,7 @@ create_corps_commander = {  #Toxic
     planning_skill = 4
     logistics_skill = 8
 }
-create_field_marshal = { saf-start
+create_field_marshal = {
 	name = "Jan Smuts" #Point Value: 16 #3/23/21 -Fast Planner -Offensive Doctrine 
 	portrait_path = "gfx/leaders/SAF/Portrait_South_Africa_Jan_Smuts.dds"
 	traits = { panzer_leader panzer_expert desert_fox infantry_leader infantry_expert trickster organizer logistics_wizard  defensive_doctrine  }
@@ -5180,7 +5180,7 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "Dan Pienaar" #Point Value: 18 #3/23/21 +Mountaineer
-	portrait = Portrait_SAF_Dan_Pienaar.tga"
+	portrait_path = "gfx/leaders/SAF/Portrait_SAF_Dan_Pienaar.tga"
 	traits = { infantry_leader infantry_expert desert_fox trait_mountaineer naval_invader invader_ii trickster guerilla_fighter }
 	skill = 6
 	attack_skill = 4
@@ -5723,9 +5723,9 @@ create_corps_commander = {
 	attack_skill = 3
 	defense_skill = 7
 	planning_skill = 4
-	logistics_skill = 5 #RAJ-END
+	logistics_skill = 5 
 }
-create_field_marshal = { #saf-start
+create_field_marshal = { 
 	name = "Jan Smuts" #Point Value: 16 #3/23/21 -Fast Planner -Offensive Doctrine 
 	portrait_path = "gfx/leaders/SAF/Portrait_South_Africa_Jan_Smuts.dds"
 	traits = { panzer_leader panzer_expert desert_fox infantry_leader infantry_expert trickster organizer logistics_wizard  defensive_doctrine  }
