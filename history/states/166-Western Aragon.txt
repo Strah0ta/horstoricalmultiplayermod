@@ -1,6 +1,6 @@
 state={
 	id=166
-	name="STATE_166"
+	name="Aragórn"
 
 	history={
 		owner = SPR
