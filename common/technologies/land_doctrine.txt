@@ -1446,7 +1446,7 @@ org_loss_when_moving = -0.7
 			desert = {
 				defence = 0.1			
 			}
-			mountains = {
+			mountain = {
 				defence = 0.1			
 			}
 		}
@@ -1459,7 +1459,7 @@ org_loss_when_moving = -0.7
 			desert = {
 				defence = 0.1			
 			}
-			mountains = {
+			mountain = {
 				defence = 0.1			
 			}
 		}
@@ -1472,7 +1472,7 @@ org_loss_when_moving = -0.7
 			desert = {
 				defence = 0.1			
 			}		
-			mountains = {
+			mountain = {
 				defence = 0.1			
 			}			
 		}
@@ -1485,7 +1485,7 @@ org_loss_when_moving = -0.7
 			desert = {
 				defence = 0.1			
 			}		
-			mountains = {
+			mountain = {
 				defence = 0.1			
 			}			
 		}		
@@ -1498,7 +1498,7 @@ org_loss_when_moving = -0.7
 			desert = {
 				defence = 0.1			
 			}
-			mountains = {
+			mountain = {
 				defence = 0.1			
 			}
 		}		
