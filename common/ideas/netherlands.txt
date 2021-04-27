@@ -2,17 +2,7 @@ ideas = {
 
 	country = {
 
-		
-		 defensive_posture = {
-			picture = FRA_scw_intervention_nationalists_focus
-			available = { ENG = { controls_state = 551 } }
-			allowed = {	always = no	} 
-			removal_cost = -1 
-			modifier = { army_core_attack_factor = -0.20 army_core_defence_factor = -0.20	}
-		        }
-                  }      
- 
-                 HOL_wilhelmina = {
+		HOL_wilhelmina = {
 
 			picture = hol_wilhelmina
 			
