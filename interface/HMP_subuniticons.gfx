@@ -1,4 +1,15 @@
 spriteTypes = {
+	#DEEP DESERT
+	
+	spriteType = {
+		name = "GFX_terrain_deep_desert"
+		textureFile = "gfx/interface/terrains/terrain_desert.dds"
+	}
+		spriteType = {
+		name = "GFX_terrain_deep_desert_winter"
+		textureFile = "gfx/interface/terrains/terrain_desert_winter.dds"
+	}
+	
 	###OLD AT ARMORED CAR STUFF
    spriteType = { name = "GFX_unit_at_armored_car_icon_medium"  textureFile = "gfx/interface/counters/divisions_large/unit_armored_car_icon.dds" noOfFrames = 2 }
    spriteType = { name = "GFX_unit_at_armored_car_icon_medium_white" textureFile = "gfx/interface/counters/divisions_small/onmap_unit_armored_car_icon.dds"  noOfFrames = 2  }
