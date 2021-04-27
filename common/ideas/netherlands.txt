@@ -1,8 +1,8 @@
 ideas = {
 
-	country = {     
- 
-                 HOL_wilhelmina = {
+	country = {
+
+		HOL_wilhelmina = {
 
 			picture = hol_wilhelmina
 			
