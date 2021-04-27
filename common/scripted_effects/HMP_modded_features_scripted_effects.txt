@@ -4978,47 +4978,46 @@ create_navy_leader = {
 }
 
 RAJ = {
-				create_corps_commander = {
-					name = "Kodandera Madappa Cariappa" #Point Value: 18  #2/10/21 +Mountaineer
-					gfx = "GFX_RAJ_kodandera_madappa_cariappa"
-					traits = { infantry_leader infantry_expert adaptable hill_fighter trait_mountaineer skilled_staffer }
-					skill = 6
-					attack_skill = 3
-					defense_skill = 3
-					planning_skill = 5
-					logistics_skill = 8
-				}
-				create_corps_commander = {
-					name = "Kodandera Subayya Thimayya" #Point Value: 17 #2/10/21 +Jungle Rat
-					gfx = "GFX_RAJ_kodendera_subayya_thimayya"
-					traits = { panzer_leader panzer_expert trait_engineer scavenger fortress_buster jungle_rat }
-					skill = 6
-					attack_skill = 4
-					defense_skill = 3
-					planning_skill = 6
-					logistics_skill = 6
-				}
-				create_field_marshal = {
-					name = "Jayanto Nath Chaudhuri" #Point Value: 16 
-					gfx = "GFX_RAJ_jayanto_nath_chaudhuri" #1 point over
-					traits = { panzer_leader panzer_expert ambusher logistics_wizard organizer defensive_doctrine }
-					skill = 6
-					attack_skill = 5
-					defense_skill = 4
-					planning_skill = 5
-					logistics_skill = 5
-				}
-				create_corps_commander = {
-				name = "Orde Wingate" #Point Value: 17
-				gfx = "GFX_RAJ_orde_wingate" #1 point over
-				traits = { skilled_staffer jungle_rat trait_mountaineer infantry_leader ambusher commando camouflage_expert }
-				skill = 6
-				attack_skill = 4
-				defense_skill = 5
-				planning_skill = 5
-				logistics_skill = 5
-				}
-		
+create_corps_commander = {
+	name = "Kodandera Madappa Cariappa" #Point Value: 18  #2/10/21 +Mountaineer
+	gfx = "GFX_RAJ_kodandera_madappa_cariappa"
+	traits = { infantry_leader infantry_expert adaptable hill_fighter trait_mountaineer skilled_staffer }
+	skill = 6
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 5
+    logistics_skill = 8
+}
+create_corps_commander = {
+	name = "Kodandera Subayya Thimayya" #Point Value: 17 #2/10/21 +Jungle Rat
+	gfx = "GFX_RAJ_kodendera_subayya_thimayya"
+	traits = { panzer_leader panzer_expert trait_engineer scavenger fortress_buster jungle_rat }
+	skill = 6
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 6
+	logistics_skill = 6
+}
+create_field_marshal = {
+	name = "Jayanto Nath Chaudhuri" #Point Value: 16 
+	gfx = "GFX_RAJ_jayanto_nath_chaudhuri" #1 point over
+	traits = { panzer_leader panzer_expert ambusher logistics_wizard organizer defensive_doctrine }
+	skill = 6
+	attack_skill = 5
+	defense_skill = 4
+	planning_skill = 5
+	logistics_skill = 5
+}
+create_corps_commander = {
+	name = "Orde Wingate" #Point Value: 17
+	gfx = "GFX_RAJ_orde_wingate" #1 point over
+	traits = { skilled_staffer jungle_rat trait_mountaineer infantry_leader ambusher commando camouflage_expert }
+	skill = 6
+	attack_skill = 4
+	defense_skill = 5
+	planning_skill = 5
+	logistics_skill = 5
+}
 create_corps_commander = {
 	name = "Noel Beresford-Peirse" #Point Value: 18 #3/23/21 +Hill Fighter
 	gfx = "GFX_RAJ_noel_beresford_peirse"
@@ -5041,7 +5040,7 @@ create_field_marshal = {
 	logistics_skill = 8
 }
 create_corps_commander = { #NZL-GENERALS-START
-    name = "Leslie Andrew" #Point Value: 18 #4/12/21 +Hill Fighter -Organizer
+    name = "gfx/leaders/NZL/Leslie Andrew" #Point Value: 18 #4/12/21 +Hill Fighter -Organizer
     picture = "Portrait_New_Zealand_Leslie_Andrew.dds"
     traits = {  desert_fox hill_fighter panzer_leader panzer_expert trickster expert_improviser }
     skill = 6
@@ -5165,8 +5164,6 @@ create_corps_commander = {
 	planning_skill = 5
 	logistics_skill = 7
 }
-
-
 
 create_corps_commander = {
 	name = "Dan Pienaar" #Point Value: 18 #3/23/21 +Mountaineer
@@ -5315,7 +5312,7 @@ create_corps_commander = {
 }
 create_corps_commander = {
     name = "Leslie Andrew" #Point Value: 18 #4/12/21 +Hill Fighter -Organizer
-    picture = "Portrait_New_Zealand_Leslie_Andrew.dds"
+    portrait_path = "gfx/leaders/NZL/Portrait_New_Zealand_Leslie_Andrew.dds"
     traits = {  desert_fox hill_fighter panzer_leader panzer_expert trickster expert_improviser }
     skill = 6
     attack_skill = 5
@@ -5325,7 +5322,7 @@ create_corps_commander = {
 }
 create_corps_commander = {
 	name = "Bernard Freyberg" #Point Value: 18 #3/23/21 -Desert Fox -Guerilla Fighter +Adaptable
-	gfx = "GFX_NZL_bernard_freyberg"
+	portrait_path = "gfx/leaders/NZL/Portrait_New_Zealand_Bernard_Freyberg"
 	traits = { infantry_leader infantry_expert adaptable  naval_invader invader_ii trickster }
 	skill = 6
 	attack_skill = 4
@@ -5336,7 +5333,7 @@ create_corps_commander = {
 
 create_field_marshal = {
 	name = "Robert Row" #Point Value: 14 #3/23/21 -Organizer -Organizational Leader
-	gfx = "GFX_NZL_robert_row"
+	portrait_path = "gfx/leaders/NZL/Portrait_New_Zeeland_Robert_Row"
 	traits = {  hill_fighter panzer_leader  panzer_expert infantry_leader infantry_expert logistics_wizard inspirational_leader offensive_doctrine fast_planner  }
 	skill = 6
 	attack_skill = 4
@@ -5347,7 +5344,7 @@ create_field_marshal = {
 
 create_corps_commander = {
 	name = "William Stevens" #Point Value: 18 #3/23/21 -Engineer -SCAVENGER #4/12/21 +Jungle Rat +Ranger
-	gfx = "GFX_NZL_william_stevens"
+	portrait_path = "gfx/leaders/NZL/Portrait_New_Zeeland_William_Stevens"
 	traits = { jungle_rat ranger panzer_leader panzer_expert trickster expert_improviser }
 	skill = 6
 	attack_skill = 5
@@ -5450,50 +5447,49 @@ create_corps_commander = {  #Toxic
     planning_skill = 4
     logistics_skill = 8
 }
-				create_corps_commander = { #RAJ-GENERAL-START
-					name = "Kodandera Madappa Cariappa" #Point Value: 18  #2/10/21 +Mountaineer
-					portrait_path = "Portrait_The_RAJ_kodandera_madappa_cariappa.dds"
-					traits = { infantry_leader infantry_expert adaptable hill_fighter trait_mountaineer skilled_staffer }
-					skill = 6
-					attack_skill = 3
-					defense_skill = 3
-					planning_skill = 5
-					logistics_skill = 8
+create_corps_commander = { #RAJ-GENERAL-START
+	name = "Kodandera Madappa Cariappa" #Point Value: 18  #2/10/21 +Mountaineer
+	portrait_path = ""gfx/leaders/RAJ/Portrait_The_RAJ_kodandera_madappa_cariappa.dds"
+	traits = { infantry_leader infantry_expert adaptable hill_fighter trait_mountaineer skilled_staffer }
+	skill = 6
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 5
+	logistics_skill = 8
+}
+create_corps_commander = {
+	name = "Kodandera Subayya Thimayya" #Point Value: 17 #2/10/21 +Jungle Rat
+	portrait_path = "gfx/leaders/RAJ/Portrait_The_Raj_k_s_thimayya.dds"
+	traits = { panzer_leader panzer_expert trait_engineer scavenger fortress_buster jungle_rat }
+	skill = 6
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 6
+	logistics_skill = 6
+}
+create_field_marshal = {
+	name = "Jayanto Nath Chaudhuri" #Point Value: 16 
+	portrait_path = "gfx/leaders/RAJ/Portrait_The_Raj_j_n_chaudhuri.dds" #1 point over
+	traits = { panzer_leader panzer_expert ambusher logistics_wizard organizer defensive_doctrine }
+	skill = 6
+	attack_skill = 5
+	defense_skill = 4
+	planning_skill = 5
+	logistics_skill = 5
 				}
-				create_corps_commander = {
-					name = "Kodandera Subayya Thimayya" #Point Value: 17 #2/10/21 +Jungle Rat
-					portrait_path = "Portrait_The_RAJ_k_s_thimayya.dds"
-					traits = { panzer_leader panzer_expert trait_engineer scavenger fortress_buster jungle_rat }
-					skill = 6
-					attack_skill = 4
-					defense_skill = 3
-					planning_skill = 6
-					logistics_skill = 6
-				}
-				create_field_marshal = {
-					name = "Jayanto Nath Chaudhuri" #Point Value: 16 
-					portrait_path = "Portrait_The_RAJ_j_n_chaudhuri.dds" #1 point over
-					traits = { panzer_leader panzer_expert ambusher logistics_wizard organizer defensive_doctrine }
-					skill = 6
-					attack_skill = 5
-					defense_skill = 4
-					planning_skill = 5
-					logistics_skill = 5
-				}
-				create_corps_commander = {
-				name = "Orde Wingate" #Point Value: 17
-                                portrait_path  = "Portrait_The_RAJ_orde_wingate.dds" #1 point over
-				traits = { skilled_staffer jungle_rat trait_mountaineer infantry_leader ambusher commando camouflage_expert }
-				skill = 6
-				attack_skill = 4
-				defense_skill = 5
-				planning_skill = 5
-				logistics_skill = 5
-				}
-		
+create_corps_commander = {
+	name = "Orde Wingate" #Point Value: 17
+    portrait_path  = ""gfx/leaders/RAJ/Portrait_The_RAJ_orde_wingate.dds" #1 point over
+	traits = { skilled_staffer jungle_rat trait_mountaineer infantry_leader ambusher commando camouflage_expert }
+	skill = 6
+	attack_skill = 4
+	defense_skill = 5
+	planning_skill = 5
+	logistics_skill = 5
+}
 create_corps_commander = {
 	name = "Noel Beresford-Peirse" #Point Value: 18 #3/23/21 +Hill Fighter
-	portrait_path = "Portrait_The_RAJ_noel_beresford_peirse.dds"
+	portrait_path = ""gfx/leaders/RAJ/Portrait_The_RAJ_noel_beresford_peirse.dds"
 	traits = { trickster expert_improviser panzer_leader panzer_expert desert_fox hill_fighter }
 	skill = 6
 	attack_skill = 6
@@ -5504,7 +5500,7 @@ create_corps_commander = {
 
 create_field_marshal = {
 	name = "Frank Messervy" #Point Value: 14.5 #2/10/21 -Skilled Staffer -Organizer -Commando
-	portrait_path = "Portrait_The_RAJ_frank_messervy.dds" #0.5 points over
+	portrait_path = ""gfx/leaders/RAJ/Portrait_The_RAJ_frank_messervy.dds" #0.5 points over
 	traits = { logistics_wizard organisational_leader inspirational_leader defensive_doctrine infantry_leader  camouflage_expert }
 	skill = 6
 	attack_skill = 3
@@ -5515,7 +5511,7 @@ create_field_marshal = {
 
 create_corps_commander = {
 	name = "Douglas Gracey" #Point Value: 18 #3/23/21 +Swamp Fox +Urban Assault Specialist 
-	portrait_path = "Portrait_The_RAJ_douglas_gracey.dds"
+	portrait_path = ""gfx/leaders/RAJ/Portrait_The_RAJ_douglas_gracey.dds"
 	traits = { desert_fox urban_assault_specialist swamp_fox infantry_leader ambusher  trickster guerilla_fighter }
 	skill = 6
 	attack_skill = 3
@@ -5814,50 +5810,50 @@ create_corps_commander = {
 	planning_skill = 5
 	logistics_skill = 6 #NEW-Zealand-END
 }
-				create_corps_commander = {#RAJ-GENERALS-START
-					name = "Kodandera Madappa Cariappa" #Point Value: 18  #2/10/21 +Mountaineer
-					portrait_path = "Portrait_The_RAJ_kodandera_madappa_cariappa.dds"
-					traits = { infantry_leader infantry_expert adaptable hill_fighter trait_mountaineer skilled_staffer }
-					skill = 6
-					attack_skill = 3
-					defense_skill = 3
-					planning_skill = 5
-					logistics_skill = 8
-				}
-				create_corps_commander = {
-					name = "Kodandera Subayya Thimayya" #Point Value: 17 #2/10/21 +Jungle Rat
-					portrait_path = "Portrait_The_RAJ_k_s_thimayya.dds"
-					traits = { panzer_leader panzer_expert trait_engineer scavenger fortress_buster jungle_rat }
-					skill = 6
-					attack_skill = 4
-					defense_skill = 3
-					planning_skill = 6
-					logistics_skill = 6
-				}
-				create_field_marshal = {
-					name = "Jayanto Nath Chaudhuri" #Point Value: 16 
-					portrait_path = "Portrait_The_RAJ_j_n_chaudhuri.dds" #1 point over
-					traits = { panzer_leader panzer_expert ambusher logistics_wizard organizer defensive_doctrine }
-					skill = 6
-					attack_skill = 5
-					defense_skill = 4
-					planning_skill = 5
-					logistics_skill = 5
-				}
-				create_corps_commander = {
-				name = "Orde Wingate" #Point Value: 17
-                                portrait_path  = "Portrait_The_RAJ_orde_wingate.dds" #1 point over
-				traits = { skilled_staffer jungle_rat trait_mountaineer infantry_leader ambusher commando camouflage_expert }
-				skill = 6
-				attack_skill = 4
-				defense_skill = 5
-				planning_skill = 5
-				logistics_skill = 5 
-				}
-		
+create_corps_commander = {#RAJ-GENERALS-START
+	name = "Kodandera Madappa Cariappa" #Point Value: 18  #2/10/21 +Mountaineer
+	portrait_path = "gfx/leaders/RAJ/Portrait_The_RAJ_kodandera_madappa_cariappa.dds"
+	traits = { infantry_leader infantry_expert adaptable hill_fighter trait_mountaineer skilled_staffer }
+	skill = 6
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 5
+	logistics_skill = 8
+}
+create_corps_commander = {
+	name = "Kodandera Subayya Thimayya" #Point Value: 17 #2/10/21 +Jungle Rat
+	portrait_path = "gfx/leaders/RAJ/Portrait_The_Raj_k_s_thimayya.dds"
+	traits = { panzer_leader panzer_expert trait_engineer scavenger fortress_buster jungle_rat }
+	skill = 6
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 6
+	logistics_skill = 6
+}
+create_field_marshal = {
+	name = "Jayanto Nath Chaudhuri" #Point Value: 16 
+	portrait_path = "gfx/leaders/RAJ/Portrait_The_RAJ_j_n_chaudhuri.dds" #1 point over
+	traits = { panzer_leader panzer_expert ambusher logistics_wizard organizer defensive_doctrine }
+	skill = 6
+	attack_skill = 5
+	defense_skill = 4
+	planning_skill = 5
+	logistics_skill = 5
+}
+create_corps_commander = {
+	name = "Orde Wingate" #Point Value: 17
+    portrait_path  = "gfx/leaders/RAJ/Portrait_The_RAJ_orde_wingate.dds" #1 point over
+	traits = { skilled_staffer jungle_rat trait_mountaineer infantry_leader ambusher commando camouflage_expert }
+	skill = 6
+	attack_skill = 4
+	defense_skill = 5
+	planning_skill = 5
+	logistics_skill = 5 
+}
+}
 create_corps_commander = {
 	name = "Noel Beresford-Peirse" #Point Value: 18 #3/23/21 +Hill Fighter
-	portrait_path = "Portrait_The_RAJ_noel_beresford_peirse.dds"
+	portrait_path = "gfx/leaders/RAJ/Portrait_The_RAJ_noel_beresford_peirse.dds"
 	traits = { trickster expert_improviser panzer_leader panzer_expert desert_fox hill_fighter }
 	skill = 6
 	attack_skill = 6
@@ -5868,7 +5864,7 @@ create_corps_commander = {
 
 create_field_marshal = {
 	name = "Frank Messervy" #Point Value: 14.5 #2/10/21 -Skilled Staffer -Organizer -Commando
-	portrait_path = "Portrait_The_RAJ_frank_messervy.dds" #0.5 points over
+	portrait_path = "gfx/leaders/RAJ/Portrait_The_RAJ_frank_messervy.dds" #0.5 points over
 	traits = { logistics_wizard organisational_leader inspirational_leader defensive_doctrine infantry_leader  camouflage_expert }
 	skill = 6
 	attack_skill = 3
@@ -5879,7 +5875,7 @@ create_field_marshal = {
 
 create_corps_commander = {
 	name = "Douglas Gracey" #Point Value: 18 #3/23/21 +Swamp Fox +Urban Assault Specialist 
-	portrait_path = "Portrait_The_RAJ_douglas_gracey.dds"
+	portrait_path = "gfx/leaders/RAJ/Portrait_The_RAJ_douglas_gracey.dds"
 	traits = { desert_fox urban_assault_specialist swamp_fox infantry_leader ambusher  trickster guerilla_fighter }
 	skill = 6
 	attack_skill = 3
@@ -5907,8 +5903,6 @@ create_corps_commander = {
 	planning_skill = 5
 	logistics_skill = 7
 }
-
-
 
 create_corps_commander = {
 	name = "Dan Pienaar" #Point Value: 18 #3/23/21 +Mountaineer
