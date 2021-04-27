@@ -457,7 +457,7 @@ focus_tree = {
 			add_tech_bonus = {
 				name = RAJ_vickers_berthier_gun
 				bonus = 0.5
-				uses = 2
+				uses = 3
 				category = infantry_weapons
 			}
 		}
@@ -481,7 +481,7 @@ focus_tree = {
 			add_tech_bonus = {
 				name = RAJ_royal_indian_artillery
 				bonus = 0.5
-				uses = 2
+				uses = 3
 				category = artillery
 			}
 		}
