@@ -5,6 +5,9 @@ impassable = yes
 history={
 owner = PER
 add_core_of=PER
+	buildings = { 
+		infrastructure = 5
+	}
 }
 provinces={
  10901

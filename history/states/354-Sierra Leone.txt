@@ -10,7 +10,7 @@ history=
 
 
 buildings = {
-infrastructure = 3
+infrastructure = 5
 }
 }
 provinces={

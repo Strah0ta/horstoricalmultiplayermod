@@ -10,7 +10,7 @@
  ETH_CAS_equipment_3:0 "Breda Ba.201"
  PER_NEUTRAL:0 "Neutral Middle East"
  deep_desert_desc:0 ""
- semi_motorized_desert_warfare_details:0 "\nInfantry Brigade:\n  Plains Defense: §G+10%§!\n  Desert Defense: §G+10%§!\n     \nAnti-Tank Brigade:\n  Plains Defense: §G+10%§!\n  Desert Defense: §G+10%§!\n  Artillery Brigade:\n  Plains Defense: §G+10%§!\n  Desert Defense: §G+10%§!\n   Rocket Artillery Brigade:\n  Plains Defense: §G+10%§!\n  Desert Defense: §G+10%§!\n    Anti-Air Brigade:\n  Plains Defense: §G+10%§!\n  Desert Defense: §G+10%§!\n           §!"
+ semi_motorized_desert_warfare_details:0 "\nInfantry Brigade:\n  Defense: §R-10%§!\n  Plains 	Defense: §G+10%§!\n  Mountains Defense: §G+10%§!\n  Desert Defense: §G+10%§!\n\nAnti-Tank Brigade:\n  Defense: §R-10%§!\n  Plains Defense: §G+10%§!\n  Mountains Defense: §G+10%§!\n  Desert Defense: §G+10%§!\n\nArtillery Brigade:\n  Defense: §R-10%§!\n  Plains Defense: §G+10%§!\n  Mountains Defense: §G+10%§!\n  Desert Defense: §G+10%§!\n\nRocket Artillery Brigade:\n  Defense: §R-10%§!\n  Plains Defense: §G+10%§!\n  Mountains Defense: §G+10%§!\n  Desert Defense: §G+10%§!\n\nAnti-Air Brigade:\n  Defense: §R-10%§!\n  Plains Defense: §G+10%§!\n  Mountains Defense: §G+10%§!\n  Desert Defense: §G+10%§!\n           §!"
  naval_do_all_title_label:0 "DOCTRINES ARE NOT EXCLUSIVE"
  naval_do_all_title_label_tt:0 "DOCTRINES ARE NOT EXCLUSIVE"
  naval_do_all_title_tt:0 "DOCTRINES ARE NOT EXCLUSIVE"

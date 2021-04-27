@@ -75,6 +75,9 @@ sub_units = {
 		desert = {
 			movement = 0.05
 		}
+				deep_desert = { 
+			movement = 0.05
+		}
 		river = {
 			movement = 0.1
 		}
@@ -159,6 +162,9 @@ sub_units = {
 		desert = {
 			movement = 0.20
 		}
+						deep_desert = { 
+			movement = 0.1
+		}
 		river = {
 			movement = 0.1
 		}
@@ -238,6 +244,9 @@ sub_units = {
 		desert = {
 			movement = 0.15
 		}
+						deep_desert = { 
+			movement = 0.1
+		}
 		river = {
 			movement = 0.1
 		}
@@ -316,6 +325,9 @@ sub_units = {
 			movement = 0.1
 		}
 		desert = {
+			movement = 0.1
+		}
+						deep_desert = { 
 			movement = 0.1
 		}
 		river = {

@@ -725,9 +725,8 @@ focus_tree = {
 			add_tech_bonus = {
 				name = HUN_home_defense
 				bonus = 1.0
-				uses = 4
-				category = cat_grand_battle_plan
-				category = cat_mass_assault
+				uses = 2
+				category = land_doctrine
 			}
 			custom_effect_tooltip = HUN_light_infantry_divisions_doctrine_tech_tt
 			hidden_effect = { set_technology = { HUN_light_infantry_tech = 1 popup = no } }
