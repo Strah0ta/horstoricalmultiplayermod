@@ -1731,15 +1731,6 @@ ideas = {
 
 		available = {
 			has_completed_focus = GRE_fiscal_responsibility
-			NOT = {
-				OR = { 
-					has_government = communism
-					has_country_leader = {
-						name = "Emmanouil Tsouderos"
-						ruling_only = yes
-					}
-				}
-			}
 		}
 		
 		traits = { financial_expert }
@@ -2054,78 +2045,9 @@ theorist = {
 
 	air_chief = {
 		
-		
-		GRE_panagiotis_gazis = {
-			
-			picture = generic_air_europe_1
-			
-			allowed = {
-				original_tag = GRE
-				NOT = { has_dlc = "Battle for the Bosporus" }
-			}
-			
 
-			
-			traits = { air_chief_reform_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
-		}
 
-		GRE_vasilios_tsarpalis = {
-			
-			picture = generic_air_europe_2
-			
-			allowed = {
-				original_tag = GRE
-				NOT = { has_dlc = "Battle for the Bosporus" }
-			}
-			
 
-			
-			traits = { air_chief_safety_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
-		}
-
-		GRE_panagiotis_gazis_bftb = {
-
-			name = GRE_panagiotis_gazis
-			
-			picture = gre_panagiotis_gazis
-			
-			allowed = {
-				original_tag = GRE
-				has_dlc = "Battle for the Bosporus"
-			}
-			
-			traits = { air_chief_reform_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
-		}
-
-		GRE_vasilios_tsarpalis_bftb = {
-
-			name = GRE_vasilios_tsarpalis
-			
-			picture = gre_vasilios_tsarpalis
-			
-			allowed = {
-				original_tag = GRE
-				has_dlc = "Battle for the Bosporus"
-			}
-			
-			traits = { air_chief_safety_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
-		}
 	}
 
 	navy_chief = {
@@ -2230,7 +2152,7 @@ theorist = {
 			
 			picture = generic_army_europe_1
 			
-			traits = { army_artillery_2 }
+			traits = { army_commando_2 }
 			
 			ai_will_do = {
 				factor = 1
@@ -2266,7 +2188,7 @@ theorist = {
 			
 			picture = generic_air_europe_2
 			
-			traits = { air_naval_strike_2 }
+			traits = { army_armored_2 }
 			
 			ai_will_do = {
 				factor = 1
@@ -2360,7 +2282,7 @@ theorist = {
 			
 			picture = gre_giorgios_kosmas
 			
-			traits = { army_artillery_2 }
+			traits = { army_commando_2 }
 			
 			ai_will_do = {
 				factor = 1
@@ -2402,7 +2324,7 @@ theorist = {
 				}
 			}
 			
-			traits = { air_naval_strike_2 }
+			traits = { army_armored_2 }
 			
 			ai_will_do = {
 				factor = 1
@@ -2470,32 +2392,6 @@ theorist = {
 			}
 		}
 
-		GRE_fiat = {	
-		
-			picture = fiat
-
-			allowed = {
-				original_tag = GRE
-				has_dlc = "Battle for the Bosporus"
-			}
-
-			available = {
-				has_completed_focus = GRE_rapprochement_with_the_italians
-				NOT = { has_war_with = ITA }
-			}
-
-			cost = 120
-			
-			research_bonus = {
-				armor = 0.1
-			}
-			
-			traits = { infantry_tank_manufacturer }
-				
-			ai_will_do = {
-				factor = 1
-			}
-		}
 
 		GRE_vickers_armstrong = {
 		
@@ -2726,8 +2622,6 @@ theorist = {
 			}			
 
 			available = { 
-				has_completed_focus = GRE_cooperate_with_foreign_monopolies
-				NOT = { has_war_with = ENG }
 			}
 
 			cost = 120
@@ -2750,8 +2644,6 @@ theorist = {
 			}
 
 			available = { 
-				has_completed_focus = GRE_cooperate_with_foreign_monopolies
-				NOT = { has_war_with = GER }
 			}
 
 			cost = 120
@@ -2968,8 +2860,6 @@ theorist = {
 			}
 
 			available = {
-				NOT = { has_war_with = SOV }
-				has_completed_focus = GRE_appeal_to_the_soviet_union
 			}
 
 			cost = 120
