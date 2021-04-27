@@ -1900,6 +1900,229 @@ create_field_marshal = {
 	planning_skill = 6
 	logistics_skill = 6
 }
+create_field_marshal = { #HUN
+	name = "Károly Beregfy" #Point Value: 16 #2/6/21 -Trickster -Scavenger
+	portrait_path = "gfx/leaders/HUN/Portrait_hungary_karoly_beregfy.dds"
+	traits = { infantry_leader urban_assault_specialist ranger infantry_expert logistics_wizard thorough_planner organizer  trait_engineer }
+	skill = 7
+	attack_skill = 5
+	defense_skill = 7
+	planning_skill = 5
+	logistics_skill = 5
+}
+
+create_field_marshal = {
+	name = "Lajos Veress" #Point Value: 16 #2/6/21 -Thorough Planner
+	portrait_path = "gfx/leaders/HUN/Portrait_hungary_lajos_veress.dds"
+	traits = { organizer urban_assault_specialist panzer_leader panzer_expert expert_improviser inspirational_leader logistics_wizard organisational_leader	trickster trait_engineer }
+	skill = 7
+	attack_skill = 6
+	defense_skill = 3
+	planning_skill = 5
+	logistics_skill = 8
+}
+
+create_field_marshal = {
+	name = "Ferenc Feketehalmy-Czeydner" #Point Value: 16 #2/6/21 +Inspirational Leader +Offensive Doctrine
+	portrait_path = "gfx/leaders/HUN/Portrait_hungary_ferenc_feketehalmy_czeydner.dds"
+	traits = { infantry_leader inspirational_leader offensive_doctrine urban_assault_specialist trait_mountaineer swamp_fox infantry_expert fortress_buster trickster expert_improviser invader_ii trait_engineer }
+	skill = 7
+	attack_skill = 5
+	defense_skill = 5
+	planning_skill = 5
+	logistics_skill = 7
+}
+create_corps_commander = {
+	name = "Iván Hindy" #Point Value: 20 #2/6/21 -Ambusher -Organizer #2/14/21 -Trickster +Ranger
+	portrait_path = "gfx/leaders/HUN/Portrait_hungary_ivan_hindy.dds"
+	traits = {  urban_assault_specialist panzer_leader panzer_expert expert_improviser ranger scavenger trait_engineer swamp_fox }
+	skill = 7
+	attack_skill = 5
+	defense_skill = 6
+	planning_skill = 5
+	logistics_skill = 6
+}
+create_corps_commander = {
+	name = "Géza Lakatos" #Point Value: 20 #2/6/21 -Guerilla Fighter
+	portrait_path = "gfx/leaders/HUN/Portrait_hungary_geza_lakatos.dds"
+	traits = {  infantry_leader trickster commando camouflage_expert expert_improviser ambusher ranger }
+	skill = 7
+	attack_skill = 6
+	defense_skill = 4
+	planning_skill = 5
+	logistics_skill = 7
+}
+
+create_field_marshal = { #DONE #BUL
+	name = "Nikola Mihailov Mihov" #Point Value: 16  #3/25/21 -inspirational_leader -organisational_leader -organizer
+    portrait_path = "gfx/leaders/BUL/portrait_bul_nikola_mihov.dds"
+	traits = { infantry_leader adaptable ambusher defensive_doctrine  logistics_wizard }
+	skill = 7
+	attack_skill = 3
+	defense_skill = 6
+	planning_skill = 5
+	logistics_skill = 8
+
+}
+create_field_marshal = { #DLC
+    name = "Georgi Markov" #Point Value: 16 #3/19/21 +Adaptable +Cav Expert #3/25/21 -Organizer
+    portrait_path = "gfx/leaders/BUL/portrait_bul_georgi_markov.dds"
+	traits = { old_guard cavalry_leader cavalry_expert ranger combined_arms_expert offensive_doctrine trickster expert_improviser inspirational_leader fast_planner adaptable }
+	skill = 7
+	attack_skill = 4
+	defense_skill = 6
+	planning_skill = 4
+	logistics_skill = 8
+  
+}	
+create_field_marshal = {
+	name = "Konstantin Lukash" #Point Value: 16 #3/25/21 +Organizer
+    portrait_path = "gfx/leaders/BUL/portrait_bul_konstantin_lukash.dds"
+	traits = { infantry_leader ranger organizer infantry_expert defensive_doctrine trickster inspirational_leader commando camouflage_expert }
+	skill = 7
+	attack_skill = 5
+	defense_skill = 6
+	planning_skill = 3
+	logistics_skill = 8
+}
+
+create_field_marshal = { #DONE
+	name = "Nikola Stoychev" #Point Value: 16 #3/25/21 -Fast Planner -Organizer
+    portrait_path = "gfx/leaders/BUL/portrait_bul_nikola_stoychev.dds"
+	traits = { trait_cautious  offensive_doctrine trait_engineer scavenger panzer_leader panzer_expert urban_assault_specialist ranger  logistics_wizard trickster  }
+	skill = 7
+	attack_skill = 4
+	defense_skill = 5
+	planning_skill = 8
+	logistics_skill = 5
+}
+create_field_marshal = { #DLC
+    name = "Asen Nikolov" #Point Value: 16 #3/25/21 FM now, +Fast Planner
+    portrait_path = "gfx/leaders/BUL/portrait_bul_asen_nikolov.dds"
+	traits = { organizer fast_planner thorough_planner old_guard bearer_of_artillery infantry_leader infantry_expert trickster guerilla_fighter  trait_engineer }
+	skill = 7
+	attack_skill = 4
+	defense_skill = 7
+	planning_skill = 5
+	logistics_skill = 6
+}
+create_corps_Commander = { #DONE
+    name = "Angel Dotsev" #Point Value: 20 #2/11/21 -Fortress Buster -Improv Expert
+    portrait_path = "gfx/leaders/BUL/portrait_bul_angel_dotsev.dds"
+	traits = { organizer  old_guard bearer_of_artillery infantry_leader urban_assault_specialist ranger infantry_expert trickster  trait_engineer }
+	skill = 7
+	attack_skill = 4
+	defense_skill = 7
+	planning_skill = 5
+	logistics_skill = 6
+}
+
+create_corps_commander = { #BOCK COPY #
+    name = "Anton Pulanish" #Point Value: 20
+    picture = "gfx/leaders/CZE/Anton_Pulanish_Portrait.dds"
+    traits = { harsh_leader infantry_leader infantry_expert skilled_staffer trickster expert_improviser adaptable }
+    skill = 7
+    attack_skill = 5
+    defense_skill = 3
+    planning_skill = 9
+    logistics_skill = 5
+}
+create_field_marshal = {  #KEITEL COPY
+    name = "Jan Golian" #Point Value: 16
+    portrait_path = "gfx/leaders/CZE/Jan_Golian.dds"
+    traits = {  organizer thorough_planner ranger harsh_leader infantry_leader infantry_expert offensive_doctrine inspirational_leader organisational_leader trickster  }
+    skill = 7  
+    attack_skill = 4
+    defense_skill = 6
+    planning_skill = 5
+    logistics_skill = 7
+		}	
+create_field_marshal = {   #KLUGE COPY       #tank FM
+    name = "Vojtech Luza" #Point Value: 16 
+    portrait_path = "gfx/leaders/CZE/Portrait_Czech_Vojtech_Luza.dds"
+    traits = {  offensive_doctrine logistics_wizard trickster panzer_leader panzer_expert thorough_planner  }
+    skill = 7
+    attack_skill = 9
+    defense_skill = 3
+    planning_skill = 3
+    logistics_skill = 7
+}	
+create_corps_commander = { #ROMMEL # Africa 
+    name = "Rudolf Viest" #Point 20  
+    portrait_path = "gfx/leaders/CZE/Portrait_Czech_Rudolf_Viest.dds"
+    traits = {  trickster trait_engineer organizer  panzer_leader panzer_expert desert_fox hill_fighter urban_assault_specialist  }
+    skill = 7
+    attack_skill = 6
+    defense_skill = 3
+    planning_skill = 7
+    logistics_skill = 6
+}
+
+create_field_marshal = {
+	name = "Josef Nemisla" #Point 16 
+	portrait_path = "gfx/leaders/CZE/Portrait_Josef_Nemisla.dds"
+	traits = { commando guerilla_fighter infantry_leader ambusher urban_assault_specialist organizer defensive_doctrine logistics_wizard trait_cautious  }
+	skill = 7
+	attack_skill = 2
+	defense_skill = 6
+	planning_skill = 5
+	logistics_skill = 9
+}
+
+create_corps_commander = {
+	name = "Rudolf Palaticky" #Point 20 
+	portrait_path = "gfx/leaders/CZE/Portrait_Rudolf_Palaticky.tga"
+	traits = {  urban_assault_specialist panzer_leader panzer_expert expert_improviser ranger scavenger trait_engineer swamp_fox }
+	skill = 7
+	attack_skill = 5
+	defense_skill = 6
+	planning_skill = 5
+	logistics_skill = 6
+}
+
+create_corps_commander = {
+	name = "Franza Karmasin" #Point 20 
+	portrait_path = "gfx/leaders/CZE/portrait_SLO_Franza_Karmasin.dds"
+	traits = { hill_fighter trait_mountaineer infantry_leader trait_engineer urban_assault_specialist infantry_expert naval_invader invader_ii }
+	skill = 7
+	attack_skill = 5
+	defense_skill = 4
+	planning_skill = 7
+	logistics_skill = 6
+}
+
+create_corps_commander = {
+    name = "Jozef Turanec" #Point 19
+    portrait_path = "gfx/leaders/CZE/Portrait_SLO_jozef_turanec.dds"
+    traits = { old_guard  infantry_leader ambusher fake_skilled_staffer trickster swamp_fox urban_assault_specialist guerilla_fighter }
+    skill = 7
+    attack_skill = 3
+    defense_skill = 8
+    planning_skill = 6
+    logistics_skill = 5
+}
+
+create_corps_commander = {
+    name = "Augustin Malar" #Point 20
+    portrait_path = "gfx/leaders/CZE/Portrait_Slovakia_Augustin_Malar.dds"
+    traits = { trickster guerilla_fighter ambusher trait_cautious panzer_leader panzer_expert bearer_of_artillery winter_specialist }
+    skill = 7
+    attack_skill = 6
+    defense_skill = 4
+    planning_skill = 6
+    logistics_skill = 6
+}
+
+create_corps_commander = {
+    name = "Stefan Jurech" #Point 20 
+    portrait_path = "gfx/leaders/CZE/Portrait_Stefan_Jurech.tga"
+    traits = { organizer  bearer_of_artillery cavalry_expert cavalry_expert trait_mountaineer combined_arms_expert  trickster hill_fighter ambusher   }
+    skill = 7
+    attack_skill = 4
+    defense_skill = 6
+    planning_skill = 6
+    logistics_skill = 6
+}
 	
 	}
 	CZE = { 
@@ -2000,7 +2223,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-		name = "Stefan Jurech" #Point Value: 20 
+    name = "Stefan Jurech" #Point Value: 20 
 	picture = "Portrait_Stefan_Jurech.tga"
 	traits = { organizer  bearer_of_artillery cavalry_expert cavalry_expert trait_mountaineer combined_arms_expert  trickster hill_fighter ambusher   }
 	skill = 7
@@ -2009,8 +2232,258 @@ create_corps_commander = {
     planning_skill = 6
     logistics_skill = 6
 }
-		
-	}
+create_field_marshal = { #HUN
+	name = "Károly Beregfy" #Point Value: 16 #2/6/21 -Trickster -Scavenger
+	portrait_path = "gfx/leaders/HUN/Portrait_hungary_karoly_beregfy.dds"
+	traits = { infantry_leader urban_assault_specialist ranger infantry_expert logistics_wizard thorough_planner organizer  trait_engineer }
+	skill = 7
+	attack_skill = 5
+	defense_skill = 7
+	planning_skill = 5
+	logistics_skill = 5
+}
+
+create_field_marshal = {
+	name = "Lajos Veress" #Point Value: 16 #2/6/21 -Thorough Planner
+	portrait_path = "gfx/leaders/HUN/Portrait_hungary_lajos_veress.dds"
+	traits = { organizer urban_assault_specialist panzer_leader panzer_expert expert_improviser inspirational_leader logistics_wizard organisational_leader	trickster trait_engineer }
+	skill = 7
+	attack_skill = 6
+	defense_skill = 3
+	planning_skill = 5
+	logistics_skill = 8
+}
+
+create_field_marshal = {
+	name = "Ferenc Feketehalmy-Czeydner" #Point Value: 16 #2/6/21 +Inspirational Leader +Offensive Doctrine
+	portrait_path = "gfx/leaders/HUN/Portrait_hungary_ferenc_feketehalmy_czeydner.dds"
+	traits = { infantry_leader inspirational_leader offensive_doctrine urban_assault_specialist trait_mountaineer swamp_fox infantry_expert fortress_buster trickster expert_improviser invader_ii trait_engineer }
+	skill = 7
+	attack_skill = 5
+	defense_skill = 5
+	planning_skill = 5
+	logistics_skill = 7
+}
+create_corps_commander = {
+	name = "Iván Hindy" #Point Value: 20 #2/6/21 -Ambusher -Organizer #2/14/21 -Trickster +Ranger
+	portrait_path = "gfx/leaders/HUN/Portrait_hungary_ivan_hindy.dds"
+	traits = {  urban_assault_specialist panzer_leader panzer_expert expert_improviser ranger scavenger trait_engineer swamp_fox }
+	skill = 7
+	attack_skill = 5
+	defense_skill = 6
+	planning_skill = 5
+	logistics_skill = 6
+}
+create_corps_commander = {
+	name = "Géza Lakatos" #Point Value: 20 #2/6/21 -Guerilla Fighter
+	portrait_path = "gfx/leaders/HUN/Portrait_hungary_geza_lakatos.dds"
+	traits = {  infantry_leader trickster commando camouflage_expert expert_improviser ambusher ranger }
+	skill = 7
+	attack_skill = 6
+	defense_skill = 4
+	planning_skill = 5
+	logistics_skill = 7
+}
+
+create_field_marshal = { #DONE #BUL
+	name = "Nikola Mihailov Mihov" #Point Value: 16  #3/25/21 -inspirational_leader -organisational_leader -organizer
+        portrait_path = "gfx/leaders/BUL/portrait_bul_nikola_mihov.dds"
+	traits = { infantry_leader adaptable ambusher defensive_doctrine  logistics_wizard }
+	skill = 7
+	attack_skill = 3
+	defense_skill = 6
+	planning_skill = 5
+	logistics_skill = 8
+
+}
+create_field_marshal = { #DLC
+        name = "Georgi Markov" #Point Value: 16 #3/19/21 +Adaptable +Cav Expert #3/25/21 -Organizer
+        portrait_path = "gfx/leaders/BUL/portrait_bul_georgi_markov.dds"
+	traits = { old_guard cavalry_leader cavalry_expert ranger combined_arms_expert offensive_doctrine trickster expert_improviser inspirational_leader fast_planner adaptable }
+	skill = 7
+	attack_skill = 4
+	defense_skill = 6
+	planning_skill = 4
+	logistics_skill = 8
+  
+}	
+create_field_marshal = {
+	name = "Konstantin Lukash" #Point Value: 16 #3/25/21 +Organizer
+        portrait_path = "gfx/leaders/BUL/portrait_bul_konstantin_lukash.dds"
+	traits = { infantry_leader ranger organizer infantry_expert defensive_doctrine trickster inspirational_leader commando camouflage_expert }
+	skill = 7
+	attack_skill = 5
+	defense_skill = 6
+	planning_skill = 3
+	logistics_skill = 8
+}
+
+create_field_marshal = { #DONE
+	name = "Nikola Stoychev" #Point Value: 16 #3/25/21 -Fast Planner -Organizer
+        portrait_path = "gfx/leaders/BUL/portrait_bul_nikola_stoychev.dds"
+	traits = { trait_cautious  offensive_doctrine trait_engineer scavenger panzer_leader panzer_expert urban_assault_specialist ranger  logistics_wizard trickster  }
+	skill = 7
+	attack_skill = 4
+	defense_skill = 5
+	planning_skill = 8
+	logistics_skill = 5
+}
+create_field_marshal = { #DLC
+    name = "Asen Nikolov" #Point Value: 16 #3/25/21 FM now, +Fast Planner
+    portrait_path = "gfx/leaders/BUL/portrait_bul_asen_nikolov.dds"
+	traits = { organizer fast_planner thorough_planner old_guard bearer_of_artillery infantry_leader infantry_expert trickster guerilla_fighter  trait_engineer }
+	skill = 7
+	attack_skill = 4
+	defense_skill = 7
+	planning_skill = 5
+	logistics_skill = 6
+}
+create_corps_Commander = { #DONE
+    name = "Angel Dotsev" #Point Value: 20 #2/11/21 -Fortress Buster -Improv Expert
+    portrait_path = "gfx/leaders/BUL/portrait_bul_angel_dotsev.dds"
+	traits = { organizer  old_guard bearer_of_artillery infantry_leader urban_assault_specialist ranger infantry_expert trickster  trait_engineer }
+	skill = 7
+	attack_skill = 4
+	defense_skill = 7
+	planning_skill = 5
+	logistics_skill = 6
+}
+create_corps_commander = {
+	name = "Slavko Stancer"
+	portrait_path = "gfx/leaders/YUG/r56_portrait_CRO_slavko_stancer.dds"
+    traits = { trickster expert_improviser brilliant_strategist panzer_leader hill_fighter trait_mountaineer urban_assault_specialist panzer_expert  }
+	skill = 7
+	attack_skill = 5
+	defense_skill = 5
+	planning_skill = 7
+	logistics_skill = 5
+}
+
+create_corps_commander = {
+	name = "Junuz Ajanovic"
+	portrait_path = "gfx/leaders/YUG/r56_portrait_CRO_junuz_ajanovic.dds"
+	traits = { jungle_rat ranger commando trickster expert_improviser infantry_leader  infantry_expert }
+	skill = 7
+	attack_skill = 6
+	defense_skill = 6
+	planning_skill = 5
+	logistics_skill = 5
+ }
+ 
+ create_corps_commander = {
+	name = "Rafael Boban"
+	portrait_path = "gfx/leaders/YUG/r56_portrait_CRO_Rafael_Boban.dds"
+	traits = { trickster guerilla_fighter winter_specialist trait_engineer panzer_leader panzer_expert ambusher }
+	skill = 7
+	attack_skill = 5
+	defense_skill = 1
+	planning_skill = 10
+	logistics_skill = 6
+}
+create_field_marshal = {
+	name = "Franjo Simic" #Point Value: 20 
+	portrait_path = "gfx/leaders/YUG/r56_portrait_CRO_Franjo_Simic.dds"
+	traits = { infantry_leader urban_assault_specialist ranger infantry_expert logistics_wizard thorough_planner organizer  trait_engineer }
+	skill = 7
+	attack_skill = 5
+	defense_skill = 10
+	planning_skill = 1
+	logistics_skill = 6
+}
+
+create_corps_commander = {
+	name = "Matija Canic"
+	portrait_path = "gfx/leaders/YUG/r56_portrait_CRO_Matija_Canic.dds"
+	traits = {  trickster trait_engineer organizer  panzer_leader panzer_expert desert_fox hill_fighter urban_assault_specialist  }
+	skill = 7
+	attack_skill = 5
+	defense_skill = 4
+	planning_skill = 8
+	logistics_skill = 5
+}
+
+create_corps_commander = {
+	name = "Gojko Nikolis"
+	portrait_path = "gfx/leaders/YUG/r56_portrait_CRO_Gojko_Nikolis.dds"
+	traits = { hill_fighter trait_mountaineer infantry_leader trait_engineer urban_assault_specialist infantry_expert fortress_buster naval_invader invader_ii }
+	skill = 7
+	attack_skill = 5
+	defense_skill = 8
+	planning_skill = 4
+	logistics_skill = 5
+}
+
+create_corps_commander = {
+	name = "Duro Jakcin"
+	portrait_path = "gfx/leaders/YUG/r56_portrait_CRO_duro_jakcin.dds"
+	traits = { organizer  bearer_of_artillery cavalry_expert cavalry_expert trait_mountaineer combined_arms_expert  trickster hill_fighter ambusher   }
+	skill = 7
+
+	attack_skill = 8
+	defense_skill = 5
+	planning_skill = 4
+	logistics_skill = 5
+}
+
+create_field_marshal = {
+	name = "Andro Vrkljan"
+	portrait_path = "gfx/leaders/YUG/r56_portrait_CRO_andro_vrkljan.dds"
+        traits = {  offensive_doctrine logistics_wizard trickster panzer_leader panzer_expert thorough_planner  }
+	skill = 7
+
+	attack_skill = 5
+	defense_skill = 6
+	planning_skill = 7
+	logistics_skill = 4
+}
+
+create_corps_commander = {
+	name = "Stjepan Sarkotic"
+	portrait_path = "gfx/leaders/YUG/Portrait_Stjepan_Sarkotic.dds"
+	traits = { infantry_leader desert_fox trait_mountaineer hill_fighter ambusher commando skirmisher guerilla_fighter paratrooper }
+	skill = 7
+
+	attack_skill = 4
+	defense_skill = 7
+	planning_skill = 7
+	logistics_skill = 4
+}
+
+create_field_marshal = {
+	name = "Slavko Kvaternik"
+	portrait_path = "gfx/leaders/YUG/Portrait_Slavko_Kvaternik.dds"
+	traits = { commando guerilla_fighter infantry_leader ambusher urban_assault_specialist organizer defensive_doctrine logistics_wizard trait_cautious  }
+	skill = 7
+
+	attack_skill = 8
+	defense_skill = 4
+	planning_skill = 4
+	logistics_skill = 6
+}
+
+create_field_marshal = {
+	name = "Jure Francetic"
+	portrait_path = "gfx/leaders/YUG/Portrait_Jure_Francetic.dds"
+    traits = {  panzer_leader  thorough_planner logistics_wizard trait_engineer trait_mountaineer desert_fox hill_fighter fortress_buster trait_cautious }
+	skill = 7
+	attack_skill = 6
+	defense_skill = 4
+	planning_skill = 6
+	logistics_skill = 6
+}
+
+create_field_marshal = {
+	name = "Ivan Babic"
+	portrait_path = "gfx/leaders/YUG/Portrait_Ivan_Babic.dds"
+	traits = { old_guard guerilla_fighter defensive_doctrine  bearer_of_artillery cavalry_expert cavalry_expert trait_mountaineer urban_assault_specialist combined_arms_expert  hill_fighter desert_fox ambusher   }
+	skill = 7
+	attack_skill = 5
+	defense_skill = 5
+	planning_skill = 6
+	logistics_skill = 6
+}
+
+    }		
 	
 ALB = {
 create_field_marshal = {
@@ -3373,6 +3846,300 @@ create_corps_Commander = { #DONE
 	logistics_skill = 6
 
 }
+create_field_marshal = { #HUN
+	name = "Károly Beregfy" #Point Value: 16 #2/6/21 -Trickster -Scavenger
+	portrait_path = "gfx/leaders/HUN/Portrait_hungary_karoly_beregfy.dds"
+	traits = { infantry_leader urban_assault_specialist ranger infantry_expert logistics_wizard thorough_planner organizer  trait_engineer }
+	skill = 7
+	attack_skill = 5
+	defense_skill = 7
+	planning_skill = 5
+	logistics_skill = 5
+}
+
+create_field_marshal = {
+	name = "Lajos Veress" #Point Value: 16 #2/6/21 -Thorough Planner
+	portrait_path = "gfx/leaders/HUN/Portrait_hungary_lajos_veress.dds"
+	traits = { organizer urban_assault_specialist panzer_leader panzer_expert expert_improviser inspirational_leader logistics_wizard organisational_leader	trickster trait_engineer }
+	skill = 7
+	attack_skill = 6
+	defense_skill = 3
+	planning_skill = 5
+	logistics_skill = 8
+}
+
+create_field_marshal = {
+	name = "Ferenc Feketehalmy-Czeydner" #Point Value: 16 #2/6/21 +Inspirational Leader +Offensive Doctrine
+	portrait_path = "gfx/leaders/HUN/Portrait_hungary_ferenc_feketehalmy_czeydner.dds"
+	traits = { infantry_leader inspirational_leader offensive_doctrine urban_assault_specialist trait_mountaineer swamp_fox infantry_expert fortress_buster trickster expert_improviser invader_ii trait_engineer }
+	skill = 7
+	attack_skill = 5
+	defense_skill = 5
+	planning_skill = 5
+	logistics_skill = 7
+}
+create_corps_commander = {
+	name = "Iván Hindy" #Point Value: 20 #2/6/21 -Ambusher -Organizer #2/14/21 -Trickster +Ranger
+	portrait_path = "gfx/leaders/HUN/Portrait_hungary_ivan_hindy.dds"
+	traits = {  urban_assault_specialist panzer_leader panzer_expert expert_improviser ranger scavenger trait_engineer swamp_fox }
+	skill = 7
+	attack_skill = 5
+	defense_skill = 6
+	planning_skill = 5
+	logistics_skill = 6
+}
+create_corps_commander = {
+	name = "Géza Lakatos" #Point Value: 20 #2/6/21 -Guerilla Fighter
+	portrait_path = "gfx/leaders/HUN/Portrait_hungary_geza_lakatos.dds"
+	traits = {  infantry_leader trickster commando camouflage_expert expert_improviser ambusher ranger }
+	skill = 7
+	attack_skill = 6
+	defense_skill = 4
+	planning_skill = 5
+	logistics_skill = 7
+}
+create_corps_commander = {
+	name = "Slavko Stancer"
+	portrait_path = "gfx/leaders/YUG/r56_portrait_CRO_slavko_stancer.dds"
+        traits = { trickster expert_improviser brilliant_strategist panzer_leader hill_fighter trait_mountaineer urban_assault_specialist panzer_expert  }
+	skill = 7
+	attack_skill = 5
+	defense_skill = 5
+	planning_skill = 7
+	logistics_skill = 5
+}
+
+
+create_corps_commander = {
+	name = "Junuz Ajanovic"
+	portrait_path = "gfx/leaders/YUG/r56_portrait_CRO_junuz_ajanovic.dds"
+	traits = { jungle_rat ranger commando trickster expert_improviser infantry_leader  infantry_expert }
+	skill = 7
+	attack_skill = 6
+	defense_skill = 6
+	planning_skill = 5
+	logistics_skill = 5
+ }
+ 
+ create_corps_commander = {
+	name = "Rafael Boban"
+	portrait_path = "gfx/leaders/YUG/r56_portrait_CRO_Rafael_Boban.dds"
+	traits = { trickster guerilla_fighter winter_specialist trait_engineer panzer_leader panzer_expert ambusher }
+	skill = 7
+	attack_skill = 5
+	defense_skill = 1
+	planning_skill = 10
+	logistics_skill = 6
+}
+create_field_marshal = {
+	name = "Franjo Simic" #Point Value: 20 
+	portrait_path = "gfx/leaders/YUG/r56_portrait_CRO_Franjo_Simic.dds"
+	traits = { infantry_leader urban_assault_specialist ranger infantry_expert logistics_wizard thorough_planner organizer  trait_engineer }
+	skill = 7
+	attack_skill = 5
+	defense_skill = 10
+	planning_skill = 1
+	logistics_skill = 6
+}
+
+create_corps_commander = {
+	name = "Matija Canic"
+	portrait_path = "gfx/leaders/YUG/r56_portrait_CRO_Matija_Canic.dds"
+	traits = {  trickster trait_engineer organizer  panzer_leader panzer_expert desert_fox hill_fighter urban_assault_specialist  }
+	skill = 7
+	attack_skill = 5
+	defense_skill = 4
+	planning_skill = 8
+	logistics_skill = 5
+}
+
+create_corps_commander = {
+	name = "Gojko Nikolis"
+	portrait_path = "gfx/leaders/YUG/r56_portrait_CRO_Gojko_Nikolis.dds"
+	traits = { hill_fighter trait_mountaineer infantry_leader trait_engineer urban_assault_specialist infantry_expert fortress_buster naval_invader invader_ii }
+	skill = 7
+	attack_skill = 5
+	defense_skill = 8
+	planning_skill = 4
+	logistics_skill = 5
+}
+
+create_corps_commander = {
+	name = "Duro Jakcin"
+	portrait_path = "gfx/leaders/YUG/r56_portrait_CRO_duro_jakcin.dds"
+	traits = { organizer  bearer_of_artillery cavalry_expert cavalry_expert trait_mountaineer combined_arms_expert  trickster hill_fighter ambusher   }
+	skill = 7
+
+	attack_skill = 8
+	defense_skill = 5
+	planning_skill = 4
+	logistics_skill = 5
+}
+
+create_field_marshal = {
+	name = "Andro Vrkljan"
+	portrait_path = "gfx/leaders/YUG/r56_portrait_CRO_andro_vrkljan.dds"
+        traits = {  offensive_doctrine logistics_wizard trickster panzer_leader panzer_expert thorough_planner  }
+	skill = 7
+
+	attack_skill = 5
+	defense_skill = 6
+	planning_skill = 7
+	logistics_skill = 4
+}
+
+create_corps_commander = {
+	name = "Stjepan Sarkotic"
+	portrait_path = "gfx/leaders/YUG/Portrait_Stjepan_Sarkotic.dds"
+	traits = { infantry_leader desert_fox trait_mountaineer hill_fighter ambusher commando skirmisher guerilla_fighter paratrooper }
+	skill = 7
+
+	attack_skill = 4
+	defense_skill = 7
+	planning_skill = 7
+	logistics_skill = 4
+}
+
+create_field_marshal = {
+	name = "Slavko Kvaternik"
+	portrait_path = "gfx/leaders/YUG/Portrait_Slavko_Kvaternik.dds"
+	traits = { commando guerilla_fighter infantry_leader ambusher urban_assault_specialist organizer defensive_doctrine logistics_wizard trait_cautious  }
+	skill = 7
+
+	attack_skill = 8
+	defense_skill = 4
+	planning_skill = 4
+	logistics_skill = 6
+}
+
+create_field_marshal = {
+	name = "Jure Francetic"
+	portrait_path = "gfx/leaders/YUG/Portrait_Jure_Francetic.dds"
+        traits = {  panzer_leader  thorough_planner logistics_wizard trait_engineer trait_mountaineer desert_fox hill_fighter fortress_buster trait_cautious }
+	skill = 7
+	attack_skill = 6
+	defense_skill = 4
+	planning_skill = 6
+	logistics_skill = 6
+}
+
+create_field_marshal = {
+	name = "Ivan Babic"
+	portrait_path = "gfx/leaders/YUG/Portrait_Ivan_Babic.dds"
+	traits = { old_guard guerilla_fighter defensive_doctrine  bearer_of_artillery cavalry_expert cavalry_expert trait_mountaineer urban_assault_specialist combined_arms_expert  hill_fighter desert_fox ambusher   }
+	skill = 7
+	attack_skill = 5
+	defense_skill = 5
+	planning_skill = 6
+	logistics_skill = 6
+}
+
+create_corps_commander = { #BOCK COPY #
+    name = "Anton Pulanish" #Point Value: 20
+    picture = "gfx/leaders/CZE/Anton_Pulanish_Portrait.dds"
+    traits = { harsh_leader infantry_leader infantry_expert skilled_staffer trickster expert_improviser adaptable }
+    skill = 7
+    attack_skill = 5
+    defense_skill = 3
+    planning_skill = 9
+    logistics_skill = 5
+}
+create_field_marshal = {  #KEITEL COPY
+    name = "Jan Golian" #Point Value: 16
+    portrait_path = "gfx/leaders/CZE/Jan_Golian.dds"
+    traits = {  organizer thorough_planner ranger harsh_leader infantry_leader infantry_expert offensive_doctrine inspirational_leader organisational_leader trickster  }
+    skill = 7  
+    attack_skill = 4
+    defense_skill = 6
+    planning_skill = 5
+    logistics_skill = 7
+		}	
+create_field_marshal = {   #KLUGE COPY       #tank FM
+    name = "Vojtech Luza" #Point Value: 16 
+    portrait_path = "gfx/leaders/CZE/Portrait_Czech_Vojtech_Luza.dds"
+    traits = {  offensive_doctrine logistics_wizard trickster panzer_leader panzer_expert thorough_planner  }
+    skill = 7
+    attack_skill = 9
+    defense_skill = 3
+    planning_skill = 3
+    logistics_skill = 7
+}	
+create_corps_commander = { #ROMMEL # Africa 
+    name = "Rudolf Viest" #Point 20  
+    portrait_path = "gfx/leaders/CZE/Portrait_Czech_Rudolf_Viest.dds"
+    traits = {  trickster trait_engineer organizer  panzer_leader panzer_expert desert_fox hill_fighter urban_assault_specialist  }
+    skill = 7
+    attack_skill = 6
+    defense_skill = 3
+    planning_skill = 7
+    logistics_skill = 6
+}
+
+create_field_marshal = {
+	name = "Josef Nemisla" #Point 16 
+	portrait_path = "gfx/leaders/CZE/Portrait_Josef_Nemisla.dds"
+	traits = { commando guerilla_fighter infantry_leader ambusher urban_assault_specialist organizer defensive_doctrine logistics_wizard trait_cautious  }
+	skill = 7
+	attack_skill = 2
+	defense_skill = 6
+	planning_skill = 5
+	logistics_skill = 9
+}
+
+create_corps_commander = {
+	name = "Rudolf Palaticky" #Point 20 
+	portrait_path = "gfx/leaders/CZE/Portrait_Rudolf_Palaticky.tga"
+	traits = {  urban_assault_specialist panzer_leader panzer_expert expert_improviser ranger scavenger trait_engineer swamp_fox }
+	skill = 7
+	attack_skill = 5
+	defense_skill = 6
+	planning_skill = 5
+	logistics_skill = 6
+}
+
+create_corps_commander = {
+	name = "Franza Karmasin" #Point 20 
+	portrait_path = "gfx/leaders/CZE/portrait_SLO_Franza_Karmasin.dds"
+	traits = { hill_fighter trait_mountaineer infantry_leader trait_engineer urban_assault_specialist infantry_expert naval_invader invader_ii }
+	skill = 7
+	attack_skill = 5
+	defense_skill = 4
+	planning_skill = 7
+	logistics_skill = 6
+}
+
+create_corps_commander = {
+    name = "Jozef Turanec" #Point 19
+    portrait_path = "gfx/leaders/CZE/Portrait_SLO_jozef_turanec.dds"
+    traits = { old_guard  infantry_leader ambusher fake_skilled_staffer trickster swamp_fox urban_assault_specialist guerilla_fighter }
+    skill = 7
+    attack_skill = 3
+    defense_skill = 8
+    planning_skill = 6
+    logistics_skill = 5
+}
+
+create_corps_commander = {
+    name = "Augustin Malar" #Point 20
+    portrait_path = "gfx/leaders/CZE/Portrait_Slovakia_Augustin_Malar.dds"
+    traits = { trickster guerilla_fighter ambusher trait_cautious panzer_leader panzer_expert bearer_of_artillery winter_specialist }
+    skill = 7
+    attack_skill = 6
+    defense_skill = 4
+    planning_skill = 6
+    logistics_skill = 6
+}
+
+create_corps_commander = {
+    name = "Stefan Jurech" #Point 20 
+    portrait_path = "gfx/leaders/CZE/Portrait_Stefan_Jurech.tga"
+    traits = { organizer  bearer_of_artillery cavalry_expert cavalry_expert trait_mountaineer combined_arms_expert  trickster hill_fighter ambusher   }
+    skill = 7
+    attack_skill = 4
+    defense_skill = 6
+    planning_skill = 6
+    logistics_skill = 6
+}
 }
 ROM = {
 create_field_marshal = {
@@ -3526,7 +4293,299 @@ create_corps_commander = {
 	planning_skill = 5
 	logistics_skill = 7
 }
+create_corps_commander = { #BOCK COPY #
+    name = "Anton Pulanish" #Point Value: 20
+    picture = "gfx/leaders/CZE/Anton_Pulanish_Portrait.dds"
+    traits = { harsh_leader infantry_leader infantry_expert skilled_staffer trickster expert_improviser adaptable }
+    skill = 7
+    attack_skill = 5
+    defense_skill = 3
+    planning_skill = 9
+    logistics_skill = 5
+}
+create_field_marshal = {  #KEITEL COPY
+    name = "Jan Golian" #Point Value: 16
+    portrait_path = "gfx/leaders/CZE/Jan_Golian.dds"
+    traits = {  organizer thorough_planner ranger harsh_leader infantry_leader infantry_expert offensive_doctrine inspirational_leader organisational_leader trickster  }
+    skill = 7  
+    attack_skill = 4
+    defense_skill = 6
+    planning_skill = 5
+    logistics_skill = 7
+		}	
+create_field_marshal = {   #KLUGE COPY       #tank FM
+    name = "Vojtech Luza" #Point Value: 16 
+    portrait_path = "gfx/leaders/CZE/Portrait_Czech_Vojtech_Luza.dds"
+    traits = {  offensive_doctrine logistics_wizard trickster panzer_leader panzer_expert thorough_planner  }
+    skill = 7
+    attack_skill = 9
+    defense_skill = 3
+    planning_skill = 3
+    logistics_skill = 7
+}	
+create_corps_commander = { #ROMMEL # Africa 
+    name = "Rudolf Viest" #Point 20  
+    portrait_path = "gfx/leaders/CZE/Portrait_Czech_Rudolf_Viest.dds"
+    traits = {  trickster trait_engineer organizer  panzer_leader panzer_expert desert_fox hill_fighter urban_assault_specialist  }
+    skill = 7
+    attack_skill = 6
+    defense_skill = 3
+    planning_skill = 7
+    logistics_skill = 6
+}
 
+create_field_marshal = {
+	name = "Josef Nemisla" #Point 16 
+	portrait_path = "gfx/leaders/CZE/Portrait_Josef_Nemisla.dds"
+	traits = { commando guerilla_fighter infantry_leader ambusher urban_assault_specialist organizer defensive_doctrine logistics_wizard trait_cautious  }
+	skill = 7
+	attack_skill = 2
+	defense_skill = 6
+	planning_skill = 5
+	logistics_skill = 9
+}
+
+create_corps_commander = {
+	name = "Rudolf Palaticky" #Point 20 
+	portrait_path = "gfx/leaders/CZE/Portrait_Rudolf_Palaticky.tga"
+	traits = {  urban_assault_specialist panzer_leader panzer_expert expert_improviser ranger scavenger trait_engineer swamp_fox }
+	skill = 7
+	attack_skill = 5
+	defense_skill = 6
+	planning_skill = 5
+	logistics_skill = 6
+}
+
+create_corps_commander = {
+	name = "Franza Karmasin" #Point 20 
+	portrait_path = "gfx/leaders/CZE/portrait_SLO_Franza_Karmasin.dds"
+	traits = { hill_fighter trait_mountaineer infantry_leader trait_engineer urban_assault_specialist infantry_expert naval_invader invader_ii }
+	skill = 7
+	attack_skill = 5
+	defense_skill = 4
+	planning_skill = 7
+	logistics_skill = 6
+}
+
+create_corps_commander = {
+    name = "Jozef Turanec" #Point 19
+    portrait_path = "gfx/leaders/CZE/Portrait_SLO_jozef_turanec.dds"
+    traits = { old_guard  infantry_leader ambusher fake_skilled_staffer trickster swamp_fox urban_assault_specialist guerilla_fighter }
+    skill = 7
+    attack_skill = 3
+    defense_skill = 8
+    planning_skill = 6
+    logistics_skill = 5
+}
+
+create_corps_commander = {
+    name = "Augustin Malar" #Point 20
+    portrait_path = "gfx/leaders/CZE/Portrait_Slovakia_Augustin_Malar.dds"
+    traits = { trickster guerilla_fighter ambusher trait_cautious panzer_leader panzer_expert bearer_of_artillery winter_specialist }
+    skill = 7
+    attack_skill = 6
+    defense_skill = 4
+    planning_skill = 6
+    logistics_skill = 6
+}
+
+create_corps_commander = {
+    name = "Stefan Jurech" #Point 20 
+    portrait_path = "gfx/leaders/CZE/Portrait_Stefan_Jurech.tga"
+    traits = { organizer  bearer_of_artillery cavalry_expert cavalry_expert trait_mountaineer combined_arms_expert  trickster hill_fighter ambusher   }
+    skill = 7
+    attack_skill = 4
+    defense_skill = 6
+    planning_skill = 6
+    logistics_skill = 6
+}
+create_corps_commander = {
+	name = "Slavko Stancer"
+	portrait_path = "gfx/leaders/YUG/r56_portrait_CRO_slavko_stancer.dds"
+        traits = { trickster expert_improviser brilliant_strategist panzer_leader hill_fighter trait_mountaineer urban_assault_specialist panzer_expert  }
+	skill = 7
+	attack_skill = 5
+	defense_skill = 5
+	planning_skill = 7
+	logistics_skill = 5
+}
+
+
+create_corps_commander = {
+	name = "Junuz Ajanovic"
+	portrait_path = "gfx/leaders/YUG/r56_portrait_CRO_junuz_ajanovic.dds"
+	traits = { jungle_rat ranger commando trickster expert_improviser infantry_leader  infantry_expert }
+	skill = 7
+	attack_skill = 6
+	defense_skill = 6
+	planning_skill = 5
+	logistics_skill = 5
+ }
+ 
+ create_corps_commander = {
+	name = "Rafael Boban"
+	portrait_path = "gfx/leaders/YUG/r56_portrait_CRO_Rafael_Boban.dds"
+	traits = { trickster guerilla_fighter winter_specialist trait_engineer panzer_leader panzer_expert ambusher }
+	skill = 7
+	attack_skill = 5
+	defense_skill = 1
+	planning_skill = 10
+	logistics_skill = 6
+}
+create_field_marshal = {
+	name = "Franjo Simic" #Point Value: 20 
+	portrait_path = "gfx/leaders/YUG/r56_portrait_CRO_Franjo_Simic.dds"
+	traits = { infantry_leader urban_assault_specialist ranger infantry_expert logistics_wizard thorough_planner organizer  trait_engineer }
+	skill = 7
+	attack_skill = 5
+	defense_skill = 10
+	planning_skill = 1
+	logistics_skill = 6
+}
+
+create_corps_commander = {
+	name = "Matija Canic"
+	portrait_path = "gfx/leaders/YUG/r56_portrait_CRO_Matija_Canic.dds"
+	traits = {  trickster trait_engineer organizer  panzer_leader panzer_expert desert_fox hill_fighter urban_assault_specialist  }
+	skill = 7
+	attack_skill = 5
+	defense_skill = 4
+	planning_skill = 8
+	logistics_skill = 5
+}
+
+create_corps_commander = {
+	name = "Gojko Nikolis"
+	portrait_path = "gfx/leaders/YUG/r56_portrait_CRO_Gojko_Nikolis.dds"
+	traits = { hill_fighter trait_mountaineer infantry_leader trait_engineer urban_assault_specialist infantry_expert fortress_buster naval_invader invader_ii }
+	skill = 7
+	attack_skill = 5
+	defense_skill = 8
+	planning_skill = 4
+	logistics_skill = 5
+}
+
+create_corps_commander = {
+	name = "Duro Jakcin"
+	portrait_path = "gfx/leaders/YUG/r56_portrait_CRO_duro_jakcin.dds"
+	traits = { organizer  bearer_of_artillery cavalry_expert cavalry_expert trait_mountaineer combined_arms_expert  trickster hill_fighter ambusher   }
+	skill = 7
+
+	attack_skill = 8
+	defense_skill = 5
+	planning_skill = 4
+	logistics_skill = 5
+}
+
+create_field_marshal = {
+	name = "Andro Vrkljan"
+	portrait_path = "gfx/leaders/YUG/r56_portrait_CRO_andro_vrkljan.dds"
+        traits = {  offensive_doctrine logistics_wizard trickster panzer_leader panzer_expert thorough_planner  }
+	skill = 7
+
+	attack_skill = 5
+	defense_skill = 6
+	planning_skill = 7
+	logistics_skill = 4
+}
+
+create_corps_commander = {
+	name = "Stjepan Sarkotic"
+	portrait_path = "gfx/leaders/YUG/Portrait_Stjepan_Sarkotic.dds"
+	traits = { infantry_leader desert_fox trait_mountaineer hill_fighter ambusher commando skirmisher guerilla_fighter paratrooper }
+	skill = 7
+
+	attack_skill = 4
+	defense_skill = 7
+	planning_skill = 7
+	logistics_skill = 4
+}
+
+create_field_marshal = {
+	name = "Slavko Kvaternik"
+	portrait_path = "gfx/leaders/YUG/Portrait_Slavko_Kvaternik.dds"
+	traits = { commando guerilla_fighter infantry_leader ambusher urban_assault_specialist organizer defensive_doctrine logistics_wizard trait_cautious  }
+	skill = 7
+
+	attack_skill = 8
+	defense_skill = 4
+	planning_skill = 4
+	logistics_skill = 6
+}
+
+create_field_marshal = {
+	name = "Jure Francetic"
+	portrait_path = "gfx/leaders/YUG/Portrait_Jure_Francetic.dds"
+        traits = {  panzer_leader  thorough_planner logistics_wizard trait_engineer trait_mountaineer desert_fox hill_fighter fortress_buster trait_cautious }
+	skill = 7
+	attack_skill = 6
+	defense_skill = 4
+	planning_skill = 6
+	logistics_skill = 6
+}
+
+create_field_marshal = {
+	name = "Ivan Babic"
+	portrait_path = "gfx/leaders/YUG/Portrait_Ivan_Babic.dds"
+	traits = { old_guard guerilla_fighter defensive_doctrine  bearer_of_artillery cavalry_expert cavalry_expert trait_mountaineer urban_assault_specialist combined_arms_expert  hill_fighter desert_fox ambusher   }
+	skill = 7
+	attack_skill = 5
+	defense_skill = 5
+	planning_skill = 6
+	logistics_skill = 6
+}
+create_field_marshal = { #DLC
+        name = "Georgi Markov" #Point Value: 16 #3/19/21 +Adaptable +Cav Expert #3/25/21 -Organizer
+        portrait_path = "gfx/leaders/BUL/portrait_bul_georgi_markov.dds"
+	traits = { old_guard cavalry_leader cavalry_expert ranger combined_arms_expert offensive_doctrine trickster expert_improviser inspirational_leader fast_planner adaptable }
+	skill = 7
+	attack_skill = 4
+	defense_skill = 6
+	planning_skill = 4
+	logistics_skill = 8
+  
+}	
+create_field_marshal = {
+	name = "Konstantin Lukash" #Point Value: 16 #3/25/21 +Organizer
+        portrait_path = "gfx/leaders/BUL/portrait_bul_konstantin_lukash.dds"
+	traits = { infantry_leader ranger organizer infantry_expert defensive_doctrine trickster inspirational_leader commando camouflage_expert }
+	skill = 7
+	attack_skill = 5
+	defense_skill = 6
+	planning_skill = 3
+	logistics_skill = 8
+}
+
+create_field_marshal = { #DONE
+	name = "Nikola Stoychev" #Point Value: 16 #3/25/21 -Fast Planner -Organizer
+        portrait_path = "gfx/leaders/BUL/portrait_bul_nikola_stoychev.dds"
+	traits = { trait_cautious  offensive_doctrine trait_engineer scavenger panzer_leader panzer_expert urban_assault_specialist ranger  logistics_wizard trickster  }
+	skill = 7
+	attack_skill = 4
+	defense_skill = 5
+	planning_skill = 8
+	logistics_skill = 5
+}
+    create_field_marshal = { #DLC
+        name = "Asen Nikolov" #Point Value: 16 #3/25/21 FM now, +Fast Planner
+        portrait_path = "gfx/leaders/BUL/portrait_bul_asen_nikolov.dds"
+	traits = { organizer fast_planner thorough_planner old_guard bearer_of_artillery infantry_leader infantry_expert trickster guerilla_fighter  trait_engineer }
+	skill = 7
+	attack_skill = 4
+	defense_skill = 7
+	planning_skill = 5
+	logistics_skill = 6
+}
+create_corps_Commander = { #DONE
+        name = "Angel Dotsev" #Point Value: 20 #2/11/21 -Fortress Buster -Improv Expert
+        portrait_path = "gfx/leaders/BUL/portrait_bul_angel_dotsev.dds"
+	traits = { organizer  old_guard bearer_of_artillery infantry_leader urban_assault_specialist ranger infantry_expert trickster  trait_engineer }
+	skill = 7
+	attack_skill = 4
+	defense_skill = 7
+	planning_skill = 5
+	logistics_skill = 6
+}		
 }
 SPR = {
 	create_field_marshal = {
