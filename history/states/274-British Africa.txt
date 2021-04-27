@@ -3,7 +3,7 @@ id=274
 name="Halil"
 history={
 		owner = PER
-		add_core_of = PER
+		add_State_core = PER
 buildings = {
 infrastructure = 3
 	

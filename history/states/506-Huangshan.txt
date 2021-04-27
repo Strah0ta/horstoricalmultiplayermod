@@ -9,6 +9,6 @@ state={
 	state_category=wasteland
 	history={
 			owner = PER
-		add_core_of = PER
+		add_State_core = PER
 	}
 }

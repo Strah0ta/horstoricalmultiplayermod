@@ -1,7 +1,7 @@
 state={
 id=558
 name="British West Africa"
-manpower = 24888620
+manpower = 24689100
 state_category = large_Town
 
 history={
@@ -20,15 +20,9 @@ naval_base = 3
 10862 = {
 naval_base = 2
 }
-4989 = {
-naval_base = 1
-}
 }
 victory_points = {
 2050 1
-}
-victory_points = {
-4989 1
 }
 victory_points = {
 2038 1
@@ -39,7 +33,7 @@ victory_points = {
 
 }
 provinces={
-1891 8039 8096 10862 12742 12785 12787 13136   4989 13213
+1891 8039 8096 10862 12742 12785 12787 13136
  1932 1969 1992 2025 2050 4889 4938 4952 4972 4997 5028 7978 8021 8034 8109 10820 10831 12731 12817 12900 2038 2094 
 }
 }

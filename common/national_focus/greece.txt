@@ -25,6 +25,7 @@ focus_tree = {
 	focus = {
 		id = GRE_the_kings_government
 		icon = GFX_focus_generic_home_defense
+		mutually_exclusive = { focus = GRE_bring_home_the_exiled_republicans }
 		available = {always = no}
 
 		x = 5
@@ -152,7 +153,7 @@ focus_tree = {
 	focus = {
 		id = GRE_crack_down_on_the_republicans
 		icon = GFX_goal_generic_forceful_treaty
-		prerequisite = { focus = GRE_the_national_youth_organisation  }
+		prerequisite = { focus = GRE_the_national_youth_organisation focus = GRE_petition_britain_for_aid }
 		x = 0
 		y = 1
 		relative_position_id = GRE_the_national_youth_organisation
@@ -240,6 +241,7 @@ focus_tree = {
 		id = GRE_our_traditional_allies_in_the_aegean
 		icon = GFX_goal_generic_major_alliance
 		prerequisite = { focus = GRE_use_the_military }
+		mutually_exclusive = { focus = GRE_realign_ourselves_with_the_central_powers }
 		x = -2
 		y = 1
 		relative_position_id = GRE_use_the_military
@@ -462,7 +464,7 @@ focus_tree = {
 	focus = {
 		id = GRE_expansion_of_athens_university
 		icon = GFX_goal_generic_scientific_exchange
-		prerequisite = { focus = GRE_the_greater_enosis  }
+		prerequisite = { focus = GRE_reclaiming_the_wayward_ally focus = GRE_the_greater_enosis  }
 		x = 0
 		y = 1
 		relative_position_id = GRE_the_greater_enosis
@@ -498,7 +500,7 @@ focus_tree = {
 	focus = {
 		id = GRE_an_orthodox_state
 		icon = GFX_focus_GRE_an_orthodox_state
-		prerequisite = { focus = GRE_use_the_military }
+		prerequisite = { focus = GRE_use_the_military focus = GRE_recruit_the_fascists }
 		available = { 
 			has_country_leader = { 
 				name = "Ioannis Metaxas"
@@ -739,6 +741,7 @@ focus_tree = {
 		id = GRE_force_the_farmers_into_factories
 		icon = GFX_focus_generic_industry_2
 		prerequisite = { focus = GRE_reevaluating_the_drachma }
+		mutually_exclusive = { focus = GRE_utilize_our_strengths }
 		x = 1	
 		y = 1
 		relative_position_id = GRE_reevaluating_the_drachma
@@ -1503,9 +1506,22 @@ focus_tree = {
 		y = 1
 		relative_position_id = GRE_the_hellenic_navy
 		cost = 10
+		ai_will_do = {
+			base = 0
+			modifier = { 
+				add = 1
+				is_historical_focus_on = no
+			}
+		}
 
 		completion_reward = {
 			custom_effect_tooltip = GRE_abandon_the_greek_turkish_naval_treaty_tt
+			TUR = {
+				add_opinion_modifier = { 
+					target = GRE 
+					modifier = GRE_aegean_troublemakers
+				}
+			}
 		}
 	}	
 

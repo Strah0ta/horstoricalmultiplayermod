@@ -1,15 +1,23 @@
 state={
 id=355
-name="Arabian Wastes"
-impassable = yes
+name="STATE_701"
 history={
-owner = PER
-add_core_of=PER
+owner = ENG
+add_core_of=SWE
+victory_points = {
+4989 1
+}
+buildings = {
+infrastructure = 3
+4989 = {
+naval_base = 1
+}
+}
 }
 provinces={
- 10901
+4989 13213
 }
-manpower=1
+manpower=199520
 buildings_max_level_factor=1.000
-state_category=wasteland
+state_category=enclave
 }
