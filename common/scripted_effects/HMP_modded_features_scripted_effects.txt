@@ -53,7 +53,8 @@ HMP_ger_total_mob_1 = yes
 HMP_ger_total_mob_1 = yes 
 }
 
-tp_divs_out_of_france = { every_state = { limit = { OR = { is_core_of = FRA vichy_state = yes }} teleport_armies = {limit = { original_tag = FRA } to_state = 5139 } } }
+tp_divs_out_of_france = { every_state = { limit = { OR = { is_core_of = 
+vichy_state = yes }} teleport_armies = {limit = { original_tag = FRA } to_state = 5139 } } }
 tp_divs_out_of_holland = { every_state = { limit = { is_core_of = HOL } teleport_armies = {limit = { original_tag = HOL } to_state = 352 } } }
 tp_divs_out_of_norway = { every_state = { limit = { is_core_of = NOR } teleport_armies = {limit = { original_tag = NOR } to_state = 3311 } } }
 
@@ -6684,6 +6685,91 @@ create_corps_commander = {
 	defense_skill = 3
 	planning_skill = 5
 	logistics_skill = 6
+}
+create_field_marshal = { #SAF-GENERAL-START
+	name = "Jan Smuts" #Point Value: 16 #3/23/21 -Fast Planner -Offensive Doctrine 
+	portrait_path = "gfx/leaders/SAF/Portrait_SouthAfrica_Jan_Smuts.dds"
+	traits = { panzer_leader panzer_expert desert_fox infantry_leader infantry_expert trickster organizer logistics_wizard  defensive_doctrine  }
+	skill = 6
+	attack_skill = 5
+	defense_skill = 3
+	planning_skill = 4
+	logistics_skill = 7
+}
+create_corps_commander = {
+	name = "George Edwin Brink" #Point Value: 18 #3/23/21 +Urban Assault Specialist +Organizer
+	portrait_path  = "gfx/leaders/SAF/Portrait_SouthAfrica_George_Edwin_Brink.dds"
+	traits = { organizer panzer_leader panzer_expert trait_engineer scavenger urban_assault_specialist desert_fox}
+	skill = 6
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 5
+	logistics_skill = 7
+}
+
+
+
+create_corps_commander = {
+	name = "Dan Pienaar" #Point Value: 18 #3/23/21 +Mountaineer
+	portrait_path = "gfx/leaders/SAF/Portrait_SAF_Dan_Pienaar.tga"
+	traits = { infantry_leader infantry_expert desert_fox trait_mountaineer naval_invader invader_ii trickster guerilla_fighter }
+	skill = 6
+	attack_skill = 4
+	defense_skill = 4
+	planning_skill = 5
+	logistics_skill = 6
+}
+create_field_marshal = { #can-start
+	name = "Guy Simonds" 
+	portrait_path  = "gfx/leaders/CAN/Portrait_CAN_Guy_Simonds.tga"  # Point Value: 14 #3/23/21 +Naval Invader#not vanilla general 
+	traits = {  trickster organizer naval_invader logistics_wizard offensive_doctrine aggressive_assaulter brilliant_strategist panzer_expert panzer_leader trait_reckless }
+	skill = 6
+		attack_skill = 4
+		defense_skill = 3
+		planning_skill = 5
+		logistics_skill = 7
+}
+create_field_marshal = {
+	name = "Charles Foulkes"
+	portrait_path  = "gfx/leaders/CAN/Portrait_Canada_Charles_Foulkes.dds"  # Point Value: 14 #3/23/21 -Organizer -Commando -Camo Expert -Organizational Leader -Inspirational Leader
+	traits = { panzer_leader panzer_expert defensive_doctrine  logistics_wizard skirmisher }
+	skill = 6
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 9
+}
+
+create_corps_commander = {
+	name = "Bert Hoffmeister"  # Point Value: 18 #3/23/21 -Trickster -Organizer
+	portrait_path = "gfx/leaders/CAN/Portrait_Canada_bert_hoffmeister.dds"
+	traits = {  panzer_leader panzer_expert hill_fighter trait_engineer fortress_buster expert_improviser }
+	skill = 6
+	attack_skill = 4
+	defense_skill = 2
+	planning_skill = 5
+	logistics_skill = 8
+}
+create_field_marshal = {
+	name = "Percival John Montague" # point value: 14
+	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
+	traits = { defensive_doctrine organisational_leader logistics_wizard infantry_leader ambusher }
+	skill = 6
+    attack_skill = 2
+    defense_skill = 5
+    planning_skill = 3
+    logistics_skill = 9
+}
+
+create_corps_commander = {  #Toxic 
+	name = "Thomas Victor Anderson" # point value: 18 #3/23/21 +Desert Fox
+	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
+	traits = { infantry_leader infantry_expert ambusher naval_invader desert_fox naval_liason invader_ii  }
+	skill = 6
+    attack_skill = 2
+    defense_skill = 5
+    planning_skill = 4
+    logistics_skill = 8
 }
 }
 
