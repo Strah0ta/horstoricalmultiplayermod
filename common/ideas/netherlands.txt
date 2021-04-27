@@ -1,8 +1,6 @@
 ideas = {
 
 	country = {
-
-		
 		 defensive_posture = {
 			picture = FRA_scw_intervention_nationalists_focus
 			available = { ENG = { controls_state = 551 } }
