@@ -1,23 +1,18 @@
 state={
 id=355
-name="STATE_701"
+name="Arabian Wastes"
 history={
-owner = ENG
-add_core_of=SWE
-victory_points = {
-4989 1
-}
+owner = PER
+add_core_of=PER
 buildings = {
 infrastructure = 3
-4989 = {
-naval_base = 1
-}
+
 }
 }
 provinces={
-4989 13213
+ 10901
 }
-manpower=199520
+manpower=
 buildings_max_level_factor=1.000
 state_category=enclave
 }

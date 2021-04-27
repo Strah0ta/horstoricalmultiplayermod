@@ -1731,15 +1731,6 @@ ideas = {
 
 		available = {
 			has_completed_focus = GRE_fiscal_responsibility
-			NOT = {
-				OR = { 
-					has_government = communism
-					has_country_leader = {
-						name = "Emmanouil Tsouderos"
-						ruling_only = yes
-					}
-				}
-			}
 		}
 		
 		traits = { financial_expert }
@@ -2470,32 +2461,6 @@ theorist = {
 			}
 		}
 
-		GRE_fiat = {	
-		
-			picture = fiat
-
-			allowed = {
-				original_tag = GRE
-				has_dlc = "Battle for the Bosporus"
-			}
-
-			available = {
-				has_completed_focus = GRE_rapprochement_with_the_italians
-				NOT = { has_war_with = ITA }
-			}
-
-			cost = 120
-			
-			research_bonus = {
-				armor = 0.1
-			}
-			
-			traits = { infantry_tank_manufacturer }
-				
-			ai_will_do = {
-				factor = 1
-			}
-		}
 
 		GRE_vickers_armstrong = {
 		
@@ -2726,8 +2691,6 @@ theorist = {
 			}			
 
 			available = { 
-				has_completed_focus = GRE_cooperate_with_foreign_monopolies
-				NOT = { has_war_with = ENG }
 			}
 
 			cost = 120
@@ -2750,8 +2713,6 @@ theorist = {
 			}
 
 			available = { 
-				has_completed_focus = GRE_cooperate_with_foreign_monopolies
-				NOT = { has_war_with = GER }
 			}
 
 			cost = 120
@@ -2968,8 +2929,6 @@ theorist = {
 			}
 
 			available = {
-				NOT = { has_war_with = SOV }
-				has_completed_focus = GRE_appeal_to_the_soviet_union
 			}
 
 			cost = 120
