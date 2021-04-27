@@ -12,7 +12,7 @@ infrastructure = 3
 provinces={
  10901
 }
-manpower=
+manpower=1
 buildings_max_level_factor=1.000
 state_category=enclave
 }

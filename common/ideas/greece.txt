@@ -2045,78 +2045,9 @@ theorist = {
 
 	air_chief = {
 		
-		
-		GRE_panagiotis_gazis = {
-			
-			picture = generic_air_europe_1
-			
-			allowed = {
-				original_tag = GRE
-				NOT = { has_dlc = "Battle for the Bosporus" }
-			}
-			
 
-			
-			traits = { air_chief_reform_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
-		}
 
-		GRE_vasilios_tsarpalis = {
-			
-			picture = generic_air_europe_2
-			
-			allowed = {
-				original_tag = GRE
-				NOT = { has_dlc = "Battle for the Bosporus" }
-			}
-			
 
-			
-			traits = { air_chief_safety_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
-		}
-
-		GRE_panagiotis_gazis_bftb = {
-
-			name = GRE_panagiotis_gazis
-			
-			picture = gre_panagiotis_gazis
-			
-			allowed = {
-				original_tag = GRE
-				has_dlc = "Battle for the Bosporus"
-			}
-			
-			traits = { air_chief_reform_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
-		}
-
-		GRE_vasilios_tsarpalis_bftb = {
-
-			name = GRE_vasilios_tsarpalis
-			
-			picture = gre_vasilios_tsarpalis
-			
-			allowed = {
-				original_tag = GRE
-				has_dlc = "Battle for the Bosporus"
-			}
-			
-			traits = { air_chief_safety_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
-		}
 	}
 
 	navy_chief = {
@@ -2221,7 +2152,7 @@ theorist = {
 			
 			picture = generic_army_europe_1
 			
-			traits = { army_artillery_2 }
+			traits = { army_commando_2 }
 			
 			ai_will_do = {
 				factor = 1
@@ -2257,7 +2188,7 @@ theorist = {
 			
 			picture = generic_air_europe_2
 			
-			traits = { air_naval_strike_2 }
+			traits = { army_armored_2 }
 			
 			ai_will_do = {
 				factor = 1
@@ -2351,7 +2282,7 @@ theorist = {
 			
 			picture = gre_giorgios_kosmas
 			
-			traits = { army_artillery_2 }
+			traits = { army_commando_2 }
 			
 			ai_will_do = {
 				factor = 1
@@ -2393,7 +2324,7 @@ theorist = {
 				}
 			}
 			
-			traits = { air_naval_strike_2 }
+			traits = { army_armored_2 }
 			
 			ai_will_do = {
 				factor = 1

@@ -6,7 +6,7 @@ state_category = pastoral
 history=
 {
 			owner = PER
-		add_State_core = PER
+		add_core_of = PER
 
 
 buildings = {
