@@ -7,6 +7,7 @@
  op_fork:0 "Operation Fork"
  GER_failed_africa:0 "Emergency Synthetic Fuel Refining"
  GER_dday_inf:0 "D-Day Infantry"
+ operation_oil:0 "Secure Arabian Oilfields"
  war_bonds_cancel:0 "Cancel War Bonds"
  man_china:0 "[GetMANChina]"
  sov_spawn_tt:0 "We have not used this decision more than twice"

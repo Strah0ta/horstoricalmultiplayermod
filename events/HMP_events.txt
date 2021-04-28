@@ -27,6 +27,50 @@ country_event = {
 }
 }
 country_event = {
+	id = mtg_netherlands.1264
+	title = mtg_netherlands.12.t
+	desc = mtg_netherlands.12.d
+	
+	picture = GFX_report_event_yugoslavian_cavalry
+
+	is_triggered_only = yes
+	option = {
+		name = mtg_netherlands.1442.a
+		if = { limit = { country_exists = ALB } ALB =  { delete_unit_template_and_units = { division_template = "Free Arabian Legion CONVERT TO AVOID DELETION" }load_oob = "ITA_SAU_SPAWN" country_event = { id = mtg_netherlands.1265 days = 0 }     }   }
+		 ITA =  { delete_unit_template_and_units = { division_template = "Free Arabian Legion CONVERT TO AVOID DELETION" }   load_oob = "ITA_SAU_SPAWN_ITA" country_event = { id = mtg_netherlands.1265 days = 0 } }       
+			
+		if = { limit = { OR = { ALB = { controls_state = 291 } ITA = { controls_state = 291 }}} SWE = { country_event = { id = mtg_netherlands.1264  days = 30  }}   } 
+}
+}
+country_event = {
+	id = mtg_netherlands.1265
+	title = "Tribesmen Declare Support for [ROOT.GETNAME]"
+	desc = "Eight Camelry divisions have been formed in Rumadiyah, forming the basis of a new Free Arab Legion. These divisions are sufficiently trained for combat, albeit not fully equipped for it."
+	
+	picture = GFX_report_event_yugoslavian_cavalry
+
+	is_triggered_only = yes
+	option = {
+		name = "Down with Anglo Imperialism!"
+		
+}
+}
+
+country_event = {
+	id = mtg_netherlands.1266
+	title = "The Somali Camel Corps"
+	desc = "In appreciation for the liberation of his country, the Negus of Ethiopia, Haile Selassie, has raised forty divisions comprised of the finest Somali camelry a man could hope for. They have disembarked in Aden."
+	
+	picture = GFX_report_event_yugoslavian_cavalry
+
+	is_triggered_only = yes
+	option = {
+		name = "Time to liberate the Middle-East"
+		
+}
+}
+
+country_event = {
 	id = mtg_netherlands.331
 	title = mtg_netherlands.331.t
 	desc = mtg_netherlands.331.d
