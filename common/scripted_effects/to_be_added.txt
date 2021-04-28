@@ -6,8 +6,7 @@ custom_generals = {
 }
 
 arabia_front = {
-if = { limit = { country_exists = ALB } ALB = { transfer_state = 274 transfer_state = 554 add_state_core = 274 add_state_core = 554 }   }
-else = { ITA = { transfer_state = 274 transfer_state = 554 }   }
-ENG = { transfer_state = 354 transfer_state  = 506  }
-
+if = { limit = { country_exists = ALB } ALB = { transfer_state = 274 transfer_state  = 506 transfer_state = 552 add_state_core = 274 add_state_core = 552 add_state_core = 506 }   }
+else = { ITA = { transfer_state = 274 transfer_state  = 506 transfer_state = 552 }   }
+ENG = { transfer_state = 354  transfer_state  = 332   }
 }

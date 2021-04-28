@@ -857,7 +857,7 @@ every_country = {
         available = { has_game_rule ={ rule = horst_arabia option = HORST_YES_ARABIA }  OR = { ITA = { controls_state = 291 } ALB = { controls_state = 291 }  }   date > 1940.6.1  }
   
 		complete_effect = {
-			
+				arabia_front = yes
 		}
 		}
 
@@ -1366,7 +1366,7 @@ hidden_effect = {
         available = { has_game_rule ={ rule = horst_arabia option = HORST_YES_ARABIA }  OR = { ITA = { controls_state = 291 } ALB = { controls_state = 291 }  }   date > 1940.6.1  }
   
 		complete_effect = {
-		
+				arabia_front = yes
 		}
 		}
 
