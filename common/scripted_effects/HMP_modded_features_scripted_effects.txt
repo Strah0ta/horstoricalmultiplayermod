@@ -5025,8 +5025,8 @@ create_corps_commander = {
 			planning_skill = 6
 			logistics_skill = 6
 		}
-
-}   }
+    }
+}   
 }
 SOV = {   
 	   create_field_marshal = {
