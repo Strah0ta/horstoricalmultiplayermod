@@ -5067,7 +5067,7 @@ create_corps_commander = {
 		}
     }
 }
-}
+
 ETH = {  #These generals are always going to be bad because my UK players hate IEA players too much
 create_corps_commander = {  
 	name = "Guglielmo Nasi" #Point Value: 9
