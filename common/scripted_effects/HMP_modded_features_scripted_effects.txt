@@ -6332,8 +6332,7 @@ create_navy_leader = {
 	defense_skill = 2
 	maneuvering_skill = 3
 	coordination_skill = 2
-}
-
+    }
 create_navy_leader = {
 	name = "Karel Doorman"
 	gfx = "GFX_portrait_hol_karel_doorman"
@@ -6344,6 +6343,7 @@ create_navy_leader = {
 	maneuvering_skill = 3
 	coordination_skill = 2
 }
+
 create_corps_commander = {
 	name = "Carl Gustav Fleischer"  #Point Value: 21
 	portrait_path = "gfx/leaders/NOR/portrait_norway_carl_gustav_flesicher.tga"
@@ -6354,6 +6354,7 @@ create_corps_commander = {
 	planning_skill = 5
 	logistics_skill = 6
 }
+
 create_corps_commander = {
 	name = "Otto Ruge" #Point Value: 22 
 	portrait_path = "gfx/leaders/NOR/portrait_norway_ruge.dds"
@@ -6364,6 +6365,7 @@ create_corps_commander = {
 	planning_skill = 4
 	logistics_skill = 6
 }
+
 create_corps_commander = {
 	name = "Kristian Laake" #Point Value: 20 #20/3/21 -Camo Expert -Commando
 	portrait_path = "gfx/leaders/NOR/portrait_norway_Kristian_Laake.dds"
@@ -6374,6 +6376,7 @@ create_corps_commander = {
 	planning_skill = 5
 	logistics_skill = 6
 }
+
 create_corps_commander = { #BRA
 	name = "Mascarenhas de Morais" #Point Value: 18
 	portrait_path = "gfx/leaders/BRA/Mascarenhas_de_Morais.tga"
@@ -6385,7 +6388,6 @@ create_corps_commander = { #BRA
 	logistics_skill = 5
 }
 
-
 create_field_marshal = { 
 	name = "Odilio Denys" #Point Value: 15.5
 	portrait_path = "gfx/leaders/BRA/portrait_BRA_Odilio_Denys..tga"
@@ -6396,6 +6398,7 @@ create_field_marshal = {
 	planning_skill = 6
 	logistics_skill = 6
 }
+
 create_field_marshal = {
 	name = "João Baptista de Mattos"  #Point Value: 16.5
 	portrait_path = "gfx/leaders/BRA/portrait_BRA_João_Baptista_de_Mattos.tga"
