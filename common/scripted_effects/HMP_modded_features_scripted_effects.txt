@@ -4953,17 +4953,18 @@ create_corps_commander = {
 	logistics_skill = 8
     }
 
-}
+
 create_field_marshal = {
-	name = "Petre Dumitrescu" #Point Value: 16 #2/6/21 -Organizer -Engineer -Scavenger -Trickster -Hill Fighter
-	portrait_path = "gfx/leaders/ROM/Portrait_romania_petre_dumitrescu.dds"
+	    name = "Petre Dumitrescu" #Point Value: 16 #2/6/21 -Organizer -Engineer -Scavenger -Trickster -Hill Fighter
+	    portrait_path = "gfx/leaders/ROM/Portrait_romania_petre_dumitrescu.dds"
 	traits = { defensive_doctrine infantry_leader trait_mountaineer urban_assault_specialist ambusher guerilla_fighter logistics_wizard }
-	skill = 7
+	    skill = 7
 	attack_skill = 4
 	defense_skill = 9
 	planning_skill = 4
 	logistics_skill = 5
-}
+    }
+    
 create_corps_commander = {     #ROM#
     name = "Nicolae Ciuperca"  #Point Value: 19 
     portrait_path = "gfx/leaders/ROM/Portrait_Romania_Nicolae_Ciuperca.tga"
