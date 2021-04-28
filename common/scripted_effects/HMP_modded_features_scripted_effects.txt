@@ -4292,7 +4292,7 @@ create_corps_commander = {
 
 create_corps_commander = {
 	    name = "René Olry" #Point Value: 20      #3/23/21 +Paratrooper +Fortress Buster
-	    portrait_path = "gfx/leaders/FRA/Portrait_France_Generic_land_5.dds"
+	portrait_path = "gfx/leaders/FRA/Portrait_France_Generic_land_5.dds"
 	traits = { old_guard infantry_leader paratrooper adaptable fortress_buster infantry_expert trait_mountaineer }
 	skill = 7
 	attack_skill = 3
@@ -4313,7 +4313,7 @@ create_corps_commander = {
 	}	
 	create_field_marshal = {
 	    name = "Emilio Mola"   #Point Value: 16 #3/23/21 +Defensive Doctrine -Adaptable -Organizer
-	    portrait_path = "gfx/leaders/SPA/portrait_spa_emilio_mola"
+	portrait_path = "gfx/leaders/SPA/portrait_spa_emilio_mola"
 	    traits = { trait_cautious logistics_wizard infantry_leader ambusher defensive_doctrine  scavenger  trickster   trait_engineer }
 	skill = 7
 	attack_skill = 5
@@ -4323,7 +4323,7 @@ create_corps_commander = {
     }
 	create_field_marshal = {
 		name = "Vicente Rojo Lluch" #Point Value: 16 #3/23/21 -Fake Skilled Staffer +Inspirational Leader +Organizational Leader
-		portrait_path = "gfx/leaders/SPR/portrait_spr_vicente_rojo_lluch"
+    portrait_path = "gfx/leaders/SPR/portrait_spr_vicente_rojo_lluch"
 		traits = {  infantry_leader organisational_leader inspirational_leader infantry_expert brilliant_strategist organizer logistics_wizard fast_planner aggressive_assaulter }
 	skill = 7
 	attack_skill = 3
