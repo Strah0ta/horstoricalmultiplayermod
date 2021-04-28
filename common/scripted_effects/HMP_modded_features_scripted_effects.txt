@@ -5055,7 +5055,7 @@ create_corps_commander = {
 	planning_skill = 6
 	logistics_skill = 6
 }
-        create_corps_commander = {  #ROM#
+    create_corps_commander = {  #ROM#
 			name = "Barbu Paraianu" #Point Value: 20
 			portrait_path = "gfx/leaders/ROM/Portrait_romania_barbu_paraianu.dds"
 			traits = { infantry_leader desert_fox trait_mountaineer hill_fighter ambusher commando skirmisher guerilla_fighter paratrooper }
@@ -5065,7 +5065,7 @@ create_corps_commander = {
 			planning_skill = 6
 			logistics_skill = 6
 		}
-
+    }
 ETH = {  #These generals are always going to be bad because my UK players hate IEA players too much
 create_corps_commander = {  
 	name = "Guglielmo Nasi" #Point Value: 9
