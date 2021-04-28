@@ -1009,7 +1009,8 @@ org_loss_when_moving = -0.7
         no_supply_grace = 144
         enable_tactic = tactic_blitz
            enable_tactic = tactic_elastic_defense
-	
+			on_research_complete  = { hidden_effect ={ set_technology = { mass_assault_desert_tech = 1 popup = no }  } custom_effect_tooltip =  semi_motorized_desert_warfare_details }
+
 		folder = {
 			name = land_doctrine_folder
 			position = { x = 0 y = 18 }

@@ -133,9 +133,9 @@ categories =  {
 		attrition = 0.2
 		match_value = 8
 		units = {
-			attack = -0.7
-			defence = -0.6
-			movement = -0.6
+			attack = -0.65
+			defence = -0.8
+			movement = -0.55
 		}
 		sound_type = desert
 	}

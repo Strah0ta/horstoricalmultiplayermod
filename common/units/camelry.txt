@@ -19,7 +19,7 @@ sub_units = {
 		}
 		initiative = 0.05
 
-		
+		breakthrough = 1
 		combat_width = 2
 		
 		#Size Definitions
