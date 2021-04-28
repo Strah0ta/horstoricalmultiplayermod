@@ -10,7 +10,7 @@ history={
 owner = HOL
 add_core_of=HOL
 victory_points = {
-153 1
+153 100
 }
 buildings = {
 fuel_silo = 2
