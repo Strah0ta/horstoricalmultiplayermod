@@ -6383,12 +6383,12 @@ create_corps_commander = { #BRA
 	defense_skill = 4
 	planning_skill = 6
 	logistics_skill = 5
-	}
+}
 
 
 create_field_marshal = { 
 	name = "Odilio Denys" #Point Value: 15.5
-	portrait_path = "gfx/leaders/BRA/portrait_BRA_Odilio_Denys.dds"
+	portrait_path = "gfx/leaders/BRA/portrait_BRA_Odilio_Denys..tga"
 	traits = { organizer logistics_wizard organisational_leader offensive_doctrine fast_planner commando panzer_leader trait_engineer panzer_expert   }
 	skill = 6
 	attack_skill = 4
@@ -6398,7 +6398,7 @@ create_field_marshal = {
 }
 create_field_marshal = {
 	name = "João Baptista de Mattos"  #Point Value: 16.5
-	portrait_path = "gfx/leaders/BRA/portrait_BRA_João_Baptista_de_Mattos.dds"
+	portrait_path = "gfx/leaders/BRA/portrait_BRA_João_Baptista_de_Mattos.tga"
 	traits = { organizer thorough_planner logistics_wizard infantry_leader infantry_expert jungle_rat trait_mountaineer hill_fighter  }
 	skill = 6
 	attack_skill = 4
@@ -6416,11 +6416,11 @@ create_corps_commander = {
 	defense_skill = 4
 	planning_skill = 6
 	logistics_skill = 5
-	}
+}
 
 create_corps_commander = {
 	name = "Euclides Zenobio Da Costa"   #Point Value: 18
-	portrait_path = "gfx/leaders/BRA/portrait_BRA_Euclides_Zenobio_Da_Costa.dds"
+	portrait_path = "gfx/leaders/BRA/portrait_BRA_Euclides_Zenobio_Da_Costa.tga"
 	traits = { hill_fighter desert_fox jungle_rat urban_assault_specialist infantry_leader ambusher guerilla_fighter naval_invader }
 	skill = 6
 	attack_skill = 3
@@ -6430,7 +6430,7 @@ create_corps_commander = {
 }
 create_corps_commander = {
 	name = "Canrobert Pereira Da Costa" #Point Value: 18
-	portrait_path = "gfx/leaders/BRA/portrait_BRA_Canrobert_Pereira_Da_Costa.dds"
+	portrait_path = "gfx/leaders/BRA/portrait_BRA_Canrobert_Pereira_Da_Costa.tga"
 	traits = { panzer_leader panzer_expert trait_engineer fortress_buster urban_assault_specialist jungle_rat organizer }
 	skill = 6
 	attack_skill = 5
