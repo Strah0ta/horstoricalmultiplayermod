@@ -954,7 +954,7 @@ date > 1941.6.1
 		id = ITA_sword
 		icon = GFX_goal_generic_demand_territory
 		prerequisite = { focus = ITA_fourth_shore }
-		available = { has_war_with = ENG }
+		available = { has_war_with = ENG 	}
 		x = 0
 		y = 1
 		relative_position_id = ITA_fourth_shore
