@@ -5392,7 +5392,6 @@ create_corps_commander = {
         }
     } 
 }
-}
 SOV = {   
 	   create_field_marshal = {
 		name = "Boris Shaposhnikov" #Point Value: 15 #2/5/21 +Improv. Expert +Organisational Leader +Inspirational Leader +Offensive Doctrine +Organizer #4/10/21 +Ranger
