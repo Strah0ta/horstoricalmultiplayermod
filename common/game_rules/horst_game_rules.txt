@@ -44,6 +44,21 @@ HORST_SEALION = {
 		desc = "Clicking this option will override the rule in the Horst ruleset on Sealion. The UK gets more early production and less entrenchment on Gibraltar."	
 	}
 }
+horst_arabia = {
+	name = "Arabia Front Rules"
+	group = "HORST_GROUPKEY"					
+	icon = "GFX_decision_hol_draw_up_staff_plans"			
+	default = {	
+		name = "HORST_NO_ARABIA"
+		text = "I Hate Sand (Default)"
+		desc = "Clicking this option will disallow the Arabia front (Default)"	
+	}
+	option = {	
+		name = "HORST_YES_ARABIA" 
+		text = "Return to MERCS"
+		desc = "Clicking this option will enable the Arabia front via Germany's 'Fall Schwarz Golt' decision or the Allied 'Secure Arabian Oilfields' decision."	
+	}
+}
 horst_host_country = {
 	name = "Select Host (TEST IN SP FIRST!!!)"
 	group = "HORST_GROUPKEY"

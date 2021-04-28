@@ -845,6 +845,21 @@ every_country = {
 		}	
 	}
 	
+					fall_schwarz_golt = {
+	icon = ger_reichskommissariats
+
+        allowed = {  original_tag = GER  }
+ 
+        cost = 0
+		
+        fire_only_once = yes
+
+        available = { has_game_rule ={ rule = horst_arabia option = HORST_YES_ARABIA }  OR = { ITA = { controls_state = 291 } ALB = { controls_state = 291 }  }   date > 1940.6.1  }
+  
+		complete_effect = {
+			
+		}
+		}
 
 		GER_unt_barb = { 
 		icon = ger_reichskommissariats
@@ -1324,6 +1339,23 @@ hidden_effect = {
 		random_unit_leader = {   limit = { has_id = 983 }	add_unit_leader_trait = green_water_expert   }
 		}
 		}
+			operation_oil = {
+	icon = generic_civil_support
+
+        allowed = {  original_tag = ENG  }
+ 
+        cost = 0
+		
+        fire_only_once = yes
+
+        available = { has_game_rule ={ rule = horst_arabia option = HORST_YES_ARABIA }  OR = { ITA = { controls_state = 291 } ALB = { controls_state = 291 }  }   date > 1940.6.1  }
+  
+		complete_effect = {
+		
+		}
+		}
+
+		
 	operation_countenance = {
 	icon = generic_civil_support
 
