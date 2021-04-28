@@ -4904,17 +4904,17 @@ create_corps_commander = {
 	planning_skill = 4
 	logistics_skill = 8
 	}
-}
+
 create_field_marshal = {
-	name = "Charles Huntziger" #Point Value: 16 #3/23/21 +Logistics Wizard
-	portrait_path = "gfx/leaders/FRA/portrait_france_charles_huntziger.dds"
+	    name = "Charles Huntziger" #Point Value: 16 #3/23/21 +Logistics Wizard
+	    portrait_path = "gfx/leaders/FRA/portrait_france_charles_huntziger.dds"
 	traits = { old_guard organizer logistics_wizard thorough_planner infantry_leader infantry_expert panzer_leader panzer_expert }
 	skill = 7
 	attack_skill = 7
 	defense_skill = 6
 	planning_skill = 4
 	logistics_skill = 5
-}
+    }
 
 create_field_marshal = {
 	name = "Maurice Gamelin" #Point Value: 16 #3/23/21 +Logistics Wizard
