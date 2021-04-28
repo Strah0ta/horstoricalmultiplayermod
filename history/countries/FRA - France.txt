@@ -73,9 +73,9 @@ add_equipment_to_stockpile = { type = motorized_equipment_1 amount = 3300 }
 add_equipment_to_stockpile = { type = artillery_equipment_1 amount = 300 }
 
 #############EQUIPMENT ADDED TO ENCOURAGE A BATTLE OF FRANCE###############
-add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 100000 }
-add_equipment_to_stockpile = { type = artillery_equipment_1 amount = 3000 }
-add_equipment_to_stockpile = { type = anti_air_equipment_1 amount = 2000 }
+#add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 100000 }
+#add_equipment_to_stockpile = { type = artillery_equipment_1 amount = 3000 }
+#add_equipment_to_stockpile = { type = anti_air_equipment_1 amount = 2000 }
 
 
 set_convoys = 300
