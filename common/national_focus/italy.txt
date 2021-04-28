@@ -919,7 +919,7 @@ date > 1941.6.1
 	}
 
 	focus = {
-		id = ITA_victoryinETH
+		id = ITA_victoryinETH 
 		icon = GFX_focus_ita_ethiopia
 		available = {	ETH = { is_subject_of = ITA }	}
 
@@ -934,6 +934,39 @@ date > 1941.6.1
 			add_war_support = 0.1
 		}
 	}
+	
+		focus = {
+		id = ITA_fourth_shore
+		icon = GFX_goal_generic_demand_territory
+		prerequisite = { focus = ITA_victoryinETH }
+		x = 2
+		y = 1
+		relative_position_id = ITA_victoryinETH
+		cost = 5
+
+		completion_reward = {
+			hidden_effect = { every_state = { limit = { OR = { state = 579 state = 450 state = 449 state = 448 }   } ITA = {  add_state_core = PREV    }   } }
+			custom_effect_tooltip = fourth_shore_tt
+		}
+	}
+	
+			focus = {
+		id = ITA_sword
+		icon = GFX_goal_generic_demand_territory
+		prerequisite = { focus = ITA_fourth_shore }
+		available = { has_war_with = ENG }
+		x = 0
+		y = 1
+		relative_position_id = ITA_fourth_shore
+		cost = 5
+
+		completion_reward = {
+			add_country_leader_trait = protector_of_islam
+		}
+	}
+	
+
+	
 	
 	focus = {
 		id = ITA_slovenia_dalmatia_claims

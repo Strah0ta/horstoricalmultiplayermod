@@ -18,6 +18,7 @@ add_timed_idea = { idea = GER_mefo_bills_1 days = 730 }
 set_fuel_ratio = 1
 add_timed_idea = { idea = NO_TRADE days = 730 }
 add_to_tech_sharing_group = axis_research 
+set_variable = { italy_arab_support = 0 }	
 
 set_variable = {
     var = min_fuel
