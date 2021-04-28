@@ -6279,72 +6279,109 @@ create_corps_commander = {
 }
 HOL ={ 
 
-create_field_marshal = {
-	name = "Izaak Reijnders" #Point value: 14.5
-	gfx = "GFX_portrait_hol_izaak_reijnders"
-	traits = { old_guard inflexible_strategist unyielding_defender inspirational_leader organizer logistics_wizard thorough_planner trait_reckless }
-	skill = 6
-	attack_skill = 6
-	defense_skill = 4
-	planning_skill = 6
-	logistics_skill = 3	
-}
 create_corps_commander = {
-	name = "Petrus Wilhelmus Best" #Point value: 18
-	gfx = "GFX_portrait_hol_petrus_wilhelmus_best"
-	traits = {  infantry_leader ambusher skirmisher jungle_rat organizer trickster fake_skilled_staffer }
+	name = "Carl Gustav Fleischer"  #Point Value: 21
+	portrait_path = "gfx/leaders/NOR/portrait_norway_carl_gustav_flesicher.tga"
+	traits = {  trickster expert_improviser hill_fighter naval_invader naval_liason invader_ii trait_mountaineer infantry_leader infantry_expert  }
 	skill = 6
-	attack_skill = 3
-	defense_skill = 4
-	planning_skill = 6
-	logistics_skill = 6	
-}
-
-create_corps_commander = {
-	name = "Godfried van Voorst tot Voorst" #Point value: 18
-	gfx = "GFX_portrait_hol_godfried_van_voorst_tot_voorst"
-	traits = {  trickster trait_engineer brilliant_strategist  panzer_leader panzer_expert desert_fox hill_fighter   }
-	skill = 6
-    attack_skill = 5
-    defense_skill = 3
-    planning_skill = 5
-    logistics_skill = 6
-}
-
-create_navy_leader = {
-	name = "Johannes Theodorus Furstner"
-	gfx = "GFX_portrait_hol_johannes_theodorus_furstner"
-	traits = { caustic_personality fly_swatter blockade_runner }
-	skill = 3
-	attack_skill = 2
+	attack_skill = 4
 	defense_skill = 3
-	maneuvering_skill = 2
-	coordination_skill = 3
+	planning_skill = 5
+	logistics_skill = 6
 }
+create_corps_commander = {
+	name = "Otto Ruge" #Point Value: 22 
+	portrait_path = "gfx/leaders/NOR/portrait_norway_ruge.dds"
+	traits = {  trickster bearer_of_artillery expert_improviser guerilla_fighter trait_engineer fortress_buster infantry_leader infantry_expert  }
+	skill = 6
+	attack_skill = 4
+	defense_skill = 5
+	planning_skill = 4
+	logistics_skill = 6
+}
+create_corps_commander = {
+	name = "Kristian Laake" #Point Value: 20 #20/3/21 -Camo Expert -Commando
+	portrait_path = "gfx/leaders/NOR/portrait_norway_Kristian_Laake.dds"
+	traits = {  organizer trickster expert_improviser adaptable panzer_leader panzer_expert }
+	skill = 6
+	attack_skill = 3
+	defense_skill = 5
+	planning_skill = 5
+	logistics_skill = 6
+}
+create_corps_commander = { #BRA
+	name = "Mascarenhas de Morais" #Point Value: 18
+	portrait_path = "gfx/leaders/BRA/Mascarenhas_de_Morais.tga"
+	traits = { naval_liason infantry_leader infantry_expert trait_mountaineer jungle_rat expert_improviser swamp_fox    }
+	skill = 6
+	attack_skill = 4
+	defense_skill = 4
+	planning_skill = 6
+	logistics_skill = 5
+	}
 
 create_navy_leader = {
-	name = "Conrad Helfrich"
-	gfx = "GFX_portrait_hol_conrad_helfrich"
-	traits = { seawolf superior_tactician bold navy_career_officer }
-	id = 981
-	skill = 4
-	attack_skill = 5
-	defense_skill = 2
-	maneuvering_skill = 3
-	coordination_skill = 2
-}
-
-create_navy_leader = {
-	name = "Karel Doorman"
-	gfx = "GFX_portrait_hol_karel_doorman"
-	traits = { fleet_protector naval_lineage bold }
+	name = "Nelson Mello"
+	portrait_path = "gfx/leaders/BRA/Nelson_Mello.tga"
+	traits = { ironside fleet_protector destroyer_leader ground_pounder superior_tactician concealment_expert }
 	skill = 3
 	attack_skill = 3
 	defense_skill = 2
 	maneuvering_skill = 3
-	coordination_skill = 2
+	coordination_skill = 5
+}
+create_field_marshal = { 
+	name = "Odilio Denys" #Point Value: 15.5
+	portrait_path = "gfx/leaders/BRA/portrait_BRA_Odilio_Denys.dds"
+	traits = { organizer logistics_wizard organisational_leader offensive_doctrine fast_planner commando panzer_leader trait_engineer panzer_expert   }
+	skill = 6
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 6
+	logistics_skill = 6
+}
+create_field_marshal = {
+	name = "João Baptista de Mattos"  #Point Value: 16.5
+	portrait_path = "gfx/leaders/BRA/portrait_BRA_João_Baptista_de_Mattos.dds"
+	traits = { organizer thorough_planner logistics_wizard infantry_leader infantry_expert jungle_rat trait_mountaineer hill_fighter  }
+	skill = 6
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 6
+	logistics_skill = 6
 }
 
+create_corps_commander = {
+	name = "Eurico Gaspar Dutra" #Point Value: 18
+	portrait_path = "gfx/leaders/BRA/Eurico_Gaspar_Dutra.tga"
+	traits = { naval_liason naval_invader bearer_of_artillery trait_mountaineer jungle_rat expert_improviser swamp_fox cavalry_expert combined_arms_expert cavalry_leader   }
+	skill = 6
+	attack_skill = 4
+	defense_skill = 4
+	planning_skill = 6
+	logistics_skill = 5
+	}
+
+create_corps_commander = {
+	name = "Euclides Zenobio Da Costa"   #Point Value: 18
+	portrait_path = "gfx/leaders/BRA/portrait_BRA_Euclides_Zenobio_Da_Costa.dds"
+	traits = { hill_fighter desert_fox jungle_rat urban_assault_specialist infantry_leader ambusher guerilla_fighter naval_invader }
+	skill = 6
+	attack_skill = 3
+	defense_skill = 4
+	planning_skill = 6
+	logistics_skill = 6
+}
+create_corps_commander = {
+	name = "Canrobert Pereira Da Costa" #Point Value: 18
+	portrait_path = "gfx/leaders/BRA/portrait_BRA_Canrobert_Pereira_Da_Costa.dds"
+	traits = { panzer_leader panzer_expert trait_engineer fortress_buster urban_assault_specialist jungle_rat organizer }
+	skill = 6
+	attack_skill = 5
+	defense_skill = 4
+	planning_skill = 5
+	logistics_skill = 5
+}
 }
 USA = {
 
