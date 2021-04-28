@@ -4951,7 +4951,8 @@ create_corps_commander = {
 	defense_skill = 6
 	planning_skill = 4
 	logistics_skill = 8
-	}
+    }
+
 }
 create_field_marshal = {
 	name = "Petre Dumitrescu" #Point Value: 16 #2/6/21 -Organizer -Engineer -Scavenger -Trickster -Hill Fighter
