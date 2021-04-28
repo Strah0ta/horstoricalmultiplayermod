@@ -4836,7 +4836,196 @@ create_corps_commander = {
 	planning_skill = 10
 	logistics_skill = 4
 }
+	create_field_marshal = {   #SPA/SPR#
+		name = "Francisco Franco"  #Point Value: 16 #2/6/21 -Organizational Leader
+		portrait_path = "gfx/leaders/SPA/Portrait_Spain_Francisco_Franco.dds"
+		traits = {  logistics_wizard brilliant_strategist trait_engineer organizer panzer_leader fast_planner expert_improviser desert_fox ranger trickster aggressive_assaulter   }
+		skill = 7
+	    attack_skill = 6
+	    defense_skill = 4
+	    planning_skill = 7
+	    logistics_skill = 5
+	}	
+	create_field_marshal = {
+	name = "Emilio Mola"   #Point Value: 16 #3/23/21 +Defensive Doctrine -Adaptable -Organizer
+	portrait_path = "gfx/leaders/SPR/portrait_spa_emilio_mola"
+	traits = { trait_cautious logistics_wizard infantry_leader ambusher defensive_doctrine  scavenger  trickster   trait_engineer }
+	skill = 7
+	attack_skill = 5
+	defense_skill = 4
+	planning_skill = 5
+	logistics_skill = 8
+}
+	create_field_marshal = {
+		name = "Vicente Rojo Lluch" #Point Value: 16 #3/23/21 -Fake Skilled Staffer +Inspirational Leader +Organizational Leader
+		portrait_path = "gfx/leaders/SPR/portrait_SPR_vicente_rojo_lluch"
+		traits = {  infantry_leader organisational_leader inspirational_leader infantry_expert brilliant_strategist organizer logistics_wizard fast_planner aggressive_assaulter }
+	skill = 7
+	attack_skill = 3
+	defense_skill = 4
+	planning_skill = 8
+	logistics_skill = 7
+	}
+		create_field_marshal = {
+		name = "José Miaja"  #Point Value: 16 #3/23/21 +Thorough Planner
+		portrait_path = "gfx/leaders/SPR/portrait_SPR_jose_miaja"
+	traits = { organizer  old_guard bearer_of_artillery thorough_planner infantry_leader urban_assault_specialist ranger infantry_expert fortress_buster trickster  }
+		skill = 7
+	attack_skill = 4
+	defense_skill = 7
+	planning_skill = 5
+	logistics_skill = 6
+	}
+	create_field_marshal = {
+		name = "Miguel Cabanellas"  #Point Value: 16 #3/23/21 +Ambusher +Urban Assault Specialist
+		portrait_path = "gfx/leaders/SPA/portrait_SPA_miguel_cabanellas.dds"
+	traits = { old_guard cavalry_leader ranger urban_assault_specialist combined_arms_expert ambusher offensive_doctrine trickster expert_improviser inspirational_leader organizer fast_planner }
+	skill = 7
+	attack_skill = 4
+	defense_skill = 6
+	planning_skill = 4
+	logistics_skill = 8
+	}		
+		create_corps_commander = {
+		name = "Juan Yagüe"  #Point Value: 20 #2/6/21 -Improv. Expert
+		portrait_path = "gfx/leaders/SPA/portrait_SPA_juan_yague.dds"
+	traits = { brilliant_strategist trait_reckless trickster panzer_leader desert_fox trait_engineer panzer_expert fortress_buster  naval_liason  }
+		
+		skill = 7
+    attack_skill = 6
+    defense_skill = 4
+    planning_skill = 6
+    logistics_skill = 6
+	}
+	create_corps_commander = {
+		name = "Mohamed Meziane"  #Point Value: 21 #2/6/21 -Improv Expert -Guerilla Fighter
+		portrait_path = "gfx/leaders/SPA/portrait_SPA_mohamed_meziane.dds"
+		traits = { harsh_leader panzer_leader trickster urban_assault_specialist panzer_expert  ambusher skirmisher   }
+		skill = 7
+    attack_skill = 6
+    defense_skill = 4
+    planning_skill = 6
+    logistics_skill = 6
+	}
 
+		create_corps_commander = {
+		name = "José Enrique Varela" #Point Value: 20 #3/23/21 +Fortess Buster
+		portrait_path = "gfx/leaders/SPA/portrait_SPA_jose_enrique_varela.dds"
+		traits = { organizer fake_skilled_staffer fortress_buster trait_engineer scavenger infantry_leader infantry_expert ranger  }
+		skill = 7
+		attack_skill = 5
+		defense_skill = 4
+		planning_skill = 6
+		logistics_skill = 7
+	}
+	
+create_corps_commander = {
+	name = "Gonzalo Queipo de Llano"  #Point Value: 20
+	portrait_path = "gfx/leaders/SPA/portrait_SPA_gonzalo_queipo_de_llano.dds"
+	traits = { fake_skilled_staffer infantry_leader desert_fox hill_fighter trait_mountaineer infantry_expert trickster guerilla_fighter }
+	skill = 7
+	attack_skill = 5
+	defense_skill = 5
+	planning_skill = 6
+	logistics_skill = 6
+}
+
+	create_corps_commander = {
+		name = "José Millán Astray"  #Point Value: 20 #3/23/21 +Adaptable +Cavalry Expert +Ranger +Swamp Fox +Urban Assault Specialist +Skirmisher
+		portrait_path = "gfx/leaders/SPA/portrait_SPA_jose_millan_astray.dds"
+    traits = { trait_reckless adaptable ranger swamp_fox urban_assault_specialist skirmisher cavalry_expert cavalry_leader combined_arms_expert commando naval_invader }
+	skill = 7
+	attack_skill = 4
+	defense_skill = 6
+	planning_skill = 4
+	logistics_skill = 8
+	}
+
+
+	create_corps_commander = {  #SPA/SPR-END#
+		name = "Agustín Muñoz Grandes" #Point Value: 20
+		portrait_path = "gfx/leaders/SPA/portrait_SPA_augustin_muynoz_grandes.dds"
+	traits = { organizer  old_guard bearer_of_artillery infantry_leader  ranger infantry_expert  trickster expert_improviser  trait_engineer }
+		skill = 7
+	attack_skill = 4
+	defense_skill = 6
+	planning_skill = 4
+	logistics_skill = 8
+	}
+}
+create_field_marshal = {
+	name = "Petre Dumitrescu" #Point Value: 16 #2/6/21 -Organizer -Engineer -Scavenger -Trickster -Hill Fighter
+	portrait_path = "gfx/leaders/ROM/Portrait_romania_petre_dumitrescu.dds"
+	traits = { defensive_doctrine infantry_leader trait_mountaineer urban_assault_specialist ambusher guerilla_fighter logistics_wizard }
+	skill = 7
+	attack_skill = 4
+	defense_skill = 9
+	planning_skill = 4
+	logistics_skill = 5
+}
+create_corps_commander = {     #ROM#
+    name = "Nicolae Ciuperca"  #Point Value: 19 
+    portrait_path = "gfx/leaders/ROM/Portrait_Romania_Nicolae_Ciuperca.tga"
+    traits = {  desert_fox panzer_leader panzer_expert organizer trickster expert_improviser trait_engineer  }
+    skill = 7
+    attack_skill = 6
+    defense_skill = 6
+    planning_skill = 5
+    logistics_skill = 5 
+}
+create_field_marshal = {
+	name = "Ion Antonescu" #Point Value: 20 #2/6/21 -Fast Planner -Hill Fighter -Offensive Doctrine
+	portrait_path = "gfx/leaders/ROM/Portrait_Romania_Ion_Antonescu.dds" #Panzer Leader/Expert will be freebies so 20 point FM
+	traits = {  organizer panzer_leader trait_engineer trait_mountaineer urban_assault_specialist infantry_leader infantry_expert panzer_expert expert_improviser logistics_wizard  trickster }
+	skill = 7
+	attack_skill = 7
+	defense_skill = 4
+	planning_skill = 6
+	logistics_skill = 5
+}
+
+create_corps_commander = {
+	name = "Ioan Mihail Racovita" #Point Value: 23 -Improv Expert -Trickster
+	portrait_path = "gfx/leaders/ROM/Portrait_romania_ioan_mihail_racovita.dds"
+	traits = { hill_fighter trait_mountaineer infantry_leader trait_engineer urban_assault_specialist infantry_expert fortress_buster naval_invader invader_ii }
+	skill = 7
+	attack_skill = 5
+	defense_skill = 4
+	planning_skill = 7
+	logistics_skill = 6
+}
+create_corps_commander = {
+	name = "Constantin Sanatescu" #Point Value: 21 #2/6/21 -Fortress buster
+	portrait_path = "gfx/leaders/ROM/Portrait_romania_constantin_sanatescu.dds"
+	traits = { infantry_leader ranger infantry_expert  trickster expert_improviser  trait_engineer }
+	skill = 7
+	attack_skill = 5
+	defense_skill = 4
+	planning_skill = 7
+	logistics_skill = 6
+}
+
+create_corps_commander = {
+	name = "Gheorghe Avramescu" #Point Value: 20 #2/6/21 -Fortress buster
+	portrait_path = "gfx/leaders/ROM/Portrait_romania_gheorghe_avramescu.dds"
+	traits = { panzer_leader trickster trait_engineer expert_improviser hill_fighter panzer_expert camouflage_expert }
+	skill = 7
+	attack_skill = 5
+	defense_skill = 5
+	planning_skill = 6
+	logistics_skill = 6
+}
+		create_corps_commander = {  #ROM#
+			name = "Barbu Paraianu" #Point Value: 20
+			portrait_path = "gfx/leaders/ROM/Portrait_romania_barbu_paraianu.dds"
+			traits = { infantry_leader desert_fox trait_mountaineer hill_fighter ambusher commando skirmisher guerilla_fighter paratrooper }
+			skill = 2
+			attack_skill = 5
+			defense_skill = 5
+			planning_skill = 6
+			logistics_skill = 6
+		}
+}   
 }
 SOV = {   
 	   create_field_marshal = {
