@@ -1,25 +1,23 @@
 state={
 	id=332
-	name="STATE_332"
+	name="South-East Arabia"
 	
 	state_category = wasteland
 
 	history={
-		owner = ENG
+		owner = PER
 		buildings = {
-			infrastructure = 1
+			infrastructure = 5
+		5048 = { naval_base = 5 }
 
-			12503 = {
-				naval_base = 1
-			}
 		}
-		add_core_of = CAN
-
+		add_core_of = PER
+		victory_points = { 5048  10 }		
 	}
 
 	provinces={
-		1426 1785 4720 4787 12503 13165 13180 
+			10770 12524 7727 1778 1838 1395 4783 4167 2067 2006 12705 5016 7971 5072 4682 7790 3742 10885 7792 2028     7803 5025 1985 1647 10733 5048
 	}
-	manpower=22179
+	manpower=1
 	buildings_max_level_factor=1.000
 }
