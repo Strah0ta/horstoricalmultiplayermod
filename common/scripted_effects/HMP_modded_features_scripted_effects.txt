@@ -4299,7 +4299,7 @@ create_corps_commander = {
 	defense_skill = 5
 	planning_skill = 10
 	logistics_skill = 4
-}
+
 	create_field_marshal = {   #SPA/SPR#
 		name = "Francisco Franco"  #Point Value: 16 #2/6/21 -Organizational Leader
 		portrait_path = "gfx/leaders/SPA/Portrait_Spain_Francisco_Franco.dds"
