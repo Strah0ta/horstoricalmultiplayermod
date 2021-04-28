@@ -54,42 +54,42 @@ units = {
 division= {	
 		location = 2097  # Hoeselt
 		division_template = "Iraqi Mountaineers"
-		start_experience_factor = 0.3	force_equipment_variants = { infantry_equipment_2 = { owner = "IRQ" } }
+		start_experience_factor = 0.3	force_equipment_variants = { infantry_equipment_2 = { owner = "ALB" } }
 	}
 	division= {	
 		location = 2097  # Hoeselt
 		division_template = "Iraqi Mountaineers"
-		start_experience_factor = 0.3 	force_equipment_variants = { infantry_equipment_2 = { owner = "IRQ" } }
+		start_experience_factor = 0.3 	force_equipment_variants = { infantry_equipment_2 = { owner = "ALB" } }
 	}
 	division= {	
 		location = 2097  # Hoeselt
 		division_template = "Iraqi Mountaineers"
-		start_experience_factor = 0.3 	force_equipment_variants = { infantry_equipment_2 = { owner = "IRQ" } }
+		start_experience_factor = 0.3 	force_equipment_variants = { infantry_equipment_2 = { owner = "ALB" } }
 	}
 	division= {	
 		location = 2097  # Hoeselt
 		division_template = "Iraqi Mountaineers"
-		start_experience_factor = 0.3 	force_equipment_variants = { infantry_equipment_2 = { owner = "IRQ" } }
+		start_experience_factor = 0.3 	force_equipment_variants = { infantry_equipment_2 = { owner = "ALB" } }
 	}
 	division= {	
 		location = 2097  # Hoeselt
 		division_template = "Iraqi Mountaineers"
-		start_experience_factor = 0.3 	force_equipment_variants = { infantry_equipment_2 = { owner = "IRQ" } }
+		start_experience_factor = 0.3 	force_equipment_variants = { infantry_equipment_2 = { owner = "ALB" } }
 	}
 	division= {	
 		location = 2097  # Hoeselt
 		division_template = "Iraqi Mountaineers"
-		start_experience_factor = 0.3 	force_equipment_variants = { infantry_equipment_2 = { owner = "IRQ" } }
+		start_experience_factor = 0.3 	force_equipment_variants = { infantry_equipment_2 = { owner = "ALB" } }
 	}
 	division= {	
 		location = 2097  # Hoeselt
 		division_template = "Iraqi Mountaineers"
-		start_experience_factor = 0.3 	force_equipment_variants = { infantry_equipment_2 = { owner = "IRQ" } }
+		start_experience_factor = 0.3 	force_equipment_variants = { infantry_equipment_2 = { owner = "ALB" } }
 	}
 	division= {	
 		location = 2097  # Hoeselt
 		division_template = "Iraqi Mountaineers"
-		start_experience_factor = 0.3 	force_equipment_variants = { infantry_equipment_2 = { owner = "IRQ" } }
+		start_experience_factor = 0.3 	force_equipment_variants = { infantry_equipment_2 = { owner = "ALB" } }
 	}
 
 
@@ -97,42 +97,42 @@ division= {
 division= {	
 		location = 2097  # Hoeselt
 		division_template = "Iraqi Mountaineers"
-		start_experience_factor = 0.3 	force_equipment_variants = { infantry_equipment_2 = { owner = "IRQ" } }
+		start_experience_factor = 0.3 	force_equipment_variants = { infantry_equipment_2 = { owner = "ALB" } }
 	}
 	division= {	
 		location = 2097  # Hoeselt
 		division_template = "Iraqi Mountaineers"
-		start_experience_factor = 0.3 	force_equipment_variants = { infantry_equipment_2 = { owner = "IRQ" } }
+		start_experience_factor = 0.3 	force_equipment_variants = { infantry_equipment_2 = { owner = "ALB" } }
 	}
 	division= {	
 		location = 2097  # Hoeselt
 		division_template = "Iraqi Mountaineers"
-		start_experience_factor = 0.3 	force_equipment_variants = { infantry_equipment_2 = { owner = "IRQ" } }
+		start_experience_factor = 0.3 	force_equipment_variants = { infantry_equipment_2 = { owner = "ALB" } }
 	}
 	division= {	
 		location = 2097  # Hoeselt
 		division_template = "Iraqi Mountaineers"
-		start_experience_factor = 0.3 	force_equipment_variants = { infantry_equipment_2 = { owner = "IRQ" } }
+		start_experience_factor = 0.3 	force_equipment_variants = { infantry_equipment_2 = { owner = "ALB" } }
 	}
 	division= {	
 		location = 2097  # Hoeselt
 		division_template = "Iraqi Mountaineers"
-		start_experience_factor = 0.3 	force_equipment_variants = { infantry_equipment_2 = { owner = "IRQ" } }
+		start_experience_factor = 0.3 	force_equipment_variants = { infantry_equipment_2 = { owner = "ALB" } }
 	}
 	division= {	
 		location = 2097  # Hoeselt
 		division_template = "Iraqi Mountaineers"
-		start_experience_factor = 0.3 	force_equipment_variants = { infantry_equipment_2 = { owner = "IRQ" } }
+		start_experience_factor = 0.3 	force_equipment_variants = { infantry_equipment_2 = { owner = "ALB" } }
 	}
 	division= {	
 		location = 2097  # Hoeselt
 		division_template = "Iraqi Mountaineers"
-		start_experience_factor = 0.3 	force_equipment_variants = { infantry_equipment_2 = { owner = "IRQ" } }
+		start_experience_factor = 0.3 	force_equipment_variants = { infantry_equipment_2 = { owner = "ALB" } }
 	}
 	division= {	
 		location = 2097  # Hoeselt
 		division_template = "Iraqi Mountaineers"
-		start_experience_factor = 0.3 	force_equipment_variants = { infantry_equipment_2 = { owner = "IRQ" } }
+		start_experience_factor = 0.3 	force_equipment_variants = { infantry_equipment_2 = { owner = "ALB" } }
 	}
 	
 	
@@ -143,192 +143,192 @@ division= {
 		location = 2097  # Hoeselt
 		division_template = "Iraqi Nationalists"
 		force_equipment_variants = { infantry_equipment_2 = { owner = "ALB" } }
-		start_experience_factor = 0.3 	force_equipment_variants = { infantry_equipment_2 = { owner = "IRQ" } }
+		start_experience_factor = 0.3 	force_equipment_variants = { infantry_equipment_2 = { owner = "ALB" } }
 	}
 	division= {	
 		location = 2097  # Hoeselt
 		division_template = "Iraqi Nationalists"
 		force_equipment_variants = { infantry_equipment_2 = { owner = "ALB" } }
-		start_experience_factor = 0.3 	force_equipment_variants = { infantry_equipment_2 = { owner = "IRQ" } }
+		start_experience_factor = 0.3 	force_equipment_variants = { infantry_equipment_2 = { owner = "ALB" } }
 	}
 	division= {	
 		location = 2097  # Hoeselt
 		division_template = "Iraqi Nationalists"
 		force_equipment_variants = { infantry_equipment_2 = { owner = "ALB" } }
-		start_experience_factor = 0.3 	force_equipment_variants = { infantry_equipment_2 = { owner = "IRQ" } }
+		start_experience_factor = 0.3 	force_equipment_variants = { infantry_equipment_2 = { owner = "ALB" } }
 	}
 	division= {	
 		location = 2097  # Hoeselt
 		division_template = "Iraqi Nationalists"
 		force_equipment_variants = { infantry_equipment_2 = { owner = "ALB" } }
-		start_experience_factor = 0.3 	force_equipment_variants = { infantry_equipment_2 = { owner = "IRQ" } }
+		start_experience_factor = 0.3 	force_equipment_variants = { infantry_equipment_2 = { owner = "ALB" } }
 	}
 		division= {	
 		location = 2097  # Hoeselt
 		division_template = "Iraqi Nationalists"
 		force_equipment_variants = { infantry_equipment_2 = { owner = "ALB" } }
-		start_experience_factor = 0.3 	force_equipment_variants = { infantry_equipment_2 = { owner = "IRQ" } }
+		start_experience_factor = 0.3 	force_equipment_variants = { infantry_equipment_2 = { owner = "ALB" } }
 	}
 	division= {	
 		location = 2097  # Hoeselt
 		division_template = "Iraqi Nationalists"
 		force_equipment_variants = { infantry_equipment_2 = { owner = "ALB" } }
-		start_experience_factor = 0.3 	force_equipment_variants = { infantry_equipment_2 = { owner = "IRQ" } }
+		start_experience_factor = 0.3 	force_equipment_variants = { infantry_equipment_2 = { owner = "ALB" } }
 	}
 	division= {	
 		location = 2097  # Hoeselt
 		division_template = "Iraqi Nationalists"
 		force_equipment_variants = { infantry_equipment_2 = { owner = "ALB" } }
-		start_experience_factor = 0.3 	force_equipment_variants = { infantry_equipment_2 = { owner = "IRQ" } }
+		start_experience_factor = 0.3 	force_equipment_variants = { infantry_equipment_2 = { owner = "ALB" } }
 	}
 	division= {	
 		location = 2097  # Hoeselt
 		division_template = "Iraqi Nationalists"
 		force_equipment_variants = { infantry_equipment_2 = { owner = "ALB" } }
-		start_experience_factor = 0.3 	force_equipment_variants = { infantry_equipment_2 = { owner = "IRQ" } }
+		start_experience_factor = 0.3 	force_equipment_variants = { infantry_equipment_2 = { owner = "ALB" } }
 	}
 		division= {	
 		location = 2097  # Hoeselt
 		division_template = "Iraqi Nationalists"
 		force_equipment_variants = { infantry_equipment_2 = { owner = "ALB" } }
-		start_experience_factor = 0.3 	force_equipment_variants = { infantry_equipment_2 = { owner = "IRQ" } }
+		start_experience_factor = 0.3 	force_equipment_variants = { infantry_equipment_2 = { owner = "ALB" } }
 	}
 	division= {	
 		location = 2097  # Hoeselt
 		division_template = "Iraqi Nationalists"
 		force_equipment_variants = { infantry_equipment_2 = { owner = "ALB" } }
-		start_experience_factor = 0.3 	force_equipment_variants = { infantry_equipment_2 = { owner = "IRQ" } }
+		start_experience_factor = 0.3 	force_equipment_variants = { infantry_equipment_2 = { owner = "ALB" } }
 	}
 	division= {	
 		location = 2097  # Hoeselt
 		division_template = "Iraqi Nationalists"
 		force_equipment_variants = { infantry_equipment_2 = { owner = "ALB" } }
-		start_experience_factor = 0.3 	force_equipment_variants = { infantry_equipment_2 = { owner = "IRQ" } }
+		start_experience_factor = 0.3 	force_equipment_variants = { infantry_equipment_2 = { owner = "ALB" } }
 	}
 	division= {	
 		location = 2097  # Hoeselt
 		division_template = "Iraqi Nationalists"
 		force_equipment_variants = { infantry_equipment_2 = { owner = "ALB" } }
-		start_experience_factor = 0.3 	force_equipment_variants = { infantry_equipment_2 = { owner = "IRQ" } }
+		start_experience_factor = 0.3 	force_equipment_variants = { infantry_equipment_2 = { owner = "ALB" } }
 	}
 		division= {	
 		location = 2097  # Hoeselt
 		division_template = "Iraqi Nationalists"
 		force_equipment_variants = { infantry_equipment_2 = { owner = "ALB" } }
-		start_experience_factor = 0.3 	force_equipment_variants = { infantry_equipment_2 = { owner = "IRQ" } }
+		start_experience_factor = 0.3 	force_equipment_variants = { infantry_equipment_2 = { owner = "ALB" } }
 	}
 	division= {	
 		location = 2097  # Hoeselt
 		division_template = "Iraqi Nationalists"
 		force_equipment_variants = { infantry_equipment_2 = { owner = "ALB" } }
-		start_experience_factor = 0.3 	force_equipment_variants = { infantry_equipment_2 = { owner = "IRQ" } }
+		start_experience_factor = 0.3 	force_equipment_variants = { infantry_equipment_2 = { owner = "ALB" } }
 	}
 	division= {	
 		location = 2097  # Hoeselt
 		division_template = "Iraqi Nationalists"
 		force_equipment_variants = { infantry_equipment_2 = { owner = "ALB" } }
-		start_experience_factor = 0.3 	force_equipment_variants = { infantry_equipment_2 = { owner = "IRQ" } }
+		start_experience_factor = 0.3 	force_equipment_variants = { infantry_equipment_2 = { owner = "ALB" } }
 	}
 	division= {	
 		location = 2097  # Hoeselt
 		division_template = "Iraqi Nationalists"
 		force_equipment_variants = { infantry_equipment_2 = { owner = "ALB" } }
-		start_experience_factor = 0.3 	force_equipment_variants = { infantry_equipment_2 = { owner = "IRQ" } }
+		start_experience_factor = 0.3 	force_equipment_variants = { infantry_equipment_2 = { owner = "ALB" } }
 	}
 		division= {	
 		location = 2097  # Hoeselt
 		division_template = "Iraqi Nationalists"
 		force_equipment_variants = { infantry_equipment_2 = { owner = "ALB" } }
-		start_experience_factor = 0.3 	force_equipment_variants = { infantry_equipment_2 = { owner = "IRQ" } }
+		start_experience_factor = 0.3 	force_equipment_variants = { infantry_equipment_2 = { owner = "ALB" } }
 	}
 	division= {	
 		location = 2097  # Hoeselt
 		division_template = "Iraqi Nationalists"
 		force_equipment_variants = { infantry_equipment_2 = { owner = "ALB" } }
-		start_experience_factor = 0.3 	force_equipment_variants = { infantry_equipment_2 = { owner = "IRQ" } }
+		start_experience_factor = 0.3 	force_equipment_variants = { infantry_equipment_2 = { owner = "ALB" } }
 	}
 	division= {	
 		location = 2097  # Hoeselt
 		division_template = "Iraqi Nationalists"
 		force_equipment_variants = { infantry_equipment_2 = { owner = "ALB" } }
-		start_experience_factor = 0.3 	force_equipment_variants = { infantry_equipment_2 = { owner = "IRQ" } }
+		start_experience_factor = 0.3 	force_equipment_variants = { infantry_equipment_2 = { owner = "ALB" } }
 	}
 	division= {	
 		location = 2097  # Hoeselt
 		division_template = "Iraqi Nationalists"
 		force_equipment_variants = { infantry_equipment_2 = { owner = "ALB" } }
-		start_experience_factor = 0.3 	force_equipment_variants = { infantry_equipment_2 = { owner = "IRQ" } }
+		start_experience_factor = 0.3 	force_equipment_variants = { infantry_equipment_2 = { owner = "ALB" } }
 	}
 		division= {	
 		location = 2097  # Hoeselt
 		division_template = "Iraqi Nationalists"
 		force_equipment_variants = { infantry_equipment_2 = { owner = "ALB" } }
-		start_experience_factor = 0.3 	force_equipment_variants = { infantry_equipment_2 = { owner = "IRQ" } }
+		start_experience_factor = 0.3 	force_equipment_variants = { infantry_equipment_2 = { owner = "ALB" } }
 	}
 	division= {	
 		location = 2097  # Hoeselt
 		division_template = "Iraqi Nationalists"
 		force_equipment_variants = { infantry_equipment_2 = { owner = "ALB" } }
-		start_experience_factor = 0.3 	force_equipment_variants = { infantry_equipment_2 = { owner = "IRQ" } }
+		start_experience_factor = 0.3 	force_equipment_variants = { infantry_equipment_2 = { owner = "ALB" } }
 	}
 	division= {	
 		location = 2097  # Hoeselt
 		division_template = "Iraqi Nationalists"
 		force_equipment_variants = { infantry_equipment_2 = { owner = "ALB" } }
-		start_experience_factor = 0.3 	force_equipment_variants = { infantry_equipment_2 = { owner = "IRQ" } }
+		start_experience_factor = 0.3 	force_equipment_variants = { infantry_equipment_2 = { owner = "ALB" } }
 	}
 	division= {	
 		location = 2097  # Hoeselt
 		division_template = "Iraqi Nationalists"
 		force_equipment_variants = { infantry_equipment_2 = { owner = "ALB" } }
-		start_experience_factor = 0.3 	force_equipment_variants = { infantry_equipment_2 = { owner = "IRQ" } }
+		start_experience_factor = 0.3 	force_equipment_variants = { infantry_equipment_2 = { owner = "ALB" } }
 	}
 	division= {	
 		location = 2097  # Hoeselt
 		division_template = "Iraqi Nationalists"
 		force_equipment_variants = { infantry_equipment_2 = { owner = "ALB" } }
-		start_experience_factor = 0.3 	force_equipment_variants = { infantry_equipment_2 = { owner = "IRQ" } }
+		start_experience_factor = 0.3 	force_equipment_variants = { infantry_equipment_2 = { owner = "ALB" } }
 	}
 	division= {	
 		location = 2097  # Hoeselt
 		division_template = "Iraqi Nationalists"
 		force_equipment_variants = { infantry_equipment_2 = { owner = "ALB" } }
-		start_experience_factor = 0.3 	force_equipment_variants = { infantry_equipment_2 = { owner = "IRQ" } }
+		start_experience_factor = 0.3 	force_equipment_variants = { infantry_equipment_2 = { owner = "ALB" } }
 	}
 	division= {	
 		location = 2097  # Hoeselt
 		division_template = "Iraqi Nationalists"
 		force_equipment_variants = { infantry_equipment_2 = { owner = "ALB" } }
-		start_experience_factor = 0.3 	force_equipment_variants = { infantry_equipment_2 = { owner = "IRQ" } }
+		start_experience_factor = 0.3 	force_equipment_variants = { infantry_equipment_2 = { owner = "ALB" } }
 	}
 	division= {	
 		location = 2097  # Hoeselt
 		division_template = "Iraqi Nationalists"
 		force_equipment_variants = { infantry_equipment_2 = { owner = "ALB" } }
-		start_experience_factor = 0.3 	force_equipment_variants = { infantry_equipment_2 = { owner = "IRQ" } }
+		start_experience_factor = 0.3 	force_equipment_variants = { infantry_equipment_2 = { owner = "ALB" } }
 	}
 		division= {	
 		location = 2097  # Hoeselt
 		division_template = "Iraqi Nationalists"
 		force_equipment_variants = { infantry_equipment_2 = { owner = "ALB" } }
-		start_experience_factor = 0.3 	force_equipment_variants = { infantry_equipment_2 = { owner = "IRQ" } }
+		start_experience_factor = 0.3 	force_equipment_variants = { infantry_equipment_2 = { owner = "ALB" } }
 	}
 	division= {	
 		location = 2097  # Hoeselt
 		division_template = "Iraqi Nationalists"
 		force_equipment_variants = { infantry_equipment_2 = { owner = "ALB" } }
-		start_experience_factor = 0.3 	force_equipment_variants = { infantry_equipment_2 = { owner = "IRQ" } }
+		start_experience_factor = 0.3 	force_equipment_variants = { infantry_equipment_2 = { owner = "ALB" } }
 	}
 	division= {	
 		location = 2097  # Hoeselt
 		division_template = "Iraqi Nationalists"
 		force_equipment_variants = { infantry_equipment_2 = { owner = "ALB" } }
-		start_experience_factor = 0.3 	force_equipment_variants = { infantry_equipment_2 = { owner = "IRQ" } }
+		start_experience_factor = 0.3 	force_equipment_variants = { infantry_equipment_2 = { owner = "ALB" } }
 	}
 	division= {	
 		location = 2097  # Hoeselt
 		division_template = "Iraqi Nationalists"
 		force_equipment_variants = { infantry_equipment_2 = { owner = "ALB" } }
-		start_experience_factor = 0.3 	force_equipment_variants = { infantry_equipment_2 = { owner = "IRQ" } }
+		start_experience_factor = 0.3 	force_equipment_variants = { infantry_equipment_2 = { owner = "ALB" } }
 	}
 }

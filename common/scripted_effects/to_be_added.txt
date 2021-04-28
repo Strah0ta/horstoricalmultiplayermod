@@ -6,7 +6,10 @@ custom_generals = {
 }
 
 arabia_front = {
-if = { limit = { country_exists = ALB } ALB = { transfer_state = 274 transfer_state  = 506 transfer_state = 552 add_state_core = 274 add_state_core = 552 add_state_core = 506 }   }
-else = { ITA = { transfer_state = 274 transfer_state  = 506 transfer_state = 552 }   }
+hidden_effect = { 
+if = { limit = { country_exists = ALB } ALB = { transfer_state = 274 transfer_state  = 506 transfer_state = 552 add_state_core = 274 add_state_core = 552 add_state_core = 506 load_oob = "ITA_SAU_SPAWN" load_oob = "ITA_SAU_SPAWN" load_oob = "ITA_SAU_SPAWN" load_oob = "ITA_SAU_SPAWN" load_oob = "ITA_SAU_SPAWN"   }         }
+else = { ITA = { transfer_state = 274 transfer_state  = 506 transfer_state = 552 load_oob = "ITA_SAU_SPAWN_ITA" load_oob = "ITA_SAU_SPAWN_ITA" load_oob = "ITA_SAU_SPAWN_ITA" load_oob = "ITA_SAU_SPAWN_ITA" load_oob = "ITA_SAU_SPAWN_ITA"      }   }
 ENG = { transfer_state = 354  transfer_state  = 332   }
+
+}
 }
