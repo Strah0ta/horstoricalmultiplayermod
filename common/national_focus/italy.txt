@@ -962,6 +962,8 @@ date > 1941.6.1
 
 		completion_reward = {
 			add_country_leader_trait = protector_of_islam
+			
+			add_dynamic_modifier = { modifier = ITA_sword_of_islam } 
 		}
 	}
 	

@@ -855,9 +855,11 @@ every_country = {
         fire_only_once = yes
 
         available = { has_game_rule ={ rule = horst_arabia option = HORST_YES_ARABIA }  OR = { ITA = { controls_state = 291 } ALB = { controls_state = 291 }  }   date > 1940.6.1  }
-  
+		visible = { NOT = { has_global_flag = ARABIA_FRONT_DECISION }}
 		complete_effect = {
+						custom_effect_tooltip = "We will open a new front in Arabia against the Allies`."
 				arabia_front = yes
+				set_global_flag = ARABIA_FRONT_DECISION
 		}
 		}
 
@@ -1364,8 +1366,10 @@ hidden_effect = {
         fire_only_once = yes
 
         available = { has_game_rule ={ rule = horst_arabia option = HORST_YES_ARABIA }  OR = { ITA = { controls_state = 291 } ALB = { controls_state = 291 }  }   date > 1940.6.1  }
-  
+  		visible = { NOT = { has_global_flag = ARABIA_FRONT_DECISION }}
+
 		complete_effect = {
+				custom_effect_tooltip = "We will open a new front in Arabia against the Axis."
 				arabia_front = yes
 		}
 		}
@@ -1489,6 +1493,7 @@ create_corps_commander = {
         available = {	controls_state = 448	}
 		
 		complete_effect = {
+		ITA = { remove_dynamic_modifier = { modifier = ITA_sword_of_islam }  }
 			448 = {     
 			set_building_level = {
 					type = air_base

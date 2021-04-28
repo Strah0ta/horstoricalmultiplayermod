@@ -4213,8 +4213,6 @@ create_corps_commander = {
 			planning_skill = 6
 			logistics_skill = 6
 }
-}
-}
 create_field_marshal = {
 	name = "Charles Huntziger" #Point Value: 16 #3/23/21 +Logistics Wizard
 	portrait_path = "gfx/leaders/FRA/portrait_france_charles_huntziger.dds"
@@ -4417,6 +4415,8 @@ create_corps_commander = {
 	planning_skill = 4
 	logistics_skill = 8
     }
+	
+	}
 
 FIN = {
 create_field_marshal = {
@@ -5066,7 +5066,6 @@ create_corps_commander = {  #ROM#
 			logistics_skill = 6
 }
 }
-}
 
 ETH = {  #These generals are always going to be bad because my UK players hate IEA players too much
 create_corps_commander = {  
@@ -5391,7 +5390,6 @@ create_corps_commander = {  #ROM#
         
 }
 } 
-}
 SOV = {   
 	   create_field_marshal = {
 		name = "Boris Shaposhnikov" #Point Value: 15 #2/5/21 +Improv. Expert +Organisational Leader +Inspirational Leader +Offensive Doctrine +Organizer #4/10/21 +Ranger
@@ -8533,6 +8531,36 @@ GER = { transfer_state = 331 #Dutch Central Cordillera
 }
 
 }
+
+arabia_front = {
+hidden_effect = { 
+if = { limit = { country_exists = ALB } ALB = { delete_unit_template_and_units = { division_template = "Free Arabian Legion CONVERT TO AVOID DELETION" } transfer_state = 274 transfer_state  = 506 transfer_state = 552 add_state_core = 274 add_state_core = 552 add_state_core = 506 load_oob = "ITA_SAU_SPAWN" load_oob = "ITA_SAU_SPAWN" load_oob = "ITA_SAU_SPAWN" load_oob = "ITA_SAU_SPAWN" load_oob = "ITA_SAU_SPAWN" load_oob = "ITA_SAU_SPAWN" load_oob = "ITA_SAU_SPAWN" load_oob = "ITA_SAU_SPAWN"   }         }
+else = { ITA = { delete_unit_template_and_units = { division_template = "Free Arabian Legion CONVERT TO AVOID DELETION" } transfer_state = 274 transfer_state  = 506 transfer_state = 552 load_oob = "ITA_SAU_SPAWN_ITA" load_oob = "ITA_SAU_SPAWN_ITA" load_oob = "ITA_SAU_SPAWN_ITA" load_oob = "ITA_SAU_SPAWN_ITA" load_oob = "ITA_SAU_SPAWN_ITA" load_oob = "ITA_SAU_SPAWN_ITA" load_oob = "ITA_SAU_SPAWN_ITA" load_oob = "ITA_SAU_SPAWN_ITA"      }   }
+ENG = { transfer_state = 354  transfer_state  = 332   transfer_state  = 355  }
+ITA = { set_country_flag = ARABIA_FRONT  }
+SWE = { country_event = { id = mtg_netherlands.1244 days = 1 }}
+ENG ={ delete_unit_template_and_units = { division_template = "Somali Camel Corps" }  country_event = { id = mtg_netherlands.1266 days = 0 }}
+}
+}
+
+calc_arab_support = {
+set_variable={italy_arab_support=0}
+if = { limit = { OR = { ITA ={ controls_state  = 458} ALB ={ controls_state  = 458} } } add_to_variable = { var = italy_arab_support value = 0.01   }   }
+if = { limit = { OR = { ITA ={ controls_state  = 448} ALB ={ controls_state  = 448} } }   add_to_variable = { var = italy_arab_support value = 0.02  }   }
+if = { limit = { OR = { ITA ={ controls_state  = 579} ALB ={ controls_state  = 579} } }  add_to_variable = { var = italy_arab_support value = 0.01   }   }
+if = { limit = { OR = { ITA ={ controls_state  = 447} ALB ={ controls_state  = 447} } }  add_to_variable = { var = italy_arab_support value = 0.03   }   }
+if = { limit = { OR = { ITA ={ controls_state  = 456} ALB ={ controls_state  = 456} } }  add_to_variable = { var = italy_arab_support value = 0.01   }   }
+if = { limit = { OR = { ITA ={ controls_state  = 454} ALB ={ controls_state  = 454} } } add_to_variable = { var = italy_arab_support value = 0.02    }   }
+if = { limit = { OR = { ITA ={ controls_state  = 291} ALB ={ controls_state  = 291} } }  add_to_variable = { var = italy_arab_support value = 0.03   }   }
+if = { limit = { OR = { ITA ={ controls_state  = 552} ALB ={ controls_state  = 552} } }  add_to_variable = { var = italy_arab_support value = 0.03  }   }
+if = { limit = { OR = { ITA ={ controls_state  = 506} ALB ={ controls_state  = 506} } }  add_to_variable = { var = italy_arab_support value = 0.03  }   }
+if = { limit = { OR = { ITA ={ controls_state  = 274} ALB ={ controls_state  = 274} } }   add_to_variable = { var = italy_arab_support value = 0.03  }   }
+if = { limit = { OR = { ITA ={ controls_state  = 354} ALB ={ controls_state  = 354} } } add_to_variable = { var = italy_arab_support value = 0.03   }   }
+if = { limit = { OR = { ITA ={ controls_state  = 332} ALB ={ controls_state  = 332} } }  add_to_variable = { var = italy_arab_support value = 0.01   }   }
+if = { limit = { OR = { ITA ={ controls_state  = 412} ALB ={ controls_state  = 412} } }  add_to_variable = { var = italy_arab_support value = 0.03 }    }
+}
+
+
 
 
 horstorical_multiplayer_vichy_france = {
