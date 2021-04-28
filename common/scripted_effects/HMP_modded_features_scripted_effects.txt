@@ -6332,7 +6332,8 @@ create_navy_leader = {
 	defense_skill = 2
 	maneuvering_skill = 3
 	coordination_skill = 2
-    }
+}
+
 create_navy_leader = {
 	name = "Karel Doorman"
 	gfx = "GFX_portrait_hol_karel_doorman"
@@ -6342,8 +6343,8 @@ create_navy_leader = {
 	defense_skill = 2
 	maneuvering_skill = 3
 	coordination_skill = 2
-
 }
+
 }
 USA = {
 
