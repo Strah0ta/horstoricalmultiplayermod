@@ -4213,8 +4213,8 @@ create_corps_commander = {
 			planning_skill = 6
 			logistics_skill = 6
 		}
-
-
+    }
+}
 create_field_marshal = {
 	name = "Charles Huntziger" #Point Value: 16 #3/23/21 +Logistics Wizard
 	portrait_path = "gfx/leaders/FRA/portrait_france_charles_huntziger.dds"
