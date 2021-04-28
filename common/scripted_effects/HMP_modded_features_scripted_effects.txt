@@ -6279,6 +6279,71 @@ create_corps_commander = {
 }
 HOL ={ 
 
+create_field_marshal = {
+	name = "Izaak Reijnders" #Point value: 14.5
+	gfx = "GFX_portrait_hol_izaak_reijnders"
+	traits = { old_guard inflexible_strategist unyielding_defender inspirational_leader organizer logistics_wizard thorough_planner trait_reckless }
+	skill = 6
+	attack_skill = 6
+	defense_skill = 4
+	planning_skill = 6
+	logistics_skill = 3	
+}
+create_corps_commander = {
+	name = "Petrus Wilhelmus Best" #Point value: 18
+	gfx = "GFX_portrait_hol_petrus_wilhelmus_best"
+	traits = {  infantry_leader ambusher skirmisher jungle_rat organizer trickster fake_skilled_staffer }
+	skill = 6
+	attack_skill = 3
+	defense_skill = 4
+	planning_skill = 6
+	logistics_skill = 6	
+}
+
+create_corps_commander = {
+	name = "Godfried van Voorst tot Voorst" #Point value: 18
+	gfx = "GFX_portrait_hol_godfried_van_voorst_tot_voorst"
+	traits = {  trickster trait_engineer brilliant_strategist  panzer_leader panzer_expert desert_fox hill_fighter   }
+	skill = 6
+    attack_skill = 5
+    defense_skill = 3
+    planning_skill = 5
+    logistics_skill = 6
+}
+
+create_navy_leader = {
+	name = "Johannes Theodorus Furstner"
+	gfx = "GFX_portrait_hol_johannes_theodorus_furstner"
+	traits = { caustic_personality fly_swatter blockade_runner }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	maneuvering_skill = 2
+	coordination_skill = 3
+}
+
+create_navy_leader = {
+	name = "Conrad Helfrich"
+	gfx = "GFX_portrait_hol_conrad_helfrich"
+	traits = { seawolf superior_tactician bold navy_career_officer }
+	id = 981
+	skill = 4
+	attack_skill = 5
+	defense_skill = 2
+	maneuvering_skill = 3
+	coordination_skill = 2
+}
+
+create_navy_leader = {
+	name = "Karel Doorman"
+	gfx = "GFX_portrait_hol_karel_doorman"
+	traits = { fleet_protector naval_lineage bold }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	maneuvering_skill = 3
+	coordination_skill = 2
+}
 create_corps_commander = {
 	name = "Carl Gustav Fleischer"  #Point Value: 21
 	portrait_path = "gfx/leaders/NOR/portrait_norway_carl_gustav_flesicher.tga"
@@ -6320,16 +6385,7 @@ create_corps_commander = { #BRA
 	logistics_skill = 5
 	}
 
-create_navy_leader = {
-	name = "Nelson Mello"
-	portrait_path = "gfx/leaders/BRA/Nelson_Mello.tga"
-	traits = { ironside fleet_protector destroyer_leader ground_pounder superior_tactician concealment_expert }
-	skill = 3
-	attack_skill = 3
-	defense_skill = 2
-	maneuvering_skill = 3
-	coordination_skill = 5
-}
+
 create_field_marshal = { 
 	name = "Odilio Denys" #Point Value: 15.5
 	portrait_path = "gfx/leaders/BRA/portrait_BRA_Odilio_Denys.dds"
