@@ -15,3 +15,8 @@ GER_war_exhaustion = {
 			fuel_gain_factor_from_states = GER.germany_war_fuel_gain_factor_from_states	
 			production_speed_synthetic_refinery_factor = GER.germany_war_synth_construction_speed
 		}
+		ITA_sword_of_islam = {
+			icon = "GFX_idea_generic_fascism_drift_2"
+			stability_factor = italy_arab_support
+			war_support_factor = italy_arab_support
+		}
