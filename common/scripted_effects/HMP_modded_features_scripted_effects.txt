@@ -4203,7 +4203,7 @@ create_corps_commander = {
 	planning_skill = 6
 	logistics_skill = 6
 }
-create_corps_commander = { 
+        create_corps_commander = { 
 			name = "Barbu Paraianu" #Point Value: 20
 			gfx = GFX_Portrait_romania_barbu_paraianu
 			traits = { infantry_leader desert_fox trait_mountaineer hill_fighter ambusher commando skirmisher guerilla_fighter paratrooper }
@@ -4212,8 +4212,8 @@ create_corps_commander = {
 			defense_skill = 5
 			planning_skill = 6
 			logistics_skill = 6
-		}
-    }
+}
+}
 }
 create_field_marshal = {
 	name = "Charles Huntziger" #Point Value: 16 #3/23/21 +Logistics Wizard
@@ -5064,8 +5064,8 @@ create_corps_commander = {  #ROM#
 			defense_skill = 5
 			planning_skill = 6
 			logistics_skill = 6
-		}
-    }
+}
+}
 }
 
 ETH = {  #These generals are always going to be bad because my UK players hate IEA players too much
@@ -5389,8 +5389,8 @@ create_corps_commander = {  #ROM#
 			planning_skill = 6
 			logistics_skill = 6
         
-        }
-    } 
+}
+} 
 }
 SOV = {   
 	   create_field_marshal = {
