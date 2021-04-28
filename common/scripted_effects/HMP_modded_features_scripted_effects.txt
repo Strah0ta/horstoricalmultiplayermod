@@ -7793,7 +7793,7 @@ HMP_startup_on_actions = {
 	SOV = { add_timed_idea = { days = 820 idea = SOV_motorized_focus } add_ideas = qol_start_eff_sov } #adds starting eff
 	JAP = { add_timed_idea = { days = 365 idea = SOV_motorized_focus } } MAN = { add_timed_idea = { days = 365 idea = SOV_motorized_focus } }
 	GER = { add_timed_idea = { days = 365 idea = SOV_motorized_focus } } USA = { add_timed_idea = { days = 365 idea = SOV_motorized_focus } }
-	ITA = { add_timed_idea = { idea = ITA_motorized_focus days = 365 } }
+	ITA = { add_timed_idea = { idea = ITA_motorized_focus days = 365 } }  FRA = { add_timed_idea = { days = 365 idea = SOV_motorized_focus } }
 	if = { limit = {CZE = { is_ai = yes}} CZE ={  add_ideas = ai_imiter  } } if = { limit = {YUG = { is_ai = yes}} YUG ={  add_ideas = ai_imiter  } }
 	if = { limit = {HOL = { is_ai = yes} } HOL = { add_ideas = ai_imiter add_equipment_to_stockpile = {  type = infantry_equipment_1   amount = 40000   producer = GER } }	}
 	if = { limit = { NOT = { has_start_date > 1936.01.02 }  } ENG = { add_timed_idea = { idea = ENG_motorized_focus3 days = 446 } } }

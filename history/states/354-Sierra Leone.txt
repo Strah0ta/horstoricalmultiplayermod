@@ -8,7 +8,7 @@ history=
 			owner = PER
 		add_core_of = PER
 
-
+victory_points = { 10545 1 }
 buildings = {
 infrastructure = 5
 }
