@@ -4291,14 +4291,15 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "René Olry" #Point Value: 20      #3/23/21 +Paratrooper +Fortress Buster
-	portrait_path = "gfx/leaders/FRA/Portrait_France_Generic_land_5.dds"
+	    name = "René Olry" #Point Value: 20      #3/23/21 +Paratrooper +Fortress Buster
+	    portrait_path = "gfx/leaders/FRA/Portrait_France_Generic_land_5.dds"
 	traits = { old_guard infantry_leader paratrooper adaptable fortress_buster infantry_expert trait_mountaineer }
 	skill = 7
 	attack_skill = 3
 	defense_skill = 5
 	planning_skill = 10
 	logistics_skill = 4
+	}
 
 	create_field_marshal = {   #SPA/SPR#
 		name = "Francisco Franco"  #Point Value: 16 #2/6/21 -Organizational Leader
@@ -4313,7 +4314,7 @@ create_corps_commander = {
 	create_field_marshal = {
 	    name = "Emilio Mola"   #Point Value: 16 #3/23/21 +Defensive Doctrine -Adaptable -Organizer
 	    portrait_path = "gfx/leaders/SPA/portrait_spa_emilio_mola"
-	traits = { trait_cautious logistics_wizard infantry_leader ambusher defensive_doctrine  scavenger  trickster   trait_engineer }
+	    traits = { trait_cautious logistics_wizard infantry_leader ambusher defensive_doctrine  scavenger  trickster   trait_engineer }
 	skill = 7
 	attack_skill = 5
 	defense_skill = 4
