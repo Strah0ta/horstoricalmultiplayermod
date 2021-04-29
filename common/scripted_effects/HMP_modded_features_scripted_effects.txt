@@ -6341,7 +6341,205 @@ create_navy_leader = {
 	maneuvering_skill = 3
 	coordination_skill = 2
 }
+create_corps_commander = {
+	name = "Carl Gustav Fleischer"  #Point Value: 21
+	portrait_path = "gfx/leaders/NOR/portrait_norway_carl_gustav_flesicher.tga"
+	traits = {  trickster expert_improviser hill_fighter naval_invader naval_liason invader_ii trait_mountaineer infantry_leader infantry_expert  }
+	skill = 6
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 5
+	logistics_skill = 6
+}
+create_corps_commander = {
+	name = "Otto Ruge" #Point Value: 22 
+	portrait_path = "gfx/leaders/NOR/portrait_norway_ruge.dds"
+	traits = {  trickster bearer_of_artillery expert_improviser guerilla_fighter trait_engineer fortress_buster infantry_leader infantry_expert  }
+	skill = 6
+	attack_skill = 4
+	defense_skill = 5
+	planning_skill = 4
+	logistics_skill = 6
+}
+create_corps_commander = {
+	name = "Kristian Laake" #Point Value: 20 #20/3/21 -Camo Expert -Commando
+	portrait_path = "gfx/leaders/NOR/portrait_norway_Kristian_Laake.dds"
+	traits = {  organizer trickster expert_improviser adaptable panzer_leader panzer_expert }
+	skill = 6
+	attack_skill = 3
+	defense_skill = 5
+	planning_skill = 5
+	logistics_skill = 6
+}
+create_field_marshal = { #Point Value: 14.5 #20/3/21 
+	name = "Louis Franchet D'Espèrey"
+	portrait_path = "gfx/leaders/FRA/Portrait_NFA_Louis_Franchet_Esperey.tga"
+	traits = { organizer logistics_wizard camouflage_expert commando old_guard brilliant_strategist aggressive_assaulter infantry_leader trickster   }
+	skill = 6
+	attack_skill = 3
+	defense_skill = 5
+	planning_skill = 5
+	logistics_skill = 6
+}
+create_field_marshal = {
+	name = "Charles De Gaulle" #Point Value: 14 #2/6/21  
+	portrait_path = "gfx/leaders/FRA/Portrait_France_Charles_De_Gaulle.dds"
+		traits = { harsh_leader trickster logistics_wizard brilliant_strategist desert_fox aggressive_assaulter panzer_leader panzer_expert fortress_buster }
+	skill = 7
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 9
+	logistics_skill = 6
+}
+create_field_marshal = {
+	name = "Alphonse Juin" #Point Value: 15 #3/20/21
+	portrait_path = "gfx/leaders/FRA/Portrait_France_Alphonse_Juin.dds"
+	traits = { trait_cautious logistics_wizard infantry_leader infantry_expert thorough_planner paratrooper skirmisher }
+	skill = 6
+	attack_skill = 5
+	defense_skill = 4
+	planning_skill = 5
+	logistics_skill = 5
+}
 
+create_corps_commander = {
+	name = "Jean de Lattre de Tassigny" #Point Value: 18 #2/6/21 
+	portrait_path = "gfx/leaders/FRA/Portrait_France_Jean_de_Lattre_de_Tassigny.dds"
+	traits = {   trickster skirmisher panzer_leader desert_fox  panzer_expert expert_improviser  }
+	skill = 6
+	attack_skill = 4
+	defense_skill = 5
+	planning_skill = 4
+	logistics_skill = 6
+}
+
+
+create_corps_commander = {
+	name = "Antoine-Marie-Benoît Besson" #Point Value: 18 #3/20/21 
+	portrait_path = "gfx/leaders/FRA/Portrait_France_Generic_land_2.dds"
+	traits = { inflexible_strategist  camouflage_expert cavalry_leader cavalry_expert combined_arms_expert ambusher trickster guerilla_fighter urban_assault_specialist  }
+	skill = 6
+	attack_skill = 4
+	defense_skill = 6
+	planning_skill = 4
+	logistics_skill = 6
+}
+
+
+create_corps_commander = {
+	name = "Philippe Leclerc" #Point Value: 17 
+	portrait_path = "gfx/leaders/FRA/portrait_france_philippe_leclerc.dds"
+	traits = {  trait_reckless infantry_leader ambusher trickster desert_fox camouflage_expert fake_skilled_staffer }
+	skill = 6
+	attack_skill = 4
+	defense_skill = 4
+	planning_skill = 4
+	logistics_skill = 7
+}	
+
+create_corps_commander = {
+	name = "Henri Giraud" #Point Value: 18 #3/20/21 
+	portrait_path = "gfx/leaders/FRA/portrait_france_henri_giraud.dds"
+	traits = {   trait_cautious infantry_leader ambusher trait_engineer scavenger trait_mountaineer hill_fighter fake_skilled_staffer }
+	skill = 6
+	attack_skill = 4
+	defense_skill = 4
+	planning_skill = 4
+	logistics_skill = 7
+}
+create_corps_commander = { 
+	name = "Marie-Pierre Koenig" #Point Value: 18
+	portrait_path = "gfx/leaders/FRA/portrait_fra_marie_pierre_koenig.dds"
+	traits = { jungle_rat  cavalry_leader cavalry_expert combined_arms_expert adaptable trickster guerilla_fighter urban_assault_specialist  }
+	skill = 6
+	attack_skill = 4
+	defense_skill = 6
+	planning_skill = 4
+	logistics_skill = 6
+}
+create_corps_commander = { 
+	name = "Georges Catroux" #Point Value: 18
+	portrait_path = "gfx/leaders/FRA/Portrait_France_Alphonse_Joseph_Georges.dds"
+	traits = {  trait_reckless infantry_leader infantry_expert trickster jungle_rat trait_mountaineer organizer fake_skilled_staffer }
+	skill = 6
+	attack_skill = 4
+	defense_skill = 4
+	planning_skill = 4
+	logistics_skill = 7
+}	
+create_corps_commander = {
+	name = "Mascarenhas de Morais" #Point Value: 18
+	portrait_path = "gfx/leaders/BRA/Mascarenhas_de_Morais.tga"
+	traits = { naval_liason infantry_leader infantry_expert trait_mountaineer jungle_rat expert_improviser swamp_fox    }
+	skill = 6
+	attack_skill = 4
+	defense_skill = 4
+	planning_skill = 6
+	logistics_skill = 5
+	}
+
+create_navy_leader = {
+	name = "Nelson Mello"
+	portrait_path = "gfx/leaders/BRA/Nelson_Mello.tga"
+	traits = { ironside fleet_protector destroyer_leader ground_pounder superior_tactician concealment_expert }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	maneuvering_skill = 3
+	coordination_skill = 5
+}
+create_field_marshal = { 
+	name = "Odilio Denys" #Point Value: 15.5
+	portrait_path = "gfx/leaders/BRA/portrait_BRA_Odilio_Denys.dds"
+	traits = { organizer logistics_wizard organisational_leader offensive_doctrine fast_planner commando panzer_leader trait_engineer panzer_expert   }
+	skill = 6
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 6
+	logistics_skill = 6
+}
+create_field_marshal = {
+	name = "João Baptista de Mattos"  #Point Value: 16.5
+	portrait_path = "gfx/leaders/BRA/portrait_BRA_João_Baptista_de_Mattos.dds"
+	traits = { organizer thorough_planner logistics_wizard infantry_leader infantry_expert jungle_rat trait_mountaineer hill_fighter  }
+	skill = 6
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 6
+	logistics_skill = 6
+}
+
+create_corps_commander = {
+	name = "Eurico Gaspar Dutra" #Point Value: 18
+	portrait_path = "gfx/leaders/BRA/Eurico_Gaspar_Dutra.tga"
+	traits = { naval_liason naval_invader bearer_of_artillery trait_mountaineer jungle_rat expert_improviser swamp_fox cavalry_expert combined_arms_expert cavalry_leader   }
+	skill = 6
+	attack_skill = 4
+	defense_skill = 4
+	planning_skill = 6
+	logistics_skill = 5
+	}
+
+create_corps_commander = {
+	name = "Euclides Zenobio Da Costa"   #Point Value: 18
+	portrait_path = "gfx/leaders/BRA/portrait_BRA_Euclides_Zenobio_Da_Costa.dds"
+	traits = { hill_fighter desert_fox jungle_rat urban_assault_specialist infantry_leader ambusher guerilla_fighter naval_invader }
+	skill = 6
+	attack_skill = 3
+	defense_skill = 4
+	planning_skill = 6
+	logistics_skill = 6
+}
+create_corps_commander = {
+	name = "Canrobert Pereira Da Costa" #Point Value: 18
+	portrait_path = "gfx/leaders/BRA/portrait_BRA_Canrobert_Pereira_Da_Costa.dds"
+	traits = { panzer_leader panzer_expert trait_engineer fortress_buster urban_assault_specialist jungle_rat organizer }
+	skill = 6
+	attack_skill = 5
+	defense_skill = 4
+	planning_skill = 5
+	logistics_skill = 5
+}
 }
 USA = {
 
