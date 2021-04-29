@@ -458,7 +458,7 @@ ideas = {
 
 			picture = generic_acquire_tanks
 
-			modifier = { army_attack_factor = 0.05 breakthrough_factor = 0.1 supply_consumption_factor = -0.05 no_supply_grace =  60 production_speed_infrastructure_factor = 0.5 }
+			modifier = { army_attack_factor = 0.05 breakthrough_factor = 0.1 supply_consumption_factor = -0.075 no_supply_grace =  60 production_speed_infrastructure_factor = 0.5 }
 		}
 				GER_blau = {
 			allowed = {
