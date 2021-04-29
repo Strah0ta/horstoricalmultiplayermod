@@ -12,7 +12,7 @@ technologies = {
 		}
 				enable_building = {
 			building = bunker
-			level = 5
+			level = 6
 		}
 		enable_building = {
 			building = coastal_bunker

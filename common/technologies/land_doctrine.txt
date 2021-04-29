@@ -35,7 +35,10 @@
 		category_all_armor = {
 			max_organisation = 2
 			breakthrough = 0.20
-		}		
+		}	
+
+
+			
 		enable_tactic = tactic_delay
 
 		path = {
@@ -52,15 +55,63 @@
 			cat_mobile_warfare
 		}
 
-
-		
+		on_research_complete = { hidden_effect = { set_technology = { armored_spearhead_tech = 1 }      }  custom_effect_tooltip = "Armor Support Companies will require 20% less equipment" }
 		folder = {
 			name = land_doctrine_folder
 			position = { x = 0 y = 2 }
 		}
 	
 	}
-
+	
+	armored_spearhead_tech = {
+				light_sp_artillery = {   need = {light_tank_artillery_equipment= -6 }   }
+			medium_sp_artillery = {   need = {medium_tank_artillery_equipment= -6 }   }
+			heavy_sp_artillery = {   need = {heavy_tank_artillery_equipment= -6 }   }
+			super_heavy_sp_artillery = {   need = {super_heavy_tank_artillery_equipment= -6 }   }
+			modern_sp_artillery = {   need = {modern_tank_artillery_equipment = -6 }   }
+			light_tank_destroyer_sup = {   need = {light_tank_destroyer_equipment= -4 }   }
+			medium_tank_destroyer_sup = {   need = {medium_tank_destroyer_equipment= -4 }   }
+			heavy_tank_destroyer_sup = {   need = {heavy_tank_destroyer_equipment= -4 }   }
+			super_heavy_tank_destroyer_sup = {   need = {super_heavy_tank_destroyer_equipment= -4 }   }
+			modern_tank_destroyer_sup = {   need = {modern_tank_destroyer_equipment= -4 }   }
+			light_tank_destroyer_sup_gun = {   need = {light_tank_destroyer_equipment= -4 }   }
+			medium_tank_destroyer_sup_gun = {   need = {medium_tank_destroyer_equipment= -4 }   }
+			heavy_tank_destroyer_sup_gun = {   need = {heavy_tank_destroyer_equipment= -4 }   }
+			super_heavy_tank_destroyer_sup_gun = {   need = {super_heavy_tank_destroyer_equipment= -4 }   }
+			modern_tank_destroyer_sup_gun = {   need = {modern_tank_destroyer_equipment= -4 }   }
+			light_tank_antiair = {	need = {light_tank_aa_equipment = -1 }}
+			medium_tank_antiair = {	need = {medium_tank_aa_equipment = -1 }}
+			heavy_armor_antiair = {	need = { heavy_tank_aa_equipment = -1 }}
+			super_heavy_armor_antiair = {	need = { super_heavy_tank_aa_equipment = -1 }}
+			modern_armor_antiair = {	need = {modern_tank_aa_equipment = -1 }}
+			motorized_rocket_sup = {	need = {motorized_rocket_equipment = -3 }}
+			motorized_rocket_sup = {	need = {motorized_rocket_equipment = -3 }}
+			light_tank_recon= {	need = {light_tank_equipment = -5 }}
+	}
+	armored_spearhead_tech_removal = {
+				light_sp_artillery = {   need = {light_tank_artillery_equipment= 6 }   }
+			medium_sp_artillery = {   need = {medium_tank_artillery_equipment= 6 }   }
+			heavy_sp_artillery = {   need = {heavy_tank_artillery_equipment= 6 }   }
+			super_heavy_sp_artillery = {   need = {super_heavy_tank_artillery_equipment= 6 }   }
+			modern_sp_artillery = {   need = {modern_tank_artillery_equipment = 6 }   }
+			light_tank_destroyer_sup = {   need = {light_tank_destroyer_equipment= 4 }   }
+			medium_tank_destroyer_sup = {   need = {medium_tank_destroyer_equipment= 4 }   }
+			heavy_tank_destroyer_sup = {   need = {heavy_tank_destroyer_equipment= 4 }   }
+			super_heavy_tank_destroyer_sup = {   need = {super_heavy_tank_destroyer_equipment= 4 }   }
+			modern_tank_destroyer_sup = {   need = {modern_tank_destroyer_equipment= 4 }   }
+			light_tank_destroyer_sup_gun = {   need = {light_tank_destroyer_equipment= 4 }   }
+			medium_tank_destroyer_sup_gun = {   need = {medium_tank_destroyer_equipment= 4 }   }
+			heavy_tank_destroyer_sup_gun = {   need = {heavy_tank_destroyer_equipment= 4 }   }
+			super_heavy_tank_destroyer_sup_gun = {   need = {super_heavy_tank_destroyer_equipment= 4 }   }
+			modern_tank_destroyer_sup_gun = {   need = {modern_tank_destroyer_equipment= 4 }   }
+			light_tank_antiair = {	need = {light_tank_aa_equipment = 1 }}
+			medium_tank_antiair = {	need = {medium_tank_aa_equipment = 1 }}
+			heavy_armor_antiair = {	need = { heavy_tank_aa_equipment = 1 }}
+			super_heavy_armor_antiair = {	need = { super_heavy_tank_aa_equipment = 1 }}
+			modern_armor_antiair = {	need = {modern_tank_aa_equipment = 1 }}
+			motorized_rocket_sup = {	need = {motorized_rocket_equipment = 3 }}
+		light_tank_recon= {	need = {light_tank_equipment = 5 }}
+	}
 	
 	elastic_defence = {
 
@@ -435,7 +486,7 @@
 			land_doctrine
 			cat_superior_firepower
 		}
-		
+		on_research_complete = { 	hidden_effect = { 	if = { limit = { has_tech = armored_spearhead_tech } set_technology = { armored_spearhead_tech_removal = 1 }     } } }
 		folder = {
 			name = land_doctrine_folder
 			position = { x = 0 y = 2 }
@@ -863,7 +914,7 @@ category_all_infantry = {
 			land_doctrine
 			cat_superior_firepower
 		}
-
+on_research_complete = { custom_effect_tooltip = "Armor Support Companies will require 20% less equipment" }
 		
 		folder = {
 			name = land_doctrine_folder
@@ -998,6 +1049,7 @@ attrition = -0.1 #take 10% less attrition losses
 conscription = 0.01
         on_research_complete = {
             custom_effect_tooltip = human_wave_offensive_guns_tt
+			custom_effect_tooltip =  semi_motorized_desert_warfare_details
         }
         enable_tactic = tactic_guerrilla_tactics
         land_reinforce_rate = 0.20
@@ -1009,7 +1061,6 @@ org_loss_when_moving = -0.7
         no_supply_grace = 144
         enable_tactic = tactic_blitz
            enable_tactic = tactic_elastic_defense
-			on_research_complete  = { hidden_effect ={ set_technology = { mass_assault_desert_tech = 1 popup = no }  } custom_effect_tooltip =  semi_motorized_desert_warfare_details }
 
 		folder = {
 			name = land_doctrine_folder
@@ -1106,7 +1157,8 @@ org_loss_when_moving = -0.7
 			cat_grand_battle_plan
 		}
 
-		
+		on_research_complete = { 	hidden_effect = { 	if = { limit = { has_tech = armored_spearhead_tech } set_technology = { armored_spearhead_tech_removal = 1 }     } } }
+
 		folder = {
 			name = land_doctrine_folder
 			position = { x = 0 y = 4 }
@@ -1269,8 +1321,7 @@ org_loss_when_moving = -0.7
 	}
 
 	night_assault_tactics = {
-		#reduce land night combat penalty
-		land_night_attack = 0.25 # negates half of base penalty
+		land_night_attack = 0.25 
 	
 		path = {
 			leads_to_tech = infantry_offensive 
@@ -1357,7 +1408,6 @@ org_loss_when_moving = -0.7
 		}
 		infantry = {
 			combat_width = -0.4
-			#defense = -0.05
 		}		
 		doctrine = yes	
 		research_cost = 1
@@ -1367,7 +1417,6 @@ org_loss_when_moving = -0.7
 			cat_mass_assault
 		}
 
-		
 		folder = {
 			name = land_doctrine_folder
 			position = { x = 0 y = 0 }
@@ -1376,8 +1425,7 @@ org_loss_when_moving = -0.7
 	}
 	
 	pocket_defence = {
-		#reduced pocketed combat penalty and/or reduces the out of supply penalty or increases time before moving to worse penalty
-		no_supply_grace = 48 # more hours before supply penalty changes
+		no_supply_grace = 48 
 		out_of_supply_factor = -0.40
 		pocket_penalty  = -0.2		
 		path = {
@@ -1400,7 +1448,8 @@ org_loss_when_moving = -0.7
 			cat_mass_assault
 		}
 
-		
+				#on_research_complete = { 	hidden_effect = { 	if = { limit = { has_tech = armored_spearhead_tech } set_technology = { armored_spearhead_tech_removal = 1 }     } } }
+
 		folder = {
 			name = land_doctrine_folder
 			position = { x = 0 y = 2 }
@@ -1439,7 +1488,6 @@ org_loss_when_moving = -0.7
 	mass_assault_desert_tech = {
 	 allow = { always = no }
 	infantry = {
-			#breakthrough = 0.1
 			defense = -0.1 
 			plains = {
 				defence = 0.1
@@ -1452,7 +1500,6 @@ org_loss_when_moving = -0.7
 			}
 		}
 		anti_tank_brigade = {
-			#breakthrough = 0.1
 			defense = -0.1 
 			plains = {
 				defence = 0.1
@@ -1465,7 +1512,6 @@ org_loss_when_moving = -0.7
 			}
 		}
 		artillery_brigade = {
-			#breakthrough = 0.1
 			defense = -0.1 
 			plains = {
 				defence = 0.1
@@ -1478,7 +1524,6 @@ org_loss_when_moving = -0.7
 			}			
 		}
 		anti_air_brigade = {
-			#breakthrough = 0.1
 			defense = -0.1 
 			plains = {
 				defence = 0.1
@@ -1491,7 +1536,6 @@ org_loss_when_moving = -0.7
 			}			
 		}		
 		rocket_artillery_brigade= {
-			#breakthrough = 0.1
 			defense = -0.1 
 			plains = {
 				defence = 0.1
@@ -1648,7 +1692,6 @@ org_loss_when_moving = -0.7
 	}
 	
 	peoples_army = {
-		#Land Units take less attrition
 		attrition = -0.1 #take 10% less attrition losses
 		infantry = {
 			default_morale = 0.30

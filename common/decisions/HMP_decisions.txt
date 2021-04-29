@@ -857,7 +857,7 @@ every_country = {
         available = { has_game_rule ={ rule = horst_arabia option = HORST_YES_ARABIA }  OR = { ITA = { controls_state = 291 } ALB = { controls_state = 291 }  }   date > 1940.6.1  }
 		visible = { NOT = { has_global_flag = ARABIA_FRONT_DECISION }}
 		complete_effect = {
-						custom_effect_tooltip = "We will open a new front in Arabia against the Allies`."
+						custom_effect_tooltip = "We will open a new front in Arabia against the Allies."
 				arabia_front = yes
 				set_global_flag = ARABIA_FRONT_DECISION
 		}
@@ -2180,14 +2180,14 @@ AST = {
 		allowed = {	 original_tag = GER	} 
 		icon = GFX_decision_generic_air
 		available = {    }
-		complete_effect = {	 send_equipment = { equipment = fighter_equipment amount = 400 target = ITA } send_equipment = { equipment = CAS_equipment amount = 20 target = ITA }
+		complete_effect = {	 send_equipment = { equipment = fighter_equipment amount = 400 target = ITA } send_equipment = { equipment = CAS_equipment amount = 40 target = ITA }
 		 } 	
 		} 
 		ENG_plane_to_usa = { 
 		allowed = {	 original_tag = ENG	} 
 		icon = GFX_decision_generic_air
 		available = {    }
-		complete_effect = {	 send_equipment = { equipment = fighter_equipment amount = 400 target = USA } send_equipment = { equipment = CAS_equipment amount = 20 target = USA }
+		complete_effect = {	 send_equipment = { equipment = fighter_equipment amount = 400 target = USA } send_equipment = { equipment = CAS_equipment amount = 40 target = USA }
 		 } 	
 		} 
 		GER_plane_hun2 = {
