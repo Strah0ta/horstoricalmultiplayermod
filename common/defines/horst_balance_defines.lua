@@ -92,7 +92,7 @@ NDefines.NAir.SUPPLY_NEED_FACTOR = 0							-- multiplies supply usage; removed s
 
 NDefines.NAir.AIR_WING_MAX_STATS_SPEED = 30000                  -- Done so CAS does not get intercepted EXCEPT when there are insufficient scorts (combined with below defines)
 NDefines.NAir.DISRUPTION_FACTOR = 4  -- (4 -> 7) with decent radar coverage equal amounts of fighters vs naval bombers will disrupt almost all naval bombers if not escorted, with low detection very few bombers are intercepted still
-NDefines.NAir.ESCORT_FACTOR = 7 -- (2 -> 7) to make sure that escorted planes are still capable of bombing, with equal escorts/interceptors most of bombers get through Keep in mind that these values will also affect how cas/tac/strat bombers work, they make escorting planes much more important (which imo is 100% fine)
+NDefines.NAir.ESCORT_FACTOR = 5 -- (2 -> 7) to make sure that escorted planes are still capable of bombing, with equal escorts/interceptors most of bombers get through Keep in mind that these values will also affect how cas/tac/strat bombers work, they make escorting planes much more important (which imo is 100% fine)
 
 ------------------------------------------------------------------------------------------------
 NDefines.NAir.AA_INDUSTRY_AIR_DAMAGE_FACTOR = -0.18				-- vanilla 0.12 | changed because all three AA techs that boost state AA have had their damage reduction bonuses moved to the building
