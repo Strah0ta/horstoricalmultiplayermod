@@ -1124,7 +1124,7 @@ org_loss_when_moving = -0.7
 	
 		grand_battle_plan_mp = {		
 		max_planning = 0.3
-
+		allow = {  NOT = { was_sent_expeditionaries = yes }  }
 		doctrine = yes	
 		research_cost = 0.01
 		

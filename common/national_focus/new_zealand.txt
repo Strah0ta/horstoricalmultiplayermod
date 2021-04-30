@@ -404,10 +404,6 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 
-		complete_tooltip = {
-
-		}
-
 		completion_reward = {
 			add_ideas = NZL_wairarapa_sheep_farms
 		}
@@ -416,7 +412,7 @@ focus_tree = {
 	focus = {
 		id = NZL_bureau_of_industry
 		icon = GFX_goal_generic_production
-		prerequisite = { focus = NZL_new_zealand_steel focus = NZL_taranaki_oil }
+		prerequisite = { focus = NZL_wairarapa_sheep_farms focus = NZL_new_zealand_steel focus = NZL_taranaki_oil }
 		x = 0
 		y = 2
 		relative_position_id = NZL_national_roads_board
@@ -443,7 +439,7 @@ focus_tree = {
 		id = NZL_department_of_scientific_and_industrial_research
 		icon = GFX_focus_research
 		prerequisite = { focus = NZL_bureau_of_industry }
-		x = -1
+		x = 0
 		y = 3
 		relative_position_id = NZL_national_roads_board
 
@@ -465,9 +461,9 @@ focus_tree = {
 	focus = {
 		id = NZL_industrial_conscription
 		icon = GFX_goal_generic_construct_civilian
-		prerequisite = { focus = NZL_wairarapa_sheep_farms }
 		prerequisite = { focus = NZL_bureau_of_industry }
-		x = 1
+		prerequisite = { focus = NZL_wairarapa_sheep_farms }
+		x = 2
 		y = 3
 		relative_position_id = NZL_national_roads_board
 
@@ -479,33 +475,6 @@ focus_tree = {
 
 		completion_reward = {
 			300 = {
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = {
-					type = arms_factory
-					level = 2
-					instant_build = yes
-				}
-			}
-		}
-	}
-
-	focus = {
-		id = NZL_think_big
-		icon = GFX_goal_generic_construct_civ_factory
-		prerequisite = { focus = NZL_industrial_conscription }
-		prerequisite = { focus = NZL_domestic_arms_industry }
-		x = 2
-		y = 4
-		relative_position_id = NZL_national_roads_board
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			284 = {
 				add_extra_state_shared_building_slots = 3
 				add_building_construction = {
 					type = arms_factory
@@ -517,10 +486,36 @@ focus_tree = {
 	}
 
 	focus = {
+		id = NZL_think_big
+		icon = GFX_goal_generic_construct_civ_factory
+		prerequisite = { focus = NZL_industrial_conscription }
+		x = 0
+		y = 1
+		relative_position_id = NZL_industrial_conscription
+
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			284 = {
+				add_extra_state_shared_building_slots = 4
+				add_building_construction = {
+					type = arms_factory
+					level = 4
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
 		id = NZL_project_seal
 		icon = GFX_focus_wonderweapons
 		prerequisite = { focus = NZL_department_of_scientific_and_industrial_research }
-		x = -1
+		x = 0
 		y = 4
 		relative_position_id = NZL_national_roads_board
 
@@ -593,11 +588,11 @@ focus_tree = {
 		id = NZL_bob_semple_tank 
 		icon = GFX_focus_NZL_bob_semple_tank		#VEHICLE OF GLORIOUS DESIGN BOB SEMPLE TANK MUST HAVE UNIQUE ICON
 		prerequisite = { focus = NZL_army_reforms }
-		x = 1
+		x = 3
 		y = 1
 		relative_position_id = NZL_army_reforms
 
-		cost = 5
+		cost = 1
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -606,49 +601,30 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = motorized_bonus
-				bonus = 1.00
+				bonus = 2.00
 				category = motorized_equipment
+			}
+									add_tech_bonus = {
+				name = NZL_schofield_tank
+				bonus = 3.0
+				uses = 1
+				technology = improved_light_tank
 			}
 			add_ideas = NZL_bob_semple_tank
 			custom_effect_tooltip = NZL_bob_semple_tank_tt
 			hidden_effect = { set_technology = { basic_light_tank  = 1 } }
-			
+
 		}
 	}
 
-	focus = {
-		id = NZL_domestic_arms_industry
-		icon = GFX_goal_generic_construct_mil_factory
-		prerequisite = { focus = NZL_charlton_automatic_rifle }
-		x = -1
-		y = 2
-		relative_position_id = NZL_army_reforms
-
-		cost = 5
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			300 = {
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = {
-					type = arms_factory
-					level = 2
-					instant_build = yes
-				}
-			}
-		}
-	}
 
 	focus = {
 		id = NZL_schofield_tank
 		icon = GFX_goal_generic_army_tanks
 		prerequisite = { focus = NZL_bob_semple_tank }
-		x = 1
-		y = 2
-		relative_position_id = NZL_army_reforms
+		x = 0
+		y = 1
+		relative_position_id = NZL_bob_semple_tank
 
 		cost = 10
 
@@ -681,10 +657,10 @@ focus_tree = {
 	focus = {
 		id = NZL_long_range_patrol
 		icon = GFX_goal_generic_special_forces
-		prerequisite = { focus = NZL_domestic_arms_industry }
-		x = -1
-		y = 3
-		relative_position_id = NZL_army_reforms
+		prerequisite = { focus = NZL_charlton_automatic_rifle focus = NZL_artillery_focus }
+		x = 1
+		y = 1
+		relative_position_id = NZL_charlton_automatic_rifle
 
 		cost = 5
 
@@ -705,9 +681,9 @@ focus_tree = {
 	focus = {
 		id = NZL_artillery_focus
 		icon = GFX_goal_generic_army_artillery
-		prerequisite = { focus = NZL_schofield_tank }
+		prerequisite = { focus = NZL_army_reforms }
 		x = 1
-		y = 3
+		y = 1
 		relative_position_id = NZL_army_reforms
 
 		cost = 10
@@ -729,10 +705,10 @@ focus_tree = {
 	focus = {
 		id = NZL_big_bob_tank
 		icon = GFX_goal_generic_build_tank
-		prerequisite = { focus = NZL_artillery_focus }
-		x = 1
-		y = 4
-		relative_position_id = NZL_army_reforms
+		prerequisite = { focus = NZL_schofield_tank }
+		x = 0
+		y = 1
+		relative_position_id = NZL_schofield_tank
 
 		cost = 10
 

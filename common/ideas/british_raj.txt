@@ -92,7 +92,7 @@ ideas = {
 			modifier = {
 				stability_factor = -0.05
 				conscription_factor = -0.2
-				autonomy_gain = 0.3
+				autonomy_gain = 0.5
 			}
 		}
 
@@ -112,7 +112,7 @@ ideas = {
 
 			modifier = {
 				conscription_factor = -0.1
-				autonomy_gain = 0.6
+				autonomy_gain = 1
 			}
 		}
 
@@ -302,36 +302,12 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				military_leader_cost_factor = -0.50
-				army_leader_start_level = 1
+				max_planning_factor = 0.1
 			}
 		}
-
-
-		RAJ_quit_india_movement = {
 		
-			picture = raj_quit_india_movement
-			
-			allowed = {
-				original_tag = RAJ
-			}
-
-			allowed_civil_war = {
-				NOT = {
-					OR = {
-						has_government = communism
-						has_government = fascism
-					}
-				}
-			}
-			
-			removal_cost = -1
-			
-			modifier = {
-				autonomy_gain = 0.4
-			}
 		}
-	}
+
 
 
 	political_advisor = {

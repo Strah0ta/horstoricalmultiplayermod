@@ -9,12 +9,6 @@ ideas = {
 	    modifier = { consumer_goods_factor = 0.3 weekly_manpower = -4000 stability_factor = -0.3} 
 	}	
 
-		SPA_foreign_training_staff = {
-			picture = german_advisors
-			allowed = {	original_tag = SPR	}
-			allowed_civil_war = {	always = yes	}
-			modifier = { training_time_factor = -0.15 }
-		}
 		SPA_expand_conscription = {
 
 			picture = generic_manpower_bonus
@@ -29,6 +23,7 @@ ideas = {
 
 			modifier = {
 				conscription = 0.01
+				training_time_factor = -0.15
 			}
 		}
 

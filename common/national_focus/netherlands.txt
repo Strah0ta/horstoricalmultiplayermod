@@ -45,7 +45,7 @@ focus_tree = {
 		search_filters = {FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY}
 
 		completion_reward = {
-				352 = { add_extra_state_shared_building_slots = 3 }
+				352 = { add_extra_state_shared_building_slots = 4 }
 			add_timed_idea = { idea = HOL_public_works days = 365 }
 		}
 	}
@@ -62,7 +62,7 @@ focus_tree = {
 		available_if_capitulated = yes
 		search_filters = {FOCUS_FILTER_RESEARCH}
 		completion_reward = {
-						352 = { add_extra_state_shared_building_slots = 3 }
+						352 = { add_extra_state_shared_building_slots = 4 }
 			add_tech_bonus = {
 				name = HOL_philips_focus
 				bonus = 1.0
@@ -91,7 +91,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-						352 = { add_extra_state_shared_building_slots = 3 }
+						352 = { add_extra_state_shared_building_slots = 4 }
 			add_research_slot = 1
 		}
 	}
@@ -108,7 +108,7 @@ focus_tree = {
 		available_if_capitulated = yes
 		search_filters = {FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY}
 		completion_reward = {
-						352 = { add_extra_state_shared_building_slots = 3 }
+						352 = { add_extra_state_shared_building_slots = 4 }
 			add_tech_bonus = {
 				name = HOL_the_zuiderzee_works
 				bonus = 1.0
@@ -135,7 +135,7 @@ focus_tree = {
 		available_if_capitulated = yes
 		search_filters = {FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY}
 		completion_reward = {
-						352 = { add_extra_state_shared_building_slots = 3 }
+						352 = { add_extra_state_shared_building_slots = 4 }
 			add_tech_bonus = {
 				name = HOL_develop_the_randstad
 				bonus = 1.0
@@ -161,7 +161,7 @@ focus_tree = {
 		available_if_capitulated = yes
 		search_filters = {FOCUS_FILTER_INDUSTRY}
 		completion_reward = {
-						352 = { add_extra_state_shared_building_slots = 3 }
+						352 = { add_extra_state_shared_building_slots = 4 }
 			add_ideas = HOL_friesland_agricultural_impetus
 		}
 	}
@@ -178,11 +178,11 @@ focus_tree = {
 		available_if_capitulated = yes
 		search_filters = {FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY}
 		completion_reward = {
-						352 = { add_extra_state_shared_building_slots = 3 }
+						352 = { add_extra_state_shared_building_slots = 4 }
 			add_tech_bonus = {
 				name = HOL_domestic_vehicle_designs
 				bonus = 1.0
-				uses = 1
+				uses = 2
 				category = motorized_equipment
 			}
 			add_ideas = HOL_domestic_vehicle_designs
@@ -206,7 +206,7 @@ focus_tree = {
 		available_if_capitulated = yes
 		search_filters = {FOCUS_FILTER_RESEARCH}
 		completion_reward = {
-						352 = { add_extra_state_shared_building_slots = 3 }
+						352 = { add_extra_state_shared_building_slots = 4 }
 			add_research_slot = 1
 		}
 	}
@@ -216,7 +216,7 @@ focus_tree = {
 		icon = GFX_goal_generic_army_doctrines
 		x = 10
 		y = 0
-		cost = 10
+		cost = 5
 		available = {
 			is_ai = no
 		}
@@ -273,7 +273,7 @@ focus_tree = {
 			}
 		}
 		relative_position_id = HOL_appoint_new_supreme_commander
-		cost = 10
+		cost = 5
 
 		available_if_capitulated = yes
 		search_filters = {FOCUS_FILTER_RESEARCH}
@@ -308,7 +308,7 @@ focus_tree = {
 		x = 1
 		y = 1
 		relative_position_id = HOL_appoint_new_supreme_commander
-		cost = 10
+		cost = 5
 
 		available_if_capitulated = yes
 		completion_reward = {

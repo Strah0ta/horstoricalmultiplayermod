@@ -93,28 +93,6 @@ create_country_leader = {
 
 set_convoys = 100
 
-create_navy_leader = {
-	name = "Harold Farncomb"
-	gfx = "GFX_AST_harold_farncomb"
-	traits = { air_controller bold spotter flight_deck_manager torpedo_bomber concealment_expert }
-	skill = 4
-	attack_skill = 3
-	defense_skill = 3
-	maneuvering_skill = 3
-	coordination_skill = 4
-}
-
-create_navy_leader = {
-	name = "Victor Crutchley"
-	gfx = "GFX_AST_victor_crutchley"
-	traits = { ironside fleet_protector destroyer_leader ground_pounder superior_tactician concealment_expert }
-	skill = 4
-	attack_skill = 3
-	defense_skill = 2
-	maneuvering_skill = 3
-	coordination_skill = 5
-}
-
 	# Light Cruisers #
 	create_equipment_variant = {
 		name = "Sydney Class"

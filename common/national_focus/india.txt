@@ -101,28 +101,6 @@ focus_tree = {
 		 	}		 	
 		}
 	}
-	
-	
-	focus = {
-		id = RAJ_quit_india_movement
-		icon = GFX_goal_generic_propaganda
-		prerequisite = { focus = RAJ_cripps_mission }
-		x = -2
-		y = 1	
-		relative_position_id = RAJ_cripps_mission 	
-		cost = 5
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			add_ideas = RAJ_quit_india_movement
-			hidden_effect = {
-				news_event = { id = news.282 hours = 6 }
-			}
-		}
-	}
 
 	focus = {
 		id = RAJ_two_nation_theory
@@ -149,10 +127,10 @@ focus_tree = {
 	focus = {
 		id = RAJ_princely_state_donations
 		icon = GFX_goal_generic_improve_relations
-		prerequisite = { focus = RAJ_indian_national_congress }
+		prerequisite = { focus = RAJ_provincial_elections }
 		x = 2
 		y = 1
-		relative_position_id = RAJ_indian_national_congress
+		relative_position_id = RAJ_provincial_elections
 
 		cost = 5
 
@@ -202,10 +180,10 @@ focus_tree = {
 	focus = {
 		id = RAJ_british_army_support
 		icon = GFX_goal_generic_cavalry
-		prerequisite = { focus = RAJ_indian_national_congress }
-		x = 5
+		prerequisite = { focus = RAJ_princely_state_donations }
+		x = 2
 		y = 1
-		relative_position_id = RAJ_indian_national_congress
+		relative_position_id = RAJ_princely_state_donations
 
 		cost = 5
 
@@ -268,6 +246,7 @@ focus_tree = {
 				uses = 2
 				category = para_tech
 				category = mountaineers_tech
+				category = jaegar_tech
 			}
 		}
 	}
@@ -302,7 +281,7 @@ focus_tree = {
 	focus = {
 		id = RAJ_lessons_of_the_great_war
 		icon = GFX_goal_generic_small_arms
-		x = 15
+		x = 14
 		y = 0
 
 		cost = 5
@@ -416,36 +395,12 @@ focus_tree = {
 	############################
 
 	focus = {
-		id = RAJ_the_bangalore_torpedo
-		icon = GFX_goal_generic_position_armies
-		prerequisite = { focus = RAJ_lessons_of_the_great_war }
-		x = -1
-		y = 1
-		relative_position_id = RAJ_lessons_of_the_great_war
-
-		cost = 5
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			add_tech_bonus = {
-				name = RAJ_the_bangalore_torpedo
-				bonus = 1.0
-				uses = 2
-				category = engineers_tech
-			}
-		}
-	}
-
-	focus = {
 		id = RAJ_vickers_berthier_gun
 		icon = GFX_goal_generic_small_arms
 		prerequisite = { focus = RAJ_lessons_of_the_great_war }
 		x = 2
-		y = 0
-		relative_position_id = RAJ_the_bangalore_torpedo
+		y = 1
+		relative_position_id = RAJ_lessons_of_the_great_war
 
 		cost = 10
 
@@ -466,10 +421,10 @@ focus_tree = {
 	focus = {
 		id = RAJ_royal_indian_artillery
 		icon = GFX_goal_generic_army_artillery2
-		prerequisite = { focus = RAJ_the_bangalore_torpedo focus = RAJ_vickers_berthier_gun }
-		x = 0
+		prerequisite = { focus = RAJ_lessons_of_the_great_war  }
+		x = -2
 		y = 1
-		relative_position_id = RAJ_the_bangalore_torpedo
+		relative_position_id = RAJ_lessons_of_the_great_war
 
 		cost = 10
 
@@ -488,12 +443,12 @@ focus_tree = {
 	}
 
 	focus = {
-		id = RAJ_army_motorization
-		icon = GFX_goal_generic_army_motorized
-		prerequisite = { focus = RAJ_the_bangalore_torpedo focus = RAJ_vickers_berthier_gun }
-		x = 2
+		id = RAJ_the_bangalore_torpedo
+		icon = GFX_goal_generic_position_armies
+		prerequisite = { focus = RAJ_vickers_berthier_gun  }
+		x = 0
 		y = 1
-		relative_position_id = RAJ_the_bangalore_torpedo
+		relative_position_id = RAJ_vickers_berthier_gun
 
 		cost = 5
 
@@ -503,10 +458,10 @@ focus_tree = {
 
 		completion_reward = {
 			add_tech_bonus = {
-				name = RAJ_army_motorization
+				name = RAJ_the_bangalore_torpedo
 				bonus = 1.0
-				uses = 1
-				category = motorized_equipment
+				uses = 2
+				category = engineers_tech
 			}
 		}
 	}
@@ -516,8 +471,8 @@ focus_tree = {
 		icon = GFX_goal_generic_army_artillery
 		prerequisite = { focus = RAJ_royal_indian_artillery }
 		x = 0
-		y = 2
-		relative_position_id = RAJ_the_bangalore_torpedo
+		y = 1
+		relative_position_id = RAJ_royal_indian_artillery
 
 		cost = 5
 
@@ -534,10 +489,10 @@ focus_tree = {
 	focus = {
 		id = RAJ_indian_armor
 		icon = GFX_goal_generic_army_tanks
-		prerequisite = { focus = RAJ_army_motorization }
-		x = 2
-		y = 2
-		relative_position_id = RAJ_the_bangalore_torpedo
+		prerequisite = { focus = RAJ_lessons_of_the_great_war }
+		x = 0
+		y = 1
+		relative_position_id = RAJ_lessons_of_the_great_war
 
 		cost = 5
 
@@ -561,14 +516,36 @@ focus_tree = {
 			}
 		}
 	}
+	focus = {
+		id = RAJ_army_motorization
+		icon = GFX_goal_generic_army_motorized
+		prerequisite = { focus = RAJ_indian_armor }
+		x = 0
+		y = 1
+		relative_position_id = RAJ_indian_armor
+
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = RAJ_army_motorization
+				bonus = 1.0
+				uses = 2
+				category = motorized_equipment
+			}
+		}
+	}
 
 	focus = {
 		id = RAJ_modernizing_army
 		icon = GFX_goal_generic_army_doctrines
-		prerequisite = { focus = RAJ_revive_the_screw_guns }
-		prerequisite = { focus = RAJ_indian_armor }
-		x = 1
-		y = 3
+		prerequisite = { focus = RAJ_army_motorization focus = RAJ_the_bangalore_torpedo focus = RAJ_revive_the_screw_guns  }
+		x = -2
+		y = 1
 		relative_position_id = RAJ_the_bangalore_torpedo
 
 		cost = 5
@@ -596,7 +573,7 @@ focus_tree = {
 		id = RAJ_british_pilot_training
 		icon = GFX_goal_generic_air_doctrine
 		prerequisite = { focus = RAJ_lessons_of_the_great_war }
-		x = 3
+		x = 4
 		y = 1
 		relative_position_id = RAJ_lessons_of_the_great_war
 
@@ -621,7 +598,7 @@ focus_tree = {
 		icon = GFX_goal_generic_air_doctrine
 		prerequisite = { focus = RAJ_british_pilot_training }
 		x = 0
-		y = 1
+		y = 2
 		relative_position_id = RAJ_british_pilot_training
 
 		cost = 5
@@ -650,7 +627,7 @@ focus_tree = {
 	focus = {
 		id = RAJ_great_indian_peninsula_railway
 		icon = GFX_goal_generic_construct_infrastructure
-		x = 25
+		x = 24
 		y = 0
 
 		cost = 5

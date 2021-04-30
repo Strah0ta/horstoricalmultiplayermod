@@ -208,7 +208,7 @@ focus_tree = {
 	focus = {
 		id = HUN_industrial_revitalization
 		icon = GFX_goal_generic_construction
-		x = 5
+		x = 4
 		y = 0
 
 		cost = 10
@@ -230,11 +230,8 @@ focus_tree = {
 	focus = {
 		id = HUN_reintegrate_the_railroads
 		icon = GFX_goal_generic_construct_infrastructure
-		prerequisite = { focus = HUN_industrial_revitalization }
-		x = 0
-		y = 1
-		relative_position_id = HUN_industrial_revitalization
-
+		x = 6
+		y = 0
 		cost = 5
 
 		cancel_if_invalid = yes
@@ -272,9 +269,9 @@ focus_tree = {
 	focus = {
 		id = HUN_support_domestic_industry
 		icon = GFX_goal_generic_construct_civ_factory
-		prerequisite = { focus = HUN_reintegrate_the_railroads }
-		x = -1
-		y = 2
+		prerequisite = { focus = HUN_industrial_revitalization }
+		x = 0
+		y = 1
 		relative_position_id = HUN_industrial_revitalization
 
 		cost = 10
@@ -299,9 +296,9 @@ focus_tree = {
 		id = HUN_support_urbanization
 		icon = GFX_goal_generic_construction
 		prerequisite = { focus = HUN_reintegrate_the_railroads }
-		x = 1
-		y = 2
-		relative_position_id = HUN_industrial_revitalization
+		x = 0
+		y = 1
+		relative_position_id = HUN_reintegrate_the_railroads
 		cost = 5
 
 		cancel_if_invalid = yes
@@ -323,11 +320,10 @@ focus_tree = {
 	focus = {
 		id = HUN_institute_for_industrial_techniques
 		icon = GFX_focus_research
-		prerequisite = { focus = HUN_support_urbanization }
-		prerequisite = { focus = HUN_support_domestic_industry }
-		x = 0
-		y = 3
-		relative_position_id = HUN_industrial_revitalization
+		prerequisite = { focus = HUN_support_urbanization focus = HUN_support_domestic_industry}
+		x = -1
+		y = 1
+		relative_position_id = HUN_support_urbanization
 		cost = 10
 
 		cancel_if_invalid = yes
@@ -345,8 +341,8 @@ focus_tree = {
 		icon = GFX_goal_generic_production
 		prerequisite = { focus = HUN_institute_for_industrial_techniques }
 		x = 0
-		y = 4
-		relative_position_id = HUN_industrial_revitalization
+		y = 1
+		relative_position_id = HUN_institute_for_industrial_techniques
 
 		cost = 10
 
@@ -560,8 +556,7 @@ focus_tree = {
 	############################
 	###### MOBILE BRANCH #######
 	############################
-
-	focus = {
+		focus = {
 		id = HUN_mobile_corps_doctrine
 		icon = GFX_goal_generic_cavalry
 		prerequisite = { focus = HUN_war_games }
@@ -585,6 +580,32 @@ focus_tree = {
 			}
 		}
 	}
+
+	focus = {
+		id = HUN_armored_warfare
+		icon = GFX_goal_generic_army_artillery
+
+		prerequisite = { focus = HUN_mobile_corps_doctrine }
+		x = 1
+		y = 1
+		relative_position_id = HUN_mobile_corps_doctrine
+
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = HUN_armored_warfare
+				bonus = 1.0
+				uses = 1
+				category = cat_1941_tanks
+			}
+		}
+	}
+
 
 	focus = {
 		id = HUN_the_botond
@@ -638,10 +659,10 @@ focus_tree = {
 	focus = {
 		id = HUN_develop_tanks
 		icon = GFX_goal_generic_army_tanks
-		prerequisite = { focus = HUN_mobile_corps_doctrine }
+		prerequisite = { focus = HUN_armored_warfare focus = HUN_the_botond }
 		x = 1
 		y = 1
-		relative_position_id = HUN_mobile_corps_doctrine
+		relative_position_id = HUN_the_botond
 
 		cost = 5
 
@@ -663,10 +684,10 @@ focus_tree = {
 	focus = {
 		id = HUN_assault_gun_focus
 		icon = GFX_goal_generic_army_artillery2
-		prerequisite = { focus = HUN_develop_tanks  }
+		prerequisite = { focus = HUN_armored_warfare  }
 		x = 0
 		y = 2
-		relative_position_id = HUN_develop_tanks
+		relative_position_id = HUN_armored_warfare
 
 		cost = 5
 
@@ -678,31 +699,7 @@ focus_tree = {
 			add_ideas = HUN_assault_gun_focus
 		}
 	}
-
-	focus = {
-		id = HUN_armored_warfare
-		icon = GFX_goal_generic_army_artillery
-		prerequisite = { focus = HUN_the_botond focus = HUN_develop_tanks }
-		x = 1
-		y = 1
-		relative_position_id = HUN_the_botond
-
-		cost = 5
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			add_tech_bonus = {
-				name = HUN_armored_warfare
-				bonus = 1.0
-				uses = 1
-				category = cat_1941_tanks
-			}
-		}
-	}
-
+	
 	############################
 	##### HOME DEF BRANCH ######
 	############################

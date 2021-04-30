@@ -72,8 +72,8 @@
 		completion_reward = {
 			add_tech_bonus = {
 				name = motorized_bonus
-				bonus = 3.0
-				technology = motorised_infantry
+				bonus = 1.0
+				category = motorized_equipment
 			}
 		}
 	}

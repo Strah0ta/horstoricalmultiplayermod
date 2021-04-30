@@ -325,7 +325,7 @@ ROOT_call_all_allies_against_ENG = {
 	for_each_scope_loop = {
 		array = ROOT.allies
 		if = {
-			limit = { NOT = { OR = { original_tag = ITA original_tag = ETH } } } 
+			limit = { NOT = { OR = { original_tag = ITA original_tag = YUG original_tag = ETH } } } 
 			add_to_war = {
 				targeted_alliance = ROOT
 				enemy = ENG
@@ -1359,7 +1359,7 @@ HMP_script_balkans = {
 		}
 
 	HMP_script_china = {	
-			if = { limit = { JAP = { has_country_flag = MAN_GETS_CHINA }}  every_state = { limit = { is_core_of = CHI NOT = { state = 498 }} MAN = {	transfer_state = PREV	} } 	SWE = { transfer_state = 498 } MAN = { transfer_state = 498 }    }
+			if = { limit = { JAP = { has_country_flag = MAN_GETS_CHINA }}  every_state = { limit = { is_core_of = CHI NOT = { state = 498 }} MAN = {	transfer_state = PREV	add_ideas = JAP_guide_the_zaibatsus } } 	SWE = { transfer_state = 498 } MAN = { transfer_state = 498 }    }
 			else = {  every_state = { limit = { is_core_of = CHI NOT = { state = 498 }} JAP = {	transfer_state = PREV	} } SWE = { transfer_state = 498 } JAP = { transfer_state = 498 }    }
 		
 			USA = { add_war_support = 0.15 } 
@@ -6607,6 +6607,18 @@ create_corps_commander = {
 }
 HOL ={ 
 
+create_navy_leader = {
+	name = "Conrad Helfrich"
+	gfx = "GFX_portrait_hol_conrad_helfrich"
+	traits = { seawolf superior_tactician air_controller bold spotter flight_deck_manager torpedo_bomber concealment_expert navy_career_officer }
+	id = 981
+	skill = 4
+	attack_skill = 5
+	defense_skill = 2
+	maneuvering_skill = 3
+	coordination_skill = 2
+}
+
 create_field_marshal = {
 	name = "Izaak Reijnders" #Point value: 14.5
 	gfx = "GFX_portrait_hol_izaak_reijnders"
@@ -6639,39 +6651,6 @@ create_corps_commander = {
     logistics_skill = 6
 }
 
-create_navy_leader = {
-	name = "Johannes Theodorus Furstner"
-	gfx = "GFX_portrait_hol_johannes_theodorus_furstner"
-	traits = { caustic_personality fly_swatter blockade_runner }
-	skill = 3
-	attack_skill = 2
-	defense_skill = 3
-	maneuvering_skill = 2
-	coordination_skill = 3
-}
-
-create_navy_leader = {
-	name = "Conrad Helfrich"
-	gfx = "GFX_portrait_hol_conrad_helfrich"
-	traits = { seawolf superior_tactician bold navy_career_officer }
-	id = 981
-	skill = 4
-	attack_skill = 5
-	defense_skill = 2
-	maneuvering_skill = 3
-	coordination_skill = 2
-}
-
-create_navy_leader = {
-	name = "Karel Doorman"
-	gfx = "GFX_portrait_hol_karel_doorman"
-	traits = { fleet_protector naval_lineage bold }
-	skill = 3
-	attack_skill = 3
-	defense_skill = 2
-	maneuvering_skill = 3
-	coordination_skill = 2
-}
 create_corps_commander = {
 	name = "Carl Gustav Fleischer"  #Point Value: 21
 	portrait_path = "gfx/leaders/NOR/portrait_norway_carl_gustav_flesicher.tga"
@@ -7387,6 +7366,29 @@ create_corps_commander = {
 }
 }
 AST = { 
+
+create_navy_leader = {
+	name = "Harold Farncomb"
+	gfx = "GFX_AST_harold_farncomb"
+	traits = { air_controller bold spotter flight_deck_manager torpedo_bomber concealment_expert }
+	skill = 4
+	attack_skill = 3
+	defense_skill = 3
+	maneuvering_skill = 3
+	coordination_skill = 4
+}
+
+create_navy_leader = {
+	name = "Victor Crutchley"
+	gfx = "GFX_AST_victor_crutchley"
+	traits = { ironside fleet_protector destroyer_leader ground_pounder superior_tactician concealment_expert }
+	skill = 4
+	attack_skill = 3
+	defense_skill = 2
+	maneuvering_skill = 3
+	coordination_skill = 5
+}
+
 create_field_marshal = {
 	name = "Leslie Morshead" #Point Value: 14.5 #3/23/21 -Trickster -Improv Expert -Ambusher +Jungle Rat    
 	gfx = "GFX_AST_leslie_morshead"
@@ -8478,9 +8480,8 @@ create_corps_commander = {
 HMP_startup_on_actions = {
 	every_country = { limit = { NOT =  {tag = SOV }}add_ideas = anti_strat_meme add_ideas = qol_start_eff } #adds starting eff and kills tac/strat range before danzig
 	SOV = { add_timed_idea = { days = 820 idea = SOV_motorized_focus } add_ideas = qol_start_eff_sov } #adds starting eff
-	JAP = { add_timed_idea = { days = 365 idea = SOV_motorized_focus } } MAN = { add_timed_idea = { days = 365 idea = SOV_motorized_focus } }
-	GER = { add_timed_idea = { days = 365 idea = SOV_motorized_focus } } USA = { add_timed_idea = { days = 365 idea = SOV_motorized_focus } }
-	ITA = { add_timed_idea = { idea = ITA_motorized_focus days = 365 } }  FRA = { add_timed_idea = { days = 365 idea = SOV_motorized_focus } }
+	ITA = { add_timed_idea = { idea = ITA_motorized_focus days = 365 } }  
+	every_country = { limit = { 365_sov_mot = yes }  add_timed_idea = { days = 365 idea = SOV_motorized_focus }  }
 	if = { limit = {CZE = { is_ai = yes}} CZE ={  add_ideas = ai_imiter  } } if = { limit = {YUG = { is_ai = yes}} YUG ={  add_ideas = ai_imiter  } }
 	if = { limit = {HOL = { is_ai = yes} } HOL = { add_ideas = ai_imiter add_equipment_to_stockpile = {  type = infantry_equipment_1   amount = 40000   producer = GER } }	}
 	if = { limit = { NOT = { has_start_date > 1936.01.02 }  } ENG = { add_timed_idea = { idea = ENG_motorized_focus3 days = 446 } } }

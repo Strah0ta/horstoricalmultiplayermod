@@ -42,7 +42,7 @@
 		id = AST_royal_australian_artillery
 		icon = GFX_goal_generic_army_artillery2
 		prerequisite = { focus = AST_additional_militia_training }
-		x = -1
+		x = 0
 		y = 1
 		relative_position_id = AST_additional_militia_training
 
@@ -62,10 +62,10 @@
 	focus = {
 		id = AST_promote_reservists
 		icon = GFX_goal_generic_army_doctrines
-		prerequisite = { focus = AST_additional_militia_training }
-		x = 1
+		prerequisite = { focus = AST_hmas_assault }
+		x = 0
 		y = 1
-		relative_position_id = AST_additional_militia_training
+		relative_position_id = AST_hmas_assault
 
 		cost = 5
 
@@ -84,10 +84,10 @@
 	focus = {
 		id = AST_daimler_dingo
 		icon = GFX_goal_generic_army_motorized
-		prerequisite = { focus = AST_royal_australian_artillery }
+		prerequisite = { focus = AST_hmas_assault }
 		x = -2
-		y = 2
-		relative_position_id = AST_additional_militia_training
+		y = 1
+		relative_position_id = AST_hmas_assault
 
 		cost = 5
 
@@ -97,6 +97,7 @@
 			add_tech_bonus = {
 				name = motorized_bonus
 				bonus = 1.00
+				uses = 2
 				category = motorized_equipment
 			}
 		}
@@ -105,7 +106,7 @@
 	focus = {
 		id = AST_hmas_assault
 		icon = GFX_goal_generic_army_doctrines
-		prerequisite = { focus = AST_royal_australian_artillery focus = AST_promote_reservists }
+		prerequisite = { focus = AST_royal_australian_artillery  focus = AST_fund_owen_gun_research focus = AST_sentinel_tank_project }
 		x = 0
 		y = 2
 		relative_position_id = AST_additional_militia_training
@@ -132,10 +133,10 @@
 	focus = {
 		id = AST_specialize_equipment
 		icon = GFX_goal_generic_army_artillery
-		prerequisite = { focus = AST_promote_reservists }
+		prerequisite = { focus = AST_hmas_assault }
 		x = 2
-		y = 2
-		relative_position_id = AST_additional_militia_training
+		y = 1
+		relative_position_id = AST_hmas_assault
 
 		cost = 5
 
@@ -153,10 +154,10 @@
 	focus = {
 		id = AST_australian_womens_army_service
 		icon = GFX_goal_generic_allies_build_infantry
-		prerequisite = { focus = AST_hmas_assault }
-		x = -1
-		y = 3
-		relative_position_id = AST_additional_militia_training
+		prerequisite = { focus = AST_introduce_unconventional_warfare }
+		x = 1
+		y = 1
+		relative_position_id = AST_introduce_unconventional_warfare
 
 		cost = 5
 
@@ -170,10 +171,10 @@
 	focus = {
 		id = AST_australian_army_catering_corps
 		icon = GFX_goal_generic_consumer_goods
-		prerequisite = { focus = AST_hmas_assault }
+		prerequisite = { focus = AST_daimler_dingo }
 		x = 0
-		y = 4
-		relative_position_id = AST_additional_militia_training
+		y = 1
+		relative_position_id = AST_daimler_dingo
 
 		cost = 5
 
@@ -196,9 +197,9 @@
 	focus = {
 		id = AST_fund_owen_gun_research
 		icon = GFX_goal_generic_small_arms
-		prerequisite = { focus = AST_hmas_assault }
-		x = 1
-		y = 3
+		prerequisite = { focus = AST_additional_militia_training }
+		x = 2
+		y = 1
 		relative_position_id = AST_additional_militia_training
 		
 		cost = 5
@@ -217,9 +218,9 @@
 	focus = {
 		id = AST_sentinel_tank_project
 		icon = GFX_goal_generic_army_tanks
-		prerequisite = { focus = AST_daimler_dingo }
+		prerequisite = { focus = AST_additional_militia_training }
 		x = -2
-		y = 4
+		y = 1
 		relative_position_id = AST_additional_militia_training
 
 		cost = 5
@@ -247,11 +248,10 @@
 	focus = {
 		id = AST_airborne_defence
 		icon = GFX_goal_generic_special_forces
-		prerequisite = { focus = AST_specialize_equipment }
-		prerequisite = { focus = AST_volunteer_air_observers_corps }
-		x = 2
-		y = 4
-		relative_position_id = AST_additional_militia_training
+		prerequisite = { focus = AST_introduce_unconventional_warfare }
+		x = 0
+		y = 2
+		relative_position_id = AST_introduce_unconventional_warfare
 
 		cost = 5
 
@@ -270,10 +270,10 @@
 	focus = {
 		id = AST_introduce_unconventional_warfare
 		icon = GFX_goal_generic_army_doctrines
-		prerequisite = { focus = AST_sentinel_tank_project focus = AST_airborne_defence }
+		prerequisite = { focus = AST_promote_reservists  }
 		x = 0
-		y = 5
-		relative_position_id = AST_additional_militia_training
+		y = 1
+		relative_position_id = AST_promote_reservists
 
 		cost = 5
 
@@ -293,8 +293,8 @@
 		icon = GFX_goal_generic_amphibious_assault
 		prerequisite = { focus = AST_introduce_unconventional_warfare }
 		x = -1
-		y = 6
-		relative_position_id = AST_additional_militia_training
+		y = 1
+		relative_position_id = AST_introduce_unconventional_warfare
 
 		cost = 5
 
@@ -319,10 +319,10 @@
 	focus = {
 		id = AST_m_special_unit
 		icon = GFX_goal_generic_special_forces
-		prerequisite = { focus = AST_introduce_unconventional_warfare }
-		x = 1
-		y = 6
-		relative_position_id = AST_additional_militia_training
+		prerequisite = { focus = AST_specialize_equipment }
+		x = 0
+		y = 1
+		relative_position_id = AST_specialize_equipment
 
 		cost = 5
 	
@@ -494,7 +494,7 @@
 		id = AST_death_from_down_under
 		icon = GFX_goal_generic_CAS
 		prerequisite = { focus = AST_volunteer_air_observers_corps }
-		x = -2
+		x = -1
 		y = 3
 		relative_position_id = AST_expand_the_raaf
 
@@ -920,7 +920,7 @@
 			520 = {
 				add_building_construction = {
 					type = infrastructure
-					level = 2
+					level = 4
 					instant_build = yes
 				}
 			}

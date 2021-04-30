@@ -1,14 +1,14 @@
 state={
 id=354
 name="Riyadh"
-manpower = 1
+manpower = 1000000
 state_category = pastoral
 history=
 {
 			owner = PER
 		add_core_of = PER
 
-victory_points = { 10545 1 }
+victory_points = { 10545 10 }
 buildings = {
 infrastructure = 5
 }

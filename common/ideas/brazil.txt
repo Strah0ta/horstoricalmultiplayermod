@@ -96,6 +96,20 @@ ideas = {
 				factor = 1
 			}
 		}
+				BRA_nero_fiuza_de_castro = {
+			ledger = army
+			picture = generic_army_south_america_3
+			
+			allowed = {
+				original_tag = BRA
+			}
+			
+			traits = { army_chief_maneuver_3 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
 
 	}
 	# MILITARY

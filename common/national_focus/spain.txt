@@ -130,11 +130,11 @@ focus_tree = {
 		focus = {
 		id = SPA_expand_conscription
 
-		prerequisite = { focus = SPA_unify_the_nationalist_front }
+		prerequisite = { focus = SPA_an_armored_corps focus = SPA_the_army_of_africa_model }
 		icon = GFX_goal_generic_axis_build_infantry
-		x = 2
-		y = 2
-		relative_position_id = SPA_unify_the_nationalist_front
+		x = -1
+		y = 1
+		relative_position_id = SPA_the_army_of_africa_model
 		cost = 5
 
 		available_if_capitulated = yes
@@ -372,13 +372,19 @@ focus_tree = {
 				uses = 1
 				category = motorized_equipment
 			}
+			add_tech_bonus = {
+				name = SPA_equipment_modernization
+				bonus = 1
+				uses = 1
+				category = motorized_equipment
+			}		
 		}
 	}
 
 	focus = {
 		id = SPA_equipment_modernization
 
-		prerequisite = { focus = SPA_the_national_and_popular_army_of_spain }
+		prerequisite = { focus = SPA_the_national_and_popular_army_of_spain  focus = SPA_the_corpo_truppe_volontarie }
 		
 		icon = GFX_goal_generic_small_arms
 		x = 1
@@ -650,33 +656,15 @@ focus_tree = {
 		}
 	}
 
-	focus = {
-		id = SPA_obtain_training_staff
-
-		prerequisite = { focus = SPA_unify_the_nationalist_front }
-		
-		icon = GFX_focus_generic_military_academy
-		x = -6
-		y = 1
-		relative_position_id = SPA_unify_the_nationalist_front
-		cost = 5
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_ideas = SPA_foreign_training_staff 
-	}
-	}
 	
 		focus = {
 		id = SPA_the_corpo_truppe_volontarie
-
-		prerequisite = { focus = SPA_obtain_training_staff }
+		prerequisite = { focus = SPA_unify_the_nationalist_front }
 		
 		icon = GFX_focus_befriend_italy
-		x = 0
+		x = 7
 		y = 1
-		relative_position_id = SPA_obtain_training_staff
+		relative_position_id = SPA_unify_the_nationalist_front
 		cost = 5
 
 		available_if_capitulated = yes

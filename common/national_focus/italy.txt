@@ -551,12 +551,19 @@ date > 1941.6.1
 				bonus = 1.0
 				uses = 2
 				category = land_doctrine
-			}			add_tech_bonus = {
+			}	
+			add_tech_bonus = {
 				name = motorized_bonus
 				bonus = 3
 				uses = 1
 				category = motorized_equipment
 			}
+			add_tech_bonus = {
+				name = motorized_bonus
+				bonus = 1
+				uses = 1
+				category = motorized_equipment
+			}			
 		}
 	}
 	
@@ -978,7 +985,7 @@ date > 1941.6.1
 		y = 1
 		relative_position_id = ITA_victoryinETH
 		cost = 5
-
+		available = { date > 1937.9.1 }
 		completion_reward = {
 		add_state_claim = 102
 		add_state_claim = 103

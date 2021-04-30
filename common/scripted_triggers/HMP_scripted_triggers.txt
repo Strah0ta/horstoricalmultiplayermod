@@ -7,6 +7,39 @@ AND = { ENG = { controls_state = 116 } SOV = { controls_state = 137 } }
 }
 }
 
+365_sov_mot = { OR = { tag = FRA tag = NOR tag = CAN tag = SAF tag = RAJ tag = NZL tag = AST  tag = FIN tag = BRA tag = GER tag = HUN tag = ROM tag = BUL tag = HOL  tag = MAN tag = JAP tag = USA  }}
+
+was_sent_expeditionaries = {
+OR = { 
+received_expeditionary_forces = { sender = GER value > 0 } 
+received_expeditionary_forces = { sender = ITA value > 0 } 
+received_expeditionary_forces = { sender = SPR value > 0 } 
+received_expeditionary_forces = { sender = ROM value > 0 } 
+received_expeditionary_forces = { sender = YUG value > 0 } 
+received_expeditionary_forces = { sender = CZE value > 0 } 
+received_expeditionary_forces = { sender = HUN value > 0 } 
+received_expeditionary_forces = { sender = BUL value > 0 }
+ received_expeditionary_forces = { sender = ALB value > 0 } 
+ received_expeditionary_forces = { sender = EFR value > 0 } 
+ received_expeditionary_forces = { sender = ETH value > 0 } 
+ received_expeditionary_forces = { sender = FIN value > 0 } 
+  received_expeditionary_forces = { sender = JAP value > 0 } 
+ received_expeditionary_forces = { sender = MAN value > 0 } 
+ received_expeditionary_forces = { sender = ENG value > 0 } 
+received_expeditionary_forces = { sender = USA value > 0 } 
+received_expeditionary_forces = { sender = FRA value > 0 } 
+received_expeditionary_forces = { sender = CAN value > 0 } 
+received_expeditionary_forces = { sender = BRA value > 0 } 
+received_expeditionary_forces = { sender = SAF value > 0 } 
+received_expeditionary_forces = { sender = HOL value > 0 } 
+received_expeditionary_forces = { sender = NOR value > 0 }
+ received_expeditionary_forces = { sender = RAJ value > 0 } 
+ received_expeditionary_forces = { sender = AST value > 0 } 
+ received_expeditionary_forces = { sender = NZL value > 0 } 
+ }
+}
+
+
 uk_needs_help = {  
 NOT = { ENG = { 
 	has_full_control_of_state = 331 has_full_control_of_state = 345 has_full_control_of_state = 49 has_full_control_of_state = 349 has_full_control_of_state = 309 has_full_control_of_state = 151 has_full_control_of_state = 38 has_full_control_of_state = 127 has_full_control_of_state = 123 has_full_control_of_state = 125 has_full_control_of_state = 126 has_full_control_of_state = 338 has_full_control_of_state = 119 has_full_control_of_state = 133 has_full_control_of_state = 121 has_full_control_of_state = 136  has_full_control_of_state = 311

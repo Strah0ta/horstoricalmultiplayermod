@@ -1,7 +1,7 @@
 state={
 id=552
 name="Eastern Province"
-manpower = 1
+manpower = 310000
 state_category = wasteland
 history ={ 			owner = PER
 	buildings = { 
