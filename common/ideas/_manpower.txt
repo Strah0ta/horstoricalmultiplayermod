@@ -206,7 +206,7 @@ ideas = {
 						has_completed_focus = CAN_compromise_with_quebec
 									
 				}
-			NOT = { OR = { original_tag = RAJ original_tag = FIN } }
+			NOT = { OR = { original_tag = RAJ original_tag = FIN is_ai = yes } }
 				
 				if = {
 					limit = {
@@ -256,7 +256,7 @@ ideas = {
 						has_completed_focus = CAN_compromise_with_quebec
 					
 				}
-			NOT = { OR = { original_tag = RAJ original_tag = FIN } }
+			NOT = { OR = { original_tag = RAJ original_tag = FIN is_ai = yes } }
 
 				if = {
 					limit = {
