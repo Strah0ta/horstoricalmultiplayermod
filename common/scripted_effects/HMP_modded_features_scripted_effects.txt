@@ -9220,8 +9220,8 @@ GER = { transfer_state = 331 #Dutch Central Cordillera
 
 arabia_front = {
 hidden_effect = { 
-if = { limit = { country_exists = ALB } ALB = { delete_unit_template_and_units = { division_template = "Free Arabian Legion CONVERT TO AVOID DELETION" } transfer_state = 274 transfer_state  = 506 transfer_state = 552 add_state_core = 274 add_state_core = 552 add_state_core = 506 load_oob = "ITA_SAU_SPAWN" load_oob = "ITA_SAU_SPAWN" load_oob = "ITA_SAU_SPAWN" load_oob = "ITA_SAU_SPAWN" load_oob = "ITA_SAU_SPAWN" load_oob = "ITA_SAU_SPAWN" load_oob = "ITA_SAU_SPAWN" load_oob = "ITA_SAU_SPAWN"   }         }
-else = { ITA = { delete_unit_template_and_units = { division_template = "Free Arabian Legion CONVERT TO AVOID DELETION" } transfer_state = 274 transfer_state  = 506 transfer_state = 552 load_oob = "ITA_SAU_SPAWN_ITA" load_oob = "ITA_SAU_SPAWN_ITA" load_oob = "ITA_SAU_SPAWN_ITA" load_oob = "ITA_SAU_SPAWN_ITA" load_oob = "ITA_SAU_SPAWN_ITA" load_oob = "ITA_SAU_SPAWN_ITA" load_oob = "ITA_SAU_SPAWN_ITA" load_oob = "ITA_SAU_SPAWN_ITA"      }   }
+if = { limit = { country_exists = ALB } ALB = { delete_unit_template_and_units = { division_template = "Free Arabian Legion CONVERT TO AVOID DELETION" } transfer_state = 274 transfer_state  = 506 transfer_state = 552 add_state_core = 274 add_state_core = 552 add_state_core = 506 load_oob = "ITA_SAU_SPAWN_BIG"    }         }
+else = { ITA = { delete_unit_template_and_units = { division_template = "Free Arabian Legion CONVERT TO AVOID DELETION" } transfer_state = 274 transfer_state  = 506 transfer_state = 552 load_oob = "ITA_SAU_SPAWN_ITA_BIG" }   }
 ENG = { transfer_state = 354  transfer_state  = 332   transfer_state  = 355  }
 ITA = { set_country_flag = ARABIA_FRONT  }
 SWE = { country_event = { id = mtg_netherlands.1244 days = 1 }}

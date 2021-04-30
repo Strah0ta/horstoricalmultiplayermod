@@ -100,6 +100,22 @@ defined_text = { # Country
 }
 
 defined_text = { # Country
+	name = GetLLName
+	text = {
+		trigger = {
+		  original_tag = GER
+		}
+		localization_key = GetLLNameGer
+	}
+	text = {
+		trigger = {	
+		 original_tag = ITA
+		}
+		localization_key = GetLLNameIta
+	}
+}
+
+defined_text = { # Country
 	name = GetMANChina
 	text = {
 		trigger = {

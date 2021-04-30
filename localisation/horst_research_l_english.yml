@@ -10,6 +10,9 @@
  jaegar_tech:0 "Rangers Technology"
  ETH_CAS_equipment_3:0 "Breda Ba.201"
  PER_NEUTRAL:0 "Neutral Middle East"
+ FREENORWAY:0 "Free Norway"
+ FREEPOLAND:0 "Free Poland"
+ FREENETHERLANDS:0 "Free Netherlands"
  deep_desert_desc:0 ""
  semi_motorized_desert_warfare_details:0 "\nInfantry Brigade:\n  Defense: §R-10%§!\n  Plains 	Defense: §G+10%§!\n  Mountains Defense: §G+10%§!\n  Desert Defense: §G+10%§!\n\nAnti-Tank Brigade:\n  Defense: §R-10%§!\n  Plains Defense: §G+10%§!\n  Mountains Defense: §G+10%§!\n  Desert Defense: §G+10%§!\n\nArtillery Brigade:\n  Defense: §R-10%§!\n  Plains Defense: §G+10%§!\n  Mountains Defense: §G+10%§!\n  Desert Defense: §G+10%§!\n\nRocket Artillery Brigade:\n  Defense: §R-10%§!\n  Plains Defense: §G+10%§!\n  Mountains Defense: §G+10%§!\n  Desert Defense: §G+10%§!\n\nAnti-Air Brigade:\n  Defense: §R-10%§!\n  Plains Defense: §G+10%§!\n  Mountains Defense: §G+10%§!\n  Desert Defense: §G+10%§!\n           §!"
  naval_do_all_title_label:0 "DOCTRINES ARE NOT EXCLUSIVE"
@@ -87,7 +90,7 @@
  medium_tank_antiair:0 "Support Medium SPAA"
  heavy_armor_antiair:0 "Support Heavy SPAA"
  super_heavy_armor_antiair:0 "Support Super Heavy SPAA"
- modern_tank_antiair:0 "Support Modern SPAA"
+ modern_armor_antiair:0 "Support Modern SPAA" 
 
  ##LIGHT TANK STUFF##
  AST_light_tank_equipment_4:0 "Coventator Local Pattern"

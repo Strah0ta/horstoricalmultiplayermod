@@ -34,8 +34,8 @@ spriteTypes = {
    spriteType = { name = "GFX_unit_mech_rarty_icon_medium_white" textureFile = "gfx/interface/counters/divisions_small/onmap_unit_mech_rarty_icon.dds" noOfFrames = 2 }
    spriteType = { name = "GFX_unit_mech_rarty_icon_small" texturefile = "gfx/texticons/unit_mech_rarty_icon_small.tga" legacy_lazy_load = no  noOfFrames = 2 } 
    ###SUPPORT KATYUSHA
-   spriteType = {  name = "GFX_unit_motorized_rocket_sup_icon_medium"	textureFile = "gfx/interface/counters/divisions_large/unit_motorized_rocket_brigade_icon.dds" noOfFrames = 2 }
-   spriteType = {  name = "GFX_unit_motorized_rocket_sup_icon_medium_white"	 textureFile = "gfx/interface/counters/divisions_small/onmap_unit_motorized_rocket_brigade_icon.dds"  noOfFrames = 2 } 
+   spriteType = {  name = "GFX_unit_motorized_rocket_sup_icon_medium"	textureFile = "gfx/interface/counters/divisions_large/unit_motorized_rocket_brigade_sup_icon.dds" noOfFrames = 2 }
+   spriteType = {  name = "GFX_unit_motorized_rocket_sup_icon_medium_white"	 textureFile = "gfx/interface/counters/divisions_small/onmap_unit_motorized_rocket_brigade_sup_icon.dds"  noOfFrames = 2 } 
    spriteType = {  name = "GFX_unit_motorized_rocket_sup_icon_small"	texturefile = "gfx/texticons/unit_mech_rarty_icon_small.tga" legacy_lazy_load = no noOfFrames = 2  } 
    ###MECH AT
    spriteType = { name = "GFX_unit_mech_at_icon_medium"	 textureFile = "gfx/interface/counters/divisions_large/unit_mech_at_icon.dds"  noOfFrames = 2 } 

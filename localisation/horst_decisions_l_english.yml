@@ -334,4 +334,6 @@
  GER_plane_LL5:0 "Automatic Aircraft Lend-Lease"
  GER_plane_auto_LL:0 "Lend-Lease"
  GER_plane_auto_LL_desc:0 "Click on the decision below to automatically equipment from stockpile to the target nation."
- GER_plane_hun:0 "Activate automatic-aircraft lend-lease to Germany"
+ GER_plane_hun:0 "[GetLLName]"
+ GetLLNameGer:0 "Activate Automatic Lend-Lease to Italy"
+ GetLLNameIta:0 "Activate Automatic Lend-Lease to Germany" 

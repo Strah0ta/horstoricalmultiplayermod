@@ -513,7 +513,7 @@ sub_units = {
 		training_time = 90
 		weight = 1.75
 		supply_consumption = 0.1
-	}
+	} 
 	
 	modern_armor_antiair = {
 		sprite = medium_armor

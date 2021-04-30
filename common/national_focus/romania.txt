@@ -512,7 +512,42 @@ focus_tree = {
 			}
 		}
 	}
+	
+		focus = {
+		id = ROM_artillery_modernization
+		icon = GFX_goal_generic_army_artillery2
+		prerequisite = { focus = ROM_army_maneuvers }
+		x = 2
+		y = 1
+		relative_position_id = ROM_army_maneuvers
 
+		cost = 5
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = ROM_artillery_modernization
+				bonus = 0.5
+				uses = 2
+				category = artillery
+			}
+		}
+	}
+	
+	
+	focus = {
+		id = ROM_mountain_artillery
+		icon = GFX_goal_generic_production
+		prerequisite = { focus = ROM_artillery_modernization }
+		x = 0
+		y = 1
+		relative_position_id = ROM_artillery_modernization
+
+		cost = 5
+		completion_reward = {
+			custom_effect_tooltip = ROM_mountain_artillery_tech_tt
+			hidden_effect = { set_technology = { mountain_gun = 1 } }
+		}
+	}
 	focus = {		
 		id = ROM_vanatori_de_munte
 		icon = GFX_goal_generic_special_forces
@@ -549,42 +584,6 @@ focus_tree = {
 				uses = 5
 				category = cat_anti_tank
 			}
-		}
-	}
-
-	focus = {
-		id = ROM_artillery_modernization
-		icon = GFX_goal_generic_army_artillery2
-		prerequisite = { focus = ROM_army_maneuvers }
-		x = 2
-		y = 1
-		relative_position_id = ROM_army_maneuvers
-
-		cost = 5
-
-		completion_reward = {
-			add_tech_bonus = {
-				name = ROM_artillery_modernization
-				bonus = 0.5
-				uses = 2
-				category = artillery
-			}
-		}
-	}
-
-
-	focus = {
-		id = ROM_mountain_artillery
-		icon = GFX_goal_generic_production
-		prerequisite = { focus = ROM_artillery_modernization }
-		x = 0
-		y = 1
-		relative_position_id = ROM_artillery_modernization
-
-		cost = 5
-		completion_reward = {
-			custom_effect_tooltip = ROM_mountain_artillery_tech_tt
-			hidden_effect = { set_technology = { mountain_gun = 1 } }
 		}
 	}
 

@@ -55,7 +55,7 @@
 			cat_mobile_warfare
 		}
 
-		on_research_complete = { hidden_effect = { set_technology = { armored_spearhead_tech = 1 }      }  custom_effect_tooltip = "Armor Support Companies will require 20% less equipment" }
+		on_research_complete = { hidden_effect = { set_technology = { armored_spearhead_tech = 1 popup = no  }      }  custom_effect_tooltip = "Armor Support Companies will require 20% less equipment" }
 		folder = {
 			name = land_doctrine_folder
 			position = { x = 0 y = 2 }

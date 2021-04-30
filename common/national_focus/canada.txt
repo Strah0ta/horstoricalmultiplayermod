@@ -533,29 +533,6 @@ focus_tree = {
 	}
 
 	focus = {
-		id = CAN_long_branch_arsenal
-		icon = GFX_goal_generic_small_arms
-		prerequisite = { focus = CAN_red_deer_training_camp  }
-		x = -1
-		y = 1
-		relative_position_id = CAN_red_deer_training_camp
-
-		cost = 10
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_tech_bonus = {
-				name = CAN_long_branch_arsenal
-				bonus = 0.5
-				uses = 4
-				category = infantry_weapons
-				category = artillery
-			}
-		}
-	}
-
-	focus = {
 		id = CAN_independent_command
 		icon = GFX_goal_generic_army_doctrines
 		prerequisite = { focus = CAN_send_in_the_zombies }
@@ -648,84 +625,7 @@ focus_tree = {
 			}
 		}
 	}
-
-	focus = {
-		id = CAN_canadian_infantry_corps
-		icon = GFX_goal_generic_allies_build_infantry
-		prerequisite = { focus = CAN_army_modernization }
-		x = -1
-		y = 1
-		relative_position_id = CAN_army_modernization
-
-		cost = 5
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_tech_bonus = {
-				name = CAN_canadian_infantry_corps
-				bonus = 0.5
-				uses = 3
-				category = infantry_weapons
-				category = artillery
-			}
-		}
-	}
-
-	focus = {
-		id = CAN_cmp_truck
-		icon = GFX_goal_generic_army_motorized
-		prerequisite = { focus = CAN_army_modernization }
-		x = 1
-		y = 1
-		relative_position_id = CAN_army_modernization
-
-		cost = 5
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_tech_bonus = {
-				name = CAN_cmp_truck
-				ahead_reduction = 2
-				bonus = 3.0
-				uses = 1
-				category = motorized_equipment
-			}
-		}
-	}
-
-	focus = {
-		id = CAN_the_walkie_talkie
-		icon = GFX_goal_generic_radar
-		prerequisite = { focus = CAN_canadian_infantry_corps focus = CAN_cmp_truck }
-		x = 0
-		y = 2
-		relative_position_id = CAN_army_modernization 
-
-		cost = 5
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_tech_bonus = {
-				name = CAN_the_walkie_talkie
-				bonus = 1.0
-				uses = 1
-				category = electronics
-			}
-			add_tech_bonus = {
-				name = CAN_the_walkie_talkie
-				bonus = 1.0
-				uses = 1
-				technology = tech_signal_company
-				technology = tech_signal_company2
-				technology = tech_signal_company3
-				technology = tech_signal_company4
-			}
-		}
-	}
-
+	
 	focus = {
 		id = CAN_royal_regiment_of_canadian_artillery
 		icon = GFX_goal_generic_army_artillery2
@@ -782,6 +682,92 @@ focus_tree = {
 	}
 
 	focus = {
+		id = CAN_canadian_infantry_corps
+		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = { focus = CAN_army_modernization }
+		x = -1
+		y = 1
+		relative_position_id = CAN_army_modernization
+
+		cost = 5
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = CAN_canadian_infantry_corps
+				bonus = 0.5
+				uses = 3
+				category = infantry_weapons
+				category = artillery
+			}
+		}
+	}
+
+	focus = {
+		id = CAN_cmp_truck
+		icon = GFX_goal_generic_army_motorized
+		prerequisite = { focus = CAN_army_modernization }
+		x = 1
+		y = 1
+		relative_position_id = CAN_army_modernization
+
+		cost = 5
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = CAN_cmp_truck
+				ahead_reduction = 2
+				bonus = 3.0
+				uses = 1
+				category = motorized_equipment
+			}
+		}
+	}
+	
+		focus = {
+		id = CAN_the_valentine_tank
+		icon = GFX_goal_generic_army_tanks
+		prerequisite = { focus = CAN_cmp_truck }
+		x = 0
+		y = 2
+		relative_position_id = CAN_cmp_truck 
+
+		cost = 5
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = CAN_the_valentine_tank
+				ahead_reduction = 2
+				bonus = 1.0
+				uses = 1
+				technology = basic_medium_tank
+				
+			}
+			add_tech_bonus = {
+				name = CAN_the_valentine_tank
+				ahead_reduction = 1
+				bonus = 1.0
+				uses = 1
+				technology = advanced_light_tank
+				
+			}			
+			add_tech_bonus = {
+				name = CAN_the_valentine_tank
+				bonus = 1.0
+				uses = 2
+				category = cat_1941_tanks
+				category = cat_1943_tanks	
+			}
+			
+		}
+	}
+	
+	focus = {
 		id = CAN_red_deer_training_camp
 		icon = GFX_goal_generic_military_sphere
 		prerequisite = { focus = CAN_royal_regiment_of_canadian_artillery focus = CAN_the_valentine_tank }
@@ -802,6 +788,61 @@ focus_tree = {
 			}
 		}
 	}
+
+	focus = {
+		id = CAN_long_branch_arsenal
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = CAN_red_deer_training_camp  }
+		x = -1
+		y = 1
+		relative_position_id = CAN_red_deer_training_camp
+
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = CAN_long_branch_arsenal
+				bonus = 0.5
+				uses = 4
+				category = infantry_weapons
+				category = artillery
+			}
+		}
+	}
+	focus = {
+		id = CAN_the_walkie_talkie
+		icon = GFX_goal_generic_radar
+		prerequisite = { focus = CAN_canadian_infantry_corps focus = CAN_cmp_truck }
+		x = 0
+		y = 2
+		relative_position_id = CAN_army_modernization 
+
+		cost = 5
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = CAN_the_walkie_talkie
+				bonus = 1.0
+				uses = 1
+				category = electronics
+			}
+			add_tech_bonus = {
+				name = CAN_the_walkie_talkie
+				bonus = 1.0
+				uses = 1
+				technology = tech_signal_company
+				technology = tech_signal_company2
+				technology = tech_signal_company3
+				technology = tech_signal_company4
+			}
+		}
+	}
+
+
 
 	focus = {
 		id = CAN_1st_canadian_parachute_battalion
@@ -871,47 +912,6 @@ focus_tree = {
 			}
 		}
 	}
-
-	focus = {
-		id = CAN_the_valentine_tank
-		icon = GFX_goal_generic_army_tanks
-		prerequisite = { focus = CAN_cmp_truck }
-		x = 0
-		y = 2
-		relative_position_id = CAN_cmp_truck 
-
-		cost = 5
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_tech_bonus = {
-				name = CAN_the_valentine_tank
-				ahead_reduction = 2
-				bonus = 1.0
-				uses = 1
-				technology = basic_medium_tank
-				
-			}
-			add_tech_bonus = {
-				name = CAN_the_valentine_tank
-				ahead_reduction = 1
-				bonus = 1.0
-				uses = 1
-				technology = advanced_light_tank
-				
-			}			
-			add_tech_bonus = {
-				name = CAN_the_valentine_tank
-				bonus = 1.0
-				uses = 2
-				category = cat_1941_tanks
-				category = cat_1943_tanks	
-			}
-			
-		}
-	}
-
 
 	############################
 	#### GO WITH UK SECTION ####

@@ -429,7 +429,8 @@ focus_tree = {
 							amount = 300
 							producer = NOR
 						}
-						
+								set_cosmetic_tag = FREENORWAY
+
 				retire_country_leader = yes	
 				create_country_leader = {
 					name = "King Haakon VII"

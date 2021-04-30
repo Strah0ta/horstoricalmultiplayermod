@@ -478,14 +478,7 @@ focus_tree = {
 		icon = GFX_goal_generic_position_armies
 		x = 15	
 		y = 0
-		offset = {
-			x = -26
-			y = 0
-			trigger = {
-				not = { has_dlc = "Man the Guns" }
-			}
-		}
-		
+
 		cost = 5
 
 		cancel_if_invalid = yes
@@ -787,13 +780,7 @@ transfer_state = 38
 		icon = GFX_goal_generic_army_doctrines
 		x = 27
 		y = 0
-		offset = {
-			x = -26
-			y = 0
-			trigger = {
-				not = { has_dlc = "Man the Guns" }
-			}
-		}
+
 		cost = 5
 
 		cancel_if_invalid = yes

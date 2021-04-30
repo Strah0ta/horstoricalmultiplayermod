@@ -320,7 +320,7 @@ focus_tree = {
 			add_political_power = 250
 		}
 	}
-
+ 
 	focus = {
 		id = CRO_political_effort
 		icon = GFX_focus_proclaim_greater_croatia
@@ -359,6 +359,10 @@ ITA = {
 	ruling_party = fascism
         elections_allowed = no
 } 
+			add_popularity = {
+    ideology = fascism
+    popularity = 0.5
+}
 			add_political_power = 150
 		}
 	}
@@ -414,10 +418,7 @@ ITA = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_popularity = {
-    ideology = fascism
-    popularity = 0.5
-}
+		add_ideas = BUL_slavic_will
 		}
 	}
 

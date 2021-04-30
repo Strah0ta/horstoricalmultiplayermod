@@ -59,50 +59,7 @@
 		}
 	}
 
-	focus = {
-		id = AST_promote_reservists
-		icon = GFX_goal_generic_army_doctrines
-		prerequisite = { focus = AST_hmas_assault }
-		x = 0
-		y = 1
-		relative_position_id = AST_hmas_assault
-
-		cost = 5
-
-
-
-		completion_reward = {
-			add_tech_bonus = {
-				name = AST_promote_reservists
-				bonus = 1.0
-				uses = 1
-				category = land_doctrine
-			}
-		}
-	}
-
-	focus = {
-		id = AST_daimler_dingo
-		icon = GFX_goal_generic_army_motorized
-		prerequisite = { focus = AST_hmas_assault }
-		x = -2
-		y = 1
-		relative_position_id = AST_hmas_assault
-
-		cost = 5
-
-		search_filters = { FOCUS_FILTER_RESEARCH }
-
-		completion_reward = {
-			add_tech_bonus = {
-				name = motorized_bonus
-				bonus = 1.00
-				uses = 2
-				category = motorized_equipment
-			}
-		}
-	}
-
+	
 	focus = {
 		id = AST_hmas_assault
 		icon = GFX_goal_generic_army_doctrines
@@ -131,6 +88,29 @@
 	}
 
 	focus = {
+		id = AST_daimler_dingo
+		icon = GFX_goal_generic_army_motorized
+		prerequisite = { focus = AST_hmas_assault }
+		x = -2
+		y = 1
+		relative_position_id = AST_hmas_assault
+
+		cost = 5
+
+		search_filters = { FOCUS_FILTER_RESEARCH }
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = motorized_bonus
+				bonus = 1.00
+				uses = 2
+				category = motorized_equipment
+			}
+		}
+	}
+
+
+	focus = {
 		id = AST_specialize_equipment
 		icon = GFX_goal_generic_army_artillery
 		prerequisite = { focus = AST_hmas_assault }
@@ -148,23 +128,6 @@
 				category = infantry_weapons
 				category = artillery
 			}
-		}
-	}
-
-	focus = {
-		id = AST_australian_womens_army_service
-		icon = GFX_goal_generic_allies_build_infantry
-		prerequisite = { focus = AST_introduce_unconventional_warfare }
-		x = 1
-		y = 1
-		relative_position_id = AST_introduce_unconventional_warfare
-
-		cost = 5
-
-	
-
-		completion_reward = {			
-			add_ideas = AST_australian_womens_army_service
 		}
 	}
 
@@ -245,13 +208,13 @@
 		}
 	}
 
-	focus = {
-		id = AST_airborne_defence
-		icon = GFX_goal_generic_special_forces
-		prerequisite = { focus = AST_introduce_unconventional_warfare }
+focus = {
+		id = AST_promote_reservists
+		icon = GFX_goal_generic_army_doctrines
+		prerequisite = { focus = AST_hmas_assault }
 		x = 0
-		y = 2
-		relative_position_id = AST_introduce_unconventional_warfare
+		y = 1
+		relative_position_id = AST_hmas_assault
 
 		cost = 5
 
@@ -259,14 +222,14 @@
 
 		completion_reward = {
 			add_tech_bonus = {
-				name = AST_airborne_defence
-				bonus = 3.0
+				name = AST_promote_reservists
+				bonus = 1.0
 				uses = 1
-				category = para_tech
+				category = land_doctrine
 			}
 		}
 	}
-
+		
 	focus = {
 		id = AST_introduce_unconventional_warfare
 		icon = GFX_goal_generic_army_doctrines
@@ -287,6 +250,42 @@
 			}
 		}
 	}
+	focus = {
+		id = AST_airborne_defence
+		icon = GFX_goal_generic_special_forces
+		prerequisite = { focus = AST_introduce_unconventional_warfare }
+		x = 0
+		y = 2
+		relative_position_id = AST_introduce_unconventional_warfare
+
+		cost = 5
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = AST_airborne_defence
+				bonus = 3.0
+				uses = 1
+				category = para_tech
+			}
+		}
+	}
+		focus = {
+		id = AST_australian_womens_army_service
+		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = { focus = AST_introduce_unconventional_warfare }
+		x = 1
+		y = 1
+		relative_position_id = AST_introduce_unconventional_warfare
+
+		cost = 5
+
+	
+
+		completion_reward = {			
+			add_ideas = AST_australian_womens_army_service
+		}
+	}
+
 
 	focus = {
 		id = AST_z_special_unit

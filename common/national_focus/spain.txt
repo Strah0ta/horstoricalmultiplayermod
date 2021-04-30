@@ -127,22 +127,6 @@ focus_tree = {
 		}
 	}
 	
-		focus = {
-		id = SPA_expand_conscription
-
-		prerequisite = { focus = SPA_an_armored_corps focus = SPA_the_army_of_africa_model }
-		icon = GFX_goal_generic_axis_build_infantry
-		x = -1
-		y = 1
-		relative_position_id = SPA_the_army_of_africa_model
-		cost = 5
-
-		available_if_capitulated = yes
-		search_filters = {FOCUS_FILTER_MANPOWER}
-		completion_reward = {
-			add_ideas = SPA_expand_conscription
-		}
-	}
 
 	focus = {
 		id = SPA_banish_the_party_leaders
@@ -401,6 +385,22 @@ focus_tree = {
 				uses = 2
 				category = infantry_weapons
 			}
+		}
+	}
+		focus = {
+		id = SPA_expand_conscription
+
+		prerequisite = { focus = SPA_an_armored_corps focus = SPA_the_army_of_africa_model }
+		icon = GFX_goal_generic_axis_build_infantry
+		x = -1
+		y = 1
+		relative_position_id = SPA_the_army_of_africa_model
+		cost = 5
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_MANPOWER}
+		completion_reward = {
+			add_ideas = SPA_expand_conscription
 		}
 	}
 
