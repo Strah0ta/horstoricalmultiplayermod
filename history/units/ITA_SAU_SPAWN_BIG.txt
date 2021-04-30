@@ -1,5 +1,5 @@
 ﻿division_template = {
-	name = "Free Arabian Legion CONVERT TO AVOID DELETION"		# Same for "Active" and "Reserve" Infantry Divisions
+	name = "Free Arabian Legion"		# Same for "Active" and "Reserve" Infantry Divisions
 	division_names_group = IRQ_INF_01
 	regiments = {
 		camelry = { x = 0 y = 0 }
@@ -24,202 +24,202 @@
 units = {
 division= {	
 		location = 12820  # Hoeselt
-		division_template = "Free Arabian Legion CONVERT TO AVOID DELETION"
+		division_template = "Free Arabian Legion"
 		start_experience_factor = 0.3	force_equipment_variants = { infantry_equipment_1 = { owner = "ALB" } } force_equipment_variants = { artillery_equipment_2 = { owner = "ALB" } }   
 	}
 	division= {	
 		location = 12820  # Hoeselt
-		division_template = "Free Arabian Legion CONVERT TO AVOID DELETION"
+		division_template = "Free Arabian Legion"
 		start_experience_factor = 0.3 	force_equipment_variants = { infantry_equipment_1 = { owner = "ALB" } } force_equipment_variants = { artillery_equipment_2 = { owner = "ALB" } }    
 	}
 	division= {	
 		location = 12820  # Hoeselt
-		division_template = "Free Arabian Legion CONVERT TO AVOID DELETION"
+		division_template = "Free Arabian Legion"
 		start_experience_factor = 0.3 	force_equipment_variants = { infantry_equipment_1 = { owner = "ALB" } } force_equipment_variants = { artillery_equipment_2 = { owner = "ALB" } }    
 	}
 	division= {	
 		location = 12820  # Hoeselt
-		division_template = "Free Arabian Legion CONVERT TO AVOID DELETION"
+		division_template = "Free Arabian Legion"
 		start_experience_factor = 0.3 	force_equipment_variants = { infantry_equipment_1 = { owner = "ALB" } }  force_equipment_variants = { artillery_equipment_2 = { owner = "ALB" } }   
 	}
 	division= {	
 		location = 12820  # Hoeselt
-		division_template = "Free Arabian Legion CONVERT TO AVOID DELETION"
+		division_template = "Free Arabian Legion"
 		start_experience_factor = 0.3 	force_equipment_variants = { infantry_equipment_1 = { owner = "ALB" } } force_equipment_variants = { artillery_equipment_2 = { owner = "ALB" } }    
 	}
 	division= {	
 		location = 12820  # Hoeselt
-		division_template = "Free Arabian Legion CONVERT TO AVOID DELETION"
+		division_template = "Free Arabian Legion"
 		start_experience_factor = 0.3 	force_equipment_variants = { infantry_equipment_1 = { owner = "ALB" } } force_equipment_variants = { artillery_equipment_2 = { owner = "ALB" } }    
 	}
 	division= {	
 		location = 12820  # Hoeselt
-		division_template = "Free Arabian Legion CONVERT TO AVOID DELETION"
+		division_template = "Free Arabian Legion"
 		start_experience_factor = 0.3 	force_equipment_variants = { infantry_equipment_1 = { owner = "ALB" } } force_equipment_variants = { artillery_equipment_2 = { owner = "ALB" } }    
 	}
 	division= {	
 		location = 12820  # Hoeselt
-		division_template = "Free Arabian Legion CONVERT TO AVOID DELETION"
+		division_template = "Free Arabian Legion"
 		start_experience_factor = 0.3 	force_equipment_variants = { infantry_equipment_1 = { owner = "ALB" } } force_equipment_variants = { artillery_equipment_2 = { owner = "ALB" } }    
 	}
 	division= {	
 		location = 12820  # Hoeselt
-		division_template = "Free Arabian Legion CONVERT TO AVOID DELETION"
+		division_template = "Free Arabian Legion"
 		start_experience_factor = 0.3	force_equipment_variants = { infantry_equipment_1 = { owner = "ALB" } } force_equipment_variants = { artillery_equipment_2 = { owner = "ALB" } }   
 	}
 	division= {	
 		location = 12820  # Hoeselt
-		division_template = "Free Arabian Legion CONVERT TO AVOID DELETION"
+		division_template = "Free Arabian Legion"
 		start_experience_factor = 0.3 	force_equipment_variants = { infantry_equipment_1 = { owner = "ALB" } } force_equipment_variants = { artillery_equipment_2 = { owner = "ALB" } }    
 	}
 	division= {	
 		location = 12820  # Hoeselt
-		division_template = "Free Arabian Legion CONVERT TO AVOID DELETION"
+		division_template = "Free Arabian Legion"
 		start_experience_factor = 0.3 	force_equipment_variants = { infantry_equipment_1 = { owner = "ALB" } } force_equipment_variants = { artillery_equipment_2 = { owner = "ALB" } }    
 	}
 	division= {	
 		location = 12820  # Hoeselt
-		division_template = "Free Arabian Legion CONVERT TO AVOID DELETION"
+		division_template = "Free Arabian Legion"
 		start_experience_factor = 0.3 	force_equipment_variants = { infantry_equipment_1 = { owner = "ALB" } }  force_equipment_variants = { artillery_equipment_2 = { owner = "ALB" } }   
 	}
 	division= {	
 		location = 12820  # Hoeselt
-		division_template = "Free Arabian Legion CONVERT TO AVOID DELETION"
+		division_template = "Free Arabian Legion"
 		start_experience_factor = 0.3 	force_equipment_variants = { infantry_equipment_1 = { owner = "ALB" } } force_equipment_variants = { artillery_equipment_2 = { owner = "ALB" } }    
 	}
 	division= {	
 		location = 12820  # Hoeselt
-		division_template = "Free Arabian Legion CONVERT TO AVOID DELETION"
+		division_template = "Free Arabian Legion"
 		start_experience_factor = 0.3 	force_equipment_variants = { infantry_equipment_1 = { owner = "ALB" } } force_equipment_variants = { artillery_equipment_2 = { owner = "ALB" } }    
 	}
 	division= {	
 		location = 12820  # Hoeselt
-		division_template = "Free Arabian Legion CONVERT TO AVOID DELETION"
+		division_template = "Free Arabian Legion"
 		start_experience_factor = 0.3 	force_equipment_variants = { infantry_equipment_1 = { owner = "ALB" } } force_equipment_variants = { artillery_equipment_2 = { owner = "ALB" } }    
 	}
 	division= {	
 		location = 12820  # Hoeselt
-		division_template = "Free Arabian Legion CONVERT TO AVOID DELETION"
+		division_template = "Free Arabian Legion"
 		start_experience_factor = 0.3 	force_equipment_variants = { infantry_equipment_1 = { owner = "ALB" } } force_equipment_variants = { artillery_equipment_2 = { owner = "ALB" } }    
 	}
 	division= {	
 		location = 12820  # Hoeselt
-		division_template = "Free Arabian Legion CONVERT TO AVOID DELETION"
+		division_template = "Free Arabian Legion"
 		start_experience_factor = 0.3	force_equipment_variants = { infantry_equipment_1 = { owner = "ALB" } } force_equipment_variants = { artillery_equipment_2 = { owner = "ALB" } }   
 	}
 	division= {	
 		location = 12820  # Hoeselt
-		division_template = "Free Arabian Legion CONVERT TO AVOID DELETION"
+		division_template = "Free Arabian Legion"
 		start_experience_factor = 0.3 	force_equipment_variants = { infantry_equipment_1 = { owner = "ALB" } } force_equipment_variants = { artillery_equipment_2 = { owner = "ALB" } }    
 	}
 	division= {	
 		location = 12820  # Hoeselt
-		division_template = "Free Arabian Legion CONVERT TO AVOID DELETION"
+		division_template = "Free Arabian Legion"
 		start_experience_factor = 0.3 	force_equipment_variants = { infantry_equipment_1 = { owner = "ALB" } } force_equipment_variants = { artillery_equipment_2 = { owner = "ALB" } }    
 	}
 	division= {	
 		location = 12820  # Hoeselt
-		division_template = "Free Arabian Legion CONVERT TO AVOID DELETION"
+		division_template = "Free Arabian Legion"
 		start_experience_factor = 0.3 	force_equipment_variants = { infantry_equipment_1 = { owner = "ALB" } }  force_equipment_variants = { artillery_equipment_2 = { owner = "ALB" } }   
 	}
 	division= {	
 		location = 12820  # Hoeselt
-		division_template = "Free Arabian Legion CONVERT TO AVOID DELETION"
+		division_template = "Free Arabian Legion"
 		start_experience_factor = 0.3 	force_equipment_variants = { infantry_equipment_1 = { owner = "ALB" } } force_equipment_variants = { artillery_equipment_2 = { owner = "ALB" } }    
 	}
 	division= {	
 		location = 12820  # Hoeselt
-		division_template = "Free Arabian Legion CONVERT TO AVOID DELETION"
+		division_template = "Free Arabian Legion"
 		start_experience_factor = 0.3 	force_equipment_variants = { infantry_equipment_1 = { owner = "ALB" } } force_equipment_variants = { artillery_equipment_2 = { owner = "ALB" } }    
 	}
 	division= {	
 		location = 12820  # Hoeselt
-		division_template = "Free Arabian Legion CONVERT TO AVOID DELETION"
+		division_template = "Free Arabian Legion"
 		start_experience_factor = 0.3 	force_equipment_variants = { infantry_equipment_1 = { owner = "ALB" } } force_equipment_variants = { artillery_equipment_2 = { owner = "ALB" } }    
 	}
 	division= {	
 		location = 12820  # Hoeselt
-		division_template = "Free Arabian Legion CONVERT TO AVOID DELETION"
+		division_template = "Free Arabian Legion"
 		start_experience_factor = 0.3 	force_equipment_variants = { infantry_equipment_1 = { owner = "ALB" } } force_equipment_variants = { artillery_equipment_2 = { owner = "ALB" } }    
 	}
 	division= {	
 		location = 12820  # Hoeselt
-		division_template = "Free Arabian Legion CONVERT TO AVOID DELETION"
+		division_template = "Free Arabian Legion"
 		start_experience_factor = 0.3	force_equipment_variants = { infantry_equipment_1 = { owner = "ALB" } } force_equipment_variants = { artillery_equipment_2 = { owner = "ALB" } }   
 	}
 	division= {	
 		location = 12820  # Hoeselt
-		division_template = "Free Arabian Legion CONVERT TO AVOID DELETION"
+		division_template = "Free Arabian Legion"
 		start_experience_factor = 0.3 	force_equipment_variants = { infantry_equipment_1 = { owner = "ALB" } } force_equipment_variants = { artillery_equipment_2 = { owner = "ALB" } }    
 	}
 	division= {	
 		location = 12820  # Hoeselt
-		division_template = "Free Arabian Legion CONVERT TO AVOID DELETION"
+		division_template = "Free Arabian Legion"
 		start_experience_factor = 0.3 	force_equipment_variants = { infantry_equipment_1 = { owner = "ALB" } } force_equipment_variants = { artillery_equipment_2 = { owner = "ALB" } }    
 	}
 	division= {	
 		location = 12820  # Hoeselt
-		division_template = "Free Arabian Legion CONVERT TO AVOID DELETION"
+		division_template = "Free Arabian Legion"
 		start_experience_factor = 0.3 	force_equipment_variants = { infantry_equipment_1 = { owner = "ALB" } }  force_equipment_variants = { artillery_equipment_2 = { owner = "ALB" } }   
 	}
 	division= {	
 		location = 12820  # Hoeselt
-		division_template = "Free Arabian Legion CONVERT TO AVOID DELETION"
+		division_template = "Free Arabian Legion"
 		start_experience_factor = 0.3 	force_equipment_variants = { infantry_equipment_1 = { owner = "ALB" } } force_equipment_variants = { artillery_equipment_2 = { owner = "ALB" } }    
 	}
 	division= {	
 		location = 12820  # Hoeselt
-		division_template = "Free Arabian Legion CONVERT TO AVOID DELETION"
+		division_template = "Free Arabian Legion"
 		start_experience_factor = 0.3 	force_equipment_variants = { infantry_equipment_1 = { owner = "ALB" } } force_equipment_variants = { artillery_equipment_2 = { owner = "ALB" } }    
 	}
 	division= {	
 		location = 12820  # Hoeselt
-		division_template = "Free Arabian Legion CONVERT TO AVOID DELETION"
+		division_template = "Free Arabian Legion"
 		start_experience_factor = 0.3 	force_equipment_variants = { infantry_equipment_1 = { owner = "ALB" } } force_equipment_variants = { artillery_equipment_2 = { owner = "ALB" } }    
 	}
 	division= {	
 		location = 12820  # Hoeselt
-		division_template = "Free Arabian Legion CONVERT TO AVOID DELETION"
+		division_template = "Free Arabian Legion"
 		start_experience_factor = 0.3 	force_equipment_variants = { infantry_equipment_1 = { owner = "ALB" } } force_equipment_variants = { artillery_equipment_2 = { owner = "ALB" } }    
 	}
 division= {	
 		location = 12820  # Hoeselt
-		division_template = "Free Arabian Legion CONVERT TO AVOID DELETION"
+		division_template = "Free Arabian Legion"
 		start_experience_factor = 0.3	force_equipment_variants = { infantry_equipment_1 = { owner = "ALB" } } force_equipment_variants = { artillery_equipment_2 = { owner = "ALB" } }   
 	}
 	division= {	
 		location = 12820  # Hoeselt
-		division_template = "Free Arabian Legion CONVERT TO AVOID DELETION"
+		division_template = "Free Arabian Legion"
 		start_experience_factor = 0.3 	force_equipment_variants = { infantry_equipment_1 = { owner = "ALB" } } force_equipment_variants = { artillery_equipment_2 = { owner = "ALB" } }    
 	}
 	division= {	
 		location = 12820  # Hoeselt
-		division_template = "Free Arabian Legion CONVERT TO AVOID DELETION"
+		division_template = "Free Arabian Legion"
 		start_experience_factor = 0.3 	force_equipment_variants = { infantry_equipment_1 = { owner = "ALB" } } force_equipment_variants = { artillery_equipment_2 = { owner = "ALB" } }    
 	}
 	division= {	
 		location = 12820  # Hoeselt
-		division_template = "Free Arabian Legion CONVERT TO AVOID DELETION"
+		division_template = "Free Arabian Legion"
 		start_experience_factor = 0.3 	force_equipment_variants = { infantry_equipment_1 = { owner = "ALB" } }  force_equipment_variants = { artillery_equipment_2 = { owner = "ALB" } }   
 	}
 	division= {	
 		location = 12820  # Hoeselt
-		division_template = "Free Arabian Legion CONVERT TO AVOID DELETION"
+		division_template = "Free Arabian Legion"
 		start_experience_factor = 0.3 	force_equipment_variants = { infantry_equipment_1 = { owner = "ALB" } } force_equipment_variants = { artillery_equipment_2 = { owner = "ALB" } }    
 	}
 	division= {	
 		location = 12820  # Hoeselt
-		division_template = "Free Arabian Legion CONVERT TO AVOID DELETION"
+		division_template = "Free Arabian Legion"
 		start_experience_factor = 0.3 	force_equipment_variants = { infantry_equipment_1 = { owner = "ALB" } } force_equipment_variants = { artillery_equipment_2 = { owner = "ALB" } }    
 	}
 	division= {	
 		location = 12820  # Hoeselt
-		division_template = "Free Arabian Legion CONVERT TO AVOID DELETION"
+		division_template = "Free Arabian Legion"
 		start_experience_factor = 0.3 	force_equipment_variants = { infantry_equipment_1 = { owner = "ALB" } } force_equipment_variants = { artillery_equipment_2 = { owner = "ALB" } }    
 	}
 	division= {	
 		location = 12820  # Hoeselt
-		division_template = "Free Arabian Legion CONVERT TO AVOID DELETION"
+		division_template = "Free Arabian Legion"
 		start_experience_factor = 0.3 	force_equipment_variants = { infantry_equipment_1 = { owner = "ALB" } } force_equipment_variants = { artillery_equipment_2 = { owner = "ALB" } }    
 	}
 }
