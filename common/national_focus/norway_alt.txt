@@ -28,6 +28,14 @@ focus_tree = {
 				uses = 2
 				category = land_doctrine
 			}
+			add_tech_bonus = {
+				name = mech_army_bonus
+				bonus = 1
+				uses = 2
+				ahead_reduction = 2
+				technology = mechanised_infantry
+				technology = basic_medium_tank
+			}
 		}
 	}
 
@@ -78,7 +86,6 @@ focus_tree = {
 		id = nor_doctrine_effort
 		icon = GFX_goal_generic_army_doctrines
 		prerequisite = { focus = nor_army_effort }
-		prerequisite = { focus = nor_equipment_effort }
 		x = -1
 		y = 2
 		relative_position_id = nor_army_effort
@@ -110,7 +117,7 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = infantry_artillery_bonus
-				bonus = 0.5
+				bonus = 1
 				uses = 2
 				category = support_tech
 			}
@@ -221,14 +228,6 @@ focus_tree = {
 				name = mech_army_bonus
 				bonus = 1
 				uses = 2
-				ahead_reduction = 2
-				technology = mechanised_infantry
-				technology = basic_medium_tank
-			}
-			add_tech_bonus = {
-				name = mech_army_bonus
-				bonus = 1
-				uses = 2
 				category = cat_1941_tanks
 				category = cat_1943_tanks	
 			}
@@ -250,9 +249,10 @@ focus_tree = {
 			add_ideas = special_forces
 			add_tech_bonus = {
 				name = special_forces_bonus
-				bonus = 0.5
+				bonus = 1
 				uses = 2
 			category = mountaineers_tech
+			category = jaegar_tech
 			category = marine_tech
 			category = para_tech
 			}
@@ -294,10 +294,6 @@ focus_tree = {
 
 		available_if_capitulated = yes
 
-		available = {
-		   NOT = { has_capitulated = yes }
-		}
-
 		completion_reward = {
            add_offsite_building = { type = arms_factory level = 2 }
  
@@ -313,14 +309,10 @@ focus_tree = {
 		cost = 10
 		relative_position_id = nor_industrial_effort
 
-		available = {
-		   NOT = { has_capitulated = yes }
-		}
-
 		available_if_capitulated = yes
 
 		completion_reward = {
-           add_offsite_building = { type = industrial_complex level = 2 }
+           add_offsite_building = { type = arms_factory level = 2 }
  
 		}
 	}
@@ -337,12 +329,7 @@ focus_tree = {
 
 		available_if_capitulated = yes
 
-		available = {
-		   NOT = { has_capitulated = yes }
-		}
-
 		completion_reward = {
-           add_offsite_building = { type = industrial_complex level = 2 }
            add_offsite_building = { type = arms_factory level = 2 }
 		}
 	}
@@ -355,8 +342,6 @@ focus_tree = {
 		y = 1
 		relative_position_id = nor_industrial_effort
 		cost = 10
-
-		available_if_capitulated = yes
 
 		completion_reward = {
 			add_tech_bonus = {
@@ -373,7 +358,7 @@ focus_tree = {
 		icon = GFX_focus_NOR_cabinet_strength
 		x = 13
 		y = 0
-		cost = 7.14285714286
+		cost = 7
 
 		available_if_capitulated = yes
 
@@ -471,8 +456,6 @@ focus_tree = {
 		add_ideas = tot_economic_mobilisation
 		add_legitimacy = 50	
 		add_timed_idea = { idea = NOR_recover_eff days = 20 }
-		add_offsite_building = { type = arms_factory level = -4 }
-	    add_offsite_building = { type = industrial_complex level = -4 }
 			323 = {
 				add_extra_state_shared_building_slots = 40
 				add_building_construction = {
@@ -594,10 +577,11 @@ focus_tree = {
 
 		completion_reward = {
 					add_tech_bonus = {
-					       bonus = 0.5
+					       bonus = 1
 					       uses = 5
 					       category = mountaineers_tech
 	          		       category = marine_tech
+						   category = jaegar_tech
 			               category = para_tech
 					}
 					ENG = {
