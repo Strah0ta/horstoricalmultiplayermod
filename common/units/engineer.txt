@@ -55,7 +55,7 @@ sub_units = {
 		can_be_parachuted = yes
 
 		forest = {
-			defence = 0.20
+			defence = 0.15
 			movement = 0.05
 		}
 
