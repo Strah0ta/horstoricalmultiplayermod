@@ -302,7 +302,7 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				max_planning_factor = 0.1
+				max_planning = 0.05
 			}
 		}
 		
