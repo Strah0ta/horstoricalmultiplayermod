@@ -1255,6 +1255,7 @@ focus_tree = {
 		add_tech_bonus = {
 				name = "Sturmgewehr Experiments"
 				bonus = 3.0
+				ahead = 1
 				uses = 1
 				technology = advanced_infantry_weapons
 			}
