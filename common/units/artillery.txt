@@ -161,6 +161,7 @@ sub_units = {
 		categories = {
 			category_army
 			category_all_armor
+			category_armor_support_battalions
 		}
 
 		combat_width = 0
@@ -203,6 +204,7 @@ sub_units = {
 		categories = {
 			category_army
 			category_all_armor
+			category_armor_support_battalions
 		}
 		combat_width = 0
 
@@ -247,6 +249,7 @@ sub_units = {
 		categories = {
 			category_army
 			category_all_armor
+			category_armor_support_battalions
 		}
 
 		combat_width = 0
@@ -291,6 +294,7 @@ sub_units = {
 		categories = {
 			category_army
 			category_all_armor
+			category_armor_support_battalions
 		}
 
 
@@ -330,6 +334,7 @@ sub_units = {
 			armor
 			support
 			artillery
+
 		}
 		same_support_type = artillery
 
@@ -338,6 +343,7 @@ sub_units = {
 		categories = {
 			category_army
 			category_all_armor
+			category_armor_support_battalions
 		}
 		combat_width = 0
 

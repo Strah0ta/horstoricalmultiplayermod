@@ -587,7 +587,10 @@
 		category_support_battalions = {
 			soft_attack = 0.50
 		}
-				
+						category_armor_support_battalions= {
+			soft_attack = 0.20
+			hard_attack = 0.20
+        }
 		path = {
 			leads_to_tech =  forward_observers
 			research_cost_coeff = 1
@@ -786,6 +789,10 @@
 		land_reinforce_rate = 0.04
 		category_support_battalions = {
             soft_attack = 0.50
+        }
+		category_armor_support_battalions= {
+			soft_attack = 0.20
+			hard_attack = 0.20
         }
         category_recon = {
             recon = 1
