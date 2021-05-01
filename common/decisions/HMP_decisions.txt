@@ -1546,7 +1546,13 @@ create_corps_commander = {
 				custom_effect_tooltip = "We will deploy our garrisons and defense forces across the world."
 			}	
 		}		
-		
+				deploy_pacific = { 
+		icon = GFX_decision_generic_army_support
+		allowed = { tag = USA } 
+		available = { date > 1939.6.1 date < 1940.12.1 has_manpower > 160000 }
+		complete_effect = { custom_effect_tooltip = "We will deploy 160 empty 2w divisions which can be trained to our desired template." hidden_effect = { add_manpower = -160000 load_oob = "USA_pacific_inf"} }
+	}
+	
 		case_anton_player = {  
 			icon = generic_civil_support
 			allowed = {  original_tag = EFR  }

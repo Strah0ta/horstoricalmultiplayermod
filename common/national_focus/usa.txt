@@ -476,7 +476,7 @@ focus_tree = {
  	focus = {
 		id = USA_war_plans_division
 		icon = GFX_goal_generic_position_armies
-		x = 15	
+		x = 14	
 		y = 0
 
 		cost = 5
@@ -778,7 +778,7 @@ transfer_state = 38
 	focus = {
 		id = USA_war_department
 		icon = GFX_goal_generic_army_doctrines
-		x = 27
+		x = 24
 		y = 0
 
 		cost = 5
@@ -1343,7 +1343,7 @@ focus = {
 	focus = {
 		id = USA_maritime_commission
 		icon = GFX_goal_generic_production2
-		x = -3
+		x = -2
 		y = 1
 		prerequisite = { focus = USA_two_ocean_navy_act }
 		relative_position_id = USA_two_ocean_navy_act
@@ -1361,9 +1361,9 @@ focus = {
 	focus = {
 		id = USA_liberty_ships
 		icon = GFX_goal_generic_amphibious_assault
-		prerequisite = { focus = USA_maritime_commission }
-		x = -3
-		y = 2
+		x = 2
+		y = 1
+		prerequisite = { focus = USA_two_ocean_navy_act }
 		relative_position_id = USA_two_ocean_navy_act
 		cost = 5
 
@@ -1377,7 +1377,7 @@ focus = {
 	focus = {
 		id = USA_bureau_of_ships
 		icon = GFX_goal_generic_build_navy
-		x = 2
+		x = 0
 		y = 1
 		cost = 5
 
@@ -1587,7 +1587,7 @@ focus = {
 	focus = {
 		id = USA_fund_the_navy
 		icon = GFX_goal_generic_construct_naval_dockyard
-		x = 7
+		x = 5
 		y = 1
 		relative_position_id = USA_two_ocean_navy_act
 		cost = 5

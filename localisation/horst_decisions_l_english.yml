@@ -10,6 +10,7 @@
  operation_oil:0 "Secure Arabian Oilfields"
  war_bonds_cancel:0 "Cancel War Bonds"
  man_china:0 "[GetMANChina]"
+ deploy_pacific:0 "Pacific Division Deployment"
  sov_spawn_tt:0 "We have not used this decision more than twice"
  commonwealth_guns:0 "Send 5000 Infantry Equipment to [FROM.GetName]"
  commonwealth_supp:0 "Send 800 Support Equipment to [FROM.GetName]"
