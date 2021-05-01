@@ -230,9 +230,10 @@ focus_tree = {
 			add_ideas = special_forces
 			add_tech_bonus = {
 				name = special_forces_bonus
-				bonus = 0.5
+				bonus = 1
 				uses = 1
 			category = mountaineers_tech
+			category = jaegar_Tech
 			category = marine_tech
 			category = para_tech
 			}
@@ -525,10 +526,11 @@ focus_tree = {
 
 		completion_reward = {
 							add_tech_bonus = {
-							bonus = 0.5
+							bonus = 1
 							uses = 5
 					category = mountaineers_tech
 			category = marine_tech
+						category = jaegar_Tech
 			category = para_tech
 					}
 					ENG = {
