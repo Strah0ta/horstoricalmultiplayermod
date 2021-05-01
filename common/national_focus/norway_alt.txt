@@ -452,9 +452,7 @@ focus_tree = {
 		completion_reward = {
 		remove_ideas = nor_bad_debuffs
 		if = { limit = { NOT = { has_country_flag = france_is_kill }} set_country_flag = france_is_kill ENG = { add_to_faction = NOR } }
-		
 		add_ideas = tot_economic_mobilisation
-		add_legitimacy = 50	
 		add_timed_idea = { idea = NOR_recover_eff days = 20 }
 			323 = {
 				add_extra_state_shared_building_slots = 40
@@ -465,7 +463,7 @@ focus_tree = {
 				}
 				add_building_construction = {
 					type = arms_factory
-					level = 20
+					level = 14
 					instant_build = yes
 				}		
 				add_building_construction = {
