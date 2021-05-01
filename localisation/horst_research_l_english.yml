@@ -12,6 +12,7 @@
  PER_NEUTRAL:0 "Neutral Middle East"
  FREENORWAY:0 "Free Norway"
  army_entrenchment_sov:0 "Guerilla Leader"
+ category_armor_support_battalions:0 "Armor Support Companies"
  FREEPOLAND:0 "Free Poland"
  FREENETHERLANDS:0 "Free Netherlands"
  deep_desert_desc:0 ""
