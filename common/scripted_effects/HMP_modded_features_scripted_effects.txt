@@ -5392,9 +5392,9 @@ create_corps_commander = {  #ROM#
 } 
 SOV = {   
 	   create_field_marshal = {
-		name = "Boris Shaposhnikov" #Point Value: 15 #2/5/21 +Improv. Expert +Organisational Leader +Inspirational Leader +Offensive Doctrine +Organizer #4/10/21 +Ranger
+		name = "Boris Shaposhnikov" #Point Value: 15 #2/5/21 +Improv. Expert +Organisational Leader +Inspirational Leader +Offensive Doctrine +Organizer #4/10/21 +Ranger #5/2/21 -Organizer +Guerilla Fighter
         picture = "Portrait_Soviet_Boris_Shaposhnikov.dds"
-		traits = {  organizer offensive_doctrine infantry_leader ranger commando expert_delegator organizer organisational_leader inspirational_leader logistics_wizard expert_improviser  }
+		traits = {  organizer offensive_doctrine infantry_leader ranger commando expert_delegator  organisational_leader inspirational_leader logistics_wizard expert_improviser  }
 		skill = 7
     attack_skill = 3
     defense_skill = 4
@@ -9260,6 +9260,7 @@ transfer_state = 458
 transfer_state = 1 
 } #Italian claims, includes territory from Tunisia+Corsica+South Eastern France that was occupied in 1942
 EFR = { 
+set_country_flag = vichy_france_established
 add_to_war = {	targeted_alliance = GER	enemy = ENG	}
 add_research_slot = 1
 add_equipment_to_stockpile = {
