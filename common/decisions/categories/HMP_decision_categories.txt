@@ -26,9 +26,11 @@ visible = { NOT = { has_country_flag = hide_hmp_templates  }  }
 }
 HMP_ll_soviets_send = {
 	allowed = {	normally_played_allies = yes }
+	visible = { NOT = { has_war_with = SOV }}
 }
 HMP_ll_soviets_receive = {
 	  allowed = {	original_tag = SOV	 }
+	  	visible = { NOT = { has_war_with = ENG }}
 }
 
 JAP_interservice_rivalry = {
