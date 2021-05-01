@@ -188,6 +188,8 @@ NDefines.NProduction.CONVOY_MAX_NAV_FACTORIES_PER_LINE = 300         -- WAS 15, 
 NDefines.NProduction.DEFAULT_MAX_NAV_FACTORIES_PER_LINE = 300		-- WAS 10, Changed so you can have less lines of naval production
 NDefines.NProduction.ANNEX_FIELD_EQUIPMENT_RATIO = 1	-- WAS 0.25 | Annex decisions should give all troops, but incase I screwed up here is this -Thrasymachus | How much equipment from deployed divisions will be transferred on annexation
 ---------------------------------------------------------------
+--NDefines.NCountry.MIN_MAJOR_COUNTRIES = 6
+--NDefines.NCountry.MAJOR_MIN_FACTORIES = 100
 NDefines.NCountry.BASE_MOBILIZATION_SPEED = 0.015						-- Base speed of manpower mobilization  #in 1/1000 of 1 %
 NDefines.NCountry.EVENT_PROCESS_OFFSET = 210000 -- WAS 20. The higher the number, the less responsive mean_time_to_happen events are, but the better the performance is. Most important mean_time_to_happen events have been converted or deleted already or have decisions to circumvent them.
 NDefines.NCountry.GIE_ESCAPING_DIVISIONS_TRANSFER_DAYS = 1 			--  WAS 30 | days to transfer escaping divisions to host nation

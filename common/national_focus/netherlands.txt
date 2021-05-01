@@ -618,6 +618,30 @@ focus_tree = {
 				uses = 2
 				category = cv_tech
 			}
+			add_tech_bonus = {
+				name = HOL_protect_the_colonies
+				bonus = 1
+				uses = 1
+				category = naval_bomber
+			}
+		}
+	}
+
+
+	focus = {
+		id = HOL_modernize_the_air_fleet
+		prerequisite = { focus = HOL_air_cover_for_the_new_fleet  }
+		icon = GFX_goal_generic_air_production
+		x = -1
+		y = 1
+		relative_position_id = HOL_air_cover_for_the_new_fleet
+		cost = 10
+		available = { always = no }
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = {
+		custom_effect_tooltip = "Disabled until I can figure out how to prevent players from exploiting this with licenses -Thrasymachus"
+			add_timed_idea = { idea = HOL_modernize_the_air_fleet days = 60 }
 		}
 	}
 

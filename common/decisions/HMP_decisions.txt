@@ -3575,7 +3575,7 @@ political_actions = {
 		icon = GFX_decision_onmap_recruit_operative
 		allowed = { normally_played_country = yes }
 		fire_only_once = no
-		cost = 500
+		cost = 250
 		complete_effect = {	
 		custom_effect_tooltip = "We will hire an additional agent for our Intelligence Agency"
 			hidden_effect = { add_operative_slot = yes }

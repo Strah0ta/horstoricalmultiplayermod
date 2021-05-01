@@ -38,7 +38,40 @@ ideas = {
 				}
 			}
 		}
+		HOL_modernize_the_air_fleet = {
+		
+			picture = generic_air_payment
 
+			allowed = {
+				original_tag = HOL
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+
+			equipment_bonus = {
+				fighter_equipment = {
+					instant = yes
+					build_cost_ic = -0.8
+				}
+				CAS_equipment = {
+					instant = yes
+					build_cost_ic = -0.8
+				}
+				nav_bomber_equipment = {
+					instant = yes
+					build_cost_ic = -0.8
+				}
+				transport_plane_equipment = {
+					instant = yes
+					build_cost_ic = -0.8
+				}
+			}
+		}
 		HOL_prepare_for_our_return = {
 
 			picture = eng_preparing_the_second_front
