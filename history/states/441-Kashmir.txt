@@ -17,12 +17,15 @@ state={
 		buildings = {
 		air_base = 4
 			infrastructure = 2
-			industrial_complex = 1
+			industrial_complex = 2
+			arms_factory = 3
 		}
 		add_core_of = RAJ
 					1936.1.2 = {
 			owner = ENG
 			buildings = {
+			industrial_complex = 1
+			arms_factory = 0
 infrastructure = 6
 }
 		}
