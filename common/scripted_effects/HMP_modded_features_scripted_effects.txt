@@ -1901,7 +1901,7 @@ create_field_marshal = {
 }
 create_field_marshal = { #HUN
 	name = "Károly Beregfy" #Point Value: 16 #2/6/21 -Trickster -Scavenger
-	portrait_path = "gfx/leaders/HUN/Portrait_hungary_karoly_beregfy.dds"
+	portrait_path = "gfx/leaders/HUN/portrait_karoly_beregfy.dds"
 	traits = { infantry_leader urban_assault_specialist ranger infantry_expert logistics_wizard thorough_planner organizer  trait_engineer }
 	skill = 7
 	attack_skill = 5
@@ -1930,10 +1930,10 @@ create_field_marshal = {
 	defense_skill = 5
 	planning_skill = 5
 	logistics_skill = 7
-}
+} 
 create_corps_commander = {
 	name = "Iván Hindy" #Point Value: 20 #2/6/21 -Ambusher -Organizer #2/14/21 -Trickster +Ranger
-	portrait_path = "gfx/leaders/HUN/Portrait_hungary_ivan_hindy.dds"
+	portrait_path = "gfx/leaders/HUN/portrait_ivan_hindy.dds"
 	traits = {  urban_assault_specialist panzer_leader panzer_expert expert_improviser ranger scavenger trait_engineer swamp_fox }
 	skill = 7
 	attack_skill = 5
@@ -1943,7 +1943,7 @@ create_corps_commander = {
 }
 create_corps_commander = {
 	name = "Géza Lakatos" #Point Value: 20 #2/6/21 -Guerilla Fighter
-	portrait_path = "gfx/leaders/HUN/Portrait_hungary_geza_lakatos.dds"
+	portrait_path = "gfx/leaders/HUN/portrait_geza_lakatos.dds"
 	traits = {  infantry_leader trickster commando camouflage_expert expert_improviser ambusher ranger }
 	skill = 7
 	attack_skill = 6
@@ -2018,7 +2018,7 @@ create_corps_Commander = { #DONE
 
 create_corps_commander = { #BOCK COPY #
     name = "Anton Pulanish" #Point Value: 20
-    picture = "gfx/leaders/CZE/Anton_Pulanish_Portrait.dds"
+    portrait_path = "gfx/leaders/CZE/Anton_Pulanish_Portrait.dds"
     traits = { harsh_leader infantry_leader infantry_expert skilled_staffer trickster expert_improviser adaptable }
     skill = 7
     attack_skill = 5
@@ -2233,7 +2233,7 @@ create_corps_commander = {
 }
 create_field_marshal = { #HUN
         name = "Károly Beregfy" #Point Value: 16 #2/6/21 -Trickster -Scavenger
-	portrait_path = "gfx/leaders/HUN/Portrait_hungary_karoly_beregfy.dds"
+	portrait_path = "gfx/leaders/HUN/portrait_karoly_beregfy.dds"
 	traits = { infantry_leader urban_assault_specialist ranger infantry_expert logistics_wizard thorough_planner organizer  trait_engineer }
 	skill = 7
 	attack_skill = 5
@@ -2265,7 +2265,7 @@ create_field_marshal = {
 }
 create_corps_commander = {
 	name = "Iván Hindy" #Point Value: 20 #2/6/21 -Ambusher -Organizer #2/14/21 -Trickster +Ranger
-	portrait_path = "gfx/leaders/HUN/Portrait_hungary_ivan_hindy.dds"
+	portrait_path = "gfx/leaders/HUN/portrait_ivan_hindy.dds"
 	traits = {  urban_assault_specialist panzer_leader panzer_expert expert_improviser ranger scavenger trait_engineer swamp_fox }
 	skill = 7
 	attack_skill = 5
@@ -2275,7 +2275,7 @@ create_corps_commander = {
 }
 create_corps_commander = {
 	name = "Géza Lakatos" #Point Value: 20 #2/6/21 -Guerilla Fighter
-	portrait_path = "gfx/leaders/HUN/Portrait_hungary_geza_lakatos.dds"
+	portrait_path = "gfx/leaders/HUN/portrait_geza_lakatos.dds"
 	traits = {  infantry_leader trickster commando camouflage_expert expert_improviser ambusher ranger }
 	skill = 7
 	attack_skill = 6
@@ -2954,7 +2954,16 @@ create_corps_commander = {
     planning_skill = 5
     logistics_skill = 5
 }
-
+create_corps_commander = {
+	name = "Sebastiano Gallina" #Point Value: 20
+	picture = "Portrait_Italy_Sebastiano_Gallina.dds"
+    traits = {  old_guard fake_skilled_staffer infantry_leader ambusher guerilla_fighter skirmisher desert_fox trickster organizer }
+    skill = 7
+    attack_skill = 3
+    defense_skill = 10
+    planning_skill = 3
+    logistics_skill = 6
+}
 create_corps_commander = {
 	name = "Angelico Carta"
 	picture = "Portrait_Italy_Angelico_Carta_01.dds"
@@ -3248,16 +3257,7 @@ create_corps_commander = {
 	planning_skill = 1
 	logistics_skill = 1
 }
-create_corps_commander = {
-	name = "Sebastiano Gallina" #Point Value: 20
-	picture = "Portrait_Italy_Sebastiano_Gallina.dds"
-    traits = {  old_guard fake_skilled_staffer infantry_leader ambusher guerilla_fighter skirmisher desert_fox trickster organizer }
-    skill = 7
-    attack_skill = 3
-    defense_skill = 10
-    planning_skill = 3
-    logistics_skill = 6
-}
+
 create_corps_commander = {
 	name = "Nino Salvatore Villa Santa"
 	picture = "portrait_Italy_Nino_Villa_Santa_Martinetti.dds"  
@@ -3857,7 +3857,7 @@ create_corps_Commander = { #DONE
 }
 create_field_marshal = { #HUN
 	name = "Károly Beregfy" #Point Value: 16 #2/6/21 -Trickster -Scavenger
-	portrait_path = "gfx/leaders/HUN/Portrait_hungary_karoly_beregfy.dds"
+	portrait_path = "gfx/leaders/HUN/portrait_karoly_beregfy.dds"
 	traits = { infantry_leader urban_assault_specialist ranger infantry_expert logistics_wizard thorough_planner organizer  trait_engineer }
 	skill = 7
 	attack_skill = 5
@@ -3889,7 +3889,7 @@ create_field_marshal = {
 }
 create_corps_commander = {
 	name = "Iván Hindy" #Point Value: 20 #2/6/21 -Ambusher -Organizer #2/14/21 -Trickster +Ranger
-	portrait_path = "gfx/leaders/HUN/Portrait_hungary_ivan_hindy.dds"
+	portrait_path = "gfx/leaders/HUN/portrait_ivan_hindy.dds"
 	traits = {  urban_assault_specialist panzer_leader panzer_expert expert_improviser ranger scavenger trait_engineer swamp_fox }
 	skill = 7
 	attack_skill = 5
@@ -3899,7 +3899,7 @@ create_corps_commander = {
 }
 create_corps_commander = {
 	name = "Géza Lakatos" #Point Value: 20 #2/6/21 -Guerilla Fighter
-	portrait_path = "gfx/leaders/HUN/Portrait_hungary_geza_lakatos.dds"
+	portrait_path = "gfx/leaders/HUN/portrait_geza_lakatos.dds"
 	traits = {  infantry_leader trickster commando camouflage_expert expert_improviser ambusher ranger }
 	skill = 7
 	attack_skill = 6
@@ -4045,7 +4045,7 @@ create_field_marshal = {
 
 create_corps_commander = { #BOCK COPY #
     name = "Anton Pulanish" #Point Value: 20
-    picture = "gfx/leaders/CZE/Anton_Pulanish_Portrait.dds"
+    portrait_path = "gfx/leaders/CZE/Anton_Pulanish_Portrait.dds"
     traits = { harsh_leader infantry_leader infantry_expert skilled_staffer trickster expert_improviser adaptable }
     skill = 7
     attack_skill = 5
@@ -4455,7 +4455,7 @@ HUN = {
 
 create_field_marshal = {
 	name = "Károly Beregfy" #Point Value: 16 #2/6/21 -Trickster -Scavenger
-	gfx = GFX_Portrait_hungary_karoly_beregfy
+	gfx = GFX_portrait_karoly_beregfy
 	traits = { infantry_leader urban_assault_specialist ranger infantry_expert logistics_wizard thorough_planner organizer  trait_engineer }
 	skill = 7
 	attack_skill = 5
@@ -4487,7 +4487,7 @@ create_field_marshal = {
 }
 create_corps_commander = {
 	name = "Iván Hindy" #Point Value: 20 #2/6/21 -Ambusher -Organizer #2/14/21 -Trickster +Ranger
-	gfx = GFX_Portrait_hungary_ivan_hindy
+	gfx = GFX_portrait_ivan_hindy
 	traits = {  urban_assault_specialist panzer_leader panzer_expert expert_improviser ranger scavenger trait_engineer swamp_fox }
 	skill = 7
 	attack_skill = 5
@@ -4497,7 +4497,7 @@ create_corps_commander = {
 }
 create_corps_commander = {
 	name = "Géza Lakatos" #Point Value: 20 #2/6/21 -Guerilla Fighter
-	gfx = GFX_Portrait_hungary_geza_lakatos
+	gfx = GFX_portrait_geza_lakatos
 	traits = {  infantry_leader trickster commando camouflage_expert expert_improviser ambusher ranger }
 	skill = 7
 	attack_skill = 6
@@ -4507,7 +4507,7 @@ create_corps_commander = {
 }
 create_corps_commander = { #BOCK COPY #
     name = "Anton Pulanish" #Point Value: 20
-    picture = "gfx/leaders/CZE/Anton_Pulanish_Portrait.dds"
+    portrait_path = "gfx/leaders/CZE/Anton_Pulanish_Portrait.dds" 
     traits = { harsh_leader infantry_leader infantry_expert skilled_staffer trickster expert_improviser adaptable }
     skill = 7
     attack_skill = 5
