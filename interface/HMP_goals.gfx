@@ -3,6 +3,10 @@ spriteTypes = {
 		name = "GFX_focus_proclaim_greater_croatia"
 		texturefile = "gfx/interface/goals/focus_proclaim_greater_croatia.dds"
 	}
+		SpriteType = {
+		name = "GFX_focus_NOR_cabinet_strength"
+		texturefile = "gfx/interface/goals/focus_NOR_cabinet_strength.dds"
+	}
 	
 	SpriteType = {
 		name = "GFX_GER_air_defence"

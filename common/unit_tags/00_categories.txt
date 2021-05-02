@@ -17,4 +17,5 @@ sub_unit_categories = {
 	category_strat_bomber
 	category_scout_plane
 	category_recon
+	category_armor_support_battalions
 }

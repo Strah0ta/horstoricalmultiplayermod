@@ -367,7 +367,7 @@ sub_units = {
 		categories = {
 			category_all_armor
 			category_army
-			category_support_battalions
+			category_armor_support_battalions
 		}
 		same_support_type = anti_air
 
@@ -410,7 +410,7 @@ sub_units = {
 		categories = {
 			category_all_armor
 			category_army
-			category_support_battalions
+			category_armor_support_battalions
 		}
 		soft_attack = -0.5
 		hard_attack = -0.5
@@ -453,7 +453,7 @@ sub_units = {
 		categories = {
 			category_all_armor
 			category_army
-			category_support_battalions
+			category_armor_support_battalions
 		}
 		soft_attack = -0.5
 		hard_attack = -0.5
@@ -493,7 +493,7 @@ sub_units = {
 		categories = {
 			category_all_armor
 			category_army
-			category_support_battalions
+			category_armor_support_battalions
 		}
 		soft_attack = -0.5
 		hard_attack = -0.5
@@ -535,7 +535,7 @@ sub_units = {
 		categories = {
 			category_all_armor
 			category_army
-			category_support_battalions
+			category_armor_support_battalions
 		}
 		soft_attack = -0.5
 		hard_attack = -0.5

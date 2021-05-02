@@ -612,6 +612,11 @@ ideas = {
 	}
 		
 	army_chief = {
+		#semyon_timoshenko = {
+		#	allowed = {	original_tag = SOV	}
+		#	traits = { army_chief_reform_2 }
+		#}
+
 		kliment_voroshilov = {
 			allowed = {	original_tag = SOV	}
 			available = { NOT = { has_war_with = GER }}
