@@ -632,9 +632,7 @@ sub_units = {
 		defense = -0.75
 		ap_attack = -0.75
 		armor_value = -0.5
-		
-		same_support_type = anti_tank
-		amphibious = { 
+				amphibious = { 
 			attack = -0.025
 		}
 		fort = { 
@@ -683,7 +681,6 @@ sub_units = {
 		defense = -0.75
 		ap_attack = -0.75
 		armor_value = -0.5
-		same_support_type = anti_tank
 		amphibious = { 
 			attack = -0.05
 		}
@@ -721,7 +718,6 @@ sub_units = {
 		defense = -0.75
 		ap_attack = -0.75
 		armor_value = -0.5
-		same_support_type = anti_tank
 		can_be_parachuted = no
 		combat_width = 0
 
@@ -762,7 +758,6 @@ sub_units = {
 		defense = -0.75
 		ap_attack = -0.75
 		armor_value = -0.5
-		same_support_type = anti_tank
 		group = support
 		can_be_parachuted = no
 		categories = {
@@ -810,7 +805,6 @@ sub_units = {
 		defense = -0.75
 		ap_attack = -0.75
 		armor_value = -0.5
-		same_support_type = anti_tank	
 		group = support
 		
 		categories = {
