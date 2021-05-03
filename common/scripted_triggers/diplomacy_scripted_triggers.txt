@@ -34,8 +34,9 @@ DIPLOMACY_GENERATE_WARGOAL_ENABLE_TRIGGER = { always = no }
 DIPLOMACY_SEND_VOLUNTEERS_ENABLE_TRIGGER  = { always = no }
 DIPLOMACY_CALL_ALLY_ENABLE_TRIGGER = { always = no } 
 DIPLOMACY_JOIN_ALLY_ENABLE_TRIGGER = { always = no } 
+DIPLOMACY_REQUEST_LICENSED_PRODUCTION_ENABLE_TRIGGER = { NOT = {FROM = {  OR = {  has_idea = SOV_motorized_focus has_idea = ITA_motorized_focus } } } }
+DIPLOMACY_MANAGE_LICENSED_PRODUCTION_EXISTING_ENABLE_TRIGGER = { NOT = {FROM = {  OR = {  has_idea = SOV_motorized_focus has_idea = ITA_motorized_focus } } } }
 DIPLOMACY_REQUEST_ACCESS_TO_LICENCE_PRODUCTION_ENABLE_TRIGGER = { 
-	NOT = {FROM = {  OR = {  has_idea = SOV_motorized_focus has_idea = ITA_motorized_focus } } }
     if = { limit = {   ROOT = {  the_axis = yes  }  }   FROM = { the_axis = yes 	}  }
     if = { limit = {   ROOT = {  normally_played_allies = yes  }  }   FROM = { OR = { normally_played_allies = yes original_tag = SOV }  }	} 
 	if = { limit = {   ROOT = { NOT = { original_tag = JAP  }  } } FROM = { NOT = { original_tag = MAN } } }

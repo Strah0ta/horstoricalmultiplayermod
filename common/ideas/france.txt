@@ -554,8 +554,7 @@ ideas = {
 			removal_cost = -1
 			targeted_modifier = {
 				tag = SOV
-				attack_bonus_against = 0.1
-				defense_bonus_against = 0.1
+				attack_bonus_against = 0.05
 			}
 		}
 		FRA_rebuild_the_military = {

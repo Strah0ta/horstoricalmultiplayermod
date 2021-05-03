@@ -18,7 +18,7 @@
 		icon = GFX_goal_generic_allies_build_infantry
 		x = 1
 		y = 0
-		cost = 10
+		cost = 5
 
 		available = { NOT = { FRA = { has_capitulated = yes }} is_ai = no }
 		
@@ -39,7 +39,7 @@
 		x = -1
 		y = 1
 		relative_position_id = efr_army_effort
-		cost = 10
+		cost = 5
 
 		available_if_capitulated = yes
 
@@ -47,7 +47,7 @@
 			add_tech_bonus = {
 				name = infantry_artillery_bonus
 				bonus = 0.5
-				uses = 1
+				uses = 2
 				category = infantry_weapons
 				category = artillery
 			}
@@ -58,16 +58,13 @@
 		id = efr_motorization_effort
 		icon = GFX_goal_generic_army_motorized
 		prerequisite = { focus = efr_army_effort }
-		bypass = { has_tech = motorised_infantry }
 		x = 1
 		y = 1
 		relative_position_id = efr_army_effort
-		cost = 10
+		cost = 5
 
 		available_if_capitulated = yes
 		
-				available = { NOT = { FRA = { has_capitulated = yes }}}
-
 		
 		completion_reward = {
 			add_tech_bonus = {
@@ -85,12 +82,9 @@
 		x = 0
 		y = 2
 		relative_position_id = efr_army_effort
-		cost = 10
+		cost = 5
 
 		available_if_capitulated = yes
-
-				available = { NOT = { FRA = { has_capitulated = yes }}}
-
 		
 		completion_reward = {
 			add_tech_bonus = {
@@ -109,19 +103,15 @@
 		x = 0
 		y = 2
 		relative_position_id = efr_equipment_effort
-		cost = 10
+		cost = 5
 
 		available_if_capitulated = yes
-
-		
-				available = { NOT = { FRA = { has_capitulated = yes }}}
-
 		
 		completion_reward = {
 			add_tech_bonus = {
 				name = infantry_artillery_bonus
 				bonus = 0.5
-				uses = 1
+				uses = 2
 				category = infantry_weapons
 				category = artillery
 			}
@@ -135,12 +125,9 @@
 		x = 0
 		y = 2
 		relative_position_id = efr_motorization_effort
-		cost = 10
+		cost = 5
 
 		available_if_capitulated = yes
-
-				available = { NOT = { FRA = { has_capitulated = yes }}}
-
 		
 		completion_reward = {
 			add_tech_bonus = {
@@ -159,12 +146,9 @@
 		x = 0
 		y = 2
 		relative_position_id = efr_doctrine_effort
-		cost = 10
+		cost = 5
 
 		available_if_capitulated = yes
-
-				available = { NOT = { FRA = { has_capitulated = yes }}}
-
 		
 		completion_reward = {
 			add_tech_bonus = {
@@ -183,19 +167,16 @@
 		x = 0
 		y = 2
 		relative_position_id = efr_equipment_effort_2
-		cost = 10
+		cost = 5
 
 		available_if_capitulated = yes
-
-		
-				available = { NOT = { FRA = { has_capitulated = yes }}}
 
 		
 		completion_reward = {
 			add_tech_bonus = {
 				name = infantry_artillery_bonus
 				bonus = 0.5
-				uses = 1
+				uses = 2
 				category = infantry_weapons
 				category = artillery
 			}
@@ -209,10 +190,7 @@
 		x = 0
 		y = 2
 		relative_position_id = efr_mechanization_effort
-		cost = 10
-
-				available = { NOT = { FRA = { controls_state = 16 }}}
-
+		cost = 5
 		 
 		completion_reward = {
 			add_tech_bonus = {

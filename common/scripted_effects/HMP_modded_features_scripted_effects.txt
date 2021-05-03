@@ -5402,24 +5402,24 @@ create_corps_commander = {  #ROM#
 } 
 SOV = {   
 	   create_field_marshal = {
-		name = "Boris Shaposhnikov" #Point Value: 15 #2/5/21 +Improv. Expert +Organisational Leader +Inspirational Leader +Offensive Doctrine +Organizer #4/10/21 +Ranger #5/2/21 -Organizer +Guerilla Fighter
+		name = "Boris Shaposhnikov" #Point Value: 15 #2/5/21 +Improv. Expert +Organisational Leader +Inspirational Leader +Offensive Doctrine +Organizer #4/10/21 +Ranger #5/2/21 -Organizer +Guerilla Fighter #5/3/21 -Ranger +Scavenger
         picture = "Portrait_Soviet_Boris_Shaposhnikov.dds"
-		traits = {  organizer offensive_doctrine infantry_leader ranger commando expert_delegator  organisational_leader inspirational_leader logistics_wizard expert_improviser  }
+		traits = {  organizer offensive_doctrine infantry_leader scavenger commando expert_delegator  organisational_leader inspirational_leader logistics_wizard expert_improviser  }
 		skill = 7
-    attack_skill = 3
-    defense_skill = 4
-    planning_skill = 5
-    logistics_skill = 10
+    attack_skill = 5
+    defense_skill = 3
+    planning_skill = 6
+    logistics_skill = 8
 			}		
 			create_field_marshal = {
 	name = "Kliment Voroshilov" #Point Value: 16 #2/5/21 -Inspirational Leader -Organizer #2/16/21 -Expert Delegator #3/24/21 +Guerilla Fighter #4/10/21 +Organizer
 		picture = "Portrait_Soviet_Kliment_Voroshilov.dds" 
 	traits = { old_guard organizer guerilla_fighter  inflexible_strategist infantry_leader defensive_doctrine ambusher unyielding_defender  }
 	skill = 7
-	attack_skill = 3
+	attack_skill = 4
 	defense_skill = 2
 	planning_skill = 8
-	logistics_skill = 9
+	logistics_skill = 8
 }
 	
 	create_field_marshal = {
@@ -5668,8 +5668,8 @@ create_corps_commander = {
 		picture = "Portrait_Soviet_Nikolai_Fyodorovich_Vatutin.dds"
 	traits = { infantry_leader trickster guerilla_fighter commando infantry_expert expert_improviser fake_skilled_staffer_sov trait_reckless }
 		skill = 7
-    attack_skill = 3
-    defense_skill = 4
+    attack_skill = 4
+    defense_skill = 3
     planning_skill = 5
     logistics_skill = 10
 }		
@@ -5679,8 +5679,8 @@ create_corps_commander = {
 		picture = "Portrait_Soviet_Kirill_Meretskov.dds"
 	traits = { infantry_leader  trickster guerilla_fighter commando infantry_expert expert_improviser fake_skilled_staffer_sov trait_reckless }
 		skill = 7
-    attack_skill = 3
-    defense_skill = 4
+    attack_skill = 4
+    defense_skill = 3
     planning_skill = 5
     logistics_skill = 10
 }

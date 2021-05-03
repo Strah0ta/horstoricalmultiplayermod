@@ -20,9 +20,20 @@ is_diplomatic_action_valid_create_faction = { always = no }
 is_diplomatic_action_valid_request_foreign_manpower = { always = no }
 is_diplomatic_action_valid_set_faction_spymaster = { always = no }
 is_diplomatic_action_valid_transfert_spymaster = { always = no }
-is_diplomatic_action_valid_askstatecontrol = { always = no }  #should be correct as askstatecontrol can be used in diplomacy_scripted_triggers, but this does not work for diplo_action_valid_triggers
-#is_diplomatic_action_valid_send_exp_force = { always = yes } #should be correct as send_exp_force can be used in diplomacy_scripted_triggers, but this does not work for diplo_action_valid_triggers
+
+#is_diplomatic_action_valid_ask_for_state_control = { always = no } #Nope
+#is_diplomatic_action_valid_askstatecontrol = { always = no }  #should be correct as askstatecontrol can be used in diplomacy_scripted_triggers, but this does not work for diplo_action_valid_triggers
+
 #is_diplomatic_action_valid_call_ally = { always = no } #should be correct as call_ally can be used in diplomacy_scripted_triggers, but this does not work for diplo_action_valid_triggers
+#is_diplomatic_action_valid_call_ally_war = { always = no } #Nope
+#is_diplomatic_action_valid_call_ally_war_entry = { always = no } #Nope
+#is_diplomatic_action_valid_call_to_war = { always = no } #Nope
+
+#is_diplomatic_action_valid_join_ally_war_entry = { always = no } #Nope
+#is_diplomatic_action_valid_join_ally_war = { always = no } #Nope
+#is_diplomatic_action_valid_join_ally = { always = no } #Nope
+
+#is_diplomatic_action_valid_send_exp_force = { always = yes } #should be correct as send_exp_force can be used in diplomacy_scripted_triggers, but this does not work for diplo_action_valid_triggers
 #is_diplomatic_action_valid_declare_war = { always = no } #will completely disable declare war and hide the button, not very useful
 #is_diplomatic_action_valid_send_volunteers = { always = no }  #should be correct as send_volunteers can be used in diplomacy_scripted_triggers, but this does not work for diplo_action_valid_triggers
 #is_diplomatic_action_valid_generate_wargoal = { always = no }  #should be correct as generate_wargoal can be used in diplomacy_scripted_triggers, but this does not work for diplo_action_valid_triggers
