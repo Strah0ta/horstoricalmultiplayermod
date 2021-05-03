@@ -614,6 +614,7 @@ sub_units = {
 		}
 
 		combat_width = 0
+		same_support_type = light_tank_destroyer_sup_gun
 
 		need = {
 			light_tank_destroyer_equipment = 20
@@ -663,6 +664,7 @@ sub_units = {
 						category_armor_support_battalions
 		}
 
+		same_support_type = light_tank_destroyer_sup_gun
 
 		combat_width = 0
 
@@ -720,6 +722,7 @@ sub_units = {
 		armor_value = -0.5
 		can_be_parachuted = no
 		combat_width = 0
+		same_support_type = light_tank_destroyer_sup_gun
 
 		need = {
 			heavy_tank_destroyer_equipment = 20
@@ -766,6 +769,7 @@ sub_units = {
 			category_army
 			category_armor_support_battalions
 		}
+		same_support_type = light_tank_destroyer_sup_gun
 
 		combat_width = 0
 
@@ -813,7 +817,7 @@ sub_units = {
 			category_army
 			category_armor_support_battalions
 		}
-
+		same_support_type = light_tank_destroyer_sup_gun
 		combat_width = 0
 
 		need = {	modern_tank_destroyer_equipment = 20	}

@@ -28,8 +28,6 @@ guiTypes = {
 		position = { x = 0 y = 0 }
 		size = { width = 270 height = 30 }
 		
-		
-		
 		Background = {
 			name = "unit_stats_list_entry_bg"
 			quadTextureSprite = "GFX_unit_stats_list_entry_bg2"
@@ -86,7 +84,7 @@ guiTypes = {
 		position = { x=0 y=0}	
 		size = { width = 1092 height = 553 }
 		moveable = yes
-		fade_time = 1
+		fade_time = 500
 		fade_type = linear
 		orientation = CENTER
 		origo = center
@@ -168,7 +166,7 @@ guiTypes = {
 				name = "regiments_grid"
 				position = { x = 144 y = 57 }
 				size = { width = 410 height = 100%% }
-				slotsize = { width = 76 height = 43 }
+				slotsize = { width = 76 height = 51 }
 				format = "UPPER_LEFT"
 			}
 		}
@@ -369,7 +367,7 @@ guiTypes = {
 		containerWindowType = {
 			name = "cost"
 			size = { width = 70 height = 29 }
-			position = { x=28533 y=5035 }
+			position = { x=285 y=505 }
 			
 			background = {
 				name = "cost_bg"
@@ -381,7 +379,7 @@ guiTypes = {
 
 		instantTextboxType = {
 			name = "experience"
-			position = { x = 273 y = -10000 }
+			position = { x = 273 y = 509 }
 			font = "hoi_18mbs"
 			maxWidth = 126
 			maxHeight = 20
@@ -478,10 +476,10 @@ guiTypes = {
 
 		instantTextboxType = {
 			name = "combat_header_label"
-			position = { x = 105 y = 196 }
+			position = { x = 145 y = 196 }
 			font = "hoi_18mbs"
 			text = "COMBAT_HEADER"
-			maxWidth = 372
+			maxWidth = 335
 			maxHeight = 20
 			format = right
 			pdx_tooltip = "DESIGNER_MAIN_COLUMN_TITLE"
@@ -542,7 +540,7 @@ guiTypes = {
 				show_position = { x = 10 y = 25 }
 				show_animation_type = decelerated
 				hide_animation_type = accelerated
-				animation_time = 000
+				animation_time = 300
 				size = { width=230 height=260 }	
 				verticalScrollbar = "right_vertical_slider"
 				margin = { top = 7 bottom = 7 right = 6 }
@@ -611,7 +609,7 @@ guiTypes = {
 				show_position = { x = 10 y = 27 }
 				show_animation_type = decelerated
 				hide_animation_type = accelerated
-				animation_time = 000
+				animation_time = 300
 				size = { width=230 height=325 }	
 				verticalScrollbar = "right_vertical_slider"
 				margin = { top = 7 bottom = 7 right = 6 }
@@ -724,7 +722,7 @@ guiTypes = {
 			position = { x=13 y=46 }
 			size = { width=512 height=447 }
 			moveable = no
-			fade_time = 1
+			fade_time = 500
 			fade_type = linear
 			show_sound = pop_up
 
@@ -808,7 +806,7 @@ guiTypes = {
 			position = { x=13 y=47 }
 			size = { width=532 height=447 }
 			moveable = no
-			fade_time = 1
+			fade_time = 500
 			fade_type = linear
 			show_sound = pop_up
 			verticalScrollbar = "right_vertical_slider"
@@ -1054,7 +1052,7 @@ guiTypes = {
 		
 		instantTextboxType = {
 			name = "cost"
-			position = { x = 85 y = -10000 }
+			position = { x = 85 y = 41 }
 			textureFile = ""
 			font = "hoi_18mbs"
 			borderSize = {x = 0 y = 0}
@@ -1099,7 +1097,7 @@ guiTypes = {
 		
 		instantTextboxType = {
 			name = "cost"
-			position = { x = 85 y = -10000 }
+			position = { x = 85 y = 41 }
 			textureFile = ""
 			font = "hoi_18mbs"
 			borderSize = {x = 0 y = 0}
@@ -1166,20 +1164,6 @@ guiTypes = {
 			quadTextureSprite ="GFX_mini_tooltip"
 			clicksound = click_default
 		}
-		
-				instantTextboxType = {
-			name = "cost"
-			position = { x = 300 y = 41 }
-			textureFile = ""
-			font = "hoi_18mbs"
-			borderSize = {x = 0 y = 0}
-			text = "Maus"
-			maxWidth = 160
-			maxHeight = 20
-			format = left
-			alwaystransparent = yes
-		}
-		
 
 		instantTextboxType = {
 			name = "name"
