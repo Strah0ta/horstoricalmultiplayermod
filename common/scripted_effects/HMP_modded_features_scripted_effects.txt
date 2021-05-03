@@ -5459,9 +5459,9 @@ create_field_marshal = {
 	traits = {  logistics_wizard thorough_planner panzer_leader panzer_expert brilliant_strategist  aggressive_assaulter   organizer    }
 	skill = 7
 	attack_skill = 6
-	defense_skill = 5
+	defense_skill = 7
 	planning_skill = 4
-	logistics_skill = 7
+	logistics_skill = 5
 }		
 create_field_marshal = {
     name = "Nikandr Chibisov"  #Point Value: 16 #3/25/21 +Combined Arms Expert +Bearer of Artillery +Scavenger
