@@ -443,28 +443,6 @@ ITA = {
 			add_ideas = CRO_croat_muslims_happy
 			}
 		}
-	
-	focus = {
-		id = YUG_modernize_the_air_force
-		icon = GFX_goal_generic_air_doctrine
-		x = 11
-		y = 0
-
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			add_tech_bonus = {
-				name = air_doc_bonus
-				bonus = 1.0
-				uses = 2
-				category = air_doctrine
-			}
-		}
-	}
 
 	############################
 	######## LAND FORCE ########
@@ -491,7 +469,28 @@ ITA = {
 			}
 		}
 	}
+	focus = {
+		id = YUG_modernize_the_air_force
+		icon = GFX_goal_generic_air_doctrine
+		prerequisite = { focus = YUG_army_modernization }
+		x = -2
+		y = 1
+		relative_position_id =  YUG_army_modernization
+		cost = 10
 
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = air_doc_bonus
+				bonus = 1.0
+				uses = 2
+				category = air_doctrine
+			}
+		}
+	}
 	focus = {
 		id = YUG_motorize_the_cavalry
 		icon = GFX_goal_generic_cavalry
@@ -500,7 +499,7 @@ ITA = {
 		y = 1
 		relative_position_id =  YUG_army_modernization
 
-		cost = 10
+		cost = 5
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -515,7 +514,7 @@ ITA = {
 				name = YUG_army_modernization
 				bonus = 1.0
 				uses = 1
-				category = motorized_equipment
+				category = cat_mechanized_equipment
 			}	}
 	}
 
@@ -545,38 +544,14 @@ ITA = {
 	}
 
 	focus = {
-		id = YUG_armored_cavalry
-		icon = GFX_goal_generic_build_tank
-		prerequisite = { focus = YUG_motorize_the_cavalry }
+		id = YUG_modern_tanks
+		icon = GFX_goal_generic_army_tanks
+				prerequisite = { focus = YUG_motorize_the_cavalry }
 		x = 0
 		y = 1
 		relative_position_id = YUG_motorize_the_cavalry
 
-		cost = 10
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			add_tech_bonus = {
-				name = YUG_armored_cavalry
-				bonus = 1.0
-				uses = 1
-				category = cat_mechanized_equipment
-			}
-		}
-	}
-
-	focus = {
-		id = YUG_modern_tanks
-		icon = GFX_goal_generic_army_tanks
-		prerequisite = { focus = YUG_armored_cavalry }
-		x = 0
-		y = 2
-		relative_position_id = YUG_motorize_the_cavalry
-
-		cost = 10
+		cost = 5
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -595,12 +570,36 @@ ITA = {
 		}
 	}
 	focus = {
-		id = YUG_tank_conversions
-		icon = GFX_goal_generic_production2
+		id = YUG_armored_cavalry
+		icon = GFX_goal_generic_build_tank
 		prerequisite = { focus = YUG_modern_tanks }
 		x = 0
+		y = 2
+		relative_position_id = YUG_motorize_the_cavalry
+
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = YUG_armored_cavalry
+				bonus = 1.0
+				uses = 1
+				category = cat_mechanized_equipment
+			}
+		}
+	}
+
+	focus = {
+		id = YUG_tank_conversions
+		icon = GFX_goal_generic_production2
+		prerequisite = { focus = YUG_armored_cavalry }
+		x = 0
 		y = 1
-		relative_position_id = YUG_modern_tanks
+		relative_position_id = YUG_armored_cavalry
 
 		cost = 5
 
