@@ -1728,11 +1728,7 @@ focus = {
 		cost = 5
 
 		completion_reward = {
-			188 = { add_claim_by = GER }
-			85 = { add_claim_by = GER } 556 = { add_claim_by = GER }
-			86 = { add_claim_by = GER }
-			553 = { add_claim_by = GER }
-			556 = { add_claim_by = GER }
+			188 = { add_claim_by = GER } 85 = { add_claim_by = GER } 556 = { add_claim_by = GER }	86 = { add_claim_by = GER }	553 = { add_claim_by = GER }
 			add_state_core = 188 transfer_state = 188 
 			add_named_threat = { threat = 3 name = GER_demand_memel_threat }
 			hidden_effect = {	country_event = { days = 1 id = germany.22 }	}	

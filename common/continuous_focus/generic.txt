@@ -53,7 +53,7 @@ continuous_focus_palette = {
 	focus = {
 		id = continuous_recruitment_drive	
 		icon = GFX_focus_recruitment_drive	
-		modifier = { weekly_manpower = 2500 mobilization_speed = 1.0	}
+		modifier = { weekly_manpower = 3000 mobilization_speed = 1.0	}
 		daily_cost = 1	
 		available_if_capitulated = yes
 	}
