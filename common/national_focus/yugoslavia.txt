@@ -561,9 +561,8 @@ ITA = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = YUG_modern_tanks
-				uses = 3
+				uses = 2
 				bonus = 1.0
-				technology = basic_medium_tank
 				category = cat_1941_tanks
 				category = cat_1943_tanks	
 				}

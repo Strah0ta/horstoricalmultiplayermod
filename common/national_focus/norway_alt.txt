@@ -31,11 +31,10 @@ focus_tree = {
 			add_tech_bonus = {
 				name = mech_army_bonus
 				bonus = 1
-				uses = 2
+				uses = 1
 				ahead_reduction = 2
 				technology = mechanised_infantry
-				technology = basic_medium_tank
-			}
+			}			
 		}
 	}
 

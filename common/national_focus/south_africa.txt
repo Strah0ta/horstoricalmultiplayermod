@@ -542,12 +542,6 @@ focus_tree = {
 
 		completion_reward = {
 			add_tech_bonus = {
-				name = "Armor Effort"
-				bonus = 1.0
-				uses = 1
-				technology =  basic_medium_tank
-			}	
-			add_tech_bonus = {
 				name = SAF_armor_effort
 				bonus = 1.0
 				uses = 2

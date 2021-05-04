@@ -143,13 +143,6 @@ add_ideas = red_airforce_resurgent
 		available_if_capitulated = yes
 
 		completion_reward = {
-					add_tech_bonus = {
-			name = med_armor_bonus
-			bonus = 1.0
-			ahead_reduction = 2
-			technology = basic_medium_tank
-			technology = improved_medium_tank			
-		}
 		add_tech_bonus = {
 			name = armor_bonus
 			bonus = 1.0

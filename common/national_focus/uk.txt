@@ -133,13 +133,6 @@ focus_tree = {
 				uses = 2
 				category = motorized_equipment
 			}
-			add_tech_bonus = {
-				name = armor_bonus
-				bonus = 1.0
-				ahead_reduction = 2
-				uses = 1
-				technology = basic_medium_tank
-			}
 		}
 	}
 	focus = {
@@ -303,7 +296,6 @@ focus_tree = {
 				name = industrial_bonus
 				bonus = 1.0
 				uses = 2
-				technology = advanced_machine_tools
 				technology = flexible_line
 				technology = assembly_line_production
 				technology = streamlined_line

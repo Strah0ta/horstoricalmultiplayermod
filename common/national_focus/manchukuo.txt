@@ -688,8 +688,7 @@ focus =  {
 		add_tech_bonus = {
 			name = CHI_chinese_panzers
 			bonus = 1.0
-			uses = 3
-			technology = basic_medium_tank
+			uses = 2
 				category = cat_1941_tanks
 				category = cat_1943_tanks	
 				}

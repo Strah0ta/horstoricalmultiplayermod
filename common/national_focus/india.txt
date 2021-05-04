@@ -504,12 +504,6 @@ focus_tree = {
 			add_tech_bonus = {
 				name = RAJ_indian_armor
 				bonus = 1.0
-				uses = 1
-				technology = basic_medium_tank
-			}
-			add_tech_bonus = {
-				name = RAJ_indian_armor
-				bonus = 1.0
 				uses = 2
 				category = cat_1941_tanks
 				category = cat_1943_tanks	

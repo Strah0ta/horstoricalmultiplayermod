@@ -212,14 +212,6 @@
 		available_if_capitulated = yes
 
 		completion_reward = {
-					add_tech_bonus = {
-				name = armor_bonus
-				ahead_reduction = 2
-				bonus = 1.0
-				uses = 1
-				technology = basic_medium_tank
-				
-			}
 			add_tech_bonus = {
 				name = armor_bonus
 				bonus = 1.0

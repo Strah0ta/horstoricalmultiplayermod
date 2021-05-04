@@ -1395,11 +1395,6 @@ add_building_construction = {
 
 
 		completion_reward = {
-				add_tech_bonus = {
-			bonus = 2.5
-			uses = 1
-			technology = basic_medium_tank
-		}
 		add_tech_bonus = {
 			bonus = 1.0
 			ahead_reduction = 1

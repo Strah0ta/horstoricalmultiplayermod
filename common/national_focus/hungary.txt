@@ -518,12 +518,6 @@ focus_tree = {
 				uses = 2
 				category = land_doctrine
 			}
-			add_tech_bonus = {
-				name = "Army Maneuvers"
-				bonus = 1.0
-				uses = 1
-				technology = basic_medium_tank
-			}	
 		}
 	}
 	############################

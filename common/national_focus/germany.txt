@@ -957,14 +957,7 @@ focus_tree = {
 		relative_position_id = GER_army_innovation
 		cost = 10
 
-		completion_reward = {
-		add_tech_bonus = {
-			name = GER_soviet_treaty
-			bonus = 1
-			ahead_reduction = 2
-			technology = basic_medium_tank
-		}
-				
+		completion_reward = {			
 		add_tech_bonus = {
 			name = GER_soviet_treaty
 			bonus = 1.0
