@@ -54,7 +54,7 @@ continuous_focus_palette = {
 		id = continuous_recruitment_drive	
 		icon = GFX_focus_recruitment_drive	
 		modifier = { weekly_manpower = 3000 mobilization_speed = 1.0	}
-		available = { NOT = { tag = EFR }}
+		available = { NOT = { AND ={  tag = EFR date < 1940.1.1 }}   }
 		daily_cost = 1	
 		available_if_capitulated = yes
 	}
