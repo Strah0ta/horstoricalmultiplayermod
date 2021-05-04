@@ -31,6 +31,7 @@ set_technology = {
 	interwar_antiair = 1
 	camelry_tech = 1	
 	gwtank = 1
+	basic_medium_tank  = 1
 	basic_light_tank = 1
 	basic_heavy_tank = 1
 	improved_light_tank = 1

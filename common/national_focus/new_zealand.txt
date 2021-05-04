@@ -601,19 +601,11 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = motorized_bonus
-				bonus = 2.00
+				bonus = 1.00
+				uses = 2
 				category = motorized_equipment
 			}
-									add_tech_bonus = {
-				name = NZL_schofield_tank
-				bonus = 3.0
-				uses = 1
-				technology = improved_light_tank
-			}
 			add_ideas = NZL_bob_semple_tank
-			custom_effect_tooltip = NZL_bob_semple_tank_tt
-			hidden_effect = { set_technology = { basic_light_tank  = 1 } }
-
 		}
 	}
 

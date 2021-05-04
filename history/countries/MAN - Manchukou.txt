@@ -11,6 +11,7 @@ set_technology = {
 	motorised_infantry = 1
 	gwtank = 1
 	basic_light_tank = 1
+	basic_medium_tank = 1
 	improved_light_tank = 1
 	improved_light_td = 1
 	improved_light_spaa = 1
