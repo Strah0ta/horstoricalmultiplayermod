@@ -1660,7 +1660,7 @@ focus = {
 		y = 1
 
 		relative_position_id = GER_jag
-		cost = 1
+		cost = 5
 
 		completion_reward = {
 		add_ideas = expanded_recruitment		
@@ -1675,7 +1675,7 @@ focus = {
 		y = 1
 
 		relative_position_id = GER_ost
-		cost = 1
+		cost = 5
 
 		completion_reward = {
 		add_ideas = expanded_recruitment2		
@@ -1683,7 +1683,7 @@ focus = {
 				name = GER_ost2
 				bonus = 3.0
 				ahead_reduction = 2
-				uses = 2
+				uses = 1
 				category = 	military_police_tech
 
 			}

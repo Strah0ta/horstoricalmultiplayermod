@@ -1,12 +1,13 @@
 ---------------------CHANGES TO SUPPORT 3 SPEED MICRO (SEE TERRAIN MOVEMENT COST CHANGES, THEY 2X HIGHER THAN VANILLA)---------------------
-NDefines.NMilitary.LAND_COMBAT_STR_DAMAGE_MODIFIER = 0.06       -- vanilla 0.05 | global damage modifier... but some equipment is returned at end of battles see : EQUIPMENT_COMBAT_LOSS_FACTOR
+NDefines.NMilitary.LAND_COMBAT_STR_DAMAGE_MODIFIER = 0.05       -- vanilla 0.05 | global damage modifier... but some equipment is returned at end of battles see : EQUIPMENT_COMBAT_LOSS_FACTOR
 NDefines.NMilitary.LAND_COMBAT_ORG_DAMAGE_MODIFIER = 0.04        -- vanilla 0.05 | global damage modifier
-NDefines.NMilitary.LAND_AIR_COMBAT_STR_DAMAGE_MODIFIER = 0.288  -- vanilla 0.04 LW 0.04 | WAS 288 on 1/30/21    Was 0.048 until Oct. 27, now its triple as ground attack is 1/6th of what it was so it doesnt look scary to people that havent realized that Horst has vanilla CAS damage ticks |air global damage modifier
+NDefines.NMilitary.LAND_AIR_COMBAT_STR_DAMAGE_MODIFIER = 0.312  -- vanilla 0.04 LW 0.04 | WAS 288 on 1/30/21    Was 0.048 until Oct. 27, now its triple as ground attack is 1/6th of what it was so it doesnt look scary to people that havent realized that Horst has vanilla CAS damage ticks |air global damage modifier
 NDefines.NMilitary.LAND_AIR_COMBAT_ORG_DAMAGE_MODIFIER = 0.144  -- vanilla 0.04 LW 0.025 w/ vanilla width| Was 0.032 until Oct. 27, now its 6x as ground attack is 1/6th of what it was so it doesnt look scary to people that havent realized that Horst has vanilla CAS damage ticks | global damage modifier
 -------------------------------------------------------------------------------------------------------------------------------------------
 NDefines.NMilitary.MAX_DIVISION_SUPPORT_HEIGHT = 5 
 NDefines.NMilitary.MAX_DIVISION_SUPPORT_WIDTH = 2
 NDefines.NMilitary.MAX_DIVISION_BRIGADE_HEIGHT = 6		-- Max height of regiments in division designer	
+NDefines.NMilitary.EQUIPMENT_COMBAT_LOSS_FACTOR = 0.84	 	       -- % of equipment lost to strength ratio in combat, so some % is returned if below 1
 
 NDefines.NMilitary.AIR_SUPPORT_BASE = 0.25                        -- vanilla 0.25 CAS bonus factor for air support moddifier for land unit in combat
 NDefines.NMilitary.UNIT_DIGIN_CAP = 3                           -- how "deep" you can dig you can dig in until hitting max bonus
@@ -15,6 +16,7 @@ NDefines.NMilitary.UNIT_DIGIN_CAP = 3                           -- how "deep" yo
 --NDefines.NMilitary.COMBAT_VALUE_STR_IMPORTANCE = 1		-- VANILLA 1      Multiplier on TotalStrength when determining the combat value of a division
 
 NDefines.NMilitary.EXPERIENCE_LOSS_FACTOR = 0.01                 -- percentage of experienced solders who die when manpower is removed
+NDefines.NMilitary.UNIT_EXPERIENCE_PER_COMBAT_HOUR = 0.00015
 NDefines.NMilitary.RIVER_CROSSING_PENALTY = -0.25                 -- small river crossing
 NDefines.NMilitary.RIVER_CROSSING_PENALTY_LARGE = -0.325           -- large river crossing
 NDefines.NMilitary.ANTI_AIR_ATTACK_TO_AMOUNT = 0.0015 				-- WAS 0.005 | Lowered because vanilla CAS shootdown rates are too high and IC inefficient, but I don't want to buff CAS or air in any other way either ~Thrasymachus | Balancing value to convert equipment stat anti_air_attack to the random % value of airplanes being hit.
