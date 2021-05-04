@@ -11,6 +11,7 @@
  ETH_CAS_equipment_3:0 "Breda Ba.201"
  PER_NEUTRAL:0 "Neutral Middle East"
  FREENORWAY:0 "Free Norway"
+ military_police_tech:0 "Military Police"
  army_entrenchment_sov:0 "Guerilla Leader"
  category_armor_support_battalions:0 "Armor Support Companies"
  FREEPOLAND:0 "Free Poland"

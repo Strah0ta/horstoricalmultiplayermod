@@ -1650,6 +1650,46 @@ focus = {
 		hidden_effect = { HMP_ger_total_mob = yes }		
 		 }
 }
+
+focus = {
+		id = GER_ost
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = GER_jag	 }
+		
+		x = 2
+		y = 1
+
+		relative_position_id = GER_jag
+		cost = 1
+
+		completion_reward = {
+		add_ideas = expanded_recruitment		
+		 }
+}
+focus = {
+		id = GER_ost2
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = GER_ost	 }
+		
+		x = 0
+		y = 1
+
+		relative_position_id = GER_ost
+		cost = 1
+
+		completion_reward = {
+		add_ideas = expanded_recruitment2		
+						add_tech_bonus = {
+				name = GER_ost2
+				bonus = 3.0
+				ahead_reduction = 2
+				uses = 2
+				category = 	military_police_tech
+
+			}
+		 }
+}
+
 focus = {
 		id = GER_ot
 		icon = GFX_GER_arbeitsinsatz
@@ -1664,7 +1704,7 @@ focus = {
 		completion_reward = {
 		every_country = { limit = { is_in_faction_with = GER }
 				add_tech_bonus = {
-				name = "Organisation Todt"
+				name = GER_ot
 				bonus = 3.0
 				ahead_reduction = 2
 				uses = 2

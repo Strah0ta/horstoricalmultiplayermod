@@ -218,7 +218,42 @@ ideas = {
 				operative_slot = 4 
 			}
 		}
+		expanded_recruitment = {
+			
+			allowed = {
+				original_tag = GER
+			}
 
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				conscription_factor = 0.1
+				army_defence_factor = -0.025
+			}
+		}
+		
+				expanded_recruitment2 = {
+			
+			allowed = {
+				original_tag = GER
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				conscription_factor = 0.1
+				army_defence_factor = -0.025
+			}
+		}
+		
 		triumphant_will = {
 			
 			allowed = {
