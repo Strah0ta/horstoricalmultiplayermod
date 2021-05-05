@@ -141,6 +141,26 @@
 5027;1984;impassable;-1;-1;-1;-1;-1;; ETH 
 
 
+3187;6052;impassable;-1;-1;-1;-1;-1;; FIN 
+3187;3133;impassable;-1;-1;-1;-1;-1;; FIN 
+3133;3030;impassable;-1;-1;-1;-1;-1;; FIN 
+3133;9181;impassable;-1;-1;-1;-1;-1;; FIN 
+9181;11046;impassable;-1;-1;-1;-1;-1;; FIN 
+9181;11156;impassable;-1;-1;-1;-1;-1;; FIN 
+6210;2998;impassable;-1;-1;-1;-1;-1;; FIN 
+6210;80;impassable;-1;-1;-1;-1;-1;; FIN 
+6210;11156;impassable;-1;-1;-1;-1;-1;; FIN 
+3185;80;impassable;-1;-1;-1;-1;-1;; FIN 
+7;80;impassable;-1;-1;-1;-1;-1;; FIN 
+7;6098;impassable;-1;-1;-1;-1;-1;; FIN 
+7;6175;impassable;-1;-1;-1;-1;-1;; FIN 
+6134;6175;impassable;-1;-1;-1;-1;-1;; FIN 
+3073;6175;impassable;-1;-1;-1;-1;-1;; FIN 
+3073;9074;impassable;-1;-1;-1;-1;-1;; FIN 
+6045;9074;impassable;-1;-1;-1;-1;-1;; FIN 
+	
+
+
 1822;7604;impassable;-1;-1;-1;-1;-1;; IRAN 
 4553;4609;impassable;-1;-1;-1;-1;-1;; IRAN 
 4553;4901;impassable;-1;-1;-1;-1;-1;; IRAN 

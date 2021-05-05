@@ -39,6 +39,7 @@ ideas = {
 			nav_bomber_equipment = {	build_cost_ic = -0.8 instant = yes	} 
 			scout_plane_equipment = {	build_cost_ic = -0.8 instant = yes	}
 			light_tank_equipment = {	build_cost_ic = -0.8 instant = yes	}
+			medium_tank_equipment = {	build_cost_ic = -0.8 instant = yes	}
 			heavy_tank_equipment = {	build_cost_ic = -0.8 instant = yes	}
 			light_tank_artillery_equipment = {	build_cost_ic = -0.8 instant = yes	}			
 			}
@@ -56,6 +57,9 @@ ideas = {
 			anti_air_equipment = { build_cost_ic = -0.875 instant = yes	}
 			artillery_equipment = {	build_cost_ic = -0.875 instant = yes	}
 			anti_tank_equipment = {	build_cost_ic = -0.875 instant = yes	}
+			light_tank_equipment = {	build_cost_ic = -0.8 instant = yes	}
+			medium_tank_equipment = {	build_cost_ic = -0.8 instant = yes	}
+			heavy_tank_equipment = {	build_cost_ic = -0.8 instant = yes	}
 			CAS_equipment = {	build_cost_ic = -0.875 instant = yes	} 
 			scout_plane_equipment = {	build_cost_ic = -0.875 instant = yes	}
 			}
@@ -68,6 +72,9 @@ ideas = {
 			equipment_bonus = {
 			motorized_equipment = {	build_cost_ic = -0.035 instant = yes	} 
 			infantry_equipment = { build_cost_ic = -0.035 instant = yes	}
+			light_tank_equipment = {	build_cost_ic = -0.035 instant = yes	}
+			medium_tank_equipment = {	build_cost_ic = -0.035 instant = yes	}
+			heavy_tank_equipment = {	build_cost_ic = -0.035 instant = yes	}
 			support_equipment = { build_cost_ic = -0.035 instant = yes	}
 			anti_air_equipment = { build_cost_ic = -0.035 instant = yes	}
 			nav_bomber_equipment = {	build_cost_ic = -0.035 instant = yes	} 
@@ -86,6 +93,9 @@ ideas = {
 			motorized_equipment = {	build_cost_ic = -0.85 instant = yes	} 
 			infantry_equipment = { build_cost_ic = -0.85 instant = yes	}
 			support_equipment = { build_cost_ic = -0.85 instant = yes	}
+			light_tank_equipment = {	build_cost_ic = -0.85 instant = yes	}
+			medium_tank_equipment = {	build_cost_ic = -0.85 instant = yes	}
+			heavy_tank_equipment = {	build_cost_ic = -0.85 instant = yes	}
 			anti_air_equipment = { build_cost_ic = -0.85 instant = yes	}
 			nav_bomber_equipment = { build_cost_ic = -0.85 instant = yes	} 
 			artillery_equipment = {	build_cost_ic = -0.85 instant = yes	}
