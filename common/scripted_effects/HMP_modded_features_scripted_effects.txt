@@ -59,8 +59,8 @@ tp_divs_out_of_norway = { every_state = { limit = { is_core_of = NOR } teleport_
 
 baltic_cores = { add_equipment_to_stockpile = { type = infantry_equipment_1 amount = 40000 producer = SWE } add_equipment_to_stockpile = { type = artillery_equipment_2 amount = 3000 producer = SWE } add_equipment_to_stockpile = { type = support_equipment_1 amount = 3000 producer = SWE } add_equipment_to_stockpile = { type = anti_tank_equipment_2 amount = 6000 producer = SWE } load_oob = "FIN_spawn" }
 share_intel_with_allies={
-		add_intel = {   target = PREV civilian_intel = 200  army_intel = 200  navy_intel = 200  airforce_intel = 200  }
-		PREV = {  add_intel = {  target = PREV civilian_intel = 200  army_intel = 200  navy_intel = 200 airforce_intel = 200  }  }
+		add_intel = {   target = PREV   army_intel = 200     }
+		PREV = {  add_intel = {  target = PREV   army_intel = 200    }  }
 }
 HMP_ger_total_mob_1 = { 
 HMP_ger_total_mob_2 = yes
