@@ -154,7 +154,7 @@ buildings = {
 		base_cost = 2750
 		icon_frame = 11
 		radar = yes
-		max_level = 6 
+		max_level = 10
 		damage_factor = 0.5
 		value = 4
 	}

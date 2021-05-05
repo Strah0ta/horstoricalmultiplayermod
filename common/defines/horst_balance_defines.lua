@@ -109,7 +109,9 @@ NDefines.NProduction.BASE_FACTORY_SPEED_MIL = 3.25				-- vanilla 4.5, changed bc
 NDefines.NProduction.CAPITULATE_STOCKPILES_RATIO = 0.01 -- How much equipment from deployed divisions will be transferred on capitulation
 NDefines.NProduction.CAPITULATE_FUEL_RATIO = 1 -- How much fuel will be transferred on capitulation
 NDefines.NProduction.LICENSE_EQUIPMENT_TECH_SPEED_PER_YEAR = 0	-- WAS 0.05, removed because penalty too high and leads to too much  competition over research MIC speed modifier for licensed equipment for each year of difference between actual and latest equipment
-
+NDefines.NBuildings.RADAR_RANGE_BASE = 20				-- Radar range base, first level radar will be this + min, best radar will be this + max
+NDefines.NBuildings.RADAR_RANGE_MIN = 50				-- Radar range (from state center to province center) in measure of map pixels. Exluding techs.
+NDefines.NBuildings.RADAR_RANGE_MAX = 400			-- Range is interpolated between building levels 1-15.
 ---------------------------------------------------------------
 NDefines.NCountry.REINFORCEMENT_MANPOWER_DELIVERY_SPEED = 30.0	-- vanilla 10 Modifier for army manpower reinforcement delivery speed (travel time)
 NDefines.NCountry.REINFORCEMENT_MANPOWER_CHUNK = 0.2            -- vanilla 0.1
