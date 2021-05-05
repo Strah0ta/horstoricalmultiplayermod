@@ -9555,7 +9555,7 @@ if = { limit = { OR = { ITA ={ controls_state  = 412} ALB ={ controls_state  = 4
 horstorical_multiplayer_vichy_france = {
 if = { limit = { has_start_date > 1936.1.1 }  FRA = { remove_resource_rights = 497 }  }
  GER = { add_to_faction = EFR }
-if = { limit = { ITA = { has_war = no }} ITA = { add_timed_idea = { idea = france_has_capped days = 45 } } ITA = { country_event = { id = italy.674 days = 45 }} }
+if = { limit = { ITA = { has_war = no }} ITA = { add_timed_idea = { idea = france_has_capped days = 60 } } SWE = { country_event = { id = italy.674 days = 30 }} }
 FRA = {  FRA_legitimacy_week_counter = yes  FRA_legitimacy_casualties_counter = yes }
 ITA = { transfer_state = 313 
 transfer_state = 577

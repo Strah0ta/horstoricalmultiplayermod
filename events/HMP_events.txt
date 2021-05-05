@@ -1378,9 +1378,29 @@ country_event = {
    
       option = {
    name = "Wait, what?"
-   if = { limit = { ITA = { has_war = no }} ITA = { activate_decision = ITA_join_the_war  }    }
+   if = { limit = { ITA = { has_war = no } date > 1940.1.1 } ITA = {country_event = { id = italy.675 days = 1 }   }    }
+   else ={ country_event = { id = italy.674 days = 30 }   }
    }
    }     
+   
+             country_event = {
+   id = italy.675
+   title = "The Continuation War"
+   desc = "With the German invasion of the Soviet Union, our time has come to strike the Soviets and reclaim our lost territories!"
+   picture = GFX_report_event_german_italian_pact
+	hidden = yes 
+   fire_only_once = no
+	is_triggered_only = yes
+   
+   
+      option = {
+   name = "Wait, what?"
+   
+   activate_decision = ITA_join_the_war
+   }
+   }   
+   
+   activate_decision = ITA_join_the_war
    
           country_event = {
    id = italy.800 #spring mud

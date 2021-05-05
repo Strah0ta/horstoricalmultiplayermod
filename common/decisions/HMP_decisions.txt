@@ -528,14 +528,8 @@ propaganda_effortsx = {
 	}
 		war_propaganda_cancel = {
 		icon = generic_industry
-		allowed = {
-			normally_played_country =yes
-		}
-		available = {
-		}
-		visible = {
-			has_decision = war_propaganda
-		}
+		allowed = {	normally_played_country =yes	}
+		visible = {	has_decision = war_propaganda	}
 		fire_only_once = no
 		cost = 0
 		complete_effect = {
@@ -1142,7 +1136,7 @@ hidden_effect = {
 	
 	
 		ITA_join_the_war = { 
-	 	available = { date > 1939.12.1 } 
+	 	available = { date > 1940.1.1 } 
 				allowed = {	original_tag = ITA }
 				fire_only_once = yes
 				cost = 0	
