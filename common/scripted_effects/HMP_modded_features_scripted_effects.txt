@@ -8791,10 +8791,9 @@ HMP_startup_on_actions = {
 	every_country = { limit = { 365_sov_mot = yes }  add_timed_idea = { days = 365 idea = SOV_motorized_focus }  }
 	if = { limit = {CZE = { is_ai = yes}} CZE ={  add_ideas = ai_imiter  } } if = { limit = {YUG = { is_ai = yes}} YUG ={  add_ideas = ai_imiter  } }
 	if = { limit = {HOL = { is_ai = yes} } HOL = { add_ideas = ai_imiter add_equipment_to_stockpile = {  type = infantry_equipment_1   amount = 40000   producer = GER } }	}
-	if = { limit = { NOT = { has_start_date > 1936.01.02 }  } ENG = { add_timed_idea = { idea = ENG_motorized_focus3 days = 446 } } }
-	if = { limit = { has_start_date > 1936.01.02 }  ENG = { add_timed_idea = { idea = ENG_motorized_focus4 days = 446 } } }
+	ENG = { add_timed_idea = { idea = SOV_motorized_focus days = 720 } } 
 	if = { limit = { NOT = { has_game_rule = { rule = HORST_SEALION option = HORST_SEALION_ON }}}   118 = { add_state_modifier = { modifier = { max_dig_in = 16 } }  }  }
-	if = { limit = { has_game_rule = { rule = HORST_SEALION option = HORST_SEALION_ON }} every_country = { country_event = { id = italy.857 days = 0 }} ENG = { add_timed_idea = { idea = ENG_motorized_focus2 days = 446 }}  }	
+	if = { limit = { has_game_rule = { rule = HORST_SEALION option = HORST_SEALION_ON }} every_country = { country_event = { id = italy.857 days = 0 }} ENG = { add_timed_idea = { idea = ENG_motorized_focus2 days = 720 }}  }	
 	if = {	limit = { has_game_rule = { rule = horst_manchukuo	option = HORST_ENABLE_MOD_MANCHUKUO	} }	MAN = { load_focus_tree = manchukuomod_focus } 	}
 	JAP  = { give_resource_rights = { receiver = GER state = 494 }	}
 	MAN  = { give_resource_rights = { receiver = JAP state = 3 } }	MAN  = { give_resource_rights = { receiver = JAP state = 328 }	} MAN  = { give_resource_rights = { receiver = JAP state = 496 }	}
