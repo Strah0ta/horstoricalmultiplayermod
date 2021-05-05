@@ -30,8 +30,8 @@ ideologies = {
 		
 		modifiers = {
 			civilian_intel_to_others = 100
-			army_intel_to_others = 5
-			navy_intel_to_others = 15
+			army_intel_to_others = 80
+			navy_intel_to_others = 100
 			airforce_intel_to_others = 100
 		}
 		
@@ -71,7 +71,8 @@ ideologies = {
 		
 		modifiers = {
 			civilian_intel_to_others = 100
-			navy_intel_to_others = 5
+						army_intel_to_others = 80
+			navy_intel_to_others = 100
 						airforce_intel_to_others = 100
 		}
 		
@@ -111,7 +112,8 @@ ideologies = {
 		
 		modifiers = {
 			civilian_intel_to_others = 100
-			navy_intel_to_others = 5.0
+			navy_intel_to_others = 100
+						army_intel_to_others = 80
 						airforce_intel_to_others = 100
 		}
 
@@ -149,8 +151,8 @@ ideologies = {
 		modifiers = {
 			drift_defence_factor = -0.3	
 			civilian_intel_to_others = 100
-			army_intel_to_others = 5.0
-			navy_intel_to_others = 7.5
+						army_intel_to_others = 80
+			navy_intel_to_others = 100
 			airforce_intel_to_others = 100
 		}
 		

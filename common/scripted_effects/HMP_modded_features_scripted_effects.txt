@@ -58,10 +58,7 @@ tp_divs_out_of_holland = { every_state = { limit = { is_core_of = HOL } teleport
 tp_divs_out_of_norway = { every_state = { limit = { is_core_of = NOR } teleport_armies = {limit = { original_tag = NOR } to_state = 3311 } } }
 
 baltic_cores = { add_equipment_to_stockpile = { type = infantry_equipment_1 amount = 40000 producer = SWE } add_equipment_to_stockpile = { type = artillery_equipment_2 amount = 3000 producer = SWE } add_equipment_to_stockpile = { type = support_equipment_1 amount = 3000 producer = SWE } add_equipment_to_stockpile = { type = anti_tank_equipment_2 amount = 6000 producer = SWE } load_oob = "FIN_spawn" }
-share_intel_with_allies={
-		add_intel = {   target = PREV   army_intel = 200     }
-		PREV = {  add_intel = {  target = PREV   army_intel = 200    }  }
-}
+
 HMP_ger_total_mob_1 = { 
 HMP_ger_total_mob_2 = yes
 HMP_ger_total_mob_2 = yes
@@ -1753,7 +1750,7 @@ create_corps_commander = {
 	create_operative_leader = {
 		name = "Eleysa Bazna"
 		GFX = GFX_portrait_eleysa_bazna
-		traits = { operative_infiltrator }
+		traits = {  }
 		bypass_recruitment = no
 		available_to_spy_master = yes
 		nationalities = { GER }
@@ -6101,7 +6098,7 @@ create_navy_leader = {
 	create_operative_leader = {
 		name = "Kim Philby"
 		GFX = GFX_portrait_kim_philby
-		traits = { operative_double_agent operative_infiltrator }
+		traits = { operative_double_agent }
 		bypass_recruitment = no
 		available_to_spy_master = yes
 		nationalities = { SOV ENG }
@@ -6362,7 +6359,7 @@ create_navy_leader = {
 	create_operative_leader = {
 		name = "Jeannie Rousseau"
 		GFX = GFX_portrait_jennie_rousseau
-		traits = { operative_linguist }
+		traits = {  }
 		bypass_recruitment = no
 		available_to_spy_master = yes
 		female = yes
@@ -6382,7 +6379,7 @@ create_navy_leader = {
 	create_operative_leader = {
 		name = "René Joyeuse"
 		GFX = GFX_portrait_rene_joyeuse
-		traits = { operative_infiltrator }
+		traits = {  }
 		bypass_recruitment = no
 		available_to_spy_master = yes
 		nationalities = { FRA }

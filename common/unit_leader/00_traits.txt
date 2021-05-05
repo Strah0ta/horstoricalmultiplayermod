@@ -1089,55 +1089,6 @@ leader_traits = {
 		}
 	}
 
-	operative_seducer = {
-		type = operative
-		trait_type = personality_trait
-
-		modifier = { 
-			operation_infiltrate_outcome = 0.25
-			operation_infiltrate_risk = -0.25
-			own_operative_detection_chance_factor = -0.2
-		}
-	}
-
-	operative_infiltrator = {
-		type = operative
-		trait_type = basic_trait
-
-		new_commander_weight = {
-			factor = 0.5
-		}
-
-		cost = 400
-		gain_xp_leader = {
-			OR = {
-				operative_leader_operation = operation_infiltrate_civilian
-				operative_leader_operation = operation_infiltrate_armed_forces_army
-				operative_leader_operation = operation_infiltrate_armed_forces_navy
-				operative_leader_operation = operation_infiltrate_armed_forces_airforce
-			}
-		}
-
-		modifier = { 
-			operation_infiltrate_outcome = 0.25
-			operation_infiltrate_risk = -0.25
-		}
-	}
-
-	operative_linguist = {
-		type = operative
-		trait_type = basic_trait
-
-		cost = 400
-		gain_xp_leader = {
-			NOT = { operative_leader_mission = no_mission }
-			NOT = { has_nationality = FROM }
-		}
-
-		modifier = {
-			# something good
-		}
-	}
 
 	operative_double_agent = {
 		type = operative

@@ -2,47 +2,7 @@
 # For documentation, there is a file _documentation.info in the same folder.
 
 branch_intelligence = {
-	
-	upgrade_army_department = {
-	
-		picture = GFX_agency_army_department
-		frame = GFX_upgrade_frame_army
-		sound = Spy_Agency_Intel_Upgrades_Confirm
-		
-		modifiers_during_progress = {
-			civilian_factory_use = 0
-			ai_license_acceptance = -1001
-		}
-				
-		level = {
-			modifier = {
-				army_intel_factor = 0.5
-			}
-						complete_effect = {
-			}
-		}
-	}
-	
-	upgrade_naval_department = {
-	
-		picture = GFX_agency_naval_department
-		frame = GFX_upgrade_frame_naval
-		sound = Spy_Agency_Intel_Upgrades_Confirm
-		
-		modifiers_during_progress = {
-			civilian_factory_use = 0
-			ai_license_acceptance = -1001
-		}
 
-		level = {
-			modifier = {
-				navy_intel_factor = 0.5
-			}
-						complete_effect = {
-			}
-		}
-		
-	}	
 }
 
 branch_defense = {
