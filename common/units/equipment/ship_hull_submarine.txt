@@ -172,7 +172,7 @@ equipments = {
 
 
 		
-		build_cost_ic = 320
+		build_cost_ic = 480
 		resources = {
 			steel = 2
 		}
@@ -182,7 +182,7 @@ equipments = {
 	}
 	ship_hull_submarine_4 = {
 		year = 1944
-
+		
 		archetype = ship_hull_submarine
 		priority = 2500
 		parent = ship_hull_submarine_3
@@ -222,7 +222,7 @@ equipments = {
 		
 
 		
-		build_cost_ic = 450
+		build_cost_ic = 675
 		resources = {
 			steel = 2
 		}

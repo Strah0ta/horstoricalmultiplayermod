@@ -23,7 +23,7 @@ focus_tree = {
 		icon = GFX_focus_spa_unify_the_nationalist_front
 		x = 8
 		y = 0
-		cost = 30
+		cost = 10
 
 		available_if_capitulated = yes
 		search_filters = {FOCUS_FILTER_STABILITY}

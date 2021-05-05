@@ -238,7 +238,7 @@
 			}
 			add_tech_bonus = {
 				name = FRA_heavy_armor_focus
-				bonus = 3
+				bonus = 2.5
 				ahead_reduction = 2
 				uses = 1
 				category = cat_1941_tanks
@@ -319,7 +319,7 @@
 			}
 						add_tech_bonus = {
 				name = FRA_light_medium_armor
-				bonus = 3
+				bonus = 2.5
 				ahead_reduction = 2
 								uses = 1
 				category = cat_1941_tanks

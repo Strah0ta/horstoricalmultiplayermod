@@ -28,6 +28,10 @@ technologies = {
 			level = 7
 		}
 			enable_building = {
+			building = radar_station
+			level = 0
+			}
+			enable_building = {
 			building = air_base
 			level = 0
 			}

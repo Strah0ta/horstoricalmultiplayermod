@@ -135,6 +135,7 @@
  SOV_democratic_party:0 "PB"
  SOV_democratic_party_long:0 "Progressive Bloc"
  SOV_neutrality_party:0 "RLM"
+ RESEARCH_TECH_UNUSED:1 "§GClick to research§!\nWithin 10 days, you can choose a new area to research without loss of research time."
  SOV_neutrality_party_long:0 "Russian Liberation Movement"
  FRA_communism_party:0 "PCF"
  FRA_communism_party_long:0 "Parti communiste français"

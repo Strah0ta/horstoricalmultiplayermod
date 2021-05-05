@@ -927,6 +927,7 @@ early_ship_hull_carrier = {
 
 		enable_equipment_modules = { 
 			ship_torpedo_1
+			ship_torpedo_sub_1
 		}
 		
 		on_research_complete = {
@@ -1043,6 +1044,7 @@ early_ship_hull_carrier = {
 
 		enable_equipment_modules = { 
 			ship_torpedo_2
+			ship_torpedo_sub_2
 		}
 		
 
@@ -1073,6 +1075,7 @@ early_ship_hull_carrier = {
 
 		enable_equipment_modules = { 
 			ship_torpedo_3
+			ship_torpedo_sub_3
 		}
 
 		folder = {
@@ -1092,6 +1095,7 @@ early_ship_hull_carrier = {
 
 		enable_equipment_modules = { 
 			ship_torpedo_4
+			ship_torpedo_sub_4
 		}
 		
 		on_research_complete = {
@@ -1115,7 +1119,6 @@ early_ship_hull_carrier = {
 		}
 
 		enable_equipment_modules = { 
-			ship_torpedo_sub_1
 			sub_ship_engine_1
 		}
 		
@@ -1145,7 +1148,6 @@ early_ship_hull_carrier = {
 			ship_hull_submarine_2
 		}
 		enable_equipment_modules = { 
-			ship_torpedo_sub_2
 			sub_ship_engine_2
 		}
 
@@ -1169,15 +1171,13 @@ early_ship_hull_carrier = {
 		}
 	}
 
-
-
 	basic_submarine_snorkel = {
 
 		enable_equipment_modules = { 
 			ship_sub_snorkel_1
 		}
 		path = {
-			leads_to_tech = improved_submarine_snorkel
+			leads_to_tech = improved_ship_hull_submarine
 			research_cost_coeff = 1
 		}
 		on_research_complete = {
@@ -1189,7 +1189,7 @@ early_ship_hull_carrier = {
 		
 		folder = {
 			name = mtgnavalfolder
-			position = {  x = -2 y = 12 }
+			position = {  x = -2 y = 10 }
 		}
 		
 		categories = {
@@ -1197,7 +1197,33 @@ early_ship_hull_carrier = {
 			ss_tech
 		}
 	}
+	improved_ship_hull_submarine = {
 
+		enable_equipments = {
+			ship_hull_submarine_3
+		}
+		enable_equipment_modules = { 
+			sub_ship_engine_3
+		}
+		
+		path = {
+			leads_to_tech = improved_submarine_snorkel
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2.5
+
+		start_year = 1940
+		
+		folder = {
+			name = mtgnavalfolder
+			position = {  x = -2 y = 13 }
+		}
+		categories = {
+			naval_equipment
+			ss_tech
+		}
+	}
 	improved_submarine_snorkel = {
 
 		enable_equipment_modules = { 
@@ -1208,7 +1234,7 @@ early_ship_hull_carrier = {
 			custom_effect_tooltip = snorkel_advice_tt
 		}
 		path = {
-			leads_to_tech = improved_submarine_snorkel
+			leads_to_tech = advanced_ship_hull_submarine
 			research_cost_coeff = 1
 		}
 		
@@ -1218,7 +1244,43 @@ early_ship_hull_carrier = {
 		
 		folder = {
 			name = mtgnavalfolder
-			position = {  x = -2 y = 18 }
+			position = {  x = -2 y = 16 }
+		}
+		
+		categories = {
+			naval_equipment
+			ss_tech
+		}
+	}
+	
+		advanced_ship_hull_submarine = {
+
+		enable_equipments = {
+			ship_hull_submarine_4
+		}
+		enable_equipment_modules = { 
+			sub_ship_engine_4
+		}
+		
+		research_cost = 3.0
+
+		start_year = 1944	
+		
+		folder = {
+			name = mtgnavalfolder
+			position = {  x = -2 y = 19 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 7
+				OR = {
+					tag = GER
+					tag = USA
+				}
+			}
 		}
 		
 		categories = {

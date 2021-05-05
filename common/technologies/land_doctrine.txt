@@ -55,7 +55,7 @@
 			cat_mobile_warfare
 		}
 
-		on_research_complete = { hidden_effect = { set_technology = { armored_spearhead_tech = 1 popup = no  }      }  custom_effect_tooltip = "Armor Support Companies will require 20% less equipment" }
+		on_research_complete = { hidden_effect = { set_technology = { armored_spearhead_tech = 1 popup = no  }      }  custom_effect_tooltip = "Armor Support Companies will require 20% less equipment and 50% less for Armored Recon Company" }
 		folder = {
 			name = land_doctrine_folder
 			position = { x = 0 y = 2 }
@@ -86,7 +86,8 @@
 			modern_armor_antiair = {	need = {modern_tank_aa_equipment = -1 }}
 			motorized_rocket_sup = {	need = {motorized_rocket_equipment = -3 }}
 			motorized_rocket_sup = {	need = {motorized_rocket_equipment = -3 }}
-			light_tank_recon= {	need = {light_tank_equipment = -5 }}
+			light_tank_recon= {	need = {light_tank_equipment = -12 }}
+			armored_car_recon = {	need = {armored_car_equipment = -12 }}
 	}
 	armored_spearhead_tech_removal = {
 				light_sp_artillery = {   need = {light_tank_artillery_equipment= 6 }   }
@@ -110,7 +111,8 @@
 			super_heavy_armor_antiair = {	need = { super_heavy_tank_aa_equipment = 1 }}
 			modern_armor_antiair = {	need = {modern_tank_aa_equipment = 1 }}
 			motorized_rocket_sup = {	need = {motorized_rocket_equipment = 3 }}
-		light_tank_recon= {	need = {light_tank_equipment = 5 }}
+		light_tank_recon= {	need = {light_tank_equipment = 12 }}
+					armored_car_recon = {	need = {armored_car_equipment = -12 }}
 	}
 	
 	elastic_defence = {
@@ -921,7 +923,7 @@ category_all_infantry = {
 			land_doctrine
 			cat_superior_firepower
 		}
-on_research_complete = { custom_effect_tooltip = "Armor Support Companies will require 20% less equipment" }
+on_research_complete = { custom_effect_tooltip = "Armor Support Companies will require 20% less equipment and 50% less for Armored Recon Company" }
 		
 		folder = {
 			name = land_doctrine_folder
