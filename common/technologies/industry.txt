@@ -115,7 +115,7 @@ technologies = {
 		production_factory_max_efficiency_factor = 0.1
 		line_change_production_efficiency_factor = 0.2
 		
-		research_cost = 2.5
+		research_cost = 2
 		start_year = 1943
 		
 		XOR = {
@@ -138,7 +138,7 @@ technologies = {
 		production_factory_max_efficiency_factor = 0.1
 		production_factory_efficiency_gain_factor = 0.1
 			
-		research_cost = 2.5
+		research_cost = 2
 		start_year = 1943
 		
 		XOR = {
