@@ -179,6 +179,14 @@ HMP_no_asia = {
 					target = FRA
 					modifier = stahlpakt_noasia
 				}
+					add_relation_modifier = {
+					target = SAF
+					modifier = stahlpakt_noasia
+				}
+				add_relation_modifier = {
+					target = HOL
+					modifier = stahlpakt_noasia
+				}
 				add_relation_modifier = {
 					target = CAN
 					modifier = stahlpakt_noasia
