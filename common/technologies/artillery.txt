@@ -265,39 +265,7 @@ technologies = {
 			}
 		}
 	}
-	
-		jungle_training = {
-		research_cost = 1
-		allow = {	always = no	}
 
-		artillery_brigade = {
-			jungle = {
-				movement = 0.1
-			}
-		}
-
-		anti_tank_brigade = {
-			jungle = {
-				movement = 0.1
-			}
-		}
-		infantry = {
-			jungle = {
-				movement = 0.1
-			}
-		}		
-			rocket_artillery_brigade = {
-			jungle = {
-				movement = 0.1
-			}
-		}		
-		anti_air_brigade = {
-			jungle = {
-				movement = 0.1
-			}
-		}	
-	}
-	
 	
 	rocket_artillery = {
 

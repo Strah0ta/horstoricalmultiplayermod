@@ -80,12 +80,7 @@ is_core_of = CHI is_core_of = JAP is_core_of = MAN is_core_of = RAJ
 state = 527 state = 525 state = 326 state = 498 state = 497 state = 493 state = 286 state = 289  state = 494 state = 336 state = 321 state = 333 state = 334 state = 335 state = 342 state = 562 state = 516 state = 523 state = 327 state = 403 state = 418
 }
 }
-
-camelry_nations = { OR = { original_tag = AST original_tag = NZL original_tag = SAF } }
-ranger_nations = { OR = { original_tag = USA original_tag = SOV original_tag = FIN original_tag = BUL original_tag = HUN original_tag = ROM } }
-jungle_nations = {  OR = {  original_tag = USA original_tag = FRA original_tag = RAJ original_tag = NZL original_tag = AST original_tag = JAP original_tag = MAN original_tag = CAN }    }
-
-
+ 
 congress_low_support_trigger = {
 	custom_trigger_tooltip = {
 		tooltip = congress_low_support_trigger_tt

@@ -87,7 +87,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = MAN_pacify_the_countryside
 
-		cost = 10
+		cost = 5
 
 		available = {
 					is_ai = no
@@ -142,7 +142,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = MAN_pacify_the_countryside
 
-		cost = 10
+		cost = 5
 
 		available = {
 			is_ai = no

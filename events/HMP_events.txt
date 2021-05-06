@@ -1385,8 +1385,8 @@ country_event = {
    
              country_event = {
    id = italy.675
-   title = "The Continuation War"
-   desc = "With the German invasion of the Soviet Union, our time has come to strike the Soviets and reclaim our lost territories!"
+   title = "The Second World War"
+   desc = "It is time to strike the Allies!"
    picture = GFX_report_event_german_italian_pact
 	hidden = yes 
    fire_only_once = no
@@ -1394,14 +1394,12 @@ country_event = {
    
    
       option = {
-   name = "Wait, what?"
+   name = "Andiamo!"
    
    activate_decision = ITA_join_the_war
    }
    }   
-   
-   activate_decision = ITA_join_the_war
-   
+      
           country_event = {
    id = italy.800 #spring mud
    title = "The Continuation War"

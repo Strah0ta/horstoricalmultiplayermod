@@ -2187,7 +2187,7 @@ AST = {
 		 } 	
 		} 
 		GER_plane_hun2 = {
-	allowed = {	 original_tag = ITA	} 
+	allowed = {	 OR = { original_tag = GER original_tag = ITA	}	} 
 		icon = generic_naval
 		fire_only_once = no
 		available = {    }

@@ -34,16 +34,9 @@ DIPLOMACY_GENERATE_WARGOAL_ENABLE_TRIGGER = { always = no }
 DIPLOMACY_SEND_VOLUNTEERS_ENABLE_TRIGGER  = { always = no }
 DIPLOMACY_CALL_ALLY_ENABLE_TRIGGER = { always = no } 
 DIPLOMACY_JOIN_ALLY_ENABLE_TRIGGER = { always = no } 
-DIPLOMACY_REQUEST_LICENSED_PRODUCTION_ENABLE_TRIGGER = { NOT = {FROM = {  OR = {  has_idea = SOV_motorized_focus has_idea = ITA_motorized_focus } } } }
-DIPLOMACY_MANAGE_LICENSED_PRODUCTION_EXISTING_ENABLE_TRIGGER = { NOT = {FROM = {  OR = {  has_idea = SOV_motorized_focus has_idea = ITA_motorized_focus } } } }
-DIPLOMACY_REQUEST_ACCESS_TO_LICENCE_PRODUCTION_ENABLE_TRIGGER = { 
-    if = { limit = {   ROOT = {  the_axis = yes  }  }   FROM = { the_axis = yes 	}  }
-    if = { limit = {   ROOT = {  normally_played_allies = yes  }  }   FROM = { OR = { normally_played_allies = yes original_tag = SOV }  }	} 
-	if = { limit = {   ROOT = { NOT = { original_tag = JAP  }  } } FROM = { NOT = { original_tag = MAN } } }
-	if = { limit = {   ROOT = { NOT = { original_tag = MAN  }  } } FROM = { NOT = { original_tag = JAP } } }
-	if = { limit = {   ROOT = { original_tag = JAP  }  } FROM = { OR = { original_tag = MAN original_tag = GER } } }
-	if = { limit = {   ROOT = { original_tag = MAN  }  }  FROM = { OR = { original_tag = JAP  original_tag = GER } } }
-}
+DIPLOMACY_REQUEST_LICENSED_PRODUCTION_ENABLE_TRIGGER = { NOT = {FROM = {   has_idea = SOV_motorized_focus } } } 
+DIPLOMACY_MANAGE_LICENSED_PRODUCTION_EXISTING_ENABLE_TRIGGER = { NOT = {FROM = {  has_idea = SOV_motorized_focus  } } } 
+DIPLOMACY_REQUEST_ACCESS_TO_LICENCE_PRODUCTION_ENABLE_TRIGGER = { NOT = {FROM = {   has_idea = SOV_motorized_focus } } }
 DIPLOMACY_RETURN_EXP_FORCE_ENABLE_TRIGGER = {
     NOT = { ROOT = { OR = { AND = { original_tag = EFR  EFR = { is_in_faction = yes NOT = { has_country_flag = EFR_torch_declared}  }  }original_tag = ETH  AND = { original_tag = FIN SOV = { controls_state = 195 }   } }} }
 	NOT = { FROM = { OR = { AND = { original_tag = EFR  EFR = { is_in_faction = yes NOT = { has_country_flag = EFR_torch_declared}  }  }original_tag = ETH   AND = { original_tag = FIN SOV = { controls_state = 195 }   } }} }
