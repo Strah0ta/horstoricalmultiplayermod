@@ -25,13 +25,7 @@ is_diplomatic_action_valid_REQUEST_ACCESS_TO_LICENCE_PRODUCTION = { OR = { AND =
 #is_diplomatic_action_valid_RETURN_ATTACHE = { always = no }
 
 
-
 #is_diplomatic_action_valid_send_attache =  { OR = { AND = { the_geacps = yes FROM = { the_axis = yes }} AND = { is_in_faction_with = GER FROM = { the_geacps = yes }} AND = { is_in_faction_with = ENG FROM = { tag = SOV }}  AND = { tag = SOV FROM = { normally_played_allies = yes }} } }
-
-
-
-
-
 
 
 #is_diplomatic_action_valid_ask_for_state_control = { always = no } #Nope

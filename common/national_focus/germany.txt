@@ -1001,7 +1001,7 @@ focus_tree = {
 			add_tech_bonus = {
 				name = radar_tech_bonus
 				bonus = 1.0
-				uses = 1
+				uses = 6
 				category = radar_tech
 			}
 				SOV = {
@@ -1010,7 +1010,7 @@ focus_tree = {
 			add_tech_bonus = {
 				name = radar_tech_bonus
 				bonus = 1.0
-				uses = 1
+				uses = 6
 				category = radar_tech
 			}	
 				}

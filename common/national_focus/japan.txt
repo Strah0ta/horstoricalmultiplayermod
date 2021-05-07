@@ -178,6 +178,12 @@ focus_tree = {
 				uses = 2
 				category = tp_tech
 			}
+			add_tech_bonus = {
+				name = JAP_bypass_the_philippines
+				bonus = 3.0
+				uses = 6
+				category = radar_tech
+			}
 		}
 	}
 
@@ -321,6 +327,17 @@ hidden_effect = { every_country = { limit = {  OR = { original_tag = JAP origina
 				technology = flexible_line
 				technology = assembly_line_production
 				technology = streamlined_line
+				}
+				if = { limit = { country_exists = MAN } 		|
+				add_tech_bonus = {
+				name = "Guide the Zaibatsus"
+				bonus = 0.5
+				uses = 3
+				technology = advanced_machine_tools
+				technology = flexible_line
+				technology = assembly_line_production
+				technology = streamlined_line
+				}
 				}
 			532 = {
 				add_extra_state_shared_building_slots = 2

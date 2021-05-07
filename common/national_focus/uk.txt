@@ -50,15 +50,15 @@ focus_tree = {
 		}
 		add_tech_bonus = {
 			name = tizard_mission_focus
-			bonus = 1.0
-			uses = 2
+			bonus = 3.0
+			uses = 6
 			category = radar_tech
 		}
 			USA = {
 		add_tech_bonus = {
 			name = tizard_mission_focus
-			bonus = 1.0
-			uses = 2
+			bonus = 3.0
+			uses = 6
 			category = radar_tech
 		}
 			
@@ -243,7 +243,7 @@ focus_tree = {
 			add_tech_bonus = {
 				name = radar_focus
 				bonus = 1.0
-				uses = 3
+				uses = 6
 				category = radar_tech
 			}
 		}
