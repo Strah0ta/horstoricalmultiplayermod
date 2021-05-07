@@ -8,7 +8,7 @@ AND = { ENG = { controls_state = 116 } SOV = { controls_state = 137 } }
 }
 
 365_sov_mot = { OR = { tag = FRA tag = NOR tag = CAN tag = SAF tag = RAJ tag = NZL tag = AST  tag = FIN tag = BRA tag = GER tag = HUN tag = ROM tag = BUL tag = HOL  tag = MAN tag = JAP tag = USA  }}
-
+tfv_country = { OR = { tag = CAN tag = SAF tag = RAJ tag = NZL tag = AST }}
 was_sent_expeditionaries = {
 OR = { 
 received_expeditionary_forces = { sender = GER value > 0 } 
