@@ -2182,10 +2182,11 @@ add_to_variable = { germany_war_army_core_defence_factor = 0.3	}
 				planning_skill = 1
 				logistics_skill = 1
 			}
-			
+		 every_country = { limit = { is_in_faction_with = GER NOT = { tag = ITA }}
+	
 	create_field_marshal = {
 	name = "Walther Wenck"
-	picture = "Portrait_Germany_Walter_Wenck_B.dds"
+	portrait_path = "gfx/leaders/GER/Portrait_Germany_Walter_Wenck_B.dds"
 	traits = { panzer_leader panzer_expert brilliant_strategist trickster urban_assault_specialist aggressive_assaulter defensive_doctrine organizer fast_planner commando camouflage_expert  }
 	skill = 8
 	attack_skill = 7
@@ -2196,7 +2197,7 @@ add_to_variable = { germany_war_army_core_defence_factor = 0.3	}
 
 	create_corps_commander = {
 	name = "Felix Steiner"
-	gfx = "GFX_portrait_ger_felix_steiner"
+	portrait_path = "gfx/leaders/GER/portrait_ger_felix_steiner.dds"
 	traits = { panzer_leader panzer_expert  trickster ranger trait_reckless  urban_assault_specialist  commando skirmisher camouflage_expert  }
 	skill = 8
 	attack_skill = 7
@@ -2206,7 +2207,7 @@ add_to_variable = { germany_war_army_core_defence_factor = 0.3	}
 }
 create_field_marshal = {
 	name = "Walter Model"
-	picture = "Portrait_Germany_Walter_Model.dds"
+	portrait_path = "gfx/leaders/GER/Portrait_Germany_Walter_Model.dds"
 	traits = { defensive_doctrine organizer logistics_wizard brilliant_strategist aggressive_assaulter infantry_leader ambusher inspirational_leader organisational_leader guerilla_fighter camouflage_expert trait_cautious }
 	skill = 8
 	attack_skill = 4
@@ -2216,7 +2217,7 @@ create_field_marshal = {
 }
 create_corps_commander = {
 	name = "Gotthard Heinrici"
-	picture = "Portrait_Germany_Gotthard_Heinrici.dds"
+	portrait_path = "gfx/leaders/GER/Portrait_Germany_Gotthard_Heinrici.dds"
 	traits = { trait_engineer fortress_buster infantry_leader trait_cautious fake_skilled_staffer commando camouflage_expert ambusher }
 	skill = 8
     attack_skill = 5
@@ -2227,7 +2228,7 @@ create_corps_commander = {
 
 create_corps_commander = { 
 	name = "Friedrich Schulz"
-	picture = "Portrait_Germany_Friedrich_Schulz.dds"
+	portrait_path = "gfx/leaders/GER/Portrait_Germany_Friedrich_Schulz.dds"
 	traits = {   infantry_leader trait_cautious fake_skilled_staffer commando camouflage_expert ambusher }
 	skill = 8
     attack_skill = 5
@@ -2236,7 +2237,7 @@ create_corps_commander = {
     logistics_skill = 8
 }
 
-
+}
 		}	
 	}
 	
