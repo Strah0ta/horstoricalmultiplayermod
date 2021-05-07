@@ -128,6 +128,9 @@ NDefines.NCountry.GIE_HOST_MIC_FROM_LEGITIMACY_MAX = 0					--Host will receive f
 NDefines.NCountry.AIR_SUPPLY_CONVERSION_SCALE = 0.2	-- TRANSPORTS DOUBLED IN IC Conversion scale for planes to air supply
 NDefines.NCountry.MAX_HEROES_BEING_KILLED_WAR_SUPPORT_IMPACT = -0.6				-- WAS -0.3 Max total penalty from war heroes manpower lost
 NDefines.NCountry.ATTACHE_XP_SHARE = 0                               -- All XP is removed in Horst 
+
+NDefines.NCountry.SUPPLY_FROM_DAMAGED_INFRA = 0.4               -- damaged infrastructure counts as this in supply calcs
+NDefines.NBuildings.SUPPLY_PORT_LEVEL_THROUGHPUT = 6   -- supply throughput per level of naval base
 ---------------------------------------------------------------
 NDefines.NResistance.GARRISON_LOG_MAX_MONTHS = 0                     
 ---------------------------------------------------------------

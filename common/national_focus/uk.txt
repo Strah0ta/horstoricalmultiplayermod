@@ -151,16 +151,9 @@ focus_tree = {
 				name = armor_bonus
 				bonus = 1.0
 				ahead_reduction = 3
-				uses = 1
-				technology = improved_medium_tank
+				uses = 2
+				category = cat_1941_tanks
 			}
-				add_tech_bonus = {
-				name = armor_bonus
-				bonus = 0.5
-				ahead_reduction = 3
-				uses = 1
-				technology = improved_heavy_tank
-			}		
 			add_tech_bonus = {
 				name = armor_bonus
 				bonus = 1.0

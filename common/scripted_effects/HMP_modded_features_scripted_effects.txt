@@ -8628,7 +8628,7 @@ create_corps_commander = { ###SOLID
 	logistics_skill = 5
 }
 
-create_corps_commander = {
+create_corps_commander = { ###NOT FINISHED
 	name = "Alan Vasey" #Point Value: 18 #3/23/21 +Guerilla Fighter +Urban Assault Specialist +Jungle Rat
 	portrait_path = "gfx/leaders/AST/Portrait_Australia_Alan_Vasey.dds"
 	traits = { hill_fighter desert_fox jungle_rat urban_assault_specialist infantry_leader ambusher guerilla_fighter naval_invader }
@@ -8638,7 +8638,7 @@ create_corps_commander = {
 	planning_skill = 8
 	logistics_skill = 5
 }
-create_corps_commander = { 
+create_corps_commander = {  ###NOT FINISHED
 	name = "Iven Mackay" #Point Value: 18 
 	portrait_path  = "gfx/leaders/AST/Portrait_Australia_Iven_Mackay.dds"
 	traits = { naval_liason infantry_leader infantry_expert trait_mountaineer jungle_rat expert_improviser swamp_fox  }
@@ -9530,6 +9530,10 @@ if = { limit = { OR = { ITA ={ controls_state  = 412} ALB ={ controls_state  = 4
 
 
 horstorical_multiplayer_vichy_france = {
+
+539 = { set_building_level = { type = infrastructure level = 10 }}
+510 = { set_building_level = { type = infrastructure level = 10 }}
+
 if = { limit = { has_start_date > 1936.1.1 }  FRA = { remove_resource_rights = 497 }  }
  GER = { add_to_faction = EFR }
 if = { limit = { ITA = { has_war = no }} ITA = { add_timed_idea = { idea = france_has_capped days = 60 } } SWE = { country_event = { id = italy.674 days = 30 }} }

@@ -25,7 +25,7 @@ infrastructure = 10
 industrial_complex = 1
 air_base = 4
 12299 = {
-naval_base = 8
+naval_base = 4
 coastal_bunker = 3
 }
 7329 = {
