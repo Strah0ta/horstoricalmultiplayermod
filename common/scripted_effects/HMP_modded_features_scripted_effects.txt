@@ -8531,62 +8531,51 @@ create_corps_commander = { ###SOLID
 	logistics_skill = 5
 }
 
-create_corps_commander = {
-	name = "Kodandera Subayya Thimayya" #Point Value: 17 #2/10/21 +Jungle Rat
+create_corps_commander = { ###SOLID
+	name = "Kodandera Subayya Thimayya" #Point Value: 18 #2/10/21 +Jungle Rat
 	portrait_path = "gfx/leaders/RAJ/Portrait_The_Raj_k_s_thimayya.dds"
-	traits = { panzer_leader panzer_expert trait_engineer scavenger fortress_buster jungle_rat }
+	traits = { panzer_leader panzer_expert ambusher guerilla_fighter desert_fox urban_assault_specialist  }
 	skill = 6
 	attack_skill = 4
-	defense_skill = 3
-	planning_skill = 6
+	defense_skill = 8
+	planning_skill = 1
 	logistics_skill = 6
 }
-create_corps_commander = {
+create_corps_commander = { ###SOLID
 	name = "William Stevens" #Point Value: 18 #3/23/21 -Engineer -SCAVENGER #4/12/21 +Jungle Rat +Ranger
 	portrait_path  = "gfx/leaders/NZL/Portrait_New_Zeeland_William_Stevens.dds"
-	traits = { jungle_rat ranger panzer_leader panzer_expert trickster expert_improviser }
+	traits = { jungle_rat ranger hill_fighter infantry_leader infantry_expert trickster organizer }
 	skill = 6
 	attack_skill = 5
 	defense_skill = 3
 	planning_skill = 5
-	logistics_skill = 6 #NEW-Zealand-END
+	logistics_skill = 6 
 }
-create_corps_commander = {#RAJ-GENERALS-START
+create_corps_commander = { ###SOLID
 	name = "Kodandera Madappa Cariappa" #Point Value: 18  #2/10/21 +Mountaineer
 	portrait_path = "gfx/leaders/RAJ/Portrait_The_Raj_Kodandera_Madappa_Cariappa.dds"
 	traits = { infantry_leader infantry_expert adaptable hill_fighter trait_mountaineer skilled_staffer }
 	skill = 6
 	attack_skill = 3
-	defense_skill = 3
+	defense_skill = 4
 	planning_skill = 5
-	logistics_skill = 8
+	logistics_skill = 7
 }
 
-create_corps_commander = {  #Toxic
+create_corps_commander = {  ###SOLID
 	name = "Thomas Victor Anderson" # point value: 18 #3/23/21 +Desert Fox
 	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
-	traits = { infantry_leader infantry_expert ambusher naval_invader desert_fox naval_liason invader_ii  }
+	traits = { infantry_leader infantry_expert adaptable naval_invader trait_engineer naval_liason invader_ii  }
 	skill = 6
     attack_skill = 2
     defense_skill = 5
     planning_skill = 4
     logistics_skill = 8
 }
-
-create_corps_commander = {
-	name = "Bernard Freyberg" #Point Value: 18 #3/23/21 -Desert Fox -Guerilla Fighter +Adaptable
-	portrait_path  = "gfx/leaders/NZL/Portrait_New_Zealand_Bernard_Freyberg.dds"
-	traits = { infantry_leader infantry_expert adaptable  naval_invader invader_ii trickster }
-	skill = 6
-	attack_skill = 4
-	defense_skill = 4
-	planning_skill = 5
-	logistics_skill = 6
-}
-create_corps_commander = {
-	name = "Orde Wingate" #Point Value: 17
+create_corps_commander = { ###SOLID
+	name = "Orde Wingate" #Point Value: 18 
     portrait_path  = "gfx/leaders/RAJ/Portrait_The_Raj_Orde_Wingate.dds" #1 point over
-	traits = { skilled_staffer jungle_rat trait_mountaineer infantry_leader ambusher commando camouflage_expert }
+	traits = { skirmisher jungle_rat trait_mountaineer infantry_leader ambusher commando camouflage_expert }
 	skill = 6
 	attack_skill = 4
 	defense_skill = 5
@@ -8594,39 +8583,50 @@ create_corps_commander = {
 	logistics_skill = 5 
 }
 
-create_corps_commander = {
-	name = "Douglas Gracey" #Point Value: 18 #3/23/21 +Swamp Fox +Urban Assault Specialist 
-	portrait_path = "gfx/leaders/RAJ/Portrait_The_Raj_Douglas_Gracey.dds"
-	traits = { desert_fox urban_assault_specialist swamp_fox infantry_leader ambusher  trickster guerilla_fighter }
-	skill = 6
-	attack_skill = 3
-	defense_skill = 7
-	planning_skill = 4
-	logistics_skill = 5 #RAJ-END
-}
 
-create_corps_commander = {
-	name = "Dan Pienaar" #Point Value: 18 #3/23/21 +Mountaineer
-	portrait_path = "gfx/leaders/SAF/Portrait_SAF_Dan_Pienaar.tga"
-	traits = { infantry_leader infantry_expert desert_fox trait_mountaineer naval_invader invader_ii trickster guerilla_fighter }
+create_corps_commander = {  ###SOLID 
+	name = "Bernard Freyberg" #Point Value: 18 #3/23/21 -Desert Fox -Guerilla Fighter +Adaptable
+	portrait_path  = "gfx/leaders/NZL/Portrait_New_Zealand_Bernard_Freyberg.dds"
+	traits = { infantry_leader ambusher skirmisher paratrooper guerilla_fighter trickster desert_fox   }
 	skill = 6
 	attack_skill = 4
-	defense_skill = 4
-	planning_skill = 5
-	logistics_skill = 6 #generals-from-saf-end
+	defense_skill = 7
+	planning_skill = 2
+	logistics_skill = 6
 }
 
-create_corps_commander = {
+create_corps_commander = { ###SOLID 
+	name = "Douglas Gracey" #Point Value: 18 #3/23/21 +Swamp Fox +Urban Assault Specialist 
+	portrait_path = "gfx/leaders/RAJ/Portrait_The_Raj_Douglas_Gracey.dds"
+	traits = { desert_fox trickster expert_improviser trait_mountaineer  infantry_leader infantry_expert  }
+	skill = 6
+	attack_skill = 3
+	defense_skill = 6
+	planning_skill = 3
+	logistics_skill = 7 
+}
+
+create_corps_commander = { ###SOLID 
+	name = "Dan Pienaar" #Point Value: 18 #3/23/21 +Mountaineer
+	portrait_path = "gfx/leaders/SAF/Portrait_SAF_Dan_Pienaar.tga"
+	traits = { infantry_leader infantry_expert ambusher fake_skilled_staffer guerilla_fighter scavenger }
+	skill = 6
+	attack_skill = 3
+	defense_skill = 6
+	planning_skill = 2
+	logistics_skill = 8
+}
+
+create_corps_commander = { ###SOLID 
 	name = "John Northcott" #Point Value:  18 #3/23/21 -Commando 
 	portrait_path = "gfx/leaders/AST/Portrait_Australia_John_Northcott.dds"
-	traits = { infantry_leader infantry_expert trait_mountaineer skirmisher paratrooper trait_engineer  fortress_buster }
+	traits = { infantry_leader infantry_expert trait_mountaineer bearer_of_artillery urban_assault_specialist trait_engineer  fortress_buster }
 	skill = 6
 	attack_skill = 3
 	defense_skill = 3
 	planning_skill = 8
 	logistics_skill = 5
 }
-
 
 create_corps_commander = {
 	name = "Alan Vasey" #Point Value: 18 #3/23/21 +Guerilla Fighter +Urban Assault Specialist +Jungle Rat
@@ -8639,9 +8639,9 @@ create_corps_commander = {
 	logistics_skill = 5
 }
 create_corps_commander = { 
-	name = "Iven Mackay" #Point Value: 18 + 4 
+	name = "Iven Mackay" #Point Value: 18 
 	portrait_path  = "gfx/leaders/AST/Portrait_Australia_Iven_Mackay.dds"
-	traits = { naval_liason infantry_leader infantry_expert trait_mountaineer jungle_rat expert_improviser swamp_fox cavalry_expert cavalry_leader combined_arms_expert }
+	traits = { naval_liason infantry_leader infantry_expert trait_mountaineer jungle_rat expert_improviser swamp_fox  }
 	skill = 6
 	attack_skill = 4
 	defense_skill = 4

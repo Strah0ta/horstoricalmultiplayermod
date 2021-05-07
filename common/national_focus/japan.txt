@@ -328,7 +328,7 @@ hidden_effect = { every_country = { limit = {  OR = { original_tag = JAP origina
 				technology = assembly_line_production
 				technology = streamlined_line
 				}
-				if = { limit = { country_exists = MAN } 		|
+				if = { limit = { country_exists = MAN } 	
 				add_tech_bonus = {
 				name = "Guide the Zaibatsus"
 				bonus = 0.5
