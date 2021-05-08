@@ -21,10 +21,10 @@ is_diplomatic_action_valid_request_foreign_manpower = { always = no }
 is_diplomatic_action_valid_set_faction_spymaster = { always = no }
 is_diplomatic_action_valid_transfert_spymaster = { always = no }
 
-is_diplomatic_action_valid_REQUEST_ACCESS_TO_LICENCE_PRODUCTION = { OR = { AND = { the_geacps = yes FROM = { the_axis = yes }} AND = { is_in_faction_with = GER FROM = { the_geacps = yes }} AND = { is_in_faction_with = ENG FROM = { tag = SOV }}  AND = { tag = SOV FROM = { normally_played_allies = yes }} } }
+is_diplomatic_action_valid_REQUEST_ACCESS_TO_LICENCE_PRODUCTION = { OR = { AND = { tag = FIN FROM = { the_axis = yes }} AND = { the_geacps = yes FROM = { the_axis = yes }} AND = { the_axis = yes FROM = { the_geacps = yes }} AND = { normally_played_allies = yes FROM = { tag = SOV }}  AND = { tag = SOV FROM = { normally_played_allies = yes }} } }
+
+
 #is_diplomatic_action_valid_RETURN_ATTACHE = { always = no }
-
-
 #is_diplomatic_action_valid_send_attache =  { OR = { AND = { the_geacps = yes FROM = { the_axis = yes }} AND = { is_in_faction_with = GER FROM = { the_geacps = yes }} AND = { is_in_faction_with = ENG FROM = { tag = SOV }}  AND = { tag = SOV FROM = { normally_played_allies = yes }} } }
 
 
@@ -47,4 +47,3 @@ is_diplomatic_action_valid_REQUEST_ACCESS_TO_LICENCE_PRODUCTION = { OR = { AND =
 #is_diplomatic_action_valid_generate_wargoal = { always = no }  #should be correct as generate_wargoal can be used in diplomacy_scripted_triggers, but this does not work for diplo_action_valid_triggers
 #is_diplomatic_action_valid_incoming_lend_lease = { always = no } #should be correct as incoming_lend_lease can be used in diplomacy_scripted_triggers, but this does not work for diplo_action_valid_triggers
 #is_diplomatic_action_valid_lend_lease = { always = no }#should be correct as lend_lease can be used in diplomacy_scripted_triggers, but this does not work for diplo_action_valid_triggers
-#cant find the join ally/call ally token

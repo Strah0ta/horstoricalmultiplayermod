@@ -39,6 +39,7 @@ NDefines.NMilitary.FIELD_EXPERIENCE_SCALE = 0
 NDefines.NMilitary.FIELD_EXPERIENCE_MAX_PER_DAY = 0				-- Most xp you can gain per day
 NDefines.NMilitary.EXPEDITIONARY_FIELD_EXPERIENCE_SCALE = 0		-- reduction factor in Xp from expeditionary forces
 NDefines.NMilitary.LEND_LEASE_FIELD_EXPERIENCE_SCALE = 0		-- Experience scale for lend leased equipment used in combat.
+NDefines.NMilitary.COMBAT_MINIMUM_TIME = 3                    --VANILLA 4; Changed so micro feels more fluid when cancelling
 
 NDefines.NMilitary.COMMANDER_LEVEL_UP_STAT_COUNT = 0				-- num stats gained on level up
 NDefines.NMilitary.LAND_AIR_COMBAT_MAX_PLANES_PER_ENEMY_WIDTH = 0.5  -- WAS 3, reduced to 0.5 so less CAS is needed in battles

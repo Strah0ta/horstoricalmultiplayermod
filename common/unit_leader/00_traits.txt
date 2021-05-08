@@ -549,7 +549,7 @@ leader_traits = {
 		type = corps_commander
 		modifier = {
 			cas_damage_reduction = 0.5
-			air_superiority_bonus_in_combat = -0.6
+			air_superiority_bonus_in_combat = -0.666
 		}		
 		trait_type = assignable_trait
 		parent = commando	

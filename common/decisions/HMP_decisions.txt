@@ -1397,7 +1397,6 @@ hidden_effect = {
  every_country = { limit = { is_in_faction_with = ENG NOT = { tag = USA }}
 create_field_marshal = {  #North Africa
     name = "Harold Alexander" # Aristocrat
-    id = 995
     portrait_path = "gfx/leaders/ENG/Portrait_Britain_Harold_Alexander.dds" #Point Value: 
     traits = { offensive_doctrine organisational_leader trickster infantry_leader infantry_expert organizer thorough_planner logistics_wizard  trait_mountaineer desert_fox   }
     skill = 8
