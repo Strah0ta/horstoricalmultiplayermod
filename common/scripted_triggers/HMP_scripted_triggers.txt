@@ -138,6 +138,22 @@ original_tag = ETH
 original_tag = ALB
 }
 }
+the_axis_no_finefr = {
+OR = { 
+original_tag = GER
+original_tag = ITA
+original_tag = SPR
+original_tag = CZE
+original_tag = ROM
+original_tag = HUN
+original_tag = YUG
+original_tag = BUL
+original_tag = ETH
+original_tag = ALB
+}
+}
+
+finefr= { OR = { tag = EFR tag = FIN}}
 
 the_geacps = { OR = {  original_tag = JAP original_tag = MAN } }
 
