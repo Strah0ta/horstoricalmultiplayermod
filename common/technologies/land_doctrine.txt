@@ -424,7 +424,7 @@
 		
 		doctrine = yes	
 		research_cost = 0.01
-		
+		dig_in_speed_factor = 1 
 		categories = {
 			land_doctrine
 			cat_mobile_warfare
@@ -904,6 +904,7 @@ category_all_infantry = {
             default_morale = 0.2
             soft_attack = 0.25
         }
+		dig_in_speed_factor = 1 
 		enable_tactic = tactic_delay
 		enable_tactic = tactic_elastic_defense
 		enable_tactic = tactic_breakthrough
