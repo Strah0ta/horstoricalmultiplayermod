@@ -2,7 +2,7 @@ state={
 id=352
 name="STATE_695"
 manpower = 76299
-state_category = city
+state_category = rural
 resources={
 oil=113
 }
@@ -12,6 +12,7 @@ add_core_of=HOL
 victory_points = {
 153 100
 }
+add_extra_state_shared_building_slots = 8
 buildings = {
 fuel_silo = 2
 infrastructure = 6
