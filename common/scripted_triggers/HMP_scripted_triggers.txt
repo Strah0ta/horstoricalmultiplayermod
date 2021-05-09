@@ -122,6 +122,8 @@ congress_high_support_trigger = {
 					controls_state = 2   # Latium				
 				}
 	}
+	holnor = {  OR = { tag = HOL tag = NOR }}
+	
 the_axis = {
 OR = { 
 original_tag = GER

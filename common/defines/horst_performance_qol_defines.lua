@@ -172,7 +172,7 @@ NDefines.NDiplomacy.GIE_WARSCORE_GAIN_LEGITIMACY_FACTOR = 0		 		--Factor on how 
 ---------------------------------------------------------------
 NDefines.NPolitics.ARMY_LEADER_COST = 1					-- VANILLA 5 | cost for recruiting new leaders, 'this value' * number_of_existing_leaders_of_type
 ---------------------------------------------------------------
-NDefines.NBuildings.MAX_SHARED_SLOTS = 99 -- WAS 25 | Increased to accommodate Germany/Japan building slot changes in order to support more of their eco being in their cores.
+NDefines.NBuildings.MAX_SHARED_SLOTS = 200 -- WAS 25 | Increased to accommodate Germany/Japan building slot changes in order to support more of their eco being in their cores.
 --NDefines.NBuildings.NAVALBASE_REPAIR_MULT = 0.075
 ---------------------------------------------------------------
 NDefines.NProduction.MIN_LICENSE_ACTIVE_DAYS = 0                 -- License can be cancelled at any time now, down from 30 | 
