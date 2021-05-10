@@ -54,7 +54,7 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = conservatism
 	traits = {
-		#
+		smooth_talking_charmer2
 	}
 }
 					create_country_leader = {

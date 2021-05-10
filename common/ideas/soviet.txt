@@ -86,6 +86,7 @@ ideas = {
 				stability_factor = 0.10
 				war_support_factor = 0.10 
 				training_time_army_factor = -0.9
+				production_speed_infrastructure_factor = 2
 				supply_consumption_factor = -0.1
 				army_core_defence_factor = 0.05
 				army_core_attack_factor = 0.05

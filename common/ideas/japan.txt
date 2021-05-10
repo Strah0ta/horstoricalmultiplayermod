@@ -577,7 +577,7 @@ ideas = {
 			
 			
 			allowed = {
-				original_tag = JAP
+				the_geacps = yes
 			}
 
 			cost = 50
@@ -594,7 +594,7 @@ ideas = {
 		yokosuka_naval_arsenal = {
 						
 			allowed = {
-				original_tag = JAP
+				the_geacps = yes
 			}
 			
 			research_bonus = {
@@ -613,7 +613,7 @@ ideas = {
 		maizuru_naval_arsenal = {
 						
 			allowed = {
-				original_tag = JAP
+				the_geacps = yes
 			}
 				
 			research_bonus = {
@@ -632,13 +632,13 @@ ideas = {
 		sasebo_naval_arsenal = {
 			
 			allowed = {
-				original_tag = JAP
+				the_geacps = yes
 			}
 			
 			available = {
 
 			}
-										on_add = { hidden_effect = { make_naval_designers_free = yes } }
+			on_add = { hidden_effect = { make_naval_designers_free = yes } }
 	
 			research_bonus = {
 				naval_equipment = 0.15

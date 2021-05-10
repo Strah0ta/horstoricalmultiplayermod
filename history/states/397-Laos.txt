@@ -2,7 +2,7 @@ state={
 	id=397
 	name="Central Slovakia"
 	manpower = 500000
-	
+	resources = { steel = 20 }
 	state_category = town
 	history = { 
 		owner = CZE
