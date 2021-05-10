@@ -1,5 +1,3 @@
-
-
 NDefines.NAI.MAX_REQUEST_EXPEDITIONARIES_ARMY_RATIO = 1				-- AI will not accept expeditionary requests if its expeditions are above this ratio
 NDefines.NAI.CASUALTY_RATIO_TO_PULL_EXPEDITIONARIES_BACK = 1			-- AI will pull expeditioniries back if its casualties is aboce this ratio compared to their total deployed manpower
 NDefines.NAI.CASUALTY_RATIO_TO_NOT_SEND_EXPEDITIONARIES = 1			-- AI will not send expeditioniries if its casualties is aboce this ratio compared to their total deployed manpower
@@ -20,8 +18,6 @@ NDefines.NAI.CALL_ALLY_DEMOCRATIC_DESIRE = -500			-- Desire to call ally added f
 NDefines.NAI.CALL_ALLY_NEUTRAL_DESIRE = -500			-- Desire to call ally added for neutral AI
 NDefines.NAI.CALL_ALLY_FASCIST_DESIRE = -500				-- Desire to call ally added for fascist AI
 NDefines.NAI.CALL_ALLY_COMMUNIST_DESIRE = -500			-- Desire to call ally added for communist AI
-
-
 NDefines.NAI.DIPLOMATIC_ACTION_RANDOM_FACTOR = 0 		-- How much of the AI diplomatic action scoring is randomly determined (1.0 = half random, 2.0 = 2/3rd random, etc)
 NDefines.NAI.RESEARCH_NEW_WEIGHT_FACTOR = 0 			-- Impact of previously unexplored tech weights. Higher means more random exploration.
 NDefines.NAI.INVASION_DISTANCE_RANDOMNESS = 0					-- This higher the value, the more unpredictable the invasions. Compares to actual map distance in pixels.
@@ -39,9 +35,6 @@ NDefines.NAI.RESEARCH_BONUS_FACTOR = 0
 NDefines.NAI.MAX_AHEAD_RESEARCH_PENALTY = 0
 NDefines.NAI.RESEARCH_AHEAD_OF_TIME_FACTOR = 0
 NDefines.NAI.RESEARCH_BASE_DAYS = 0
-
-
-
 NDefines.NAI.DECLARE_WAR_RELATIVE_FORCE_FACTOR = 0
 NDefines.NAI.TRADEABLE_FACTORIES_FRACTION = 0
 NDefines.NAI.MIN_DELIVERED_TRADE_FRACTION = 0
@@ -63,7 +56,7 @@ NDefines.NAI.DEPLOY_MIN_EQUIPMENT_PEACE_FACTOR = 0
 NDefines.NAI.DEPLOY_MIN_TRAINING_WAR_FACTOR = 0
 NDefines.NAI.DEPLOY_MIN_EQUIPMENT_WAR_FACTOR = 0
 NDefines.NAI.DYNAMIC_STRATEGIES_THREAT_FACTOR = 0
-NDefines.NAI.LOCATION_BALANCE_TO_ADVANCE = 0
+NDefines.NAI.LOCATION_BALANCE_TO_ADVANCE = 0        #####################
 NDefines.NAI.DIVISION_UPGRADE_MIN_XP = 0
 NDefines.NAI.DIVISION_CREATE_MIN_XP = 0
 NDefines.NAI.VARIANT_UPGRADE_MIN_XP = 0
