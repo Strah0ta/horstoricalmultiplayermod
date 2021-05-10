@@ -1075,6 +1075,21 @@ hidden_effect = {
 				hidden_effect = { if = { limit = { AND = { EFR = {owns_state = 26} NOT = {EFR = { has_country_flag = EFR_torch_declared}} } }	EFR = { every_owned_state = {  set_demilitarized_zone = yes } 26 = { set_demilitarized_zone = no  } } } }
 		}
 	}
+	    ITA_end_iraq = {
+		icon = generic_operation
+		allowed = {	original_tag = ITA	}
+		available = { country_exists = ALB 	}		
+		visible = { ALB = { has_completed_focus = IRQ_the_golden_square_coup }  }
+		cost = 0		
+		fire_only_once = yes
+		complete_effect = {
+				annex_country = {
+					target = ALB
+					transfer_troops = yes 
+				}
+				
+		}
+	}
 	GER_barbarossa_mission = { 
 		icon = generic_operation
 		allowed = {
