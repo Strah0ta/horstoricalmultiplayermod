@@ -151,6 +151,8 @@ NDefines.NNavy.NAVALBASE_REPAIR_MULT = 0.1 --vanilla 0.05 repairing a battleship
 NDefines.NNavy.CONVOY_EFFICIENCY_LOSS_MODIFIER = 0.25   --  WAS 1.25, reduced so players have more time to deal with it | How much efficiency drops when losing convoys. If modifier is 0.5, then losing 100% of convoys in short period, the efficiency will drop by 50%.
 NDefines.NNavy.CONVOY_EFFICIENCY_MIN_VALUE = 0.2		-- WAS 0.05, reduced to lower the value of flickering supply to reset supply calculations  | To avoid complete 0% efficiency, set the lower limit.
 
+NDefines.NNavy.DETECTION_CHANCE_MULT_RADAR_BONUS = 0
+
 NDefines.NNavy.NAVAL_COMBAT_SUB_DETECTION_FACTOR = 5.0      -- balance value for sub detection in combat by ships
 NDefines.NNavy.SUBMARINE_REVEAL_ON_MINIMUM_POSITIONING    = 3.0  -- submarine reveal change on 0% positioning
 

@@ -95,6 +95,9 @@ technologies = {
 				enable_subunits = {
 			motorized
 		}
+						enable_subunits = {
+			mechanized
+		}
 		path = {
 			leads_to_tech = infantry_weapons2
 			research_cost_coeff = 1

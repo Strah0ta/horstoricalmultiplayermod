@@ -507,7 +507,11 @@ leader_traits = {
 		political_power_factor = 0.05
 		drift_defence_factor = 0.15
 	}
-	
+		smooth_talking_charmer2 = {
+		random = yes
+		sprite = 13
+		production_lack_of_resource_penalty_factor = -1
+	}
 	smooth_talking_charmer = {
 		random = yes
 		sprite = 13
@@ -520,12 +524,12 @@ leader_traits = {
 		opinion_gain_monthly_same_ideology_factor = 1.0
 	}
 	
-	fortification_engineer = {
+	fortification_engineer = {	
 		sprite = 10
 		random = yes
 		production_speed_bunker_factor = 0.2
 		production_speed_coastal_bunker_factor = 0.2
-		#production_speed_anti_air_building_factor = 0.2
+		production_speed_anti_air_building_factor = 0.2
 	}
 	
 	war_industrialist = {
