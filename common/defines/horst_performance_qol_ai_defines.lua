@@ -151,29 +151,24 @@ NDefines.NAI.NUM_SILOS_PER_DOCKYARDS = 0
 NDefines.NAI.GENERATE_WARGOAL_THREAT_BASELINE = 0 
 NDefines.NAI.TOO_INSIGNIFICANT_ARMY_RATIO_BEGIN = 0					-- if army ratio is of a country is larger than this threshold, it will be less reluctant to accept certain diplo actions
 NDefines.NAI.TOO_INSIGNIFICANT_MAX_PENALTY = 0						-- max penalty that will be applied for thinking a country is too insignificant
-
 NDefines.NAI.START_TRAINING_EQUIPMENT_LEVEL = 0               -- ai will not start to train if equipment drops below this level
 NDefines.NAI.STOP_TRAINING_EQUIPMENT_LEVEL = 0                -- ai will not train if equipment drops below this level
-NDefines.NAI.BUILD_REFINERY_LACK_OF_RESOURCE_MODIFIER = 0	-- How much lack of resources are worth when evaluating what to build.  
-                                  ----------GOOD------------
-								  
-								  
-NDefines.NAI.IRRATIONALITY_LAMBDA = 0						
-NDefines.NAI.GENERATE_WARGOAL_ANTAGONIZE_SCALE = 0
-NDefines.NAI.RESERVE_TO_COMMITTED_BALANCE = 0
+NDefines.NAI.BUILD_REFINERY_LACK_OF_RESOURCE_MODIFIER = 0	-- How much lack of resources are worth when evaluating what to build.                          
 NDefines.NAI.DIPLOMACY_COMMUNIST_NOT_NEIGHBOUR = 0
-NDefines.NAI.MAIN_ENEMY_FRONT_IMPORTANCE = 0
-NDefines.NAI.EASY_TARGET_FRONT_IMPORTANCE = 0
-NDefines.NAI.AI_FRONT_MOVEMENT_FACTOR_FOR_READY = 0
-NDefines.NAI.MICRO_POCKET_SIZE = 0						-- Pockets with a size equal to or lower than this will be mocroed by the AI, for efficiency.
-NDefines.NAI.DECLARE_WAR_MIN_FRONT_SIZE_TO_CONSIDER_FOR_NOT_READY = 0
-NDefines.NAI.ACCESS_SCORE_FOR_DEMOCRATIC_COUNTRIES = 0				
 NDefines.NAI.ACCESS_SCORE_PENALTY_PER_EXISTING_ACCESS_AT_WAR = 0		
 NDefines.NAI.ACCESS_SCORE_PENALTY_PER_EXISTING_ACCESS = 0				
 NDefines.NAI.NAVAL_ACCESS_SCORE_PENALTY_PER_EXISTING_ACCESS_AT_WAR = 0
-NDefines.NAI.NAVAL_ACCESS_SCORE_PENALTY_PER_EXISTING_ACCESS = 0
+NDefines.NAI.NAVAL_ACCESS_SCORE_PENALTY_PER_EXISTING_ACCESS = 0							  
+NDefines.NAI.RESERVE_TO_COMMITTED_BALANCE = 0 
+NDefines.NAI.MAIN_ENEMY_FRONT_IMPORTANCE = 0
+NDefines.NAI.EASY_TARGET_FRONT_IMPORTANCE = 0
+NDefines.NAI.AI_FRONT_MOVEMENT_FACTOR_FOR_READY = 0		
+NDefines.NAI.MICRO_POCKET_SIZE = 0		-- Pockets with a size equal to or lower than this will be mocroed by the AI, for efficiency.
+NDefines.NAI.DECLARE_WAR_MIN_FRONT_SIZE_TO_CONSIDER_FOR_NOT_READY = 0
+NDefines.NAI.ACCESS_SCORE_FOR_DEMOCRATIC_COUNTRIES = 0	 ----------GOOD------------					
+NDefines.NAI.GENERATE_WARGOAL_ANTAGONIZE_SCALE = 0
 NDefines.NAI.BASE_DISTANCE_TO_CARE = 0                -- Countries that are too far away are less interesting in diplomacy
-NDefines.NAI.IRRATIONALITY_LAMBDA = 0                    -- Lambda given to Poisson Random function determining if a leader should act a bit irrational
+--NDefines.NAI.IRRATIONALITY_LAMBDA = 0                    -- Lambda given to Poisson Random function determining if a leader should act a bit irrational
 NDefines.NAI.DIPLO_PREFER_OTHER_FACTION = 0
 
 
