@@ -5,7 +5,7 @@ set_rule = { can_be_spymaster = no }
 add_ideas = manpower_early
 add_ideas = armyandnavy_idea
 add_to_tech_sharing_group = commonwealth_research
-
+anti_cross_faction_trade_axis = yes 
 set_war_support = 0
 country_event = { id = poland.117 days = 1277 }
 oob = "HOL_1936"

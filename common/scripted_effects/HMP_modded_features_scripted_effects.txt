@@ -5,6 +5,7 @@ GER_all_plane_LL = {
 	send_equipment = { equipment = nav_bomber_equipment amount = 10000 target = GER }
 	send_equipment = { equipment = tac_bomber_equipment amount = 10000 target = GER }
 	send_equipment = { equipment = heavy_fighter_equipment amount = 10000 target = GER }	
+	send_equipment = { equipment = strat_bomber_equipment amount = 10000 target = GER }	
 	}
 	if = { limit = { tag = GER }
 	send_equipment = { equipment = fighter_equipment amount = 10000 target = ITA }
@@ -12,6 +13,7 @@ GER_all_plane_LL = {
 	send_equipment = { equipment = nav_bomber_equipment amount = 10000 target = ITA }
 	send_equipment = { equipment = tac_bomber_equipment amount = 10000 target = ITA }
 	send_equipment = { equipment = heavy_fighter_equipment amount = 10000 target = ITA }	
+	send_equipment = { equipment = strat_bomber_equipment amount = 10000 target = ITA }	
 	}
 }
 
@@ -1131,6 +1133,7 @@ USA_all_plane_LL = {
 	send_equipment = { equipment = nav_bomber_equipment amount = 10000 target = ENG }
 	send_equipment = { equipment = tac_bomber_equipment amount = 10000 target = ENG }
 	send_equipment = { equipment = heavy_fighter_equipment amount = 10000 target = ENG }
+	send_equipment = { equipment = strat_bomber_equipment amount = 10000 target = ENG }	
 }
 
 anti_cross_faction_trade_axis = {
@@ -1190,10 +1193,7 @@ add_opinion_modifier = {
     target = MAN
     modifier = anti_cross_faction_trade
 }
-add_opinion_modifier = {
-    target = ALB
-    modifier = anti_cross_faction_trade
-}
+
 }
 
 anti_cross_faction_trade_allies = {
