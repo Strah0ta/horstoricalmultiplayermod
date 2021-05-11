@@ -274,7 +274,7 @@ technologies = {
 		on_research_complete = {          
 		add_tech_bonus = {
 			name = "1941 Tank Variety Bonus"
-			bonus = 5.0
+			bonus = 3.0
 			uses = 1
 			category = cat_1941_tanks
 		}
@@ -495,7 +495,7 @@ technologies = {
 		on_research_complete = {
 			add_tech_bonus = {
 				name = "1941 Tank Variety Bonus"
-				bonus = 5.0
+				bonus = 3.0
 				uses = 1
 				category = cat_1941_tanks
 			}
@@ -581,7 +581,7 @@ technologies = {
 			on_research_complete = {
 			add_tech_bonus = {
 				name = "1943 Tank Variety Bonus"
-				bonus = 5.0
+				bonus = 3.0
 				uses = 1
 				category = cat_1943_tanks
 			}
@@ -847,7 +847,7 @@ technologies = {
 	on_research_complete = { 
 			add_tech_bonus = {
 				name = "1941 Tank Variety Bonus"
-				bonus = 5.0
+				bonus = 3.0
 				uses = 1
 				category = cat_1941_tanks
 			}
@@ -937,7 +937,7 @@ technologies = {
 			on_research_complete = {
 			add_tech_bonus = {
 				name = "1943 Tank Variety Bonus"
-				bonus = 5.0
+				bonus = 3.0
 				uses = 1
 				category = cat_1943_tanks
 			}
@@ -1029,7 +1029,7 @@ technologies = {
 		on_research_complete = {          
 			add_tech_bonus = {
 				name = "1943 Tank Variety Bonus"
-				bonus = 5.0
+				bonus = 3.0
 				uses = 1
 				category = cat_1943_tanks
 			}

@@ -1302,13 +1302,91 @@ ideas = {
 			removal_cost = -1
 				
 			modifier = {
+				war_support_factor = 0.1				
+				stability_factor = 0.15	
+				consumer_goods_factor = -0.05
+				drift_defence_factor = 0.75			
+			}
+		}
+
+		GRE_metaxism_5 = {
+				
+			allowed = {
+				original_tag = GRE
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = gre_metaxism
+				
+			removal_cost = -1
+				
+			modifier = {
+				war_support_factor = 0.15				
+				stability_factor = 0.15	
+				consumer_goods_factor = -0.05
+				army_core_defence_factor = 0.1
+				drift_defence_factor = 0.75			
+			}
+		}
+
+		GRE_metaxism_6 = {
+				
+			allowed = {
+				original_tag = GRE
+				has_country_leader = { 
+					name = "Ioannis Metaxas"
+					ruling_only = yes
+				}
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = gre_metaxism_empowered
+				
+			removal_cost = -1
+				
+			modifier = {
 				war_support_factor = 0.15				
 				stability_factor = 0.15	
 				consumer_goods_factor = -0.05
 				army_core_defence_factor = 0.1
 				conscription_factor = 0.15	
 				drift_defence_factor = 1.00	
-				neutrality_drift = 0.05			
+				neutrality_drift = 0.05				
+			}
+		}
+
+		GRE_metaxism_7 = {
+				
+			allowed = {
+				original_tag = GRE
+				has_country_leader = { 
+					name = "Ioannis Metaxas"
+					ruling_only = yes
+				}
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = gre_metaxism_empowered
+				
+			removal_cost = -1
+				
+			modifier = {
+				war_support_factor = 0.15				
+				stability_factor = 0.15	
+				consumer_goods_factor = -0.05
+				army_core_defence_factor = 0.1
+				conscription_factor = 0.15	
+				drift_defence_factor = 1.00	
+				fascism_drift = 0.05				
 			}
 		}
 
@@ -2128,7 +2206,7 @@ theorist = {
 			
 			picture = generic_air_europe_2
 			
-			traits = {  }
+			traits = { air_bomber_interception_2 }
 			
 			ai_will_do = {
 				factor = 1
@@ -2476,7 +2554,7 @@ theorist = {
 				naval_equipment = 0.15
 			}
 			
-			traits = { med_fleet_naval_manufacturer }
+			traits = { mediterranean_naval_manufacturer }
 		}
 
 		GRE_astilleros_onassis = {

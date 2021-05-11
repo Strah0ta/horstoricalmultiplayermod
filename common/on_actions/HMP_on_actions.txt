@@ -2,6 +2,7 @@ on_actions = {
 	on_new_term_election = {	random_events = { 100 = election.14 100 = election.15 }	}
 	on_startup = {
 		effect = {
+			if={limit={NOT={is_historical_focus_on=yes}} every_country={news_event={id=horsttool.2}}}
 			if = { limit = {has_game_rule = {rule = horst_host_country option = DIS}} set_variable={host = DIS.id} }
 			else_if = { limit = {has_game_rule = {rule = horst_host_country option = GER}} set_variable={host = GER.id} }
 			else_if = { limit = {has_game_rule = {rule = horst_host_country option = ITA}} set_variable={host = ITA.id} }

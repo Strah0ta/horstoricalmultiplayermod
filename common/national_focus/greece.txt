@@ -27,7 +27,7 @@ focus_tree = {
 		icon = GFX_focus_generic_home_defense
 		available = {always = no}
 
-		x = 1
+		x = 5
 		y = 0
 		cost = 5
 		ai_will_do = {
@@ -40,7 +40,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			add_stability = 0.2
+			add_stability = 0.1
 		}
 	}
 
@@ -49,7 +49,7 @@ focus_tree = {
 		id = GRE_metaxism_focus
 		icon = GFX_focus_GRE_metaxism
 		prerequisite = { focus = GRE_the_kings_government }
-		x = 0
+		x = 1
 		y = 1
 		relative_position_id = GRE_the_kings_government
 		cost = 10
@@ -87,6 +87,12 @@ focus_tree = {
 				}
 				set_party_name = { ideology = neutrality long_name = GRE_metaxas_party_long name = GRE_metaxas_party }
 				set_politics = { ruling_party = neutrality elections_allowed = no }
+				swap_ideas = { 
+					remove_idea = GRE_political_instability
+					add_idea = GRE_political_instability_metaxas
+				}
+				set_variable = { var = GRE_fascist_loyalty value = 0 }
+				GRE_political_instability_update_effect = yes
 			}
 		}
 	}
@@ -144,12 +150,31 @@ focus_tree = {
 	}
 
 	focus = {
-		id = GRE_use_the_military
-		icon = GFX_focus_generic_military_mission
-		prerequisite = { focus = GRE_the_national_youth_organisation }
-		x = -1
+		id = GRE_crack_down_on_the_republicans
+		icon = GFX_goal_generic_forceful_treaty
+		prerequisite = { focus = GRE_the_national_youth_organisation  }
+		x = 0
 		y = 1
 		relative_position_id = GRE_the_national_youth_organisation
+		cost = 10
+		ai_will_do = {
+			base = 1
+		}
+
+		search_filters = { FOCUS_FILTER_INTERNAL_AFFAIRS FOCUS_FILTER_STABILITY  }
+		completion_reward = {
+			add_stability = 0.1
+			unlock_decision_tooltip = GRE_crush_republicans
+		}
+	}
+
+	focus = {
+		id = GRE_use_the_military
+		icon = GFX_focus_generic_military_mission
+		prerequisite = { focus = GRE_crack_down_on_the_republicans }
+		x = -2
+		y = 1
+		relative_position_id = GRE_crack_down_on_the_republicans
 		cost = 10
 		ai_will_do = {
 			base = 1
@@ -209,6 +234,105 @@ focus_tree = {
 				set_rule = { can_create_factions = yes }
 			}
 		}
+	}
+
+	focus = {
+		id = GRE_our_traditional_allies_in_the_aegean
+		icon = GFX_goal_generic_major_alliance
+		prerequisite = { focus = GRE_use_the_military }
+		x = -2
+		y = 1
+		relative_position_id = GRE_use_the_military
+		cost = 5
+		ai_will_do = {
+			base = 0
+			modifier = { 
+				add = 1
+				OR = { 
+					is_historical_focus_on = no
+					ITA = { has_offensive_war_with = GRE }
+				}
+			}
+		}
+
+		bypass = {
+			OR = { 
+				GRE = { 
+					is_in_faction_with = ENG
+				}
+				AND = { 
+					ENG = { has_government = communism }
+					ROM = { NOT = { has_completed_focus = ROM_the_cordon_sanitaire } }
+				}
+			}
+		}
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			if = {
+				limit = { 
+					ENG = { 
+						NOT = { has_completed_focus = ENG_concessions_to_the_trade_unions }
+						is_faction_leader = yes
+					}
+				}
+				ENG = { country_event = { id  = generic.2 days = 7 } }
+			}
+			else_if = {
+				limit = { 
+					ROM = { 
+						has_completed_focus = ROM_the_cordon_sanitaire
+						is_faction_leader = yes
+					}
+				}
+				ROM = { country_event = { id  = generic.2 days = 7 } }
+			}
+			else = { 
+				add_political_power = 120
+				add_war_support = 0.1
+			}
+			if = {
+				limit = { 
+					has_country_leader = { 
+						name = "Ioannis Metaxas"
+						ruling_only = yes
+					}
+				}
+				custom_effect_tooltip = GRE_metaxism_lost_tt
+			}
+			hidden_effect = { 		
+				if = {
+					limit = { 
+						has_idea = GRE_metaxism
+					}	
+					remove_ideas = GRE_metaxism
+				} 
+				if = {
+					limit = { 
+						has_idea = GRE_metaxism_2
+					}	
+					remove_ideas = GRE_metaxism_2
+				}
+				if = {
+					limit = { 
+						has_idea = GRE_metaxism_3
+					}	
+					remove_ideas = GRE_metaxism_3
+				}
+				if = {
+					limit = { 
+						has_idea = GRE_metaxism_4
+					}	
+					remove_ideas = GRE_metaxism_4
+				}
+				if = {
+					limit = { 
+						has_idea = GRE_metaxism_5
+					}	
+					remove_ideas = GRE_metaxism_5
+				}
+			}
+		}	
 	}
 
 	focus = {
@@ -321,9 +445,60 @@ focus_tree = {
 	}
 
 	focus = {
+		id = GRE_the_greater_enosis
+		icon = GFX_focus_generic_befriend_cyprus
+		prerequisite = { focus = GRE_our_traditional_allies_in_the_aegean }
+		x = 0
+		y = 1
+		relative_position_id = GRE_our_traditional_allies_in_the_aegean
+		cost = 10
+
+		search_filters = { FOCUS_FILTER_ANNEXATION }
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = GRE_expansion_of_athens_university
+		icon = GFX_goal_generic_scientific_exchange
+		prerequisite = { focus = GRE_the_greater_enosis  }
+		x = 0
+		y = 1
+		relative_position_id = GRE_the_greater_enosis
+		cost = 10
+		ai_will_do = {
+			base = 1
+		}
+
+		search_filters = { FOCUS_FILTER_RESEARCH }
+		completion_reward = {
+			add_research_slot = 1
+		}
+	}
+
+	focus = {
+		id = GRE_protectors_of_the_mediterranean
+		icon = GFX_focus_generic_coastal_fort
+		prerequisite = { focus = GRE_expansion_of_athens_university }
+		x = 0
+		y = 1
+		relative_position_id = GRE_expansion_of_athens_university
+		cost = 10
+		ai_will_do = {
+			base = 1
+		}
+
+		completion_reward = {
+			add_political_power = 120
+			add_ideas = GRE_protectors_of_the_mediterranean_spirit
+		}
+	}	
+
+	focus = {
 		id = GRE_an_orthodox_state
 		icon = GFX_focus_GRE_an_orthodox_state
-		prerequisite = { focus = GRE_the_national_youth_organisation }
+		prerequisite = { focus = GRE_use_the_military }
 		available = { 
 			has_country_leader = { 
 				name = "Ioannis Metaxas"
@@ -332,9 +507,9 @@ focus_tree = {
 			is_in_faction = no
 			has_idea = GRE_metaxism_2
 		}
-		x = 1
-		y = 1
-		relative_position_id = GRE_the_national_youth_organisation
+		x = 0
+		y = 2
+		relative_position_id = GRE_crack_down_on_the_republicans
 		cost = 10
 		ai_will_do = {
 			base = 1
@@ -376,10 +551,15 @@ focus_tree = {
 	}
 
 	focus = {
-		id = GRE_reviving_the_spartan_warrior_spirit
-		icon = GFX_focus_GRE_reviving_the_spartan_warrior_spirit
+		id = GRE_third_hellenic_civilization
+		icon = GFX_goal_generic_demand_territory
 		prerequisite = { focus = GRE_an_orthodox_state }
 		available = { 
+			has_country_leader = { 
+				name = "Ioannis Metaxas"
+				ruling_only = yes
+			}
+			is_in_faction = no
 			has_idea = GRE_metaxism_3
 		}
 		x = 0
@@ -411,6 +591,88 @@ focus_tree = {
 		}
 	}
 
+	focus = {
+		id = GRE_defending_our_kingdom
+		icon = GFX_goal_generic_defence
+		prerequisite = { focus = GRE_third_hellenic_civilization }
+		available = { 
+			has_country_leader = { 
+				name = "Ioannis Metaxas"
+				ruling_only = yes
+			}
+			is_in_faction = no
+			has_idea = GRE_metaxism_4
+		}
+		x = 0
+		y = 1
+		relative_position_id = GRE_third_hellenic_civilization
+		cost = 10
+		ai_will_do = {
+			base = 1
+		}
+
+		completion_reward = {
+			effect_tooltip = { 
+				swap_ideas = {
+					remove_idea = GRE_metaxism_4
+					add_idea = GRE_metaxism_5
+				}
+			}
+			hidden_effect = { 
+				if = {
+					limit = {
+						has_idea = GRE_metaxism_4
+					}
+					swap_ideas = {
+						remove_idea = GRE_metaxism_4
+						add_idea = GRE_metaxism_5
+					}
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = GRE_reviving_the_spartan_warrior_spirit
+		icon = GFX_focus_GRE_reviving_the_spartan_warrior_spirit
+		prerequisite = { focus = GRE_defending_our_kingdom }
+		available = { 
+			has_country_leader = { 
+				name = "Ioannis Metaxas"
+				ruling_only = yes
+			}
+			is_in_faction = no
+			has_idea = GRE_metaxism_5
+		}
+		x = 0
+		y = 1
+		relative_position_id = GRE_defending_our_kingdom
+		cost = 10
+		ai_will_do = {
+			base = 1
+		}
+
+		completion_reward = {
+			effect_tooltip = { 
+				swap_ideas = {
+					remove_idea = GRE_metaxism_5
+					add_idea = GRE_metaxism_6
+				}
+			}
+			hidden_effect = { 
+				if = {
+					limit = {
+						has_idea = GRE_metaxism_5
+					}
+					swap_ideas = {
+						remove_idea = GRE_metaxism_5
+						add_idea = GRE_metaxism_6
+					}
+				}
+			}
+		}
+	}
+
 
 
 
@@ -423,7 +685,7 @@ focus_tree = {
 	focus = {
 		id = GRE_reevaluating_the_drachma
 		icon = GFX_focus_GRE_reevaluating_the_drachma
-		x = 8
+		x = 14
 		y = 0
 		cost = 5
 		available = {always = no}
@@ -432,25 +694,11 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_GRE_DEBT_TO_IFC FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
 			add_political_power = 120
+			unlock_decision_category_tooltip = GRE_pay_back_debt_to_the_ifc_category
+			custom_effect_tooltip = GRE_pay_back_debt_tt
 		}
 	}
-	focus = {
-		id = GRE_expansion_of_athens_university
-		icon = GFX_goal_generic_scientific_exchange
-		prerequisite = { focus = GRE_reevaluating_the_drachma  }
-		x = -1
-		y = 2
-		relative_position_id = GRE_reevaluating_the_drachma
-		cost = 10
-		ai_will_do = {
-			base = 1
-		}
 
-		search_filters = { FOCUS_FILTER_RESEARCH }
-		completion_reward = {
-			add_research_slot = 1
-		}
-	}
 	focus = {
 		id = GRE_lignite_liquefaction
 		icon = GFX_goal_generic_oil_refinery
@@ -511,6 +759,16 @@ focus_tree = {
 				}
 				add_stability = -0.15
 			}
+			else_if = { 
+				limit = { 
+					has_idea = GRE_agricultural_communes_idea
+				}
+				add_timed_idea = {
+					idea = GRE_rural_exodus 
+					days = 280
+				}
+				add_stability = -0.10
+			}
 		}	
 	}	
 
@@ -524,9 +782,27 @@ focus_tree = {
 		relative_position_id = GRE_force_the_farmers_into_factories
 		cost = 10
 
+		bypass = {
+			OR = {
+				has_country_flag = GRE_completely_debt_free
+				has_country_flag = GRE_defaulted_on_debt_flag
+				custom_trigger_tooltip = { 
+					tooltip = GRE_paid_off_most_of_debt_tt
+					AND = {
+						check_variable = { var = GRE_debt_to_the_ifc_britain_var value = 2.5 compare = less_than_or_equals }
+						check_variable = { var = GRE_debt_to_the_ifc_france_var value = 2.5 compare = less_than_or_equals }
+						check_variable = { var = GRE_debt_to_the_ifc_italy_var value = 2.5 compare = less_than_or_equals }
+					}
+				}
+			}
+		}
+
 		search_filters = { FOCUS_FILTER_GRE_DEBT_TO_IFC FOCUS_FILTER_STABILITY }
 		completion_reward = {
 			add_stability = 0.05
+			custom_effect_tooltip = GRE_paying_back_our_debts_in_bulk_ENG_tt
+			custom_effect_tooltip = GRE_paying_back_our_debts_in_bulk_FRA_tt
+			custom_effect_tooltip = GRE_paying_back_our_debts_in_bulk_ITA_tt
 		}
 	}
 
@@ -534,11 +810,33 @@ focus_tree = {
 		id = GRE_fiscal_responsibility
 		icon = GFX_focus_generic_treaty
 		prerequisite = { focus = GRE_paying_back_our_debts_in_bulk }
-
+		available = { 
+			OR = {
+				custom_trigger_tooltip = { 
+					tooltip = GRE_fiscal_responsibility_tt
+					OR = { 
+						has_idea = GRE_debt_to_the_ifc_2
+						has_idea = GRE_debt_to_the_ifc_3
+						has_country_flag = GRE_completely_debt_free
+					}
+				}
+				has_government = communism
+			}
+		}
 		x = 0
 		y = 1
 		relative_position_id = GRE_paying_back_our_debts_in_bulk
 		cost = 10
+		ai_will_do = {
+			base = 1
+		}
+
+		bypass = {
+			AND = {
+				has_country_flag = GRE_defaulted_on_debt_flag
+				NOT = { has_government = communism }
+			}
+		}
 
 		completion_reward = {
 			if = {
@@ -1018,7 +1316,7 @@ focus_tree = {
 		available = { 
 			date < 1938.01.01
 		}
-		x = 2
+		x = 4
 		y = 1
 		relative_position_id = GRE_metaxism_focus
 		cost = 10
@@ -1061,17 +1359,12 @@ focus_tree = {
 	focus = {
 		id = GRE_hellenic_armed_forces
 		icon = GFX_focus_GRE_hellenic_armed_forces
-		x = 16
+		x = 21
 		y = 0
 		cost = 10
 		available = {always = no}
 		completion_reward = {
-			add_tech_bonus = {
-				name = GRE_the_hellenic_army
-				bonus = 1.0
-				uses = 2
-				category = land_doctrine
-			}
+
 		}
 	}
 
@@ -1102,7 +1395,13 @@ focus_tree = {
 			base = 1
 		}
 
-		completion_reward = {	
+		completion_reward = {
+			add_tech_bonus = {
+				name = GRE_the_hellenic_army
+				bonus = 1.0
+				uses = 2
+				category = land_doctrine
+			}
 			add_tech_bonus = {
 				name = GRE_the_hellenic_army
 				bonus = 1.0
@@ -1182,13 +1481,13 @@ focus_tree = {
 			}
 			add_tech_bonus = {
 				name = GRE_a_modern_navy
-				bonus = 1.0
+				bonus = 0.75
 				uses = 1
 				category = dd_tech
 			}
 			add_tech_bonus = {
 				name = GRE_a_modern_navy
-				bonus = 1.0
+				bonus = 0.75
 				uses = 1
 				category = ss_tech
 			}
@@ -1223,7 +1522,6 @@ focus_tree = {
 		}
 
 		completion_reward = {
-					add_ideas = GRE_protectors_of_the_mediterranean_spirit
 			add_tech_bonus = {
 				name = GRE_a_fleet_fit_for_the_aegean
 				bonus = 1.0
@@ -1233,7 +1531,7 @@ focus_tree = {
 			}
 			add_tech_bonus = {
 				name = GRE_a_fleet_fit_for_the_aegean
-				bonus = 1.0
+				bonus = 0.75
 				uses = 2
 				category = naval_doctrine
 			}
@@ -1255,7 +1553,7 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = GRE_disrupting_the_great_powers
-				bonus = 1.0
+				bonus = 0.75
 				uses = 1
 				category = ss_tech
 			}
@@ -1345,10 +1643,10 @@ focus_tree = {
 	focus = {
 		id = GRE_the_backbone_of_our_army
 		icon = GFX_focus_generic_military_mission
-		prerequisite = { focus = GRE_hellenic_armed_forces }
+		prerequisite = { focus = GRE_the_hellenic_army }
 		x = -2
 		y = 1
-		relative_position_id = GRE_hellenic_armed_forces	
+		relative_position_id = GRE_the_hellenic_army
 		cost = 10
 		ai_will_do = {
 			base = 1
@@ -1392,7 +1690,7 @@ focus_tree = {
 		id = GRE_a_legacy_of_war
 		icon = GFX_goal_generic_occupy_states_ongoing_war
 		prerequisite = { focus = GRE_the_hellenic_army }
-		x = 0
+		x = 2
 		y = 1
 		relative_position_id = GRE_the_hellenic_army
 		cost = 10
@@ -1430,24 +1728,24 @@ focus_tree = {
 	focus = {
 		id = GRE_embracing_modern_warfare
 		icon = GFX_focus_generic_tank_production
-		prerequisite = { focus = GRE_hellenic_armed_forces }
-		x = 3
+		prerequisite = { focus = GRE_the_backbone_of_our_army }
+		x = 0
 		y = 1
-		relative_position_id = GRE_hellenic_armed_forces
+		relative_position_id = GRE_the_backbone_of_our_army
 		cost = 10
 
 		completion_reward = {
 			add_tech_bonus = {
 				name = GRE_embracing_modern_warfare
-				bonus = 3.0
+				bonus = 0.75
 				uses = 1
-				category = motorized_equipment
+				category = cat_light_armor
 			}
 			add_tech_bonus = {
-				name = GRE_hellenic_armoured_corp
+				name = GRE_embracing_modern_warfare
 				bonus = 1.0
 				uses = 1
-				category = cat_1941_tanks
+				category = motorized_equipment
 			}
 		}
 	}		
@@ -1455,10 +1753,10 @@ focus_tree = {
 	focus = {
 		id = GRE_new_weapons_old_tricks
 		icon = GFX_goal_generic_army_artillery2
-		prerequisite = { focus = GRE_the_backbone_of_our_army }
+		prerequisite = { focus = GRE_a_legacy_of_war }
 		x = 0
 		y = 1
-		relative_position_id = GRE_the_backbone_of_our_army
+		relative_position_id = GRE_a_legacy_of_war
 		cost = 10
 
 		completion_reward = {
@@ -1487,13 +1785,18 @@ focus_tree = {
 		y = 1
 		relative_position_id = GRE_embracing_modern_warfare
 		cost = 10
+		ai_will_do = {
+			base = 1
+		}
 
 		completion_reward = {
 			add_tech_bonus = {
 				name = GRE_hellenic_armoured_corp
 				bonus = 1.0
+				ahead_reduction = 1
 				uses = 1
-				category = cat_1943_tanks
+				category = cat_light_armor
+				category = cat_medium_armor
 			}
 		}
 	}	
@@ -1501,11 +1804,14 @@ focus_tree = {
 	focus = {
 		id = GRE_greek_mechanisation
 		icon = GFX_goal_generic_build_tank
-		prerequisite = { focus = GRE_hellenic_armoured_corp }
+		prerequisite = { focus = GRE_new_weapons_old_tricks }
 		x = 0
 		y = 1
-		relative_position_id = GRE_hellenic_armoured_corp
+		relative_position_id = GRE_new_weapons_old_tricks
 		cost = 10
+		ai_will_do = {
+			base = 1
+		}
 
 		completion_reward = {
 			add_tech_bonus = {
@@ -1520,10 +1826,10 @@ focus_tree = {
 	focus = {
 		id = GRE_a_land_of_mountains
 		icon = GFX_focus_GRE_a_land_of_mountains
-		prerequisite = { focus = GRE_new_weapons_old_tricks  }
-		x = 0
+		prerequisite = { focus = GRE_hellenic_armoured_corp focus = GRE_greek_mechanisation }
+		x = 2
 		y = 1
-		relative_position_id = GRE_new_weapons_old_tricks
+		relative_position_id = GRE_hellenic_armoured_corp
 		cost = 10
 		ai_will_do = {
 			base = 1
@@ -1567,7 +1873,37 @@ focus_tree = {
 			}
 		}
 	}
+	focus = {
+		id = GRE_modern_cataphracts
+		icon = GFX_focus_generic_army_tanks2
+		prerequisite = { focus = GRE_a_land_of_mountains }
+		available = { has_global_flag = form_byzantine_empire_flag }
+		x = 0
+		y = 1
+		relative_position_id = GRE_a_land_of_mountains
+		cost = 10
 
+		search_filters = { FOCUS_FILTER_MANPOWER }
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 1.0
+				uses = 1
+				name = GRE_modern_cataphracts
+				technology = mechanised_infantry
+			}
+			add_tech_bonus = {
+				name = GRE_modern_cataphracts
+				bonus = 0.5
+				ahead_reduction = 2
+				uses = 1
+				category = cat_heavy_armor
+			}
+			swap_ideas = {
+				remove_idea = GRE_hellenic_army_3
+				add_idea = GRE_byzantine_army
+			}
+		}
+	}
 
 	focus = {
 		id = GRE_thema_nautikon
