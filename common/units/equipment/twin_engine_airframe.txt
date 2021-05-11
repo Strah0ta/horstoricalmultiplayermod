@@ -122,7 +122,7 @@ equipments = {
 		build_cost_ic = 74
 		resources = {
 			#oil = 1
-			aluminium = 3
+			aluminium = 2
 			rubber = 1
 		}
 		naval_strike_attack = 15
@@ -148,7 +148,7 @@ equipments = {
 		build_cost_ic = 78
 		resources = {
 			#oil = 1
-			aluminium = 4
+			aluminium = 3
 			rubber = 1
 		}
 		naval_strike_attack = 25
@@ -173,7 +173,7 @@ equipments = {
 		
 		build_cost_ic = 82
 		resources = {
-			aluminium = 5
+			aluminium = 4
 			rubber = 1
 		}
 		naval_strike_attack = 31.2
@@ -203,7 +203,7 @@ equipments = {
 		
 		build_cost_ic = 180
 		resources = {
-			aluminium = 6
+			aluminium = 5
 			rubber = 1
 		}
 		
@@ -229,7 +229,7 @@ equipments = {
 		
 		build_cost_ic = 192
 		resources = {
-			aluminium = 7
+			aluminium = 6
 			rubber = 1
 		}
 				

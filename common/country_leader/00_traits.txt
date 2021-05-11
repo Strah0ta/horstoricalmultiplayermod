@@ -9,7 +9,7 @@ leader_traits = {
 	protector_of_islam = { 
 		random = no
 		sprite = 13
-
+		surrender_limit = 0.1
 	}
 	sharp_tongued_lawyer = {
 		random = no

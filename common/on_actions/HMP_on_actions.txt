@@ -191,6 +191,13 @@ on_actions = {
 				ITA = { every_unit_leader = { set_nationality = GER }  }
 				GER = { change_tag_from = ITA } 
 				GER = { annex_country = { target = ITA transfer_troops = yes } }
+				GER = { set_autonomy = {
+    target = YUG
+    autonomy_state = reichskommissariat
+}
+
+			}
+			YUG = { set_cosmetic_tag = CRO_fascism}
 			}
 			if = {
 				limit = {  HMP_italy_sort_of_dying = yes	}
