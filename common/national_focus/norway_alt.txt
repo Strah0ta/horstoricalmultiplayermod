@@ -492,16 +492,6 @@ focus_tree = {
 					}
 					
 				}
-				create_field_marshal = {
- 	name = "King Haakon VII"
- 	portrait_path = "gfx/leaders/NOR/portrait_norway_haakon_vii.tga"
- 	traits = { organizer thorough_planner inspirational_leader offensive_doctrine infantry_leader infantry_expert trickster }
-	skill = 6
- 	attack_skill = 6
-	defense_skill = 4
-	planning_skill = 5
-	logistics_skill = 4
-}
 	if = { limit = { controls_state = 110 } ENG = { set_country_flag = ENG_swe_resources }   SWE = { give_resource_rights = { receiver = ENG state = 576 } }  }
 						
 		}

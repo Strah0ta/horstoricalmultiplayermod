@@ -1411,7 +1411,7 @@ hidden_effect = {
 }
  every_country = { limit = { is_in_faction_with = ENG NOT = { tag = USA }}
 create_field_marshal = {  #North Africa
-    name = "Harold Alexander" # Aristocrat
+    name = "Harold Alexander" # Aristocrat  ###POINT VALUE: 20
     portrait_path = "gfx/leaders/ENG/Portrait_Britain_Harold_Alexander.dds" #Point Value: 
     traits = { offensive_doctrine organisational_leader trickster infantry_leader infantry_expert organizer thorough_planner logistics_wizard  trait_mountaineer desert_fox   }
     skill = 8
@@ -1421,9 +1421,9 @@ create_field_marshal = {  #North Africa
     logistics_skill = 7
 }
 create_corps_commander = {
-    name = "Oliver Leese" # Aristocrat
+    name = "Oliver Leese" # Aristocrat ###POINT VALUE:  20
     portrait_path = "gfx/leaders/ENG/Portrait_Britain_Oliver_Leese.dds" #Point Value: 
-    traits = {  panzer_leader panzer_expert trait_mountaineer desert_fox trait_engineer harsh_leader }
+    traits = {  panzer_leader panzer_expert trait_mountaineer expert_improviser desert_fox urban_assault_specialist trait_engineer fortress_buster harsh_leader }
     skill = 8
     attack_skill = 7
     defense_skill = 5
@@ -1457,11 +1457,10 @@ create_corps_commander = {
 		EFR = { set_country_flag = EFR_torch_declared diplomatic_relation = { country = GER relation = military_access	active = yes	} diplomatic_relation = { country = ITA relation = military_access	active = yes	} diplomatic_relation = { country = ROM relation = military_access	active = yes	} diplomatic_relation = { country = BUL relation = military_access	active = yes	} diplomatic_relation = { country = HUN relation = military_access	active = yes	} if = { limit= {country_exists = ALB }diplomatic_relation = { country = ALB relation = military_access	active = yes	}}}
 				USA = { country_event = { id = usa.996  days = 0 } 
 				create_field_marshal = {
-	name = "Geoffrey Keyes"
+	name = "Geoffrey Keyes" #Point Value: 18
 	picture = "Portrait_USA_Geoffrey_Keyes.dds"
-	traits = { organizer logistics_wizard fast_planner trait_engineer infantry_leader infantry_expert trait_mountaineer hill_fighter trickster expert_improviser }
+	traits = { inflexible_strategist logistics_wizard unyielding_defender trait_engineer infantry_leader infantry_expert trait_mountaineer hill_fighter desert_fox naval_invader trickster expert_improviser }
 	skill = 8
-
 	attack_skill = 6
 	defense_skill = 5
 	planning_skill = 6
@@ -1472,11 +1471,10 @@ create_corps_commander = {
 459 = { add_building_construction  = { type = naval_base level = 15 province = 1145 instant_build = yes }}
 
 create_corps_commander = { 
-	name = "Lloyd Fredendall"
+	name = "Lloyd Fredendall" #Point Value: 20
 	picture = "Portrait_USA_Lloyd_Fredendall.dds"
-	traits = { old_guard inflexible_strategist unyielding_defender trait_engineer scavenger infantry_leader infantry_expert trait_mountaineer expert_improviser hill_fighter trickster fake_skilled_staffer  }
+	traits = { old_guard organizer  trait_engineer  infantry_leader infantry_expert trait_mountaineer  hill_fighter  fake_skilled_staffer  }
 	skill = 8
-
 	attack_skill = 7
 	defense_skill = 5
 	planning_skill = 4
