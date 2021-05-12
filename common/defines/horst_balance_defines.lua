@@ -24,7 +24,7 @@ NDefines.NMilitary.EXPERIENCE_COMBAT_FACTOR = 0.1       -- WAS 0.25 | Turns out 
 NDefines.NMilitary.MAX_NAVY_EXPERIENCE = 0             -- WAS 500
 NDefines.NMilitary.MAX_AIR_EXPERIENCE = 0			   -- WAS 500
 NDefines.NMilitary.MAX_ARMY_EXPERIENCE = 0		   -- WAS 500
-NDefines.NMilitary.RIVER_CROSSING_SPEED_PENALTY = -0.2	           -- vanilla 0.25; Speed Penalty is 15% with vanilla makeshift bridges;small river crossing
+NDefines.NMilitary.RIVER_CROSSING_SPEED_PENALTY = -0.25	           -- vanilla 0.25; Speed Penalty is 15% with vanilla makeshift bridges;small river crossing
 NDefines.NMilitary.RIVER_CROSSING_SPEED_PENALTY_LARGE = -0.4     -- vanilla 0.5; Speed Penalty is 30% with vanilla makeshift bridges; large river crossing
 NDefines.NMilitary.UNIT_LEADER_TRAIT_SLOT_PER_LEVEL = { 			-- ALL TRAITS ARE PREASSIGNED BC OF EXPLOITS - num extra traits on each level
 		0, -- field marshal
