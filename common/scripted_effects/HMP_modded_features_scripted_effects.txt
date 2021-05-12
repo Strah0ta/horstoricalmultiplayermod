@@ -4972,10 +4972,10 @@ create_corps_commander = {  ###SOLID
 	logistics_skill = 6
 }
 
-create_corps_commander = {  
+create_corps_commander = {   ###SOLID
 	name = "Godfried van Voorst tot Voorst" #Point value: 18
 	portrait_path = "gfx/leaders/HOL/portrait_hol_godfried_van_voorst_tot_voorst.dds"
-	traits = {  trickster trait_engineer brilliant_strategist  panzer_leader panzer_expert desert_fox hill_fighter   }
+	traits = {  trickster trait_engineer brilliant_strategist  panzer_leader panzer_expert jungle_rat trait_mountaineer   }
 	skill = 6
     attack_skill = 5
     defense_skill = 3
@@ -4984,9 +4984,9 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Euclides Zenobio Da Costa"   #Point Value: 18
+	name = "Euclides Zenobio Da Costa"   #Point Value: 18 ###SOLID
 	portrait_path = "gfx/leaders/BRA/portrait_BRA_Euclides_Zenobio_Da_Costa.dds"
-	traits = { hill_fighter desert_fox jungle_rat urban_assault_specialist infantry_leader ambusher guerilla_fighter naval_invader }
+	traits = {  desert_fox  adaptable infantry_leader infantry_expert trickster }
 	skill = 6
 	attack_skill = 3
 	defense_skill = 4
@@ -4994,9 +4994,9 @@ create_corps_commander = {
 	logistics_skill = 6
 }
 create_corps_commander = {
-	name = "Mascarenhas de Morais" #Point Value: 18
+	name = "Mascarenhas de Morais" #Point Value: 18 ###SOLID
 	portrait_path = "gfx/leaders/BRA/Mascarenhas_de_Morais.tga"
-	traits = { panzer_leader panzer_expert trait_engineer fortress_buster urban_assault_specialist jungle_rat organizer }
+	traits = { panzer_leader panzer_expert trait_engineer fortress_buster bearer_of_artillery  urban_assault_specialist ranger }
 	skill = 6
 	attack_skill = 5
 	defense_skill = 4
