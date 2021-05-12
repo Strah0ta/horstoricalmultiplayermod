@@ -478,7 +478,7 @@ ITA= { 	 add_relation_modifier = {
         completion_reward = {  
     add_tech_bonus = {
         bonus = 0.5
-        uses = 3
+        uses = 5
         category = artillery
       }
      }
@@ -532,7 +532,7 @@ ITA= { 	 add_relation_modifier = {
         completion_reward = { 
     add_tech_bonus = {
         bonus = 0.5
-        uses = 3
+        uses = 4
         category = infantry_weapons
       }
 
@@ -553,7 +553,7 @@ ITA= { 	 add_relation_modifier = {
         add_tech_bonus = {
         bonus = 0.5
         ahead_reduction = 1
-        uses = 2
+        uses = 1
         category = infantry_weapons
     } 
    }  
@@ -574,13 +574,13 @@ ITA= { 	 add_relation_modifier = {
         add_tech_bonus = {
         bonus = 0.5
         ahead_reduction = 1
-        uses = 2
+        uses = 1
         category = artillery
       }
 	          add_tech_bonus = {
         bonus = 0.51
         ahead_reduction = 1
-        uses = 2
+        uses = 1
         category = cat_anti_tank
       }
     } 

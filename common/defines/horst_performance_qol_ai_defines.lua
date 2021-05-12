@@ -168,7 +168,7 @@ NDefines.NAI.DECLARE_WAR_MIN_FRONT_SIZE_TO_CONSIDER_FOR_NOT_READY = 0
 NDefines.NAI.ACCESS_SCORE_FOR_DEMOCRATIC_COUNTRIES = 0	 ----------GOOD------------					
 NDefines.NAI.GENERATE_WARGOAL_ANTAGONIZE_SCALE = 0
 NDefines.NAI.BASE_DISTANCE_TO_CARE = 0                -- Countries that are too far away are less interesting in diplomacy
---NDefines.NAI.IRRATIONALITY_LAMBDA = 0                    -- Lambda given to Poisson Random function determining if a leader should act a bit irrational
+--NDefines.NAI.IRRATIONALITY_LAMBDA = -1                 -- Lambda given to Poisson Random function determining if a leader should act a bit irrational
 NDefines.NAI.DIPLO_PREFER_OTHER_FACTION = 0
 
 

@@ -1,39 +1,4 @@
 custom_generals = {
-	#TO ALT ALLIES
-	create_corps_commander = {
-		name = "Charalambos Katsimitros"
-		portrait_path = "gfx/leaders/GRE/portrait_gre_charalambos_katsimitros.dds"
-		traits = {  inflexible_strategist war_hero trait_cautious trickster trait_mountaineer }
-		skill = 3 
-		attack_skill = 2
-		defense_skill = 3
-		planning_skill = 3
-		logistics_skill = 2 
-	}
-
-#POLAND  #TO COMMONWEALTH
-create_field_marshal = {
-	name = "Władysław Sikorski"
-	portrait_path = "gfx/leaders/POL/Portrait_Poland_Wladyslaw_Sikorski.dds"
-	traits = { defensive_doctrine }
-	skill = 3
-	attack_skill = 2
-	defense_skill = 3
-	planning_skill = 2
-	logistics_skill = 3
-}
-create_corps_commander = {
-	name = "Władysław Anders"
-	portrait_path = "gfx/leaders/POL/Portrait_POL_Wladyslaw_Anders.dds"
-	traits = {  panzer_leader }
-	skill = 4
-	attack_skill = 4
-	defense_skill = 3
-	planning_skill = 3
-	logistics_skill = 3
-}
-
-
 if = {
 	limit = {
 		has_dlc = "La Resistance"
@@ -57,8 +22,4 @@ if = {
 		nationalities = { POL }
 	}
 }
-
-
-
-
 }

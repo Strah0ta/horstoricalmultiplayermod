@@ -4888,7 +4888,7 @@ create_field_marshal = {  ###CHANGE
 	logistics_skill = 5
 }
 
-create_field_marshal = {   ###
+create_field_marshal = {   
 	name = "Izaak Reijnders" #Point value: 14.5
 	portrait_path = "gfx/leaders/HOL/portrait_hol_izaak_reijnders.dds"
 	traits = { old_guard inflexible_strategist unyielding_defender inspirational_leader organizer logistics_wizard thorough_planner trait_reckless }
@@ -4930,7 +4930,7 @@ create_corps_commander = {  ###SOLID
 	planning_skill = 6
 	logistics_skill = 6	
 }
-create_corps_commander = {
+create_corps_commander = { ###SOLID
 	name = "Eurico Gaspar Dutra" #Point Value: 18
 	portrait_path = "gfx/leaders/BRA/Eurico_Gaspar_Dutra.tga"
 	traits = { naval_liason naval_invader bearer_of_artillery trait_mountaineer jungle_rat expert_improviser swamp_fox cavalry_expert combined_arms_expert cavalry_leader   }
@@ -4940,6 +4940,28 @@ create_corps_commander = {
 	planning_skill = 6
 	logistics_skill = 5
 	}
+	
+create_corps_commander = {  ###SOLID
+	name = "Marie-Pierre Koenig" #Point Value: 18
+	portrait_path = "gfx/leaders/FRA/portrait_fra_marie_pierre_koenig.dds"
+	traits = {   trait_engineer naval_invader naval_liason invader_ii adaptable panzer_leader panzer_expert  }
+	skill = 6
+    attack_skill = 3
+    defense_skill = 4
+    planning_skill = 10
+    logistics_skill = 2
+}
+ 
+create_corps_commander = {  ###SOLID
+	name = "Antoine-Marie-Benoît Besson" #Point Value: 18 #3/20/21 
+	portrait_path = "gfx/leaders/FRA/Portrait_France_Generic_land_2.dds"
+	traits = { inflexible_strategist  desert_fox cavalry_leader cavalry_expert combined_arms_expert ambusher trickster guerilla_fighter urban_assault_specialist  }
+	skill = 6
+	attack_skill = 4
+	defense_skill = 6
+	planning_skill = 4
+	logistics_skill = 6
+}
 
 create_corps_commander = {
 	name = "Godfried van Voorst tot Voorst" #Point value: 18
@@ -4963,8 +4985,8 @@ create_corps_commander = {
 	logistics_skill = 6
 }
 create_corps_commander = {
-	name = "Canrobert Pereira Da Costa" #Point Value: 18 
-	portrait_path = "gfx/leaders/BRA/portrait_BRA_Canrobert_Pereira_Da_Costa.dds"
+	name = "Mascarenhas de Morais" #Point Value: 18
+	portrait_path = "gfx/leaders/BRA/Mascarenhas_de_Morais.tga"
 	traits = { panzer_leader panzer_expert trait_engineer fortress_buster urban_assault_specialist jungle_rat organizer }
 	skill = 6
 	attack_skill = 5
@@ -4993,8 +5015,8 @@ create_corps_commander = {
 	logistics_skill = 6
 }
 create_corps_commander = {
-	name = "Mascarenhas de Morais" #Point Value: 18
-	portrait_path = "gfx/leaders/BRA/Mascarenhas_de_Morais.tga"
+		name = "Charalambos Katsimitros" #Point Value: 18
+		portrait_path = "gfx/leaders/GRE/portrait_gre_charalambos_katsimitros.dds"
 	traits = { naval_liason infantry_leader infantry_expert trait_mountaineer jungle_rat expert_improviser swamp_fox    }
 	skill = 6
 	attack_skill = 4
@@ -5014,21 +5036,6 @@ create_corps_commander = {
 	logistics_skill = 6
 }
 
-
-create_corps_commander = {
-	name = "Antoine-Marie-Benoît Besson" #Point Value: 18 #3/20/21 
-	portrait_path = "gfx/leaders/FRA/Portrait_France_Generic_land_2.dds"
-	traits = { inflexible_strategist  camouflage_expert cavalry_leader cavalry_expert combined_arms_expert ambusher trickster guerilla_fighter urban_assault_specialist  }
-	skill = 6
-	attack_skill = 4
-	defense_skill = 6
-	planning_skill = 4
-	logistics_skill = 6
-}
-
-
-
-
 create_corps_commander = {
 	name = "Henri Giraud" #Point Value: 18 #3/20/21 
 	portrait_path = "gfx/leaders/FRA/portrait_france_henri_giraud.dds"
@@ -5039,16 +5046,7 @@ create_corps_commander = {
 	planning_skill = 4
 	logistics_skill = 7
 }
-create_corps_commander = { 
-	name = "Marie-Pierre Koenig" #Point Value: 18
-	portrait_path = "gfx/leaders/FRA/portrait_fra_marie_pierre_koenig.dds"
-	traits = { jungle_rat  cavalry_leader cavalry_expert combined_arms_expert adaptable trickster guerilla_fighter urban_assault_specialist  }
-	skill = 6
-	attack_skill = 4
-	defense_skill = 6
-	planning_skill = 4
-	logistics_skill = 6
-}
+
 create_corps_commander = { 
 	name = "Georges Catroux" #Point Value: 18
 	portrait_path = "gfx/leaders/FRA/Portrait_France_Alphonse_Joseph_Georges.dds"
@@ -5167,9 +5165,9 @@ create_field_marshal = { #Point Value: 16 #3/23/21 -Camo Expert +Logistics Wizar
 }
 
 
-create_field_marshal = { ###DUNNO 
-	name = "Percival John Montague" # point value: 16
-	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
+create_field_marshal = { ###DUNNO  
+	name = "Władysław Sikorski" #POINT VALUE: 16
+	portrait_path = "gfx/leaders/POL/Portrait_Poland_Wladyslaw_Sikorski.dds"
 	traits = {  logistics_wizard bearer_of_artillery infantry_leader infantry_expert urban_assault_specialist ranger jungle_rat thorough_planner }
 	skill = 6
     attack_skill = 4
@@ -5265,8 +5263,8 @@ create_corps_commander = { ###SOLID
 }
 
 create_corps_commander = {  ###SOLID
-	name = "Thomas Victor Anderson" # point value: 18 #3/23/21 +Desert Fox
-	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
+	name = "Władysław Anders" # point value: 18 #3/23/21 +Desert Fox
+	portrait_path = "gfx/leaders/POL/Portrait_POL_Wladyslaw_Anders.dds"
 	traits = { infantry_leader infantry_expert adaptable naval_invader trait_engineer naval_liason invader_ii  }
 	skill = 6
     attack_skill = 2

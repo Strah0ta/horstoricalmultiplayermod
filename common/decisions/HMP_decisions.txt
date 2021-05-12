@@ -1471,7 +1471,7 @@ create_corps_commander = {
 459 = { add_building_construction  = { type = naval_base level = 15 province = 1145 instant_build = yes }}
 
 create_corps_commander = { 
-	name = "Lloyd Fredendall" #Point Value: 20
+	name = "Lloyd Fredendall" #Point Value: 20 
 	picture = "Portrait_USA_Lloyd_Fredendall.dds"
 	traits = { old_guard organizer  trait_engineer  infantry_leader infantry_expert trait_mountaineer  hill_fighter  fake_skilled_staffer  }
 	skill = 8
