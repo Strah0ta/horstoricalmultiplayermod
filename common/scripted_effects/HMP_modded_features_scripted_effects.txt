@@ -5004,9 +5004,9 @@ create_corps_commander = {
 	logistics_skill = 5
 }
 create_corps_commander = {
-	name = "Carl Gustav Fleischer"  #Point Value: 21
+	name = "Carl Gustav Fleischer"  #Point Value: 18 ###SOLID
 	portrait_path = "gfx/leaders/NOR/portrait_norway_carl_gustav_flesicher.tga"
-	traits = {  trickster expert_improviser hill_fighter naval_invader naval_liason invader_ii trait_mountaineer infantry_leader infantry_expert  }
+	traits = {  trickster  hill_fighter naval_invader naval_liason invader_ii trait_mountaineer infantry_leader infantry_expert  }
 	skill = 6
 	attack_skill = 4
 	defense_skill = 3
@@ -5014,9 +5014,9 @@ create_corps_commander = {
 	logistics_skill = 6
 }
 create_corps_commander = {
-	name = "Otto Ruge" #Point Value: 22 
+	name = "Otto Ruge"  #Point Value: 18 ###SOLID
 	portrait_path = "gfx/leaders/NOR/portrait_norway_ruge.dds"
-	traits = {  trickster bearer_of_artillery expert_improviser guerilla_fighter trait_engineer fortress_buster infantry_leader infantry_expert  }
+	traits = {  trickster bearer_of_artillery trait_engineer fortress_buster infantry_leader infantry_expert  }
 	skill = 6
 	attack_skill = 4
 	defense_skill = 5
@@ -5024,7 +5024,7 @@ create_corps_commander = {
 	logistics_skill = 6
 }
 create_corps_commander = {
-		name = "Charalambos Katsimitros" #Point Value: 18
+		name = "Charalambos Katsimitros" #Point Value: 18 ###SOLID
 		portrait_path = "gfx/leaders/GRE/portrait_gre_charalambos_katsimitros.dds"
 	traits = { naval_liason infantry_leader infantry_expert trait_mountaineer jungle_rat expert_improviser swamp_fox    }
 	skill = 6
@@ -5034,10 +5034,10 @@ create_corps_commander = {
 	logistics_skill = 5
 	}
 
-create_corps_commander = {
-	name = "Kristian Laake" #Point Value: 20 #20/3/21 -Camo Expert -Commando
+create_corps_commander = {    ###SOLID
+	name = "Kristian Laake" #Point Value: 18 #20/3/21 -Camo Expert -Commando
 	portrait_path = "gfx/leaders/NOR/portrait_norway_Kristian_Laake.dds"
-	traits = {  organizer trickster expert_improviser adaptable panzer_leader panzer_expert }
+	traits = {  organizer organizer expert_improviser adaptable panzer_leader panzer_expert }
 	skill = 6
 	attack_skill = 3
 	defense_skill = 5
@@ -5046,7 +5046,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Henri Giraud" #Point Value: 18 #3/20/21 
+	name = "Henri Giraud" #Point Value: 18 #3/20/21  ###SOLID
 	portrait_path = "gfx/leaders/FRA/portrait_france_henri_giraud.dds"
 	traits = {   trait_cautious infantry_leader ambusher trait_engineer scavenger trait_mountaineer hill_fighter fake_skilled_staffer }
 	skill = 6
@@ -5056,7 +5056,7 @@ create_corps_commander = {
 	logistics_skill = 7
 }
 
-create_corps_commander = { 
+create_corps_commander = {  ###FIX
 	name = "Georges Catroux" #Point Value: 18
 	portrait_path = "gfx/leaders/FRA/Portrait_France_Alphonse_Joseph_Georges.dds"
 	traits = {  trait_reckless infantry_leader infantry_expert trickster jungle_rat trait_mountaineer organizer fake_skilled_staffer }
