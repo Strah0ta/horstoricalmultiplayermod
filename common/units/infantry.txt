@@ -24,7 +24,7 @@ sub_units = {
 		}
 		
 		combat_width = 2
-		initiative = 0.05
+		initiative = 0.02
 	
 		#Size Definitions
 		max_strength = 21
@@ -60,7 +60,7 @@ sub_units = {
 			category_all_infantry
 			category_army
 		}
-		initiative = 0.05
+		initiative = 0.02
 
 		combat_width = 2
 		
@@ -125,7 +125,7 @@ sub_units = {
 		type = {
 			infantry
 		}
-			initiative = 0.05
+			initiative = 0.02
 	
 		group = infantry
 				
@@ -172,7 +172,7 @@ sub_units = {
 		map_icon_category = infantry
 		special_forces = yes
 		mountaineers = yes
-		initiative = 0.05
+		initiative = 0.02
 
 		priority = 403
 		ai_priority = 200
@@ -239,7 +239,7 @@ sub_units = {
 		priority = 2
 		ai_priority = 2
 		active = no
-		initiative = 0.05
+		initiative = 0.02
 
 		type = {
 			infantry
@@ -289,7 +289,7 @@ sub_units = {
 		}
 		
 		group = mobile
-			initiative = 0.05
+			initiative = 0.02
 	
 		categories = {
 			category_front_line
@@ -353,7 +353,7 @@ sub_units = {
 		priority = 600
 		ai_priority = 200
 		active = yes
-		initiative = 0.05
+		initiative = 0.02
 
 		type = {
 			mechanized
@@ -499,7 +499,7 @@ sub_units = {
 		weight = 0.5
 		supply_consumption = 0.07
 		breakthrough = 1
-		initiative = 0.05
+		initiative = 0.02
 
 		need = { infantry_equipment = 300 }
 

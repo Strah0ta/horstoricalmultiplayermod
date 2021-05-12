@@ -19,7 +19,7 @@ sub_units = {
 			category_army
 			category_line_artillery
 		}		
-				initiative = 0.025
+				initiative = 0.01
 
 		combat_width = 1
 
@@ -85,7 +85,7 @@ sub_units = {
 		}
 		
 		group = mobile
-			initiative = 0.025
+			initiative = 0.01
 	
 		categories = {
 			category_front_line
@@ -155,7 +155,7 @@ sub_units = {
 			mechanized
 			anti_tank
 		}
-			initiative = 0.025
+			initiative = 0.01
 	
 		group = mobile
 		

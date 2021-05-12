@@ -21,7 +21,7 @@ sub_units = {
 			category_army
 			category_special_forces
 		}
-		initiative = 0.05
+		initiative = 0.02
 
 		combat_width = 2
 

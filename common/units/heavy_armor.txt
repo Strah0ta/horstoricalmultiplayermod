@@ -21,7 +21,7 @@ sub_units = {
 			category_army
 		}
 		soft_attack = 0.2
-		initiative = 0.05
+		initiative = 0.02
 
 		desert = { movement = -0.2 }
 		forest = {

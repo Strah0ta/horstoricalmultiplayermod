@@ -19,7 +19,7 @@ sub_units = {
 			category_line_artillery
 			category_artillery
 		}
-		initiative = 0.075
+		initiative = 0.03
 
 		combat_width = 3
 
@@ -91,7 +91,7 @@ sub_units = {
 			category_line_artillery
 			category_artillery
 		}
-		initiative = 0.075
+		initiative = 0.03
 
 		combat_width = 3
 		transport = motorized_equipment
@@ -156,7 +156,7 @@ sub_units = {
 			mechanized
 			artillery
 		}
-		initiative = 0.075
+		initiative = 0.03
 
 		group = mobile
 		
@@ -229,7 +229,7 @@ sub_units = {
 			infantry
 			artillery
 		}
-		initiative = 0.075
+		initiative = 0.03
 
 		group = infantry
 		
@@ -302,7 +302,7 @@ sub_units = {
 			motorized
 			artillery
 		}
-		initiative = 0.075
+		initiative = 0.03
 
 		group = mobile
 		
@@ -397,7 +397,7 @@ sub_units = {
 		max_strength = 15
 		training_time = 60
 		weight = 0.5
-		initiative = 0.075
+		initiative = 0.03
 
 		supply_consumption = 0.28
 		
@@ -452,7 +452,7 @@ sub_units = {
 		}
 
 		group = mobile
-			initiative = 0.075
+			initiative = 0.03
 	
 		categories = {
 			category_army

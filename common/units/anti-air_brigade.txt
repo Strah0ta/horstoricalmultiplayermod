@@ -38,7 +38,7 @@ sub_units = {
 		need = {
 			anti_air_equipment = 24
 		}
-		initiative = 0.025
+		initiative = 0.01
 
 		forest = {
 			attack = -0.1
@@ -92,7 +92,7 @@ sub_units = {
 		manpower = 500
 		training_time = 60
 		weight = 0.5
-				initiative = 0.025
+				initiative = 0.01
 
 		supply_consumption = 0.08
 		transport = motorized_equipment
@@ -147,7 +147,7 @@ sub_units = {
 		}		
 		
 		combat_width = 1
-				initiative = 0.025
+				initiative = 0.01
 
 		#Size Definitions
 		max_organisation = 0
