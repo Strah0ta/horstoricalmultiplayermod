@@ -20,9 +20,6 @@ scripted_gui = {
         }
     }
 	
-	
-	
-	
 	###THIS BLOCK HAS THE HFU/LW FUEL SYSTEM, TALK TO LENNARD ABOUT THIS AS HE MADE IT###
 		fuel_tool_topbar_win = { 
 		context_type = player_context

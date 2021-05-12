@@ -4877,28 +4877,37 @@ create_field_marshal = {
 	planning_skill = 5
 	logistics_skill = 4
 }
-create_field_marshal = {  ###CHANGE
-	name = "Alphonse Juin" #Point Value: 15 #3/20/21
+create_field_marshal = {  ###SOLID
+	name = "Alphonse Juin" #Point Value: 18.5 #3/20/21
 	portrait_path = "gfx/leaders/FRA/Portrait_France_Alphonse_Juin.dds"
-	traits = { trait_cautious logistics_wizard infantry_leader infantry_expert thorough_planner paratrooper skirmisher }
+	traits = { trait_cautious logistics_wizard defensive_doctrine cavalry_expert cavalry_leader combined_arms_expert bearer_of_artillery commando skirmisher desert_fox ambusher }
 	skill = 6
 	attack_skill = 5
-	defense_skill = 4
-	planning_skill = 5
+	defense_skill = 7
+	planning_skill = 2
 	logistics_skill = 5
 }
 
-create_field_marshal = {   
-	name = "Izaak Reijnders" #Point value: 14.5
+create_field_marshal = {     ###SOLID
+	name = "Izaak Reijnders" #Point value: 18.5
 	portrait_path = "gfx/leaders/HOL/portrait_hol_izaak_reijnders.dds"
-	traits = { old_guard inflexible_strategist unyielding_defender inspirational_leader organizer logistics_wizard thorough_planner trait_reckless }
+	traits = { old_guard inflexible_strategist unyielding_defender inspirational_leader infantry_expert infantry_leader organizer logistics_wizard thorough_planner trait_reckless }
 	skill = 6
-	attack_skill = 6
-	defense_skill = 4
+	attack_skill = 4
+	defense_skill = 6
 	planning_skill = 6
 	logistics_skill = 3	
 }
-
+				create_field_marshal = { ###SOLID
+					name = "Henri Winkelman" #Point Value: 16
+					gfx = "GFX_portrait_hol_henri_winkelman"
+					traits = { defensive_doctrine infantry_leader ambusher logistics_wizard guerilla_fighter trait_cautious unyielding_defender inflexible_strategist }
+					skill = 6
+					attack_skill = 2
+					defense_skill = 8
+					planning_skill = 3
+					logistics_skill = 6
+				}
 create_corps_commander = {  ###SOLID
 	name = "Jean de Lattre de Tassigny" #Point Value: 18 #2/6/21 
 	portrait_path = "gfx/leaders/FRA/Portrait_France_Jean_de_Lattre_de_Tassigny.dds"
@@ -4963,7 +4972,7 @@ create_corps_commander = {  ###SOLID
 	logistics_skill = 6
 }
 
-create_corps_commander = {
+create_corps_commander = {  
 	name = "Godfried van Voorst tot Voorst" #Point value: 18
 	portrait_path = "gfx/leaders/HOL/portrait_hol_godfried_van_voorst_tot_voorst.dds"
 	traits = {  trickster trait_engineer brilliant_strategist  panzer_leader panzer_expert desert_fox hill_fighter   }
@@ -5061,8 +5070,8 @@ create_corps_commander = {
 every_country = { limit = { tfv_country = yes }  
 create_field_marshal = { ###SOLID
 	name = "Władysław Bortnowski" 
-	portrait_path = "gfx/leaders/POL/Portrait_POL_Wladyslaw_Bortnowski.dds"  # Point Value: 16 #3/23/21 +Naval Invader   #5/6/21  +Improv Expert -Organizer +Organizational Expert
-	traits = {  trickster organisational_leader expert_improviser naval_invader logistics_wizard offensive_doctrine aggressive_assaulter brilliant_strategist panzer_expert panzer_leader trait_reckless }
+	portrait_path = "gfx/leaders/POL/Portrait_POL_Wladyslaw_Bortnowski.dds"  # Point Value: 18 #3/23/21 +Naval Invader   #5/6/21  +Improv Expert -Organizer +Organizational Expert
+	traits = {  trickster inspirational_leader organisational_leader expert_improviser naval_invader logistics_wizard offensive_doctrine aggressive_assaulter brilliant_strategist panzer_expert panzer_leader trait_reckless }
 	skill = 6
 		attack_skill = 4
 		defense_skill = 3
@@ -5070,9 +5079,9 @@ create_field_marshal = { ###SOLID
 		logistics_skill = 7
 }
 create_field_marshal = { ###SOLID
-	name = "Jayanto Nath Chaudhuri" #Point Value: 16  #5/6/21 -Organizer +Guerilla FIghter
+	name = "Jayanto Nath Chaudhuri" #Point Value: 18  #5/6/21 -Organizer +Guerilla FIghter
 	portrait_path = "gfx/leaders/RAJ/Portrait_The_Raj_j_n_chaudhuri.dds" #1 point over
-	traits = { panzer_leader panzer_expert ambusher logistics_wizard guerilla_fighter defensive_doctrine }
+	traits = { organisational_leader desert_fox panzer_leader panzer_expert ambusher logistics_wizard guerilla_fighter defensive_doctrine  }
 	skill = 6
 	attack_skill = 5
 	defense_skill = 4
@@ -5080,9 +5089,9 @@ create_field_marshal = { ###SOLID
 	logistics_skill = 5
 }
 create_field_marshal = { ###SOLID
-	name = "Jan Smuts" #Point Value: 16 #3/23/21 -Fast Planner -Offensive Doctrine  #5/6/21 -Defensive Doctrine +Thorough Planner
+	name = "Jan Smuts" #Point Value: 18 #3/23/21 -Fast Planner -Offensive Doctrine  #5/6/21 -Defensive Doctrine +Thorough Planner
 	portrait_path = "gfx/leaders/SAF/Portrait_SouthAfrica_Jan_Smuts.dds"
-	traits = { panzer_leader panzer_expert desert_fox trickster organizer logistics_wizard  thorough_planner  }
+	traits = { organisational_leader panzer_leader panzer_expert  desert_fox trickster expert_improviser logistics_wizard  thorough_planner  }
 	skill = 6
 	attack_skill = 5
 	defense_skill = 3
@@ -5091,8 +5100,8 @@ create_field_marshal = { ###SOLID
 }
 create_field_marshal = {
 	name = "Charles Foulkes"  ###SOLID
-	portrait_path = "gfx/leaders/CAN/Portrait_Canada_Charles_Foulkes.dds"  # Point Value: 16 #3/23/21 -Organizer -Commando -Camo Expert -Organizational Leader -Inspirational Leader #5/6/21 +Fast Planner
-	traits = { panzer_leader panzer_expert defensive_doctrine fast_planner logistics_wizard skirmisher }
+	portrait_path = "gfx/leaders/CAN/Portrait_Canada_Charles_Foulkes.dds"  # Point Value: 18 #3/23/21 -Organizer -Commando -Camo Expert -Organizational Leader -Inspirational Leader #5/6/21 +Fast Planner
+	traits = { panzer_leader inspirational_leader panzer_expert defensive_doctrine fast_planner logistics_wizard skirmisher }
 	skill = 6
 	attack_skill = 4
 	defense_skill = 2
@@ -5100,9 +5109,9 @@ create_field_marshal = {
 	logistics_skill = 6
 }
 create_field_marshal = {  ###SOLID
-	name = "Robert Row" #Point Value: 16 #3/23/21 -Organizer -Organizational Leader #5/6/21 -Panzer/Infantry traits +Cavalry traits +adaptable +organizer +Naval invader
+	name = "Robert Row" #Point Value: 18 #3/23/21 -Organizer -Organizational Leader #5/6/21 -Panzer/Infantry traits +Cavalry traits +adaptable +organizer +Naval invader
 	portrait_path  = "gfx/leaders/NZL/Portrait_New_Zeeland_Robert_Row.dds"
-	traits = {   adaptable combined_arms_expert cavalry_leader cavalry_expert logistics_wizard inspirational_leader offensive_doctrine fast_planner  organizer naval_invader }
+	traits = { fortress_buster organizer  adaptable combined_arms_expert cavalry_leader cavalry_expert logistics_wizard inspirational_leader offensive_doctrine fast_planner  organizer naval_invader }
 	skill = 6
 	attack_skill = 4
 	defense_skill = 5
@@ -5111,9 +5120,9 @@ create_field_marshal = {  ###SOLID
 }
 
 create_field_marshal = { ###SOLID
-	name = "Frank Messervy" #Point Value: 16 #2/10/21 -Skilled Staffer -Organizer -Commando #5/6/21 +Commando -Inspirational Leader +Ambusher 
+	name = "Frank Messervy" #Point Value: 18 #2/10/21 -Skilled Staffer -Organizer -Commando #5/6/21 +Commando -Inspirational Leader +Ambusher 
 	portrait_path = "gfx/leaders/RAJ/Portrait_The_Raj_Frank_Messervy.dds" #0.5 points over
-	traits = { logistics_wizard organisational_leader ambusher defensive_doctrine infantry_leader commando camouflage_expert }
+	traits = { logistics_wizard hill_fighter trait_mountaineer organisational_leader ambusher defensive_doctrine infantry_leader commando camouflage_expert }
 	skill = 6
 	attack_skill = 3
 	defense_skill = 4
@@ -5122,9 +5131,9 @@ create_field_marshal = { ###SOLID
 }
 
 create_field_marshal = { ###SOLID
-	name = "Horace Robertson" #Point Value: 16 #3/23/21 -Organizer -Desert Fox  #5/6/21 +Urban Assault Specialsit +Desert Fox
+	name = "Horace Robertson" #Point Value: 18 #3/23/21 -Organizer -Desert Fox  #5/6/21 +Urban Assault Specialsit +Desert Fox
 	portrait_path = "gfx/leaders/AST/Portrait_Australia_Horace_Robertson.dds"
-	traits = { logistics_wizard defensive_doctrine hill_fighter desert_fox urban_assault_specialist infantry_leader ambusher }
+	traits = { logistics_wizard defensive_doctrine hill_fighter desert_fox urban_assault_specialist infantry_leader ambusher organisational_leader scavenger }
 	skill = 6
 	attack_skill = 2
 	defense_skill = 5
@@ -5133,9 +5142,9 @@ create_field_marshal = { ###SOLID
 }
 
 create_field_marshal = {  ###SOLID
-	name = "Leslie Morshead" #Point Value: 16 #3/23/21 -Trickster -Improv Expert -Ambusher +Jungle Rat #5/6/21 +Engineer +Naval Invader
+	name = "Leslie Morshead" #Point Value: 18 #3/23/21 -Trickster -Improv Expert -Ambusher +Jungle Rat #5/6/21 +Engineer +Naval Invader
 	portrait_path = "gfx/leaders/AST/Portrait_Australia_Leslie_Morshead.dds"
-	traits = { organizer logistics_wizard trait_engineer infantry_leader infantry_expert jungle_rat trait_mountaineer naval_invader thorough_planner }
+	traits = { organizer logistics_wizard trait_engineer infantry_leader infantry_expert jungle_rat trait_mountaineer naval_invader thorough_planner fast_planner }
 	skill = 6
 	attack_skill = 2
 	defense_skill = 3
@@ -5144,19 +5153,19 @@ create_field_marshal = {  ###SOLID
 }
 
 create_field_marshal = {   ###SOLID
-	name = "Roman Abraham" # point value: 16
+	name = "Roman Abraham" # point value: 18
 	portrait_path = "gfx/leaders/POL/Portrait_POL_Roman_Abraham.dds"
-	traits = {  infantry_leader offensive_doctrine brilliant_strategist naval_invader invader_ii aggressive_assaulter infantry_expert Organizer adaptable trait_mountaineer naval_liason paratrooper guerilla_fighter }
+	traits = {  infantry_leader offensive_doctrine brilliant_strategist naval_invader invader_ii aggressive_assaulter infantry_expert Organizer adaptable fast_planner trait_mountaineer naval_liason paratrooper guerilla_fighter }
 	skill = 6
 		attack_skill = 3
 		defense_skill = 3
 		planning_skill = 7
 		logistics_skill = 6
 }
-create_field_marshal = { #Point Value: 16 #3/23/21 -Camo Expert +Logistics Wizard
+create_field_marshal = { #Point Value: 18 #3/23/21 -Camo Expert +Logistics Wizard
 	name = "Thomas Blamey"  ###SOLID
 	portrait_path = "gfx/leaders/AST/Portrait_Australia_Thomas_Blamey.dds"
-	traits = {   defensive_doctrine combined_arms_expert cavalry_leader cavalry_expert logistics_wizard inspirational_leader ambusher 	}
+	traits = {  desert_fox scavenger defensive_doctrine combined_arms_expert cavalry_leader cavalry_expert logistics_wizard inspirational_leader ambusher 	}
 	skill = 6
 	attack_skill = 2
 	defense_skill = 8
@@ -5165,15 +5174,15 @@ create_field_marshal = { #Point Value: 16 #3/23/21 -Camo Expert +Logistics Wizar
 }
 
 
-create_field_marshal = { ###DUNNO  
-	name = "Władysław Sikorski" #POINT VALUE: 16
+create_field_marshal = { ###SOLID  
+	name = "Władysław Sikorski" #POINT VALUE: 18
 	portrait_path = "gfx/leaders/POL/Portrait_Poland_Wladyslaw_Sikorski.dds"
-	traits = {  logistics_wizard bearer_of_artillery infantry_leader infantry_expert urban_assault_specialist ranger jungle_rat thorough_planner }
+	traits = { trait_cautious unyielding_defender inflexible_strategist logistics_wizard thorough_planner cavalry_expert cavalry_leader combined_arms_expert bearer_of_artillery skirmisher ambusher }
 	skill = 6
-    attack_skill = 4
-    defense_skill = 5
-    planning_skill = 6
-    logistics_skill = 4
+	attack_skill = 10
+	defense_skill = 3
+	planning_skill = 1
+	logistics_skill = 5
 }
 
 
@@ -5339,7 +5348,7 @@ create_corps_commander = { #Point Value: 18 #3/24/21 +Adaptable +Engineer
     logistics_skill = 2
 }
 
-create_corps_commander = { ###NOT FINISHED
+create_corps_commander = { ###FIX
 	name = "Alan Vasey" #Point Value: 18 #3/23/21 +Guerilla Fighter +Urban Assault Specialist +Jungle Rat
 	portrait_path = "gfx/leaders/AST/Portrait_Australia_Alan_Vasey.dds"
 	traits = { hill_fighter desert_fox jungle_rat urban_assault_specialist infantry_leader ambusher guerilla_fighter naval_invader }

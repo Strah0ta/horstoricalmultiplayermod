@@ -245,16 +245,6 @@ focus_tree = {
 				uses = 2
 				category = land_doctrine
 			}
-				create_field_marshal = {
-					name = "Henri Winkelman" #Point Value: 16
-					gfx = "GFX_portrait_hol_henri_winkelman"
-					traits = { defensive_doctrine infantry_leader ambusher logistics_wizard guerilla_fighter trait_cautious unyielding_defender inflexible_strategist }
-					skill = 6
-					attack_skill = 2
-					defense_skill = 8
-					planning_skill = 3
-					logistics_skill = 6
-				}
 		}
 	}
 

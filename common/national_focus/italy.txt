@@ -418,7 +418,7 @@ date > 1941.6.1
 		prerequisite = { focus = ITA_italian_highways }
 
 		x = 0
-		y = 1
+		y = 2
 		relative_position_id = ITA_italian_highways
 		cost = 5
 
@@ -1076,14 +1076,25 @@ date > 1941.6.1
 		cost = 5
 
 		available_if_capitulated = yes
-
+		available = { EFR = { has_country_flag = vichy_france_established }  }
 		completion_reward = {
 				add_tech_bonus = {
-					name = synth_bonus
+					name = ITA_german_rd_treaty
 					bonus = 3.0
 					uses = 5
 					category = synth_resources
 				}
+						add_tech_bonus = {
+					name = ITA_german_rd_treaty
+					bonus = 3.0
+					uses = 1
+					category = land_doctrine
+				}
+			modify_building_resources = {
+        	   building = synthetic_refinery
+        	   resource = rubber
+        	   amount = 2
+        	}
 				GER = { 
 						add_tech_bonus = {
 			bonus = 3.0
@@ -1096,7 +1107,6 @@ date > 1941.6.1
 			category = naval_doctrine
 		}
 		}
-					add_ideas = ITA_german_millitary_cooperation_focus
 		}
 	}
 
@@ -1104,11 +1114,11 @@ date > 1941.6.1
 		id = ITA_secret_weapons
 		icon = GFX_goal_generic_secret_weapon
 		text = secret_weapons
-		prerequisite = { focus = ITA_german_rd_treaty }
+		prerequisite = { focus = ITA_modernized_artillery }
 
-		x = 0
+		x = -1
 		y = 1
-		relative_position_id = ITA_german_rd_treaty
+		relative_position_id = ITA_modernized_artillery
 		cost = 10
 
 		available_if_capitulated = yes
