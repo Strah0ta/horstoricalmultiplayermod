@@ -3217,7 +3217,20 @@ create_corps_commander = {  ###SOLID
 	planning_skill = 5
 	logistics_skill = 6
 }
-create_corps_Commander = { #DONE
+
+create_corps_commander = {
+	name = "Stjepan Sarkotic" ###SOLID
+	portrait_path = "gfx/leaders/YUG/Portrait_Stjepan_Sarkotic.dds"
+	traits = { infantry_leader desert_fox trait_mountaineer hill_fighter ambusher commando skirmisher guerilla_fighter paratrooper }
+	skill = 7
+	attack_skill = 4
+	defense_skill = 7
+	planning_skill = 7
+	logistics_skill = 4
+}
+
+
+create_corps_Commander = { ###SOLID
     name = "Angel Dotsev" #Point Value: 20 #2/11/21 -Fortress Buster -Improv Expert
     gfx = GFX_portrait_bul_angel_dotsev
 	traits = { organizer  old_guard bearer_of_artillery infantry_leader urban_assault_specialist ranger infantry_expert trickster  trait_engineer }
@@ -3229,9 +3242,9 @@ create_corps_Commander = { #DONE
 }
 
 create_corps_commander = {
-	name = "Junuz Ajanovic"
+	name = "Junuz Ajanovic" ###SOLID
 	portrait_path = "gfx/leaders/YUG/r56_portrait_CRO_junuz_ajanovic.dds"
-	traits = { jungle_rat ranger commando trickster expert_improviser infantry_leader  infantry_expert }
+	traits = { jungle_rat commando trickster adaptable infantry_leader  infantry_expert }
 	skill = 7
 	attack_skill = 6
 	defense_skill = 6
@@ -3239,41 +3252,21 @@ create_corps_commander = {
 	logistics_skill = 5
  }
 
-create_corps_commander = {
-	name = "Gojko Nikolis"
-	portrait_path = "gfx/leaders/YUG/r56_portrait_CRO_Gojko_Nikolis.dds"
-	traits = { hill_fighter trait_mountaineer infantry_leader trait_engineer urban_assault_specialist infantry_expert fortress_buster naval_invader invader_ii }
+create_corps_commander = {  ###SOLID
+	name = "Franza Karmasin" #Point 20 
+	portrait_path = "gfx/leaders/CZE/portrait_SLO_Franza_Karmasin.dds"
+	traits = { hill_fighter trait_mountaineer infantry_leader trait_engineer urban_assault_specialist infantry_expert trait_engineer naval_invader invader_ii }
 	skill = 7
 	attack_skill = 5
 	defense_skill = 8
 	planning_skill = 4
 	logistics_skill = 5
 }
-create_corps_commander = {
-	name = "Stjepan Sarkotic"
-	portrait_path = "gfx/leaders/YUG/Portrait_Stjepan_Sarkotic.dds"
-	traits = { infantry_leader desert_fox trait_mountaineer hill_fighter ambusher commando skirmisher guerilla_fighter paratrooper }
-	skill = 7
-	attack_skill = 4
-	defense_skill = 7
-	planning_skill = 7
-	logistics_skill = 4
-}
 
-create_corps_commander = {
-	name = "Franza Karmasin" #Point 20 
-	portrait_path = "gfx/leaders/CZE/portrait_SLO_Franza_Karmasin.dds"
-	traits = { hill_fighter trait_mountaineer infantry_leader trait_engineer urban_assault_specialist infantry_expert naval_invader invader_ii }
-	skill = 7
-	attack_skill = 5
-	defense_skill = 4
-	planning_skill = 7
-	logistics_skill = 6
-}
-create_corps_commander = {
-    name = "Jozef Turanec" #Point 19
+create_corps_commander = { ###SOLID
+    name = "Jozef Turanec" #Point 20
     portrait_path = "gfx/leaders/CZE/Portrait_SLO_jozef_turanec.dds"
-    traits = { old_guard  infantry_leader ambusher fake_skilled_staffer trickster swamp_fox urban_assault_specialist guerilla_fighter }
+    traits = { old_guard winter_specialist skirmisher infantry_leader ambusher fake_skilled_staffer ranger urban_assault_specialist guerilla_fighter }
     skill = 7
     attack_skill = 3
     defense_skill = 8
