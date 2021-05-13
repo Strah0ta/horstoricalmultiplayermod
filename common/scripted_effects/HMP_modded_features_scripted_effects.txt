@@ -4714,7 +4714,7 @@ create_navy_leader = {
 }
 create_navy_leader = {
     name = "François Darlan"
-      portrait_path = "gfx/leaders/FRA/Portrait_France_Francois_Darlan.dds"
+    portrait_path = "gfx/leaders/FRA/Portrait_France_Francois_Darlan.dds"
     traits = { spotter blockade_runner bold concealment_expert superior_tactician }
     skill = 3
     attack_skill = 2
@@ -4723,7 +4723,6 @@ create_navy_leader = {
     coordination_skill = 3
 }
 
-<<<<<<< HEAD
 create_field_marshal = { 
 	name = "João Baptista de Mattos"  #POINT VALUE: 16 ###SOLID
 portrait_path = "gfx/leaders/BRA/portrait_BRA_João_Baptista_de_Mattos.dds"
@@ -4738,55 +4737,33 @@ create_field_marshal = {
 		name = "Markos Drakos"  ###SOLID
 	portrait_path = "gfx/leaders/GRE/portrait_gre_markos_drakos.dds" #POINT VALUE: 16
 	traits = {  thorough_planner logistics_wizard infantry_leader infantry_expert jungle_rat trait_mountaineer hill_fighter  }
-=======
-create_corps_commander = {
-	name = "Mascarenhas de Morais" #Point Value: 18
-	portrait_path = "gfx/leaders/BRA/Mascarenhas_de_Morais.tga"
-	traits = { naval_liason infantry_leader infantry_expert trait_mountaineer jungle_rat expert_improviser swamp_fox    }
->>>>>>> parent of 8410dc6 (wip)
-	skill = 6
-	attack_skill = 4
-	defense_skill = 4
-	planning_skill = 6
-	logistics_skill = 5
-	}
-
-<<<<<<< HEAD
-create_field_marshal = { #POINT VALUE: 16 #20/3/21  ###SOLID
-	name = "Alexandros Papagos"  
-	portrait_path = "gfx/leaders/GRE/portrait_gre_alexandros_papagos.dds"
-	traits = { trait_mountaineer  logistics_wizard camouflage_expert commando old_guard inflexible_strategist unyielding_defender infantry_leader ambusher trickster guerilla_fighter   }
-	skill = 6
-=======
-create_navy_leader = {
-	name = "Nelson Mello"
-	portrait_path = "gfx/leaders/BRA/Nelson_Mello.tga"
-	traits = { ironside fleet_protector destroyer_leader ground_pounder superior_tactician concealment_expert }
-	skill = 3
->>>>>>> parent of 8410dc6 (wip)
-	attack_skill = 3
-	defense_skill = 2
-	maneuvering_skill = 3
-	coordination_skill = 5
-}
-<<<<<<< HEAD
-create_field_marshal = {
-	name = "Charles De Gaulle" #POINT VALUE: 16 #2/6/21    ###SOLID
-	portrait_path = "gfx/leaders/FRA/Portrait_France_Charles_De_Gaulle.dds"
-		traits = { harsh_leader trickster offensive_doctrine logistics_wizard brilliant_strategist desert_fox aggressive_assaulter panzer_leader panzer_expert fortress_buster }
-=======
-create_field_marshal = { 
-	name = "Odilio Denys" #Point Value: 15.5
-	gfx = "GFX_portrait_BRA_Odilio_Denys"
-	traits = { organizer logistics_wizard organisational_leader offensive_doctrine fast_planner commando panzer_leader trait_engineer panzer_expert   }
->>>>>>> parent of 8410dc6 (wip)
 	skill = 6
 	attack_skill = 4
 	defense_skill = 3
 	planning_skill = 6
 	logistics_skill = 6
 }
-<<<<<<< HEAD
+
+create_field_marshal = { #POINT VALUE: 16 #20/3/21  ###SOLID
+	name = "Alexandros Papagos"  
+	portrait_path = "gfx/leaders/GRE/portrait_gre_alexandros_papagos.dds"
+	traits = { trait_mountaineer  logistics_wizard camouflage_expert commando old_guard inflexible_strategist unyielding_defender infantry_leader ambusher trickster guerilla_fighter   }
+	skill = 6
+	attack_skill = 3
+	defense_skill = 5
+	planning_skill = 5
+	logistics_skill = 6
+}
+create_field_marshal = {
+	name = "Charles De Gaulle" #POINT VALUE: 16 #2/6/21    ###SOLID
+	portrait_path = "gfx/leaders/FRA/Portrait_France_Charles_De_Gaulle.dds"
+		traits = { harsh_leader trickster offensive_doctrine logistics_wizard brilliant_strategist desert_fox aggressive_assaulter panzer_leader panzer_expert fortress_buster }
+	skill = 6
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 6
+	logistics_skill = 6
+}
 	create_field_marshal = { 
  	name = "King Haakon VII" #POINT VALUE: 16 ###SOLID
  	portrait_path = "gfx/leaders/NOR/portrait_norway_haakon_vii.tga"
@@ -4832,20 +4809,23 @@ create_corps_commander = {  ###SOLID
 	name = "Jean de Lattre de Tassigny" #Point Value: 18 #2/6/21 
 	portrait_path = "gfx/leaders/FRA/Portrait_France_Jean_de_Lattre_de_Tassigny.dds"
 	traits = {   trickster skirmisher panzer_leader desert_fox  panzer_expert expert_improviser  }
-=======
-create_field_marshal = {
-	name = "João Baptista de Mattos"  #Point Value: 16.5
-	gfx = "GFX_portrait_BRA_João_Baptista_de_Mattos"
-	traits = { organizer thorough_planner logistics_wizard infantry_leader infantry_expert jungle_rat trait_mountaineer hill_fighter  }
->>>>>>> parent of 8410dc6 (wip)
 	skill = 6
 	attack_skill = 4
-	defense_skill = 3
-	planning_skill = 6
+	defense_skill = 5
+	planning_skill = 4
 	logistics_skill = 6
 }
+create_corps_commander = {  ###SOLID
+	name = "Philippe Leclerc" #Point Value: 18
+	portrait_path = "gfx/leaders/FRA/portrait_france_philippe_leclerc.dds"
+	traits = {  trait_reckless infantry_leader ambusher guerilla_fighter trickster desert_fox camouflage_expert fake_skilled_staffer }
+	skill = 6
+	attack_skill = 4
+	defense_skill = 4
+	planning_skill = 4
+	logistics_skill = 7
+}	
 
-<<<<<<< HEAD
 create_corps_commander = {  ###SOLID
 	name = "Petrus Wilhelmus Best" #Point value: 18
 	portrait_path = "gfx/leaders/HOL/portrait_hol_petrus_wilhelmus_best.dds"
@@ -4857,9 +4837,6 @@ create_corps_commander = {  ###SOLID
 	logistics_skill = 6	
 }
 create_corps_commander = { ###SOLID
-=======
-create_corps_commander = {
->>>>>>> parent of 8410dc6 (wip)
 	name = "Eurico Gaspar Dutra" #Point Value: 18
 	portrait_path = "gfx/leaders/BRA/Eurico_Gaspar_Dutra.tga"
 	traits = { naval_liason naval_invader bearer_of_artillery trait_mountaineer jungle_rat expert_improviser swamp_fox cavalry_expert combined_arms_expert cavalry_leader   }
@@ -4892,7 +4869,6 @@ create_corps_commander = {  ###SOLID
 	logistics_skill = 6
 }
 
-<<<<<<< HEAD
 create_corps_commander = {   ###SOLID
 	name = "Godfried van Voorst tot Voorst" #Point value: 18
 	portrait_path = "gfx/leaders/HOL/portrait_hol_godfried_van_voorst_tot_voorst.dds"
@@ -4908,12 +4884,6 @@ create_corps_commander = {
 	name = "Euclides Zenobio Da Costa"   #Point Value: 18 ###SOLID
 	portrait_path = "gfx/leaders/BRA/portrait_BRA_Euclides_Zenobio_Da_Costa.dds"
 	traits = {  desert_fox  adaptable infantry_leader infantry_expert trickster }
-=======
-create_corps_commander = {
-	name = "Euclides Zenobio Da Costa"   #Point Value: 18
-	gfx = "GFX_portrait_BRA_Euclides_Zenobio_Da_Costa"
-	traits = { hill_fighter desert_fox jungle_rat urban_assault_specialist infantry_leader ambusher guerilla_fighter naval_invader }
->>>>>>> parent of 8410dc6 (wip)
 	skill = 6
 	attack_skill = 3
 	defense_skill = 4
@@ -4921,15 +4891,9 @@ create_corps_commander = {
 	logistics_skill = 6
 }
 create_corps_commander = {
-<<<<<<< HEAD
 	name = "Mascarenhas de Morais" #Point Value: 18 ###SOLID
 	portrait_path = "gfx/leaders/BRA/Mascarenhas_de_Morais.tga"
 	traits = { panzer_leader panzer_expert trait_engineer fortress_buster bearer_of_artillery  urban_assault_specialist ranger }
-=======
-	name = "Canrobert Pereira Da Costa" #Point Value: 18
-	gfx = "GFX_portrait_BRA_Canrobert_Pereira_Da_Costa"
-	traits = { panzer_leader panzer_expert trait_engineer fortress_buster urban_assault_specialist jungle_rat organizer }
->>>>>>> parent of 8410dc6 (wip)
 	skill = 6
 	attack_skill = 5
 	defense_skill = 4
@@ -4957,128 +4921,27 @@ create_corps_commander = {
 	logistics_skill = 6
 }
 create_corps_commander = {
-<<<<<<< HEAD
 		name = "Charalambos Katsimitros" #Point Value: 18 ###SOLID
 		portrait_path = "gfx/leaders/GRE/portrait_gre_charalambos_katsimitros.dds"
 	traits = { naval_liason infantry_leader infantry_expert trait_mountaineer jungle_rat expert_improviser swamp_fox    }
-=======
-	name = "Kristian Laake" #Point Value: 20 #20/3/21 -Camo Expert -Commando
-	portrait_path = "gfx/leaders/NOR/portrait_norway_Kristian_Laake.dds"
-	traits = {  organizer trickster expert_improviser adaptable panzer_leader panzer_expert }
->>>>>>> parent of 8410dc6 (wip)
 	skill = 6
-	attack_skill = 3
-	defense_skill = 5
-	planning_skill = 5
-	logistics_skill = 6
-}
-create_field_marshal = {
-	name = "Izaak Reijnders" #Point value: 14.5
-	gfx = "GFX_portrait_hol_izaak_reijnders"
-	traits = { old_guard inflexible_strategist unyielding_defender inspirational_leader organizer logistics_wizard thorough_planner trait_reckless }
-	skill = 6
-	attack_skill = 6
+	attack_skill = 4
 	defense_skill = 4
 	planning_skill = 6
-	logistics_skill = 3	
-}
-create_corps_commander = {
-	name = "Petrus Wilhelmus Best" #Point value: 18
-	gfx = "GFX_portrait_hol_petrus_wilhelmus_best"
-	traits = {  infantry_leader ambusher skirmisher jungle_rat organizer trickster fake_skilled_staffer }
-	skill = 6
-	attack_skill = 3
-	defense_skill = 4
-	planning_skill = 6
-	logistics_skill = 6	
-}
+	logistics_skill = 5
+	}
 
-<<<<<<< HEAD
 create_corps_commander = {    ###SOLID
 	name = "Kristian Laake" #Point Value: 18 #20/3/21 -Camo Expert -Commando
 	portrait_path = "gfx/leaders/NOR/portrait_norway_Kristian_Laake.dds"
 	traits = {  organizer organizer expert_improviser adaptable panzer_leader panzer_expert }
-=======
-create_corps_commander = {
-	name = "Godfried van Voorst tot Voorst" #Point value: 18
-	gfx = "GFX_portrait_hol_godfried_van_voorst_tot_voorst"
-	traits = {  trickster trait_engineer brilliant_strategist  panzer_leader panzer_expert desert_fox hill_fighter   }
-	skill = 6
-    attack_skill = 5
-    defense_skill = 3
-    planning_skill = 5
-    logistics_skill = 6
-}
-create_field_marshal = { #Point Value: 14.5 #20/3/21 
-	name = "Louis Franchet D'Espèrey"
-	portrait_path = "gfx/leaders/FRA/Portrait_NFA_Louis_Franchet_Esperey.tga"
-	traits = { organizer logistics_wizard camouflage_expert commando old_guard brilliant_strategist aggressive_assaulter infantry_leader trickster   }
->>>>>>> parent of 8410dc6 (wip)
 	skill = 6
 	attack_skill = 3
 	defense_skill = 5
 	planning_skill = 5
 	logistics_skill = 6
 }
-create_field_marshal = {
-	name = "Charles De Gaulle" #Point Value: 14 #2/6/21  
-	portrait_path = "gfx/leaders/FRA/Portrait_France_Charles_De_Gaulle.dds"
-		traits = { harsh_leader trickster logistics_wizard brilliant_strategist desert_fox aggressive_assaulter panzer_leader panzer_expert fortress_buster }
-	skill = 7
-	attack_skill = 4
-	defense_skill = 3
-	planning_skill = 9
-	logistics_skill = 6
-}
-create_field_marshal = {
-	name = "Alphonse Juin" #Point Value: 15 #3/20/21
-	portrait_path = "gfx/leaders/FRA/Portrait_France_Alphonse_Juin.dds"
-	traits = { trait_cautious logistics_wizard infantry_leader infantry_expert thorough_planner paratrooper skirmisher }
-	skill = 6
-	attack_skill = 5
-	defense_skill = 4
-	planning_skill = 5
-	logistics_skill = 5
-}
 
-create_corps_commander = {
-	name = "Jean de Lattre de Tassigny" #Point Value: 18 #2/6/21 
-	portrait_path = "gfx/leaders/FRA/Portrait_France_Jean_de_Lattre_de_Tassigny.dds"
-	traits = {   trickster skirmisher panzer_leader desert_fox  panzer_expert expert_improviser  }
-	skill = 6
-	attack_skill = 4
-	defense_skill = 5
-	planning_skill = 4
-	logistics_skill = 6
-}
-
-<<<<<<< HEAD
-=======
-
-create_corps_commander = {
-	name = "Antoine-Marie-Benoît Besson" #Point Value: 18 #3/20/21 
-	portrait_path = "gfx/leaders/FRA/Portrait_France_Generic_land_2.dds"
-	traits = { inflexible_strategist  camouflage_expert cavalry_leader cavalry_expert combined_arms_expert ambusher trickster guerilla_fighter urban_assault_specialist  }
-	skill = 6
-	attack_skill = 4
-	defense_skill = 6
-	planning_skill = 4
-	logistics_skill = 6
-}
-
-
-create_corps_commander = {
-	name = "Philippe Leclerc" #Point Value: 17 
-	portrait_path = "gfx/leaders/FRA/portrait_france_philippe_leclerc.dds"
-	traits = {  trait_reckless infantry_leader ambusher trickster desert_fox camouflage_expert fake_skilled_staffer }
-	skill = 6
-	attack_skill = 4
-	defense_skill = 4
-	planning_skill = 4
-	logistics_skill = 7
-}	
-
->>>>>>> parent of 8410dc6 (wip)
 create_corps_commander = {
 	name = "Henri Giraud" #Point Value: 18 #3/20/21  ###SOLID
 	portrait_path = "gfx/leaders/FRA/portrait_france_henri_giraud.dds"
@@ -5103,15 +4966,9 @@ create_corps_commander = {  ###FIX
 }
 every_country = { limit = { tfv_country = yes }  
 create_field_marshal = { ###SOLID
-<<<<<<< HEAD
 	name = "Władysław Bortnowski" 
 	portrait_path = "gfx/leaders/POL/Portrait_POL_Wladyslaw_Bortnowski.dds"  # POINT VALUE: 16 #3/23/21 +Naval Invader   #5/6/21  +Improv Expert -Organizer +Organizational Expert
 	traits = {  trickster  organisational_leader expert_improviser naval_invader logistics_wizard offensive_doctrine aggressive_assaulter brilliant_strategist panzer_expert panzer_leader trait_reckless }
-=======
-	name = "Guy Simonds" 
-	portrait_path = "gfx/leaders/CAN/Portrait_CAN_Guy_Simonds.tga"  # Point Value: 16 #3/23/21 +Naval Invader   #5/6/21  +Improv Expert -Organizer +Organizational Expert
-	traits = {  trickster organisational_leader expert_improviser naval_invader logistics_wizard offensive_doctrine aggressive_assaulter brilliant_strategist panzer_expert panzer_leader trait_reckless }
->>>>>>> parent of 8410dc6 (wip)
 	skill = 6
 		attack_skill = 4
 		defense_skill = 3
@@ -5193,15 +5050,9 @@ create_field_marshal = {  ###SOLID
 }
 
 create_field_marshal = {   ###SOLID
-<<<<<<< HEAD
 	name = "Roman Abraham" #POINT VALUE: 16
 	portrait_path = "gfx/leaders/POL/Portrait_POL_Roman_Abraham.dds"
 	traits = {  infantry_leader offensive_doctrine brilliant_strategist naval_invader invader_ii aggressive_assaulter infantry_expert Organizer adaptable  trait_mountaineer naval_liason paratrooper guerilla_fighter }
-=======
-	name = "Harry Crerar" # point value: 16
-	portrait_path = "gfx/leaders/CAN/Portrait_CAN_Harry_Crerar.tga"
-	traits = {  infantry_leader offensive_doctrine brilliant_strategist naval_invader invader_ii aggressive_assaulter infantry_expert Organizer adaptable trait_mountaineer naval_liason paratrooper guerilla_fighter }
->>>>>>> parent of 8410dc6 (wip)
 	skill = 6
 		attack_skill = 3
 		defense_skill = 3
@@ -5265,8 +5116,8 @@ create_corps_commander = {  ###SOLID
 	logistics_skill = 7
 }
 create_corps_commander = { ###SOLID
-    name = "Leslie Andrew" #Point Value: 18 #4/12/21 +Hill Fighter -Organizer
-    portrait_path = "gfx/leaders/NZL/Portrait_New_Zealand_Leslie_Andrew.dds"
+	name = "Wincenty Kowalski" #Point Value: 18 #4/12/21 +Hill Fighter -Organizer
+	portrait_path = "gfx/leaders/POL/Portrait_POL_Wincentry_Kowalski.dds"
     traits = {  desert_fox hill_fighter cavalry_expert cavalry_leader combined_arms_expert adaptable trickster organizer }
     skill = 6
     attack_skill = 5
@@ -5362,8 +5213,8 @@ create_corps_commander = { ###SOLID
 }
 
 create_corps_commander = { ###SOLID 
-	name = "Dan Pienaar" #Point Value: 18 #3/23/21 +Mountaineer
-	portrait_path = "gfx/leaders/SAF/Portrait_SAF_Dan_Pienaar.tga"
+		name = "Stanisław Kopański" #Point Value: 18 #3/23/21 +Mountaineer
+	portrait_path = "gfx/leaders/POL/Portrait_POL_Stanislaw_Kopamski.dds"
 	traits = { infantry_leader infantry_expert ambusher fake_skilled_staffer guerilla_fighter scavenger }
 	skill = 6
 	attack_skill = 3
@@ -5383,7 +5234,6 @@ create_corps_commander = { ###SOLID
 	logistics_skill = 5
 }
 
-<<<<<<< HEAD
 create_corps_commander = { #Point Value: 18 #3/24/21 +Adaptable +Engineer
 	name = "Iven Mackay" #Point Value: 18    ###SOLID 
 	portrait_path  = "gfx/leaders/AST/Portrait_Australia_Iven_Mackay.dds"
@@ -5396,9 +5246,6 @@ create_corps_commander = { #Point Value: 18 #3/24/21 +Adaptable +Engineer
 }
 
 create_corps_commander = { ###FIX
-=======
-create_corps_commander = { ###NOT FINISHED
->>>>>>> parent of 8410dc6 (wip)
 	name = "Alan Vasey" #Point Value: 18 #3/23/21 +Guerilla Fighter +Urban Assault Specialist +Jungle Rat
 	portrait_path = "gfx/leaders/AST/Portrait_Australia_Alan_Vasey.dds"
 	traits = { hill_fighter desert_fox jungle_rat urban_assault_specialist infantry_leader ambusher guerilla_fighter naval_invader }
@@ -5408,16 +5255,10 @@ create_corps_commander = { ###NOT FINISHED
 	planning_skill = 8
 	logistics_skill = 5
 }
-create_corps_commander = {  ###NOT FINISHED
-	name = "Iven Mackay" #Point Value: 18 
-	portrait_path  = "gfx/leaders/AST/Portrait_Australia_Iven_Mackay.dds"
-	traits = { naval_liason infantry_leader infantry_expert trait_mountaineer jungle_rat expert_improviser swamp_fox  }
-	skill = 6
-	attack_skill = 4
-	defense_skill = 4
-	planning_skill = 6
-	logistics_skill = 5 
-}
+
+
+
+
 }
 
 
