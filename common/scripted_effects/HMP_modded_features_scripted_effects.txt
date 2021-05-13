@@ -3090,15 +3090,11 @@ create_corps_Commander = { #DONE
 
 }
 <<<<<<< HEAD
-<<<<<<< HEAD
 create_field_marshal = { #HUN
 	name = "Károly Beregfy" #Point Value: 16 #2/6/21 -Trickster -Scavenger
 	portrait_path = "gfx/leaders/HUN/portrait_karoly_beregfy.dds"
 	traits = { infantry_leader urban_assault_specialist ranger infantry_expert logistics_wizard thorough_planner organizer  trait_engineer }
 =======
-=======
- create_corps_commander = {
->>>>>>> parent of 146cac8 (Revert "test2")
     name = "Augustin Malar" #Point 20 ###SOLID
     portrait_path = "gfx/leaders/CZE/Portrait_Slovakia_Augustin_Malar.dds"
     traits = { trickster guerilla_fighter ambusher trait_cautious panzer_leader panzer_expert bearer_of_artillery winter_specialist }
