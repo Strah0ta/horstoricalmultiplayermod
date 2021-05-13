@@ -3089,10 +3089,27 @@ create_corps_Commander = { #DONE
 	logistics_skill = 6
 
 }
+<<<<<<< HEAD
 create_field_marshal = { #HUN
 	name = "Károly Beregfy" #Point Value: 16 #2/6/21 -Trickster -Scavenger
 	portrait_path = "gfx/leaders/HUN/portrait_karoly_beregfy.dds"
 	traits = { infantry_leader urban_assault_specialist ranger infantry_expert logistics_wizard thorough_planner organizer  trait_engineer }
+=======
+    name = "Augustin Malar" #Point 20 ###SOLID
+    portrait_path = "gfx/leaders/CZE/Portrait_Slovakia_Augustin_Malar.dds"
+    traits = { trickster guerilla_fighter ambusher trait_cautious panzer_leader panzer_expert bearer_of_artillery winter_specialist }
+    skill = 7
+    attack_skill = 6
+    defense_skill = 4
+    planning_skill = 6
+    logistics_skill = 6
+}
+
+ create_corps_commander = { ###SOLID
+	name = "Rafael Boban" #POINT VALUE: 20
+	portrait_path = "gfx/leaders/YUG/r56_portrait_CRO_Rafael_Boban.dds"
+	traits = { trickster guerilla_fighter winter_specialist trait_engineer panzer_leader panzer_expert adaptable }
+>>>>>>> parent of be9035e (test2)
 	skill = 7
 	attack_skill = 5
 	defense_skill = 7
