@@ -3143,6 +3143,7 @@ create_corps_Commander = { ###SOLID #POINT VALUE: 20
 	logistics_skill = 6
 
 }
+ create_corps_commander = {
     name = "Augustin Malar" #Point 20 ###SOLID
     portrait_path = "gfx/leaders/CZE/Portrait_Slovakia_Augustin_Malar.dds"
     traits = { trickster guerilla_fighter ambusher trait_cautious panzer_leader panzer_expert bearer_of_artillery winter_specialist }
