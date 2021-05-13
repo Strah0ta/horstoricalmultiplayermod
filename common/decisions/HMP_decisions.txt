@@ -1399,18 +1399,17 @@ hidden_effect = {
 				 ITA = { country_event = { id = iran.4 } 	if = { limit = { NOT = { ENG = { controls_state = 291 }}} ITA = {  set_state_controller = 413 set_state_controller = 421 } hidden_effect = {  axis_iran_positioning = yes } } }
 				hidden_effect = { 412 = { add_building_construction = { type = infrastructure	level = 2	instant_build = yes}} 			if = { limit = { AND = { EFR = {owns_state = 26} NOT = {EFR = { has_country_flag = EFR_torch_declared}} } }	EFR = { every_owned_state = {  set_demilitarized_zone = yes } 26 = { set_demilitarized_zone = no  } } } 
  }		
-
- every_country = { limit = { is_in_faction_with = ENG NOT = { tag = USA }}
-  create_corps_commander = { #Burma
-    name = "George Giffard" #POINT VALUE 20
+ create_corps_commander = { #Burma
+    name = "George Giffard"
     picture = "Portrait_Britain_George_Giffard.dds"
-    traits = { trait_engineer urban_assault_specialist trickster infantry_leader infantry_expert organizer trait_mountaineer desert_fox   }
+    traits = { organizer offensive_doctrine  infantry_leader infantry_expert organizer trait_mountaineer desert_fox   }
     skill = 8
     attack_skill = 7
     defense_skill = 5
     planning_skill = 6
     logistics_skill = 7
 }
+ every_country = { limit = { is_in_faction_with = ENG NOT = { tag = USA }}
 create_field_marshal = {  #North Africa
     name = "Harold Alexander" # Aristocrat  ###POINT VALUE: 20
     portrait_path = "gfx/leaders/ENG/Portrait_Britain_Harold_Alexander.dds" #Point Value: 

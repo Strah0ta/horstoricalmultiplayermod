@@ -12,290 +12,290 @@
 
 units = { 
 	division= {	
-		location = 10828
+		location = 3456
 		division_template = "Countenance Infantry"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.01
 	}
 		division= {	
-		location = 10828
+		location = 3456
 		division_template = "Countenance Infantry"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.01
 	}
 		division= {	
-		location = 10828
+		location = 3456
 		division_template = "Countenance Infantry"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.01
 	}
 		division= {	
-		location = 10828
+		location = 3456
 		division_template = "Countenance Infantry"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.01
 	}
 		division= {	
-		location = 12780
+		location = 3456
 		division_template = "Countenance Infantry"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.01
 	}
 		division= {	
-		location = 12780
+		location = 3456
 		division_template = "Countenance Infantry"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.01
 	}
 		division= {	
-		location = 12780
+		location = 3456
 		division_template = "Countenance Infantry"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.01
 	}
 		division= {	
-		location = 12780
+		location = 3456
 		division_template = "Countenance Infantry"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.01
 	}
 		division= {	
-		location = 10881
+		location = 3456
 		division_template = "Countenance Infantry"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.01
 	}
 		division= {	
-		location = 10881
+		location = 3456
 		division_template = "Countenance Infantry"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.01
 	}
 		division= {	
-		location = 10881
+		location = 3456
 		division_template = "Countenance Infantry"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.01
 	}
 		division= {	
-		location = 10881
+		location = 3456
 		division_template = "Countenance Infantry"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.01
 	}
 		division= {	
-		location = 12832
+		location = 3456
 		division_template = "Countenance Infantry"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.01
 	}
 		division= {	
-		location = 12832
+		location = 3456
 		division_template = "Countenance Infantry"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.01
 	}
 		division= {	
-		location = 12832
+		location = 3456
 		division_template = "Countenance Infantry"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.01
 	}
 		division= {	
-		location = 12832
+		location = 3456
 		division_template = "Countenance Infantry"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.01
 	}
 		division= {	
-		location = 12832
+		location = 3456
 		division_template = "Countenance Infantry"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.01
 	}
 		division= {	
-		location = 12832
+		location = 3456
 		division_template = "Countenance Infantry"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.01
 	}
 		division= {	
-		location = 10890
+		location = 3456
 		division_template = "Countenance Infantry"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.01
 	}
 		division= {	
-		location = 10890
+		location = 3456
 		division_template = "Countenance Infantry"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.01
 	}
 		division= {	
-		location = 10890
+		location = 3456
 		division_template = "Countenance Infantry"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.01
 	}
 		division= {	
-		location = 10890
+		location = 3456
 		division_template = "Countenance Infantry"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.01
 	}
 		division= {	
-		location = 10759
+		location = 3456
 		division_template = "Countenance Infantry"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.01
 	}
 		division= {	
-		location = 10759
+		location = 3456
 		division_template = "Countenance Infantry"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.01
 	}
 
 	division= {	
-		location = 10759
+		location = 3456
 		division_template = "Countenance Infantry"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.01
 	}
 		division= {	
-		location = 10759
+		location = 3456
 		division_template = "Countenance Infantry"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.01
 	}
 		division= {	
-		location = 10828
+		location = 3456
 		division_template = "Countenance Infantry"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.01
 	}
 		division= {	
-		location = 10828
+		location = 3456
 		division_template = "Countenance Infantry"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.01
 	}
 		division= {	
-		location = 10828
+		location = 3456
 		division_template = "Countenance Infantry"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.01
 	}
 		division= {	
-		location = 10828
+		location = 3456
 		division_template = "Countenance Infantry"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.01
 	}
 		division= {	
-		location = 12780
+		location = 3456
 		division_template = "Countenance Infantry"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.01
 	}
 		division= {	
-		location = 12780
+		location = 3456
 		division_template = "Countenance Infantry"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.01
 	}
 		division= {	
-		location = 12780
+		location = 3456
 		division_template = "Countenance Infantry"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.01
 	}
 		division= {	
-		location = 12780
+		location = 3456
 		division_template = "Countenance Infantry"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.01
 	}
 		division= {	
-		location = 7982
+		location = 3456
 		division_template = "Countenance Infantry"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.01
 	}
 		division= {	
-		location = 7982
+		location = 3456
 		division_template = "Countenance Infantry"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.01
 	}
 		division= {	
-		location = 7982
+		location = 3456
 		division_template = "Countenance Infantry"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.01
 	}
 		division= {	
-		location = 7982
+		location = 3456
 		division_template = "Countenance Infantry"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.01
 	}
 		division= {	
-		location = 13082
+		location = 3456
 		division_template = "Countenance Infantry"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.01
 	}
 		division= {	
-		location = 13082
+		location = 3456
 		division_template = "Countenance Infantry"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.01
 	}
 		division= {	
-		location = 13082
+		location = 3456
 		division_template = "Countenance Infantry"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.01
 	}
 		division= {	
-		location = 13082
+		location = 3456
 		division_template = "Countenance Infantry"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.01
 	}
 		division= {	
-		location = 10759
+		location = 3456
 		division_template = "Countenance Infantry"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.01
 	}
 		division= {	
-		location = 10759
+		location = 3456
 		division_template = "Countenance Infantry"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.01
 	}
 		division= {	
-		location = 10759
+		location = 3456
 		division_template = "Countenance Infantry"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.01
 	}
 		division= {	
-		location = 10759
+		location = 3456
 		division_template = "Countenance Infantry"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.01
 	}
 		division= {	
-		location = 10890
+		location = 3456
 		division_template = "Countenance Infantry"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.01
 	}
 		division= {	
-		location = 10890
+		location = 3456
 		division_template = "Countenance Infantry"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.01
