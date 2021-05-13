@@ -1,4 +1,107 @@
 custom_generals = {
+<<<<<<< HEAD
+=======
+#GREECE
+	create_field_marshal = {
+		name = "Alexandros Papagos"
+		gfx = "GFX_portrait_gre_alexandros_papagos"
+		traits = {  old_guard  inflexible_strategist trait_mountaineer }
+		skill = 3 #10
+		attack_skill = 2
+		defense_skill = 3
+		planning_skill = 3
+		logistics_skill = 2
+	}
+	
+	create_corps_commander = {
+		name = "Charalambos Katsimitros"
+		gfx = "GFX_portrait_gre_charalambos_katsimitros"
+		traits = {  inflexible_strategist war_hero trait_cautious trickster trait_mountaineer }
+		skill = 3 #10
+		attack_skill = 2
+		defense_skill = 3
+		planning_skill = 3
+		logistics_skill = 2 
+	}
+	
+	create_corps_commander = {
+		name = "Markos Drakos"
+		gfx = "GFX_portrait_gre_markos_drakos"
+		traits = {  infantry_leader trickster hill_fighter trait_mountaineer }
+		skill = 3
+		attack_skill = 1
+		defense_skill = 3
+		planning_skill = 3
+		logistics_skill = 3
+	}
+#POLAND
+create_field_marshal = {
+	name = "Władysław Sikorski"
+	picture = "Portrait_Poland_Wladyslaw_Sikorski.dds"
+	traits = { defensive_doctrine }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 3
+}
+
+create_field_marshal = {
+	name = "Władysław Bortnowski"
+	gfx = "GFX_POL_wladyslaw_bortnowski"
+	traits = {  thorough_planner }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 2
+}
+
+create_field_marshal = {
+	name = "Stanisław Kopański"
+	gfx = "GFX_POL_stanislav_kopanski"
+	traits = {  offensive_doctrine }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Władysław Anders"
+	gfx = "GFX_POL_wladislaw_anders"
+	traits = {  panzer_leader }
+	skill = 4
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Roman Abraham"
+	gfx = "GFX_POL_roman_abraham"
+	traits = {  }
+	skill = 4
+	attack_skill = 3
+	defense_skill = 4
+	planning_skill = 3
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Wincenty Kowalski"
+	gfx = "GFX_POL_wincenty_kowalski"
+	traits = { trickster }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 3
+}
+
+>>>>>>> parent of 8410dc6 (wip)
 if = {
 	limit = {
 		has_dlc = "La Resistance"
