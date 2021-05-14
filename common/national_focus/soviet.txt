@@ -61,13 +61,7 @@ focus_tree = {
 			bonus = 3.0
 			technology = mechanised_infantry3
 			}
-			   252 = {
-   	set_building_level = {
-					type = air_base
-					level = 80
-					instant_build = yes
-				}
-   }			
+
 		}
 	}
 	
@@ -618,6 +612,27 @@ add_ideas = red_airforce_resurgent
 							level = 1
 							instant_build = yes
 						} }
+			   252 = {
+					set_building_level = {
+						type = air_base
+						level = 80
+						instant_build = yes
+					}
+				}		
+			   195 = {
+					set_building_level = {
+						type = air_base
+						level = 20
+						instant_build = yes
+					}
+				}
+			   219 = {
+					set_building_level = {
+						type = air_base
+						level = 20
+						instant_build = yes
+					}
+				}						
 		}
 	}
 

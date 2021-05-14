@@ -7,7 +7,7 @@ NDefines.NMilitary.LAND_AIR_COMBAT_ORG_DAMAGE_MODIFIER = 0.144  -- vanilla 0.04 
 NDefines.NMilitary.MAX_DIVISION_SUPPORT_HEIGHT = 5 
 NDefines.NMilitary.MAX_DIVISION_SUPPORT_WIDTH = 2
 NDefines.NMilitary.MAX_DIVISION_BRIGADE_HEIGHT = 6		-- Max height of regiments in division designer	
-NDefines.NMilitary.EQUIPMENT_COMBAT_LOSS_FACTOR = 0.875	 	       -- % of equipment lost to strength ratio in combat, so some % is returned if below 1
+NDefines.NMilitary.EQUIPMENT_COMBAT_LOSS_FACTOR = 0.875	 	       --  I use this to manpiulate losses so manpower losses aren't as bad as equipment losses - Thrasymachus  % of equipment lost to strength ratio in combat, so some % is returned if below 1
 
 NDefines.NMilitary.AIR_SUPPORT_BASE = 0.25                        -- vanilla 0.25 CAS bonus factor for air support moddifier for land unit in combat
 NDefines.NMilitary.UNIT_DIGIN_CAP = 3                           -- how "deep" you can dig you can dig in until hitting max bonus
@@ -15,11 +15,11 @@ NDefines.NMilitary.UNIT_DIGIN_CAP = 3                           -- how "deep" yo
 --NDefines.NMilitary.COMBAT_VALUE_ORG_IMPORTANCE = 1		-- VANILLA 1     Multiplier on TotalOrganisation when determining the combat value of a division
 --NDefines.NMilitary.COMBAT_VALUE_STR_IMPORTANCE = 1		-- VANILLA 1      Multiplier on TotalStrength when determining the combat value of a division
 
-NDefines.NMilitary.EXPERIENCE_LOSS_FACTOR = 0.01                 -- percentage of experienced solders who die when manpower is removed
-NDefines.NMilitary.UNIT_EXPERIENCE_PER_COMBAT_HOUR = 0.00015
+NDefines.NMilitary.EXPERIENCE_LOSS_FACTOR = 0.25                 -- percentage of experienced solders who die when manpower is removed
+NDefines.NMilitary.UNIT_EXPERIENCE_PER_COMBAT_HOUR = 0.0003
 NDefines.NMilitary.RIVER_CROSSING_PENALTY = -0.25                 -- small river crossing
 NDefines.NMilitary.RIVER_CROSSING_PENALTY_LARGE = -0.325           -- large river crossing
-NDefines.NMilitary.ANTI_AIR_ATTACK_TO_AMOUNT = 0.0015 				-- WAS 0.005 | Lowered because vanilla CAS shootdown rates are too high and IC inefficient, but I don't want to buff CAS or air in any other way either ~Thrasymachus | Balancing value to convert equipment stat anti_air_attack to the random % value of airplanes being hit.
+NDefines.NMilitary.ANTI_AIR_ATTACK_TO_AMOUNT = 0.001 				-- WAS 0.005 | Balancing value to convert equipment stat anti_air_attack to the random % value of airplanes being hit.
 NDefines.NMilitary.EXPERIENCE_COMBAT_FACTOR = 0.1       -- WAS 0.25 | Turns out that no Russian volunteers to Spain leads to at least 15 veteran +75% heavy tanks at barb every game that kill nearly every Russia player in less than 3 months. Just wait until Germany players manage to get 30 vet heavies by using minors more
 NDefines.NMilitary.MAX_NAVY_EXPERIENCE = 0             -- WAS 500
 NDefines.NMilitary.MAX_AIR_EXPERIENCE = 0			   -- WAS 500
