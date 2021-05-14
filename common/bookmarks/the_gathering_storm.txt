@@ -247,6 +247,9 @@ bookmarks = {
 			ideas = {	}
 			focuses = {	}
 		}
+		"YUG"={	minor = yes		ideology = neutrality focuses = { 	}}
+		"CZE"={	minor = yes		ideology = democratic focuses = { 	}}
+		"HOL"={	minor = yes		ideology = democratic focuses = { 	}}
 		"FIN"={
 			minor = yes
 			#history = "MAN_GATHERING_STORM_DESC"

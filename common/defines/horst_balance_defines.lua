@@ -1,5 +1,5 @@
 ---------------------CHANGES TO SUPPORT 3 SPEED MICRO (SEE TERRAIN MOVEMENT COST CHANGES, THEY 2X HIGHER THAN VANILLA)---------------------
-NDefines.NMilitary.LAND_COMBAT_STR_DAMAGE_MODIFIER = 0.05       -- vanilla 0.05 | global damage modifier... but some equipment is returned at end of battles see : EQUIPMENT_COMBAT_LOSS_FACTOR
+NDefines.NMilitary.LAND_COMBAT_STR_DAMAGE_MODIFIER = 0.048       -- vanilla 0.05 | global damage modifier... but some equipment is returned at end of battles see : EQUIPMENT_COMBAT_LOSS_FACTOR
 NDefines.NMilitary.LAND_COMBAT_ORG_DAMAGE_MODIFIER = 0.04        -- vanilla 0.05 | global damage modifier
 NDefines.NMilitary.LAND_AIR_COMBAT_STR_DAMAGE_MODIFIER = 0.312  -- vanilla 0.04 LW 0.04 | WAS 288 on 1/30/21    Was 0.048 until Oct. 27, now its triple as ground attack is 1/6th of what it was so it doesnt look scary to people that havent realized that Horst has vanilla CAS damage ticks |air global damage modifier
 NDefines.NMilitary.LAND_AIR_COMBAT_ORG_DAMAGE_MODIFIER = 0.144  -- vanilla 0.04 LW 0.025 w/ vanilla width| Was 0.032 until Oct. 27, now its 6x as ground attack is 1/6th of what it was so it doesnt look scary to people that havent realized that Horst has vanilla CAS damage ticks | global damage modifier
@@ -7,7 +7,7 @@ NDefines.NMilitary.LAND_AIR_COMBAT_ORG_DAMAGE_MODIFIER = 0.144  -- vanilla 0.04 
 NDefines.NMilitary.MAX_DIVISION_SUPPORT_HEIGHT = 5 
 NDefines.NMilitary.MAX_DIVISION_SUPPORT_WIDTH = 2
 NDefines.NMilitary.MAX_DIVISION_BRIGADE_HEIGHT = 6		-- Max height of regiments in division designer	
-NDefines.NMilitary.EQUIPMENT_COMBAT_LOSS_FACTOR = 0.84	 	       -- % of equipment lost to strength ratio in combat, so some % is returned if below 1
+NDefines.NMilitary.EQUIPMENT_COMBAT_LOSS_FACTOR = 0.875	 	       -- % of equipment lost to strength ratio in combat, so some % is returned if below 1
 
 NDefines.NMilitary.AIR_SUPPORT_BASE = 0.25                        -- vanilla 0.25 CAS bonus factor for air support moddifier for land unit in combat
 NDefines.NMilitary.UNIT_DIGIN_CAP = 3                           -- how "deep" you can dig you can dig in until hitting max bonus
