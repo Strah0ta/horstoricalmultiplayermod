@@ -1013,10 +1013,32 @@ ideas = {
 		boris_shaposhnikov = {
 			ledger = army
 			allowed = {	original_tag = SOV	}
-			research_bonus = {
-				land_doctrine = 0.35 cat_mass_assault = 0.15
-			}
-			traits = { blitzkrieg_theorist } 
+			research_bonus = {	land_doctrine = 0.35 cat_superior_firepower = 0.15	}
+			traits = { superior_firepower_expert blitzkrieg_theorist } 
+		}
+		ivan_konev2 = {
+			ledger = army
+			picture = ivan_konev
+			allowed = { original_tag = SOV }
+			research_bonus = {	land_doctrine = 0.35 cat_mobile_warfare = 0.15	}
+			traits = { mobile_warfare_expert blitzkrieg_theorist }
+		}
+
+		aleksandr_vasilevsky2 = {
+			ledger = army
+			picture = aleksandr_vasilevsky
+			allowed = {	original_tag = SOV}
+			research_bonus = {	land_doctrine = 0.35 cat_grand_battle_plan = 0.15	}
+			traits = { grand_battle_plan_expert blitzkrieg_theorist }
+		}
+				georgy_zhukov = {
+			ledger = army
+			allowed = {	original_tag = SOV 	}
+
+			available = {	has_completed_focus = SOV_positive_heroism	}
+			cost = 250
+			research_bonus = {	land_doctrine = 0.35 cat_mass_assault = 0.15	}
+			traits = {  mass_assault_expert blitzkrieg_theorist }
 		}
 		
 	}
