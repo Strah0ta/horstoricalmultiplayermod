@@ -15,7 +15,7 @@ NDefines.NMilitary.UNIT_DIGIN_CAP = 3                           -- how "deep" yo
 --NDefines.NMilitary.COMBAT_VALUE_ORG_IMPORTANCE = 1		-- VANILLA 1     Multiplier on TotalOrganisation when determining the combat value of a division
 --NDefines.NMilitary.COMBAT_VALUE_STR_IMPORTANCE = 1		-- VANILLA 1      Multiplier on TotalStrength when determining the combat value of a division
 
-NDefines.NMilitary.EXPERIENCE_LOSS_FACTOR = 0.25                 -- percentage of experienced solders who die when manpower is removed
+NDefines.NMilitary.EXPERIENCE_LOSS_FACTOR = 0.5                 -- percentage of experienced solders who die when manpower is removed
 NDefines.NMilitary.UNIT_EXPERIENCE_PER_COMBAT_HOUR = 0.0003
 NDefines.NMilitary.RIVER_CROSSING_PENALTY = -0.25                 -- small river crossing
 NDefines.NMilitary.RIVER_CROSSING_PENALTY_LARGE = -0.325           -- large river crossing

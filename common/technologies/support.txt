@@ -476,7 +476,7 @@ technologies = {
 
 		field_hospital = {
 			casualty_trickleback = 0.10
-			experience_loss_factor = -0.20
+			experience_loss_factor = -0.10
 		}
 		
 		path = {
@@ -502,7 +502,7 @@ technologies = {
 
 		field_hospital = {
 			casualty_trickleback = 0.1
-			experience_loss_factor = -0.20
+			experience_loss_factor = -0.10
 		}
 		path = {
 			leads_to_tech = tech_field_hospital4
@@ -526,7 +526,7 @@ technologies = {
 
 		field_hospital = {
 			casualty_trickleback = 0.1
-			experience_loss_factor = -0.20
+			experience_loss_factor = -0.10
 		}
 
 		research_cost = 1
