@@ -19,7 +19,10 @@
  CRO_fascism_party_long:0 "Ustaša – Hrvatski revolucionarni pokret"
  CRO_democratic_party:0 "HSS"
  CRO_democratic_party_long:0 "Hrvatska seljačka stranka"
- 
+ ENG_dresden_idea:0 "Area Bombardment"
+ #ENG_dresden_idea_desc:0 ""
+ ENG_dresden:0 "Area Bombardment"
+ ENG_dresden_desc:0 "'If Russia can hold Germany on land I doubt whether Germany will stand 12 or 18 months' continuous, intensified and increased bombing, affecting, as it must, her war production, her power of resistance, her industries and her will to resist (by which I mean morale).' -Sir John Edward Singleton"
  CRO_ivan_orsanic:0 "Ivan Orsanic"
  CRO_milan_budak:0 "Milan Budak"
  CRO_vladimir_nazor:0 "Vladimir Nazor"

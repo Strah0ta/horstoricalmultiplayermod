@@ -257,6 +257,35 @@ ideas = {
 			}
 		}
 		
+		ENG_dresden_idea = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			picture = generic_air_bonus
+
+			removal_cost = -1
+			
+
+			equipment_bonus = {
+				tac_bomber_equipment = {
+					air_bombing = 0.25
+					instant = yes
+				}
+				strat_bomber_equipment = {
+					air_bombing = 0.25
+					instant = yes
+				}
+			}
+		}
+		
+		
+		
 		british_arms_discount = {
 			
 			allowed = {

@@ -13,6 +13,17 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/GER_air_defence.dds"
 	}
 	
+		SpriteType = {
+		name = "GFX_r56_goal_ENG_imperial_conscription"
+		texturefile = "gfx/interface/goals/r56_goal_ENG_imperial_conscription.dds"
+	}
+	
+		SpriteType = {
+		name = "GFX_r56_goal_ENG_bomber"
+		texturefile = "gfx/interface/goals/r56_goal_ENG_bomber.dds"
+	}
+	
+	
 	SpriteType = {
 		name = "GFX_goal_SLO_air_force"
 		texturefile = "gfx/interface/goals/slo/r56_goal_SLO_air_force.dds"
