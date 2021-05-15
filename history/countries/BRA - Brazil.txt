@@ -1,4 +1,5 @@
 ﻿capital = 500
+add_to_tech_sharing_group = commonwealth_research
 
 oob = "BRA_1936"
 add_ideas = manpower_early
