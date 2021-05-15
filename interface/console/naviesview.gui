@@ -333,6 +333,7 @@ guiTypes = {
 				position = {x=6 y=@nv_tb_btn_y}
 				spriteType = "GFX_NV_btn_delete"
 				clicksound = click_default
+				scale = 0
 				pdx_tooltip = ""
 			}
 

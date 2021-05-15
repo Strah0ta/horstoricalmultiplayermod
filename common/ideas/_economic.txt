@@ -88,6 +88,7 @@ ideas = {
 				has_war_support > 0.5
 				OR = {
 					has_government = fascism
+					has_government = communism
 					has_war = yes
 				}
 			}
@@ -106,10 +107,7 @@ ideas = {
 		
 		tot_economic_mobilisation = {		
 			available = {
-					OR = { 
-						AND = { date > 1943.1.1 has_war_with = GER }
-						AND = { OR = { tag = USA tag = CAN tag = AST tag = NZL tag = RAJ tag = SAF tag = SOV tag = ENG } ENG = { has_capitulated = yes }}
-					}
+					always = no 
 				}
 			
 			cost = 150
