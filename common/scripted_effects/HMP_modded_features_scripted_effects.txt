@@ -6041,24 +6041,14 @@ if = { limit = { OR = { ITA ={ controls_state  = 332} ALB ={ controls_state  = 3
 if = { limit = { OR = { ITA ={ controls_state  = 412} ALB ={ controls_state  = 412} } }  add_to_variable = { var = italy_arab_support value = 0.03 }    }
 }
 
-
-
-
-horstorical_multiplayer_vichy_france = {
-
+horstorical_multiplayer_vichy_france_2 = {
+ITA = { transfer_state = 313  transfer_state = 577 transfer_state = 458 transfer_state = 1 } #Italian claims, includes territory from Tunisia+Corsica+South Eastern France that was occupied in 1942
 539 = { set_building_level = { type = infrastructure level = 10 }}
 510 = { set_building_level = { type = infrastructure level = 10 }}
-
 if = { limit = { has_start_date > 1936.1.1 }  FRA = { remove_resource_rights = 497 }  }
  GER = { add_to_faction = EFR }
 if = { limit = { ITA = { has_war = no }} ITA = { add_timed_idea = { idea = france_has_capped days = 60 } } SWE = { country_event = { id = italy.674 days = 30 }} }
-FRA = {  FRA_legitimacy_week_counter = yes  FRA_legitimacy_casualties_counter = yes }
-ITA = { transfer_state = 313 
-transfer_state = 577
-transfer_state = 458
-transfer_state = 1 
-} #Italian claims, includes territory from Tunisia+Corsica+South Eastern France that was occupied in 1942
-EFR = { 
+EFR ={ 
 set_country_flag = vichy_france_established
 add_to_war = {	targeted_alliance = GER	enemy = ENG	}
 add_research_slot = 1
@@ -6153,6 +6143,41 @@ transfer_state = 459
 459 = { set_demilitarized_zone = yes }
 transfer_state = 461
 461 = { set_demilitarized_zone = yes }
+}
+
+}
+
+horstorical_multiplayer_vichy_france_3 = {
+if = { limit = { FRA = { check_variable = { FRA_legitimacy 	> 79 } } }
+	FRA = {  complete_national_focus = FRA_appeal_to_the_french_nation	}
+}
+if = { limit = { FRA = { check_variable = { FRA_legitimacy 	> 99 } } }
+	FRA = {  complete_national_focus = FRA_appeal_to_overseas_territories	}
+}
+EFR = { 
+recalc_vichy_france_legitimacy = yes 
+delete_unit_template_and_units = { division_template = "Division Légère de Cavalerie" }
+delete_unit_template_and_units = { division_template = "Divisions Légères Mécaniques" }
+delete_unit_template_and_units = { division_template = "Divisions Cuirassées de Reserve" }
+load_oob = "EFR_spawn"
+
+21 = { set_demilitarized_zone = yes }
+22 = { set_demilitarized_zone = yes }
+31 = { set_demilitarized_zone = yes }
+25 = { set_demilitarized_zone = yes }
+33 = { set_demilitarized_zone = yes }
+32 = { set_demilitarized_zone = yes }
+20 = { set_demilitarized_zone = yes }
+507 = { set_demilitarized_zone = yes }
+}
+
+}
+
+horstorical_multiplayer_vichy_france = {
+
+FRA = {  FRA_legitimacy_week_counter = yes  FRA_legitimacy_casualties_counter = yes }
+
+EFR = { 
 ###SYRIA+LEBANON###
 if = { limit = { FRA = { check_variable = { FRA_legitimacy 	< 100 } }  }
 transfer_state = 554
@@ -6188,30 +6213,6 @@ complete_national_focus = FRA_continue_the_fight
 			transfer_state = 538 
 			}
 }
-if = { limit = { FRA = { check_variable = { FRA_legitimacy 	> 79 } } }
-	FRA = {  complete_national_focus = FRA_appeal_to_the_french_nation	}
-}
-if = { limit = { FRA = { check_variable = { FRA_legitimacy 	> 99 } } }
-	FRA = {  complete_national_focus = FRA_appeal_to_overseas_territories	}
-}
-
-recalc_vichy_france_legitimacy = yes 
-delete_unit_template_and_units = { division_template = "Division Légère de Cavalerie" }
-delete_unit_template_and_units = { division_template = "Divisions Légères Mécaniques" }
-delete_unit_template_and_units = { division_template = "Divisions Cuirassées de Reserve" }
-load_oob = "EFR_spawn"
-
-21 = { set_demilitarized_zone = yes }
-22 = { set_demilitarized_zone = yes }
-31 = { set_demilitarized_zone = yes }
-25 = { set_demilitarized_zone = yes }
-33 = { set_demilitarized_zone = yes }
-32 = { set_demilitarized_zone = yes }
-20 = { set_demilitarized_zone = yes }
-507 = { set_demilitarized_zone = yes }
-
-
-
 }
 
 GER = { 

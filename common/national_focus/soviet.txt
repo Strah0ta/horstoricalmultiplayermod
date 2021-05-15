@@ -715,7 +715,7 @@ add_ideas = red_airforce_resurgent
 		completion_reward = {
 					add_resource = {
 				type = rubber
-				amount = 12
+				amount = 24
 				state = 404
 			}
 					add_tech_bonus = {

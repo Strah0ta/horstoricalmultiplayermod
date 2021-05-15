@@ -4,7 +4,7 @@ name="STATE_336"
 manpower = 2893200
 state_category = pastoral
 resources={
-rubber=92
+rubber=80
 steel=20
 tungsten=189
 }
