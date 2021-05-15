@@ -1455,11 +1455,11 @@ create_field_marshal = {
     name = "Günther von Kluge" #Point Value: 19   #2/4/21 -Improv. Expert -Fast Planner -Organizer   
     picture = "Portrait_Germany_Gunther_von_Kluge.dds" #3 points above standard values ###SPECIAL COMMANDER###
     traits = {  offensive_doctrine logistics_wizard inspirational_leader trickster panzer_leader panzer_expert thorough_planner urban_assault_specialist  }
-    skill = 8
+    skill = 7
     attack_skill = 9
-    defense_skill = 3
+    defense_skill = 1
     planning_skill = 6
-    logistics_skill = 7
+    logistics_skill = 6
 		}	
 create_corps_commander = {
      name = "Hans von Luck" #Point Value: 20
@@ -3673,25 +3673,25 @@ create_field_marshal = {
 	logistics_skill = 6
 }
 	create_field_marshal = {
-	name = "Ivan Konev" #Point Value: 16   #4/10/21 -Adaptable -Improv Expert -Ranger +Guerilla Fighter
+	name = "Ivan Konev" #Point Value: 18.5  
 		picture = "Portrait_Soviet_Ivan_Konev.dds"
-	traits = { logistics_wizard  thorough_planner panzer_leader panzer_expert harsh_leader guerilla_fighter trait_engineer camouflage_expert  }
+	traits = { adaptable logistics_wizard  thorough_planner panzer_leader panzer_expert harsh_leader guerilla_fighter ranger camouflage_expert  }
 	skill = 7
-	attack_skill = 6
-	defense_skill = 5
+	attack_skill = 8
+	defense_skill = 4
 	planning_skill = 6
-	logistics_skill = 5
+	logistics_skill = 4
 }
 		
 create_field_marshal = {
 	name = "Georgy Zhukov"
-	picture = "Portrait_Soviet_Gregory_Zhukov.dds" #Point Value: 16 -Organizer -Organisational Leader -Commando #2/15/21 -Offensive Doctrine -Expert Delegator -Improv. Expert #4/10/21 -Adaptable -Trickster -Ranger +Organizer
-	traits = {  logistics_wizard thorough_planner panzer_leader panzer_expert brilliant_strategist  aggressive_assaulter   organizer    }
+	picture = "Portrait_Soviet_Gregory_Zhukov.dds" #Point Value: 18.5 
+	traits = { adaptable logistics_wizard thorough_planner panzer_leader panzer_expert brilliant_strategist  aggressive_assaulter   organizer    }
 	skill = 7
-	attack_skill = 6
-	defense_skill = 7
-	planning_skill = 4
-	logistics_skill = 5
+	attack_skill = 8
+	defense_skill = 4
+	planning_skill = 6
+	logistics_skill = 4
 }		
 create_field_marshal = {
     name = "Nikandr Chibisov"  #Point Value: 16 #3/25/21 +Combined Arms Expert +Bearer of Artillery +Scavenger
