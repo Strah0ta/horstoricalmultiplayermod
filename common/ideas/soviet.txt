@@ -130,7 +130,7 @@ ideas = {
 			}
 		}
 		
-			SOV_270_event = { 
+		SOV_270_event = {  #2,054 days
 			allowed = { always = no 	}
 			picture = generic_manpower_bonus
 			modifier = {
@@ -138,6 +138,18 @@ ideas = {
 				out_of_supply_factor = 0.5
 				dig_in_speed_factor = 1	
 				no_supply_grace = 168
+			}
+		} 
+		SOV_227_event = { #2,400 days
+			allowed = { always = no 	}
+			picture = generic_manpower_bonus
+			modifier = {
+				pocket_penalty = 0.3
+				out_of_supply_factor = 1
+				army_org_factor = 0.3
+				dig_in_speed_factor = 2	
+				no_supply_grace = 336
+				supply_consumption_factor = -0.1
 			}
 		}
 			

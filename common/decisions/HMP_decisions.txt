@@ -1034,7 +1034,7 @@ GER_case_anton = {
 			}
 		}	
 		activation = { AND = { EFR = { has_war_with = ENG has_country_flag = EFR_torch_declared  } NOT = { EFR = { has_completed_focus = VIC_join_axis }} NOT = { OR = { is_puppet_of = GER is_in_faction_with = GER     }}        }     }
-		days_mission_timeout = 90	
+		days_mission_timeout = 60
 		timeout_effect = { GER = { add_to_faction = EFR } EFR = { add_to_variable={vichy_legitimacy_mechanic_stability_factor=0.2} }	recalc_vichy_france_legitimacy = yes }
 		complete_effect = {	GER = { puppet = EFR } if = { limit = { EFR = { is_ai = no }}  EFR = { add_ideas = CHI_illegal_regime } } 	hidden_effect = { finish_french_colony_focuses = yes } recalc_vichy_france_legitimacy = yes	}
 	}
