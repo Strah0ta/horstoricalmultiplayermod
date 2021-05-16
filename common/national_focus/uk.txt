@@ -336,13 +336,15 @@ focus_tree = {
 		continue_if_invalid = yes
 
 		completion_reward = {
-					add_tech_bonus = {
+		if = { limit = { USA = { controls_state = 376}} add_tech_bonus = {
 				name = royal_ordinance_focus
 				bonus = 3
 				uses = 2
 				technology = antitank1
 				technology = antitank2
+			}  |
 			}
+					
 			127 = {
 				add_extra_state_shared_building_slots = 2
 				add_building_construction = {

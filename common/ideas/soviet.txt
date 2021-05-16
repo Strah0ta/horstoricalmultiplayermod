@@ -1037,9 +1037,6 @@ ideas = {
 				georgy_zhukov = {
 			ledger = army
 			allowed = {	original_tag = SOV 	}
-
-			available = {	has_completed_focus = SOV_positive_heroism	}
-			cost = 250
 			research_bonus = {	land_doctrine = 0.35 cat_mass_assault = 0.15	}
 			traits = {  mass_assault_expert blitzkrieg_theorist }
 		}
