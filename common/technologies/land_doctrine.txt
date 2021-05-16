@@ -55,7 +55,7 @@
 			cat_mobile_warfare
 		}
 
-		on_research_complete = { hidden_effect = { set_technology = { armored_spearhead_tech = 1 popup = no  }      }  custom_effect_tooltip = "Armor Support Companies will require 20% less equipment and 50% less for Armored Recon Company" }
+		on_research_complete = { hidden_effect = { set_technology = { armored_spearhead_tech = 1 popup = no  }      }  custom_effect_tooltip = "Armor Support Companies will require 20% less equipment and 50% less for Light 	Armor Support Companies" }
 		folder = {
 			name = land_doctrine_folder
 			position = { x = 0 y = 2 }
@@ -64,17 +64,17 @@
 	}
 	
 	armored_spearhead_tech = {
-				light_sp_artillery = {   need = {light_tank_artillery_equipment= -6 }   }
+				light_sp_artillery = {   need = {light_tank_artillery_equipment= -15 }   }
 			medium_sp_artillery = {   need = {medium_tank_artillery_equipment= -6 }   }
 			heavy_sp_artillery = {   need = {heavy_tank_artillery_equipment= -6 }   }
 			super_heavy_sp_artillery = {   need = {super_heavy_tank_artillery_equipment= -6 }   }
 			modern_sp_artillery = {   need = {modern_tank_artillery_equipment = -6 }   }
-			light_tank_destroyer_sup = {   need = {light_tank_destroyer_equipment= -4 }   }
+			light_tank_destroyer_sup = {   need = {light_tank_destroyer_equipment= -10 }   }
 			medium_tank_destroyer_sup = {   need = {medium_tank_destroyer_equipment= -4 }   }
 			heavy_tank_destroyer_sup = {   need = {heavy_tank_destroyer_equipment= -4 }   }
 			super_heavy_tank_destroyer_sup = {   need = {super_heavy_tank_destroyer_equipment= -4 }   }
 			modern_tank_destroyer_sup = {   need = {modern_tank_destroyer_equipment= -4 }   }
-			light_tank_destroyer_sup_gun = {   need = {light_tank_destroyer_equipment= -4 }   }
+			light_tank_destroyer_sup_gun = {   need = {light_tank_destroyer_equipment= -10 }   }
 			medium_tank_destroyer_sup_gun = {   need = {medium_tank_destroyer_equipment= -4 }   }
 			heavy_tank_destroyer_sup_gun = {   need = {heavy_tank_destroyer_equipment= -4 }   }
 			super_heavy_tank_destroyer_sup_gun = {   need = {super_heavy_tank_destroyer_equipment= -4 }   }
@@ -90,17 +90,17 @@
 			armored_car_recon = {	need = {armored_car_equipment = -12 }}
 	}
 	armored_spearhead_tech_removal = {
-				light_sp_artillery = {   need = {light_tank_artillery_equipment= 6 }   }
+				light_sp_artillery = {   need = {light_tank_artillery_equipment= 15 }   }
 			medium_sp_artillery = {   need = {medium_tank_artillery_equipment= 6 }   }
 			heavy_sp_artillery = {   need = {heavy_tank_artillery_equipment= 6 }   }
 			super_heavy_sp_artillery = {   need = {super_heavy_tank_artillery_equipment= 6 }   }
 			modern_sp_artillery = {   need = {modern_tank_artillery_equipment = 6 }   }
-			light_tank_destroyer_sup = {   need = {light_tank_destroyer_equipment= 4 }   }
+			light_tank_destroyer_sup = {   need = {light_tank_destroyer_equipment= 10 }   }
 			medium_tank_destroyer_sup = {   need = {medium_tank_destroyer_equipment= 4 }   }
 			heavy_tank_destroyer_sup = {   need = {heavy_tank_destroyer_equipment= 4 }   }
 			super_heavy_tank_destroyer_sup = {   need = {super_heavy_tank_destroyer_equipment= 4 }   }
 			modern_tank_destroyer_sup = {   need = {modern_tank_destroyer_equipment= 4 }   }
-			light_tank_destroyer_sup_gun = {   need = {light_tank_destroyer_equipment= 4 }   }
+			light_tank_destroyer_sup_gun = {   need = {light_tank_destroyer_equipment= 10 }   }
 			medium_tank_destroyer_sup_gun = {   need = {medium_tank_destroyer_equipment= 4 }   }
 			heavy_tank_destroyer_sup_gun = {   need = {heavy_tank_destroyer_equipment= 4 }   }
 			super_heavy_tank_destroyer_sup_gun = {   need = {super_heavy_tank_destroyer_equipment= 4 }   }
@@ -924,7 +924,7 @@ category_all_infantry = {
 			land_doctrine
 			cat_superior_firepower
 		}
-on_research_complete = { custom_effect_tooltip = "Armor Support Companies will require 20% less equipment and 50% less for Armored Recon Company" }
+		on_research_complete = {  custom_effect_tooltip = "Armor Support Companies will require 20% less equipment and 50% less for Light 	Armor Support Companies" }
 		
 		folder = {
 			name = land_doctrine_folder

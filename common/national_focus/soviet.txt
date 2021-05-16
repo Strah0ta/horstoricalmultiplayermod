@@ -61,7 +61,7 @@ focus_tree = {
 			bonus = 3.0
 			technology = mechanised_infantry3
 			}
-
+		every_owned_state = { limit = { OR = { state = 220 state = 224 state = 222 state = 246 state = 242 state = 205 state = 223 state = 254 state = 253 state = 248 state = 247 }}}
 		}
 	}
 	
@@ -103,6 +103,13 @@ add_ideas = red_airforce_resurgent
 		completion_reward = {	
 						swap_ideas = { remove_idea= great_patriotic_war_idea add_idea = SOV_barbarossa   }
    251 = {
+   	set_building_level = {
+					type = infrastructure
+					level = 10
+					instant_build = yes
+				}
+   }
+      580 = {
    	set_building_level = {
 					type = infrastructure
 					level = 10

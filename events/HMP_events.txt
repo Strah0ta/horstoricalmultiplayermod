@@ -2,6 +2,40 @@
 add_namespace = mtg_netherlands
 
 country_event = {
+	id = mtg_netherlands.1141
+	title = mtg_netherlands.12.t
+	desc = mtg_netherlands.12.d
+	
+	picture = GFX_report_event_merchant_ship_01
+
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = mtg_netherlands.1442.a
+		GER = { 
+		horstorical_multiplayer_vichy_france_2 = yes
+	}	
+}
+}
+country_event = {
+	id = mtg_netherlands.1142
+	title = mtg_netherlands.12.t
+	desc = mtg_netherlands.12.d
+	
+	picture = GFX_report_event_merchant_ship_01
+
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = mtg_netherlands.1442.a
+		GER = { 
+		horstorical_multiplayer_vichy_france_3 = yes
+	}	
+}
+}
+
+
+country_event = {
 	id = mtg_netherlands.1243
 	title = mtg_netherlands.12.t
 	desc = mtg_netherlands.12.d

@@ -493,7 +493,7 @@ ideas = {
 
 			picture = generic_acquire_tanks
 
-			modifier = { supply_consumption_factor = -0.075 no_supply_grace =  60 production_speed_infrastructure_factor = 0.5 }
+			modifier = { army_attack_factor = 0.025 supply_consumption_factor = -0.075 no_supply_grace =  60 production_speed_infrastructure_factor = 0.5 }
 		}
 				GER_blau = {
 			allowed = {
@@ -512,31 +512,21 @@ ideas = {
 			
 			targeted_modifier = {
 				tag = SOV
-				attack_bonus_against = 0.05
+				attack_bonus_against = 0.075
 			}
 			modifier = { production_speed_infrastructure_factor = 0.5   }
 
 		}		
 		GER_barbarossa_zit = {
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				has_government = fascism
-			}
-			
+			allowed = {	always = no	}
+			allowed_civil_war = {	has_government = fascism	}
 			available = { date < 1943.11.23 }
-
 			removal_cost = -1
-
 			picture = generic_acquire_tanks
-
 			targeted_modifier = {
 				tag = SOV
-				attack_bonus_against = 0.1
+				attack_bonus_against = 0.125
 			}
-			
 			modifier = { production_speed_infrastructure_factor = 0.5      }
 		}
 

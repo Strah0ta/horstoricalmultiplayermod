@@ -52,18 +52,22 @@ ideas = {
 			allowed_civil_war = {	always = yes	}
 			removal_cost = -1
 			equipment_bonus = {
-			motorized_equipment = {	build_cost_ic = -0.025 instant = yes	} 
-			infantry_equipment = { build_cost_ic = -0.025 instant = yes	}
-			light_tank_equipment = {	build_cost_ic = -0.025 instant = yes	}
-			medium_tank_equipment = {	build_cost_ic = -0.025 instant = yes	}
-			heavy_tank_equipment = {	build_cost_ic = -0.025 instant = yes	}
-			support_equipment = { build_cost_ic = -0.025 instant = yes	}
-			anti_air_equipment = { build_cost_ic = -0.025 instant = yes	}
-			nav_bomber_equipment = {	build_cost_ic = -0.025 instant = yes	} 
-			artillery_equipment = {	build_cost_ic = -0.025 instant = yes	}
-			anti_tank_equipment = {	build_cost_ic = -0.025 instant = yes	}
-			CAS_equipment = {	build_cost_ic = -0.025 instant = yes	} 
-			scout_plane_equipment = {	build_cost_ic = -0.025 instant = yes	}
+			motorized_equipment = {	build_cost_ic = -0.075 instant = yes	} 
+			infantry_equipment = { build_cost_ic = -0.075 instant = yes	}
+			light_tank_equipment = {	build_cost_ic = -0.075 instant = yes	}
+			medium_tank_equipment = {	build_cost_ic = -0.075 instant = yes	}
+			heavy_tank_equipment = {	build_cost_ic = -0.075 instant = yes	}
+			support_equipment = { build_cost_ic = -0.075 instant = yes	}
+			anti_air_equipment = { build_cost_ic = -0.075 instant = yes	}
+			nav_bomber_equipment = {	build_cost_ic = -0.075 instant = yes	} 
+			artillery_equipment = {	build_cost_ic = -0.075 instant = yes	}
+			anti_tank_equipment = {	build_cost_ic = -0.075 instant = yes	}
+			CAS_equipment = {	build_cost_ic = -0.075 instant = yes	} 
+			scout_plane_equipment = {	build_cost_ic = -0.075 instant = yes	}
+						light_tank_artillery_equipment = {	build_cost_ic = -0.075 instant = yes	}		
+			light_tank_destroyer_equipment = {	build_cost_ic = -0.075 instant = yes	}						
+			mechanized_equipment = {	build_cost_ic = -0.075 instant = yes	} 
+
 			}
 		}
 
@@ -77,6 +81,7 @@ ideas = {
 				war_support_factor = 0.10 
 				training_time_army_factor = -0.9
 				production_speed_infrastructure_factor = 2
+				global_building_slots_factor = 0.2
 			}
 		}
 		SOV_barbarossa = {	
@@ -89,6 +94,7 @@ ideas = {
 				war_support_factor = 0.10 
 				training_time_army_factor = -0.9
 				production_speed_infrastructure_factor = 2
+				global_building_slots_factor = 0.4
 				supply_consumption_factor = -0.1
 				army_core_defence_factor = 0.05
 				army_core_attack_factor = 0.05
@@ -252,17 +258,11 @@ ideas = {
 		
 		home_of_revolution = {
 			removal_cost = -1
-			
-			allowed = {
-				always = no # Added via focus
-			}
-
-			allowed_civil_war = {
-				has_government = communism
-			}
-			
+			allowed = {	always = no # Added via focus	}
+			allowed_civil_war = {	has_government = communism	}
 			modifier = {
 				production_speed_buildings_factor = 0.15
+				global_building_slots_factor = 0.1
 				consumer_goods_factor = -0.08
 				research_speed_factor = 0.15
 				production_factory_max_efficiency_factor = 0.1
