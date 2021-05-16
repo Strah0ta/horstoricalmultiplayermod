@@ -5882,7 +5882,7 @@ remove_ideas = FRA_full_employment
 			 transfer_state = 356  
 			}
 	
-	hidden_effect = { SWE = { country_event = { id = italy.3524 days = 30 }}}
+	hidden_effect = { SWE = { country_event = { id = italy.3524 days = 10 }}}
 			
 }
 
