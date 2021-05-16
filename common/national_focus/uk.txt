@@ -342,7 +342,7 @@ focus_tree = {
 				uses = 2
 				technology = antitank1
 				technology = antitank2
-			}  |
+			}  
 			}
 					
 			127 = {
