@@ -222,12 +222,6 @@ focus_tree = {
 				uses = 2
 				category = land_doctrine
 			}
-						add_tech_bonus = {
-				name = armor_bonus
-				bonus = 1
-				uses = 1
-				technology = improved_light_tank
-			}
 		}
 	}
 

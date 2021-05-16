@@ -226,7 +226,7 @@ ideas = {
 		pietro_badoglio = {	
 			allowed = {	original_tag = ITA }
 			
-			traits = { army_chief_offensive_3 }
+			traits = { army_chief_offensive_2 }
 		}
 	}
 	navy_chief = {
@@ -258,13 +258,11 @@ ideas = {
 			traits = { army_chief_maneuver_2 }
 		}
 		
-		emilio_de_bono = {
-					ledger = army
-			allowed = {
-				original_tag = ITA
-			}
-			traits = { army_chief_defensive_2 }
-		}	
+		#emilio_de_bono = {
+		#			ledger = army
+		#	allowed = {	original_tag = ITA}
+		#	traits = { army_chief_defensive_2 }
+		#}	
 		vittorio_ambrosio = {
 			ledger = army
 			allowed = {	original_tag = ITA	}	

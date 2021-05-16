@@ -58,7 +58,7 @@ sub_units = {
 			defence = -0.1
 		}
 		desert = { 
-			attack = 0.2
+			attack = 0.1
 			defence = 0.1
 			movement = 0.2
 		}
@@ -95,7 +95,7 @@ sub_units = {
 		camelry_aa = {
 		sprite = cavalry
 		map_icon_category = other
-		special_forces = yes
+		special_forces = no
 		priority = 30
 		ai_priority = 10
 		active = no
@@ -145,8 +145,8 @@ sub_units = {
 			defence = -0.1
 		}
 		desert = { 
-			attack = 0.2
-			defence = 0.2
+			attack = 0.1
+			defence = 0.1
 			movement = 0.3
 		}
 				deep_desert = { 
@@ -182,7 +182,7 @@ sub_units = {
 	camelry_arty = {
 		sprite = cavalry
 		map_icon_category = other
-		special_forces = yes
+		special_forces = no
 		priority = 119
 		ai_priority = 100
 		active = no
@@ -235,8 +235,8 @@ sub_units = {
 			defence = -0.1
 		}
 		desert = { 
-			attack = 0.2
-			defence = 0.2
+			attack = 0.1
+			defence = 0.1
 			movement = 0.3
 		}
 				deep_desert = { 
@@ -271,7 +271,7 @@ sub_units = {
 		camelry_rarty = {
 		sprite = cavalry
 		map_icon_category = other
-		special_forces = yes
+		special_forces = no
 		priority = 119
 		ai_priority = 100
 		active = no
@@ -324,8 +324,8 @@ sub_units = {
 			defence = -0.1
 		}
 		desert = { 
-			attack = 0.2
-			defence = 0.2
+			attack = 0.1
+			defence = 0.1
 			movement = 0.3
 		}
 				deep_desert = { 
@@ -360,7 +360,7 @@ sub_units = {
 	camelry_at = {
 		sprite = cavalry
 		map_icon_category = other
-		special_forces = yes
+		special_forces = no
 		priority = 79
 		ai_priority = 10
 		active = no
@@ -412,8 +412,8 @@ sub_units = {
 			defence = -0.1
 		}
 		desert = { 
-			attack = 0.2
-			defence = 0.2
+			attack = 0.1
+			defence = 0.1
 			movement = 0.3
 		}
 		deep_desert = { 

@@ -336,12 +336,6 @@ focus_tree = {
 		search_filters = {FOCUS_FILTER_INDUSTRY FOCUS_FILTER_MANPOWER}
 		completion_reward = {
 			add_ideas = BUL_secret_rearmament
-						add_tech_bonus = {
-				name = armor_bonus
-				bonus = 3
-				uses = 1
-				technology = improved_light_tank
-			}
 		}
 	}
 
