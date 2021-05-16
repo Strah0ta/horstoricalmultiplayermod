@@ -243,7 +243,7 @@ ideas = {
 			removal_cost = -1
 			
 			allowed = {
-				always = no # Added via focus
+				always = no 
 			}
 
 			allowed_civil_war = {
@@ -259,7 +259,7 @@ ideas = {
 		
 		home_of_revolution = {
 			removal_cost = -1
-			allowed = {	always = no  Added via focus	}
+			allowed = {	always = no 	}
 			allowed_civil_war = {	has_government = communism	}
 			modifier = {
 				production_speed_buildings_factor = 0.15

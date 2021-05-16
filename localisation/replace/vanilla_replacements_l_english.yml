@@ -12,7 +12,7 @@
  VICTORY_POINTS_8061:0 "West Alexandria" 
  VICTORY_POINTS_4076:0 "East Alexandria" 
  VICTORY_POINTS_12820:0 "Rumadiyah"
- #VICTORY_POINTS_498:0 "East Rostov"
+ VICTORY_POINTS_498:0 "East Rostov"
  #VICTORY_POINTS_9417:0 "West Rostov"
  YUG_fascism_party:0 "CRM"
  YUG_fascism_party_long:0 "Croatian Revolutionary Movement"
