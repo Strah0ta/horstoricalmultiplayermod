@@ -133,12 +133,22 @@ instant_effect = {
 			progress = 0.1 
 			efficiency = 60 
 		} 
+				add_equipment_production = { 
+			equipment = { 
+				type = anti_tank_equipment_1
+				creator = "SOV" 
+			} 
+
+			requested_factories = 2
+			progress = 0.1 
+			efficiency = 60 
+		} 
 	add_equipment_production = {
 		equipment = {
 			type = support_equipment_1
 			creator = "SOV" 
 		}
-		requested_factories = 5
+		requested_factories = 10
 		progress = 0.3
 		efficiency = 60
 	}
@@ -186,7 +196,7 @@ instant_effect = {
 			type = anti_air_equipment_1
 			creator = "SOV" 
 		}
-		requested_factories = 5
+		requested_factories = 4
 		progress = 0.4
 		efficiency = 60
 	}
@@ -223,7 +233,7 @@ instant_effect = {
 			type = light_tank_artillery_equipment_2
 			creator = "SOV" 
 		}
-		requested_factories = 0
+		requested_factories = 1
 		progress = 0.4
 		efficiency = 60
 	}
@@ -259,7 +269,7 @@ instant_effect = {
 			type = CAS_equipment_1
 			creator = "SOV" 
 		}
-		requested_factories = 0
+		requested_factories = 4
 		progress = 0.2
 		efficiency = 60
 	}

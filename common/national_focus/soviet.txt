@@ -78,13 +78,7 @@ focus_tree = {
 
 		completion_reward = {	
 				every_unit_leader = { limit = { NOT = { is_field_marshal = yes } has_trait = panzer_leader     } add_unit_leader_trait = camouflage_expert_red }		
-   249 = {
-   	set_building_level = {
-					type = air_base
-					level = 80
-					instant_build = yes
-				}
-   }			
+			
 add_ideas = red_airforce_resurgent 
 		}
 	}
@@ -626,7 +620,35 @@ add_ideas = red_airforce_resurgent
 						instant_build = yes
 					}
 				}		
+							   251 = {
+					set_building_level = {
+						type = air_base
+						level = 80
+						instant_build = yes
+					}
+				}		
 			   195 = {
+					set_building_level = {
+						type = air_base
+						level = 20
+						instant_build = yes
+					}
+				}
+							   402 = {
+					set_building_level = {
+						type = air_base
+						level = 20
+						instant_build = yes
+					}
+				}
+							   248 = {
+					set_building_level = {
+						type = air_base
+						level = 20
+						instant_build = yes
+					}
+				}
+						   217 = {
 					set_building_level = {
 						type = air_base
 						level = 20
@@ -639,7 +661,14 @@ add_ideas = red_airforce_resurgent
 						level = 20
 						instant_build = yes
 					}
-				}						
+				}		
+			   220 = {
+					set_building_level = {
+						type = air_base
+						level = 20
+						instant_build = yes
+					}
+				}					
 		}
 	}
 

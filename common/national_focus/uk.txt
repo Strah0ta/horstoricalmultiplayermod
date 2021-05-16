@@ -255,15 +255,6 @@ focus_tree = {
 		
 		completion_reward = {
 			custom_effect_tooltip = shadow_scheme_focus_tt
-			add_tech_bonus = {
-				name = AST_royal_australian_artillery
-				bonus = 3
-				uses = 4
-				technology = antitank2
-				technology = antitank3
-				technology = antitank4
-				technology = antitank5
-			}
 		}
 	}
 
@@ -324,6 +315,12 @@ focus_tree = {
 		completion_reward = {
 			add_ideas = british_austerity_idea
 			add_ideas = extensive_conscription 
+								add_tech_bonus = {
+				name = general_rearmament_focus
+				bonus = 0.5
+				uses = 6
+				category = artillery
+			}
 		}
 	}
 	
@@ -339,6 +336,13 @@ focus_tree = {
 		continue_if_invalid = yes
 
 		completion_reward = {
+					add_tech_bonus = {
+				name = royal_ordinance_focus
+				bonus = 3
+				uses = 2
+				technology = antitank1
+				technology = antitank2
+			}
 			127 = {
 				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
