@@ -493,7 +493,7 @@ ideas = {
 
 			picture = generic_acquire_tanks
 
-			modifier = { army_attack_factor = 0.025 supply_consumption_factor = -0.025 no_supply_grace =  72 production_speed_infrastructure_factor = 0.5 }
+			modifier = { supply_consumption_factor = -0.025 no_supply_grace =  72 production_speed_infrastructure_factor = 0.5 }
 		}
 				GER_blau = {
 			allowed = {
@@ -512,7 +512,7 @@ ideas = {
 			
 			targeted_modifier = {
 				tag = SOV
-				attack_bonus_against = 0.075
+				attack_bonus_against = 0.05
 			}
 			modifier = { production_speed_infrastructure_factor = 0.5   }
 
@@ -525,7 +525,7 @@ ideas = {
 			picture = generic_acquire_tanks
 			targeted_modifier = {
 				tag = SOV
-				attack_bonus_against = 0.125
+				attack_bonus_against = 0.1
 			}
 			modifier = { production_speed_infrastructure_factor = 0.5      }
 		}
