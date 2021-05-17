@@ -60,24 +60,6 @@ units = {
 		start_experience_factor = 1
 		start_equipment_factor = 0.01
 	}
-		division = { 
-		location = 11771 #Liaotung
-		division_template = "Veterans"
-		start_experience_factor = 1
-		start_equipment_factor = 0.01
-	}
-		division = { 
-		location = 11771 #Liaotung
-		division_template = "Veterans"
-		start_experience_factor = 1
-		start_equipment_factor = 0.01
-	}
-		division = { 
-		location = 11771 #Liaotung
-		division_template = "Veterans"
-		start_experience_factor = 1
-		start_equipment_factor = 0.01
-	}	
 }
 
 

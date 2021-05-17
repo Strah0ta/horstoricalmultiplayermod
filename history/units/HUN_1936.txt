@@ -73,24 +73,6 @@ units = {
 		division_template = "Veterans"
 		start_experience_factor = 1
 		start_equipment_factor = 0.01
-	}
-		division = { 
-		location = 9660 #Budapest
-		division_template = "Veterans"
-		start_experience_factor = 1
-		start_equipment_factor = 0.01
-	}
-		division = { 
-		location = 9660 #Budapest
-		division_template = "Veterans"
-		start_experience_factor = 1
-		start_equipment_factor = 0.01
-	}
-		division = { 
-		location = 9660 #Budapest
-		division_template = "Veterans"
-		start_experience_factor = 1
-		start_equipment_factor = 0.01
 	}	
 }
 

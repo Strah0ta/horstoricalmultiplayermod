@@ -97,26 +97,6 @@ division_template = {
 
 
 units = {
-	######## LAND UNITS ########
-	
-division = { 
-		location = 9617 #Bucharest
-		division_template = "Veterans"
-		start_experience_factor = 1
-		start_equipment_factor = 0.01
-	}
-		division = { 
-		location = 9617 #Bucharest
-		division_template = "Veterans"
-		start_experience_factor = 1
-		start_equipment_factor = 0.01
-	}
-		division = { 
-		location = 9617 #Bucharest
-		division_template = "Veterans"
-		start_experience_factor = 1
-		start_equipment_factor = 0.01
-	}
 		division = { 
 		location = 9617 #Bucharest
 		division_template = "Veterans"

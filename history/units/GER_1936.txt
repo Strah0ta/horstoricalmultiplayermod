@@ -116,24 +116,6 @@ units = {
 		division_template = "Veterans"
 		start_experience_factor = 1
 		start_equipment_factor = 0.01
-	}
-		division = { 
-		location = 6521 #Berlin
-		division_template = "Veterans"
-		start_experience_factor = 1
-		start_equipment_factor = 0.01
-	}
-	division = { 
-		location = 6521 #Berlin
-		division_template = "Veterans"
-		start_experience_factor = 1
-		start_equipment_factor = 0.01
-	}
-		division = { 
-		location = 6521 #Berlin
-		division_template = "Veterans"
-		start_experience_factor = 1
-		start_equipment_factor = 0.01
 	}	
 }
 
