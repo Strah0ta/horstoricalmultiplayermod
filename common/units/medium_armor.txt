@@ -35,7 +35,7 @@ sub_units = {
 		supply_consumption = 0.22
 
 		#Tanks are awesome
-		soft_attack = 0.15
+		
 		suppression = 2.5	
 		desert = { movement = -0.2 }
 		forest = {
