@@ -43,7 +43,7 @@ ideas = {
 				original_tag = BRA
 			}
 			
-			traits = { army_commando_3 }
+			traits = { army_commando_2 }
 			
 			ai_will_do = {
 				factor = 1
@@ -123,7 +123,7 @@ ideas = {
 				original_tag = BRA
 			}
 			
-			traits = { army_chief_defensive_3 }
+			traits = { army_chief_defensive_2 }
 			
 			ai_will_do = {
 				factor = 1

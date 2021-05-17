@@ -120,8 +120,6 @@ categories =  {
 		attrition = 0.2
 		match_value = 8
 			units = {
-			attack = -0.05
-			defence = -0.05
 			movement = -0.2
 		}
 		sound_type = desert
