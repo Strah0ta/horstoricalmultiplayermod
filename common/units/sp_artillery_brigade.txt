@@ -20,7 +20,7 @@ sub_units = {
 		}		
 
 		combat_width = 3
-		soft_attack = 0.15
+		soft_attack = 0.20
 		initiative = 0.03
 		need = {
 			light_tank_artillery_equipment = 30
@@ -81,7 +81,7 @@ sub_units = {
 			category_all_armor
 			category_army
 		}		
-				soft_attack = 0.15
+				soft_attack = 0.20
 		combat_width = 3
 		initiative = 0.03
 		need = {
@@ -151,7 +151,7 @@ sub_units = {
 		}
 
 		combat_width = 3
-		soft_attack = 0.15
+		soft_attack = 0.20
 
 		need = {
 			heavy_tank_artillery_equipment = 30
@@ -217,7 +217,7 @@ sub_units = {
 			category_army
 		}
 		
-		soft_attack = 0.15
+		soft_attack = 0.20
 
 		combat_width = 3
 		initiative = 0.03
@@ -285,7 +285,7 @@ sub_units = {
 			category_all_armor
 			category_army
 		}
-		soft_attack = 0.15
+		soft_attack = 0.20
 
 		combat_width = 3
 		initiative = 0.03
