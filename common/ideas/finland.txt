@@ -117,7 +117,7 @@ ideas = {
 		FIN_carl_mannerheim = {		
 			picture = carl_mannerheim		
 			allowed = {	original_tag = FIN	}		
-			traits = { winter_fox army_chief_defensive_3 }
+			traits = { army_chief_defensive_3 }
 		}
 	}
 

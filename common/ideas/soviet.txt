@@ -657,7 +657,7 @@ ideas = {
 				original_tag = SOV
 			}
 			
-			traits = { winter_fox }
+			traits = { army_infantry_1 }
 		}
 		
 		pavel_zhigarev = {
