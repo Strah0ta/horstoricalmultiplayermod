@@ -350,7 +350,7 @@ equipments = {
 		air_agility = 31.2
 		air_attack = 0
 		air_defence = 16.2	
-		build_cost_ic = 20
+		build_cost_ic = 16
 		naval_strike_attack = 0
 		naval_strike_targetting = 0
 	}
@@ -366,7 +366,7 @@ equipments = {
 		air_agility = 37.5
 		air_attack = 0
 		air_defence = 18.7
-		build_cost_ic = 20
+		build_cost_ic = 16
 		resources = {		
 			aluminium = 1
 			rubber = 1
