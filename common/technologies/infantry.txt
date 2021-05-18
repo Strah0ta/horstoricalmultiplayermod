@@ -772,49 +772,6 @@ technologies = {
 			infantry_tech
 		}
 	}
-
-	camelry_2 = {
-
-		camelry = {
-			max_organisation = 5
-			soft_attack = 0.05
-		}
-		
-		path = {
-			leads_to_tech = camelry_3
-			research_cost_coeff = 1
-		}
-
-
-		research_cost = 1
-		start_year = 1939
-		folder = {
-			name = infantry_folder
-			position = { x = 5 y = @1939 }
-		}
-
-		categories = {
-			infantry_tech
-		}
-	}
-
-	camelry_3 = {
-
-		camelry = {
-			max_organisation = 5
-		}
-
-		research_cost = 1
-		start_year = 1943
-		folder = {
-			name = infantry_folder
-			position = { x = 5 y = @1943 }
-		}
-
-		categories = {
-			infantry_tech
-		}
-	}
 	
 	tech_special_forces = {
 		category_special_forces = {
