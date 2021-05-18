@@ -36,7 +36,7 @@ sub_units = {
 		#Offensive Abilities
 		suppression = 2
 	
-		need = { infantry_equipment = 150 }
+		need = { infantry_equipment = 175 }
 
 		desert = { 
 			attack = 0.15
@@ -48,15 +48,10 @@ sub_units = {
 			defence = 0.15
 			movement = 0.1
 		}
-		urban = {
-			attack = -0.1
-			defence = -0.1
-		}
 		river = {
 			attack = -0.2
 			movement = -0.2
 		}
-
 		amphibious = {
 			attack = -0.4
 		}
@@ -105,10 +100,6 @@ sub_units = {
 			defence = 0.15
 			movement = 0.1
 		}
-		urban = {
-			attack = -0.1
-			defence = -0.1
-		}
 		river = {
 			attack = -0.2
 			movement = -0.2
@@ -148,7 +139,7 @@ sub_units = {
 			artillery_equipment = 24
 		}
 		
-		max_strength = 0.6
+		max_strength = 15
 		max_organisation = 0
 		default_morale = 0.1
 		training_time = 60
@@ -163,10 +154,6 @@ sub_units = {
 			attack = 0.15
 			defence = 0.15
 			movement = 0.1
-		}
-		urban = {
-			attack = -0.1
-			defence = -0.1
 		}
 		river = {
 			attack = -0.2
@@ -207,7 +194,7 @@ sub_units = {
 			rocket_artillery_equipment = 24
 		}
 		
-		max_strength = 0.6
+		max_strength = 15
 		max_organisation = 0
 		default_morale = 0.1
 		training_time = 60
@@ -222,10 +209,6 @@ sub_units = {
 			attack = 0.15
 			defence = 0.15
 			movement = 0.1
-		}
-		urban = {
-			attack = -0.1
-			defence = -0.1
 		}
 		river = {
 			attack = -0.2
@@ -265,7 +248,7 @@ sub_units = {
 		manpower = 500
 		need = { anti_tank_equipment = 18 }
 		
-		max_strength = 0.6
+		max_strength = 0
 		max_organisation = 0
 		default_morale = 0
 		training_time = 60
@@ -280,10 +263,6 @@ sub_units = {
 			attack = 0.15
 			defence = 0.15
 			movement = 0.1
-		}
-		urban = {
-			attack = -0.1
-			defence = -0.1
 		}
 		river = {
 			attack = -0.2

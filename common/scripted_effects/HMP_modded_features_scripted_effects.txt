@@ -5381,7 +5381,6 @@ democratic_russia = {
 	fuel_refining4 = 1
 	fuel_refining5 = 1
 	camelry_tech = 1
-	camelry_2 = 1
 	tech_engineers = 1 
 	tech_engineers2 = 1
 	tech_recon = 1 

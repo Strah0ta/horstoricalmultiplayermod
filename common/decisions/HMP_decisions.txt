@@ -1443,7 +1443,7 @@ create_corps_commander = {
         fire_only_once = yes
         available = {
 			OR = { 
-			NOT = { ITA = { controls_state = 448 controls_state = 450 }   }
+			NOT = { ITA = {  controls_state = 579  }   }
 			date > 1941.12.1  
 			AND = { controls_state = 447 date > 1941.6.1 }
 			}
@@ -1452,6 +1452,13 @@ create_corps_commander = {
 		visible = { NOT = { EFR = { has_completed_focus = VIC_join_axis }}}
 		
 		complete_effect = { 
+		if = { limit = { ENG = { controls_state = 579 }}  				579 = {     
+			set_building_level = {
+					type = air_base
+					level = 20
+					instant_build = yes
+			}
+			}	   }
 			load_oob = "ENG_EFR"
 		GER = { remove_from_faction = EFR }
 		hidden_effect = { if = { limit = { EFR = { is_ai = yes }}} ITA = { load_oob = "ITA_TORCH_Spawn"} every_state = { limit = { is_controlled_by = EFR }  set_building_level = {  type = air_base level = 4  instant_build = yes }   } }

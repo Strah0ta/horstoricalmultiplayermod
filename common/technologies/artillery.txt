@@ -306,10 +306,10 @@ technologies = {
 			soft_attack = 0.15
 		}
 		motorized_rocket_brigade = {
-			soft_attack = 0.15
+			soft_attack = 0.1
 		}
 		motorized_rocket_sup = {
-			soft_attack = 0.15
+			soft_attack = 0.1
 		}
 		mech_rarty = {
 			soft_attack = 0.15
@@ -347,10 +347,10 @@ technologies = {
 			soft_attack = 0.15
 		}
 				motorized_rocket_sup = {
-			soft_attack = 0.15
+			soft_attack = 0.1
 		}
 		motorized_rocket_brigade = {
-			soft_attack = 0.15
+			soft_attack = 0.1
 		}
 		mech_rarty = {
 			soft_attack = 0.15
@@ -378,12 +378,6 @@ technologies = {
 	
 		enable_equipments = {
 			rocket_artillery_equipment_2
-		}
-		motorized_rocket_brigade = {
-			soft_attack = 0.3
-		}
-		motorized_rocket_sup = {
-			soft_attack = 0.3
 		}
 		research_cost = 0.75
 
