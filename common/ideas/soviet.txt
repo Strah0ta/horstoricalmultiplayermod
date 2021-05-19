@@ -125,7 +125,6 @@ ideas = {
 			allowed = { always = no 	}
 			picture = generic_manpower_bonus
 			modifier = {
-				army_core_defence_factor = 0.05
 				army_org_factor = -0.05
 			}
 		}
@@ -159,7 +158,7 @@ ideas = {
 			allowed = {	always = no 	}
 			picture = generic_manpower_bonus
 			modifier = {
-				army_core_defence_factor = 0.1
+				army_core_defence_factor = 0.05
 				army_core_attack_factor = 0.05				
 				supply_consumption_factor = -0.1
 			}
