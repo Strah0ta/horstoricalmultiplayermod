@@ -3,6 +3,11 @@ vichy_legitimacy = {
 	stability_factor = vichy_legitimacy_mechanic_stability_factor			
 		}
 
+		SOV_purge_factor = {
+			icon = "GFX_idea_generic_fascism_drift_2"
+				army_org_factor = SOV_purge_org_factor
+		}
+		
 GER_war_exhaustion = {
 	icon = "GFX_idea_generic_fascism_drift_2"
 				stability_factor = germany_war_exhaustion_stability_factor

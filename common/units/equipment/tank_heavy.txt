@@ -145,7 +145,7 @@ equipments = {
 
 		#Defensive Abilities
 		defense = 4
-		breakthrough = 2
+		breakthrough = 14.25
 		hardness = 0.85
 		armor_value = 45
 
@@ -194,7 +194,7 @@ equipments = {
 
 		#Defensive Abilities
 		defense = 6
-		breakthrough = 3
+		breakthrough = 15.5
 		armor_value = 68
 
 		#Offensive Abilities 
@@ -226,7 +226,7 @@ equipments = {
 
 		#Defensive Abilities
 		defense = 7
-		breakthrough = 3.5
+		breakthrough = 16.75
 		armor_value = 90
 
 		#Offensive Abilities
