@@ -2030,7 +2030,6 @@ is_triggered_only = yes
    name = "Confirm Integration"
 NZL = {
  complete_national_focus = NZL_national_roads_board complete_national_focus = NZL_taranaki_oil complete_national_focus = NZL_new_zealand_steel 
-			   every_unit_leader = { set_nationality = AST    }
 				transfer_navy = {	target = AST	}
 				remove_state_core = 300   remove_state_core = 284
 }
