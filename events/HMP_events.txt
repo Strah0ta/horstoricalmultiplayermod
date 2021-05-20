@@ -507,8 +507,8 @@ country_event = {
 			GER = { 
 					add_named_threat = { threat = 5 name = GER_danzig_or_war }
 			set_country_flag = danzing
-		 add_timed_idea = { idea = VIC_aircraft_parts days = 500 } 
-		 ITA  = {  add_timed_idea = { idea = VIC_aircraft_parts days = 500 } }
+		 add_timed_idea = { idea = VIC_aircraft_parts days = 560 } 
+		 ITA  = {  add_timed_idea = { idea = VIC_aircraft_parts days = 560 } }
 			add_state_core = 85 add_state_core = 556
 			add_state_claim = 553
 			add_state_claim = 86	

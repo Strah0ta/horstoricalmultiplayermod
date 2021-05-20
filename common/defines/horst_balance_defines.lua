@@ -114,8 +114,8 @@ NDefines.NBuildings.RADAR_RANGE_BASE = 20				-- Radar range base, first level ra
 NDefines.NBuildings.RADAR_RANGE_MIN = 50				-- Radar range (from state center to province center) in measure of map pixels. Exluding techs.
 NDefines.NBuildings.RADAR_RANGE_MAX = 400			-- Range is interpolated between building levels 1-15.
 ---------------------------------------------------------------
-NDefines.NCountry.REINFORCEMENT_MANPOWER_DELIVERY_SPEED = 30.0	-- vanilla 10 Modifier for army manpower reinforcement delivery speed (travel time)
-NDefines.NCountry.REINFORCEMENT_MANPOWER_CHUNK = 0.2            -- vanilla 0.1
+NDefines.NCountry.REINFORCEMENT_MANPOWER_DELIVERY_SPEED = 50.0	-- vanilla 10 Modifier for army manpower reinforcement delivery speed (travel time)
+NDefines.NCountry.REINFORCEMENT_MANPOWER_CHUNK = 0.5            -- vanilla 0.1
 NDefines.NCountry.EQUIPMENT_UPGRADE_CHUNK_MAX_SIZE = 100			-- vanilla 10  Maximum chunk size of equipment upgrade distribution per update.
 NDefines.NCountry.REINFORCEMENT_EQUIPMENT_DELIVERY_SPEED = 0.7      -- vanilla 0.3 
 NDefines.NCountry.UNCAPITULATE_LEVEL = 1                       -- VANILLA 0.1 if we reclaim this much and our capital we reset capitulate status
