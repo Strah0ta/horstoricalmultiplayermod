@@ -2,10 +2,9 @@ on_actions = {
 	on_new_term_election = {	random_events = { 100 = election.14 100 = election.15 }	}
 	on_startup = {
 		effect = {
-			if = { limit = {has_game_rule = {rule = horst_host_country option = DIS}} set_variable={host = DIS.id} }
+			if = { limit = {has_game_rule = {rule = horst_host_country option = ENG}} set_variable={host = ENG.id} }
 			else_if = { limit = {has_game_rule = {rule = horst_host_country option = GER}} set_variable={host = GER.id} }
 			else_if = { limit = {has_game_rule = {rule = horst_host_country option = ITA}} set_variable={host = ITA.id} }
-			else_if = { limit = {has_game_rule = {rule = horst_host_country option = ENG}} set_variable={host = ENG.id} }
 			else_if = { limit = {has_game_rule = {rule = horst_host_country option = ROM}} set_variable={host = ROM.id} }
 			else_if = { limit = {has_game_rule = {rule = horst_host_country option = HUN}} set_variable={host = HUN.id} }
 			else_if = { limit = {has_game_rule = {rule = horst_host_country option = FIN}} set_variable={host = FIN.id} }
