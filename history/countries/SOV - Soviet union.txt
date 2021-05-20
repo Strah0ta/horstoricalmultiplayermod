@@ -6,7 +6,7 @@ create_intelligence_agency = yes
 
 set_variable = {
     var = SOV_purge_org_factor
-    value = -0.2
+    value = -0.25
 }
 set_variable = {
     var = min_fuel
