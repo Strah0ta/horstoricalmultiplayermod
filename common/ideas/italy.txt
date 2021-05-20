@@ -238,9 +238,15 @@ ideas = {
 		}	
 	}
 	air_chief = {
+			
+		rino_corso_fougier = {
+			allowed = {	original_tag = ITA}
+			traits = { air_chief_ground_support_3 }
+		}
+		
 		italo_balbo = {
 			allowed = {	original_tag = ITA	}
-			traits = { air_chief_ground_support_3 }
+			traits = { air_chief_all_weather_2 }
 		}
 	}	
 	

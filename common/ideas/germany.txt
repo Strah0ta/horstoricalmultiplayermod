@@ -219,7 +219,7 @@ ideas = {
 			}
 		}
 		expanded_recruitment = {
-			
+			picture = generic_manpower_bonus
 			allowed = {
 				original_tag = GER
 			}
@@ -237,7 +237,7 @@ ideas = {
 		}
 		
 				expanded_recruitment2 = {
-			
+			picture = generic_manpower_bonus
 			allowed = {
 				original_tag = GER
 			}
@@ -491,7 +491,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = generic_acquire_tanks
+			picture = GER_blitzkrieg
 
 			modifier = { supply_consumption_factor = -0.025 no_supply_grace =  72 production_speed_infrastructure_factor = 0.5 }
 		}
@@ -508,7 +508,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = generic_acquire_tanks
+			picture = GER_barbarossa_idea_2
 			
 			targeted_modifier = {
 				tag = SOV

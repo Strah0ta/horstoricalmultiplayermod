@@ -17,7 +17,7 @@ GER_all_plane_LL = {
 	}
 }
 
-axis_iran_positioning = { set_province_controller = 4553 set_province_controller = 2071 set_province_controller = 12861 set_province_controller = 1822 set_province_controller = 10837 set_province_controller = 7969 set_province_controller = 10922 set_province_controller = 1982 set_province_controller = 5067  set_province_controller = 2026 set_province_controller = 4928 set_province_controller = 8117   set_province_controller = 12832 set_province_controller = 10797  }
+axis_iran_positioning = { set_province_controller = 12818 set_province_controller = 12704   set_province_controller = 4983 set_province_controller = 8074 set_province_controller = 1963 set_province_controller = 8031 set_province_controller = 4966    set_province_controller = 4553 set_province_controller = 2071 set_province_controller = 12861 set_province_controller = 1822 set_province_controller = 10837 set_province_controller = 7969 set_province_controller = 10922 set_province_controller = 1982 set_province_controller = 5067  set_province_controller = 2026 set_province_controller = 4928 set_province_controller = 8117   set_province_controller = 12832 set_province_controller = 10797  }
 
 FRA_legitimacy_week_counter = {
 if = { limit = { date > 1939.9.10 } add_to_variable = { var = FRA_legitimacy value = 5 } }
@@ -4917,8 +4917,7 @@ HMP_startup_on_actions = {
 	if = { limit = { BUL = { is_ai = yes } } GER = { country_event = { id = japan.638  days = 1}}   }
 	if = { limit = { has_start_date > 1936.01.02 }  HMP_no_asia = yes  }
 	HOL = { add_country_leader_trait = defeatism } 
-	#if = {	limit = { has_game_rule = { rule = horst_barbarossa_buff	option = HORST_OLD_BARB	} }	MAN = { load_focus_tree = manchukuomod_focus } 	} #WIP
-	if = {	limit = { has_game_rule = { rule = horst_barbarossa_buff	option = HORST_NEW_BARB	} }	SOV = { add_ideas = qol_start_eff_sov2 add_timed_idea = { idea = SOV_2nd_plan days = 365 } } 	}		
+	if = {	limit = { has_game_rule = { rule = horst_barbarossa_buff option = HORST_NEW_BARB } } SWE = { country_event = { id =  italy.807 days = 2054 } country_event = { id =  italy.808 days = 2400 } }  SOV = { add_ideas = qol_start_eff_sov2 add_timed_idea = { idea = SOV_2nd_plan days = 365 } } }		
 	HMP_script_generals = yes 
 	make_asia_go_faster = yes	
 	bad_infra_state_effect = yes 	
@@ -5243,9 +5242,7 @@ if = { limit = { country_exists = ETH } white_peace = ETH }
 if = { limit = { country_exists = FIN } white_peace = FIN }
 if = { limit = { country_exists = ALB } white_peace = ALB }
 }
-if =  { limit = { country_exists = ITA } ITA = { release = YUG release = ROM release = GRE release = BUL release = ALB  }  }
-if =  { limit = { country_exists = BUL } BUL = { release = GRE }  }
-if =  { limit = { country_exists = ROM } ROM = { release = GRE }  }
+
 GER = { 
 release = CZE 
 release = POL 
@@ -5263,6 +5260,10 @@ release = ITA
 release = BEL 
 release = BUL
 }
+ALB = { transfer_state = 44 set_cosmetic_tag = ALB_communism }
+if =  { limit = { country_exists = ITA } ITA = { release = YUG release = ROM release = GRE release = BUL release = ALB  }  }
+if =  { limit = { country_exists = BUL } BUL = { release = GRE }  }
+if =  { limit = { country_exists = ROM } ROM = { release = GRE }  }
 BUL = { release = YUG }
 NOR = { release = ENG }
 POL = { 
@@ -5317,9 +5318,12 @@ add_to_faction = HOL
 transfer_state = 271 
 transfer_state = 550
 transfer_state = 559
+transfer_state = 454 
+transfer_state = 453
 transfer_state = 291
 release = NOR
 release = DEN
+release = ETH
 set_autonomy = {  target = ETH  autonomy_state = autonomy_supervised_state }
 		transfer_state = 152 #Upper Austria ###AUSTRIA###
 transfer_state = 448 #Tripoli ###ITALY###
@@ -5338,6 +5342,7 @@ release = DEN
 }
 ENG = { add_to_faction = BEL add_to_faction = DEN add_to_faction = GRE }
 GER = {
+remove_dynamic_modifier = { modifier = GER_war_exhaustion }
 set_cosmetic_tag = GER_DEM
 	 create_country_leader = {
 	 name = "Franz von Papen"

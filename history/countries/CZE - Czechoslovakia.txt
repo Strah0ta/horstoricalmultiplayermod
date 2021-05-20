@@ -59,13 +59,13 @@ create_country_leader = {
 		smooth_talking_charmer2
 	}
 }
-					create_country_leader = {
+		create_country_leader = {
 					name = "Jozef Tiso"
 					picture =  "gfx/leaders/SLO/Portrait_Slovakia_Jozef_Tiso.dds"
 					expire = "1965.1.1"
 					ideology = nazism
 					traits = {	anti_communist_crusader }
-				}
+	}
 create_country_leader = {
 	name = "Klement Gottwald"
 	desc = "POLITICS_KLEMENT_GOTTWALD_DESC"

@@ -9,6 +9,7 @@
  GER_dday_inf:0 "D-Day Infantry"
  operation_oil:0 "Secure Arabian Oilfields"
  war_bonds_cancel:0 "Cancel War Bonds"
+ GER_annex_slovakia:0 "Unternehmen Margarethe (Slovakia)"
  barb_failed:0 "Operation Barbarossa has failed"
  ENG_annex_netherlands:0 "Annex Free Netherlands"
  man_china:0 "[GetMANChina]"

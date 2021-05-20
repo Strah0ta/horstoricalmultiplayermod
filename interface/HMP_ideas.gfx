@@ -1,5 +1,23 @@
 spriteTypes = {	
 	spriteType = {
+		name = "GFX_idea_FRA_FREE_army"
+		texturefile = "gfx/interface/ideas/FRA_FREE_army.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GER_barbarossa_idea_2"
+		texturefile = "gfx/interface/ideas/GER_barbarossa_idea_2.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GER_blitzkrieg"
+		texturefile = "gfx/interface/ideas/GER_blitzkrieg.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_SOV_winter_offensive"
+		texturefile = "gfx/interface/ideas/SOV_winter_offensive.dds"
+	}
+
+	spriteType = {
 		name = "GFX_idea_imro"
 		texturefile = "gfx/interface/ideas/idea_imro.dds"
 	}

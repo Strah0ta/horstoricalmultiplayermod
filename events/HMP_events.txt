@@ -1520,7 +1520,7 @@ country_event = {
 	hidden = yes
    
       option = {
-		country_event = { id = italy.812 days = 60 }	SOV = { add_timed_idea = { idea =  SOV_227_event days = 60 }      }  news_event = { id = mtg_news.792 days = 0 }
+		country_event = { id = italy.812 days = 60 }	SOV = { add_timed_idea = { idea =  SOV_227_event days = 60 }      }  SOV = {  set_technology = { tech_227_on = 1 popup = no }   }   news_event = { id = mtg_news.792 days = 0 }
 	  }
    }    
                        country_event = {
@@ -1585,42 +1585,7 @@ country_event = {
 	  }
    }     
    
-   
-   
-                   country_event = {
-   id = italy.858 #winter planning
-   title = "OPERATION SEALION HAS BEEN ALLOWED AT ALL TIMES"
-   desc = "The host has used a custom game rule to allow for Sealion! The UK has more production of early game equipment and no entrenchment bonuses in Gibraltar!"
-   picture = GFX_report_event_soviet_soldiers_tank
-
-   fire_only_once = no
- is_triggered_only = yes
-
-   
-      option = {
-	  name = "ALTA"
-			SOV = { add_timed_idea = { idea = SOV_270_event days = 60 }}
-	  }
-   }     
-   
-   
-                   country_event = {
-   id = italy.859 #winter planning
-   title = "OPERATION SEALION HAS BEEN ALLOWED AT ALL TIMES"
-   desc = "The host has used a custom game rule to allow for Sealion! The UK has more production of early game equipment and no entrenchment bonuses in Gibraltar!"
-   picture = GFX_report_event_soviet_soldiers_tank
-
-   fire_only_once = no
- is_triggered_only = yes
-
-   
-      option = {
-	  name = "ALTA"
-			SOV = { add_timed_idea = { idea = SOV_227_event days = 60 }}
-	  }
-   }     
-   
-   
+ 
    
 add_namespace = mtg_news
 news_event = {

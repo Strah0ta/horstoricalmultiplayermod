@@ -98,7 +98,7 @@ technologies = {
 			always = no
 		}
 				military_police = {
-			max_organisation = 200
+			max_organisation = 400
 		forest = {
 			movement = -0.1
 		}

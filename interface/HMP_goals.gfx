@@ -1,4 +1,13 @@
 spriteTypes = {	
+
+	SpriteType = {
+		name = "GFX_GER_charge_of_the_light_brigade"
+		texturefile = "gfx/interface/goals/GER_charge_of_the_light_brigade.dds"
+	}
+	SpriteType = {
+		name = "GFX_ger_foreign_recruitment"
+		texturefile = "gfx/interface/goals/ger_foreign_recruitment.dds"
+	}
 	SpriteType = {
 		name = "GFX_focus_proclaim_greater_croatia"
 		texturefile = "gfx/interface/goals/focus_proclaim_greater_croatia.dds"

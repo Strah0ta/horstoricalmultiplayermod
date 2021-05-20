@@ -186,17 +186,12 @@ on_actions = {
 				GER = { country_event = { id = italy.600 } }
 				if = { limit = { country_exists = ETH }  GER = { annex_country = { target = ETH transfer_troops = yes } } 
 				if = { limit = { ETH = { has_country_flag = host } } GER = { set_country_flag = host }  ETH = { clr_country_flag = host }  }
+				if = { limit = { YUG = { has_country_flag = host } } GER = { set_country_flag = host }  YUG = { clr_country_flag = host }  }
 				}
-				ITA = { every_unit_leader = { set_nationality = GER }  }
-				GER = { change_tag_from = ITA } 
-				GER = { annex_country = { target = ITA transfer_troops = yes } }
-				GER = { set_autonomy = {
-    target = YUG
-    autonomy_state = reichskommissariat
-}
-
-			}
-			YUG = { set_cosmetic_tag = CRO_fascism}
+				ITA = { every_unit_leader = { set_nationality = GER }  set_autonomy = {  target = YUG   autonomy_state = autonomy_free } }
+				GER = { change_tag_from = ITA annex_country = { target = ITA transfer_troops = yes }} 
+				GER = { set_autonomy = {  target = YUG   autonomy_state = reichskommissariat }	}
+				YUG = { set_cosmetic_tag = CRO_fascism}
 			}
 			if = {
 				limit = {  HMP_italy_sort_of_dying = yes	}

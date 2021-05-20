@@ -4,7 +4,7 @@ vichy_legitimacy = {
 		}
 
 		SOV_purge_factor = {
-			icon = "GFX_idea_generic_fascism_drift_2"
+			icon = "GFX_idea_generic_manpower_bonus"
 				army_org_factor = SOV_purge_org_factor
 		}
 		

@@ -1646,7 +1646,7 @@ focus = {
 
 focus = {
 		id = GER_ost
-		icon = GFX_goal_generic_political_pressure
+		icon = GFX_GER_charge_of_the_light_brigade
 		prerequisite = { focus = GER_jag	 }
 		
 		x = 2
@@ -1659,9 +1659,9 @@ focus = {
 		add_ideas = expanded_recruitment		
 		 }
 }
-focus = {
+focus = { 
 		id = GER_ost2
-		icon = GFX_goal_generic_political_pressure
+		icon = GFX_ger_foreign_recruitment
 		prerequisite = { focus = GER_ost	 }
 		
 		x = 0

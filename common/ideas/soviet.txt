@@ -8,6 +8,7 @@ ideas = {
 			modifier = { conscription = 0.075			}
 		}
 		winter_offensive_sov = {
+		picture = SOV_winter_offensive
 			removal_cost = -1
 			allowed = {	always = no 	}
 			allowed_civil_war = {	NOT = {	has_government = democratic	}	}

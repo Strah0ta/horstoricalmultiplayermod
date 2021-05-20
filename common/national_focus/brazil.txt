@@ -650,9 +650,11 @@
 			add_tech_bonus = {
 				name = industrial_bonus
 				bonus = 1.0
-				uses = 1
-				category = industry
-			}
+				uses = 2
+				technology = flexible_line
+				technology = assembly_line_production
+				technology = streamlined_line
+				}
 		}
 	}
 
@@ -1204,10 +1206,15 @@
 			add_tech_bonus = {
 				name = secret_bonus
 				bonus = 1.0
-				uses = 6
-				category = electronics
+				uses = 4
 				category = rocketry
 			}
+				add_tech_bonus = {
+				name = secret_bonus
+				bonus = 1.0
+				uses = 2
+				category = electronics
+			}		
 		}
 	}
 

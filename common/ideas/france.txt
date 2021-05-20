@@ -173,10 +173,10 @@ ideas = {
 			
 			modifier = {
 				local_resources_factor = 0.1
-			}
+			} 
 		}	
 		FRA_egalite_liberte_solidarite = {
-			picture = FRA_liberte_egalite_solidarite
+			picture = FRA_FREE_army
 			allowed = {
 				original_tag = FRA
 				always = no
