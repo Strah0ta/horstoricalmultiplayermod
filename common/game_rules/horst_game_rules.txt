@@ -78,10 +78,11 @@ horst_host_country = {
 	name = "Select Host (TEST IN SP FIRST!!!)"
 	group = "HORST_GROUPKEY"
 	icon = "GFX_volunteers"
-	default = { 
-	name = DIS
-	text = "Tool Disabled"
-	desc = "Horst Tool is disabled (It is recommended to enable it on a trusted players country for the purpose of fixing certain situations that might arise in MP)"
+	
+	default = {
+		name = ENG
+		text = "United Kingdom"
+		desc = "Clicking this option will give the United Kingdom access to the Horst Tools (please test this in SP before enabling in MP)"
 	}
 	option = {
 		name = GER
@@ -102,11 +103,6 @@ horst_host_country = {
 		name = HUN
 		text = "Hungary"
 		desc = "Clicking this option will give Hungary access to the Horst Tools (please test this in SP before enabling in MP)"
-	}
-	option = {
-		name = ENG
-		text = "United Kingdom"
-		desc = "Clicking this option will give the United Kingdom access to the Horst Tools (please test this in SP before enabling in MP)"
 	}
 	option = {
 		name = USA
