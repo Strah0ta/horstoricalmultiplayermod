@@ -18,11 +18,18 @@ news_event = { id = news.9991 days = 2729  }
 country_event = { id = mtg_britain.2 days = 119 }
 country_event = { id = mtg_netherlands.1243 days = 801 } #ANSCHLUSS
 #SPRING MUD SEASON
-country_event = { id =  italy.800 days = 2269 } #march 42
+country_event = { id =  italy.800 days = 2269 } #march 42 
 country_event = { id =  italy.800 days = 2634 } #march 43
 country_event = { id =  italy.800 days = 3000 } #march 44
 country_event = { id =  italy.800 days = 3365 } #march 45
 #FALL MUD SEASON
+
+country_event = { id =  italy.806 days = 2010 } #July 41
+
+country_event = { id =  italy.807 days = 2054 } #june 41 #270
+
+country_event = { id =  italy.808 days = 2400 } #june 41 #227
+
 country_event = { id =  italy.802 days = 2088 } #sept 41
 country_event = { id =  italy.802 days = 2453 } #sept 42
 country_event = { id =  italy.802 days = 2818 } #sept 43

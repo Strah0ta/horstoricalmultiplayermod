@@ -45,8 +45,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {	
-							add_ideas = great_patriotic_war_idea
-				  add_ideas = shattered_retreat
+			add_ideas = great_patriotic_war_idea
 			add_tech_bonus = {
 				name = "Great Patriotic Industrial Research"
 				bonus = 1.0
@@ -56,12 +55,19 @@ focus_tree = {
 				category =	excavation_tech
 
 			}
-					add_tech_bonus = {
+			add_tech_bonus = {
 			name = mech_army_bonus
 			bonus = 3.0
 			technology = mechanised_infantry3
 			}
-		every_owned_state = { limit = { OR = { state = 220 state = 224 state = 222 state = 246 state = 242 state = 205 state = 223 state = 254 state = 253 state = 248 state = 247 }}}
+		every_owned_state = { limit = { OR = { state = 220 state = 224 state = 222 state = 246 state = 242 state = 205 state = 223 state = 254 state = 253 state = 248 state = 247 }}
+						add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+		
+		}
 		}
 	}
 	
@@ -803,31 +809,19 @@ add_ideas = red_airforce_resurgent
 		id = SOV_great_purge
 		icon = GFX_focus_SOV_purge
 		available = {
-			date > 1937.6.1 
+			date > 1938.4.1 
 		}
-		
 		x = 15
 		y = 0
 		cost = 30
-
 		select_effect = {
 			country_event = { id = soviet.24 days = 1 }
 		}
 		completion_reward = {
 		add_political_power = 120
-		country_event = { id = soviet.53 }
-				add_timed_idea = {
-					idea = officers_purged
-					days = 1460
-				}
-				hidden_effect = {
-					country_event = { id = soviet.37 days = 146 }				
-				}
-				hidden_effect = {
-					news_event = { hours = 6 id = news.219 }
-				}
-
-			remove_ideas = trotskyite_plot
+		add_dynamic_modifier = { modifier = SOV_purge_factor } 
+		hidden_effect = {	news_event = { hours = 6 id = news.219 }	}
+		remove_ideas = trotskyite_plot
 		}
 	}
 	
@@ -845,7 +839,7 @@ add_ideas = red_airforce_resurgent
 
 		completion_reward = {
 			add_tech_bonus = {
-				bonus = 1.0
+				bonus = 3.0
 				uses = 1
 				category = land_doctrine
 			}
@@ -906,10 +900,8 @@ add_ideas = red_airforce_resurgent
 	focus = {
 		id = SOV_lessons_of_war
 		icon = GFX_focus_SOV_lessons
-		prerequisite = { focus = SOV_nkvd_divisions focus = SOV_rehabilitated_military }
-		available = {
-				date > 1939.8.21
-		}
+		prerequisite = { focus = SOV_rehabilitated_military }
+		prerequisite = { focus = SOV_nkvd_divisions }
 		x = -1
 		y = 1
 		relative_position_id = SOV_nkvd_divisions
@@ -918,26 +910,13 @@ add_ideas = red_airforce_resurgent
 		available_if_capitulated = yes
 
 		completion_reward = {
-		custom_effect_tooltip = lessons_tt
-		custom_effect_tooltip = army_inno_3_tt
+			custom_effect_tooltip = army_inno_3_tt
 				hidden_effect = { set_technology = { armored_car_at_upgrade = 1 }	}
 			add_tech_bonus = {
 				name = "Lessons of War"
-				bonus = 1.0
+				bonus = 3.0
 				uses = 2
 				category = land_doctrine
-			}
-			hidden_effect = { 
-			if = { limit = { has_idea = officers_purged } remove_ideas = officers_purged }
-			if = { limit = { has_idea = officers_purged_2 } remove_ideas = officers_purged_2 }
-			if = { limit = { has_idea = officers_purged_3 } remove_ideas = officers_purged_3 }
-			if = { limit = { has_idea = officers_purged_4 } remove_ideas = officers_purged_4 }
-			if = { limit = { has_idea = officers_purged_5 } remove_ideas = officers_purged_5 }
-			if = { limit = { has_idea = officers_purged_6 } remove_ideas = officers_purged_6 }
-			if = { limit = { has_idea = officers_purged_7 } remove_ideas = officers_purged_7 }
-			if = { limit = { has_idea = officers_purged_8 } remove_ideas = officers_purged_8 }
-			if = { limit = { has_idea = officers_purged_9 } remove_ideas = officers_purged_9 }
-			if = { limit = { has_idea = officers_purged_10 } remove_ideas = officers_purged_10 }			
 			}
 		}
 	}
@@ -951,12 +930,12 @@ add_ideas = red_airforce_resurgent
 		x = 0
 		y = 1
 		relative_position_id = SOV_lessons_of_war
-		cost = 10
+		cost = 5
 
 		completion_reward = {
 			add_tech_bonus = {
 				name = nuclear_bonus
-				bonus = 1.0
+				bonus = 3.0
 				uses = 1
 				category = nuclear
 			}
@@ -974,7 +953,7 @@ add_ideas = red_airforce_resurgent
 		x = 0
 		y = 1
 		relative_position_id = SOV_research_city_experiment
-		cost = 10
+		cost = 5
 		
 		available_if_capitulated = yes
 
@@ -982,7 +961,7 @@ add_ideas = red_airforce_resurgent
 			add_tech_bonus = {
 				name = secret
 				bonus = 1.0
-				uses = 2
+				uses = 4
 				category = rocketry
 			}
 		}

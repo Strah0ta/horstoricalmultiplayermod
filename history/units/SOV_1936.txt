@@ -121,7 +121,7 @@ instant_effect = {
 		}
 		requested_factories = 29
 		progress = 0.1
-		efficiency = 60
+		efficiency = 100
 	}
 		add_equipment_production = { 
 			equipment = { 

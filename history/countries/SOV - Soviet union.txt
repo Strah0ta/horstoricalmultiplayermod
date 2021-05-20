@@ -74,7 +74,7 @@ set_technology = {
 	add_tech_bonus = {
 				name = SCW_lessons_from
 				bonus = 1.0
-				uses = 6
+				uses = 3
 				category = land_doctrine
 			}
 country_event = { id = lar_spain.53 days = 1186 }		 

@@ -10,7 +10,15 @@ spriteTypes = {
 		name = "GFX_news_event_end_of_continuation_war"
 		texturefile = "gfx/event_pictures/news_event_end_of_continuation_war.dds"
 	}
-
+		spriteType = {
+		name = "GFX_news_event_270"
+		texturefile = "gfx/event_pictures/news_event_SOV_stalin_gfxnews.tga"
+	}
+		spriteType = {
+		name = "GFX_news_event_227"
+		texturefile = "gfx/event_pictures/news_event_SOV_sold_gfxnews.tga"
+	}	
+	
 	spriteType = {
 		name = "GFX_news_event_finland_continuation_war"
 		texturefile = "gfx/event_pictures/news_event_finland_continuation_war.dds"

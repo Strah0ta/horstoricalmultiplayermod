@@ -7,7 +7,9 @@ ideas = {
 		qol_start_eff_sov = {
 	    picture = generic_infantry_bonus   allowed = {  always = yes  }  removal_cost = -1 modifier= {   production_factory_start_efficiency_factor = 0.5        }
 	}
-
+		qol_start_eff_sov2 = {
+	    picture = generic_infantry_bonus   allowed = {  always = yes  }  removal_cost = -1 modifier= {   production_factory_start_efficiency_factor = 0.2        }
+	}
 		continuous_naval_production = {
 			allowed = {
 				always = no

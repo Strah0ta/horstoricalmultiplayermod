@@ -162,7 +162,7 @@ sub_units = {
 		desert = {
 			movement = 0.20
 		}
-						deep_desert = { 
+		deep_desert = { 
 			movement = 0.1
 		}
 		river = {

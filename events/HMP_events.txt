@@ -229,7 +229,7 @@ country_event = {
 	
 	is_triggered_only = yes 
 	
-	option = { every_country = {remove_ideas = qol_start_eff }	SOV = {remove_ideas = qol_start_eff_sov } }
+	option = { every_country = {remove_ideas = qol_start_eff }	SOV = {remove_ideas = qol_start_eff_sov remove_ideas = qol_start_eff_sov2 } }
 }
 
 add_namespace = horsthelp
@@ -1477,6 +1477,81 @@ country_event = {
 	  }
    }       
    
+              country_event = {
+   id = italy.806 #mud removal event
+   title = "The Continuation War"
+   desc = "With the German invasion of the Soviet Union, our time has come to strike the Soviets and reclaim our lost territories!"
+   picture = GFX_report_event_german_italian_pact
+
+   fire_only_once = no
+ is_triggered_only = yes
+	hidden = yes
+   
+      option = {
+
+	if = { limit = { SOV = { check_variable = {var = SOV_purge_org_factor	value = 0	compare = less_than } }has_game_rule = { rule = horst_barbarossa_buff option = HORST_NEW_BARB }} SOV = { add_to_variable = { var = SOV_purge_org_factor value = 0.01 }  }   }  
+	if = { limit = { SOV = { check_variable = {var = SOV_purge_org_factor	value = 0	compare = less_than } }has_game_rule = { rule = horst_barbarossa_buff option = HORST_NEW_BARB }} SOV = { country_event = { id = italy.806 days = 14 }  }  }
+	if = { limit = { SOV = { check_variable = {var = SOV_purge_org_factor	value = 0	compare = equals } } has_game_rule = { rule = horst_barbarossa_buff option = HORST_NEW_BARB }} SOV = { remove_dynamic_modifier = { modifier = SOV_purge_factor }  }  }
+
+	  }
+   }    
+                 country_event = {
+   id = italy.807 #mud removal event
+   title = "The Continuation War"
+   desc = "With the German invasion of the Soviet Union, our time has come to strike the Soviets and reclaim our lost territories!"
+   picture = GFX_report_event_german_italian_pact
+
+   fire_only_once = no
+ is_triggered_only = yes
+	hidden = yes
+   
+      option = {
+	country_event = { id = italy.811 days = 30 }	SOV = { 	add_timed_idea = { idea = SOV_270_event days = 30 }  }   SOV = {  set_technology = { tech_270_on = 1 popup = no }   } news_event = { id = mtg_news.791 days = 0 }
+	  }
+   }    
+                    country_event = {
+   id = italy.808 #mud removal event
+   title = "The Continuation War"
+   desc = "With the German invasion of the Soviet Union, our time has come to strike the Soviets and reclaim our lost territories!"
+   picture = GFX_report_event_german_italian_pact
+
+   fire_only_once = no
+ is_triggered_only = yes
+	hidden = yes
+   
+      option = {
+		country_event = { id = italy.812 days = 60 }	SOV = { add_timed_idea = { idea =  SOV_227_event days = 60 }      }  news_event = { id = mtg_news.792 days = 0 }
+	  }
+   }    
+                       country_event = {
+   id = italy.811 #mud removal event
+   title = "The Continuation War"
+   desc = "With the German invasion of the Soviet Union, our time has come to strike the Soviets and reclaim our lost territories!"
+   picture = GFX_report_event_german_italian_pact
+
+   fire_only_once = no
+ is_triggered_only = yes
+	hidden = yes
+   
+      option = {
+			SOV = {set_technology = { tech_270_off = 1 popup = no } }
+	  }
+   }    
+                       country_event = {
+   id = italy.812 #mud removal event
+   title = "The Continuation War"
+   desc = "With the German invasion of the Soviet Union, our time has come to strike the Soviets and reclaim our lost territories!"
+   picture = GFX_report_event_german_italian_pact
+
+   fire_only_once = no
+ is_triggered_only = yes
+	hidden = yes
+   
+      option = {
+			SOV = {set_technology = { tech_227_off = 1 popup = no } }
+
+	  }
+   }    
              country_event = {
    id = italy.852 #winter planning
    title = "Winter Counter-Offensive"
@@ -1489,6 +1564,7 @@ country_event = {
    
       option = {
 	  name = "Vpred!"
+	  hidden_effect = { if = { limit = { NOT = { GER = { has_country_flag = barb_failed }}} GER = { set_country_flag = barb_failed } }}
 			SOV = { add_timed_idea = { idea = winter_offensive_sov days = 90 }}
 	  }
    }     
@@ -1605,6 +1681,30 @@ news_event = {
 		
 	}
 }
+
+news_event = {
+	id = mtg_news.791
+	title = "Order 270"
+	desc = mtg_news.791.d
+	picture = GFX_news_event_soldiers_marching
+	major = yes
+	is_triggered_only = yes
+	option = {
+		name = "Soviet divisions are inspired to stand and fight!"
+	}
+}
+news_event = {
+	id = mtg_news.792
+	title = "Order 227"
+    desc = mtg_news.792.d
+	picture = GFX_news_event_soldiers_marching
+	major = yes
+	is_triggered_only = yes
+	option = {
+		name = "Not a step back!"
+	}
+}
+
 
 # US Pursues Neutrality
 news_event = {
@@ -3422,241 +3522,6 @@ country_event = {
 	option = {
 		name = soviet.24.a
 		
-	}
-}
-
-# Purge - New officers less dumb. Regaining org
-country_event = {
-	id = soviet.37
-	title = soviet.37.t
-	desc = soviet.37.d
-	picture = GFX_report_event_soldiers_marching
-
-	is_triggered_only = yes
-
-	trigger = {	has_idea = officers_purged }
-
-	immediate = {
-		hidden_effect = {
-			remove_ideas = officers_purged
-			add_timed_idea = {
-				idea = officers_purged_2
-				days = 1314
-			}
-			country_event = { id = soviet.38 days = 146 }
-		}
-	}
-	option = {
-		name = soviet.37.a
-		custom_effect_tooltip = soviet.37.a_tt
-	}
-}
-# Purge - New officers less dumb. Regaining org
-country_event = {
-	id = soviet.38
-	title = soviet.37.t
-	desc = soviet.37.d
-	picture = GFX_report_event_soldiers_marching
-
-	is_triggered_only = yes
-
-	trigger = {	has_idea = officers_purged_2 }
-
-	immediate = {
-		hidden_effect = {
-			remove_ideas = officers_purged_2
-			add_timed_idea = {
-				idea = officers_purged_3
-				days = 1168
-			}
-			country_event = { id = soviet.39 days = 146 }
-		}
-	}
-	option = {
-		name = soviet.37.a
-		custom_effect_tooltip = soviet.37.a_tt
-	}
-}
-# Purge - New officers less dumb. Regaining org
-country_event = {
-	id = soviet.39
-	title = soviet.37.t
-	desc = soviet.37.d
-	picture = GFX_report_event_soldiers_marching
-
-	is_triggered_only = yes
-
-	trigger = {	has_idea = officers_purged_3 }
-
-	immediate = {
-		hidden_effect = {
-			remove_ideas = officers_purged_3
-			add_timed_idea = {
-				idea = officers_purged_4
-				days = 1022
-			}
-			country_event = { id = soviet.40 days = 146 }
-		}
-	}
-	option = {
-		name = soviet.37.a
-		custom_effect_tooltip = soviet.37.a_tt
-	}
-}
-# Purge - New officers less dumb. Regaining org
-country_event = {
-	id = soviet.40
-	title = soviet.37.t
-	desc = soviet.37.d
-	picture = GFX_report_event_soldiers_marching
-
-	is_triggered_only = yes
-
-	trigger = {	has_idea = officers_purged_4 }
-
-	immediate = {
-		hidden_effect = {
-			remove_ideas = officers_purged_4
-			add_timed_idea = {
-				idea = officers_purged_5
-				days = 876
-			}	
-			country_event = { id = soviet.41 days = 146 }
-		}
-	}
-	option = {
-		name = soviet.37.a
-		custom_effect_tooltip = soviet.37.a_tt
-	}
-}
-# Purge - New officers less dumb. Regaining org
-country_event = {
-	id = soviet.41
-	title = soviet.37.t
-	desc = soviet.37.d
-	picture = GFX_report_event_soldiers_marching
-
-	is_triggered_only = yes
-
-	trigger = {	has_idea = officers_purged_5 }
-
-	immediate = {
-	hidden_effect = {
-			remove_ideas = officers_purged_5
-			add_timed_idea = {
-				idea = officers_purged_6
-				days = 730
-			}		
-			country_event = { id = soviet.42 days = 146 }
-		}
-	}
-	option = {
-		name = soviet.37.a
-		custom_effect_tooltip = soviet.37.a_tt
-	}
-}
-# Purge - New officers less dumb. Regaining org
-country_event = {
-	id = soviet.42
-	title = soviet.37.t
-	desc = soviet.37.d
-	picture = GFX_report_event_soldiers_marching
-
-	is_triggered_only = yes
-
-	trigger = {	has_idea = officers_purged_6 }
-
-	immediate = {
-		hidden_effect = {
-			remove_ideas = officers_purged_6
-			add_timed_idea = {
-				idea = officers_purged_7
-				days = 584
-			}
-			country_event = { id = soviet.43 days = 146 }
-		}
-	}
-	option = {
-		name = soviet.37.a
-		custom_effect_tooltip = soviet.37.a_tt
-	}
-}
-# Purge - New officers less dumb. Regaining org
-country_event = {
-	id = soviet.43
-	title = soviet.37.t
-	desc = soviet.37.d
-	picture = GFX_report_event_soldiers_marching
-
-	is_triggered_only = yes
-
-	trigger = {	has_idea = officers_purged_7 }
-
-	immediate = {
-		hidden_effect = {
-			remove_ideas = officers_purged_7
-			add_timed_idea = {
-				idea = officers_purged_8
-				days = 438
-			}
-			country_event = { id = soviet.44 days = 146 }
-		}
-	}
-	option = {
-		name = soviet.37.a
-		custom_effect_tooltip = soviet.37.a_tt
-	}
-}
-# Purge - New officers less dumb. Regaining org
-country_event = {
-	id = soviet.44
-	title = soviet.37.t
-	desc = soviet.37.d
-	picture = GFX_report_event_soldiers_marching
-
-	is_triggered_only = yes
-
-	trigger = {	has_idea = officers_purged_8 }
-
-	immediate = {
-		hidden_effect = {
-			remove_ideas = officers_purged_8
-			add_timed_idea = {
-				idea = officers_purged_9
-				days = 292
-			}				
-			country_event = { id = soviet.45 days = 146 }
-		}
-	}
-	option = {
-		name = soviet.37.a
-		custom_effect_tooltip = soviet.37.a_tt
-	}
-}
-# Purge - New officers less dumb. Regaining org
-country_event = {
-	id = soviet.45
-	title = soviet.37.t
-	desc = soviet.37.d
-	picture = GFX_report_event_soldiers_marching
-
-	is_triggered_only = yes
-
-	trigger = {	has_idea = officers_purged_9 }
-
-	immediate = {
-		hidden_effect = {
-			remove_ideas = officers_purged_9
-			add_timed_idea = {
-				idea = officers_purged_10
-				days = 146
-			}
-		}
-		country_event = { id = soviet.47 days = 146 }
-	}
-	option = {
-		name = soviet.37.a
-		custom_effect_tooltip = soviet.37.a_tt
 	}
 }
 

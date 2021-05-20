@@ -81,7 +81,7 @@ sub_units = {
 		combat_width = 1
 		initiative = 0.01
 
-		manpower = 500
+		manpower = 250
 		need = { anti_air_equipment = 24 }
 		
 		max_strength = 0.6

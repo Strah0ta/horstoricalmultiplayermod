@@ -3305,9 +3305,9 @@ create_field_marshal = {
 	traits = { adaptable logistics_wizard  thorough_planner panzer_leader panzer_expert harsh_leader guerilla_fighter ranger camouflage_expert  }
 	skill = 7
 	attack_skill = 8
-	defense_skill = 4
-	planning_skill = 6
-	logistics_skill = 4
+	defense_skill = 1
+	planning_skill = 8
+	logistics_skill = 5
 }
 		
 create_field_marshal = {
@@ -3316,9 +3316,9 @@ create_field_marshal = {
 	traits = { adaptable logistics_wizard thorough_planner panzer_leader panzer_expert brilliant_strategist  aggressive_assaulter   organizer    }
 	skill = 7
 	attack_skill = 8
-	defense_skill = 4
-	planning_skill = 6
-	logistics_skill = 4
+	defense_skill = 1
+	planning_skill = 8
+	logistics_skill = 5
 }		
 create_field_marshal = {
     name = "Nikandr Chibisov"  #Point Value: 16 #3/25/21 +Combined Arms Expert +Bearer of Artillery +Scavenger
@@ -3525,8 +3525,8 @@ create_corps_commander = {
 		picture = "Portrait_Soviet_Nikolai_Fyodorovich_Vatutin.dds"
 	traits = { infantry_leader trickster guerilla_fighter commando infantry_expert expert_improviser fake_skilled_staffer_sov trait_reckless }
 		skill = 7
-    attack_skill = 5
-    defense_skill = 3
+    attack_skill = 6
+    defense_skill = 2
     planning_skill = 6
     logistics_skill = 8
 }		
@@ -3536,8 +3536,8 @@ create_corps_commander = {
 		picture = "Portrait_Soviet_Kirill_Meretskov.dds"
 	traits = { infantry_leader  trickster guerilla_fighter commando infantry_expert expert_improviser fake_skilled_staffer_sov trait_reckless }
 		skill = 7
-    attack_skill = 5
-    defense_skill = 3
+    attack_skill = 6
+    defense_skill = 2
     planning_skill = 6
     logistics_skill = 8
 }
@@ -4899,7 +4899,7 @@ create_corps_commander = { ###FIX
 HMP_startup_on_actions = {
 	every_country = { limit = { NOT =  {tag = SOV }}add_ideas = anti_strat_meme add_ideas = qol_start_eff } #adds starting eff and kills tac/strat range before danzig
 	SOV = { add_timed_idea = { days = 820 idea = SOV_motorized_focus } add_ideas = qol_start_eff_sov } #adds starting eff
-	ITA = { add_timed_idea = { idea = SOV_motorized_focus days = 690 } }  ENG = { add_timed_idea = { idea = SOV_motorized_focus days = 690 } } USA = { add_timed_idea = { idea = SOV_motorized_focus days = 690 } } 
+	ITA = { add_timed_idea = { idea = SOV_motorized_focus days = 690 } }  ENG = { add_timed_idea = { idea = SOV_motorized_focus days = 690 } } USA = { add_timed_idea = { idea = SOV_motorized_focus days = 690 } }  	JAP = { add_timed_idea = { idea = SOV_motorized_focus days = 690 } }  
 	every_country = { limit = { 365_sov_mot = yes }  add_timed_idea = { days = 365 idea = SOV_motorized_focus }  }
 	if = { limit = {CZE = { is_ai = yes}} CZE ={  add_ideas = ai_imiter  } } if = { limit = {YUG = { is_ai = yes}} YUG ={  add_ideas = ai_imiter  } }
 	if = { limit = {HOL = { is_ai = yes} } HOL = { add_ideas = ai_imiter add_equipment_to_stockpile = {  type = infantry_equipment_1   amount = 40000   producer = GER } }	}
@@ -4918,7 +4918,7 @@ HMP_startup_on_actions = {
 	if = { limit = { has_start_date > 1936.01.02 }  HMP_no_asia = yes  }
 	HOL = { add_country_leader_trait = defeatism } 
 	#if = {	limit = { has_game_rule = { rule = horst_barbarossa_buff	option = HORST_OLD_BARB	} }	MAN = { load_focus_tree = manchukuomod_focus } 	} #WIP
-	#if = {	limit = { has_game_rule = { rule = horst_barbarossa_buff	option = HORST_NEW_BARB	} }	MAN = { load_focus_tree = manchukuomod_focus } 	}		
+	if = {	limit = { has_game_rule = { rule = horst_barbarossa_buff	option = HORST_NEW_BARB	} }	SOV = { add_ideas = qol_start_eff_sov2 add_timed_idea = { idea = SOV_2nd_plan days = 365 } } 	}		
 	HMP_script_generals = yes 
 	make_asia_go_faster = yes	
 	bad_infra_state_effect = yes 	
