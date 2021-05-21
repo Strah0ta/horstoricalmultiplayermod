@@ -24,10 +24,7 @@ on_actions = {
 			else_if = { limit = {has_game_rule = {rule = horst_host_country option = EFR}} set_variable={host = EFR.id} }	
 			else_if = { limit = {has_game_rule = {rule = horst_host_country option = BUL}} set_variable={host = BUL.id} }
 			else_if = { limit = {has_game_rule = {rule = horst_host_country option = BRA}} set_variable={host = BRA.id} }
-			if = {
-				limit = { NOT = { has_game_rule = {rule = horst_host_country option = DIS}} }
-				var:host = { set_variable = { marked_states = 0 } set_country_flag = host	}
-			}	
+			var:host = { set_variable = { marked_states = 0 } set_country_flag = host	}
 			SWE = { HMP_startup_on_actions = yes }
 		}
 	}
