@@ -114,10 +114,13 @@ NDefines.NBuildings.RADAR_RANGE_BASE = 20				-- Radar range base, first level ra
 NDefines.NBuildings.RADAR_RANGE_MIN = 50				-- Radar range (from state center to province center) in measure of map pixels. Exluding techs.
 NDefines.NBuildings.RADAR_RANGE_MAX = 400			-- Range is interpolated between building levels 1-15.
 ---------------------------------------------------------------
-NDefines.NCountry.REINFORCEMENT_MANPOWER_DELIVERY_SPEED = 50.0	-- vanilla 10 Modifier for army manpower reinforcement delivery speed (travel time)
-NDefines.NCountry.REINFORCEMENT_MANPOWER_CHUNK = 0.5            -- vanilla 0.1
+NDefines.NCountry.REINFORCEMENT_MANPOWER_DELIVERY_SPEED = 500.0	-- vanilla 10 Modifier for army manpower reinforcement delivery speed (travel time)
+NDefines.NCountry.REINFORCEMENT_MANPOWER_CHUNK = 1            -- vanilla 0.1
 NDefines.NCountry.EQUIPMENT_UPGRADE_CHUNK_MAX_SIZE = 100			-- vanilla 10  Maximum chunk size of equipment upgrade distribution per update.
-NDefines.NCountry.REINFORCEMENT_EQUIPMENT_DELIVERY_SPEED = 0.7      -- vanilla 0.3 
+NDefines.NCountry.REINFORCEMENT_EQUIPMENT_DELIVERY_SPEED = 0.3     -- vanilla 0.3 
+--NDefines.NCountry.REINFORCEMENT_DELIVERY_SPEED_MIN = 0.7   
+NDefines.NMilitary.REINFORCEMENT_REQUEST_MAX_WAITING_DAYS = 2   -- Every X days the equipment will be sent, regardless if still didn't produced all that has been requested.
+NDefines.NMilitary.REINFORCEMENT_REQUEST_DAYS_FREQUENCY = 2	   -- How many days must pass until we may give another reinforcement request
 NDefines.NCountry.UNCAPITULATE_LEVEL = 1                       -- VANILLA 0.1 if we reclaim this much and our capital we reset capitulate status
 NDefines.NCountry.SPECIAL_FORCES_CAP_MIN = 4200						-- up from 24 | You can have a minimum of this many special forces battalions, regardless of the number of non-special forces battalions you have, this can also be modified by a country modifier
 NDefines.NCountry.SPECIAL_FORCES_CAP_BASE = 0.00
