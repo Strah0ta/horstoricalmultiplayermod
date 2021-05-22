@@ -269,25 +269,6 @@ add_ideas = red_airforce_resurgent
 	}
 
 
-	focus = {
-		id = SOV_militarized_schools
-		icon = GFX_goal_generic_army_doctrines
-		prerequisite = { focus = SOV_workers_culture }
-		x = 0
-		y = 1
-		relative_position_id = SOV_workers_culture
-		cost = 10
-		
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_ideas = militarized_schools
-			if = { limit = { has_idea = volunteer_only } add_ideas = limited_conscription }
-			if = { limit = { has_idea = limited_conscription } add_ideas = extensive_conscription }
-			}
-		}
-
-
 
 	focus = {
 		id = SOV_progress_cult
@@ -304,22 +285,25 @@ add_ideas = red_airforce_resurgent
 			add_ideas = progress_cult_focus
 		}
 	}
-	
 	focus = {
-		id = SOV_positive_heroism
-		icon = GFX_focus_SOV_postive_heroism
+		id = SOV_militarized_schools
+		icon = GFX_goal_generic_army_doctrines
 		prerequisite = { focus = SOV_progress_cult }
 		x = 0
 		y = 1
 		relative_position_id = SOV_progress_cult
 		cost = 10
-
+		
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_ideas = konstantin_rokossovsky 
+			add_ideas = militarized_schools
+			if = { limit = { has_idea = volunteer_only } add_ideas = limited_conscription }
+			if = { limit = { has_idea = limited_conscription } add_ideas = extensive_conscription }
+			}
 		}
-	}
+
+
 
 	focus = {
 		id = SOV_socialist_realism
@@ -874,13 +858,13 @@ add_ideas = red_airforce_resurgent
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_ideas = nkvd
+			add_ideas = nkvd_2
 		}
 	}
 
 	focus = {
-		id = SOV_nkvd_divisions
-		icon = GFX_goal_generic_allies_build_infantry
+		id = SOV_positive_heroism
+		icon = GFX_focus_SOV_postive_heroism
 		prerequisite = { focus = SOV_nkvd_primacy }
 		x = 0
 		y = 1
@@ -890,21 +874,18 @@ add_ideas = red_airforce_resurgent
 		available_if_capitulated = yes
 
 		completion_reward = {
-			swap_ideas = {
-				remove_idea = nkvd
-				add_idea = nkvd_2
-			}
+			add_ideas = konstantin_rokossovsky 
 		}
 	}
-
+	
 	focus = {
 		id = SOV_lessons_of_war
 		icon = GFX_focus_SOV_lessons
 		prerequisite = { focus = SOV_rehabilitated_military }
-		prerequisite = { focus = SOV_nkvd_divisions }
+		prerequisite = { focus = SOV_positive_heroism }
 		x = -1
 		y = 1
-		relative_position_id = SOV_nkvd_divisions
+		relative_position_id = SOV_positive_heroism
 		cost = 10
 
 		available_if_capitulated = yes

@@ -1506,7 +1506,7 @@ country_event = {
 	hidden = yes
    
       option = {
-	country_event = { id = italy.811 days = 30 }	SOV = { 	add_timed_idea = { idea = SOV_270_event days = 30 }  }   SOV = {  set_technology = { tech_270_on = 1 popup = no }   } news_event = { id = mtg_news.791 days = 0 }
+	country_event = { id = italy.811 days = 60 }	SOV = { 	add_timed_idea = { idea = SOV_270_event days = 60 }  }   SOV = {  set_technology = { tech_270_on = 1 popup = no }   } news_event = { id = mtg_news.791 days = 0 }
 	  }
    }    
                     country_event = {
