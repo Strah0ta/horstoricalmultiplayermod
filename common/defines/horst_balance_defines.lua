@@ -12,13 +12,13 @@ NDefines.NMilitary.EQUIPMENT_COMBAT_LOSS_FACTOR = 0.875	 	       --  I use this 
 NDefines.NMilitary.AIR_SUPPORT_BASE = 0.25                        -- vanilla 0.25 CAS bonus factor for air support moddifier for land unit in combat
 NDefines.NMilitary.UNIT_DIGIN_CAP = 3                           -- how "deep" you can dig you can dig in until hitting max bonus
 --NDefines.NMilitary.PLAYER_ORDER_PLANNING_DECAY = 0.025			-- vanilla  0.03	-- Amount of planning lost due to player manual order
-NDefines.NMilitary.COMBAT_VALUE_ORG_IMPORTANCE = -100		-- VANILLA 1     Multiplier on TotalOrganisation when determining the combat value of a division
-NDefines.NMilitary.COMBAT_VALUE_STR_IMPORTANCE = 0.5		-- VANILLA 1      Multiplier on TotalStrength when determining the combat value of a division
+NDefines.NMilitary.COMBAT_VALUE_ORG_IMPORTANCE = -6 		-- VANILLA 1     Multiplier on TotalOrganisation when determining the combat value of a division
+NDefines.NMilitary.COMBAT_VALUE_STR_IMPORTANCE = 5 -- VANILLA 1      Multiplier on TotalStrength when determining the combat value of a division
 
 NDefines.NMilitary.EXPERIENCE_LOSS_FACTOR = 0.5                 -- percentage of experienced solders who die when manpower is removed
 NDefines.NMilitary.UNIT_EXPERIENCE_PER_COMBAT_HOUR = 0.00035
 NDefines.NMilitary.RIVER_CROSSING_PENALTY = -0.25                 -- small river crossing
-NDefines.NMilitary.RIVER_CROSSING_PENALTY_LARGE = -0.325           -- large river crossing
+NDefines.NMilitary.RIVER_CROSSING_PENALTY_LARGE = -0.30          -- large river crossing
 NDefines.NMilitary.ANTI_AIR_ATTACK_TO_AMOUNT = 0.001 				-- WAS 0.005 | Balancing value to convert equipment stat anti_air_attack to the random % value of airplanes being hit.
 NDefines.NMilitary.EXPERIENCE_COMBAT_FACTOR = 0.08       -- WAS 0.25 | Turns out that no Russian volunteers to Spain leads to at least 15 veteran +75% heavy tanks at barb every game that kill nearly every Russia player in less than 3 months. Just wait until Germany players manage to get 30 vet heavies by using minors more
 NDefines.NMilitary.MAX_NAVY_EXPERIENCE = 0             -- WAS 500

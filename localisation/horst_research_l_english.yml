@@ -12,7 +12,7 @@
  PER_NEUTRAL:0 "Neutral Middle East"
  smooth_talking_charmer2:0 "Smooth Talking Charmer"
  FREENORWAY:0 "Free Norway"
- mil_add:0 "Add"
+ mill_add:0 "Add"
  MILADD:0 "Add Five Military Factories"
  MILADD_DELAYED:0 "Clicking this will add Five Military Factories"
  military_police_tech:0 "Military Police"

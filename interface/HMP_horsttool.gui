@@ -89,7 +89,7 @@ guiTypes = {
 			pdx_tooltip_delayed = "ANNEX_COUNTRY_DELAYED"
 		}
 		buttonType = {
-			name = "mil_add"	
+			name = "mill_add"	
 			position = {x=172 y=90}
 			spriteType = "GFX_horst_civ_plus"
 			pdx_tooltip = "MILADD"
