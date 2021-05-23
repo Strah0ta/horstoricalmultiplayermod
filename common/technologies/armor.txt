@@ -307,7 +307,14 @@ technologies = {
 		}
 		research_cost = 2
 		start_year = 1943
-		
+				on_research_complete = {          
+		add_tech_bonus = {
+			name = "1943 Tank Variety Bonus"
+			bonus = 5.0
+			uses = 1
+			category = cat_1943_tanks
+		}
+		}
 		folder = {
 			name = armour_folder
 			position = { x = -4 y = 10 }

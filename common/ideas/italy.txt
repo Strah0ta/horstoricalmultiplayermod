@@ -321,12 +321,18 @@ ideas = {
 					on_add = { hidden_effect = { make_tank_designers_free = yes } }
 			allowed = { OR = { 	the_axis = yes the_geacps = yes }  }
 			cost = 150 
+						research_bonus = {
+				armor = 0.15
+			}
 			traits = { infantry_tank_manufacturer }
 		}
 				ansaldo = {
 			on_add = { hidden_effect = { make_tank_designers_free = yes } }
 			allowed = { OR = { 	the_axis = yes the_geacps = yes }  }
 			cost = 150 
+						research_bonus = {
+				armor = 0.15
+			}
 			traits = { cruiser_tank_manufacturer }
 		}
 	}
