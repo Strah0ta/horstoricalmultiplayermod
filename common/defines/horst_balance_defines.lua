@@ -13,7 +13,7 @@ NDefines.NMilitary.AIR_SUPPORT_BASE = 0.25                        -- vanilla 0.2
 NDefines.NMilitary.UNIT_DIGIN_CAP = 3                           -- how "deep" you can dig you can dig in until hitting max bonus
 --NDefines.NMilitary.PLAYER_ORDER_PLANNING_DECAY = 0.025			-- vanilla  0.03	-- Amount of planning lost due to player manual order
 NDefines.NMilitary.COMBAT_VALUE_ORG_IMPORTANCE = -6 		-- VANILLA 1     Multiplier on TotalOrganisation when determining the combat value of a division
-NDefines.NMilitary.COMBAT_VALUE_STR_IMPORTANCE = 5 -- VANILLA 1      Multiplier on TotalStrength when determining the combat value of a division
+NDefines.NMilitary.COMBAT_VALUE_STR_IMPORTANCE = -1 -- VANILLA 1      Multiplier on TotalStrength when determining the combat value of a division
 
 NDefines.NMilitary.EXPERIENCE_LOSS_FACTOR = 0.5                 -- percentage of experienced solders who die when manpower is removed
 NDefines.NMilitary.UNIT_EXPERIENCE_PER_COMBAT_HOUR = 0.00035
