@@ -489,16 +489,7 @@ focus_tree = {
 			}
 			swap_ideas = {  remove_idea = GER_autarky_idea_ita add_idea = GER_autarky_idea2_ita}
 			}
-			
-						42 = {
-				add_extra_state_shared_building_slots = 3
-				add_building_construction = {
-					type = synthetic_refinery
-					level = 3
-					instant_build = yes
-				}
-			}	
-						51 = {
+			51 = {
 				add_extra_state_shared_building_slots = 3
 				add_building_construction = {
 					type = synthetic_refinery
@@ -1500,16 +1491,10 @@ add_tech_bonus = {
 		completion_reward = {
 			42 = { set_demilitarized_zone = no }
 			51 = { set_demilitarized_zone = no }
-			 #if = { limit = { NOT = { has_idea = joseph_goebbels }} add_ideas = joseph_goebbels add_political_power = 20 }
-			# if = { limit = { has_idea = joseph_goebbels } add_political_power = 120 }
 			add_political_power = 120
 			add_war_support = 0.1 
-			add_named_threat = { threat = 5 name = GER_rhineland 
-
-		}	
-						hidden_effect = {
-				news_event = { hours = 6 id = news.25 }
-			}	
+			add_named_threat = { threat = 5 name = GER_rhineland 	}	
+		hidden_effect = {news_event = { hours = 6 id = news.25 }	}	
 }		
 	}
 	

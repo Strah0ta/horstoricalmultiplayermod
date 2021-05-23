@@ -89,6 +89,22 @@ guiTypes = {
 			pdx_tooltip_delayed = "ANNEX_COUNTRY_DELAYED"
 		}
 		buttonType = {
+			name = "mil_add"	
+			position = {x=172 y=90}
+			spriteType = "GFX_horst_civ_plus"
+			pdx_tooltip = "MILADD"
+			pdx_tooltip_delayed = "MILADD_DELAYED"
+			scale = 0.95
+		}
+	 buttonType = {
+		name = "pingtool"	
+			position = {x=180 y=148}
+			spriteType = "GFX_horst_pingtool"
+		scale = 0.75
+			pdx_tooltip = "PINGTOOL"
+			pdx_tooltip_delayed = "PINGTOOL_DELAYED"
+		}
+		buttonType = {
 			name = "addpp"	
 			position = {x=168 y=192}
 			spriteType = "GFX_horst_addpp"

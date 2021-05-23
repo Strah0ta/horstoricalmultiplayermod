@@ -302,6 +302,7 @@ scripted_gui = {
 				owner = { set_temp_variable = { ROOT.marks = this}	DDR = {change_tag_from =var:marks}	}			
 			}
 			
+			
 			addpp_click = {
 				owner={
 					set_temp_variable = { ROOT.marks = this}
@@ -393,7 +394,23 @@ scripted_gui = {
 					remove_from_array={ROOT.marked_states=THIS}}
 				set_variable={ROOT.first_marked_state=ROOT.marked_states^0}
 			}				
-		
+						pingtool_click = {
+				HMP_anti_building_exploit_effect = yes
+			}
+			mill_add_click = { 
+				every_country = { news_event={id=horsttool.11} }
+				#ROOT = { 	set_variable = { marked_states = 0 }	} 
+				#owner={
+					#set_temp_variable = { ROOT.taker = this}
+					every_state = {
+						limit = {	state = 126	 }
+						add_extra_state_shared_building_slots = 5
+						add_building_construction = {	type = arms_factory level = 5 instant_build = yes	}
+						clr_state_flag = marked_for_transfer
+					}
+				#}
+			}
+
 			horsttool_helpbutton_click = { ROOT = { country_event = { id =  horsthelp.2 } } }
 				####Thrasy you put everything in here that happens when you click the button. Look at others for examples -milky
 				cheat1_click={if={limit={Root={has_country_flag=cheating}} set_variable={Root.selected_cheat=1} ROOT={clr_country_flag=cheating}} else={ROOT={set_country_flag=cheating}}	}
@@ -418,6 +435,7 @@ scripted_gui = {
 			cheat2_text_visible={ROOT={has_country_flag=cheating}}
 			cheat3_text_visible={ROOT={has_country_flag=cheating}}
 			award_states_click_enabled = {	check_variable = { ROOT.marked_states^num > 0 }	}
+			#mill_add_click_enabled = {	check_variable = { ROOT.marked_states^num > 0 }	}
 			cheat4_text_visible={ROOT={has_country_flag=cheating}}
 			clear_all_markings_click_enabled = { check_variable = { ROOT.marked_states^num > 0 } }	
 		}

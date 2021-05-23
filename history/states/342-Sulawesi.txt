@@ -3,7 +3,7 @@ id=342
 name="STATE_673"
 manpower = 4232000
 resources={
-rubber=31
+rubber=26
 }
 state_category = wasteland
 history= {

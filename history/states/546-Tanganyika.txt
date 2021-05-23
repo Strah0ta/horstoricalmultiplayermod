@@ -2,9 +2,7 @@ state={
 id=546
 name="STATE_546"
 state_category = rural
-resources={
-rubber=0
-}
+
 history={
 owner = ENG
 add_core_of=SWE

@@ -645,6 +645,34 @@ add_ideas = red_airforce_resurgent
 						instant_build = yes
 					}
 				}
+										   206 = {
+					set_building_level = {
+						type = air_base
+						level = 20
+						instant_build = yes
+					}
+				}
+										   202 = {
+					set_building_level = {
+						type = air_base
+						level = 20
+						instant_build = yes
+					}
+				}
+										   234 = {
+					set_building_level = {
+						type = air_base
+						level = 20
+						instant_build = yes
+					}
+				}
+													   137 = {
+					set_building_level = {
+						type = air_base
+						level = 20
+						instant_build = yes
+					}
+				}
 			   219 = {
 					set_building_level = {
 						type = air_base
@@ -859,6 +887,13 @@ add_ideas = red_airforce_resurgent
 
 		completion_reward = {
 			add_ideas = nkvd_2
+					add_tech_bonus = {
+				name = SOV_nkvd_primacy
+				bonus = 3.0
+				ahead_reduction = 2
+				uses = 1
+				category = 	military_police_tech
+			}
 		}
 	}
 

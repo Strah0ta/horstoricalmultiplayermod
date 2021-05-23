@@ -305,8 +305,9 @@ SPR_relocate_mil = yes
 SPR_relocate_mil = yes
 }
 
-HMP_anti_resource_exploit_effect = { 
-if = { limit = {  has_built = { type = infrastructure  value > 9 } } set_building_level = {  type = infrastructure  level = 6 instant_build = yes }  }  
+HMP_anti_building_exploit_effect = { #add to horst tool
+every_state = { limit = { ignore_aa_states = yes non_damaged_building_level  = { building = anti_air_building  level > 5 } } remove_building  = {  type = anti_air_building  level = 1 }  }  
+every_state = { limit = {  non_damaged_building_level  = { building = infrastructure  level > 10 } } remove_building  = {  type = infrastructure  level = 1 }  }  
 }
 
 

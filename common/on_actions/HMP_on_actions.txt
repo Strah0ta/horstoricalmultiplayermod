@@ -14,6 +14,8 @@ on_actions = {
 			else_if = { limit = {has_game_rule = {rule = horst_host_country option = RAJ}} set_variable={host = RAJ.id} }
 			else_if = { limit = {has_game_rule = {rule = horst_host_country option = AST}} set_variable={host = AST.id} }
 			else_if = { limit = {has_game_rule = {rule = horst_host_country option = NZL}} set_variable={host = NZL.id} }
+			else_if = { limit = {has_game_rule = {rule = horst_host_country option = CZE}} set_variable={host = CZE.id} }
+			else_if = { limit = {has_game_rule = {rule = horst_host_country option = YUG}} set_variable={host = YUG.id} }
 			else_if = { limit = {has_game_rule = {rule = horst_host_country option = JAP}} set_variable={host = JAP.id} }
 			else_if = { limit = {has_game_rule = {rule = horst_host_country option = MAN}} set_variable={host = MAN.id} }
 			else_if = { limit = {has_game_rule = {rule = horst_host_country option = SOV}} set_variable={host = SOV.id} }

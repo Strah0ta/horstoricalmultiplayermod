@@ -3,9 +3,7 @@ id=510
 name="STATE_772"
 manpower = 746415
 state_category = town
-resources={
-rubber=0
-}
+
 history={
 owner = FRA
 add_core_of=SWE

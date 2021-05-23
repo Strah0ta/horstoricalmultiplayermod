@@ -29,7 +29,7 @@
  ADD_CHEAT:0 "§HCheat§!\nSelection is given to the selected country\n\n"
  ADD_CHEAT_DELAYED:0 ""
 
- PINGTOOL:0 "§HAI Reenabler§!\nMark, then click (WiP)\n\n"
+ PINGTOOL:0 "§HAnti-Building Level Exploit Tool§!"
  PINGTOOL_DELAYED:0 ""
 
  CIVADD:0 "§HAdd 1 Civillian Factory§!\nClicking this button will add a civillian factory to the selected state.\n\n"

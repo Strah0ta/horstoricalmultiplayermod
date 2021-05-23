@@ -16,6 +16,11 @@ spriteTypes = {
 		name = "GFX_idea_SOV_winter_offensive"
 		texturefile = "gfx/interface/ideas/SOV_winter_offensive.dds"
 	}
+	
+		spriteType = {
+		name = "GFX_idea_SOV_wtf"
+		texturefile = "gfx/interface/ideas/idea_SOV_wtf.dds"
+	}
 
 	spriteType = {
 		name = "GFX_idea_imro"

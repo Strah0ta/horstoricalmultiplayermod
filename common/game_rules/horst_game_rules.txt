@@ -75,6 +75,24 @@ horst_barbarossa_buff = {
 	}
 
 }
+
+horst_industry_balancer = {
+	name = "Industry Balancer (Requires Horst Tool)"
+	group = "HORST_GROUPKEY"					
+	icon = "GFX_decision_hol_draw_up_staff_plans"	
+	default = {	
+		name = "HORST_INDUSTRY_BALANCE_OFF" 
+		text = "Disallows the Horst Tool to add military factories"
+		desc = "Disables ingame industry balancing via adding military factories."	
+	}
+	option = {	
+		name = "HORST_INDUSTRY_BALANCE_ON"
+		text = "Allows the Horst Tool to add military factories"
+		desc = "Enables ingame industry balancing via adding military factories."	
+	}
+
+}
+
 horst_host_country = {
 	name = "Select Host (TEST IN SP FIRST!!!)"
 	group = "HORST_GROUPKEY"
@@ -185,6 +203,17 @@ horst_host_country = {
 		text = "Vichy France"
 		desc = "Clicking this option will give Vichy France access to the Horst Tools (please test this in SP before enabling in MP) - Horst tool is transferred to Germany upon capitulation"
 	}		
+	option = {
+		name = CZE
+		text = "Slovakia"
+		desc = "Clicking this option will give Croatia access to the Horst Tools (please test this in SP before enabling in MP) - Horst tool is transferred to Germany upon capitulation"
+	}		
+			option = {
+		name = YUG
+		text = "Croatia"
+		desc = "Clicking this option will give Croatia access to the Horst Tools (please test this in SP before enabling in MP) - Horst tool is transferred to Germany upon capitulation"
+	}		
+		
 			option = {
 		name = BUL
 		text = "Bulgaria"
@@ -192,18 +221,5 @@ horst_host_country = {
 	}		
 }
 
-horst_debug = {
-	name = "Debug Testing"
-	group = "HORST_GROUPKEY"					
-	icon = "GFX_decision_category_generic"			
-	default = {	
-		name = "HORST_DISABLE_DEBUG"
-		text = "Disable Testing (Recommended)"
-		desc = "Click this option if you aren't testing a feature I might be working on (recommended)."	
-	}
-	option = {	
-		name = "HORST_ENABLE_DEBUG" 
-		text = "Enable Testing"
-		desc = "Click this option if you are testing a feature I might be working on."	
-	}
+
 }
