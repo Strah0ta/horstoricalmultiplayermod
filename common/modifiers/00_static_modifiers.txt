@@ -371,6 +371,8 @@ operative_nationality_operation = {
 stahlpakt2 = {	trade_cost_for_target_factor = -0.8		extra_trade_to_target_factor = 1.0	}
 	stahlpakt = {	trade_cost_for_target_factor = -0.6		}
 	stahlpakt_ITA2 = {	trade_cost_for_target_factor = -0.8	}
+		stahlpakt_ITA3 = {	extra_trade_to_target_factor = 1 }
+
 		stahlpakt_ITA = {	trade_cost_for_target_factor = -0.6	extra_trade_to_target_factor = 1.0 }
 	stahlpakt4 = {trade_cost_for_target_factor = -0.9 extra_trade_to_target_factor = 1.0	}
 asiapakt = {	extra_trade_to_target_factor = 1.0		trade_cost_for_target_factor = -0.6 }

@@ -1269,8 +1269,8 @@ generic_bonus_1 = {
 	name = "Generic 100 Bonus" bonus = 1 uses = 1
 	category = air_equipment category = industry 
 	category = artillery category = naval_equipment	
-	category = motorized_equipment   category =	armor 
-	category = electronics	category = nuclear 
+	category = motorized_equipment   category = cat_1941_tanks
+	category = electronics	category = nuclear category = cat_1943_tanks
 	category = land_doctrine category = infantry_weapons 
 	category = air_doctrine category = naval_doctrine   
 	category = tp_tech   category = support_tech 
@@ -1281,8 +1281,8 @@ generic_bonus_3 = {
 	add_tech_bonus = { 
 	name = "Generic 300 Bonus"  bonus = 3 uses = 1
 	category = air_equipment category = industry 
-	category = artillery category = naval_equipment	
-	category = motorized_equipment   category =	armor 
+	category = artillery category = naval_equipment	 category = cat_1941_tanks
+	category = motorized_equipment   category = cat_1943_tanks 
 	category = electronics	category = nuclear 
 	category = land_doctrine category = infantry_weapons 
 	category = air_doctrine category = naval_doctrine   
@@ -1293,8 +1293,8 @@ generic_bonus_2y = {
 	add_tech_bonus = { 
 	name = "Generic 2y Bonus"  ahead_reduction = 2 bonus = 1 uses = 1
 	category = air_equipment category = industry 
-	category = artillery category = naval_equipment	
-	category = motorized_equipment   category =	armor 
+	category = artillery category = naval_equipment	category = cat_1941_tanks
+	category = motorized_equipment   category = cat_1943_tanks  
 	category = electronics	category = nuclear 
 	category = land_doctrine category = infantry_weapons 
 	category = air_doctrine category = naval_doctrine   
@@ -1306,8 +1306,8 @@ generic_bonus_999 = {
 	add_tech_bonus = { 
 	name = "Generic 99999 Bonus"  bonus = 999.99 uses = 1 
 	category = air_equipment category = industry 
-	category = artillery category = naval_equipment	
-	category = motorized_equipment   category =	armor 
+	category = artillery category = naval_equipment	category = cat_1941_tanks
+	category = motorized_equipment   category = cat_1943_tanks  
 	category = electronics	category = nuclear 
 	category = land_doctrine category = infantry_weapons 
 	category = air_doctrine category = naval_doctrine   

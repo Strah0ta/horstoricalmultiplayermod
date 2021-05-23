@@ -397,10 +397,8 @@ scripted_gui = {
 						pingtool_click = {
 				HMP_anti_building_exploit_effect = yes
 			}
-			mill_add_click = { 
-				
-				owner={ news_event = { id = horsttool.11 days = 0} add_offsite_building = { type = arms_factory level = 5 }	}
-			}
+			mill_add_click = { owner={ news_event = { id = horsttool.11 days = 0} add_offsite_building = { type = arms_factory level = 5 }	}	}
+			civ_add_click = { owner={ news_event = { id = horsttool.12 days = 0} add_offsite_building = { type = industrial_complex level = 1 }	}	}
 
 			horsttool_helpbutton_click = { ROOT = { country_event = { id =  horsthelp.2 } } }
 				####Thrasy you put everything in here that happens when you click the button. Look at others for examples -milky
@@ -427,6 +425,7 @@ scripted_gui = {
 			cheat3_text_visible={ROOT={has_country_flag=cheating}}
 			award_states_click_enabled = {	check_variable = { ROOT.marked_states^num > 0 }	}
 			mill_add_click_enabled = { has_game_rule = { rule =  horst_industry_balancer option = HORST_INDUSTRY_BALANCE_ON }	}
+			civ_add_click_enabled = { has_game_rule = { rule =  horst_industry_balancer option = HORST_INDUSTRY_BALANCE_ON }	}
 			cheat4_text_visible={ROOT={has_country_flag=cheating}}
 			clear_all_markings_click_enabled = { check_variable = { ROOT.marked_states^num > 0 } }	
 		}

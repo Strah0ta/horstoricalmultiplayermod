@@ -1111,6 +1111,26 @@ technologies = {
 				movement = 0.05
 			}
 		}	
+		category_support_battalions = {
+			forest = {
+				attack = -0.03
+				movement = -0.05
+			}
+			urban = {
+				attack = -0.03
+				movement = -0.05
+			}
+		}	
+category_armor_support_battalions = {
+			forest = {
+				attack = -0.03
+				movement = -0.05
+			}
+			urban = {
+				attack = -0.03
+				movement = -0.05
+			}
+		}	
 	}
 
 	night_vision = {

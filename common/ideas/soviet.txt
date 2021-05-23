@@ -680,6 +680,7 @@ ideas = {
 		
 		konstantin_rokossovsky = {
 			ledger = army
+			available = { has_completed_focus = SOV_positive_heroism}
 			allowed = {		original_tag = SOV }
 			traits = { army_armored_3 }
 		}		

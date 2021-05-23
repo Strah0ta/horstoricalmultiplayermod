@@ -82,7 +82,7 @@ guiTypes = {
 		}
 		buttonType = {
 			name = "annex_country" 
-			position = {x=370 y=190}	
+			position = {x=300 y=190}	
 			spriteType = "GFX_global_diplorequest_icons"
             		frame = 2
 			pdx_tooltip = "ANNEX_COUNTRY"
@@ -96,9 +96,18 @@ guiTypes = {
 			pdx_tooltip_delayed = "MILADD_DELAYED"
 			scale = 0.95
 		}
+				buttonType = { 
+			name = "civ_add"	
+			position = {x=172 y=142}
+			spriteType = "GFX_horst_civ_plus"
+			pdx_tooltip = "CIVADD"
+			pdx_tooltip_delayed = "CIVADD_DELAYED"
+			scale = 0.95
+		}
+		
 	 buttonType = {
 		name = "pingtool"	
-			position = {x=180 y=148}
+			position = {x=180 y=198}
 			spriteType = "GFX_horst_pingtool"
 		scale = 0.75
 			pdx_tooltip = "PINGTOOL"
@@ -106,7 +115,7 @@ guiTypes = {
 		}
 		buttonType = {
 			name = "addpp"	
-			position = {x=168 y=192}
+			position = {x=118 y=192}
 			spriteType = "GFX_horst_addpp"
             scale=1
 			pdx_tooltip = "ADDPP"

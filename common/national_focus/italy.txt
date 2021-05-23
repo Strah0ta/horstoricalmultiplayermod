@@ -1072,12 +1072,13 @@ date > 1941.6.1
 
 		x = -2
 		y = 2
-		relative_position_id = ITA_pact_of_steel
+		relative_position_id = ITA_pact_of_steel 
 		cost = 5
 
 		available_if_capitulated = yes
 		available = { EFR = { has_country_flag = vichy_france_established }  }
 		completion_reward = {
+		GER = { add_relation_modifier = { target = ITA modifier = stahlpakt_ITA3 } }
 				add_tech_bonus = {
 					name = ITA_german_rd_treaty
 					bonus = 3.0

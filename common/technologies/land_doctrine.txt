@@ -893,9 +893,7 @@ motorized = {
         }
                 category_light_infantry = {
             maximum_speed = 0.5
-        }
-        category_line_artillery = {
-            maximum_speed = 0.5
+			            default_morale = 0.1
         }
 category_all_infantry = {
             max_organisation = 40
@@ -903,7 +901,8 @@ category_all_infantry = {
         }
 		conscription = 0.01
         category_line_artillery = {
-            default_morale = 0.2
+		  maximum_speed = 0.5
+            default_morale = 0.3
             soft_attack = 0.25
         }
 		dig_in_speed_factor = 1 
