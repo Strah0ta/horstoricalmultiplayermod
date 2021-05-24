@@ -22,7 +22,7 @@
  FREENETHERLANDS:0 "Free Netherlands"
  vichy_france_established:0 "Germany and France has signed an armistice"
  deep_desert_desc:0 ""
- semi_motorized_desert_warfare_details:0 "\nInfantry Brigade:\n  Defense: §R-10%§!\n  Plains 	Defense: §G+10%§!\n  Mountains Defense: §G+10%§!\n  Desert Defense: §G+10%§!\n\nAnti-Tank Brigade:\n  Defense: §R-10%§!\n  Plains Defense: §G+10%§!\n  Mountains Defense: §G+10%§!\n  Desert Defense: §G+10%§!\n\nArtillery Brigade:\n  Defense: §R-10%§!\n  Plains Defense: §G+10%§!\n  Mountains Defense: §G+10%§!\n  Desert Defense: §G+10%§!\n\nRocket Artillery Brigade:\n  Defense: §R-10%§!\n  Plains Defense: §G+10%§!\n  Mountains Defense: §G+10%§!\n  Desert Defense: §G+10%§!\n\nAnti-Air Brigade:\n  Defense: §R-10%§!\n  Plains Defense: §G+10%§!\n  Mountains Defense: §G+10%§!\n  Desert Defense: §G+10%§!\n           §!"
+ semi_motorized_desert_warfare_details:0 "\nInfantry Brigade:\n  Defense: §R-10%§!\n  Plains 	Defense: §G+10%§!\n\nAnti-Tank Brigade:\n  Defense: §R-10%§!\n  Plains Defense: §G+10%§!\n\nArtillery Brigade:\n  Defense: §R-10%§!\n  Plains Defense: §G+10%§!Rocket Artillery Brigade:\n  Defense: §R-10%§!\n  Plains Defense: §G+10%§!Anti-Air Brigade:\n  Defense: §R-10%§!\n  Plains Defense: §G+10%§!"
  naval_do_all_title_label:0 "DOCTRINES ARE NOT EXCLUSIVE"
  naval_do_all_title_label_tt:0 "DOCTRINES ARE NOT EXCLUSIVE"
  naval_do_all_title_tt:0 "DOCTRINES ARE NOT EXCLUSIVE"

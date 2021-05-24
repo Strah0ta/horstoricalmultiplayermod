@@ -140,9 +140,9 @@ ideas = {
 			allowed = { always = no 	}
 			picture = generic_manpower_bonus
 			modifier = {
-				pocket_penalty = -0.2
+				pocket_penalty = -0.1
 				out_of_supply_factor = -0.5
-				dig_in_speed_factor = 1	
+				dig_in_speed_factor = 0.5
 				no_supply_grace = 168
 			}
 		} 
@@ -153,7 +153,7 @@ ideas = {
 			modifier = {
 				pocket_penalty = -0.2
 				out_of_supply_factor = -1
-				dig_in_speed_factor = 2	
+				dig_in_speed_factor = 1	
 				no_supply_grace = 336
 				supply_consumption_factor = -0.1
 			}
