@@ -1472,7 +1472,7 @@ create_corps_commander = {
 		if = { limit = { ENG = { controls_state = 579 }}  				579 = {     
 			set_building_level = {
 					type = air_base
-					level = 20
+					level = 8
 					instant_build = yes
 			}
 			}	   }
