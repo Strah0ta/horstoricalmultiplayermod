@@ -716,7 +716,7 @@ add_ideas = red_airforce_resurgent
 		icon = GFX_focus_AST_war_japan
 		prerequisite = { focus = SOV_icebreaker2 }
 		available = {
-			date > 1944.1.1 surrender_progress < 0.1
+			date > 1944.1.1 surrender_progress < 0.1 USA = { has_war_with = JAP }
 		}
 		relative_position_id = SOV_icebreaker2
 		x = 0
