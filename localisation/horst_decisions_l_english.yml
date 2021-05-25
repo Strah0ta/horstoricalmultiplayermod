@@ -248,7 +248,7 @@
  soviets_20_shipments_tt:0 "Soviet Union will receive §Y20§! £convoy_texticon §CConvoy Shipments§!"
  operation_torch_desc:0 "Vichy is the weakest link in Fortress Europe. If we take Vichy controlled Africa we have a chance of taking out Europe's soft underbelly, Italy."
  HMP_ll_soviets_receive_guns:0 "Receive a shipment of §YRifles§! (§R-5§! £convoy_texticon )"
- HMP_ll_soviets_receive_fighter:0 "Receive a shipment of §Y(Homeland) Fighters§! (§R-20§! £convoy_texticon )"
+ HMP_ll_soviets_receive_fighter:0 "Receive a shipment of §Y(Homeland) Fighters§! (§R-10§! £convoy_texticon )"
  HMP_ll_soviets_receive_support:0 "Receive a shipment of §YSupport Equipment§! (§R-10§! £convoy_texticon )"
  HMP_ll_soviets_receive_more_guns:0 "Receive a shipment of §YRifles§! (§R-20§! £convoy_texticon )"
  HMP_ll_soviets_receive_more_guns2:0 "Receive a large massive shipment of §YRifles§! (§R-50§! £convoy_texticon )"

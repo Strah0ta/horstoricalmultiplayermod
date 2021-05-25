@@ -46,7 +46,7 @@ focus_tree = {
 		set_technology = { fighter3 = 1 }			
 		add_equipment_to_stockpile = {
     type = fighter_equipment_2
-    amount = 2000
+    amount = 1600
     producer = USA
 }
 		}

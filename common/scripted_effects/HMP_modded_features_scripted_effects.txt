@@ -3379,9 +3379,9 @@ create_corps_commander = {
 		picture = "Portrait_Soviet_Konstantin_Rokossovsky.dds"
 	traits = {  organizer panzer_leader panzer_expert expert_improviser ranger trait_cautious brilliant_strategist trickster  urban_assault_specialist }
 	skill = 7
-	attack_skill = 4
+	attack_skill = 2
 	defense_skill = 5
-	planning_skill = 5
+	planning_skill = 7
 	logistics_skill = 8
 }		
 create_corps_commander = {
@@ -3389,9 +3389,9 @@ create_corps_commander = {
 		picture = "Portrait_Soviet_Aleksandr_Vasilevsky.dds"
 	traits = {  organizer panzer_leader panzer_expert expert_improviser ranger trait_cautious brilliant_strategist trickster  urban_assault_specialist }
 	skill = 7
-	attack_skill = 4
+	attack_skill = 2
 	defense_skill = 5
-	planning_skill = 5
+	planning_skill = 7
 	logistics_skill = 8
 }
 create_corps_commander = {
@@ -3399,9 +3399,9 @@ create_corps_commander = {
 		picture = "Portrait_Soviet_Ivan_Chernyakhovsky.dds"
 	traits = {  organizer panzer_leader panzer_expert expert_improviser ranger trait_cautious brilliant_strategist trickster  urban_assault_specialist }
 	skill = 7
-	attack_skill = 4
+	attack_skill = 2
 	defense_skill = 5
-	planning_skill = 5
+	planning_skill = 7
 	logistics_skill = 8
 }
 
@@ -3410,9 +3410,9 @@ create_corps_commander = {
 		picture = "Portrait_Soviet_Dmitri_Danilovich_Lelyushenko.dds"
 	traits = {  organizer panzer_leader panzer_expert expert_improviser ranger trait_cautious brilliant_strategist trickster  urban_assault_specialist }
 	skill = 7
-	attack_skill = 4
+	attack_skill = 2
 	defense_skill = 5
-	planning_skill = 5
+	planning_skill = 7
 	logistics_skill = 8
 }
 
@@ -3421,9 +3421,9 @@ create_corps_commander = {
     picture = "Portrait_Soviet_Georgiy_Zakharov.dds"
 	traits = { panzer_leader harsh_leader ranger trait_engineer camouflage_expert panzer_expert expert_improviser trickster }
 	skill = 7
-	attack_skill = 5
+	attack_skill = 3
 	defense_skill = 5
-	planning_skill = 7
+	planning_skill = 9
 	logistics_skill = 5
 }
 create_corps_commander = {
@@ -3431,9 +3431,9 @@ create_corps_commander = {
 		picture = "Portrait_Soviet_Vasily_Chuikov.dds"
 	traits = { panzer_leader harsh_leader ranger trait_engineer camouflage_expert panzer_expert expert_improviser trickster }
 	skill = 7
-	attack_skill = 5
+	attack_skill = 3
 	defense_skill = 5
-	planning_skill = 7
+	planning_skill = 9
 	logistics_skill = 5
 }
 create_corps_commander = {
@@ -3441,9 +3441,9 @@ create_corps_commander = {
 		picture = "Portrait_Soviet_Yakov_Cherevichenko.dds"
 	traits = { panzer_leader harsh_leader ranger trait_engineer camouflage_expert panzer_expert expert_improviser trickster }
 	skill = 7
-	attack_skill = 5
+	attack_skill = 3
 	defense_skill = 5
-	planning_skill = 7
+	planning_skill = 9
 	logistics_skill = 5
 }
 create_corps_commander = {
@@ -3451,9 +3451,9 @@ create_corps_commander = {
 		picture = "Portrait_Soviet_Andrey_Yeryomenko.dds"
 	traits = { panzer_leader harsh_leader ranger trait_engineer camouflage_expert panzer_expert expert_improviser trickster }
 	skill = 7
-	attack_skill = 5
+	attack_skill = 3
 	defense_skill = 5
-	planning_skill = 7
+	planning_skill = 9
 	logistics_skill = 5
 }
 
@@ -4929,8 +4929,7 @@ HMP_startup_on_actions = {
 HMP_capitulations_on_actions = {
 	if =  { limit = { NOT = { EFR = { has_country_flag = EFR_torch_declared }}} SWE = { country_event = { id = usa.1003 days = 2  } }  }
 	if = { limit = { AND = { original_tag = GER GER = { has_war_with = SOV }} } 	fascism_has_been_defeated = yes 	}
-	if = { limit = { ROOT = { original_tag = JAP } NOT = { FROM = { original_tag = SOV } } } JAP = { set_equipment_fraction = 0 } USA = { annex_country = { target = JAP transfer_troops = no } if = { limit = { country_exists = MAN } MAN = { set_equipment_fraction = 0 }  annex_country = { target = MAN transfer_troops = no } }}   }
-	if = { limit = { ROOT = { original_tag = JAP } FROM = { original_tag = SOV } } JAP = { set_equipment_fraction = 0 } SOV = { annex_country = { target = JAP transfer_troops = no } } if = { limit = { country_exists = MAN } SOV = { MAN = { set_equipment_fraction = 0 }  annex_country = { target = MAN transfer_troops = no } } } }			
+	if = { limit = { ROOT = { original_tag = JAP }  } } every_country = { limit = { is_at_war_with = JAP } white_peace = JAP JAP = { set_politics = {	ruling_party = democratic elections_allowed = no last_election = "1935.12.17"  election_frequency = 48 } set_equipment_fraction = 0 release = CHI } CHI = { annex_country = { target = MAN }}}  
 			
 			if = {
 			limit = { ROOT = { original_tag = SOV }  GER = { has_government = fascism } }

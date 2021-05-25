@@ -495,15 +495,15 @@ available = { check_variable = { var = SOV_barb_ll_token  value = 10  compare = 
 	
 		HMP_ll_soviets_receive_fighter = { 
 		allowed = {  original_tag = SOV } 
-		available = { check_variable = { var = SOV_barb_ll_token  value = 20  compare = greater_than_or_equals} has_war_with = GER OR = { date > 1941.11.22  ENG = { controls_state = 412 }  } 			custom_trigger_tooltip = {	tooltip = SOV_secure_tt	suppy_route_secure = yes}  }      
+		available = { check_variable = { var = SOV_barb_ll_token  value = 10  compare = greater_than_or_equals} has_war_with = GER OR = { date > 1941.11.22  ENG = { controls_state = 412 }  } 			custom_trigger_tooltip = {	tooltip = SOV_secure_tt	suppy_route_secure = yes}  }      
 		icon = generic_form_nation
 		cost = 0
 		fire_only_once = no 
 		days_remove = 60
 		visible = { SOV = { has_completed_focus = SOV_aviation_cult} }
 		complete_effect  = {
-			add_equipment_to_stockpile = {  type = sov_fighter_equipment_2 amount = 380 producer = SOV }    
-			SOV = { add_to_variable = {  var = SOV_barb_ll_token   value = -20 } }						
+			add_equipment_to_stockpile = {  type = sov_fighter_equipment_2 amount = 190 producer = SOV }    
+			SOV = { add_to_variable = {  var = SOV_barb_ll_token   value = -10 } }						
 		}
 	}
 

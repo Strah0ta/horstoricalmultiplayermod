@@ -1123,7 +1123,7 @@ focus_tree = {
 			hidden_effect = { if = { limit = { NOT = { has_tech =  experimental_rockets }}set_technology = { experimental_rockets = 1}} }		
 			add_tech_bonus = {
 				name = GER_rocketry_focus
-				bonus = 2.0
+				bonus = 3.0
 				uses = 3
 				category = rocketry
 			}
