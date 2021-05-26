@@ -1490,7 +1490,7 @@ country_event = {
       option = {
 
 	if = { limit = { SOV = { check_variable = {var = SOV_purge_org_factor	value = 0	compare = less_than } }has_game_rule = { rule = horst_barbarossa_buff option = HORST_NEW_BARB }} SOV = { add_to_variable = { var = SOV_purge_org_factor value = 0.01 }  }   }  
-	if = { limit = { SOV = { check_variable = {var = SOV_purge_org_factor	value = 0	compare = less_than } }has_game_rule = { rule = horst_barbarossa_buff option = HORST_NEW_BARB }} SOV = { country_event = { id = italy.806 days = 14 }  }  }
+	if = { limit = { SOV = { check_variable = {var = SOV_purge_org_factor	value = 0	compare = less_than } }has_game_rule = { rule = horst_barbarossa_buff option = HORST_NEW_BARB }} SOV = { country_event = { id = italy.806 days = 10 }  }  }
 	if = { limit = { SOV = { check_variable = {var = SOV_purge_org_factor	value = 0	compare = equals } } has_game_rule = { rule = horst_barbarossa_buff option = HORST_NEW_BARB }} SOV = { remove_dynamic_modifier = { modifier = SOV_purge_factor }  }  }
 
 	  }
