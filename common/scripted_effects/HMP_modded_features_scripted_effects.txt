@@ -3303,11 +3303,11 @@ create_field_marshal = {
 	create_field_marshal = {
 	name = "Ivan Konev" #Point Value: 18.5  
 		picture = "Portrait_Soviet_Ivan_Konev.dds"
-	traits = { adaptable logistics_wizard  thorough_planner panzer_leader panzer_expert harsh_leader guerilla_fighter ranger camouflage_expert  }
+	traits = { adaptable logistics_wizard  thorough_planner panzer_leader panzer_expert	 harsh_leader guerilla_fighter ranger camouflage_expert  }
 	skill = 7
-	attack_skill = 8
+	attack_skill = 7
 	defense_skill = 1
-	planning_skill = 8
+	planning_skill = 9
 	logistics_skill = 5
 }
 		
@@ -3316,9 +3316,9 @@ create_field_marshal = {
 	picture = "Portrait_Soviet_Gregory_Zhukov.dds" #Point Value: 18.5 
 	traits = { adaptable logistics_wizard thorough_planner panzer_leader panzer_expert brilliant_strategist  aggressive_assaulter   organizer    }
 	skill = 7
-	attack_skill = 8
+	attack_skill = 7
 	defense_skill = 1
-	planning_skill = 8
+	planning_skill = 9
 	logistics_skill = 5
 }		
 create_field_marshal = {
@@ -4929,7 +4929,7 @@ HMP_startup_on_actions = {
 HMP_capitulations_on_actions = {
 	if =  { limit = { NOT = { EFR = { has_country_flag = EFR_torch_declared }}} SWE = { country_event = { id = usa.1003 days = 2  } }  }
 	if = { limit = { AND = { original_tag = GER GER = { has_war_with = SOV }} } 	fascism_has_been_defeated = yes 	}
-	if = { limit = { ROOT = { original_tag = JAP }  } } every_country = { limit = { has_war_with = JAP } white_peace = JAP JAP = { set_politics = {	ruling_party = democratic elections_allowed = no last_election = "1935.12.17"  election_frequency = 48 } set_equipment_fraction = 0 release = CHI } CHI = { transfer_state = 527 transfer_state = 525 transfer_state = 498 annex_country = { target = MAN }} FRA = { transfer_state = 497 transfer_state = 286 transfer_state = 493 transfer_state = 289 transfer_state = 494 } USA = { transfer_state = 471 transfer_state = 135 transfer_state = 409 transfer_state = 488 transfer_state = 180 }   }  
+	if = { limit = {  original_tag = JAP  } every_country = { limit = { has_war_with = JAP } white_peace = JAP } JAP = { set_politics = {	ruling_party = democratic elections_allowed = no last_election = "1935.12.17"  election_frequency = 48 } set_equipment_fraction = 0 release = CHI } CHI = { transfer_state = 527 transfer_state = 525 transfer_state = 498 annex_country = { target = MAN }} FRA = { transfer_state = 497 transfer_state = 286 transfer_state = 493 transfer_state = 289 transfer_state = 494 } USA = { transfer_state = 471 transfer_state = 135 transfer_state = 409 transfer_state = 488 transfer_state = 180 }   }   
 			
 			if = {
 			limit = { ROOT = { original_tag = SOV }  GER = { has_government = fascism } }

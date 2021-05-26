@@ -493,7 +493,7 @@ ideas = {
 
 			picture = GER_blitzkrieg
 
-			modifier = { supply_consumption_factor = -0.025 no_supply_grace =  72 production_speed_infrastructure_factor = 0.5 }
+			modifier = { breakthrough_factor = 0.25 supply_consumption_factor = -0.05 no_supply_grace =  72 production_speed_infrastructure_factor = 0.5 }
 		}
 				GER_blau = {
 			allowed = {

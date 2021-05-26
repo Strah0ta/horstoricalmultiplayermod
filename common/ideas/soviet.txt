@@ -125,7 +125,7 @@ ideas = {
 			picture = generic_air_bonus
 			allowed_civil_war = {	has_government = communism	}	
 			equipment_bonus = {
-				sov_fighter_equipment = { air_defence = 0.2 }
+				sov_fighter_equipment = { air_defence = 0.25 }
 			}
 		}
 		SOV_270 = { 
