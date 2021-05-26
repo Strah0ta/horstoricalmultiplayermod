@@ -101,6 +101,7 @@ bookmarks = {
 		}
 
 		"CAN"={
+									minor = yes
 			history = "CAN_GATHERING_STORM_DESC"
 			ideology = democratic
 			ideas = {
