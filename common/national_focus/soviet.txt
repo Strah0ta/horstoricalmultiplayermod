@@ -645,7 +645,28 @@ add_ideas = red_airforce_resurgent
 						instant_build = yes
 					}
 				}
-										   206 = {
+									   10 = {
+					set_building_level = {
+						type = air_base
+						level = 20
+						instant_build = yes
+					}
+				}
+									   91 = {
+					set_building_level = {
+						type = air_base
+						level = 20
+						instant_build = yes
+					}
+				}
+										   192 = {
+					set_building_level = {
+						type = air_base
+						level = 20
+						instant_build = yes
+					}
+				}
+				206 = {
 					set_building_level = {
 						type = air_base
 						level = 20
