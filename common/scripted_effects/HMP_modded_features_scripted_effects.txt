@@ -3305,10 +3305,10 @@ create_field_marshal = {
 		picture = "Portrait_Soviet_Ivan_Konev.dds"
 	traits = { adaptable logistics_wizard  thorough_planner panzer_leader panzer_expert	 harsh_leader guerilla_fighter ranger camouflage_expert  }
 	skill = 7
-	attack_skill = 7
+	attack_skill = 6
 	defense_skill = 1
 	planning_skill = 9
-	logistics_skill = 5
+	logistics_skill = 6
 }
 		
 create_field_marshal = {
@@ -3316,10 +3316,10 @@ create_field_marshal = {
 	picture = "Portrait_Soviet_Gregory_Zhukov.dds" #Point Value: 18.5 
 	traits = { adaptable logistics_wizard thorough_planner panzer_leader panzer_expert brilliant_strategist  aggressive_assaulter   organizer    }
 	skill = 7
-	attack_skill = 7
+	attack_skill = 6
 	defense_skill = 1
 	planning_skill = 9
-	logistics_skill = 5
+	logistics_skill = 6
 }		
 create_field_marshal = {
     name = "Nikandr Chibisov"  #Point Value: 16 #3/25/21 +Combined Arms Expert +Bearer of Artillery +Scavenger
