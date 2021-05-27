@@ -2,7 +2,6 @@ GER_all_plane_LL = {
 	if = { limit = { tag = ITA }
 	send_equipment = { equipment = fighter_equipment amount = 10000 target = GER }
 	send_equipment = { equipment = CAS_equipment amount = 10000 target = GER }
-	send_equipment = { equipment = nav_bomber_equipment amount = 10000 target = GER }
 	send_equipment = { equipment = tac_bomber_equipment amount = 10000 target = GER }
 	send_equipment = { equipment = heavy_fighter_equipment amount = 10000 target = GER }	
 	send_equipment = { equipment = strat_bomber_equipment amount = 10000 target = GER }	
@@ -10,7 +9,6 @@ GER_all_plane_LL = {
 	if = { limit = { tag = GER }
 	send_equipment = { equipment = fighter_equipment amount = 10000 target = ITA }
 	send_equipment = { equipment = CAS_equipment amount = 10000 target = ITA }
-	send_equipment = { equipment = nav_bomber_equipment amount = 10000 target = ITA }
 	send_equipment = { equipment = tac_bomber_equipment amount = 10000 target = ITA }
 	send_equipment = { equipment = heavy_fighter_equipment amount = 10000 target = ITA }	
 	send_equipment = { equipment = strat_bomber_equipment amount = 10000 target = ITA }	
@@ -1127,7 +1125,6 @@ USA_calc_stars = {
 USA_all_plane_LL = {
 	send_equipment = { equipment = fighter_equipment amount = 10000 target = ENG }
 	send_equipment = { equipment = CAS_equipment amount = 10000 target = ENG }
-	send_equipment = { equipment = nav_bomber_equipment amount = 10000 target = ENG }
 	send_equipment = { equipment = tac_bomber_equipment amount = 10000 target = ENG }
 	send_equipment = { equipment = heavy_fighter_equipment amount = 10000 target = ENG }
 	send_equipment = { equipment = strat_bomber_equipment amount = 10000 target = ENG }	
@@ -3301,9 +3298,9 @@ create_field_marshal = {
 	logistics_skill = 6
 }
 	create_field_marshal = {
-	name = "Ivan Konev" #Point Value: 18.5  
+	name = "Ivan Konev" #Point Value: 16
 		picture = "Portrait_Soviet_Ivan_Konev.dds"
-	traits = { adaptable logistics_wizard  thorough_planner panzer_leader panzer_expert	 harsh_leader guerilla_fighter ranger camouflage_expert  }
+	traits = {  logistics_wizard  thorough_planner panzer_leader panzer_expert	 harsh_leader guerilla_fighter ranger camouflage_expert  }
 	skill = 7
 	attack_skill = 6
 	defense_skill = 1
@@ -3313,8 +3310,8 @@ create_field_marshal = {
 		
 create_field_marshal = {
 	name = "Georgy Zhukov"
-	picture = "Portrait_Soviet_Gregory_Zhukov.dds" #Point Value: 18.5 
-	traits = { adaptable logistics_wizard thorough_planner panzer_leader panzer_expert brilliant_strategist  aggressive_assaulter   organizer    }
+	picture = "Portrait_Soviet_Gregory_Zhukov.dds" #Point Value: 16
+	traits = {  logistics_wizard thorough_planner panzer_leader panzer_expert brilliant_strategist  aggressive_assaulter   organizer    }
 	skill = 7
 	attack_skill = 6
 	defense_skill = 1

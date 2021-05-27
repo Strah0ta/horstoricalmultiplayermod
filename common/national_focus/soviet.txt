@@ -842,11 +842,11 @@ add_ideas = red_airforce_resurgent
 		id = SOV_great_purge
 		icon = GFX_focus_SOV_purge
 		available = {
-			date > 1938.4.1 
+			date > 1938.6.10 
 		}
 		x = 15
 		y = 0
-		cost = 30
+		cost = 20
 		select_effect = {
 			country_event = { id = soviet.24 days = 1 }
 		}
