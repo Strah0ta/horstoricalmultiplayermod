@@ -53,7 +53,8 @@ focus_tree = {
 			add_tech_bonus = {
 				name = infantry_artillery_bonus
 				bonus = 0.5
-				uses = 2
+				uses = 3
+				technology = infantry_weapons2
 				technology = improved_infantry_weapons
 				technology = improved_infantry_weapons_2
 			}

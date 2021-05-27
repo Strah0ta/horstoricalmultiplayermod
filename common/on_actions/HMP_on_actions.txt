@@ -95,7 +95,7 @@ on_actions = {
 					limit = {
 						FROM = { tag = FRA }
 						FROM.FROM = { is_core_of = FRA }
-						FRA = { surrender_progress	> 0.25 }					
+						FRA = { surrender_progress	> 0.32 }					
 						NOT = { FRA = { has_country_flag = france_is_kill }}
 					}
 

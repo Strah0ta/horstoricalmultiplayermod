@@ -185,6 +185,7 @@
 			maximum_speed = 0.1
 		}
 				category_light_infantry = {
+				defense = 0.1
 			maximum_speed = 0.5
 			default_morale = 0.1
 		}
@@ -892,6 +893,7 @@ motorized = {
             maximum_speed = 0.1
         }
                 category_light_infantry = {
+								defense = 0.1
             maximum_speed = 0.5
 			            default_morale = 0.1
         }

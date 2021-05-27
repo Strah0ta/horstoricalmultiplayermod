@@ -4926,7 +4926,7 @@ HMP_startup_on_actions = {
 HMP_capitulations_on_actions = {
 	if =  { limit = { NOT = { EFR = { has_country_flag = EFR_torch_declared }}} SWE = { country_event = { id = usa.1003 days = 2  } }  }
 	if = { limit = { AND = { original_tag = GER GER = { has_war_with = SOV }} } 	fascism_has_been_defeated = yes 	}
-	if = { limit = {  original_tag = JAP  } every_country = { limit = { has_war_with = JAP } white_peace = JAP } JAP = { set_politics = {	ruling_party = democratic elections_allowed = no last_election = "1935.12.17"  election_frequency = 48 } set_equipment_fraction = 0 release = CHI } CHI = { transfer_state = 527 transfer_state = 525 transfer_state = 498 annex_country = { target = MAN }} FRA = { transfer_state = 497 transfer_state = 286 transfer_state = 493 transfer_state = 289 transfer_state = 494 } USA = { transfer_state = 471 transfer_state = 135 transfer_state = 409 transfer_state = 488 transfer_state = 180 }   }   
+	if = { limit = {  original_tag = JAP  } every_country = { limit = { has_war_with = JAP } white_peace = JAP } JAP = { set_politics = {	ruling_party = democratic elections_allowed = no last_election = "1935.12.17"  election_frequency = 48 } set_equipment_fraction = 0 release = CHI } CHI = { transfer_state = 527 transfer_state = 525 transfer_state = 498 every_state = { limit = { is_core_of = MAN } transfer_state = PREV }} FRA = { transfer_state = 497 transfer_state = 286 transfer_state = 493 transfer_state = 289 transfer_state = 494 } USA = { transfer_state = 471 transfer_state = 135 transfer_state = 409 transfer_state = 488 transfer_state = 180 }   }   
 			
 			if = {
 			limit = { ROOT = { original_tag = SOV }  GER = { has_government = fascism } }

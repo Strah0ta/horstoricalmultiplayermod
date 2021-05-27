@@ -196,8 +196,8 @@ ideas = {
 			picture = chi_army_corruption2
 			
 			modifier = {
-				stability_factor = -0.1
-				war_support_factor = -0.1
+				stability_factor = -0.05
+				war_support_factor = -0.05
 			}
 		}
 
@@ -303,8 +303,8 @@ ideas = {
 			picture = man_low_legitimacy
 			
 			modifier = {
-				stability_factor = -0.5
-				war_support_factor = -0.5
+				stability_factor = -0.25
+				war_support_factor = -0.25
 				min_export = -1
 			}
 		}
@@ -326,8 +326,8 @@ ideas = {
 			picture = man_low_legitimacy2
 			
 			modifier = {
-				stability_factor = -0.4
-				war_support_factor = -0.4
+				stability_factor = -0.2
+				war_support_factor = -0.2
 				min_export = -1
 			}
 		}
@@ -348,8 +348,8 @@ ideas = {
 			picture = man_low_legitimacy3
 			
 			modifier = {
-				stability_factor = -0.3
-				war_support_factor = -0.3
+				stability_factor = -0.15
+				war_support_factor = -0.15
 				min_export = -1
 			}
 		}
@@ -370,8 +370,8 @@ ideas = {
 			picture = man_low_legitimacy4
 			
 			modifier = {
-				stability_factor = -0.2
-				war_support_factor = -0.2
+				stability_factor = -0.1
+				war_support_factor = -0.1
 				min_export = -1
 			}
 		}
@@ -392,8 +392,8 @@ ideas = {
 			picture = man_low_legitimacy5
 			
 			modifier = {
-				stability_factor = -0.1
-				war_support_factor = -0.1
+				stability_factor = -0.05
+				war_support_factor = -0.05
 				min_export = -1
 			}
 		}
