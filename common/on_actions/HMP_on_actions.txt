@@ -270,6 +270,11 @@ on_actions = {
 			if = {  limit = { OR = { is_owned_by = SPR state = 118 } } ROOT = { PREV = {  teleport_armies = { to_state = FROM } } }	}
 		}
 	}	
+	on_weekly_ENG = {
+		effect =  {
+			if = { limit = { date > 1939.9.1 ENG = { controls_state = 118 	divisions_in_state = { type = infantry   size < 1   state = 118 } } } ENG = { country_event = { id = mtg_netherlands.1147 days = 1 }}  }
+		}
+	}
 	
 	on_monthly_GER = {
 		effect = { 

@@ -25,13 +25,27 @@ country_event = {
 	picture = GFX_report_event_merchant_ship_01
 
 	is_triggered_only = yes
-	fire_only_once = yes
+	fire_only_once = no
 	option = {
 		name = mtg_netherlands.1442.a
 		GER = { 
 		horstorical_multiplayer_vichy_france_3 = yes
 	}	
 }
+}
+
+country_event = {
+	id = mtg_netherlands.1147
+	title = "THERE IS NO GIBRALTAR GARRISON"
+	desc = "GARRISON GIBRALTAR"
+	
+	picture = GFX_report_event_merchant_ship_01
+
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = "OK"
+	}	
 }
 
 
