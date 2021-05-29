@@ -320,12 +320,25 @@ focus_tree = {
 		completion_reward = {
 			add_ideas = british_austerity_idea
 			add_ideas = extensive_conscription 
-								add_tech_bonus = {
+			add_tech_bonus = {
 				name = general_rearmament_focus
 				bonus = 0.5
 				uses = 6
 				category = artillery
 			}
+			add_tech_bonus = {
+				name = general_rearmament_focus
+				bonus = 0.5
+				uses = 1
+				technology = advanced_infantry_weapons
+			}
+			 add_tech_bonus = {
+				name = general_rearmament_focus
+				bonus = 3
+				ahead_reduction = 2
+				uses = 1
+				technology = antitank2
+			}  
 		}
 	}
 	
@@ -344,9 +357,8 @@ focus_tree = {
 		if = { limit = { USA = { controls_state = 376}} add_tech_bonus = {
 				name = royal_ordinance_focus
 				bonus = 3
-				uses = 2
+				uses = 1
 				technology = antitank1
-				technology = antitank2
 			}  
 			}
 					

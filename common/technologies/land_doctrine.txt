@@ -55,7 +55,7 @@
 			cat_mobile_warfare
 		}
 
-		on_research_complete = { hidden_effect = { set_technology = { armored_spearhead_tech = 1 popup = no  }      }  custom_effect_tooltip = "Armor Support Companies will require 20% less equipment and 50% less for Light 	Armor Support Companies" }
+		on_research_complete = { hidden_effect = { set_technology = { armored_spearhead_tech = 1 popup = no  }      }  custom_effect_tooltip = "Armor Support Companies will require 20% less equipment (50% less for Light Armor Support Companies) and 50% less for Signals" }
 		folder = {
 			name = land_doctrine_folder
 			position = { x = 0 y = 2 }
@@ -64,7 +64,7 @@
 	}
 	
 	armored_spearhead_tech = {
-				light_sp_artillery = {   need = {light_tank_artillery_equipment= -15 }   }
+			light_sp_artillery = {   need = {light_tank_artillery_equipment= -15 }   }
 			medium_sp_artillery = {   need = {medium_tank_artillery_equipment= -6 }   }
 			heavy_sp_artillery = {   need = {heavy_tank_artillery_equipment= -6 }   }
 			super_heavy_sp_artillery = {   need = {super_heavy_tank_artillery_equipment= -6 }   }
@@ -88,9 +88,10 @@
 			motorized_rocket_sup = {	need = {motorized_rocket_equipment = -3 }}
 			light_tank_recon= {	need = {light_tank_equipment = -12 }}
 			armored_car_recon = {	need = {armored_car_equipment = -12 }}
+			signal_company = { need = {support_equipment = -10 motorized_equipment = -5 } }
 	}
-	armored_spearhead_tech_removal = {
-				light_sp_artillery = {   need = {light_tank_artillery_equipment= 15 }   }
+			armored_spearhead_tech_removal = {
+			light_sp_artillery = {   need = {light_tank_artillery_equipment= 15 }   }
 			medium_sp_artillery = {   need = {medium_tank_artillery_equipment= 6 }   }
 			heavy_sp_artillery = {   need = {heavy_tank_artillery_equipment= 6 }   }
 			super_heavy_sp_artillery = {   need = {super_heavy_tank_artillery_equipment= 6 }   }
@@ -111,8 +112,9 @@
 			super_heavy_armor_antiair = {	need = { super_heavy_tank_aa_equipment = 1 }}
 			modern_armor_antiair = {	need = {modern_tank_aa_equipment = 1 }}
 			motorized_rocket_sup = {	need = {motorized_rocket_equipment = 3 }}
-		light_tank_recon= {	need = {light_tank_equipment = 12 }}
-					armored_car_recon = {	need = {armored_car_equipment = -12 }}
+			light_tank_recon= {	need = {light_tank_equipment = 12 }}
+			armored_car_recon = {	need = {armored_car_equipment = 12 }}
+			signal_company = { need = {support_equipment = 10 motorized_equipment = 5  } }
 	}
 	
 	elastic_defence = {
@@ -309,6 +311,7 @@
 			default_morale = 0.2
 			max_organisation = 10
 		}
+		category_leg_special_forces = { default_morale = 0.3 }
 		# faster planning
 		planning_speed = 0.2
 		
@@ -852,6 +855,7 @@
 	
 		mw_sum = {
 		allow = { tag = SWE }
+				category_leg_special_forces = { default_morale = 0.3 }
 	category_all_armor = {
       default_morale = 0.4
             max_organisation = 12
@@ -951,7 +955,8 @@ category_all_infantry = {
 		}
 category_army = {
             breakthrough = 0.30
-            soft_attack = 0.05
+            soft_attack = 0.1
+			default_morale = 0.05
         }
             motorized = {
             max_organisation = 10
@@ -1006,6 +1011,7 @@ enable_tactic = tactic_breakthrough
 	
 	ma_sum =  {
 				allow = { tag = SWE }
+		category_leg_special_forces = { max_strength = 7 }
 
 	minimum_training_level = -0.1
         out_of_supply_factor = -0.40
@@ -1185,7 +1191,8 @@ org_loss_when_moving = -0.7
 	grand_assault = {
 		category_army = {
 			breakthrough = 0.10
-			soft_attack = 0.05
+			soft_attack = 0.10
+			default_morale = 0.05
 		}
 		
 		enable_tactic = tactic_planned_attack
@@ -1467,7 +1474,7 @@ org_loss_when_moving = -0.7
 			cat_mass_assault
 		}
 
-				#on_research_complete = { 	hidden_effect = { 	if = { limit = { has_tech = armored_spearhead_tech } set_technology = { armored_spearhead_tech_removal = 1 }     } } }
+		on_research_complete = { 	hidden_effect = { 	if = { limit = { has_tech = armored_spearhead_tech } set_technology = { armored_spearhead_tech_removal = 1 }     } } }
 
 		folder = {
 			name = land_doctrine_folder
@@ -1507,31 +1514,31 @@ org_loss_when_moving = -0.7
 	mass_assault_desert_tech = {
 	 allow = { always = no }
 	infantry = {
-			defense = -0.1 
+			defense = -0.05 
 			plains = {
 				defence = 0.1
 			}	
 		}
 		anti_tank_brigade = {
-			defense = -0.1 
+			defense = -0.05 
 			plains = {
 				defence = 0.1
 			}	
 		}
 		artillery_brigade = {
-			defense = -0.1 
+			defense = -0.05 
 			plains = {
 				defence = 0.1
 			}			
 		}
 		anti_air_brigade = {
-			defense = -0.1 
+			defense = -0.05 
 			plains = {
 				defence = 0.1
 			}		
 		}		
 		rocket_artillery_brigade= {
-			defense = -0.1 
+			defense = -0.05 
 			plains = {
 				defence = 0.1
 			}		
@@ -1712,7 +1719,7 @@ org_loss_when_moving = -0.7
 		conscription = 0.01
 
 		land_reinforce_rate = 0.1
-		
+		category_leg_special_forces = { max_strength = 7 }
 		path = {
 			leads_to_tech = guerilla_warfare
 			research_cost_coeff = 1

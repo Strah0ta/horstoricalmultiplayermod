@@ -7,6 +7,7 @@ sub_unit_categories = {
 	category_all_armor
 	category_army
 	category_line_artillery
+	category_leg_special_forces
 	category_artillery
 	category_fighter
 	category_heavy_fighter

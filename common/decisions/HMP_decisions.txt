@@ -1600,12 +1600,12 @@ create_corps_commander = {
 		deploy_atlantic_africa_gar = {   
 			icon = generic_civil_support 
 			allowed = {   original_tag = ENG    }
-			available = { date > 1938.1.1 has_manpower > 1510000 }
+			available = {has_tech = antitank2 date > 1938.1.1 has_manpower > 1510000 }
 			cost = 0
 			fire_only_once = yes
 			complete_effect = {
 			add_manpower = -1510000
-				hidden_effect = { set_technology = { antitank2 = 1 popup = no }  delete_unit_template_and_units  = { division_template = "Atlantic Colonial Garrison"}   delete_unit_template_and_units  = { division_template = "African/Arabian Colonial Garrison"}   delete_unit_template_and_units  = { division_template = "Gibraltar/Cyprus Garrison"}   delete_unit_template_and_units  = { division_template = "Light Armor Division"}   delete_unit_template_and_units  = { division_template = "King's African Rifles"} 
+				hidden_effect = {  delete_unit_template_and_units  = { division_template = "Atlantic Colonial Garrison"}   delete_unit_template_and_units  = { division_template = "African/Arabian Colonial Garrison"}   delete_unit_template_and_units  = { division_template = "Gibraltar/Cyprus Garrison"}   delete_unit_template_and_units  = { division_template = "Light Armor Division"}   delete_unit_template_and_units  = { division_template = "King's African Rifles"} 
 				load_oob = "ENG_ATL_Front_GAR" }
 				custom_effect_tooltip = "We will deploy our garrisons and defense forces across the world."
 			}	
