@@ -59,22 +59,6 @@ horst_arabia = {
 		desc = "Clicking this option will enable the Arabia front via Germany's 'Fall Schwarz Golt' decision or the Allied 'Secure Arabian Oilfields' decision."	
 	}
 }
-horst_barbarossa_buff = {
-	name = "Barbarossa Buff/Debuff System"
-	group = "HORST_GROUPKEY"					
-	icon = "GFX_decision_hol_draw_up_staff_plans"	
-	default = {	
-		name = "HORST_NEW_BARB" 
-		text = "Exclusively Time Based Barbarossa buffs/debuffs"
-		desc = "All Barbarossa buffs/debuffs will be based off time from June 22nd, 1941 and will include some changes to the current Barbarossa buffs/debuffs."	
-	}
-	option = {	
-		name = "HORST_OLD_BARB"
-		text = "Mixed Geography Based and Time Based Barbarossa buffs/debuffs"
-		desc = "Clicking this option will keep the system of Barbarossa buffs/debuffs as it already was."	
-	}
-
-}
 
 horst_industry_balancer = {
 	name = "Industry Balancer (Requires Horst Tool)"

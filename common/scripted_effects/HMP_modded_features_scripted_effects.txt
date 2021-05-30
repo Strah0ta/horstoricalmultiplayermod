@@ -1981,7 +1981,7 @@ create_field_marshal = {
 create_corps_commander = {
 		name = "Filiberto di Savoia-Genova" #Point Value: 20 
 	picture = "Portrait_Italy_Filiberto_Savoia.dds"
-	traits = { organizer  bearer_of_artillery cavalry_expert cavalry_expert trait_mountaineer combined_arms_expert  trickster hill_fighter ambusher   }
+	traits = { organizer  bearer_of_artillery cavalry_leader cavalry_expert trait_mountaineer combined_arms_expert  trickster hill_fighter ambusher   }
 	skill = 7
     attack_skill = 4
     defense_skill = 6
@@ -1992,7 +1992,7 @@ create_corps_commander = {
 create_corps_commander = {
 	name = "Renato Ricci" #Point Value: 20 
 	picture = "portrait_Italy_Renato_Ricci.dds"  
-	traits = { trait_reckless organizer  bearer_of_artillery cavalry_expert cavalry_expert trait_mountaineer desert_fox combined_arms_expert swamp_fox  trickster hill_fighter guerilla_fighter   }
+	traits = { trait_reckless organizer  bearer_of_artillery cavalry_leader cavalry_expert trait_mountaineer desert_fox combined_arms_expert swamp_fox  trickster hill_fighter guerilla_fighter   }
 	skill = 7
     attack_skill = 5
     defense_skill = 4
@@ -3376,9 +3376,9 @@ create_corps_commander = {
 		picture = "Portrait_Soviet_Konstantin_Rokossovsky.dds"
 	traits = {  organizer panzer_leader panzer_expert expert_improviser ranger trait_cautious brilliant_strategist trickster  urban_assault_specialist }
 	skill = 7
-	attack_skill = 5
+	attack_skill = 3
 	defense_skill = 5
-	planning_skill = 4
+	planning_skill = 6
 	logistics_skill = 8
 }		
 create_corps_commander = {
@@ -3386,9 +3386,9 @@ create_corps_commander = {
 		picture = "Portrait_Soviet_Aleksandr_Vasilevsky.dds"
 	traits = {  organizer panzer_leader panzer_expert expert_improviser ranger trait_cautious brilliant_strategist trickster  urban_assault_specialist }
 	skill = 7
-	attack_skill = 5
+	attack_skill = 3
 	defense_skill = 5
-	planning_skill = 4
+	planning_skill = 6
 	logistics_skill = 8
 }
 create_corps_commander = {
@@ -3396,9 +3396,9 @@ create_corps_commander = {
 		picture = "Portrait_Soviet_Ivan_Chernyakhovsky.dds"
 	traits = {  organizer panzer_leader panzer_expert expert_improviser ranger trait_cautious brilliant_strategist trickster  urban_assault_specialist }
 	skill = 7
-	attack_skill = 5
+	attack_skill = 3
 	defense_skill = 5
-	planning_skill = 4
+	planning_skill = 6
 	logistics_skill = 8
 }
 
@@ -3407,9 +3407,9 @@ create_corps_commander = {
 		picture = "Portrait_Soviet_Dmitri_Danilovich_Lelyushenko.dds"
 	traits = {  organizer panzer_leader panzer_expert expert_improviser ranger trait_cautious brilliant_strategist trickster  urban_assault_specialist }
 	skill = 7
-	attack_skill = 5
+	attack_skill = 3
 	defense_skill = 5
-	planning_skill = 4
+	planning_skill = 6
 	logistics_skill = 8
 }
 
@@ -4915,7 +4915,7 @@ HMP_startup_on_actions = {
 	if = { limit = { BUL = { is_ai = yes } } GER = { country_event = { id = japan.638  days = 1}}   }
 	if = { limit = { has_start_date > 1936.01.02 }  HMP_no_asia = yes  }
 	HOL = { add_country_leader_trait = defeatism } 
-	if = {	limit = { has_game_rule = { rule = horst_barbarossa_buff option = HORST_NEW_BARB } } SWE = { country_event = { id =  italy.807 days = 2054 } country_event = { id =  italy.808 days = 2400 } }  SOV = { add_ideas = qol_start_eff_sov2 add_timed_idea = { idea = SOV_2nd_plan days = 365 } } }		
+		SWE = { country_event = { id =  italy.807 days = 2054 } country_event = { id =  italy.808 days = 2400 } }  SOV = { add_ideas = qol_start_eff_sov2 add_timed_idea = { idea = SOV_2nd_plan days = 365 } } 	
 	HMP_script_generals = yes 
 	make_asia_go_faster = yes	
 	bad_infra_state_effect = yes 	
