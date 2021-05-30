@@ -572,7 +572,7 @@ technologies = {
 	
 	paratroopers = {
 	
-	allow = { NOT = { tag = SPR } }	
+	allow = { always = no }	
 
 		enable_subunits = {
 			paratrooper
