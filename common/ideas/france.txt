@@ -481,12 +481,12 @@ ideas = {
 			removal_cost = -1
 			
 			equipment_bonus = {
-				fighter_equipment = { build_cost_ic = -0.1 instant = yes }
-				heavy_fighter_equipment = {	build_cost_ic = -0.1 instant = yes	}
-				CAS_equipment = { build_cost_ic = -0.1	instant = yes }
-				tac_bomber_equipment = { build_cost_ic = -0.1 instant = yes }
-				nav_bomber_equipment = { build_cost_ic = -0.1 instant = yes }
-				scout_plane_equipment = { build_cost_ic = -0.1 instant = yes }
+				fighter_equipment = { build_cost_ic = -0.15 instant = yes }
+				heavy_fighter_equipment = {	build_cost_ic = -0.15 instant = yes	}
+				CAS_equipment = { build_cost_ic = -0.15 instant = yes }
+				tac_bomber_equipment = { build_cost_ic = -0.15 instant = yes }
+				nav_bomber_equipment = { build_cost_ic = -0.15 instant = yes }
+				scout_plane_equipment = { build_cost_ic = -0.15 instant = yes }
 			}
 		}
 		FRA_national_bureau_of_statistics = {
