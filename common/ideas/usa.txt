@@ -1,6 +1,17 @@
 ideas = {
 
 	country = {
+	jap_puppet = {
+			picture = SPR_relocate_the_gold_reserves
+			allowed = {	always = no	}
+			allowed_civil_war = {	always = yes	}
+			removal_cost = -1
+			modifier = {
+				mic_to_overlord_factor  = 1
+				cic_to_overlord_factor  = 1
+				army_org_factor = -1
+				}
+	}
 		great_depression = {
 			picture = usa_great_depression_3
 			

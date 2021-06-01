@@ -165,8 +165,9 @@ add_ideas = red_airforce_resurgent
 		add_tech_bonus = {
 			name = "The PPSH"
 			bonus = 1
-			uses = 1
+			uses = 2
 			technology = improved_infantry_weapons
+			technology = advanced_infantry_weapons
 		}		
 				add_tech_bonus = {
 			name = "Mechanized Experiments"

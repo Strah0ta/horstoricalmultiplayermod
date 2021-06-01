@@ -3,21 +3,21 @@ technologies = {
 	
 	blitzkrieg_on = {
 		allow = { always = no }
-		motorized = { max_strength = 4 }
-		mechanized = { max_strength = 5 }
-		amphibious_mechanized = { max_strength = 5 }
-		light_armor = { max_strength = 2.5 }
-		medium_armor = { max_strength = 2.5 }	
-		heavy_armor = { max_strength = 2.5 }	
+		motorized = { max_strength = 6 }
+		mechanized = { max_strength = 8 }
+		amphibious_mechanized = { max_strength = 8 }
+		light_armor = { max_strength = 4 }
+		medium_armor = { max_strength = 4 }	
+		heavy_armor = { max_strength = 4 }	
 	}
 	
 	blitzkrieg_off = {
-		motorized = { max_strength = -4 }
-		mechanized = { max_strength = -5 }
-		amphibious_mechanized = { max_strength = -5 }
-		light_armor = { max_strength = -2.5 }
-		medium_armor = { max_strength = -2.5 }	
-		heavy_armor = { max_strength = -2.5 }
+		motorized = { max_strength = -6 }
+		mechanized = { max_strength = -8 }
+		amphibious_mechanized = { max_strength = -8 }
+		light_armor = { max_strength = -4 }
+		medium_armor = { max_strength = -4 }	
+		heavy_armor = { max_strength = -4 }
 	}
 	
 	gwtank = { #Leichttraktor

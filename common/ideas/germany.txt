@@ -6,19 +6,19 @@ ideas = {
 			removal_cost = -1
 			picture = generic_acquire_tanks
 			available = { date < 1940.11.1  }
-			modifier = {	air_fuel_consumption_factor = -0.5 	}
+			modifier = {	air_fuel_consumption_factor = -0.25 	}
 			equipment_bonus = {
 				motorized_equipment = {
-					max_strength = 4 instant = yes
+					max_strength = 6 instant = yes
 				}
 				mechanized_equipment = {
-					max_strength = 5 instant = yes
+					max_strength = 8 instant = yes
 				}
 				amphibious_mechanized_equipment = {
-					max_strength = 5 instant = yes
+					max_strength = 8 instant = yes
 				}
 				armor = {
-					max_strength = 2.5 instant = yes
+					max_strength = 4 instant = yes
 				}
 			}
 		}
@@ -51,8 +51,8 @@ ideas = {
 			allowed_civil_war = {	always = yes	}
 			picture = generic_refining_concern_1
 			modifier = {
-				fuel_gain_factor_from_states = 2.4 
-				industrial_capacity_factory = -0.15
+				fuel_gain_factor_from_states = 3
+				industrial_capacity_factory = -0.3
 			}
 		}
 			GER_totaler_krieg_idea2 = {
