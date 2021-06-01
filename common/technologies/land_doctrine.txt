@@ -1514,29 +1514,29 @@ org_loss_when_moving = -0.7
 	mass_assault_desert_tech = {
 	 allow = { always = no }
 	infantry = {
-			defense = -0.15
+			defense = -0.10
 			plains = {
-				defence = 0.15
+				defence = 0.10
 			}	
 		}
 		anti_tank_brigade = {
 			plains = {
-				defence = 0.15
+				defence = 0.10
 			}	
 		}
 		artillery_brigade = {
 			plains = {
-				defence = 0.15
+				defence = 0.10
 			}			
 		}
 		anti_air_brigade = {
 			plains = {
-				defence = 0.15
+				defence = 0.10
 			}		
 		}		
 		rocket_artillery_brigade= {
 			plains = {
-				defence = 0.15
+				defence = 0.10
 			}		
 		}		
 	}
