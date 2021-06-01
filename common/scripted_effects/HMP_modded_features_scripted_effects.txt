@@ -1968,9 +1968,9 @@ create_field_marshal = {
     logistics_skill = 6
 }
 create_field_marshal = {
-	name = "Ettore Bastico" #Point Value: 15.5 
+	name = "Ettore Bastico" #Point Value: 16
 	picture = "Portrait_Italy_Ettore_Bastico_01.dds"
-	traits = {  defensive_doctrine logistics_wizard  inflexible_strategist unyielding_defender ambusher  trickster  }
+	traits = {  defensive_doctrine logistics_wizard  inflexible_strategist unyielding_defender ambusher organizer infantry_leader  }
 	skill = 7
 	attack_skill = 2
 	defense_skill = 9
