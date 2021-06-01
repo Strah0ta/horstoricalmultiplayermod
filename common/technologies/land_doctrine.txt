@@ -1024,7 +1024,7 @@ enable_tactic = tactic_breakthrough
         }
         infantry = {
             combat_width = -0.4
-			            need = {infantry_equipment= -13}
+			            need = {infantry_equipment= -20}
 			 default_morale = 0.30
         }
         category_line_artillery = {
@@ -1514,33 +1514,29 @@ org_loss_when_moving = -0.7
 	mass_assault_desert_tech = {
 	 allow = { always = no }
 	infantry = {
-			defense = -0.1 
+			defense = -0.15
 			plains = {
-				defence = 0.1
+				defence = 0.15
 			}	
 		}
 		anti_tank_brigade = {
-			defense = -0.1 
 			plains = {
-				defence = 0.1
+				defence = 0.15
 			}	
 		}
 		artillery_brigade = {
-			defense = -0.1 
 			plains = {
-				defence = 0.1
+				defence = 0.15
 			}			
 		}
 		anti_air_brigade = {
-			defense = -0.1 
 			plains = {
-				defence = 0.1
+				defence = 0.15
 			}		
 		}		
 		rocket_artillery_brigade= {
-			defense = -0.1 
 			plains = {
-				defence = 0.1
+				defence = 0.15
 			}		
 		}		
 	}
@@ -1725,7 +1721,7 @@ org_loss_when_moving = -0.7
 			research_cost_coeff = 1
 		} 
 		infantry = {
-			need = {infantry_equipment= -13}
+			need = {infantry_equipment= -20}
 		}
 		on_research_complete = {
 			custom_effect_tooltip = human_wave_offensive_guns_tt

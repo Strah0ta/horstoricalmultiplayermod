@@ -248,9 +248,12 @@ adjacency_rule
 	required_provinces = { 12049 1155 4073 9947 10758 12801 }
 
 	is_disabled = {
+	OR = { 
 		AND = { 
 		tag = USA
 		date < 1941.1.1 
+		}
+		has_global_flag = SUEZ_CANAL_BLOCKED
 		}
 	}
 		

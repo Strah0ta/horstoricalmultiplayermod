@@ -7,7 +7,7 @@ AND = { ENG = { controls_state = 116 } SOV = { controls_state = 137 } }
 }
 }
 
-ignore_aa_states = { NOT = { OR = { is_core_of = SPR state = 219 state = 118 }}}
+ignore_aa_states = { NOT = { OR = { is_core_of = SPR state = 219 }}}
 
 365_sov_mot = { OR = { tag = FRA tag = NOR tag = CAN tag = SAF tag = RAJ tag = NZL tag = AST  tag = FIN tag = BRA tag = HUN tag = ROM tag = BUL tag = HOL  tag = MAN  }}
 tfv_country = { OR = { tag = CAN tag = SAF tag = RAJ tag = NZL tag = AST }}

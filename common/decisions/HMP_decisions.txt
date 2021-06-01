@@ -1019,7 +1019,50 @@ GER_desert_flower_mission2 = {
 		hidden_effect ={ SWE ={ country_event = { id = italy.3999 days = 30 }}  }
 				}
 			}		
+	blow_suez_canal = {
+		icon = GFX_decision_generic_ignite_civil_war
+		allowed = {	has_dlc = "Waking the Tiger"	}
+			allowed = { 	tag = ITA	}
+		available = {
+			controls_state = 453 controls_state = 447 controls_state = 454 
+		}
+	
+		visible = {
+			has_war = yes
+			NOT = { has_global_flag = SUEZ_CANAL_BLOCKED }
+		}
+	
+		fire_only_once = no
+	
+		days_remove = 10
+	
+		remove_effect = {
+				set_country_flag = blew_up_suez set_global_flag = SUEZ_CANAL_BLOCKED country_event = { id = wtt_news.40 hours = 6}
+		}
+	}
+		rebuild_suez_canal = {
+		icon = GFX_decision_generic_special_project
 
+	allowed = { tag = ENG 	}
+		
+		available = {
+			controls_state = 453 controls_state = 447 controls_state = 454 
+		}
+	
+		visible = {
+			has_global_flag = SUEZ_CANAL_BLOCKED
+		}
+	
+		fire_only_once = no
+	
+		days_remove = 365
+	
+		remove_effect = {
+				set_country_flag = rebuilt_suez
+				clr_global_flag = SUEZ_CANAL_BLOCKED
+				country_event = { id = wtt_news.42 hours = 6}
+		}
+	}
 GER_case_anton = {
 	icon = generic_prepare_civil_war		
 	allowed = { OR = { tag = EFR tag = GER tag = ENG }}				
@@ -1467,6 +1510,7 @@ create_corps_commander = {
 		visible = { NOT = { EFR = { has_completed_focus = VIC_join_axis }}}
 		
 		complete_effect = { 
+		transfer_state = 461
 		if = { limit = { ENG = { controls_state = 579 }}  				579 = {     
 			set_building_level = {
 					type = air_base
@@ -1489,7 +1533,7 @@ create_corps_commander = {
 	planning_skill = 6
 	logistics_skill = 8
 } 
-461 = { add_building_construction  = { type = naval_base level = 15 province = 7069 instant_build = yes }}
+461 = { add_building_construction  = { type = air_base level = 20 instant_build = yes } add_building_construction  = { type = naval_base level = 15 province = 7069 instant_build = yes }}
 459 = { add_building_construction  = { type = naval_base level = 15 province = 7132 instant_build = yes }}
 459 = { add_building_construction  = { type = naval_base level = 15 province = 1145 instant_build = yes }}
 
