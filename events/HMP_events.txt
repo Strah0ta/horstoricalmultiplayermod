@@ -127,7 +127,7 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = "Gain Access To Their Industry"
-		JAP = { add_ideas = jap_puppet }
+		JAP = { add_ideas = jap_puppet } CHI = { add_ideas = jap_puppet }
 }
 	option = {
 		name = "Support the Soviets"
