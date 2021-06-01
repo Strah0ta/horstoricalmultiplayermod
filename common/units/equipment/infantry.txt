@@ -21,7 +21,7 @@ equipments = {
 		maximum_speed = 4
 
 		#Defensive Abilities
-		defense = 19
+		defense = 18
 		breakthrough = 2
 		hardness = 0
 		armor_value = 0
@@ -66,7 +66,7 @@ equipments = {
 		can_license = no
 
 		#Defensive Abilities
-		defense = 22
+		defense = 21
 		breakthrough = 4
 
 		#Offensive Abilities
@@ -88,7 +88,7 @@ equipments = {
 		visual_level = 2
 		
 		#Defensive Abilities
-		defense = 26
+		defense = 24
 		breakthrough = 6
 
 		#Offensive Abilities
@@ -113,7 +113,7 @@ equipments = {
 		visual_level = 3
 		
 		#Defensive Abilities
-		defense = 30	
+		defense = 27
 		breakthrough = 8
 
 		#Offensive Abilities
