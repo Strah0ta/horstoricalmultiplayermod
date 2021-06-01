@@ -66,7 +66,7 @@ equipments = {
 		can_license = no
 
 		#Defensive Abilities
-		defense = 21
+		defense = 20
 		breakthrough = 4
 
 		#Offensive Abilities
@@ -113,7 +113,7 @@ equipments = {
 		visual_level = 3
 		
 		#Defensive Abilities
-		defense = 27
+		defense = 28
 		breakthrough = 8
 
 		#Offensive Abilities
