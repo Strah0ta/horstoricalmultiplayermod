@@ -3313,10 +3313,10 @@ create_field_marshal = {
 	picture = "Portrait_Soviet_Gregory_Zhukov.dds" #Point Value: 16
 	traits = {  adaptable logistics_wizard thorough_planner panzer_leader panzer_expert brilliant_strategist  aggressive_assaulter   organizer    }
 	skill = 7
-	attack_skill = 6
+	attack_skill = 4
 	defense_skill = 1
 	planning_skill = 9
-	logistics_skill = 6
+	logistics_skill = 8
 }		
 create_field_marshal = {
     name = "Nikandr Chibisov"  #Point Value: 16 #3/25/21 +Combined Arms Expert +Bearer of Artillery +Scavenger
@@ -3378,8 +3378,8 @@ create_corps_commander = {
 	skill = 7
 	attack_skill = 3
 	defense_skill = 5
-	planning_skill = 6
-	logistics_skill = 8
+	planning_skill = 5
+	logistics_skill = 9
 }		
 create_corps_commander = {
 	name = "Aleksandr Vasilevsky" #Point Value: 20 #2/11/21 +Organizer
@@ -3388,8 +3388,8 @@ create_corps_commander = {
 	skill = 7
 	attack_skill = 3
 	defense_skill = 5
-	planning_skill = 6
-	logistics_skill = 8
+	planning_skill = 5
+	logistics_skill = 9
 }
 create_corps_commander = {
 	name = "Ivan Chernyakhovsky" #Point Value: 20 #2/11/21 +Organizer
@@ -3398,8 +3398,8 @@ create_corps_commander = {
 	skill = 7
 	attack_skill = 3
 	defense_skill = 5
-	planning_skill = 6
-	logistics_skill = 8
+	planning_skill = 5
+	logistics_skill = 9
 }
 
 create_corps_commander = {
@@ -3409,8 +3409,8 @@ create_corps_commander = {
 	skill = 7
 	attack_skill = 3
 	defense_skill = 5
-	planning_skill = 6
-	logistics_skill = 8
+	planning_skill = 5
+	logistics_skill = 9
 }
 
 create_corps_commander = {

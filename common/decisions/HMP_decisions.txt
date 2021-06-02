@@ -225,33 +225,17 @@ available = {  check_variable = { var = SOV_barb_ll_token  value = 20  compare =
 		icon = generic_form_nation
 		cost = 0
 		fire_only_once = no
-				days_remove = 60
 		complete_effect  = {
 		add_equipment_to_stockpile = {  type = infantry_equipment_1 amount = 57000 producer = USA }			
 		SOV = { add_to_variable = {  var = SOV_barb_ll_token   value = -20 } }						
 		}
 }
-HMP_ll_soviets_receive_more_guns2 = { 
-allowed = {  original_tag = SOV } 
-available = {  check_variable = { var = SOV_barb_ll_token  value = 50  compare = greater_than_or_equals} has_war_with = GER OR = { date > 1941.11.22  ENG = { controls_state = 412 }  } 			custom_trigger_tooltip = {	tooltip = SOV_secure_tt	suppy_route_secure = yes}  }      
-		icon = generic_form_nation
-		cost = 0
-		days_remove = 180
-		fire_only_once = no
-		complete_effect  = {
-		add_equipment_to_stockpile = {  type = infantry_equipment_1 amount = 143000 producer = USA }			
-		SOV = { add_to_variable = {  var = SOV_barb_ll_token   value = -50 } }						
-		}
-}
-
 
 HMP_ll_soviets_receive_support = {
 allowed = {  original_tag = SOV } 
-
 available = {  check_variable = { var = SOV_barb_ll_token  value = 10  compare = greater_than_or_equals} has_war_with = GER OR = { date > 1941.11.22  ENG = { controls_state = 412 }  } 			custom_trigger_tooltip = {	tooltip = SOV_secure_tt	suppy_route_secure = yes}  }      
 		icon = generic_form_nation
 		cost = 0
-		days_remove = 60
 		fire_only_once = no
 		complete_effect  = {
 		add_equipment_to_stockpile = {  type = support_equipment_1 amount = 2500 producer = USA }			
@@ -264,7 +248,6 @@ allowed = {  original_tag = SOV }
 available = {  check_variable = { var = SOV_barb_ll_token  value = 10  compare = greater_than_or_equals} has_war_with = GER OR = { date > 1941.11.22  ENG = { controls_state = 412 }  } 			custom_trigger_tooltip = {	tooltip = SOV_secure_tt	suppy_route_secure = yes}  }      
 		icon = generic_form_nation
 		cost = 0
-		days_remove = 60
 		fire_only_once = no
 		complete_effect  = {
 		if = { limit = { USA = { has_tech = antiair2 }}   add_equipment_to_stockpile = {  type = anti_air_equipment_2 amount = 2222 producer = USA }    }
@@ -285,7 +268,6 @@ available = {  check_variable = { var = SOV_barb_ll_token  value = 10  compare =
 		icon = generic_form_nation
 		cost = 0
 		fire_only_once = no
-		days_remove = 60
 		complete_effect  = {
 				if = { limit = { USA = { has_tech = antitank2 }}   add_equipment_to_stockpile = {  type = anti_tank_equipment_2 amount = 4000 producer = USA }    }
 		else_if = { limit = { ENG = { has_tech = antitank2 }}   add_equipment_to_stockpile = {  type = anti_tank_equipment_2 amount = 4000 producer = ENG }    }
@@ -304,7 +286,6 @@ allowed = {  original_tag = SOV }
 available = {  check_variable = { var = SOV_barb_ll_token  value = 10  compare = greater_than_or_equals} has_war_with = GER OR = { date > 1941.11.22  ENG = { controls_state = 412 }  } 			custom_trigger_tooltip = {	tooltip = SOV_secure_tt	suppy_route_secure = yes}  }      
 		icon = generic_form_nation
 		cost = 0
-		days_remove = 60
 		fire_only_once = no
 		complete_effect  = {
 								if = { limit = { USA = { has_tech = artillery1 }}   add_equipment_to_stockpile = {  type = artillery_equipment_2 amount = 4000 producer = USA }    }
@@ -324,7 +305,6 @@ allowed = {  original_tag = SOV }
 available = {  check_variable = { var = SOV_barb_ll_token  value = 10  compare = greater_than_or_equals} has_war_with = GER OR = { date > 1941.11.22  ENG = { controls_state = 412 }  } 			custom_trigger_tooltip = {	tooltip = SOV_secure_tt	suppy_route_secure = yes}  }      
 		icon = generic_form_nation
 		cost = 0
-		days_remove = 60
 		fire_only_once = no
 		complete_effect  = {
 		if = { limit = { USA = { has_tech = rocket_artillery }}   add_equipment_to_stockpile = {  type = rocket_artillery_equipment_1 amount = 2500 producer = USA }    }
@@ -344,7 +324,6 @@ allowed = {  original_tag = SOV }
 available = {  check_variable = { var = SOV_barb_ll_token  value = 10  compare = greater_than_or_equals} has_war_with = GER OR = { date > 1941.11.22  ENG = { controls_state = 412 }  } 			custom_trigger_tooltip = {	tooltip = SOV_secure_tt	suppy_route_secure = yes}  }      
 		icon = generic_form_nation
 		cost = 0
-		days_remove = 60
 		fire_only_once = no
 		complete_effect  = {
 		add_equipment_to_stockpile = {  type = motorized_equipment_1 amount = 5000 producer = USA }			
@@ -357,7 +336,6 @@ available = {  check_variable = { var = SOV_barb_ll_token  value = 10  compare =
 		available = {  check_variable = { var = SOV_barb_ll_token  value = 10  compare = greater_than_or_equals} has_war_with = GER OR = { date > 1941.11.22  ENG = { controls_state = 412 }  } 			custom_trigger_tooltip = {	tooltip = SOV_secure_tt	suppy_route_secure = yes}  }      
 		icon = generic_form_nation
 		cost = 0 
-		days_remove = 60
 		fire_only_once = no
 		complete_effect  = {
 		if = { limit = { USA = { has_tech = motorized_rocket_unit }}   add_equipment_to_stockpile = {  type = motorized_rocket_equipment_1 amount = 832 producer = USA }    }
@@ -376,7 +354,6 @@ available = {  check_variable = { var = SOV_barb_ll_token  value = 10  compare =
 		available = {  check_variable = { var = SOV_barb_ll_token  value = 10  compare = greater_than_or_equals} has_war_with = GER OR = { ENG = { controls_state = 412 }   date > 1941.11.22 }			custom_trigger_tooltip = {	tooltip = SOV_secure_tt	suppy_route_secure = yes}  }      
 		icon = generic_form_nation
 		cost = 0
-		days_remove = 120
 		fire_only_once = no
 		complete_effect  = {
 		if = { limit = { USA = { has_tech = mechanised_infantry }}   add_equipment_to_stockpile = {  type = mechanized_equipment_1 amount = 2857 producer = USA }    }
@@ -396,7 +373,6 @@ allowed = {  original_tag = SOV }
 available = {  check_variable = { var = SOV_barb_ll_token  value = 10  compare = greater_than_or_equals} has_war_with = GER OR = { ENG = { controls_state = 412 }   date > 1941.11.22 }			custom_trigger_tooltip = {	tooltip = SOV_secure_tt	suppy_route_secure = yes}  }      
 		icon = generic_form_nation
 		cost = 0
-		days_remove = 120
 		fire_only_once = no
 		complete_effect  = {
 		if = { limit = { USA = { has_tech = amphibious_mechanized_infantry }}   add_equipment_to_stockpile = {  type = amphibious_mechanized_equipment_1 amount = 2222 producer = USA }    }
@@ -417,7 +393,6 @@ available = { check_variable = { var = SOV_barb_ll_token  value = 10  compare = 
   icon = generic_form_nation
 		cost = 0
 		fire_only_once = no
-		days_remove = 180
 		complete_effect  = {
 			if = { limit = { USA = { has_tech = advanced_light_tank2 }}   add_equipment_to_stockpile = {  type = light_tank_equipment_4 amount = 910 producer = USA }    }
 		else_if = { limit = { ENG = { has_tech = advanced_light_tank2 }}   add_equipment_to_stockpile = {  type = light_tank_equipment_4 amount = 910 producer = ENG }    }
@@ -436,7 +411,6 @@ available = { check_variable = { var = SOV_barb_ll_token  value = 10  compare = 
 		available = { check_variable = { var = SOV_barb_ll_token  value = 10  compare = greater_than_or_equals} has_war_with = GER OR = { date > 1941.11.22  ENG = { controls_state = 412 }  } 			custom_trigger_tooltip = {	tooltip = SOV_secure_tt	suppy_route_secure = yes}  }        
 		icon = generic_form_nation
 		cost = 0
-		days_remove = 180
 		fire_only_once = no
 
 		complete_effect  = {
@@ -458,7 +432,6 @@ available = { check_variable = { var = SOV_barb_ll_token  value = 10  compare = 
 		icon = generic_form_nation
 		cost = 0
 		fire_only_once = no
-		days_remove = 180
 		complete_effect  = {
 			if = { limit = { USA = { has_tech = advanced_heavy_tank }}   add_equipment_to_stockpile = {  type = heavy_tank_equipment_3 amount = 444 producer = USA }    }
 			else_if = { limit = { ENG = { has_tech = advanced_heavy_tank }}   add_equipment_to_stockpile = {  type = heavy_tank_equipment_3 amount = 444 producer = ENG }    }
@@ -478,7 +451,6 @@ available = { check_variable = { var = SOV_barb_ll_token  value = 10  compare = 
 		icon = generic_form_nation
 		cost = 0
 		fire_only_once = no
-		days_remove = 180
 		complete_effect  = {
 			if = { limit = { USA = { has_tech = super_heavy_tank }}   add_equipment_to_stockpile = {  type = super_heavy_tank_equipment_1 amount = 357 producer = USA }    }
 			else_if = { limit = { ENG = { has_tech = super_heavy_tank }}   add_equipment_to_stockpile = {  type = super_heavy_tank_equipment_1 amount = 357 producer = ENG }    }
@@ -499,7 +471,6 @@ available = { check_variable = { var = SOV_barb_ll_token  value = 10  compare = 
 		icon = generic_form_nation
 		cost = 0
 		fire_only_once = no 
-		days_remove = 60
 		visible = { always = no }
 		#visible = { SOV = { has_completed_focus = SOV_aviation_cult} }
 		complete_effect  = {	add_equipment_to_stockpile = {  type = sov_fighter_equipment_2 amount = 190 producer = SOV }    	SOV = { add_to_variable = {  var = SOV_barb_ll_token   value = -10 } }							}
@@ -1076,7 +1047,7 @@ GER_case_anton = {
 			}
 		}	
 		activation = { AND = { EFR = { has_war_with = ENG has_country_flag = EFR_torch_declared  } NOT = { EFR = { has_completed_focus = VIC_join_axis }} NOT = { OR = { is_puppet_of = GER is_in_faction_with = GER     }}        }     }
-		days_mission_timeout = 60
+		days_mission_timeout = 45
 		timeout_effect = { GER = { add_to_faction = EFR } EFR = { add_to_variable={vichy_legitimacy_mechanic_stability_factor=0.2} }	recalc_vichy_france_legitimacy = yes }
 		complete_effect = {	GER = { puppet = EFR } if = { limit = { EFR = { is_ai = no }}  EFR = { add_ideas = CHI_illegal_regime } } 	hidden_effect = { finish_french_colony_focuses = yes } recalc_vichy_france_legitimacy = yes	}
 	}
