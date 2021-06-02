@@ -9,6 +9,15 @@ technologies = {
 		light_armor = { max_strength = 4 }
 		medium_armor = { max_strength = 4 }	
 		heavy_armor = { max_strength = 4 }	
+		light_sp_artillery_brigade = { max_strength = 6 }
+		medium_sp_artillery_brigade = { max_strength = 6 }
+		heavy_sp_artillery_brigade = { max_strength = 6 }
+		light_sp_anti_air_brigade = { max_strength = 2 }
+		medium_sp_anti_air_brigade = { max_strength = 2 }
+		heavy_sp_anti_air_brigade = { max_strength = 2 }
+		light_tank_destroyer_brigade = { max_strength = 4 }
+		medium_tank_destroyer_brigade = { max_strength = 4 }
+		heavy_tank_destroyer_brigade  = { max_strength = 4 }
 	}
 	
 	blitzkrieg_off = {
@@ -18,6 +27,15 @@ technologies = {
 		light_armor = { max_strength = -4 }
 		medium_armor = { max_strength = -4 }	
 		heavy_armor = { max_strength = -4 }
+				light_sp_artillery_brigade = { max_strength = -6 }
+		medium_sp_artillery_brigade = { max_strength = -6 }
+		heavy_sp_artillery_brigade = { max_strength = -6 }
+		light_sp_anti_air_brigade = { max_strength = -2 }
+		medium_sp_anti_air_brigade = { max_strength = -2 }
+		heavy_sp_anti_air_brigade = { max_strength = -2 }
+		light_tank_destroyer_brigade = { max_strength = -4 }
+		medium_tank_destroyer_brigade = { max_strength = -4 }
+		heavy_tank_destroyer_brigade  = { max_strength = -4 }
 	}
 	
 	gwtank = { #Leichttraktor
