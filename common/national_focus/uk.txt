@@ -921,6 +921,13 @@ add_equipment_production = {
 		cost = 5
 		completion_reward = {
 		 add_ideas = ENG_fortify_the_empire_1 
+			118 = {
+				set_building_level = {
+					type = air_base
+					level = 20
+					instant_build = yes
+				}			
+			}		 
 			551 = {
 				set_building_level = {
 					type = air_base

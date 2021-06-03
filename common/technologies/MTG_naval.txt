@@ -1748,7 +1748,7 @@ early_ship_hull_carrier = {
 	basic_heavy_shell = {
 		research_cost = 0.5
 
-		start_year = 1938
+		start_year = 1936
 
 		path = {
 			leads_to_tech = improved_heavy_shell
@@ -1775,7 +1775,7 @@ early_ship_hull_carrier = {
 	}
 	improved_heavy_shell = {
 		research_cost = 0.5
-		start_year = 1942
+		start_year = 1940
 		
 		
 		battleship = {

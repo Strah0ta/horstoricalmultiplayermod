@@ -30,21 +30,21 @@ ideas = {
 			allowed_civil_war = {	always = yes	}
 			removal_cost = -1
 			equipment_bonus = {
-			motorized_equipment = {	build_cost_ic = -0.75 instant = yes	} 
-			mechanized_equipment = {	build_cost_ic = -0.75 instant = yes	} 
-			infantry_equipment = { build_cost_ic = -0.75 instant = yes	}
-			support_equipment = { build_cost_ic = -0.75 instant = yes	}
-			anti_air_equipment = { build_cost_ic = -0.75 instant = yes	}
-			artillery_equipment = {	build_cost_ic = -0.75 instant = yes	}
-			anti_tank_equipment = {	build_cost_ic = -0.75 instant = yes	}
-			CAS_equipment = {	build_cost_ic = -0.75 instant = yes	} 
-			nav_bomber_equipment = {	build_cost_ic = -0.75 instant = yes	} 
-			scout_plane_equipment = {	build_cost_ic = -0.75 instant = yes	}
-			light_tank_equipment = {	build_cost_ic = -0.75 instant = yes	}
-			medium_tank_equipment = {	build_cost_ic = -0.75 instant = yes	}
-			heavy_tank_equipment = {	build_cost_ic = -0.75 instant = yes	}
-			light_tank_artillery_equipment = {	build_cost_ic = -0.75 instant = yes	}		
-			light_tank_destroyer_equipment = {	build_cost_ic = -0.75 instant = yes	}						
+			motorized_equipment = {	build_cost_ic = -0.80 instant = yes	} 
+			mechanized_equipment = {	build_cost_ic = -0.80 instant = yes	} 
+			infantry_equipment = { build_cost_ic = -0.80 instant = yes	}
+			support_equipment = { build_cost_ic = -0.80 instant = yes	}
+			anti_air_equipment = { build_cost_ic = -0.80 instant = yes	}
+			artillery_equipment = {	build_cost_ic = -0.80 instant = yes	}
+			anti_tank_equipment = {	build_cost_ic = -0.80 instant = yes	}
+			CAS_equipment = {	build_cost_ic = -0.80 instant = yes	} 
+			nav_bomber_equipment = {	build_cost_ic = -0.80 instant = yes	} 
+			scout_plane_equipment = {	build_cost_ic = -0.80 instant = yes	}
+			light_tank_equipment = {	build_cost_ic = -0.80 instant = yes	}
+			medium_tank_equipment = {	build_cost_ic = -0.80 instant = yes	}
+			heavy_tank_equipment = {	build_cost_ic = -0.80 instant = yes	}
+			light_tank_artillery_equipment = {	build_cost_ic = -0.80 instant = yes	}		
+			light_tank_destroyer_equipment = {	build_cost_ic = -0.80 instant = yes	}						
 			}
 		}
 		ENG_motorized_focus2 = { 
