@@ -74,7 +74,7 @@
 			heavy_tank_destroyer_sup = {   need = {heavy_tank_destroyer_equipment= -4 }   }
 			super_heavy_tank_destroyer_sup = {   need = {super_heavy_tank_destroyer_equipment= -4 }   }
 			modern_tank_destroyer_sup = {   need = {modern_tank_destroyer_equipment= -4 }   }
-			light_tank_destroyer_sup_gun = {   need = {light_tank_destroyer_equipment= -10 }   }
+			light_tank_destroyer_sup_gun = {   need = {light_tank_destroyer_equipment= -13 }   }
 			medium_tank_destroyer_sup_gun = {   need = {medium_tank_destroyer_equipment= -4 }   }
 			heavy_tank_destroyer_sup_gun = {   need = {heavy_tank_destroyer_equipment= -4 }   }
 			super_heavy_tank_destroyer_sup_gun = {   need = {super_heavy_tank_destroyer_equipment= -4 }   }
@@ -99,9 +99,9 @@
 			light_tank_destroyer_sup = {   need = {light_tank_destroyer_equipment= 10 }   }
 			medium_tank_destroyer_sup = {   need = {medium_tank_destroyer_equipment= 4 }   }
 			heavy_tank_destroyer_sup = {   need = {heavy_tank_destroyer_equipment= 4 }   }
-			super_heavy_tank_destroyer_sup = {   need = {super_heavy_tank_destroyer_equipment= 4 }   }
-			modern_tank_destroyer_sup = {   need = {modern_tank_destroyer_equipment= 4 }   }
-			light_tank_destroyer_sup_gun = {   need = {light_tank_destroyer_equipment= 10 }   }
+			super_heavy_tank_destroyer_sup = {   need = {super_heavy_tank_destroyer_equipment = 4 }   }
+			modern_tank_destroyer_sup = {   need = {modern_tank_destroyer_equipment = 4 }   }
+			light_tank_destroyer_sup_gun = {   need = {light_tank_destroyer_equipment = 13 }   }
 			medium_tank_destroyer_sup_gun = {   need = {medium_tank_destroyer_equipment= 4 }   }
 			heavy_tank_destroyer_sup_gun = {   need = {heavy_tank_destroyer_equipment= 4 }   }
 			super_heavy_tank_destroyer_sup_gun = {   need = {super_heavy_tank_destroyer_equipment= 4 }   }
