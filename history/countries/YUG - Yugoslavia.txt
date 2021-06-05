@@ -6,6 +6,10 @@ anti_cross_faction_trade_allies = yes
 add_ideas = manpower_early
 add_to_tech_sharing_group = axis_research 
 add_ideas = armyandnavy_idea
+set_variable = {
+    var = min_fuel
+    value = 0.800
+}
 set_convoys = 100
 set_technology = {
 	tech_support = 1		
