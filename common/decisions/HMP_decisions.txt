@@ -1474,7 +1474,7 @@ create_corps_commander = {
 			OR = { 
 			NOT = { ITA = {  controls_state = 579  }   }
 			date > 1941.12.1  
-			AND = { controls_state = 447 date > 1941.6.1 }
+			AND = { controls_state = 447 date > 1941.8.1 }
 			}
 		}
 		
