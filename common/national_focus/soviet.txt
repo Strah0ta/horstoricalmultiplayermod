@@ -171,7 +171,7 @@ add_ideas = red_airforce_resurgent
 		}		
 				add_tech_bonus = {
 			name = "Mechanized Experiments"
-			bonus = 1
+			bonus = 0.5
 			uses = 2
 			category = cat_mechanized_equipment
 			}
