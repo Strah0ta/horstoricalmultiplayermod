@@ -927,12 +927,7 @@ ideas = {
 		maurice_gamelin = {
 			
 			
-			allowed = {
-				original_tag = FRA
-			}
-			available = {
-				 NOT = { owns_state = 16 }
-			}
+			allowed = {	original_tag = FRA	}
 
 			cost = 50
 			
@@ -942,12 +937,7 @@ ideas = {
 		maxime_weygand = {
 			
 			
-			allowed = {
-				original_tag = FRA
-			}
-			available = {
-				  NOT = { owns_state = 16 }
-			}
+			allowed = {	original_tag = FRA	}
 
 			cost = 50
 			
