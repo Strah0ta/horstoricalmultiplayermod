@@ -3,7 +3,7 @@ technologies = {
 	
 	blitzkrieg_on = {
 		allow = { always = no }
-		motorized = { max_strength = 6 }
+		motorized = { max_strength = 8 }
 		mechanized = { max_strength = 8 }
 		amphibious_mechanized = { max_strength = 8 }
 		light_armor = { max_strength = 4 }
@@ -21,7 +21,7 @@ technologies = {
 	}
 	
 	blitzkrieg_off = {
-		motorized = { max_strength = -6 }
+		motorized = { max_strength = -8 }
 		mechanized = { max_strength = -8 }
 		amphibious_mechanized = { max_strength = -8 }
 		light_armor = { max_strength = -4 }

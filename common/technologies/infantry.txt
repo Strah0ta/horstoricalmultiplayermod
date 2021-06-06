@@ -919,16 +919,11 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		path = {
-			leads_to_tech = improved_special_forces
-			research_cost_coeff = 1
-		}
-
 		research_cost = 2
 		start_year = 1938
 		folder = {
 			name = infantry_folder
-			position = { x = 3 y = @1938 }
+			position = { x = 2 y = @1938 }
 		}
 		
 		categories = {
@@ -942,8 +937,8 @@ technologies = {
 	advanced_special_forces = {
 
 		category_special_forces = {
+			breakthrough = 0.1
 			max_organisation = 5
-			defense = 0.05
 		}
 
 		
@@ -966,35 +961,10 @@ technologies = {
 		}
 	}
 
-	improved_special_forces = {
-
-		category_special_forces = {
-			breakthrough = 0.10
-		}	
-		
-		path = {
-			leads_to_tech = survival_training
-			research_cost_coeff = 1
-		}
-
-		research_cost = 2
-		start_year = 1940
-		folder = {
-			name = infantry_folder
-			position = { x = 4 y = @1940 }
-		}
-		
-		categories = {
-			mountaineers_tech
-			marine_tech
-			para_tech
-		}
-	}
-
 	survival_training = {
 
 		category_special_forces = {
-			breakthrough = 0.05
+			breakthrough = 0.10
 		}
 		special_forces_no_supply_grace = 48
 		special_forces_out_of_supply_factor = -0.1
@@ -1008,7 +978,7 @@ technologies = {
 		start_year = 1942
 		folder = {
 			name = infantry_folder
-			position = { x = 3 y = @1942 }
+			position = { x = 2 y = @1942 }
 		}
 		
 		categories = {
@@ -1033,7 +1003,7 @@ technologies = {
 		start_year = 1944
 		folder = {
 			name = infantry_folder
-			position = { x = 3 y = @1944 }
+			position = { x = 2 y = @1944 }
 		}
 		
 		categories = {
