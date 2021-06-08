@@ -1,5 +1,9 @@
 ideas = {
 	country = {
+	ITA_africa_campaign_idea = { 
+picture = generic_manpower_bonus	
+	modifier =   {  army_org_factor = 0.25 }
+	}
 		victor_emmanuel = {
 			
 			allowed = {

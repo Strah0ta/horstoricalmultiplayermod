@@ -911,7 +911,7 @@ date > 1941.6.1
 	}
 
 	focus = {
-		id = ITA_sea_wolves
+		id = ITA_sea_wolves 
 		icon = GFX_goal_generic_wolf_pack
 		prerequisite = { focus = ITA_submarine_effort }
 		x = 0
@@ -925,7 +925,20 @@ date > 1941.6.1
 			set_technology = { cruiser_submarines = 1 }
 		}
 	}
+	focus = {
+		id = ITA_africa_campaign 
+		icon = GFX_baionette
 
+		available_if_capitulated = yes
+		available = { has_war = yes }
+		x = 10
+		y = 0
+		cost = 5
+
+		completion_reward = {
+			add_timed_idea = { idea = ITA_africa_campaign_idea days = 365 } 
+		}
+	}
 	focus = {
 		id = ITA_victoryinETH 
 		icon = GFX_focus_ita_ethiopia

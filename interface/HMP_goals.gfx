@@ -1,5 +1,8 @@
 spriteTypes = {	
-
+	SpriteType = {
+		name = "GFX_baionette"
+		texturefile = "gfx/interface/goals/baionette.dds"
+	}
 	SpriteType = {
 		name = "GFX_GER_charge_of_the_light_brigade"
 		texturefile = "gfx/interface/goals/GER_charge_of_the_light_brigade.dds"
