@@ -2,12 +2,12 @@ allow_paratroopers = {
 	name = "RULE_ALLOW_PARATROOPERS"
 	group = "HORST_GROUPKEY"					
 	icon = "GFX_paradrops"
+	#default = {
+	#	name = yes
+	#	text = "RULE_OPTION_ALLOWED"
+	#	desc = "RULE_ALLOW_PARATROOPERS_ALLOWED_DESC"
+	#}
 	default = {
-		name = yes
-		text = "RULE_OPTION_ALLOWED"
-		desc = "RULE_ALLOW_PARATROOPERS_ALLOWED_DESC"
-	}
-	option = {
 		name = no
 		text = "RULE_OPTION_BLOCKED"
 		desc = "RULE_ALLOW_PARATROOPERS_BLOCKED_DESC"
@@ -76,7 +76,22 @@ horst_industry_balancer = {
 	}
 
 }
+horst_tanks = {
+	name = "Tank Mod"
+	group = "HORST_GROUPKEY"					
+	icon = "GFX_decision_hol_draw_up_staff_plans"	
+	default = {	
+		name = "HORST_TANKS_OFF" 
+		text = "Make no changes"
+		desc = "Disables ingame industry balancing via adding military factories."	
+	}
+	option = {	
+		name = "HORST_TANKS_ON"
+		text = "Make tanks stronger"
+		desc = "Defense is globally decreased by 10%, breakthrough is increased by 10% (counteracts defense decrease), and infantry division attack is 10% lower"	
+	}
 
+}
 horst_host_country = {
 	name = "Select Host (TEST IN SP FIRST!!!)"
 	group = "HORST_GROUPKEY"

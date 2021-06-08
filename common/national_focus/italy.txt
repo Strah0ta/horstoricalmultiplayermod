@@ -599,6 +599,7 @@ date > 1941.6.1
 		id = ITA_armored_effort
 		icon = GFX_focus_ITA_tank
 		prerequisite = { focus = ITA_modernized_army focus = ITA_army_primacy }
+		available = { date > 1938.3.1 }
 		x = 1
 		y = 2
 		relative_position_id = ITA_modernized_army
@@ -607,12 +608,18 @@ date > 1941.6.1
 
 		completion_reward = {
 			add_tech_bonus = {
-				name = armor_bonus
-				bonus = 1.0
-				uses = 3
+				name = ITA_armored_effort
+				bonus = 3.0
+				ahead_reduction = 2
+				uses = 1
 				category = cat_1941_tanks
-				category = cat_1943_tanks	
 				}
+						add_tech_bonus = {
+				name = ITA_armored_effort
+				bonus = 1
+				uses = 1
+				category = cat_1943_tanks
+				}	
 		}
 	}
 
