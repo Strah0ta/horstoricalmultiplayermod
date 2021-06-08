@@ -1,4 +1,4 @@
-﻿
+﻿italy.859
 add_namespace = mtg_netherlands
 
 country_event = {
@@ -1616,7 +1616,21 @@ country_event = {
 	  }
    }     
    
- 
+                   country_event = {
+   id = italy.859 #winter planning
+   title = "TANK MOD GAME RULE WAS USED"
+   desc = "The host has used a custom game rule which decreases division defense by 10%, increases breakthrough by 10% (cancels previous nerf on attack), and decreases infantry attack by 10%!"
+   picture = GFX_report_event_soviet_soldiers_tank
+
+   fire_only_once = no
+ is_triggered_only = yes
+
+   
+      option = {
+	  name = "ALTA"
+			
+	  }
+   }      
    
 add_namespace = mtg_news
 news_event = {
