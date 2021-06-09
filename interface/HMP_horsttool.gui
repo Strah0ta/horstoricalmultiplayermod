@@ -50,7 +50,7 @@ guiTypes = {
 			position = {x=163.5 y=30}
 			font = "hoi_24header"
 			text = "[This.Owner.GetName]"
-			maxWidth = 200
+			maxWidth = 300
 			maxHeight = 23
 			format = centre
 		}
@@ -99,7 +99,7 @@ guiTypes = {
 				buttonType = { 
 			name = "civ_add"	
 			position = {x=172 y=142}
-			spriteType = "GFX_horst_civ_plus"
+			spriteType = "GFX_horst_civ_pluss"
 			pdx_tooltip = "CIVADD"
 			pdx_tooltip_delayed = "CIVADD_DELAYED"
 			scale = 0.95

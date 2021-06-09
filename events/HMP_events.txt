@@ -1,5 +1,4 @@
-﻿italy.859
-add_namespace = mtg_netherlands
+﻿add_namespace = mtg_netherlands
 
 country_event = {
 	id = mtg_netherlands.1141
@@ -260,7 +259,7 @@ country_event = {
 	
 	is_triggered_only = yes 
 	
-	option = { every_country = {remove_ideas = qol_start_eff }	SOV = {remove_ideas = qol_start_eff_sov remove_ideas = qol_start_eff_sov2 } }
+	option = { every_country = {remove_ideas = qol_start_eff }	SOV = {remove_ideas = qol_start_eff_sov } }
 }
 
 add_namespace = horsthelp

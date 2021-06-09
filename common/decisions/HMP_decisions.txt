@@ -2295,7 +2295,7 @@ AST = {
 	allowed = {	 OR = { original_tag = GER original_tag = ITA	} }
 		icon = generic_naval
 		available = { tag = GGG	}
-		days_mission_timeout = 10
+		days_mission_timeout = 7
 		fire_only_once = no
 		is_good = yes
 		activation = { always = no	}
@@ -2312,7 +2312,7 @@ AST = {
 		icon = generic_naval
 		available = { tag = GGG	}
 
-		days_mission_timeout = 10
+		days_mission_timeout = 7
 
 		fire_only_once = no
 		is_good = yes
@@ -3118,7 +3118,7 @@ USA_congress_small_supporta = yes
 		allowed = {	original_tag = USA }	
 		icon = generic_naval
 		available = { tag = GGG	}
-		days_mission_timeout = 10
+		days_mission_timeout = 7
 		fire_only_once = no
 		is_good = yes
 		activation = { always = no	}
@@ -3133,7 +3133,7 @@ USA_congress_small_supporta = yes
 		allowed = {	original_tag = USA }	
 		icon = generic_naval
 		available = { tag = GGG	}
-		days_mission_timeout = 10
+		days_mission_timeout = 7
 		fire_only_once = no
 		is_good = yes
 		activation = { always = no	}
