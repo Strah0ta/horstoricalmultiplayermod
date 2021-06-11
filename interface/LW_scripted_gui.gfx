@@ -22,6 +22,11 @@ spriteTypes = {
         texturefile = "gfx/horst_gui/horsttool/horst_civ_plus.dds"
         effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
     }	
+		spriteType = {
+        name = "GFX_horst_civ_pluss"
+        texturefile = "gfx/horst_gui/horsttool/horst_civ_pluss.dds"
+        effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+    }	
 	spriteType = {
         name = "GFX_horst_addcheat"
         texturefile = "gfx/horst_gui/horsttool/horst_addcheat.dds"
