@@ -284,18 +284,7 @@ picture = generic_manpower_bonus
 			allowed = {	original_tag = ITA	}
 			traits = { army_infantry_3 }
 		}	
-		
-		#ettore_muti = {
-		#	ledger = air
-		#	allowed = {	original_tag = ITA	}
-		#	traits = { air_chief_ground_support_2 }
-		#}
-		
-		#alberto_da_zara = {
-		#	ledger = navy
-		#	allowed = {	original_tag = ITA	}
-		#	traits = { navy_anti_submarine_2 }
-		#}
+
 			marziale_cerutti = {
 			ledger = air
 			
@@ -303,19 +292,9 @@ picture = generic_manpower_bonus
 				original_tag = ITA
 			}
 
-			traits = { army_commando_1 }
+			traits = { army_commando_2 }
 		}	
-		#carlo_bergamini = {
-		#	ledger = navy	
-		#	allowed = {	original_tag = ITA	}
-		#	traits = { navy_capital_ship_2 }
-		#}
-		
-		#luigi_mascherpa = {
-		#	ledger = navy
-		#	allowed = {	original_tag = ITA	}
-		#	traits = { navy_naval_air_defense_2 }
-		#}
+
 	}
 	
 	
