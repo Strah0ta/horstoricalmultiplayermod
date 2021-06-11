@@ -511,14 +511,12 @@ leader_traits = {
 	
 	prince_of_terror = {
 		sprite = 13
-		foreign_subversive_activites = -0.3
-		non_core_manpower = 0.02
+		non_core_manpower = 0.03
 	}
 	
 		gestapo = {
 		sprite = 13
-		foreign_subversive_activites = -0.3
-		non_core_manpower = 0.02
+		non_core_manpower = 0.05
 		operative_slot = 1
 		agency_upgrade_time = -0.15
 	}
