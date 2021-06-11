@@ -30,6 +30,7 @@ ideas = {
 			allowed_civil_war = {	always = yes	}
 			removal_cost = -1
 			equipment_bonus = {
+			transport_plane_equipment = {	build_cost_ic = -0.80 instant = yes	} 
 			motorized_equipment = {	build_cost_ic = -0.80 instant = yes	} 
 			#mechanized_equipment = {	build_cost_ic = -0.80 instant = yes	} 
 			infantry_equipment = { build_cost_ic = -0.80 instant = yes	}
@@ -53,6 +54,7 @@ ideas = {
 			allowed_civil_war = {	always = yes	}
 			removal_cost = -1
 			equipment_bonus = {
+			transport_plane_equipment = {	build_cost_ic = -0.075 instant = yes	}
 			motorized_equipment = {	build_cost_ic = -0.075 instant = yes	} 
 			infantry_equipment = { build_cost_ic = -0.075 instant = yes	}
 			light_tank_equipment = {	build_cost_ic = -0.075 instant = yes	}

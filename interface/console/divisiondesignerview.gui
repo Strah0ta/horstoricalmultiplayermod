@@ -675,7 +675,7 @@ guiTypes = {
 				buttonText = "REGIMENTS_SELECTION_CANCEL"
 				buttonFont = "hoi_18mbs"
 				clicksound = click_default
-				shortcut = "RETURN"
+				#shortcut = "RETURN"
 			}
 			
 			gridBoxType = {
