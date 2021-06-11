@@ -4913,7 +4913,7 @@ HMP_startup_on_actions = {
 	if = { limit = { HUN = { is_ai = yes } } GER = { country_event = { id = japan.668  days = 1}}   }
 	if = { limit = { BUL = { is_ai = yes } } GER = { country_event = { id = japan.638  days = 1}}   }
 	if = { limit = { has_start_date > 1936.01.02 }  HMP_no_asia = yes  }
-	SWE = { country_event = { id =  italy.807 days = 2054 } country_event = { id =  italy.808 days = 2400 } }  SOV = { add_ideas = qol_start_eff_sov2 add_timed_idea = { idea = SOV_2nd_plan days = 365 } } 	
+	SWE = { country_event = { id =  italy.807 days = 2054 } country_event = { id =  italy.808 days = 2400 } }  SOV = { add_ideas = qol_start_eff_sov add_timed_idea = { idea = SOV_2nd_plan days = 365 } } 	
 	HOL = { add_country_leader_trait = defeatism }  if = {	limit = { has_game_rule = { rule = horst_tanks	option = HORST_TANKS_ON	} }  every_country = { country_event = { id = italy.859 days = 0 } add_ideas = winter_server }       }
 		SWE = { country_event = { id =  italy.807 days = 2054 } country_event = { id =  italy.808 days = 2400 } }  	
 	HMP_script_generals = yes  
