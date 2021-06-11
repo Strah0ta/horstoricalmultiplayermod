@@ -4896,7 +4896,7 @@ create_corps_commander = { ###FIX
 
 HMP_startup_on_actions = {
 	every_country = { limit = { NOT =  {tag = SOV }}add_ideas = anti_strat_meme add_ideas = qol_start_eff } #adds starting eff and kills tac/strat range before danzig
-	SOV = { add_timed_idea = { idea = SOV_2nd_plan days = 365  add_timed_idea = { days = 820 idea = SOV_motorized_focus } add_ideas = qol_start_eff_sov } #adds starting eff
+	SOV = { add_timed_idea = { idea = SOV_2nd_plan days = 365  } add_timed_idea = { days = 820 idea = SOV_motorized_focus } add_ideas = qol_start_eff_sov } #adds starting eff
 	ITA = { add_timed_idea = { idea = SOV_motorized_focus days = 690 } }   GER = { add_timed_idea = { idea = SOV_motorized_focus days = 547 } }  ENG = { add_timed_idea = { idea = SOV_motorized_focus days = 690 } } USA = { add_timed_idea = { idea = SOV_motorized_focus days = 690 } }  	JAP = { add_timed_idea = { idea = SOV_motorized_focus days = 690 } }  
 	every_country = { limit = { 365_sov_mot = yes }  add_timed_idea = { days = 365 idea = SOV_motorized_focus }  }
 	if = { limit = {CZE = { is_ai = yes}} CZE ={  add_ideas = ai_imiter  } } if = { limit = {YUG = { is_ai = yes}} YUG ={  add_ideas = ai_imiter  } }
@@ -4913,6 +4913,7 @@ HMP_startup_on_actions = {
 	if = { limit = { HUN = { is_ai = yes } } GER = { country_event = { id = japan.668  days = 1}}   }
 	if = { limit = { BUL = { is_ai = yes } } GER = { country_event = { id = japan.638  days = 1}}   }
 	if = { limit = { has_start_date > 1936.01.02 }  HMP_no_asia = yes  }
+	SWE = { country_event = { id =  italy.807 days = 2054 } country_event = { id =  italy.808 days = 2400 } }  SOV = { add_ideas = qol_start_eff_sov2 add_timed_idea = { idea = SOV_2nd_plan days = 365 } } 	
 	HOL = { add_country_leader_trait = defeatism }  if = {	limit = { has_game_rule = { rule = horst_tanks	option = HORST_TANKS_ON	} }  every_country = { country_event = { id = italy.859 days = 0 } add_ideas = winter_server }       }
 		SWE = { country_event = { id =  italy.807 days = 2054 } country_event = { id =  italy.808 days = 2400 } }  } 	
 	HMP_script_generals = yes  
