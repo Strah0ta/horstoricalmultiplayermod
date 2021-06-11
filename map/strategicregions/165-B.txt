@@ -1,11 +1,10 @@
-
 strategic_region={
-	id=100
-	name="Lower Red Sea"
+	id=166
+	name="Upper Red Sea"
 	provinces={
-		2800 8742 8766 
+		5388 2825
 	}
-	weather={
+weather={
 		period={
 			between={ 0.0 30.0 }
 			temperature={ 5.0 30.0 }

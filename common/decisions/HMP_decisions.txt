@@ -995,7 +995,7 @@ GER_desert_flower_mission2 = {
 		allowed = {	has_dlc = "Waking the Tiger"	}
 			allowed = { 	tag = ITA	}
 		available = {
-			controls_state = 453 controls_state = 447 controls_state = 454 
+			OR = { controls_state = 453 controls_state = 447 controls_state = 454 ALB = {  controls_state = 453 controls_state = 447 controls_state = 454   } }
 		}
 	
 		visible = {
