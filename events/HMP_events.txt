@@ -1610,7 +1610,7 @@ country_event = {
 
    
       option = {
-	  name = "ALTA"
+	  name = "Okay"
 			
 	  }
    }     
@@ -1625,7 +1625,7 @@ country_event = {
 
    
       option = {
-	  name = "ALTA"
+	  name = "Okay"
 			
 	  }
    }     
@@ -1640,7 +1640,7 @@ country_event = {
 
    
       option = {
-	  name = "ALTA"
+	  name = "Okay"
 			
 	  }
    }      
