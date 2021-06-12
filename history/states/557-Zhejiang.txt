@@ -2,8 +2,8 @@ state=
 {
 	id=557
 	name="STATE_596"
-	manpower = 21230700
-	state_category = city
+	manpower = 32986300
+	state_category = large_city
 	history=
 	{
 		owner = CHI
@@ -15,10 +15,25 @@ state=
 		victory_points = { 
 			7191 1 
 		}
-		
+				victory_points = { 
+			4196 3 
+		}
+		victory_points = { 
+			7071 1 
+		}
 		buildings = {
 			infrastructure = 4
-			industrial_complex = 5
+			industrial_complex = 6
+						7071 = {
+				naval_base = 1
+				coastal_bunker = 1
+				bunker = 1
+			}
+			4196 = {
+				naval_base = 3
+				coastal_bunker = 1
+				bunker = 1
+			}
 			7191 = {
 				naval_base = 1
 				coastal_bunker = 1
@@ -41,6 +56,6 @@ state=
 		}
 	}
 	provinces={
-		1055 1096 1168 1195 4013 4042 4099 7058 7086 7146 7174 7191 9944 9972 9974 10014 10058 10086 10101 11920 11947 11991 12059 
+		1055 1096 1168 1195 4013 4042 4099 7058 7086 7146 7174 7191 9944 9972 9974 10014 10058 10086 10101 11920 11947 11991 12059 1006 1094 1138 1166 1193 4053 4070 4113 4169 4196 7027 7071 7099 7131 10010 10012 10042 10054 10069 10084 10093 11986 12057 12084 
 	}
 }

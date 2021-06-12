@@ -1,34 +1,36 @@
 state=
 {
 	id=305
-	name="STATE_743"
-	manpower = 385000
-	state_category = large_town
-	
+	name="Cairo"
+	manpower = 1
+	state_category = wasteland
+	resources = { oil = 10 }
+
 	
 	history=
 	{
-		owner = CHI
-		add_core_of = CHI
+		owner = ENG
+		add_core_of = SWE
 		victory_points = {
-			10000 5 
+			4073 1
+		}
+				victory_points = {
+			7011 10	
+		}
+		victory_points = {
+			8077 10
+		}	
+				victory_points = {
+			12049 1
 		}
 		buildings = {
-			infrastructure = 5
-			industrial_complex = 1
-			air_base = 1
-			10000 = {
-				naval_base = 5
-				coastal_bunker = 1
-				bunker = 1
-			}
-		}
-				1936.1.2 = {
-			owner = SWE
-			add_core_of = SWE
+			infrastructure = 8
+			air_base = 4
+			4073 = { naval_base = 15 }
+			12049 = {	naval_base = 2	}
 		}
 	}
 	provinces={
-		10000
+		7188 8035 4143 12004 4073 7011 12049 10005 10805 10758 8077 
 	}
 }
