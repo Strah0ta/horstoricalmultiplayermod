@@ -94,11 +94,11 @@ focus_tree = {
 			114 = {
 								set_building_level = {
 						type = coastal_bunker
-						level = 2
+						level = 3
 						province = {
 							all_provinces = yes
 	limit_to_coastal = yes
-							level < 2
+							level < 3
 						}
 					}
 				
@@ -118,11 +118,11 @@ focus_tree = {
 			115 = {
 												set_building_level = {
 						type = coastal_bunker
-						level = 2
+						level = 3
 						province = {
 							all_provinces = yes
 	limit_to_coastal = yes
-							level < 2
+							level < 3
 						}
 					}
 			}
@@ -140,11 +140,11 @@ focus_tree = {
 			182 = 	{
 												set_building_level = {
 						type = coastal_bunker
-						level = 2
+						level = 3
 						province = {
 							all_provinces = yes
 	limit_to_coastal = yes
-							level < 2
+							level < 3
 						}
 					}
 			}
@@ -162,11 +162,11 @@ focus_tree = {
 			1 = { 
 								set_building_level = {
 						type = coastal_bunker
-						level = 2
+						level = 3
 						province = {
 							all_provinces = yes
 	limit_to_coastal = yes
-							level < 2
+							level < 3
 						}
 					}
 			}
@@ -185,11 +185,11 @@ focus_tree = {
 			183 = 	{
 												set_building_level = {
 						type = coastal_bunker
-						level = 2
+						level = 3
 						province = {
 							all_provinces = yes
 	limit_to_coastal = yes
-							level < 2
+							level < 3
 						}
 					}
 			}
@@ -208,11 +208,11 @@ focus_tree = {
 			177 = 	{
 												set_building_level = {
 						type = coastal_bunker
-						level = 2
+						level = 3
 						province = {
 							all_provinces = yes
 	limit_to_coastal = yes
-							level < 2
+							level < 3
 						}
 					}
 			}
@@ -231,11 +231,11 @@ focus_tree = {
 			116 = 	{
 												set_building_level = {
 						type = coastal_bunker
-						level = 2
+						level = 3
 						province = {
 							all_provinces = yes
 	limit_to_coastal = yes
-							level < 2
+							level < 3
 						}
 					}
 			}
@@ -258,11 +258,11 @@ focus_tree = {
 		every_state = { limit = { HMP_med_coastal_fort = yes  } 
 								set_building_level = {
 						type = coastal_bunker
-						level = 2
+						level = 3
 						province = {
 							all_provinces = yes
 	limit_to_coastal = yes
-							level < 2
+							level < 3
 						}
 					}
 				}
