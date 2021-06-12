@@ -90,7 +90,22 @@ horst_tanks = {
 		text = "Make tanks stronger"
 		desc = "Defense is globally decreased by 10%, breakthrough is increased by 10% (counteracts defense decrease), and infantry division attack is 10% lower"	
 	}
+}
 
+horst_mini_no_asia = {
+	name = "Mini No Asia Balance"
+	group = "HORST_GROUPKEY"					
+	icon = "GFX_decision_hol_draw_up_staff_plans"	
+	default = {	
+		name = "HORST_NO_ASIA_BALANCE_OFF" 
+		text = "Make no changes"
+		desc = "Balance is unchanged in No Asia"	
+	}
+	option = {	
+		name = "HORST_NO_ASIA_BALANCE_ON"
+		text = "Make Axis more powerful in (small) No Asia games"
+		desc = "Axis have consistently 10% more unit organization in No Asia."	
+	}
 }
 horst_host_country = {
 	name = "Select Host (TEST IN SP FIRST!!!)"

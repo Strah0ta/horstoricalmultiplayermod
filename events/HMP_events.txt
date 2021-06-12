@@ -1614,7 +1614,21 @@ country_event = {
 			
 	  }
    }     
+                   country_event = {
+   id = italy.867 #winter planning
+   title = "NO ASIA AXIS BUFFED"
+   desc = "The host has used a custom game rule to boost the unit organization of Axis units by 10% to balance out the scenario for smaller lobbies"
+   picture = GFX_report_event_soviet_soldiers_tank
+
+   fire_only_once = no
+ is_triggered_only = yes
+
    
+      option = {
+	  name = "ALTA"
+			
+	  }
+   }     
                    country_event = {
    id = italy.859 #winter planning
    title = "TANK MOD GAME RULE WAS USED"
