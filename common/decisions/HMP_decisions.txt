@@ -1041,8 +1041,8 @@ GER_case_anton = {
 		available =  {
 		OR = { 
 		NOT = { EFR = { controls_state = 460 } }   
-		NOT = { EFR = { controls_state = 22 } } 
-		NOT = { EFR = { controls_state = 31 } }
+		NOT = { EFR = { controls_state = 22 } } NOT = { EFR = { controls_state = 33 } } 
+		NOT = { EFR = { controls_state = 31 } }  NOT = { EFR = { controls_state = 32 } }  NOT = { EFR = { controls_state = 25 } } 
 		AND = { NOT = { EFR = { controls_state = 21 } } date < 1941.6.20 }
 			}
 		}	
