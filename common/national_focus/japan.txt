@@ -1185,4 +1185,90 @@ hidden_effect = {		set_technology = { naval_bomber2 = 1 }
 			}
 		}
 	}
+	
+		focus = {
+		id = JAP_strike_on_the_northern_resource_area
+		icon = GFX_focus_jap_hokushin
+		prerequisite = { focus = JAP_strike_on_the_southern_resource_area }
+		x = 0
+		y = 1
+		relative_position_id = JAP_strike_on_the_southern_resource_area 
+
+		cost = 0.2
+
+		available = {
+			always = no
+			OR = {
+				JAP = { 
+					has_full_control_of_state = 335
+				}
+				any_allied_country = { 	
+					has_full_control_of_state = 335
+				}
+			}
+			
+			OR = {
+				JAP = {
+					has_full_control_of_state = 285
+				}
+				any_allied_country = { 	
+					has_full_control_of_state = 285 
+				}
+			}
+						OR = {
+				JAP = {
+					has_full_control_of_state = 439
+				}
+				any_allied_country = { 	
+					has_full_control_of_state = 439 
+				}
+			}
+		}
+
+		bypass = {		has_war_with = SOV	}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		
+		hidden_effect = { 
+		SOV = {
+add_equipment_to_stockpile = {
+         type = motorized_equipment
+         amount = 10000
+         producer = SOV
+}
+add_equipment_to_stockpile = {
+         type = medium_tank_equipment_2
+         amount = 6000
+         producer = SOV
+}
+add_equipment_to_stockpile = {
+         type = medium_tank_aa_equipment_2
+         amount = 500
+         producer = SOV
+}
+delete_unit_template_and_units = {
+    division_template = "Sibirskaya Tankovaya Diviziya"
+}
+delete_unit_template_and_units = {
+    division_template = "Sibirskaya Strelkovaya Diviziya"
+}
+		}
+		SOV = { load_oob = "SOV_JAP_war" }
+	
+		
+				}
+			create_wargoal = {
+				type = annex_everything
+				target = SOV
+			}
+		}
+	}
+
+	
+	
+	
 	}
