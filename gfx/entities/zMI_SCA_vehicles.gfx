@@ -81,9 +81,9 @@ objectTypes = {
 		name = "MI_NOR_mechanized_37L_mesh"
 		file = "gfx/models/units/vehicles/NOR_mechanized_01_lorraine.mesh"
 		
-		animation = { id = "idle"			type = "GER_heavy_armor_0_idle_animation" }
-		animation = { id = "move"			type = "GER_heavy_armor_0_moving_animation" }
-#		animation = { id = "attack"			type = "GER_heavy_armor_0_attack_animation" }
+		animation = { id = "idle"			type = "GER_mechanized_01_idle_animation" }
+		animation = { id = "move"			type = "GER_mechanized_01_move_animation" }
+#		animation = { id = "attack"			type = "GER_mechanized_01_attack_animation" }
 		
 		scale = 1.1			
 	}	
@@ -92,9 +92,9 @@ objectTypes = {
 		name = "MI_NOR_mechanized_39L_mesh"
 		file = "gfx/models/units/vehicles/NOR_mechanized_02_lorraine.mesh"
 		
-		animation = { id = "idle"			type = "GER_heavy_armor_0_idle_animation" }
-		animation = { id = "move"			type = "GER_heavy_armor_0_moving_animation" }
-#		animation = { id = "attack"			type = "GER_heavy_armor_0_attack_animation" }
+		animation = { id = "idle"			type = "GER_mechanized_01_idle_animation" }
+		animation = { id = "move"			type = "GER_mechanized_01_move_animation" }
+#		animation = { id = "attack"			type = "GER_mechanized_01_attack_animation" }
 		
 		scale = 1.1			
 	}	
