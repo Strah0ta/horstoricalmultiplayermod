@@ -41,7 +41,8 @@
  JAP_strike_on_the_northern_resource_area_desc:0 "Our plans have been successful. But the resources we gained are not enough to sustain our war industry. We must follow the doctrine that the army favors, and strike north into the Soviet Union."
  CRO_tomislav_II:0 "Tomislav II"
  CRO_tomislav_II_desc:0 "The Prince Aimone of Savoy, cousin of the king of Italy Victor-Emmanuele III has accepted the crown of Croatia. In order to mark this event as a refoundation of the croatian monarchy, he chose to be named Tomislav II, successor of Tomislav, the founder of Croatia."
- 
+ JAP_armored_divisions2:0 "Chi-Ri Tanks"
+ JAP_armored_divisions2_desc:0 "We will begin research on modern medium tanks."
  cro_diplomacy_focus:0 "Croatian Diplomacy"
  #croatia semi generic
  CRO_officer_training:0 "Officer Training"
