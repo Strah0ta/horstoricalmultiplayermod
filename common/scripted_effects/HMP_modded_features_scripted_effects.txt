@@ -3851,6 +3851,18 @@ create_corps_commander = {
 	planning_skill = 5
 	logistics_skill = 8
 }
+
+create_corps_commander = {
+	name = "Tom Moore" #Point Value: 18
+	picture = "Portrait_Britain_Tom_Moore.dds"
+	traits = { trait_mountaineer jungle_rat trickster infantry_expert camouflage_expert guerilla_fighter infantry_leader }
+	skill = 6
+	attack_skill = 5
+	defense_skill = 5
+	planning_skill = 3
+	logistics_skill = 6
+}
+
 create_corps_commander = {
 	name = "Richard O'Connor" #Point Value: 18 #3/20/21 +Fake Skilled Staffer +Guerille Fighter #3/22/21 -Camo Expert +Engineer
 	picture = "Portrait_Britain_Richard_OConnor.dds"

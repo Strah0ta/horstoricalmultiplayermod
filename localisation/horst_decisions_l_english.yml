@@ -254,6 +254,7 @@
  HMP_ll_soviets_receive_fighter:0 "Receive a shipment of §Y(Homeland) Fighters§! (§R-10§! £convoy_texticon )"
  HMP_ll_soviets_receive_support:0 "Receive a shipment of §YSupport Equipment§! (§R-10§! £convoy_texticon )"
  HMP_ll_soviets_receive_more_guns:0 "Receive a shipment of §YRifles§! (§R-20§! £convoy_texticon )"
+ HMP_ll_soviets_receive_ac:0 "Receive a shipment of §YArmored Cars§! (§R-10§! £convoy_texticon )"
  HMP_ll_soviets_receive_more_guns2:0 "Receive a large massive shipment of §YRifles§! (§R-50§! £convoy_texticon )"
  HMP_ll_soviets_receive_aa:0 "Receive a shipment of §YAnti-Air Batteries§! (§R-10§! £convoy_texticon )"
  HMP_ll_soviets_receive_arty:0 "Receive a shipment of §YArtillery Pieces§! (§R-10§! £convoy_texticon )"
