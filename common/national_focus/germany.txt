@@ -795,6 +795,20 @@ focus_tree = {
 				uses = 1
 				category = air_doctrine
 			}
+				43 = {
+				set_building_level = {
+					type = air_base
+					level = 20
+					instant_build = yes
+				}
+			}
+				51 = {
+				set_building_level = {
+					type = air_base
+					level = 20
+					instant_build = yes
+				}
+			}
 	42 = {
 				set_building_level = {
 					type = air_base

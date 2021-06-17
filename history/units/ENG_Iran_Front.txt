@@ -84,37 +84,37 @@ units = {
 		start_equipment_factor = 0.01
 	}
 		division= {	
-		location = 12832
+		location = 12863
 		division_template = "Countenance Infantry"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.01
 	}
 		division= {	
-		location = 12832
+		location = 12863
 		division_template = "Countenance Infantry"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.01
 	}
 		division= {	
-		location = 12832
+		location = 12863
 		division_template = "Countenance Infantry"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.01
 	}
 		division= {	
-		location = 12832
+		location = 12863
 		division_template = "Countenance Infantry"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.01
 	}
 		division= {	
-		location = 12832
+		location = 12863
 		division_template = "Countenance Infantry"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.01
 	}
 		division= {	
-		location = 12832
+		location = 12863
 		division_template = "Countenance Infantry"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.01
@@ -241,25 +241,25 @@ units = {
 		start_equipment_factor = 0.01
 	}
 		division= {	
-		location = 13082
+		location = 1888
 		division_template = "Countenance Infantry"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.01
 	}
 		division= {	
-		location = 13082
+		location = 1888
 		division_template = "Countenance Infantry"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.01
 	}
 		division= {	
-		location = 13082
+		location = 1888
 		division_template = "Countenance Infantry"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.01
 	}
 		division= {	
-		location = 13082
+		location = 1888
 		division_template = "Countenance Infantry"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.01

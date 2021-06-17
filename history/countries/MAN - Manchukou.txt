@@ -26,7 +26,7 @@ set_variable = {
     var = min_fuel
     value = 0.800
 }
-add_to_tech_sharing_group = japanese_research
+add_to_tech_sharing_group = axis_research 
 
 create_intelligence_agency = yes
 

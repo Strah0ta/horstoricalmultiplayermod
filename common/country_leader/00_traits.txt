@@ -1247,7 +1247,7 @@ leader_traits = {
 	army_entrenchment_sov = { 
 		sprite = 9
 		dig_in_speed_factor = 0.5
-		enemy_army_bonus_air_superiority_factor = -0.05
+		enemy_army_bonus_air_superiority_factor = -0.02
 	}
 	
 	army_armored_1 = { # +4 armor efficiency

@@ -595,10 +595,10 @@ ideas = {
 	}
 		
 	army_chief = {
-		#semyon_timoshenko = {
-		#	allowed = {	original_tag = SOV	}
-		#	traits = { army_chief_reform_2 }
-		#}
+		semyon_timoshenko = {
+			allowed = {	original_tag = SOV	}
+			traits = { army_entrenchment_sov }
+		}
 
 		kliment_voroshilov = {
 			allowed = {	original_tag = SOV	}

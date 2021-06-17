@@ -371,7 +371,7 @@ equipments = {
 		maximum_speed = 1026
 		air_agility = 82.8
 		air_attack = 56.2 #30% more air attack whereas fighter 3 is 25% more
-		air_defence = 15
+		air_defence = 16
 		
 		build_cost_ic = 84
 		resources = {
