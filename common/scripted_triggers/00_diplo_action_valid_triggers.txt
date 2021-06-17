@@ -21,7 +21,7 @@ is_diplomatic_action_valid_request_foreign_manpower = { always = no }
 is_diplomatic_action_valid_set_faction_spymaster = { always = no }
 is_diplomatic_action_valid_transfert_spymaster = { always = no }
 
-is_diplomatic_action_valid_REQUEST_ACCESS_TO_LICENCE_PRODUCTION = { OR = { AND = { holnor = yes FROM = { normally_played_allies = yes }} AND = { normally_played_allies = yes FROM = { holnor = yes }}   AND = { finefr = yes FROM = { the_axis_no_finefr = yes }}  AND = { the_axis_no_finefr = yes FROM = { finefr = yes }}   AND = { the_axis_no_finefr = yes FROM = { the_geacps = yes }} AND = { normally_played_allies = yes FROM = { tag = SOV }}  AND = { tag = SOV FROM = { normally_played_allies = yes }} } }
+is_diplomatic_action_valid_REQUEST_ACCESS_TO_LICENCE_PRODUCTION = { OR = { AND = { holnor = yes FROM = { normally_played_allies = yes }} AND = { normally_played_allies = yes FROM = { holnor = yes }}   AND = { finefr = yes FROM = { the_axis_no_finefr = yes }}  AND = { the_axis_no_finefr = yes FROM = { finefr = yes }} AND = { normally_played_allies = yes FROM = { tag = SOV }}  AND = { tag = SOV FROM = { normally_played_allies = yes }} } }
 
 #is_diplomatic_action_valid_war = { always = no } #
 

@@ -11,6 +11,11 @@ leader_traits = {
 		sprite = 13
 		surrender_limit = 0.125
 	}
+		battle_of_france_trait = { 
+		random = no
+		sprite = 13
+		surrender_limit = 0.19
+	}
 	sharp_tongued_lawyer = {
 		random = no
 		sprite = 13

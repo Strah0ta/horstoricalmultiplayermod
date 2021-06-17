@@ -717,6 +717,7 @@ every_country = {
 		available = {  has_war_with = ENG	}
 		cost = 0
 		complete_effect = {
+		 #every_state = { limit = { is_core_of = BEL }FRA = { transfer_state = PREV } }
 				hidden_effect = {   ENG = { add_to_faction = BEL } }
 			declare_war_on = {
 				target = BEL
@@ -725,8 +726,9 @@ every_country = {
 					hidden_effect = {  		
 				if = { limit = { country_exists = SPR }	BEL = { add_to_war = { targeted_alliance = ENG enemy = SPR } } }
 			if = { limit = { country_exists = ROM }BEL = { add_to_war = { targeted_alliance = ENG enemy = ROM } } }
-			if = { limit = { country_exists = HUN }  BEL = { add_to_war = { targeted_alliance = ENG enemy = HUN } } }
+			if = { limit = { country_exists = HUN }  BEL = { add_to_war = { targeted_alliance = ENG enemy = HUN } } } if = { limit = { country_exists = BUL }	BEL = { add_to_war = { targeted_alliance = ENG enemy = CZE } }	}
 					if = { limit = { country_exists = BUL }	BEL = { add_to_war = { targeted_alliance = ENG enemy = BUL } }	}
+					
 			}
 
 			
@@ -3680,6 +3682,19 @@ political_actions = {
 			hidden_effect = { add_operative_slot = yes }
 		}
 		}
+			support_italy = { 
+		icon = GFX_decision_onmap_recruit_operative
+		allowed = { the_axis = yes }
+		available = { has_manpower > 50000 }
+		fire_only_once = no
+		days_remove = 30
+		visible = { NOT = { OR = { tag = GER tag = ITA }}}
+		complete_effect = {	
+		add_manpower = -50000 ITA ={ add_manpower = 50000 }
+		}
+		}
+		
+
 
 	infrastructure_building_slot = {
 

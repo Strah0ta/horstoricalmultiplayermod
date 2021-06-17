@@ -35,5 +35,6 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = conservatism
 	traits = {
+	battle_of_france_trait
 	}
 }

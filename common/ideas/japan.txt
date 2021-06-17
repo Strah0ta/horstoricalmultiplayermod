@@ -104,7 +104,6 @@ ideas = {
 				political_power_cost = 0.25
 				economy_cost_factor = 0.25
 				production_speed_industrial_complex_factor = 0.3
-				consumer_goods_factor = 0.02
 				production_speed_arms_factory_factor = 0.3
 				production_speed_dockyard_factor = 0.4
 				industrial_capacity_factory = 0.2
