@@ -341,13 +341,13 @@ ideas = {
 			removal_cost = -1
 			equipment_bonus = {
 				fighter_equipment = {
-					air_defence = -0.2
-					air_attack = -0.1
+					air_defence = -0.25
+					air_attack = -0.25
 					instant = yes
 				}
 				heavy_fighter_equipment = {
-					air_defence = -0.2
-					air_attack = -0.1
+					air_defence = -0.25
+					air_attack = -0.25
 					instant = yes
 				}					
 			}
