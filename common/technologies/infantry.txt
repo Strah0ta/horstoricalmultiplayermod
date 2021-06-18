@@ -910,7 +910,6 @@ technologies = {
 	tech_special_forces = {
 		category_special_forces = {
 			acclimatization_hot_climate_gain_factor = 0.75
-			acclimatization_cold_climate_gain_factor = 0.75
 		}
 		
 
@@ -919,7 +918,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2
+		research_cost = 1.5
 		start_year = 1938
 		folder = {
 			name = infantry_folder
@@ -947,7 +946,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2
+		research_cost = 1.5
 		start_year = 1940
 		folder = {
 			name = infantry_folder
@@ -962,10 +961,6 @@ technologies = {
 	}
 
 	survival_training = {
-
-		category_special_forces = {
-			breakthrough = 0.10
-		}
 		special_forces_no_supply_grace = 48
 		special_forces_out_of_supply_factor = -0.1
 		
@@ -974,7 +969,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2
+		research_cost = 1.5
 		start_year = 1942
 		folder = {
 			name = infantry_folder
@@ -991,15 +986,14 @@ technologies = {
 
 	elite_forces = {
 		category_special_forces = {
-			acclimatization_hot_climate_gain_factor = 0.20
-			acclimatization_cold_climate_gain_factor = 0.20
+			acclimatization_hot_climate_gain_factor = 0.25
 			max_organisation = 5
 			soft_attack = 0.05
 		}
 		
 		special_forces_no_supply_grace = 48
 
-		research_cost = 2
+		research_cost = 1.5
 		start_year = 1944
 		folder = {
 			name = infantry_folder

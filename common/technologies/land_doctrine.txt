@@ -1192,7 +1192,7 @@ org_loss_when_moving = -0.7
 		category_army = {
 			breakthrough = 0.10
 			soft_attack = 0.10
-			default_morale = 0.05
+			default_morale = 0.10
 		}
 		
 		enable_tactic = tactic_planned_attack

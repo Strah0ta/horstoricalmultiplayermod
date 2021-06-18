@@ -654,15 +654,15 @@ ideas = {
 	
 	high_command = {
 	
-		#ivan_konev = {
-		#	ledger = army
-		#
-		#	allowed = {
-		#		original_tag = SOV
-		#	}
-		#	
-		#	traits = { army_infantry_1 }
-		#}
+		ivan_konev = {
+			ledger = army
+		
+			allowed = {
+				original_tag = SOV
+			}
+			
+			traits = { army_infantry_1 }
+		}
 		
 		pavel_zhigarev = {
 			ledger = air
