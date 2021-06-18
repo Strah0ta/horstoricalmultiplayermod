@@ -134,6 +134,23 @@ country_event = {
 }
 
 }
+
+country_event = {
+	id = mtg_netherlands.1269
+	title = "The Spoils of War"
+	desc = "Now that Japan has capitulated, we can decide if we will gain access to their industry or support the soviets industrially directly."
+	
+	picture = GFX_report_event_yugoslavian_cavalry
+
+	is_triggered_only = yes
+	option = {
+		name = "Gain Access To Their Industry"
+if = { limit = { SWE = { owns_state = 282 }} every_country ={ limit = { is_in_faction_with = ENG } add_ideas = japan_no_asia } }
+}
+}
+
+
+
 country_event = {
 	id = mtg_netherlands.331
 	title = mtg_netherlands.331.t

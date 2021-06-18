@@ -24,6 +24,11 @@ country_event = { id =  italy.800 days = 3000 } #march 44
 country_event = { id =  italy.800 days = 3365 } #march 45
 #FALL MUD SEASON
 
+
+
+country_event = { id =  mtg_netherlands.1269 days = 1460 } #no asia air balance
+
+
 country_event = { id =  italy.806 days = 2010 } #July 41
 
 country_event = { id =  italy.802 days = 2088 } #sept 41

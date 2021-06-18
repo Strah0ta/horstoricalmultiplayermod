@@ -692,7 +692,7 @@ hidden_effect = {		set_technology = { naval_bomber2 = 1 }
 		completion_reward = {
 			add_tech_bonus = {
 				name = JAP_armored_divisions
-				bonus = 3.0
+				bonus = 5.0
 				ahead_reduction = 2 
 				uses = 1
 				category = cat_1941_tanks
@@ -713,7 +713,7 @@ hidden_effect = {		set_technology = { naval_bomber2 = 1 }
 		completion_reward = {
 			add_tech_bonus = {
 				name = JAP_armored_divisions
-				bonus = 3.0
+				bonus = 5.0
 				ahead_reduction = 2 
 				uses = 1
 				category = cat_1943_tanks	
