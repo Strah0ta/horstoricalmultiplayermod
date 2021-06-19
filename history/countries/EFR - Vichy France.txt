@@ -62,7 +62,7 @@ set_technology = {
 armored_car1 = 1		
 }
 
-set_convoys = 50
+set_convoys = 15
 
 set_politics = {
 	ruling_party = fascism

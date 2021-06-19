@@ -109,7 +109,7 @@ add_equipment_to_stockpile = { type = infantry_equipment_1 amount = 50000 }
 
 set_country_flag=fuel_system_enabled
 set_naval_oob = "JAP_1936_naval"
-set_convoys = 400
+set_convoys = 100
 set_politics = {
 	ruling_party = fascism
 	last_election = "1936.1.1"

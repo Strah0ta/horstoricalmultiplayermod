@@ -51,7 +51,7 @@ anti_cross_faction_trade_allies = yes
 add_ideas = ROM_king_carol_ii_hedonist
 add_ideas = armyandnavy_idea
 
-set_convoys = 50
+set_convoys = 15
 
 set_politics = {
 	ruling_party = democratic

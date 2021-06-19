@@ -30,7 +30,7 @@ sub_units = {
 		training_time = 60
 
 		#Misc Abilities
-		weight = 0.1
+		weight = 0.025
 		supply_consumption = 0.05
 		can_be_parachuted = yes
 

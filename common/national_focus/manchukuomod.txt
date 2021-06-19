@@ -949,7 +949,7 @@ focus = {
 		completion_reward = {
 			add_equipment_to_stockpile = {
 				type = convoy_1
-				amount = 100
+				amount = 25
 				producer = MAN
 			}
 	496 = { 

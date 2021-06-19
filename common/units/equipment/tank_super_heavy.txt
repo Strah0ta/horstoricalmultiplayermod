@@ -33,7 +33,7 @@ equipments = {
 		air_attack = 0
 
 		#Space taken in convoy
-		lend_lease_cost = 7 #was 15 
+		lend_lease_cost = 1.75 #was 15 
 		
 		build_cost_ic = 25.5 #was 100 note: number required for 1 batallion was doubled
 		resources = {

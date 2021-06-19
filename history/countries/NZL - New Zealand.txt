@@ -65,7 +65,7 @@ create_country_leader = {
 	traits = {	}
 }
 
-set_convoys = 70
+set_convoys = 15
 
 create_navy_leader = {
 	name = "Edmund Rupert Drummond"

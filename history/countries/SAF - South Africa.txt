@@ -51,7 +51,7 @@ add_equipment_to_stockpile = { type = infantry_equipment_1 amount = 3200 }
 add_equipment_to_stockpile = { type = support_equipment_1 amount = 50 }
 
 
-set_convoys = 50
+set_convoys = 15
 
 set_politics = {
 	ruling_party = democratic

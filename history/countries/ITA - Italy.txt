@@ -114,7 +114,7 @@ add_equipment_to_stockpile = { type = motorized_equipment_1 amount = 100 }
 set_naval_oob = "ITA_1936_naval_mtg"
 
 add_threat = 2
-set_convoys = 200
+set_convoys = 50
 set_politics = {
 	ruling_party = fascism
 	last_election = "1934.3.26"

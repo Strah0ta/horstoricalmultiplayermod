@@ -40,7 +40,7 @@ sub_units = {
 		max_organisation = 20
 		default_morale = 0.1
 		manpower = 150
-		weight = 0.1
+		weight = 0.025
 		
         supply_consumption = 0.1
 

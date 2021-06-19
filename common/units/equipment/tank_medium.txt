@@ -33,7 +33,7 @@ equipments = {
 		air_attack = 0
 
 		#Space taken in convoy
-		lend_lease_cost = 12
+		lend_lease_cost = 3
 		
 		build_cost_ic = 12 
 		resources = {

@@ -42,7 +42,7 @@ create_intelligence_agency = yes
 		SAF_the_commonwealth	
 	}
 	add_to_tech_sharing_group = commonwealth_research
-set_convoys = 50
+set_convoys = 15
 add_equipment_to_stockpile = { type = infantry_equipment_1 amount = 2700 }
 set_cosmetic_tag = RAJ_UK # British Raj
 set_politics = {

@@ -5468,6 +5468,7 @@ democratic_russia = {
 	transfer_state = 291 set_capital = 291 add_state_core = 291
 	load_focus_tree = iraq_focus_tree  
 	load_oob = "ITA_IRQ_Spawn"  
+	add_equipment_to_stockpile = { type = convoy_1  amount = 50  producer = ALB }
 	add_research_slot = 4
 		291 = { add_extra_state_shared_building_slots = 7 add_building_construction = { type = industrial_complex level = 4 instant_build = yes } add_building_construction = { type = arms_factory level = 3 instant_build = yes } }
 		add_ideas = tot_economic_mobilisation add_ideas = service_by_requirement add_ideas = free_trade 
@@ -5701,7 +5702,7 @@ add_to_war = {	targeted_alliance = GER	enemy = ENG	}
 add_research_slot = 1
 add_equipment_to_stockpile = {
     type = convoy_1
-    amount = 500
+    amount = 125
     producer = EFR
 }
 add_dynamic_modifier = {  modifier = vichy_legitimacy }

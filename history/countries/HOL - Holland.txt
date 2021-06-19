@@ -63,7 +63,7 @@ set_technology = {
 		coastal_defense_ships = 1
 		mtg_transport = 1
 }
-set_convoys = 150
+set_convoys = 25
 
 create_country_leader = {
 	name = "Hendrikus Colijn"

@@ -89,7 +89,7 @@ create_country_leader = {
 }
 
 
-set_convoys = 100
+set_convoys = 25
 set_stability = 0.75
 
 create_navy_leader = {

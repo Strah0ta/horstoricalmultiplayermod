@@ -95,7 +95,7 @@ create_country_leader = {
 	}
 }
 
-set_convoys = 100
+set_convoys = 25
 
 	# Light Cruisers #
 	create_equipment_variant = {

@@ -111,7 +111,7 @@ add_equipment_to_stockpile = { type = infantry_equipment_1 amount = 100000 }
 add_equipment_to_stockpile = { type = anti_tank_equipment_1 amount = 4000 } #in case of LT Fin/Bul
 
  
-set_convoys = 50
+set_convoys = 15
 
 set_politics = {
 	ruling_party = communism

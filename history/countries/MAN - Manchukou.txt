@@ -43,7 +43,7 @@ add_ideas = {
 } 
 add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 8000 }
 
-set_convoys = 50
+set_convoys = 15
 
 set_politics = {
 	ruling_party = fascism

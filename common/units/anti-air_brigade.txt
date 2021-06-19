@@ -31,7 +31,7 @@ sub_units = {
 		max_strength = 0.6
 		manpower = 250
 		training_time = 60
-		weight = 0.5
+		weight = 0.125
 		
 		supply_consumption = 0.04
 
@@ -91,7 +91,7 @@ sub_units = {
 		max_strength = 2.6
 		manpower = 250
 		training_time = 60
-		weight = 0.5
+		weight = 0.125
 				initiative = 0.01
 
 		supply_consumption = 0.08
@@ -155,7 +155,7 @@ sub_units = {
 		max_strength = 2.6
 		manpower = 250
 		training_time = 60
-		weight = 0.5
+		weight = 0.125
 		
 		supply_consumption = 0.1
 		transport = mechanized_equipment

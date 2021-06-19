@@ -16,7 +16,7 @@ add_equipment_to_stockpile = {
          producer = GER
 }
 
-set_convoys = 10
+set_convoys = 0
 
 set_politics = {
 	ruling_party = neutrality

@@ -60,7 +60,7 @@ set_technology = {
 add_equipment_to_stockpile = { type = infantry_equipment_1 amount = 5000 } 
 add_equipment_to_stockpile = { type = support_equipment_1 amount = 150 }
 add_equipment_to_stockpile = { type = artillery_equipment_1 amount = 100 } 
-set_convoys = 150
+set_convoys = 40
 set_stability = 0.5
 
 	create_country_leader = {

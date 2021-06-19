@@ -477,7 +477,7 @@ focus_tree = {
 
 				add_equipment_to_stockpile = {
 							type = convoy_1
-							amount = 300
+							amount = 75
 							producer = NOR
 						}
 						

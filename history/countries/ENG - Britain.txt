@@ -121,7 +121,7 @@ add_equipment_to_stockpile = { type = CAS_equipment_1 amount = 670 }
 add_equipment_to_stockpile = { type = tac_bomber_equipment_0 amount = 180 }
 add_equipment_to_stockpile = { type = nav_bomber_equipment_1 amount = 138 }
 
-set_convoys = 800
+set_convoys = 200
 	set_autonomy = {
 		target = RAJ
 		autonomous_state = autonomy_colony

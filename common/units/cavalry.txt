@@ -33,7 +33,7 @@ sub_units = {
 		#Misc Abilities
 		maximum_speed = 0.6
 		training_time = 120		
-		weight = 0.5
+		weight = 0.125
 		
 		supply_consumption = 0.12
 

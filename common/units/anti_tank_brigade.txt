@@ -31,7 +31,7 @@ sub_units = {
 		default_morale = 0
 		max_strength = 0
 		training_time = 60
-		weight = 0.5
+		weight = 0.125
 
 		supply_consumption = 0.03
 
@@ -104,7 +104,7 @@ sub_units = {
 		default_morale = 0
 		max_strength = 0
 		training_time = 120
-		weight = 0.5
+		weight = 0.125
 
 		supply_consumption = 0.06
 
@@ -175,7 +175,7 @@ sub_units = {
 		default_morale = 0
 		max_strength = 0
 		training_time = 120
-		weight = 0.5
+		weight = 0.125
 
 		supply_consumption = 0.08
 

@@ -28,7 +28,7 @@ equipments = {
 		naval_strike_targetting = 0.6
 		
 		#Space taken in convoy
-		lend_lease_cost = 24
+		lend_lease_cost = 6
 		
 		build_cost_ic = 420
 		resources = {

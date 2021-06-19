@@ -31,7 +31,7 @@ sub_units = {
 		training_time = 60
 
 		#Misc Abilities
-		weight = 0.1
+		weight = 0.025
 		supply_consumption = 0.01
 		recon = 1
 		can_be_parachuted = yes
@@ -117,7 +117,7 @@ sub_units = {
 		training_time 		= 60
 
 		#Misc Abilities
-		weight 				= 0.1
+		weight 				= 0.025
 		supply_consumption 	= 0.02
 		recon 				= 1.5
 		can_be_parachuted 	= yes
@@ -204,7 +204,7 @@ sub_units = {
 		training_time = 60
 
 		#Misc Abilities
-		weight = 0.1
+		weight = 0.025
 		supply_consumption = 0.02
 		recon = 2
 		can_be_parachuted = yes
@@ -287,7 +287,7 @@ sub_units = {
 		training_time = 60
 
 		#Misc Abilities
-		weight = 0.1
+		weight = 0.025
 		supply_consumption = 0.02
 		recon = 1
 		can_be_parachuted = yes
