@@ -1748,6 +1748,21 @@ equipment_modules = {
 		}
 		dismantle_cost_ic = 700
 	}
+	
+		ship_battleship_deck_space = { #TEST THIS
+		category = ship_battleship_deck_space
+		gfx = ship_deck_space
+		add_equipment_type = capital_ship
+		add_stats = {
+			carrier_size = 5
+			build_cost_ic = 2000
+		}
+		manpower = 200 #outside the add_stats section for code reasons
+		multiply_stats = {
+			naval_speed = -0.01
+		}
+		dismantle_cost_ic = 700
+	}
 
 ### #  # ### #       ###  ##  #  # # #  ## 
 #   #  # #   #        #  #  # ## # # # #   
