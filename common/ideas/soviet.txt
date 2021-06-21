@@ -625,7 +625,12 @@ ideas = {
 			traits = { navy_chief_commerce_raiding_1 }
 			
 		}
-		
+			vladimir_kasatonov = {
+			ledger = navy
+			allowed = {	original_tag = SOV	}		
+			traits = { navy_submarine_2 }
+		}
+			
 		ivan_yumashev = {
 				
 			allowed = {
@@ -661,7 +666,7 @@ ideas = {
 				original_tag = SOV
 			}
 			
-			traits = { army_infantry_1 }
+			traits = { army_infantry_2 }
 		}
 		
 		pavel_zhigarev = {
@@ -687,16 +692,11 @@ ideas = {
 			traits = { army_armored_3 }
 		}		
 		
-		vladimir_kasatonov = {
-			ledger = navy
-			allowed = {	original_tag = SOV	}		
-			traits = { navy_submarine_2 }
-		}
-			
+	
 		arseniy_golovko = {
 			ledger = army			
 			allowed = { original_tag = SOV	}
-			traits = { army_commando_3 }
+			traits = { army_commando_2 }
 		}	
 	}
 		
