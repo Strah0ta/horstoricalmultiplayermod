@@ -1748,7 +1748,7 @@ equipment_modules = {
 		}
 		dismantle_cost_ic = 700
 	}
-	
+	 
 		ship_battleship_deck_space = { #TEST THIS
 		category = ship_battleship_deck_space
 		gfx = ship_deck_space
