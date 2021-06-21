@@ -1,12 +1,6 @@
 ideas = {
 
 	hidden_ideas = {
-		winter_server = {
-	    picture = generic_infantry_bonus   allowed = {  always = yes  }  removal_cost = -1 modifier= {   army_defence_factor = -0.1 army_infantry_attack_factor = -0.1 breakthrough_factor = 0.1        }
-	}
-	no_asia_axis  = {
-	    picture = generic_infantry_bonus   allowed = {  always = yes  }  removal_cost = -1 modifier= {   army_org_factor = 0.10 }
-	}
 	qol_start_eff = {
 	    picture = generic_infantry_bonus   allowed = {  always = yes  }  removal_cost = -1 modifier= {   production_factory_start_efficiency_factor = 0.4        }
 	}
@@ -66,6 +60,12 @@ ideas = {
 
 	# Special ones that can be applied on other countries through focus system.
 	country = {
+			winter_server = {
+	    picture = generic_infantry_bonus   allowed = {  always = yes  }  removal_cost = -1 modifier= {   army_defence_factor = -0.1 army_infantry_attack_factor = -0.1 breakthrough_factor = 0.1        }
+	}
+	no_asia_axis  = {
+	    picture = generic_infantry_bonus   allowed = {  always = yes  }  removal_cost = -1 modifier= {   army_org_factor = 0.10 }
+	}
 		anti_strat_meme = {   picture = generic_infantry_bonus allowed = {  always = yes  } removal_cost = -1  equipment_bonus = {   strat_bomber_equipment = { air_range = -1 instant = yes }    tac_bomber_equipment = { air_range = -1  instant = yes }         }	}
 			en_svensk_tiger = {
 			allowed = {	always = no	}
