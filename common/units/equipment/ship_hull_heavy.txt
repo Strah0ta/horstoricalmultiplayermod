@@ -60,7 +60,7 @@ equipments = {
 				allowed_module_categories = {
 					ship_anti_air
 					ship_heavy_battery
-					ship_battleship_deck_space
+					
 				}
 			}
 		}
@@ -162,7 +162,7 @@ equipments = {
 				allowed_module_categories = {
 					ship_anti_air
 					ship_airplane_launcher
-					ship_battleship_deck_space
+					
 				}
 			}
 		}
@@ -252,7 +252,7 @@ equipments = {
 				allowed_module_categories = {
 					ship_anti_air
 					ship_heavy_battery
-					ship_battleship_deck_space
+					
 				}
 			}
 		}
@@ -319,7 +319,7 @@ equipments = {
 					ship_heavy_battery
 					ship_secondaries
 					ship_airplane_launcher
-					ship_battleship_deck_space
+					
 				}
 			}
 		}
@@ -384,7 +384,7 @@ equipments = {
 					ship_anti_air
 					ship_heavy_battery
 					ship_airplane_launcher
-					ship_battleship_deck_space
+					
 				}
 			}
 		}
@@ -451,7 +451,7 @@ equipments = {
 					ship_heavy_battery
 					ship_secondaries
 					ship_airplane_launcher
-					ship_battleship_deck_space
+					
 				}
 			}
 		}
