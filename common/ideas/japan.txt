@@ -672,7 +672,7 @@ ideas = {
 			cost = 50 
 			traits = { light_aircraft_manufacturer_2 }
 
-			modifier = {
+			equipment_bonus = {
 	CAS_equipment = {	air_ground_attack = 0.1    instant = yes	}	
 			}
 		}
@@ -691,7 +691,7 @@ ideas = {
 				air_equipment = 0.15
 			}
 						cost = 50 
-			modifier = {
+			equipment_bonus = {
 	CAS_equipment = {	air_ground_attack = 0.1    instant = yes	}	
 			}
 			traits = { fuel_efficient_aircraft_manufacturer }
@@ -707,7 +707,7 @@ ideas = {
 				air_equipment = 0.15
 			}
 						cost = 50 
-			modifier = {
+			equipment_bonus = {
 	CAS_equipment = {	air_ground_attack = 0.1    instant = yes	}	
 			}
 			traits = { naval_aircraft_manufacturer }
