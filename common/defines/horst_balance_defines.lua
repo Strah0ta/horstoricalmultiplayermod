@@ -145,7 +145,7 @@ NDefines.NNavy.SHIP_TO_FLEET_ANTI_AIR_RATIO = 0.1 --vanilla was 0.2 makes it mor
 NDefines.NNavy.ANTI_AIR_POW_ON_INCOMING_AIR_DAMAGE = 0.1 -- vanilla 0.2 the lower the less effective to stack aa. makes one aa module more worth it compared to no module
 NDefines.NNavy.ANTI_AIR_MULT_ON_INCOMING_AIR_DAMAGE = 0.4 -- multiplier for damage reduction in my opinion lower damage combined with more consistent lower plane losses is better than the vanilla gamble reduction=(ship_anti_air + fleet_anti_air * SHIP_TO_FLEET_ANTI_AIR_RATIO )^ANTI_AIR_POW_ON_INCOMING_AIR_DAMAGE ) * ANTI_AIR_MULT_ON_INCOMING_AIR_DAMAGE)
 NDefines.NNavy.MAX_ANTI_AIR_REDUCTION_EFFECT_ON_INCOMING_AIR_DAMAGE = 0.75 --vanilla 0.5 cap is very hard to reach but otherwhise traits and advisors could become useless
-NDefines.NNavy.NAVAL_COMBAT_AIR_CARRIER_TARGET_SCORE = 25 -- VANILLA 200 LW 50 otherwise carriers always die
+NDefines.NNavy.NAVAL_COMBAT_AIR_CARRIER_TARGET_SCORE = 15 -- VANILLA 200 LW 50 otherwise carriers always die
 NDefines.NNavy.ANTI_AIR_TARGETING = 0.9 --vanilla value just as reference
 NDefines.NNavy.ANTI_AIR_TARGETTING_TO_CHANCE = 0.6 --Vanilla 0.2 (ANTI_AIR_TARGETING+.5*(ANTI_AIR_TARGETING-AIR_AGILITY_TO_NAVAL_STRIKE_AGILITY*agility))*ANTI_AIR_TARGETTING_TO_CHANCE)=hitchance
 NDefines.NNavy.AIR_AGILITY_TO_NAVAL_STRIKE_AGILITY = 0.03 --Vanilla 0.01 so with the other defines its 48% for tac2 and 0.33% for nav2 

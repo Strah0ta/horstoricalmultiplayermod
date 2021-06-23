@@ -585,7 +585,7 @@ equipments = {
 
 		priority = 60
 		can_license = no
-		air_range = 1275
+		air_range = 1000
 		maximum_speed = 202.4 #vanilla 230, changed so navs are easier to intercept
 		air_agility = 37.5
 		air_attack = 6
@@ -601,7 +601,7 @@ equipments = {
 		carrier_capable = yes
 		priority = 60
 
-		air_range = 1395
+		air_range = 1100
 		maximum_speed = 264 #vanilla 300, changed so navs are easier to intercept
 		air_agility = 43.7
 		air_attack = 10
@@ -625,7 +625,7 @@ equipments = {
 		carrier_capable = yes
 		priority = 60
 
-		air_range = 1650
+		air_range = 1200
 		maximum_speed = 352  #vanilla 400, changed so navs are easier to intercept
 		air_agility = 50
 		air_attack = 14

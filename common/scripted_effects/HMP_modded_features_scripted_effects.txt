@@ -15,6 +15,46 @@ GER_all_plane_LL = {
 	}
 }
 
+
+fuel_system_refresh_list = {
+			if = {
+							limit = {
+								any_country = {
+									OR={AND={NOT={tag=ROOT}
+									is_in_faction_with = ROOT 
+									NOT = { is_in_array = { ROOT.faction_members_array = THIS.id } }
+								}
+								any_of_scopes={array=ROOT.faction_members_array exists=no}
+								}
+								}
+								
+							}
+							clear_array=ROOT.faction_members_array
+							every_country = {
+								limit = {
+									NOT={tag=ROOT}
+									OR={is_in_faction_with = ROOT
+									AND={ROOT={tag=ENG}tag=SOV}} 
+									NOT = { is_in_array = { ROOT.faction_members_array = THIS.id } }
+									
+								}
+								add_to_array = { ROOT.faction_members_array = THIS.id }
+							}
+							#if = { limit = { TAG = ENG } add_to_array = { ROOT.faction_members_array = SOV.id } }
+						}
+			if = {
+							limit = {
+								any_of_scopes={array=ROOT.faction_members_array NOT={is_in_array={GLOBAL.fuel_countries=THIS.id}}
+								}
+							}
+							for_each_scope_loop={
+								array=ROOT.faction_members_array
+								if={limit={NOT={is_in_array={GLOBAL.fuel_countries=THIS.id}}}
+								add_to_array={GLOBAL.fuel_countries=THIS.id}}
+								}
+				}
+}
+
 axis_iran_positioning = { set_province_controller = 12818 set_province_controller = 12704   set_province_controller = 4983 set_province_controller = 8074 set_province_controller = 1963 set_province_controller = 8031 set_province_controller = 4966    set_province_controller = 4553 set_province_controller = 2071 set_province_controller = 12861 set_province_controller = 1822 set_province_controller = 10837 set_province_controller = 7969 set_province_controller = 10922 set_province_controller = 1982 set_province_controller = 5067  set_province_controller = 2026 set_province_controller = 4928 set_province_controller = 8117   set_province_controller = 12832 set_province_controller = 10797  }
 
 FRA_legitimacy_week_counter = {
@@ -4241,6 +4281,33 @@ create_navy_leader = {
 }
 
 }
+
+POL = { 
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	create_operative_leader = {
+		name = "Roman Czerniawski"
+		GFX = GFX_portrait_roman_czerniawski
+		traits = { }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { POL }
+	}
+
+	create_operative_leader = {
+		name = "Krystyna Skarbek"
+		GFX = GFX_portrait_krystyna_skarbek
+		traits = { operative_commando  }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { POL }
+	}
+}
+}
+
 CAN = { 
 
 create_navy_leader = {
