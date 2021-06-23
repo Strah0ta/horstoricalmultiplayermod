@@ -44,7 +44,7 @@ technologies = {
 			gw_tank_equipment
 		}
 		enable_subunits = {
-			light_armor
+			light_armor	light_sp_anti_air_brigade light_sp_artillery_brigade light_tank_destroyer_brigade medium_tank_destroyer_brigade medium_sp_anti_air_brigade medium_sp_artillery_brigade medium_armor heavy_armor   heavy_tank_destroyer_brigade   	 heavy_sp_artillery_brigade	heavy_sp_anti_air_brigade	amphibious_armor
 		}
 		
 		allow = { disabled_ai_production = yes }
@@ -81,12 +81,6 @@ technologies = {
 		enable_equipments = {
 			light_tank_equipment_1 
 		}
-		enable_subunits = {
-			light_armor
-		}
-		enable_subunits = {
-			medium_armor
-		}
 		
 		path = {
 			leads_to_tech = improved_light_tank
@@ -118,10 +112,7 @@ technologies = {
 		enable_equipments = {
 			light_tank_destroyer_equipment_1
 		}
-		enable_subunits = {
-			light_tank_destroyer_brigade
-		}
-	
+
 		research_cost = 0.02
 		start_year = 1934
 
@@ -135,10 +126,7 @@ technologies = {
 		enable_equipments = {
 			light_tank_artillery_equipment_1
 		}
-		enable_subunits = {
-			light_sp_artillery_brigade
-		}
-	
+
 		research_cost = 0.02
 		start_year = 1934
 		
@@ -151,9 +139,6 @@ technologies = {
 
 		enable_equipments = {
 			light_tank_aa_equipment_1
-		}
-		enable_subunits = {
-			light_sp_anti_air_brigade
 		}
 	
 		research_cost = 0.02
@@ -242,10 +227,6 @@ technologies = {
 
 		enable_equipments = {
 			amphibious_tank_equipment_1
-		}
-
-		enable_subunits = {
-			amphibious_armor
 		}
 
 		allow_branch = {
@@ -468,10 +449,6 @@ technologies = {
 			medium_tank_destroyer_equipment_1
 		}
 
-		enable_subunits = {
-			medium_tank_destroyer_brigade
-		}
-	
 		research_cost = 0.02
 		start_year = 1937
 
@@ -485,11 +462,6 @@ technologies = {
 		enable_equipments = {
 			medium_tank_artillery_equipment_1
 		}
-
-		enable_subunits = {
-			medium_sp_artillery_brigade
-		}
-	
 		research_cost = 0.02
 		start_year = 1937
 		
@@ -504,10 +476,6 @@ technologies = {
 			medium_tank_aa_equipment_1
 		}
 
-		enable_subunits = {
-			medium_sp_anti_air_brigade
-		}
-	
 		research_cost = 0.02
 		start_year = 1937
 		
@@ -693,17 +661,12 @@ technologies = {
 	}
 	
 	main_battle_tank = { #E-50
-	    
-		allow = {
-	
+				enable_subunits = {
+			modern_sp_artillery_brigade modern_armor modern_tank_destroyer_brigade modern_tank_sp_anti_air_brigade
 		}
-
 		enable_equipments = {
 			modern_tank_equipment_1
 		}	
-		enable_subunits = {
-			modern_armor
-		}
 		
 		research_cost = 2.5
 		start_year = 1945
@@ -731,10 +694,6 @@ technologies = {
 			modern_tank_destroyer_equipment_1
 		}
 
-		enable_subunits = {
-			modern_tank_destroyer_brigade
-		}
-	
 		research_cost = 0.02
 		start_year = 1945
 		
@@ -749,10 +708,6 @@ technologies = {
 			modern_tank_artillery_equipment_1
 		}
 
-		enable_subunits = {
-			modern_sp_artillery_brigade
-		}
-	
 		research_cost = 0.02
 		start_year = 1945
 		
@@ -765,10 +720,6 @@ technologies = {
 
 		enable_equipments = {
 			modern_tank_aa_equipment_1
-		}
-
-		enable_subunits = {
-			light_sp_anti_air_brigade
 		}
 	
 		research_cost = 0.02
@@ -783,10 +734,6 @@ technologies = {
 
 		enable_equipments = {
 			heavy_tank_equipment_1 
-		}
-
-		enable_subunits = {
-			heavy_armor
 		}
 
 		path = {
@@ -820,10 +767,6 @@ technologies = {
 			heavy_tank_destroyer_equipment_1
 		}
 
-		enable_subunits = {
-			heavy_tank_destroyer_brigade
-		}
-	
 		research_cost = 0.02
 		start_year = 1934
 		
@@ -838,10 +781,6 @@ technologies = {
 			heavy_tank_artillery_equipment_1
 		}
 
-		enable_subunits = {
-			heavy_sp_artillery_brigade
-		}
-	
 		research_cost = 0.02
 		start_year = 1934
 
@@ -856,10 +795,7 @@ technologies = {
 		enable_equipments = {
 			heavy_tank_aa_equipment_1
 		}
-		enable_subunits = {
-			heavy_sp_anti_air_brigade
-		}
-	
+
 		research_cost = 0.02
 		start_year = 1934
 		
@@ -1050,7 +986,9 @@ technologies = {
 		enable_equipments = {
 			super_heavy_tank_equipment_1
 		}
-		
+		enable_subunits = {
+			super_heavy_armor super_heavy_sp_artillery_brigade super_heavy_tank_destroyer_brigade	super_heavy_sp_anti_air_brigade 
+		}
 		on_research_complete = {          
 			add_tech_bonus = {
 				name = "1943 Tank Variety Bonus"
@@ -1089,10 +1027,6 @@ technologies = {
 		enable_equipments = {
 			super_heavy_tank_destroyer_equipment_1
 		}
-
-		enable_subunits = {
-			super_heavy_tank_destroyer_brigade
-		}
 	
 		research_cost = 0.02
 		start_year = 1943
@@ -1107,11 +1041,6 @@ technologies = {
 		enable_equipments = {
 			super_heavy_tank_artillery_equipment_1
 		}
-
-		enable_subunits = {
-			super_heavy_sp_artillery_brigade
-		}
-	
 		research_cost = 0.02
 		start_year = 1943
 		
@@ -1125,10 +1054,7 @@ technologies = {
 		enable_equipments = {
 			super_heavy_tank_aa_equipment_1
 		}
-		enable_subunits = {
-			super_heavy_sp_anti_air_brigade
-		}
-	
+
 		research_cost = 0.02
 		start_year = 1943
 

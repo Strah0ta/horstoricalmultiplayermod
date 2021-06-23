@@ -625,95 +625,6 @@ ideas = {
 			}
 		}
 
-		HOL_shared_intelligence_eng_ger = {
-
-			name = HOL_shared_intelligence_eng
-
-			picture = SOV_scientist_defect
-			
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-			
-			removal_cost = -1
-						
-			targeted_modifier = {
-				tag = GER
-				attack_bonus_against = 0.05
-				defense_bonus_against = 0.1
-			}
-		}
-
-		HOL_shared_intelligence_fra_ger = {
-
-			name = HOL_shared_intelligence_fra
-
-			picture = SOV_scientist_defect
-			
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-			
-			removal_cost = -1
-						
-			targeted_modifier = {
-				tag = GER
-				attack_bonus_against = 0.05
-				defense_bonus_against = 0.1
-			}
-		}
-
-		HOL_shared_intelligence_hol_ger = {
-
-			name = HOL_shared_intelligence_hol
-
-			picture = SOV_scientist_defect
-			
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-			
-			removal_cost = -1
-						
-			targeted_modifier = {
-				tag = GER
-				attack_bonus_against = 0.02
-				defense_bonus_against = 0.05
-			}
-		}
-
-		HOL_staff_plan_eng = {
-
-			picture = fra_fortification_focus
-			
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-			
-			removal_cost = -1
-						
-			modifier = {
-				army_core_defence_factor = 0.1
-				max_dig_in = 15
-			}
-		}
-
 		HOL_staff_plan_fra = {
 
 			picture = fra_fortification_focus
@@ -921,6 +832,38 @@ ideas = {
 
 
 	}
+	
+	
+	aircraft_manufacturer = { 
+			
+		designer = yes
+		
+		fokker = {
+			
+			picture = fokker
+
+			allowed = {
+				original_tag = HOL
+				has_dlc = "Man the Guns"
+			}
+
+			cost = 50
+			
+			research_bonus = {
+				air_equipment = 0.15
+			}
+			
+			traits = { naval_aircraft_manufacturer }
+			
+			equipment_bonus = {
+			}
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		}
 
 	political_advisor = {
 
