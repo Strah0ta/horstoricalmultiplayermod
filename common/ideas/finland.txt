@@ -1,51 +1,34 @@
 ideas = {
 
 	country = {
-		fin_sisu = {
-			
+		FIN_sisu = {
+
 			allowed = {
 				always = no
 			}
-			
-			picture = sisu
 
 			allowed_civil_war = {
 				NOT = {
 					has_government = communism
 				}
 			}
-
-			removal_cost = -1
-			
-			modifier = {
-				army_morale_factor = 0.25
-				attrition = -0.1
-				war_support_factor = 0.2
-				stability_factor = 0.2		
-				army_core_attack_factor = 0.4
-				army_core_defence_factor = 0.4
-				surrender_limit = 0.19
-				conscription = 0.2
-				mobilization_speed = 1.0
-				min_export = -1
- 			}
-		}
-		
-				fin_sisu_ai = {
-			
-			allowed = {
-				always = no
-			}
-			available = { is_ai = yes }
 			picture = sisu
 			removal_cost = -1
-			
+
 			modifier = {
-				army_attack_factor = 0.3 army_defence_factor = 0.3
- 			}
+				army_morale_factor = 0.10
+				army_core_attack_factor = 0.6
+				army_core_defence_factor = 0.6
+				surrender_limit = 0.8		
+				army_attack_factor = -0.4
+				army_defence_factor = -0.4
+			}
+
 		}
-		fin_continuation_war = {
 		
+		FIN_sisu_2 = {
+			name = FIN_sisu
+			picture = sisu
 			allowed = {
 				always = no
 			}
@@ -57,39 +40,441 @@ ideas = {
 			}
 
 			removal_cost = -1
-			
-			picture = FRA_army_of_aggression_focus
-			
+
 			modifier = {
-			weekly_manpower = 2500
-			consumer_goods_factor = -0.2
+				army_morale_factor = 0.10
+				army_core_attack_factor = 0.6
+				army_core_defence_factor = 0.6	
+				army_attack_factor = -0.4
+				army_defence_factor = -0.4
+			}
+
 		}
+		
+		FIN_sisu_3 = {
+			name = FIN_sisu
+			picture = sisu
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				NOT = {
+					has_government = communism
+				}
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				army_morale_factor = 0.10
+				army_core_attack_factor = 0.2
+				army_core_defence_factor = 0.2
+			}
+
 		}
 		
 		
-	}
+		FIN_no_grain = {
 
-	political_advisor = {
+			allowed = {
+				always = no
+			}
 
-		FIN_ake_henrik_gartz = {
+			allowed_civil_war = {
+				NOT = {
+					has_government = communism
+				}
+			}
+			picture = FIN_no_grain
+			removal_cost = -1
 
-			picture = generic_political_advisor_europe_2
+			modifier = {
+				consumer_goods_factor = 0.15		
+				min_export = 0.25
+			}
+
+		}
+			
+		FIN_no_grain_2 = {
+
+			allowed = {
+				always = no
+			}
+			picture = FIN_no_grain
+			allowed_civil_war = {
+				NOT = {
+					has_government = communism
+				}
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				consumer_goods_factor = 0.1		
+				min_export = 0.1
+			}
+
+		}
+		
+		FIN_white_guard = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				NOT = {
+					has_government = communism
+				}
+			}
+			picture = FIN_white_guard
+			removal_cost = -1
+
+			modifier = {
+				conscription = 0.01
+				army_org_factor = 0.05
+				acclimatization_cold_climate_gain_factor = 2.5
+			}
+
+		}
+		
+		FIN_lotta_svard = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				NOT = {
+					has_government = communism
+				}
+			}
+			picture = FIN_lotta_svard
+			removal_cost = -1
+
+			modifier = {
+				weekly_manpower = 2000
+				mobilization_speed = 1
+			}
+
+		}
+		
+		FIN_maatalouden_tuontitullit_idea = {
+
+			allowed = {
+				always = no
+			}
+			picture = FIN_maatalouden
+			allowed_civil_war = {
+				NOT = {
+					has_government = communism
+				}
+			}
+			removal_cost = -1
+
+			modifier = {
+				min_export = -0.25			
+			}
+
+		}
+		
+		FIN_nokia_model = {
+
+			allowed = {
+				always = no
+			}
+			picture = FIN_nokia_model
+			allowed_civil_war = {
+				NOT = {
+					has_government = communism
+				}
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				industrial_capacity_factory = 0.05
+			}
+
+		}
+		
+		FIN_revenues_from_export = {
+
+			allowed = {
+				always = no
+			}
+			picture = FIN_revenues_from_export
+			allowed_civil_war = {
+				NOT = {
+					has_government = communism
+				}
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				consumer_goods_factor = -0.05
 				
+			}
+
+		}
+		
+		FIN_torppa_system = {
+
+			allowed = {
+				always = no
+			}
+			picture = FIN_torppa_system
+			allowed_civil_war = {
+				NOT = {
+					has_government = communism
+				}
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				global_building_slots_factor  = 0.15			
+			}
+
+		}
+		
+		FIN_torppa_system_2 = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				NOT = {
+					has_government = communism
+				}
+			}
+			picture = FIN_torppa_system
+			removal_cost = -1
+
+			modifier = {
+				global_building_slots_factor  = 0.25	
+				supply_consumption_factor = -0.05
+			}
+
+		}
+		
+		FIN_valpo = {
+			picture = FIN_valpo
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				NOT = {
+					has_government = communism
+				}
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				intelligence_agency_defense = 2
+			}
+
+		}
+		
+		FIN_upsetted_swedish_minorities = {
+
+			allowed = {
+				always = no
+			}
+			picture = FIN_fin_swe_anger
+			allowed_civil_war = {
+				NOT = {
+					has_government = communism
+				}
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.15
+			}
+
+		}
+		
+		FIN_upsetted_swedish_minorities_2 = {
+
+			allowed = {
+				always = no
+			}
+			picture = FIN_fin_swe_anger
+			allowed_civil_war = {
+				NOT = {
+					has_government = communism
+				}
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.05
+			}
+
+		}
+		
+		FIN_expanded_conscription = {
+
+			allowed = {
+				always = no
+			}
+			picture = FIN_expanded_conscription
+			allowed_civil_war = {
+				NOT = {
+					has_government = communism
+				}
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				conscription = 0.02
+			}
+
+		}
+		
+		FIN_lahti_l_35_production = {
+			removal_cost = -1
+				
+			allowed = {
+				always = no # Added via focus
+			}
+
+			allowed_civil_war = {
+				NOT = {
+					has_government = democratic
+				}
+			}
+
+			picture = rifle_production
+				
+			equipment_bonus = {
+				infantry_equipment = {
+					instant = yes
+					build_cost_ic = -0.1
+				}
+			}
+		}
+		
+		FIN_rationing = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				NOT = {
+					has_government = communism
+				}
+			}
+
+			removal_cost = -1
+			picture = FIN_rationing
+			modifier = {
+				consumer_goods_factor = -0.05
+			}
+
+		}
+		
+		FIN_trade_agreement  = {
+			
 			allowed = {
 				original_tag = FIN
 			}
 			
+			allowed_civil_war = {
+				always = yes
+			}
+			picture = FIN_trade_agreement
+			removal_cost = -1
+			targeted_modifier = {
+				tag = GER
+				trade_cost_for_target_factor = -0.5
+			}
+
+		}
+		FIN_trade_agreement_GER = {
+			
+			allowed = {
+				original_tag = FIN
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			picture = FIN_trade_agreement
+			removal_cost = -1
+			targeted_modifier = {
+				tag = FIN
+				trade_cost_for_target_factor = -0.5
+			}
+
+		}
+		
+		FIN_suomen_ilmavoimat = {
+			
+			allowed = {
+				original_tag = FIN
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			picture = FIN_suomen_ilmavoimat
+			removal_cost = -1
+			modifier = {
+				air_ace_generation_chance_factor = 0.2
+				experience_gain_air = 0.05
+				experience_gain_air_factor = 0.05
+				air_cas_present_factor= 0.05
+			}
+
+		}
+
+
+	}
+
+	political_advisor = {
+
+
+		FIN_ralf_torngren = {
+
+			picture = generic_political_advisor_europe_1
+
+			allowed = {
+				original_tag = FIN
+			}
+
+			traits = { ideological_crusader }
+		}
+
+		FIN_ake_henrik_gartz = {
+
+			picture = generic_political_advisor_europe_2
+
+			allowed = {
+				original_tag = FIN
+			}
+
 			traits = { captain_of_industry }
 		}
 
 		FIN_antti_hackzell = {
 
 			picture = generic_political_advisor_europe_3
-			
+
 			allowed = {
 				original_tag = FIN
 			}
-			
+
 			traits = { silent_workhorse }
 		}
 	}
@@ -97,96 +482,251 @@ ideas = {
 
 		FIN_akseli_anttila = {
 			ledger = army
-			
-			picture = generic_army_europe_2		
-					
+			picture = generic_army_europe_2
+
 			allowed = {
 				original_tag = FIN
 			}
 
-			
+
 			research_bonus = {
-				land_doctrine = 0.35
+				land_doctrine = 0.1
 			}
-			
+
 			traits = { military_theorist }
 		}
+
 	}
 	# MILITARY
 	army_chief = {
-		FIN_carl_mannerheim = {		
-			picture = carl_mannerheim		
-			allowed = {	original_tag = FIN	}		
+
+
+		FIN_lauri_malmberg = {
+
+			picture = generic_army_europe_2
+
+			allowed = {
+				original_tag = FIN
+			}
+
+
+
+			traits = { army_chief_drill_2 }
+
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		FIN_hugo_osterman = {
+
+			picture = generic_army_europe_2
+
+			allowed = {
+				original_tag = FIN
+			}
+
+
+
+			traits = { army_chief_offensive_2 }
+
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		FIN_carl_mannerheim = {
+
+			picture = generic_army_europe_4
+
+			allowed = {
+				original_tag = FIN
+			}
+
+
+
 			traits = { army_chief_defensive_3 }
+
+			ai_will_do = {
+				factor = 1
+			}
 		}
 	}
 
 	air_chief = {
-		FIN_olavi_sarko = {
-			
-			picture = generic_air_europe_1
-			
+
+
+		FIN_jarl_lundqvist = {
+
+			picture = generic_air_europe_3
+
 			allowed = {
 				original_tag = FIN
 			}
-			
 
-			
+
+
+			traits = { air_chief_all_weather_2 }
+
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		FIN_olavi_sarko = {
+
+			picture = generic_air_europe_1
+
+			allowed = {
+				original_tag = FIN
+			}
+
+
+
 			traits = { air_chief_ground_support_2 }
+
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+
+	navy_chief = {
+
+		FIN_eero_rahola = {
+
+			picture = generic_navy_europe_1
+
+			allowed = {
+				original_tag = FIN
+			}
+
+
+
+			traits = { navy_chief_decisive_battle_2 }
+
+			ai_will_do = {
+				factor = 1
+			}
 		}
 	}
 
 	high_command = {
 		FIN_karl_oesch = {
 			ledger = army
-			
-			
+
 			allowed = {
 				original_tag = FIN
 			}
-			
+
 			picture = generic_army_europe_3
-			
-			traits = { army_regrouping_3 }
-			
-		}
-				FIN_valio_porvari = {
-			ledger = army
-			allowed = {	original_tag = FIN	}
-			
-			picture = generic_army_europe_2
-			traits = { army_infantry_1 }
-			
+
+			traits = { army_regrouping_1 }
+
 			ai_will_do = {
 				factor = 1
 			}
 		}
-		FIN_lauri_tiainen = {
-			ledger = army		
-			
+
+		FIN_valio_porvari = {
+			ledger = air
+
 			allowed = {
 				original_tag = FIN
 			}
-			
-			picture = generic_army_europe_1
-			
-			traits = { army_commando_2 }
-			
 
+			picture = generic_air_europe_1
+
+			traits = { air_air_superiority_2 }
+
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		FIN_lauri_tiainen = {
+			ledger = army
+
+			allowed = {
+				original_tag = FIN
+			}
+
+			picture = generic_army_europe_1
+
+			traits = { army_commando_3 }
+
+			ai_will_do = {
+				factor = 1
+			}
 		}
 
 		FIN_harald_ohquist = {
 			ledger = army
-			
-			
+
 			allowed = {
 				original_tag = FIN
 			}
-			
+
 			picture = generic_army_europe_5
-			
+
 			traits = { army_regrouping_2 }
 
+			ai_will_do = {
+				factor = 1
+			}
 		}
-	}	
+	}
+
+	# TECHNOLOGY
+
+	naval_manufacturer = {
+
+		designer = yes
+
+		crichton = {
+
+			picture = generic_naval_manufacturer_1
+
+
+			allowed = {
+				original_tag = FIN
+			}
+
+			research_bonus = {
+				naval_equipment = 0.15
+			}
+
+			# submarine and defence ship production
+
+			traits = { naval_manufacturer }
+		}
+	}
+
+	aircraft_manufacturer = {
+
+		designer = yes
+
+
+		valtion_lentokonetehdas = {
+
+			picture = generic_air_manufacturer_3
+
+
+			allowed = {
+				original_tag = FIN
+			}
+
+			research_bonus = {
+				air_equipment = 0.15
+			}
+
+			traits = { light_aircraft_manufacturer }
+
+			# assembled Junkers, fast bombers
+
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
 }

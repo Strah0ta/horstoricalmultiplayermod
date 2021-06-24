@@ -1,368 +1,120 @@
 focus_tree = {
-	id = finland_focus
+	id = finland_focus_new
 	
 	country = {
 		factor = 0
-		modifier = {
-			add = 10
-			tag = FIN
 		
+		modifier = {
+			add = 11
+			tag = FIN
 		}
 	}
+
+	initial_show_position = {
+		x = 0
+	}
+	continuous_focus_position = { x = 50 y = 1600 }
+
 	
 	default = no
-	 
-		focus = {
-		id = fin_supremacy_of_will
-		icon = GFX_supremacy_of_will
-		x = 7
+	focus = {
+		id = FIN_maatalouden_tuontitullit
+		icon = GFX_goal_FIN_industrial_might
+		x = 6
 		y = 0
-		cost = 1
+		offset = {
+			x = 0
+			y = 0
+		}
+		prerequisite = {}
+		mutually_exclusive = { }
+		cost = 4.4
+			ai_will_do = {
+			factor = 1
+		}
+		available = {
+			
+		}
+		
+		bypass = {
 
-		available_if_capitulated = yes
-
-		completion_reward = {	add_ideas = fin_sisu	}
-	}
-
-	focus = {
-		id = fin_army_effort
-		icon = GFX_goal_generic_allies_build_infantry
-		prerequisite = { focus = fin_supremacy_of_will }
-		x = -4
-		y = 1
-		cost = 10
-		relative_position_id = fin_supremacy_of_will
-
-		available_if_capitulated = yes
-
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
 		completion_reward = {
-			add_tech_bonus = {
-				name = land_doc_bonus
-				bonus = 1.0
-				uses = 1
-				category = land_doctrine
-			}
+			add_ideas = FIN_maatalouden_tuontitullit_idea
 		}
 	}
-
+	
 	focus = {
-		id = fin_equipment_effort
-		icon = GFX_goal_generic_small_arms
-		prerequisite = { focus = fin_army_effort }
-		x = -1
+		id = FIN_law_against_the_expansion_of_the_woodcutting_zone
+		icon = GFX_goal_ita_cut_bureaucracy
+		x = 6
 		y = 1
-		relative_position_id = fin_army_effort
-		cost = 10
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_tech_bonus = {
-				name = infantry_artillery_bonus
-				bonus = 0.5
-				uses = 1
-				category = infantry_weapons
-			}
-			add_tech_bonus = {
-				name = infantry_artillery_bonus
-				bonus = 0.5
-				uses = 1
-				category = artillery
-			}			
+		prerequisite = {
+			focus = FIN_maatalouden_tuontitullit
 		}
-	}
-
-
-	focus = {
-		id = fin_doctrine_effort
-		icon = GFX_goal_generic_army_doctrines
-		prerequisite = { focus = fin_army_effort }
-		x = 1
-		y = 1
-		relative_position_id = fin_army_effort
-		cost = 10
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_tech_bonus = {
-				name = land_doc_bonus
-				bonus = 1.0
-				uses = 1
-				category = land_doctrine
-			}
+		prerequisite = {}
+		mutually_exclusive = { }
+		cost = 4.4
+			ai_will_do = {
+			factor = 1
 		}
-	}
-
-	focus = {
-		id = fin_equipment_effort_2
-		icon = GFX_goal_generic_army_artillery
-		prerequisite = { focus = fin_equipment_effort }
-		x = 0
-		y = 1
-		relative_position_id = fin_equipment_effort
-		cost = 10
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_tech_bonus = {
-				name = infantry_artillery_bonus
-				bonus = 0.5
-				uses = 1
-				category = infantry_weapons
-			}
-			add_tech_bonus = {
-				name = infantry_artillery_bonus
-				bonus = 0.5
-				uses = 1
-				category = artillery
-			}		
+		available = {
+			
 		}
-	}
+		
+		bypass = {
 
-	focus = {
-		id = fin_doctrine_effort_2
-		icon = GFX_goal_generic_army_doctrines
-		prerequisite = { focus = fin_doctrine_effort }
-		x = 0
-		y = 1
-		relative_position_id = fin_doctrine_effort
-		cost = 10
-
-		available_if_capitulated = yes
-
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
 		completion_reward = {
-			add_tech_bonus = {
-				name = land_doc_bonus
-				bonus = 1.0
-				uses = 1
-				category = land_doctrine
+			add_stability = 0.05
+			add_political_power = 150
+			149 = {
+				add_extra_state_shared_building_slots  = 4
+			}
+			150 = {
+				add_extra_state_shared_building_slots  = 4
+			}
+			111 = {
+				add_extra_state_shared_building_slots  = 4
 			}
 		}
 	}
 	
 	focus = {
-		id = fin_doctrine_effort_3
-		icon = GFX_goal_generic_army_doctrines
-		prerequisite = { focus = fin_doctrine_effort_2 }
-		x = 0
-		y = 1
-		relative_position_id = fin_doctrine_effort_2
-		cost = 10
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_tech_bonus = {
-				name = land_doc_bonus
-				bonus = 1.0
-				uses = 1
-				category = land_doctrine
-			}
+		id = FIN_railway_to_sweden
+		icon = GFX_goal_SAF_railways_expansion
+		x = 2
+		y = 2
+		prerequisite = {
+			focus = FIN_law_against_the_expansion_of_the_woodcutting_zone
 		}
-	}
-
-	focus = {
-		id = fin_equipment_effort_3
-		icon = GFX_goal_generic_army_artillery2
-		prerequisite = { focus = fin_equipment_effort_2 }
-		x = 0
-		y = 1
-		relative_position_id = fin_equipment_effort_2
-		cost = 10
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_tech_bonus = {
-				name = infantry_artillery_bonus
-				bonus = 0.5
-				uses = 1
-				category = infantry_weapons
-			}
-					add_tech_bonus = {
-				name = infantry_artillery_bonus
-				bonus = 0.5
-				uses = 1
-				category = artillery
-			}
+		prerequisite = {}
+		mutually_exclusive = { }
+		cost = 4.4
+			ai_will_do = {
+			factor = 1
 		}
-	}
-
-	focus = {
-		id = fin_special_forces
-		icon = GFX_goal_generic_special_forces
-		prerequisite = { focus = fin_equipment_effort_3 }
-		prerequisite = { focus = fin_doctrine_effort_3 }
-		x = 1
-		y = 1
-		relative_position_id = fin_equipment_effort_3
-		cost = 10
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_tech_bonus = {
-				name = special_forces_bonus
-				bonus = 3.0
-				uses = 2
-				technology = paratroopers
-				technology = paratroopers2
-				technology = marines
-				technology = marines2
-				technology = tech_mountaineers
-				technology = tech_mountaineers2
-			}
+		available = {
+			
 		}
-	}
-	
-		focus = {
-		id = fin_ranger
-		icon = GFX_goal_generic_special_forces
-		prerequisite = { focus = fin_special_forces }
+		
+		bypass = {
 
-		x = 0
-		y = 1
-		relative_position_id = fin_special_forces
-		cost = 10
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			hidden_effect= { set_technology = { motti_warfare = 1	} }
-			custom_effect_tooltip = "We will develop our military doctrine with Motti Tactics, making it easier to defend forests."
 		}
-	}
-	
-		focus = {
-		id = fin_armor_effort
-		icon = GFX_goal_generic_special_forces
-		prerequisite = { focus = fin_doctrine_effort_3 }
-		x = 1
-		y = 1
-		relative_position_id = fin_doctrine_effort_3
-		cost = 10
-
-		available_if_capitulated = yes
-
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
 		completion_reward = {
-				add_tech_bonus = {
-				name = "Armor Effort"
-				ahead_reduction = 2
-				bonus = 1.0
-				uses = 1
-				technology = advanced_light_tank
-			}
-		}
-	}
-	
-	
-
-
-	focus = {
-		id = fin_aviation_effort
-		icon = GFX_goal_generic_build_airforce
-		x = -2
-		y = 1
-		cost = 10
-		prerequisite = { focus = fin_supremacy_of_will }
-		relative_position_id = fin_supremacy_of_will 
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_tech_bonus = {
-				name = air_doc_bonus
-				bonus = 1.0
-				uses = 1
-				category = air_doctrine
-			}
-		}
-	}
-
-	focus = {
-		id = fin_industrial_effort
-		icon = GFX_goal_generic_production
-		x = 0
-		y = 1
-		cost = 10
-		prerequisite = { focus = fin_supremacy_of_will }
-		relative_position_id = fin_supremacy_of_will 
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_tech_bonus = {
-				name = industrial_bonus
-				bonus = 1.0
-				uses = 1
-				category = industry
-			}
-		}
-
-	}
-
-	focus = {
-		id = fin_production_effort
-		icon = GFX_goal_generic_construct_mil_factory
-		prerequisite = { focus = fin_industrial_effort }
-		x = 1
-		y = 1
-		relative_position_id = fin_industrial_effort
-		cost = 10
-
-		available_if_capitulated = yes
-		completion_reward = {
-			148 = {
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = arms_factory
-					level = 1
-					instant_build = yes
-				}
-			}
-		}
-	}
-
-	focus = {
-		id = fin_production_effort_2
-		icon = GFX_goal_generic_construct_mil_factory
-		prerequisite = { focus = fin_production_effort }
-		x = 0
-		y = 1
-		relative_position_id = fin_production_effort
-		cost = 10
-
-		available_if_capitulated = yes
-
-	completion_reward = {
-
-			148 = {
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = arms_factory
-					level = 1
-					instant_build = yes
-				}
-			}
-		}
-	}
-
-	focus = {
-		id = fin_infrastructure_effort
-		icon = GFX_goal_generic_construct_infrastructure
-		prerequisite = { focus = fin_industrial_effort }
-		x = -1
-		y = 1
-		relative_position_id = fin_industrial_effort
-		cost = 10
-
-		available_if_capitulated = yes
-		completion_reward = {
-				111 = {
+			111 = {
 				add_building_construction = {
 					type = infrastructure
-					level = 1
+					level = 2
 					instant_build = yes
 				}
 			}
@@ -373,222 +125,1881 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
-			150 = {
+			148 = {
 				add_building_construction = {
 					type = infrastructure
-					level = 3
+					level = 4
 					instant_build = yes
 				}
 			}
 		}
 	}
 	
+	focus = {
+		id = FIN_introduce_the_torppa_system
+		icon = GFX_ROM_land_reform
+		x = 4
+		y = 2
+		prerequisite = {
+			focus = FIN_law_against_the_expansion_of_the_woodcutting_zone
+		}
+		prerequisite = {}
+		mutually_exclusive = { }
+		cost = 4.4
+			ai_will_do = {
+			factor = 1
+		}
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			add_ideas = FIN_torppa_system
+			swap_ideas = {
+				remove_idea = FIN_no_grain
+				add_idea = FIN_no_grain_2
+			}
+		}
+	}
 	
-    focus = {
-		id = FIN_invest_in_the_private_sector
+	
+	
+	focus = {
+		id = FIN_return_to_mixed_farming
+		icon = GFX_ROM_food_storage
+		x = 4
+		y = 3
+		prerequisite = {
+			focus = FIN_introduce_the_torppa_system
+		}
+		prerequisite = {}
+		mutually_exclusive = { }
+		cost = 4.4
+			ai_will_do = {
+			factor = 1
+		}
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = FIN_torppa_system
+				add_idea = FIN_torppa_system_2
+			}
+		}
+	}
+	
+	focus = {
+		id = FIN_boost_the_traditional_industries
 		icon = GFX_goal_generic_construct_civ_factory
-		prerequisite = { focus = fin_infrastructure_effort }
-			relative_position_id = fin_infrastructure_effort
-	
-		x = 0
-		y = 1
-		cost = 10
+		x = 6
+		y = 2
+		prerequisite = {
+			focus = FIN_law_against_the_expansion_of_the_woodcutting_zone
+		}
+		prerequisite = {}
+		mutually_exclusive = { }
+		cost = 4.4
+			ai_will_do = {
+			factor = 1
+		}
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
 		completion_reward = {
 			111 = {
-				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 					type = industrial_complex
 					level = 1
 					instant_build = yes
 				}
+				add_extra_state_shared_building_slots = 1
+			}
+			add_tech_bonus = {
+				bonus = 1
+				uses = 2
+				category = industry
 			}
 		}
 	}
 	
-		focus = {
-		id = FIN_prepare_for_winter
-		icon = GFX_goal_generic_construct_civ_factory
-		prerequisite = { focus = FIN_invest_in_the_private_sector focus = fin_production_effort_2 }
-					relative_position_id = FIN_invest_in_the_private_sector
+	focus = {
+		id = FIN_improve_paper_factories
+		icon = GFX_goal_FIN_paper_factory
+		x = 6
+		y = 3
+		prerequisite = {
+			focus = FIN_boost_the_traditional_industries
+		}
+		prerequisite = {}
+		mutually_exclusive = { }
+		cost = 4.4
+			ai_will_do = {
+			factor = 1
+		}
+		available = {
+			
+		}
+		
+		bypass = {
 
-		x = 1
-		y = 1
-		cost = 10
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
 		completion_reward = {
 			111 = {
-				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 					type = industrial_complex
 					level = 1
 					instant_build = yes
 				}
+				add_extra_state_shared_building_slots = 1
 			}
 		}
 	}
 	
-	
-    focus = {
-		id = FIN_prepare_for_war
-        prerequisite = { focus = FIN_prepare_for_winter }
-							relative_position_id = FIN_prepare_for_winter
-		icon = GFX_goal_generic_construct_mil_factory
-		x = 0
-		y = 1
-		cost = 10
+	focus = {
+		id = FIN_modernize_timber_sector
+		icon = GFX_goal_FIN_timber
+		x = 6
+		y = 4
+		prerequisite = {
+			focus = FIN_improve_paper_factories
+		}
+		prerequisite = {}
+		mutually_exclusive = { }
+		cost = 4.4
+			ai_will_do = {
+			factor = 1
+		}
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
 		completion_reward = {
-			111 = {
-				add_extra_state_shared_building_slots = 1
+			149 = {
 				add_building_construction = {
-					type = arms_factory
+					type = industrial_complex
 					level = 1
 					instant_build = yes
 				}
+				add_extra_state_shared_building_slots = 1
+			}
+			add_tech_bonus = {
+				bonus = 1.5
+				uses = 1
+				category = industry
 			}
 		}
 	}
 	
-    focus = {
-		id = FIN_develop_the_war_machine
-        prerequisite = { focus = FIN_prepare_for_war }
-							relative_position_id = FIN_prepare_for_war
+	focus = {
+		id = FIN_invest_in_the_electronic_industry
+		icon = GFX_goal_generic_television
+		x = 8
+		y = 2
+		prerequisite = {
+			focus = FIN_law_against_the_expansion_of_the_woodcutting_zone
+		}
+		prerequisite = {}
+		mutually_exclusive = { }
+		cost = 4.4
+			ai_will_do = {
+			factor = 1
+		}
+		available = {
+			
+		}
+		
+		bypass = {
 
-		icon = GFX_goal_generic_construct_mil_factory
-		x = 0
-		y = 1
-		cost = 10
-
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
 		completion_reward = {
 			111 = {
-				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+			}
+			add_tech_bonus = {
+				bonus = 1.5
+				uses = 1
+				category = electronics
+			}
+		}
+	}
+	
+	focus = {
+		id = FIN_found_vaisala_oyj
+		icon = GFX_goal_FIN_vaisala
+		x = 8
+		y = 3
+		prerequisite = {
+			focus = FIN_invest_in_the_electronic_industry
+		}
+		prerequisite = {}
+		mutually_exclusive = { }
+		cost = 4.4
+			ai_will_do = {
+			factor = 1
+		}
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			111 = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+			}
+		}
+	}
+	
+	focus = {
+		id = FIN_use_the_nokia_industrial_model
+		icon = GFX_goal_GER_finance_conglomerate
+		x = 8
+		y = 4
+		prerequisite = {
+			focus = FIN_found_vaisala_oyj
+		}
+		prerequisite = {}
+		mutually_exclusive = { }
+		cost = 4.4
+			ai_will_do = {
+			factor = 1
+		}
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			add_ideas = FIN_nokia_model
+		}
+	}
+	
+	focus = {
+		id = FIN_finnish_cable_works
+		icon = GFX_goal_FIN_nokia
+		x = 9
+		y = 5
+		prerequisite = {
+			focus = FIN_modernize_timber_sector
+			focus = FIN_use_the_nokia_industrial_model
+		}
+		mutually_exclusive = { }
+		cost = 4.4
+			ai_will_do = {
+			factor = 1
+		}
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			111 = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = synthetic_refinery
+					level = 2
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+			}
+		}
+	}
+	
+	focus = {
+		id = FIN_improve_electronic_production
+		icon = GFX_goal_generic_civs
+		x = 7
+		y = 5
+		prerequisite = {
+			focus = FIN_modernize_timber_sector
+			focus = FIN_use_the_nokia_industrial_model
+		}
+		prerequisite = {}
+		mutually_exclusive = { }
+		cost = 4.4
+			ai_will_do = {
+			factor = 1
+		}
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			111 = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+			}
+		}
+	}
+	
+	focus = {
+		id = FIN_improve_petsamo_mines
+		icon = GFX_goal_generic_construction2
+		x = 5
+		y = 5
+		prerequisite = {
+			focus = FIN_modernize_timber_sector
+			focus = FIN_use_the_nokia_industrial_model
+		}
+		prerequisite = {}
+		mutually_exclusive = { }
+		cost = 4.4
+			ai_will_do = {
+			factor = 1
+		}
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			add_resource = {
+				type = steel
+				amount = 21
+				state = 722
+			}
+			add_resource = {
+				type = tungsten
+				amount = 18
+				state = 722
+			}
+		}
+	}
+	
+	focus = {
+		id = FIN_boost_timber_and_paper_export
+		icon = GFX_goal_generic_positive_trade_relations
+		x = 6
+		y = 6
+		prerequisite = {
+			focus = FIN_finnish_cable_works
+			focus = FIN_improve_electronic_production
+			focus = FIN_improve_petsamo_mines
+		}
+		prerequisite = {}
+		mutually_exclusive = { }
+		cost = 4.4
+			ai_will_do = {
+			factor = 1
+		}
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			add_timed_idea = {
+				idea = FIN_revenues_from_export
+				days = 365
+			}
+		}
+	}
+	
+	focus = {
+		id = FIN_increment_the_armaments_production
+		icon = GFX_goal_war_economy
+		x = 8
+		y = 6
+		prerequisite = {
+			focus = FIN_finnish_cable_works
+			focus = FIN_improve_electronic_production
+			focus = FIN_improve_petsamo_mines
+		}
+		prerequisite = {}
+		mutually_exclusive = { }
+		cost = 4.4
+			ai_will_do = {
+			factor = 1
+		}
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			111 = {
 				add_building_construction = {
 					type = arms_factory
 					level = 2
 					instant_build = yes
 				}
+				add_extra_state_shared_building_slots = 2
 			}
 		}
 	}
+	
 	focus = {
-		id = fin_extra_tech_slot
-		icon = GFX_focus_research
-		prerequisite = { focus = fin_supremacy_of_will }
+		id = FIN_rely_on_nokia_war_equipment
+		icon = GFX_goal_support_equipment
+		x = 8
+		y = 7
+		prerequisite = {
+			focus = FIN_increment_the_armaments_production
+		}
+		prerequisite = {}
+		mutually_exclusive = { }
+		cost = 4.4
+			ai_will_do = {
+			factor = 1
+		}
+		available = {
+			
+		}
 		
-		x = 2
-		y = 1
-		relative_position_id = fin_supremacy_of_will
-		cost = 10
+		bypass = {
 
-		available_if_capitulated = yes
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			111 = {
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 2
+			}
+		}
+	}
+	
+	focus = {
+		id = FIN_finance_nokia_military_projects
+		icon = GFX_goal_generic_scientific_exchange
+		x = 8
+		y = 8
+		prerequisite = {
+			focus = FIN_rely_on_nokia_war_equipment
+		}
+		prerequisite = {}
+		mutually_exclusive = { }
+		cost = 4.4
+			ai_will_do = {
+			factor = 1
+		}
+		available = {
+			
+		}
+		
+		bypass = {
 
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
 		completion_reward = {
 			add_research_slot = 1
 		}
-	}	
-
-	focus = {
-		id = fin_political_effort
-		icon = GFX_goal_generic_demand_territory
-		x = 4
-		y = 1
-		cost = 10
-		prerequisite = { focus = fin_supremacy_of_will }
-		relative_position_id = fin_supremacy_of_will 
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_political_power = 120
-		}
 	}
-
-	focus = {
-		id = fin_why_we_fight
-		icon = GFX_goal_generic_propaganda
-		prerequisite = {  focus = fin_political_effort }
-		continue_if_invalid = yes
-		
-		x = 0
-		y = 1
-		relative_position_id = fin_political_effort 
-		cost = 10
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_ideas = why_we_fight_focus
-		}
-	}
-			
-	focus = {
-		id = fin_continuation
-		icon = GFX_focus_eng_expose_the_belly_of_the_bear
-		available = { has_war_with = SOV  }
-		prerequisite = { focus = fin_why_we_fight }
-		relative_position_id = fin_why_we_fight
-		x = 1
-		y = 1
 	
-		cost = 1
-
-		available_if_capitulated = yes
-
-		completion_reward = {	add_ideas = fin_continuation_war 	}
-	}
-		
-			focus = {
-		id = fin_karelianism
-		icon = GFX_goal_generic_demand_territory
-		prerequisite = { focus = fin_continuation }
+	focus = {
+		id = FIN_boost_the_valtion_kivaaritehdas
+		icon = GFX_goal_generic_arms_artillery_grenades
+		x = 10
+		y = 7
+		prerequisite = {
+			focus = FIN_increment_the_armaments_production
+		}
+		prerequisite = {}
+		mutually_exclusive = { }
+		cost = 4.4
+			ai_will_do = {
+			factor = 1
+		}
 		available = {
-		controls_state = 215 controls_state = 216 controls_state = 213
+			
 		}
-		relative_position_id = fin_continuation
-		x = 0
-		y = 1
-	
-		cost = 10
+		
+		bypass = {
 
-		available_if_capitulated = yes
-
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
 		completion_reward = {
-		add_state_core = 213
-		add_state_core = 215
-		add_state_core = 216
-		add_popularity = { ideology = fascism popularity = 0.1 }
+			150 = {
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 2
+			}
 		}
 	}
-
+	
 	focus = {
-		id = fin_technology_sharing
-		icon = GFX_goal_generic_scientific_exchange
-		prerequisite = { focus = fin_why_we_fight }	
-		x = -1
-		y = 1
-		relative_position_id = fin_why_we_fight
-		cost = 10
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-				add_tech_bonus = {
-					name = electronics_bonus
-					bonus = 1.0
-					uses = 1
-					category = electronics
-				}
-				add_tech_bonus = {
-					name = industrial_bonus
-					bonus = 1.0
-					uses = 1
-					category = industry
-				}	
-				add_tech_bonus = {
-					name = infantry_artillery_bonus 
-					bonus = 0.5
-					uses = 1
-					category = infantry_weapons
-					category = artillery
-				}				
+		id = FIN_increment_sako_ammunition_production
+		icon = GFX_SPA_fascist_economic_aid
+		x = 6
+		y = 7
+		prerequisite = {
+			focus = FIN_increment_the_armaments_production
 		}
-	}	
+		prerequisite = {}
+		mutually_exclusive = { }
+		cost = 4.4
+			ai_will_do = {
+			factor = 1
+		}
+		available = {
+			
+		}
+		
+		bypass = {
 
-}
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			111 = {
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 2
+			}
+		}
+	}
+	
+	focus = {
+		id = FIN_red_soil_government
+		icon = GFX_goal_goal_generic_socdem
+		x = 16
+		y = 0
+		prerequisite = {}
+		mutually_exclusive = { }
+		cost = 4.4
+			ai_will_do = {
+			factor = 1
+		}
+		available = {
+			always = no
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = FIN_found_the_valpo
+		icon = GFX_goal_generic_police
+		x = 16
+		y = 1
+		prerequisite = {
+			focus = FIN_red_soil_government
+		}
+		mutually_exclusive = { }
+		cost = 4.4
+			ai_will_do = {
+			factor = 1
+		}
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			add_ideas = FIN_valpo
+		}
+	}
+	
+	focus = {
+		id = FIN_guarantee_the_right_of_the_swedish_minorites
+		icon = GFX_goal_ita_riforma_del_37
+		x = 14
+		y = 1
+		prerequisite = {
+			focus = FIN_red_soil_government
+		}
+		mutually_exclusive = { }
+		cost = 4.4
+			ai_will_do = {
+			factor = 1
+		}
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = FIN_upsetted_swedish_minorities
+				add_idea = FIN_upsetted_swedish_minorities_2
+			}
+		}
+	}
+	
+	focus = {
+		id = FIN_form_bilingual_municipalities
+		icon = GFX_focus_generic_military_academy
+		x = 15
+		y = 2
+		prerequisite = {
+			focus = FIN_guarantee_the_right_of_the_swedish_minorites
+		}
+		mutually_exclusive = { }
+		cost = 4.4
+			ai_will_do = {
+			factor = 1
+		}
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			remove_ideas = FIN_upsetted_swedish_minorities_2
+		}
+	}
+	
+	focus = {
+		id = FIN_aland_autonomous_region
+		icon = GFX_focus_generic_treaty
+		x = 13
+		y = 2
+		prerequisite = {
+			focus = FIN_guarantee_the_right_of_the_swedish_minorites
+		}
+		mutually_exclusive = { }
+		cost = 4.4
+			ai_will_do = {
+			factor = 1
+		}
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			add_political_power = 150
+			add_stability = 0.05
+			add_war_support = 0.05
+		}
+	}
+	
+	focus = {
+		id = FIN_expand_conscription
+		icon = GFX_goal_FIN_conscription
+		x = 18
+		y = 1
+		prerequisite = {
+			focus = FIN_red_soil_government
+		}
+		mutually_exclusive = { }
+		cost = 4.4
+			ai_will_do = {
+			factor = 1
+		}
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			add_ideas = FIN_expanded_conscription
+		}
+	}
+	
+	focus = {
+		id = FIN_increase_military_spending
+		icon = GFX_goal_generic_mils
+		x = 20
+		y = 1
+		prerequisite = {
+			focus = FIN_continue_the_mannerheim_scheme
+		}
+		mutually_exclusive = { }
+		cost = 4.4
+			ai_will_do = {
+			factor = 1
+		}
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			add_ideas = war_economy
+		}
+	}
+	
+	focus = {
+		id = FIN_revive_the_white_guard
+		icon = GFX_goal_FIN_white_guard
+		x = 18
+		y = 2
+		prerequisite = {
+			focus = FIN_increase_military_spending
+		}
+		prerequisite = {
+			focus = FIN_expand_conscription
+		}
+		mutually_exclusive = { }
+		cost = 4.4
+			ai_will_do = {
+			factor = 1
+		}
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			add_ideas = FIN_white_guard
+		}
+	}
+	
+	focus = {
+		id = FIN_expand_the_lotta_svard
+		icon = GFX_goal_FIN_lotta_svard
+		x = 18
+		y = 3
+		prerequisite = {
+			focus = FIN_revive_the_white_guard
+		}
+		prerequisite = {
+			focus = FIN_expand_conscription
+		}
+		mutually_exclusive = { }
+		cost = 4.4
+			ai_will_do = {
+			factor = 1
+		}
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			add_ideas = FIN_lotta_svard
+		}
+	}
+	
+	focus = {
+		id = FIN_expand_the_suomen_ilmavoimat
+		icon = GFX_goal_FIN_finnishairforces
+		x = 20
+		y = 2
+		prerequisite = {
+			focus = FIN_increase_military_spending
+		}
+		mutually_exclusive = { }
+		cost = 4.4
+			ai_will_do = {
+			factor = 1
+		}
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			add_ideas = FIN_suomen_ilmavoimat
+		}
+	}
+	
+	focus = {
+		id = FIN_adopt_the_finger_four_formation
+		icon = GFX_goal_generic_air_doctrine
+		x = 20
+		y = 3
+		prerequisite = {
+			focus = FIN_expand_the_suomen_ilmavoimat
+		}
+		mutually_exclusive = { }
+		cost = 4.4
+			ai_will_do = {
+			factor = 1
+		}
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 2
+				uses = 4
+				category = air_doctrine
+			}
+		}
+	}
+	
+	focus = {
+		id = FIN_buy_fokker_airplanes
+		icon = GFX_focus_hol_fokker
+		x = 19
+		y = 4
+		prerequisite = {
+			focus = FIN_adopt_the_finger_four_formation
+		}
+		mutually_exclusive = {
+			focus = FIN_study_foreign_aircraft
+		}
+		mutually_exclusive = { }
+		cost = 4.4
+			ai_will_do = {
+			factor = 1
+		}
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			add_equipment_to_stockpile = {
+				type = fighter_equipment
+				amount = 200
+				producer = HOL
+			}
+		}
+	}
+	
+	focus = {
+		id = FIN_study_foreign_aircraft
+		icon = GFX_goal_FIN_fighter
+		x = 21
+		y = 4
+		prerequisite = {
+			focus = FIN_adopt_the_finger_four_formation
+		}
+		mutually_exclusive = {
+			focus = FIN_buy_fokker_airplanes
+		}
+		mutually_exclusive = { }
+		cost = 4.4
+			ai_will_do = {
+			factor = 1
+		}
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 1.5
+				uses = 1
+				category = air_equipment
+			}
+		}
+	}
+	
+	focus = {
+		id = FIN_move_IVL_to_tampere
+		icon = GFX_goal_generic_construct_mil_factory
+		x = 20
+		y = 5
+		prerequisite = {
+			focus = FIN_buy_fokker_airplanes
+			focus = FIN_study_foreign_aircraft
+		}
+		mutually_exclusive = { }
+		cost = 4.4
+			ai_will_do = {
+			factor = 1
+		}
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			111 = {
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+				set_building_level = {
+					type = anti_air_building
+					level = 5
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 2
+			}
+			149 = {
+				set_building_level = {
+					type = anti_air_building
+					level = 5
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = FIN_continue_the_mannerheim_scheme
+		icon = GFX_goal_FIN_Mannerheim
+		x = 23
+		y = 0
+		mutually_exclusive = { }
+		cost = 4.4
+			ai_will_do = {
+			factor = 1
+		}
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			add_ideas = deterrence
+		}
+	}
+	
+	focus = {
+		id = FIN_implement_the_motti_tactics
+		icon = GFX_goal_FIN_motti
+		x = 22
+		y = 1
+		prerequisite = {
+			focus = FIN_continue_the_mannerheim_scheme
+		}
+		mutually_exclusive = { }
+		cost = 4.4
+			ai_will_do = {
+			factor = 1
+		}
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			set_technology = {
+				motti_warfare = 1
+			}
+		}
+	}
+	
+	focus = {
+		id = FIN_ski_infantry
+		icon = GFX_goal_FIN_white_death
+		x = 22
+		y = 2
+		prerequisite = {
+			focus = FIN_implement_the_motti_tactics
+		}
+		mutually_exclusive = { }
+		cost = 4.4
+			ai_will_do = {
+			factor = 1
+		}
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 1.5
+				uses = 2
+				category = jager
+			}
+		}
+	}
+	
+	focus = {
+		id = FIN_expand_the_mannerheim_line
+		icon = GFX_goal_FIN_eastern_defence
+		x = 24
+		y = 1
+		prerequisite = {
+			focus = FIN_continue_the_mannerheim_scheme
+		}
+		mutually_exclusive = { }
+		cost = 4.4
+			ai_will_do = {
+			factor = 1
+		}
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			146 = {
+				set_building_level = {
+					type = bunker
+					level = 5
+					province = 9105
+				}
+				set_building_level = {
+					type = bunker
+					level = 5
+					province = 9100
+				}
+				set_building_level = {
+					type = anti_air_building
+					level = 5
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = FIN_tuli_isku
+		icon = GFX_goal_generic_army_artillery2
+		x = 26
+		y = 2
+		prerequisite = {
+			focus = FIN_expand_the_mannerheim_line
+		}
+		mutually_exclusive = { }
+		cost = 4.4
+			ai_will_do = {
+			factor = 1
+		}
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 1.5
+				uses = 3
+				category = artillery
+			}
+		}
+	}
+	
+	focus = {
+		id = FIN_increment_lahti_l_35_production
+		icon = GFX_goal_rifle_production
+		x = 29
+		y = 0
+		mutually_exclusive = { }
+		cost = 4.4
+			ai_will_do = {
+			factor = 1
+		}
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			add_ideas = FIN_lahti_l_35_production
+		}
+	}
+	
+	focus = {
+		id = FIN_improve_the_suomi_kp_31
+		icon = GFX_goal_FIN_kp_31
+		x = 28
+		y = 1
+		prerequisite = {
+			focus = FIN_increment_lahti_l_35_production
+		}
+		mutually_exclusive = { }
+		cost = 4.4
+			ai_will_do = {
+			factor = 1
+		}
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 1
+				uses = 2
+				category = infantry_weapons
+			}
+		}
+	}
+	
+	focus = {
+		id = FIN_develop_the_120_krh_40
+		icon = GFX_goal_generic_support_weapons
+		x = 30
+		y = 1
+		prerequisite = {
+			focus = FIN_increment_lahti_l_35_production
+		}
+		mutually_exclusive = { }
+		cost = 4.4
+			ai_will_do = {
+			factor = 1
+		}
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 1.5
+				uses = 3
+				category = support_tech
+			}
+		}
+	}
+	
+	focus = {
+		id = FIN_produce_the_lahti_l_39
+		icon = GFX_goal_generic_small_arms
+		x = 28
+		y = 2
+		prerequisite = {
+			focus = FIN_improve_the_suomi_kp_31
+		}
+		mutually_exclusive = { }
+		cost = 4.4
+			ai_will_do = {
+			factor = 1
+		}
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			set_technology = {
+				infantry_at = 1
+				infantry_at2 = 1
+			}
+		}
+	}
+	
+	focus = {
+		id = FIN_develop_a_finnish_aa
+		icon = GFX_goal_generic_air_defense
+		x = 25
+		y = 3
+		prerequisite = {
+			focus = FIN_tuli_isku
+		}
+		mutually_exclusive = { }
+		cost = 4.4
+			ai_will_do = {
+			factor = 1
+		}
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 1.5
+				uses = 2
+				category = cat_antiair
+			}
+		}
+	}
+	
+	focus = {
+		id = FIN_replace_he_lahti_l_39_with_an_at_gun
+		icon = GFX_goal_generic_anti_tank
+		x = 27
+		y = 3
+		prerequisite = {
+			focus = FIN_tuli_isku
+		}
+		prerequisite = {
+			focus = FIN_produce_the_lahti_l_39
+		}
+		mutually_exclusive = { }
+		cost = 4.4
+			ai_will_do = {
+			factor = 1
+		}
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 1.5
+				uses = 2
+				category = cat_anti_tank
+			}
+		}
+	}
+	
+	focus = {
+		id = FIN_use_the_molotov_cocktail
+		icon = GFX_goal_FIN_molotov
+		x = 29
+		y = 3
+		prerequisite = {
+			focus = FIN_produce_the_lahti_l_39
+		}
+		mutually_exclusive = { }
+		cost = 4.4
+			ai_will_do = {
+			factor = 1
+		}
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			set_technology = [
+				molotov_cocktail = 1
+			}
+		}
+	}
+	
+	focus = {
+		id = FIN_the_truce
+		icon = GFX_goal_generic_after_war
+		x = 15
+		y = 4
+
+		mutually_exclusive = { }
+		cost = 4.4
+			ai_will_do = {
+			factor = 1
+		}
+		available = {
+			always = no
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			hidden_effect = {
+				swap_ideas = {
+					remove_idea = FIN_sisu
+					add_idea = FIN_sisu_2
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = FIN_expand_the_rationing_system
+		icon = GFX_goal_FIN_rationing
+		x = 15
+		y = 5
+
+		mutually_exclusive = { }
+		cost = 4.4
+			ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {
+			focus = FIN_the_truce
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			add_ideas = FIN_rationing
+		}
+	}
+	
+	focus = {
+		id = FIN_trade_agreement_with_germany
+		icon = GFX_goal_generic_trade
+		x = 13
+		y = 5
+
+		mutually_exclusive = { }
+		cost = 4.4
+			ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {
+			focus = FIN_the_truce
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			add_ideas = FIN_trade_agreement
+			GER = {
+				add_ideas = FIN_trade_agreement_GER
+			}
+		}
+	
+	}
+	
+	focus = {
+		id = FIN_populate_lapland_with_karelians_refuges
+		icon = GFX_goal_FIN_refugees
+		x = 17
+		y = 5
+		prerequisite = {
+			focus = FIN_the_truce
+		}
+		prerequisite = {}
+		mutually_exclusive = { }
+		cost = 4.4
+			ai_will_do = {
+			factor = 1
+		}
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			111 = {
+				add_manpower = 400000
+			}
+			hidden_effect =  {
+				146 = {
+					add_manpower = -400000
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = FIN_prepare_for_the_revenge
+		icon = GFX_goal_generic_war_plan
+		x = 15
+		y = 6
+		prerequisite = {
+			focus = FIN_populate_lapland_with_karelians_refuges
+		}
+		prerequisite = {
+			focus = FIN_trade_agreement_with_germany
+		}
+		prerequisite = {
+			focus = FIN_expand_the_rationing_system
+		}
+		prerequisite = {}
+		mutually_exclusive = { }
+		cost = 4.4
+			ai_will_do = {
+			factor = 1
+		}
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			add_war_support = 0.5
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = FIN_build_the_salpa_line
+		icon = GFX_goal_generic_defense
+		x = 15
+		y = 7
+		prerequisite = {
+			focus = FIN_prepare_for_the_revenge
+		}
+		mutually_exclusive = { }
+		cost = 4.4
+			ai_will_do = {
+			factor = 1
+		}
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			111 = {
+				set_building_level = {
+					type = anti_air_building
+					level = 5
+					instant_build = yes
+				}
+				set_building_level = {
+					type = bunker
+					level = 3
+					province = 6186
+				}
+				set_building_level = {
+					type = bunker
+					level = 3
+					province = 6082
+				}
+				set_building_level = {
+					type = bunker
+					level = 3
+					province = 52
+				}
+			}
+			150 = {
+				set_building_level = {
+					type = anti_air_building
+					level = 5
+					instant_build = yes
+				}
+				set_building_level = {
+					type = bunker
+					level = 3
+					province = 139
+				}
+				set_building_level = {
+					type = bunker
+					level = 3
+					province = 3030
+				}
+				set_building_level = {
+					type = bunker
+					level = 3
+					province = 9181
+				}
+				set_building_level = {
+					type = bunker
+					level = 3
+					province = 6210
+				}
+			}
+			148 = {
+				set_building_level = {
+					type = anti_air_building
+					level = 5
+					instant_build = yes
+				}
+				set_building_level = {
+					type = bunker
+					level = 3
+					province = 6045
+				}
+				set_building_level = {
+					type = bunker
+					level = 3
+					province = 3156
+				}
+				set_building_level = {
+					type = bunker
+					level = 3
+					province = 11030
+				}
+				set_building_level = {
+					type = bunker
+					level = 3
+					province = 6128
+				}
+			}
+			722 = {
+				set_building_level = {
+					type = anti_air_building
+					level = 5
+					instant_build = yes
+				}
+				set_building_level = {
+					type = bunker
+					level = 3
+					province = 6012
+				}
+				set_building_level = {
+					type = bunker
+					level = 3
+					province = 9140
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = FIN_study_captured_soviet_tank
+		icon = GFX_goal_FIN_study_soviet_tank
+		x = 17
+		y = 7
+		prerequisite = {
+			focus = FIN_prepare_for_the_revenge
+		}
+		mutually_exclusive = { }
+		cost = 4.4
+			ai_will_do = {
+			factor = 1
+		}
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				category = armor
+			}
+		}
+	}
+	
+	focus = {
+		id = FIN_acquire_ammunition_and_war_equipment_from_aboard
+		icon = GFX_goal_USA_well_supplied_and_motivated
+		x = 13
+		y = 7
+		prerequisite = {
+			focus = FIN_prepare_for_the_revenge
+		}
+		mutually_exclusive = { }
+		cost = 4.4
+			ai_will_do = {
+			factor = 1
+		}
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 10000
+				producer = GER
+			}
+			add_equipment_to_stockpile = {
+				type = anti_air_equipment
+				amount = 400
+				producer = GER
+			}
+			add_equipment_to_stockpile = {
+				type = anti_tank_equipment
+				amount = 300
+				producer = GER
+			}
+			add_equipment_to_stockpile = {
+				type = artillery_equipment
+				amount = 500
+				producer = GER
+			}
+		}
+	}
+	
+	focus = {
+		id = FIN_join_the_crusade_against_bolshevism
+		icon = GFX_goal_GER_barbarossa
+		x = 15
+		y = 8
+		prerequisite = {
+			focus = FIN_acquire_ammunition_and_war_equipment_from_aboard
+		}
+		prerequisite = {
+			focus = FIN_study_captured_soviet_tank
+		}
+		prerequisite = {
+			focus = FIN_build_the_salpa_line
+		}
+		available = {
+			date > 1941.06.24
+		}
+		mutually_exclusive = { }
+		cost = 0.2
+			ai_will_do = {
+			factor = 1
+		}
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			declare_war_on = {
+				target = SOV
+				type = annex_everything
+			}
+		}
+	}
+	
+	focus = {
+		id = FIN_proclaim_greater_finland
+		icon = GFX_goal_FIN_greater_finland
+		x = 15
+		y = 9
+		prerequisite = {
+			focus = FIN_join_the_crusade_against_bolshevism
+		}
+		available = {
+			controls_state = 213
+			controls_state = 215
+			controls_state = 216
+		}
+		mutually_exclusive = { }
+		cost = 4.4
+			ai_will_do = {
+			factor = 1
+		}
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			add_state_core = 213
+			add_state_core = 215
+			add_state_core = 216
+		}
+	}

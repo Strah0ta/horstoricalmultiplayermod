@@ -1,4 +1,72 @@
 spriteTypes = {	
+
+
+
+
+	SpriteType = {
+		name = "GFX_idea_FIN_fin_swe_anger"
+		texturefile = "gfx/interface/ideas/new/FIN_fin_swe_anger.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_FIN_maatalouden"
+		texturefile = "gfx/interface/ideas/new/FIN_maatalouden.dds"
+	}
+SpriteType = {
+		name = "GFX_idea_FIN_no_grain"
+		texturefile = "gfx/interface/ideas/new/FIN_no_grain.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_FIN_white_guard"
+		texturefile = "gfx/interface/ideas/new/FIN_white_guard.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_FIN_lotta_svard"
+		texturefile = "gfx/interface/ideas/new/FIN_lotta_svard.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_FIN_nokia_model"
+		texturefile = "gfx/interface/ideas/new/FIN_nokia_model.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_FIN_revenues_from_export"
+		texturefile = "gfx/interface/ideas/new/FIN_revenues_from_export.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_FIN_torppa_system"
+		texturefile = "gfx/interface/ideas/new/FIN_torppa_system.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_FIN_valpo"
+		texturefile = "gfx/interface/ideas/new/FIN_valpo.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_FIN_rationing"
+		texturefile = "gfx/interface/ideas/new/FIN_rationing.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_FIN_expanded_conscription"
+		texturefile = "gfx/interface/ideas/new/FIN_expanded_conscription.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_FIN_suomen_ilmavoimat"
+		texturefile = "gfx/interface/ideas/new/FIN_suomen_ilmavoimat.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_FIN_trade_agreement"
+		texturefile = "gfx/interface/ideas/new/FIN_trade_agreement.dds"
+	}
+	
+
 	spriteType = {
 		name = "GFX_idea_FRA_FREE_army"
 		texturefile = "gfx/interface/ideas/FRA_FREE_army.dds"

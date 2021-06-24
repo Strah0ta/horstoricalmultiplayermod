@@ -2,6 +2,16 @@
 
 ###CREDITS AND THANKS###
 (list is in progress)
+
+What is Horstorical Multiplayer? It is a historical WW2 multiplayer balance mod which makes changes to the game to 
+speed up gameplay (1936 --> 1943 in 4 hours), increase build variety/options, and improve the enjoyability of various 
+fronts in the game. The mod is balanced around highly experienced players, but is actively being modded around less 
+experienced players so it is easy to learn/play for those unfamiliar with Horstorical or even new to HoI 4 in general. 
+Most cheats/exploits are modded out and most rules are modded into the mod to make hosting very easy. 
+
+This mod has the Horst Tool and Topbar Resources features from HFU/LW (created by Lennard) in it.
+
+
 Brazil skins are from "Uniform Reskin Pack" (701530809) 
 Norway/Finland gun gfx are from "Scandinavian infantry weapons" (706846084)
 Italian portraits are from  "Italian Commanders(colored)" (1292910630) and "Italici Imperatores" (1818823699)
