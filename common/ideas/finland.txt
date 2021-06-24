@@ -1,6 +1,71 @@
 ideas = {
 
 	country = {
+			fin_sisu1 = {
+			
+			allowed = {
+				always = no
+			}
+			
+			picture = sisu
+
+			allowed_civil_war = {
+				NOT = {
+					has_government = communism
+				}
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				army_morale_factor = 0.25
+				attrition = -0.1
+				war_support_factor = 0.2
+				stability_factor = 0.2		
+				army_core_attack_factor = 0.4
+				army_core_defence_factor = 0.4
+				surrender_limit = 0.19
+				conscription = 0.2
+				mobilization_speed = 1.0
+				min_export = -1
+ 			}
+		}
+		
+				fin_sisu_ai = {
+			
+			allowed = {
+				always = no
+			}
+			available = { is_ai = yes }
+			picture = sisu
+			removal_cost = -1
+			
+			modifier = {
+				army_attack_factor = 0.3 army_defence_factor = 0.3
+ 			}
+		}
+		fin_continuation_war = {
+		
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				NOT = {
+					has_government = communism
+				}
+			}
+
+			removal_cost = -1
+			
+			picture = FRA_army_of_aggression_focus
+			
+			modifier = {
+			weekly_manpower = 2500
+			consumer_goods_factor = -0.2
+		}
+		}
+		
 		FIN_sisu = {
 
 			allowed = {
@@ -444,18 +509,6 @@ ideas = {
 
 	political_advisor = {
 
-
-		FIN_ralf_torngren = {
-
-			picture = generic_political_advisor_europe_1
-
-			allowed = {
-				original_tag = FIN
-			}
-
-			traits = { ideological_crusader }
-		}
-
 		FIN_ake_henrik_gartz = {
 
 			picture = generic_political_advisor_europe_2
@@ -482,112 +535,42 @@ ideas = {
 
 		FIN_akseli_anttila = {
 			ledger = army
-			picture = generic_army_europe_2
-
+			
+			picture = generic_army_europe_2		
+					
 			allowed = {
 				original_tag = FIN
 			}
 
-
+			
 			research_bonus = {
-				land_doctrine = 0.1
+				land_doctrine = 0.35
 			}
-
+			
 			traits = { military_theorist }
 		}
-
 	}
 	# MILITARY
 	army_chief = {
-
-
-		FIN_lauri_malmberg = {
-
-			picture = generic_army_europe_2
-
-			allowed = {
-				original_tag = FIN
-			}
-
-
-
-			traits = { army_chief_drill_2 }
-
-			ai_will_do = {
-				factor = 1
-			}
-		}
-
-		FIN_hugo_osterman = {
-
-			picture = generic_army_europe_2
-
-			allowed = {
-				original_tag = FIN
-			}
-
-
-
-			traits = { army_chief_offensive_2 }
-
-			ai_will_do = {
-				factor = 1
-			}
-		}
-
-		FIN_carl_mannerheim = {
-
-			picture = generic_army_europe_4
-
-			allowed = {
-				original_tag = FIN
-			}
-
-
-
+		FIN_carl_mannerheim = {		
+			picture = carl_mannerheim		
+			allowed = {	original_tag = FIN	}		
 			traits = { army_chief_defensive_3 }
-
-			ai_will_do = {
-				factor = 1
-			}
 		}
 	}
 
 	air_chief = {
-
-
-		FIN_jarl_lundqvist = {
-
-			picture = generic_air_europe_3
-
-			allowed = {
-				original_tag = FIN
-			}
-
-
-
-			traits = { air_chief_all_weather_2 }
-
-			ai_will_do = {
-				factor = 1
-			}
-		}
-
 		FIN_olavi_sarko = {
-
+			
 			picture = generic_air_europe_1
-
+			
 			allowed = {
 				original_tag = FIN
 			}
+			
 
-
-
+			
 			traits = { air_chief_ground_support_2 }
-
-			ai_will_do = {
-				factor = 1
-			}
 		}
 	}
 
@@ -614,66 +597,50 @@ ideas = {
 	high_command = {
 		FIN_karl_oesch = {
 			ledger = army
-
+			
+			
 			allowed = {
 				original_tag = FIN
 			}
-
+			
 			picture = generic_army_europe_3
-
-			traits = { army_regrouping_1 }
-
-			ai_will_do = {
-				factor = 1
-			}
+			
+			traits = { army_regrouping_3 }
+			
 		}
-
-		FIN_valio_porvari = {
-			ledger = air
-
-			allowed = {
-				original_tag = FIN
-			}
-
-			picture = generic_air_europe_1
-
-			traits = { air_air_superiority_2 }
-
-			ai_will_do = {
-				factor = 1
-			}
-		}
-
-		FIN_lauri_tiainen = {
+				FIN_valio_porvari = {
 			ledger = army
-
+			allowed = {	original_tag = FIN	}
+			
+			picture = generic_army_europe_2
+			traits = { army_infantry_1 }
+		}
+		FIN_lauri_tiainen = {
+			ledger = army		
+			
 			allowed = {
 				original_tag = FIN
 			}
-
+			
 			picture = generic_army_europe_1
+			
+			traits = { army_commando_2 }
+			
 
-			traits = { army_commando_3 }
-
-			ai_will_do = {
-				factor = 1
-			}
 		}
 
 		FIN_harald_ohquist = {
 			ledger = army
-
+			
+			
 			allowed = {
 				original_tag = FIN
 			}
-
+			
 			picture = generic_army_europe_5
-
+			
 			traits = { army_regrouping_2 }
 
-			ai_will_do = {
-				factor = 1
-			}
 		}
 	}
 
