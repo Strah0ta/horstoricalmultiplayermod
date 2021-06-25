@@ -1,6 +1,59 @@
 spriteTypes = {	
 	
-	#
+	SpriteType = {
+		name = "GFX_goal_ita_cut_bureaucracy"
+		texturefile = "gfx/interface/goals/goal_ita_cut_bureaucracy.dds"
+	}
+		spriteType = {
+		name = "GFX_goal_SAF_railways_expansion"
+		texturefile = "gfx/interface/goals/SAF_railways_expansion.dds"
+	}
+		SpriteType = {
+		name = "GFX_ROM_land_reform"
+		texturefile = "gfx/interface/goals/ROM_land_reform.dds"
+	}
+		SpriteType = {
+		name = "GFX_ROM_food_storage"
+		texturefile = "gfx/interface/goals/ROM_food_storage.dds"
+	}	
+		spriteType = {
+		name = "GFX_goal_generic_television"
+		texturefile = "gfx/interface/goals/generic_television.dds"
+	}
+		SpriteType = {
+		name = "GFX_goal_ita_riforma_del_37"
+		texturefile = "gfx/interface/goals/goal_ita_riforma_del_37.dds"
+	}
+	spriteType = {
+		name = "GFX_goal_generic_police"
+		texturefile = "gfx/interface/goals/generic_police.dds"
+	}
+		SpriteType = {
+		name = "GFX_goal_generic_civs"
+		texturefile = "gfx/interface/goals/goal_generic_civs.dds"
+	}
+		SpriteType = {
+		name = "GFX_goal_war_economy"
+		texturefile = "gfx/interface/goals/goal_war_economy.dds"
+	}
+		spriteType = {
+		name = "GFX_goal_support_equipment"
+		texturefile = "gfx/interface/goals/goal_support_equipment.tga"
+	}
+		SpriteType = {
+		name = "GFX_goal_generic_arms_artillery_grenades"
+		texturefile = "gfx/interface/goals/goal_generic_arms_artillery_grenades.dds"
+	}
+		SpriteType = {
+		name = "GFX_goal_goal_generic_socdem"
+		texturefile = "gfx/interface/goals/goal_generic_socdem.dds"
+	}
+		SpriteType = {
+		name = "GFX_goal_generic_mils"
+		texturefile = "gfx/interface/goals/goal_generic_mils.dds"
+	}
+	
+	
 	spriteType = {
 		name = "GFX_goal_FIN_kp_31"
 		texturefile = "gfx/interface/goals/FIN/FIN_kp_31.dds"
