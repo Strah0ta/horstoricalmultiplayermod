@@ -4,18 +4,12 @@ ability = {
 		desc = ABILITY_FORCE_ATTACK_DESC				
 		type = army_leader
 		allowed = {
-			#check_variable = { num_armored < 1 }		
 			is_leading_army_group = no
-			OWNER = { NOT = { has_completed_focus = JAP_warrior_spirit OR = { tag = POL tag = BEL tag = HOL tag = DEN  }   } }
+			OWNER = { NOT = { has_completed_focus = JAP_warrior_spirit    } }
 		}
 		
 		cost = 0.22
 		duration = 168
-		unit_modifiers = { 
-		army_armor_defence_factor = -0.99
-		army_armor_attack_factor = -0.99
-		army_armor_speed_factor = -0.99
-		}
 		one_time_effect = {
 			add_temporary_buff_to_units = {
 				org_damage_multiplier = -1.0
@@ -32,20 +26,10 @@ ability = {
 		type = army_leader
 		allowed = {
 			is_leading_army_group = no
-			OWNER = { NOT = { has_completed_focus = JAP_warrior_spirit OR = { tag = POL tag = BEL tag = HOL tag = DEN  }   } }
-			#check_variable = { num_armored < 1 }					
+			OWNER = { NOT = { has_completed_focus = JAP_warrior_spirit   } }
 		}
 		cost = 0.22
 		duration = 168
-				unit_modifiers = { 
-		army_armor_defence_factor = -0.99
-		army_armor_attack_factor = -0.99
-		army_armor_speed_factor = -0.99
-		motorized_attack_factor = -0.99
-		motorized_defence_factor = -0.99
-		mechanized_attack_factor = -0.99
-		mechanized_defence_factor = -0.99
-		}
 		one_time_effect = {
 			add_temporary_buff_to_units = {
 				org_damage_multiplier = -1.0
@@ -71,20 +55,10 @@ ability = {
 		
 		cost = 0.05
 		duration = 168
-				unit_modifiers = { 
-		army_armor_defence_factor = -0.99
-		army_armor_attack_factor = -0.99
-		army_armor_speed_factor = -0.99
-		motorized_attack_factor = -0.99
-		motorized_defence_factor = -0.99
-		mechanized_attack_factor = -0.99
-		mechanized_defence_factor = -0.99
-		}
 		one_time_effect = {
 			add_temporary_buff_to_units = {
 				org_damage_multiplier = -1.0
 				str_damage_multiplier = 0.6
-				cannot_retreat_while_defending = 1.0	
 				days = 7
 				tooltip = ABILITY_LAST_STAND_TOOLTIP
 			}
