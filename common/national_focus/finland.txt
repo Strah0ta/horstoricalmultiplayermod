@@ -28,7 +28,7 @@ focus_tree = {
 		}
 		prerequisite = {}
 		mutually_exclusive = { }
-		cost = 4.4
+		cost = 5
 			ai_will_do = {
 			factor = 1
 		}
@@ -57,7 +57,7 @@ focus_tree = {
 		}
 		prerequisite = {}
 		mutually_exclusive = { }
-		cost = 4.4
+		cost = 5
 			ai_will_do = {
 			factor = 1
 		}
@@ -96,7 +96,7 @@ focus_tree = {
 		}
 		prerequisite = {}
 		mutually_exclusive = { }
-		cost = 4.4
+		cost = 5
 			ai_will_do = {
 			factor = 1
 		}
@@ -145,7 +145,7 @@ focus_tree = {
 		}
 		prerequisite = {}
 		mutually_exclusive = { }
-		cost = 4.4
+		cost = 5
 			ai_will_do = {
 			factor = 1
 		}
@@ -180,7 +180,7 @@ focus_tree = {
 		}
 		prerequisite = {}
 		mutually_exclusive = { }
-		cost = 4.4
+		cost = 5
 			ai_will_do = {
 			factor = 1
 		}
@@ -212,7 +212,7 @@ focus_tree = {
 		}
 		prerequisite = {}
 		mutually_exclusive = { }
-		cost = 4.4
+		cost = 5
 			ai_will_do = {
 			factor = 1
 		}
@@ -253,7 +253,7 @@ focus_tree = {
 		}
 		prerequisite = {}
 		mutually_exclusive = { }
-		cost = 4.4
+		cost = 5
 			ai_will_do = {
 			factor = 1
 		}
@@ -289,7 +289,7 @@ focus_tree = {
 		}
 		prerequisite = {}
 		mutually_exclusive = { }
-		cost = 4.4
+		cost = 5
 			ai_will_do = {
 			factor = 1
 		}
@@ -313,7 +313,7 @@ focus_tree = {
 				add_extra_state_shared_building_slots = 1
 			}
 			add_tech_bonus = {
-				bonus = 1.5
+				bonus = 1
 				uses = 1
 				category = industry
 			}
@@ -330,7 +330,7 @@ focus_tree = {
 		}
 		prerequisite = {}
 		mutually_exclusive = { }
-		cost = 4.4
+		cost = 5
 			ai_will_do = {
 			factor = 1
 		}
@@ -354,7 +354,7 @@ focus_tree = {
 				add_extra_state_shared_building_slots = 1
 			}
 			add_tech_bonus = {
-				bonus = 1.5
+				bonus = 1
 				uses = 1
 				category = electronics
 			}
@@ -371,7 +371,7 @@ focus_tree = {
 		}
 		prerequisite = {}
 		mutually_exclusive = { }
-		cost = 4.4
+		cost = 5
 			ai_will_do = {
 			factor = 1
 		}
@@ -407,7 +407,7 @@ focus_tree = {
 		}
 		prerequisite = {}
 		mutually_exclusive = { }
-		cost = 4.4
+		cost = 5
 			ai_will_do = {
 			factor = 1
 		}
@@ -436,7 +436,7 @@ focus_tree = {
 			focus = FIN_use_the_nokia_industrial_model
 		}
 		mutually_exclusive = { }
-		cost = 4.4
+		cost = 5
 			ai_will_do = {
 			factor = 1
 		}
@@ -452,14 +452,9 @@ focus_tree = {
 		available_if_capitulated = no
 		completion_reward = {
 			111 = {
-				add_building_construction = {
+				add_building_construction = { 
 					type = industrial_complex
 					level = 1
-					instant_build = yes
-				}
-				add_building_construction = {
-					type = synthetic_refinery
-					level = 2
 					instant_build = yes
 				}
 				add_extra_state_shared_building_slots = 1
@@ -478,7 +473,7 @@ focus_tree = {
 		}
 		prerequisite = {}
 		mutually_exclusive = { }
-		cost = 4.4
+		cost = 5
 			ai_will_do = {
 			factor = 1
 		}
@@ -515,7 +510,7 @@ focus_tree = {
 		}
 		prerequisite = {}
 		mutually_exclusive = { }
-		cost = 4.4
+		cost = 5
 			ai_will_do = {
 			factor = 1
 		}
@@ -533,12 +528,12 @@ focus_tree = {
 			add_resource = {
 				type = steel
 				amount = 21
-				state = 722
+				state = 111
 			}
 			add_resource = {
 				type = tungsten
 				amount = 18
-				state = 722
+				state = 111
 			}
 		}
 	}
@@ -555,7 +550,7 @@ focus_tree = {
 		}
 		prerequisite = {}
 		mutually_exclusive = { }
-		cost = 4.4
+		cost = 5
 			ai_will_do = {
 			factor = 1
 		}
@@ -589,7 +584,7 @@ focus_tree = {
 		}
 		prerequisite = {}
 		mutually_exclusive = { }
-		cost = 4.4
+		cost = 5
 			ai_will_do = {
 			factor = 1
 		}
@@ -625,7 +620,7 @@ focus_tree = {
 		}
 		prerequisite = {}
 		mutually_exclusive = { }
-		cost = 4.4
+		cost = 5
 			ai_will_do = {
 			factor = 1
 		}
@@ -661,7 +656,7 @@ focus_tree = {
 		}
 		prerequisite = {}
 		mutually_exclusive = { }
-		cost = 4.4
+		cost = 5
 			ai_will_do = {
 			factor = 1
 		}
@@ -688,19 +683,7 @@ focus_tree = {
 		prerequisite = {
 			focus = FIN_increment_the_armaments_production
 		}
-		prerequisite = {}
-		mutually_exclusive = { }
-		cost = 4.4
-			ai_will_do = {
-			factor = 1
-		}
-		available = {
-			
-		}
-		
-		bypass = {
-
-		}
+		cost = 5
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
@@ -718,25 +701,13 @@ focus_tree = {
 	
 	focus = {
 		id = FIN_increment_sako_ammunition_production
-		icon = GFX_SPA_fascist_economic_aid
+		icon = GFX_SPA_fascist_economic_aid 
 		x = 6
 		y = 7
 		prerequisite = {
 			focus = FIN_increment_the_armaments_production
 		}
-		prerequisite = {}
-		mutually_exclusive = { }
-		cost = 4.4
-			ai_will_do = {
-			factor = 1
-		}
-		available = {
-			
-		}
-		
-		bypass = {
-
-		}
+		cost = 5
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
@@ -759,7 +730,7 @@ focus_tree = {
 		y = 0
 		prerequisite = {}
 		mutually_exclusive = { }
-		cost = 4.4
+		cost = 5
 			ai_will_do = {
 			factor = 1
 		}
@@ -787,7 +758,7 @@ focus_tree = {
 			focus = FIN_red_soil_government
 		}
 		mutually_exclusive = { }
-		cost = 4.4
+		cost = 5
 			ai_will_do = {
 			factor = 1
 		}
@@ -814,18 +785,7 @@ focus_tree = {
 		prerequisite = {
 			focus = FIN_red_soil_government
 		}
-		mutually_exclusive = { }
-		cost = 4.4
-			ai_will_do = {
-			factor = 1
-		}
-		available = {
-			
-		}
-		
-		bypass = {
-
-		}
+		cost = 5
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
@@ -846,17 +806,7 @@ focus_tree = {
 			focus = FIN_guarantee_the_right_of_the_swedish_minorites
 		}
 		mutually_exclusive = { }
-		cost = 4.4
-			ai_will_do = {
-			factor = 1
-		}
-		available = {
-			
-		}
-		
-		bypass = {
-
-		}
+		cost = 5
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
@@ -874,17 +824,7 @@ focus_tree = {
 			focus = FIN_guarantee_the_right_of_the_swedish_minorites
 		}
 		mutually_exclusive = { }
-		cost = 4.4
-			ai_will_do = {
-			factor = 1
-		}
-		available = {
-			
-		}
-		
-		bypass = {
-
-		}
+		cost = 5
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
@@ -904,17 +844,7 @@ focus_tree = {
 			focus = FIN_red_soil_government
 		}
 		mutually_exclusive = { }
-		cost = 4.4
-			ai_will_do = {
-			factor = 1
-		}
-		available = {
-			
-		}
-		
-		bypass = {
-
-		}
+		cost = 5
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
@@ -932,17 +862,7 @@ focus_tree = {
 			focus = FIN_continue_the_mannerheim_scheme
 		}
 		mutually_exclusive = { }
-		cost = 4.4
-			ai_will_do = {
-			factor = 1
-		}
-		available = {
-			
-		}
-		
-		bypass = {
-
-		}
+		cost = 5
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
@@ -963,17 +883,7 @@ focus_tree = {
 			focus = FIN_expand_conscription
 		}
 		mutually_exclusive = { }
-		cost = 4.4
-			ai_will_do = {
-			factor = 1
-		}
-		available = {
-			
-		}
-		
-		bypass = {
-
-		}
+		cost = 5
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
@@ -994,17 +904,7 @@ focus_tree = {
 			focus = FIN_expand_conscription
 		}
 		mutually_exclusive = { }
-		cost = 4.4
-			ai_will_do = {
-			factor = 1
-		}
-		available = {
-			
-		}
-		
-		bypass = {
-
-		}
+		cost = 5
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
@@ -1022,7 +922,7 @@ focus_tree = {
 			focus = FIN_increase_military_spending
 		}
 		mutually_exclusive = { }
-		cost = 4.4
+		cost = 5
 			ai_will_do = {
 			factor = 1
 		}
@@ -1050,7 +950,7 @@ focus_tree = {
 			focus = FIN_expand_the_suomen_ilmavoimat
 		}
 		mutually_exclusive = { }
-		cost = 4.4
+		cost = 5
 			ai_will_do = {
 			factor = 1
 		}
@@ -1066,8 +966,8 @@ focus_tree = {
 		available_if_capitulated = no
 		completion_reward = {
 			add_tech_bonus = {
-				bonus = 2
-				uses = 4
+				bonus = 3
+				uses = 2
 				category = air_doctrine
 			}
 		}
@@ -1081,67 +981,20 @@ focus_tree = {
 		prerequisite = {
 			focus = FIN_adopt_the_finger_four_formation
 		}
-		mutually_exclusive = {
-			focus = FIN_study_foreign_aircraft
-		}
-		mutually_exclusive = { }
-		cost = 4.4
-			ai_will_do = {
-			factor = 1
-		}
-		available = {
-			
-		}
-		
-		bypass = {
 
-		}
+		cost = 5
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
 			add_equipment_to_stockpile = {
-				type = fighter_equipment
-				amount = 200
+				type = fighter_equipment_1
+				amount = 800
 				producer = HOL
 			}
 		}
 	}
 	
-	focus = {
-		id = FIN_study_foreign_aircraft
-		icon = GFX_goal_FIN_fighter
-		x = 21
-		y = 4
-		prerequisite = {
-			focus = FIN_adopt_the_finger_four_formation
-		}
-		mutually_exclusive = {
-			focus = FIN_buy_fokker_airplanes
-		}
-		mutually_exclusive = { }
-		cost = 4.4
-			ai_will_do = {
-			factor = 1
-		}
-		available = {
-			
-		}
-		
-		bypass = {
-
-		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-		completion_reward = {
-			add_tech_bonus = {
-				bonus = 1.5
-				uses = 1
-				category = air_equipment
-			}
-		}
-	}
 	
 	focus = {
 		id = FIN_move_IVL_to_tampere
@@ -1150,20 +1003,8 @@ focus_tree = {
 		y = 5
 		prerequisite = {
 			focus = FIN_buy_fokker_airplanes
-			focus = FIN_study_foreign_aircraft
 		}
-		mutually_exclusive = { }
-		cost = 4.4
-			ai_will_do = {
-			factor = 1
-		}
-		available = {
-			
-		}
-		
-		bypass = {
-
-		}
+		cost = 5
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
@@ -1197,7 +1038,7 @@ focus_tree = {
 		x = 23
 		y = 0
 		mutually_exclusive = { }
-		cost = 4.4
+		cost = 5
 			ai_will_do = {
 			factor = 1
 		}
@@ -1225,7 +1066,7 @@ focus_tree = {
 			focus = FIN_continue_the_mannerheim_scheme
 		}
 		mutually_exclusive = { }
-		cost = 4.4
+		cost = 5
 			ai_will_do = {
 			factor = 1
 		}
@@ -1255,7 +1096,7 @@ focus_tree = {
 			focus = FIN_implement_the_motti_tactics
 		}
 		mutually_exclusive = { }
-		cost = 4.4
+		cost = 5
 			ai_will_do = {
 			factor = 1
 		}
@@ -1271,7 +1112,7 @@ focus_tree = {
 		available_if_capitulated = no
 		completion_reward = {
 			add_tech_bonus = {
-				bonus = 1.5
+				bonus = 3
 				uses = 2
 				category = jaegar_tech
 			}
@@ -1287,7 +1128,7 @@ focus_tree = {
 			focus = FIN_continue_the_mannerheim_scheme
 		}
 		mutually_exclusive = { }
-		cost = 4.4
+		cost = 5
 			ai_will_do = {
 			factor = 1
 		}
@@ -1330,25 +1171,14 @@ focus_tree = {
 		prerequisite = {
 			focus = FIN_expand_the_mannerheim_line
 		}
-		mutually_exclusive = { }
-		cost = 4.4
-			ai_will_do = {
-			factor = 1
-		}
-		available = {
-			
-		}
-		
-		bypass = {
-
-		}
+		cost = 5
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
 			add_tech_bonus = {
-				bonus = 1.5
-				uses = 3
+				bonus = 0.75
+				uses = 4
 				category = artillery
 			}
 		}
@@ -1360,7 +1190,7 @@ focus_tree = {
 		x = 29
 		y = 0
 		mutually_exclusive = { }
-		cost = 4.4
+		cost = 5
 			ai_will_do = {
 			factor = 1
 		}
@@ -1387,24 +1217,13 @@ focus_tree = {
 		prerequisite = {
 			focus = FIN_increment_lahti_l_35_production
 		}
-		mutually_exclusive = { }
-		cost = 4.4
-			ai_will_do = {
-			factor = 1
-		}
-		available = {
-			
-		}
-		
-		bypass = {
-
-		}
+		cost = 5
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
 			add_tech_bonus = {
-				bonus = 1
+				bonus = 0.5
 				uses = 2
 				category = infantry_weapons
 			}
@@ -1413,30 +1232,23 @@ focus_tree = {
 	
 	focus = {
 		id = FIN_develop_the_120_krh_40
-		icon = GFX_goal_generic_support_weapons
+		icon = GFX_generic_support_weapons
 		x = 30
 		y = 1
 		prerequisite = {
 			focus = FIN_increment_lahti_l_35_production
 		}
 		mutually_exclusive = { }
-		cost = 4.4
+		cost = 5
 			ai_will_do = {
 			factor = 1
-		}
-		available = {
-			
-		}
-		
-		bypass = {
-
 		}
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
 			add_tech_bonus = {
-				bonus = 1.5
+				bonus = 1
 				uses = 3
 				category = support_tech
 			}
@@ -1452,17 +1264,7 @@ focus_tree = {
 			focus = FIN_improve_the_suomi_kp_31
 		}
 		mutually_exclusive = { }
-		cost = 4.4
-			ai_will_do = {
-			factor = 1
-		}
-		available = {
-			
-		}
-		
-		bypass = {
-
-		}
+		cost = 5
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
@@ -1476,36 +1278,25 @@ focus_tree = {
 	
 	focus = {
 		id = FIN_develop_a_finnish_aa
-		icon = GFX_goal_generic_air_defense
+		icon = GFX_Goal_Generic_Air_Defense
 		x = 25
 		y = 3
 		prerequisite = {
 			focus = FIN_tuli_isku
 		}
-		mutually_exclusive = { }
-		cost = 4.4
-			ai_will_do = {
-			factor = 1
-		}
-		available = {
-			
-		}
-		
-		bypass = {
-
-		}
+		cost = 5
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
 			add_tech_bonus = {
-				bonus = 1.5
+				bonus = 1
 				uses = 2
 				category = cat_antiair
 			}
 		}
 	}
-	
+	 
 	focus = {
 		id = FIN_replace_he_lahti_l_39_with_an_at_gun
 		icon = GFX_goal_generic_anti_tank
@@ -1517,25 +1308,15 @@ focus_tree = {
 		prerequisite = {
 			focus = FIN_produce_the_lahti_l_39
 		}
-		mutually_exclusive = { }
-		cost = 4.4
-			ai_will_do = {
-			factor = 1
-		}
-		available = {
-			
-		}
+		cost = 5
 		
-		bypass = {
-
-		}
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
 			add_tech_bonus = {
-				bonus = 1.5
-				uses = 2
+				bonus = 0.5
+				uses = 3
 				category = cat_anti_tank
 			}
 		}
@@ -1550,17 +1331,7 @@ focus_tree = {
 			focus = FIN_produce_the_lahti_l_39
 		}
 		mutually_exclusive = { }
-		cost = 4.4
-			ai_will_do = {
-			factor = 1
-		}
-		available = {
-			
-		}
-		
-		bypass = {
-
-		}
+		cost = 5
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
@@ -1578,17 +1349,7 @@ focus_tree = {
 		y = 4
 
 		mutually_exclusive = { }
-		cost = 4.4
-			ai_will_do = {
-			factor = 1
-		}
-		available = {
-			always = no
-		}
-		
-		bypass = {
-
-		}
+		cost = 5
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
@@ -1607,19 +1368,8 @@ focus_tree = {
 		icon = GFX_goal_FIN_rationing
 		x = 15
 		y = 5
-
-		mutually_exclusive = { }
-		cost = 4.4
-			ai_will_do = {
-			factor = 1
-		}
-		prerequisite = {
-			focus = FIN_the_truce
-		}
-		
-		bypass = {
-
-		}
+		cost = 5
+		prerequisite = {	focus = FIN_the_truce	}
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
@@ -1634,17 +1384,9 @@ focus_tree = {
 		x = 13
 		y = 5
 
-		mutually_exclusive = { }
-		cost = 4.4
-			ai_will_do = {
-			factor = 1
-		}
+		cost = 5
 		prerequisite = {
 			focus = FIN_the_truce
-		}
-		
-		bypass = {
-
 		}
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -1666,19 +1408,7 @@ focus_tree = {
 		prerequisite = {
 			focus = FIN_the_truce
 		}
-		prerequisite = {}
-		mutually_exclusive = { }
-		cost = 4.4
-			ai_will_do = {
-			factor = 1
-		}
-		available = {
-			
-		}
-		
-		bypass = {
-
-		}
+		cost = 5
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
@@ -1708,19 +1438,7 @@ focus_tree = {
 		prerequisite = {
 			focus = FIN_expand_the_rationing_system
 		}
-		prerequisite = {}
-		mutually_exclusive = { }
-		cost = 4.4
-			ai_will_do = {
-			factor = 1
-		}
-		available = {
-			
-		}
-		
-		bypass = {
-
-		}
+		cost = 5
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
@@ -1738,18 +1456,7 @@ focus_tree = {
 		prerequisite = {
 			focus = FIN_prepare_for_the_revenge
 		}
-		mutually_exclusive = { }
-		cost = 4.4
-			ai_will_do = {
-			factor = 1
-		}
-		available = {
-			
-		}
-		
-		bypass = {
-
-		}
+		cost = 5
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
@@ -1858,27 +1565,17 @@ focus_tree = {
 		prerequisite = {
 			focus = FIN_prepare_for_the_revenge
 		}
-		mutually_exclusive = { }
-		cost = 4.4
-			ai_will_do = {
-			factor = 1
-		}
-		available = {
-			
-		}
-		
-		bypass = {
-
-		}
+		cost = 5
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
 			add_tech_bonus = {
 				bonus = 1
-				uses = 1
-				category = armor
-			}
+				uses = 2
+				category = cat_1941_tanks
+				category = cat_1943_tanks		
+				}
 		}
 	}
 	
@@ -1891,17 +1588,8 @@ focus_tree = {
 			focus = FIN_prepare_for_the_revenge
 		}
 		mutually_exclusive = { }
-		cost = 4.4
-			ai_will_do = {
-			factor = 1
-		}
-		available = {
-			
-		}
-		
-		bypass = {
+		cost = 5
 
-		}
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
@@ -1982,18 +1670,8 @@ focus_tree = {
 			controls_state = 215
 			controls_state = 216
 		}
-		mutually_exclusive = { }
-		cost = 4.4
-			ai_will_do = {
-			factor = 1
-		}
-		available = {
-			
-		}
-		
-		bypass = {
+		cost = 5
 
-		}
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no

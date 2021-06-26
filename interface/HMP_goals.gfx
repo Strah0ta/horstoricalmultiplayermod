@@ -1,5 +1,27 @@
 spriteTypes = {	
+		SpriteType = {
+		name = "GFX_goal_GER_finance_conglomerate"
+		texturefile = "gfx/interface/goals/GER_finance_conglomerate.dds"
+	}
 	
+	
+	
+	
+	
+	
+	
+	SpriteType = {
+		name = "GFX_generic_support_weapons"
+		texturefile = "gfx/interface/goals/generic_support_weapons.dds"
+	}
+			SpriteType = {
+		name = "GFX_goal_generic_anti_tank"
+		texturefile = "gfx/interface/goals/goal_generic_anti_tank.dds"
+	}
+		SpriteType = {
+		name = "GFX_SPA_fascist_economic_aid"
+		texturefile = "gfx/interface/goals/SPA_fascist_economic_aid.dds"
+	}
 	SpriteType = {
 		name = "GFX_goal_ita_cut_bureaucracy"
 		texturefile = "gfx/interface/goals/goal_ita_cut_bureaucracy.dds"

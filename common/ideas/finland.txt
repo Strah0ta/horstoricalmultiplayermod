@@ -1,37 +1,7 @@
 ideas = {
 
 	country = {
-			fin_sisu1 = {
-			
-			allowed = {
-				always = no
-			}
-			
-			picture = sisu
-
-			allowed_civil_war = {
-				NOT = {
-					has_government = communism
-				}
-			}
-
-			removal_cost = -1
-			
-			modifier = {
-				army_morale_factor = 0.25
-				attrition = -0.1
-				war_support_factor = 0.2
-				stability_factor = 0.2		
-				army_core_attack_factor = 0.4
-				army_core_defence_factor = 0.4
-				surrender_limit = 0.19
-				conscription = 0.2
-				mobilization_speed = 1.0
-				min_export = -1
- 			}
-		}
-		
-				fin_sisu_ai = {
+		fin_sisu_ai = {
 			
 			allowed = {
 				always = no
@@ -81,12 +51,10 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				army_morale_factor = 0.10
-				army_core_attack_factor = 0.6
-				army_core_defence_factor = 0.6
+				army_morale_factor = 0.25
+				army_core_attack_factor = 0.4
+				army_core_defence_factor = 0.4
 				surrender_limit = 0.8		
-				army_attack_factor = -0.4
-				army_defence_factor = -0.4
 			}
 
 		}
@@ -197,9 +165,8 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				conscription = 0.01
+				conscription_factor = 0.25
 				army_org_factor = 0.05
-				acclimatization_cold_climate_gain_factor = 2.5
 			}
 
 		}
@@ -341,7 +308,7 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				intelligence_agency_defense = 2
+				crypto_strength  = 2
 			}
 
 		}
@@ -401,7 +368,7 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				conscription = 0.02
+				conscription = 0.10
 			}
 
 		}

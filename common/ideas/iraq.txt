@@ -1,5 +1,9 @@
 ideas = {
 country = { 
+	IRQ_empire = { 
+picture = generic_manpower_bonus	
+	modifier =   {  army_org_factor = 0.25 }
+	}
 				irq_militarism = {		
 			picture = generic_manpower_bonus
 			allowed = {	always = no	}
