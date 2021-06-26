@@ -1537,7 +1537,7 @@ focus_tree = {
 					province = 6128
 				}
 			}
-			722 = {
+			148 = {
 				set_building_level = {
 					type = anti_air_building
 					level = 5
@@ -1656,28 +1656,27 @@ focus_tree = {
 			}
 		}
 	}
-	
-	focus = {
-		id = FIN_proclaim_greater_finland
-		icon = GFX_goal_FIN_greater_finland
+				focus = {
+		id = fin_karelianism #GFX_goal_FIN_greater_finland
+		icon = GFX_goal_generic_demand_territory
+		available = {
+		controls_state = 215 controls_state = 216 controls_state = 213
+		}
 		x = 15
 		y = 9
 		prerequisite = {
 			focus = FIN_join_the_crusade_against_bolshevism
 		}
-		available = {
-			controls_state = 213
-			controls_state = 215
-			controls_state = 216
-		}
-		cost = 5
+	
+		cost = 10
 
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
+		available_if_capitulated = yes
+
 		completion_reward = {
-			add_state_core = 213
-			add_state_core = 215
-			add_state_core = 216
+		add_state_core = 213
+		add_state_core = 215
+		add_state_core = 216
+		add_popularity = { ideology = fascism popularity = 0.1 }
 		}
 	}
+	

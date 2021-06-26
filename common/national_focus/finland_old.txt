@@ -534,28 +534,7 @@ focus_tree = {
 		completion_reward = {	add_ideas = fin_continuation_war 	}
 	}
 		
-			focus = {
-		id = fin_karelianism
-		icon = GFX_goal_generic_demand_territory
-		prerequisite = { focus = fin_continuation }
-		available = {
-		controls_state = 215 controls_state = 216 controls_state = 213
-		}
-		relative_position_id = fin_continuation
-		x = 0
-		y = 1
-	
-		cost = 10
 
-		available_if_capitulated = yes
-
-		completion_reward = {
-		add_state_core = 213
-		add_state_core = 215
-		add_state_core = 216
-		add_popularity = { ideology = fascism popularity = 0.1 }
-		}
-	}
 
 	focus = {
 		id = fin_technology_sharing
