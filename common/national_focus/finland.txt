@@ -5,7 +5,7 @@ focus_tree = {
 		factor = 0
 		
 		modifier = {
-			add = 1
+			add = 11
 			tag = FIN
 		}
 	}
@@ -735,7 +735,7 @@ focus_tree = {
 			factor = 1
 		}
 		available = {
-			always = no
+			custom_trigger_tooltip = { date > 1936.7.17 tooltip  = "The July 1936 Elections have occurred"} 
 		}
 		
 		bypass = {
@@ -745,7 +745,8 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-			
+			custom_effect_tooltip = FIN_red_soil_government_tt
+			add_political_power = 50
 		}
 	}
 	
@@ -861,13 +862,13 @@ focus_tree = {
 		prerequisite = {
 			focus = FIN_continue_the_mannerheim_scheme
 		}
-		mutually_exclusive = { }
+		bypass = { has_idea = partial_economic_mobilisation }
 		cost = 5
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-			add_ideas = war_economy
+			add_ideas = partial_economic_mobilisation
 		}
 	}
 	
@@ -992,6 +993,11 @@ focus_tree = {
 				amount = 800
 				producer = HOL
 			}
+			add_equipment_to_stockpile = {
+				type = CAS_equipment_1
+				amount = 200
+				producer = HOL
+			}
 		}
 	}
 	
@@ -999,10 +1005,10 @@ focus_tree = {
 	focus = {
 		id = FIN_move_IVL_to_tampere
 		icon = GFX_goal_generic_construct_mil_factory
-		x = 20
-		y = 5
+		x = 21
+		y = 4
 		prerequisite = {
-			focus = FIN_buy_fokker_airplanes
+			focus = FIN_adopt_the_finger_four_formation
 		}
 		cost = 5
 		cancel_if_invalid = yes
@@ -1081,9 +1087,8 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-			set_technology = {
-				motti_warfare = 1
-			}
+					custom_effect_tooltip = "We will develop our military doctrine with Motti Tactics, making it easier to defend forests."
+			hidden_effect = {	set_technology = {motti_warfare = 1	} }
 		}
 	}
 	
@@ -1163,7 +1168,7 @@ focus_tree = {
 		}
 	}
 	
-	focus = {
+	focus = { 
 		id = FIN_tuli_isku
 		icon = GFX_goal_generic_army_artillery2
 		x = 26
@@ -1186,7 +1191,7 @@ focus_tree = {
 	
 	focus = {
 		id = FIN_increment_lahti_l_35_production
-		icon = GFX_goal_rifle_production
+		icon = GFX_rifle_production
 		x = 29
 		y = 0
 		mutually_exclusive = { }
@@ -1223,8 +1228,7 @@ focus_tree = {
 		available_if_capitulated = no
 		completion_reward = {
 			add_tech_bonus = {
-				bonus = 0.5
-				uses = 2
+				bonus = 0.75
 				category = infantry_weapons
 			}
 		}
@@ -1315,9 +1319,9 @@ focus_tree = {
 		available_if_capitulated = no
 		completion_reward = {
 			add_tech_bonus = {
-				bonus = 0.5
+				bonus = 0.75
 				uses = 3
-				category = cat_anti_tank
+				category = cat_anti_tank 
 			}
 		}
 	}
@@ -1335,11 +1339,8 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		completion_reward = {
-					hidden_effect= { set_technology = { motti_warfare = 1	} }
-			custom_effect_tooltip = "We will develop our military doctrine with Motti Tactics, making it easier to defend forests."
-			
-			set_technology = [
+		completion_reward = {			
+			set_technology = {
 				molotov_cocktail = 1
 			}
 		}
@@ -1593,24 +1594,24 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		completion_reward = {
-			add_equipment_to_stockpile = {
-				type = infantry_equipment
+		completion_reward = { 
+			add_equipment_to_stockpile = { 
+				type = infantry_equipment_1
 				amount = 10000
 				producer = GER
 			}
 			add_equipment_to_stockpile = {
-				type = anti_air_equipment
+				type = anti_air_equipment_1
 				amount = 400
 				producer = GER
 			}
 			add_equipment_to_stockpile = {
-				type = anti_tank_equipment
+				type = anti_tank_equipment_1
 				amount = 300
 				producer = GER
 			}
 			add_equipment_to_stockpile = {
-				type = artillery_equipment
+				type = artillery_equipment_1
 				amount = 500
 				producer = GER
 			}
@@ -1619,7 +1620,7 @@ focus_tree = {
 	 
 	focus = {
 		id = FIN_join_the_crusade_against_bolshevism
-		icon = GFX_goal_GER_barbarossa
+		icon = GFX_focus_eng_expose_the_belly_of_the_bear
 		x = 15
 		y = 8
 		prerequisite = {

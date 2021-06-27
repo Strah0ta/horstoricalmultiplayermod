@@ -13,6 +13,7 @@
  YUG_develop_serbian_artillery:1 "Expand Zastava Arms"
  YUG_develop_serbian_artillery_desc:2 "A modern military requires modern weapons."
  YUG_serbian_steel:0 "Croatian Steel"
+ FIN_red_soil_government_tt:0 "This focus will automatically complete itself after elections have occured\n\n"
  YUG_serbian_steel_desc:1 "We must start the production of steel in Croatian. We always require more of it for the war effort."
 # make focus about Lorković–Vokić plot to make coalition peasant party - moderate ustasha, join the allies and fight the communists
  CRO_fascism_party:0 "Ustaša"

@@ -1,5 +1,34 @@
 spriteTypes = {	
-
+					SpriteType = {
+		name = "GFX_rifle_production_shine"
+		texturefile = "gfx/interface/goals/GFX_rifle_production.dds"
+		effectFile = "gfx/FX/buttonstate_onlydisable.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/GFX_rifle_production.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"     # <- the animated file
+            animationrotation = -90.0        # -90 clockwise 90 counterclockwise(by default)
+            animationlooping = yes            # yes or no ;)
+            animationtime = 0.75                # in seconds
+            animationdelay = 1.0            # in seconds
+            animationblendmode = "add"       #add, multiply, overlay
+            animationtype = "scrolling"      #scrolling, rotating, pulsing
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        } 
+        animation = {
+            animationmaskfile = "gfx/interface/goals/GFX_rifle_production.dds"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"     # <- the animated file
+            animationrotation = 90.0        # -90 clockwise 90 counterclockwise(by default)
+            animationlooping = yes            # yes or no ;)
+            animationtime = 0.75                # in seconds
+            animationdelay = 1.0            # in seconds
+            animationblendmode = "add"       #add, multiply, overlay
+            animationtype = "scrolling"      #scrolling, rotating, pulsing
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        legacy_lazy_load = no
+    }
 					SpriteType = {
 		name = "GFX_goal_generic_after_war_shine"
 		texturefile = "gfx/interface/goals/generic_after_war.dds"
@@ -64,10 +93,10 @@ spriteTypes = {
 	
 			SpriteType = {
 		name = "GFX_goal_generic_war_plan_shine"
-		texturefile = "gfx/interface/goals/GFX_goal_generic_war_plan.dds"
+		texturefile = "gfx/interface/goals/goal_generic_war_plan.dds"
 		effectFile = "gfx/FX/buttonstate_onlydisable.lua"
         animation = {
-            animationmaskfile = "gfx/interface/goals/GFX_goal_generic_war_plan.dds"
+            animationmaskfile = "gfx/interface/goals/goal_generic_war_plan.dds"
             animationtexturefile = "gfx/interface/goals/shine_overlay.dds"     # <- the animated file
             animationrotation = -90.0        # -90 clockwise 90 counterclockwise(by default)
             animationlooping = yes            # yes or no ;)
@@ -79,7 +108,7 @@ spriteTypes = {
             animationtexturescale = { x = 1.0 y = 1.0 }
         }
         animation = {
-            animationmaskfile = "gfx/interface/goals/GFX_goal_generic_war_plan.dds"
+            animationmaskfile = "gfx/interface/goals/goal_generic_war_plan.dds"
             animationtexturefile = "gfx/interface/goals/shine_overlay.dds"     # <- the animated file
             animationrotation = 90.0        # -90 clockwise 90 counterclockwise(by default)
             animationlooping = yes            # yes or no ;)

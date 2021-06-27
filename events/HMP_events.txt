@@ -837,6 +837,7 @@ country_event = {
 	fire_only_once = yes
 	option = {
 		name = lar_spain.1.b
+		hidden_effect = { FIN = { complete_national_focus = FIN_red_soil_government }}
 	}
 }
 
