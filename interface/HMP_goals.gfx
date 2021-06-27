@@ -4,6 +4,26 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/GER_finance_conglomerate.dds"
 	}
 	
+			SpriteType = {
+		name = "GFX_goal_generic_after_war"
+		texturefile = "gfx/interface/goals/generic_after_war.dds"
+	}
+			SpriteType = {
+		name = "GFX_goal_GER_barbarossa"
+		texturefile = "gfx/interface/goals/GER_barbarossa.dds"
+	}
+			SpriteType = {
+		name = "GFX_goal_generic_war_plan"
+		texturefile = "gfx/interface/goals/goal_generic_war_plan.dds"
+	}
+			SpriteType = {
+		name = "GFX_goal_generic_defense"
+		texturefile = "gfx/interface/goals/goal_generic_defense.dds"
+	}
+			SpriteType = {
+		name = "GFX_goal_USA_well_supplied_and_motivated"
+		texturefile = "gfx/interface/goals/USA_well_supplied_and_motivated.dds"
+	}
 	
 	
 	

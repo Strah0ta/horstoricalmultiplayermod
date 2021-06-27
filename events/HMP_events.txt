@@ -533,12 +533,11 @@ country_event = {
 			287 = { add_core_of = SOV }
 			80 = { add_core_of = SOV }
 			country_event = finland.20
-				HMP_script_finland = yes
 					add_named_threat = { threat = 7.5 name = Winter_War_Threat }
+					
 			}
-			SOV = {  transfer_state = 80 }
-		
-		
+			FIN = { complete_national_focus = FIN_the_truce }
+		 
 	}
 }
 

@@ -11,7 +11,15 @@ technologies = {
 	@1944 = 16
 	@1945 = 18
 	@1946 = 20
-	
+		molotov_cocktail = {
+		category_all_infantry = {
+			hard_attack = 1
+			ap_attack = 1
+		}
+				allow = {
+			always = no
+		}
+	}
 	winter_warfare = { 
 			research_cost = 1
 

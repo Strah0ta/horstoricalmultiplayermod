@@ -5,7 +5,7 @@ focus_tree = {
 		factor = 0
 		
 		modifier = {
-			add = 11
+			add = 1
 			tag = FIN
 		}
 	}
@@ -1336,6 +1336,9 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+					hidden_effect= { set_technology = { motti_warfare = 1	} }
+			custom_effect_tooltip = "We will develop our military doctrine with Motti Tactics, making it easier to defend forests."
+			
 			set_technology = [
 				molotov_cocktail = 1
 			}
@@ -1350,16 +1353,13 @@ focus_tree = {
 
 		mutually_exclusive = { }
 		cost = 5
+		available = { always = no }
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-			hidden_effect = {
-				swap_ideas = {
-					remove_idea = FIN_sisu
-					add_idea = FIN_sisu_2
-				}
-			}
+				add_ideas = war_economy
+				SOV = { transfer_state = 146 add_state_core = 146  transfer_state = 147 add_state_core = 147 add_timed_idea = { idea = SPR_seized_spanish_gold_reserves days = 365 }  }
 		}
 	}
 	
@@ -1571,7 +1571,7 @@ focus_tree = {
 		available_if_capitulated = no
 		completion_reward = {
 			add_tech_bonus = {
-				bonus = 1
+				bonus = 3
 				uses = 2
 				category = cat_1941_tanks
 				category = cat_1943_tanks		
@@ -1616,7 +1616,7 @@ focus_tree = {
 			}
 		}
 	}
-	
+	 
 	focus = {
 		id = FIN_join_the_crusade_against_bolshevism
 		icon = GFX_goal_GER_barbarossa

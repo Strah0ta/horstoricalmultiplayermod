@@ -5,7 +5,8 @@ set_research_slots = 3
 set_rule = { can_be_spymaster = no }
 create_intelligence_agency = yes
 add_timed_idea = { idea = NO_TRADE days = 730 }
-
+set_stability = 0.8
+set_war_support = 0.5
 set_technology = {
 	infantry_weapons = 1
 	infantry_weapons1 = 1
@@ -31,10 +32,10 @@ set_variable = {
     value = 0.800
 }
 anti_cross_faction_trade_allies = yes
-set_convoys = 10
+set_convoys = 5
 add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 20000 }
 add_ideas = { 
-	service_by_requirement
+	limited_conscription
 	armyandnavy_idea
 	FIN_sisu
 	FIN_no_grain
