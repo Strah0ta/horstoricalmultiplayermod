@@ -255,7 +255,6 @@ on_actions = {
 			if = { limit = { date > 1939.9.1 ENG = { controls_state = 118 	divisions_in_state = { type = infantry   size < 1   state = 118 } } } ENG = { country_event = { id = mtg_netherlands.1147 days = 1 }}  }
 		}
 	}
-	
 	on_monthly_GER = {
 		effect = { 
 		recalc_vichy_france_legitimacy = yes 
@@ -264,5 +263,4 @@ on_actions = {
 		if = { limit = {GER = {has_completed_focus = GER_the_great_turn}} GER = {add_to_variable={germany_war_exhaustion_war_support_factor=-0.004}add_to_variable = {germany_war_exhaustion_stability_factor=-0.002}}}				
 		}
 	}
-
 	}

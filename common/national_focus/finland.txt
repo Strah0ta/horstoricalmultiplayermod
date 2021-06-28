@@ -1402,17 +1402,17 @@ focus_tree = {
 				}
 				set_building_level = {
 					type = bunker
-					level = 3
+					level = 4
 					province = 6186
 				}
 				set_building_level = {
 					type = bunker
-					level = 3
+					level = 4
 					province = 6082
 				}
 				set_building_level = {
 					type = bunker
-					level = 3
+					level = 4
 					province = 52
 				}
 			}
@@ -1424,22 +1424,22 @@ focus_tree = {
 				}
 				set_building_level = {
 					type = bunker
-					level = 3
+					level = 4
 					province = 139
 				}
 				set_building_level = {
 					type = bunker
-					level = 3
+					level = 4
 					province = 3030
 				}
 				set_building_level = {
 					type = bunker
-					level = 3
+					level = 4
 					province = 9181
 				}
 				set_building_level = {
 					type = bunker
-					level = 3
+					level = 4
 					province = 6210
 				}
 			}
@@ -1451,26 +1451,20 @@ focus_tree = {
 				}
 				set_building_level = {
 					type = bunker
-					level = 3
+					level = 4
 					province = 6045
 				}
 				set_building_level = {
 					type = bunker
-					level = 3
+					level = 4
 					province = 3156
 				}
 				set_building_level = {
 					type = bunker
-					level = 3
+					level = 4
 					province = 11030
 				}
-				set_building_level = {
-					type = bunker
-					level = 3
-					province = 6128
-				}
-			}
-			148 = {
+				502 = { 
 				set_building_level = {
 					type = anti_air_building
 					level = 5
@@ -1478,15 +1472,20 @@ focus_tree = {
 				}
 				set_building_level = {
 					type = bunker
-					level = 3
+					level = 4
+					province = 6128
+				}
+				set_building_level = {
+					type = bunker
+					level = 4
 					province = 6012
 				}
 				set_building_level = {
 					type = bunker
-					level = 3
+					level = 4
 					province = 9140
 				}
-			}
+				}
 		}
 	}
 	
