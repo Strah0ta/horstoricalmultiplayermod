@@ -529,7 +529,20 @@ ideas = {
 			}
 			modifier = { production_speed_infrastructure_factor = 0.5      }
 		}
-
+				GER_barbarossa_son = {
+			allowed = {	always = no	}
+			allowed_civil_war = {	has_government = fascism	}
+			available = { date < 1944.11.23 }
+			removal_cost = -1
+			picture = generic_acquire_tanks
+			targeted_modifier = {
+				tag = SOV
+				attack_bonus_against = 0.15
+			}
+			modifier = { production_speed_infrastructure_factor = 0.5      }
+		}
+		
+		
 		GER_dismantle_maginot = {
 			allowed = {
 				always = no

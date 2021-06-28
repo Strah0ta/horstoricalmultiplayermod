@@ -2947,9 +2947,18 @@ create_field_marshal = {
 	planning_skill = 3
 	logistics_skill = 8
 }
-
+		create_field_marshal = { 
+		name = "Aksel Airo"
+		picture = "Portrait_FIN_Aksel_Airo.tga"
+		traits = {  infantry_leader organisational_leader inspirational_leader infantry_expert brilliant_strategist organizer logistics_wizard fast_planner aggressive_assaulter }
+		skill = 7
+		attack_skill = 4
+		defense_skill = 6
+		planning_skill = 5
+		logistics_skill = 7
+	}
 create_corps_commander = {
-	name = "Erik Heinrichs" #Point Value: 20
+	name = "Erik Heinrichs"
 	portrait_path = "gfx/leaders/FIN/Erik_Heinrichs.tga"
 	traits = {  ranger trickster commando infantry_leader ambusher scavenger guerilla_fighter skilled_staffer }
 	skill = 7
@@ -2959,7 +2968,7 @@ create_corps_commander = {
     logistics_skill = 8
 }
 create_corps_commander = {
-	name = "Vilho Petter Nenonen" #Point Value: 20
+	name = "Vilho Petter Nenonen" 
 	portrait_path = "gfx/leaders/FIN/portrait_fin_vilho_petter_nenonen.dds"
 	traits = {  ranger trickster swamp_fox infantry_leader ambusher trait_engineer bearer_of_artillery skilled_staffer }
 	skill = 7
@@ -2968,67 +2977,50 @@ create_corps_commander = {
     planning_skill = 8
     logistics_skill = 4
 }
-
-
-
-
-###WORK ON THIS
-
-create_field_marshal = {
-	name = "Aksel Airo"
-	picture = "Portrait_FIN_Aksel_Airo.tga"
-	traits = { inflexible_strategist trait_cautious organizer defensive_doctrine winter_specialist infantry_leader  }
-	skill = 7
-	attack_skill = 4
-	defense_skill = 6
-	planning_skill = 5
-	logistics_skill = 5
-}
-
-create_corps_commander = {
-	name = "Hjalmar Siilasvuo"
-	picture = "Portrait_FIN_Hjalmar_Siilasvuo.tga"
-	traits = {commando war_hero inflexible_strategist trickster guerilla_fighter trait_reckless ranger winter_specialist }
-	skill = 7
-    attack_skill = 7
-    defense_skill = 3
-    planning_skill = 3
-    logistics_skill = 6
-}
-
-create_corps_commander = {
-	name = "Karl Lennart Oesch"
+	create_corps_commander = { 
+    name = "Karl Lennart Oesch"  
 	picture = "Portrait_FIN_Karl_Lennart_Oesch.tga"
-	traits = {infantry_leader  brilliant_strategist trickster guerilla_fighter trait_reckless ranger winter_specialist }
-	skill = 8
+    traits = {  ranger panzer_leader panzer_expert trickster expert_improviser scavenger organizer winter_specialist }
+    skill = 7
     attack_skill = 6
-    defense_skill = 5
-    planning_skill = 3
-    logistics_skill = 5
+    defense_skill = 6
+    planning_skill = 5
+    logistics_skill = 5 
 }
 
-create_corps_commander = {
+	create_corps_commander = {
+		name = "Hjalmar Siilasvuo"  #Point Value: 20
+		picture = "Portrait_FIN_Hjalmar_Siilasvuo.tga"
+		traits = { trait_reckless adaptable ranger swamp_fox commando skirmisher cavalry_expert cavalry_leader combined_arms_expert inflexible_strategist winter_specialist organizer }
+		skill = 7
+		attack_skill = 4
+		defense_skill = 6
+		planning_skill = 4
+		logistics_skill = 8
+	}
+
+	
+	
+	create_corps_commander = {  
 	name = "Paavo Talvela"
 	picture = "Portrait_FIN_Paavo_Talvela.tga"
-	traits = {infantry_leader  brilliant_strategist trickster trait_reckless ranger winter_specialist }
-	skill = 8
-    attack_skill = 7
-    defense_skill = 1
-    planning_skill = 4
-    logistics_skill = 5
-}
-
-create_corps_commander = {
-	name = "Aaro Pajari"
-	picture = "Portrait_FIN_Aaro_Pajari.tga"
-	traits = {infantry_leader trickster guerilla_fighter trait_reckless ranger winter_specialist }
+	traits = { infantry_leader ranger infantry_expert  trickster expert_improviser  trait_engineer brilliant_strategist winter_specialist  }
 	skill = 7
-    attack_skill = 5
-    defense_skill = 3
-    planning_skill = 3
-    logistics_skill = 8
+	attack_skill = 5
+	defense_skill = 4
+	planning_skill = 7
+	logistics_skill = 6
 }
-
+create_corps_commander = {
+   	name = "Aaro Pajari" 
+	picture = "Portrait_FIN_Aaro_Pajari.tga"
+	traits = { cavalry_leader cavalry_expert combined_arms_expert ambusher trickster skirmisher ranger guerilla_fighter commando } 
+		skill = 7
+    attack_skill = 3
+    defense_skill = 4
+    planning_skill = 5
+    logistics_skill = 10
+}
 }
 
 ETH = {  #These generals are always going to be bad because my UK players hate IEA players too much

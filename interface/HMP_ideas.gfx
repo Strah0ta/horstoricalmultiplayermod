@@ -1,8 +1,10 @@
 spriteTypes = {	
 
 
-
-
+	SpriteType = {
+		name = "GFX_idea_rifle_production"
+		texturefile = "gfx/interface/ideas/rifle_production.dds"
+	}
 	SpriteType = {
 		name = "GFX_idea_FIN_fin_swe_anger"
 		texturefile = "gfx/interface/ideas/new/FIN_fin_swe_anger.dds"

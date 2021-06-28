@@ -1228,6 +1228,7 @@ focus_tree = {
 		available_if_capitulated = no
 		completion_reward = {
 			add_tech_bonus = {
+			uses = 2 
 				bonus = 0.75
 				category = infantry_weapons
 			}

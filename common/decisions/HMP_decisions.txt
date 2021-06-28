@@ -482,7 +482,20 @@ available = { check_variable = { var = SOV_barb_ll_token  value = 10  compare = 
 			SOV = { add_to_variable = {  var = SOV_barb_ll_token   value = -10 } }						
 		}
 	}
-	
+			HMP_ll_soviets_receive_CAS = { 
+		allowed = {  original_tag = SOV } 
+		available = { check_variable = { var = SOV_barb_ll_token  value = 10  compare = greater_than_or_equals} has_war_with = GER OR = { date > 1941.11.22  ENG = { controls_state = 412 }  } 			custom_trigger_tooltip = {	tooltip = SOV_secure_tt	suppy_route_secure = yes}  }      
+		icon = generic_form_nation
+		cost = 0
+		fire_only_once = no 
+		#visible = { always = no }
+		visible = { SOV = { has_completed_focus = SOV_aviation_cult} }
+		complete_effect  = {	
+		
+		if = { limit = { USA = { has_tech = super_heavy_tank }}   add_equipment_to_stockpile = {  type = CAS_equipment_2 amount = 416 producer = USA }    }
+			else_if = { limit = { ENG = { has_tech = super_heavy_tank }}   add_equipment_to_stockpile = {  type = CAS_equipment_2 amount = 416 producer = ENG }    }
+		SOV = { add_to_variable = {  var = SOV_barb_ll_token   value = -10 } }							}
+		}
 		HMP_ll_soviets_receive_fighter = { 
 		allowed = {  original_tag = SOV } 
 		available = { check_variable = { var = SOV_barb_ll_token  value = 10  compare = greater_than_or_equals} has_war_with = GER OR = { date > 1941.11.22  ENG = { controls_state = 412 }  } 			custom_trigger_tooltip = {	tooltip = SOV_secure_tt	suppy_route_secure = yes}  }      
@@ -765,7 +778,7 @@ every_country = {
 					if = { limit = { country_exists = HUN } HUN = {	add_ideas = GER_blau } }
 				ITA = {	add_ideas = GER_blau }
 					if = { limit = { country_exists = SPR } SPR = {	add_ideas = GER_blau } }
-				if = { limit = { country_exists = BUL }	BUL = {	add_ideas = GER_blau } }
+				if = { limit = { country_exists = BUL }	BUL = {	add_ideas = GER_blau } } if = { limit = { country_exists = YUG }	YUG = {	add_ideas = GER_blau } }
 					}
 			custom_effect_tooltip = GER_barbarossa_others_text
 			custom_effect_tooltip =	GER_blau_text
@@ -853,7 +866,7 @@ every_country = {
 		available = { 	date > 1941.6.21	}	
 		cost = 0		
 		complete_effect = {
-			FIN = { country_event = { id = italy.604 days = 1 } if = { limit = { is_ai = yes } add_ideas = fin_sisu_ai }}
+			FIN = { country_event = { id = italy.604 days = 3 } if = { limit = { is_ai = yes } add_ideas = fin_sisu_ai }}
 			add_ideas = GER_barbarossa 	
 			hidden_effect={  
 			SOV = { add_timed_idea = { idea = shattered_retreat days = 90 }}
@@ -926,13 +939,34 @@ every_country = {
 				ITA = {	add_ideas = GER_barbarossa_zit }
 				SPR = {	add_ideas = GER_barbarossa_zit }
 				BUL = {	add_ideas = GER_barbarossa_zit }
+				if = { limit = { country_exists = YUG }	YUG = {	add_ideas = GER_barbarossa_zit } }
 					}
 			custom_effect_tooltip = GER_barbarossa_others_text
 			custom_effect_tooltip = GER_barb_buff3_tt			
 					
 		}	
 	}
-	
+				GER_sonnenwende = { 
+		icon = ger_reichskommissariats
+		fire_only_once = yes	
+		allowed = { 	tag = GER 	}
+		available = { 	date > 1944.6.21   has_war_with = SOV	}	
+		cost = 0		
+		complete_effect = {
+			add_ideas = GER_barbarossa_son 	
+			hidden_effect={  
+				ROM = {add_ideas = GER_barbarossa_son }
+				HUN = {	add_ideas = GER_barbarossa_son }
+				ITA = {	add_ideas = GER_barbarossa_son }
+				SPR = {	add_ideas = GER_barbarossa_son }
+				BUL = {	add_ideas = GER_barbarossa_son }
+				if = { limit = { country_exists = YUG }	YUG = {	add_ideas = GER_barbarossa_son } }
+					}
+			custom_effect_tooltip = GER_barbarossa_others_text
+			custom_effect_tooltip = GER_barb_buff4_tt			
+					
+		}	
+	}
 	
 	
 GER_desert_flower_dec = {
