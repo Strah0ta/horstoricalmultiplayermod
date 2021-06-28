@@ -702,7 +702,7 @@ country_event = {
 }
 
 country_event = {
-	id = poland.121
+	id = poland.122
 	title = poland.10.t
 	desc = poland.10.d
 	picture = GFX_report_event_polish_tanks_01

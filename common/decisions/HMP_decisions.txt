@@ -738,11 +738,7 @@ every_country = {
 				type = annex_everything
 			}	
 							hidden_effect = { 
-							
-			if = { limit = { country_exists = SPR } HOL = { add_to_war = { targeted_alliance = ENG enemy = SPR } } }
-			if = { limit = { country_exists = ROM } HOL = { add_to_war = { targeted_alliance = ENG enemy = ROM } } }
-			if = { limit = { country_exists = HUN } HOL = { add_to_war = { targeted_alliance = ENG enemy = HUN } }	}
-			if = { limit = { country_exists = BUL } HOL = { add_to_war = { targeted_alliance = ENG enemy = BUL } }	}
+							ROOT_call_allies_both_sides = yes 
 							}
 		}		
 	}
