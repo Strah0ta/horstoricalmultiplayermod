@@ -2372,47 +2372,37 @@ HMP_templates = {
 		fire_only_once = no
 		complete_effect = {
 			division_template = {
-					name = "10/0/0 + ENG/AA/SART/SRART"
+					name = "10/0/0"
 					regiments = {
 						infantry = { x = 0 y = 0 } infantry = { x = 1 y = 0 } infantry = { x = 2 y = 0 }
 						infantry = { x = 0 y = 1 } infantry = { x = 1 y = 1 } infantry = { x = 2 y = 1 }
 						infantry = { x = 0 y = 2 } infantry = { x = 1 y = 2 } infantry = { x = 2 y = 2 }
 						infantry = { x = 0 y = 3 }
 					}
-					support = { engineer = { x = 0 y = 0 } anti_air = { x = 0 y = 1 } artillery = { x = 0 y = 2 }  rocket_artillery = { x = 0 y = 3 }  }
+					support = { engineer = { x = 0 y = 0 } anti_air = { x = 0 y = 1 } artillery = { x = 0 y = 2 }  rocket_artillery = { x = 0 y = 3 } anti_tank = { x = 0 y = 4 } logistics_company = { x = 1 y = 0 } recon = { x = 1 y = 1 }    }
 				}
 			division_template = {
-				name = "10/0/0 + AA"
-					regiments = {
-						infantry = { x = 0 y = 0 } infantry = { x = 1 y = 0 } infantry = { x = 2 y = 0 }
-						infantry = { x = 0 y = 1 } infantry = { x = 1 y = 1 } infantry = { x = 2 y = 1 }
-						infantry = { x = 0 y = 2 } infantry = { x = 1 y = 2 } infantry = { x = 2 y = 2 }
-						infantry = { x = 0 y = 3 }
-					}
-					support = { anti_air = { x = 0 y = 0 }     }
-				}
-			division_template = {
-					name = "9/0/2 + ENG/AA/SART/SRART"
+					name = "9/0/2"
 					regiments = {
 						infantry = { x = 0 y = 0 } infantry = { x = 1 y = 0 } infantry = { x = 2 y = 0 } anti_tank_brigade = { x = 3 y = 0 }
 						infantry = { x = 0 y = 1 } infantry = { x = 1 y = 1 } infantry = { x = 2 y = 1 } anti_tank_brigade = { x = 3 y = 1 }
 						infantry = { x = 0 y = 2 } infantry = { x = 1 y = 2 } 								
 						infantry = { x = 0 y = 3 }							  								
 					}
-					support = { engineer = { x = 0 y = 0 } anti_air = { x = 0 y = 1 } artillery = { x = 0 y = 2 }  rocket_artillery = { x = 0 y = 3 }  }
+					support = { engineer = { x = 0 y = 0 } anti_air = { x = 0 y = 1 } artillery = { x = 0 y = 2 }  rocket_artillery = { x = 0 y = 3 } anti_tank = { x = 0 y = 4 } logistics_company = { x = 1 y = 0 } recon = { x = 1 y = 1 }    }
 				}
 			division_template = {
-					name = "7/2/0 + ENG/AA/SART/SRART"
+					name = "7/2/0"
 					regiments = {
 						infantry = { x = 0 y = 0 } infantry = { x = 1 y = 0 } infantry = { x = 2 y = 0 } artillery_brigade = { x = 3 y = 0 }
 						infantry = { x = 0 y = 1 } infantry = { x = 1 y = 1 } infantry = { x = 2 y = 1 } artillery_brigade = { x = 3 y = 1 }
 						infantry = { x = 0 y = 2 }  								
 						
 					}
-					support = { engineer = { x = 0 y = 0 } anti_air = { x = 0 y = 1 } artillery = { x = 0 y = 2 }  rocket_artillery = { x = 0 y = 3 }  }
+					support = { engineer = { x = 0 y = 0 } anti_air = { x = 0 y = 1 } artillery = { x = 0 y = 2 }  rocket_artillery = { x = 0 y = 3 } anti_tank = { x = 0 y = 4 } logistics_company = { x = 1 y = 0 } recon = { x = 1 y = 1 }    }
 				}		
 					division_template = {
-					name = "20/0/0 + ENG/AA/SART/SRART"
+					name = "20/0/0"
 					regiments = {
 						infantry = { x = 0 y = 0 } infantry = { x = 1 y = 0 } infantry = { x = 2 y = 0 } infantry = { x = 3 y = 0 }
 						infantry = { x = 0 y = 1 } infantry = { x = 1 y = 1 } infantry = { x = 2 y = 1 } infantry = { x = 3 y = 1 }
@@ -2420,31 +2410,21 @@ HMP_templates = {
 						infantry = { x = 0 y = 3 } infantry = { x = 1 y = 3 } infantry = { x = 2 y = 3 } infantry = { x = 3 y = 3 }
 						infantry = { x = 0 y = 4 } infantry = { x = 1 y = 4 } infantry = { x = 2 y = 4 } infantry = { x = 3 y = 4 }						
 					}
-					support = { engineer = { x = 0 y = 0 } anti_air = { x = 0 y = 1 } artillery = { x = 0 y = 2 }  rocket_artillery = { x = 0 y = 3 }  }
+					support = { engineer = { x = 0 y = 0 } anti_air = { x = 0 y = 1 } artillery = { x = 0 y = 2 }  rocket_artillery = { x = 0 y = 3 } anti_tank = { x = 0 y = 4 } logistics_company = { x = 1 y = 0 } recon = { x = 1 y = 1 }    }
 				}
 			division_template = {
-					name = "20/0/0 + AA"
+					name = "18/0/4"
 					regiments = {
-						infantry = { x = 0 y = 0 } infantry = { x = 1 y = 0 } infantry = { x = 2 y = 0 } infantry = { x = 3 y = 0 }
-						infantry = { x = 0 y = 1 } infantry = { x = 1 y = 1 } infantry = { x = 2 y = 1 } infantry = { x = 3 y = 1 }
-						infantry = { x = 0 y = 2 } infantry = { x = 1 y = 2 } infantry = { x = 2 y = 2 } infantry = { x = 3 y = 2 }
-						infantry = { x = 0 y = 3 } infantry = { x = 1 y = 3 } infantry = { x = 2 y = 3 } infantry = { x = 3 y = 3 }
-						infantry = { x = 0 y = 4 } infantry = { x = 1 y = 4 } infantry = { x = 2 y = 4 } infantry = { x = 3 y = 4 }		
-					}
-					support = { anti_air = { x = 0 y = 0 }     }
-				}
-			division_template = {
-					name = "19/0/2 + ENG/AA/SART/SRART"
-					regiments = {
-						infantry = { x = 0 y = 0 } infantry = { x = 1 y = 0 } infantry = { x = 2 y = 0 } infantry = { x = 3 y = 0 } anti_tank_brigade = { x = 4 y = 0 } infantry = { x = 5 y = 0 }
+						infantry = { x = 0 y = 0 } infantry = { x = 1 y = 0 } infantry = { x = 2 y = 0 } infantry = { x = 3 y = 0 } anti_tank_brigade = { x = 4 y = 0 } 
 						infantry = { x = 0 y = 1 } infantry = { x = 1 y = 1 } infantry = { x = 2 y = 1 } infantry = { x = 3 y = 1 } anti_tank_brigade = { x = 4 y = 1 }
-						infantry = { x = 0 y = 2 } infantry = { x = 1 y = 2 } infantry = { x = 2 y = 2 } infantry = { x = 3 y = 2 } infantry = { x = 4 y = 2 }								
-						infantry = { x = 0 y = 3 } infantry = { x = 1 y = 3 } infantry = { x = 2 y = 3 } infantry = { x = 3 y = 3 } infantry = { x = 4 y = 3 }
+						infantry = { x = 0 y = 2 } infantry = { x = 1 y = 2 } infantry = { x = 2 y = 2 } infantry = { x = 3 y = 2 } anti_tank_brigade = { x = 4 y = 2 }								
+						infantry = { x = 0 y = 3 } infantry = { x = 1 y = 3 } infantry = { x = 2 y = 3 } infantry = { x = 3 y = 3 } anti_tank_brigade = { x = 4 y = 3 }
+						infantry = { x = 0 y = 4 } infantry = { x = 1 y = 4 }
 					}
-					support = { engineer = { x = 0 y = 0 } anti_air = { x = 0 y = 1 } artillery = { x = 0 y = 2 }  rocket_artillery = { x = 0 y = 3 }  }
+					support = { engineer = { x = 0 y = 0 } anti_air = { x = 0 y = 1 } artillery = { x = 0 y = 2 }  rocket_artillery = { x = 0 y = 3 } anti_tank = { x = 0 y = 4 } logistics_company = { x = 1 y = 0 } recon = { x = 1 y = 1 }    }
 				}				
 			division_template = {
-					name = "14/4/0 + ENG/AA/SART/SRART"
+					name = "14/4/0"
 					regiments = {
 						infantry = { x = 0 y = 0 } infantry = { x = 1 y = 0 } infantry = { x = 2 y = 0 } artillery_brigade = { x = 3 y = 0 }
 						infantry = { x = 0 y = 1 } infantry = { x = 1 y = 1 } infantry = { x = 2 y = 1 } artillery_brigade = { x = 3 y = 1 }
@@ -2452,18 +2432,18 @@ HMP_templates = {
 						infantry = { x = 0 y = 3 } infantry = { x = 1 y = 3 } infantry = { x = 2 y = 3 } artillery_brigade = { x = 3 y = 3 }
 						infantry = { x = 0 y = 4 } infantry = { x = 1 y = 4 }
 					}
-					support = { engineer = { x = 0 y = 0 } anti_air = { x = 0 y = 1 } artillery = { x = 0 y = 2 }  rocket_artillery = { x = 0 y = 3 }  }
+					support = { engineer = { x = 0 y = 0 } anti_air = { x = 0 y = 1 } artillery = { x = 0 y = 2 }  rocket_artillery = { x = 0 y = 3 } anti_tank = { x = 0 y = 4 } logistics_company = { x = 1 y = 0 } recon = { x = 1 y = 1 }    }
 				}	
 						division_template = {
-					name = "13/4/2 + ENG/AA/SART/SRART"
+					name = "12/4/4"
 					regiments = {
 						infantry = { x = 0 y = 0 } infantry = { x = 1 y = 0 } infantry = { x = 2 y = 0 } artillery_brigade = { x = 3 y = 0 }
 						infantry = { x = 0 y = 1 } infantry = { x = 1 y = 1 } infantry = { x = 2 y = 1 } artillery_brigade = { x = 3 y = 1 }
 						infantry = { x = 0 y = 2 } infantry = { x = 1 y = 2 } infantry = { x = 2 y = 2 } artillery_brigade = { x = 3 y = 2 }								
 						infantry = { x = 0 y = 3 } infantry = { x = 1 y = 3 } infantry = { x = 2 y = 3 } artillery_brigade = { x = 3 y = 3 }
-						infantry = { x = 0 y = 4 } anti_tank_brigade = { x = 1 y = 4 } anti_tank_brigade = { x = 2 y = 4 }
+					 anti_tank_brigade = { x = 1 y = 4 } anti_tank_brigade = { x = 2 y = 4 } anti_tank_brigade = { x = 0 y = 4 } anti_tank_brigade = { x = 3 y = 4 }
 					}
-					support = { engineer = { x = 0 y = 0 } anti_air = { x = 0 y = 1 } artillery = { x = 0 y = 2 }  rocket_artillery = { x = 0 y = 3 }  }
+					support = { engineer = { x = 0 y = 0 } anti_air = { x = 0 y = 1 } artillery = { x = 0 y = 2 }  rocket_artillery = { x = 0 y = 3 } anti_tank = { x = 0 y = 4 } logistics_company = { x = 1 y = 0 } recon = { x = 1 y = 1 }    }
 				}				
 			}
 		}
@@ -2649,13 +2629,15 @@ HMP_templates = {
 						medium_armor = { x = 0 y = 0 } medium_armor = { x = 1 y = 0 } medium_armor = { x = 2 y = 0 } motorized = { x = 3 y = 0 }	motorized = { x = 4 y = 0 }
 						medium_armor = { x = 0 y = 1 } medium_armor = { x = 1 y = 1 } medium_armor = { x = 2 y = 1 } motorized = { x = 3 y = 1 }	motorized = { x = 4 y = 1 }
 						medium_armor = { x = 0 y = 2 } medium_armor = { x = 1 y = 2 } medium_armor = { x = 2 y = 2 } motorized = { x = 3 y = 2 }	motorized = { x = 4 y = 2 }
-						medium_armor = { x = 0 y = 3 } medium_sp_anti_air_brigade = { x = 1 y = 3 } medium_sp_anti_air_brigade = { x = 2 y = 3 } motorized = { x = 3 y = 3 }	motorized = { x = 4 y = 3 }
+						medium_armor = { x = 0 y = 3 } medium_armor = { x = 2 y = 3 } motorized = { x = 3 y = 3 }	motorized = { x = 4 y = 3 }
 																																					motorized = { x = 4 y = 4 }
 						}											
-					support = { engineer = { x = 0 y = 0 } mot_recon = { x = 0 y = 1 } logistics_company = { x = 0 y = 2 } maintenance_company = { x = 0 y = 3 }  }
+	support = { engineer = { x = 0 y = 0 } mot_recon = { x = 0 y = 1 } logistics_company = { x = 0 y = 2 } maintenance_company = { x = 0 y = 3 } medium_tank_antiair = { x = 0 y = 4 } 
+					medium_tank_destroyer_sup = { x = 1 y = 0 } motorized_rocket_sup  = { x = 1 y = 1 } medium_sp_artillery = { x = 1 y = 2 } signal_company = { x = 1 y = 3 }  }
 				}	
 			}
-	}		
+	}						
+	
 				HMP_nor_noob = {
 	allowed = { original_tag = NOR } 
 	fire_only_once = no
@@ -2693,11 +2675,12 @@ HMP_templates = {
 						heavy_armor = { x = 0 y = 0 } heavy_armor = { x = 1 y = 0 } heavy_armor = { x = 2 y = 0 } motorized = { x = 3 y = 0 }	motorized = { x = 4 y = 0 }
 						heavy_armor = { x = 0 y = 1 } heavy_armor = { x = 1 y = 1 } heavy_armor = { x = 2 y = 1 } motorized = { x = 3 y = 1 }	motorized = { x = 4 y = 1 }
 						heavy_armor = { x = 0 y = 2 } heavy_armor = { x = 1 y = 2 } heavy_armor = { x = 2 y = 2 } motorized = { x = 3 y = 2 }	motorized = { x = 4 y = 2 }
-						heavy_armor = { x = 0 y = 3 } heavy_sp_anti_air_brigade = { x = 1 y = 3 } heavy_sp_anti_air_brigade = { x = 2 y = 3 } motorized = { x = 3 y = 3 }	motorized = { x = 4 y = 3 }
+						heavy_armor = { x = 0 y = 3 } heavy_armor = { x = 1 y = 3 } motorized = { x = 3 y = 3 }	motorized = { x = 4 y = 3 }
 																																					motorized = { x = 4 y = 4 }
 						}											
-					support = { engineer = { x = 0 y = 0 } mot_recon = { x = 0 y = 1 } logistics_company = { x = 0 y = 2 } maintenance_company = { x = 0 y = 3 }  }
-				}
+	support = { engineer = { x = 0 y = 0 } mot_recon = { x = 0 y = 1 } logistics_company = { x = 0 y = 2 } maintenance_company = { x = 0 y = 3 } heavy_tank_antiair = { x = 0 y = 4 } 
+					heavy_tank_destroyer_sup = { x = 1 y = 0 } motorized_rocket_sup  = { x = 1 y = 1 } heavy_sp_artillery = { x = 1 y = 2 } signal_company = { x = 1 y = 3 }  }
+					}
 						division_template = {
 					name = "Port Guard (Cheap)"
 					regiments = {
