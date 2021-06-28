@@ -8,8 +8,7 @@ picture = ita_armir
 		ITA_africa_campaign_idea2 = { 
 picture = italy_excessive_regia_marina_budget	
 	modifier =   {  
-	naval_strike_targetting_factor = 0.25 #works
-naval_defense_factor = 0.25 #works
+	naval_strike_targetting_factor = 0.25 naval_defense_factor = 0.25 naval_speed_factor = 0.10
 
 	}
 	}
