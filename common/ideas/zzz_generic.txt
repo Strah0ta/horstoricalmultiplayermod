@@ -1,6 +1,7 @@
 ideas = {
 
 	hidden_ideas = {
+
 	qol_start_eff = {
 	    picture = generic_infantry_bonus   allowed = {  always = yes  }  removal_cost = -1 modifier= {   production_factory_start_efficiency_factor = 0.4        }
 	}
@@ -60,6 +61,9 @@ ideas = {
 
 	# Special ones that can be applied on other countries through focus system.
 	country = {
+	#	kill_fuel = { 
+	# modifier = {  base_fuel_gain_factor = -1 max_fuel = -50000 } #crashes gameon tag switch
+	#}
 			winter_server = {
 	    picture = generic_infantry_bonus   allowed = {  always = yes  }  removal_cost = -1 modifier= {   army_defence_factor = -0.1 army_infantry_attack_factor = -0.1 breakthrough_factor = 0.1        }
 	}
