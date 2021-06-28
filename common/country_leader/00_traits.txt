@@ -15,6 +15,7 @@ leader_traits = {
 		random = no
 		sprite = 13
 		surrender_limit = 0.19
+		army_speed_factor = 0.2
 	}
 	sharp_tongued_lawyer = {
 		random = no

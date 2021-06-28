@@ -5,7 +5,7 @@ manpower=96
 state_category = pastoral
 history={
 owner = EFR
-add_core_of=SWE
+ 
 add_core_of=EFR
 
 buildings = {

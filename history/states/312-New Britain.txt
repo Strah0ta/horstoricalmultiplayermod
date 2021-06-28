@@ -6,7 +6,7 @@ rubber=30
 }
 history={
 owner = AST
-add_core_of=SWE
+ 
 		1936.1.2 = {
 			owner = ENG
 		}		

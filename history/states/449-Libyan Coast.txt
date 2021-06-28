@@ -5,7 +5,7 @@ manpower = 96277
 state_category = enclave
 history={
 owner = ITA
-add_core_of=SWE
+ 
 buildings = {
 infrastructure = 5
 air_base = 4

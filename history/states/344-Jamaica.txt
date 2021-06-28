@@ -5,7 +5,7 @@ manpower = 1075000
 state_category = town
 history={
 owner = ENG
-add_core_of=SWE
+ 
 victory_points = {
 12304 1
 }

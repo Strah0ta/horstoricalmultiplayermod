@@ -17,7 +17,7 @@ history=
 			owner = SWE
 		}
 owner = USA
-add_core_of=SWE
+ 
 buildings = {
 infrastructure = 10
 industrial_complex = 2

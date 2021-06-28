@@ -5,7 +5,7 @@ manpower = 1993507
 state_category = wasteland
 history = {
 owner = ENG
-add_core_of=SWE
+ 
 buildings = {
 	12725 = { naval_base = 15 }
 	infrastructure = 7

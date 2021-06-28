@@ -4,10 +4,10 @@ name="STATE_463"
 history={
 				1936.1.2 = {
 			owner = SWE
-			add_core_of = SWE
+			 
 		}
 owner = USA
-add_core_of=SWE
+ 
 buildings = {
 infrastructure = 2
 air_base = 1

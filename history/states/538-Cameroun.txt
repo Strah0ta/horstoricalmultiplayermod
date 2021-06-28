@@ -6,7 +6,7 @@ state_category = wasteland
 
 history={
 owner = BEL
-add_core_of=SWE
+ 
 buildings = {
 infrastructure = 3
 }

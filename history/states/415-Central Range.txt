@@ -9,7 +9,7 @@ history={
 			owner = ENG
 		}		
 owner = AST
-add_core_of=SWE
+ 
 buildings = {
 infrastructure = 1
 }

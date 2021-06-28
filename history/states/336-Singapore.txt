@@ -10,7 +10,7 @@ tungsten=189
 }
 history={
 owner = ENG
-add_core_of=SWE
+ 
 victory_points = {
 12299 10
 }

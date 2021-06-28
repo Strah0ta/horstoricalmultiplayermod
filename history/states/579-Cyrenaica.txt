@@ -6,7 +6,7 @@ state_category = wasteland
 resources = { oil = 10 }
 history={
 owner = ITA
-add_core_of=SWE
+ 
 victory_points = { 1130 45 }
 victory_points = {	10120 15 }
 victory_points = {	1204 15 }

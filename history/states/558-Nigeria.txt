@@ -6,7 +6,7 @@ state_category = large_Town
 
 history={
 owner = ENG
-add_core_of=SWE
+ 
 buildings = {
 infrastructure = 3
 arms_factory = 0

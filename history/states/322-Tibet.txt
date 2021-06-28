@@ -7,7 +7,7 @@ resources={
 impassable = yes
 history={
 owner = HOL
-add_core_of=SWE
+ 
 
 buildings = {
 infrastructure = 1

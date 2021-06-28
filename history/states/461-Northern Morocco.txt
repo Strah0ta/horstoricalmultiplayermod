@@ -5,7 +5,7 @@ manpower = 5063271
 state_category = wasteland
 history={
 owner = FRA
-add_core_of=SWE
+ 
 victory_points = {
 7069 10
 }

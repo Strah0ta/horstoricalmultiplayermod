@@ -14,7 +14,7 @@ state= {
 			12071 3
 		}
 		owner = ENG
-		add_core_of = SWE
+		 
 		buildings = {
 infrastructure = 7
 air_base = 4

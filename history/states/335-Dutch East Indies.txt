@@ -9,7 +9,7 @@ oil=10
 }
 history={
 owner = HOL
-add_core_of=SWE
+ 
 victory_points = {
 7381 10
 }

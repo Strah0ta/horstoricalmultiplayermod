@@ -13,7 +13,7 @@ history = {
 			12002 1
 		}
 owner = ENG
-add_core_of=SWE
+ 
 buildings = {
 infrastructure = 7
 air_base = 4

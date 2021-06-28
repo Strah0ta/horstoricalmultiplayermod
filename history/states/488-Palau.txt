@@ -8,7 +8,7 @@ manpower = 12100
 history=
 {
 owner = JAP
-add_core_of=SWE
+ 
 buildings = {
 infrastructure = 3
 air_base = 1
@@ -21,7 +21,7 @@ victory_points = {
 }
 				1936.1.2 = {
 			owner = SWE
-			add_core_of = SWE
+			 
 		}
 }
 provinces={
