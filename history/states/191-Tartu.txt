@@ -5,7 +5,7 @@ state={
 	state_category = town
 
 	history={
-		owner = LAT
+		owner = SWE
 		victory_points = {
 			9221 1 
 		}
@@ -19,7 +19,7 @@ state={
 			}
 
 		}
-		add_core_of = LAT
+		add_core_of = SWE
 
 	}
 

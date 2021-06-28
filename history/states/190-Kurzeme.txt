@@ -10,7 +10,7 @@ state={
 		victory_points = {
 			9262 3
 		}
-		owner = LAT
+		owner = SWE
 		buildings = {
 			infrastructure = 8
 			dockyard = 1
@@ -22,7 +22,7 @@ state={
 			}
 			dockyard = 1
 		}
-		add_core_of = LAT
+		add_core_of = SWE
 	}
 
 	provinces={

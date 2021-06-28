@@ -51,7 +51,7 @@ NOT = { ENG = {
  }}
 }
 
-disabled_ai_production = { NOT = { OR = { tag = DEN tag = POL tag = CHI tag = BEL tag = LAT tag = AUS tag = GRE } } }
+disabled_ai_production = { NOT = { OR = { tag = DEN tag = POL tag = CHI tag = BEL tag = AUS tag = GRE } } }
 
 bad_infra_state = { OR = { state = 412 state = 481 state = 148 state = 144 state = 213 state = 502 state = 147  } }
 
