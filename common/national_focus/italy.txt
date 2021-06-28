@@ -789,6 +789,20 @@ date > 1941.6.1
 			}
 		}
 	}
+	
+		focus = {
+		id = ITA_africa_campaign2
+		icon = GFX_goal_italy_regia_marina_2
+
+		available_if_capitulated = yes
+		available = { has_war = yes }
+		x = 14
+		y = 0
+		cost = 0.2
+		completion_reward = {
+			add_timed_idea = { idea = ITA_africa_campaign_idea2 days = 365 } 
+		}
+	}
 
 	focus = {
 		id = ITA_submarine_effort

@@ -7,13 +7,9 @@ picture = generic_manpower_bonus
 	
 		ITA_africa_campaign_idea2 = { 
 picture = generic_manpower_bonus	
-	modifier =   {  naval_strike_targetting_factor = 0.25
-critical_receive_chance = 1 
-naval_critical_effect_factor = 1 
-naval_critical_score_chance_factor = 1
-naval_defense_factor = 1
-naval_morale_factor = 1
-navy_org_factor = 1
+	modifier =   {  
+	naval_strike_targetting_factor = 0.25 #works
+naval_defense_factor = 0.25 #works
 
 	}
 	}
