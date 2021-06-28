@@ -762,7 +762,7 @@ date > 1941.6.1
 		}
 	}
 
-	focus = {
+	focus = {  
 		id = ITA_light_ship_effort
 		icon = GFX_goal_generic_navy_cruiser
 		

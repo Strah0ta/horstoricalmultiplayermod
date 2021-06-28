@@ -1,6 +1,12 @@
 spriteTypes = {	
-
-
+	SpriteType = { 
+		name = "GFX_idea_ita_armir"
+		texturefile = "gfx/interface/ideas/ita_armir.tga"
+	}
+	SpriteType = {
+		name = "GFX_idea_italy_excessive_regia_marina_budget"
+		texturefile = "gfx/interface/ideas/italy_excessive_regia_marina_budget.dds"
+	}
 	SpriteType = {
 		name = "GFX_idea_rifle_production"
 		texturefile = "gfx/interface/ideas/rifle_production.dds"

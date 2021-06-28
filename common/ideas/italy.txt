@@ -1,12 +1,12 @@
 ideas = {
 	country = {
 	ITA_africa_campaign_idea = { 
-picture = generic_manpower_bonus	
+picture = ita_armir	
 	modifier =   {  army_org_factor = 0.25 }
 	}
-	
+	  
 		ITA_africa_campaign_idea2 = { 
-picture = generic_manpower_bonus	
+picture = italy_excessive_regia_marina_budget	
 	modifier =   {  
 	naval_strike_targetting_factor = 0.25 #works
 naval_defense_factor = 0.25 #works
