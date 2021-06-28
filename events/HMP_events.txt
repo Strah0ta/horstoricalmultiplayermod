@@ -522,7 +522,7 @@ country_event = {
 			custom_effect_tooltip = GER_mol_rib_pact_tt
 			transfer_state = 78 transfer_state = 80 transfer_state = 287 
 			 transfer_state = 189 transfer_state = 11 transfer_state = 13 transfer_state = 191 transfer_state = 190 transfer_state = 12 transfer_state = 78 transfer_state = 287
-			LAT = { remove_state_core = 188 remove_state_core = 189 remove_state_core = 11 remove_state_core = 13 remove_state_core = 191  remove_state_core = 12 remove_state_core = 190      }
+			SWE = { remove_state_core = 188 remove_state_core = 189 remove_state_core = 11 remove_state_core = 13 remove_state_core = 191  remove_state_core = 12 remove_state_core = 190      }
 			189 = { add_core_of = SOV }
 			11 = { add_core_of = SOV }
 			13 = { add_core_of = SOV }
