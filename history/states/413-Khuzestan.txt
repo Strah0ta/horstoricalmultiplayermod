@@ -22,7 +22,7 @@ state={
 		add_core_of = PER
 	}
 
-	provinces={
-		1922 5005 7953 2065 12756 5089 
+	provinces={ 
+		1922 5005 7953 2065  
 	}
 }
