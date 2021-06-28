@@ -2471,7 +2471,7 @@ HMP_templates = {
 				HMP_templates_40w_tonk = {
 		allowed = {  normally_played_country = yes }
 		fire_only_once = no
-				complete_effect = {
+				complete_effect = { 
 					division_template = {
 					name = "11/9 MOT MARM + ENG/MRC/LOGI"
 					regiments = {
@@ -2479,9 +2479,10 @@ HMP_templates = {
 						medium_armor = { x = 0 y = 1 } medium_armor = { x = 1 y = 1 } medium_armor = { x = 2 y = 1 } motorized = { x = 3 y = 1 }	motorized = { x = 4 y = 1 }
 						medium_armor = { x = 0 y = 2 } medium_armor = { x = 1 y = 2 } medium_armor = { x = 2 y = 2 } motorized = { x = 3 y = 2 }	motorized = { x = 4 y = 2 }
 						medium_armor = { x = 0 y = 3 } medium_armor = { x = 1 y = 3 } motorized = { x = 3 y = 3 }	motorized = { x = 3 y = 4 }
-																																					motorized = { x = 4 y = 4 }
+																																					motorized = { x = 4 y = 3 }
 						}											
-					support = { engineer = { x = 0 y = 0 } mot_recon = { x = 0 y = 1 } logistics_company = { x = 0 y = 2 } maintenance_company = { x = 0 y = 3 } medium_sp_anti_air_brigade= { x = 0 y = 4 }   }
+					support = { engineer = { x = 0 y = 0 } mot_recon = { x = 0 y = 1 } logistics_company = { x = 0 y = 2 } maintenance_company = { x = 0 y = 3 } medium_tank_antiair = { x = 0 y = 4 } 
+								medium_tank_destroyer_sup = { x = 1 y = 0 } motorized_rocket_sup  = { x = 1 y = 1 } medium_sp_artillery = { x = 1 y = 2 } signal_company = { x = 1 y = 3 }  }
 				}
 					division_template = {
 					name = "12/8 MEC MARM + ENG/MRC/LOGI"
@@ -2489,10 +2490,10 @@ HMP_templates = {
 						medium_armor = { x = 0 y = 0 } medium_armor = { x = 1 y = 0 } medium_armor = { x = 2 y = 0 } mechanized = { x = 3 y = 0 }	mechanized = { x = 4 y = 0 }
 						medium_armor = { x = 0 y = 1 } medium_armor = { x = 1 y = 1 } medium_armor = { x = 2 y = 1 } mechanized = { x = 3 y = 1 }	mechanized = { x = 4 y = 1 }
 						medium_armor = { x = 0 y = 2 } medium_armor = { x = 1 y = 2 } medium_armor = { x = 2 y = 2 } mechanized = { x = 3 y = 2 }	mechanized = { x = 4 y = 2 }
-						medium_armor = { x = 0 y = 3 } medium_sp_anti_air_brigade = { x = 1 y = 3 } medium_sp_anti_air_brigade = { x = 2 y = 3 } mechanized = { x = 3 y = 3 }	mechanized = { x = 4 y = 3 }
-						medium_armor = { x = 0 y = 4 }
+						medium_armor = { x = 0 y = 3 } medium_armor  = { x = 1 y = 3 } medium_armor  = { x = 2 y = 3 } mechanized = { x = 3 y = 3 }	mechanized = { x = 4 y = 3 }
 						}											
-					support = { engineer = { x = 0 y = 0 } mot_recon = { x = 0 y = 1 } logistics_company = { x = 0 y = 2 }  maintenance_company = { x = 0 y = 3 } }
+					support = { engineer = { x = 0 y = 0 } mot_recon = { x = 0 y = 1 } logistics_company = { x = 0 y = 2 } maintenance_company = { x = 0 y = 3 } medium_tank_antiair = { x = 0 y = 4 } 
+								medium_tank_destroyer_sup = { x = 1 y = 0 } motorized_rocket_sup  = { x = 1 y = 1 } medium_sp_artillery = { x = 1 y = 2 } signal_company = { x = 1 y = 3 }  }
 				}
 			} 
 	
@@ -2626,8 +2627,8 @@ HMP_templates = {
 						medium_sp_artillery_brigade = { x = 0 y = 0 } medium_sp_artillery_brigade = { x = 1 y = 0 } motorized = { x = 2 y = 0 } motorized = { x = 3 y = 0 }
 						medium_sp_artillery_brigade = { x = 0 y = 1 } medium_sp_artillery_brigade = { x = 1 y = 1 } motorized = { x = 2 y = 1 } motorized = { x = 3 y = 1 }
 						medium_sp_artillery_brigade = { x = 0 y = 2 } medium_sp_artillery_brigade = { x = 1 y = 2 } motorized = { x = 2 y = 2 } motorized = { x = 3 y = 2 }								
-						medium_sp_anti_air_brigade = { x = 0 y = 3 } medium_sp_anti_air_brigade = { x = 1 y = 3 } 	motorized = { x = 2 y = 3 } motorized = { x = 3 y = 3 }
-						medium_tank_destroyer_brigade = { x = 0 y = 4 } 											motorized = { x = 2 y = 4 } motorized = { x = 3 y = 4 }
+						medium_armor = { x = 0 y = 3 } medium_tank_destroyer_brigade = { x = 1 y = 3 } 	motorized = { x = 2 y = 3 } motorized = { x = 3 y = 3 }
+																									motorized = { x = 2 y = 4 } motorized = { x = 3 y = 4 }
 					}
 					support = { engineer = { x = 0 y = 0 } artillery = { x = 0 y = 1 }  rocket_artillery = { x = 0 y = 2 }   anti_air = { x = 0 y = 3 } mot_recon = { x = 0 y = 4 }    }
 				}	

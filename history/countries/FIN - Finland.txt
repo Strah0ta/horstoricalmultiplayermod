@@ -38,7 +38,7 @@ set_variable = {
 }
 anti_cross_faction_trade_allies = yes
 set_convoys = 5
-add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 20000 }
+add_equipment_to_stockpile = { type = infantry_equipment_1 amount = 3000 }
 add_ideas = { 
 	limited_conscription
 	armyandnavy_idea
