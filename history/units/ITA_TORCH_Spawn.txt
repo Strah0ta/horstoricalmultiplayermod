@@ -127,4 +127,70 @@ division= {
 		division_template = "Italian Mountaineers"
 		start_experience_factor = 0.3 	force_equipment_variants = { infantry_equipment_3 = { owner = "ITA" } }
 	}
+	
+	
+		division= {	
+		location = 12047  # Hoeselt
+		division_template = "Italian Mountaineers"
+		start_experience_factor = 0.3 	force_equipment_variants = { infantry_equipment_3 = { owner = "ITA" } }
+	}
+	division= {	
+		location = 12047  # Hoeselt
+		division_template = "Italian Mountaineers"
+		start_experience_factor = 0.3 	force_equipment_variants = { infantry_equipment_3 = { owner = "ITA" } }
+	}
+	division= {	
+		location = 12047  # Hoeselt
+		division_template = "Italian Mountaineers"
+		start_experience_factor = 0.3 	force_equipment_variants = { infantry_equipment_3 = { owner = "ITA" } }
+	}
+	division= {	
+		location = 12047  # Hoeselt
+		division_template = "Italian Mountaineers"
+		start_experience_factor = 0.3 	force_equipment_variants = { infantry_equipment_3 = { owner = "ITA" } }
+	}
+
+
+division= {	
+		location = 12047  # Hoeselt
+		division_template = "Italian Mountaineers"
+		start_experience_factor = 0.3 	force_equipment_variants = { infantry_equipment_3 = { owner = "ITA" } }
+	}
+	division= {	
+		location = 12047  # Hoeselt
+		division_template = "Italian Mountaineers"
+		start_experience_factor = 0.3 	force_equipment_variants = { infantry_equipment_3 = { owner = "ITA" } }
+	}
+	division= {	
+		location = 12047  # Hoeselt
+		division_template = "Italian Mountaineers"
+		start_experience_factor = 0.3 	force_equipment_variants = { infantry_equipment_3 = { owner = "ITA" } }
+	}
+	division= {	
+		location = 12047  # Hoeselt
+		division_template = "Italian Mountaineers"
+		start_experience_factor = 0.3 	force_equipment_variants = { infantry_equipment_3 = { owner = "ITA" } }
+	}
+	division= {	
+		location = 12047  # Hoeselt
+		division_template = "Italian Mountaineers"
+		start_experience_factor = 0.3 	force_equipment_variants = { infantry_equipment_3 = { owner = "ITA" } }
+	}
+	division= {	
+		location = 12047  # Hoeselt
+		division_template = "Italian Mountaineers"
+		start_experience_factor = 0.3 	force_equipment_variants = { infantry_equipment_3 = { owner = "ITA" } }
+	}
+	division= {	
+		location = 12047  # Hoeselt
+		division_template = "Italian Mountaineers"
+		start_experience_factor = 0.3 	force_equipment_variants = { infantry_equipment_3 = { owner = "ITA" } }
+	}
+	division= {	
+		location = 12047  # Hoeselt
+		division_template = "Italian Mountaineers"
+		start_experience_factor = 0.3 	force_equipment_variants = { infantry_equipment_3 = { owner = "ITA" } }
+	}
+	
+	
 }

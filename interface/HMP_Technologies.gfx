@@ -1,6 +1,15 @@
 spriteTypes = {	
 
-
+	SpriteType = {
+		name = "GFX_grand_battle_plan_mp_medium"
+		texturefile = "gfx/interface/technologies/grand_battle_plan.dds"
+		alwaystransparent = yes
+	}
+		SpriteType = {
+		name = "GFX_grand_battle_plan_medium"
+		texturefile = "gfx/interface/technologies/grand_battle_plan.dds"
+		alwaystransparent = yes
+	}
  	spriteType = {
 		name = "GFX_SMI_ship_battleship_deck_space"
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/deck_space_icn.dds"

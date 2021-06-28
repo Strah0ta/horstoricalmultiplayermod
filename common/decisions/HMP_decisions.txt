@@ -1522,7 +1522,7 @@ create_corps_commander = {
 			}	   }
 			if = { limit = { controls_state = 118 }  load_oob = "ENG_EFR" }
 		GER = { remove_from_faction = EFR }
-		hidden_effect = { if = { limit = { EFR = { is_ai = yes }}} ITA = { load_oob = "ITA_TORCH_Spawn"} every_state = { limit = { is_controlled_by = EFR }  set_building_level = {  type = air_base level = 4  instant_build = yes }   } }
+		hidden_effect = { if = { limit = { EFR = { is_ai = yes } ITA = { controls_province = 12047 }}} ITA = { load_oob = "ITA_TORCH_Spawn"} every_state = { limit = { is_controlled_by = EFR }  set_building_level = {  type = air_base level = 4  instant_build = yes }   } }
 		EFR = { set_country_flag = EFR_torch_declared diplomatic_relation = { country = GER relation = military_access	active = yes	} diplomatic_relation = { country = ITA relation = military_access	active = yes	} diplomatic_relation = { country = ROM relation = military_access	active = yes	} diplomatic_relation = { country = BUL relation = military_access	active = yes	} diplomatic_relation = { country = HUN relation = military_access	active = yes	} if = { limit= {country_exists = ALB }diplomatic_relation = { country = ALB relation = military_access	active = yes	}}}
 				USA = { country_event = { id = usa.996  days = 0 } 
 				create_field_marshal = {
