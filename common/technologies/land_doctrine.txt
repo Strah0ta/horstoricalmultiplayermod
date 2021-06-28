@@ -655,19 +655,19 @@
 		category_all_armor = {
 			breakthrough = 0.10
 			max_organisation = 2
-			default_morale = 0.05
+			default_morale = 0.10
 		}
 			motorized = {
 			max_organisation = 10
-			default_morale = 0.15
+			default_morale = 0.20
 		}
 		mechanized = {
 		max_organisation = 10
-			default_morale = 0.15	
+			default_morale = 0.20
 			}
 		amphibious_mechanized = {
 		max_organisation = 10
-			default_morale = 0.15	
+			default_morale = 0.20
 			}
 			
 		enable_tactic = tactic_blitz
