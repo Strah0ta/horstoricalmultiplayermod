@@ -4,7 +4,7 @@ add_ideas = ai_imiter
 add_ideas = limited_conscription
 set_convoys = 10
 country_lock_all_division_template = yes
-
+set_fuel_ratio = 0
 set_politics = {
 	ruling_party = neutrality
 	last_election = "1935.6.9"

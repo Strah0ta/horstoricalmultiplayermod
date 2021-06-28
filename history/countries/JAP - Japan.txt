@@ -20,6 +20,7 @@ add_ideas = {
 	JAP_militarism
 	MAN_south_manchuria_railway_company
 }
+set_fuel_ratio = 1
 add_tech_bonus = {
 	name = "Integrate Siam"
 	bonus = 1.0

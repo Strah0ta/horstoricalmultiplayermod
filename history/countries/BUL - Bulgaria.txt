@@ -13,7 +13,7 @@ add_ideas = {
 	BUL_second_national_catastrophe
 }
 add_timed_idea = { idea = NO_TRADE days = 730 }
-
+set_fuel_ratio = 1
 add_ideas = manpower_early
  add_timed_idea = { idea = GER_mefo_bills_1 days = 730 }
 

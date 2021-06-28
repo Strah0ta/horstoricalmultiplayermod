@@ -1,7 +1,7 @@
 ﻿capital = 37
 add_ideas = ai_imiter 
 country_lock_all_division_template = yes
-
+set_fuel_ratio = 0
 set_technology = {
 concentrated_industry = 1
 dispersed_industry = 1 

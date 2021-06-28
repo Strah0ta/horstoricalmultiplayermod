@@ -3,7 +3,7 @@
 oob = "ETH_1936"
 create_intelligence_agency = yes
 add_timed_idea = { idea = NO_TRADE days = 730 }
-
+set_fuel_ratio = 1
 set_rule = { can_be_spymaster = no }
 	add_ideas =	defensive_posture 
 # Starting tech

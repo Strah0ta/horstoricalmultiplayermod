@@ -15,7 +15,7 @@ add_equipment_to_stockpile = {
          amount = 65000
          producer = GER
 }
-
+set_fuel_ratio = 0
 set_convoys = 0
 
 set_politics = {

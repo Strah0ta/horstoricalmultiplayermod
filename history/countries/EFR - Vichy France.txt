@@ -9,7 +9,7 @@ set_rule = { can_join_factions = no }
 set_rule = { can_be_spymaster = no }
 add_ideas = manpower_early
 set_cosmetic_tag = FRA_VICHY
-
+set_fuel_ratio = 1
 add_to_tech_sharing_group = axis_research 
 set_variable = { vichy_legitimacy_mechanic_stability_factor = -0.1 }
 set_variable = {

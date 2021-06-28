@@ -3,7 +3,7 @@ oob = "SOV_1936"
 set_naval_oob = "SOV_1936_naval_mtg"
 create_intelligence_agency = yes
 
-
+set_fuel_ratio = 1
 set_variable = {
     var = SOV_purge_org_factor
     value = -0.22

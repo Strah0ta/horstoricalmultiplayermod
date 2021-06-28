@@ -18,7 +18,7 @@ country_event = { id = DOD_yugoslavia.21 days = 759  }
 news_event = { id = news.9990 days = 2364 } #BLAU
 news_event = { id = news.9991 days = 2729  } #ZIT
 news_event = { id = news.9992 days = 3094  } #SON
-
+set_fuel_ratio = 0
 country_event = { id = mtg_britain.2 days = 119 }
 country_event = { id = mtg_netherlands.1243 days = 801 } #ANSCHLUSS
 #SPRING MUD SEASON

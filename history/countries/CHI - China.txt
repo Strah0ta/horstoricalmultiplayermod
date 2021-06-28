@@ -1,5 +1,5 @@
 ﻿capital = 561 # Nanjing
-
+set_fuel_ratio = 0
 set_stability = 0.2
 set_war_support = 0.5
 country_lock_all_division_template = yes

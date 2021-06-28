@@ -16,6 +16,7 @@ set_variable = {
     var = min_fuel
     value = 0.800
 }
+set_fuel_ratio = 1
 add_timed_idea = { idea = NO_TRADE days = 730 }
 set_variable = { var = FRA_legitimacy value = 0 }			
 anti_cross_faction_trade_axis = yes

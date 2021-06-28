@@ -10,6 +10,7 @@ set_variable = {
     var = min_fuel
     value = 0.800
 }
+set_fuel_ratio = 1
 set_convoys = 25
 set_technology = {
 	tech_support = 1		

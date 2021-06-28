@@ -1,5 +1,5 @@
 ﻿capital = 412
-set_research_slots = 0
+set_research_slots = 0 set_fuel_ratio = 0
 set_rule = { can_join_factions = no }
 country_lock_all_division_template = yes
 set_cosmetic_tag = PER_NEUTRAL

@@ -12,7 +12,7 @@ set_variable = {
     value = 0.800
 }
 add_timed_idea = { idea = NO_TRADE days = 730 }
-
+set_fuel_ratio = 1
 add_ideas = manpower_early
 # Starting tech
 set_technology = {

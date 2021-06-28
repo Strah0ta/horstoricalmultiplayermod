@@ -36,6 +36,7 @@ set_variable = {
     var = min_fuel
     value = 0.800
 }
+set_fuel_ratio = 1
 anti_cross_faction_trade_allies = yes
 set_convoys = 5
 add_equipment_to_stockpile = { type = infantry_equipment_1 amount = 3000 }
