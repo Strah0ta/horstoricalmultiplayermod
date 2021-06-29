@@ -39,7 +39,6 @@ country_event = { id =  italy.802 days = 2088 } #sept 41
 country_event = { id =  italy.802 days = 2453 } #sept 42
 country_event = { id =  italy.802 days = 2818 } #sept 43
 country_event = { id =  italy.802 days = 3184 } #sept 44
-country_event = { id = lar_spain.953 days = 1186 }		 
 country_event = { id = germany.975 days = 210 }	#tank treaty event
 country_event = { id = soviet.902 days = 2465  }	#resurgent red air force event - adds leader trait which lower CAS damage 
 

@@ -26,19 +26,7 @@ focus_tree = {
 			x = 0
 			y = 0
 		}
-		prerequisite = {}
-		mutually_exclusive = { }
 		cost = 5
-			ai_will_do = {
-			factor = 1
-		}
-		available = {
-			
-		}
-		
-		bypass = {
-
-		}
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
@@ -55,19 +43,7 @@ focus_tree = {
 		prerequisite = {
 			focus = FIN_maatalouden_tuontitullit
 		}
-		prerequisite = {}
-		mutually_exclusive = { }
 		cost = 5
-			ai_will_do = {
-			factor = 1
-		}
-		available = {
-			
-		}
-		
-		bypass = {
-
-		}
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
@@ -237,19 +213,7 @@ focus_tree = {
 		prerequisite = {
 			focus = FIN_improve_paper_factories
 		}
-		prerequisite = {}
-		mutually_exclusive = { }
 		cost = 5
-			ai_will_do = {
-			factor = 1
-		}
-		available = {
-			
-		}
-		
-		bypass = {
-
-		}
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
@@ -1292,7 +1256,7 @@ focus_tree = {
 		available_if_capitulated = no
 		completion_reward = {
 				add_ideas = war_economy
-				SOV = { transfer_state = 146 add_state_core = 146  transfer_state = 147 add_state_core = 147 add_timed_idea = { idea = SPR_seized_spanish_gold_reserves days = 365 }  }
+				SOV = {country_event = { id = lar_spain.53 }		  transfer_state = 146 add_state_core = 146  transfer_state = 147 add_state_core = 147 add_timed_idea = { idea = SPR_seized_spanish_gold_reserves days = 365 }  }
 		}
 	}
 	

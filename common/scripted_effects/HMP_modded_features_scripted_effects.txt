@@ -1422,7 +1422,7 @@ HMP_script_balkans = {
 		}
 
 	HMP_script_china = {	
-			if = { limit = { JAP = { has_country_flag = MAN_GETS_CHINA }}  every_state = { limit = { is_core_of = CHI NOT = { state = 498 }} MAN = {	transfer_state = PREV	add_ideas = JAP_guide_the_zaibatsus } } 	SWE = { transfer_state = 498 } MAN = { transfer_state = 498 }    }
+			if = { limit = { JAP = { has_country_flag = MAN_GETS_CHINA }}  every_state = { limit = { is_core_of = CHI NOT = { state = 498 }} MAN = {	add_research_slot = 1 transfer_state = PREV	add_ideas = JAP_guide_the_zaibatsus } } 	SWE = { transfer_state = 498 } MAN = { transfer_state = 498 }    }
 			else = {  every_state = { limit = { is_core_of = CHI NOT = { state = 498 }} JAP = {	transfer_state = PREV	} } SWE = { transfer_state = 498 } JAP = { transfer_state = 498 }    }
 		
 			USA = { add_war_support = 0.15 } 
