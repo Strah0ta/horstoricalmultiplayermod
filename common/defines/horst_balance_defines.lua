@@ -93,7 +93,7 @@ NDefines.NAir.COMBAT_DAMAGE_SCALE = 0.042				-- Vanilla 0,10
 NDefines.NAir.COMBAT_DAMAGE_SCALE_CARRIER = 3                 -- same as above but used inside naval combat for carrier battles
 NDefines.NAir.NAVAL_STRIKE_CARRIER_MULTIPLIER = 6.25              -- vanilla 5 damage bonus when planes are in naval combat where their carrier is present (and can thus sortie faster and more effectively)
 NDefines.NAir.SUPPLY_NEED_FACTOR = 0							-- multiplies supply usage; removed so presence of air doesn't change supply values on the ground 
-
+NDefines.NAir.DETECT_CHANCE_FROM_AIRCRAFTS = 0.8
 NDefines.NAir.AIR_WING_MAX_STATS_SPEED = 30000                  -- Done so CAS does not get intercepted EXCEPT when there are insufficient scorts (combined with below defines)
 NDefines.NAir.DISRUPTION_FACTOR = 4  -- (4 -> 7) with decent radar coverage equal amounts of fighters vs naval bombers will disrupt almost all naval bombers if not escorted, with low detection very few bombers are intercepted still
 NDefines.NAir.ESCORT_FACTOR = 5.5 -- (2 -> 7) to make sure that escorted planes are still capable of bombing, with equal escorts/interceptors most of bombers get through Keep in mind that these values will also affect how cas/tac/strat bombers work, they make escorting planes much more important (which imo is 100% fine)
