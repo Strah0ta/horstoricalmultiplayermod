@@ -44,7 +44,7 @@ technologies = {
 			gw_tank_equipment
 		}
 		enable_subunits = {
-			light_armor	light_sp_anti_air_brigade light_sp_artillery_brigade light_tank_destroyer_brigade medium_tank_destroyer_brigade medium_sp_anti_air_brigade medium_sp_artillery_brigade medium_armor heavy_armor   heavy_tank_destroyer_brigade   	 heavy_sp_artillery_brigade	heavy_sp_anti_air_brigade	amphibious_armor
+			light_armor	light_sp_anti_air_brigade light_sp_artillery_brigade light_tank_destroyer_brigade  	amphibious_armor
 		}
 		
 		allow = { disabled_ai_production = yes }
@@ -81,6 +81,7 @@ technologies = {
 		enable_equipments = {
 			light_tank_equipment_1 
 		}
+		enable_subunits = { medium_tank_destroyer_brigade medium_sp_anti_air_brigade medium_sp_artillery_brigade medium_armor }
 		
 		path = {
 			leads_to_tech = improved_light_tank
@@ -154,7 +155,7 @@ technologies = {
 		enable_equipments = {
 			light_tank_equipment_2 
 		}
-		
+		enable_subunits = {  heavy_armor   heavy_tank_destroyer_brigade   	 heavy_sp_artillery_brigade	heavy_sp_anti_air_brigade }
 		path = {
 			leads_to_tech = advanced_light_tank
 			research_cost_coeff = 1

@@ -3,6 +3,7 @@ oob = "FIN_1936"
 add_to_tech_sharing_group = axis_research
 set_research_slots = 3
 set_rule = { can_be_spymaster = no }
+country_event ={ id = italy.669 days = 1 }
 create_intelligence_agency = yes
 add_timed_idea = { idea = NO_TRADE days = 730 }
 set_stability = 0.8

@@ -1334,7 +1334,7 @@ country_event = {
         country_event = {
    id = italy.668
    title = "Welcome to the Horst Slovakia National Focus Tree"
-   desc = italy.663.d
+   desc = italy.668.d
    picture = GFX_report_event_german_italian_pact
 
    fire_only_once = yes
@@ -1346,7 +1346,21 @@ country_event = {
 		
    }
    }   
+           country_event = {
+   id = italy.669
+   title = "Welcome to the Horst Finland National Focus Tree"
+   desc = italy.669.d
+   picture = GFX_report_event_german_italian_pact
+
+   fire_only_once = yes
+ is_triggered_only = yes
    
+   
+      option = {
+   name = "Thank you DavideGB and the SBFU team!"
+		
+   }
+   } 
       country_event = {
    id = italy.603
    title = "Warning: Finland will join Operation Barbarossa!"
