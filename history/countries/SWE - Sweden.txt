@@ -70,7 +70,6 @@ dispersed_industry = 1
 	strategic_bomber1 = 1 
 	advanced_light_tank2 = 1
 	early_fighter = 1
-	armored_car2 = 1
 	super_heavy_tank = 1
 }
 

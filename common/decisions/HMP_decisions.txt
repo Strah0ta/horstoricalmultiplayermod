@@ -391,7 +391,7 @@ allowed = {  original_tag = SOV }
 available = { check_variable = { var = SOV_barb_ll_token  value = 10  compare = greater_than_or_equals} has_war_with = GER OR = { date > 1941.11.22  ENG = { controls_state = 412 }  } 			custom_trigger_tooltip = {	tooltip = SOV_secure_tt	suppy_route_secure = yes}  }  
   icon = generic_form_nation
 		cost = 0
-		fire_only_once = no
+		fire_only_once = no 
 		complete_effect  = {
 			if = { limit = { USA = { has_tech = armored_car2 }}   add_equipment_to_stockpile = {  type = armored_car_equipment_2 amount = 2000 producer = USA }    }
 		else_if = { limit = { ENG = { has_tech = armored_car2 }}   add_equipment_to_stockpile = {  type = armored_car_equipment_2 amount = 2000 producer = ENG }    }
@@ -492,8 +492,8 @@ available = { check_variable = { var = SOV_barb_ll_token  value = 10  compare = 
 		visible = { SOV = { has_completed_focus = SOV_aviation_cult} }
 		complete_effect  = {	
 		
-		if = { limit = { USA = { has_tech = super_heavy_tank }}   add_equipment_to_stockpile = {  type = CAS_equipment_2 amount = 416 producer = USA }    }
-			else_if = { limit = { ENG = { has_tech = super_heavy_tank }}   add_equipment_to_stockpile = {  type = CAS_equipment_2 amount = 416 producer = ENG }    }
+		if = { limit = { USA = { has_tech = CAS2 }}   add_equipment_to_stockpile = {  type = CAS_equipment_2 amount = 416 producer = USA }    }
+			else_if = { limit = { ENG = { has_tech = CAS2 }}   add_equipment_to_stockpile = {  type = CAS_equipment_2 amount = 416 producer = ENG }    }
 		SOV = { add_to_variable = {  var = SOV_barb_ll_token   value = -10 } }							}
 		}
 		HMP_ll_soviets_receive_fighter = { 

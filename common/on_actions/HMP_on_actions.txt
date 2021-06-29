@@ -257,9 +257,9 @@ on_actions = {
 	}
 	on_monthly_GER = {
 		effect = { 
-		recalc_vichy_france_legitimacy = yes 
+		recalc_vichy_france_legitimacy = yes  soviet_lend_lease_mechanic_calc = yes
 		ITA = { calc_arab_support = yes } if = { limit = { has_global_flag = JAPAN_CAPPED_SUPPORT_SOV }   SOV = { add_to_variable = {  var = SOV_barb_ll_token value = 50 }  add_to_variable = { var = SOV_barb_ll_token2 value = 80 } }         }
-		if = { limit = {GER = {has_completed_focus = GER_jag } }	GER = { add_to_variable = { germany_war_exhaustion_war_support_factor = -0.017  } add_to_variable = { germany_war_exhaustion_stability_factor = -0.008	} }	soviet_lend_lease_mechanic_calc = yes }
+		if = { limit = {GER = {has_completed_focus = GER_jag } }	GER = { add_to_variable = { germany_war_exhaustion_war_support_factor = -0.017  } add_to_variable = { germany_war_exhaustion_stability_factor = -0.008	} }	 }
 		if = { limit = {GER = {has_completed_focus = GER_the_great_turn}} GER = {add_to_variable={germany_war_exhaustion_war_support_factor=-0.004}add_to_variable = {germany_war_exhaustion_stability_factor=-0.002}}}				
 		}
 	}
