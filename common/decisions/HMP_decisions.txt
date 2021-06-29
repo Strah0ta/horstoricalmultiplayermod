@@ -738,7 +738,7 @@ every_country = {
 				type = annex_everything
 			}	
 							hidden_effect = { 
-							ROOT_call_allies_both_sides = yes 
+							ROOT_call_against_beligum = yes  ROOT_call_against_holland = yes
 							}
 		}		
 	}
@@ -781,10 +781,7 @@ every_country = {
 				type = annex_everything
 			}	
 					hidden_effect = { 
-				if = { limit = { country_exists = SPR } DEN = { add_to_war = { targeted_alliance = ENG enemy = SPR } } }
-			if = { limit = { country_exists = ROM }  DEN = { add_to_war = { targeted_alliance = ENG enemy = ROM } } }
-			if = { limit = { country_exists = HUN }  DEN = { add_to_war = { targeted_alliance = ENG enemy = HUN } }  }
-			  if = { limit = { country_exists = BUL } DEN = { add_to_war = { targeted_alliance = ENG enemy = BUL } }	}
+				ROOT_call_against_denmark = yes 
 			}		
 		hidden_effect = { if = { limit = { AND = { NOT = {EFR = { has_country_flag = EFR_torch_declared}} EFR = {owns_state = 26 }} } DEN = { add_to_war = { targeted_alliance = ENG enemy = EFR } } EFR = { every_owned_state = {  set_demilitarized_zone = yes } 26 = { set_demilitarized_zone = no  } } } } 
 	
@@ -809,10 +806,7 @@ every_country = {
 				type = annex_everything
 			}	
 			hidden_effect = {  
-				if = { limit = { country_exists = ROM }  ROM = { add_to_war = { targeted_alliance = GER enemy = NOR } } }
-				if = { limit = { country_exists = SPR }  SPR = { add_to_war = { targeted_alliance = GER  enemy = NOR } }  }	
-				if = { limit = { country_exists = HUN } HUN = { add_to_war = { targeted_alliance = GER enemy = NOR } }   }
-			    if = { limit = { country_exists = BUL } BUL = { add_to_war = { targeted_alliance = GER enemy = NOR } }  }
+				ROOT_call_against_norway = yes 
 				if = { limit = { AND = { NOT = {EFR = { has_country_flag = EFR_torch_declared}} EFR = {owns_state = 26 }} } EFR = { add_to_war = { targeted_alliance = GER enemy = NOR } every_owned_state = {  set_demilitarized_zone = yes } 26 = { set_demilitarized_zone = no  } } }  
 				}
 		}	
