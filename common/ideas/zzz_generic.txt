@@ -79,6 +79,8 @@ ideas = {
 			modifier = {
 				political_power_factor = -1.05
 				consumer_goods_factor = 1.05
+				industrial_capacity_factory = -1.46
+				industrial_capacity_dockyard = -1.36
 				conscription_factor	= -1.0
 				min_export = -1
 			}
