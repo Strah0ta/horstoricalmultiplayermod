@@ -1,6 +1,7 @@
 ﻿capital = 412
 set_research_slots = 0 set_fuel_ratio = 0
 set_rule = { can_join_factions = no }
+add_ideas = ai_imiter
 country_lock_all_division_template = yes
 set_cosmetic_tag = PER_NEUTRAL
 set_politics = {
@@ -16,7 +17,5 @@ create_country_leader = {
 	picture = "Portrait_Iran_Reza_Shah_Pahlavi.dds"
 	expire = "1965.1.1"
 	ideology = despotism
-	traits = {
-		#
-	}
+	traits = {	}
 }
